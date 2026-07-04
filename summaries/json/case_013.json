@@ -1,0 +1,121 @@
+{
+ "case_no": "013",
+ "source_file": "013_102240528_State (Bses) vs Gyatri Devi on 1 April, 2026.html",
+ "title": "State v. Gyatri Devi",
+ "sc_no": "SC No. 987/2023",
+ "fir_no": "FIR No. 759/2022",
+ "police_station": "PS New Usmanpur",
+ "court": "Addl. Sessions Judge-05 (Electricity), East, Karkardooma Courts, Delhi",
+ "judge": "Sh. Ashish Rastogi",
+ "date_of_judgment": "2026-04-01",
+ "offence_date": "2022-06-27",
+ "discom": "BSES Yamuna Power Ltd.",
+ "result": "Convicted u/s 135 notwithstanding settlement of theft bill, deposit and NOC issued by discom; posted for sentence",
+ "statutes": [
+  "Section 135 Electricity Act 2003",
+  "Third proviso to Section 135(1) Electricity Act 2003",
+  "Section 24 IPC",
+  "Sections 65B, 106, 4 Indian Evidence Act 1872",
+  "Sections 251, 313, 41A Cr.P.C.",
+  "DERC (Supply Code) Regulations 60-63"
+ ],
+ "interpretations": [
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Section 135(1)(a)",
+   "interpretation": "Tapping the street-light point on the licensee's pole to feed unmetered premises is a clause (a) connection with the licensee's service facilities. 'Dishonestly' takes its s.24 IPC meaning (wrongful gain/wrongful loss)."
+  },
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Third proviso to Section 135(1)",
+   "interpretation": "Reverse-onus clause: proof of an artificial/unauthorised means raises a compulsory presumption of dishonest use (Neeraj Dutt) rebuttable on the prudent-man standard (Hiten P. Dalal); natural rebuttal is paid bills / lawful metered use, the s.106 Evidence Act onus on the consumer (Mukesh Rastogi)."
+  },
+  {
+   "act": "DERC (Supply Code) Regulations, 2007",
+   "provision": "Regulations 60-63",
+   "interpretation": "Inspection power with photo-ID safeguards (60); contemporaneous report, seizure/sealing, photo/video documentation (61); prosecution only where dishonest intention evident + 24-hour police complaint + missing-seal caution (62); assessment at twice tariff up to 12 months with credit for paid units (63). Unchallenged compliance confirms regularity; the Rs. 78,428 assessment measures the theft."
+  }
+ ],
+ "citations": [
+  {
+   "case": "Punjab State Electricity Board v. Ashwani Kumar",
+   "citation": "2010 (7) SCC 569",
+   "court": "Supreme Court",
+   "principle": "An inspection report prepared by officers in discharge of official duty carries a presumption of regularity; onus on the consumer to rebut by cogent evidence.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Sushil Sharma v. BSES Rajdhani Power Ltd.",
+   "citation": "Delhi HC, Crl. A. 1060/2010 (22.12.2010)",
+   "court": "Delhi High Court",
+   "principle": "Non-examination of an independent/public witness is no infirmity where inspecting officials are trustworthy and bear no enmity to the accused.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Neeraj Dutt v. State",
+   "citation": "SLP(Crl.) 6497/2020",
+   "court": "Supreme Court",
+   "principle": "'Shall presume' denotes a compulsory legal presumption the court is bound to draw until the fact is disproved.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Hiten P. Dalal v. Bratindranath Banerjee",
+   "citation": "2001 (6) SCC 16",
+   "court": "Supreme Court",
+   "principle": "Rebuttal of a statutory presumption need not be conclusive; evidence must make the defence reasonably probable to a prudent man.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Mukesh Rastogi v. North Delhi Power Ltd.",
+   "citation": "2007 (99) DRJ 108",
+   "court": "Delhi High Court",
+   "principle": "Easiest rebuttal of the theft presumption is production of paid electricity bills; Section 106 Evidence Act places that onus on the consumer.",
+   "treatment": "Relied on"
+  }
+ ],
+ "significance": [
+  {
+   "point": "An NOC after settlement is not immunity",
+   "explanation": "Payment of the settled bill and an NOC from the licensee closed the civil account only; the s.135 prosecution proceeded to conviction."
+  },
+  {
+   "point": "Street-light infrastructure is the licensee's works",
+   "explanation": "A tap on the street-light point is a s.135(1)(a) connection with the licensee's service facilities, no different from a pole hook."
+  },
+  {
+   "point": "Occupancy, not title, fixes 'consumer' status",
+   "explanation": "That the premises stood in the late husband's name did not shield the widow in occupation who drew the supply."
+  },
+  {
+   "point": "Settlement corroborates guilt",
+   "explanation": "Readiness to settle rather than protest a false bill was weighed against the accused."
+  },
+  {
+   "point": "The reverse-onus presumption did the rest",
+   "explanation": "No meter, unexplained running load, no Genset, no paid bills \u2014 the compulsory presumption convicted."
+  }
+ ],
+ "generic_facts": {
+  "consumer_type": "domestic",
+  "theft_mode": "direct theft \u2014 single-core aluminium wire from street-light point on licensee pole",
+  "premises": "first floor; premises in late husband's name",
+  "meter_status": "no meter",
+  "load_kw": 4.144,
+  "assessment_rs": 78428,
+  "occupant_at_inspection": "widow accused present",
+  "ownership_evidence": "IO seized ownership docs + husband's death certificate",
+  "key_evidence": [
+   "videography CD with Section 65B certificate",
+   "inspection/load/seizure documents",
+   "seized aluminium wires; accused identified in video"
+  ],
+  "defence": "bare denial/false implication; no defence evidence; settled bill + deposited + NOC issued",
+  "public_witness_joined": false,
+  "prosecution_witnesses": 3,
+  "defence_witnesses": 0,
+  "outcome": "convicted",
+  "sentence": "posted for hearing on quantum",
+  "s65b_certificate_filed": true,
+  "noc_issued": true
+ }
+}

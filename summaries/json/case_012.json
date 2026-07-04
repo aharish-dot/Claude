@@ -1,0 +1,122 @@
+{
+ "case_no": "012",
+ "source_file": "012_28230075_State (Bses) vs Shehzad on 15 January, 2026.html",
+ "title": "State v. Shehzad & Anr.",
+ "sc_no": "SC No. 897/2023",
+ "fir_no": "FIR No. 728/2022",
+ "police_station": "PS Jafrabad",
+ "court": "Addl. Sessions Judge-05 (Electricity), East, Karkardooma Courts, Delhi",
+ "judge": "Sh. Ashish Rastogi",
+ "date_of_judgment": "2026-01-15",
+ "offence_date": "2022-06-03",
+ "discom": "BSES Yamuna Power Ltd.",
+ "result": "Both Shehzad and wife Shaziya convicted u/s 135 (as principals, not abetment); posted for sentence",
+ "statutes": [
+  "Section 135 Electricity Act 2003",
+  "Third proviso to Section 135(1) Electricity Act 2003",
+  "Section 24 IPC",
+  "Sections 65B, 106, 4 Indian Evidence Act 1872",
+  "Sections 251, 313, 41A Cr.P.C.",
+  "DERC (Supply Code) Regulations 60-63"
+ ],
+ "interpretations": [
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Section 135(1)(a)",
+   "interpretation": "Piercing the licensee's pole-mounted service cable to draw supply to unmetered premises is a clause (a) tap; Section 138 was reproduced but only s.135(1)(a) applied. 'Dishonestly' takes its s.24 IPC meaning (wrongful gain/wrongful loss)."
+  },
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Third proviso to Section 135(1)",
+   "interpretation": "Reverse-onus clause: proof of an artificial/unauthorised means raises a compulsory presumption of dishonest use (Neeraj Dutt) rebuttable on the prudent-man standard (Hiten P. Dalal); natural rebuttal is paid bills / lawful metered use, the s.106 Evidence Act onus on the consumer (Mukesh Rastogi)."
+  },
+  {
+   "act": "DERC (Supply Code) Regulations, 2007",
+   "provision": "Regulations 60-63",
+   "interpretation": "Inspection power with photo-ID safeguards (60); contemporaneous report, seizure/sealing, photo/video documentation (61); prosecution only where dishonest intention evident + 24-hour police complaint + missing-seal caution (62); assessment at twice tariff up to 12 months with credit for paid units (63). Unchallenged compliance confirms regularity; the Rs. 62,109 assessment measures the theft."
+  }
+ ],
+ "citations": [
+  {
+   "case": "Punjab State Electricity Board v. Ashwani Kumar",
+   "citation": "2010 (7) SCC 569",
+   "court": "Supreme Court",
+   "principle": "An inspection report prepared by officers in discharge of official duty carries a presumption of regularity; onus on the consumer to rebut by cogent evidence.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Sushil Sharma v. BSES Rajdhani Power Ltd.",
+   "citation": "Delhi HC, Crl. A. 1060/2010 (22.12.2010)",
+   "court": "Delhi High Court",
+   "principle": "Non-examination of an independent/public witness is no infirmity where inspecting officials are trustworthy and bear no enmity to the accused.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Neeraj Dutt v. State",
+   "citation": "SLP(Crl.) 6497/2020",
+   "court": "Supreme Court",
+   "principle": "'Shall presume' denotes a compulsory legal presumption the court is bound to draw until the fact is disproved.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Hiten P. Dalal v. Bratindranath Banerjee",
+   "citation": "2001 (6) SCC 16",
+   "court": "Supreme Court",
+   "principle": "Rebuttal of a statutory presumption need not be conclusive; evidence must make the defence reasonably probable to a prudent man.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Mukesh Rastogi v. North Delhi Power Ltd.",
+   "citation": "2007 (99) DRJ 108",
+   "court": "Delhi High Court",
+   "principle": "Easiest rebuttal of the theft presumption is production of paid electricity bills; Section 106 Evidence Act places that onus on the consumer.",
+   "treatment": "Relied on"
+  }
+ ],
+ "significance": [
+  {
+   "point": "Both occupants can be convicted as principals",
+   "explanation": "Spouses jointly occupying unmetered premises fed by one illegal tap are each a 'consumer' and each convicted u/s 135 \u2014 no need to route the second occupant through abetment (s.150)."
+  },
+  {
+   "point": "Puncturing a pole-mounted service cable is a clause (a) tap",
+   "explanation": "Piercing the licensee's service cable at the pole to bleed supply is itself the actionable connection."
+  },
+  {
+   "point": "Meters for other floors do not help",
+   "explanation": "Authorised meters for the building's other floors underscored the absence of any meter for the inspected floor."
+  },
+  {
+   "point": "A filed 65B certificate forecloses the videography challenge",
+   "explanation": "With Ex.PW1/B on record, planting/fabrication suggestions had nothing to bite on."
+  },
+  {
+   "point": "The reverse-onus presumption binds every occupant",
+   "explanation": "Neither spouse produced paid bills or lawful-source evidence; the compulsory presumption convicted both."
+  }
+ ],
+ "generic_facts": {
+  "consumer_type": "domestic",
+  "theft_mode": "direct theft \u2014 two-core black wire tapped by puncturing the licensee's pole-mounted service cable",
+  "premises": "2nd floor of a five-floor building (other floors metered)",
+  "meter_status": "no meter for inspected floor",
+  "load_kw": 4.022,
+  "assessment_rs": 62109,
+  "occupant_at_inspection": "accused Shehzad present; wife Shaziya co-accused",
+  "ownership_evidence": "ownership documents seized; Shaziya answered s.91 notice",
+  "key_evidence": [
+   "videography CD with Section 65B certificate",
+   "inspection/load/seizure documents",
+   "seized wire Ex.P1",
+   "6 photographs"
+  ],
+  "defence": "bare denial/false implication; no defence evidence; no settlement",
+  "public_witness_joined": false,
+  "prosecution_witnesses": 3,
+  "defence_witnesses": 0,
+  "outcome": "both convicted u/s 135",
+  "sentence": "posted for hearing on quantum",
+  "s65b_certificate_filed": true,
+  "two_accused_both_principal": true
+ }
+}

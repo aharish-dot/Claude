@@ -1,0 +1,123 @@
+{
+ "case_no": "014",
+ "source_file": "014_33835828_State (Bses) vs Mustak Hussain on 9 January, 2026.html",
+ "title": "State v. Mustak Hussain",
+ "sc_no": "SC No. 1030/2022",
+ "fir_no": "FIR No. 146/2021",
+ "police_station": "PS Shastri Park",
+ "court": "Addl. Sessions Judge-05 (Electricity), East, Karkardooma Courts, Delhi",
+ "judge": "Sh. Ashish Rastogi",
+ "date_of_judgment": "2026-01-09",
+ "offence_date": "2021-01-21",
+ "discom": "BSES Yamuna Power Ltd.",
+ "result": "Convicted u/s 135; civil liability settled and deposited during trial; posted for sentence",
+ "statutes": [
+  "Section 135 Electricity Act 2003",
+  "Third proviso to Section 135(1) Electricity Act 2003",
+  "Section 24 IPC",
+  "Sections 65B, 106, 4 Indian Evidence Act 1872",
+  "Sections 251, 313, 41A Cr.P.C.",
+  "DERC (Supply Code) Regulations 60-63"
+ ],
+ "interpretations": [
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Section 135(1)(a)",
+   "interpretation": "A long cable hooked from the licensee's pole to run scrap work at unmetered premises is a clause (a) connection with the licensee's lines. 'Dishonestly' takes its s.24 IPC meaning (wrongful gain/wrongful loss)."
+  },
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Third proviso to Section 135(1)",
+   "interpretation": "Reverse-onus clause: proof of an artificial/unauthorised means raises a compulsory presumption of dishonest use (Neeraj Dutt) rebuttable on the prudent-man standard (Hiten P. Dalal); natural rebuttal is paid bills / lawful metered use, the s.106 Evidence Act onus on the consumer (Mukesh Rastogi)."
+  },
+  {
+   "act": "DERC (Supply Code) Regulations, 2007",
+   "provision": "Regulations 60-63",
+   "interpretation": "Inspection power with photo-ID safeguards (60); contemporaneous report, seizure/sealing, photo/video documentation (61); prosecution only where dishonest intention evident + 24-hour police complaint + missing-seal caution (62); assessment at twice tariff up to 12 months with credit for paid units (63). Unchallenged compliance confirms regularity; the Rs. 72,006 assessment measures the theft."
+  }
+ ],
+ "citations": [
+  {
+   "case": "Punjab State Electricity Board v. Ashwani Kumar",
+   "citation": "2010 (7) SCC 569",
+   "court": "Supreme Court",
+   "principle": "An inspection report prepared by officers in discharge of official duty carries a presumption of regularity; onus on the consumer to rebut by cogent evidence.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Sushil Sharma v. BSES Rajdhani Power Ltd.",
+   "citation": "Delhi HC, Crl. A. 1060/2010 (22.12.2010)",
+   "court": "Delhi High Court",
+   "principle": "Non-examination of an independent/public witness is no infirmity where inspecting officials are trustworthy and bear no enmity to the accused.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Neeraj Dutt v. State",
+   "citation": "SLP(Crl.) 6497/2020",
+   "court": "Supreme Court",
+   "principle": "'Shall presume' denotes a compulsory legal presumption the court is bound to draw until the fact is disproved.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Hiten P. Dalal v. Bratindranath Banerjee",
+   "citation": "2001 (6) SCC 16",
+   "court": "Supreme Court",
+   "principle": "Rebuttal of a statutory presumption need not be conclusive; evidence must make the defence reasonably probable to a prudent man.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Mukesh Rastogi v. North Delhi Power Ltd.",
+   "citation": "2007 (99) DRJ 108",
+   "court": "Delhi High Court",
+   "principle": "Easiest rebuttal of the theft presumption is production of paid electricity bills; Section 106 Evidence Act places that onus on the consumer.",
+   "treatment": "Relied on"
+  }
+ ],
+ "significance": [
+  {
+   "point": "A worker's statement can anchor occupancy and theft",
+   "explanation": "The worker Sameer's statement placed the scrap work and the theft at the accused's premises; the accused never denied Sameer was his worker there."
+  },
+  {
+   "point": "Silence on the advisory notice cuts against the accused",
+   "explanation": "The advisory notice invited a written objection within four working days; filing none was read as conduct consistent with guilt."
+  },
+  {
+   "point": "Load size does not gate the offence",
+   "explanation": "A modest 1.501 KW load was still direct theft; the deliberately laid 14-metre cable showed an engineered, dishonest tap."
+  },
+  {
+   "point": "Settlement corroborates guilt",
+   "explanation": "Settling and depositing the theft bill was read as conduct inconsistent with innocence."
+  },
+  {
+   "point": "The reverse-onus presumption did the rest",
+   "explanation": "No meter, unexplained running load, no Genset, no paid bills \u2014 the compulsory presumption convicted."
+  }
+ ],
+ "generic_facts": {
+  "consumer_type": "small commercial / scrap-labour work",
+  "theft_mode": "direct theft \u2014 14 m yellow cable hooked from licensee pole",
+  "premises": "ground floor used for scrap work",
+  "meter_status": "no meter",
+  "load_kw": 1.501,
+  "assessment_rs": 72006,
+  "occupant_at_inspection": "worker (Sameer) present; accused's premises",
+  "ownership_evidence": "ownership documents seized; worker's statement (s.161) recorded",
+  "key_evidence": [
+   "videography CD with Section 65B certificate",
+   "inspection/load/seizure/advisory documents",
+   "seized 14 m yellow cable Ex.P1",
+   "worker Sameer's statement Ex.PW1/G"
+  ],
+  "defence": "bare denial/false implication; no defence evidence; settled + deposited theft bill",
+  "public_witness_joined": false,
+  "prosecution_witnesses": 3,
+  "defence_witnesses": 0,
+  "outcome": "convicted",
+  "sentence": "posted for hearing on quantum",
+  "s65b_certificate_filed": true,
+  "worker_statement": true,
+  "advisory_notice_unanswered": true
+ }
+}

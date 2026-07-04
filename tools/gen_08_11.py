@@ -263,7 +263,8 @@ c011 = dict(
  ],
 )
 
-build(c008, "case_008.html")
-build(c009, "case_009.html")
-build(c010, "case_010.html")
-build(c011, "case_011.html")
+if __name__ == "__main__":
+    build(c008, "case_008.html")
+    build(c009, "case_009.html")
+    build(c010, "case_010.html")
+    build(c011, "case_011.html")
