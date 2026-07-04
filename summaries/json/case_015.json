@@ -1,0 +1,136 @@
+{
+ "case_no": "015",
+ "source_file": "015_94267398_State (Bses) vs Laxmi Mishra on 12 March, 2026.html",
+ "title": "State v. Laxmi Mishra",
+ "sc_no": "SC No. 403/2021",
+ "fir_no": "FIR No. 48/2021",
+ "police_station": "PS Sonia Vihar",
+ "court": "Addl. Sessions Judge-05 (Electricity), East, Karkardooma Courts, Delhi",
+ "judge": "Sh. Ashish Rastogi",
+ "date_of_judgment": "2026-03-12",
+ "offence_date": "2020-01-16",
+ "discom": "BSES Yamuna Power Ltd.",
+ "result": "Convicted u/s 135; posted for sentence (obstruction case; no settlement; wires removed by accused before seizure)",
+ "statutes": [
+  "Section 135 Electricity Act 2003",
+  "Third proviso to Section 135(1) Electricity Act 2003",
+  "Section 24 IPC",
+  "Sections 65B, 106, 4 Indian Evidence Act 1872",
+  "Sections 251, 313, 41A Cr.P.C.",
+  "DERC (Supply Code) Regulations 60-63"
+ ],
+ "interpretations": [
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Section 135(1)(a)",
+   "interpretation": "Illegal tapping from the licensee's distribution box to unmetered premises is a clause (a) connection; where the occupant obstructs and removes the wires, the tap and load may still be proved by the officials' testimony, the videographed proceedings and the load taken on the accused's own disclosure. 'Dishonestly' takes its s.24 IPC meaning."
+  },
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Third proviso to Section 135(1)",
+   "interpretation": "Compulsory presumption on proof of an unauthorised means (Neeraj Dutt); rebuttal on the prudent-man standard (Hiten P. Dalal). A bare, unproved plea (here, solar power) cannot rebut it; only proof of lawful metered use / paid bills discharges the s.106 onus (Mukesh Rastogi)."
+  },
+  {
+   "act": "DERC (Supply Code) Regulations, 2007",
+   "provision": "Regulations 60-63",
+   "interpretation": "Inspection power and ID safeguards (60); contemporaneous report, seizure/sealing, photo/video documentation (61) \u2014 seizure could not be completed because the accused removed the wires, but the inspection remained valid; prosecution procedure (62); assessment at twice tariff (63). No procedural lapse suggested."
+  }
+ ],
+ "citations": [
+  {
+   "case": "Punjab State Electricity Board v. Ashwani Kumar",
+   "citation": "2010 (7) SCC 569",
+   "court": "Supreme Court",
+   "principle": "An inspection report prepared by officers in discharge of official duty carries a presumption of regularity; onus on the consumer to rebut by cogent evidence.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Sushil Sharma v. BSES Rajdhani Power Ltd.",
+   "citation": "Delhi HC, Crl. A. 1060/2010 (22.12.2010)",
+   "court": "Delhi High Court",
+   "principle": "Non-examination of an independent/public witness is no infirmity where inspecting officials are trustworthy and bear no enmity to the accused.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Balu Sudam Khalde v. State of Maharashtra",
+   "citation": "2023 INSC 314",
+   "court": "Supreme Court",
+   "principle": "Incriminating suggestions put by defence counsel in cross-examination bind the accused and can establish facts such as the factum of, and presence at, the inspection.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Neeraj Dutt v. State",
+   "citation": "SLP(Crl.) 6497/2020",
+   "court": "Supreme Court",
+   "principle": "'Shall presume' denotes a compulsory legal presumption the court is bound to draw until the fact is disproved.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Hiten P. Dalal v. Bratindranath Banerjee",
+   "citation": "2001 (6) SCC 16",
+   "court": "Supreme Court",
+   "principle": "Rebuttal of a statutory presumption need not be conclusive; evidence must make the defence reasonably probable to a prudent man.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Mukesh Rastogi v. North Delhi Power Ltd.",
+   "citation": "2007 (99) DRJ 108",
+   "court": "Delhi High Court",
+   "principle": "Easiest rebuttal of the theft presumption is production of paid electricity bills; Section 106 Evidence Act places that onus on the consumer.",
+   "treatment": "Relied on"
+  }
+ ],
+ "significance": [
+  {
+   "point": "Obstruction is a circumstance of guilt",
+   "explanation": "Refusing to open the premises, removing the tapped wires, and giving a false name were read as malafide conduct pointing to involvement, not gaps in the prosecution."
+  },
+  {
+   "point": "The load can be proved without seizing the wires",
+   "explanation": "Where the accused spirits away the case property, the load taken physically on her own disclosure plus the videographed proceedings still prove the theft."
+  },
+  {
+   "point": "A false name backfires",
+   "explanation": "Giving inspectors a wrong name ('Geeta'), exposed in investigation, corroborated dishonest intention."
+  },
+  {
+   "point": "An unproved solar-power plea is no rebuttal",
+   "explanation": "A bare suggestion of solar power, unsupported by evidence, cannot discharge the third-proviso onus \u2014 only paid bills / lawful metered use (s.106, Mukesh Rastogi)."
+  },
+  {
+   "point": "Defence questions can admit the inspection",
+   "explanation": "Asking the videographer about the handycam admitted the factum of videography (Balu Sudam Khalde)."
+  },
+  {
+   "point": "A public witness remains unnecessary",
+   "explanation": "Official inspection testimony, videographed and 65B-certified, suffices absent shown enmity (Ashwani Kumar; Sushil Sharma)."
+  }
+ ],
+ "generic_facts": {
+  "consumer_type": "mixed commercial + domestic",
+  "theft_mode": "direct theft \u2014 illegal tapping from licensee distribution box; wires removed by accused before seizure",
+  "premises": "premises with ground-floor shop; occupant obstructed inspection",
+  "meter_status": "no meter",
+  "load_kw": 1.835,
+  "assessment_rs": 61827,
+  "occupant_at_inspection": "accused present but obstructive; gave false name 'Geeta'; son shut shop shutter",
+  "ownership_evidence": "ownership documents seized; false name exposed in investigation",
+  "key_evidence": [
+   "videography CD with Section 65B certificate (load not captured due to resistance)",
+   "inspection/load/advisory documents",
+   "no case property seized \u2014 wires removed by accused",
+   "load taken on accused's verbal disclosure"
+  ],
+  "defence": "false implication; unproved plea of solar power; no defence evidence; wires removed; no settlement",
+  "public_witness_joined": false,
+  "prosecution_witnesses": 3,
+  "defence_witnesses": 0,
+  "outcome": "convicted",
+  "sentence": "posted for hearing on quantum",
+  "s65b_certificate_filed": true,
+  "obstruction": true,
+  "wires_not_seized": true,
+  "false_name_given": true,
+  "solar_defence_rejected": true
+ }
+}

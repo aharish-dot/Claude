@@ -1,0 +1,120 @@
+{
+ "case_no": "016",
+ "source_file": "016_53588637_State (Bses) vs Shimla on 1 June, 2026.html",
+ "title": "State v. Shimla",
+ "sc_no": "SC No. 570/2022",
+ "fir_no": "FIR No. 605/2019",
+ "police_station": "PS Harsh Vihar",
+ "court": "Addl. Sessions Judge-05 (Electricity), East, Karkardooma Courts, Delhi",
+ "judge": "Sh. Ashish Rastogi",
+ "date_of_judgment": "2026-06-01",
+ "offence_date": "2019-10-22",
+ "discom": "BSES Yamuna Power Ltd.",
+ "result": "Convicted u/s 135; civil liability settled during trial for a reduced Rs. 26,000 (of Rs. 51,607), Rs. 3,000 deposited, balance pending; posted for sentence",
+ "statutes": [
+  "Section 135 Electricity Act 2003",
+  "Third proviso to Section 135(1) Electricity Act 2003",
+  "Section 24 IPC",
+  "Sections 65B, 106, 4 Indian Evidence Act 1872",
+  "Sections 251, 313, 41A Cr.P.C.",
+  "DERC (Supply Code) Regulations 60-63"
+ ],
+ "interpretations": [
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Section 135(1)(a)",
+   "interpretation": "A cable hooked from the licensee's pole-mounted distribution box to unmetered mixed shop-and-home premises is a clause (a) connection with the licensee's works. 'Dishonestly' takes its s.24 IPC meaning (wrongful gain/wrongful loss)."
+  },
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Third proviso to Section 135(1)",
+   "interpretation": "Reverse-onus clause: proof of an artificial/unauthorised means raises a compulsory presumption of dishonest use (Neeraj Dutt) rebuttable on the prudent-man standard (Hiten P. Dalal); natural rebuttal is paid bills / lawful metered use, the s.106 Evidence Act onus on the consumer (Mukesh Rastogi)."
+  },
+  {
+   "act": "DERC (Supply Code) Regulations, 2007",
+   "provision": "Regulations 60-63",
+   "interpretation": "Inspection power with photo-ID safeguards (60); contemporaneous report, seizure/sealing, photo/video documentation (61); prosecution only where dishonest intention evident + 24-hour police complaint + missing-seal caution (62); assessment at twice tariff up to 12 months with credit for paid units (63). Unchallenged compliance confirms regularity; the Rs. 51,607 assessment measures the theft."
+  }
+ ],
+ "citations": [
+  {
+   "case": "Punjab State Electricity Board v. Ashwani Kumar",
+   "citation": "2010 (7) SCC 569",
+   "court": "Supreme Court",
+   "principle": "An inspection report prepared by officers in discharge of official duty carries a presumption of regularity; onus on the consumer to rebut by cogent evidence.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Sushil Sharma v. BSES Rajdhani Power Ltd.",
+   "citation": "Delhi HC, Crl. A. 1060/2010 (22.12.2010)",
+   "court": "Delhi High Court",
+   "principle": "Non-examination of an independent/public witness is no infirmity where inspecting officials are trustworthy and bear no enmity to the accused.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Neeraj Dutt v. State",
+   "citation": "SLP(Crl.) 6497/2020",
+   "court": "Supreme Court",
+   "principle": "'Shall presume' denotes a compulsory legal presumption the court is bound to draw until the fact is disproved.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Hiten P. Dalal v. Bratindranath Banerjee",
+   "citation": "2001 (6) SCC 16",
+   "court": "Supreme Court",
+   "principle": "Rebuttal of a statutory presumption need not be conclusive; evidence must make the defence reasonably probable to a prudent man.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Mukesh Rastogi v. North Delhi Power Ltd.",
+   "citation": "2007 (99) DRJ 108",
+   "court": "Delhi High Court",
+   "principle": "Easiest rebuttal of the theft presumption is production of paid electricity bills; Section 106 Evidence Act places that onus on the consumer.",
+   "treatment": "Relied on"
+  }
+ ],
+ "significance": [
+  {
+   "point": "A reduced, part-paid settlement still corroborates guilt",
+   "explanation": "Settling the Rs. 51,607 bill for Rs. 26,000 and depositing only Rs. 3,000 was read as conduct inconsistent with innocence, not a compromise neutralising the criminal charge."
+  },
+  {
+   "point": "Mixed shop-and-home use is one consumer's theft",
+   "explanation": "A single tap feeding a ground-floor shop and a first-floor residence is direct theft, assessed across the mixed load."
+  },
+  {
+   "point": "Occupancy fixes consumer status",
+   "explanation": "The widow in occupation answered for the abstraction found there."
+  },
+  {
+   "point": "A public witness is not essential",
+   "explanation": "Official inspection testimony, videographed and 65B-certified, suffices absent shown enmity (Ashwani Kumar; Sushil Sharma)."
+  },
+  {
+   "point": "The reverse-onus presumption did the rest",
+   "explanation": "No meter, unexplained running load, no Genset, no paid bills \u2014 the compulsory presumption convicted."
+  }
+ ],
+ "generic_facts": {
+  "consumer_type": "mixed commercial (shop) + domestic",
+  "theft_mode": "direct theft \u2014 black cable from licensee distribution box on pole",
+  "premises": "ground-floor shop + first-floor residence",
+  "meter_status": "no meter",
+  "load_kw": 1.563,
+  "assessment_rs": 51607,
+  "occupant_at_inspection": "widow accused; son Rahul present",
+  "ownership_evidence": "ownership documents lost (NCR filed); Aadhaar/Election ID seized",
+  "key_evidence": [
+   "videography CD with Section 65B certificate",
+   "inspection + load report (no seizure memo listed)"
+  ],
+  "defence": "false implication; no defence evidence; settled at reduced Rs. 26,000, only Rs. 3,000 deposited",
+  "public_witness_joined": false,
+  "prosecution_witnesses": 3,
+  "defence_witnesses": 0,
+  "outcome": "convicted",
+  "sentence": "posted for hearing on quantum",
+  "s65b_certificate_filed": true,
+  "settlement_reduced_partial": true
+ }
+}
