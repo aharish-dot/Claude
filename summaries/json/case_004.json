@@ -1,0 +1,57 @@
+{
+ "case_no": "004",
+ "source_file": "004_86013303_State (Bses) vs Momin on 19 May, 2026.html",
+ "title": "State (BSES YPL) v. Momin & Anr.",
+ "sc_no": "SC No. 231/2021",
+ "fir_no": "FIR No. 375/2019",
+ "police_station": "PS Gandhi Nagar",
+ "court": "Addl. Sessions Judge-05 (Electricity), East, Karkardooma Courts, Delhi",
+ "judge": "Sh. Ashish Rastogi",
+ "date_of_judgment": "2026-05-19",
+ "offence_date": "2019-08-26",
+ "discom": "BSES Yamuna Power Ltd.",
+ "result": "Momin (user) convicted u/s 135; Sabira (registered consumer) convicted u/s 135 r/w 150 (abetment); civil liability settled during trial but settlement amount not deposited; posted for hearing on sentence",
+ "statutes": ["Section 135 Electricity Act 2003", "Section 150 Electricity Act 2003 (abetment)", "Section 2(15) Electricity Act 2003 (consumer)", "Third proviso to Section 135(1)", "Section 24 IPC", "Sections 65B, 106, 4 Indian Evidence Act 1872", "Sections 251, 313, 41A Cr.P.C.", "DERC (Supply Code) Regulations 60-63"],
+ "interpretations": [
+  {"act": "Electricity Act, 2003", "provision": "Section 2(15)", "interpretation": "'Consumer' covers both the person actually using the electricity and the owner/registered consumer of the connected premises; a registered consumer cannot disown liability for illegal abstraction found at her premises merely because another (her son) was the user (Lokesh Chandela followed)."},
+  {"act": "Electricity Act, 2003", "provision": "Section 135(1)", "interpretation": "Direct tapping of the licensee's AB conductor through insulated wires routed via a concealed change-over switch — enabling supply to be flipped between a stopped meter and the stolen feed — is direct theft; the hidden switch, stopped meter and absence of any Genset explanation evidence the dishonest design (s.24 IPC standard)."},
+  {"act": "Electricity Act, 2003", "provision": "Third proviso to Section 135(1)", "interpretation": "The compulsory presumption arises on proof of an artificial/unauthorised means and operates against the user AND the registered consumer alike; each must rebut on the prudent-man standard, the natural mode being proof of lawful metered use (paid bills; s.106 Evidence Act onus)."},
+  {"act": "Electricity Act, 2003", "provision": "Section 150", "interpretation": "A registered consumer who, knowing her meter is lying stopped, permits or consciously allows the user to draw supply through an unauthorised connection abets the theft; under s.150(1) the abettor incurs the same punishment as the principal offence, notwithstanding anything in the IPC."},
+  {"act": "DERC (Supply Code) Regulations, 2007", "provision": "Regulations 60-63", "interpretation": "Inspection power with photo-ID safeguards (60); contemporaneous report, seizure/sealing, video documentation (61); prosecution only where dishonest intention evident, disconnection + police complaint within 24 hours, missing seal alone insufficient (62); assessment at twice tariff for up to 12 months with credit for paid units (63). Unchallenged compliance confirms regularity."}
+ ],
+ "citations": [
+  {"case": "Lokesh Chandela v. State of NCT & Ors.", "citation": "Delhi HC, Crl. A. 479/2011", "court": "Delhi High Court", "principle": "Both user and owner/registered consumer fall within 'consumer' under Section 2(15); registered consumer answerable for illegal abstraction found at the premises.", "treatment": "Relied on"},
+  {"case": "Punjab State Electricity Board v. Ashwani Kumar", "citation": "2010 (7) SCC 569", "court": "Supreme Court", "principle": "Official inspection report carries a presumption of regularity; onus on the consumer to rebut by cogent evidence.", "treatment": "Relied on"},
+  {"case": "Sushil Sharma v. BSES Rajdhani Power Ltd.", "citation": "Delhi HC, Crl. A. 1060/2010 (22.12.2010)", "court": "Delhi High Court", "principle": "Non-examination of an independent/public witness is no infirmity where inspecting officials are trustworthy and bear no enmity.", "treatment": "Relied on"},
+  {"case": "Neeraj Dutt v. State", "citation": "SLP(Crl.) 6497/2020", "court": "Supreme Court", "principle": "'Shall presume' denotes a compulsory legal presumption the court is bound to draw until disproved.", "treatment": "Relied on"},
+  {"case": "Hiten P. Dalal v. Bratindranath Banerjee", "citation": "2001 (6) SCC 16", "court": "Supreme Court", "principle": "Rebuttal of a statutory presumption need not be conclusive; evidence must make the defence reasonably probable to a prudent man.", "treatment": "Relied on"},
+  {"case": "Mukesh Rastogi v. North Delhi Power Ltd.", "citation": "2007 (99) DRJ 108", "court": "Delhi High Court", "principle": "Easiest rebuttal of the theft presumption is production of paid electricity bills; Section 106 Evidence Act places that onus on the consumer.", "treatment": "Relied on"}
+ ],
+ "significance": [
+  {"point": "Registered consumers cannot hide behind the actual user", "explanation": "Section 2(15) makes both user and registered consumer 'consumers'; a registered consumer who knowingly permits theft at her premises is punished as an abettor u/s 150 with the same punishment as the thief (Lokesh Chandela)."},
+  {"point": "A change-over switch is a badge of dishonesty", "explanation": "A concealed switch letting the occupant flip between metered and stolen supply — meter lying stopped, no Genset to explain it — itself evidences dishonest design."},
+  {"point": "A stopped meter plus running appliances shifts the explanatory burden", "explanation": "The third proviso presumption operates against user and registered consumer alike; only proof of lawful metered use (paid bills, s.106 onus, Mukesh Rastogi) rebuts it."},
+  {"point": "Commercial use aggravated the assessment", "explanation": "The 2.102 KW load ran a collar-pasting business, producing a theft bill (Rs. 1,82,203) an order of magnitude above comparable domestic cases."},
+  {"point": "Settlement corroborates guilt even if never paid", "explanation": "Agreeing to settle the theft bill — despite failing to deposit the amount — was read as conduct inconsistent with innocence."},
+  {"point": "A public witness remains unnecessary", "explanation": "Official inspection testimony, videographed and 65B-certified here, suffices absent shown enmity (Ashwani Kumar; Sushil Sharma)."}
+ ],
+ "generic_facts": {
+  "consumer_type": "commercial use at residential premises (automatic collar-pasting work)",
+  "theft_mode": "direct theft from BSES AB conductor via single-core insulated wires through a concealed change-over switch; installed meter (registered consumer's) lying stopped",
+  "premises": "residential premises used for small industry",
+  "meter_status": "meter installed in co-accused's name but lying stopped",
+  "load_kw": 2.102,
+  "assessment_rs": 182203,
+  "occupant_at_inspection": "user (son) present at spot",
+  "ownership_evidence": "IO recorded neighbours' statements confirming possession; electricity bill in registered consumer's name",
+  "key_evidence": ["videography CD with Section 65B certificate", "inspection/load/seizure documents", "seized single-core aluminium wires", "change-over switch visible in video"],
+  "defence": "bare denial and false implication; no defence evidence; settled civil liability but did not deposit amount (financial constraints)",
+  "public_witness_joined": false,
+  "prosecution_witnesses": 3,
+  "defence_witnesses": 0,
+  "outcome": "both accused convicted (user u/s 135; registered consumer u/s 135 r/w 150)",
+  "sentence": "posted for hearing on quantum",
+  "abetment_charge": true,
+  "s65b_certificate_filed": true
+ }
+}

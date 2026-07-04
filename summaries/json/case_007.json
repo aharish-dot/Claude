@@ -1,0 +1,54 @@
+{
+ "case_no": "007",
+ "source_file": "007_118564440_State vs Devi Prasan on 5 June, 2026.html",
+ "title": "State v. Devi Prasan",
+ "sc_no": "SC No. 325/2024",
+ "fir_no": "FIR No. 120/2024",
+ "police_station": "PS Inder Puri",
+ "court": "Addl. Sessions Judge-04, New Delhi District, Patiala House Courts, New Delhi",
+ "judge": "Sh. Syed Zishan Ali Warsi",
+ "date_of_judgment": "2026-06-05",
+ "offence_date": "2023-02-17",
+ "discom": "Tata Power Delhi Distribution Ltd. (TPDDL)",
+ "result": "Convicted under Section 135, Electricity Act, 2003; additionally held liable for civil liability u/s 154(5); posted for sentence and determination of civil liability u/s 154",
+ "statutes": ["Section 135 Electricity Act 2003", "Section 150 Electricity Act 2003 (charge only)", "Section 154(5) Electricity Act 2003", "Third proviso to Section 135(1)", "Section 24 IPC", "Sections 65B, 106 Indian Evidence Act 1872", "Sections 294, 313 Cr.P.C.", "Sections 35(3), 180 BNSS", "DERC Regulations 60-63"],
+ "interpretations": [
+  {"act": "Electricity Act, 2003", "provision": "Section 135(1)(a)", "interpretation": "Only clause (a) engaged; four ingredients enumerated: (i) dishonest intention (s.24 IPC — wrongful gain/wrongful loss); (ii) tapping or causing a connection with the licensee's lines/cables/service facilities; (iii) the accused being the user or consumer of the abstracted electricity; (iv) punishability with imprisonment up to 3 years, fine or both. Direct tapping from an LT Network Distribution Box to run an unmetered jhuggi's load satisfies all."},
+  {"act": "Electricity Act, 2003", "provision": "Third proviso to Section 135(1)", "interpretation": "On proof of an artificial/unauthorised means of abstraction, dishonest abstraction is presumed until the contrary is proved. Read in tandem with Section 106 Evidence Act (facts especially within a person's knowledge): the occupant must explain the source running his appliances by cogent and credible evidence; bald defence or a relative's unsubstantiated testimony does not discharge the onus."},
+  {"act": "Electricity Act, 2003", "provision": "Section 154(5)", "interpretation": "On conviction the Special Court may additionally fix civil liability for the electricity illegally used; conviction and civil recovery are companion outcomes, the liability to be determined at the sentencing stage."},
+  {"act": "DERC (Supply Code) Regulations", "provision": "Regulations 60-63", "interpretation": "Inspection power with ID safeguards (60); contemporaneous report with seizure/sealing and photo/video documentation (61) — including recording a refusal of locals to join, which excuses the absence of a public witness; prosecution procedure with 24-hour police complaint (62); assessment at twice tariff up to 12 months (63)."}
+ ],
+ "citations": [
+  {"case": "State of Haryana v. Bhagirath", "citation": "AIR 1999 SC 2005; (1999) 5 SCC 96", "court": "Supreme Court", "principle": "Proof beyond reasonable doubt equates to moral certainty; a reasonable doubt is an honestly entertained doubt on a fair consideration of all evidence.", "treatment": "Relied on"},
+  {"case": "Shivaji Sahebrao Bobade v. State of Maharashtra", "citation": "1974 (1) SCR 489", "court": "Supreme Court", "principle": "Benefit-of-doubt must not be stretched morbidly to embrace every hunch and hesitancy; social defence matters.", "treatment": "Relied on"},
+  {"case": "Municipal Corporation of Delhi v. Ram Kishan Rohatgi", "citation": "AIR 1983 SC 67", "court": "Supreme Court", "principle": "Reiterates the calibrated reasonable-doubt standard.", "treatment": "Relied on"},
+  {"case": "Sushil Sharma v. BSES Rajdhani", "citation": "2011 (1) JCC 665", "court": "Delhi High Court", "principle": "Non-examination of an independent/public witness is no infirmity where the inspecting team bears no enmity and its testimony is trustworthy.", "treatment": "Relied on"}
+ ],
+ "significance": [
+  {"point": "A signed inspection report is powerful proof of presence and user status", "explanation": "The accused's signature on the report and seizure memo — photographed as he signed — anchored the user finding and reduced the coercion plea to assertion."},
+  {"point": "The passer-by defence needs documents, not relatives", "explanation": "A cousin's testimony backed only by an unattested photocopy rent agreement not proved per law, with no address proof of the accused's own, cannot discharge the shifted onus."},
+  {"point": "Proviso III and Section 106 IEA operate in tandem", "explanation": "The statutory presumption plus the especial-knowledge burden require the occupant to explain the source running his appliances — silence or bald denial convicts."},
+  {"point": "A recorded refusal answers the public-witness objection", "explanation": "Where the inspection report notes locals were asked and refused, non-examination of an independent witness is no infirmity (Sushil Sharma)."},
+  {"point": "Report–testimony variations must be material to matter", "explanation": "'Distribution box' in the report vs 'pole' in testimony was no contradiction where photographs traced the line from the pole-side box to the premises."},
+  {"point": "Criminal conviction and civil recovery travel together", "explanation": "The s.135 conviction was coupled with s.154(5) civil liability to be quantified at sentencing."}
+ ],
+ "generic_facts": {
+  "consumer_type": "domestic (unauthorised jhuggi); load included e-rickshaw charging and construction equipment",
+  "theft_mode": "direct theft / hooking from LT Network Distribution Box near licensee pole; no meter",
+  "premises": "unauthorised jhuggi (single room) in a village cluster",
+  "meter_status": "no meter — unauthorised premises",
+  "load_kw": 7.408,
+  "assessment_rs": 379124,
+  "occupant_at_inspection": "accused present; signed inspection report and seizure memo; refused to name any other owner",
+  "ownership_evidence": "accused told IO he owned the premises; neighbours informally confirmed but would not depose",
+  "key_evidence": ["24 photographs with Section 65B certificate", "signed inspection report and seizure memo", "seized wires produced in court", "site plan"],
+  "defence": "passer-by / coerced signature; jhuggi and e-rickshaws not his; DW-1 cousin deposed accused lived with him 200-300 m away; photocopy rent agreement not proved",
+  "public_witness_joined": false,
+  "public_witness_refusal_recorded": true,
+  "prosecution_witnesses": 6,
+  "defence_witnesses": 1,
+  "outcome": "convicted; civil liability u/s 154(5) additionally imposed",
+  "sentence": "posted for sentence and civil-liability determination",
+  "s65b_certificate_filed": true
+ }
+}

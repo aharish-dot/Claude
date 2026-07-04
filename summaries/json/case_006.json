@@ -1,0 +1,130 @@
+{
+ "case_no": "006",
+ "source_file": "006_14551835_State (Bses) vs Mohd Riyaz on 4 May, 2026.html",
+ "title": "State (BSES YPL) v. Mohd. Riyaz (FIR 65/2020)",
+ "sc_no": "SC No. 769/2022",
+ "fir_no": "FIR No. 65/2020",
+ "police_station": "PS Welcome",
+ "court": "Addl. Sessions Judge-05 (Electricity), East, Karkardooma Courts, Delhi",
+ "judge": "Sh. Ashish Rastogi",
+ "date_of_judgment": "2026-05-04",
+ "offence_date": "2019-09-11",
+ "discom": "BSES Yamuna Power Ltd.",
+ "result": "Convicted under Section 135, Electricity Act, 2003; civil liability settled during trial but amount not deposited; posted for hearing on sentence",
+ "statutes": [
+  "Section 135 Electricity Act 2003",
+  "Third proviso to Section 135(1) Electricity Act 2003",
+  "Section 24 IPC",
+  "Sections 65B, 106, 4 Indian Evidence Act 1872",
+  "Sections 251, 313, 41A Cr.P.C.",
+  "DERC (Supply Code) Regulations 60-63"
+ ],
+ "interpretations": [
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Section 135(1)(a)",
+   "interpretation": "Hooking a cable directly onto the licensee's pole to feed premises with no meter of their own is the paradigm clause (a) offence; 'dishonestly' takes its s.24 IPC meaning \u2014 unmetered floors, the pole-to-premises cable and no lawful-source explanation satisfied it."
+  },
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Third proviso to Section 135(1)",
+   "interpretation": "A reverse-onus clause: proof of an artificial or unauthorised means of abstraction raises a presumption of dishonest use 'until the contrary is proved'. 'Shall presume' is a compulsory presumption (Neeraj Dutt); the accused must adduce evidence making his defence reasonably probable to a prudent man (Hiten P. Dalal); the natural rebuttal is proof of a lawful, metered source, typically paid bills, the onus lying on the consumer under Section 106 Evidence Act (Mukesh Rastogi)."
+  },
+  {
+   "act": "DERC (Supply Code) Regulations, 2007",
+   "provision": "Regulations 60-63",
+   "interpretation": "Reg. 60: Authorised Officer may inspect suo motu or on information, carrying/showing photo ID. Reg. 61: contemporaneous site inspection report with seizure, sealing and photo/video documentation. Reg. 62: prosecution only where dishonest intention is evident; disconnection plus written police complaint within 24 hours; missing meter seal alone cannot found a theft case absent corroboration. Reg. 63: assessment at twice applicable tariff for up to 12 months with credit for units paid. Unchallenged compliance with Regs. 60-63 confirms the inspection's regularity; the assessment measures the theft and need not be separately proved as an ingredient."
+  }
+ ],
+ "citations": [
+  {
+   "case": "Balu Sudam Khalde v. State of Maharashtra",
+   "citation": "2023 INSC 314",
+   "court": "Supreme Court",
+   "principle": "Incriminating suggestions put by defence counsel in cross-examination bind the accused and can establish facts such as the factum of, and presence at, the inspection.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Punjab State Electricity Board v. Ashwani Kumar",
+   "citation": "2010 (7) SCC 569",
+   "court": "Supreme Court",
+   "principle": "An inspection report prepared by officers in discharge of official duty carries a presumption of regularity; onus on the consumer to rebut by cogent evidence.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Sushil Sharma v. BSES Rajdhani Power Ltd.",
+   "citation": "Delhi HC, Crl. A. 1060/2010 (22.12.2010)",
+   "court": "Delhi High Court",
+   "principle": "Non-examination of an independent/public witness is no infirmity where inspecting officials are trustworthy and bear no enmity to the accused.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Neeraj Dutt v. State",
+   "citation": "SLP(Crl.) 6497/2020",
+   "court": "Supreme Court",
+   "principle": "'Shall presume' denotes a compulsory legal presumption the court is bound to draw until the fact is disproved.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Hiten P. Dalal v. Bratindranath Banerjee",
+   "citation": "2001 (6) SCC 16",
+   "court": "Supreme Court",
+   "principle": "Rebuttal of a statutory presumption need not be conclusive; evidence must make the defence reasonably probable to a prudent man.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Mukesh Rastogi v. North Delhi Power Ltd.",
+   "citation": "2007 (99) DRJ 108",
+   "court": "Delhi High Court",
+   "principle": "Easiest rebuttal of the theft presumption is production of paid electricity bills; Section 106 Evidence Act places that onus on the consumer.",
+   "treatment": "Relied on"
+  }
+ ],
+ "significance": [
+  {
+   "point": "Unmetered occupation plus a pole tap is the paradigm s.135(1)(a) case",
+   "explanation": "Where whole floors run with no meter and a cable traces to the licensee's pole, the offence is made out on the inspection evidence itself."
+  },
+  {
+   "point": "Mass-raid testimony elicited by the defence proved the inspection",
+   "explanation": "Answers the defence itself drew out \u2014 that the premises were inspected in a mass raid and the load report prepared on observation \u2014 bound the accused (Balu Sudam Khalde)."
+  },
+  {
+   "point": "A 65B certificate, where filed, forecloses the videography challenge",
+   "explanation": "With the certificate on record (Ex.PW4/A), the bare suggestion of fabrication had nothing to bite on \u2014 contrast companion cases resting on the waived-objection rule (Sonu @ Amar)."
+  },
+  {
+   "point": "A bill in someone else's name is no rebuttal",
+   "explanation": "The only electricity bill on record stood in the wife's name; under the s.106 onus (Mukesh Rastogi) the accused had to show paid bills for lawful supply to these premises."
+  },
+  {
+   "point": "Settlement corroborates guilt even if never paid",
+   "explanation": "Settling the theft bill while pleading inability to deposit was read as conduct inconsistent with innocence."
+  }
+ ],
+ "generic_facts": {
+  "consumer_type": "domestic",
+  "theft_mode": "direct theft / pole hooking \u2014 two-core cable from BSES pole feeding unmetered 1st & 2nd floors",
+  "premises": "two residential floors of a house, resettlement colony",
+  "meter_status": "no meter for inspected floors; ground-floor meter served ground floor only",
+  "load_kw": 2.66,
+  "assessment_rs": 47582,
+  "occupant_at_inspection": "accused present at spot (mass raid)",
+  "ownership_evidence": "electricity bill on record in wife's name; premises identity in video undisputed",
+  "key_evidence": [
+   "videography CD with Section 65B certificate",
+   "inspection/load/seizure documents",
+   "seized two-core cable (2x10 sq mm, ~0.5 m) identified in court"
+  ],
+  "defence": "bare denial and false implication via amicus curiae; no defence evidence; settled civil liability but did not deposit (financial constraints)",
+  "public_witness_joined": false,
+  "prosecution_witnesses": 4,
+  "defence_witnesses": 0,
+  "outcome": "convicted",
+  "sentence": "posted for hearing on quantum",
+  "s65b_certificate_filed": true,
+  "related_cases": [
+   "005 (same user & wife, stopped-meter theft at F-303)"
+  ]
+ }
+}

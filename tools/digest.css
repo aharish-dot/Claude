@@ -1,0 +1,103 @@
+
+  :root{
+    --ink:#1a1f26; --navy:#16243a; --navy2:#1f3350; --label:#5b6b7f;
+    --muted:#40506a; --rule:#c9d3df; --rule2:#d8dee6; --panel:#f7f9fb; --zebra:#f5f8fb;
+  }
+  *{ box-sizing:border-box; }
+  html,body{ margin:0; padding:0; }
+  body{
+    font-family: Georgia, "Times New Roman", "Liberation Serif", serif;
+    color:var(--ink); font-size:10.5pt; line-height:1.5;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  p{ margin:0 0 8pt; text-align:justify; }
+  .sans{ font-family: Arial, "Helvetica Neue", "Liberation Sans", sans-serif; }
+
+  .eyebrow{
+    font-family: Arial, "Liberation Sans", sans-serif;
+    letter-spacing:.2em; font-size:8pt; color:var(--label);
+    text-transform:uppercase; margin:0 0 3pt;
+  }
+  h1.case{
+    font-size:19pt; line-height:1.14; color:var(--navy);
+    font-weight:700; margin:0 0 5pt; letter-spacing:.01em;
+  }
+  .subcite{ font-size:9.5pt; color:var(--muted); margin:0 0 15pt; }
+
+  .docket{
+    border:1px solid var(--rule2); border-left:3px solid var(--navy);
+    background:var(--panel); padding:11pt 15pt; margin:0 0 4pt;
+  }
+  .row{ display:grid; grid-template-columns:120px 1fr; gap:3pt 14pt; }
+  .row + .row{ margin-top:7pt; padding-top:7pt; border-top:1px dotted var(--rule); }
+  .k{
+    font-family: Arial, "Liberation Sans", sans-serif;
+    text-transform:uppercase; letter-spacing:.11em; font-size:7.8pt;
+    color:var(--label); padding-top:2.5pt; font-weight:700;
+  }
+  .v{ font-size:10pt; }
+  .v strong{ color:var(--navy2); }
+
+  h2{
+    font-family: Arial, "Liberation Sans", sans-serif;
+    font-size:11pt; text-transform:uppercase; letter-spacing:.08em;
+    color:var(--navy); border-bottom:1.5px solid var(--rule);
+    padding-bottom:4pt; margin:19pt 0 9pt; break-after:avoid;
+  }
+  h3{
+    font-size:10.5pt; font-weight:700; color:var(--navy2);
+    margin:13pt 0 3pt; break-after:avoid;
+  }
+  h3.grp{
+    font-family: Arial, "Liberation Sans", sans-serif; font-size:9.4pt;
+    text-transform:uppercase; letter-spacing:.06em; color:var(--label);
+    margin:14pt 0 5pt; border-bottom:.75pt solid var(--rule2); padding-bottom:2pt;
+  }
+  .lead{ font-weight:700; color:var(--navy2); }
+
+  .cit-preamble{ font-size:9pt; color:var(--muted); margin:0 0 7pt; }
+  table.cit{
+    width:100%; border-collapse:collapse; font-size:9pt; margin-top:2pt;
+  }
+  table.cit th{
+    background:var(--navy); color:#fff; text-align:left; padding:6pt 8pt;
+    font-family: Arial, "Liberation Sans", sans-serif; font-size:8pt;
+    letter-spacing:.05em; text-transform:uppercase; font-weight:700;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  table.cit td{
+    border:.75pt solid var(--rule2); padding:6pt 8pt; vertical-align:top;
+  }
+  table.cit tr{ break-inside:avoid; }
+  table.cit tbody tr:nth-child(even) td{ background:var(--zebra); }
+  .cn{ font-style:italic; color:var(--navy2); font-weight:700; }
+  .rep{ font-size:8.3pt; color:#5f5010; background:#fbf3d6; border:.5pt solid #e6d69a;
+        padding:1pt 5pt; border-radius:8pt; white-space:nowrap;
+        font-family: Arial, "Liberation Sans", sans-serif; letter-spacing:.03em;
+        -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+
+  .headnote{
+    color:#15559c; background:#eef4fb; border-left:3px solid #2f6fb3;
+    padding:9pt 13pt; margin:0 0 12pt; font-size:9.9pt; line-height:1.46;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .headnote .hn{
+    display:block; font-family: Arial, "Liberation Sans", sans-serif;
+    font-size:7.6pt; letter-spacing:.16em; text-transform:uppercase;
+    color:#2f6fb3; font-weight:700; margin-bottom:3pt;
+  }
+  .headnote .cn{ color:#123f74; }
+
+  ul.sig{ margin:2pt 0 8pt; padding:0; list-style:none; }
+  ul.sig li{ position:relative; padding-left:16pt; margin:0 0 7pt; text-align:justify; }
+  ul.sig li::before{
+    content:"\25AA"; position:absolute; left:1pt; top:-.5pt;
+    color:#2f6fb3; font-size:10pt;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .bl{ font-weight:700; color:var(--navy2); }
+
+  .disclaimer{
+    margin-top:18pt; border-top:1px solid var(--rule); padding-top:8pt;
+    font-size:8.6pt; font-style:italic; color:var(--label);
+  }
