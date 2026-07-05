@@ -7,6 +7,29 @@ end from repo state alone. Nothing here depends on Google Drive or any external 
 
 ---
 
+## Kickoff — how to start a fresh chat on this
+
+**First, make sure the new session is on the branch that holds this pipeline:**
+`claude/court-judgements-summary-x1rbai` (the tools and queue are NOT on the default branch).
+When creating the Claude Code session, pick that branch; or make it the new chat's first action:
+`git fetch origin claude/court-judgements-summary-x1rbai && git checkout claude/court-judgements-summary-x1rbai && git pull`
+
+**Then paste this prompt** (edit the court and the batch size):
+
+> Work on branch `claude/court-judgements-summary-x1rbai` (git pull first). Follow
+> `tools/PLAYBOOK.md` for the **high-court** set: process the next **3** files in
+> `high-court/input/` (skip `README.md`). For each case, launch **one sub-agent** to read the
+> full judgment in its own context and write `high-court/extracts/<id>.extract.json` matching
+> the schema of `high-court/extracts/HC-001.extract.json` — **do not read judgments into your
+> own context.** Then run `python tools/verify.py high-court <id>`, `python tools/gen_hc.py`,
+> render with `tools/render2.js` (pass the court name + scope), `git mv` the source PDF/HTML to
+> `high-court/processed/`, update `high-court/state/index.json`, commit per case, and push at the end.
+
+Swap `high-court` → `supreme-court` for that set. A shorter version also works once the session
+has read this file: *"Follow tools/PLAYBOOK.md, process the next 3 in high-court/input."*
+
+---
+
 ## 0. Orient
 - `git pull`.
 - **Pending work = files in `<COURT>/input/`** (ignore `README.md` and `.gitkeep`).
