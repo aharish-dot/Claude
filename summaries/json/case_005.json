@@ -18,8 +18,7 @@
   "Third proviso to Section 135(1)",
   "Section 24 IPC",
   "Sections 65B, 106, 4 Indian Evidence Act 1872",
-  "Sections 251, 313, 41A Cr.P.C.",
-  "DERC (Supply Code) Regulations 60-63"
+  "Sections 251, 313, 41A Cr.P.C."
  ],
  "interpretations": [
   {
@@ -30,7 +29,7 @@
   {
    "act": "Electricity Act, 2003",
    "provision": "Section 135(1)",
-   "interpretation": "Drawing supply through an illegal wire connected into the supply cable while the installed meter lies stopped \u2014 the service cable tampered so consumption bypasses registration \u2014 is direct theft; the stopped meter, tampered cable and absence of any lawful-source explanation evidence the dishonest design (s.24 IPC standard)."
+   "interpretation": "Drawing supply through an illegal wire connected into the supply cable while the installed meter lies stopped — the service cable tampered so consumption bypasses registration — is direct theft; the stopped meter, tampered cable and absence of any lawful-source explanation evidence the dishonest design (s.24 IPC standard)."
   },
   {
    "act": "Electricity Act, 2003",
@@ -41,11 +40,6 @@
    "act": "Electricity Act, 2003",
    "provision": "Section 150",
    "interpretation": "A registered consumer who, knowing her meter is lying stopped, permits or consciously allows the user to draw supply through an unauthorised connection abets the theft; under s.150(1) the abettor incurs the same punishment as the principal offence, notwithstanding anything in the IPC."
-  },
-  {
-   "act": "DERC (Supply Code) Regulations, 2007",
-   "provision": "Regulations 60-63",
-   "interpretation": "Inspection power with photo-ID safeguards (60); contemporaneous report, seizure/sealing, video documentation (61); prosecution only where dishonest intention evident, disconnection + police complaint within 24 hours, missing seal alone insufficient (62); assessment at twice tariff for up to 12 months with credit for paid units (63). Unchallenged compliance confirms regularity."
   }
  ],
  "citations": [
@@ -102,7 +96,7 @@
  "significance": [
   {
    "point": "A stopped meter with a live load is itself the case to answer",
-   "explanation": "Where the meter reads stopped and the premises visibly consume power through a tampered service cable, the burden effectively shifts to the occupants to show a lawful source \u2014 and silence convicts."
+   "explanation": "Where the meter reads stopped and the premises visibly consume power through a tampered service cable, the burden effectively shifts to the occupants to show a lawful source — and silence convicts."
   },
   {
    "point": "Registered consumers cannot hide behind the actual user",
@@ -110,11 +104,11 @@
   },
   {
    "point": "Appearing in the inspection video demands an explanation",
-   "explanation": "The accused's unexplained presence in the videography \u2014 whose genuineness he never disputed \u2014 undercut the plea that no inspection took place; the missing 65B certificate did not help absent a timely objection (Sonu @ Amar)."
+   "explanation": "The accused's unexplained presence in the videography — whose genuineness he never disputed — undercut the plea that no inspection took place; the missing 65B certificate did not help absent a timely objection (Sonu @ Amar)."
   },
   {
    "point": "The reverse-onus presumption binds both accused",
-   "explanation": "Once the unauthorised means is proved, only evidence of lawful metered use (paid bills; s.106 onus, Mukesh Rastogi) rebuts the presumption \u2014 for user and registered consumer alike."
+   "explanation": "Once the unauthorised means is proved, only evidence of lawful metered use (paid bills; s.106 onus, Mukesh Rastogi) rebuts the presumption — for user and registered consumer alike."
   },
   {
    "point": "Settlement corroborates guilt even if never paid",
@@ -123,7 +117,7 @@
  ],
  "generic_facts": {
   "consumer_type": "domestic",
-  "theft_mode": "meter bypass \u2014 registered meter in stopped condition; illegal wire connected into supply cable to load (service cable tampered)",
+  "theft_mode": "meter bypass — registered meter in stopped condition; illegal wire connected into supply cable to load (service cable tampered)",
   "premises": "residential first floor, resettlement colony",
   "meter_status": "meter installed in co-accused wife's name but stopped (reading 17799 KWH)",
   "load_kw": 3.181,
@@ -131,7 +125,7 @@
   "occupant_at_inspection": "user (husband) present at spot",
   "ownership_evidence": "IO recorded neighbours' statements confirming possession; registered consumer claimed to be owner/landlord",
   "key_evidence": [
-   "videography CD (no 65B certificate \u2014 Sonu applied)",
+   "videography CD (no 65B certificate — Sonu applied)",
    "inspection/load/seizure documents",
    "seized aluminium cable",
    "accused identified in video, unexplained"

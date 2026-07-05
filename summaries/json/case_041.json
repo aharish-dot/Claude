@@ -1,0 +1,115 @@
+{
+ "case_no": "041",
+ "title": "State v. Jameed & Anr.",
+ "subcite": "Ct. Case No. 184/2018 | PS Bhalswa Dairy | CNR DLNW010037562018",
+ "court": "Court of the Additional Sessions Judge (Electricity), North-West District, Rohini Courts, Delhi",
+ "judge": "Sh. Prashant Kumar, Addl. Sessions Judge (Electricity)",
+ "date_of_judgment": "2026-03-28",
+ "offence_date": "2017-10-27",
+ "discom": "Tata Power Delhi Distribution Limited",
+ "parties": "State (Tata Power Delhi Distribution Ltd.) v. (1) Jameed and (2) Rasheed Ahmad",
+ "result": "Convicted under Sections 135, 138 and 150, Electricity Act, 2003. A direct-theft case in which the mode of abstraction also involved interference with the licensee’s works (Section 138), with two accused. Matter posted for hearing on quantum of sentence.",
+ "statutes": [
+  "Sections 135, 138 & 150 (and third proviso to s. 135(1)), Electricity Act, 2003",
+  "Section 24, IPC",
+  "Sections 65B & 106, Indian Evidence Act, 1872",
+  "Sections 251 & 313, Cr.P.C."
+ ],
+ "interpretations": [
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Section 135 & Section 150 — Theft and Abetment",
+   "interpretation": "Direct abstraction of electricity is theft under Section 135; a person who consciously assists or permits it abets the offence under Section 150 and is liable to the same punishment. Where two persons act together in the abstraction, each may be principal or abettor."
+  },
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Section 138 — Interference with Meters or Works",
+   "interpretation": "Section 138 punishes unauthorised interference with the licensee’s meters, works or apparatus — including unauthorised connection, reconnection, or interference with the equipment. It applies alongside Section 135 where the mode of theft is effected by interfering with the licensee’s works, adding a distinct head of liability to the dishonest abstraction."
+  },
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Section 2(15)",
+   "interpretation": "'Consumer' under Section 2(15) includes the owner/registered consumer, not only the actual user; the owner is answerable for illegal abstraction found at the premises even where a tenant is the user (Lokesh Chandela)."
+  },
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Section 150",
+   "interpretation": "A registered consumer/owner who consciously permits a tenant to draw an unauthorised supply abets the theft and is punishable u/s 150 with the principal's punishment; the abettor can be convicted even where the actual user has absconded or died and is never tried."
+  }
+ ],
+ "citations": [
+  {
+   "case": "Punjab State Electricity Board v. Ashwani Kumar",
+   "citation": "2010 (7) SCC 569",
+   "court": "",
+   "principle": "An inspection report prepared by Board officers in discharge of official duty carries a presumption of regularity; the onus lies on the consumer to rebut it by cogent evidence.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Sushil Sharma v. BSES Rajdhani Power Ltd.",
+   "citation": "Delhi HC, Crl. A. 1060/2010 (22.12.2010)",
+   "court": "",
+   "principle": "Non-examination of an independent/public witness is no infirmity where the inspecting officials are trustworthy and bear no enmity towards the accused.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Neeraj Dutt v. State",
+   "citation": "SLP(Crl.) 6497/2020",
+   "court": "",
+   "principle": "“Shall presume” denotes a compulsory legal presumption which the Court is bound to draw until the fact is disproved.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Hiten P. Dalal v. Bratindranath Banerjee",
+   "citation": "2001 (6) SCC 16",
+   "court": "",
+   "principle": "A statutory presumption need not be conclusively disproved; the accused must adduce evidence making the defence reasonably probable to a prudent man.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Mukesh Rastogi v. North Delhi Power Ltd.",
+   "citation": "2007 (99) DRJ 108",
+   "court": "",
+   "principle": "The easiest rebuttal of the theft presumption is to produce paid electricity bills; under Section 106 of the Evidence Act the onus of proving lawful, metered use lies on the consumer.",
+   "treatment": "Relied on"
+  }
+ ],
+ "significance": [
+  {
+   "point": "Section 138 can apply alongside Section 135",
+   "explanation": "Where the theft is effected by interfering with the licensee’s meters or works, Section 138 adds a distinct head of liability to the Section 135 abstraction."
+  },
+  {
+   "point": "Abetment reaches the assisting co-accused",
+   "explanation": "A second person who assists or permits the abstraction abets it under Section 150 and shares the principal’s punishment."
+  },
+  {
+   "point": "The presumption operates against each accused",
+   "explanation": "Once the unauthorised means is proved, each must displace the reverse-onus presumption with evidence of lawful use."
+  },
+  {
+   "point": "Silence and no paid bills convict",
+   "explanation": "Leading no evidence, the accused leave the compulsory presumption unrebutted (Neeraj Dutt; Mukesh Rastogi)."
+  }
+ ],
+ "generic_facts": {
+  "consumer_type": "domestic",
+  "theft_mode": "Direct theft of electricity with illegal tapping",
+  "meter_status": "no meter / no lawful metered supply",
+  "load_kw": null,
+  "assessment_rs": null,
+  "discom": "Tata Power Delhi Distribution Limited",
+  "public_witness_joined": null,
+  "prosecution_witnesses": null,
+  "defence_witnesses": 0,
+  "s65b_certificate_filed": true,
+  "abetment_charge": true,
+  "absconding_user": false,
+  "noc_issued": false,
+  "settlement": false,
+  "meter_bypass": false,
+  "outcome": "Convicted u/s 135 r/w 150 (abetment)",
+  "sentence": "posted for hearing on quantum",
+  "defence": "false implication; no defence evidence"
+ }
+}

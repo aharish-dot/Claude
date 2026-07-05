@@ -1,0 +1,126 @@
+{
+ "case_no": "020",
+ "title": "State v. Bobby Khurana",
+ "subcite": "SC No. 13/2024 | FIR No. 310/2021, PS Welcome | Court of the Addl. Sessions Judge-05 (Electricity), East, Karkardooma Courts, Delhi",
+ "court": "Court of the Additional Sessions Judge-05 (Electricity), East District, Karkardooma Courts, Delhi",
+ "judge": "Sh. Ashish Rastogi, Addl. Sessions Judge-05 (Electricity)",
+ "date_of_judgment": "2026-04-21",
+ "offence_date": "2021-03-24",
+ "discom": "BSES Yamuna Power Limited",
+ "parties": "State (BSES Yamuna Power Ltd.) v. Bobby Khurana S/o Sh. Raju Khurana, R/o H. No. J-16, Welcome, Delhi (registered consumer/owner of the inspected premises)",
+ "result": "Convicted under Section 135 read with Section 150 (abetment), Electricity Act, 2003. The co-accused tenant Shabbo, who actually used the electricity, having died during the trial, proceedings against her stood abated; the owner Bobby Khurana was convicted. Matter posted for hearing on quantum of sentence.",
+ "statutes": [
+  "Sections 135, 150 & 2(15) (and third proviso to s. 135(1)), Electricity Act, 2003",
+  "Section 24, IPC",
+  "Section 106, Indian Evidence Act, 1872",
+  "Sections 251, 313 & 41A, Cr.P.C."
+ ],
+ "interpretations": [
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Section 135(1)(a) — Theft of Electricity",
+   "interpretation": "The Court treated clause (a) — tapping or making a connection with a licensee’s overhead, underground or service lines/wires — as the operative limb, the case being one of direct hooking rather than meter tampering (clauses (b)–(e) having no factual foundation). As the Act does not define “dishonestly,” the Court imported Section 24 IPC and treated the drawing of supply to unmetered premises through a two-core cable hooked from the licensee’s pole as satisfying the requirement of dishonest intention."
+  },
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Third Proviso to Section 135(1) — Presumption of Dishonest Use",
+   "interpretation": "Read as a reverse-onus clause: proof of an artificial or unauthorised means of abstraction raises a presumption of dishonest use “until the contrary is proved.” Reading it with the “shall presume” jurisprudence (Neeraj Dutt) and the rebuttal standard (Hiten P. Dalal), the Court held that the burden shifted to the accused to make innocence reasonably probable — a bare denial, without evidence of a lawful source or paid bills, could not discharge it."
+  },
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Section 2(15)",
+   "interpretation": "'Consumer' under Section 2(15) includes the owner/registered consumer, not only the actual user; the owner is answerable for illegal abstraction found at the premises even where a tenant is the user (Lokesh Chandela)."
+  },
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Section 150",
+   "interpretation": "A registered consumer/owner who consciously permits a tenant to draw an unauthorised supply abets the theft and is punishable u/s 150 with the principal's punishment; the abettor can be convicted even where the actual user has absconded or died and is never tried."
+  }
+ ],
+ "citations": [
+  {
+   "case": "Punjab State Electricity Board v. Ashwani Kumar",
+   "citation": "2010 (7) SCC 569",
+   "court": "",
+   "principle": "An inspection report prepared by Board officers in discharge of official duty carries a presumption of regularity; the onus lies on the consumer to rebut it by cogent evidence.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Sushil Sharma v. BSES Rajdhani Power Ltd.",
+   "citation": "Delhi HC, Crl. A. 1060/2010 (22.12.2010)",
+   "court": "",
+   "principle": "Non-examination of an independent/public witness is no infirmity where the inspecting officials are trustworthy and bear no enmity towards the accused.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Lokesh Chandela v. State of NCT & Ors.",
+   "citation": "Delhi HC, Crl. A. 479/2011",
+   "court": "",
+   "principle": "Both the user of electricity and the owner/registered consumer of the premises fall within “consumer” under Section 2(15), making the owner answerable for illegal abstraction found at the premises.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Neeraj Dutt v. State",
+   "citation": "SLP(Crl.) 6497/2020",
+   "court": "",
+   "principle": "“Shall presume” denotes a compulsory legal presumption which the Court is bound to draw until the fact is disproved.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Hiten P. Dalal v. Bratindranath Banerjee",
+   "citation": "2001 (6) SCC 16",
+   "court": "",
+   "principle": "A statutory presumption need not be conclusively disproved; the accused must adduce evidence making the defence reasonably probable to a prudent man.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Mukesh Rastogi v. North Delhi Power Ltd.",
+   "citation": "2007 (99) DRJ 108",
+   "court": "",
+   "principle": "The easiest rebuttal of the theft presumption is to produce paid electricity bills; under Section 106 of the Evidence Act the onus of proving lawful, metered use lies on the consumer.",
+   "treatment": "Relied on"
+  }
+ ],
+ "significance": [
+  {
+   "point": "An owner can be convicted of abetment even where the user is never tried",
+   "explanation": "The registered consumer/owner who consciously permits a tenant to draw an unauthorised supply is guilty under Section 135 r/w Section 150; the death of the principal, abating her case, does not absolve the abettor."
+  },
+  {
+   "point": "“Consumer” under Section 2(15) reaches the owner",
+   "explanation": "The owner cannot disown liability for illegal abstraction at the premises merely because a tenant was the user (Lokesh Chandela)."
+  },
+  {
+   "point": "The reverse-onus presumption binds the owner-abettor",
+   "explanation": "Once the unauthorised means is proved, the owner must show lawful, metered use — paid bills under the Section 106 onus (Mukesh Rastogi) — failing which the compulsory presumption convicts."
+  },
+  {
+   "point": "An unsettled bill is no mitigation of the charge",
+   "explanation": "Unlike the settled-bill cases, here the theft demand was never paid; the Court treated the unpaid, unrebutted assessment as fortifying the prosecution."
+  },
+  {
+   "point": "A public witness is not essential",
+   "explanation": "Official inspection testimony suffices absent shown enmity (Ashwani Kumar; Sushil Sharma)."
+  }
+ ],
+ "generic_facts": {
+  "consumer_type": "domestic",
+  "theft_mode": "two-core cable",
+  "meter_status": "no meter / no lawful metered supply",
+  "load_kw": 3.076,
+  "assessment_rs": 51349,
+  "discom": "BSES Yamuna Power Limited",
+  "public_witness_joined": false,
+  "prosecution_witnesses": 3,
+  "defence_witnesses": 0,
+  "s65b_certificate_filed": true,
+  "abetment_charge": true,
+  "absconding_user": true,
+  "noc_issued": false,
+  "settlement": false,
+  "meter_bypass": false,
+  "outcome": "Convicted u/s 135 r/w 150 (abetment)",
+  "sentence": "posted for hearing on quantum",
+  "defence": "false implication; no defence evidence"
+ }
+}

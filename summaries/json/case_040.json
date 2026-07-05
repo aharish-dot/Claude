@@ -1,0 +1,105 @@
+{
+ "case_no": "040",
+ "title": "State v. Kumari Devi",
+ "subcite": "Ct. Case No. 178/2020 | PS Mangol Puri | CNR DLNW010015012020",
+ "court": "Court of the Additional Sessions Judge (Electricity), North-West District, Rohini Courts, Delhi",
+ "judge": "Sh. Prashant Kumar, Addl. Sessions Judge (Electricity)",
+ "date_of_judgment": "2026-04-15",
+ "offence_date": "2019-09-24",
+ "discom": "Tata Power Delhi Distribution Limited",
+ "parties": "State (Tata Power Delhi Distribution Ltd.) v. Kumari Devi (registered consumer of the inspected premises)",
+ "result": "Convicted under Section 135, Electricity Act, 2003. A meter-tampering (“meter-jumping”) case in which the tampered meter was retained as case property. Matter posted for hearing on quantum of sentence.",
+ "statutes": [
+  "Section 135 (clauses (b)/(c) and third proviso to s. 135(1)), Electricity Act, 2003",
+  "Section 24, IPC",
+  "Sections 65B & 106, Indian Evidence Act, 1872",
+  "Sections 251 & 313, Cr.P.C."
+ ],
+ "interpretations": [
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Section 135(1)(b)/(c) — Theft by Tampering with the Meter",
+   "interpretation": "Where the abstraction is achieved not by an external hook but by tampering with the meter itself — here a “meter-jumping” arrangement causing the meter not to register the true consumption — the offence falls under the meter-tampering limbs of Section 135(1) (interfering with, or preventing the correct registration by, a meter). It is as much a dishonest abstraction as a direct tap; the retained meter is the material evidence of the manner of theft."
+  },
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Third Proviso to Section 135(1) — Presumption of Dishonest Use",
+   "interpretation": "Proof that the meter was tampered raises the reverse-onus presumption of dishonest use. The accused must adduce evidence making an innocent explanation reasonably probable — a bare denial, without proof of lawful, correctly-metered consumption, does not displace it."
+  }
+ ],
+ "citations": [
+  {
+   "case": "Punjab State Electricity Board v. Ashwani Kumar",
+   "citation": "2010 (7) SCC 569",
+   "court": "",
+   "principle": "An inspection report prepared by Board officers in discharge of official duty carries a presumption of regularity; the onus lies on the consumer to rebut it by cogent evidence.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Sushil Sharma v. BSES Rajdhani Power Ltd.",
+   "citation": "Delhi HC, Crl. A. 1060/2010 (22.12.2010)",
+   "court": "",
+   "principle": "Non-examination of an independent/public witness is no infirmity where the inspecting officials are trustworthy and bear no enmity towards the accused.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Neeraj Dutt v. State",
+   "citation": "SLP(Crl.) 6497/2020",
+   "court": "",
+   "principle": "“Shall presume” denotes a compulsory legal presumption which the Court is bound to draw until the fact is disproved.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Hiten P. Dalal v. Bratindranath Banerjee",
+   "citation": "2001 (6) SCC 16",
+   "court": "",
+   "principle": "A statutory presumption need not be conclusively disproved; the accused must adduce evidence making the defence reasonably probable to a prudent man.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Mukesh Rastogi v. North Delhi Power Ltd.",
+   "citation": "2007 (99) DRJ 108",
+   "court": "",
+   "principle": "The easiest rebuttal of the theft presumption is to produce paid electricity bills; under Section 106 of the Evidence Act the onus of proving lawful, metered use lies on the consumer.",
+   "treatment": "Relied on"
+  }
+ ],
+ "significance": [
+  {
+   "point": "Meter-jumping is theft under Section 135",
+   "explanation": "Causing the meter to under-record consumption is a dishonest abstraction within the meter-tampering limbs of Section 135(1)."
+  },
+  {
+   "point": "The retained meter is the material proof",
+   "explanation": "Unlike a hooked wire, the tampered meter itself, retained as case property, evidences the manner of theft."
+  },
+  {
+   "point": "The presumption applies to tampering",
+   "explanation": "Proof of tampering raises the reverse-onus presumption just as a direct tap does."
+  },
+  {
+   "point": "A public witness is not essential",
+   "explanation": "Official inspection testimony suffices absent shown enmity (Ashwani Kumar; Sushil Sharma)."
+  }
+ ],
+ "generic_facts": {
+  "consumer_type": "domestic",
+  "theft_mode": "Meter tampering/meter jumping - unauthorized use of retained meter",
+  "meter_status": "meter tampered",
+  "load_kw": null,
+  "assessment_rs": null,
+  "discom": "Tata Power Delhi Distribution Limited",
+  "public_witness_joined": null,
+  "prosecution_witnesses": null,
+  "defence_witnesses": 0,
+  "s65b_certificate_filed": true,
+  "abetment_charge": false,
+  "absconding_user": false,
+  "noc_issued": false,
+  "settlement": false,
+  "meter_bypass": true,
+  "outcome": "Convicted u/s 135",
+  "sentence": "posted for hearing on quantum",
+  "defence": "false implication; no defence evidence"
+ }
+}

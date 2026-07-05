@@ -1,0 +1,109 @@
+{
+ "case_no": "028",
+ "title": "State v. Shehzad",
+ "subcite": "SC No. 898/2023 | FIR No. 717/2022, PS Jafrabad | Court of the Addl. Sessions Judge-05 (Electricity), East, Karkardooma Courts, Delhi",
+ "court": "Court of the Additional Sessions Judge-05 (Electricity), East District, Karkardooma Courts, Delhi",
+ "judge": "Sh. Ashish Rastogi, Addl. Sessions Judge-05 (Electricity)",
+ "date_of_judgment": "2026-01-15",
+ "offence_date": "2022-03-08",
+ "discom": "BSES Yamuna Power Limited",
+ "parties": "State (BSES Yamuna Power Ltd.) v. Shehzad, R/o Jafrabad, Delhi",
+ "result": "Convicted under Section 135, Electricity Act, 2003. Civil liability on the theft bill (Rs. 80,516/-) settled and the amount deposited during trial. Matter posted for hearing on quantum of sentence.",
+ "statutes": [
+  "Section 135 (and third proviso to s. 135(1)), Electricity Act, 2003",
+  "Section 24, IPC",
+  "Sections 65B & 106, Indian Evidence Act, 1872",
+  "Sections 251, 313 & 41A, Cr.P.C."
+ ],
+ "interpretations": [
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Section 135(1)(a) — Theft of Electricity",
+   "interpretation": "The Court treated clause (a) — tapping or making a connection with a licensee’s overhead, underground or service lines/wires — as the operative limb, the case being one of direct hooking rather than meter tampering (clauses (b)–(e) having no factual foundation). As the Act does not define “dishonestly,” the Court imported Section 24 IPC and treated the abstraction of supply by puncturing the licensee’s service cable to draw power ahead of the meter as satisfying the requirement of dishonest intention."
+  },
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Third Proviso to Section 135(1) — Presumption of Dishonest Use",
+   "interpretation": "Read as a reverse-onus clause: proof of an artificial or unauthorised means of abstraction raises a presumption of dishonest use “until the contrary is proved.” Reading it with the “shall presume” jurisprudence (Neeraj Dutt) and the rebuttal standard (Hiten P. Dalal), the Court held that the burden shifted to the accused to make innocence reasonably probable — a bare denial, without evidence of a lawful source or paid bills, could not discharge it."
+  }
+ ],
+ "citations": [
+  {
+   "case": "Punjab State Electricity Board v. Ashwani Kumar",
+   "citation": "2010 (7) SCC 569",
+   "court": "",
+   "principle": "An inspection report prepared by Board officers in discharge of official duty carries a presumption of regularity; the onus lies on the consumer to rebut it by cogent evidence.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Sushil Sharma v. BSES Rajdhani Power Ltd.",
+   "citation": "Delhi HC, Crl. A. 1060/2010 (22.12.2010)",
+   "court": "",
+   "principle": "Non-examination of an independent/public witness is no infirmity where the inspecting officials are trustworthy and bear no enmity towards the accused.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Neeraj Dutt v. State",
+   "citation": "SLP(Crl.) 6497/2020",
+   "court": "",
+   "principle": "“Shall presume” denotes a compulsory legal presumption which the Court is bound to draw until the fact is disproved.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Hiten P. Dalal v. Bratindranath Banerjee",
+   "citation": "2001 (6) SCC 16",
+   "court": "",
+   "principle": "A statutory presumption need not be conclusively disproved; the accused must adduce evidence making the defence reasonably probable to a prudent man.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Mukesh Rastogi v. North Delhi Power Ltd.",
+   "citation": "2007 (99) DRJ 108",
+   "court": "",
+   "principle": "The easiest rebuttal of the theft presumption is to produce paid electricity bills; under Section 106 of the Evidence Act the onus of proving lawful, metered use lies on the consumer.",
+   "treatment": "Relied on"
+  }
+ ],
+ "significance": [
+  {
+   "point": "Puncturing the service cable is direct theft",
+   "explanation": "Drawing supply through a puncture in the licensee’s service cable, ahead of the meter, is a clause (a) abstraction — no separate hooked wire is needed."
+  },
+  {
+   "point": "Presence at inspection fixes identity",
+   "explanation": "Where the accused is himself present at the videographed inspection of his premises, the recurring “who was the user” defence is unavailable."
+  },
+  {
+   "point": "A Section 65B certificate secures the video",
+   "explanation": "The certified videography proved the manner of abstraction and dispensed with any need for a public witness."
+  },
+  {
+   "point": "Settlement corroborates guilt",
+   "explanation": "Settling and depositing the theft bill was read as conduct inconsistent with innocence, not a neutral compromise."
+  },
+  {
+   "point": "The reverse-onus presumption did the rest",
+   "explanation": "No meter reading, an unexplained tapped load, no paid bills — the compulsory presumption convicted (Neeraj Dutt; Hiten P. Dalal; Mukesh Rastogi)."
+  }
+ ],
+ "generic_facts": {
+  "consumer_type": "domestic",
+  "theft_mode": "punctured service cable",
+  "meter_status": "no meter / no lawful metered supply",
+  "load_kw": 5.427,
+  "assessment_rs": 80516,
+  "discom": "BSES Yamuna Power Limited",
+  "public_witness_joined": false,
+  "prosecution_witnesses": 3,
+  "defence_witnesses": 0,
+  "s65b_certificate_filed": true,
+  "abetment_charge": false,
+  "absconding_user": false,
+  "noc_issued": false,
+  "settlement": true,
+  "meter_bypass": false,
+  "outcome": "Convicted u/s 135",
+  "sentence": "posted for hearing on quantum",
+  "defence": "false implication; no defence evidence"
+ }
+}

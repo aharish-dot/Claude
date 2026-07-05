@@ -1,0 +1,76 @@
+{
+ "case_no": "032",
+ "title": "State v. Aamer Suhail",
+ "subcite": "Ct. Case No. 92/2024 | PS Kanjhawala | Court of the Additional Sessions Judge (Electricity), North-West District, Rohini Courts, Delhi",
+ "court": "Court of the Additional Sessions Judge (Electricity), North-West District, Rohini Courts, Delhi",
+ "judge": "Sh. Prashant Kumar, Addl. Sessions Judge (Electricity)",
+ "date_of_judgment": "2026-01-08",
+ "offence_date": "2021-09-27",
+ "discom": "Tata Power Delhi Distribution Limited",
+ "parties": "State (Tata Power Delhi Distribution Ltd.) v. Aamer Suhail S/o Md. Saleem (tenant/resident of the inspected premises)",
+ "result": "Acquitted — complaint dismissed. The inspection documents were internally false — a meter that in fact existed was recorded as non-existent, and only external photographs were taken. The accused stands acquitted of the charge under Section 135 of the Electricity Act, 2003.",
+ "statutes": [
+  "Section 135 (and third proviso to s. 135(1)), Electricity Act, 2003",
+  "Sections 101, 106 & 65B, Indian Evidence Act, 1872",
+  "Sections 251 & 313, Cr.P.C."
+ ],
+ "interpretations": [
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Section 135(1) — Theft of Electricity: the Foundational Facts",
+   "interpretation": "The Court read Section 135(1) as requiring the prosecution first to prove, beyond reasonable doubt, the foundational facts — an unauthorised or artificial abstraction of electricity and the identity of the accused as its author or as the consumer/user of the inspected premises. Only upon proof of those facts does the offence, or the abetment of it, arise; a bare allegation, or mere presence at or near the spot, is not enough. As the Act does not define “dishonestly,” Section 24 IPC is imported, but dishonest intention presupposes an abstraction first fixed on the accused."
+  },
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Third Proviso to Section 135(1) — When the Presumption Does Not Arise",
+   "interpretation": "The reverse-onus presumption of dishonest use operates only after the prosecution has established the artificial means of abstraction and connected it to the accused. Where that foundation fails — the inspection is self-contradictory, the user’s identity is not fixed, material witnesses are withheld, the electronic record is not duly certified under Section 65B, or the officer’s authority to complain is not proved — the presumption never arises. The ordinary rule then governs: the prosecution must prove guilt beyond reasonable doubt, and where two views are reasonably possible the one favouring the accused is adopted."
+  }
+ ],
+ "citations": [
+  {
+   "case": "Sadhu Singh v. State of Punjab",
+   "citation": "—",
+   "court": "",
+   "principle": "Material contradictions in the prosecution’s own evidence entitle the accused to the benefit of the doubt.",
+   "treatment": "Relied on"
+  }
+ ],
+ "significance": [
+  {
+   "point": "A false recital in the inspection report is corrosive",
+   "explanation": "Recording “no meter” where a meter exists destroys the report’s reliability and the presumption of regularity."
+  },
+  {
+   "point": "Exterior-only photographs prove nothing",
+   "explanation": "A visual record that never shows the interior or the alleged tap cannot establish the abstraction."
+  },
+  {
+   "point": "Contradictions attract the benefit of the doubt",
+   "explanation": "Self-contradiction in the prosecution’s documents is enough to acquit (Sadhu Singh)."
+  },
+  {
+   "point": "The presumption never engaged",
+   "explanation": "With the foundational facts unproved, the reverse-onus presumption did not arise."
+  }
+ ],
+ "generic_facts": {
+  "consumer_type": "domestic",
+  "theft_mode": "alleged direct tapping from LV mains",
+  "meter_status": "no meter / no lawful metered supply",
+  "load_kw": 5.999,
+  "assessment_rs": 109598,
+  "discom": "Tata Power Delhi Distribution Limited",
+  "public_witness_joined": false,
+  "prosecution_witnesses": 4,
+  "defence_witnesses": 0,
+  "s65b_certificate_filed": true,
+  "abetment_charge": false,
+  "absconding_user": false,
+  "noc_issued": false,
+  "settlement": false,
+  "meter_bypass": false,
+  "outcome": "Acquitted — complaint dismissed",
+  "sentence": "n/a (acquitted)",
+  "defence": "false implication; no defence evidence"
+ }
+}

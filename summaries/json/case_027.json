@@ -1,0 +1,90 @@
+{
+ "case_no": "027",
+ "title": "State v. Smt. Rakhi",
+ "subcite": "Ct. Case No. 459/2024 | PS Inder Puri | Court of the Additional Sessions Judge (Electricity), North-West District, Rohini Courts, Delhi",
+ "court": "Court of the Additional Sessions Judge (Electricity), North-West District, Rohini Courts, Delhi",
+ "judge": "Sh. Syed Zishan Ali, Addl. Sessions Judge (Electricity)",
+ "date_of_judgment": "2026-06-04",
+ "offence_date": "2023-06-21",
+ "discom": "Tata Power Delhi Distribution Limited",
+ "parties": "State (Tata Power Delhi Distribution Ltd.) v. Smt. Rakhi (alleged consumer of the inspected premises)",
+ "result": "Acquitted — complaint dismissed. The prosecution failed to prove that the accused was the resident/consumer of the inspected premises, her own Aadhaar showing a different address. The accused stands acquitted of the charge under Section 135 read with Section 150 of the Electricity Act, 2003.",
+ "statutes": [
+  "Section 135 (and third proviso to s. 135(1)), Electricity Act, 2003",
+  "Sections 101, 106 & 65B, Indian Evidence Act, 1872",
+  "Sections 251 & 313, Cr.P.C."
+ ],
+ "interpretations": [
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Section 135(1) — Theft of Electricity: the Foundational Facts",
+   "interpretation": "The Court read Section 135(1) as requiring the prosecution first to prove, beyond reasonable doubt, the foundational facts — an unauthorised or artificial abstraction of electricity and the identity of the accused as its author or as the consumer/user of the inspected premises. Only upon proof of those facts does the offence, or the abetment of it, arise; a bare allegation, or mere presence at or near the spot, is not enough. As the Act does not define “dishonestly,” Section 24 IPC is imported, but dishonest intention presupposes an abstraction first fixed on the accused."
+  },
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Third Proviso to Section 135(1) — When the Presumption Does Not Arise",
+   "interpretation": "The reverse-onus presumption of dishonest use operates only after the prosecution has established the artificial means of abstraction and connected it to the accused. Where that foundation fails — the inspection is self-contradictory, the user’s identity is not fixed, material witnesses are withheld, the electronic record is not duly certified under Section 65B, or the officer’s authority to complain is not proved — the presumption never arises. The ordinary rule then governs: the prosecution must prove guilt beyond reasonable doubt, and where two views are reasonably possible the one favouring the accused is adopted."
+  }
+ ],
+ "citations": [
+  {
+   "case": "Tata Power Delhi Distribution Ltd. v. Amit Bansal",
+   "citation": "Delhi HC",
+   "court": "",
+   "principle": "Liability under Section 135 attaches only on proof that the accused was the actual consumer/user of the inspected premises.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Shambhu Nath Mehra v. State of Ajmer",
+   "citation": "AIR 1956 SC 404",
+   "court": "",
+   "principle": "Section 106 is an exception confined to facts within the accused’s special knowledge and cannot be used to shift the prosecution’s burden onto the accused.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Satye Singh v. State of Uttarakhand",
+   "citation": "(2022) 5 SCC 438",
+   "court": "",
+   "principle": "Section 106 of the Evidence Act does not relieve the prosecution of its primary burden of proof; it applies only to facts especially within the accused’s knowledge.",
+   "treatment": "Relied on"
+  }
+ ],
+ "significance": [
+  {
+   "point": "Consumer status must be proved, not assumed",
+   "explanation": "Naming a person in the complaint is not proof that she is the consumer; a contrary identity document defeats the assumption (Amit Bansal)."
+  },
+  {
+   "point": "Section 106 cannot plug a hole in the prosecution’s own case",
+   "explanation": "The onus to prove residence/consumption stays with the prosecution (Shambhu Nath Mehra; Satye Singh)."
+  },
+  {
+   "point": "Abetment falls with the principal offence",
+   "explanation": "No identified user means no theft to abet under Section 150."
+  },
+  {
+   "point": "A different Aadhaar address is powerful exculpatory material",
+   "explanation": "The accused’s own official record placing her elsewhere raised a reasonable doubt the prosecution could not dispel."
+  }
+ ],
+ "generic_facts": {
+  "consumer_type": "domestic",
+  "theft_mode": "direct tapping from pole",
+  "meter_status": "no meter / no lawful metered supply",
+  "load_kw": 11.062,
+  "assessment_rs": 255102,
+  "discom": "Tata Power Delhi Distribution Limited",
+  "public_witness_joined": false,
+  "prosecution_witnesses": 8,
+  "defence_witnesses": 0,
+  "s65b_certificate_filed": true,
+  "abetment_charge": true,
+  "absconding_user": false,
+  "noc_issued": false,
+  "settlement": false,
+  "meter_bypass": false,
+  "outcome": "Acquitted — complaint dismissed",
+  "sentence": "n/a (acquitted)",
+  "defence": "false implication; no defence evidence"
+ }
+}

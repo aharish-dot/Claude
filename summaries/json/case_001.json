@@ -1,53 +1,128 @@
 {
-  "case_no": "001",
-  "source_file": "001_34645375_State (Bses) vs Gaffar Miya on 9 June, 2026.html",
-  "title": "State (BSES YPL) v. Gaffar Miya",
-  "sc_no": "SC No. 445/2022",
-  "fir_no": "FIR No. 489/2019",
-  "police_station": "PS Dayal Pur",
-  "court": "Addl. Sessions Judge-05 (Electricity), East, Karkardooma Courts, Delhi",
-  "judge": "Sh. Ashish Rastogi",
-  "date_of_judgment": "2026-06-09",
-  "offence_date": "2019-11-04",
-  "discom": "BSES Yamuna Power Ltd.",
-  "result": "Convicted under Section 135, Electricity Act, 2003; civil liability (theft bill Rs. 55,332) settled and deposited during trial; posted for hearing on sentence",
-  "statutes": ["Section 135 Electricity Act 2003", "Third proviso to Section 135(1) Electricity Act 2003", "Section 24 IPC", "Sections 65B, 106, 4 Indian Evidence Act 1872", "Sections 251, 313, 41A Cr.P.C.", "DERC (Supply Code) Regulations 60-63"],
-  "interpretations": [
-    {"act": "Electricity Act, 2003", "provision": "Section 135(1)(a)", "interpretation": "Clause (a) — tapping or making a connection with a licensee's overhead, underground or service lines/wires — is the operative limb in a direct-hooking case (clauses (b)–(e) needing a metering/tampering foundation). 'Dishonestly' being undefined in the Act, Section 24 IPC supplies the definition (wrongful gain to one person or wrongful loss to another); drawing supply through an unmetered illegal Teflon-wire tap satisfies dishonest intention."},
-    {"act": "Electricity Act, 2003", "provision": "Third proviso to Section 135(1)", "interpretation": "A reverse-onus clause: proof of an artificial or unauthorised means of abstraction raises a presumption of dishonest use 'until the contrary is proved'. 'Shall presume' is a compulsory presumption (Neeraj Dutt); the accused must adduce evidence making his defence reasonably probable to a prudent man (Hiten P. Dalal); the natural rebuttal is proof of a lawful, metered source, typically paid bills, the onus lying on the consumer under Section 106 Evidence Act (Mukesh Rastogi)."},
-    {"act": "DERC (Supply Code) Regulations, 2007", "provision": "Regulations 60-63", "interpretation": "Reg. 60: Authorised Officer may inspect suo motu or on information, carrying/showing photo ID. Reg. 61: contemporaneous site inspection report with seizure, sealing and photo/video documentation. Reg. 62: prosecution only where dishonest intention is evident; disconnection plus written police complaint within 24 hours; missing meter seal alone cannot found a theft case absent corroboration. Reg. 63: assessment at twice applicable tariff for up to 12 months with credit for units paid. Unchallenged compliance with Regs. 60-63 confirms the inspection's regularity; the assessment measures the theft and need not be separately proved as an ingredient."}
-  ],
-  "citations": [
-    {"case": "Sonu @ Amar v. State of Haryana", "citation": "AIR 2017 SC 3441", "court": "Supreme Court", "principle": "Objection that an electronic record was admitted without a Section 65B certificate goes to the mode of proof and must be raised when the record is tendered; if not taken at trial it cannot be raised later.", "treatment": "Relied on"},
-    {"case": "Balu Sudam Khalde v. State of Maharashtra", "citation": "2023 INSC 314", "court": "Supreme Court", "principle": "Incriminating suggestions put by defence counsel in cross-examination bind the accused and can establish facts such as the factum of, and presence at, the inspection.", "treatment": "Relied on"},
-    {"case": "Punjab State Electricity Board v. Ashwani Kumar", "citation": "2010 (7) SCC 569", "court": "Supreme Court", "principle": "An inspection report prepared by officers in discharge of official duty carries a presumption of regularity; onus on the consumer to rebut by cogent evidence.", "treatment": "Relied on"},
-    {"case": "Sushil Sharma v. BSES Rajdhani Power Ltd.", "citation": "Delhi HC, Crl. A. 1060/2010 (22.12.2010)", "court": "Delhi High Court", "principle": "Non-examination of an independent/public witness is no infirmity where inspecting officials are trustworthy and bear no enmity to the accused.", "treatment": "Relied on"},
-    {"case": "Neeraj Dutt v. State", "citation": "SLP(Crl.) 6497/2020", "court": "Supreme Court", "principle": "'Shall presume' denotes a compulsory legal presumption the court is bound to draw until the fact is disproved.", "treatment": "Relied on"},
-    {"case": "Hiten P. Dalal v. Bratindranath Banerjee", "citation": "2001 (6) SCC 16", "court": "Supreme Court", "principle": "Rebuttal of a statutory presumption need not be conclusive; evidence must make the defence reasonably probable to a prudent man.", "treatment": "Relied on"},
-    {"case": "Mukesh Rastogi v. North Delhi Power Ltd.", "citation": "2007 (99) DRJ 108", "court": "Delhi High Court", "principle": "Easiest rebuttal of the theft presumption is production of paid electricity bills; Section 106 Evidence Act places that onus on the consumer.", "treatment": "Relied on"}
-  ],
-  "significance": [
-    {"point": "Section 65B certificate is not indispensable", "explanation": "Absence of a 65B certificate for inspection videography is not fatal where the defence did not object when the electronic record was tendered — the objection goes to the mode of proof and is waived if not timely taken (Sonu @ Amar)."},
-    {"point": "Defence cross-examination can prove the case", "explanation": "Incriminating suggestions put by defence counsel — here, that the wires ran from the ground-floor meter's input terminal — can themselves establish the factum of inspection and bind the accused (Balu Sudam Khalde)."},
-    {"point": "The reverse-onus presumption does real work", "explanation": "Once an unauthorised means of abstraction is proved, the 'shall presume' clause compels a presumption of dishonest theft; the consumer must rebut with evidence of a lawful metered source — typically paid bills under the Section 106 onus (Mukesh Rastogi); a bare denial with no defence evidence will not suffice."},
-    {"point": "A public witness is not essential", "explanation": "Non-joining of an independent witness does not vitiate an otherwise trustworthy official inspection without shown enmity (Ashwani Kumar; Sushil Sharma)."},
-    {"point": "Settling the theft bill can cut against the accused", "explanation": "Payment of the civil liability during trial was read not as closure but as conduct corroborating guilt on the criminal charge."}
-  ],
-  "generic_facts": {
-    "consumer_type": "domestic",
-    "theft_mode": "direct theft / hooking — no meter at premises; Teflon wires tapped from input terminal of ground-floor meter (meter for ground floor only)",
-    "premises": "residential floor of a multi-storey house (2nd floor)",
-    "meter_status": "no meter installed for inspected premises",
-    "load_kw": 2.730,
-    "assessment_rs": 55332,
-    "occupant_at_inspection": "lady claiming to be a tenant of the accused (Sitara)",
-    "ownership_evidence": "neighbours (ex-tenants) deposed accused owned premises",
-    "key_evidence": ["videography CD (no 65B certificate)", "inspection/load/seizure documents", "seized Teflon wires produced in court", "accused identified in video"],
-    "defence": "bare denial and false implication; no defence evidence; settled theft bill during trial",
-    "public_witness_joined": false,
-    "prosecution_witnesses": 5,
-    "defence_witnesses": 0,
-    "outcome": "convicted",
-    "sentence": "posted for hearing on quantum"
+ "case_no": "001",
+ "source_file": "001_34645375_State (Bses) vs Gaffar Miya on 9 June, 2026.html",
+ "title": "State (BSES YPL) v. Gaffar Miya",
+ "sc_no": "SC No. 445/2022",
+ "fir_no": "FIR No. 489/2019",
+ "police_station": "PS Dayal Pur",
+ "court": "Addl. Sessions Judge-05 (Electricity), East, Karkardooma Courts, Delhi",
+ "judge": "Sh. Ashish Rastogi",
+ "date_of_judgment": "2026-06-09",
+ "offence_date": "2019-11-04",
+ "discom": "BSES Yamuna Power Ltd.",
+ "result": "Convicted under Section 135, Electricity Act, 2003; civil liability (theft bill Rs. 55,332) settled and deposited during trial; posted for hearing on sentence",
+ "statutes": [
+  "Section 135 Electricity Act 2003",
+  "Third proviso to Section 135(1) Electricity Act 2003",
+  "Section 24 IPC",
+  "Sections 65B, 106, 4 Indian Evidence Act 1872",
+  "Sections 251, 313, 41A Cr.P.C."
+ ],
+ "interpretations": [
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Section 135(1)(a)",
+   "interpretation": "Clause (a) — tapping or making a connection with a licensee's overhead, underground or service lines/wires — is the operative limb in a direct-hooking case (clauses (b)–(e) needing a metering/tampering foundation). 'Dishonestly' being undefined in the Act, Section 24 IPC supplies the definition (wrongful gain to one person or wrongful loss to another); drawing supply through an unmetered illegal Teflon-wire tap satisfies dishonest intention."
+  },
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Third proviso to Section 135(1)",
+   "interpretation": "A reverse-onus clause: proof of an artificial or unauthorised means of abstraction raises a presumption of dishonest use 'until the contrary is proved'. 'Shall presume' is a compulsory presumption (Neeraj Dutt); the accused must adduce evidence making his defence reasonably probable to a prudent man (Hiten P. Dalal); the natural rebuttal is proof of a lawful, metered source, typically paid bills, the onus lying on the consumer under Section 106 Evidence Act (Mukesh Rastogi)."
   }
+ ],
+ "citations": [
+  {
+   "case": "Sonu @ Amar v. State of Haryana",
+   "citation": "AIR 2017 SC 3441",
+   "court": "Supreme Court",
+   "principle": "Objection that an electronic record was admitted without a Section 65B certificate goes to the mode of proof and must be raised when the record is tendered; if not taken at trial it cannot be raised later.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Balu Sudam Khalde v. State of Maharashtra",
+   "citation": "2023 INSC 314",
+   "court": "Supreme Court",
+   "principle": "Incriminating suggestions put by defence counsel in cross-examination bind the accused and can establish facts such as the factum of, and presence at, the inspection.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Punjab State Electricity Board v. Ashwani Kumar",
+   "citation": "2010 (7) SCC 569",
+   "court": "Supreme Court",
+   "principle": "An inspection report prepared by officers in discharge of official duty carries a presumption of regularity; onus on the consumer to rebut by cogent evidence.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Sushil Sharma v. BSES Rajdhani Power Ltd.",
+   "citation": "Delhi HC, Crl. A. 1060/2010 (22.12.2010)",
+   "court": "Delhi High Court",
+   "principle": "Non-examination of an independent/public witness is no infirmity where inspecting officials are trustworthy and bear no enmity to the accused.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Neeraj Dutt v. State",
+   "citation": "SLP(Crl.) 6497/2020",
+   "court": "Supreme Court",
+   "principle": "'Shall presume' denotes a compulsory legal presumption the court is bound to draw until the fact is disproved.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Hiten P. Dalal v. Bratindranath Banerjee",
+   "citation": "2001 (6) SCC 16",
+   "court": "Supreme Court",
+   "principle": "Rebuttal of a statutory presumption need not be conclusive; evidence must make the defence reasonably probable to a prudent man.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Mukesh Rastogi v. North Delhi Power Ltd.",
+   "citation": "2007 (99) DRJ 108",
+   "court": "Delhi High Court",
+   "principle": "Easiest rebuttal of the theft presumption is production of paid electricity bills; Section 106 Evidence Act places that onus on the consumer.",
+   "treatment": "Relied on"
+  }
+ ],
+ "significance": [
+  {
+   "point": "Section 65B certificate is not indispensable",
+   "explanation": "Absence of a 65B certificate for inspection videography is not fatal where the defence did not object when the electronic record was tendered — the objection goes to the mode of proof and is waived if not timely taken (Sonu @ Amar)."
+  },
+  {
+   "point": "Defence cross-examination can prove the case",
+   "explanation": "Incriminating suggestions put by defence counsel — here, that the wires ran from the ground-floor meter's input terminal — can themselves establish the factum of inspection and bind the accused (Balu Sudam Khalde)."
+  },
+  {
+   "point": "The reverse-onus presumption does real work",
+   "explanation": "Once an unauthorised means of abstraction is proved, the 'shall presume' clause compels a presumption of dishonest theft; the consumer must rebut with evidence of a lawful metered source — typically paid bills under the Section 106 onus (Mukesh Rastogi); a bare denial with no defence evidence will not suffice."
+  },
+  {
+   "point": "A public witness is not essential",
+   "explanation": "Non-joining of an independent witness does not vitiate an otherwise trustworthy official inspection without shown enmity (Ashwani Kumar; Sushil Sharma)."
+  },
+  {
+   "point": "Settling the theft bill can cut against the accused",
+   "explanation": "Payment of the civil liability during trial was read not as closure but as conduct corroborating guilt on the criminal charge."
+  }
+ ],
+ "generic_facts": {
+  "consumer_type": "domestic",
+  "theft_mode": "direct theft / hooking — no meter at premises; Teflon wires tapped from input terminal of ground-floor meter (meter for ground floor only)",
+  "premises": "residential floor of a multi-storey house (2nd floor)",
+  "meter_status": "no meter installed for inspected premises",
+  "load_kw": 2.73,
+  "assessment_rs": 55332,
+  "occupant_at_inspection": "lady claiming to be a tenant of the accused (Sitara)",
+  "ownership_evidence": "neighbours (ex-tenants) deposed accused owned premises",
+  "key_evidence": [
+   "videography CD (no 65B certificate)",
+   "inspection/load/seizure documents",
+   "seized Teflon wires produced in court",
+   "accused identified in video"
+  ],
+  "defence": "bare denial and false implication; no defence evidence; settled theft bill during trial",
+  "public_witness_joined": false,
+  "prosecution_witnesses": 5,
+  "defence_witnesses": 0,
+  "outcome": "convicted",
+  "sentence": "posted for hearing on quantum"
+ }
 }

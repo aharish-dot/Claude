@@ -1,0 +1,68 @@
+{
+ "case_no": "044",
+ "title": "State v. Amit Gahlot",
+ "subcite": "Ct. Case No. 300/2022 | CNR DLSW01-004506-2022 | Court of the Additional Sessions Judge (Electricity), South-West District, Dwarka Courts, Delhi",
+ "court": "Court of the Additional Sessions Judge (Electricity), South-West District, Dwarka Courts, Delhi",
+ "judge": "Ms. Harleen Singh, Addl. Sessions Judge (Electricity)",
+ "date_of_judgment": "2026-02-27",
+ "offence_date": null,
+ "discom": "BSES Rajdhani Power Limited",
+ "parties": "State (BSES Rajdhani Power Ltd.) v. Amit Gahlot (user / registered consumer)",
+ "result": "Acquitted — complaint dismissed. A major date discrepancy, a malfunctioning original CD replaced by an uncertified substitute, and a valid commercial connection since 2019 undid the charge. The accused stands acquitted of the charge under Section 135 read with Section 150 of the Electricity Act, 2003.",
+ "statutes": [
+  "Section 135 (and third proviso to s. 135(1)), Electricity Act, 2003",
+  "Sections 101, 106 & 65B, Indian Evidence Act, 1872",
+  "Sections 251 & 313, Cr.P.C."
+ ],
+ "interpretations": [
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Section 135(1) — Theft of Electricity: the Foundational Facts",
+   "interpretation": "The Court read Section 135(1) as requiring the prosecution first to prove, beyond reasonable doubt, the foundational facts — an unauthorised or artificial abstraction of electricity and the identity of the accused as its author or as the consumer/user of the inspected premises. Only upon proof of those facts does the offence, or the abetment of it, arise; a bare allegation, or mere presence at or near the spot, is not enough. As the Act does not define “dishonestly,” Section 24 IPC is imported, but dishonest intention presupposes an abstraction first fixed on the accused."
+  },
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Third Proviso to Section 135(1) — When the Presumption Does Not Arise",
+   "interpretation": "The reverse-onus presumption of dishonest use operates only after the prosecution has established the artificial means of abstraction and connected it to the accused. Where that foundation fails — the inspection is self-contradictory, the user’s identity is not fixed, material witnesses are withheld, the electronic record is not duly certified under Section 65B, or the officer’s authority to complain is not proved — the presumption never arises. The ordinary rule then governs: the prosecution must prove guilt beyond reasonable doubt, and where two views are reasonably possible the one favouring the accused is adopted."
+  }
+ ],
+ "citations": [],
+ "significance": [
+  {
+   "point": "A year’s discrepancy in the raid date is fatal",
+   "explanation": "When the prosecution cannot agree with itself on when the inspection happened, the foundational fact is unproved."
+  },
+  {
+   "point": "A substitute CD needs its own Section 65B certificate",
+   "explanation": "A certificate tied to an unplayable original does not cover a later substitute prepared by someone else."
+  },
+  {
+   "point": "An unexamined team head plus contrary neighbour evidence unsettles identity",
+   "explanation": "Where the defence shows the raid may have been elsewhere, the premises themselves are in doubt."
+  },
+  {
+   "point": "A valid subsisting connection tells against theft",
+   "explanation": "A commercial connection held since 2019 — and an order to reinstate the meter — is hard to square with the alleged theft."
+  }
+ ],
+ "generic_facts": {
+  "consumer_type": "commercial",
+  "theft_mode": "Alleged illegal two-core black cable to BSES D.B. box",
+  "meter_status": "no meter / no lawful metered supply",
+  "load_kw": null,
+  "assessment_rs": 1351729,
+  "discom": "BSES Rajdhani Power Limited",
+  "public_witness_joined": null,
+  "prosecution_witnesses": null,
+  "defence_witnesses": 0,
+  "s65b_certificate_filed": true,
+  "abetment_charge": true,
+  "absconding_user": false,
+  "noc_issued": false,
+  "settlement": false,
+  "meter_bypass": false,
+  "outcome": "Acquitted — complaint dismissed",
+  "sentence": "n/a (acquitted)",
+  "defence": "false implication; no defence evidence"
+ }
+}

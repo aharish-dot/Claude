@@ -1,0 +1,111 @@
+{
+ "case_no": "035",
+ "title": "State v. Shakuntala",
+ "subcite": "Ct. Case No. 50/2024 | PS Maurya Enclave | Court of the Additional Sessions Judge (Electricity), North-West District, Rohini Courts, Delhi",
+ "court": "Court of the Additional Sessions Judge (Electricity), North-West District, Rohini Courts, Delhi",
+ "judge": "Sh. Prashant Kumar, Addl. Sessions Judge (Electricity)",
+ "date_of_judgment": "2026-02-28",
+ "offence_date": "2023-08-10",
+ "discom": "Tata Power Delhi Distribution Limited",
+ "parties": "State (Tata Power Delhi Distribution Ltd.) v. Shakuntala D/o Sh. Amit Kumar Yadav, R/o Jhuggi No. C-123, E-Rickshaw Charging Station, Block QD, Pitampura, Delhi-110034",
+ "result": "Acquitted — complaint dismissed. The prosecution failed to establish a complete chain connecting the accused to the e-rickshaw charging operation. The accused stands acquitted of the charge under Section 135 of the Electricity Act, 2003.",
+ "statutes": [
+  "Section 135 (and third proviso to s. 135(1)), Electricity Act, 2003",
+  "Sections 101, 106 & 65B, Indian Evidence Act, 1872",
+  "Sections 251 & 313, Cr.P.C."
+ ],
+ "interpretations": [
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Section 135(1) — Theft of Electricity: the Foundational Facts",
+   "interpretation": "The Court read Section 135(1) as requiring the prosecution first to prove, beyond reasonable doubt, the foundational facts — an unauthorised or artificial abstraction of electricity and the identity of the accused as its author or as the consumer/user of the inspected premises. Only upon proof of those facts does the offence, or the abetment of it, arise; a bare allegation, or mere presence at or near the spot, is not enough. As the Act does not define “dishonestly,” Section 24 IPC is imported, but dishonest intention presupposes an abstraction first fixed on the accused."
+  },
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Third Proviso to Section 135(1) — When the Presumption Does Not Arise",
+   "interpretation": "The reverse-onus presumption of dishonest use operates only after the prosecution has established the artificial means of abstraction and connected it to the accused. Where that foundation fails — the inspection is self-contradictory, the user’s identity is not fixed, material witnesses are withheld, the electronic record is not duly certified under Section 65B, or the officer’s authority to complain is not proved — the presumption never arises. The ordinary rule then governs: the prosecution must prove guilt beyond reasonable doubt, and where two views are reasonably possible the one favouring the accused is adopted."
+  }
+ ],
+ "citations": [
+  {
+   "case": "Kali Ram v. State of Himachal Pradesh",
+   "citation": "(1973) 2 SCC 808",
+   "court": "",
+   "principle": "Where two views are reasonably possible on the evidence, the one favouring the accused must be adopted; the presumption of innocence is not lightly displaced.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Hanumant Govind Nargundkar v. State of M.P.",
+   "citation": "AIR 1952 SC 343",
+   "court": "",
+   "principle": "In a case of circumstantial evidence the proved circumstances must form a chain so complete as to exclude every reasonable hypothesis save the guilt of the accused.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Sujit Biswas v. State of Assam",
+   "citation": "(2013) 12 SCC 406",
+   "court": "",
+   "principle": "Suspicion, however grave, cannot take the place of proof; the gap between ‘may be true’ and ‘must be true’ must be bridged by legal evidence.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "State (CBI) v. Mahender Singh Dahiya",
+   "citation": "(2011) 3 SCC 585",
+   "court": "",
+   "principle": "The chain of circumstances, including scientific and expert material, must be conclusive and point only to the guilt of the accused.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Ramesh Harijan v. State of U.P.",
+   "citation": "(2012) 5 SCC 777",
+   "court": "",
+   "principle": "Evidence must be appreciated with care; a finding cannot rest on testimony that does not inspire confidence.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Anoop Joshi v. State",
+   "citation": "Delhi HC",
+   "court": "",
+   "principle": "Where public witnesses were available but not joined, the prosecution must meet a higher standard to establish the recovery and inspection.",
+   "treatment": "Relied on"
+  }
+ ],
+ "significance": [
+  {
+   "point": "Public-place theft demands a complete circumstantial chain",
+   "explanation": "Where the tap is in a public area, the prosecution must connect it to the accused link by link (Hanumant Govind Nargundkar); a missing link acquits."
+  },
+  {
+   "point": "Suspicion is not proof",
+   "explanation": "The gap between ‘may be true’ and ‘must be true’ must be bridged by evidence (Sujit Biswas); mere presence will not do."
+  },
+  {
+   "point": "Unexamined beneficiaries and public witnesses tell against the prosecution",
+   "explanation": "No e-rickshaw owner, no public witness and no proof of collection of charges left the operation unattributed (Anoop Joshi; Ramesh Harijan)."
+  },
+  {
+   "point": "Two possible views go to the accused",
+   "explanation": "Where the evidence permits an innocent explanation, the benefit of the doubt is the accused’s (Kali Ram; Mahender Singh Dahiya)."
+  }
+ ],
+ "generic_facts": {
+  "consumer_type": "non-domestic (e-rickshaw charging)",
+  "theft_mode": "Alleged direct tapping from tyco box for e-rickshaw charging station (not proven)",
+  "meter_status": "no meter / no lawful metered supply",
+  "load_kw": 14.478,
+  "assessment_rs": null,
+  "discom": "Tata Power Delhi Distribution Limited",
+  "public_witness_joined": false,
+  "prosecution_witnesses": 3,
+  "defence_witnesses": 0,
+  "s65b_certificate_filed": true,
+  "abetment_charge": false,
+  "absconding_user": false,
+  "noc_issued": false,
+  "settlement": false,
+  "meter_bypass": false,
+  "outcome": "Acquitted — complaint dismissed",
+  "sentence": "n/a (acquitted)",
+  "defence": "false implication; no defence evidence"
+ }
+}

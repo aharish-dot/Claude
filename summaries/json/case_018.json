@@ -16,24 +16,18 @@
   "Third proviso to Section 135(1) Electricity Act 2003",
   "Section 24 IPC",
   "Sections 65B, 106, 4 Indian Evidence Act 1872",
-  "Sections 251, 313, 41A Cr.P.C.",
-  "DERC (Supply Code) Regulations 60-63"
+  "Sections 251, 313, 41A Cr.P.C."
  ],
  "interpretations": [
   {
    "act": "Electricity Act, 2003",
    "provision": "Section 135(1)(a)",
-   "interpretation": "A wire hooked from the licensee's pole to unmetered premises powering a GSM antenna (telecom) tower is a clause (a) connection; partial seizure of the tapping wire (part out of reach) is not fatal \u2014 seizure is only corroborative where the theft is videographed. 'Dishonestly' takes its s.24 IPC meaning."
+   "interpretation": "A wire hooked from the licensee's pole to unmetered premises powering a GSM antenna (telecom) tower is a clause (a) connection; partial seizure of the tapping wire (part out of reach) is not fatal — seizure is only corroborative where the theft is videographed. 'Dishonestly' takes its s.24 IPC meaning."
   },
   {
    "act": "Electricity Act, 2003",
    "provision": "Third proviso to Section 135(1)",
    "interpretation": "Reverse-onus clause: proof of an unauthorised means raises a compulsory presumption (Neeraj Dutt) rebuttable on the prudent-man standard (Hiten P. Dalal); natural rebuttal is paid bills / lawful metered use (s.106; Mukesh Rastogi)."
-  },
-  {
-   "act": "DERC (Supply Code) Regulations, 2007",
-   "provision": "Regulations 60-63",
-   "interpretation": "Inspection power/ID safeguards (60); contemporaneous report, seizure/sealing, photo/video documentation (61) \u2014 seizing the accessible segment of the wire suffices where the rest is out of reach; prosecution procedure (62); assessment at twice the applicable (here commercial) tariff up to 12 months (63) \u2014 producing the Rs. 11,61,828 telecom-load bill."
   }
  ],
  "citations": [
@@ -76,7 +70,7 @@
  "significance": [
   {
    "point": "Telecom/commercial loads drive the assessment sky-high",
-   "explanation": "Powering a GSM antenna tower (14.046 KW) produced a Rs. 11,61,828 bill \u2014 ~20x a domestic tap \u2014 because assessment follows the commercial tariff, doubled under Reg. 63."
+   "explanation": "Powering a GSM antenna tower (14.046 KW) produced a Rs. 11,61,828 bill — ~20x a domestic tap — because assessment follows the commercial tariff, doubled under Reg. 63."
   },
   {
    "point": "The accused's absence at inspection is no shield",
@@ -96,12 +90,12 @@
   },
   {
    "point": "The reverse-onus presumption did the rest",
-   "explanation": "No meter, unexplained running load, no Genset, no paid bills \u2014 the compulsory presumption convicted."
+   "explanation": "No meter, unexplained running load, no Genset, no paid bills — the compulsory presumption convicted."
   }
  ],
  "generic_facts": {
   "consumer_type": "commercial/telecom (GSM antenna tower) + domestic",
-  "theft_mode": "direct theft \u2014 pole hook (yellow wire from pole near transformer joined to black wire at balcony) powering a GSM antenna tower",
+  "theft_mode": "direct theft — pole hook (yellow wire from pole near transformer joined to black wire at balcony) powering a GSM antenna tower",
   "premises": "4th floor with GSM antenna tower",
   "meter_status": "no meter",
   "load_kw": 14.046,

@@ -1,0 +1,81 @@
+{
+ "case_no": "042",
+ "title": "State v. Sharad Rana & Anr.",
+ "subcite": "Ct. Case No. 938/2020 | CNR DLSW01-007380-2020 | Court of the Additional Sessions Judge (Electricity), South-West District, Dwarka Courts, Delhi",
+ "court": "Court of the Additional Sessions Judge (Electricity), South-West District, Dwarka Courts, Delhi",
+ "judge": "Ms. Harleen Singh, Addl. Sessions Judge (Electricity)",
+ "date_of_judgment": "2026-01-28",
+ "offence_date": null,
+ "discom": "BSES Rajdhani Power Limited",
+ "parties": "State (BSES Rajdhani Power Ltd.) v. (1) Sharad Rana (alleged user) and (2) Savitri Devi (registered consumer)",
+ "result": "Acquitted — complaint dismissed. The laboratory officers who tested the meter were never examined, the lab report was not proved, and a burnt meter was equated with a tampered one without basis. The accused stands acquitted of the charge under Sections 135, 138, 150, 151 and 154 of the Electricity Act, 2003.",
+ "statutes": [
+  "Section 135 (and third proviso to s. 135(1)), Electricity Act, 2003",
+  "Sections 101, 106 & 65B, Indian Evidence Act, 1872",
+  "Sections 251 & 313, Cr.P.C."
+ ],
+ "interpretations": [
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Section 135(1) — Theft of Electricity: the Foundational Facts",
+   "interpretation": "The Court read Section 135(1) as requiring the prosecution first to prove, beyond reasonable doubt, the foundational facts — an unauthorised or artificial abstraction of electricity and the identity of the accused as its author or as the consumer/user of the inspected premises. Only upon proof of those facts does the offence, or the abetment of it, arise; a bare allegation, or mere presence at or near the spot, is not enough. As the Act does not define “dishonestly,” Section 24 IPC is imported, but dishonest intention presupposes an abstraction first fixed on the accused."
+  },
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Third Proviso to Section 135(1) — When the Presumption Does Not Arise",
+   "interpretation": "The reverse-onus presumption of dishonest use operates only after the prosecution has established the artificial means of abstraction and connected it to the accused. Where that foundation fails — the inspection is self-contradictory, the user’s identity is not fixed, material witnesses are withheld, the electronic record is not duly certified under Section 65B, or the officer’s authority to complain is not proved — the presumption never arises. The ordinary rule then governs: the prosecution must prove guilt beyond reasonable doubt, and where two views are reasonably possible the one favouring the accused is adopted."
+  },
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Section 154(5)",
+   "interpretation": "On conviction the Special Court may additionally fix civil liability for the electricity illegally used; criminal conviction and civil recovery are companion outcomes of the same trial."
+  }
+ ],
+ "citations": [
+  {
+   "case": "Narinder Aggarwal v. BSES Rajdhani Power Ltd.",
+   "citation": "Delhi HC, W.P.(C) 1789/2011",
+   "court": "",
+   "principle": "An assessment/speaking order must record the authority’s own independent reasoning; a burnt meter is not necessarily a tampered meter.",
+   "treatment": "Relied on"
+  }
+ ],
+ "significance": [
+  {
+   "point": "A meter-tampering case stands or falls on the lab witnesses",
+   "explanation": "If the testing officers are not examined and the report is not proved, there is no admissible finding of tampering."
+  },
+  {
+   "point": "‘Burnt’ is not ‘tampered’",
+   "explanation": "The licensee must prove tampering; a burnt meter may have many innocent causes (Narinder Aggarwal)."
+  },
+  {
+   "point": "A speaking order must reason, not recite",
+   "explanation": "Reproducing the lab report without independent reasoning is no speaking order at all."
+  },
+  {
+   "point": "Unproved authority to complain is by itself a serious gap",
+   "explanation": "Absent the Board Resolution proving the CEO’s authority to delegate, the very competence of the complaint is in doubt."
+  }
+ ],
+ "generic_facts": {
+  "consumer_type": "domestic",
+  "theft_mode": "Alleged meter tampering with burning to hide evidence",
+  "meter_status": "meter tampered",
+  "load_kw": null,
+  "assessment_rs": null,
+  "discom": "BSES Rajdhani Power Limited",
+  "public_witness_joined": null,
+  "prosecution_witnesses": null,
+  "defence_witnesses": 0,
+  "s65b_certificate_filed": true,
+  "abetment_charge": true,
+  "absconding_user": false,
+  "noc_issued": false,
+  "settlement": false,
+  "meter_bypass": true,
+  "outcome": "Acquitted — complaint dismissed",
+  "sentence": "n/a (acquitted)",
+  "defence": "false implication; no defence evidence"
+ }
+}

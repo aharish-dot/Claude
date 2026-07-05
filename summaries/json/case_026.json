@@ -1,0 +1,83 @@
+{
+ "case_no": "026",
+ "title": "State v. Vinod Kumar",
+ "subcite": "Ct. Case No. 325/2024 | PS Mangol Puri | Court of the Additional Sessions Judge (Electricity), North-West District, Rohini Courts, Delhi",
+ "court": "Court of the Additional Sessions Judge (Electricity), North-West District, Rohini Courts, Delhi",
+ "judge": "Sh. Kuljeevan Sidhar, Addl. Sessions Judge (Electricity)",
+ "date_of_judgment": "2026-07-02",
+ "offence_date": "2022-07-01",
+ "discom": "Tata Power Delhi Distribution Limited",
+ "parties": "State (Tata Power Delhi Distribution Ltd.) v. Vinod Kumar (alleged operator of an e-rickshaw charging point)",
+ "result": "Acquitted — complaint dismissed. The alleged theft was found to have been carried on outside the accused’s registered premises, with no proof that he operated the charging point. The accused stands acquitted of the charge under Section 135 of the Electricity Act, 2003.",
+ "statutes": [
+  "Section 135 (and third proviso to s. 135(1)), Electricity Act, 2003",
+  "Sections 101, 106 & 65B, Indian Evidence Act, 1872",
+  "Sections 251 & 313, Cr.P.C."
+ ],
+ "interpretations": [
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Section 135(1) — Theft of Electricity: the Foundational Facts",
+   "interpretation": "The Court read Section 135(1) as requiring the prosecution first to prove, beyond reasonable doubt, the foundational facts — an unauthorised or artificial abstraction of electricity and the identity of the accused as its author or as the consumer/user of the inspected premises. Only upon proof of those facts does the offence, or the abetment of it, arise; a bare allegation, or mere presence at or near the spot, is not enough. As the Act does not define “dishonestly,” Section 24 IPC is imported, but dishonest intention presupposes an abstraction first fixed on the accused."
+  },
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Third Proviso to Section 135(1) — When the Presumption Does Not Arise",
+   "interpretation": "The reverse-onus presumption of dishonest use operates only after the prosecution has established the artificial means of abstraction and connected it to the accused. Where that foundation fails — the inspection is self-contradictory, the user’s identity is not fixed, material witnesses are withheld, the electronic record is not duly certified under Section 65B, or the officer’s authority to complain is not proved — the presumption never arises. The ordinary rule then governs: the prosecution must prove guilt beyond reasonable doubt, and where two views are reasonably possible the one favouring the accused is adopted."
+  }
+ ],
+ "citations": [
+  {
+   "case": "Krishna Gupta v. State",
+   "citation": "Delhi HC",
+   "court": "",
+   "principle": "The prosecution must prove the accused’s direct nexus with the abstraction; mere presence at or proximity to the spot, without evidence of control or consumption, does not establish theft.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Mukesh Rastogi v. North Delhi Power Ltd.",
+   "citation": "2007 (99) DRJ 108",
+   "court": "",
+   "principle": "The easiest rebuttal of the theft presumption is to produce paid electricity bills; under Section 106 of the Evidence Act the onus of proving lawful, metered use lies on the consumer.",
+   "treatment": "Relied on"
+  }
+ ],
+ "significance": [
+  {
+   "point": "Theft found outside the registered premises must still be tied to the accused",
+   "explanation": "An abstraction in an open/public area is not automatically the registered consumer’s; the prosecution must prove his control over the tapping or charging activity."
+  },
+  {
+   "point": "Absence at inspection plus missing operators is fatal to identity",
+   "explanation": "Where the accused is absent and no operator or beneficiary is examined, the “who ran it” question is left open (Krishna Gupta)."
+  },
+  {
+   "point": "A large assessment is not a substitute for proof of authorship",
+   "explanation": "The size of the load or bill goes to quantum; it cannot fill a gap in proof of who abstracted the electricity."
+  },
+  {
+   "point": "The presumption never arose",
+   "explanation": "Without the foundational nexus, the third-proviso presumption did not engage, and the ordinary burden defeated the prosecution."
+  }
+ ],
+ "generic_facts": {
+  "consumer_type": "domestic",
+  "theft_mode": "meter bypass + LV cable tapping",
+  "meter_status": "no meter / no lawful metered supply",
+  "load_kw": 37.545,
+  "assessment_rs": 1897960,
+  "discom": "Tata Power Delhi Distribution Limited",
+  "public_witness_joined": false,
+  "prosecution_witnesses": 5,
+  "defence_witnesses": 1,
+  "s65b_certificate_filed": true,
+  "abetment_charge": false,
+  "absconding_user": false,
+  "noc_issued": false,
+  "settlement": false,
+  "meter_bypass": true,
+  "outcome": "Acquitted — complaint dismissed",
+  "sentence": "n/a (acquitted)",
+  "defence": "false implication; no defence evidence"
+ }
+}

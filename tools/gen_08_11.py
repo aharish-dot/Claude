@@ -28,8 +28,8 @@ TPL_HEAD = """<!doctype html>
   <div class="subcite">{subcite}</div>
 
   <div class="docket">
-    <div class="row"><div class="k">Court</div><div class="v">Court of the Additional Sessions Judge&#8209;05 (Electricity), East District, Karkardooma Courts, Delhi</div></div>
-    <div class="row"><div class="k">Judge</div><div class="v">Sh. Ashish Rastogi, Addl. Sessions Judge&#8209;05 (Electricity)</div></div>
+    <div class="row"><div class="k">Court</div><div class="v">{court}</div></div>
+    <div class="row"><div class="k">Judge</div><div class="v">{judge}</div></div>
     <div class="row"><div class="k">Date of Judgment</div><div class="v">{doj} &nbsp;<span style="color:#5b6b7f">(date of inspection / offence: {dooff})</span></div></div>
     <div class="row"><div class="k">Parties</div><div class="v">{parties}</div></div>
     <div class="row"><div class="k">Statutes Invoked</div><div class="v">{statutes}</div></div>
@@ -50,14 +50,8 @@ TPL_HEAD = """<!doctype html>
 {reasoning}
   <h2>Interpretation of the Electricity Statutes</h2>
 
-  <h3 class="grp">Electricity Act, 2003</h3>
-  <h3>Section 135(1)(a) &mdash; Theft of Electricity</h3>
-  <p>The Court treated clause (a) &mdash; tapping or making a connection with a licensee&rsquo;s overhead, underground or service lines/wires &mdash; as the operative limb, the case being one of direct hooking rather than meter tampering (clauses (b)&#8211;(e) having no factual foundation). As the Act does not define &ldquo;dishonestly,&rdquo; the Court imported Section 24 IPC and treated {mode_desc} as satisfying the requirement of dishonest intention.</p>
-  <h3>Third Proviso to Section 135(1) &mdash; Presumption of Dishonest Use</h3>
-  <p>Read as a reverse-onus clause: proof of an artificial or unauthorised means of abstraction raises a presumption of dishonest use &ldquo;until the contrary is proved.&rdquo; Reading it with the &ldquo;shall presume&rdquo; jurisprudence (<span class="cn">Neeraj Dutt</span>) and the rebuttal standard (<span class="cn">Hiten P. Dalal</span>), the Court held that the burden shifted to the accused to make innocence reasonably probable &mdash; a bare denial, without evidence of a lawful source or paid bills, could not discharge it.</p>
+{interp}
 
-  <h3 class="grp">DERC (Supply Code) Regulations, 2007 &mdash; Regulations 60 to 63</h3>
-  <p>The Court reproduced Regulations 60&#8211;63 &mdash; the inspection power with photo-identification safeguards (Reg. 60), the contemporaneous site report with seizure, sealing and photographic/video documentation (Reg. 61), the prosecution procedure with the 24-hour police complaint and the caution that a missing meter seal alone cannot found a theft case (Reg. 62), and the assessment at twice the applicable tariff for up to twelve months with credit for units already paid (Reg. 63). Unchallenged compliance confirmed the inspection&rsquo;s regularity; the {bill} assessment measured the theft and required no separate proof as an ingredient.</p>
 
   <h2>Held</h2>
   {held}
@@ -68,16 +62,7 @@ TPL_HEAD = """<!doctype html>
 {sig_items}
   </ul>
 
-  <h2>Citations</h2>
-  <p class="cit-preamble">Neither side argued from case law; every citation below is drawn from the Court&rsquo;s own reasoning.</p>
-  <table class="cit">
-    <thead>
-      <tr><th style="width:29%">Case</th><th style="width:56%">Principle Cited For</th><th style="width:15%">Treatment</th></tr>
-    </thead>
-    <tbody>
-{cite_rows}
-    </tbody>
-  </table>
+{citations}
 
   <p class="disclaimer">This summary is a condensed digest prepared for quick reference. It is not a substitute for the full text of the judgment and should not be relied upon for legal advice without verification against the original.</p>
 
@@ -94,13 +79,37 @@ def build(c, out):
         '  <p><span class="bl">%s</span> %s</p>' % (lead, body) for lead, body in c["reasoning"])
     sig_items = "\n".join(
         '    <li><span class="bl">%s</span> %s</li>' % (lead, body) for lead, body in c["significance"])
-    rows = "\n".join(cite_row(*x) for x in c.get("cites", STD_CITES))
+    cites = c.get("cites", STD_CITES)
+    rows = "\n".join(cite_row(*x) for x in cites)
+    if cites:
+        preamble = c.get("cit_preamble", "Neither side argued from case law; every citation below is drawn from the Court&rsquo;s own reasoning.")
+        citations = ('''  <h2>Citations</h2>
+  <p class="cit-preamble">%s</p>
+  <table class="cit">
+    <thead>
+      <tr><th style="width:29%%">Case</th><th style="width:56%%">Principle Cited For</th><th style="width:15%%">Treatment</th></tr>
+    </thead>
+    <tbody>
+%s
+    </tbody>
+  </table>''' % (preamble, rows))
+    else:
+        note = c.get("cit_preamble", "The decision turned wholly on the evidence; neither side pressed any case authority, and the Court decided the matter on the record before it.")
+        citations = '  <h2>Citations</h2>\n  <p class="cit-preamble">%s</p>' % note
+    default_interp = ('''  <h3 class="grp">Electricity Act, 2003</h3>
+  <h3>Section 135(1)(a) &mdash; Theft of Electricity</h3>
+  <p>The Court treated clause (a) &mdash; tapping or making a connection with a licensee&rsquo;s overhead, underground or service lines/wires &mdash; as the operative limb, the case being one of direct hooking rather than meter tampering (clauses (b)&#8211;(e) having no factual foundation). As the Act does not define &ldquo;dishonestly,&rdquo; the Court imported Section 24 IPC and treated %s as satisfying the requirement of dishonest intention.</p>
+  <h3>Third Proviso to Section 135(1) &mdash; Presumption of Dishonest Use</h3>
+  <p>Read as a reverse-onus clause: proof of an artificial or unauthorised means of abstraction raises a presumption of dishonest use &ldquo;until the contrary is proved.&rdquo; Reading it with the &ldquo;shall presume&rdquo; jurisprudence (<span class="cn">Neeraj Dutt</span>) and the rebuttal standard (<span class="cn">Hiten P. Dalal</span>), the Court held that the burden shifted to the accused to make innocence reasonably probable &mdash; a bare denial, without evidence of a lawful source or paid bills, could not discharge it.</p>''' % c["mode_desc"])
     html_out = TPL_HEAD.format(
+        interp=c.get("interp", default_interp),
         title=c["title"], subcite=c["subcite"], doj=c["doj"], dooff=c["dooff"],
         parties=c["parties"], result=c["result"], charge=c["charge"], facts=c["facts"],
         headnote=c["headnote"], reasoning=reasoning, mode_desc=c["mode_desc"], bill=c["bill"],
-        held=c["held"], sig_intro=c["sig_intro"], sig_items=sig_items, cite_rows=rows,
-        statutes=c.get("statutes", "Section 135 (and third proviso to s.&nbsp;135(1)), Electricity Act, 2003; Section 24, IPC; Sections 65B, 106 &amp; 4, Indian Evidence Act, 1872; Sections 251, 313 &amp; 41A, Cr.P.C.; Regulations 60&#8211;63, DERC (Supply Code) Regulations, 2007"))
+        held=c["held"], sig_intro=c["sig_intro"], sig_items=sig_items, citations=citations,
+        court=c.get("court", "Court of the Additional Sessions Judge&#8209;05 (Electricity), East District, Karkardooma Courts, Delhi"),
+        judge=c.get("judge", "Sh. Ashish Rastogi, Addl. Sessions Judge&#8209;05 (Electricity)"),
+        statutes=c.get("statutes", "Section 135 (and third proviso to s.&nbsp;135(1)), Electricity Act, 2003; Section 24, IPC; Sections 65B, 106 &amp; 4, Indian Evidence Act, 1872; Sections 251, 313 &amp; 41A, Cr.P.C."))
     open(out, "w").write(html_out)
     print("wrote", out, len(html_out))
 

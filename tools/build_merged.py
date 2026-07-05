@@ -92,26 +92,29 @@ HTML_TAIL = """
 def canon_prov(p):
     q = p.lower()
     if '2(15)' in q: return (1, 'Section 2(15) — &ldquo;Consumer&rdquo;')
+    if '126' in q or '127' in q or '145' in q: return (7, 'Sections 126, 127 &amp; 145 — Unauthorised Use &amp; the Civil-Court Bar')
     if '154' in q:   return (5, 'Section 154(5) — Civil Liability')
     if '150' in q:   return (4, 'Section 150 — Abetment')
+    if '138' in q:   return (6, 'Section 138 — Interference with Meters or Works')
     if 'proviso' in q or 'presumption' in q: return (3, 'Third Proviso to Section 135(1) — Presumption of Dishonest Use')
-    if 'reg' in q:   return (6, 'DERC (Supply Code) Regulations, 2007 — Regulations 60 to 63')
-    if '135' in q:   return (2, 'Section 135(1)(a) — Theft of Electricity')
+    if '135' in q:   return (2, 'Section 135(1) — Theft of Electricity')
     return (9, esc(p))
 
 PROV_NOTE = {
  'Section 2(15) — &ldquo;Consumer&rdquo;':
    'The Court read &ldquo;consumer&rdquo; to embrace both the person actually using the electricity and the owner/registered consumer of the connected premises. A registered consumer stays answerable for illegal abstraction found at the premises even where another person is the user (<i>Lokesh Chandela</i>).',
- 'Section 135(1)(a) — Theft of Electricity':
-   'Across the set the charge was confined to clause (a) &mdash; a dishonest tap on, or connection with, the licensee&rsquo;s lines, cables, service wires or service facilities &mdash; the cases being direct hooking rather than meter tampering (clauses (b)&ndash;(e)). &ldquo;Dishonestly&rdquo;, undefined in the Act, is supplied by Section 24 IPC (wrongful gain to one / wrongful loss to another). The unauthorised connection took many forms &mdash; pole hooks, distribution-box and street-light-box taps, punctured service cables, and change-over switches past stopped meters &mdash; each treated as satisfying clause (a).',
+ 'Section 135(1) — Theft of Electricity':
+   'Most of the set was confined to clause (a) &mdash; a dishonest tap on, or connection with, the licensee&rsquo;s lines, cables, service wires or service facilities &mdash; direct hooking rather than meter tampering; one conviction (040) rests on the meter-tampering limbs (clauses (b)/(c)). &ldquo;Dishonestly&rdquo;, undefined in the Act, is supplied by Section 24 IPC (wrongful gain to one / wrongful loss to another). The unauthorised connection took many forms &mdash; pole hooks, distribution-box and feeder-pillar taps, punctured service cables, LV/LT-mains hooks and meter bypasses. The acquittals apply the same provision in the negative: the offence arises only once the prosecution proves both the artificial abstraction and the accused&rsquo;s identity as its author, so where identity or the inspection itself is not proved the charge fails.',
  'Third Proviso to Section 135(1) — Presumption of Dishonest Use':
    'A reverse-onus clause. On proof of an artificial or unauthorised means of abstraction, dishonest use is presumed &ldquo;until the contrary is proved.&rdquo; Read with <i>Neeraj Dutt</i> (&ldquo;shall presume&rdquo; is compulsory) and <i>Hiten P. Dalal</i> (rebuttal on the prudent-man standard), the burden shifts to the accused, the natural rebuttal being proof of lawful metered use &mdash; paid bills &mdash; under the Section 106 Evidence Act onus (<i>Mukesh Rastogi</i>). It was not rebutted in any case in this set.',
  'Section 150 — Abetment':
    'Abetment carries the punishment of the principal offence. A registered consumer who, knowing the meter is stopped, permits or consciously allows the user to draw an unauthorised supply abets the theft and is convicted under Section 135 read with Section 150.',
  'Section 154(5) — Civil Liability':
    'On conviction the Special Court may additionally fix civil liability for the electricity illegally used; the criminal conviction and the civil recovery are companion outcomes of the same trial.',
- 'DERC (Supply Code) Regulations, 2007 — Regulations 60 to 63':
-   'Reproduced in every judgment as the procedural backbone: the inspection power with photo-ID safeguards (Reg. 60); the contemporaneous site report with seizure, sealing and photo/video documentation, including recording any refusal of locals to witness (Reg. 61); the prosecution procedure, the 24-hour police complaint and the caution that a missing meter seal alone cannot found a theft case (Reg. 62); and assessment at twice the applicable tariff for up to twelve months with credit for units paid (Reg. 63). Unchallenged compliance was treated as confirming the inspection&rsquo;s regularity.',
+ 'Section 138 — Interference with Meters or Works':
+   'Section 138 punishes unauthorised interference with the licensee&rsquo;s meters, works or apparatus &mdash; unauthorised connection, reconnection or interference. It applies alongside Section 135 where the mode of theft is effected by interfering with the licensee&rsquo;s equipment (case 041), adding a distinct head of liability to the dishonest abstraction.',
+ 'Sections 126, 127 &amp; 145 — Unauthorised Use &amp; the Civil-Court Bar':
+   'The appellate decision (029) draws the cardinal line: Section 126 addresses <i>unauthorised use</i> &mdash; putting a lawful supply to a purpose other than that sanctioned (a domestic connection used for PG accommodation) &mdash; a civil, assessment-based liability, not the criminal theft of Section 135. The remedy against a Section 126 assessment is the statutory appeal under Section 127; Section 145 ousts the civil court, so a civil suit is barred and the plaint is rejected under Order 7 Rule 11(d) CPC.',
 }
 
 def build_interpretations():
@@ -133,8 +136,8 @@ def build_interpretations():
             parts.append(f'<div class="entry"><div class="txt">{txt}</div><div class="chips">{chips}</div></div>')
     lead = ('Every interpretation of a statutory provision drawn from the judgments, grouped by the provision '
             'construed. Identical readings are stated once with all contributing cases tagged; distinct readings '
-            'appear separately. Provisions are ordered Section&nbsp;2(15) &rarr; 135(1)(a) &rarr; third proviso '
-            '&rarr; 150 &rarr; 154(5) &rarr; DERC Regs 60&ndash;63.')
+            'appear separately. Provisions are ordered Section&nbsp;2(15) &rarr; 135(1) &rarr; third proviso '
+            '&rarr; 150 &rarr; 154(5) &rarr; 138 &rarr; 126/127/145.')
     html = HTML_HEAD_fmt(span=span, h1='Interpretation of the Electricity Act, 2003',
                             sub='Statutory construction across the judgments, grouped by provision',
                             lead=lead) + '\n'.join(parts) + HTML_TAIL.format(span=span)
@@ -193,6 +196,11 @@ THEMES = [
  ('Settlement of the theft bill as corroboration', ['settl', 'noc']),
  ('Criminal conviction & civil liability together', ['civil recovery', 'travel together', 'criminal conviction and civil']),
  ('Delay & procedural integrity', ['delay', 'successive io', 'report–testimony', 'report-testimony']),
+ ('Acquittal — identity of the user not proved', ['identity', 'consumer status', 'resemblance', 'aadhaar', 'tied to the accused', 'outside the registered', 'not identify', 'proof of the tamperer', 'masked', 'grandfather']),
+ ('Acquittal — contradictions & false recitals', ['contradiction', 'absurd', 'false', 'non-existent', 'misdescription', 'first floor', 'discrepancy', 'inconsistent', 'two possible views', 'benefit of the doubt', 'corrosive']),
+ ('Acquittal — authorisation & missing proof', ['board resolution', 'authority to complain', 'material witness', 'technician', 'videographer', 'section 65b certificate', 'lab', 'burnt', 'speaking order', 'withheld', 'unproved', 'uncertified', 'not examined', 'circumstantial chain', 'suspicion']),
+ ('Section 126 vs 135 — unauthorised use, not theft', ['unauthorised use', 'section 126', 'section 145', 'statutory appeal', 'order 7 rule 11', 'civil court', 'not every electricity']),
+ ('Section 138 & meter-tampering theft', ['section 138', 'interference with', 'meter-jumping', 'retained meter', 'tampering with the meter']),
 ]
 def theme_of(point):
     p = point.lower()
@@ -227,11 +235,20 @@ def build_significance():
 # ----------------------------------------------------------------------------
 # DOC 4 : COMPARATIVE FACTS MATRIX  (landscape)
 # ----------------------------------------------------------------------------
-def gv(gf, *keys, default='&mdash;'):
+def gv(gf, *keys, default='—'):
     for k in keys:
         if k in gf and gf[k] not in (None, ''):
             return gf[k]
     return default
+
+def disc_abbr(s):
+    s = str(s)
+    for a, b in [("BSES Yamuna Power Limited","BSES YPL"),("BSES Yamuna Power Ltd.","BSES YPL"),
+                 ("BSES Rajdhani Power Limited","BSES RPL"),("BSES Rajdhani Power Ltd.","BSES RPL"),
+                 ("Tata Power Delhi Distribution Limited","TPDDL"),
+                 ("Tata Power Delhi Distribution Ltd. (TPDDL)","TPDDL"),("Tata Power Delhi Distribution Ltd.","TPDDL")]:
+        s = s.replace(a, b)
+    return s
 
 def yn(v, true='Yes', false='No'):
     if v is True: return true
@@ -249,7 +266,7 @@ def build_facts():
         gf = c.get('generic_facts', {})
         out = str(gv(gf, 'outcome'))
         if 'convict' in out.lower(): n_conv += 1
-        pw = gv(gf, 'prosecution_witnesses', default='&mdash;')
+        pw = gv(gf, 'prosecution_witnesses', default='—')
         dw = gf.get('defence_witnesses', 0)
         pubwit = gf.get('public_witness_joined')
         pw_cell = 'No (refused)' if (pubwit is False and gf.get('public_witness_refusal_recorded')) else yn(pubwit)
@@ -259,7 +276,7 @@ def build_facts():
           '<tr>'
           f'<td class="cn0">{c["case_no"]}</td>'
           f'<td>{esc(short_name(c["title"]))}</td>'
-          f'<td>{esc(gv(gf, "discom", default=c.get("discom","&mdash;")).replace("BSES Yamuna Power Ltd.","BSES YPL").replace("Tata Power Delhi Distribution Ltd. (TPDDL)","TPDDL"))}</td>'
+          f'<td>{esc(disc_abbr(gv(gf, "discom", default=c.get("discom","—"))))}</td>'
           f'<td>{esc(gv(gf, "consumer_type"))}</td>'
           f'<td>{esc(gv(gf, "theft_mode"))}</td>'
           f'<td>{esc(gv(gf, "meter_status"))}</td>'
@@ -272,9 +289,12 @@ def build_facts():
           f'<td>{esc(gv(gf, "outcome"))}</td>'
           '</tr>')
     table = f'<table class="matrix"><thead><tr>{ths}</tr></thead><tbody>' + ''.join(trs) + '</tbody></table>'
+    n_acq = sum(1 for c in cases if 'acquit' in str(c.get('generic_facts',{}).get('outcome','')).lower())
+    n_other = N - n_conv - n_acq
     lead = (f'One row per case, case-specific detail stripped to comparable descriptors so patterns across {span} stand out '
             f'(consumer type, mode of theft, meter status, load, assessed value, witnesses, defence, outcome). '
-            f'All {N} convicted. <span style="color:#5b6b7f">65B cert. &ldquo;No*&rdquo; = videography admitted without a certificate under the waived-objection rule in <i>Sonu @ Amar</i>.</span>')
+            f'Of {N} cases: <b>{n_conv}</b> convicted, <b>{n_acq}</b> acquitted, and {n_other} other (a Section&nbsp;126 civil appeal and a civil suit). '
+            f'<span style="color:#5b6b7f">65B cert. &ldquo;No*&rdquo; = videography admitted without a certificate under the waived-objection rule in <i>Sonu @ Amar</i>.</span>')
     html = HTML_HEAD_fmt(span=span, h1='Comparative Facts Matrix', sub='Generic, case-stripped facts for side-by-side comparison',
                             lead=lead) + table + HTML_TAIL.format(span=span)
     open('merged_4_facts_matrix.html', 'w').write(html)

@@ -1,0 +1,116 @@
+{
+ "case_no": "038",
+ "title": "State v. Prem Kumar Soni",
+ "subcite": "Ct. Case No. 312/2023 | PS Kanjhawala | Court of the Additional Sessions Judge (Electricity), North-West District, Rohini Courts, Delhi",
+ "court": "Court of the Additional Sessions Judge (Electricity), North-West District, Rohini Courts, Delhi",
+ "judge": "Sh. Prashant Kumar, Addl. Sessions Judge (Electricity)",
+ "date_of_judgment": "2026-04-09",
+ "offence_date": "2023-06-26",
+ "discom": "Tata Power Delhi Distribution Limited",
+ "parties": "State (Tata Power Delhi Distribution Ltd.) v. Prem Kumar Soni, R/o Kanjhawala, Delhi",
+ "result": "Convicted under Section 135, Electricity Act, 2003. The theft demand of Rs. 80,080/- remained unpaid. Matter posted for hearing on quantum of sentence.",
+ "statutes": [
+  "Section 135 (and third proviso to s. 135(1)), Electricity Act, 2003",
+  "Section 24, IPC",
+  "Sections 65B & 106, Indian Evidence Act, 1872",
+  "Sections 251, 313 & 41A, Cr.P.C."
+ ],
+ "interpretations": [
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Section 135(1)(a) — Theft of Electricity",
+   "interpretation": "The Court treated clause (a) — tapping or making a connection with a licensee’s overhead, underground or service lines/wires — as the operative limb, the case being one of direct hooking rather than meter tampering (clauses (b)–(e) having no factual foundation). As the Act does not define “dishonestly,” the Court imported Section 24 IPC and treated by directly tapping the licensee’s LT network from a pole through two-core PVC wires, the supply drawn without a meter as satisfying the requirement of dishonest intention."
+  },
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Third Proviso to Section 135(1) — Presumption of Dishonest Use",
+   "interpretation": "Read as a reverse-onus clause: proof of an artificial or unauthorised means of abstraction raises a presumption of dishonest use “until the contrary is proved.” Reading it with the “shall presume” jurisprudence (Neeraj Dutt) and the rebuttal standard (Hiten P. Dalal), the Court held that the burden shifted to the accused to make innocence reasonably probable — a bare denial, without evidence of a lawful source or paid bills, could not discharge it."
+  }
+ ],
+ "citations": [
+  {
+   "case": "Punjab State Electricity Board v. Ashwani Kumar",
+   "citation": "2010 (7) SCC 569",
+   "court": "",
+   "principle": "An inspection report prepared by Board officers in discharge of official duty carries a presumption of regularity; the onus lies on the consumer to rebut it by cogent evidence.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Sushil Sharma v. BSES Rajdhani Power Ltd.",
+   "citation": "Delhi HC, Crl. A. 1060/2010 (22.12.2010)",
+   "court": "",
+   "principle": "Non-examination of an independent/public witness is no infirmity where the inspecting officials are trustworthy and bear no enmity towards the accused.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "State v. N.M.T Joy Immaculate",
+   "citation": "2004 (5) SCC 729",
+   "court": "",
+   "principle": "An irregularity or illegality in the search, seizure or investigation does not by itself vitiate the trial or render the recovered material inadmissible; absent resulting prejudice or failure of justice, the Court may act on the evidence.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Neeraj Dutt v. State",
+   "citation": "SLP(Crl.) 6497/2020",
+   "court": "",
+   "principle": "“Shall presume” denotes a compulsory legal presumption which the Court is bound to draw until the fact is disproved.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Hiten P. Dalal v. Bratindranath Banerjee",
+   "citation": "2001 (6) SCC 16",
+   "court": "",
+   "principle": "A statutory presumption need not be conclusively disproved; the accused must adduce evidence making the defence reasonably probable to a prudent man.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Mukesh Rastogi v. North Delhi Power Ltd.",
+   "citation": "2007 (99) DRJ 108",
+   "court": "",
+   "principle": "The easiest rebuttal of the theft presumption is to produce paid electricity bills; under Section 106 of the Evidence Act the onus of proving lawful, metered use lies on the consumer.",
+   "treatment": "Relied on"
+  }
+ ],
+ "significance": [
+  {
+   "point": "Directly tapping the network is theft under clause (a)",
+   "explanation": "A hooked or tapped connection drawing unmetered supply from the licensee’s pole, mains or feeder pillar is a direct, artificial abstraction — no meter tampering need be shown."
+  },
+  {
+   "point": "Identification at the videographed inspection fixes the accused",
+   "explanation": "Presence in the photographs/video, undisputed signatures on the inspection report and appliances in use place the abstraction on the accused; a disconnected earlier connection makes the continued consumption dishonest."
+  },
+  {
+   "point": "An irregular search or seizure does not vitiate the trial",
+   "explanation": "Market-available case property, imperfect sealing or a missing duty roster go only to weight, not admissibility (N.M.T Joy Immaculate); absent prejudice the Court acts on the evidence."
+  },
+  {
+   "point": "A public witness is not essential in a populated locality",
+   "explanation": "Where the public decline to join in a crowded area, the officials’ consistent testimony and the presumption of regularity suffice (Ashwani Kumar; Sushil Sharma)."
+  },
+  {
+   "point": "The reverse-onus presumption convicts the silent accused",
+   "explanation": "No paid bills and no defence evidence leave the compulsory presumption unrebutted (Neeraj Dutt; Hiten P. Dalal; Mukesh Rastogi; Section 106)."
+  }
+ ],
+ "generic_facts": {
+  "consumer_type": "domestic",
+  "theft_mode": "Direct theft of electricity by direct tapping from LT Network from Pole No. 513-23/6/2/11 through illegal two core PVC insulated wires",
+  "meter_status": "no meter / no lawful metered supply",
+  "load_kw": 4.8,
+  "assessment_rs": 80080,
+  "discom": "Tata Power Delhi Distribution Limited",
+  "public_witness_joined": null,
+  "prosecution_witnesses": 3,
+  "defence_witnesses": 0,
+  "s65b_certificate_filed": true,
+  "abetment_charge": false,
+  "absconding_user": false,
+  "noc_issued": false,
+  "settlement": false,
+  "meter_bypass": false,
+  "outcome": "Convicted u/s 135",
+  "sentence": "posted for hearing on quantum",
+  "defence": "false implication; no defence evidence"
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "case_no": "029",
+ "title": "Vimla Kumari Pathak v. Tata Power Delhi Distribution Ltd.",
+ "subcite": "RCA (DJ) No. 77/26 (Civil Appeal) | Court of the District Judge-06, Central District, Tis Hazari Courts, Delhi",
+ "court": "Court of the District Judge-06, Central District, Tis Hazari Courts, Delhi",
+ "judge": "Ms. Shivali Sharma, District Judge-06",
+ "date_of_judgment": "2026-04-16",
+ "offence_date": "2025-11-21",
+ "discom": "Tata Power Delhi Distribution Limited",
+ "parties": "Vimla Kumari Pathak W/o Sh. Ram Murti Pathak, R/o H. No. 353, Gali No. 4, Near Main Market, Sant Nagar, Burari, Delhi-110084 (appellant/plaintiff) v. Tata Power Delhi Distribution Ltd. (respondent)",
+ "result": "Civil appeal dismissed. The rejection of the plaint under Order 7 Rule 11(d) CPC — as barred by Section 145 of the Electricity Act — is affirmed. The appellant’s remedy against the Section 126 assessment lies in the statutory appeal under Section 127, not in a civil suit.",
+ "statutes": [
+  "Sections 126, 127, 135 & 145, Electricity Act, 2003",
+  "Order 7 Rule 11(d), Code of Civil Procedure, 1908"
+ ],
+ "interpretations": [
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Section 126 vs Section 135 — Unauthorised Use is not Theft",
+   "interpretation": "The Court drew the cardinal distinction: Section 126 addresses the unauthorised use of electricity — putting a lawful supply to a purpose other than that for which it was sanctioned (here, a domestic connection used for PG accommodation) — and gives rise to a civil, assessment-based liability fixed by the assessing officer. Section 135 addresses theft — a dishonest abstraction — and is criminal. Diverting a lawful connection to an unauthorised purpose falls under Section 126, not Section 135."
+  },
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Sections 127 & 145 — Statutory Appeal and the Civil-Court Bar",
+   "interpretation": "The remedy against a Section 126 assessment is the statutory appeal under Section 127 before the appellate authority. Section 145 ousts the jurisdiction of civil courts in matters the assessing officer or appellate authority is empowered to decide, so a civil suit challenging a Section 126 assessment is barred and liable to rejection under Order 7 Rule 11(d) CPC."
+  }
+ ],
+ "citations": [
+  {
+   "case": "Sarjiwan Singh v. DVB",
+   "citation": "Delhi HC",
+   "court": "",
+   "principle": "On the statutory scheme for assessment of unauthorised use under Section 126 and its distinct, non-criminal character.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Yogesh Nayyar v. TPDDL",
+   "citation": "Delhi (CS No. 821/16)",
+   "court": "",
+   "principle": "A civil suit challenging a Section 126 assessment is barred; the remedy lies in the statutory appeal.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Deepak Santiya v. BSES Yamuna Power Ltd.",
+   "citation": "Delhi (CS No. 2085/21)",
+   "court": "",
+   "principle": "The civil court’s jurisdiction is ousted by Section 145 in matters the assessing/appellate authority is empowered to decide.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "Joginder Kumar Goyal v. BSES Rajdhani Power Ltd.",
+   "citation": "Delhi HC, W.P.(C) 17658/2022",
+   "court": "",
+   "principle": "Unauthorised-use disputes are to be pursued through the Section 127 appellate mechanism, not the civil court.",
+   "treatment": "Relied on"
+  },
+  {
+   "case": "B L Kantroo v. BSES Rajdhani Power Ltd.",
+   "citation": "Delhi HC, RFA(OS) No. 12/2008",
+   "court": "",
+   "principle": "Reaffirming the bar of Section 145 against civil suits touching a Section 126 assessment.",
+   "treatment": "Relied on"
+  }
+ ],
+ "significance": [
+  {
+   "point": "Unauthorised use is not theft",
+   "explanation": "Diverting a sanctioned domestic connection to a non-domestic use (PG accommodation) is Section 126 unauthorised use — civil and assessment-based — not Section 135 theft."
+  },
+  {
+   "point": "Section 145 ousts the civil court",
+   "explanation": "Civil courts have no jurisdiction over matters the assessing/appellate authority is empowered to decide."
+  },
+  {
+   "point": "Section 127 is the exclusive remedy",
+   "explanation": "An aggrieved consumer must pursue the statutory appeal, not a civil suit (Yogesh Nayyar; B L Kantroo)."
+  },
+  {
+   "point": "A barred plaint is rejected under Order 7 Rule 11(d)",
+   "explanation": "Where the suit is barred by Section 145, rejection of the plaint is the correct course."
+  }
+ ],
+ "generic_facts": {
+  "consumer_type": "domestic used for non-domestic (PG)",
+  "theft_mode": "Unauthorized use - domestic connections used for non-domestic/PG accommodation purpose",
+  "meter_status": "—",
+  "load_kw": null,
+  "assessment_rs": 140000,
+  "discom": "Tata Power Delhi Distribution Limited",
+  "public_witness_joined": false,
+  "prosecution_witnesses": 0,
+  "defence_witnesses": 0,
+  "s65b_certificate_filed": false,
+  "abetment_charge": false,
+  "absconding_user": false,
+  "noc_issued": false,
+  "settlement": false,
+  "meter_bypass": false,
+  "outcome": "Civil appeal dismissed (s.126 unauthorised use; s.145 bar)",
+  "sentence": "n/a (civil)",
+  "defence": "false implication; no defence evidence"
+ }
+}

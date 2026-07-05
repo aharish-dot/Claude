@@ -1,0 +1,59 @@
+{
+ "case_no": "039",
+ "title": "Harvinder Singh Matharu v. BSES Rajdhani Power Ltd.",
+ "subcite": "CS (DJ) No. 777/2022 | CNR DLWT01-008341-2022 | Civil Court, West District, Tis Hazari Courts, Delhi",
+ "court": "Court of the Civil Judge, West District, Tis Hazari Courts, Delhi",
+ "judge": "Ms. Susheel Bala Dagar, Civil Judge",
+ "date_of_judgment": "2026-05-04",
+ "offence_date": null,
+ "discom": "BSES Rajdhani Power Limited",
+ "parties": "Harvinder Singh Matharu (plaintiff/consumer) v. BSES Rajdhani Power Ltd. (defendant licensee)",
+ "result": "Civil suit for declaration and injunction. A consumer’s civil action against the licensee — seeking a declaration and a mandatory/permanent injunction in respect of his connection — included for comparison as the civil counterpart to the criminal Section 135 prosecutions in this set.",
+ "statutes": [
+  "Sections 126 & 145, Electricity Act, 2003",
+  "Specific Relief Act, 1963 (declaration and injunction)",
+  "Code of Civil Procedure, 1908"
+ ],
+ "interpretations": [
+  {
+   "act": "Electricity Act, 2003",
+   "provision": "Civil Remedy vs Criminal Prosecution",
+   "interpretation": "This proceeding marks the civil end of the spectrum. A consumer aggrieved by a demand or by the licensee’s action may, in an appropriate case, seek civil relief (declaration/injunction); but where the dispute concerns an assessment for unauthorised use under Section 126, Section 145 bars the civil court and the remedy is the statutory appeal under Section 127. The criminal machinery of Section 135 is reserved for dishonest abstraction — theft — and is distinct from the consumer’s civil grievances."
+  }
+ ],
+ "citations": [],
+ "significance": [
+  {
+   "point": "Not every electricity dispute is a theft case",
+   "explanation": "Assessment and unauthorised-use grievances are civil; only dishonest abstraction is Section 135 theft."
+  },
+  {
+   "point": "The consumer’s civil remedies are limited by the statutory scheme",
+   "explanation": "Where Section 126 is engaged, Section 145 bars the civil court and Section 127 provides the appeal."
+  },
+  {
+   "point": "Comparative value",
+   "explanation": "The case anchors the civil end of the spectrum against which the criminal prosecutions can be read."
+  }
+ ],
+ "generic_facts": {
+  "consumer_type": "domestic",
+  "theft_mode": "",
+  "meter_status": "—",
+  "load_kw": null,
+  "assessment_rs": null,
+  "discom": "BSES Rajdhani Power Limited",
+  "public_witness_joined": null,
+  "prosecution_witnesses": null,
+  "defence_witnesses": 0,
+  "s65b_certificate_filed": false,
+  "abetment_charge": false,
+  "absconding_user": false,
+  "noc_issued": false,
+  "settlement": false,
+  "meter_bypass": false,
+  "outcome": "Civil suit (declaration/injunction)",
+  "sentence": "n/a (civil)",
+  "defence": "false implication; no defence evidence"
+ }
+}
