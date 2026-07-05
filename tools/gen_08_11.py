@@ -32,7 +32,7 @@ TPL_HEAD = """<!doctype html>
     <div class="row"><div class="k">Judge</div><div class="v">Sh. Ashish Rastogi, Addl. Sessions Judge&#8209;05 (Electricity)</div></div>
     <div class="row"><div class="k">Date of Judgment</div><div class="v">{doj} &nbsp;<span style="color:#5b6b7f">(date of inspection / offence: {dooff})</span></div></div>
     <div class="row"><div class="k">Parties</div><div class="v">{parties}</div></div>
-    <div class="row"><div class="k">Statutes Invoked</div><div class="v">Section 135 (and third proviso to s.&nbsp;135(1)), Electricity Act, 2003; Section 24, IPC; Sections 65B, 106 &amp; 4, Indian Evidence Act, 1872; Sections 251, 313 &amp; 41A, Cr.P.C.; Regulations 60&#8211;63, DERC (Supply Code) Regulations, 2007</div></div>
+    <div class="row"><div class="k">Statutes Invoked</div><div class="v">{statutes}</div></div>
     <div class="row"><div class="k">Result</div><div class="v">{result}</div></div>
   </div>
 
@@ -99,7 +99,8 @@ def build(c, out):
         title=c["title"], subcite=c["subcite"], doj=c["doj"], dooff=c["dooff"],
         parties=c["parties"], result=c["result"], charge=c["charge"], facts=c["facts"],
         headnote=c["headnote"], reasoning=reasoning, mode_desc=c["mode_desc"], bill=c["bill"],
-        held=c["held"], sig_intro=c["sig_intro"], sig_items=sig_items, cite_rows=rows)
+        held=c["held"], sig_intro=c["sig_intro"], sig_items=sig_items, cite_rows=rows,
+        statutes=c.get("statutes", "Section 135 (and third proviso to s.&nbsp;135(1)), Electricity Act, 2003; Section 24, IPC; Sections 65B, 106 &amp; 4, Indian Evidence Act, 1872; Sections 251, 313 &amp; 41A, Cr.P.C.; Regulations 60&#8211;63, DERC (Supply Code) Regulations, 2007"))
     open(out, "w").write(html_out)
     print("wrote", out, len(html_out))
 
