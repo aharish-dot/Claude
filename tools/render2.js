@@ -1,19 +1,21 @@
 const { chromium } = require('playwright-core');
 const path = require('path');
 (async () => {
-  const [,, inPath, outPath, caseNo] = process.argv;
+  const [,, inPath, outPath, caseNo, courtArg, scopeArg] = process.argv;
+  const court = courtArg || 'Delhi District Court';
+  const scope = scopeArg || 'Section 135, Electricity Act';
   const browser = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium', args: ['--no-sandbox'] });
   const page = await browser.newPage();
   await page.goto('file://' + path.resolve(inPath), { waitUntil: 'networkidle' });
   const header = `
     <div style="font-family:Arial,'Liberation Sans',sans-serif;font-size:7.6px;color:#6b7787;width:100%;padding:0 17mm;box-sizing:border-box;-webkit-print-color-adjust:exact;">
       <div style="text-align:center;letter-spacing:.16em;text-transform:uppercase;border-bottom:.5px solid #c9d3df;padding-bottom:4px;">
-        Delhi District Court &nbsp;&middot;&nbsp; Judgment Digest &nbsp;&middot;&nbsp; Section 135, Electricity Act
+        ${court} &nbsp;&middot;&nbsp; Judgment Digest &nbsp;&middot;&nbsp; ${scope}
       </div></div>`;
   const footer = `
     <div style="font-family:Arial,'Liberation Sans',sans-serif;font-size:7.6px;color:#6b7787;width:100%;padding:0 17mm;box-sizing:border-box;-webkit-print-color-adjust:exact;">
       <div style="display:flex;justify-content:space-between;border-top:.5px solid #c9d3df;padding-top:4px;">
-        <span>${caseNo} &nbsp;&middot;&nbsp; Delhi District Court</span>
+        <span>${caseNo} &nbsp;&middot;&nbsp; ${court}</span>
         <span>Page <span class="pageNumber"></span> of <span class="totalPages"></span></span>
       </div></div>`;
   await page.pdf({ path: outPath, format: 'A4', printBackground: true, displayHeaderFooter: true,
