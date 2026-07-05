@@ -1,6 +1,63 @@
 {
  "court": "high-court",
  "keyed_by": "indiankanoon_docid",
- "note": "Built incrementally from each case's verified extract; powers the merged Table of Authorities.",
- "authorities": {}
+ "note": "Built incrementally from each case's verified extract; powers the merged Table of Authorities. Keyed by Indian Kanoon doc-id; each authority lists the cases that cited it and how it was treated.",
+ "authorities": {
+  "15267": {
+   "name": "M.P. Electricity Board v. Harsh Wood Products",
+   "cite": "(1996) 4 SCC 522",
+   "court": "Supreme Court",
+   "cited_by": [
+    {"case_id": "HC-002", "treatment": "Followed", "proposition": "No notice/opportunity required before disconnecting supply on a prima facie finding of theft; not violative of Articles 14 or 20(1) or natural justice."}
+   ]
+  },
+  "755547": {
+   "name": "M.U. Sinai v. Union of India",
+   "cite": "",
+   "court": "Supreme Court (Constitution Bench)",
+   "cited_by": [
+    {"case_id": "HC-002", "treatment": "Applied", "proposition": "A removal-of-difficulties power may only round off angularities and cannot alter a statute's basic structure or essential provisions (para 47)."}
+   ]
+  },
+  "335276": {
+   "name": "Maharana Mills Pvt. Ltd. v. Income Tax Tribunal, Ahmedabad",
+   "cite": "",
+   "court": "Supreme Court",
+   "cited_by": [
+    {"case_id": "HC-002", "treatment": "Relied on", "proposition": "The Government's subjective satisfaction that a difficulty has arisen is not conclusive and remains open to judicial scrutiny."}
+   ]
+  },
+  "1057604": {
+   "name": "Agricultural Market Committee v. Shalimar Chemical Works Ltd.",
+   "cite": "AIR 1997 SC 2504",
+   "court": "Supreme Court",
+   "cited_by": [
+    {"case_id": "HC-002", "treatment": "Relied on", "proposition": "The Legislature must enunciate policy and principles before delegating subsidiary legislative power."}
+   ]
+  },
+  "1996908": {
+   "name": "Dhulabhai v. State of M.P.",
+   "cite": "",
+   "court": "Supreme Court (Constitution Bench)",
+   "cited_by": [
+    {"case_id": "HC-002", "treatment": "Applied", "proposition": "The seven principles governing express or implied ouster of civil-court jurisdiction under a special statute."}
+   ]
+  },
+  "156242701": {
+   "name": "Mafatlal Industries Ltd. v. Union of India",
+   "cite": "",
+   "court": "Supreme Court (Nine-Judge Bench)",
+   "cited_by": [
+    {"case_id": "HC-002", "treatment": "Relied on", "proposition": "Narrowed Dhulabhai's Principle (1): only non-compliance with fundamental statutory provisions or fundamental judicial procedure defeats the finality of a special tribunal's order."}
+   ]
+  },
+  "1155660": {
+   "name": "Unique Butyle Tube Industries Pvt. Ltd. v. U.P. Financial Corporation",
+   "cite": "",
+   "court": "Supreme Court",
+   "cited_by": [
+    {"case_id": "HC-002", "treatment": "Applied", "proposition": "The principles of casus omissus and reading a statute as a whole to avoid an absurd or anomalous result."}
+   ]
+  }
+ }
 }

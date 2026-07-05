@@ -1,13 +1,20 @@
 {
  "court": "high-court",
  "prefix": "HC",
- "next_seq": 2,
+ "next_seq": 3,
  "note": "Stable filename -> case_id map. Reuse existing ids; never renumber a processed case.",
  "cases": [
   {
    "case_id": "HC-001",
    "source_file": "Jayshree Talkies vs Paschim Gujarat Vij Co Ltd on 26 July, 2018.pdf",
    "title": "Jayshree Talkies v. Paschim Gujarat Vij Company Ltd.",
+   "court": "High Court of Gujarat",
+   "status": "done"
+  },
+  {
+   "case_id": "HC-002",
+   "source_file": "Torrent Power Aec Ltd. vs Gayatri Intermediates Pvt. Ltd. on 13 April, 2006.html",
+   "title": "Torrent Power AEC Ltd. v. Gayatri Intermediates Pvt. Ltd.",
    "court": "High Court of Gujarat",
    "status": "done"
   }
