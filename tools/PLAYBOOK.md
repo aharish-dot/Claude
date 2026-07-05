@@ -1,0 +1,86 @@
+# Judgment Digest Pipeline — Playbook (High Court & Supreme Court)
+
+Standing procedure for turning an uploaded judgment into a committed digest. It is
+**court-agnostic**: substitute `high-court` or `supreme-court` for `<COURT>` throughout.
+Any fresh session — including an unattended overnight Routine run — can execute this end to
+end from repo state alone. Nothing here depends on Google Drive or any external fetch.
+
+---
+
+## 0. Orient
+- `git pull`.
+- **Pending work = files in `<COURT>/input/`** (ignore `README.md` and `.gitkeep`).
+- Shared tools in `tools/`. Per-court state in `<COURT>/state/`.
+- The location of a source file (`input/` vs `processed/`) is the durable progress marker.
+
+## 1. Per-case flow — one file at a time
+1. Pick the next file in `<COURT>/input/` (sorted; a numeric prefix like `01-` forces order).
+2. **Assign / look up** its case id in `<COURT>/state/index.json` (`HC-0NN` / `SC-0NN`,
+   sequential, stable — reuse if the filename is already indexed).
+3. **Pre-parse (deterministic, no LLM):**
+   `python tools/extract_judgment.py "<input>" <COURT>/extracts <caseid>`
+   → writes `<caseid>.txt` (clean text) and `<caseid>.fp.json` (raw fingerprint: citations
+   with Indian Kanoon doc-ids, cause title, court, coram, sections, counts). Handles HTML and PDF.
+4. **Deep-extract (ONE Haiku sub-agent per case, throwaway context — prompt in §2):**
+   reads `<caseid>.txt`, writes `<COURT>/extracts/<caseid>.extract.json` (structured digest content).
+   One judgment per sub-agent — never batch (batching truncates on long orders).
+5. **Verify (§3) — nothing proceeds unverified.**
+6. **Generate** the digest HTML from the extract JSON (main thread) and render to
+   `<COURT>/summaries/pdf/<caseid>_<slug>.pdf` via `tools/render2.js` (or `render_all.js` for batches).
+7. Write `<COURT>/summaries/json/<caseid>.json`; **append this case's authorities to
+   `<COURT>/state/authorities-ledger.json`** (keyed by doc-id).
+8. `git mv "<input>" <COURT>/processed/`; set the case `status:"done"` in `state/index.json`.
+9. **Commit:** `<caseid> <short cause title>: digest + extract`.
+10. After a batch: rebuild the four compilations (`tools/build_merged.py`, court-parameterised)
+    and `git push`.
+
+## 2. Sub-agent deep-extract prompt (per case)
+> You are extracting one court judgment into strict JSON for a legal digest. Read the file
+> `<caseid>.txt` in full. Output ONLY a JSON object with these keys:
+> `cause_title, court, coram (list of judges), nature_of_proceeding (e.g. "Criminal appeal
+> u/s 374 CrPC"), sections_in_issue[], issues[] (numbered points for determination),
+> facts (2–4 short paras), reasoning_by_issue[] (each: {issue, holding, reasoning}),
+> authorities[] (each: {docid, name, citation, treatment ∈
+> {followed, distinguished, overruled, referred, relied-on, doubted}, proposition, paras}),
+> ratio (the binding ratio decidendi), obiter[] (notable obiter), disposition
+> (allowed / dismissed / partly allowed / remanded, + relief), significance[] (each:
+> {point, explanation}).
+> Rules: cite paragraph numbers where possible; use ONLY authorities actually discussed in the
+> text (match the doc-ids already listed in `<caseid>.fp.json`); never invent a citation or a
+> holding; if something is unclear or absent, use null / "not stated" rather than guessing.
+
+## 3. Verification checklist (before commit)
+- Every `authorities[].docid` in the extract exists in `<caseid>.fp.json` (grep the source).
+- `coram`, `nature_of_proceeding`, and `disposition` each appear (in substance) in `<caseid>.txt`.
+- Every section in `sections_in_issue` is present in the text.
+- No judge or party name has leaked into the authorities list (a recurring Haiku error).
+- Spot-check one `treatment` label against its cited paragraph in the source.
+- Assessment/relief figures, if any, match the text.
+
+## 4. HC / SC digest format (extends the Delhi DC format)
+The DC digest sections (title, docket, charge, facts, reasoning-with-blue-lead-ins, headnote,
+interpretation, held, significance, citations) **plus**:
+- **Docket:** Bench / Coram; Nature of proceeding (+ provision); appeal-from / posture.
+- **Issues / Points for Determination:** numbered.
+- **Reasoning:** organised issue-by-issue.
+- **Table of Authorities:** adds a **Treatment** column (followed / distinguished / overruled /
+  referred / relied-on / doubted) — not just "relied on".
+- **Ratio vs Obiter:** stated separately.
+- **Disposition:** the operative order.
+- Compilations gain a treatment dimension and group authorities by how they were treated.
+> Lock the exact look against the FIRST sample digest before any bulk run.
+
+## 5. Overnight Routine (only when armed)
+- A scheduled trigger fires a **fresh session** with: *"Execute `tools/PLAYBOOK.md` for
+  `<COURT>`: process the next N files in `input/`, verify and commit each, `git mv` to
+  `processed/`, stop when `input/` is empty or the token budget is low, then push and post a
+  summary."*
+- Fresh session per fire = lean context. Self-heals across session limits because the queue
+  lives in `input/`. If the account is limited, a firing simply no-ops; the next one resumes.
+- **It never runs unless explicitly armed.** Disarm any time by disabling the trigger.
+
+## 6. Reusable assets in `tools/`
+- `extract_judgment.py` — deterministic HTML/PDF → text + citation fingerprint.
+- `render2.js`, `render_all.js`, `render3.js` — HTML → PDF (Chromium).
+- `digest.css` — shared stylesheet.
+- `gen_08_11.py`, `gen_abet.py`, `build_merged.py`, … — DC generators to adapt for HC/SC.

@@ -1,0 +1,7 @@
+{
+ "court": "supreme-court",
+ "prefix": "SC",
+ "next_seq": 1,
+ "note": "Stable filename -> case_id map. Reuse existing ids; never renumber a processed case.",
+ "cases": []
+}
