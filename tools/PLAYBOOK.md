@@ -107,3 +107,32 @@ interpretation, held, significance, citations) **plus**:
 - `render2.js`, `render_all.js`, `render3.js` — HTML → PDF (Chromium).
 - `digest.css` — shared stylesheet.
 - `gen_08_11.py`, `gen_abet.py`, `build_merged.py`, … — DC generators to adapt for HC/SC.
+- `verify.py` — deterministic extract check; run before every commit (PASS = 0 problems).
+- `gen_hc.py` — HC/SC extract JSON → digest HTML.
+- `gen_hc_json.py` — HC/SC extract JSON → clean, HTML-stripped `summaries/json/<caseid>.json`.
+
+## 7. Token discipline — run lean every time
+Each turn re-sends the system prompt **and** all prior tool output, so cost ≈ Σ over turns of
+(fixed overhead + accumulated context). The two levers that dominate are **fewer turns** and a
+**small accumulated context**. The `verify.py` gate means none of the below trades away quality.
+
+- **Keep the judgment out of the main thread.** Exactly one sub-agent reads `<caseid>.txt`, in
+  its own context — use **Haiku** (a failed extract is caught by verify and re-run cheaply).
+  Never `grep`/`cat` judgment paragraphs into your own context: that text then re-bills on every
+  later turn and defeats the whole point of the sub-agent.
+- **Verify from evidence, not dumps.** Make the sub-agent end with a short *evidence block* —
+  paragraph numbers + one-line quotes for coram, disposition, and each authority's treatment.
+  Then confirm with `grep -c` / line numbers (presence only); avoid wide `grep -in -A/-B`
+  paragraph dumps into the main thread.
+- **Batch independent checks** (orient, env probe, structural counts) into one shell call —
+  fewer round-trips means fewer re-billed turns.
+- **Don't re-read generated files.** `verify.py` + one targeted count validates the extract;
+  do not read the whole `.extract.json` back in. Edit/Write already report success.
+- **Don't fan out exploratory searches.** If the target branch/folder/intent is unclear, ask
+  one question — do not sweep Drive or the repo. A single overflowing result re-bills for the
+  rest of the session.
+- **Confirm the destination branch first.** Outputs must land on the branch the user actually
+  views (the pipeline / default branch). Verify the branch before rendering, not after — the
+  common failure mode is a correct digest committed where the user never looks.
+- **Amortise setup.** Toolchain dry-runs and environment probing are one-time (case 1 only);
+  skip them for later cases in the same session.
