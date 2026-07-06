@@ -1,7 +1,7 @@
 {
  "court": "high-court",
  "prefix": "HC",
- "next_seq": 3,
+ "next_seq": 4,
  "note": "Stable filename -> case_id map. Reuse existing ids; never renumber a processed case.",
  "cases": [
   {
@@ -16,6 +16,13 @@
    "source_file": "Torrent Power Aec Ltd. vs Gayatri Intermediates Pvt. Ltd. on 13 April, 2006.html",
    "title": "Torrent Power AEC Ltd. v. Gayatri Intermediates Pvt. Ltd.",
    "court": "High Court of Gujarat",
+   "status": "done"
+  },
+  {
+   "case_id": "HC-003",
+   "source_file": "Sandeep Kesarwani vs State Of U.P. & 3 Others on 11 February, 2014.html",
+   "title": "Sandeep Kesarwani v. State of U.P. & 3 Others",
+   "court": "Allahabad High Court",
    "status": "done"
   }
  ]
