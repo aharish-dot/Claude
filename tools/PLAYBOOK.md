@@ -136,3 +136,8 @@ Each turn re-sends the system prompt **and** all prior tool output, so cost ≈ 
   common failure mode is a correct digest committed where the user never looks.
 - **Amortise setup.** Toolchain dry-runs and environment probing are one-time (case 1 only);
   skip them for later cases in the same session.
+- **Run batches in FRESH sessions — never continue an old chat.** Every turn re-bills the whole
+  conversation history, so a lean case run inside a long session still pays for everything that
+  came before it. The queue (`input/`) and progress marker (`processed/`) live in the repo, so a
+  new session loses nothing — use the Kickoff block above. Batch 3–5 cases per fresh session,
+  keep chat replies terse (detail belongs in commit messages), then stop.
