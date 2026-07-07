@@ -40,6 +40,11 @@ has read this file: *"Follow tools/PLAYBOOK.md, process the next 3 in high-court
 1. Pick the next file in `<COURT>/input/` (sorted; a numeric prefix like `01-` forces order).
 2. **Assign / look up** its case id in `<COURT>/state/index.json` (`HC-0NN` / `SC-0NN`,
    sequential, stable — reuse if the filename is already indexed).
+   **Idempotency / duplicate guard — do this FIRST, before assigning any id:** if the input
+   file's basename already appears in `index.json` with `status:"done"` (an identical case was
+   already processed and its source now lives in `processed/`), it is a re-upload. `git rm` it
+   from `input/` and skip it — do NOT assign a new id or regenerate a digest. Only genuinely new
+   filenames are processed. (This makes re-uploads and repeated auto-runs safe no-ops.)
 3. **Pre-parse (deterministic, no LLM):**
    `python tools/extract_judgment.py "<input>" <COURT>/extracts <caseid>`
    → writes `<caseid>.txt` (clean text) and `<caseid>.fp.json` (raw fingerprint: citations
