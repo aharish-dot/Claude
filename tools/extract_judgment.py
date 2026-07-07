@@ -73,7 +73,12 @@ def from_html(s):
 
 
 def from_pdf(path):
-    import fitz
+    try:
+        import fitz
+    except ImportError:  # PyMuPDF absent (e.g. a fresh cloud session) — install once; pypi is allowlisted
+        import subprocess, sys
+        subprocess.run([sys.executable, "-m", "pip", "install", "--quiet", "pymupdf"], check=True)
+        import fitz
     d = fitz.open(path)
     return "\n".join(p.get_text() for p in d), {}, "", "", ""
 
