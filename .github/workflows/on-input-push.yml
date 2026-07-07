@@ -1,0 +1,72 @@
+name: Kick judgment-digest routine on new input
+
+# Event-driven trigger for the "HC/SC judgment-digest auto-processor" Routine.
+# When a new case file is pushed under high-court/input/ or supreme-court/input/,
+# this calls the Routine's /fire API endpoint, which starts a fresh Claude Code
+# cloud session that runs the pipeline (per the Routine's saved prompt).
+#
+# The heavy work runs in the managed cloud session, NOT in this runner — this job
+# only detects a newly-added case and fires the webhook.
+#
+# One-time setup (see the chat notes):
+#   1. claude.ai/code/routines -> open the Routine -> Edit -> add an "API" trigger
+#      -> Generate token -> copy it.
+#   2. GitHub repo -> Settings -> Secrets and variables -> Actions -> New repository
+#      secret named CLAUDE_ROUTINE_TOKEN = that token.
+#   3. Ensure Actions is enabled for the repo.
+
+on:
+  push:
+    branches: [claude/court-judgements-summary-x1rbai]
+    paths:
+      - 'high-court/input/**'
+      - 'supreme-court/input/**'
+
+concurrency:
+  group: kick-digest-routine
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  kick:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Detect a newly ADDED input file (ignore the pipeline's own git mv-out)
+        id: detect
+        run: |
+          set -euo pipefail
+          before="${{ github.event.before }}"
+          zero="0000000000000000000000000000000000000000"
+          if [ -z "$before" ] || [ "$before" = "$zero" ]; then
+            added=$(git ls-files high-court/input supreme-court/input | grep -vE '(^|/)(README\.md|\.gitkeep)$' || true)
+          else
+            added=$(git diff --name-only --diff-filter=A "$before" "${{ github.sha }}" -- high-court/input supreme-court/input \
+                    | grep -vE '(^|/)(README\.md|\.gitkeep)$' || true)
+          fi
+          if [ -n "$added" ]; then
+            echo "New case(s) detected:"; echo "$added"
+            echo "go=1" >> "$GITHUB_OUTPUT"
+          else
+            echo "No newly added case file (likely the pipeline moving a source to processed/). Skipping."
+            echo "go=0" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Fire the auto-processor Routine
+        if: steps.detect.outputs.go == '1'
+        run: |
+          set -euo pipefail
+          http=$(curl -sS -o /tmp/resp.json -w '%{http_code}' \
+            -X POST https://api.anthropic.com/v1/claude_code/routines/trig_01AaNkXtjbtJAw6R2hYYK8q3/fire \
+            -H "Authorization: Bearer ${{ secrets.CLAUDE_ROUTINE_TOKEN }}" \
+            -H "anthropic-beta: experimental-cc-routine-2026-04-01" \
+            -H "anthropic-version: 2023-06-01" \
+            -H "Content-Type: application/json" \
+            -d '{"text":"New case(s) were pushed to an input/ folder. Process the queue per your saved instructions."}')
+          echo "HTTP $http"; cat /tmp/resp.json || true
+          [ "$http" -ge 200 ] && [ "$http" -lt 300 ]
