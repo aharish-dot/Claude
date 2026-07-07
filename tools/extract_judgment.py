@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Deterministic pre-parser: judgment HTML/PDF -> cleaned text + raw fingerprint (no LLM).
+"""Deterministic pre-parser: judgment HTML/PDF/MHTML -> cleaned text + raw fingerprint (no LLM).
 
 Usage:  python tools/extract_judgment.py <input_file> <out_dir> <case_id>
 Writes: <out_dir>/<case_id>.txt        cleaned plain text
@@ -83,6 +83,28 @@ def looks_html(raw):
     return head.startswith(b'<!doctype') or b'<html' in head or b'<body' in head or b'<div' in head
 
 
+def from_mhtml(raw):
+    """MHTML / MIME web archive (Chrome 'Webpage, Single File', .mhtml) -> decode the
+    text/html MIME part(s) (quoted-printable / base64) and reuse from_html. Embedded images
+    and other non-HTML parts are skipped."""
+    import email
+    msg = email.message_from_bytes(raw)
+    parts = []
+    for p in msg.walk():
+        if p.get_content_type() == 'text/html':
+            payload = p.get_payload(decode=True)
+            if payload:
+                parts.append(payload.decode(p.get_content_charset() or 'utf-8', 'replace'))
+    return from_html("\n".join(parts))
+
+
+def looks_mhtml(raw):
+    head = raw[:1024].lstrip().lower()
+    return (head.startswith(b'from: <saved by blink>')
+            or head.startswith(b'content-type: multipart/related')
+            or (b'mime-version:' in head and b'multipart/related' in raw[:4096].lower()))
+
+
 def main():
     if len(sys.argv) < 4:
         sys.exit("usage: extract_judgment.py <input_file> <out_dir> <case_id>")
@@ -92,6 +114,9 @@ def main():
     if ext == '.pdf':
         txt, cites, title, court, coram = from_pdf(inp)
         fmt = 'pdf'
+    elif ext in ('.mht', '.mhtml') or looks_mhtml(raw):
+        txt, cites, title, court, coram = from_mhtml(raw)
+        fmt = 'mhtml'
     elif ext in ('.html', '.htm', '.xhtml') or looks_html(raw):
         txt, cites, title, court, coram = from_html(raw.decode('utf-8', 'replace'))
         fmt = 'html'
