@@ -1,0 +1,60 @@
+name: Resume pending judgments (self-heal after an interrupted / usage-limited run)
+
+# The pipeline is already CASE-LEVEL resumable: a case stays in input/ until its digest is
+# committed and the source moved to processed/. So a run that dies mid-way (e.g. a usage-limit
+# cut-off) loses nothing durable — the source is still queued.
+#
+# This scheduled job is the missing piece: on FREE GitHub-Actions minutes it periodically checks
+# whether any case is still pending and, if so, re-fires the Routine. A stuck case is therefore
+# retried automatically until it completes (once budget is available again). Claude budget is
+# spent ONLY when there is real pending work — idle checks cost nothing.
+
+on:
+  schedule:
+    - cron: '13 */2 * * *'   # every 2 hours (free CI check; only fires Claude if work is pending)
+  workflow_dispatch: {}        # manual "resume now"
+
+concurrency:
+  group: resume-pending
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  resume:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: claude/court-judgements-summary-x1rbai
+
+      - name: Any pending case? (bounded to <48h old so a broken case can't retry forever)
+        id: q
+        run: |
+          set -euo pipefail
+          now=$(date +%s); cap=$((48*3600)); fire=0
+          while IFS= read -r f; do
+            [ -z "$f" ] && continue
+            added=$(git log -1 --format=%ct -- "$f" 2>/dev/null || echo "$now")
+            age=$(( now - added ))
+            if [ "$age" -lt "$cap" ]; then echo "pending (${age}s old): $f"; fire=1
+            else echo "stale (${age}s old) — not auto-resuming; needs a look: $f"; fi
+          done < <(git ls-files high-court/input supreme-court/input | grep -vE '(^|/)(README\.md|\.gitkeep)$' || true)
+          echo "go=$fire" >> "$GITHUB_OUTPUT"
+
+      - name: Re-fire the Routine to resume
+        if: steps.q.outputs.go == '1'
+        run: |
+          set -euo pipefail
+          http=$(curl -sS -o /tmp/r.json -w '%{http_code}' -X POST \
+            https://api.anthropic.com/v1/claude_code/routines/trig_01AaNkXtjbtJAw6R2hYYK8q3/fire \
+            -H "Authorization: Bearer ${{ secrets.CLAUDE_ROUTINE_TOKEN }}" \
+            -H "anthropic-beta: experimental-cc-routine-2026-04-01" \
+            -H "anthropic-version: 2023-06-01" \
+            -H "Content-Type: application/json" \
+            -d '{"text":"Scheduled resume: a case is still pending in an input/ queue (a previous run was interrupted or hit a usage limit). Process the queue per your saved instructions."}')
+          echo "fire HTTP $http"; cat /tmp/r.json || true
+          # A usage-limit rejection (429) is expected inside a limit window — the next scheduled
+          # run retries. Only hard-fail on auth errors so a bad/expired token is visible.
+          case "$http" in 401|403) echo "::error::routine token rejected ($http)"; exit 1;; esac
