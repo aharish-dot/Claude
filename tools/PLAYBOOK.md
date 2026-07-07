@@ -108,7 +108,10 @@ interpretation, held, significance, citations) **plus**:
 - **It never runs unless explicitly armed.** Disarm any time by disabling the trigger.
 
 ## 6. Reusable assets in `tools/`
-- `extract_judgment.py` — deterministic HTML/PDF → text + citation fingerprint.
+- `extract_judgment.py` — deterministic HTML / MHTML / PDF → text + citation fingerprint. Also
+  accepts an Indian Kanoon **doc-id or /doc/ URL** (as file content, or an empty `<docid>.ik`
+  file) and fetches the judgment via the IK API — needs `IK_API_TOKEN` in the env + network to
+  `api.indiankanoon.org`. So a "link file" flows through the normal pipeline like any upload.
 - `render2.js`, `render_all.js`, `render3.js` — HTML → PDF (Chromium).
 - `digest.css` — shared stylesheet.
 - `gen_08_11.py`, `gen_abet.py`, `build_merged.py`, … — DC generators to adapt for HC/SC.

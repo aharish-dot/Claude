@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Deterministic pre-parser: judgment HTML/PDF/MHTML -> cleaned text + raw fingerprint (no LLM).
+"""Deterministic pre-parser: a judgment (HTML/PDF/MHTML file, or an Indian Kanoon doc-id / URL
+that is fetched via the IK API) -> cleaned text + raw fingerprint (no LLM).
 
 Usage:  python tools/extract_judgment.py <input_file> <out_dir> <case_id>
 Writes: <out_dir>/<case_id>.txt        cleaned plain text
@@ -110,13 +111,55 @@ def looks_mhtml(raw):
             or (b'mime-version:' in head and b'multipart/related' in raw[:4096].lower()))
 
 
+def ik_docid(s):
+    """Return an Indian Kanoon doc-id iff s is *only* a bare doc-id or a single IK /doc/ URL."""
+    s = (s or "").strip()
+    if re.fullmatch(r'\d{3,}', s):
+        return s
+    m = re.fullmatch(r'(?:https?://)?(?:www\.)?indiankanoon\.org/doc(?:fragment)?/(\d{3,})/?', s, re.I)
+    return m.group(1) if m else ""
+
+
+def from_ik_api(docid):
+    """Fetch a judgment via the Indian Kanoon API (POST /doc/<id>/, header 'Authorization: Token').
+    Needs IK_API_TOKEN in the environment and network access to api.indiankanoon.org. Reuses
+    from_html on the returned document HTML and prefers the API's own title / court fields."""
+    import os, json, subprocess
+    token = os.environ.get('IK_API_TOKEN', '').strip()
+    if not token:
+        sys.exit("IK_API_TOKEN not set — add it to the cloud environment's variables")
+    p = subprocess.run(
+        ['curl', '-sS', '-X', 'POST', f'https://api.indiankanoon.org/doc/{docid}/',
+         '-H', f'Authorization: Token {token}', '-H', 'Accept: application/json'],
+        capture_output=True, timeout=90)
+    if p.returncode != 0:
+        sys.exit(f"IK API fetch failed for doc {docid}: {p.stderr.decode('utf-8', 'replace')[:200]}")
+    try:
+        d = json.loads(p.stdout.decode('utf-8', 'replace'))
+    except Exception:
+        sys.exit(f"IK API returned non-JSON for doc {docid}: {p.stdout[:160]!r}")
+    if not d.get('doc'):
+        sys.exit(f"IK API response for doc {docid} has no document body (keys: {list(d)})")
+    txt, cites, t2, c2, co2 = from_html(d['doc'])
+    return txt, cites, strip(d.get('title', '')) or t2, strip(d.get('docsource', '')) or c2, co2
+
+
 def main():
     if len(sys.argv) < 4:
         sys.exit("usage: extract_judgment.py <input_file> <out_dir> <case_id>")
     inp, outdir, cid = sys.argv[1], sys.argv[2], sys.argv[3]
     raw = open(inp, 'rb').read()
     ext = os.path.splitext(inp)[1].lower()
-    if ext == '.pdf':
+    content = raw.decode('utf-8', 'replace')
+    # Fetch-request: the input is *only* an Indian Kanoon doc-id or /doc/ URL (as file content,
+    # or - for an empty file with no judgment extension - as the filename) -> fetch via the API.
+    docid = ik_docid(content) if len(raw) < 4000 else ""
+    if not docid and not content.strip() and ext not in ('.pdf', '.html', '.htm', '.xhtml', '.mht', '.mhtml'):
+        docid = ik_docid(os.path.splitext(os.path.basename(inp))[0])
+    if docid:
+        txt, cites, title, court, coram = from_ik_api(docid)
+        fmt = 'ik-api'
+    elif ext == '.pdf':
         txt, cites, title, court, coram = from_pdf(inp)
         fmt = 'pdf'
     elif ext in ('.mht', '.mhtml') or looks_mhtml(raw):

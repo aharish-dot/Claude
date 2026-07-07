@@ -1,18 +1,29 @@
-# Drop High Court judgments here
+# Add High Court judgments here
 
-Put a judgment file in this folder and the pipeline auto-processes it into a digest
-(source is then moved to `../processed/`, so this folder always shows what's still pending).
+Two ways to queue a case — either one auto-processes into a digest (the source is then moved to
+`../processed/`, so this folder always shows what is still pending). Put it here for High Court
+cases; use `supreme-court/input/` for Supreme Court.
 
-**Accepted formats** — the parser sniffs the content, so a missing or odd file extension is fine:
-- **HTML** — an Indian Kanoon page saved as HTML. *Richest input:* preserves the cited-case
-  doc-ids, so the digest's Table of Authorities gets accurate links.
-- **MHTML** — Chrome/Edge *Save page as → "Webpage, Single File"* (`.mhtml` / "Saved by Blink").
-  Fully supported (decoded automatically).
-- **PDF** — searchable / text-selectable PDFs. Scanned image-only PDFs need OCR first — flag those.
+## 1. Give an Indian Kanoon doc-id or link  ← least friction
+Create a file here whose **content** is the doc-id or the IK link. The pipeline fetches the
+judgment through the Indian Kanoon API and processes it. Valid content:
 
-**A plain link does _not_ work.** Giving only an `indiankanoon.org/doc/...` URL can't be
-processed: this cloud sandbox can't reach that domain, and Indian Kanoon blocks automated
-fetching (HTTP 403). Save the page (Ctrl/Cmd-S) and upload the file instead.
+- `51255397`
+- `https://indiankanoon.org/doc/51255397/`
 
-- **Any filename works.** Prefix a number (`01-`, `02-`, …) to force processing order.
-- You can upload several at once; each is processed and committed separately.
+Name the file anything — using the doc-id as the filename is handy, since re-adding the same id
+is then skipped as a duplicate. (An empty file *named* `<docid>.ik` also works.)
+
+*One-time setup this relies on:* `IK_API_TOKEN` set in the cloud environment's variables, and
+network access to `indiankanoon.org` / `api.indiankanoon.org`.
+
+## 2. Upload the saved judgment file
+Save the IK page (Ctrl/Cmd-S) or download the PDF, and upload it here. Accepted formats — the
+content is sniffed, so the file extension does not matter:
+
+- **HTML** — an IK page saved as HTML (richest: preserves cited-case doc-ids).
+- **MHTML** — Chrome/Edge *"Webpage, Single File"* (`.mhtml` / "Saved by Blink").
+- **PDF** — searchable / text-selectable PDFs (scanned image-only PDFs need OCR first).
+
+---
+Prefix a number (`01-`, `02-`, …) to force processing order. You can add several at once.
