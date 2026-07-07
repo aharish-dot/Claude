@@ -1,7 +1,7 @@
 {
  "court": "high-court",
  "prefix": "HC",
- "next_seq": 5,
+ "next_seq": 6,
  "note": "Stable filename -> case_id map. Reuse existing ids; never renumber a processed case.",
  "cases": [
   {
@@ -29,6 +29,13 @@
    "case_id": "HC-004",
    "source_file": "Satish Kumar Bharti Urf Chotu vs State Of U.P. And 2 Others on 29 June, 2026",
    "title": "Satish Kumar Bharti @ Chhotu v. State of U.P. & 2 Others",
+   "court": "Allahabad High Court",
+   "status": "done"
+  },
+  {
+   "case_id": "HC-005",
+   "source_file": "51255397",
+   "title": "Rakesh Singh v. State of U.P. (Prin. Secy., Energy) & Ors.",
    "court": "Allahabad High Court",
    "status": "done"
   }
