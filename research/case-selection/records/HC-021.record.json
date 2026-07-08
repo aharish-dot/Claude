@@ -1,0 +1,159 @@
+{
+  "schema_version": "1.0",
+  "case_id": "HC-021",
+  "docid": "243218",
+  "court": "High Court at Calcutta",
+  "court_type": "HC",
+  "bench_type": "HC-SB",
+  "title": "Hasi Mazumdar v. West Bengal State Electricity Board",
+  "neutral_cite": "AIR 2006 Cal 59; (2006) 1 Cal LJ 80",
+  "date": "2005-08-25",
+  "bench": ["Girish Chandra Gupta J"],
+  "bench_strength": 1,
+  "reportable": true,
+  "one_line": "After the Electricity Act, 2003 came into force, a provisional assessment for unauthorised use must be made strictly under Section 126 (not under the Board's old conditions of supply), and it must be the assessing officer's OWN best judgment based on his personal observation — an assessment dictated by a superior's guideline/office order is a nullity, and money extracted under threat of non-restoration is recoverable.",
+  "facts_squib": "Two small-business consumers were disconnected and booked for unauthorised use by hooking; provisional assessments (Rs 1.08 lakh and Rs 1.57 lakh) were raised under Clause 22(J) of the Board's Terms & Conditions of Supply, computed per a 30.12.2003 office-order guideline that pegged unauthorised monthly consumption at ~6 times their highest recorded average. They paid under protest to get supply restored, then challenged the assessments, alleging the whole theft story was retaliation for refusing a Puja subscription demand.",
+  "disposition": "Provisional assessments set aside; money paid held recoverable (to be set apart and adjusted against future bills); supply to be restored; costs awarded; liberty to the officer to make a fresh Section 126(1) best-judgment assessment with reasons and opportunity.",
+  "procedural_posture": "Writ petition under Article 226 challenging the provisional assessments",
+  "outcome_for": "consumer",
+  "relief_granted": "Assessments quashed; money recoverable/adjustable; supply restored; costs; liberty to reassess lawfully.",
+  "consumer_category": ["commercial (wheat-grinding / ice-cream / oil mill)"],
+  "fact_pattern_tags": ["hooking", "assessment-under-old-supply-conditions", "guideline-dictated-assessment", "absurd-quantum", "payment-under-compulsion"],
+  "state": ["West Bengal"],
+  "discom": ["West Bengal State Electricity Board"],
+  "amendment_considered": "pre-2007 — decided in 2005 under the Electricity Act, 2003 as originally enacted (Section 126(6) penal rate then '1.5x'); the Section 126(1) best-judgment ratio is unaffected by the 2007 amendment",
+  "regulations_construed": [
+    {"reg": "WBSEB Terms & Conditions of Supply, Clause 22(J) (provisional assessment) — held superseded by s.126 from 10.6.2003", "implements": "pre-2003 assessment", "made_under": "Electricity (Supply) Act, 1948"},
+    {"reg": "WBSEB office-order guideline dated 30.12.2003 (mode of provisional assessment) — held without authority", "implements": "purported s.126 procedure", "made_under": "Electricity Act, 2003"}
+  ],
+  "issues_framed": [
+    "whether the provisionally assessed bills dated 7th August, 2004, copies whereof are annexure P-3 to the writ petition collectively, are legal?",
+    "whether the money paid by the writ petitioners pursuant to those bills is recoverable by them?"
+  ],
+  "provisions_construed": [
+    {"provision": "s.126(1)", "docid": "124046987"},
+    {"provision": "s.126(6)", "docid": "124046987"},
+    {"provision": "s.135", "docid": "90633360"},
+    {"provision": "Indian Contract Act s.72", "docid": ""}
+  ],
+  "provision_holdings": [
+    {
+      "provision": "s.126",
+      "issue_node": ["assessment-126"],
+      "holding": "From the commencement of the Electricity Act, 2003 (10.6.2003), a provisional assessment for unauthorised use must be made strictly in accordance with Section 126; an assessment made under the Board's old Terms & Conditions of Supply (Clause 22(J)) is not in accordance with Section 126 and is bad.",
+      "interpretation_type": "assessment-must-be-under-s126",
+      "key_para": "with effect from 10th June, 2003 the provisional assessment has to be made strictly in accordance with Section 126 of the Electricity Act 2003. The assessment goes to show that it was made under Clause 22(J) of the Terms and Conditions of Supply. Therefore admittedly it was not in accordance with Section 126 of the Electricity Act 2003.",
+      "para_ref": "para 16",
+      "holding_type": "ratio",
+      "provision_version": "pre-2007"
+    },
+    {
+      "provision": "s.126(1)",
+      "issue_node": ["assessment-126", "natural-justice"],
+      "holding": "Section 126(1) requires the assessing officer to provisionally assess 'to the best of his judgment' on his own personal observation of the extent of unauthorised use; this quasi-judicial function cannot be fettered by a superior's guideline/office order — an assessment dictated by such a direction is the direction-giver's judgment, not the officer's, and is illegal.",
+      "interpretation_type": "best-judgment-must-be-officers-own",
+      "key_para": "The assessment can be made only by the person who has seen the extent of unauthorised use. Based on his personal observation he has been authorised to assess the quantity of unauthorised consumption and to assess the amount payable for that at the penal rate provided under Sub-section (6) of Section 126 .",
+      "para_ref": "para 18",
+      "holding_type": "ratio",
+      "provision_version": "pre-2007"
+    },
+    {
+      "provision": "s.126(1)",
+      "issue_node": ["assessment-126"],
+      "holding": "On the facts, the assessment was not the officer's judgment but the judgment of those who issued the 30.12.2003 guideline, and was therefore not an impartial or legal assessment (evidenced by an absurd quantum ~6 times the consumer's highest average consumption).",
+      "interpretation_type": "guideline-dictated-assessment-void",
+      "key_para": "it was not the judgment of the respondent No. 4. It was the judgment of the persons who issued the guideline dated 30th December, 2003",
+      "para_ref": "para 19",
+      "holding_type": "ratio",
+      "provision_version": "pre-2007"
+    },
+    {
+      "provision": "s.126 / Contract Act s.72",
+      "issue_node": ["assessment-126"],
+      "holding": "Money paid pursuant to an illegal assessment under the threat that supply would not be restored until payment is recoverable; allowing the Board to retain it would be unjust enrichment impermissible under the Contract Act.",
+      "interpretation_type": "recovery-of-coerced-payment",
+      "key_para": "money paid pursuant therefore is recoverable regard being had to the fact that there was an element of threat that until payment, supply of electricity would not be restored. If the Board is allowed to retain the money paid in such circumstances it would amount to unjust enrichment which is not permissible under the Indian Contract Act .",
+      "para_ref": "para 27",
+      "holding_type": "ratio",
+      "provision_version": "pre-2007"
+    },
+    {
+      "provision": "s.135",
+      "issue_node": ["126v135"],
+      "holding": "Even if hooking was found, the Board could de-hook, realise the value of unauthorised consumption at the penal rate, or proceed under Section 135 — but that did not authorise the disconnection effected or an illegal assessment.",
+      "interpretation_type": "remedies-for-hooking",
+      "key_para": "the Board could have removed the hooking, could also have proceeded to realise value of the unauthorisedly consumed electricity at a penal rate and could also possibly have proceeded under Section 135 of the Electricity Act 2003 but no provision was shown which might have authorised the Board to disconnect the supply of electricity.",
+      "para_ref": "para 27",
+      "holding_type": "explanatory",
+      "provision_version": "pre-2007"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "B. Rajagopal Naidu v. State Transport Appellate Tribunal",
+      "cite": "AIR 1964 SC 1573",
+      "court": "Supreme Court",
+      "docid": "",
+      "principle": "A quasi-judicial authority must be left absolutely free to decide according to its own best judgment, unfettered by extraneous guidance from the executive/administrative wing.",
+      "principle_para": "in exercising their authority and in discharging their quasi judicial function the Tribunals constituted under the Act must be left absolutely free to deal with the matter according to their best judgment.",
+      "treatment": "followed",
+      "on_issue": "assessment-126"
+    },
+    {
+      "name": "Orient Paper Mills Ltd. v. Union of India",
+      "cite": "AIR 1969 SC 48",
+      "court": "Supreme Court",
+      "docid": "",
+      "principle": "If an authority's judgment is controlled by directions given by others, it is a misnomer to call the order its judgment — it is really the judgment of the direction-giver.",
+      "principle_para": "if their judgment is controlled by the directions given by others. Then it is a misnomer to call their order as their judgments; they would essentially be the judgments of the authority that gave the directions.",
+      "treatment": "followed",
+      "on_issue": "assessment-126"
+    },
+    {
+      "name": "Chintapalli Agency Taluk Arrack Sales Co-op. Society Ltd. v. Secretary (Food & Agriculture), Govt. of A.P.",
+      "cite": "AIR 1977 SC 2313",
+      "court": "Supreme Court",
+      "docid": "",
+      "principle": "Any 'request' of the Government to a subordinate authority is tantamount to a positive direction which the subordinate will find it difficult to disregard.",
+      "principle_para": "Any request of the Government to a subordinate authority is tantamount to a positive direction or order and it will be difficult for the subordinate authority to disregard the same.",
+      "treatment": "followed",
+      "on_issue": "assessment-126"
+    },
+    {
+      "name": "Collector of Central Excise v. Krishna Carbon Paper Co.",
+      "cite": "AIR 1989 SC 151",
+      "court": "Supreme Court",
+      "docid": "",
+      "principle": "A quasi-judicial body is not bound by the directions of the Board; a tariff/direction issued by them is irrelevant to its adjudication.",
+      "treatment": "followed",
+      "on_issue": "assessment-126"
+    }
+  ],
+  "ratio": [
+    {
+      "issue_node": "assessment-126",
+      "proposition": "A Section 126 provisional assessment must (a) be made under Section 126 itself, not under the Board's old supply conditions, and (b) be the assessing officer's own best judgment on his personal observation; an assessment dictated by a superior's guideline is a nullity, and coerced payment on an illegal assessment is recoverable as unjust enrichment.",
+      "scope": "HC-SB (Calcutta)",
+      "novelty": "settles",
+      "conflicts_with": []
+    }
+  ],
+  "significance": "A leading Calcutta authority (AIR 2006 Cal 59, cited 8×) on the integrity of the Section 126(1) 'best of his judgment' standard: the provisional assessment must be the assessing officer's own quasi-judicial judgment on personal observation, not a figure dictated by a departmental guideline/office order; and it must be made under Section 126, not the pre-Act supply conditions. Coerced payment on an illegal assessment is recoverable. Relied on by later High Courts (e.g. HC-019 Shyam Lal Iron & Steel). Applies the Rajagopal Naidu / Orient Paper Mills non-fettering-of-quasi-judicial-power line.",
+  "validity": {
+    "overall": "good-law",
+    "as_of": "2026-07",
+    "provision_version_ok": false,
+    "per_issue": {
+      "assessment-126": "good-law on the Section 126(1) best-judgment / no-fettering principle (Section 126(1) text is unchanged by the 2007 amendment)."
+    },
+    "note": "Not overruled. Decided in 2005 under the pre-2007 Section 126 (penal rate then 1.5x); do not cite it for the multiplier. The best-judgment / assessment-must-be-under-s126 ratio is unaffected by the 2007 amendment and remains good law."
+  },
+  "flags": [
+    "s.126(1) assessment must be the officer's OWN best judgment (not a guideline-dictated figure)",
+    "post-10.6.2003 assessment must be under s.126, not old supply conditions",
+    "quasi-judicial power cannot be fettered by administrative direction (Rajagopal Naidu / Orient Paper Mills)",
+    "coerced payment on illegal assessment recoverable (unjust enrichment, Contract Act s.72)",
+    "cited by HC-019; relied on by later HCs",
+    "expert-cited; shortlist #54; PRE-2007 decision"
+  ]
+}

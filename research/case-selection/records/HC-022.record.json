@@ -1,0 +1,176 @@
+{
+  "schema_version": "1.0",
+  "case_id": "HC-022",
+  "docid": "107836520",
+  "court": "High Court at Calcutta (Appellate Side)",
+  "court_type": "HC",
+  "bench_type": "HC-SB",
+  "title": "Tapan Sen Majumdar v. West Bengal State Electricity Distribution Co. Ltd.",
+  "neutral_cite": "W.P.A. No. 14580 of 2015 (Calcutta HC) (2022)",
+  "date": "2022-07-15",
+  "bench": ["Sabyasachi Bhattacharyya J"],
+  "bench_strength": 1,
+  "reportable": false,
+  "one_line": "Where a Section 126 provisional assessment rests on the self-same theft allegation as a Section 135 prosecution and that is the only allegation, an honourable acquittal in the criminal case exonerates the consumer under Section 126 too; and a provisional assessment spends its force after 30 days if no final order is passed, so the amount paid is refundable.",
+  "facts_squib": "A consumer's provisional bill (Rs 1.63 lakh) was raised alleging theft by bypassing the meter (tapping via a PVC wire); the same allegation, at an identical time, founded a Section 135 police complaint. He paid 50% (Rs 81,668) under a court order to restore supply, was later acquitted in the criminal case, and no final Section 126 assessment was ever passed. He sought refund.",
+  "disposition": "Writ allowed; WBSEDCL directed to refund Rs 81,668 with 6% interest — the provisional assessment had spent its force (no final order in 30 days) and could not stand after the acquittal on the self-same allegation.",
+  "procedural_posture": "Writ petition under Article 226 seeking refund of the amount paid on a provisional bill",
+  "outcome_for": "consumer",
+  "relief_granted": "Refund of Rs 81,668 with interest.",
+  "consumer_category": ["commercial"],
+  "fact_pattern_tags": ["bypass-meter-tapping", "self-same-theft-allegation", "criminal-acquittal", "no-final-assessment", "provisional-spent-force"],
+  "state": ["West Bengal"],
+  "discom": ["West Bengal State Electricity Distribution Co. Ltd. (WBSEDCL)"],
+  "amendment_considered": "post-2007 (Act 26 of 2007) — Section 126(3) 30-day final-order timeline, Section 154(5)/(6) civil liability (2x tariff, 12 months)",
+  "regulations_construed": [],
+  "issues_framed": [],
+  "provisions_construed": [
+    {"provision": "s.126", "docid": "124046987"},
+    {"provision": "s.126(3)", "docid": "124046987"},
+    {"provision": "s.126(5)", "docid": "124046987"},
+    {"provision": "s.127", "docid": "13154422"},
+    {"provision": "s.135", "docid": "90633360"},
+    {"provision": "s.154(5)/(6)", "docid": "34349824"}
+  ],
+  "provision_holdings": [
+    {
+      "provision": "s.126 / s.135",
+      "issue_node": ["126v135", "burden-proof"],
+      "holding": "Sections 126 and 135 operate in separate fields and parallel proceedings may run; Section 126 is civil (preponderance of probability), Section 135 is criminal (beyond reasonable doubt) — the standards of proof differ.",
+      "interpretation_type": "separate-fields-standards-of-proof",
+      "key_para": "it is well-settled that the two provisions, that is, Section 126 and 135 , operate in separate fields and parallel proceedings under both provisions may concurrently run. Whereas Section 126 deals with a civil liability, Section 135 is about criminal liability. The standards of proof in case of both are different.",
+      "para_ref": "para 19",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.126 / s.135",
+      "issue_node": ["126v135", "mensrea-135", "burden-proof"],
+      "holding": "Where a tampered/bypassed meter is the ONLY allegation and it founds both the Section 135 prosecution and the Section 126 assessment (self-same allegation), an acquittal scot-free in the criminal case means the consumer cannot be indicted for the same charge even on a preponderance of probability.",
+      "interpretation_type": "acquittal-exonerates-on-self-same-sole-allegation",
+      "key_para": "Tampered meter is a common ground for both the said Sections and is the only allegation levelled against the petitioner in the present case in both the proceedings under Section 126 and 135 of the 2003 Act. Since the petitioner has been acquitted scot-free in the criminal proceeding under Section 135 on the self-same allegation, it cannot be said that, on a preponderance of probability, the petitioner can be indicted for the same charge.",
+      "para_ref": "para 27",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.126(3)",
+      "issue_node": ["provisional-final", "natural-justice"],
+      "holding": "It is the incumbent duty of the licensee to pass a final order of assessment within 30 days of service of the provisional assessment, even if the consumer files no objection.",
+      "interpretation_type": "duty-to-finalise-30-days",
+      "key_para": "it was the incumbent duty of the distribution licensee to pass a final order of assessment within 30 days from the date of service of the order of provisional assessment on the consumer, in terms of sub-section (3) of Section 26 of the 2003 Act.",
+      "para_ref": "para 28",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.126(3)",
+      "issue_node": ["provisional-final"],
+      "holding": "If no final order is drawn up, the provisional assessment order spends its force after 30 days from its service on the consumer.",
+      "interpretation_type": "provisional-lapses-after-30-days",
+      "key_para": "since no final order of assessment was drawn up on the basis of the provisional assessment, the provisional order of assessment spent its force after 30 days from service of the provisional assessment order on the petitioner.",
+      "para_ref": "para 30",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.154(6)",
+      "issue_node": ["jurisdiction-145-154"],
+      "holding": "The Explanation to Section 154(6) ('civil liability') refers to the liability determined by the Special Court under Section 154(5) for theft, not to the amount raised as a provisional assessment under Section 126.",
+      "interpretation_type": "s154-civil-liability-scope",
+      "key_para": "the Explanation thereto refers to the civil liability as specified in sub-section (5) of Section 154 and not the amount raised as provisional assessment under Section 126 of the Act.",
+      "para_ref": "para 36",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.127",
+      "issue_node": ["appeal-127", "provisional-final"],
+      "holding": "No Section 127 appeal lay because no final order of assessment was ever made; hence the writ under Article 226 is maintainable.",
+      "interpretation_type": "no-final-order-no-127-appeal",
+      "key_para": "no such appeal lay in the present case, since no final order of assessment was made by the WBSEDCL at any point of time.",
+      "para_ref": "para 28",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "WBSEDCL v. Orion Metal Pvt. Ltd.",
+      "cite": "(2020) 18 SCC 588",
+      "court": "Supreme Court",
+      "docid": "",
+      "principle": "Two parallel proceedings under Sections 126 and 135 are maintainable simultaneously; all unauthorised use may not amount to theft, but theft under Section 135 falls within the definition of unauthorised use.",
+      "principle_para": "it has been clarified further that all instances of unauthorised use of energy, although may not amount to theft within the meaning of Section 135 , but at the same time, the theft of electricity, which is covered by Section 135 of the Act, will fall within the definition of unauthorised use of electricity .",
+      "treatment": "followed",
+      "on_issue": "126v135"
+    },
+    {
+      "name": "Executive Engineer (SOUTHCO) v. Sri Seetaram Rice Mill",
+      "cite": "(2012) 2 SCC 108",
+      "court": "Supreme Court (3-Judge)",
+      "docid": "",
+      "principle": "A High Court can interfere with a provisional assessment order under Article 226 because no Section 127 appeal lies against a provisional (as opposed to final) order.",
+      "principle_para": "Even as per Seetaram Rice Mill (supra), the High Court can interfere with a provisional order of assessment under Article 226 , since no appeal under Section 127 of the 2003 Act is available against the same.",
+      "treatment": "referred",
+      "on_issue": "appeal-127"
+    },
+    {
+      "name": "Sandeep Kesarwani v. State of U.P.",
+      "cite": "MANU/UP/1049/2014",
+      "court": "Allahabad High Court (DB)",
+      "docid": "162776314",
+      "principle": "A final order of assessment must be passed within 30 days under Section 126(3); failure to do so vitiates the demand (this corpus: HC-003).",
+      "principle_para": "The proposition laid down by the Division Bench of the Allahabad High Court in Sandeep Kesarwani (supra) strengthens the proposition advanced by the petitioner, inasmuch as no final order of assessment was passed within 30 days as per Section 126(3) of the 2003 Act in the said case as well.",
+      "treatment": "followed",
+      "on_issue": "provisional-final"
+    },
+    {
+      "name": "Sukumar Das v. WBSEDCL",
+      "cite": "WPA No. 19463 of 2021 (Cal, 15.02.2022)",
+      "court": "Calcutta High Court",
+      "docid": "",
+      "principle": "Where the provisional order was never served, the provisional and final assessments are not binding — distinguished here because service was not in issue.",
+      "treatment": "distinguished",
+      "treatment_para": "Inasmuch as Sukumar Das (supra) is concerned, the consideration therein was different from the instant case, inasmuch as the provisional order of assessment was never served on the petitioner in the said case.",
+      "on_issue": "provisional-final"
+    }
+  ],
+  "ratio": [
+    {
+      "issue_node": "126v135",
+      "proposition": "Although Sections 126 and 135 run in parallel with different proof standards, where the Section 126 assessment rests solely on the self-same allegation (tampered/bypassed meter) as the Section 135 prosecution, an honourable acquittal exonerates the consumer under Section 126 too, because the same charge cannot survive on preponderance of probability once it has failed beyond reasonable doubt.",
+      "scope": "HC-SB (Calcutta)",
+      "novelty": "extends",
+      "conflicts_with": [],
+      "note": "Refines HC-017 (same judge): HC-017 held acquittal does not ipso facto exonerate where s.126 rests on unauthorised use of WIDER import than the theft; HC-022 confines that to cases where s.126 is founded on the self-same, sole theft allegation."
+    },
+    {
+      "issue_node": "provisional-final",
+      "proposition": "The licensee has a duty to pass a final Section 126 assessment within 30 days of serving the provisional order (even absent objection); failing that, the provisional order spends its force after 30 days and any amount paid on it is refundable.",
+      "scope": "HC-SB (Calcutta)",
+      "novelty": "settles",
+      "conflicts_with": []
+    }
+  ],
+  "significance": "A Calcutta authority (same judge as HC-017) refining the acquittal-vs-Section 126 question: where the Section 126 assessment is founded solely on the self-same theft allegation as the Section 135 case, an acquittal exonerates civil liability too — distinguishing HC-017, where Section 126 rested on unauthorised use of wider import. It also lays down a firm provisional-final timeline: a duty to finalise within 30 days (Section 126(3)) and lapse of the provisional order if not finalised, grounding a refund. Applies Orion Metal and Seetaram Rice Mill; follows Sandeep Kesarwani (HC-003); distinguishes Sukumar Das.",
+  "validity": {
+    "overall": "good-law",
+    "as_of": "2026-07",
+    "provision_version_ok": true,
+    "per_issue": {
+      "126v135": "good-law as a fact-sensitive refinement; read together with HC-017 (same judge) — turns on whether s.126 rests on the self-same sole theft allegation or on wider unauthorised use.",
+      "provisional-final": "good-law on the 30-day finalisation duty and lapse of an un-finalised provisional order (consistent with HC-003 Sandeep Kesarwani)."
+    },
+    "note": "Not overruled (stay granted till 15.08.2022 pending questions of interpretation). Applies the post-2007 Act. The source mis-cites 'Section 26' for Section 126 in one place (transcription)."
+  },
+  "flags": [
+    "acquittal on SELF-SAME sole theft allegation exonerates s.126 too (refines HC-017)",
+    "s.126(3) duty to finalise in 30 days even without objection",
+    "un-finalised provisional order SPENDS ITS FORCE after 30 days -> refund",
+    "no final order => no s.127 appeal => writ maintainable",
+    "s.154(6) civil liability = s.154(5) theft liability, not s.126 provisional amount",
+    "follows Sandeep Kesarwani (HC-003); applies Orion Metal + Seetaram",
+    "expert-cited; shortlist #124; post-2007-text"
+  ]
+}
