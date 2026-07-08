@@ -1,0 +1,152 @@
+{
+  "schema_version": "1.0",
+  "case_id": "HC-023",
+  "docid": "106724713",
+  "court": "High Court of Orissa",
+  "court_type": "HC",
+  "bench_type": "HC-SB",
+  "title": "M/s Jindal Resources Pvt. Ltd. v. Executive Engineer (Elect.), WESCO",
+  "neutral_cite": "AIR 2018 Orissa 176; W.P.(C) No. 668 of 2011",
+  "date": "2018-08-21",
+  "bench": ["Sujit Narayan Prasad J"],
+  "bench_strength": 1,
+  "reportable": true,
+  "one_line": "A Section 135 criminal proceeding has no bearing on a Section 126 assessment: even an acquittal in the theft case does not exonerate the consumer's civil liability under Section 126, which may be assessed even in theft cases (Section 126 covering cases over and above Section 135); the Section 154(5) Special Court does not oust the Section 126 assessment, and an un-appealed final assessment attains finality.",
+  "facts_squib": "On inspection the consumer's meter seals were found tampered and the meter running slow by 28.47%; supply was disconnected, an inventory report drawn (Sections 135(1)/138(1)), a Section 126(1) provisional and then final assessment made (no Section 127 appeal filed), and a Section 135 criminal case instituted in which the consumer was acquitted. It sought to quash the Section 126 proceeding on the strength of the acquittal.",
+  "disposition": "Writ petition dismissed; the acquittal did not affect the Section 126 assessment, which had attained finality for want of a Section 127 appeal, and the consumer remained liable.",
+  "procedural_posture": "Writ petition under Articles 226/227 to quash the inventory report and restore supply",
+  "outcome_for": "licensee",
+  "relief_granted": "No relief; Section 126 final assessment upheld as final and payable.",
+  "consumer_category": ["industrial (pencil ingot manufacturing)"],
+  "fact_pattern_tags": ["tampered-seals", "meter-running-slow", "criminal-acquittal", "no-s127-appeal", "acquittal-on-technicality"],
+  "state": ["Odisha"],
+  "discom": ["Western Electricity Supply Co. of Orissa (WESCO)"],
+  "amendment_considered": "post-2007 (Act 26 of 2007) — Section 126(6) '[twice]' tariff, Section 154(5)/(6) Special Court civil liability, and the Ministry of Power clarification dated 12.11.2007",
+  "regulations_construed": [
+    {"reg": "Ministry of Power Letter No. 42/2/2005-R&R dated 12.11.2007 (applicability of Sections 126 and 135)", "implements": "s.126/s.135 interface", "made_under": "Electricity Act, 2003"}
+  ],
+  "issues_framed": [
+    "Whether in the case where theft of electricity alleges, Section-135 of the Act, 2003 in which the petitioner has been acquitted, an assessment under Section-126 of the Act, 2003 can be held to be sustainable?",
+    "Whether assessment under Section-126 of the Act, 2003 is not applicable with regard to the cases of theft of electricity under Section-135 of the Act, 2003 and with regard to the cases of theft of the electricity under Section-135 of the Act, 2003, the civil liability is to be determined only by the Special Court where the trial is pending?"
+  ],
+  "provisions_construed": [
+    {"provision": "s.126", "docid": "124046987"},
+    {"provision": "s.126(3)", "docid": "124046987"},
+    {"provision": "s.127", "docid": "13154422"},
+    {"provision": "s.135", "docid": "90633360"},
+    {"provision": "s.154(5)/(6)", "docid": "34349824"}
+  ],
+  "provision_holdings": [
+    {
+      "provision": "s.126 / s.135",
+      "issue_node": ["126v135", "mensrea-135"],
+      "holding": "A Section 135 criminal proceeding has no bearing on a Section 126 proceeding; even an acquittal in the criminal case for a Section 135 offence does not exonerate the consumer from Section 126 civil liability.",
+      "interpretation_type": "acquittal-no-bearing-on-126",
+      "key_para": "since proceeding is initiated under the provision of Section-135 of the Act, 2003 will have no bearing upon the proceeding initiated under Section-126 of the Act, 2003 that will also applicable even in case of acquittal in the criminal case for offence committed under Section-135 of the Act, 2003.",
+      "para_ref": "para 9",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.126",
+      "issue_node": ["126v135"],
+      "holding": "Seetaram Rice Mill lays down no ratio that a Section 126 assessment cannot be undertaken in theft cases; Section 126 covers cases over and above Section 135, and the two must be read harmoniously to make both effective.",
+      "interpretation_type": "s126-available-in-theft-cases",
+      "key_para": "In the said judgment, no such ratio has been laid down which may support the petitioner s case that in the cases of theft of electricity under Section-135 of the Act, 2003, no assessment can be undertaken under Section-126 of the Act, 2003.",
+      "para_ref": "para 7",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.154(6)",
+      "issue_node": ["jurisdiction-145-154"],
+      "holding": "The amount 'deposited by the consumer' in Section 154(6) is the amount deposited under Section 126 (there being no other deposit provision for theft), so the Section 154(5) Special Court does not oust the Section 126 assessment; the argument that only the Special Court may assess is rejected.",
+      "interpretation_type": "s154-does-not-oust-s126",
+      "key_para": "The words deposited by the consumer or the person in sub-section(6) of Section-154 of the Act, 2003 are nothing but an amount deposited by the consumer in accordance with Section-126 of the Act, 2003, since there is no other provision of the Act, 2003 for deposit of the amount by a consumer or the person relating to theft of electricity.",
+      "para_ref": "para 6",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.127",
+      "issue_node": ["appeal-127", "provisional-final"],
+      "holding": "Where no Section 127 appeal is filed against the final Section 126 assessment, it attains finality and the consumer is liable to pay the assessed amount.",
+      "interpretation_type": "finality-absent-appeal",
+      "key_para": "the petitioner has not chosen to file appeal under the provisions of Section-127 of the Act, 2003 against the final assessment order made by the authority under the provision of Section-126 of the Act, 2003 and as such, the final assessment has attained its finality.",
+      "para_ref": "para 9",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.135",
+      "issue_node": ["mensrea-135"],
+      "holding": "On the facts, the acquittal was not a clean acquittal but a benefit-of-doubt acquittal on technicality (delayed seizure, non-production of dump copy), reinforcing that it does not undo the Section 126 civil liability.",
+      "interpretation_type": "acquittal-on-benefit-of-doubt",
+      "key_para": "This Court is of the view after going across the aforesaid judgment that the same is not clean acquittal rather on technicality, the benefit of doubt has been given and thereby the petitioner has been acquitted.",
+      "para_ref": "para 9",
+      "holding_type": "explanatory",
+      "provision_version": "post-2007"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (SOUTHCO) v. Sri Seetaram Rice Mill",
+      "cite": "(2012) 2 SCC 108",
+      "court": "Supreme Court (3-Judge)",
+      "docid": "",
+      "principle": "Sections 126 and 135 are distinct provisions operating in different and distinct fields with no commonality in law; Section 126 covers cases over and above those specifically covered by Section 135, but it does not hold that Section 126 cannot be used in theft cases.",
+      "principle_para": "There is no commonality between them in law. They operate in different and distinct fields.",
+      "treatment": "followed",
+      "treatment_para": "In the said judgment, no such ratio has been laid down which may support the petitioner s case that in the cases of theft of electricity under Section-135 of the Act, 2003, no assessment can be undertaken under Section-126 of the Act, 2003.",
+      "on_issue": "126v135"
+    },
+    {
+      "name": "Tinsukhia Electricity Supply Co. Ltd. v. State of Assam",
+      "cite": "(1989) 3 SCC 709",
+      "court": "Supreme Court (Constitution Bench)",
+      "docid": "",
+      "principle": "A statute must be construed to make it effective and operative (ut res magis valeat quam pereat); courts lean against a construction that reduces a statute to futility.",
+      "principle_para": "The provision of a statute must be so construed as to make it effective and operative, on the principle ut res magis valeat quam pereat .",
+      "treatment": "followed",
+      "on_issue": "126v135"
+    },
+    {
+      "name": "Ministry of Power clarification, Letter No. 42/2/2005-R&R dated 12.11.2007",
+      "cite": "Govt. of India, Ministry of Power",
+      "court": "Executive clarification",
+      "docid": "",
+      "principle": "Section 126 (assessment for unauthorised use) also applies where action is taken for offences under Section 135 and the situation of the alleged offence is covered under Section 126; dishonest intention under Section 135 is the key differentiator.",
+      "principle_para": "This provision would also be applicable to those cases where action is taken for offences under Section 135 and the situation of alleged commitment of offence is covered under the provisions of Section 126 .",
+      "treatment": "referred",
+      "on_issue": "126v135"
+    }
+  ],
+  "ratio": [
+    {
+      "issue_node": "126v135",
+      "proposition": "A Section 126 assessment may be made even in theft cases and is unaffected by the outcome of the Section 135 prosecution — an acquittal (a fortiori a benefit-of-doubt acquittal) does not exonerate the civil liability under Section 126; Section 154(5) does not oust Section 126, and an un-appealed final assessment attains finality.",
+      "scope": "HC-SB (Orissa)",
+      "novelty": "settles",
+      "conflicts_with": []
+    }
+  ],
+  "significance": "The anchor Orissa authority (AIR 2018 Ori 176) on the acquittal-vs-Section 126 question: it holds that a Section 135 criminal proceeding has no bearing on the Section 126 assessment, so even an acquittal leaves the civil liability intact; Section 126 applies even in theft cases (covering cases over and above Section 135, per Seetaram and the Ministry's 12.11.2007 clarification); and Section 154(5) does not create a rival forum ousting Section 126. Relied on in HC-017 (Ashok Kumar Maity); the counter-nuance appears in HC-022 (self-same sole allegation).",
+  "validity": {
+    "overall": "good-law",
+    "as_of": "2026-07",
+    "provision_version_ok": true,
+    "per_issue": {
+      "126v135": "good-law; applies Seetaram Rice Mill and the Ministry clarification; relied on by HC-017. Read with HC-022 (Cal) for the self-same-sole-allegation refinement."
+    },
+    "note": "Not overruled. Applies the post-2007 Act. The court also noted the acquittal was on benefit of doubt/technicality, not a clean acquittal."
+  },
+  "flags": [
+    "acquittal in s.135 does NOT exonerate s.126 civil liability",
+    "s.126 assessable even in theft cases (covers cases over and above s.135)",
+    "s.154(5) Special Court does NOT oust s.126 assessment",
+    "un-appealed final assessment attains finality",
+    "relied on in HC-017; refined by HC-022",
+    "applies Seetaram + Ministry of Power clarification 12.11.2007",
+    "expert-cited; shortlist #200; post-2007-text (AIR/reportable)"
+  ]
+}
