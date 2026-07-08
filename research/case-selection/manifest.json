@@ -68,9 +68,12 @@
     "HC-008": "done",
     "HC-009": "done",
     "HC-010": "done",
-    "HC-011": "done"
+    "HC-011": "done",
+    "HC-012": "rejected-offtopic",
+    "HC-013": "done"
   },
   "rejections": {
-    "HC-007": "Hindustan Zinc v. State of Raj. (2012) is a RAJASTHAN LAND TAX case (Rajasthan Finance Act 2006, ss.38-48, Rule 24) — NOT s.126/s.135 Electricity Act. Harvested as a false positive: petitioners include power/oil-generation companies and it cites Southco v. Seetaram Rice Mills (2012) 2 SCC 108 only for the onerous-pre-deposit / alternative-remedy point. No Electricity Act provision is construed. Needs a topical replacement (candidate: Southco v. Seetaram Rice Mills itself — a leading SC s.126 authority — or another HC s.126/135 case)."
+    "HC-007": "Hindustan Zinc v. State of Raj. (2012) is a RAJASTHAN LAND TAX case (Rajasthan Finance Act 2006, ss.38-48, Rule 24) — NOT s.126/s.135 Electricity Act. Harvested as a false positive: petitioners include power/oil-generation companies and it cites Southco v. Seetaram Rice Mills (2012) 2 SCC 108 only for the onerous-pre-deposit / alternative-remedy point. No Electricity Act provision is construed. Needs a topical replacement (candidate: Southco v. Seetaram Rice Mills itself — a leading SC s.126 authority — or another HC s.126/135 case).",
+    "HC-012": "West Bengal State Electricity Board v. Deputy Commissioner of Income Tax (Cal, 2005) is an INCOME-TAX case (Income Tax Act 1961 s.201(1A) interest on TDS default; s.120 jurisdiction; audi alteram partem) — NOT s.126/s.135 Electricity Act. Harvested as a false positive purely because WBSEB (an electricity utility) is the assessee. No Electricity Act provision is construed. Needs a topical replacement (a genuine Calcutta HC s.126/135 case, e.g. on theft assessment or the WBSEDCL supply code)."
   }
 }
