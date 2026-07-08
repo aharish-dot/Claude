@@ -1,0 +1,114 @@
+{
+  "case_id": "SC-001",
+  "docid": "55216283",
+  "court": "Supreme Court of India",
+  "court_type": "SC",
+  "title": "U.P. Power Corporation Ltd. & Ors. v. Anis Ahmad",
+  "neutral_cite": "(2013) 8 SCC 491; AIR 2013 SC 2766",
+  "date": "2013-07-01",
+  "bench": ["G.S. Singhvi J", "Sudhansu Jyoti Mukhopadhaya J"],
+  "bench_strength": 2,
+  "reportable": true,
+  "still_good_law": true,
+  "one_line": "A complaint against a Section 126 assessment or a Sections 135–140 action is not maintainable before a Consumer Forum; the remedies are the Section 127 appeal and the Special Court under Section 153.",
+  "facts_squib": "Eight consumers with industrial/commercial connections challenged Section 126 assessment / theft demands before Consumer Fora; the NCDRC held such complaints maintainable. The licensee appealed to the Supreme Court on the forum question.",
+  "disposition": "Appeals allowed; NCDRC orders set aside.",
+
+  "provisions_construed": [
+    {"provision": "s.126", "docid": "124046987"},
+    {"provision": "s.127", "docid": "13154422"},
+    {"provision": "s.135", "docid": "90633360"},
+    {"provision": "s.138", "docid": "28577819"},
+    {"provision": "s.140", "docid": "148178424"},
+    {"provision": "s.145", "docid": "113307258"},
+    {"provision": "s.153", "docid": "83044125"},
+    {"provision": "s.173", "docid": "134115040"},
+    {"provision": "s.174", "docid": "170650281"},
+    {"provision": "s.175", "docid": "50223591"},
+    {"provision": "s.42", "docid": "74197863"},
+    {"provision": "s.2(15)", "docid": "20195156"},
+    {"provision": "CPA-1986 s.2(1)(c),(d),(e),(o),(g); s.3", "docid": "1733066"}
+  ],
+
+  "provision_holdings": [
+    {
+      "provision": "s.126",
+      "issue_node": ["jurisdiction-145-154", "assessment-126"],
+      "holding": "A final assessment under Section 126 for 'unauthorised use of electricity' is a quasi-judicial decision by a public servant; it is not a 'consumer dispute' under Section 2(1)(e) of the Consumer Protection Act, 1986, and cannot be challenged by a consumer complaint.",
+      "interpretation_type": "characterisation-procedure",
+      "key_para": "the final decision by an assessing officer, who is a public servant, on the assessment of 'unauthorized use of electricity' is a 'Quasi Judicial' decision and does not fall within the meaning of 'consumer dispute' under Section 2(1)(e) of the Consumer Protection Act, 1986",
+      "para_ref": "para 30"
+    },
+    {
+      "provision": "s.126",
+      "issue_node": ["126v135"],
+      "holding": "The same acts of 'unauthorised use of electricity' attract a civil consequence (penal assessment at twice the tariff) under Section 126 and simultaneously constitute offences under Sections 135–140 — the two operate in parallel on the same conduct.",
+      "interpretation_type": "distinguished-from-135-dual-consequence",
+      "key_para": "while acts of 'unauthorized use of electricity' attracts civil consequence of penal charge of electricity, twice the rate of electricity, for which assessment is made by assessing officer under Section 126; the very same acts of 'unauthorized use of electricity', constitute 'offences' under Section 135 to 140 for which sentence and fine has been prescribed",
+      "para_ref": "para 35"
+    },
+    {
+      "provision": "s.127",
+      "issue_node": ["appeal-127"],
+      "holding": "The remedy against a final Section 126 order is an appeal to the appellate authority under Section 127, entertained only on deposit of half the assessed amount; the appellate order is final.",
+      "interpretation_type": "procedure-remedy",
+      "key_para": "a separate provision of appeal to the appellate authority has been prescribed under Section 127 so that any person aggrieved by the final order made under Section 126, may within thirty days of the said order, prefer an appeal",
+      "para_ref": "para 30"
+    },
+    {
+      "provision": "s.135",
+      "issue_node": ["mensrea-135", "jurisdiction-145-154"],
+      "holding": "Offences under Sections 135–140 (theft and allied acts) are triable only by a Special Court constituted under Section 153; a Consumer Forum has no jurisdiction over any action taken under Sections 135–140.",
+      "interpretation_type": "jurisdiction-forum",
+      "key_para": "the offences referred to in Sections 135 to 140 can be tried only by a Special Court constituted under Section 153 of the Electricity Act, 2003. In that view of the matter also the complaint against any action taken under Sections 135 to 140 of the Electricity Act, 2003 is not maintainable before the Consumer Forum",
+      "para_ref": "para 46"
+    },
+    {
+      "provision": "s.145",
+      "issue_node": ["jurisdiction-145-154"],
+      "holding": "Section 145 bars civil courts over any matter an assessing officer (Section 126) or appellate authority (Section 127) may determine; read with Sections 173–174, the phrase 'other authority' does not include the Consumer Fora, which are therefore also ousted.",
+      "interpretation_type": "jurisdiction-ouster",
+      "key_para": "if we refer to Sections 173 and 174 and apply the principle laid down there-under, it would mean that qua the consumer fora there is inconsistency and, therefore, 'other authority' would not include consumer fora",
+      "para_ref": "para 37 (holding (iv))"
+    },
+    {
+      "provision": "s.173/174/175",
+      "issue_node": ["jurisdiction-145-154"],
+      "holding": "Although Sections 173–175 and Section 3 CPA save consumer rights and give the CPA primacy on true inconsistency, they do not vest a Consumer Forum with power to adjudicate a Section 126 assessment or a Sections 135–140 offence, because such acts are neither a 'complaint' (s.2(1)(c)) nor a 'deficiency in service' (s.2(1)(o),(g)) under the CPA.",
+      "interpretation_type": "harmonious-construction",
+      "key_para": "by virtue of Section 3 of the Consumer Protection Act, 1986 or Sections 173, 174 and 175 of the Electricity Act, 2003, the Consumer Forum cannot derive power to adjudicate a dispute in relation to assessment made under Section 126 or offences under Sections 135 to 140",
+      "para_ref": "para 45"
+    }
+  ],
+
+  "authorities": [],
+  "authorities_note": "The judgment cites no prior case law — it is decided entirely on statutory construction of the Electricity Act, 2003 and the Consumer Protection Act, 1986. All 25 Indian Kanoon 'cites' are statutory provisions, not precedents.",
+
+  "ratio": [
+    {
+      "issue_node": "jurisdiction-145-154",
+      "proposition": "A consumer complaint challenging a Section 126 assessment or any Sections 135–140 action is not maintainable before a Consumer Forum; the statutory remedies (Section 127 appeal; Special Court under Section 153) are exclusive of the consumer route.",
+      "scope": "SC-binding",
+      "novelty": "settles-split",
+      "conflicts_with": [],
+      "note": "Reverses the NCDRC majority (10 Apr 2008) which had held such complaints maintainable at the consumer's option."
+    },
+    {
+      "issue_node": "126v135",
+      "proposition": "Section 126 (civil assessment) and Sections 135–140 (criminal offences) apply in parallel to the same act of unauthorised use; a Section 126 assessment is a civil/quasi-judicial consequence, not a criminal adjudication.",
+      "scope": "SC-binding",
+      "novelty": "explains",
+      "conflicts_with": []
+    }
+  ],
+
+  "significance": "The leading Supreme Court authority on the forum for electricity assessment and theft disputes: Consumer Fora are ousted, a Section 126 challenge goes to the Section 127 appellate authority, and Sections 135–140 offences to the Special Court under Section 153. Cited 1,216 times; the standard citation for rejecting consumer-forum jurisdiction and, together with Magadh Sugar (2021), for channelling challenges into the statutory route (writ under Art. 226 surviving only for a provisional order or ex-facie procedural breach).",
+
+  "flags": [
+    "leading-on-jurisdiction-145-154",
+    "reverses-NCDRC-majority",
+    "NOT-the-mens-rea-authority (that line is Seetaram Rice Mill / Thomas Joseph)",
+    "pure-statutory-interpretation-no-precedent-cited",
+    "UPPCL-party"
+  ]
+}
