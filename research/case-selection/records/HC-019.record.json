@@ -1,0 +1,176 @@
+{
+  "schema_version": "1.0",
+  "case_id": "HC-019",
+  "docid": "158534755",
+  "court": "High Court of Jharkhand",
+  "court_type": "HC",
+  "bench_type": "HC-DB",
+  "title": "M/s Shyam Lal Iron & Steel Co. v. Jharkhand State Electricity Board",
+  "neutral_cite": "L.P.A. No. 59 of 2013 (Jharkhand HC, DB) (2013)",
+  "date": "2013-04-26",
+  "bench": ["Prakash Tatia CJ", "P.P. Bhatt J"],
+  "bench_strength": 2,
+  "reportable": true,
+  "one_line": "For a case treated as theft of electricity (not suspected theft or mere unauthorised use), the Section 126 / Clause 15.7 provisional-assessment-plus-hearing-plus-appeal machinery does not apply — the procedure is Section 135(1A) read with Clause 15.8(i)-(ix), the assessment is examinable only by the Special Court under Section 154(5)/(6), and mislabelling the theft bill as a 'Section 126 provisional assessment' does not convert the proceeding into one under Section 126.",
+  "facts_squib": "After the consumer itself reported that miscreants had broken the meter-room seal, an inspection found the LV box M-seal interfered with (accessible secondary terminals); the Board treated it as theft, lodged an FIR, seized the meter and issued a bill labelled a 'Section 126 provisional assessment' (Rs 48.39 lakh). The consumer's writ was disposed of on a 50% deposit; it appealed by LPA, arguing the Clause 15.8 / Section 126 procedure (provisional order, show-cause, 75%-consumption drop) had not been followed.",
+  "disposition": "LPA dismissed; the bill was a theft assessment under Section 135(1A)/Clause 15.8(i)-(ix), the mislabel as 'Section 126' was a mistaken belief that did not convert it, and the consumer's remedy against the final assessment lay before the Special Court under Section 154(5)/(6).",
+  "procedural_posture": "Letters Patent Appeal against a Single Judge order on a writ petition",
+  "outcome_for": "licensee",
+  "relief_granted": "No relief; theft assessment stands; consumer relegated to the Special Court under Section 154(5)/(6).",
+  "consumer_category": ["industrial (iron & steel unit)"],
+  "fact_pattern_tags": ["tampered/M-seal-interfered", "FIR-for-theft", "bill-mislabelled-s126", "theft-not-suspected"],
+  "state": ["Jharkhand"],
+  "discom": ["Jharkhand State Electricity Board"],
+  "amendment_considered": "post-2007 (Act 26 of 2007) — Section 135(1A) immediate disconnection, Section 154(5)/(6) Special Court civil liability, Jharkhand Electricity Supply Code (Amendment) Regulations, 2010 (Clauses 15.7 / 15.8)",
+  "regulations_construed": [
+    {"reg": "Jharkhand Electricity Supply Code (Amendment) Regulations, 2010, Clause 15.7 (assessment for unauthorised use)", "implements": "s.126 procedure", "made_under": "Electricity Act, 2003"},
+    {"reg": "Regulations 2010, Clause 15.8 (assessment for theft; (i)-(ix) clear theft, (x)-(xv) suspected theft)", "implements": "s.135 procedure", "made_under": "Electricity Act, 2003"}
+  ],
+  "issues_framed": [],
+  "provisions_construed": [
+    {"provision": "s.126", "docid": "124046987"},
+    {"provision": "s.127", "docid": "13154422"},
+    {"provision": "s.135(1A)", "docid": "90633360"},
+    {"provision": "s.152", "docid": ""},
+    {"provision": "s.153", "docid": "83044125"},
+    {"provision": "s.154(5)/(6)", "docid": "34349824"}
+  ],
+  "provision_holdings": [
+    {
+      "provision": "s.126 / s.135",
+      "issue_node": ["126v135", "mensrea-135"],
+      "holding": "Sections 126 and 135 sit in different Parts (XII vs XIV), cover different fields and prescribe different procedures; theft involves mens rea, which is not necessary for unauthorised use under Section 126.",
+      "interpretation_type": "different-fields-and-procedures",
+      "key_para": "different procedures have been prescribed not only by Regulations of 2010 but the Act itself under Section 126 in chapter (xii) and another under Section 135 in chapter (xiv) of the Act.",
+      "para_ref": "para 25",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.135 / Reg. 15.8",
+      "issue_node": ["burden-proof", "natural-justice"],
+      "holding": "A missing/tampered seal or broken glass window is not, by itself, evidence of theft unless corroborated by the consumer's consumption pattern and other available evidence — this is the safeguard for suspected-theft cases (Clause 15.8(x)-(xv)).",
+      "interpretation_type": "corroboration-for-suspected-theft",
+      "key_para": "mere missing of the seal of the meter or tampered or breakage of glass window shall themselves will not be treated to be evidence for theft of electricity unless these facts are corroborated by consumption pattern of the consumer and such other evidence as may be available.",
+      "para_ref": "para 23",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "Reg. 15.8",
+      "issue_node": ["126v135", "provisional-final"],
+      "holding": "The suspected-theft safeguards in Clause 15.8(x)-(xv) (continued supply, provisional assessment, show-cause, 75%-consumption drop) have no application to a clear theft case, which is governed by Clause 15.8(i)-(ix).",
+      "interpretation_type": "suspected-vs-clear-theft-procedure",
+      "key_para": "We are of the view that procedure as given in sub-clauses (x) to (xv) of Clause 15.8 have no application to the cases of electricity theft.",
+      "para_ref": "para 30",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.126",
+      "issue_node": ["126v135", "provisional-final"],
+      "holding": "Labelling a theft demand as a 'Section 126 provisional assessment' does not convert a theft proceeding into a Section 126 assessment where, on the date of inspection, it was treated as theft (FIR lodged) and not even as suspected theft.",
+      "interpretation_type": "mislabel-does-not-convert",
+      "key_para": "because of sending the communication dated 24th January, 2013, annexing calculation sheet which is calculation of the demand against the person who is found to be indulged in theft will not make any difference nor it will convert the proceeding into one under section 126 of the Act",
+      "para_ref": "para 29",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.127",
+      "issue_node": ["appeal-127", "jurisdiction-145-154"],
+      "holding": "The Section 127 appeal lies only against a Section 126 order, not against a Section 135(1A)/Clause 15.8 theft assessment; the latter is examinable by the Special Court under Section 154(5)/(6).",
+      "interpretation_type": "appeal-127-confined-to-126",
+      "key_para": "under Section 127 which is statutory provision, right to appeal has been provided only against the order passed under Section 126 and not against the order passed under provision of Section 135 (1A) or under clause 15.8 of the Regulations 2010.",
+      "para_ref": "para 27",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.154(5)/(6)",
+      "issue_node": ["jurisdiction-145-154"],
+      "holding": "The remedy against a final theft assessment is before the Special Court under Section 154(5)/(6), which determines the civil liability; the writ court will not interfere.",
+      "interpretation_type": "forum-special-court",
+      "key_para": "against this order, statutory remedy is available to the appellant under section 154 (5) and (6) of the Act.",
+      "para_ref": "para 35",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (Southco) v. Sri Seetaram Rice Mill",
+      "cite": "(2012) 2 SCC 108",
+      "court": "Supreme Court (3-Judge)",
+      "docid": "",
+      "principle": "Sections 126 and 135 are in different chapters and cover different fields; theft under Section 135 involves mens rea, which is not necessary for unauthorised use under Section 126.",
+      "principle_para": "The Hon ble Supreme Court in the case of Sri Seetaram Rice Mill (supra) made it clear that in case of theft of electricity, there is element of mensrea which is not necessarily in the cases which are falling under Section 126 of the Act.",
+      "treatment": "followed",
+      "treatment_para": "In view of the judgments of the Hon ble Supreme Court delivered in the case of Sri Seetaram Rice Mill (supra) it is clear that the Section 126 and Section 135 are kept in different Chapters in the Electricity Act, 2003",
+      "on_issue": "126v135"
+    },
+    {
+      "name": "Harvinder Motors v. BSES Rajdhani Power Ltd.",
+      "cite": "AIR 2007 Del 85",
+      "court": "Delhi High Court",
+      "docid": "909057",
+      "principle": "Cited by the appellant on the natural-justice / procedure issues in a Section 126 / DAE assessment (this corpus: HC-008).",
+      "treatment": "referred",
+      "on_issue": "natural-justice"
+    },
+    {
+      "name": "Hasi Mazumdar v. West Bengal State Electricity Board",
+      "cite": "AIR 2006 Cal 59",
+      "court": "Calcutta High Court",
+      "docid": "243218",
+      "principle": "Cited by the appellant on similar Section 126 / theft procedure issues (this corpus: HC-021).",
+      "treatment": "referred",
+      "on_issue": "126v135"
+    },
+    {
+      "name": "Jagmohan Mehatabsing Gujaral v. State of Maharashtra",
+      "cite": "(2006) 8 SCC 629",
+      "court": "Supreme Court",
+      "docid": "",
+      "principle": "Theft of electricity is an alarming, large-scale problem causing huge revenue loss; courts should invariably impose heavy fines to make theft of electricity a wholly non-profitable venture.",
+      "principle_para": "the Court should invariably impose heavy fine making theft of electricity, a wholly non-profitable venture.",
+      "treatment": "referred",
+      "on_issue": "mensrea-135"
+    }
+  ],
+  "ratio": [
+    {
+      "issue_node": "126v135",
+      "proposition": "Where a case is treated as theft (FIR lodged, not suspected theft or mere unauthorised use), the Section 126 / Clause 15.7 provisional-assessment machinery and the suspected-theft safeguards of Clause 15.8(x)-(xv) do not apply; the procedure is Section 135(1A)/Clause 15.8(i)-(ix), and mislabelling the theft bill as a Section 126 assessment does not convert the proceeding.",
+      "scope": "HC-DB (Jharkhand)",
+      "novelty": "settles-explains",
+      "conflicts_with": []
+    },
+    {
+      "issue_node": "appeal-127",
+      "proposition": "A Section 127 appeal lies only against a Section 126 order; a Section 135(1A)/theft assessment is not appealable under Section 127 and is examinable only by the Special Court under Section 154(5)/(6).",
+      "scope": "HC-DB (Jharkhand)",
+      "novelty": "settles",
+      "conflicts_with": []
+    }
+  ],
+  "significance": "A reportable Jharkhand Division-Bench authority mapping the three tracks — unauthorised use (Section 126/Clause 15.7), clear theft (Section 135(1A)/Clause 15.8(i)-(ix)) and suspected theft (Clause 15.8(x)-(xv)) — and holding that a theft assessment cannot be recast as a Section 126 assessment by mislabelling, is not appealable under Section 127, and is examinable only by the Special Court under Section 154(5)/(6). Confirms the corroboration safeguard (seal/glass alone insufficient) applies to suspected-theft cases. Applies Seetaram Rice Mill; the appellant relied on Harvinder Motors (HC-008) and Hasi Mazumdar (HC-021).",
+  "validity": {
+    "overall": "good-law",
+    "as_of": "2026-07",
+    "provision_version_ok": true,
+    "per_issue": {
+      "126v135": "good-law; applies Seetaram Rice Mill and maps the three procedural tracks.",
+      "appeal-127": "good-law on Section 127 being confined to Section 126 orders and theft assessments going to the Special Court under Section 154(5)/(6)."
+    },
+    "note": "Not overruled. Applies the post-2007 Act and the Jharkhand 2010 Regulations."
+  },
+  "flags": [
+    "three tracks: s.126/15.7 · clear theft s.135(1A)/15.8(i)-(ix) · suspected theft 15.8(x)-(xv)",
+    "mislabelling a theft bill as 's.126 provisional assessment' does NOT convert it",
+    "s.127 appeal confined to s.126; theft assessment -> Special Court s.154(5)/(6)",
+    "seal/glass alone insufficient without consumption-pattern corroboration (suspected theft)",
+    "in-corpus cites: Harvinder Motors (HC-008), Hasi Mazumdar (HC-021)",
+    "expert-cited; shortlist #39; post-2007-text"
+  ]
+}

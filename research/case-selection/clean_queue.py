@@ -23,6 +23,7 @@ _ART_LINE = [
     re.compile(r'^\s*:::.*:::\s*$'),                                  # ::: Uploaded on ... :::
     re.compile(r'^\s*\d{1,3}\s*/\s*\d{1,3}\s+\S+\.(?:odt|pdf|doc)\s*$', re.I),  # 2 / 28 wp..odt
     re.compile(r'^\s*\d{1,4}\s*$'),                                   # bare page number
+    re.compile(r'^\s*-\s*\d{1,4}\s*-\s*$'),                           # dashed page number  -2-
     re.compile(r'^\s*(?:W\.?P\.?|CWP|RFA|LPA|WPA|WA|CWJC|S\.?B\.?|MAT)\b.{0,70}#\d+#.*$', re.I),  # case-no + #n#
     re.compile(r'^.{0,55}-:\s*\d+\s*:-\s*$'),                         # "... Cases -:73:-"
     re.compile(r'^\s*All corrections made in the judgment.*$', re.I), # trailing IK boilerplate
