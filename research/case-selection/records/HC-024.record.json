@@ -1,0 +1,153 @@
+{
+  "schema_version": "1.0",
+  "case_id": "HC-024",
+  "docid": "176037461",
+  "court": "High Court of Jharkhand",
+  "court_type": "HC",
+  "bench_type": "HC-DB",
+  "title": "Castron Technologies Ltd. v. Damodar Valley Corporation",
+  "neutral_cite": "W.P.(C) (Jharkhand HC, DB) (2022) (A.F.R.)",
+  "date": "2022-12-16",
+  "bench": ["Dr. Ravi Ranjan CJ", "Sujit Narayan Prasad J"],
+  "bench_strength": 2,
+  "reportable": true,
+  "one_line": "An acquittal in the Section 135 criminal case does not bar Section 126 civil liability; but the Section 126(2)/(3) procedure — serving the provisional assessment so the consumer can object, then passing a final assessment — is mandatory (a thing prescribed by statute must be done that way or not at all), so a demand raised without service, objection or final assessment is set aside and remitted.",
+  "facts_squib": "Following an inspection alleging unauthorised use/theft, DVC raised a demand and an FIR was lodged (Balidih PS Case No. 93 of 2012); the consumer was later acquitted, the trial court finding the evidence inadmissible. The consumer challenged the demand on two grounds: its acquittal, and non-service of the provisional assessment under Section 126(2), depriving it of the chance to object under Section 126(3).",
+  "disposition": "Writ petition disposed of; the acquittal plea rejected, but the demand — issued without service of the provisional assessment, consideration of objection, or a final assessment — set aside and remitted to the Chief Engineer (Commercial) for a fresh decision strictly per Section 126 within three months; refund to abide the fresh decision.",
+  "procedural_posture": "Writ petition under Article 226 challenging the demand and inspection report",
+  "outcome_for": "mixed (acquittal plea rejected; demand remitted for proper s.126 procedure)",
+  "relief_granted": "Demand set aside and remitted for fresh Section 126 assessment with service, objection and final order; refund to follow.",
+  "consumer_category": ["industrial"],
+  "fact_pattern_tags": ["unauthorised-use/theft", "FIR-then-acquittal", "provisional-not-served", "no-final-assessment", "manner-prescribed"],
+  "state": ["Jharkhand"],
+  "discom": ["Damodar Valley Corporation (DVC)"],
+  "amendment_considered": "post-2007 (Act 26 of 2007) — Section 126(1)-(3) assessment procedure; Jharkhand Electricity Supply Code (Clause 15.8)",
+  "regulations_construed": [
+    {"reg": "Jharkhand State Electricity Supply Code, Clause 15.8 (theft/assessment procedure)", "implements": "s.126/s.135 procedure", "made_under": "Electricity Act, 2003"}
+  ],
+  "issues_framed": [],
+  "provisions_construed": [
+    {"provision": "s.126", "docid": "124046987"},
+    {"provision": "s.126(2)", "docid": "124046987"},
+    {"provision": "s.126(3)", "docid": "124046987"},
+    {"provision": "s.135", "docid": "90633360"}
+  ],
+  "provision_holdings": [
+    {
+      "provision": "s.126 / s.135",
+      "issue_node": ["126v135", "mensrea-135"],
+      "holding": "The contention that an acquittal in the Section 135 criminal case extinguishes Section 126 liability is not acceptable — a Section 135 proceeding has no bearing on a Section 126 proceeding (following Orion Metal and Seetaram Rice Mill).",
+      "interpretation_type": "acquittal-no-bearing-on-126",
+      "key_para": "merely because the writ petitioner was acquitted from the criminal case, there cannot be any liability under Section 126 of the Act, 2003 is not fit to be accepted",
+      "para_ref": "para 19",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.126(2)",
+      "issue_node": ["natural-justice", "provisional-final", "assessment-126"],
+      "holding": "The provisional assessment must be supplied to the consumer under Section 126(2); in the absence of such service there should be no demand, because a statutory power must be exercised only in the manner prescribed and not otherwise.",
+      "interpretation_type": "provisional-must-be-served",
+      "key_para": "the copy of the provisional assessment since has not been supplied, as required to be supplied under Section 126(2) of the Act, 2003 and, as such, in absentia of the same, there should not have been any demand",
+      "para_ref": "para 24",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.126",
+      "issue_node": ["assessment-126", "natural-justice"],
+      "holding": "A decision under Section 126 must be taken strictly in accordance with the statutory provision — when a statute provides that a thing be done in a particular manner, it must be done in that manner and not in any other.",
+      "interpretation_type": "manner-prescribed-mandatory",
+      "key_para": "a decision is required to be taken strictly in accordance with the statutory provision on the basis of the principle that when a statute provides that a particular thing should be done, it should be done in the manner prescribed and not in any other manner",
+      "para_ref": "para 25",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.126(3)",
+      "issue_node": ["provisional-final", "natural-justice"],
+      "holding": "A demand issued without considering the consumer's objection and without making a final assessment requires interference and must be remitted for a fresh decision strictly per Section 126.",
+      "interpretation_type": "demand-void-without-final-assessment",
+      "key_para": "the demand has been issued without considering the objection and without making final assessment, therefore, the demand requires interference.",
+      "para_ref": "para 26",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "WBSEDCL v. Orion Metal Pvt. Ltd.",
+      "cite": "(2020) 18 SCC 588",
+      "court": "Supreme Court",
+      "docid": "",
+      "principle": "A Section 135 proceeding has no bearing on a Section 126 proceeding; the two are interpreted to prevent misutilisation of electricity by both theft (Section 135) and unauthorised use (Section 126).",
+      "principle_para": "the proposition has been laid down by interpreting the provision of Section 126 and 135 of the Act, 2003 by taking into consideration the reason for enactment of the Electricity Act, 2003",
+      "treatment": "followed",
+      "on_issue": "126v135"
+    },
+    {
+      "name": "State of Uttar Pradesh v. Singhara Singh",
+      "cite": "AIR 1964 SC 358",
+      "court": "Supreme Court (3-Judge)",
+      "docid": "",
+      "principle": "Where a statute confers a power and lays down the method of its exercise, it prohibits the doing of the act in any other manner.",
+      "principle_para": "if a statute has conferred a power to do an act and has laid down the method in which that power has to be exercised, it necessarily prohibits the doing of the act in any other manner than that which has been prescribed.",
+      "treatment": "followed",
+      "on_issue": "natural-justice"
+    },
+    {
+      "name": "Babu Verghese v. Bar Council of Kerala",
+      "cite": "(1999) 3 SCC 422",
+      "court": "Supreme Court",
+      "docid": "",
+      "principle": "If the manner of doing a particular act is prescribed under a statute, the act must be done in that manner or not at all (Taylor v. Taylor / Nazir Ahmad).",
+      "principle_para": "if the manner of doing a particular act is prescribed under any statute, the act must be done in that manner or not at all.",
+      "treatment": "followed",
+      "on_issue": "natural-justice"
+    },
+    {
+      "name": "Executive Engineer (SOUTHCO) v. Sri Seetaram Rice Mill",
+      "cite": "(2012) 2 SCC 108",
+      "court": "Supreme Court (3-Judge)",
+      "docid": "",
+      "principle": "Sections 126 and 135 operate in different fields; Section 126 covers unauthorised use, Section 135 covers theft.",
+      "treatment": "followed",
+      "on_issue": "126v135"
+    }
+  ],
+  "ratio": [
+    {
+      "issue_node": "126v135",
+      "proposition": "An acquittal in the Section 135 criminal case does not exonerate Section 126 civil liability (the two proceedings have no bearing on each other).",
+      "scope": "HC-DB (Jharkhand)",
+      "novelty": "affirms",
+      "conflicts_with": []
+    },
+    {
+      "issue_node": "natural-justice",
+      "proposition": "The Section 126(2)/(3) procedure — service of the provisional assessment, opportunity to object, and a final assessment — is mandatory (manner-prescribed rule); a demand raised without it is set aside and remitted.",
+      "scope": "HC-DB (Jharkhand)",
+      "novelty": "settles",
+      "conflicts_with": []
+    }
+  ],
+  "significance": "A reportable Jharkhand Division-Bench authority pairing two propositions: (1) an acquittal in the Section 135 case does not bar Section 126 civil liability (following Orion Metal and Seetaram Rice Mill), and (2) the Section 126(2)/(3) procedure — service of the provisional assessment, opportunity to object, and a final order — is mandatory under the 'manner-prescribed' rule (Singhara Singh; Babu Verghese/Nazir Ahmad), so a demand raised without it is set aside and remitted. Authored by Sujit Narayan Prasad J (cf. HC-018, HC-023).",
+  "validity": {
+    "overall": "good-law",
+    "as_of": "2026-07",
+    "provision_version_ok": true,
+    "per_issue": {
+      "126v135": "good-law; follows Orion Metal and Seetaram Rice Mill on acquittal not affecting Section 126.",
+      "natural-justice": "good-law on the mandatory Section 126(2)/(3) service-objection-final-assessment procedure (manner-prescribed rule)."
+    },
+    "note": "Not overruled (A.F.R./reportable). Applies the post-2007 Act."
+  },
+  "flags": [
+    "acquittal in s.135 does NOT bar s.126 liability (with Orion Metal + Seetaram)",
+    "s.126(2)/(3) service + objection + final assessment MANDATORY (manner-prescribed rule)",
+    "demand without service/objection/final assessment set aside + remitted",
+    "applies Singhara Singh + Babu Verghese/Nazir Ahmad",
+    "authored by Sujit Narayan Prasad J (cf. HC-018, HC-023)",
+    "expert-cited pool; post-2007-text (A.F.R.)"
+  ]
+}
