@@ -27,10 +27,11 @@
     ]
   },
   "s.56": {
-    "n_holdings": 1,
-    "n_ratio": 1,
+    "n_holdings": 6,
+    "n_ratio": 6,
     "cases": [
-      "HC-003"
+      "HC-003",
+      "SC-004"
     ],
     "versions_applied": [
       "post-2007"
@@ -49,6 +50,76 @@
         "holding_type": "ratio",
         "interpretation_type": "limitation-first-due",
         "holding": "Electricity dues under a Section 126 assessment become 'first due' for Section 56(2) only when the final assessment is made — not on the date of detection or consumption; the two-year bar runs from the final assessment, so recovery initiated soon after it is within time."
+      },
+      {
+        "case_id": "SC-004",
+        "title": "Assistant Engineer (D1), Ajmer Vidyut Vitran Nigam Ltd. v. Rahamatullah Khan",
+        "court_type": "SC",
+        "date": "2020-02-18",
+        "provision_cited_as": "s.56(2)",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "limitation-56"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "first-due-means-bill-issued",
+        "holding": "Electricity charges become 'first due' under Section 56(2) only after the bill is issued to the consumer, even though the liability to pay arises on consumption; the obligation to pay arises when the bill quantifying the charges is issued."
+      },
+      {
+        "case_id": "SC-004",
+        "title": "Assistant Engineer (D1), Ajmer Vidyut Vitran Nigam Ltd. v. Rahamatullah Khan",
+        "court_type": "SC",
+        "date": "2020-02-18",
+        "provision_cited_as": "s.56(1)",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "limitation-56"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "disconnection-right-subject-to-limitation",
+        "holding": "Section 56(1) confers a statutory right on the licensee to disconnect supply for non-payment; that right is subject to the two-year limitation in Section 56(2)."
+      },
+      {
+        "case_id": "SC-004",
+        "title": "Assistant Engineer (D1), Ajmer Vidyut Vitran Nigam Ltd. v. Rahamatullah Khan",
+        "court_type": "SC",
+        "date": "2020-02-18",
+        "provision_cited_as": "s.56(2)",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "limitation-56"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "two-year-bar-on-disconnection",
+        "holding": "The two-year period runs from when the charges became first due; Section 56(2) restricts the licensee's right to disconnect for non-payment unless the sum has been shown continuously as recoverable arrears in the bills for the past period."
+      },
+      {
+        "case_id": "SC-004",
+        "title": "Assistant Engineer (D1), Ajmer Vidyut Vitran Nigam Ltd. v. Rahamatullah Khan",
+        "court_type": "SC",
+        "date": "2020-02-18",
+        "provision_cited_as": "s.56(2)",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "limitation-56"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "bars-only-disconnection-not-recovery",
+        "holding": "Section 56(2) bars ONLY the coercive remedy of disconnection after two years; it does not preclude the licensee from raising a supplementary demand or pursuing other modes of recovery for it."
+      },
+      {
+        "case_id": "SC-004",
+        "title": "Assistant Engineer (D1), Ajmer Vidyut Vitran Nigam Ltd. v. Rahamatullah Khan",
+        "court_type": "SC",
+        "date": "2020-02-18",
+        "provision_cited_as": "s.56(2)",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "limitation-56"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "mistake-supplementary-demand-no-disconnection",
+        "holding": "In case of a bona fide mistake, the licensee may raise an additional/supplementary demand after the two-year period, but cannot take recourse to disconnection to recover it (limitation for a suit running from discovery of the mistake under Section 17(1)(c) of the Limitation Act)."
       }
     ]
   },
@@ -105,8 +176,8 @@
     ]
   },
   "s.126": {
-    "n_holdings": 58,
-    "n_ratio": 54,
+    "n_holdings": 69,
+    "n_ratio": 65,
     "cases": [
       "HC-003",
       "HC-006",
@@ -127,7 +198,9 @@
       "HC-026",
       "HC-027",
       "HC-028",
-      "SC-001"
+      "SC-001",
+      "SC-002",
+      "SC-003"
     ],
     "versions_applied": [
       "post-2007",
@@ -319,6 +392,94 @@
         "holding_type": "explanatory",
         "interpretation_type": "s126-vs-s135-positive-act",
         "holding": "Section 126 assessment may be made even on inspection of records where a person is found in unauthorised use, without attracting Section 135, because Section 135 contemplates a positive act interfering with the recording of electricity supplied."
+      },
+      {
+        "case_id": "SC-002",
+        "title": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (SOUTHCO) v. Sri Seetaram Rice Mill",
+        "court_type": "SC",
+        "date": "2011-10-20",
+        "provision_cited_as": "s.126 / s.135",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "126v135"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "different-and-distinct-fields",
+        "holding": "Sections 126 and 135 are distinct provisions that operate in different and distinct fields and have no commonality in law."
+      },
+      {
+        "case_id": "SC-002",
+        "title": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (SOUTHCO) v. Sri Seetaram Rice Mill",
+        "court_type": "SC",
+        "date": "2011-10-20",
+        "provision_cited_as": "s.126 / s.135",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "126v135",
+          "mensrea-135"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "mens-rea-135-not-126",
+        "holding": "Section 135 theft falls within criminal jurisprudence and mens rea is a relevant factor; Section 126 does not speak of any criminal intendment and is primarily a civil remedy without elements traceable to mens rea."
+      },
+      {
+        "case_id": "SC-002",
+        "title": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (SOUTHCO) v. Sri Seetaram Rice Mill",
+        "court_type": "SC",
+        "date": "2011-10-20",
+        "provision_cited_as": "s.126",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "assessment-126",
+          "mensrea-135"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "no-intention-required-for-126",
+        "holding": "'Unauthorised use of electricity' under Section 126 deals with cases of unauthorised use even in the absence of intention — distinct from dishonest abstraction under Section 135."
+      },
+      {
+        "case_id": "SC-002",
+        "title": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (SOUTHCO) v. Sri Seetaram Rice Mill",
+        "court_type": "SC",
+        "date": "2011-10-20",
+        "provision_cited_as": "s.126 Explanation (b)(iv)",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "assessment-126"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "purposive-wider-connotation",
+        "holding": "'Unauthorised use of electricity' is an expression of wider connotation to be construed purposively; excess-load consumption beyond the connected load falls under Explanation (b)(iv) to Section 126 (besides violating the Regulations and agreement)."
+      },
+      {
+        "case_id": "SC-002",
+        "title": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (SOUTHCO) v. Sri Seetaram Rice Mill",
+        "court_type": "SC",
+        "date": "2011-10-20",
+        "provision_cited_as": "s.126 / s.127",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "appeal-127",
+          "provisional-final"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "complete-code-only-final-appealable",
+        "holding": "Sections 126 and 127 read together constitute a complete code; only a final order of assessment under Section 126(3) is appealable under Section 127, and a notice-cum-provisional assessment under Section 126(2) is not appealable."
+      },
+      {
+        "case_id": "SC-002",
+        "title": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (SOUTHCO) v. Sri Seetaram Rice Mill",
+        "court_type": "SC",
+        "date": "2011-10-20",
+        "provision_cited_as": "s.126(3)",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "appeal-127",
+          "jurisdiction-145-154"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "hc-restraint-under-226",
+        "holding": "The High Court should normally decline to interfere under Article 226 with a final assessment; it may examine a jurisdictional challenge but must not travel into the assessing officer's exclusive domain of assessment and fact-finding."
       },
       {
         "case_id": "HC-019",
@@ -656,6 +817,80 @@
         "holding": "Seetaram Rice Mill lays down no ratio that a Section 126 assessment cannot be undertaken in theft cases; Section 126 covers cases over and above Section 135, and the two must be read harmoniously to make both effective."
       },
       {
+        "case_id": "SC-003",
+        "title": "West Bengal State Electricity Distribution Co. Ltd. (WBSEDCL) v. M/s Orion Metal Pvt. Ltd.",
+        "court_type": "SC",
+        "date": "2019-08-21",
+        "provision_cited_as": "s.126 / s.135",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "126v135"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "theft-is-a-subset-of-unauthorised-use",
+        "holding": "All instances of unauthorised use may not amount to theft, but theft under Section 135 falls within the definition of 'unauthorised use of electricity'; hence use through a tampered meter (Section 126(6)(b)(iii)) is unauthorised use assessable under Section 126."
+      },
+      {
+        "case_id": "SC-003",
+        "title": "West Bengal State Electricity Distribution Co. Ltd. (WBSEDCL) v. M/s Orion Metal Pvt. Ltd.",
+        "court_type": "SC",
+        "date": "2019-08-21",
+        "provision_cited_as": "s.126(1)",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "assessment-126",
+          "126v135"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "s126-available-in-theft",
+        "holding": "The authorities are empowered to make a provisional and final assessment under Section 126(1) even in cases where electricity is unauthorisedly used by way of theft."
+      },
+      {
+        "case_id": "SC-003",
+        "title": "West Bengal State Electricity Distribution Co. Ltd. (WBSEDCL) v. M/s Orion Metal Pvt. Ltd.",
+        "court_type": "SC",
+        "date": "2019-08-21",
+        "provision_cited_as": "s.126 / s.154(5)",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "jurisdiction-145-154",
+          "126v135"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "not-parallel-both-may-operate",
+        "holding": "The Section 126(1) assessment power and the Section 154(5) Special Court power to determine civil liability are not parallel to each other; the High Court erred in holding that both proceedings cannot operate parallelly."
+      },
+      {
+        "case_id": "SC-003",
+        "title": "West Bengal State Electricity Distribution Co. Ltd. (WBSEDCL) v. M/s Orion Metal Pvt. Ltd.",
+        "court_type": "SC",
+        "date": "2019-08-21",
+        "provision_cited_as": "s.126 / s.135 / s.154(5)",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "126v135",
+          "jurisdiction-145-154"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "two-scenarios-mapping",
+        "holding": "Where there is no theft (only unauthorised use), no Section 135 complaint lies and the loss is assessed under Section 126(1); where the unauthorised use amounts to theft, a Section 126(1) assessment AND a Section 135 complaint may both proceed, with the Special Court determining civil liability under Section 154(5) and any excess deposit refunded."
+      },
+      {
+        "case_id": "SC-003",
+        "title": "West Bengal State Electricity Distribution Co. Ltd. (WBSEDCL) v. M/s Orion Metal Pvt. Ltd.",
+        "court_type": "SC",
+        "date": "2019-08-21",
+        "provision_cited_as": "s.126 / s.135",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "burden-proof",
+          "mensrea-135"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "proof-standard-civil-vs-criminal",
+        "holding": "To prove theft in a criminal proceeding, the case must be proved beyond reasonable doubt with mens rea established; such strict proof is not necessary for assessing liability under Section 126(1)."
+      },
+      {
         "case_id": "HC-027",
         "title": "Rakesh Singh v. State of U.P.",
         "court_type": "HC",
@@ -983,8 +1218,8 @@
     ]
   },
   "s.127": {
-    "n_holdings": 14,
-    "n_ratio": 14,
+    "n_holdings": 15,
+    "n_ratio": 15,
     "cases": [
       "HC-003",
       "HC-014",
@@ -996,12 +1231,28 @@
       "HC-025",
       "HC-026",
       "HC-028",
-      "SC-001"
+      "SC-001",
+      "SC-002"
     ],
     "versions_applied": [
       "post-2007"
     ],
     "holdings_chronological": [
+      {
+        "case_id": "SC-002",
+        "title": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (SOUTHCO) v. Sri Seetaram Rice Mill",
+        "court_type": "SC",
+        "date": "2011-10-20",
+        "provision_cited_as": "s.126 / s.127",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "appeal-127",
+          "provisional-final"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "complete-code-only-final-appealable",
+        "holding": "Sections 126 and 127 read together constitute a complete code; only a final order of assessment under Section 126(3) is appealable under Section 127, and a notice-cum-provisional assessment under Section 126(2) is not appealable."
+      },
       {
         "case_id": "HC-019",
         "title": "M/s Shyam Lal Iron & Steel Co. v. Jharkhand State Electricity Board",
@@ -1207,8 +1458,8 @@
     ]
   },
   "s.135": {
-    "n_holdings": 23,
-    "n_ratio": 18,
+    "n_holdings": 28,
+    "n_ratio": 23,
     "cases": [
       "HC-003",
       "HC-009",
@@ -1224,7 +1475,9 @@
       "HC-026",
       "HC-027",
       "HC-028",
-      "SC-001"
+      "SC-001",
+      "SC-002",
+      "SC-003"
     ],
     "versions_applied": [
       "post-2007",
@@ -1259,6 +1512,35 @@
         "holding_type": "explanatory",
         "interpretation_type": "s126-vs-s135-positive-act",
         "holding": "Section 126 assessment may be made even on inspection of records where a person is found in unauthorised use, without attracting Section 135, because Section 135 contemplates a positive act interfering with the recording of electricity supplied."
+      },
+      {
+        "case_id": "SC-002",
+        "title": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (SOUTHCO) v. Sri Seetaram Rice Mill",
+        "court_type": "SC",
+        "date": "2011-10-20",
+        "provision_cited_as": "s.126 / s.135",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "126v135"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "different-and-distinct-fields",
+        "holding": "Sections 126 and 135 are distinct provisions that operate in different and distinct fields and have no commonality in law."
+      },
+      {
+        "case_id": "SC-002",
+        "title": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (SOUTHCO) v. Sri Seetaram Rice Mill",
+        "court_type": "SC",
+        "date": "2011-10-20",
+        "provision_cited_as": "s.126 / s.135",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "126v135",
+          "mensrea-135"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "mens-rea-135-not-126",
+        "holding": "Section 135 theft falls within criminal jurisprudence and mens rea is a relevant factor; Section 126 does not speak of any criminal intendment and is primarily a civil remedy without elements traceable to mens rea."
       },
       {
         "case_id": "HC-019",
@@ -1420,6 +1702,50 @@
         "holding_type": "explanatory",
         "interpretation_type": "acquittal-on-benefit-of-doubt",
         "holding": "On the facts, the acquittal was not a clean acquittal but a benefit-of-doubt acquittal on technicality (delayed seizure, non-production of dump copy), reinforcing that it does not undo the Section 126 civil liability."
+      },
+      {
+        "case_id": "SC-003",
+        "title": "West Bengal State Electricity Distribution Co. Ltd. (WBSEDCL) v. M/s Orion Metal Pvt. Ltd.",
+        "court_type": "SC",
+        "date": "2019-08-21",
+        "provision_cited_as": "s.126 / s.135",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "126v135"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "theft-is-a-subset-of-unauthorised-use",
+        "holding": "All instances of unauthorised use may not amount to theft, but theft under Section 135 falls within the definition of 'unauthorised use of electricity'; hence use through a tampered meter (Section 126(6)(b)(iii)) is unauthorised use assessable under Section 126."
+      },
+      {
+        "case_id": "SC-003",
+        "title": "West Bengal State Electricity Distribution Co. Ltd. (WBSEDCL) v. M/s Orion Metal Pvt. Ltd.",
+        "court_type": "SC",
+        "date": "2019-08-21",
+        "provision_cited_as": "s.126 / s.135 / s.154(5)",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "126v135",
+          "jurisdiction-145-154"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "two-scenarios-mapping",
+        "holding": "Where there is no theft (only unauthorised use), no Section 135 complaint lies and the loss is assessed under Section 126(1); where the unauthorised use amounts to theft, a Section 126(1) assessment AND a Section 135 complaint may both proceed, with the Special Court determining civil liability under Section 154(5) and any excess deposit refunded."
+      },
+      {
+        "case_id": "SC-003",
+        "title": "West Bengal State Electricity Distribution Co. Ltd. (WBSEDCL) v. M/s Orion Metal Pvt. Ltd.",
+        "court_type": "SC",
+        "date": "2019-08-21",
+        "provision_cited_as": "s.126 / s.135",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "burden-proof",
+          "mensrea-135"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "proof-standard-civil-vs-criminal",
+        "holding": "To prove theft in a criminal proceeding, the case must be proved beyond reasonable doubt with mens rea established; such strict proof is not necessary for assessing liability under Section 126(1)."
       },
       {
         "case_id": "HC-027",
@@ -1807,8 +2133,8 @@
     ]
   },
   "s.154": {
-    "n_holdings": 8,
-    "n_ratio": 8,
+    "n_holdings": 11,
+    "n_ratio": 11,
     "cases": [
       "HC-003",
       "HC-006",
@@ -1816,7 +2142,8 @@
       "HC-019",
       "HC-022",
       "HC-023",
-      "HC-027"
+      "HC-027",
+      "SC-003"
     ],
     "versions_applied": [
       "post-2007"
@@ -1907,6 +2234,50 @@
         "holding_type": "ratio",
         "interpretation_type": "s154-does-not-oust-s126",
         "holding": "The amount 'deposited by the consumer' in Section 154(6) is the amount deposited under Section 126 (there being no other deposit provision for theft), so the Section 154(5) Special Court does not oust the Section 126 assessment; the argument that only the Special Court may assess is rejected."
+      },
+      {
+        "case_id": "SC-003",
+        "title": "West Bengal State Electricity Distribution Co. Ltd. (WBSEDCL) v. M/s Orion Metal Pvt. Ltd.",
+        "court_type": "SC",
+        "date": "2019-08-21",
+        "provision_cited_as": "s.126 / s.154(5)",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "jurisdiction-145-154",
+          "126v135"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "not-parallel-both-may-operate",
+        "holding": "The Section 126(1) assessment power and the Section 154(5) Special Court power to determine civil liability are not parallel to each other; the High Court erred in holding that both proceedings cannot operate parallelly."
+      },
+      {
+        "case_id": "SC-003",
+        "title": "West Bengal State Electricity Distribution Co. Ltd. (WBSEDCL) v. M/s Orion Metal Pvt. Ltd.",
+        "court_type": "SC",
+        "date": "2019-08-21",
+        "provision_cited_as": "s.126 / s.135 / s.154(5)",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "126v135",
+          "jurisdiction-145-154"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "two-scenarios-mapping",
+        "holding": "Where there is no theft (only unauthorised use), no Section 135 complaint lies and the loss is assessed under Section 126(1); where the unauthorised use amounts to theft, a Section 126(1) assessment AND a Section 135 complaint may both proceed, with the Special Court determining civil liability under Section 154(5) and any excess deposit refunded."
+      },
+      {
+        "case_id": "SC-003",
+        "title": "West Bengal State Electricity Distribution Co. Ltd. (WBSEDCL) v. M/s Orion Metal Pvt. Ltd.",
+        "court_type": "SC",
+        "date": "2019-08-21",
+        "provision_cited_as": "s.154(5)",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "jurisdiction-145-154"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "s154-does-not-oust-s126",
+        "holding": "Merely because the Special Court is empowered to determine civil liability under Section 154(5) where a complaint is lodged, it cannot be said that the authorities have no power to make a Section 126 assessment."
       },
       {
         "case_id": "HC-027",

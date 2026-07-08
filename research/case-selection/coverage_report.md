@@ -1,19 +1,19 @@
 # Coverage report — selection worklist
 
-Corpus: **22 records** — 1 SC, 21 HC across 11 states.
+Corpus: **25 records** — 4 SC, 21 HC across 11 states.
 
 ## 1 · Issue-node coverage (thin = <2 cases; single = 1)
 
-- `126v135` — 16 case(s) ✓  (lead SC-001)
-- `assessment-126` — 10 case(s) ✓  (lead SC-001)
-- `mensrea-135` — 13 case(s) ✓  (lead SC-001)
-- `appeal-127` — 13 case(s) ✓  (lead SC-001)
-- `jurisdiction-145-154` — 10 case(s) ✓  (lead SC-001)
+- `126v135` — 18 case(s) ✓  (lead SC-002)
+- `assessment-126` — 12 case(s) ✓  (lead SC-002)
+- `mensrea-135` — 15 case(s) ✓  (lead SC-002)
+- `appeal-127` — 14 case(s) ✓  (lead SC-002)
+- `jurisdiction-145-154` — 12 case(s) ✓  (lead SC-002)
 - `compounding-152` — 2 case(s) • thin  (lead HC-026)
 - `natural-justice` — 14 case(s) ✓  (lead HC-003)
-- `provisional-final` — 10 case(s) ✓  (lead HC-003)
-- `burden-proof` — 5 case(s) ✓  (lead HC-019)
-- `limitation-56` — 1 case(s) ⚠️ single  (lead HC-003)
+- `provisional-final` — 11 case(s) ✓  (lead SC-002)
+- `burden-proof` — 6 case(s) ✓  (lead SC-003)
+- `limitation-56` — 2 case(s) • thin  (lead SC-004)
 
 ## 2 · Provision-version risk (holdings resting only on superseded text)
 
@@ -22,19 +22,19 @@ Corpus: **22 records** — 1 SC, 21 HC across 11 states.
 
 ## 3 · Court hierarchy
 
-- SC records: **1** — ⚠️ backbone thin; SC cases anchor binding law
-- bench mix: {'HC-SB': 13, 'HC-DB': 8, None: 1}
+- SC records: **4** — ✓
+- bench mix: {'HC-SB': 13, 'SC': 3, 'HC-DB': 8, None: 1}
 
 ## 4 · Consumer-category coverage
 
-- industrial: 10 
+- industrial: 12 
 - commercial: 13 
-- domestic: 3 
+- domestic: 4 
 - agricultural: 1 
 
 ## 5 · Fact-pattern coverage
 
-- excess-load: 6
+- excess-load: 7
 - theft-by-tapping: 3
 - FIR-under-135: 2
 - FIR-for-theft: 2
@@ -43,6 +43,15 @@ Corpus: **22 records** — 1 SC, 21 HC across 11 states.
 - compounding-cheques-encashed: 1
 - s126-assessment: 1
 - appeal-dismissed-for-jurisdiction: 1
+- tampered-meter: 1
+- foreign-material-in-TTB: 1
+- theft-by-tampering: 1
+- criminal-complaint-filed: 1
+- large-quantum: 1
+- wrong-tariff-code: 1
+- audit-discovered-mistake: 1
+- supplementary-demand: 1
+- s56(2)-limitation: 1
 - unauthorised-extension-to-tenants: 1
 - meter-burnt: 1
 - disconnection-without-notice: 1
@@ -87,6 +96,9 @@ Corpus: **22 records** — 1 SC, 21 HC across 11 states.
 - wrong-purpose: 1
 - compounding-fee-collected: 1
 - appeal-returned-without-hearing: 1
+- overdrawal-of-maximum-demand: 1
+- change-of-category: 1
+- provisional-assessment-challenged-in-writ: 1
 - tampered/missing-seal: 1
 - scratches-on-CT-box: 1
 - alleged-DAE-without-corroboration: 1
@@ -128,8 +140,6 @@ Corpus: **22 records** — 1 SC, 21 HC across 11 states.
 
 ## 6 · Highest-value un-recorded authorities (snowball worklist)
 
-- **Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (SOUTHCO) v. Sri Seetaram Rice Mill** — cited 8× ({'followed': 7, 'referred': 1}) → not yet a record
-- **Executive Engineer (SOUTHCO) v. Sri Seetaram Rice Mill** — cited 5× ({'referred': 3, 'followed': 2}) → not yet a record
+- **M/s Paliwal Alloys Pvt. Ltd. v. State of U.P.** — cited 2× ({'followed': 2}) → not yet a record
 - **M/s Radha Krishna Cold Storage v. State of U.P.** — cited 2× ({'referred': 1, 'followed': 1}) → not yet a record
 - **Tinsukhia Electricity Supply Co. Ltd. v. State of Assam** — cited 2× ({'followed': 2}) → not yet a record
-- **WBSEDCL v. Orion Metal Pvt. Ltd.** — cited 2× ({'followed': 2}) → not yet a record

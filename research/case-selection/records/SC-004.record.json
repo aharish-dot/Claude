@@ -1,0 +1,145 @@
+{
+  "schema_version": "1.0",
+  "case_id": "SC-004",
+  "docid": "190288453",
+  "court": "Supreme Court of India",
+  "court_type": "SC",
+  "bench_type": "SC",
+  "title": "Assistant Engineer (D1), Ajmer Vidyut Vitran Nigam Ltd. v. Rahamatullah Khan",
+  "neutral_cite": "(2020) 4 SCALE 36; Civil Appeal No. 1672 of 2020",
+  "date": "2020-02-18",
+  "bench": ["Uday Umesh Lalit J", "Indu Malhotra J", "Hemant Gupta J"],
+  "bench_strength": 3,
+  "reportable": true,
+  "one_line": "Under Section 56(2), electricity charges become 'first due' only after the bill is issued, and the licensee's Section 56(1) right to disconnect for non-payment is subject to a two-year limitation from that date; after two years the licensee may still raise a supplementary demand or use other recovery modes (and in case of mistake, limitation for a suit runs from discovery under Section 17(1)(c) Limitation Act) — but it cannot resort to disconnection.",
+  "facts_squib": "For July 2009-September 2011 the consumer was billed under the wrong (lower) tariff code; a 2014 internal audit discovered the error in 52 cases and the licensee raised additional demands in 2014-2015 for the past period. The consumer fora were divided; the National Commission held the additional demand time-barred under Section 56(2). The licensee appealed, and the Court (with an amicus) decided the questions of law, directing that the additional demand not be recovered from this respondent.",
+  "disposition": "Civil appeals disposed of on the questions of law: Section 56(2) does not bar a supplementary demand or other recovery modes, but the licensee cannot disconnect supply to recover a demand raised beyond two years of the sum becoming first due.",
+  "procedural_posture": "Civil appeal from the National Consumer Disputes Redressal Commission",
+  "outcome_for": "consumer",
+  "relief_granted": "Licensee barred from disconnection to recover the time-barred additional demand; questions of law settled.",
+  "consumer_category": ["domestic/general (wrong tariff-code billing)"],
+  "fact_pattern_tags": ["wrong-tariff-code", "audit-discovered-mistake", "supplementary-demand", "s56(2)-limitation"],
+  "state": ["Rajasthan"],
+  "discom": ["Ajmer Vidyut Vitran Nigam Ltd. (AVVNL)"],
+  "amendment_considered": "Section 56 of the Electricity Act, 2003 (unchanged by the 2007 amendment); read with Section 17(1)(c) of the Limitation Act, 1963",
+  "regulations_construed": [],
+  "issues_framed": [
+    "Whether recourse to disconnection of electricity supply may be taken by the licensee company after the lapse of two years in case of a mistake?"
+  ],
+  "provisions_construed": [
+    {"provision": "s.56", "docid": ""},
+    {"provision": "s.56(1)", "docid": ""},
+    {"provision": "s.56(2)", "docid": ""},
+    {"provision": "Limitation Act 1963, s.17(1)(c)", "docid": ""}
+  ],
+  "provision_holdings": [
+    {
+      "provision": "s.56(2)",
+      "issue_node": ["limitation-56"],
+      "holding": "Electricity charges become 'first due' under Section 56(2) only after the bill is issued to the consumer, even though the liability to pay arises on consumption; the obligation to pay arises when the bill quantifying the charges is issued.",
+      "interpretation_type": "first-due-means-bill-issued",
+      "key_para": "The obligation to pay would arise when the bill is issued by the licensee company, quantifying the charges to be paid.",
+      "para_ref": "para 6.6",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.56(1)",
+      "issue_node": ["limitation-56"],
+      "holding": "Section 56(1) confers a statutory right on the licensee to disconnect supply for non-payment; that right is subject to the two-year limitation in Section 56(2).",
+      "interpretation_type": "disconnection-right-subject-to-limitation",
+      "key_para": "This statutory right is subject to the period of limitation of two years provided by sub-section (2) of Section 56 of the Act.",
+      "para_ref": "para 7.3",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.56(2)",
+      "issue_node": ["limitation-56"],
+      "holding": "The two-year period runs from when the charges became first due; Section 56(2) restricts the licensee's right to disconnect for non-payment unless the sum has been shown continuously as recoverable arrears in the bills for the past period.",
+      "interpretation_type": "two-year-bar-on-disconnection",
+      "key_para": "This provision restricts the right of the licensee company to disconnect electricity supply due to non-payment of dues by the consumer, unless such sum has been shown continuously to be recoverable as arrears of electricity supplied, in the bills raised for the past period.",
+      "para_ref": "para 7.4",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.56(2)",
+      "issue_node": ["limitation-56"],
+      "holding": "Section 56(2) bars ONLY the coercive remedy of disconnection after two years; it does not preclude the licensee from raising a supplementary demand or pursuing other modes of recovery for it.",
+      "interpretation_type": "bars-only-disconnection-not-recovery",
+      "key_para": "It only restricts the right of the licensee to disconnect electricity supply due to non-payment of dues after the period of limitation of two years has expired, nor does it restrict other modes of recovery which may be initiated by the licensee company for recovery of a supplementary demand.",
+      "para_ref": "para 8",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.56(2)",
+      "issue_node": ["limitation-56"],
+      "holding": "In case of a bona fide mistake, the licensee may raise an additional/supplementary demand after the two-year period, but cannot take recourse to disconnection to recover it (limitation for a suit running from discovery of the mistake under Section 17(1)(c) of the Limitation Act).",
+      "interpretation_type": "mistake-supplementary-demand-no-disconnection",
+      "key_para": "It did not however, empower the licensee company to take recourse to the coercive measure of disconnection of electricity supply, for recovery of the additional demand.",
+      "para_ref": "para 9",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Swastic Industries v. Maharashtra State Electricity Board",
+      "cite": "(1997) 9 SCC 465",
+      "court": "Supreme Court",
+      "docid": "",
+      "principle": "The right to recover the charges and the right to disconnect supply for non-payment are two distinct parts of the licensee's power.",
+      "principle_para": "the right to recover the charges is one part of it and right to discontinue supply of electrical energy to the consumer who neglects to pay charges is another part of it.",
+      "treatment": "followed",
+      "on_issue": "limitation-56"
+    },
+    {
+      "name": "Mahabir Kishore v. State of Madhya Pradesh",
+      "cite": "(1989) 4 SCC 1",
+      "court": "Supreme Court",
+      "docid": "",
+      "principle": "Under Section 17(1)(c) of the Limitation Act, in a suit for relief on the ground of mistake, limitation does not begin to run until the plaintiff discovered the mistake or could with reasonable diligence have discovered it.",
+      "principle_para": "in the case of a suit for relief on the ground of mistake, the period of limitation does not begin to run until the plaintiff had discovered the mistake or could with reasonable diligence, have discovered it.",
+      "treatment": "followed",
+      "on_issue": "limitation-56"
+    },
+    {
+      "name": "Chandavarkar Sita Ratna Rao v. Ashalata S. Guram",
+      "cite": "(1986) 4 SCC 447",
+      "court": "Supreme Court",
+      "docid": "",
+      "principle": "The effect of a non obstante clause is to give the enacting part an overriding effect over the provisions mentioned in the clause (here, Section 56(2)'s non obstante clause).",
+      "treatment": "referred",
+      "on_issue": "limitation-56"
+    }
+  ],
+  "ratio": [
+    {
+      "issue_node": "limitation-56",
+      "proposition": "Charges become 'first due' under Section 56(2) only on issuance of the bill; the Section 56(1) disconnection right is subject to a two-year limitation from that date; beyond two years the licensee may raise a supplementary demand and pursue other recovery modes (limitation for a suit on a mistake running from discovery under Section 17(1)(c) Limitation Act) but cannot disconnect supply.",
+      "scope": "SC-binding",
+      "novelty": "settles",
+      "conflicts_with": []
+    }
+  ],
+  "significance": "The leading Supreme Court (3-Judge) authority on Section 56(2): it defines 'first due' as the date the bill is issued, holds the Section 56(1) disconnection right is subject to a two-year limitation, and crucially confines Section 56(2) to barring only the coercive remedy of disconnection — the licensee may still raise a supplementary demand (e.g. on a bona fide tariff mistake, with suit-limitation running from discovery under Section 17(1)(c) Limitation Act) and pursue other recovery modes. Fills the limitation-56 node with an SC anchor.",
+  "validity": {
+    "overall": "good-law",
+    "as_of": "2026-07",
+    "provision_version_ok": true,
+    "per_issue": {
+      "limitation-56": "good-law; the settling SC authority on Section 56(2) 'first due' and the two-year bar on disconnection (note the later Constitution-Bench K.C. Ninan (2023) addresses a distinct Section 56 question — dues on transfer of premises)."
+    },
+    "note": "Not overruled; 3-Judge Bench. Section 56 is unchanged by the 2007 amendment. Read with Section 17(1)(c) Limitation Act for mistake cases."
+  },
+  "flags": [
+    "'first due' (s.56(2)) = date the BILL is issued (not consumption)",
+    "s.56(1) disconnection right subject to 2-year limitation (s.56(2))",
+    "s.56(2) bars ONLY disconnection after 2 years, NOT supplementary demand / other recovery",
+    "mistake: suit-limitation runs from discovery (s.17(1)(c) Limitation Act)",
+    "fills limitation-56 node with an SC 3-Judge anchor",
+    "cf. K.C. Ninan (2023, Constitution Bench) for the distinct dues-on-transfer question"
+  ]
+}

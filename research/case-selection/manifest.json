@@ -82,16 +82,97 @@
       "title": "Assessing Officer-cum-Executive Engineer v. Appellate Authority-cum-Electrical Inspector",
       "note": "topical replacement for rejected HC-015; cites s.126/127/135 (gate-passed)"
     },
-    {"id": "HC-019", "docid": "158534755", "court": "Jharkhand High Court", "title": "Shyam Lal Iron & Steel Co. v. Jharkhand State Electricity Board", "note": "wave 2 expert-cited; shortlist #39; cby9; gate-passed 126/127/135/152/154"},
-    {"id": "HC-020", "docid": "57045694", "court": "Allahabad High Court", "title": "Mohit Paper Mills Ltd. v. PVVNL", "note": "wave 2 expert-cited; shortlist #45; cby7; gate-passed 126/127/135/145/152"},
-    {"id": "HC-021", "docid": "243218", "court": "Calcutta High Court", "title": "Hasi Mazumdar v. West Bengal State Electricity Board", "note": "wave 2 expert-cited; shortlist #54; cby8; gate-passed 126/135"},
-    {"id": "HC-022", "docid": "107836520", "court": "Calcutta High Court", "title": "Tapan Sen Majumdar v. West Bengal State Electricity Board", "note": "wave 2 expert-cited; shortlist #124; gate-passed 126/127/135/154"},
-    {"id": "HC-023", "docid": "106724713", "court": "Orissa High Court", "title": "Jindal Resources Pvt. Ltd. v. Executive Engineer (Elect.), WESCO", "note": "wave 2 expert-cited; shortlist #200; cited in HC-017; gate-passed 126/127/135/154"},
-    {"id": "HC-024", "docid": "176037461", "court": "Jharkhand High Court", "title": "Castron Technologies Ltd. v. Damodar Valley Corporation", "note": "wave 2 expert-cited; gate-passed 126/127/135/154"},
-    {"id": "HC-025", "docid": "155828957", "court": "Calcutta High Court", "title": "Md. Abdul Matin v. West Bengal State Electricity", "note": "wave 2 expert-cited; gate-passed 126/127/135/154"},
-    {"id": "HC-026", "docid": "197023991", "court": "Madras High Court", "title": "V. Swaminathan v. Superintending Engineer", "note": "wave 2 expert-cited; gate-passed 126/127/135/152 (compounding)"},
-    {"id": "HC-027", "docid": "51255397", "court": "Allahabad High Court", "title": "Rakesh Singh v. State of U.P.", "note": "wave 2 expert-cited; gate-passed 126/127/135/154"},
-    {"id": "HC-028", "docid": "169380155", "court": "Allahabad High Court", "title": "Hasimuddin v. State of U.P.", "note": "wave 2 expert-cited; gate-passed 126/127/135/154/56 (limitation-56)"}
+    {
+      "id": "HC-019",
+      "docid": "158534755",
+      "court": "Jharkhand High Court",
+      "title": "Shyam Lal Iron & Steel Co. v. Jharkhand State Electricity Board",
+      "note": "wave 2 expert-cited; shortlist #39; cby9; gate-passed 126/127/135/152/154"
+    },
+    {
+      "id": "HC-020",
+      "docid": "57045694",
+      "court": "Allahabad High Court",
+      "title": "Mohit Paper Mills Ltd. v. PVVNL",
+      "note": "wave 2 expert-cited; shortlist #45; cby7; gate-passed 126/127/135/145/152"
+    },
+    {
+      "id": "HC-021",
+      "docid": "243218",
+      "court": "Calcutta High Court",
+      "title": "Hasi Mazumdar v. West Bengal State Electricity Board",
+      "note": "wave 2 expert-cited; shortlist #54; cby8; gate-passed 126/135"
+    },
+    {
+      "id": "HC-022",
+      "docid": "107836520",
+      "court": "Calcutta High Court",
+      "title": "Tapan Sen Majumdar v. West Bengal State Electricity Board",
+      "note": "wave 2 expert-cited; shortlist #124; gate-passed 126/127/135/154"
+    },
+    {
+      "id": "HC-023",
+      "docid": "106724713",
+      "court": "Orissa High Court",
+      "title": "Jindal Resources Pvt. Ltd. v. Executive Engineer (Elect.), WESCO",
+      "note": "wave 2 expert-cited; shortlist #200; cited in HC-017; gate-passed 126/127/135/154"
+    },
+    {
+      "id": "HC-024",
+      "docid": "176037461",
+      "court": "Jharkhand High Court",
+      "title": "Castron Technologies Ltd. v. Damodar Valley Corporation",
+      "note": "wave 2 expert-cited; gate-passed 126/127/135/154"
+    },
+    {
+      "id": "HC-025",
+      "docid": "155828957",
+      "court": "Calcutta High Court",
+      "title": "Md. Abdul Matin v. West Bengal State Electricity",
+      "note": "wave 2 expert-cited; gate-passed 126/127/135/154"
+    },
+    {
+      "id": "HC-026",
+      "docid": "197023991",
+      "court": "Madras High Court",
+      "title": "V. Swaminathan v. Superintending Engineer",
+      "note": "wave 2 expert-cited; gate-passed 126/127/135/152 (compounding)"
+    },
+    {
+      "id": "HC-027",
+      "docid": "51255397",
+      "court": "Allahabad High Court",
+      "title": "Rakesh Singh v. State of U.P.",
+      "note": "wave 2 expert-cited; gate-passed 126/127/135/154"
+    },
+    {
+      "id": "HC-028",
+      "docid": "169380155",
+      "court": "Allahabad High Court",
+      "title": "Hasimuddin v. State of U.P.",
+      "note": "wave 2 expert-cited; gate-passed 126/127/135/154/56 (limitation-56)"
+    },
+    {
+      "id": "SC-002",
+      "docid": "43074463",
+      "court": "Supreme Court of India",
+      "title": "Executive Engineer (SOUTHCO) v. Sri Seetaram Rice Mill",
+      "note": "SC wave; THE backbone authority (cited 14x in corpus); gate false-negative (cites metadata lacks section tags) overridden - 80 electerms, foundational 126-vs-135 case"
+    },
+    {
+      "id": "SC-003",
+      "docid": "95828096",
+      "court": "Supreme Court of India",
+      "title": "WBSEDCL v. Orion Metal Pvt. Ltd.",
+      "note": "SC wave; backbone (cited 3x); gate-passed 126/135/154; parallel proceedings"
+    },
+    {
+      "id": "SC-004",
+      "docid": "190288453",
+      "court": "Supreme Court of India",
+      "title": "Assistant Engineer (D1), Ajmer VVNL v. Rahamatullah Khan",
+      "note": "SC wave; s.56(2) limitation anchor (cby52); fills limitation-56 OPEN gap; gate-passed s.56"
+    }
   ],
   "status": {
     "HC-006": "done",
@@ -116,7 +197,10 @@
     "HC-026": "done",
     "HC-025": "done",
     "HC-024": "done",
-    "HC-020": "done"
+    "HC-020": "done",
+    "SC-002": "done",
+    "SC-003": "done",
+    "SC-004": "done"
   },
   "rejections": {
     "HC-007": "Hindustan Zinc v. State of Raj. (2012) is a RAJASTHAN LAND TAX case (Rajasthan Finance Act 2006, ss.38-48, Rule 24) — NOT s.126/s.135 Electricity Act. Harvested as a false positive: petitioners include power/oil-generation companies and it cites Southco v. Seetaram Rice Mills (2012) 2 SCC 108 only for the onerous-pre-deposit / alternative-remedy point. No Electricity Act provision is construed. Needs a topical replacement (candidate: Southco v. Seetaram Rice Mills itself — a leading SC s.126 authority — or another HC s.126/135 case).",

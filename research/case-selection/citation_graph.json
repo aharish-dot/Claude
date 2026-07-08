@@ -1,19 +1,19 @@
 {
-  "n_records": 22,
-  "n_authority_edges": 79,
+  "n_records": 25,
+  "n_authority_edges": 84,
   "recurring_authorities": [
     {
       "authority": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (SOUTHCO) v. Sri Seetaram Rice Mill",
       "cite": "(2012) 2 SCC 108",
       "court": "Supreme Court (3-Judge)",
-      "times_cited": 14,
+      "times_cited": 15,
       "treatments": {
-        "followed": 9,
+        "followed": 10,
         "referred": 4,
         "distinguished": 1
       },
       "on_issues": {
-        "126v135": 7,
+        "126v135": 8,
         "jurisdiction-145-154": 1,
         "assessment-126": 3,
         "appeal-127": 3
@@ -56,6 +56,11 @@
         },
         {
           "case_id": "HC-023",
+          "treatment": "followed",
+          "on_issue": "126v135"
+        },
+        {
+          "case_id": "SC-003",
           "treatment": "followed",
           "on_issue": "126v135"
         },
@@ -250,6 +255,7 @@
     }
   ],
   "in_corpus_in_degree": {
+    "SC-002": 15,
     "HC-003": 2,
     "HC-021": 1,
     "HC-008": 1,
@@ -265,7 +271,9 @@
     "HC-011": 0,
     "HC-018": 0,
     "HC-026": 0,
+    "SC-003": 0,
     "HC-027": 0,
+    "SC-004": 0,
     "HC-014": 0,
     "HC-028": 0,
     "HC-017": 0,
@@ -421,10 +429,10 @@
     {
       "from": "HC-019",
       "to_name": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (Southco) v. Sri Seetaram Rice Mill",
-      "to_case_id": null,
+      "to_case_id": "SC-002",
       "treatment": "followed",
       "on_issue": "126v135",
-      "in_corpus": false
+      "in_corpus": true
     },
     {
       "from": "HC-019",
@@ -453,18 +461,18 @@
     {
       "from": "HC-016",
       "to_name": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (Southco) v. Sri Seetaram Rice Mill",
-      "to_case_id": null,
+      "to_case_id": "SC-002",
       "treatment": "referred",
       "on_issue": "jurisdiction-145-154",
-      "in_corpus": false
+      "in_corpus": true
     },
     {
       "from": "HC-003",
       "to_name": "Executive Engineer, SOUTHCO v. Sri Seetaram Rice Mill",
-      "to_case_id": null,
+      "to_case_id": "SC-002",
       "treatment": "distinguished",
       "on_issue": "126v135",
-      "in_corpus": false
+      "in_corpus": true
     },
     {
       "from": "HC-003",
@@ -533,10 +541,10 @@
     {
       "from": "HC-009",
       "to_name": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (Southco) v. Sri Seetaram Rice Mill",
-      "to_case_id": null,
+      "to_case_id": "SC-002",
       "treatment": "followed",
       "on_issue": "126v135",
-      "in_corpus": false
+      "in_corpus": true
     },
     {
       "from": "HC-009",
@@ -557,10 +565,10 @@
     {
       "from": "HC-010",
       "to_name": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (SOUTHCO) v. Sri Seetaram Rice Mill",
-      "to_case_id": null,
+      "to_case_id": "SC-002",
       "treatment": "followed",
       "on_issue": "assessment-126",
-      "in_corpus": false
+      "in_corpus": true
     },
     {
       "from": "HC-010",
@@ -613,10 +621,10 @@
     {
       "from": "HC-018",
       "to_name": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (SOUTHCO) v. Sri Seetaram Rice Mill",
-      "to_case_id": null,
+      "to_case_id": "SC-002",
       "treatment": "followed",
       "on_issue": "assessment-126",
-      "in_corpus": false
+      "in_corpus": true
     },
     {
       "from": "HC-018",
@@ -669,18 +677,18 @@
     {
       "from": "HC-026",
       "to_name": "Executive Engineer (SOUTHCO) v. Sri Seetaram Rice Mill",
-      "to_case_id": null,
+      "to_case_id": "SC-002",
       "treatment": "referred",
       "on_issue": "126v135",
-      "in_corpus": false
+      "in_corpus": true
     },
     {
       "from": "HC-023",
       "to_name": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (SOUTHCO) v. Sri Seetaram Rice Mill",
-      "to_case_id": null,
+      "to_case_id": "SC-002",
       "treatment": "followed",
       "on_issue": "126v135",
-      "in_corpus": false
+      "in_corpus": true
     },
     {
       "from": "HC-023",
@@ -695,6 +703,22 @@
       "to_name": "Ministry of Power clarification, Letter No. 42/2/2005-R&R dated 12.11.2007",
       "to_case_id": null,
       "treatment": "referred",
+      "on_issue": "126v135",
+      "in_corpus": false
+    },
+    {
+      "from": "SC-003",
+      "to_name": "Executive Engineer (SOUTHCO) v. Sri Seetaram Rice Mill",
+      "to_case_id": "SC-002",
+      "treatment": "followed",
+      "on_issue": "126v135",
+      "in_corpus": true
+    },
+    {
+      "from": "SC-003",
+      "to_name": "Hotel Adityaz Ltd. v. M.P. Kshetra Vidyut Vitran Co. Ltd.",
+      "to_case_id": null,
+      "treatment": "distinguished",
       "on_issue": "126v135",
       "in_corpus": false
     },
@@ -731,12 +755,36 @@
       "in_corpus": false
     },
     {
-      "from": "HC-014",
-      "to_name": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (Southco) v. Sri Seetaram Rice Mill",
+      "from": "SC-004",
+      "to_name": "Swastic Industries v. Maharashtra State Electricity Board",
       "to_case_id": null,
       "treatment": "followed",
-      "on_issue": "assessment-126",
+      "on_issue": "limitation-56",
       "in_corpus": false
+    },
+    {
+      "from": "SC-004",
+      "to_name": "Mahabir Kishore v. State of Madhya Pradesh",
+      "to_case_id": null,
+      "treatment": "followed",
+      "on_issue": "limitation-56",
+      "in_corpus": false
+    },
+    {
+      "from": "SC-004",
+      "to_name": "Chandavarkar Sita Ratna Rao v. Ashalata S. Guram",
+      "to_case_id": null,
+      "treatment": "referred",
+      "on_issue": "limitation-56",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-014",
+      "to_name": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (Southco) v. Sri Seetaram Rice Mill",
+      "to_case_id": "SC-002",
+      "treatment": "followed",
+      "on_issue": "assessment-126",
+      "in_corpus": true
     },
     {
       "from": "HC-014",
@@ -773,18 +821,18 @@
     {
       "from": "HC-028",
       "to_name": "Executive Engineer (SOUTHCO) v. Sri Seetaram Rice Mill",
-      "to_case_id": null,
+      "to_case_id": "SC-002",
       "treatment": "referred",
       "on_issue": "appeal-127",
-      "in_corpus": false
+      "in_corpus": true
     },
     {
       "from": "HC-017",
       "to_name": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (SOUTHCO) v. Sri Seetaram Rice Mill",
-      "to_case_id": null,
+      "to_case_id": "SC-002",
       "treatment": "followed",
       "on_issue": "126v135",
-      "in_corpus": false
+      "in_corpus": true
     },
     {
       "from": "HC-017",
@@ -829,10 +877,10 @@
     {
       "from": "HC-022",
       "to_name": "Executive Engineer (SOUTHCO) v. Sri Seetaram Rice Mill",
-      "to_case_id": null,
+      "to_case_id": "SC-002",
       "treatment": "referred",
       "on_issue": "appeal-127",
-      "in_corpus": false
+      "in_corpus": true
     },
     {
       "from": "HC-022",
@@ -877,18 +925,18 @@
     {
       "from": "HC-024",
       "to_name": "Executive Engineer (SOUTHCO) v. Sri Seetaram Rice Mill",
-      "to_case_id": null,
+      "to_case_id": "SC-002",
       "treatment": "followed",
       "on_issue": "126v135",
-      "in_corpus": false
+      "in_corpus": true
     },
     {
       "from": "HC-025",
       "to_name": "Executive Engineer (SOUTHCO) v. Sri Seetaram Rice Mill",
-      "to_case_id": null,
+      "to_case_id": "SC-002",
       "treatment": "followed",
       "on_issue": "appeal-127",
-      "in_corpus": false
+      "in_corpus": true
     },
     {
       "from": "HC-025",

@@ -26,7 +26,10 @@ _ART_LINE = [
     re.compile(r'^\s*-\s*\d{1,4}\s*-\s*$'),                           # dashed page number  -2-
     re.compile(r'^\s*(?:W\.?P\.?|CWP|RFA|LPA|WPA|WA|CWJC|S\.?B\.?|MAT)\b.{0,70}#\d+#.*$', re.I),  # case-no + #n#
     re.compile(r'^.{0,55}-:\s*\d+\s*:-\s*$'),                         # "... Cases -:73:-"
+    re.compile(r'^.{0,45}No\.[^ ]*\d{4}\s+\d{1,3}\s*$'),              # SC docket + page: "C.A.@S.L.P(c) No.22207/2018 21"
     re.compile(r'^\s*All corrections made in the judgment.*$', re.I), # trailing IK boilerplate
+    re.compile(r'^\s*\d{1,2}\s+.{0,70}\(\d{4}\)\s+\d+\s+[A-Z][A-Za-z.]{1,6}\s+\d+\.?\s*$'),  # footnote defn: "3 (1986) 4 SCC 447."
+    re.compile(r'^\s*AIR\s+\d{4}\b.{0,40}$'),                         # footnote defn: "AIR 2016 (NOC) 39 (M.P.)"
 ]
 # Artifacts that appear INLINE within a content line -> squeeze to a space.
 _INLINE = [

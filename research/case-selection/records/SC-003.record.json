@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.0",
+  "case_id": "SC-003",
+  "docid": "95828096",
+  "court": "Supreme Court of India",
+  "court_type": "SC",
+  "bench_type": "SC",
+  "title": "West Bengal State Electricity Distribution Co. Ltd. (WBSEDCL) v. M/s Orion Metal Pvt. Ltd.",
+  "neutral_cite": "(2020) 18 SCC 588; Civil Appeal No. 6547 of 2019",
+  "date": "2019-08-21",
+  "bench": ["R. Banumathi J", "R. Subhash Reddy J"],
+  "bench_strength": 2,
+  "reportable": true,
+  "one_line": "The Section 126(1) assessment power and the Special Court's Section 154(5) civil-liability power are not parallel/mutually exclusive: theft under Section 135 falls within 'unauthorised use', so a Section 126 assessment may be made even in theft cases, and where the unauthorised use amounts to theft both a Section 126 assessment and a Section 135 complaint (with Section 154(5) civil liability) may proceed — the Section 126 assessment needing only civil proof, not proof beyond reasonable doubt.",
+  "facts_squib": "On inspection of a bulk HT consumer (1450 KVA), the team found abnormal current at the PT secondary wires and foreign material inside the TTB, treated it as theft by meter-tampering, seized the meter, made a Section 126(1) provisional assessment of ~Rs 13.41 crore for un-metered consumption, and lodged a criminal complaint (charge-sheet filed). The consumer's writ succeeded before a Division Bench, which held that Section 126 could be invoked only where restoration of supply was sought and that otherwise civil liability lay only with the Special Court under Section 154(5). WBSEDCL appealed.",
+  "disposition": "Appeal allowed; the High Court's order set aside — the Section 126 assessment and the Section 154(5) Special Court determination are not parallel/mutually exclusive, and Section 126 may be invoked even in theft cases.",
+  "procedural_posture": "Civil appeal against a High Court (Division Bench) order quashing a Section 126 assessment",
+  "outcome_for": "licensee",
+  "relief_granted": "HC order set aside; Section 126 assessment restored.",
+  "consumer_category": ["industrial (bulk HT metal unit)"],
+  "fact_pattern_tags": ["tampered-meter", "foreign-material-in-TTB", "theft-by-tampering", "criminal-complaint-filed", "large-quantum"],
+  "state": ["West Bengal"],
+  "discom": ["West Bengal State Electricity Distribution Co. Ltd. (WBSEDCL)"],
+  "amendment_considered": "post-2007 (Act 26 of 2007) — Section 126(6) 'twice the tariff', Section 135, Section 154(5)/(6) as reproduced",
+  "regulations_construed": [
+    {"reg": "WBERC Electricity Supply Code, 2007 (inspection)", "implements": "s.126 procedure", "made_under": "Electricity Act, 2003"}
+  ],
+  "issues_framed": [],
+  "provisions_construed": [
+    {"provision": "s.126", "docid": "124046987"},
+    {"provision": "s.126(1)", "docid": "124046987"},
+    {"provision": "s.135", "docid": "90633360"},
+    {"provision": "s.135(1A)", "docid": "90633360"},
+    {"provision": "s.154(5)/(6)", "docid": "34349824"}
+  ],
+  "provision_holdings": [
+    {
+      "provision": "s.126 / s.135",
+      "issue_node": ["126v135"],
+      "holding": "All instances of unauthorised use may not amount to theft, but theft under Section 135 falls within the definition of 'unauthorised use of electricity'; hence use through a tampered meter (Section 126(6)(b)(iii)) is unauthorised use assessable under Section 126.",
+      "interpretation_type": "theft-is-a-subset-of-unauthorised-use",
+      "key_para": "All instances of unauthorized use of energy may not amount to theft of electricity within the meaning of Section 135 of the Act, but at the same time, the theft of electricity which is covered by Section 135 of the Act, will fall within the definition of unauthorized use of electricity.",
+      "para_ref": "para 12",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.126(1)",
+      "issue_node": ["assessment-126", "126v135"],
+      "holding": "The authorities are empowered to make a provisional and final assessment under Section 126(1) even in cases where electricity is unauthorisedly used by way of theft.",
+      "interpretation_type": "s126-available-in-theft",
+      "key_para": "the authorities under the Act are empowered to make a provisional and final assessment by invoking power under Section 126(1) of the Act, even in cases where electricity is unauthorisedly used by way of theft.",
+      "para_ref": "para 12",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.126 / s.154(5)",
+      "issue_node": ["jurisdiction-145-154", "126v135"],
+      "holding": "The Section 126(1) assessment power and the Section 154(5) Special Court power to determine civil liability are not parallel to each other; the High Court erred in holding that both proceedings cannot operate parallelly.",
+      "interpretation_type": "not-parallel-both-may-operate",
+      "key_para": "The power conferred on authorities for making assessment under Section 126(1) of the Act and power to determine civil liability under Section 154(5) of the Act, cannot be said to be parallel to each other. In this regard, we are of the view that the High Court has committed an error in recording a finding, that both proceedings cannot operate parallelly.",
+      "para_ref": "para 14",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.126 / s.135 / s.154(5)",
+      "issue_node": ["126v135", "jurisdiction-145-154"],
+      "holding": "Where there is no theft (only unauthorised use), no Section 135 complaint lies and the loss is assessed under Section 126(1); where the unauthorised use amounts to theft, a Section 126(1) assessment AND a Section 135 complaint may both proceed, with the Special Court determining civil liability under Section 154(5) and any excess deposit refunded.",
+      "interpretation_type": "two-scenarios-mapping",
+      "key_para": "In cases where allegation is of unauthorized use of energy amounting to theft, in such cases, apart from assessing the proceedings under Section 126(1) of the Act, a complaint also can be lodged alleging theft of energy as defined under Section 135(1) of the Act. In such cases, the Special Court is empowered to determine civil liability under Section 154(5) of the Act.",
+      "para_ref": "para 14",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.126 / s.135",
+      "issue_node": ["burden-proof", "mensrea-135"],
+      "holding": "To prove theft in a criminal proceeding, the case must be proved beyond reasonable doubt with mens rea established; such strict proof is not necessary for assessing liability under Section 126(1).",
+      "interpretation_type": "proof-standard-civil-vs-criminal",
+      "key_para": "to prove the guilt of the accused in a criminal proceeding, authorities have to prove the case beyond reasonable doubt and the element of mens rea is also to be established. On the other hand, such a strict proof is not necessary for assessing the liability under Section 126(1) of the Act.",
+      "para_ref": "para 14",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.154(5)",
+      "issue_node": ["jurisdiction-145-154"],
+      "holding": "Merely because the Special Court is empowered to determine civil liability under Section 154(5) where a complaint is lodged, it cannot be said that the authorities have no power to make a Section 126 assessment.",
+      "interpretation_type": "s154-does-not-oust-s126",
+      "key_para": "Merely because the Special Court is empowered to determine civil liability under Section 154(5) of the Act, in cases where a complaint is lodged, it cannot be said that there is no power conferred on authorities to make provisional assessment/final assessment under Section 126 of the Act.",
+      "para_ref": "para 12",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Executive Engineer (SOUTHCO) v. Sri Seetaram Rice Mill",
+      "cite": "(2012) 2 SCC 108",
+      "court": "Supreme Court (3-Judge)",
+      "docid": "43074463",
+      "principle": "'Unauthorised use of electricity' is not restricted to the Explanation's clauses but has a wider meaning covering all misuse/malpractice; excess load beyond the sanctioned/contracted load is unauthorised use under Explanation (b)(iv).",
+      "principle_para": "Unauthorized use of electricity cannot be restricted to the stated clauses under the Explanation but has to be given a wider meaning so as to cover cases of violation of the terms and conditions of supply and the Regulations and provisions of the 2003 Act governing such supply.",
+      "treatment": "followed",
+      "on_issue": "126v135"
+    },
+    {
+      "name": "Hotel Adityaz Ltd. v. M.P. Kshetra Vidyut Vitran Co. Ltd.",
+      "cite": "AIR 2016 (NOC) 39 (M.P.)",
+      "court": "Madhya Pradesh High Court",
+      "docid": "",
+      "principle": "Relied on by the consumer for the proposition that theft cases fall only under Section 135 and Section 126 has no application — a view not accepted by the Supreme Court.",
+      "treatment": "distinguished",
+      "on_issue": "126v135"
+    }
+  ],
+  "ratio": [
+    {
+      "issue_node": "126v135",
+      "proposition": "Theft under Section 135 is a subset of 'unauthorised use', so a Section 126 assessment may be made even in theft cases; the Section 126(1) assessment and the Section 154(5) Special Court determination are not parallel/mutually exclusive and may both proceed, the Section 126 assessment requiring only civil proof (preponderance), not proof beyond reasonable doubt.",
+      "scope": "SC-binding",
+      "novelty": "settles",
+      "conflicts_with": []
+    }
+  ],
+  "significance": "The leading Supreme Court authority (after Seetaram) on the interplay of Section 126, Section 135 and Section 154(5): it settles that theft is a subset of unauthorised use, that a Section 126 assessment may be made even in theft cases, and that the Section 126 assessment and the Special Court's Section 154(5) civil-liability determination are not parallel/mutually exclusive — both may run, with the Section 126 assessment requiring only civil proof. Applies Seetaram Rice Mill (SC-002). Widely relied on across the corpus (HC-017, HC-022, HC-024).",
+  "validity": {
+    "overall": "good-law",
+    "as_of": "2026-07",
+    "provision_version_ok": true,
+    "per_issue": {
+      "126v135": "good-law; the settling SC authority on parallel Section 126 / Section 135-154 proceedings.",
+      "jurisdiction-145-154": "good-law on Section 154(5) not ousting Section 126."
+    },
+    "note": "Not overruled; 2-Judge Bench applying the post-2007 Act and Seetaram Rice Mill."
+  },
+  "flags": [
+    "theft (s.135) is a SUBSET of unauthorised use (s.126)",
+    "s.126 assessment available EVEN in theft cases",
+    "s.126(1) and s.154(5) are NOT parallel/mutually exclusive; both may run",
+    "s.126 needs only civil proof; s.135 needs beyond-reasonable-doubt + mens rea",
+    "applies Seetaram (SC-002) -> in-corpus SC->SC edge",
+    "relied on across corpus (HC-017/022/024); SC-binding 2-Judge"
+  ]
+}
