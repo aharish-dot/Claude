@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.0",
+  "case_id": "HC-026",
+  "docid": "197023991",
+  "court": "High Court of Madras (Madurai Bench)",
+  "court_type": "HC",
+  "bench_type": "HC-SB",
+  "title": "V. Swaminathan v. Superintending Engineer, TANGEDCO",
+  "neutral_cite": "W.P.(MD) No. 113 of 2012 (Madras HC, Madurai Bench) (2018)",
+  "date": "2018-02-09",
+  "bench": ["R. Mahadevan J"],
+  "bench_strength": 1,
+  "reportable": false,
+  "one_line": "Compounding of a theft offence under Section 152 is an admission of guilt deemed to be an acquittal and cannot be done 'under protest' — a consumer who compounds cannot later challenge the finding of guilt — but he may still test the manner of computation of the civil liability, and an appellate order rejecting a Section 127 appeal as not maintainable without a hearing is liable to be quashed.",
+  "facts_squib": "An agriculturist's agricultural service connection was found used for commercial fish farming; the officer assessed the loss at Rs 59,500 and collected Rs 12,000 as compounding fee. The consumer's Section 127 appeal was returned by the Superintending Engineer on the ground that 'no appeal will lie against theft of energy', without a hearing.",
+  "disposition": "Writ allowed to the extent that the impugned order returning/rejecting the appeal without a hearing was quashed and the matter remitted to the appellate authority to decide, after hearing, whether the act amounts to theft and to entertain or reject the appeal by a reasoned order.",
+  "procedural_posture": "Writ petition under Article 226 challenging the rejection of a Section 127 appeal",
+  "outcome_for": "consumer",
+  "relief_granted": "Impugned order quashed; remitted for fresh consideration with a personal hearing.",
+  "consumer_category": ["agricultural (connection used for commercial fish farming)"],
+  "fact_pattern_tags": ["agricultural-connection-commercial-use", "wrong-purpose", "compounding-fee-collected", "appeal-returned-without-hearing"],
+  "state": ["Tamil Nadu"],
+  "discom": ["TANGEDCO (Tamil Nadu Generation and Distribution Corporation)"],
+  "amendment_considered": "post-2007 (Act 26 of 2007) — Section 152 compounding, Section 135 theft, Section 126/127 assessment and appeal; Tamil Nadu Electricity Supply Code, 2004 (Regulations 19, 23-AA)",
+  "regulations_construed": [
+    {"reg": "Tamil Nadu Electricity Supply Code, 2004, Regulation 23-AA (provisional and final assessment in theft cases) and Regulation 19", "implements": "s.126/s.135 procedure", "made_under": "Electricity Act, 2003"}
+  ],
+  "issues_framed": [],
+  "provisions_construed": [
+    {"provision": "s.126", "docid": "124046987"},
+    {"provision": "s.127", "docid": "13154422"},
+    {"provision": "s.135", "docid": "90633360"},
+    {"provision": "s.152", "docid": ""},
+    {"provision": "s.153", "docid": "83044125"}
+  ],
+  "provision_holdings": [
+    {
+      "provision": "s.152",
+      "issue_node": ["compounding-152"],
+      "holding": "Compounding of an offence under Section 152 cannot be done 'under protest' — it is not recognised in law; if the consumer protests, the authorised officer must instead launch prosecution.",
+      "interpretation_type": "no-compounding-under-protest",
+      "key_para": "there is no question of contending that the compounding of the offence was under protest, because compounding under protest is not recognised in law. An offence cannot be permitted to be compounded under protest.",
+      "para_ref": "para 22 (adopting Fiem Industries, para 57)",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.152",
+      "issue_node": ["compounding-152"],
+      "holding": "Once the consumer exercises the option to compound (an admission of guilt deemed an acquittal), there is no retracting it and he cannot canvass the correctness of the finding of guilt or claim he was compelled to compound under protest.",
+      "interpretation_type": "compounding-is-admission-no-retraction",
+      "key_para": "If there is a case of compounding, then the Consumer should not be permitted to canvass on the correctness of the finding of guilt or on the ground that he was compelled to compound under protest. Once option is exercised by the consumer to compound the offence, there is no question of retracting the same.",
+      "para_ref": "para 22 (adopting Fiem Industries, para 61)",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.152 / s.135",
+      "issue_node": ["compounding-152", "appeal-127"],
+      "holding": "Even a consumer who has compounded and paid the compounding fee should be permitted to test the correctness of the manner of computation of the civil liability fastened on him; there is a casus omissus (no forum to test the final Section 135 assessment).",
+      "interpretation_type": "quantum-of-civil-liability-testable",
+      "key_para": "the consumer, who has avoided prosecution, by compounding the offence, paid the compounding fee, should also be permitted to test the correctness of the manner of computation of the civil liability, when such civil liability is fastened on the consumer by the assessing officer.",
+      "para_ref": "para 22 (adopting Fiem Industries, para 64)",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.126 / s.135",
+      "issue_node": ["126v135", "mensrea-135"],
+      "holding": "Section 135 theft falls within criminal jurisprudence and mens rea is the relevant factor; Section 126 (read with the Supply Code) does not speak of criminal intent, and the assessment under it is appealable under Section 127, whereas a Section 135 assessment (Reg. 23-AA) has no statutory appeal.",
+      "interpretation_type": "126-civil-appealable-vs-135-criminal",
+      "key_para": "This squarely falls within the dimensions of Criminal Jurisprudence and mens rea is the relevant factor for rendering a finding on theft. On the contrary, Section 126 of the 2003 Act read with Regulation 19 of the Tamil Nadu Electricity Supply Code, does not speak of any criminal intent.",
+      "para_ref": "para 22 (adopting Fiem Industries, para 58)",
+      "holding_type": "explanatory",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.127",
+      "issue_node": ["appeal-127", "natural-justice"],
+      "holding": "An appellate order rejecting a Section 127 appeal as not maintainable, passed without affording any opportunity of hearing, warrants interference and is quashed and remitted.",
+      "interpretation_type": "appeal-rejection-needs-hearing",
+      "key_para": "the impugned order has been passed by the first respondent by merely stating that the appeal is not maintainable without affording any opportunity of hearing to the petitioner and thus, on that ground alone, the impugned order warrants interference.",
+      "para_ref": "para 23",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Fiem Industries Ltd. v. Superintending Engineer, TANGEDCO",
+      "cite": "W.P. No. 25849 of 2013 (Madras, 25.11.2013)",
+      "court": "Madras High Court",
+      "docid": "",
+      "principle": "Compounding under Section 152 cannot be under protest; a consumer who compounds cannot challenge the finding of guilt but may test the computation of civil liability; the assessment function under Sections 126 and 135 is quasi-judicial.",
+      "principle_para": "Both under Sections 126 and 135 of the Electricity Act, 2003, while making an assessment of loss, the function of the assessing officer is quasi-judicial.",
+      "treatment": "followed",
+      "on_issue": "compounding-152"
+    },
+    {
+      "name": "Sri Kamatchi Theatre (cited in Fiem)",
+      "cite": "(Madras HC, DB)",
+      "court": "Madras High Court (DB)",
+      "docid": "",
+      "principle": "Compounding is an admission of guilt leading to an order granting permission to compound under Section 152, which is deemed to be an acquittal under that section.",
+      "principle_para": "compounding is an admission of guilt, which leads to an order, granting permission to compound, under Section 152 of the Electricity Act, 2003, which is deemed to be an acquittal, under the said Section.",
+      "treatment": "referred",
+      "on_issue": "compounding-152"
+    },
+    {
+      "name": "Executive Engineer (SOUTHCO) v. Sri Seetaram Rice Mill",
+      "cite": "(2012) 2 SCC 108",
+      "court": "Supreme Court (3-Judge)",
+      "docid": "",
+      "principle": "Cited by the petitioner on the Section 126/135 distinction and the availability of a challenge to the assessment.",
+      "treatment": "referred",
+      "on_issue": "126v135"
+    }
+  ],
+  "ratio": [
+    {
+      "issue_node": "compounding-152",
+      "proposition": "Compounding under Section 152 is an admission of guilt (deemed acquittal) and cannot be made under protest; the consumer who compounds cannot reopen the finding of guilt, but he may test the manner of computation of the civil liability, and an appeal cannot be rejected without a hearing.",
+      "scope": "HC-SB (Madras)",
+      "novelty": "settles",
+      "conflicts_with": []
+    }
+  ],
+  "significance": "A Madras (Madurai Bench) authority on Section 152 compounding, adopting Fiem Industries: compounding is an admission of guilt deemed an acquittal and cannot be done 'under protest' (the officer must prosecute instead), and a consumer who compounds cannot reopen the finding of guilt — but he may still test the manner of computation of the civil liability, there being a casus omissus in the Act/Code. The appellate order rejecting the Section 127 appeal without a hearing was quashed. Also useful as an agricultural-connection wrong-purpose (Explanation (b)(iv)) example.",
+  "validity": {
+    "overall": "good-law",
+    "as_of": "2026-07",
+    "provision_version_ok": true,
+    "per_issue": {
+      "compounding-152": "good-law; adopts Fiem Industries and Kamatchi Theatre on compounding as admission-of-guilt/deemed-acquittal and the no-compounding-under-protest rule.",
+      "appeal-127": "good-law on quashing an appeal-rejection passed without hearing."
+    },
+    "note": "Not overruled. Applies the post-2007 Act and TN Supply Code, 2004. The judgment mis-references 'Section 153' for Section 154 sub-clauses (5)/(6) in one place (transcription)."
+  },
+  "flags": [
+    "compounding under s.152 = admission of guilt / deemed acquittal; NO compounding 'under protest'",
+    "consumer who compounds cannot reopen guilt but CAN test computation of civil liability",
+    "casus omissus: no forum to test final s.135 assessment",
+    "s.127 appeal cannot be rejected without a hearing",
+    "fills compounding-152 node AND agricultural-consumer gap",
+    "adopts Fiem Industries + Kamatchi Theatre; expert-cited pool; post-2007-text"
+  ]
+}
