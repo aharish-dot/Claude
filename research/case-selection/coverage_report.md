@@ -1,47 +1,57 @@
 # Coverage report — selection worklist
 
-Corpus: **12 records** — 1 SC, 11 HC across 9 states.
+Corpus: **22 records** — 1 SC, 21 HC across 11 states.
 
 ## 1 · Issue-node coverage (thin = <2 cases; single = 1)
 
-- `126v135` — 6 case(s) ✓  (lead SC-001)
-- `assessment-126` — 6 case(s) ✓  (lead SC-001)
-- `mensrea-135` — 5 case(s) ✓  (lead SC-001)
-- `appeal-127` — 5 case(s) ✓  (lead SC-001)
-- `jurisdiction-145-154` — 6 case(s) ✓  (lead SC-001)
-- `compounding-152` — 1 case(s) ⚠️ single  (lead HC-009)
-- `natural-justice` — 7 case(s) ✓  (lead HC-013)
-- `provisional-final` — 4 case(s) ✓  (lead HC-011)
-- `burden-proof` — 2 case(s) • thin  (lead HC-008)
+- `126v135` — 16 case(s) ✓  (lead SC-001)
+- `assessment-126` — 10 case(s) ✓  (lead SC-001)
+- `mensrea-135` — 13 case(s) ✓  (lead SC-001)
+- `appeal-127` — 13 case(s) ✓  (lead SC-001)
+- `jurisdiction-145-154` — 10 case(s) ✓  (lead SC-001)
+- `compounding-152` — 2 case(s) • thin  (lead HC-026)
+- `natural-justice` — 14 case(s) ✓  (lead HC-003)
+- `provisional-final` — 10 case(s) ✓  (lead HC-003)
+- `burden-proof` — 5 case(s) ✓  (lead HC-019)
 - `limitation-56` — 1 case(s) ⚠️ single  (lead HC-003)
 
 ## 2 · Provision-version risk (holdings resting only on superseded text)
 
 - `s.49` — 1 holding(s), only ['pre-2003'] → **no current-text authority**
+- `s.72` — 1 holding(s), only ['pre-2007'] → **no current-text authority**
 
 ## 3 · Court hierarchy
 
 - SC records: **1** — ⚠️ backbone thin; SC cases anchor binding law
-- bench mix: {'HC-DB': 5, 'HC-SB': 6, None: 1}
+- bench mix: {'HC-SB': 13, 'HC-DB': 8, None: 1}
 
 ## 4 · Consumer-category coverage
 
-- industrial: 5 
-- commercial: 8 
-- domestic: 2 
-- agricultural: 0 ❌ none
+- industrial: 10 
+- commercial: 13 
+- domestic: 3 
+- agricultural: 1 
 
 ## 5 · Fact-pattern coverage
 
-- excess-load: 5
+- excess-load: 6
 - theft-by-tapping: 3
+- FIR-under-135: 2
+- FIR-for-theft: 2
+- no-final-assessment: 2
+- criminal-acquittal: 2
+- compounding-cheques-encashed: 1
+- s126-assessment: 1
+- appeal-dismissed-for-jurisdiction: 1
 - unauthorised-extension-to-tenants: 1
 - meter-burnt: 1
 - disconnection-without-notice: 1
-- FIR-for-theft: 1
 - direct-hook/bypass (tapping LV mains): 1
 - excess-load-alleged: 1
 - Special-Court-complaint-pending: 1
+- tampered/M-seal-interfered: 1
+- bill-mislabelled-s126: 1
+- theft-not-suspected: 1
 - unauthorised-additional-load: 1
 - higher-tariff-misuse: 1
 - energy-already-metered-and-paid: 1
@@ -54,6 +64,11 @@ Corpus: **12 records** — 1 SC, 11 HC across 9 states.
 - exceeded-contract-demand-100KVA: 1
 - LT-to-HT-category-change: 1
 - penalty-already-paid-argument: 1
+- vires-challenge: 1
+- tampering: 1
+- no-hearing-argument: 1
+- pre-deposit-challenge: 1
+- writ-beyond-limitation: 1
 - unauthorised-abstraction: 1
 - civil-suit-declaration-injunction: 1
 - s145-jurisdiction-bar: 1
@@ -68,14 +83,42 @@ Corpus: **12 records** — 1 SC, 11 HC across 9 states.
 - provisional-treated-as-final: 1
 - no-hearing: 1
 - objections-ignored: 1
+- agricultural-connection-commercial-use: 1
+- wrong-purpose: 1
+- compounding-fee-collected: 1
+- appeal-returned-without-hearing: 1
 - tampered/missing-seal: 1
 - scratches-on-CT-box: 1
 - alleged-DAE-without-corroboration: 1
+- unauthorised-cable-from-LMV2: 1
+- final-report-filed: 1
+- recovery-as-arrears: 1
+- unauthorised-use/theft: 1
+- FIR-then-acquittal: 1
+- provisional-not-served: 1
+- manner-prescribed: 1
+- billing-meter-burnt: 1
+- reliance-on-external-meters: 1
+- no-oral-hearing: 1
+- theft-not-established: 1
+- non-speaking-appellate-order: 1
+- bypass-meter-tapping: 1
+- self-same-theft-allegation: 1
+- provisional-spent-force: 1
 - abstraction-from-33KV-line: 1
 - night-inspection: 1
 - unauthorised-use: 1
 - appeal-limitation: 1
 - inspection-not-in-consumer-presence: 1
+- tampered-seals: 1
+- meter-running-slow: 1
+- no-s127-appeal: 1
+- acquittal-on-technicality: 1
+- hooking: 1
+- assessment-under-old-supply-conditions: 1
+- guideline-dictated-assessment: 1
+- absurd-quantum: 1
+- payment-under-compulsion: 1
 - direct-hook/bypass: 1
 - use-after-disconnection: 1
 - tampered/meter-bypass: 1
@@ -85,4 +128,8 @@ Corpus: **12 records** — 1 SC, 11 HC across 9 states.
 
 ## 6 · Highest-value un-recorded authorities (snowball worklist)
 
-- **Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (SOUTHCO) v. Sri Seetaram Rice Mill** — cited 6× ({'referred': 1, 'followed': 5}) → not yet a record
+- **Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (SOUTHCO) v. Sri Seetaram Rice Mill** — cited 8× ({'followed': 7, 'referred': 1}) → not yet a record
+- **Executive Engineer (SOUTHCO) v. Sri Seetaram Rice Mill** — cited 5× ({'referred': 3, 'followed': 2}) → not yet a record
+- **M/s Radha Krishna Cold Storage v. State of U.P.** — cited 2× ({'referred': 1, 'followed': 1}) → not yet a record
+- **Tinsukhia Electricity Supply Co. Ltd. v. State of Assam** — cited 2× ({'followed': 2}) → not yet a record
+- **WBSEDCL v. Orion Metal Pvt. Ltd.** — cited 2× ({'followed': 2}) → not yet a record

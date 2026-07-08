@@ -52,6 +52,32 @@
       }
     ]
   },
+  "s.72": {
+    "n_holdings": 1,
+    "n_ratio": 1,
+    "cases": [
+      "HC-021"
+    ],
+    "versions_applied": [
+      "pre-2007"
+    ],
+    "holdings_chronological": [
+      {
+        "case_id": "HC-021",
+        "title": "Hasi Mazumdar v. West Bengal State Electricity Board",
+        "court_type": "HC",
+        "date": "2005-08-25",
+        "provision_cited_as": "s.126 / Contract Act s.72",
+        "provision_version": "pre-2007",
+        "issue_node": [
+          "assessment-126"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "recovery-of-coerced-payment",
+        "holding": "Money paid pursuant to an illegal assessment under the threat that supply would not be restored until payment is recoverable; allowing the Board to retain it would be unjust enrichment impermissible under the Contract Act."
+      }
+    ]
+  },
   "s.125": {
     "n_holdings": 1,
     "n_ratio": 1,
@@ -79,8 +105,8 @@
     ]
   },
   "s.126": {
-    "n_holdings": 28,
-    "n_ratio": 26,
+    "n_holdings": 58,
+    "n_ratio": 54,
     "cases": [
       "HC-003",
       "HC-006",
@@ -91,6 +117,16 @@
       "HC-014",
       "HC-017",
       "HC-018",
+      "HC-019",
+      "HC-020",
+      "HC-021",
+      "HC-022",
+      "HC-023",
+      "HC-024",
+      "HC-025",
+      "HC-026",
+      "HC-027",
+      "HC-028",
       "SC-001"
     ],
     "versions_applied": [
@@ -98,6 +134,63 @@
       "pre-2007"
     ],
     "holdings_chronological": [
+      {
+        "case_id": "HC-021",
+        "title": "Hasi Mazumdar v. West Bengal State Electricity Board",
+        "court_type": "HC",
+        "date": "2005-08-25",
+        "provision_cited_as": "s.126",
+        "provision_version": "pre-2007",
+        "issue_node": [
+          "assessment-126"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "assessment-must-be-under-s126",
+        "holding": "From the commencement of the Electricity Act, 2003 (10.6.2003), a provisional assessment for unauthorised use must be made strictly in accordance with Section 126; an assessment made under the Board's old Terms & Conditions of Supply (Clause 22(J)) is not in accordance with Section 126 and is bad."
+      },
+      {
+        "case_id": "HC-021",
+        "title": "Hasi Mazumdar v. West Bengal State Electricity Board",
+        "court_type": "HC",
+        "date": "2005-08-25",
+        "provision_cited_as": "s.126(1)",
+        "provision_version": "pre-2007",
+        "issue_node": [
+          "assessment-126",
+          "natural-justice"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "best-judgment-must-be-officers-own",
+        "holding": "Section 126(1) requires the assessing officer to provisionally assess 'to the best of his judgment' on his own personal observation of the extent of unauthorised use; this quasi-judicial function cannot be fettered by a superior's guideline/office order — an assessment dictated by such a direction is the direction-giver's judgment, not the officer's, and is illegal."
+      },
+      {
+        "case_id": "HC-021",
+        "title": "Hasi Mazumdar v. West Bengal State Electricity Board",
+        "court_type": "HC",
+        "date": "2005-08-25",
+        "provision_cited_as": "s.126(1)",
+        "provision_version": "pre-2007",
+        "issue_node": [
+          "assessment-126"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "guideline-dictated-assessment-void",
+        "holding": "On the facts, the assessment was not the officer's judgment but the judgment of those who issued the 30.12.2003 guideline, and was therefore not an impartial or legal assessment (evidenced by an absurd quantum ~6 times the consumer's highest average consumption)."
+      },
+      {
+        "case_id": "HC-021",
+        "title": "Hasi Mazumdar v. West Bengal State Electricity Board",
+        "court_type": "HC",
+        "date": "2005-08-25",
+        "provision_cited_as": "s.126 / Contract Act s.72",
+        "provision_version": "pre-2007",
+        "issue_node": [
+          "assessment-126"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "recovery-of-coerced-payment",
+        "holding": "Money paid pursuant to an illegal assessment under the threat that supply would not be restored until payment is recoverable; allowing the Board to retain it would be unjust enrichment impermissible under the Contract Act."
+      },
       {
         "case_id": "HC-008",
         "title": "Harvinder Motors v. BSES Rajdhani Power Ltd.",
@@ -154,6 +247,108 @@
         "holding_type": "explanatory",
         "interpretation_type": "distinguished-from-135",
         "holding": "Section 126 excludes mens rea and fastens civil liability; unauthorised use of electricity is different from theft, which is a criminal offence under Section 135."
+      },
+      {
+        "case_id": "HC-020",
+        "title": "M/s Mohit Paper Mills Ltd. v. PVVNL",
+        "court_type": "HC",
+        "date": "2011-10-14",
+        "provision_cited_as": "s.126 / Reg. 8.1",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "assessment-126",
+          "burden-proof"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "must-establish-theft-first",
+        "holding": "The assessing officer has no jurisdiction to make a theft assessment unless he first establishes a case of theft against the person (para 8.1(b)(iv)); merely issuing a provisional assessment order does not establish theft."
+      },
+      {
+        "case_id": "HC-020",
+        "title": "M/s Mohit Paper Mills Ltd. v. PVVNL",
+        "court_type": "HC",
+        "date": "2011-10-14",
+        "provision_cited_as": "s.126",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "burden-proof"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "theft-not-on-presumption",
+        "holding": "Theft of electrical energy cannot be made out on mere presumption; it has to be established as required by para 8.1(b)(iv) of the Code."
+      },
+      {
+        "case_id": "HC-020",
+        "title": "M/s Mohit Paper Mills Ltd. v. PVVNL",
+        "court_type": "HC",
+        "date": "2011-10-14",
+        "provision_cited_as": "s.126(1)",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "assessment-126"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "best-judgment-rational-unbiased",
+        "holding": "A best-judgment assessment under Section 126 must be arrived at without bias and on a rational basis; the officer cannot take a 'short cut' by recording an evasive conclusion in the provisional assessment without discussing how the inference of unauthorised use/theft was reached."
+      },
+      {
+        "case_id": "HC-020",
+        "title": "M/s Mohit Paper Mills Ltd. v. PVVNL",
+        "court_type": "HC",
+        "date": "2011-10-14",
+        "provision_cited_as": "s.126(3) / Reg. 8.1",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "natural-justice"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "oral-hearing-required",
+        "holding": "The law requires an opportunity of oral hearing to the consumer before final assessment; none was given here (no date was communicated for the consumer to answer the charges in person)."
+      },
+      {
+        "case_id": "HC-020",
+        "title": "M/s Mohit Paper Mills Ltd. v. PVVNL",
+        "court_type": "HC",
+        "date": "2011-10-14",
+        "provision_cited_as": "s.126 / s.135",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "126v135",
+          "mensrea-135"
+        ],
+        "holding_type": "explanatory",
+        "interpretation_type": "s126-vs-s135-positive-act",
+        "holding": "Section 126 assessment may be made even on inspection of records where a person is found in unauthorised use, without attracting Section 135, because Section 135 contemplates a positive act interfering with the recording of electricity supplied."
+      },
+      {
+        "case_id": "HC-019",
+        "title": "M/s Shyam Lal Iron & Steel Co. v. Jharkhand State Electricity Board",
+        "court_type": "HC",
+        "date": "2013-04-26",
+        "provision_cited_as": "s.126 / s.135",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "126v135",
+          "mensrea-135"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "different-fields-and-procedures",
+        "holding": "Sections 126 and 135 sit in different Parts (XII vs XIV), cover different fields and prescribe different procedures; theft involves mens rea, which is not necessary for unauthorised use under Section 126."
+      },
+      {
+        "case_id": "HC-019",
+        "title": "M/s Shyam Lal Iron & Steel Co. v. Jharkhand State Electricity Board",
+        "court_type": "HC",
+        "date": "2013-04-26",
+        "provision_cited_as": "s.126",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "126v135",
+          "provisional-final"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "mislabel-does-not-convert",
+        "holding": "Labelling a theft demand as a 'Section 126 provisional assessment' does not convert a theft proceeding into a Section 126 assessment where, on the date of inspection, it was treated as theft (FIR lodged) and not even as suspected theft."
       },
       {
         "case_id": "SC-001",
@@ -417,6 +612,94 @@
         "holding": "The Section 126(5) 12-month cap applies only where the period of unauthorised use is not ascertainable; where the period is ascertained (as here, and reduced by the Appellate Authority), the assessment is confined to that ascertained period."
       },
       {
+        "case_id": "HC-026",
+        "title": "V. Swaminathan v. Superintending Engineer, TANGEDCO",
+        "court_type": "HC",
+        "date": "2018-02-09",
+        "provision_cited_as": "s.126 / s.135",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "126v135",
+          "mensrea-135"
+        ],
+        "holding_type": "explanatory",
+        "interpretation_type": "126-civil-appealable-vs-135-criminal",
+        "holding": "Section 135 theft falls within criminal jurisprudence and mens rea is the relevant factor; Section 126 (read with the Supply Code) does not speak of criminal intent, and the assessment under it is appealable under Section 127, whereas a Section 135 assessment (Reg. 23-AA) has no statutory appeal."
+      },
+      {
+        "case_id": "HC-023",
+        "title": "M/s Jindal Resources Pvt. Ltd. v. Executive Engineer (Elect.), WESCO",
+        "court_type": "HC",
+        "date": "2018-08-21",
+        "provision_cited_as": "s.126 / s.135",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "126v135",
+          "mensrea-135"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "acquittal-no-bearing-on-126",
+        "holding": "A Section 135 criminal proceeding has no bearing on a Section 126 proceeding; even an acquittal in the criminal case for a Section 135 offence does not exonerate the consumer from Section 126 civil liability."
+      },
+      {
+        "case_id": "HC-023",
+        "title": "M/s Jindal Resources Pvt. Ltd. v. Executive Engineer (Elect.), WESCO",
+        "court_type": "HC",
+        "date": "2018-08-21",
+        "provision_cited_as": "s.126",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "126v135"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "s126-available-in-theft-cases",
+        "holding": "Seetaram Rice Mill lays down no ratio that a Section 126 assessment cannot be undertaken in theft cases; Section 126 covers cases over and above Section 135, and the two must be read harmoniously to make both effective."
+      },
+      {
+        "case_id": "HC-027",
+        "title": "Rakesh Singh v. State of U.P.",
+        "court_type": "HC",
+        "date": "2019-09-30",
+        "provision_cited_as": "s.126 / s.135",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "126v135",
+          "mensrea-135"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "genus-species",
+        "holding": "Unauthorised use of electricity (Explanation (b) to Section 126) is the genus of which the Section 135(1) acts are species; theft is unauthorised use done dishonestly, so a Section 126 assessment must follow whenever there is unauthorised use."
+      },
+      {
+        "case_id": "HC-027",
+        "title": "Rakesh Singh v. State of U.P.",
+        "court_type": "HC",
+        "date": "2019-09-30",
+        "provision_cited_as": "s.126 / s.135",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "126v135"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "s126-not-excluded-in-theft",
+        "holding": "Neither Section 126 nor Section 135 excludes a Section 126 assessment where the unauthorised use amounts to theft; the sixth proviso to Section 135(1) itself speaks of the 'assessed amount', i.e. the amount assessed under Section 126."
+      },
+      {
+        "case_id": "HC-027",
+        "title": "Rakesh Singh v. State of U.P.",
+        "court_type": "HC",
+        "date": "2019-09-30",
+        "provision_cited_as": "s.126",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "126v135",
+          "appeal-127"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "assessment-despite-fir-final-report",
+        "holding": "A Section 126 assessment is to be made even where an offence under Section 135 has been made out (FIR/final report notwithstanding); the Special Court finally determines the civil liability, with further action under Section 154(6)."
+      },
+      {
         "case_id": "HC-014",
         "title": "Maharashtra State Electricity Distribution Co. Ltd. v. M/s Shubhalaxmi Rice Mill",
         "court_type": "HC",
@@ -458,6 +741,21 @@
         "holding_type": "ratio",
         "interpretation_type": "prior-penalty-no-bar-to-126",
         "holding": "Even where penalty @150% has already been levied for exceeding the contract demand under the Regulatory Commission's tariff order, the consumer remains liable to pay charges for unauthorised use of electricity under Section 126."
+      },
+      {
+        "case_id": "HC-028",
+        "title": "Hasimuddin v. State of U.P.",
+        "court_type": "HC",
+        "date": "2020-09-02",
+        "provision_cited_as": "s.126 / s.135",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "126v135",
+          "appeal-127"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "s126-assessment-despite-fir",
+        "holding": "Even where an FIR is lodged under Section 135, the assessment is carried out under Section 126 (with the Section 127 appeal remedy), and the Special Court finally determines the civil liability under Section 154(6)."
       },
       {
         "case_id": "HC-017",
@@ -502,23 +800,223 @@
         "holding_type": "ratio",
         "interpretation_type": "acquittal-no-bar-to-126",
         "holding": "An acquittal on a Section 135 theft charge (tested on proof beyond reasonable doubt) does not ipso facto exonerate the consumer from civil liability under Section 126 (tested on the more liberal preponderance of probability)."
+      },
+      {
+        "case_id": "HC-022",
+        "title": "Tapan Sen Majumdar v. West Bengal State Electricity Distribution Co. Ltd.",
+        "court_type": "HC",
+        "date": "2022-07-15",
+        "provision_cited_as": "s.126 / s.135",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "126v135",
+          "burden-proof"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "separate-fields-standards-of-proof",
+        "holding": "Sections 126 and 135 operate in separate fields and parallel proceedings may run; Section 126 is civil (preponderance of probability), Section 135 is criminal (beyond reasonable doubt) — the standards of proof differ."
+      },
+      {
+        "case_id": "HC-022",
+        "title": "Tapan Sen Majumdar v. West Bengal State Electricity Distribution Co. Ltd.",
+        "court_type": "HC",
+        "date": "2022-07-15",
+        "provision_cited_as": "s.126 / s.135",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "126v135",
+          "mensrea-135",
+          "burden-proof"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "acquittal-exonerates-on-self-same-sole-allegation",
+        "holding": "Where a tampered/bypassed meter is the ONLY allegation and it founds both the Section 135 prosecution and the Section 126 assessment (self-same allegation), an acquittal scot-free in the criminal case means the consumer cannot be indicted for the same charge even on a preponderance of probability."
+      },
+      {
+        "case_id": "HC-022",
+        "title": "Tapan Sen Majumdar v. West Bengal State Electricity Distribution Co. Ltd.",
+        "court_type": "HC",
+        "date": "2022-07-15",
+        "provision_cited_as": "s.126(3)",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "provisional-final",
+          "natural-justice"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "duty-to-finalise-30-days",
+        "holding": "It is the incumbent duty of the licensee to pass a final order of assessment within 30 days of service of the provisional assessment, even if the consumer files no objection."
+      },
+      {
+        "case_id": "HC-022",
+        "title": "Tapan Sen Majumdar v. West Bengal State Electricity Distribution Co. Ltd.",
+        "court_type": "HC",
+        "date": "2022-07-15",
+        "provision_cited_as": "s.126(3)",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "provisional-final"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "provisional-lapses-after-30-days",
+        "holding": "If no final order is drawn up, the provisional assessment order spends its force after 30 days from its service on the consumer."
+      },
+      {
+        "case_id": "HC-024",
+        "title": "Castron Technologies Ltd. v. Damodar Valley Corporation",
+        "court_type": "HC",
+        "date": "2022-12-16",
+        "provision_cited_as": "s.126 / s.135",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "126v135",
+          "mensrea-135"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "acquittal-no-bearing-on-126",
+        "holding": "The contention that an acquittal in the Section 135 criminal case extinguishes Section 126 liability is not acceptable — a Section 135 proceeding has no bearing on a Section 126 proceeding (following Orion Metal and Seetaram Rice Mill)."
+      },
+      {
+        "case_id": "HC-024",
+        "title": "Castron Technologies Ltd. v. Damodar Valley Corporation",
+        "court_type": "HC",
+        "date": "2022-12-16",
+        "provision_cited_as": "s.126(2)",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "natural-justice",
+          "provisional-final",
+          "assessment-126"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "provisional-must-be-served",
+        "holding": "The provisional assessment must be supplied to the consumer under Section 126(2); in the absence of such service there should be no demand, because a statutory power must be exercised only in the manner prescribed and not otherwise."
+      },
+      {
+        "case_id": "HC-024",
+        "title": "Castron Technologies Ltd. v. Damodar Valley Corporation",
+        "court_type": "HC",
+        "date": "2022-12-16",
+        "provision_cited_as": "s.126",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "assessment-126",
+          "natural-justice"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "manner-prescribed-mandatory",
+        "holding": "A decision under Section 126 must be taken strictly in accordance with the statutory provision — when a statute provides that a thing be done in a particular manner, it must be done in that manner and not in any other."
+      },
+      {
+        "case_id": "HC-024",
+        "title": "Castron Technologies Ltd. v. Damodar Valley Corporation",
+        "court_type": "HC",
+        "date": "2022-12-16",
+        "provision_cited_as": "s.126(3)",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "provisional-final",
+          "natural-justice"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "demand-void-without-final-assessment",
+        "holding": "A demand issued without considering the consumer's objection and without making a final assessment requires interference and must be remitted for a fresh decision strictly per Section 126."
+      },
+      {
+        "case_id": "HC-025",
+        "title": "Md. Abdul Matin v. West Bengal State Electricity Distribution Co. Ltd.",
+        "court_type": "HC",
+        "date": "2023-04-18",
+        "provision_cited_as": "s.126 / s.135",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "126v135"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "vires-upheld-parallel-proceedings",
+        "holding": "The vires of Sections 126 and 135 is upheld; the overlap on tampering creates no double standards — where both theft and unauthorised-use ingredients are satisfied, the authorities may make a Section 126 assessment AND proceed with a Section 135 criminal trial before the Special Court."
+      },
+      {
+        "case_id": "HC-025",
+        "title": "Md. Abdul Matin v. West Bengal State Electricity Distribution Co. Ltd.",
+        "court_type": "HC",
+        "date": "2023-04-18",
+        "provision_cited_as": "s.126(1)",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "natural-justice",
+          "provisional-final"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "no-hearing-before-provisional",
+        "holding": "No hearing is required before a provisional assessment under Section 126(1) (which is not conclusive); the right of hearing and to file objections is given before the final order, and requiring a hearing before the provisional assessment would defeat the summary, expeditious timeline."
+      },
+      {
+        "case_id": "HC-025",
+        "title": "Md. Abdul Matin v. West Bengal State Electricity Distribution Co. Ltd.",
+        "court_type": "HC",
+        "date": "2023-04-18",
+        "provision_cited_as": "s.126",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "assessment-126"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "assessing-officer-independence",
+        "holding": "The assessing officer is a State Government appointee (whether of the Government or the licensee) and so has an independent character, not functioning merely as an employee of the licensee — hence no unbridled power and no basis to strike down the Section."
+      },
+      {
+        "case_id": "HC-025",
+        "title": "Md. Abdul Matin v. West Bengal State Electricity Distribution Co. Ltd.",
+        "court_type": "HC",
+        "date": "2023-04-18",
+        "provision_cited_as": "s.126 / s.135",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "126v135",
+          "mensrea-135"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "s126-not-a-theft-conviction",
+        "holding": "A Section 126 finding does not indict a person of theft (a criminal charge); the assessing officer merely calculates the licensee's loss, and whether theft is established is left to the Special Court's full criminal trial — so no violation of Articles 19/21."
       }
     ]
   },
   "s.127": {
-    "n_holdings": 6,
-    "n_ratio": 6,
+    "n_holdings": 14,
+    "n_ratio": 14,
     "cases": [
       "HC-003",
       "HC-014",
       "HC-017",
       "HC-018",
+      "HC-019",
+      "HC-022",
+      "HC-023",
+      "HC-025",
+      "HC-026",
+      "HC-028",
       "SC-001"
     ],
     "versions_applied": [
       "post-2007"
     ],
     "holdings_chronological": [
+      {
+        "case_id": "HC-019",
+        "title": "M/s Shyam Lal Iron & Steel Co. v. Jharkhand State Electricity Board",
+        "court_type": "HC",
+        "date": "2013-04-26",
+        "provision_cited_as": "s.127",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "appeal-127",
+          "jurisdiction-145-154"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "appeal-127-confined-to-126",
+        "holding": "The Section 127 appeal lies only against a Section 126 order, not against a Section 135(1A)/Clause 15.8 theft assessment; the latter is examinable by the Special Court under Section 154(5)/(6)."
+      },
       {
         "case_id": "SC-001",
         "title": "U.P. Power Corporation Ltd. & Ors. v. Anis Ahmad",
@@ -576,6 +1074,36 @@
         "holding": "Section 125 (appeal to the Supreme Court from the Appellate Tribunal, Part XI) and Section 127 (appeal to the appellate authority from a Section 126 assessment, Part XII) are totally different and operate in different contexts; authority on Section 125 limitation does not govern a Section 127 appeal."
       },
       {
+        "case_id": "HC-026",
+        "title": "V. Swaminathan v. Superintending Engineer, TANGEDCO",
+        "court_type": "HC",
+        "date": "2018-02-09",
+        "provision_cited_as": "s.127",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "appeal-127",
+          "natural-justice"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "appeal-rejection-needs-hearing",
+        "holding": "An appellate order rejecting a Section 127 appeal as not maintainable, passed without affording any opportunity of hearing, warrants interference and is quashed and remitted."
+      },
+      {
+        "case_id": "HC-023",
+        "title": "M/s Jindal Resources Pvt. Ltd. v. Executive Engineer (Elect.), WESCO",
+        "court_type": "HC",
+        "date": "2018-08-21",
+        "provision_cited_as": "s.127",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "appeal-127",
+          "provisional-final"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "finality-absent-appeal",
+        "holding": "Where no Section 127 appeal is filed against the final Section 126 assessment, it attains finality and the consumer is liable to pay the assessed amount."
+      },
+      {
         "case_id": "HC-014",
         "title": "Maharashtra State Electricity Distribution Co. Ltd. v. M/s Shubhalaxmi Rice Mill",
         "court_type": "HC",
@@ -591,6 +1119,34 @@
         "holding": "Where the High Court has remanded a Section 127 appeal confined to quantum, the Appellate Authority cannot re-open the settled question whether Section 126 applies; the only question open to it is the quantum of assessment in the final bills."
       },
       {
+        "case_id": "HC-028",
+        "title": "Hasimuddin v. State of U.P.",
+        "court_type": "HC",
+        "date": "2020-09-02",
+        "provision_cited_as": "s.127",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "appeal-127"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "appellate-authority-jurisdiction",
+        "holding": "An order of assessment under Section 126 is appealable under Section 127 to the Commissioner of the Division (the notified appellate authority under the 14.7.2006 notification); the Commissioner was not justified in dismissing the appeal for want of jurisdiction."
+      },
+      {
+        "case_id": "HC-028",
+        "title": "Hasimuddin v. State of U.P.",
+        "court_type": "HC",
+        "date": "2020-09-02",
+        "provision_cited_as": "s.127",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "appeal-127"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "notified-appellate-forum",
+        "holding": "The State's 14.7.2006 notification confers on the Commissioner of the Division the power to hear and decide appeals under Section 127."
+      },
+      {
         "case_id": "HC-017",
         "title": "Ashok Kumar Maity v. West Bengal State Electricity Board (WBSEDCL)",
         "court_type": "HC",
@@ -604,23 +1160,136 @@
         "holding_type": "ratio",
         "interpretation_type": "appeal-remedy-cannot-be-bypassed",
         "holding": "A consumer who bypasses the Section 127 appeal (which requires a 50% pre-deposit) cannot obtain from the writ court, indirectly, the restoration he could not get from the appellate forum; there is no unqualified restoration without complying with the final assessment."
+      },
+      {
+        "case_id": "HC-022",
+        "title": "Tapan Sen Majumdar v. West Bengal State Electricity Distribution Co. Ltd.",
+        "court_type": "HC",
+        "date": "2022-07-15",
+        "provision_cited_as": "s.127",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "appeal-127",
+          "provisional-final"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "no-final-order-no-127-appeal",
+        "holding": "No Section 127 appeal lay because no final order of assessment was ever made; hence the writ under Article 226 is maintainable."
+      },
+      {
+        "case_id": "HC-025",
+        "title": "Md. Abdul Matin v. West Bengal State Electricity Distribution Co. Ltd.",
+        "court_type": "HC",
+        "date": "2023-04-18",
+        "provision_cited_as": "s.127(2)",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "appeal-127"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "pre-deposit-valid",
+        "holding": "The 50% mandatory pre-deposit under Section 127(2) is not exorbitant and is in consonance with the objects of the Act; a writ court will not sit in judgment under Article 226 over the propriety of the pre-deposit quantum."
+      },
+      {
+        "case_id": "HC-025",
+        "title": "Md. Abdul Matin v. West Bengal State Electricity Distribution Co. Ltd.",
+        "court_type": "HC",
+        "date": "2023-04-18",
+        "provision_cited_as": "s.127",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "appeal-127"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "writ-barred-by-appeal-limitation",
+        "holding": "The petitioners had long overshot the Section 127 limitation and taken direct writ recourse, with nothing in the assessments reeking of palpable arbitrariness or patent perversity — so no interference under Article 226 even on merits."
       }
     ]
   },
   "s.135": {
-    "n_holdings": 7,
-    "n_ratio": 6,
+    "n_holdings": 23,
+    "n_ratio": 18,
     "cases": [
       "HC-003",
       "HC-009",
       "HC-011",
       "HC-017",
+      "HC-019",
+      "HC-020",
+      "HC-021",
+      "HC-022",
+      "HC-023",
+      "HC-024",
+      "HC-025",
+      "HC-026",
+      "HC-027",
+      "HC-028",
       "SC-001"
     ],
     "versions_applied": [
-      "post-2007"
+      "post-2007",
+      "pre-2007"
     ],
     "holdings_chronological": [
+      {
+        "case_id": "HC-021",
+        "title": "Hasi Mazumdar v. West Bengal State Electricity Board",
+        "court_type": "HC",
+        "date": "2005-08-25",
+        "provision_cited_as": "s.135",
+        "provision_version": "pre-2007",
+        "issue_node": [
+          "126v135"
+        ],
+        "holding_type": "explanatory",
+        "interpretation_type": "remedies-for-hooking",
+        "holding": "Even if hooking was found, the Board could de-hook, realise the value of unauthorised consumption at the penal rate, or proceed under Section 135 — but that did not authorise the disconnection effected or an illegal assessment."
+      },
+      {
+        "case_id": "HC-020",
+        "title": "M/s Mohit Paper Mills Ltd. v. PVVNL",
+        "court_type": "HC",
+        "date": "2011-10-14",
+        "provision_cited_as": "s.126 / s.135",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "126v135",
+          "mensrea-135"
+        ],
+        "holding_type": "explanatory",
+        "interpretation_type": "s126-vs-s135-positive-act",
+        "holding": "Section 126 assessment may be made even on inspection of records where a person is found in unauthorised use, without attracting Section 135, because Section 135 contemplates a positive act interfering with the recording of electricity supplied."
+      },
+      {
+        "case_id": "HC-019",
+        "title": "M/s Shyam Lal Iron & Steel Co. v. Jharkhand State Electricity Board",
+        "court_type": "HC",
+        "date": "2013-04-26",
+        "provision_cited_as": "s.126 / s.135",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "126v135",
+          "mensrea-135"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "different-fields-and-procedures",
+        "holding": "Sections 126 and 135 sit in different Parts (XII vs XIV), cover different fields and prescribe different procedures; theft involves mens rea, which is not necessary for unauthorised use under Section 126."
+      },
+      {
+        "case_id": "HC-019",
+        "title": "M/s Shyam Lal Iron & Steel Co. v. Jharkhand State Electricity Board",
+        "court_type": "HC",
+        "date": "2013-04-26",
+        "provision_cited_as": "s.135 / Reg. 15.8",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "burden-proof",
+          "natural-justice"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "corroboration-for-suspected-theft",
+        "holding": "A missing/tampered seal or broken glass window is not, by itself, evidence of theft unless corroborated by the consumer's consumption pattern and other available evidence — this is the safeguard for suspected-theft cases (Clause 15.8(x)-(xv))."
+      },
       {
         "case_id": "SC-001",
         "title": "U.P. Power Corporation Ltd. & Ors. v. Anis Ahmad",
@@ -694,6 +1363,109 @@
         "holding": "Principles of natural justice apply to proceedings for unauthorised use of electricity (which may in some cases also amount to an investigation under Section 135) unless excluded by the Act expressly or by necessary implication."
       },
       {
+        "case_id": "HC-026",
+        "title": "V. Swaminathan v. Superintending Engineer, TANGEDCO",
+        "court_type": "HC",
+        "date": "2018-02-09",
+        "provision_cited_as": "s.152 / s.135",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "compounding-152",
+          "appeal-127"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "quantum-of-civil-liability-testable",
+        "holding": "Even a consumer who has compounded and paid the compounding fee should be permitted to test the correctness of the manner of computation of the civil liability fastened on him; there is a casus omissus (no forum to test the final Section 135 assessment)."
+      },
+      {
+        "case_id": "HC-026",
+        "title": "V. Swaminathan v. Superintending Engineer, TANGEDCO",
+        "court_type": "HC",
+        "date": "2018-02-09",
+        "provision_cited_as": "s.126 / s.135",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "126v135",
+          "mensrea-135"
+        ],
+        "holding_type": "explanatory",
+        "interpretation_type": "126-civil-appealable-vs-135-criminal",
+        "holding": "Section 135 theft falls within criminal jurisprudence and mens rea is the relevant factor; Section 126 (read with the Supply Code) does not speak of criminal intent, and the assessment under it is appealable under Section 127, whereas a Section 135 assessment (Reg. 23-AA) has no statutory appeal."
+      },
+      {
+        "case_id": "HC-023",
+        "title": "M/s Jindal Resources Pvt. Ltd. v. Executive Engineer (Elect.), WESCO",
+        "court_type": "HC",
+        "date": "2018-08-21",
+        "provision_cited_as": "s.126 / s.135",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "126v135",
+          "mensrea-135"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "acquittal-no-bearing-on-126",
+        "holding": "A Section 135 criminal proceeding has no bearing on a Section 126 proceeding; even an acquittal in the criminal case for a Section 135 offence does not exonerate the consumer from Section 126 civil liability."
+      },
+      {
+        "case_id": "HC-023",
+        "title": "M/s Jindal Resources Pvt. Ltd. v. Executive Engineer (Elect.), WESCO",
+        "court_type": "HC",
+        "date": "2018-08-21",
+        "provision_cited_as": "s.135",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "mensrea-135"
+        ],
+        "holding_type": "explanatory",
+        "interpretation_type": "acquittal-on-benefit-of-doubt",
+        "holding": "On the facts, the acquittal was not a clean acquittal but a benefit-of-doubt acquittal on technicality (delayed seizure, non-production of dump copy), reinforcing that it does not undo the Section 126 civil liability."
+      },
+      {
+        "case_id": "HC-027",
+        "title": "Rakesh Singh v. State of U.P.",
+        "court_type": "HC",
+        "date": "2019-09-30",
+        "provision_cited_as": "s.126 / s.135",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "126v135",
+          "mensrea-135"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "genus-species",
+        "holding": "Unauthorised use of electricity (Explanation (b) to Section 126) is the genus of which the Section 135(1) acts are species; theft is unauthorised use done dishonestly, so a Section 126 assessment must follow whenever there is unauthorised use."
+      },
+      {
+        "case_id": "HC-027",
+        "title": "Rakesh Singh v. State of U.P.",
+        "court_type": "HC",
+        "date": "2019-09-30",
+        "provision_cited_as": "s.126 / s.135",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "126v135"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "s126-not-excluded-in-theft",
+        "holding": "Neither Section 126 nor Section 135 excludes a Section 126 assessment where the unauthorised use amounts to theft; the sixth proviso to Section 135(1) itself speaks of the 'assessed amount', i.e. the amount assessed under Section 126."
+      },
+      {
+        "case_id": "HC-028",
+        "title": "Hasimuddin v. State of U.P.",
+        "court_type": "HC",
+        "date": "2020-09-02",
+        "provision_cited_as": "s.126 / s.135",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "126v135",
+          "appeal-127"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "s126-assessment-despite-fir",
+        "holding": "Even where an FIR is lodged under Section 135, the assessment is carried out under Section 126 (with the Section 127 appeal remedy), and the Special Court finally determines the civil liability under Section 154(6)."
+      },
+      {
         "case_id": "HC-017",
         "title": "Ashok Kumar Maity v. West Bengal State Electricity Board (WBSEDCL)",
         "court_type": "HC",
@@ -721,6 +1493,107 @@
         "holding_type": "ratio",
         "interpretation_type": "acquittal-no-bar-to-126",
         "holding": "An acquittal on a Section 135 theft charge (tested on proof beyond reasonable doubt) does not ipso facto exonerate the consumer from civil liability under Section 126 (tested on the more liberal preponderance of probability)."
+      },
+      {
+        "case_id": "HC-022",
+        "title": "Tapan Sen Majumdar v. West Bengal State Electricity Distribution Co. Ltd.",
+        "court_type": "HC",
+        "date": "2022-07-15",
+        "provision_cited_as": "s.126 / s.135",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "126v135",
+          "burden-proof"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "separate-fields-standards-of-proof",
+        "holding": "Sections 126 and 135 operate in separate fields and parallel proceedings may run; Section 126 is civil (preponderance of probability), Section 135 is criminal (beyond reasonable doubt) — the standards of proof differ."
+      },
+      {
+        "case_id": "HC-022",
+        "title": "Tapan Sen Majumdar v. West Bengal State Electricity Distribution Co. Ltd.",
+        "court_type": "HC",
+        "date": "2022-07-15",
+        "provision_cited_as": "s.126 / s.135",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "126v135",
+          "mensrea-135",
+          "burden-proof"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "acquittal-exonerates-on-self-same-sole-allegation",
+        "holding": "Where a tampered/bypassed meter is the ONLY allegation and it founds both the Section 135 prosecution and the Section 126 assessment (self-same allegation), an acquittal scot-free in the criminal case means the consumer cannot be indicted for the same charge even on a preponderance of probability."
+      },
+      {
+        "case_id": "HC-024",
+        "title": "Castron Technologies Ltd. v. Damodar Valley Corporation",
+        "court_type": "HC",
+        "date": "2022-12-16",
+        "provision_cited_as": "s.126 / s.135",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "126v135",
+          "mensrea-135"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "acquittal-no-bearing-on-126",
+        "holding": "The contention that an acquittal in the Section 135 criminal case extinguishes Section 126 liability is not acceptable — a Section 135 proceeding has no bearing on a Section 126 proceeding (following Orion Metal and Seetaram Rice Mill)."
+      },
+      {
+        "case_id": "HC-025",
+        "title": "Md. Abdul Matin v. West Bengal State Electricity Distribution Co. Ltd.",
+        "court_type": "HC",
+        "date": "2023-04-18",
+        "provision_cited_as": "s.126 / s.135",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "126v135"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "vires-upheld-parallel-proceedings",
+        "holding": "The vires of Sections 126 and 135 is upheld; the overlap on tampering creates no double standards — where both theft and unauthorised-use ingredients are satisfied, the authorities may make a Section 126 assessment AND proceed with a Section 135 criminal trial before the Special Court."
+      },
+      {
+        "case_id": "HC-025",
+        "title": "Md. Abdul Matin v. West Bengal State Electricity Distribution Co. Ltd.",
+        "court_type": "HC",
+        "date": "2023-04-18",
+        "provision_cited_as": "s.126 / s.135",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "126v135",
+          "mensrea-135"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "s126-not-a-theft-conviction",
+        "holding": "A Section 126 finding does not indict a person of theft (a criminal charge); the assessing officer merely calculates the licensee's loss, and whether theft is established is left to the Special Court's full criminal trial — so no violation of Articles 19/21."
+      }
+    ]
+  },
+  "s.138": {
+    "n_holdings": 1,
+    "n_ratio": 1,
+    "cases": [
+      "HC-020"
+    ],
+    "versions_applied": [
+      "post-2007"
+    ],
+    "holdings_chronological": [
+      {
+        "case_id": "HC-020",
+        "title": "M/s Mohit Paper Mills Ltd. v. PVVNL",
+        "court_type": "HC",
+        "date": "2011-10-14",
+        "provision_cited_as": "s.138(d)",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "assessment-126"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "no-s126-assessment-for-138(d)",
+        "holding": "For a contravention of Section 138(d), an assessment under Section 126 (or para 8.1 of the Code) is not permissible."
       }
     ]
   },
@@ -838,10 +1711,11 @@
     ]
   },
   "s.152": {
-    "n_holdings": 1,
-    "n_ratio": 1,
+    "n_holdings": 4,
+    "n_ratio": 4,
     "cases": [
-      "HC-009"
+      "HC-009",
+      "HC-026"
     ],
     "versions_applied": [
       "post-2007"
@@ -860,6 +1734,49 @@
         "holding_type": "ratio",
         "interpretation_type": "compounding-scope",
         "holding": "The remedy of compounding under Section 152 is available in both cases — established theft and suspected theft; accepting the compounding notice avoids trial before the Special Court, refusing it exposes the consumer to punishment and fine by that Court."
+      },
+      {
+        "case_id": "HC-026",
+        "title": "V. Swaminathan v. Superintending Engineer, TANGEDCO",
+        "court_type": "HC",
+        "date": "2018-02-09",
+        "provision_cited_as": "s.152",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "compounding-152"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "no-compounding-under-protest",
+        "holding": "Compounding of an offence under Section 152 cannot be done 'under protest' — it is not recognised in law; if the consumer protests, the authorised officer must instead launch prosecution."
+      },
+      {
+        "case_id": "HC-026",
+        "title": "V. Swaminathan v. Superintending Engineer, TANGEDCO",
+        "court_type": "HC",
+        "date": "2018-02-09",
+        "provision_cited_as": "s.152",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "compounding-152"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "compounding-is-admission-no-retraction",
+        "holding": "Once the consumer exercises the option to compound (an admission of guilt deemed an acquittal), there is no retracting it and he cannot canvass the correctness of the finding of guilt or claim he was compelled to compound under protest."
+      },
+      {
+        "case_id": "HC-026",
+        "title": "V. Swaminathan v. Superintending Engineer, TANGEDCO",
+        "court_type": "HC",
+        "date": "2018-02-09",
+        "provision_cited_as": "s.152 / s.135",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "compounding-152",
+          "appeal-127"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "quantum-of-civil-liability-testable",
+        "holding": "Even a consumer who has compounded and paid the compounding fee should be permitted to test the correctness of the manner of computation of the civil liability fastened on him; there is a casus omissus (no forum to test the final Section 135 assessment)."
       }
     ]
   },
@@ -890,12 +1807,16 @@
     ]
   },
   "s.154": {
-    "n_holdings": 4,
-    "n_ratio": 4,
+    "n_holdings": 8,
+    "n_ratio": 8,
     "cases": [
       "HC-003",
       "HC-006",
-      "HC-009"
+      "HC-009",
+      "HC-019",
+      "HC-022",
+      "HC-023",
+      "HC-027"
     ],
     "versions_applied": [
       "post-2007"
@@ -930,6 +1851,20 @@
         "holding": "Any dispute about civil liability in theft cases is impliedly excluded from the jurisdiction of the civil court by Sections 153 and 154, under which the Special Court determines such liability (acting as both civil and criminal court)."
       },
       {
+        "case_id": "HC-019",
+        "title": "M/s Shyam Lal Iron & Steel Co. v. Jharkhand State Electricity Board",
+        "court_type": "HC",
+        "date": "2013-04-26",
+        "provision_cited_as": "s.154(5)/(6)",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "jurisdiction-145-154"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "forum-special-court",
+        "holding": "The remedy against a final theft assessment is before the Special Court under Section 154(5)/(6), which determines the civil liability; the writ court will not interfere."
+      },
+      {
         "case_id": "HC-003",
         "title": "Sandeep Kesarwani v. State of U.P. & 3 Others",
         "court_type": "HC",
@@ -958,6 +1893,48 @@
         "holding_type": "ratio",
         "interpretation_type": "assessment-measure-for-theft",
         "holding": "Section 126 cannot be applied to assess the amount to be charged for theft of electricity; the civil liability for theft is measured under the Section 154(5) formula (twice the tariff for the twelve months preceding detection, or the exact period of theft if determined, whichever is less), subject to final adjudication by the Special Court."
+      },
+      {
+        "case_id": "HC-023",
+        "title": "M/s Jindal Resources Pvt. Ltd. v. Executive Engineer (Elect.), WESCO",
+        "court_type": "HC",
+        "date": "2018-08-21",
+        "provision_cited_as": "s.154(6)",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "jurisdiction-145-154"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "s154-does-not-oust-s126",
+        "holding": "The amount 'deposited by the consumer' in Section 154(6) is the amount deposited under Section 126 (there being no other deposit provision for theft), so the Section 154(5) Special Court does not oust the Section 126 assessment; the argument that only the Special Court may assess is rejected."
+      },
+      {
+        "case_id": "HC-027",
+        "title": "Rakesh Singh v. State of U.P.",
+        "court_type": "HC",
+        "date": "2019-09-30",
+        "provision_cited_as": "s.154(6)",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "jurisdiction-145-154"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "s154-deposit-is-s126-amount",
+        "holding": "The 'amount deposited by the consumer' in Section 154(6) is the amount deposited under Section 126 — there being no other deposit provision for theft — so Section 126 assessment and the Special Court's Section 154(5) determination coexist."
+      },
+      {
+        "case_id": "HC-022",
+        "title": "Tapan Sen Majumdar v. West Bengal State Electricity Distribution Co. Ltd.",
+        "court_type": "HC",
+        "date": "2022-07-15",
+        "provision_cited_as": "s.154(6)",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "jurisdiction-145-154"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "s154-civil-liability-scope",
+        "holding": "The Explanation to Section 154(6) ('civil liability') refers to the liability determined by the Special Court under Section 154(5) for theft, not to the amount raised as a provisional assessment under Section 126."
       }
     ]
   },
@@ -984,6 +1961,60 @@
         "holding_type": "ratio",
         "interpretation_type": "harmonious-construction",
         "holding": "Although Sections 173–175 and Section 3 CPA save consumer rights and give the CPA primacy on true inconsistency, they do not vest a Consumer Forum with power to adjudicate a Section 126 assessment or a Sections 135–140 offence, because such acts are neither a 'complaint' (s.2(1)(c)) nor a 'deficiency in service' (s.2(1)(o),(g)) under the CPA."
+      }
+    ]
+  },
+  "Reg. 15.8": {
+    "n_holdings": 1,
+    "n_ratio": 1,
+    "cases": [
+      "HC-019"
+    ],
+    "versions_applied": [
+      "post-2007"
+    ],
+    "holdings_chronological": [
+      {
+        "case_id": "HC-019",
+        "title": "M/s Shyam Lal Iron & Steel Co. v. Jharkhand State Electricity Board",
+        "court_type": "HC",
+        "date": "2013-04-26",
+        "provision_cited_as": "Reg. 15.8",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "126v135",
+          "provisional-final"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "suspected-vs-clear-theft-procedure",
+        "holding": "The suspected-theft safeguards in Clause 15.8(x)-(xv) (continued supply, provisional assessment, show-cause, 75%-consumption drop) have no application to a clear theft case, which is governed by Clause 15.8(i)-(ix)."
+      }
+    ]
+  },
+  "Reg. 8.1 (UP Code)": {
+    "n_holdings": 1,
+    "n_ratio": 1,
+    "cases": [
+      "HC-027"
+    ],
+    "versions_applied": [
+      "post-2007"
+    ],
+    "holdings_chronological": [
+      {
+        "case_id": "HC-027",
+        "title": "Rakesh Singh v. State of U.P.",
+        "court_type": "HC",
+        "date": "2019-09-30",
+        "provision_cited_as": "Reg. 8.1 (UP Code)",
+        "provision_version": "post-2007",
+        "issue_node": [
+          "126v135",
+          "provisional-final"
+        ],
+        "holding_type": "ratio",
+        "interpretation_type": "code-confirms-s126-for-theft",
+        "holding": "The U.P. Electricity Supply Code, 2005 (Clause 8.1) requires a provisional assessment bill and final assessment even in Section 135 theft cases, confirming that assessment for theft is made under Section 126."
       }
     ]
   },
