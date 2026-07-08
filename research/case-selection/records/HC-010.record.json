@@ -1,0 +1,181 @@
+{
+  "schema_version": "1.0",
+  "case_id": "HC-010",
+  "docid": "20929771",
+  "court": "High Court of Kerala",
+  "court_type": "HC",
+  "bench_type": "HC-DB",
+  "title": "Sulabha Marketing (P) Ltd. v. Kerala State Electricity Board",
+  "neutral_cite": "W.P.(C) No. 31025 of 2008 & connected cases (Kerala HC, DB) (2017)",
+  "date": "2017-04-12",
+  "bench": ["P.R. Ramachandra Menon J", "Anil K. Narendran J"],
+  "bench_strength": 2,
+  "reportable": true,
+  "one_line": "The leading Kerala reference on quantifying the Section 126(6) penalty: 'twice the tariff' ordinarily covers both fixed and energy charges, and unauthorised use of a higher-tariff service is assessed at twice that higher tariff — but where the only irregularity is excess load in the same premises for the same purpose (no tariff change) and the energy is already metered and paid, the assessment can only be twice the fixed charges, not twice the energy charges.",
+  "facts_squib": "A batch of writ petitions/appeals referred to a Division Bench (reference order 17.8.2015) for an authoritative ruling on quantification of penalty under Section 126(6) for consumers found using electricity in excess of sanctioned/connected load or otherwise engaging in unauthorised use — in cases where the energy consumed had already been metered and paid for. The consumers contended penal charges could only attach to fixed charges, not to energy charges already paid.",
+  "disposition": "Reference answered by laying down nine propositions (para 31); the individual writ petitions/appeals were remitted to the assessing authorities to pass fresh assessment orders in conformity with those propositions, after hearing.",
+  "procedural_posture": "Division Bench reference (batch of writ petitions and writ appeals) on a question of law referred by a Single Judge",
+  "outcome_for": "mixed (reference answered; individual cases remitted for reassessment)",
+  "relief_granted": "Assessment orders set aside/remitted for recomputation per the nine propositions; consumers eligible under proposition (vi) get penalty confined to fixed charges.",
+  "consumer_category": ["commercial", "industrial", "educational institution"],
+  "fact_pattern_tags": ["excess-load", "unauthorised-additional-load", "higher-tariff-misuse", "energy-already-metered-and-paid", "fixed-vs-energy-charges"],
+  "state": ["Kerala"],
+  "discom": ["Kerala State Electricity Board (KSEB)"],
+  "amendment_considered": "post-2007 (Act 26 of 2007) — the Bench applies Section 126(5)/(6) as amended (twice the tariff; 12-month period) and the amendment of Explanation (b)(iv)",
+  "regulations_construed": [
+    {"reg": "Kerala Electricity Supply Code / Conditions of Supply, 2005, Regulation 51(1) ('penalised')", "implements": "s.126 assessment", "made_under": "Electricity Act, 2003"},
+    {"reg": "KSEB Board Order dated 7.2.2008 (B.O.(FM) No.368/08) on penalty computation under s.126(5)/(6)", "implements": "s.126 assessment procedure", "made_under": "Electricity Act, 2003"}
+  ],
+  "issues_framed": [
+    "The common issue in these cases relates to the assessment under Section 126(1) of the Electricity Act, 2003 read with Section 126(6) of the said Act of a consumer indulging in unauthorised use of electricity",
+    "an authoritative pronouncement on the quantification of penalty under Section 126(6) of the Electricity Act, 2003 is essential since innumerable cases crop up everyday challenging the orders imposing penalty involving excess load"
+  ],
+  "provisions_construed": [
+    {"provision": "s.126(1)", "docid": "124046987"},
+    {"provision": "s.126(5)", "docid": "124046987"},
+    {"provision": "s.126(6)", "docid": "124046987"},
+    {"provision": "s.126 Explanation (b)(i)-(v)", "docid": "124046987"},
+    {"provision": "s.45", "docid": ""},
+    {"provision": "s.135 (contrast)", "docid": "90633360"}
+  ],
+  "provision_holdings": [
+    {
+      "provision": "s.126(1)",
+      "issue_node": ["assessment-126", "natural-justice"],
+      "holding": "The physical presence of the assessing officer at the time of inspection and detection of unauthorised use is not a mandatory precondition for initiating assessment proceedings under Section 126(1).",
+      "interpretation_type": "procedure-assessing-officer-presence",
+      "key_para": "The presence of the assessing officer at the time of inspection and detection of unauthorised use of electricity in the premises of a consumer is not a mandatory requirement",
+      "para_ref": "para 31(i)",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.126",
+      "issue_node": ["assessment-126", "mensrea-135"],
+      "holding": "'Unauthorised use of electricity' under Section 126 covers cases of unauthorised use even without intention; the consumer's intention is not the foundation for an assessment order under Section 126 (mens rea is a Section 135 concept).",
+      "interpretation_type": "no-mens-rea-for-126",
+      "key_para": "The expression unauthorised use of electricity under Section 126 of the Act deals with cases of unauthorised use even in the absence of intention. Hence, the intention of the consumer is not the foundation for invoking powers of the competent authority and passing of an order of assessment under Section 126 of the Act.",
+      "para_ref": "para 31(ii)",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.126(6)",
+      "issue_node": ["assessment-126"],
+      "holding": "A consumer who consumes electricity in excess of the sanctioned/connected load (breach of the agreement, Regulations and the Act) is liable to pay at the rate equal to twice the tariff applicable for the relevant category of services.",
+      "interpretation_type": "penalty-rate-excess-load",
+      "key_para": "Whenever a consumer commits the breach of the terms of the agreement, Regulations and the provisions of the Act by consuming electricity in excess of the sanctioned/connected load, such consumer would be in blame and under liability to pay at the rate equal to twice the tariff applicable for the relevant category of services in terms of Section 126 of the Act.",
+      "para_ref": "para 31(iii)",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.126(6)",
+      "issue_node": ["assessment-126"],
+      "holding": "The word 'tariff' in Section 126(6) includes BOTH fixed charges and energy charges; the assessment is at twice that tariff for the relevant category of services under sub-section (5).",
+      "interpretation_type": "tariff-includes-fixed-and-energy",
+      "key_para": "The term tariff in Section 126(6) of the Act includes both fixed charges and charges for the electricity supplied, which has to be assessed in the case of a consumer indulged in unauthorised use of electricity, at a rate equal to twice the tariff applicable for the relevant category of services",
+      "para_ref": "para 31(iv)",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.126(6)",
+      "issue_node": ["assessment-126"],
+      "holding": "Where electricity of one category is unauthorisedly used for a higher-tariff purpose, the assessment is twice the tariff applicable to that higher-tariff category for which it was used — not twice the tariff of the category to which the consumer nominally belongs.",
+      "interpretation_type": "higher-tariff-misuse-measure",
+      "key_para": "In case of unauthorised use of electricity in a higher tariff, such assessment shall be made at the rate equal to twice the tariff applicable for the relevant category of services attracting such higher tariff for which electricity supplied was unauthorisedly used and not the relevant category of service to which the consumer belongs.",
+      "para_ref": "para 31(v)",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.126(6)",
+      "issue_node": ["assessment-126"],
+      "holding": "MARQUEE EXCEPTION: where the consumer is only blamed with overdrawal in excess of sanctioned/connected load in the same premises and for the same purpose (no change in the tariff category), and the excess consumption has already been metered and paid, the assessment under Section 126(6) can only be twice the FIXED charges — the consumer cannot be saddled with twice the energy charges — unless regularising the additional load necessitates upgradation of the distribution system or enhancement of the voltage level.",
+      "interpretation_type": "excess-load-only-fixed-charges-doubled",
+      "key_para": "assessment under Section 126(6) of the Act can only be equal to twice the fixed charges payable and such consumer cannot be saddled with the liability to pay twice the energy charges applicable for the relevant category of services",
+      "para_ref": "para 30 / para 31(vi)",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (SOUTHCO) v. Sri Seetaram Rice Mill",
+      "cite": "(2012) 2 SCC 108",
+      "court": "Supreme Court (3-Judge)",
+      "docid": "",
+      "principle": "Section 126 embodies a complete process for assessment of unauthorised use and has no criminal intendment/mens rea (unlike Section 135 theft); 'means' in Explanation (b) is illustrative not exhaustive, so unauthorised use extends beyond the listed clauses to any use in violation of the statutory/contractual terms of supply.",
+      "principle_para": "the expression unauthorised use of electricity under Section 126 of the Act deals with cases of unauthorised use, even in absence of intention. As such, intention is not the foundation for invoking powers of the competent authority and passing of an order of assessment under Section 126 of the Act.",
+      "treatment": "followed",
+      "treatment_para": "As held by the Apex Court in Seetharam Rice Mill s case (supra), unauthorised use of electricity means the usage of electricity by the means and for the reasons stated in Explanation (b)(i) to (v) to",
+      "on_issue": "assessment-126"
+    },
+    {
+      "name": "JDT Islam Orphanage Committee v. Assistant Engineer, KSEB",
+      "cite": "2007 (3) KLT 388",
+      "court": "Kerala High Court",
+      "docid": "",
+      "principle": "Where energy consumed through the meter is billed and paid, penal charges cannot be levied on that energy; the only liability is penal charges on the fixed charges.",
+      "principle_para": "when the energy consumed through meter having been billed and payment having been made, assessment of penal charges for such consumption of energy is legally impermissible and the only liability that can be fastened upon the consumers found indulging in unauthorised use of electricity is penal charges on fixed charges.",
+      "treatment": "distinguished",
+      "treatment_para": "The said contention can only be repelled in view of our finding made hereinbefore, with reference to the provisions under Sections 45 and 126 of the Act and the law laid down by the Apex Court in Seetharam Rice Mill s case (supra) and that laid down by",
+      "on_issue": "assessment-126"
+    },
+    {
+      "name": "George Joseph v. KSEB",
+      "cite": "2008 (4) KLT 610",
+      "court": "Kerala High Court",
+      "docid": "",
+      "principle": "Same effect as JDT Islam — penal charges on energy already billed and paid are impermissible; liability confined to fixed charges.",
+      "treatment": "distinguished",
+      "on_issue": "assessment-126"
+    },
+    {
+      "name": "Classic Color Lab v. KSEB",
+      "cite": "(Kerala HC)",
+      "court": "Kerala High Court",
+      "docid": "",
+      "principle": "Where subsidised industrial (LT-IV) supply is unauthorisedly used for commercial (LT-VIIA) purpose attracting a higher rate, assessment is at twice the higher tariff.",
+      "treatment": "followed",
+      "on_issue": "assessment-126"
+    }
+  ],
+  "ratio": [
+    {
+      "issue_node": "assessment-126",
+      "proposition": "Under Section 126(6) 'twice the tariff' ordinarily embraces both fixed and energy charges, and higher-tariff misuse is assessed at twice the higher tariff; but where the sole irregularity is excess load in the same premises for the same purpose (no tariff change) and the energy is already metered and paid, the penalty is confined to twice the fixed charges, absent a need to upgrade the distribution system/voltage.",
+      "scope": "HC-DB (Kerala)",
+      "novelty": "settles",
+      "conflicts_with": []
+    },
+    {
+      "issue_node": "assessment-126",
+      "proposition": "Section 126 assessment is intention-neutral (no mens rea); the assessing officer's presence at inspection is not a mandatory precondition to initiating proceedings.",
+      "scope": "HC-DB (Kerala)",
+      "novelty": "affirms",
+      "conflicts_with": []
+    }
+  ],
+  "significance": "The authoritative Kerala Division-Bench pronouncement on quantifying the Section 126(6) penalty for excess load / unauthorised use, laying down nine propositions (para 31). Its headline contribution is the excess-load exception at proposition (vi): where consumption is already metered and paid and there is no tariff-category change, the doubled penalty attaches only to fixed charges, not energy charges — refining the earlier JDT Islam/George Joseph line while applying Seetaram Rice Mill on the civil, intention-neutral character of Section 126. Also upholds Regulation 51(1) and the KSEB Board Order of 7.2.2008 as intra vires.",
+  "validity": {
+    "overall": "good-law",
+    "as_of": "2026-07",
+    "provision_version_ok": true,
+    "per_issue": {
+      "assessment-126": "good-law; the leading Kerala authority on Section 126(6) quantification, applying the post-2007 text and Seetaram Rice Mill."
+    },
+    "note": "Not overruled. A considered Division-Bench reference answer on the post-2007 Section 126(5)/(6). It confines (does not follow simpliciter) the earlier JDT Islam/George Joseph 'fixed-charges-only' line to the narrow excess-load situation in proposition (vi)."
+  },
+  "flags": [
+    "LEADING Kerala DB on s.126(6) quantification (9 propositions, para 31)",
+    "excess-load-already-metered => penalty only on FIXED charges (para 31(vi))",
+    "s.126(6) 'twice the tariff' = fixed + energy charges (general rule)",
+    "higher-tariff misuse => twice the higher tariff",
+    "no mens rea for s.126; assessing-officer presence not mandatory",
+    "applies Seetaram Rice Mill; confines JDT Islam / George Joseph",
+    "upholds Reg 51(1) & Board Order 7.2.2008 as intra vires",
+    "post-2007-text"
+  ]
+}
