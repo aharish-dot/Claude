@@ -39,7 +39,7 @@ _INLINE = [
 def clean(text: str) -> str:
     lines = [ln for ln in text.split('\n') if not any(p.match(ln) for p in _ART_LINE)]
     t = '\n'.join(lines)
-    t = re.sub(r'(\w)-[ \t]*\n[ \t]*(\w)', r'\1-\2', t)   # rejoin hyphenated line-breaks (keep hyphen)
+    t = re.sub(r'(\w)-[ \t]*\n\s*(\w)', r'\1-\2', t)      # rejoin hyphenated line-breaks (keep hyphen; span blank lines)
     for p, r in _INLINE:
         t = p.sub(r, t)
     t = re.sub(r'[ \t]+', ' ', t)                          # collapse runs of spaces/tabs
