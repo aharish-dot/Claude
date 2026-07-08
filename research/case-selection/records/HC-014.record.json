@@ -1,0 +1,145 @@
+{
+  "schema_version": "1.0",
+  "case_id": "HC-014",
+  "docid": "130685179",
+  "court": "High Court of Bombay (Nagpur Bench)",
+  "court_type": "HC",
+  "bench_type": "HC-SB",
+  "title": "Maharashtra State Electricity Distribution Co. Ltd. v. M/s Shubhalaxmi Rice Mill",
+  "neutral_cite": "WP No. 5234 of 2016 & connected petitions (Bombay HC, Nagpur Bench) (2020)",
+  "date": "2020-04-27",
+  "bench": ["Manish Pitale J"],
+  "bench_strength": 1,
+  "reportable": false,
+  "one_line": "Consuming electricity in excess of the sanctioned contract demand — causing a change of tariff category (LT to HT) — is 'unauthorised use of electricity' under Explanation (b)(iv) to Section 126 (following Seetaram Rice Mill); prior payment of penalty for exceeding contract demand does not bar a Section 126 assessment, and on a Section 127 appeal confined by remand to quantum, the Appellate Authority cannot re-open whether Section 126 applies.",
+  "facts_squib": "A batch of consumers (rice mills etc.) with a sanctioned contract demand of 100 KVA were found on joint inspection to have exceeded it, changing their tariff category from LT to HT. MSEDCL invoked Section 126, issued provisional and (after objections) final assessment bills at twice the tariff under Section 126(6). The Section 127 Appellate Authority twice quashed the bills holding it was not unauthorised use; after an earlier remand it did so again, prompting MSEDCL's writ petitions.",
+  "disposition": "Writ petitions allowed; the Appellate Authority's orders quashed for defying the settled position that Section 126 applies; proceedings remanded solely for determination of the quantum of assessment, after opportunity to both sides.",
+  "procedural_posture": "Writ petitions (second round) by the licensee against Section 127 Appellate Authority orders",
+  "outcome_for": "licensee",
+  "relief_granted": "Appellate orders quashed; remand confined to quantum of assessment under Section 126.",
+  "consumer_category": ["industrial (rice mills)", "commercial"],
+  "fact_pattern_tags": ["excess-load", "exceeded-contract-demand-100KVA", "LT-to-HT-category-change", "penalty-already-paid-argument"],
+  "state": ["Maharashtra"],
+  "discom": ["Maharashtra State Electricity Distribution Co. Ltd. (MSEDCL)"],
+  "amendment_considered": "post-2007 (Act 26 of 2007) — Section 126(6) twice the tariff and Explanation (b)(iv) as interpreted in Seetaram Rice Mill",
+  "regulations_construed": [
+    {"reg": "MERC Tariff Orders (penalty for exceeding contract demand; LT/HT categories)", "implements": "tariff / s.126 interface", "made_under": "Electricity Act, 2003"}
+  ],
+  "issues_framed": [
+    "Wherever the consumer consumes electricity in excess of the maximum of the contracted load, would the provisions of Section 126 of the 2003 Act be attracted on its true scope and interpretation ?"
+  ],
+  "provisions_construed": [
+    {"provision": "s.126", "docid": "124046987"},
+    {"provision": "s.126 Explanation (b)(iv)", "docid": "124046987"},
+    {"provision": "s.126(3)-(6)", "docid": "124046987"},
+    {"provision": "s.127 (appeal)", "docid": "13154422"}
+  ],
+  "provision_holdings": [
+    {
+      "provision": "s.126 Explanation (b)(iv)",
+      "issue_node": ["assessment-126"],
+      "holding": "Consumption in excess of the sanctioned contract demand, causing a change of tariff category (LT to HT), is 'unauthorised use of electricity' squarely covered by Explanation (b)(iv) to Section 126; the consumers' cases stood clearly covered under Section 126.",
+      "interpretation_type": "excess-load-is-unauthorised-use",
+      "key_para": "the present cases of the respondent consumers stood clearly covered under Section 126 of the aforesaid Act",
+      "para_ref": "para 18",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.126",
+      "issue_node": ["assessment-126", "mensrea-135"],
+      "holding": "Following Seetaram Rice Mill (para 35), intention is not the foundation for invoking Section 126; all that need be ascertained is whether the consumer exceeded the contract load resulting in usage beyond it.",
+      "interpretation_type": "no-intention-for-126",
+      "key_para": "It has been categorically held in paragraph 35 of the said judgment that intention is not the foundation for invoking powers of the competent authority and passing an order of assessment under Section 126 of the aforesaid Act.",
+      "para_ref": "para 16",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.126",
+      "issue_node": ["assessment-126"],
+      "holding": "Even where penalty @150% has already been levied for exceeding the contract demand under the Regulatory Commission's tariff order, the consumer remains liable to pay charges for unauthorised use of electricity under Section 126.",
+      "interpretation_type": "prior-penalty-no-bar-to-126",
+      "key_para": "even if penalty @150% had been already levied as per the tariff order issued by the Regulatory Commission for the year 2009-10, the respondent consumers were liable to pay charges for unauthorized use of electricity under Section 126 of the Act.",
+      "para_ref": "para 13",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.127",
+      "issue_node": ["appeal-127", "assessment-126"],
+      "holding": "Where the High Court has remanded a Section 127 appeal confined to quantum, the Appellate Authority cannot re-open the settled question whether Section 126 applies; the only question open to it is the quantum of assessment in the final bills.",
+      "interpretation_type": "appeal-scope-on-remand",
+      "key_para": "The only question that could have been considered was regarding the quantum of assessment in the final assessment bills issued by the petitioner company under Section 126 of the aforesaid Act.",
+      "para_ref": "para 23",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (Southco) v. Sri Seetaram Rice Mill",
+      "cite": "(2012) 2 SCC 108",
+      "court": "Supreme Court (3-Judge)",
+      "docid": "",
+      "principle": "Explanation (b)(iv) to Section 126 covers cases where electricity is consumed in excess of the sanctioned load, particularly when it amounts to a change of category and tariff; excess-load consumption is squarely covered by Explanation (b)(iv).",
+      "principle_para": "Explanation (b)(iv), thus, would also cover the cases where electricity is being consumed in excess of sanctioned load, particularly when it amounts to change of category and tariff.",
+      "treatment": "followed",
+      "treatment_para": "the law laid down by the Hon ble Supreme Court in the case of Executive Engineer vs. Sri Seetaram Rice Mill (supra) is absolutely clear and applying the same to the facts and circumstances of the present cases",
+      "on_issue": "assessment-126"
+    },
+    {
+      "name": "M/s Sri Ram Industries v. State of Bihar",
+      "cite": "CWJC No. 1546/2014 (Patna HC)",
+      "court": "Patna High Court",
+      "docid": "",
+      "principle": "Relied on by the consumers to resist Section 126; held inapplicable in the face of Seetaram Rice Mill.",
+      "treatment": "distinguished",
+      "on_issue": "assessment-126"
+    },
+    {
+      "name": "M/s Akshay Roll Mills Pvt. Ltd. v. Jharkhand State Electricity Board",
+      "cite": "WP No. 454/2010 (Jharkhand HC)",
+      "court": "Jharkhand High Court",
+      "docid": "",
+      "principle": "Relied on by the consumers; held inapplicable in the face of Seetaram Rice Mill.",
+      "treatment": "distinguished",
+      "on_issue": "assessment-126"
+    }
+  ],
+  "ratio": [
+    {
+      "issue_node": "assessment-126",
+      "proposition": "Consuming electricity beyond the sanctioned contract demand, resulting in a change of tariff category, is unauthorised use under Explanation (b)(iv) to Section 126 (Seetaram Rice Mill); the assessment follows Sections 126(3)-(6), and prior payment of a contract-demand penalty is no bar to it.",
+      "scope": "HC-SB (Bombay, Nagpur Bench)",
+      "novelty": "applies",
+      "conflicts_with": []
+    },
+    {
+      "issue_node": "appeal-127",
+      "proposition": "On a Section 127 appeal remanded solely on quantum, the Appellate Authority is bound by the finding that Section 126 applies and cannot re-litigate applicability; its remit is confined to the quantum of assessment.",
+      "scope": "HC-SB (Bombay, Nagpur Bench)",
+      "novelty": "settles",
+      "conflicts_with": []
+    }
+  ],
+  "significance": "A Bombay (Nagpur Bench) authority applying Seetaram Rice Mill to hold that excess-load consumption beyond the sanctioned contract demand, changing the tariff category, is unauthorised use under Explanation (b)(iv) to Section 126, that a prior contract-demand penalty does not bar a Section 126 assessment, and that a Section 127 Appellate Authority cannot, after a quantum-only remand, re-open the applicability of Section 126. Useful on the excess-load/change-of-category limb of Section 126 and on the scope of the Section 127 appeal on remand.",
+  "validity": {
+    "overall": "good-law",
+    "as_of": "2026-07",
+    "provision_version_ok": true,
+    "per_issue": {
+      "assessment-126": "good-law; a faithful application of Seetaram Rice Mill (SC) on Explanation (b)(iv) and excess load.",
+      "appeal-127": "good-law on the binding effect of a quantum-only remand on the Section 127 Appellate Authority."
+    },
+    "note": "Not overruled. Applies the post-2007 Section 126 and Seetaram Rice Mill; note the fact-sensitive point that a subsequent tariff-order clarification (2016-17) cannot govern a bill for an earlier year."
+  },
+  "flags": [
+    "excess-load / change-of-category => unauthorised use under Explanation (b)(iv)",
+    "prior contract-demand penalty is NO bar to s.126 assessment",
+    "s.127 appeal on quantum-only remand cannot re-open s.126 applicability",
+    "applies Seetaram Rice Mill (reproduces paras 70-72, 76)",
+    "subsequent tariff order cannot test an earlier-year bill",
+    "post-2007-text"
+  ]
+}
