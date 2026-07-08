@@ -1,0 +1,177 @@
+{
+  "schema_version": "1.0",
+  "case_id": "HC-017",
+  "docid": "108624484",
+  "court": "High Court at Calcutta (Appellate Side)",
+  "court_type": "HC",
+  "bench_type": "HC-SB",
+  "title": "Ashok Kumar Maity v. West Bengal State Electricity Board (WBSEDCL)",
+  "neutral_cite": "W.P.A. No. 21298 of 2021 (Calcutta HC) (2022)",
+  "date": "2022-01-25",
+  "bench": ["Sabyasachi Bhattacharyya J"],
+  "bench_strength": 1,
+  "reportable": false,
+  "one_line": "Acquittal in a Section 135 criminal theft proceeding does NOT ipso facto absolve the consumer from civil liability finally assessed under Section 126 — because 'unauthorised use' (Section 126, civil, tested on preponderance of probability) is the genus and 'theft' (Section 135, criminal, proof beyond reasonable doubt with mens rea) is only a species; the two operate in different fields, and Sections 126/127 and 135/154 run on separate footings.",
+  "facts_squib": "The consumer was prosecuted for theft of electricity by direct hooking from nearby LT lines under Sections 135(1)(a) and (b), and was acquitted by the criminal court. WBSEDCL had, on the same facts, made provisional and final Section 126 assessments (styling the direct hooking as an indicator of 'unauthorised use'). The consumer sought unqualified restoration of supply by writ, arguing the acquittal exonerated him from the Section 126 demand; he had not filed a Section 127 appeal or deposited any amount.",
+  "disposition": "Writ petition dismissed; acquittal on theft does not exonerate Section 126 civil liability, and having bypassed the Section 127 appeal (with its 50% pre-deposit) the consumer cannot obtain restoration through the writ court without paying.",
+  "procedural_posture": "Writ petition under Article 226 seeking restoration of supply after final Section 126 assessment",
+  "outcome_for": "licensee",
+  "relief_granted": "No relief; final assessment stands, restoration refused absent deposit.",
+  "consumer_category": ["domestic/LT (direct hooking)"],
+  "fact_pattern_tags": ["direct-hooking-from-LT-lines", "criminal-acquittal-on-theft", "s126-assessment-on-same-facts", "s127-appeal-bypassed", "no-deposit"],
+  "state": ["West Bengal"],
+  "discom": ["West Bengal State Electricity Distribution Co. Ltd. (WBSEDCL)"],
+  "amendment_considered": "post-2007 (Act 26 of 2007) — Section 126(5) 12-month period, Section 135 'dishonestly' + presumption proviso, Section 154(5) civil liability at 2x tariff (Section 126(6) as reproduced omits 'twice', a transcription slip)",
+  "regulations_construed": [
+    {"reg": "WBSEDCL Circular 11 dated 29.05.2015 (Chief Engineer, Distribution) — s.135 and s.126 proceedings are separate and independent", "implements": "s.126/s.135 interface", "made_under": "Electricity Act, 2003"}
+  ],
+  "issues_framed": [
+    "Whether the acquittal of a consumer in a criminal proceeding on the allegation of theft of electricity ipso facto absolves the consumer from the liability to pay the amount finally assessed under Section 126"
+  ],
+  "provisions_construed": [
+    {"provision": "s.126", "docid": "124046987"},
+    {"provision": "s.127", "docid": "13154422"},
+    {"provision": "s.135", "docid": "90633360"},
+    {"provision": "s.145", "docid": "113307258"},
+    {"provision": "s.154(5)/(6)", "docid": "34349824"}
+  ],
+  "provision_holdings": [
+    {
+      "provision": "s.126 / s.135",
+      "issue_node": ["126v135"],
+      "holding": "Unauthorised use of electricity (Section 126) is the genus and theft (Section 135) is one of the species thereunder; the two operate in different fields.",
+      "interpretation_type": "genus-species",
+      "key_para": "whereas unauthorised use of electricity is the genus, theft is one of the species thereunder.",
+      "para_ref": "para 19",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.126",
+      "issue_node": ["126v135", "burden-proof"],
+      "holding": "A Section 126 assessment is a civil enquiry to be decided on the standard of preponderance of probability, whereas Section 135 theft requires proof beyond reasonable doubt with mens rea; the yardsticks are distinct.",
+      "interpretation_type": "standard-of-proof-civil",
+      "key_para": "the evidentiary principle to be adopted in assessing a pecuniary loss and damage under Section 126 of the 2003 Act, which is a civil enquiry in nature, is preponderance of probability.",
+      "para_ref": "para 24",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.126 / s.135",
+      "issue_node": ["126v135", "mensrea-135"],
+      "holding": "An acquittal on a Section 135 theft charge (tested on proof beyond reasonable doubt) does not ipso facto exonerate the consumer from civil liability under Section 126 (tested on the more liberal preponderance of probability).",
+      "interpretation_type": "acquittal-no-bar-to-126",
+      "key_para": "even an acquittal of the petitioner on the charge of theft levelled under Section 135 of the 2003 Act, on the test of evidence beyond reasonable proof, does not ipso facto exonerate the petitioner from the civil liability cast under Section 126 of the 2003 Act, which is subject to the more liberal test of preponderance of probability.",
+      "para_ref": "para 34",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.145",
+      "issue_node": ["jurisdiction-145-154"],
+      "holding": "Section 145 bars civil-court interference in respect of assessments under Sections 126 and 127; a Section 135 FIR instead leads to a Section 154 Special Court criminal action, with civil liability under Section 154(5) independent of and subject to the Section 126 deposit (Section 154(6)).",
+      "interpretation_type": "jurisdiction-separate-channels",
+      "key_para": "any interference by the Civil Court has specifically been prohibited in Section 145 of the 2003 Act in respect of assessments under Sections 126 and 127 of the 2003 Act.",
+      "para_ref": "para 33",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.127",
+      "issue_node": ["appeal-127", "provisional-final"],
+      "holding": "A consumer who bypasses the Section 127 appeal (which requires a 50% pre-deposit) cannot obtain from the writ court, indirectly, the restoration he could not get from the appellate forum; there is no unqualified restoration without complying with the final assessment.",
+      "interpretation_type": "appeal-remedy-cannot-be-bypassed",
+      "key_para": "the petitioner cannot be permitted to obtain indirectly a relief from the Writ Court, which he could not get directly from the designated appellate forum at this belated juncture.",
+      "para_ref": "para 36",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (SOUTHCO) v. Sri Seetaram Rice Mill",
+      "cite": "(2012) 2 SCC 108",
+      "court": "Supreme Court (3-Judge)",
+      "docid": "",
+      "principle": "There is a clear distinction between cases falling under Section 126 and under Section 135; no commonality in law, they operate in different and distinct fields.",
+      "principle_para": "the Supreme Court found a clear distinction between cases that would fall under Section 126 of the 2003 Act on the one hand and under Section 135 on the other. There is no commonality between them in law and they operate in different and distinct fields, the Supreme Court held.",
+      "treatment": "followed",
+      "on_issue": "126v135"
+    },
+    {
+      "name": "WBSEDCL v. M/s Orion Metal Pvt. Ltd.",
+      "cite": "Civil Appeal No. 6547 of 2019 (SC, 21.08.2019)",
+      "court": "Supreme Court (2-Judge)",
+      "docid": "",
+      "principle": "Section 126(1) assessment and Section 154(5) determination of civil liability are not parallel; where there is no theft, only Section 126 applies, but where unauthorised use amounts to theft, both a Section 126 assessment and a Section 135 complaint (with Section 154(5) civil liability) may run. Criminal guilt needs proof beyond reasonable doubt and mens rea; Section 126 liability does not.",
+      "principle_para": "to prove the guilt of the accused in a criminal proceeding, authorities have to prove the case beyond reasonable doubt and to establish the element of mens rea; on the other hand, such strict proof is not necessary for assessing the liability under Section 126(1) of the 2003 Act.",
+      "treatment": "followed",
+      "on_issue": "126v135"
+    },
+    {
+      "name": "Basudeb Paine v. WBSEDCL",
+      "cite": "MAT No. 263 of 2015 (Calcutta HC, DB)",
+      "court": "Calcutta High Court (DB)",
+      "docid": "",
+      "principle": "All unauthorised use does not result in Section 135 prosecution; Section 126 is a civil action for recovery, Section 135 a penal action for theft — they stand on separate and independent footings and do not depend on each other.",
+      "principle_para": "all unauthorised use of electricity or energy would not result in prosecution under Section 135 of the 2003 Act; one is civil action for recovery of amounts towards consumption of electricity and the other is penal action for the theft of energy.",
+      "treatment": "followed",
+      "on_issue": "126v135"
+    },
+    {
+      "name": "M/s Jindal Resources Pvt. Ltd. v. Executive Engineer (Elect.), WESCO",
+      "cite": "AIR 2018 Orissa 176",
+      "court": "Orissa High Court",
+      "docid": "",
+      "principle": "Proceedings under Section 135 have no bearing on proceedings under Section 126; the Section 126 assessment survives an acquittal in the Section 135 criminal case.",
+      "treatment": "followed",
+      "on_issue": "126v135"
+    },
+    {
+      "name": "M/s Citi Hotel v. Commissioner, Lucknow Division",
+      "cite": "AIR 2009 All 137",
+      "court": "Allahabad High Court",
+      "docid": "",
+      "principle": "Relied on by the consumer for the proposition that acquittal absolves civil liability for theft; distinguished on its facts (there the corporation had shown no wrongful loss and the criminal court found no excess load).",
+      "treatment": "distinguished",
+      "on_issue": "126v135"
+    }
+  ],
+  "ratio": [
+    {
+      "issue_node": "126v135",
+      "proposition": "Because unauthorised use (Section 126, civil, preponderance of probability) is the genus and theft (Section 135, criminal, proof beyond reasonable doubt + mens rea) only a species, an acquittal on a theft charge does not ipso facto extinguish civil liability under Section 126; the two channels operate on separate footings.",
+      "scope": "HC-SB (Calcutta)",
+      "novelty": "settles",
+      "conflicts_with": []
+    },
+    {
+      "issue_node": "appeal-127",
+      "proposition": "A consumer who forgoes the Section 127 appeal (and its 50% pre-deposit) and lets the assessment attain finality cannot secure unqualified restoration of supply via a writ; Section 145 bars civil-court interference with Section 126/127 assessments.",
+      "scope": "HC-SB (Calcutta)",
+      "novelty": "affirms",
+      "conflicts_with": []
+    }
+  ],
+  "significance": "A focused Calcutta authority on the Section 126-vs-Section 135 interface: it holds that an acquittal in the criminal theft case does not exonerate the consumer from the Section 126 civil assessment, framing unauthorised use as the genus and theft as a species, distinguished by their standards of proof (preponderance of probability vs beyond reasonable doubt). It also marks the separate footings of Sections 126/127 and 135/154 and the Section 145 civil-court bar, and refuses writ relief where the Section 127 appeal was bypassed. Applies Seetaram Rice Mill and the SC's Orion Metal ruling; topical replacement for the rejected off-topic HC-012.",
+  "validity": {
+    "overall": "good-law",
+    "as_of": "2026-07",
+    "provision_version_ok": true,
+    "per_issue": {
+      "126v135": "good-law; follows Seetaram Rice Mill and WBSEDCL v. Orion Metal (SC) on the different-fields / different-proof-standards distinction.",
+      "appeal-127": "good-law on the bar against bypassing the Section 127 appeal via writ and the Section 145 civil-court bar."
+    },
+    "note": "Not overruled. Applies the post-2007 provisions. The reproduced Section 126(6) omits the word 'twice' — a transcription slip that does not affect the ratio."
+  },
+  "flags": [
+    "acquittal on s.135 theft does NOT exonerate s.126 civil liability",
+    "unauthorised use = GENUS; theft = SPECIES",
+    "proof standards: s.126 preponderance of probability vs s.135 beyond reasonable doubt",
+    "s.126/127 and s.135/154 run on separate footings; s.145 bars civil court",
+    "writ cannot bypass s.127 appeal (50% pre-deposit)",
+    "applies Seetaram + WBSEDCL v Orion Metal (SC)",
+    "topical replacement for rejected HC-012",
+    "post-2007-text"
+  ]
+}

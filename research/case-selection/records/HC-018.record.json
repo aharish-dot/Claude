@@ -1,0 +1,167 @@
+{
+  "schema_version": "1.0",
+  "case_id": "HC-018",
+  "docid": "167917487",
+  "court": "High Court of Orissa",
+  "court_type": "HC",
+  "bench_type": "HC-SB",
+  "title": "Assessing Officer-cum-Executive Engineer (Electrical), WESCO v. Appellate Authority-cum-Electrical Inspector",
+  "neutral_cite": "AIR 2018 (NOC) ... ; W.P.(C) No. 13047 of 2015 (Orissa HC) (2017) (AFR)",
+  "date": "2017-07-13",
+  "bench": ["Dr. B.R. Sarangi J"],
+  "bench_strength": 1,
+  "reportable": true,
+  "one_line": "A consumer's Section 127 appeal against a Section 126 assessment is not time-barred where the delay is covered by time spent bona fide prosecuting a writ petition/appeal in the wrong forum — Section 14 of the Limitation Act applies (the Electricity Act being a special law under Section 29(2)) — and Section 125 (appeal to the Supreme Court from the Appellate Tribunal) is distinct from the Section 127 assessment appeal; a Section 126 inspection alleging unauthorised use should be conducted in the consumer's presence.",
+  "facts_squib": "A power-intensive industry (contract demand 5700 KVA) under WESCO was inspected at night (11.12.2010) and found abstracting power from the 33 KV line by illegal/unauthorised means; a final Section 126 assessment of Rs 2.13 crore followed and supply was disconnected. After the consumer's earlier writ/writ-appeal were held non-maintainable (relegated to a Section 127 appeal), it appealed under Section 127; the Appellate Authority reduced the assessment to Rs 31.01 lakh (unauthorised use for only two months). WESCO challenged that order, contending the appeal was barred by limitation.",
+  "disposition": "Writ petition (by the licensee) dismissed; the Section 127 appeal was rightly entertained (Section 14 Limitation Act), the reduction upheld, and the excess of the consumer's deposits over Rs 31.01 lakh directed to be refunded/adjusted.",
+  "procedural_posture": "Writ petition by the licensee challenging the Section 127 Appellate Authority's order reducing the assessment",
+  "outcome_for": "consumer",
+  "relief_granted": "Appellate reduction upheld; balance of consumer's deposits (~Rs 75.5 lakh) to be refunded or adjusted.",
+  "consumer_category": ["industrial (power-intensive)"],
+  "fact_pattern_tags": ["abstraction-from-33KV-line", "night-inspection", "unauthorised-use", "appeal-limitation", "inspection-not-in-consumer-presence"],
+  "state": ["Odisha"],
+  "discom": ["Western Electricity Supply Co. of Orissa (WESCO)"],
+  "amendment_considered": "post-2007 (Act 26 of 2007) — Section 126(6) reproduced with '[twice] the tariff', Section 126(5) 12-month period",
+  "regulations_construed": [
+    {"reg": "OERC Distribution (Conditions of Supply) Code, 2004, Reg. 43 (disconnection for unauthorised use) and Reg. 51 (access/disconnection via Executive Magistrate's order under s.163)", "implements": "s.126/s.163 procedure", "made_under": "Electricity Act, 2003"}
+  ],
+  "issues_framed": [],
+  "provisions_construed": [
+    {"provision": "s.126", "docid": "124046987"},
+    {"provision": "s.126(5)", "docid": "124046987"},
+    {"provision": "s.127", "docid": "13154422"},
+    {"provision": "s.135 (contrast)", "docid": "90633360"},
+    {"provision": "s.125 (contrast)", "docid": ""},
+    {"provision": "Limitation Act 1963, ss.14, 29(2)", "docid": ""}
+  ],
+  "provision_holdings": [
+    {
+      "provision": "s.127",
+      "issue_node": ["appeal-127"],
+      "holding": "A Section 127 appeal is not barred by limitation where the delay is attributable to the consumer's bona fide pursuit of a writ petition and writ appeal in the wrong forum; Section 14 of the Limitation Act applies to exclude that period (the Electricity Act being a special law under Section 29(2) that does not expressly exclude Section 14).",
+      "interpretation_type": "appeal-limitation-s14-exclusion",
+      "key_para": "the petitioner is entitled to avail the benefit of Section 14 of the Limitation Act to exempt the period covered by bona fide litigious activity.",
+      "para_ref": "para 14",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.127 / s.125",
+      "issue_node": ["appeal-127"],
+      "holding": "Section 125 (appeal to the Supreme Court from the Appellate Tribunal, Part XI) and Section 127 (appeal to the appellate authority from a Section 126 assessment, Part XII) are totally different and operate in different contexts; authority on Section 125 limitation does not govern a Section 127 appeal.",
+      "interpretation_type": "s125-vs-s127-distinction",
+      "key_para": "On perusal of the provisions contained in Sections 125 and 127 of the Electricity Act, it appears that they are totally different from each other and considered on different context altogether.",
+      "para_ref": "para 10",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.126(1)",
+      "issue_node": ["natural-justice", "assessment-126"],
+      "holding": "An inspection alleging unauthorised use under Section 126 should be conducted in the presence of the consumer (a signatory to the inspection report); the licensee's failure to show the night inspection was in the consumer's presence undermined its case.",
+      "interpretation_type": "inspection-in-consumer-presence",
+      "key_para": "if opposite party no.2 was using electricity unauthorizedly and an inspection was caused at 11 PM on 11.12.2010, the same should have been done in presence of the consumer",
+      "para_ref": "para 17",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.126(5)",
+      "issue_node": ["assessment-126"],
+      "holding": "The Section 126(5) 12-month cap applies only where the period of unauthorised use is not ascertainable; where the period is ascertained (as here, and reduced by the Appellate Authority), the assessment is confined to that ascertained period.",
+      "interpretation_type": "period-of-assessment-126(5)",
+      "key_para": "here is a case where unauthorized use of power has been ascertained by the authority concerned, while adjudicating the matter and determined the liability of consumer-opposite party no.2, and in appeal itself the appellate authority reduced the",
+      "para_ref": "para 19",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (SOUTHCO) v. Sri Seetaram Rice Mill",
+      "cite": "(2012) 2 SCC 108",
+      "court": "Supreme Court (3-Judge)",
+      "docid": "",
+      "principle": "'Means' in the Explanation to Section 126 is not exhaustive; it can be construed liberally as inclusive, so 'unauthorised use' extends beyond the listed examples.",
+      "principle_para": "There can be large number of cases and examples where even the expression means can be construed liberally and treated to be inclusive but not completely exhaustive of the scope of the definition",
+      "treatment": "followed",
+      "on_issue": "assessment-126"
+    },
+    {
+      "name": "Consolidated Engineering Enterprises v. Principal Secretary, Irrigation Department",
+      "cite": "AIR 2009 SC (Supp) 396",
+      "court": "Supreme Court (3-Judge)",
+      "docid": "",
+      "principle": "Section 14 of the Limitation Act protects a litigant against the bar of limitation where a proceeding, by reason of a technical/jurisdictional defect, could not be decided on merits and was dismissed; time spent diligently in the wrong forum is excluded.",
+      "principle_para": "The policy of the section is to afford protection to a litigant against the bar of limitation when he institutes a proceeding which by reason of some technical defect cannot be decided on merits and is dismissed.",
+      "treatment": "followed",
+      "on_issue": "appeal-127"
+    },
+    {
+      "name": "Kartik K. Parekh v. Special Director, Directorate of Enforcement",
+      "cite": "AIR 2012 SC 683",
+      "court": "Supreme Court",
+      "docid": "",
+      "principle": "Section 14 of the Limitation Act can be relied on to exclude time spent prosecuting a remedy before a wrong forum, where the special law does not expressly exclude it.",
+      "treatment": "followed",
+      "on_issue": "appeal-127"
+    },
+    {
+      "name": "Collector, Land Acquisition, Anantnag v. Mst. Katiji",
+      "cite": "AIR 1987 SC 1353",
+      "court": "Supreme Court",
+      "docid": "",
+      "principle": "A liberal, justice-oriented approach to 'sufficient cause' — refusing to condone delay can throw out a meritorious matter at the threshold and defeat justice.",
+      "principle_para": "Refusing to condone delay can result in a meritorious matter being thrown out at the very threshold and cause of justice being defeated.",
+      "treatment": "followed",
+      "on_issue": "appeal-127"
+    },
+    {
+      "name": "Chhattisgarh State Electricity Board v. Central Electricity Regulatory Commission",
+      "cite": "AIR 2010 SC 2061",
+      "court": "Supreme Court",
+      "docid": "",
+      "principle": "Cited by the licensee on the limitation scheme; held inapplicable because it dealt with Section 125 (appeal to Supreme Court), not the Section 127 assessment appeal in issue.",
+      "principle_para": "the ratio decided in Chhattisgarh State Electricity Board (supra) is not applicable to the present context because the same was dealt with Section 125 of the Electricity Act, 2003 whereas the case in hand relates to Section 127 of the said Act.",
+      "treatment": "distinguished",
+      "on_issue": "appeal-127"
+    }
+  ],
+  "ratio": [
+    {
+      "issue_node": "appeal-127",
+      "proposition": "The limitation for a Section 127 appeal against a Section 126 assessment is subject to Section 14 of the Limitation Act (Electricity Act being a special law under Section 29(2)): time spent bona fide pursuing a writ remedy in the wrong forum is excluded, so the appeal is not time-barred; Section 125 (SC appeal from the Appellate Tribunal) is distinct and its limitation authority does not apply.",
+      "scope": "HC-SB (Orissa)",
+      "novelty": "settles",
+      "conflicts_with": []
+    },
+    {
+      "issue_node": "assessment-126",
+      "proposition": "A Section 126 inspection alleging unauthorised use should be conducted in the consumer's presence; and the Section 126(5) 12-month cap applies only where the period of unauthorised use is unascertainable.",
+      "scope": "HC-SB (Orissa)",
+      "novelty": "affirms",
+      "conflicts_with": []
+    }
+  ],
+  "significance": "An Orissa (AFR) authority on the procedural frame of the Section 126/127 channel: it holds that the limitation for a Section 127 appeal is softened by Section 14 of the Limitation Act (excluding time spent in a wrong-forum writ), distinguishes Section 125 (SC appeal from the Appellate Tribunal) from the Section 127 assessment appeal, insists that a Section 126 inspection be in the consumer's presence, and reads the Section 126(5) 12-month cap as a fallback only where the period is unascertainable. Applies Seetaram Rice Mill on the 'means'/unauthorised-use construction. Topical replacement for the rejected off-topic HC-015.",
+  "validity": {
+    "overall": "good-law",
+    "as_of": "2026-07",
+    "provision_version_ok": true,
+    "per_issue": {
+      "appeal-127": "good-law; applies Section 14/29(2) Limitation Act and the SC condonation line to the Section 127 appeal, and correctly confines Chhattisgarh SEB to Section 125.",
+      "assessment-126": "good-law on the inspection-in-presence expectation and the Section 126(5) fallback nature of the 12-month cap."
+    },
+    "note": "Not overruled. Applies the post-2007 Section 126/127. Note the inspection-in-presence point is fact-sensitive and turned on the licensee's failure to produce material despite a court order."
+  },
+  "flags": [
+    "s.127 appeal limitation softened by s.14 Limitation Act (wrong-forum exclusion)",
+    "Electricity Act = special law under s.29(2) Limitation Act",
+    "s.125 (SC appeal from Appellate Tribunal) distinct from s.127 assessment appeal",
+    "s.126 inspection should be in consumer's presence",
+    "s.126(5) 12-month cap only where period unascertainable",
+    "applies Seetaram; distinguishes Chhattisgarh SEB",
+    "topical replacement for rejected HC-015",
+    "post-2007-text (AFR/reportable)"
+  ]
+}

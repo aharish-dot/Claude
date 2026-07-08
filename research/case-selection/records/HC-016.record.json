@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "case_id": "HC-016",
+  "docid": "169887329",
+  "court": "High Court of Judicature for Rajasthan (Jaipur Bench)",
+  "court_type": "HC",
+  "bench_type": "HC-SB",
+  "title": "Ajmer Vidyut Vitran Nigam Ltd. v. Gopal Ram",
+  "neutral_cite": "S.B. Civil Second Appeal No. 381/2011 (Rajasthan HC, Jaipur) (2013)",
+  "date": "2013-10-21",
+  "bench": ["Alok Sharma J"],
+  "bench_strength": 1,
+  "reportable": false,
+  "one_line": "In a suit for declaration/injunction concerning unauthorised abstraction of electrical energy, the Section 145 bar on civil-court jurisdiction (matters an assessing officer under Section 126 or appellate authority under Section 127 may determine) goes to the root and must be decided first; the bar can be raised by the respondent-defendant even without a cross-appeal.",
+  "facts_squib": "The consumer's civil suit for declaration and permanent injunction (in a matter of unauthorised abstraction of electrical energy) was dismissed on merits by the trial court, which had also held the civil suit maintainable. The first appellate court reversed and decreed the suit without addressing the Nigam's contention that Section 145 of the Electricity Act, 2003 ousted the civil court's jurisdiction. The Nigam brought a second appeal on that jurisdictional question.",
+  "disposition": "Second appeal allowed; the substantial question of law answered in favour of the Nigam to the extent that the first appellate court was obliged to decide the Section 145 jurisdiction question; matter remitted to the first appellate court to decide it within three months.",
+  "procedural_posture": "Second appeal against a first-appellate decree in a civil suit for declaration/injunction",
+  "outcome_for": "licensee",
+  "relief_granted": "First-appellate decree unsettled; remand to decide the Section 145 civil-court jurisdiction question.",
+  "consumer_category": ["unspecified (unauthorised abstraction)"],
+  "fact_pattern_tags": ["unauthorised-abstraction", "civil-suit-declaration-injunction", "s145-jurisdiction-bar", "first-appellate-court-ignored-jurisdiction"],
+  "state": ["Rajasthan"],
+  "discom": ["Ajmer Vidyut Vitran Nigam Ltd. (AVVNL)"],
+  "amendment_considered": "post-2007 (Act 26 of 2007) — references Section 126 Explanation (b)(iv) as interpreted in Seetaram Rice Mill; Section 145 is unaffected by the amendment",
+  "regulations_construed": [],
+  "issues_framed": [
+    "Whether the civil court has jurisdiction in addressing matters pertaining to unauthorised abstraction of electrical energy and whether such jurisdiction of the civil court is altogether debarred with reference to Section 145 of the Electricity Act, 2003."
+  ],
+  "provisions_construed": [
+    {"provision": "s.145", "docid": "113307258"},
+    {"provision": "s.126", "docid": "124046987"},
+    {"provision": "s.127", "docid": "13154422"},
+    {"provision": "s.135 (contrast)", "docid": "90633360"}
+  ],
+  "provision_holdings": [
+    {
+      "provision": "s.145",
+      "issue_node": ["jurisdiction-145-154"],
+      "holding": "The question whether the civil court's jurisdiction is barred by Section 145 (matters an assessing officer under Section 126 or appellate authority under Section 127 may determine) goes to the root of the matter and must be decided before a civil court adjudicates an unauthorised-abstraction suit.",
+      "interpretation_type": "jurisdiction-goes-to-root",
+      "key_para": "The non-address of the jurisdictional question by the first appellate court goes to the root of the matter.",
+      "para_ref": "para (order)",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.145",
+      "issue_node": ["jurisdiction-145-154"],
+      "holding": "The Section 145 bar can be agitated by the respondent-defendant (licensee) in the first appeal even without filing a cross-appeal or cross-objection against the trial court's finding on jurisdiction.",
+      "interpretation_type": "jurisdiction-bar-raisable-without-cross-appeal",
+      "key_para": "it was open for the defendant-Nigam as the respondent-defendant in the regular first civil appeal to agitate the merits of the plaintiff s case aside of arguing that the civil courts had no jurisdiction in view of the statutory bar under the Act of 2003.",
+      "para_ref": "para (order)",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.145",
+      "issue_node": ["jurisdiction-145-154"],
+      "holding": "Section 145 effects an absolute exclusion of the civil court's jurisdiction over unlawful-abstraction assessment matters; the appeal is remanded for that question to be decided.",
+      "interpretation_type": "absolute-exclusion-civil-court",
+      "key_para": "the absolute exclusion of jurisdiction of civil courts under Section 145 of the Act of 2003.",
+      "para_ref": "para (order)",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (Southco) v. Sri Seetaram Rice Mill",
+      "cite": "(2012) 2 SCC 108",
+      "court": "Supreme Court (3-Judge)",
+      "docid": "",
+      "principle": "Section 126 Explanation (b)(iv) is to be given an expansive interpretation covering all manner of unauthorised use/abstraction of electricity other than the manner formalised in the licensee-consumer contract; Sections 126/127 apply to theft as well as less grievous unauthorised abstraction.",
+      "principle_para": "the Hon ble Apex court has taken an expansive interpretation of Section 126 Explanation (b)(iv) of the Act of 2003 to include all manner of unauthorised use / abstraction of electricity other than the manner formalised in a contract between the licencee and the consumer.",
+      "treatment": "referred",
+      "on_issue": "jurisdiction-145-154"
+    }
+  ],
+  "ratio": [
+    {
+      "issue_node": "jurisdiction-145-154",
+      "proposition": "Section 145 excludes the civil court's jurisdiction over matters an assessing officer (Section 126) or appellate authority (Section 127) is empowered to determine; a court entertaining an unauthorised-abstraction suit must decide that jurisdictional bar first, and the licensee may raise it as respondent without a cross-appeal.",
+      "scope": "HC-SB (Rajasthan)",
+      "novelty": "affirms",
+      "conflicts_with": [],
+      "note": "Complements HC-006 (Kantroo): there the Section 145 express bar was confined to Section 126/127 (theft going instead to the Section 153-154 Special Court); here the same bar is enforced for an unauthorised-abstraction assessment suit."
+    }
+  ],
+  "significance": "A short but pointed Rajasthan authority on the Section 145 civil-court bar: where a civil suit concerns unauthorised abstraction of electrical energy, the Section 145 jurisdictional bar (Section 126/127 matters) goes to the root and must be decided before the merits, and the licensee may raise it as respondent without a cross-appeal. Endorses Seetaram Rice Mill's expansive reading of Section 126 Explanation (b)(iv). Topical replacement for the rejected off-topic HC-007; adds the Section 145 civil-suit angle from a different High Court, complementing HC-006 (Delhi).",
+  "validity": {
+    "overall": "good-law",
+    "as_of": "2026-07",
+    "provision_version_ok": true,
+    "per_issue": {
+      "jurisdiction-145-154": "good-law; consistent with the Section 145 bar and with HC-006 (Kantroo) and the Anis Ahmad line on ouster of alternative fora."
+    },
+    "note": "Not overruled. A remand order — the High Court did not itself finally decide the Section 145 question but held it must be decided and goes to the root. Applies the post-2007 Section 126 via Seetaram."
+  },
+  "flags": [
+    "s.145 civil-court bar goes to the ROOT; must be decided first",
+    "s.145 bar raisable by respondent-defendant without cross-appeal",
+    "absolute exclusion of civil courts over s.126/127 matters",
+    "endorses Seetaram on s.126 Explanation (b)(iv)",
+    "complements HC-006 (Kantroo) on the jurisdiction axis",
+    "topical replacement for rejected HC-007",
+    "post-2007-text"
+  ]
+}
