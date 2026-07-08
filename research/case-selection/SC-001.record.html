@@ -18,11 +18,18 @@ h2 { font-size:11.5pt; color:#7a2e2e; border-bottom:1px solid #d8c9c0; padding-b
 .holding-body { margin:3px 0; }
 blockquote { margin:5px 0 0; padding:5px 10px; background:#faf8f6; border-left:2px solid #bbb; font-size:9.5pt; color:#333; }
 blockquote cite { display:block; text-align:right; font-size:8.5pt; color:#888; font-style:normal; }
-table.auth { width:100%; border-collapse:collapse; font-size:9.5pt; }
-table.auth th { text-align:left; background:#f2ece8; padding:5px 8px; font-family:Arial,sans-serif; font-size:8.5pt; }
-table.auth td { padding:5px 8px; border-bottom:1px solid #eee; vertical-align:top; }
-.cite { color:#888; font-size:8.5pt; }
-.treat { background:#e7efe7; color:#2e5a2e; padding:1px 7px; border-radius:3px; font-size:8.5pt; font-family:Arial,sans-serif; }
+.authcard { margin:0 0 11px; padding:0 0 9px; border-bottom:1px dotted #ddd; }
+.auth-head { margin-bottom:3px; }
+.auth-name { font-weight:bold; }
+.auth-cite { color:#888; font-size:8.5pt; margin-left:6px; }
+.auth-prin { font-size:9.5pt; color:#333; margin:2px 0; }
+.treat { float:right; padding:1px 8px; border-radius:3px; font-size:8pt; font-family:Arial,sans-serif; color:#fff; }
+.t-follow { background:#2e6a3e; }
+.t-distinguish { background:#a85a2e; }
+.t-overrule { background:#8a2e2e; }
+.t-refer { background:#5a6b7a; }
+.q-principle { border-left:2px solid #bbb; }
+.q-treat { border-left:2px solid #a85a2e; background:#faf5f1; }
 .none { font-style:italic; color:#666; background:#faf8f6; padding:8px 12px; border-left:2px solid #ccc; }
 .ratio { margin:0 0 10px; padding:8px 12px; background:#f7f2ee; border-radius:4px; }
 .ratio-head { margin-bottom:4px; }
@@ -31,6 +38,26 @@ table.auth td { padding:5px 8px; border-bottom:1px solid #eee; vertical-align:to
 .conflict { color:#8a2e2e; font-size:9pt; margin-top:3px; }
 .rnote { color:#666; font-size:9pt; font-style:italic; margin-top:3px; }
 .sig { font-size:10.5pt; }
+.htype { font-family:Arial,sans-serif; font-size:7.5pt; color:#fff; padding:1px 6px; border-radius:3px; margin-left:5px; }
+.ht-ratio { background:#2e5a6b; }
+.ht-explanatory { background:#8a7a2e; }
+.ht-obiter { background:#9a6a3a; }
+.pver { font-family:Arial,sans-serif; font-size:7.5pt; color:#666; background:#eee; padding:1px 6px; border-radius:3px; margin-left:4px; }
+.validity { padding:8px 12px; border-radius:4px; margin:12px 0; font-size:9.5pt; }
+.v-good { background:#eef5ee; border-left:4px solid #2e6a3e; }
+.v-warn { background:#fbf5e9; border-left:4px solid #b8860b; }
+.v-bad { background:#f8eded; border-left:4px solid #8a2e2e; }
+.vbadge { font-family:Arial,sans-serif; font-weight:bold; font-size:9pt; letter-spacing:.5px; }
+.vas { color:#666; font-size:8.5pt; margin-left:8px; }
+.vitem { margin-top:4px; }
+.vnote { margin-top:4px; color:#555; font-style:italic; font-size:9pt; }
+table.profile { width:100%; border-collapse:collapse; font-size:9.5pt; margin:4px 0; }
+table.profile td { padding:3px 8px; border-bottom:1px solid #f0eae6; vertical-align:top; }
+table.profile td.k { width:150px; color:#7a2e2e; font-family:Arial,sans-serif; font-size:8.5pt; }
+ol.issues { margin:4px 0 4px 18px; padding:0; font-size:10pt; }
+ol.issues li { margin-bottom:4px; }
+ul.regs { margin:4px 0 4px 18px; padding:0; font-size:9.5pt; }
+ul.regs li { margin-bottom:3px; }
 .foot { margin-top:16px; padding-top:8px; border-top:1px solid #ddd; font-size:8.5pt; color:#888; }
 </style></head><body>
 <h1>U.P. Power Corporation Ltd. &amp; Ors. v. Anis Ahmad</h1>
@@ -38,21 +65,29 @@ table.auth td { padding:5px 8px; border-bottom:1px solid #eee; vertical-align:to
 <div class="meta">
 <b>Supreme Court of India</b> (SC) &nbsp;|&nbsp; 2013-07-01 &nbsp;|&nbsp;
 Bench: G.S. Singhvi J, Sudhansu Jyoti Mukhopadhaya J (2) &nbsp;|&nbsp;
-IK doc 55216283 &nbsp;|&nbsp; good law: True &nbsp;|&nbsp; SC-001
+IK doc 55216283 &nbsp;|&nbsp; SC-001 &nbsp;|&nbsp; schema 1.0
 </div>
 
 <div class="oneline">A complaint against a Section 126 assessment or a Sections 135–140 action is not maintainable before a Consumer Forum; the remedies are the Section 127 appeal and the Special Court under Section 153.</div>
+<div class="validity v-good">
+      <span class="vbadge">GOOD-LAW</span>
+      <span class="vas">as of 2026-07 &middot; provision-version OK: True</span>
+      <div class="vitem"><b>jurisdiction (§145/§154):</b> good-law; refined by Magadh Sugar &amp; Energy Ltd. v. State of Bihar (2021) — a writ under Art. 226 still lies against a provisional order or an ex-facie procedural breach.</div><div class="vitem"><b>§126 vs §135:</b> good-law (descriptive; the leading mens-rea line is Seetaram / Thomas Joseph).</div><div class="vnote">Not overruled or reversed; applies post-2007 statutory text.</div></div>
 
-<h2>Facts</h2>
+<h2>Facts &amp; profile</h2>
 <p>Eight consumers with industrial/commercial connections challenged Section 126 assessment / theft demands before Consumer Fora; the NCDRC held such complaints maintainable. The licensee appealed to the Supreme Court on the forum question.</p>
+<table class="profile"><tr><td class="k">Procedural posture</td><td>Civil appeals to the Supreme Court from orders of the National Consumer Disputes Redressal Commission (Consumer Protection Act, 1986)</td></tr><tr><td class="k">Outcome for</td><td>licensee</td></tr><tr><td class="k">Relief granted</td><td>NCDRC orders set aside; consumer complaints held not maintainable; parties left to statutory remedies.</td></tr><tr><td class="k">Consumer category</td><td>industrial, commercial</td></tr><tr><td class="k">Fact-pattern</td><td>direct-hook/bypass, theft-by-tapping, excess-load, use-after-disconnection, tampered/meter-bypass</td></tr><tr><td class="k">State</td><td>Uttar Pradesh, West Bengal</td></tr><tr><td class="k">DISCOM / party</td><td>U.P. Power Corporation Ltd. (UPPCL), West Bengal State Electricity Board</td></tr><tr><td class="k">Statutory version</td><td>post-2007 (Act 26 of 2007) — quotes s.126(6) &#x27;twice&#x27; and s.127(2) &#x27;half&#x27; pre-deposit</td></tr></table>
 <p style="font-size:9.5pt;color:#555"><b>Disposition:</b> Appeals allowed; NCDRC orders set aside.</p>
+
+<h2>Issues framed</h2>
+<ol class='issues'><li>whether complaints filed by the respondents before the Consumer Forum constituted under the Consumer Protection Act, 1986 were maintainable</li><li>whether the Consumer Forum has jurisdiction to entertain a complaint filed by a consumer or any person against the assessment made under Section 126 of the Electricity Act, 2003 or action taken under Sections 135 to 140 of the Electricity Act, 2003</li></ol>
 
 <h2>Interpretation of the Electricity Act</h2>
 <p style="font-size:9pt;color:#666">Provisions construed: s.126, s.127, s.135, s.138, s.140, s.145, s.153, s.173, s.174, s.175, s.42, s.2(15), CPA-1986 s.2(1)(c),(d),(e),(o),(g); s.3</p>
 
     <div class="holding">
       <div class="holding-head">
-        <span class="prov">s.126</span>
+        <span class="prov">s.126</span><span class="htype ht-ratio">ratio</span><span class="pver">post-2007</span>
         <span class="itype">characterisation-procedure</span>
         <span class="nodes"><span class="chip">jurisdiction (§145/§154)</span> <span class="chip">§126 assessment</span></span>
       </div>
@@ -61,7 +96,7 @@ IK doc 55216283 &nbsp;|&nbsp; good law: True &nbsp;|&nbsp; SC-001
     </div>
     <div class="holding">
       <div class="holding-head">
-        <span class="prov">s.126</span>
+        <span class="prov">s.126</span><span class="htype ht-explanatory">explanatory</span><span class="pver">post-2007</span>
         <span class="itype">distinguished-from-135-dual-consequence</span>
         <span class="nodes"><span class="chip">§126 vs §135</span></span>
       </div>
@@ -70,7 +105,7 @@ IK doc 55216283 &nbsp;|&nbsp; good law: True &nbsp;|&nbsp; SC-001
     </div>
     <div class="holding">
       <div class="holding-head">
-        <span class="prov">s.127</span>
+        <span class="prov">s.127</span><span class="htype ht-ratio">ratio</span><span class="pver">post-2007</span>
         <span class="itype">procedure-remedy</span>
         <span class="nodes"><span class="chip">§127 appeal</span></span>
       </div>
@@ -79,7 +114,7 @@ IK doc 55216283 &nbsp;|&nbsp; good law: True &nbsp;|&nbsp; SC-001
     </div>
     <div class="holding">
       <div class="holding-head">
-        <span class="prov">s.135</span>
+        <span class="prov">s.135</span><span class="htype ht-ratio">ratio</span><span class="pver">post-2007</span>
         <span class="itype">jurisdiction-forum</span>
         <span class="nodes"><span class="chip">§135 mens rea</span> <span class="chip">jurisdiction (§145/§154)</span></span>
       </div>
@@ -88,7 +123,7 @@ IK doc 55216283 &nbsp;|&nbsp; good law: True &nbsp;|&nbsp; SC-001
     </div>
     <div class="holding">
       <div class="holding-head">
-        <span class="prov">s.145</span>
+        <span class="prov">s.145</span><span class="htype ht-ratio">ratio</span><span class="pver">post-2007</span>
         <span class="itype">jurisdiction-ouster</span>
         <span class="nodes"><span class="chip">jurisdiction (§145/§154)</span></span>
       </div>
@@ -97,13 +132,14 @@ IK doc 55216283 &nbsp;|&nbsp; good law: True &nbsp;|&nbsp; SC-001
     </div>
     <div class="holding">
       <div class="holding-head">
-        <span class="prov">s.173/174/175</span>
+        <span class="prov">s.173/174/175</span><span class="htype ht-ratio">ratio</span><span class="pver">post-2007</span>
         <span class="itype">harmonious-construction</span>
         <span class="nodes"><span class="chip">jurisdiction (§145/§154)</span></span>
       </div>
       <div class="holding-body">Although Sections 173–175 and Section 3 CPA save consumer rights and give the CPA primacy on true inconsistency, they do not vest a Consumer Forum with power to adjudicate a Section 126 assessment or a Sections 135–140 offence, because such acts are neither a &#x27;complaint&#x27; (s.2(1)(c)) nor a &#x27;deficiency in service&#x27; (s.2(1)(o),(g)) under the CPA.</div>
       <blockquote>&ldquo;by virtue of Section 3 of the Consumer Protection Act, 1986 or Sections 173, 174 and 175 of the Electricity Act, 2003, the Consumer Forum cannot derive power to adjudicate a dispute in relation to assessment made under Section 126 or offences under Sections 135 to 140&rdquo;<cite>&mdash; para 45</cite></blockquote>
     </div>
+
 
 <h2>Authorities cited</h2>
 <p class="none">The judgment cites no prior case law — it is decided entirely on statutory construction of the Electricity Act, 2003 and the Consumer Protection Act, 1986. All 25 Indian Kanoon &#x27;cites&#x27; are statutory provisions, not precedents.</p>

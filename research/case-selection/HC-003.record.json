@@ -13,7 +13,6 @@
   ],
   "bench_strength": 2,
   "reportable": false,
-  "still_good_law": true,
   "one_line": "A Section 126 assessment can and must be made even where a Section 135 theft FIR is pending before the Special Court; but a final assessment passed two years after the provisional notice, breaching the 30-day limit in Section 126(3), is quashed for breach of natural justice.",
   "facts_squib": "On a checking (08/03/2011) the petitioner was found committing theft via LT lines without a meter; a Section 135 FIR was lodged and trial was pending before the Special Court. A provisional assessment (23/05/2011) under Section 126 was followed by a final assessment only on 21/06/2013 and a recovery citation for Rs 8,49,173. He challenged the recovery by writ under Art. 226.",
   "disposition": "Writ disposed of: recovery citation set aside; petitioner to file objections within 15 days; Executive Engineer to pass a fresh final assessment within one month.",
@@ -69,7 +68,9 @@
       "holding": "'Unauthorised use of electricity' (s.126) is the genus of which the theft acts in s.135(1) are species; theft is unauthorised use done dishonestly. A Section 126 assessment therefore has to follow in every case of unauthorised use, including theft — neither section excludes the other.",
       "interpretation_type": "genus-species-distinguished-from-135",
       "key_para": "The unauthorised use of electricity is genus of which the instances detailed in Section 135(1) of the Act, 2003 are species. Theft of electricity is unauthorised use of electricity done \"dishonestly\" hence the assessment under Section 126 of the Act, 2003 has to follow whenever unauthorised use of electricity is made by a person or a consumer.",
-      "para_ref": "reasoning on issues 1–2"
+      "para_ref": "reasoning on issues 1–2",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
     },
     {
       "provision": "s.154(5),(6)",
@@ -80,7 +81,9 @@
       "holding": "The Special Court's power under Section 154(5) to determine civil liability for theft does not preclude a Section 126 assessment; the amount 'deposited' referred to in Section 154(6) is the amount assessed under Section 126, there being no other provision for such a deposit.",
       "interpretation_type": "harmonious-construction",
       "key_para": "The word \"deposited\" by the consumer or the person used in sub-section (6) of Section 154 of the Act, 2003 is nothing but an amount deposited by the consumer in accordance with Section 126 of the Act, 2003, since there is no other provision in the Act, 2003 for deposit of the amount by a consumer or the person relating to theft of electricity.",
-      "para_ref": "reasoning on issues 1–2"
+      "para_ref": "reasoning on issues 1–2",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
     },
     {
       "provision": "s.135(1) 6th proviso",
@@ -90,7 +93,9 @@
       "holding": "The 'assessed amount' in the sixth proviso to Section 135(1) (on payment of which supply is restored) is the amount assessed under Section 126 — textual confirmation that assessment is contemplated in theft cases.",
       "interpretation_type": "textual-cross-reference",
       "key_para": "Sixth proviso to Section 135 (1) of the Act, 2003, uses the words \"assessed amount\" which is nothing but an assessed amount as contemplated by Section 126 of the Act, 2003.",
-      "para_ref": "reasoning on issues 1–2"
+      "para_ref": "reasoning on issues 1–2",
+      "holding_type": "explanatory",
+      "provision_version": "post-2007"
     },
     {
       "provision": "s.56(2)",
@@ -100,7 +105,9 @@
       "holding": "Electricity dues under a Section 126 assessment become 'first due' for Section 56(2) only when the final assessment is made — not on the date of detection or consumption; the two-year bar runs from the final assessment, so recovery initiated soon after it is within time.",
       "interpretation_type": "limitation-first-due",
       "key_para": "Under Section 126 of the Act, 2003, the sum cannot be held to be due against the petitioner till a final assessment is made. The recovery proceedings having been initiated against the petitioner well within time, the bar under Section 56(2) of the Act, 2003 is not attracted.",
-      "para_ref": "reasoning on issue 3"
+      "para_ref": "reasoning on issue 3",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
     },
     {
       "provision": "s.126(3)",
@@ -111,7 +118,9 @@
       "holding": "A final assessment must be passed within thirty days of the provisional order under Section 126(3); a final order passed about two years later, without a fresh opportunity of hearing, violates natural justice and cannot be sustained.",
       "interpretation_type": "procedure-natural-justice",
       "key_para": "It is relevant to note that under Section 126(3) of the Act, 2003 it is contemplated that final order of assessment is to be passed within 30 days of service of such order of provisional assessment. Thus, in any view of the matter the final assessment order dated 21/6/2013, cannot be said to have been passed in consonance of the principles of natural justice and cannot be sustained.",
-      "para_ref": "reasoning on issue 4"
+      "para_ref": "reasoning on issue 4",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
     },
     {
       "provision": "s.127",
@@ -121,7 +130,9 @@
       "holding": "A Section 126 final assessment in a theft case is appealable under Section 127 (following Paliwal Alloys); a writ was nonetheless entertained here because jurisdiction was challenged and the order breached natural justice.",
       "interpretation_type": "remedy-appeal",
       "key_para": "Although, there is a right of appeal under Section 127 of the Act, 2003 against the order of final assessment, but we have proceeded to examine the contention ... since the petitioner has challenged the very jurisdiction of the Assessing Officer to make assessment under Section 126 ... in the cases of theft covered by Section 135",
-      "para_ref": "reasoning on issue 4 / maintainability"
+      "para_ref": "reasoning on issue 4 / maintainability",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
     }
   ],
   "authorities": [
@@ -253,5 +264,54 @@
     "follows-Paliwal-Alloys / Mohit-Paper-Mills",
     "UP-Supply-Code-cl-8.1",
     "s.56(2)-first-due-on-final-assessment"
+  ],
+  "schema_version": "1.0",
+  "validity": {
+    "overall": "good-law",
+    "as_of": "2026-07",
+    "provision_version_ok": true,
+    "per_issue": {
+      "126v135": "good-law; follows Paliwal Alloys & Mohit Paper Mills and is consistent with later SC authority (Orion Metal 2019; Magadh Sugar 2021) that s.126 assessment and s.135 prosecution run in parallel.",
+      "natural-justice": "good-law.",
+      "limitation-56": "good-law; consistent with SC in Assistant Engineer, Ajmer VVNL v. Rahamatullah Khan (2020) on when a charge becomes 'first due'."
+    },
+    "note": "Not overruled or reversed; applies post-2007 statutory text."
+  },
+  "amendment_considered": "post-2007 (Act 26 of 2007) — quotes s.126(6) 'twice', s.135(1) 'dishonestly' and the 6th proviso, s.127 'half' pre-deposit",
+  "consumer_category": [
+    "commercial"
+  ],
+  "fact_pattern_tags": [
+    "direct-hook/bypass (LT lines without meter)",
+    "theft-by-tapping",
+    "commercial-use",
+    "FIR-under-135-pending"
+  ],
+  "outcome_for": "mixed (consumer on natural justice; licensee on the s.126-in-theft and s.56(2) points)",
+  "relief_granted": "Recovery citation set aside; matter remanded for a fresh final assessment after hearing objections.",
+  "procedural_posture": "Writ petition under Article 226 of the Constitution",
+  "state": [
+    "Uttar Pradesh"
+  ],
+  "discom": [
+    "U.P. Power Corporation Ltd. (Executive Engineer)"
+  ],
+  "regulations_construed": [
+    {
+      "reg": "U.P. Electricity Supply Code, 2005, cl. 8.1 (procedure for provisional & final assessment in theft cases)",
+      "implements": "s.135 read with s.126",
+      "made_under": "s.50"
+    },
+    {
+      "reg": "U.P. Electricity Supply Code, 2005, cl. 8.0(6) (interim payment for restoration — omitted w.e.f. 14/06/2008)",
+      "implements": "s.135",
+      "made_under": "s.50"
+    }
+  ],
+  "issues_framed": [
+    "Whether in the cases where theft of electricity is alleged under Section 135 of the Act, 2003, and trial for an offence under Section 135 of the Act, 2003 is pending before the Special Court, an assessment under Section 126 of the Act, 2003 can be made by the Executive Engineer.",
+    "Whether assessment under Section 126 of the Act, 2003 is not applicable with regard to the cases of theft of electricity under Section 135 of the Act, 2003, and with regard to cases of theft of electricity under Section 135 of the Act, 2003, the civil liability is to be determined only by the Special Court where the trial is pending.",
+    "Whether the recovery against the petitioner issued vide citation dated 19/11/2013 is barred by Section 56(2) of the Act, 2003.",
+    "Whether the final assessment dated 21/6/2013, has been made in consonance with the principles of natural justice."
   ]
 }
