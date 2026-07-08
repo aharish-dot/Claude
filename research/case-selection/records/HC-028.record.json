@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "case_id": "HC-028",
+  "docid": "169380155",
+  "court": "High Court of Judicature at Allahabad",
+  "court_type": "HC",
+  "bench_type": "HC-SB",
+  "title": "Hasimuddin v. State of U.P.",
+  "neutral_cite": "Writ-C No. 12870 of 2020 (with 13037 of 2020) (Allahabad HC)",
+  "date": "2020-09-02",
+  "bench": ["Piyush Agrawal J"],
+  "bench_strength": 1,
+  "reportable": false,
+  "one_line": "An assessment made under Section 126 is appealable under Section 127 to the Commissioner of the Division (notified appellate authority) even where an FIR has been lodged under Section 135; the appellate authority cannot decline jurisdiction, and the Special Court finally determines the civil liability under Section 154(6).",
+  "facts_squib": "A plastic-unit consumer with two connections was inspected, an FIR under Section 135 lodged, compounding cheques (Rs 15 lakh) encashed, and a Section 126 provisional and final assessment made under the U.P. Electricity Supply Code, 2005. A prior writ against recovery was dismissed as the consumer had a Section 127 appeal remedy; on filing that appeal, the Commissioner dismissed it for want of jurisdiction.",
+  "disposition": "Writ petitions partly allowed; the Commissioner's orders dismissing the appeals for want of jurisdiction quashed and the Section 127 appeals restored for decision on merits within two months.",
+  "procedural_posture": "Writ petitions under Article 226 against the appellate authority's refusal of jurisdiction",
+  "outcome_for": "consumer",
+  "relief_granted": "Appellate orders quashed; Section 127 appeals restored for decision on merits.",
+  "consumer_category": ["industrial (plastic unit)"],
+  "fact_pattern_tags": ["FIR-under-135", "compounding-cheques-encashed", "s126-assessment", "appeal-dismissed-for-jurisdiction"],
+  "state": ["Uttar Pradesh"],
+  "discom": ["UP Power Corporation Ltd."],
+  "amendment_considered": "post-2007 (Act 26 of 2007) — Section 126/127 assessment-and-appeal, U.P. Electricity Supply Code, 2005; State notification dated 14.7.2006 designating the Commissioner as Section 127 appellate authority",
+  "regulations_construed": [
+    {"reg": "U.P. Government notification dated 14.7.2006 (Commissioner of Division as Section 127 appellate authority)", "implements": "s.127 appeal", "made_under": "Electricity Act, 2003"},
+    {"reg": "U.P. Electricity Supply Code, 2005 (final assessment)", "implements": "s.126 procedure", "made_under": "Electricity Act, 2003"}
+  ],
+  "issues_framed": [],
+  "provisions_construed": [
+    {"provision": "s.126", "docid": "124046987"},
+    {"provision": "s.127", "docid": "13154422"},
+    {"provision": "s.135", "docid": "90633360"},
+    {"provision": "s.154(6)", "docid": "34349824"}
+  ],
+  "provision_holdings": [
+    {
+      "provision": "s.127",
+      "issue_node": ["appeal-127"],
+      "holding": "An order of assessment under Section 126 is appealable under Section 127 to the Commissioner of the Division (the notified appellate authority under the 14.7.2006 notification); the Commissioner was not justified in dismissing the appeal for want of jurisdiction.",
+      "interpretation_type": "appellate-authority-jurisdiction",
+      "key_para": "the Commissioner was not justified in dismissing the appeal of the petitioner on the ground that he has no jurisdiction to hear and decide the appeal of the petitioner under Section 127 of the Electricity Act.",
+      "para_ref": "para 9",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.127",
+      "issue_node": ["appeal-127"],
+      "holding": "The State's 14.7.2006 notification confers on the Commissioner of the Division the power to hear and decide appeals under Section 127.",
+      "interpretation_type": "notified-appellate-forum",
+      "key_para": "State Government by its notification dated 14.7.2006 has conferred the powers to the Commission of the division to hear and decide the appeal under Section 127 of the Electricity Act.",
+      "para_ref": "para 6",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.126 / s.135",
+      "issue_node": ["126v135", "appeal-127"],
+      "holding": "Even where an FIR is lodged under Section 135, the assessment is carried out under Section 126 (with the Section 127 appeal remedy), and the Special Court finally determines the civil liability under Section 154(6).",
+      "interpretation_type": "s126-assessment-despite-fir",
+      "key_para": "A perusal of the aforesaid division bench judgements clearly shows that the petitioner has remedy of appeal under Section 127 of Electricity Act.",
+      "para_ref": "para 9",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Sandeep Kesarwani v. State of U.P.",
+      "cite": "Writ-C No. 69101 of 2013 (Allahabad DB, 11.02.2014)",
+      "court": "Allahabad High Court (DB)",
+      "docid": "162776314",
+      "principle": "Seetaram lays down no ratio that Section 126 assessment cannot be undertaken in theft cases; Sections 126 and 135 are to be read harmoniously so both are workable (this corpus: HC-003).",
+      "principle_para": "In the said judgment of the Apex Court, no such ratio has been laid down which may support the petitioner s case that in the cases of theft of electricity under Section 135 of the Act, 2003, no assessment can be undertaken under Section 126 of the Act, 2003.",
+      "treatment": "followed",
+      "on_issue": "126v135"
+    },
+    {
+      "name": "Sanjay Singh v. State of U.P.",
+      "cite": "Writ-C No. 5519 of 2017 (Allahabad DB, 09.02.2017)",
+      "court": "Allahabad High Court (DB)",
+      "docid": "",
+      "principle": "Even where an FIR is lodged under Section 135, assessment is carried out under Section 126, and the Special Court finally determines the civil liability under Section 154(6).",
+      "principle_para": "even in a case a first information report has been lodged under Section 135 of the Act. Assessment has to be carried out under Section 126 of the Act and that the Special Court trying an offence is to finally determine the liability and after determination of civil liability for further action to be taken in accordance with the provisions of section 154(6) of the Act.",
+      "treatment": "followed",
+      "on_issue": "126v135"
+    },
+    {
+      "name": "Executive Engineer (SOUTHCO) v. Sri Seetaram Rice Mill",
+      "cite": "(2012) 2 SCC 108",
+      "court": "Supreme Court (3-Judge)",
+      "docid": "",
+      "principle": "The High Court should normally decline to interfere under Article 226 with a final assessment under Section 126(3), given the Section 127 alternative remedy.",
+      "principle_para": "the High Court should normally decline to interfere with the final order of the assessment passed by the Assessing Officer in terms of Section 126(3) of the Act in exercise of jurisdiction under Article 226 of the Constitution of India.",
+      "treatment": "referred",
+      "on_issue": "appeal-127"
+    }
+  ],
+  "ratio": [
+    {
+      "issue_node": "appeal-127",
+      "proposition": "A Section 126 assessment is appealable under Section 127 to the notified appellate authority (in U.P., the Commissioner of the Division) even when an FIR under Section 135 exists; the appellate authority cannot decline jurisdiction, and the Special Court finally determines civil liability under Section 154(6).",
+      "scope": "HC-SB (Allahabad)",
+      "novelty": "applies",
+      "conflicts_with": []
+    }
+  ],
+  "significance": "An Allahabad authority correcting an appellate authority that wrongly refused jurisdiction over a Section 127 appeal: a Section 126 assessment is appealable to the Commissioner (per the 14.7.2006 notification) even where an FIR under Section 135 exists, with the Special Court finally determining civil liability under Section 154(6). Applies Sandeep Kesarwani (HC-003) and Sanjay Singh; references Seetaram on the Section 127 alternative-remedy rule.",
+  "validity": {
+    "overall": "good-law",
+    "as_of": "2026-07",
+    "provision_version_ok": true,
+    "per_issue": {
+      "appeal-127": "good-law; follows the Allahabad DB line (Sandeep Kesarwani / Sanjay Singh) on Section 127 appealability and the notified Commissioner forum."
+    },
+    "note": "Not overruled. Applies the post-2007 Act. NOTE: Section 56(2) appears only within the reproduced issue-list of Sandeep Kesarwani (issue 3) and is NOT decided here; this record does not fill the limitation-56 node."
+  },
+  "flags": [
+    "s.126 assessment appealable under s.127 to the Commissioner (U.P. notif. 14.7.2006)",
+    "appellate authority cannot decline jurisdiction",
+    "s.126 assessment applies even where FIR under s.135; Special Court -> s.154(6)",
+    "follows Sandeep Kesarwani (HC-003) + Sanjay Singh; references Seetaram",
+    "does NOT decide s.56(2) (only quoted from Sandeep Kesarwani) -> limitation-56 gap remains",
+    "expert-cited pool; post-2007-text"
+  ]
+}
