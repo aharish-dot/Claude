@@ -1,0 +1,165 @@
+{
+  "schema_version": "1.0",
+  "case_id": "HC-025",
+  "docid": "155828957",
+  "court": "High Court at Calcutta (Appellate Side)",
+  "court_type": "HC",
+  "bench_type": "HC-SB",
+  "title": "Md. Abdul Matin v. West Bengal State Electricity Distribution Co. Ltd.",
+  "neutral_cite": "W.P.A. No. 6237 of 2022 & connected (Calcutta HC) (2023)",
+  "date": "2023-04-18",
+  "bench": ["Sabyasachi Bhattacharyya J"],
+  "bench_strength": 1,
+  "reportable": false,
+  "one_line": "Sections 126 and 135 of the 2003 Act are constitutionally valid: their overlap on tampering does not create double standards (Section 126 assessment and a Section 135 Special-Court trial may run in parallel), no hearing is required before a non-conclusive provisional assessment, the assessing officer is an independent State appointee, and the Section 127 appeal with its 50% pre-deposit is neither exorbitant nor open to interference under Article 226.",
+  "facts_squib": "A batch of consumers assessed for theft/unauthorised use challenged the vires of Sections 126 and 135 — arguing the complainant is both prosecutor and judge, no hearing precedes the provisional assessment, the assessing officer (a licensee functionary) is biased, and the Section 127(2) 50% pre-deposit is onerous — instead of pursuing the statutory Section 127 appeals, which they had allowed to become time-barred.",
+  "disposition": "Writ petitions dismissed; the vires of Sections 126 and 135 upheld ('pass the test of constitutionality with flying colours'), and the petitioners had in any event long overshot the Section 127 limitation with no palpable arbitrariness in the assessments.",
+  "procedural_posture": "Batch of writ petitions under Article 226 challenging the vires of Sections 126/135 and the assessments",
+  "outcome_for": "licensee",
+  "relief_granted": "No relief; constitutional challenge and writs dismissed.",
+  "consumer_category": ["domestic/commercial (theft/UUE, batch)"],
+  "fact_pattern_tags": ["vires-challenge", "tampering", "no-hearing-argument", "pre-deposit-challenge", "writ-beyond-limitation"],
+  "state": ["West Bengal"],
+  "discom": ["WBSEDCL", "CESC Ltd."],
+  "amendment_considered": "post-2007 (Act 26 of 2007) — Sections 126(1)/(5), 127(2) pre-deposit, 135, 154 as currently in force",
+  "regulations_construed": [],
+  "issues_framed": [],
+  "provisions_construed": [
+    {"provision": "s.126", "docid": "124046987"},
+    {"provision": "s.126(1)", "docid": "124046987"},
+    {"provision": "s.126(5)", "docid": "124046987"},
+    {"provision": "s.127", "docid": "13154422"},
+    {"provision": "s.127(2)", "docid": "13154422"},
+    {"provision": "s.135", "docid": "90633360"}
+  ],
+  "provision_holdings": [
+    {
+      "provision": "s.126 / s.135",
+      "issue_node": ["126v135"],
+      "holding": "The vires of Sections 126 and 135 is upheld; the overlap on tampering creates no double standards — where both theft and unauthorised-use ingredients are satisfied, the authorities may make a Section 126 assessment AND proceed with a Section 135 criminal trial before the Special Court.",
+      "interpretation_type": "vires-upheld-parallel-proceedings",
+      "key_para": "In cases where ingredients of theft as well as unauthorised use of electricity are both satisfied, the authorities can take steps by making assessment orders under Section 126 and proceeding with the criminal trial under Section 135 before the Special Court.",
+      "para_ref": "para 79",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.126(1)",
+      "issue_node": ["natural-justice", "provisional-final"],
+      "holding": "No hearing is required before a provisional assessment under Section 126(1) (which is not conclusive); the right of hearing and to file objections is given before the final order, and requiring a hearing before the provisional assessment would defeat the summary, expeditious timeline.",
+      "interpretation_type": "no-hearing-before-provisional",
+      "key_para": "there is no scope of hearing the accused person at that juncture, since the provisional assessment orders are not conclusive. In fact, a right of hearing is given to the consumer and an opportunity is also given for the consumer to file its written objection, prior to assessing the final order.",
+      "para_ref": "para 80",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.126",
+      "issue_node": ["assessment-126"],
+      "holding": "The assessing officer is a State Government appointee (whether of the Government or the licensee) and so has an independent character, not functioning merely as an employee of the licensee — hence no unbridled power and no basis to strike down the Section.",
+      "interpretation_type": "assessing-officer-independence",
+      "key_para": "the assessing officer shall be an appointee of the State Government, be it an officer of the Government or the licensee. Hence, there is an independent air about the assessing officer, who does not function merely in the capacity of an employee of the licensee.",
+      "para_ref": "para 82",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.127(2)",
+      "issue_node": ["appeal-127"],
+      "holding": "The 50% mandatory pre-deposit under Section 127(2) is not exorbitant and is in consonance with the objects of the Act; a writ court will not sit in judgment under Article 226 over the propriety of the pre-deposit quantum.",
+      "interpretation_type": "pre-deposit-valid",
+      "key_para": "It would be entirely arbitrary for the court to sit in judgment, in a proceeding under Article 226 of the Constitution, over the propriety of the quantum required as pre-deposit for appeal under Section 127 .",
+      "para_ref": "para 87",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.126 / s.135",
+      "issue_node": ["126v135", "mensrea-135"],
+      "holding": "A Section 126 finding does not indict a person of theft (a criminal charge); the assessing officer merely calculates the licensee's loss, and whether theft is established is left to the Special Court's full criminal trial — so no violation of Articles 19/21.",
+      "interpretation_type": "s126-not-a-theft-conviction",
+      "key_para": "The assessing officer merely calculates the loss suffered by the licensee for the unauthorized use of electricity. The question, whether the charge of theft has been established, is left for the decision of the Special Court, which holds a full-fledged criminal trial.",
+      "para_ref": "para 89",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.127",
+      "issue_node": ["appeal-127"],
+      "holding": "The petitioners had long overshot the Section 127 limitation and taken direct writ recourse, with nothing in the assessments reeking of palpable arbitrariness or patent perversity — so no interference under Article 226 even on merits.",
+      "interpretation_type": "writ-barred-by-appeal-limitation",
+      "key_para": "the present writ petitioners have long overshot the limitation period for preferring challenges under Section 127 of the 2003 Act. Moreover, there is nothing indicated in the impugned assessments which reek of palpable arbitrariness or patent perversity.",
+      "para_ref": "para 110",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Executive Engineer (SOUTHCO) v. Sri Seetaram Rice Mill",
+      "cite": "(2012) 2 SCC 108",
+      "court": "Supreme Court (3-Judge)",
+      "docid": "",
+      "principle": "Sections 126 and 127 are a complete code in themselves; the pre-deposit and appeal scheme is in consonance with the purpose and objects of the 2003 Act.",
+      "principle_para": "the Supreme Court categorically held in Sri Seetaram Rice Mill s case that Sections 126 and 127 are a complete code in themselves.",
+      "treatment": "followed",
+      "on_issue": "appeal-127"
+    },
+    {
+      "name": "Gujarat High Court (Division Benches) on the vires of Sections 126/135",
+      "cite": "(Gujarat HC, DB)",
+      "court": "Gujarat High Court (DB)",
+      "docid": "",
+      "principle": "Sections 126 and 135 pass the test of constitutionality; the inter-play between the Sections does not render them ultra vires.",
+      "principle_para": "Sections 126 and 135 , as held by the Division Benches of the Gujarat High Court, pass the test of constitutionality with flying colours.",
+      "treatment": "followed",
+      "on_issue": "126v135"
+    },
+    {
+      "name": "PDF Limited v. Union of India",
+      "cite": "(Supreme Court)",
+      "court": "Supreme Court",
+      "docid": "",
+      "principle": "A challenge to the validity of a statute, particularly by litigants raising it only to avoid compliance, must be viewed with caution.",
+      "treatment": "referred",
+      "on_issue": "126v135"
+    }
+  ],
+  "ratio": [
+    {
+      "issue_node": "126v135",
+      "proposition": "Sections 126 and 135 are constitutionally valid: their overlap on tampering permits parallel Section 126 assessment and Section 135 Special-Court trial without double standards; no hearing is due before a non-conclusive provisional assessment; the assessing officer is an independent State appointee; and the Section 127(2) 50% pre-deposit is valid and beyond Article 226 interference.",
+      "scope": "HC-SB (Calcutta)",
+      "novelty": "affirms",
+      "conflicts_with": []
+    },
+    {
+      "issue_node": "appeal-127",
+      "proposition": "A consumer who lets the Section 127 appeal become time-barred cannot, absent palpable arbitrariness, obtain relief by a direct writ under Article 226.",
+      "scope": "HC-SB (Calcutta)",
+      "novelty": "applies",
+      "conflicts_with": []
+    }
+  ],
+  "significance": "A Calcutta authority (same judge as HC-017/HC-022) upholding the constitutional validity of Sections 126 and 135: the overlap on tampering does not create double standards (parallel Section 126 assessment and Section 135 trial are permissible), no hearing is due before a non-conclusive provisional assessment (only before the final order), the assessing officer is an independent State appointee, and the Section 127(2) 50% pre-deposit is valid and beyond Article 226 second-guessing. Also holds that a time-barred Section 127 appellant cannot circumvent limitation by a direct writ. Follows Seetaram Rice Mill and the Gujarat HC vires decisions.",
+  "validity": {
+    "overall": "good-law",
+    "as_of": "2026-07",
+    "provision_version_ok": true,
+    "per_issue": {
+      "126v135": "good-law; upholds the vires of Sections 126/135, consistent with the Gujarat HC and Seetaram Rice Mill.",
+      "natural-justice": "good-law on no-hearing-before-provisional (hearing due only before the final order).",
+      "appeal-127": "good-law on the validity of the 50% pre-deposit and the bar on circumventing Section 127 limitation by writ."
+    },
+    "note": "Not overruled. Applies the post-2007 Act. The limitation discussed is the Section 127 appeal limitation / writ delay, not Section 56(2)."
+  },
+  "flags": [
+    "VIRES of s.126/s.135 UPHELD (constitutional validity)",
+    "overlap on tampering -> parallel s.126 assessment + s.135 trial; no double standards",
+    "NO hearing before provisional assessment (only before final order)",
+    "assessing officer is independent State appointee; no unbridled power",
+    "s.127(2) 50% pre-deposit valid; not open to Art 226 review",
+    "time-barred s.127 appellant cannot circumvent by writ",
+    "same judge as HC-017/HC-022; expert-cited pool; post-2007-text"
+  ]
+}
