@@ -1,0 +1,602 @@
+{
+  "126v135": {
+    "n_cases": 6,
+    "leading_case": {
+      "case_id": "SC-001",
+      "title": "U.P. Power Corporation Ltd. & Ors. v. Anis Ahmad",
+      "court_type": "SC",
+      "date": "2013-07-01"
+    },
+    "line_of_authority": [
+      {
+        "case_id": "HC-013",
+        "title": "Bihar State Electricity Board v. Kishori Devi",
+        "court_type": "HC",
+        "date": "2002-05-09",
+        "outcome_for": "licensee"
+      },
+      {
+        "case_id": "HC-006",
+        "title": "Sh. B.L. Kantroo v. BSES Rajdhani Power Ltd.",
+        "court_type": "HC",
+        "date": "2008-09-25",
+        "outcome_for": "licensee"
+      },
+      {
+        "case_id": "SC-001",
+        "title": "U.P. Power Corporation Ltd. & Ors. v. Anis Ahmad",
+        "court_type": "SC",
+        "date": "2013-07-01",
+        "outcome_for": "licensee"
+      },
+      {
+        "case_id": "HC-003",
+        "title": "Sandeep Kesarwani v. State of U.P. & 3 Others",
+        "court_type": "HC",
+        "date": "2014-02-11",
+        "outcome_for": "mixed (consumer on natural justice; licensee on the s.126-in-theft and s.56(2) points)"
+      },
+      {
+        "case_id": "HC-009",
+        "title": "Ramesh Chand v. Uttar Haryana Bijli Vitran Nigam Ltd.",
+        "court_type": "HC",
+        "date": "2016-01-19",
+        "outcome_for": "licensee"
+      },
+      {
+        "case_id": "HC-017",
+        "title": "Ashok Kumar Maity v. West Bengal State Electricity Board (WBSEDCL)",
+        "court_type": "HC",
+        "date": "2022-01-25",
+        "outcome_for": "licensee"
+      }
+    ],
+    "propositions": [
+      {
+        "case_id": "HC-006",
+        "scope": "HC-DB-binding (Delhi)",
+        "novelty": "affirms",
+        "proposition": "Section 126 (unauthorised use — civil, no mens rea) and Section 135 (theft — criminal, dishonesty) operate in different fields.",
+        "conflicts_with": []
+      },
+      {
+        "case_id": "SC-001",
+        "scope": "SC-binding",
+        "novelty": "explains",
+        "proposition": "Section 126 (civil assessment) and Sections 135–140 (criminal offences) apply in parallel to the same act of unauthorised use; a Section 126 assessment is a civil/quasi-judicial consequence, not a criminal adjudication.",
+        "conflicts_with": []
+      },
+      {
+        "case_id": "HC-003",
+        "scope": "HC-DB-binding (Allahabad)",
+        "novelty": "affirms-extends",
+        "proposition": "An assessment under Section 126 must be made even where a Section 135 theft offence has been booked and is pending before the Special Court; the Special Court's civil-liability determination under Section 154(5) does not oust the assessing officer's Section 126 power. The two tracks (civil assessment + criminal trial) run in parallel.",
+        "conflicts_with": []
+      },
+      {
+        "case_id": "HC-009",
+        "scope": "HC-SB (Punjab & Haryana)",
+        "novelty": "applies",
+        "proposition": "Sections 126 and 135 operate in different and distinct fields; theft under Section 135 cannot be assessed under Section 126, and its civil liability is measured under the Section 154(5) formula, subject to final adjudication by the Special Court.",
+        "conflicts_with": []
+      },
+      {
+        "case_id": "HC-017",
+        "scope": "HC-SB (Calcutta)",
+        "novelty": "settles",
+        "proposition": "Because unauthorised use (Section 126, civil, preponderance of probability) is the genus and theft (Section 135, criminal, proof beyond reasonable doubt + mens rea) only a species, an acquittal on a theft charge does not ipso facto extinguish civil liability under Section 126; the two channels operate on separate footings.",
+        "conflicts_with": []
+      }
+    ],
+    "split_flag": false
+  },
+  "appeal-127": {
+    "n_cases": 5,
+    "leading_case": {
+      "case_id": "SC-001",
+      "title": "U.P. Power Corporation Ltd. & Ors. v. Anis Ahmad",
+      "court_type": "SC",
+      "date": "2013-07-01"
+    },
+    "line_of_authority": [
+      {
+        "case_id": "SC-001",
+        "title": "U.P. Power Corporation Ltd. & Ors. v. Anis Ahmad",
+        "court_type": "SC",
+        "date": "2013-07-01",
+        "outcome_for": "licensee"
+      },
+      {
+        "case_id": "HC-003",
+        "title": "Sandeep Kesarwani v. State of U.P. & 3 Others",
+        "court_type": "HC",
+        "date": "2014-02-11",
+        "outcome_for": "mixed (consumer on natural justice; licensee on the s.126-in-theft and s.56(2) points)"
+      },
+      {
+        "case_id": "HC-018",
+        "title": "Assessing Officer-cum-Executive Engineer (Electrical), WESCO v. Appellate Authority-cum-Electrical Inspector",
+        "court_type": "HC",
+        "date": "2017-07-13",
+        "outcome_for": "consumer"
+      },
+      {
+        "case_id": "HC-014",
+        "title": "Maharashtra State Electricity Distribution Co. Ltd. v. M/s Shubhalaxmi Rice Mill",
+        "court_type": "HC",
+        "date": "2020-04-27",
+        "outcome_for": "licensee"
+      },
+      {
+        "case_id": "HC-017",
+        "title": "Ashok Kumar Maity v. West Bengal State Electricity Board (WBSEDCL)",
+        "court_type": "HC",
+        "date": "2022-01-25",
+        "outcome_for": "licensee"
+      }
+    ],
+    "propositions": [
+      {
+        "case_id": "HC-018",
+        "scope": "HC-SB (Orissa)",
+        "novelty": "settles",
+        "proposition": "The limitation for a Section 127 appeal against a Section 126 assessment is subject to Section 14 of the Limitation Act (Electricity Act being a special law under Section 29(2)): time spent bona fide pursuing a writ remedy in the wrong forum is excluded, so the appeal is not time-barred; Section 125 (SC appeal from the Appellate Tribunal) is distinct and its limitation authority does not apply.",
+        "conflicts_with": []
+      },
+      {
+        "case_id": "HC-014",
+        "scope": "HC-SB (Bombay, Nagpur Bench)",
+        "novelty": "settles",
+        "proposition": "On a Section 127 appeal remanded solely on quantum, the Appellate Authority is bound by the finding that Section 126 applies and cannot re-litigate applicability; its remit is confined to the quantum of assessment.",
+        "conflicts_with": []
+      },
+      {
+        "case_id": "HC-017",
+        "scope": "HC-SB (Calcutta)",
+        "novelty": "affirms",
+        "proposition": "A consumer who forgoes the Section 127 appeal (and its 50% pre-deposit) and lets the assessment attain finality cannot secure unqualified restoration of supply via a writ; Section 145 bars civil-court interference with Section 126/127 assessments.",
+        "conflicts_with": []
+      }
+    ],
+    "split_flag": false
+  },
+  "assessment-126": {
+    "n_cases": 6,
+    "leading_case": {
+      "case_id": "SC-001",
+      "title": "U.P. Power Corporation Ltd. & Ors. v. Anis Ahmad",
+      "court_type": "SC",
+      "date": "2013-07-01"
+    },
+    "line_of_authority": [
+      {
+        "case_id": "SC-001",
+        "title": "U.P. Power Corporation Ltd. & Ors. v. Anis Ahmad",
+        "court_type": "SC",
+        "date": "2013-07-01",
+        "outcome_for": "licensee"
+      },
+      {
+        "case_id": "HC-003",
+        "title": "Sandeep Kesarwani v. State of U.P. & 3 Others",
+        "court_type": "HC",
+        "date": "2014-02-11",
+        "outcome_for": "mixed (consumer on natural justice; licensee on the s.126-in-theft and s.56(2) points)"
+      },
+      {
+        "case_id": "HC-010",
+        "title": "Sulabha Marketing (P) Ltd. v. Kerala State Electricity Board",
+        "court_type": "HC",
+        "date": "2017-04-12",
+        "outcome_for": "mixed (reference answered; individual cases remitted for reassessment)"
+      },
+      {
+        "case_id": "HC-011",
+        "title": "Shishir Jain v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+        "court_type": "HC",
+        "date": "2017-04-12",
+        "outcome_for": "consumer"
+      },
+      {
+        "case_id": "HC-018",
+        "title": "Assessing Officer-cum-Executive Engineer (Electrical), WESCO v. Appellate Authority-cum-Electrical Inspector",
+        "court_type": "HC",
+        "date": "2017-07-13",
+        "outcome_for": "consumer"
+      },
+      {
+        "case_id": "HC-014",
+        "title": "Maharashtra State Electricity Distribution Co. Ltd. v. M/s Shubhalaxmi Rice Mill",
+        "court_type": "HC",
+        "date": "2020-04-27",
+        "outcome_for": "licensee"
+      }
+    ],
+    "propositions": [
+      {
+        "case_id": "HC-010",
+        "scope": "HC-DB (Kerala)",
+        "novelty": "settles",
+        "proposition": "Under Section 126(6) 'twice the tariff' ordinarily embraces both fixed and energy charges, and higher-tariff misuse is assessed at twice the higher tariff; but where the sole irregularity is excess load in the same premises for the same purpose (no tariff change) and the energy is already metered and paid, the penalty is confined to twice the fixed charges, absent a need to upgrade the distribution system/voltage.",
+        "conflicts_with": []
+      },
+      {
+        "case_id": "HC-010",
+        "scope": "HC-DB (Kerala)",
+        "novelty": "affirms",
+        "proposition": "Section 126 assessment is intention-neutral (no mens rea); the assessing officer's presence at inspection is not a mandatory precondition to initiating proceedings.",
+        "conflicts_with": []
+      },
+      {
+        "case_id": "HC-018",
+        "scope": "HC-SB (Orissa)",
+        "novelty": "affirms",
+        "proposition": "A Section 126 inspection alleging unauthorised use should be conducted in the consumer's presence; and the Section 126(5) 12-month cap applies only where the period of unauthorised use is unascertainable.",
+        "conflicts_with": []
+      },
+      {
+        "case_id": "HC-014",
+        "scope": "HC-SB (Bombay, Nagpur Bench)",
+        "novelty": "applies",
+        "proposition": "Consuming electricity beyond the sanctioned contract demand, resulting in a change of tariff category, is unauthorised use under Explanation (b)(iv) to Section 126 (Seetaram Rice Mill); the assessment follows Sections 126(3)-(6), and prior payment of a contract-demand penalty is no bar to it.",
+        "conflicts_with": []
+      }
+    ],
+    "split_flag": false
+  },
+  "burden-proof": {
+    "n_cases": 2,
+    "leading_case": {
+      "case_id": "HC-008",
+      "title": "Harvinder Motors v. BSES Rajdhani Power Ltd.",
+      "court_type": "HC",
+      "date": "2006-11-17"
+    },
+    "line_of_authority": [
+      {
+        "case_id": "HC-008",
+        "title": "Harvinder Motors v. BSES Rajdhani Power Ltd.",
+        "court_type": "HC",
+        "date": "2006-11-17",
+        "outcome_for": "consumer"
+      },
+      {
+        "case_id": "HC-017",
+        "title": "Ashok Kumar Maity v. West Bengal State Electricity Board (WBSEDCL)",
+        "court_type": "HC",
+        "date": "2022-01-25",
+        "outcome_for": "licensee"
+      }
+    ],
+    "propositions": [
+      {
+        "case_id": "HC-008",
+        "scope": "HC-SB (Delhi)",
+        "novelty": "settles",
+        "proposition": "Corroboration of suspected unauthorised use / DAE by the consumer's consumption pattern (Reg. 26(ii)) is a precondition to the exercise of the assessing officer's jurisdiction; if consumption exceeds the prescribed threshold, no case can be booked.",
+        "conflicts_with": []
+      }
+    ],
+    "split_flag": false
+  },
+  "compounding-152": {
+    "n_cases": 1,
+    "leading_case": {
+      "case_id": "HC-009",
+      "title": "Ramesh Chand v. Uttar Haryana Bijli Vitran Nigam Ltd.",
+      "court_type": "HC",
+      "date": "2016-01-19"
+    },
+    "line_of_authority": [
+      {
+        "case_id": "HC-009",
+        "title": "Ramesh Chand v. Uttar Haryana Bijli Vitran Nigam Ltd.",
+        "court_type": "HC",
+        "date": "2016-01-19",
+        "outcome_for": "licensee"
+      }
+    ],
+    "propositions": [
+      {
+        "case_id": "HC-009",
+        "scope": "HC-SB (Punjab & Haryana)",
+        "novelty": "affirms",
+        "proposition": "Compounding under Section 152 is available both for established and for suspected theft; it is offered before the consumer is proceeded against before the Special Court.",
+        "conflicts_with": []
+      }
+    ],
+    "split_flag": false
+  },
+  "jurisdiction-145-154": {
+    "n_cases": 6,
+    "leading_case": {
+      "case_id": "SC-001",
+      "title": "U.P. Power Corporation Ltd. & Ors. v. Anis Ahmad",
+      "court_type": "SC",
+      "date": "2013-07-01"
+    },
+    "line_of_authority": [
+      {
+        "case_id": "HC-006",
+        "title": "Sh. B.L. Kantroo v. BSES Rajdhani Power Ltd.",
+        "court_type": "HC",
+        "date": "2008-09-25",
+        "outcome_for": "licensee"
+      },
+      {
+        "case_id": "SC-001",
+        "title": "U.P. Power Corporation Ltd. & Ors. v. Anis Ahmad",
+        "court_type": "SC",
+        "date": "2013-07-01",
+        "outcome_for": "licensee"
+      },
+      {
+        "case_id": "HC-016",
+        "title": "Ajmer Vidyut Vitran Nigam Ltd. v. Gopal Ram",
+        "court_type": "HC",
+        "date": "2013-10-21",
+        "outcome_for": "licensee"
+      },
+      {
+        "case_id": "HC-003",
+        "title": "Sandeep Kesarwani v. State of U.P. & 3 Others",
+        "court_type": "HC",
+        "date": "2014-02-11",
+        "outcome_for": "mixed (consumer on natural justice; licensee on the s.126-in-theft and s.56(2) points)"
+      },
+      {
+        "case_id": "HC-009",
+        "title": "Ramesh Chand v. Uttar Haryana Bijli Vitran Nigam Ltd.",
+        "court_type": "HC",
+        "date": "2016-01-19",
+        "outcome_for": "licensee"
+      },
+      {
+        "case_id": "HC-017",
+        "title": "Ashok Kumar Maity v. West Bengal State Electricity Board (WBSEDCL)",
+        "court_type": "HC",
+        "date": "2022-01-25",
+        "outcome_for": "licensee"
+      }
+    ],
+    "propositions": [
+      {
+        "case_id": "HC-006",
+        "scope": "HC-DB-binding (Delhi)",
+        "novelty": "settles-explains",
+        "proposition": "In an electricity-theft case, the civil court's jurisdiction to entertain a suit challenging the theft bill / civil liability is impliedly ousted by Sections 153–154 (Special Court), even where no criminal complaint is filed; Section 145's express bar is confined to Section 126/127 assessment matters. The plaint was rightly rejected, though for different reasons than the Single Judge gave.",
+        "conflicts_with": []
+      },
+      {
+        "case_id": "SC-001",
+        "scope": "SC-binding",
+        "novelty": "settles-split",
+        "proposition": "A consumer complaint challenging a Section 126 assessment or any Sections 135–140 action is not maintainable before a Consumer Forum; the statutory remedies (Section 127 appeal; Special Court under Section 153) are exclusive of the consumer route.",
+        "conflicts_with": []
+      },
+      {
+        "case_id": "HC-016",
+        "scope": "HC-SB (Rajasthan)",
+        "novelty": "affirms",
+        "proposition": "Section 145 excludes the civil court's jurisdiction over matters an assessing officer (Section 126) or appellate authority (Section 127) is empowered to determine; a court entertaining an unauthorised-abstraction suit must decide that jurisdictional bar first, and the licensee may raise it as respondent without a cross-appeal.",
+        "conflicts_with": []
+      }
+    ],
+    "split_flag": false
+  },
+  "limitation-56": {
+    "n_cases": 1,
+    "leading_case": {
+      "case_id": "HC-003",
+      "title": "Sandeep Kesarwani v. State of U.P. & 3 Others",
+      "court_type": "HC",
+      "date": "2014-02-11"
+    },
+    "line_of_authority": [
+      {
+        "case_id": "HC-003",
+        "title": "Sandeep Kesarwani v. State of U.P. & 3 Others",
+        "court_type": "HC",
+        "date": "2014-02-11",
+        "outcome_for": "mixed (consumer on natural justice; licensee on the s.126-in-theft and s.56(2) points)"
+      }
+    ],
+    "propositions": [
+      {
+        "case_id": "HC-003",
+        "scope": "HC-DB-binding (Allahabad)",
+        "novelty": "affirms",
+        "proposition": "For Section 56(2), a Section 126 electricity due becomes 'first due' only on the making of the final assessment; the two-year recovery bar runs from that date, not from detection or consumption.",
+        "conflicts_with": []
+      }
+    ],
+    "split_flag": false
+  },
+  "mensrea-135": {
+    "n_cases": 5,
+    "leading_case": {
+      "case_id": "SC-001",
+      "title": "U.P. Power Corporation Ltd. & Ors. v. Anis Ahmad",
+      "court_type": "SC",
+      "date": "2013-07-01"
+    },
+    "line_of_authority": [
+      {
+        "case_id": "SC-001",
+        "title": "U.P. Power Corporation Ltd. & Ors. v. Anis Ahmad",
+        "court_type": "SC",
+        "date": "2013-07-01",
+        "outcome_for": "licensee"
+      },
+      {
+        "case_id": "HC-009",
+        "title": "Ramesh Chand v. Uttar Haryana Bijli Vitran Nigam Ltd.",
+        "court_type": "HC",
+        "date": "2016-01-19",
+        "outcome_for": "licensee"
+      },
+      {
+        "case_id": "HC-010",
+        "title": "Sulabha Marketing (P) Ltd. v. Kerala State Electricity Board",
+        "court_type": "HC",
+        "date": "2017-04-12",
+        "outcome_for": "mixed (reference answered; individual cases remitted for reassessment)"
+      },
+      {
+        "case_id": "HC-014",
+        "title": "Maharashtra State Electricity Distribution Co. Ltd. v. M/s Shubhalaxmi Rice Mill",
+        "court_type": "HC",
+        "date": "2020-04-27",
+        "outcome_for": "licensee"
+      },
+      {
+        "case_id": "HC-017",
+        "title": "Ashok Kumar Maity v. West Bengal State Electricity Board (WBSEDCL)",
+        "court_type": "HC",
+        "date": "2022-01-25",
+        "outcome_for": "licensee"
+      }
+    ],
+    "propositions": [],
+    "split_flag": false
+  },
+  "natural-justice": {
+    "n_cases": 7,
+    "leading_case": {
+      "case_id": "HC-010",
+      "title": "Sulabha Marketing (P) Ltd. v. Kerala State Electricity Board",
+      "court_type": "HC",
+      "date": "2017-04-12"
+    },
+    "line_of_authority": [
+      {
+        "case_id": "HC-013",
+        "title": "Bihar State Electricity Board v. Kishori Devi",
+        "court_type": "HC",
+        "date": "2002-05-09",
+        "outcome_for": "licensee"
+      },
+      {
+        "case_id": "HC-008",
+        "title": "Harvinder Motors v. BSES Rajdhani Power Ltd.",
+        "court_type": "HC",
+        "date": "2006-11-17",
+        "outcome_for": "consumer"
+      },
+      {
+        "case_id": "HC-003",
+        "title": "Sandeep Kesarwani v. State of U.P. & 3 Others",
+        "court_type": "HC",
+        "date": "2014-02-11",
+        "outcome_for": "mixed (consumer on natural justice; licensee on the s.126-in-theft and s.56(2) points)"
+      },
+      {
+        "case_id": "HC-009",
+        "title": "Ramesh Chand v. Uttar Haryana Bijli Vitran Nigam Ltd.",
+        "court_type": "HC",
+        "date": "2016-01-19",
+        "outcome_for": "licensee"
+      },
+      {
+        "case_id": "HC-010",
+        "title": "Sulabha Marketing (P) Ltd. v. Kerala State Electricity Board",
+        "court_type": "HC",
+        "date": "2017-04-12",
+        "outcome_for": "mixed (reference answered; individual cases remitted for reassessment)"
+      },
+      {
+        "case_id": "HC-011",
+        "title": "Shishir Jain v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+        "court_type": "HC",
+        "date": "2017-04-12",
+        "outcome_for": "consumer"
+      },
+      {
+        "case_id": "HC-018",
+        "title": "Assessing Officer-cum-Executive Engineer (Electrical), WESCO v. Appellate Authority-cum-Electrical Inspector",
+        "court_type": "HC",
+        "date": "2017-07-13",
+        "outcome_for": "consumer"
+      }
+    ],
+    "propositions": [
+      {
+        "case_id": "HC-013",
+        "scope": "HC-DB (Patna)",
+        "novelty": "settles",
+        "proposition": "Under a statutory tariff clause, disconnection of supply on detecting excess-load/theft may be effected without prior notice (natural justice yielding to the urgency of protecting the Board's property), but the ensuing assessment of the value of energy and compensation must be made only after a hearing.",
+        "conflicts_with": []
+      },
+      {
+        "case_id": "HC-008",
+        "scope": "HC-SB (Delhi)",
+        "novelty": "applies",
+        "proposition": "In a Section 126 unauthorised-use / DAE proceeding the show-cause notice must precisely disclose the grounds — including the consumption-pattern basis relied on — and the licensee must grant a real hearing; a demand founded on seal/glass irregularities without that disclosure or corroboration is set aside and remitted.",
+        "conflicts_with": []
+      },
+      {
+        "case_id": "HC-003",
+        "scope": "HC-DB-binding (Allahabad)",
+        "novelty": "applies",
+        "proposition": "A final assessment under Section 126 passed beyond the 30-day window in Section 126(3) — here two years after the provisional notice and without a fresh hearing — is void for breach of natural justice and is set aside with a direction to reassess after hearing objections.",
+        "conflicts_with": []
+      },
+      {
+        "case_id": "HC-009",
+        "scope": "HC-SB (Punjab & Haryana)",
+        "novelty": "settles",
+        "proposition": "A pre-assessment hearing in a theft case is required only where theft is merely suspected; where theft is 'writ large' on the checking report, no opportunity of hearing need be afforded before the licensee proceeds.",
+        "conflicts_with": []
+      },
+      {
+        "case_id": "HC-011",
+        "scope": "HC-DB (Allahabad)",
+        "novelty": "affirms",
+        "proposition": "A Section 126 assessment is subject to natural justice: the provisional assessment presupposes a lawful conclusion of unauthorised use, and a final assessment (or any coerced deposit) is invalid unless the consumer's objections are considered and a personal hearing given, per Section 126(3) and Clause 8.1 of the 2005 Supply Code.",
+        "conflicts_with": []
+      }
+    ],
+    "split_flag": false
+  },
+  "provisional-final": {
+    "n_cases": 4,
+    "leading_case": {
+      "case_id": "HC-011",
+      "title": "Shishir Jain v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+      "court_type": "HC",
+      "date": "2017-04-12"
+    },
+    "line_of_authority": [
+      {
+        "case_id": "HC-013",
+        "title": "Bihar State Electricity Board v. Kishori Devi",
+        "court_type": "HC",
+        "date": "2002-05-09",
+        "outcome_for": "licensee"
+      },
+      {
+        "case_id": "HC-003",
+        "title": "Sandeep Kesarwani v. State of U.P. & 3 Others",
+        "court_type": "HC",
+        "date": "2014-02-11",
+        "outcome_for": "mixed (consumer on natural justice; licensee on the s.126-in-theft and s.56(2) points)"
+      },
+      {
+        "case_id": "HC-011",
+        "title": "Shishir Jain v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+        "court_type": "HC",
+        "date": "2017-04-12",
+        "outcome_for": "consumer"
+      },
+      {
+        "case_id": "HC-017",
+        "title": "Ashok Kumar Maity v. West Bengal State Electricity Board (WBSEDCL)",
+        "court_type": "HC",
+        "date": "2022-01-25",
+        "outcome_for": "licensee"
+      }
+    ],
+    "propositions": [],
+    "split_flag": false
+  }
+}

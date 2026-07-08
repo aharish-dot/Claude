@@ -1,0 +1,445 @@
+{
+  "n_records": 12,
+  "n_authority_edges": 44,
+  "recurring_authorities": [
+    {
+      "authority": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (SOUTHCO) v. Sri Seetaram Rice Mill",
+      "cite": "(2012) 2 SCC 108",
+      "court": "Supreme Court (3-Judge)",
+      "times_cited": 6,
+      "treatments": {
+        "referred": 1,
+        "followed": 5
+      },
+      "on_issues": {
+        "jurisdiction-145-154": 1,
+        "126v135": 2,
+        "assessment-126": 3
+      },
+      "cited_by": [
+        {
+          "case_id": "HC-016",
+          "treatment": "referred",
+          "on_issue": "jurisdiction-145-154"
+        },
+        {
+          "case_id": "HC-009",
+          "treatment": "followed",
+          "on_issue": "126v135"
+        },
+        {
+          "case_id": "HC-010",
+          "treatment": "followed",
+          "on_issue": "assessment-126"
+        },
+        {
+          "case_id": "HC-018",
+          "treatment": "followed",
+          "on_issue": "assessment-126"
+        },
+        {
+          "case_id": "HC-014",
+          "treatment": "followed",
+          "on_issue": "assessment-126"
+        },
+        {
+          "case_id": "HC-017",
+          "treatment": "followed",
+          "on_issue": "126v135"
+        }
+      ]
+    },
+    {
+      "authority": "Ashok Kumar v. State of U.P.",
+      "cite": "2008 (6) ADJ 669",
+      "court": "Allahabad High Court (DB)",
+      "times_cited": 2,
+      "treatments": {
+        "followed": 2
+      },
+      "on_issues": {
+        "natural-justice": 2
+      },
+      "cited_by": [
+        {
+          "case_id": "HC-003",
+          "treatment": "followed",
+          "on_issue": "natural-justice"
+        },
+        {
+          "case_id": "HC-011",
+          "treatment": "followed",
+          "on_issue": "natural-justice"
+        }
+      ]
+    }
+  ],
+  "in_corpus_in_degree": {
+    "HC-013": 0,
+    "HC-008": 0,
+    "HC-006": 0,
+    "SC-001": 0,
+    "HC-016": 0,
+    "HC-003": 0,
+    "HC-009": 0,
+    "HC-010": 0,
+    "HC-011": 0,
+    "HC-018": 0,
+    "HC-014": 0,
+    "HC-017": 0
+  },
+  "edges": [
+    {
+      "from": "HC-013",
+      "to_name": "Municipal Corporation of Delhi v. Ajanta Iron and Steel Co. Pvt. Ltd.",
+      "to_case_id": null,
+      "treatment": "distinguished",
+      "on_issue": "natural-justice",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-013",
+      "to_name": "M.P. Electricity Board, Jabalpur v. Harsh Wood Products",
+      "to_case_id": null,
+      "treatment": "followed",
+      "on_issue": "natural-justice",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-013",
+      "to_name": "Hyderabad Vanaspathi Ltd. v. A.P. State Electricity Board",
+      "to_case_id": null,
+      "treatment": "followed",
+      "on_issue": "natural-justice",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-008",
+      "to_name": "Prakash Kumar v. State of Gujarat",
+      "to_case_id": null,
+      "treatment": "referred",
+      "on_issue": "interpretation-general",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-008",
+      "to_name": "Food Corporation of India v. State",
+      "to_case_id": null,
+      "treatment": "referred",
+      "on_issue": "natural-justice",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-008",
+      "to_name": "Canara Bank v. Debasish Das",
+      "to_case_id": null,
+      "treatment": "referred",
+      "on_issue": "natural-justice",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-006",
+      "to_name": "Sohan Lal v. North Delhi Power Ltd.",
+      "to_case_id": null,
+      "treatment": "followed",
+      "on_issue": "126v135",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-006",
+      "to_name": "Dhulabhai v. State of Madhya Pradesh",
+      "to_case_id": null,
+      "treatment": "followed",
+      "on_issue": "jurisdiction-145-154",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-006",
+      "to_name": "Secretary of State v. Mask & Co.",
+      "to_case_id": null,
+      "treatment": "followed",
+      "on_issue": "jurisdiction-145-154",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-006",
+      "to_name": "Shiv Kumar Chadha v. MCD",
+      "to_case_id": null,
+      "treatment": "referred",
+      "on_issue": "jurisdiction-145-154",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-006",
+      "to_name": "(unnamed authority)",
+      "to_case_id": null,
+      "treatment": "referred",
+      "on_issue": "jurisdiction-145-154",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-016",
+      "to_name": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (Southco) v. Sri Seetaram Rice Mill",
+      "to_case_id": null,
+      "treatment": "referred",
+      "on_issue": "jurisdiction-145-154",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-003",
+      "to_name": "Executive Engineer, SOUTHCO v. Sri Seetaram Rice Mill",
+      "to_case_id": null,
+      "treatment": "distinguished",
+      "on_issue": "126v135",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-003",
+      "to_name": "Tirumala Modern Rice Mill v. AP Transco",
+      "to_case_id": null,
+      "treatment": "distinguished",
+      "on_issue": "126v135",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-003",
+      "to_name": "M/s Paliwal Alloys (Pvt) Ltd v. U.P. Power Corporation Ltd",
+      "to_case_id": null,
+      "treatment": "followed",
+      "on_issue": "126v135",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-003",
+      "to_name": "M/s Mohit Paper Mills Ltd v. PVVNL",
+      "to_case_id": null,
+      "treatment": "followed",
+      "on_issue": "126v135",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-003",
+      "to_name": "Ashok Kumar v. State of U.P.",
+      "to_case_id": null,
+      "treatment": "followed",
+      "on_issue": "natural-justice",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-003",
+      "to_name": "M/s Radha Krishna Cold Storage v. State of U.P.",
+      "to_case_id": null,
+      "treatment": "referred",
+      "on_issue": "appeal-127",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-003",
+      "to_name": "Chairman, W.B. State Electricity Board v. Syed Mukbul Hossain",
+      "to_case_id": null,
+      "treatment": "referred",
+      "on_issue": "appeal-127",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-003",
+      "to_name": "Kunwar Sarvesh Kumar Singh v. PVVNL",
+      "to_case_id": null,
+      "treatment": "referred",
+      "on_issue": "provisional-final",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-003",
+      "to_name": "Tinsukhia Electricity Supply Co. Ltd v. State of Assam",
+      "to_case_id": null,
+      "treatment": "followed",
+      "on_issue": "interpretation-general",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-009",
+      "to_name": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (Southco) v. Sri Seetaram Rice Mill",
+      "to_case_id": null,
+      "treatment": "followed",
+      "on_issue": "126v135",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-009",
+      "to_name": "Rajinder Kumar v. Uttar Haryana Bijli Vitran Nigam Ltd.",
+      "to_case_id": null,
+      "treatment": "followed",
+      "on_issue": "126v135",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-009",
+      "to_name": "Mosmat Swaran @ Swaran Manraw v. State of Bihar",
+      "to_case_id": null,
+      "treatment": "cited-by-counsel",
+      "on_issue": "natural-justice",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-010",
+      "to_name": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (SOUTHCO) v. Sri Seetaram Rice Mill",
+      "to_case_id": null,
+      "treatment": "followed",
+      "on_issue": "assessment-126",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-010",
+      "to_name": "JDT Islam Orphanage Committee v. Assistant Engineer, KSEB",
+      "to_case_id": null,
+      "treatment": "distinguished",
+      "on_issue": "assessment-126",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-010",
+      "to_name": "George Joseph v. KSEB",
+      "to_case_id": null,
+      "treatment": "distinguished",
+      "on_issue": "assessment-126",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-010",
+      "to_name": "Classic Color Lab v. KSEB",
+      "to_case_id": null,
+      "treatment": "followed",
+      "on_issue": "assessment-126",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-011",
+      "to_name": "Ashok Kumar v. State of U.P.",
+      "to_case_id": null,
+      "treatment": "followed",
+      "on_issue": "natural-justice",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-011",
+      "to_name": "Kamil v. State of U.P.",
+      "to_case_id": null,
+      "treatment": "followed",
+      "on_issue": "natural-justice",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-011",
+      "to_name": "Hazi Mohd. Yaseen v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+      "to_case_id": null,
+      "treatment": "followed",
+      "on_issue": "natural-justice",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-018",
+      "to_name": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (SOUTHCO) v. Sri Seetaram Rice Mill",
+      "to_case_id": null,
+      "treatment": "followed",
+      "on_issue": "assessment-126",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-018",
+      "to_name": "Consolidated Engineering Enterprises v. Principal Secretary, Irrigation Department",
+      "to_case_id": null,
+      "treatment": "followed",
+      "on_issue": "appeal-127",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-018",
+      "to_name": "Kartik K. Parekh v. Special Director, Directorate of Enforcement",
+      "to_case_id": null,
+      "treatment": "followed",
+      "on_issue": "appeal-127",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-018",
+      "to_name": "Collector, Land Acquisition, Anantnag v. Mst. Katiji",
+      "to_case_id": null,
+      "treatment": "followed",
+      "on_issue": "appeal-127",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-018",
+      "to_name": "Chhattisgarh State Electricity Board v. Central Electricity Regulatory Commission",
+      "to_case_id": null,
+      "treatment": "distinguished",
+      "on_issue": "appeal-127",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-014",
+      "to_name": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (Southco) v. Sri Seetaram Rice Mill",
+      "to_case_id": null,
+      "treatment": "followed",
+      "on_issue": "assessment-126",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-014",
+      "to_name": "M/s Sri Ram Industries v. State of Bihar",
+      "to_case_id": null,
+      "treatment": "distinguished",
+      "on_issue": "assessment-126",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-014",
+      "to_name": "M/s Akshay Roll Mills Pvt. Ltd. v. Jharkhand State Electricity Board",
+      "to_case_id": null,
+      "treatment": "distinguished",
+      "on_issue": "assessment-126",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-017",
+      "to_name": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (SOUTHCO) v. Sri Seetaram Rice Mill",
+      "to_case_id": null,
+      "treatment": "followed",
+      "on_issue": "126v135",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-017",
+      "to_name": "WBSEDCL v. M/s Orion Metal Pvt. Ltd.",
+      "to_case_id": null,
+      "treatment": "followed",
+      "on_issue": "126v135",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-017",
+      "to_name": "Basudeb Paine v. WBSEDCL",
+      "to_case_id": null,
+      "treatment": "followed",
+      "on_issue": "126v135",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-017",
+      "to_name": "M/s Jindal Resources Pvt. Ltd. v. Executive Engineer (Elect.), WESCO",
+      "to_case_id": null,
+      "treatment": "followed",
+      "on_issue": "126v135",
+      "in_corpus": false
+    },
+    {
+      "from": "HC-017",
+      "to_name": "M/s Citi Hotel v. Commissioner, Lucknow Division",
+      "to_case_id": null,
+      "treatment": "distinguished",
+      "on_issue": "126v135",
+      "in_corpus": false
+    }
+  ]
+}
