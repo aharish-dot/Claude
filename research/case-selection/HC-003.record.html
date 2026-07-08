@@ -18,11 +18,18 @@ h2 { font-size:11.5pt; color:#7a2e2e; border-bottom:1px solid #d8c9c0; padding-b
 .holding-body { margin:3px 0; }
 blockquote { margin:5px 0 0; padding:5px 10px; background:#faf8f6; border-left:2px solid #bbb; font-size:9.5pt; color:#333; }
 blockquote cite { display:block; text-align:right; font-size:8.5pt; color:#888; font-style:normal; }
-table.auth { width:100%; border-collapse:collapse; font-size:9.5pt; }
-table.auth th { text-align:left; background:#f2ece8; padding:5px 8px; font-family:Arial,sans-serif; font-size:8.5pt; }
-table.auth td { padding:5px 8px; border-bottom:1px solid #eee; vertical-align:top; }
-.cite { color:#888; font-size:8.5pt; }
-.treat { background:#e7efe7; color:#2e5a2e; padding:1px 7px; border-radius:3px; font-size:8.5pt; font-family:Arial,sans-serif; }
+.authcard { margin:0 0 11px; padding:0 0 9px; border-bottom:1px dotted #ddd; }
+.auth-head { margin-bottom:3px; }
+.auth-name { font-weight:bold; }
+.auth-cite { color:#888; font-size:8.5pt; margin-left:6px; }
+.auth-prin { font-size:9.5pt; color:#333; margin:2px 0; }
+.treat { float:right; padding:1px 8px; border-radius:3px; font-size:8pt; font-family:Arial,sans-serif; color:#fff; }
+.t-follow { background:#2e6a3e; }
+.t-distinguish { background:#a85a2e; }
+.t-overrule { background:#8a2e2e; }
+.t-refer { background:#5a6b7a; }
+.q-principle { border-left:2px solid #bbb; }
+.q-treat { border-left:2px solid #a85a2e; background:#faf5f1; }
 .none { font-style:italic; color:#666; background:#faf8f6; padding:8px 12px; border-left:2px solid #ccc; }
 .ratio { margin:0 0 10px; padding:8px 12px; background:#f7f2ee; border-radius:4px; }
 .ratio-head { margin-bottom:4px; }
@@ -106,16 +113,88 @@ IK doc 162776314 &nbsp;|&nbsp; good law: True &nbsp;|&nbsp; HC-003
     </div>
 
 <h2>Authorities cited</h2>
-<table class="auth"><thead><tr><th>Authority</th><th>Cited for</th><th>Treatment</th></tr></thead><tbody><tr><td>Executive Engineer, SOUTHCO v. Sri Seetaram Rice Mill<div class="cite">(2012) 2 SCC 108</div></td>
-        <td>s.126 (civil, no mens rea) and s.135 (criminal, dishonest abstraction) operate in different fields with &#x27;no commonality in law&#x27;; &#x27;unauthorised use&#x27; is of wider connotation (excess load included).</td><td><span class="treat">distinguished</span></td></tr><tr><td>Tirumala Modern Rice Mill v. AP Transco<div class="cite">AIR 2007 AP 265</div></td>
-        <td>some unauthorised uses also amount to theft; where a provisional assessment is served, the case is treated as unauthorised use rather than theft.</td><td><span class="treat">distinguished</span></td></tr><tr><td>M/s Paliwal Alloys (Pvt) Ltd v. U.P. Power Corporation Ltd<div class="cite">2009 (7) ADJ 455</div></td>
-        <td>theft under s.135 is also &#x27;unauthorised use&#x27; for which assessment is contemplated under s.126; a right of appeal under s.127 exists even for theft assessments.</td><td><span class="treat">followed</span></td></tr><tr><td>M/s Mohit Paper Mills Ltd v. PVVNL<div class="cite">2011 (9) ADJ 239</div></td>
-        <td>use through a tampered meter is both &#x27;unauthorised use&#x27; (s.126, assessable) and theft (s.135(1)(d)); s.126 assessment and criminal proceedings can run simultaneously.</td><td><span class="treat">followed</span></td></tr><tr><td>Ashok Kumar v. State of U.P.<div class="cite">2008 (6) ADJ 669</div></td>
-        <td>&#x27;unauthorised use&#x27; covers acts that also constitute a s.135 offence; before recording such a conclusion the assessing officer must give an opportunity of hearing.</td><td><span class="treat">followed</span></td></tr><tr><td>M/s Radha Krishna Cold Storage v. State of U.P.<div class="cite">WP No. 19574 of 2008</div></td>
-        <td>an assessment order is referable to s.126 even if it wrongly mentions s.135; the s.127 appeal remedy is therefore available.</td><td><span class="treat">referred</span></td></tr><tr><td>Chairman, W.B. State Electricity Board v. Syed Mukbul Hossain<div class="cite">(2009) 2 SCC 727</div></td>
-        <td>in a theft case the Supreme Court noticed the availability of the s.127 right of appeal.</td><td><span class="treat">referred</span></td></tr><tr><td>Kunwar Sarvesh Kumar Singh v. PVVNL<div class="cite">2012 (2) ADJ 509</div></td>
-        <td>in theft cases the assessment procedure in cl. 8.1 of the UP Supply Code, 2005 applies.</td><td><span class="treat">referred</span></td></tr><tr><td>Tinsukhia Electricity Supply Co. Ltd v. State of Assam<div class="cite">(1989) 3 SCC 709</div></td>
-        <td>a statute must be construed to make it effective and operative (ut res magis valeat quam pereat); courts lean against a construction reducing a statute to futility.</td><td><span class="treat">followed</span></td></tr></tbody></table>
+
+        <div class="authcard">
+          <div class="auth-head">
+            <span class="auth-name">Executive Engineer, SOUTHCO v. Sri Seetaram Rice Mill</span>
+            <span class="auth-cite">(2012) 2 SCC 108 &middot; Supreme Court</span>
+            <span class="treat t-distinguish">distinguished</span>
+          </div>
+          <div class="auth-prin">Cited for: s.126 (civil, no mens rea) and s.135 (criminal, dishonest abstraction) operate in different fields with &#x27;no commonality in law&#x27;; &#x27;unauthorised use&#x27; is of wider connotation (excess load included).</div>
+          <blockquote class="q-principle">&ldquo;Therefore, there is a clear distinction between the cases that would fall under Section 126 of the 2003 Act on the one hand and Section 135 of the 2003 Act on the other. There is no commonality between them in law. They operate in different and distinct fields.&rdquo;<cite>&mdash; as quoted in the judgment</cite></blockquote><blockquote class="q-treat">&ldquo;In the said judgment of the Apex Court, no such ratio has been laid down which may support the petitioner&#x27;s case that in the cases of theft of electricity under Section 135 of the Act, 2003, no assessment can be undertaken under Section 126 of the Act, 2003.&rdquo;<cite>&mdash; the Court&rsquo;s own treatment</cite></blockquote>
+        </div>
+        <div class="authcard">
+          <div class="auth-head">
+            <span class="auth-name">Tirumala Modern Rice Mill v. AP Transco</span>
+            <span class="auth-cite">AIR 2007 AP 265 &middot; Andhra Pradesh High Court</span>
+            <span class="treat t-distinguish">distinguished</span>
+          </div>
+          <div class="auth-prin">Cited for: some unauthorised uses also amount to theft; where a provisional assessment is served, the case is treated as unauthorised use rather than theft.</div>
+          <blockquote class="q-principle">&ldquo;A careful reading of Section 135 and Explanation to Section 126 would show that some of the unauthorized uses of electricity also amount to theft and in a given case, theft itself amounts to unauthorized electricity.&rdquo;<cite>&mdash; as quoted in the judgment</cite></blockquote><blockquote class="q-treat">&ldquo;The Andhra Pradesh High Court, in the said case does not lay down any proposition that in case of theft of electricity within the meaning of Section 135 of the Act, 2003, no assessment can be made under Section 126 of the Act, 2003.&rdquo;<cite>&mdash; the Court&rsquo;s own treatment</cite></blockquote>
+        </div>
+        <div class="authcard">
+          <div class="auth-head">
+            <span class="auth-name">M/s Paliwal Alloys (Pvt) Ltd v. U.P. Power Corporation Ltd</span>
+            <span class="auth-cite">2009 (7) ADJ 455 &middot; Allahabad High Court (DB)</span>
+            <span class="treat t-follow">followed</span>
+          </div>
+          <div class="auth-prin">Cited for: theft under s.135 is also &#x27;unauthorised use&#x27; for which assessment is contemplated under s.126; a right of appeal under s.127 exists even for theft assessments.</div>
+          <blockquote class="q-principle">&ldquo;the theft of electricity as defined in Section 135 is fully covered by the definition &#x27;&#x27;unauthorised use of electricity&#x27; and the theft of electricity under Section 135 is also an unauthorised use of electricity for which assessment is contemplated under Section 126.&rdquo;<cite>&mdash; as quoted in the judgment</cite></blockquote><blockquote class="q-treat">&ldquo;The Division Bench in the said case has also laid down that for theft of electricity under Section 135 of the Act, 2003, assessment is to take place under Section 126 of the Act, 2003.&rdquo;<cite>&mdash; the Court&rsquo;s own treatment</cite></blockquote>
+        </div>
+        <div class="authcard">
+          <div class="auth-head">
+            <span class="auth-name">M/s Mohit Paper Mills Ltd v. PVVNL</span>
+            <span class="auth-cite">2011 (9) ADJ 239 &middot; Allahabad High Court</span>
+            <span class="treat t-follow">followed</span>
+          </div>
+          <div class="auth-prin">Cited for: use through a tampered meter is both &#x27;unauthorised use&#x27; (s.126, assessable) and theft (s.135(1)(d)); s.126 assessment and criminal proceedings can run simultaneously.</div>
+          <blockquote class="q-principle">&ldquo;whenever electricity is used through a &quot;tampered meter&quot; it would constitute &quot;unauthorized use of electricity&quot; for which assessment can be made under Section 126 and simultaneously criminal proceedings can also be initiated, it being an offence under Section 135(1)(d) of Act 2003.&rdquo;<cite>&mdash; as quoted in the judgment</cite></blockquote>
+        </div>
+        <div class="authcard">
+          <div class="auth-head">
+            <span class="auth-name">Ashok Kumar v. State of U.P.</span>
+            <span class="auth-cite">2008 (6) ADJ 669 &middot; Allahabad High Court (DB)</span>
+            <span class="treat t-follow">followed</span>
+          </div>
+          <div class="auth-prin">Cited for: &#x27;unauthorised use&#x27; covers acts that also constitute a s.135 offence; before recording such a conclusion the assessing officer must give an opportunity of hearing.</div>
+          <blockquote class="q-principle">&ldquo;The allegation of unauthorised use of electricity by a person concerned, as defined in Explanation (b) also covers within its ambit certain acts/omission which constitute an offence under Section 135 of the Act, 2003. Therefore, it is a serious matter and no person can be indicted and held guilty of user of electricity unauthorizedly unless he is given an opportunity of hearing before coming to such conclusion.&rdquo;<cite>&mdash; as quoted in the judgment</cite></blockquote>
+        </div>
+        <div class="authcard">
+          <div class="auth-head">
+            <span class="auth-name">M/s Radha Krishna Cold Storage v. State of U.P.</span>
+            <span class="auth-cite">WP No. 19574 of 2008 &middot; Allahabad High Court (DB)</span>
+            <span class="treat t-refer">referred</span>
+          </div>
+          <div class="auth-prin">Cited for: an assessment order is referable to s.126 even if it wrongly mentions s.135; the s.127 appeal remedy is therefore available.</div>
+          <blockquote class="q-principle">&ldquo;the order under challenge in the writ petition is the assessment order, which can be passed only under Section 126 of the Act and mere non mention of the relevant provisions or incorrect mention of the provisions will not vitiate the order.&rdquo;<cite>&mdash; as quoted in the judgment</cite></blockquote>
+        </div>
+        <div class="authcard">
+          <div class="auth-head">
+            <span class="auth-name">Chairman, W.B. State Electricity Board v. Syed Mukbul Hossain</span>
+            <span class="auth-cite">(2009) 2 SCC 727 &middot; Supreme Court</span>
+            <span class="treat t-refer">referred</span>
+          </div>
+          <div class="auth-prin">Cited for: in a theft case the Supreme Court noticed the availability of the s.127 right of appeal.</div>
+          <blockquote class="q-principle">&ldquo;in a case of theft of electricity the Apex Court noticed the right of appeal under Section 127 of the Electricity Act, 2003.&rdquo;<cite>&mdash; as quoted in the judgment</cite></blockquote>
+        </div>
+        <div class="authcard">
+          <div class="auth-head">
+            <span class="auth-name">Kunwar Sarvesh Kumar Singh v. PVVNL</span>
+            <span class="auth-cite">2012 (2) ADJ 509 &middot; Allahabad High Court</span>
+            <span class="treat t-refer">referred</span>
+          </div>
+          <div class="auth-prin">Cited for: in theft cases the assessment procedure in cl. 8.1 of the UP Supply Code, 2005 applies.</div>
+          <blockquote class="q-principle">&ldquo;In Kunwar Sarvesh Kumar Singh&#x27;s case (supra), learned Single Judge held that in the case of theft assessment procedure as laid down in para 8.1 of the Code, 2005 shall be applicable.&rdquo;<cite>&mdash; as quoted in the judgment</cite></blockquote>
+        </div>
+        <div class="authcard">
+          <div class="auth-head">
+            <span class="auth-name">Tinsukhia Electricity Supply Co. Ltd v. State of Assam</span>
+            <span class="auth-cite">(1989) 3 SCC 709 &middot; Supreme Court (Constitution Bench)</span>
+            <span class="treat t-follow">followed</span>
+          </div>
+          <div class="auth-prin">Cited for: a statute must be construed to make it effective and operative (ut res magis valeat quam pereat); courts lean against a construction reducing a statute to futility.</div>
+          <blockquote class="q-principle">&ldquo;The provision of a statute must be so construed as to make it effective and operative, on the principle &quot;ut res majis valeat quam periat&quot;.&rdquo;<cite>&mdash; as quoted in the judgment</cite></blockquote>
+        </div>
 
 <h2>Ratio &amp; what was decided</h2>
 

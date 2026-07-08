@@ -38,11 +38,22 @@ for h in rec.get("provision_holdings", []):
 
 auth_html = ""
 if rec.get("authorities"):
-    rows = ""
+    treat_class = {"followed":"t-follow","distinguished":"t-distinguish","overruled":"t-overrule",
+                   "doubted":"t-overrule","explained":"t-follow","referred":"t-refer"}
     for a in rec["authorities"]:
-        rows += f"""<tr><td>{esc(a.get('name',''))}<div class="cite">{esc(a.get('cite',''))}</div></td>
-        <td>{esc(a.get('principle',''))}</td><td><span class="treat">{esc(a.get('treatment',''))}</span></td></tr>"""
-    auth_html = f"""<table class="auth"><thead><tr><th>Authority</th><th>Cited for</th><th>Treatment</th></tr></thead><tbody>{rows}</tbody></table>"""
+        tr = a.get("treatment","")
+        pp = f'<blockquote class="q-principle">&ldquo;{esc(a["principle_para"])}&rdquo;<cite>&mdash; as quoted in the judgment</cite></blockquote>' if a.get("principle_para") else ""
+        tp = f'<blockquote class="q-treat">&ldquo;{esc(a["treatment_para"])}&rdquo;<cite>&mdash; the Court&rsquo;s own treatment</cite></blockquote>' if a.get("treatment_para") else ""
+        auth_html += f"""
+        <div class="authcard">
+          <div class="auth-head">
+            <span class="auth-name">{esc(a.get('name',''))}</span>
+            <span class="auth-cite">{esc(a.get('cite',''))} &middot; {esc(a.get('court',''))}</span>
+            <span class="treat {treat_class.get(tr,'t-refer')}">{esc(tr)}</span>
+          </div>
+          <div class="auth-prin">Cited for: {esc(a.get('principle',''))}</div>
+          {pp}{tp}
+        </div>"""
 else:
     auth_html = f'<p class="none">{esc(rec.get("authorities_note","No authorities cited."))}</p>'
 
@@ -81,11 +92,18 @@ h2 {{ font-size:11.5pt; color:#7a2e2e; border-bottom:1px solid #d8c9c0; padding-
 .holding-body {{ margin:3px 0; }}
 blockquote {{ margin:5px 0 0; padding:5px 10px; background:#faf8f6; border-left:2px solid #bbb; font-size:9.5pt; color:#333; }}
 blockquote cite {{ display:block; text-align:right; font-size:8.5pt; color:#888; font-style:normal; }}
-table.auth {{ width:100%; border-collapse:collapse; font-size:9.5pt; }}
-table.auth th {{ text-align:left; background:#f2ece8; padding:5px 8px; font-family:Arial,sans-serif; font-size:8.5pt; }}
-table.auth td {{ padding:5px 8px; border-bottom:1px solid #eee; vertical-align:top; }}
-.cite {{ color:#888; font-size:8.5pt; }}
-.treat {{ background:#e7efe7; color:#2e5a2e; padding:1px 7px; border-radius:3px; font-size:8.5pt; font-family:Arial,sans-serif; }}
+.authcard {{ margin:0 0 11px; padding:0 0 9px; border-bottom:1px dotted #ddd; }}
+.auth-head {{ margin-bottom:3px; }}
+.auth-name {{ font-weight:bold; }}
+.auth-cite {{ color:#888; font-size:8.5pt; margin-left:6px; }}
+.auth-prin {{ font-size:9.5pt; color:#333; margin:2px 0; }}
+.treat {{ float:right; padding:1px 8px; border-radius:3px; font-size:8pt; font-family:Arial,sans-serif; color:#fff; }}
+.t-follow {{ background:#2e6a3e; }}
+.t-distinguish {{ background:#a85a2e; }}
+.t-overrule {{ background:#8a2e2e; }}
+.t-refer {{ background:#5a6b7a; }}
+.q-principle {{ border-left:2px solid #bbb; }}
+.q-treat {{ border-left:2px solid #a85a2e; background:#faf5f1; }}
 .none {{ font-style:italic; color:#666; background:#faf8f6; padding:8px 12px; border-left:2px solid #ccc; }}
 .ratio {{ margin:0 0 10px; padding:8px 12px; background:#f7f2ee; border-radius:4px; }}
 .ratio-head {{ margin-bottom:4px; }}
