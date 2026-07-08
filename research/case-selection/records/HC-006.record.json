@@ -1,0 +1,178 @@
+{
+  "schema_version": "1.0",
+  "case_id": "HC-006",
+  "docid": "75630952",
+  "court": "High Court of Delhi",
+  "court_type": "HC",
+  "bench_type": "HC-DB",
+  "title": "Sh. B.L. Kantroo v. BSES Rajdhani Power Ltd.",
+  "neutral_cite": "RFA (OS) No. 12/2008 (Delhi HC, DB)",
+  "date": "2008-09-25",
+  "bench": ["A.K. Sikri J", "Manmohan Singh J"],
+  "bench_strength": 2,
+  "reportable": true,
+  "one_line": "In an electricity-theft (Section 135) case, a civil suit challenging the theft bill / civil liability is impliedly barred — the remedy lies before the Special Court under Sections 153–154(5); Section 145's express bar covers only Section 126/127 (assessment) matters.",
+  "facts_squib": "A charitable hospital's commercial connection was inspected (16/06/2007) and booked for direct theft (two wires tapping the BSES LV mains); a theft bill of Rs 34,23,386 and speaking orders followed, and a Special Court complaint was pending. Its civil suit for a declaration that the bill was false and an injunction against disconnection was rejected as barred; it appealed.",
+  "disposition": "Appeal dismissed; the plaint was rightly rejected — though for different reasons than the Single Judge gave (civil court impliedly ousted by Sections 153–154 in theft cases, not by Section 126/145).",
+  "procedural_posture": "Regular First Appeal (RFA (OS)) against rejection of the plaint under Order VII rr. 10–11 CPC",
+  "outcome_for": "licensee",
+  "relief_granted": "No relief to the appellant; suit held not maintainable; consumer relegated to the Special Court / statutory remedy.",
+  "consumer_category": ["commercial (charitable hospital)"],
+  "fact_pattern_tags": ["direct-hook/bypass (tapping LV mains)", "theft-by-tapping", "excess-load-alleged", "Special-Court-complaint-pending"],
+  "state": ["Delhi (NCT)"],
+  "discom": ["BSES Rajdhani Power Ltd."],
+  "amendment_considered": "post-2007 (Act 26 of 2007) — quotes Section 127(2) 'half' pre-deposit; note the court also recites the pre-2007 '3 months' presumption in para 16",
+  "regulations_construed": [],
+  "issues_framed": [
+    "whether the concerned matter falls within the jurisdiction of the assessing officer under Section 126 of the Act or not",
+    "whether maintainability of such proceeding at the instance of the consumer as discussed above necessarily excludes the jurisdiction of Civil Court"
+  ],
+  "provisions_construed": [
+    {"provision": "s.126", "docid": "124046987"},
+    {"provision": "s.127", "docid": "13154422"},
+    {"provision": "s.135", "docid": "90633360"},
+    {"provision": "s.145", "docid": "113307258"},
+    {"provision": "s.153", "docid": "83044125"},
+    {"provision": "s.154(5)", "docid": "34349824"},
+    {"provision": "CPC s.9 / Order VII rr.10–11", "docid": "76869205"}
+  ],
+  "provision_holdings": [
+    {
+      "provision": "s.145",
+      "issue_node": ["jurisdiction-145-154"],
+      "holding": "Section 145's express bar on civil-court jurisdiction operates only in respect of Section 126 (assessment) and Section 127 (appeal) matters — not theft under Section 135.",
+      "interpretation_type": "jurisdiction-ouster-scope",
+      "key_para": "A perusal of Section 145 would show that this Section operates only in respect of Section 126 and 127 of the Electricity Act.",
+      "para_ref": "para 16",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.126",
+      "issue_node": ["126v135"],
+      "holding": "Section 126 excludes mens rea and fastens civil liability; unauthorised use of electricity is different from theft, which is a criminal offence under Section 135.",
+      "interpretation_type": "distinguished-from-135",
+      "key_para": "Section 126 excludes mens rea and is provided for the purpose of fastening civil liability. Unauthorized use of electricity is different from theft cases of electricity.",
+      "para_ref": "para 15",
+      "holding_type": "explanatory",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.154(5)",
+      "issue_node": ["jurisdiction-145-154"],
+      "holding": "Section 154(5) invests the Special Court with jurisdiction to determine the quantum of civil liability in theft cases; a consumer disputing a theft bill must challenge it before the Special Court, even where no criminal complaint has been filed.",
+      "interpretation_type": "jurisdiction-forum",
+      "key_para": "the provisions of sub-section (5) of section 154 specifically invest Special Court with the jurisdiction to determine any dispute regarding the quantum of civil liability in theft cases",
+      "para_ref": "para 22",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.153/s.154",
+      "issue_node": ["jurisdiction-145-154"],
+      "holding": "Any dispute about civil liability in theft cases is impliedly excluded from the jurisdiction of the civil court by Sections 153 and 154, under which the Special Court determines such liability (acting as both civil and criminal court).",
+      "interpretation_type": "implied-ouster",
+      "key_para": "any dispute about civil liability in theft cases is impliedly excluded from the jurisdiction of civil court in view of the provisions of Section 153 and 154 of the Act",
+      "para_ref": "para 30",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.145",
+      "issue_node": ["jurisdiction-145-154"],
+      "holding": "The Electricity Act is a complete code; the civil court's jurisdiction is by necessary implication barred, and a consumer cannot approach a civil court without exhausting the alternative remedies the Act provides.",
+      "interpretation_type": "complete-code-implied-bar",
+      "key_para": "The scheme of the Electricity Act is complete in itself and thereby the jurisdiction of the civil court to take cognizance of the cases under the Act, by necessary implication, stood barred.",
+      "para_ref": "para 28",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Sohan Lal v. North Delhi Power Ltd.",
+      "cite": "113 (2004) DLT 547",
+      "court": "Delhi High Court (SB, S.K. Kaul J)",
+      "docid": "26783",
+      "principle": "Section 126 (unauthorised use) and Section 135 (theft) are separate expressions with their own connotations; theft has a dual requirement — a dishonest act plus one of the specified acts in Section 135(1).",
+      "principle_para": "There is dual requirement. Firstly, the act should be done dishonestly. Secondly, it should form par of one of the acts specified in Sub-paras (a) to (c) of Sub-section (1) of Section 135 of the said Act.",
+      "treatment": "followed",
+      "treatment_para": "This distinction has been made out in a case decided by the High Court of Delhi in Sohan Lal vs. North Delhi Power Ltd.",
+      "on_issue": "126v135"
+    },
+    {
+      "name": "Dhulabhai v. State of Madhya Pradesh",
+      "cite": "AIR 1969 SC 78",
+      "court": "Supreme Court",
+      "docid": "1996908",
+      "principle": "The classic seven propositions on when a statute ousts civil-court jurisdiction — including that finality plus an adequate remedy excludes the civil court, save for non-compliance with the Act or breach of fundamental judicial procedure.",
+      "principle_para": "Where the statute gives a finality to the orders of the special tribunals the civil courts jurisdiction must be held to be excluded if there is adequate remedy to do what the civil courts would normally do in a suit.",
+      "treatment": "followed",
+      "treatment_para": "The relevant principles regarding ouster of jurisdiction of Civil Court were laid down by the Apex Court in Dhulabhai v. State of MP",
+      "on_issue": "jurisdiction-145-154"
+    },
+    {
+      "name": "Secretary of State v. Mask & Co.",
+      "cite": "AIR 1940 PC 105",
+      "court": "Privy Council",
+      "docid": "1411268",
+      "principle": "Even where jurisdiction is excluded, civil courts may examine cases where the Act's provisions have not been complied with or the statutory tribunal has not conformed to fundamental judicial procedure.",
+      "principle_para": "even if jurisdiction is so excluded, the Civil Courts have jurisdiction to examine into cases where the provisions of the Act have not been complied with, or the statutory tribunal has not acted in conformity with the fundamental principle of judicial procedure",
+      "treatment": "followed",
+      "on_issue": "jurisdiction-145-154"
+    },
+    {
+      "name": "Shiv Kumar Chadha v. MCD",
+      "cite": "JT 1993 (3) SC 238",
+      "court": "Supreme Court",
+      "docid": "",
+      "principle": "A civil suit lies where the order is a nullity in law for a jurisdictional error or is outside the Act.",
+      "treatment": "referred",
+      "on_issue": "jurisdiction-145-154"
+    },
+    {
+      "name": "(unnamed authority)",
+      "cite": "(1997) 5 SCC 120",
+      "court": "Supreme Court",
+      "docid": "",
+      "principle": "A civil court has no jurisdiction to entertain a suit for declaration and injunction against a specially constituted forum.",
+      "treatment": "referred",
+      "on_issue": "jurisdiction-145-154"
+    }
+  ],
+  "ratio": [
+    {
+      "issue_node": "jurisdiction-145-154",
+      "proposition": "In an electricity-theft case, the civil court's jurisdiction to entertain a suit challenging the theft bill / civil liability is impliedly ousted by Sections 153–154 (Special Court), even where no criminal complaint is filed; Section 145's express bar is confined to Section 126/127 assessment matters. The plaint was rightly rejected, though for different reasons than the Single Judge gave.",
+      "scope": "HC-DB-binding (Delhi)",
+      "novelty": "settles-explains",
+      "conflicts_with": [],
+      "note": "Applies the Dhulabhai ouster test; complements the later SC ruling in Anis Ahmad on consumer fora."
+    },
+    {
+      "issue_node": "126v135",
+      "proposition": "Section 126 (unauthorised use — civil, no mens rea) and Section 135 (theft — criminal, dishonesty) operate in different fields.",
+      "scope": "HC-DB-binding (Delhi)",
+      "novelty": "affirms",
+      "conflicts_with": []
+    }
+  ],
+  "significance": "A leading Delhi Division-Bench authority on forum/jurisdiction in electricity disputes: it distinguishes Section 145's express bar (confined to Section 126/127) from the implied ouster of civil courts in theft cases under Sections 153–154, holding that a consumer must take a disputed theft bill to the Special Court. Cited 110 times; it complements Anis Ahmad (consumer fora) on the civil-suit side, applying the Dhulabhai ouster principles.",
+  "validity": {
+    "overall": "good-law",
+    "as_of": "2026-07",
+    "provision_version_ok": true,
+    "per_issue": {
+      "jurisdiction-145-154": "good-law; consistent with the later SC in Anis Ahmad (2013) on ouster of alternative fora and with the Section 153–154 Special-Court scheme."
+    },
+    "note": "Not overruled or reversed. The court's para-16 reference to a '3 months' presumption reflects the pre-2007 text and does not affect the jurisdiction ratio."
+  },
+  "flags": [
+    "leading-on-jurisdiction-145-154 (civil-suit side)",
+    "complements-Anis-Ahmad (consumer-forum side)",
+    "applies-Dhulabhai-ouster-test",
+    "follows-Sohan-Lal on 126v135",
+    "court-recites-pre-2007-3-month-presumption (para 16 slip)",
+    "BSES-Delhi"
+  ]
+}
