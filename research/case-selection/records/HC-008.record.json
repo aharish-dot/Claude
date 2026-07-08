@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.0",
+  "case_id": "HC-008",
+  "docid": "909057",
+  "court": "High Court of Delhi",
+  "court_type": "HC",
+  "bench_type": "HC-SB",
+  "title": "Harvinder Motors v. BSES Rajdhani Power Ltd.",
+  "neutral_cite": "AIR 2007 Delhi 85; (2006) 135 DLT 198",
+  "date": "2006-11-17",
+  "bench": ["S. Ravindra Bhat J"],
+  "bench_strength": 1,
+  "reportable": true,
+  "one_line": "Under Section 126 and the DERC Regulations, a case of 'dishonest abstraction of energy' cannot be booked on a missing/tampered seal or broken glass alone unless corroborated by the consumption pattern (no action if consumption exceeds ~75% of assessed), and the show-cause notice must precisely disclose the grounds relied on — failing which the assessment is set aside for breach of natural justice.",
+  "facts_squib": "On inspection (29/08/2006) BSES found connected load 64.5 KW against 44 KW sanctioned, with tampered plastic/meter seals and scratches on the CT box; it issued a same-day show-cause notice and a bill of Rs 26,61,507 for DAE. The consumer challenged by writ, arguing seal irregularity alone could not prove DAE and that the consumption-pattern basis (alleged two-shift use) was never disclosed to him.",
+  "disposition": "Writ petition allowed; BSES directed to issue a fresh notice disclosing all grounds (including the consumption pattern), grant a reasonable hearing, and pass a speaking order; a fresh bill may issue on the outcome.",
+  "procedural_posture": "Writ petition under Article 226 of the Constitution",
+  "outcome_for": "consumer",
+  "relief_granted": "Show-cause notice / bill process set aside; remitted for a fresh notice disclosing grounds, hearing, and speaking order.",
+  "consumer_category": ["industrial/commercial"],
+  "fact_pattern_tags": ["tampered/missing-seal", "scratches-on-CT-box", "excess-load", "alleged-DAE-without-corroboration"],
+  "state": ["Delhi (NCT)"],
+  "discom": ["BSES Rajdhani Power Ltd."],
+  "amendment_considered": "pre-2007 — the judgment reproduces Section 126(6) 'one-and-half times' and the 3/6-month presumption in Section 126(5), i.e. the text before Act 26 of 2007 (in force 15 June 2007)",
+  "regulations_construed": [
+    {"reg": "DERC (Performance Standards Metering and Billing) Regulations, 2002, Reg. 25 (booking a case for pilferage/DAE)", "implements": "s.126 procedure", "made_under": "Electricity Act, 2003"},
+    {"reg": "DERC Regulations, 2002, Reg. 26 (personal hearing; consumption-pattern threshold)", "implements": "s.126 procedure", "made_under": "Electricity Act, 2003"}
+  ],
+  "issues_framed": [],
+  "provisions_construed": [
+    {"provision": "s.126 (incl. 126(3),(5),(6))", "docid": "124046987"},
+    {"provision": "DERC Regulations 2002, Reg. 25 & 26", "docid": ""}
+  ],
+  "provision_holdings": [
+    {
+      "provision": "s.126(3)",
+      "issue_node": ["natural-justice"],
+      "holding": "An assessment for unauthorised use / DAE must be preceded by inspection and a reasonable hearing; the licensee is bound by the principles of natural justice (Section 126(3) read with Reg. 25(viii)).",
+      "interpretation_type": "procedure-natural-justice",
+      "key_para": "The licensee is obliged to follow principles of natural justice, and grant reasonable hearing",
+      "para_ref": "para 11",
+      "holding_type": "ratio",
+      "provision_version": "pre-2007"
+    },
+    {
+      "provision": "s.126",
+      "issue_node": ["burden-proof", "natural-justice"],
+      "holding": "A suspicion of unauthorised use / DAE must be corroborated by the consumer's consumption pattern; that corroboration is a precondition to the exercise of assessment jurisdiction, and where consumption exceeds ~75% of the assessed figure no action can be taken. A missing seal or broken glass alone will not do.",
+      "interpretation_type": "precondition-corroboration",
+      "key_para": "The object of obliging the assessing authority to ensure that consumption pattern, corroborates the suspicion of unauthorized use/ DAE, is a precondition for exercise of jurisdiction; if the consumption is more than 75% of the load, no action can be taken.",
+      "para_ref": "para 12",
+      "holding_type": "ratio",
+      "provision_version": "pre-2007"
+    },
+    {
+      "provision": "s.126(3)",
+      "issue_node": ["natural-justice"],
+      "holding": "The show-cause notice must precisely and unambiguously state the allegations on which action is proposed; a notice that keeps the real basis (here, the consumption-pattern / two-shift-use finding) from the consumer fails the standard of fairness.",
+      "interpretation_type": "notice-specificity",
+      "key_para": "Notice is not a ritualistic formality; the person requiring to show cause has to be precisely informed, may be briefly, the allegations upon which action is proposed.",
+      "para_ref": "para 14",
+      "holding_type": "ratio",
+      "provision_version": "pre-2007"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Prakash Kumar v. State of Gujarat",
+      "cite": "(referred)",
+      "court": "Supreme Court",
+      "docid": "",
+      "principle": "Stringent / penal statutes are to be strictly and purposively construed so that the legislative object is not frustrated.",
+      "principle_para": "The more stringent the law, the less is the discretion of the Court.",
+      "treatment": "referred",
+      "on_issue": "interpretation-general"
+    },
+    {
+      "name": "Food Corporation of India v. State",
+      "cite": "AIR 2001 SC 250",
+      "court": "Supreme Court",
+      "docid": "",
+      "principle": "Natural justice requires that a person be given precise and adequate notice of the case to be met.",
+      "treatment": "referred",
+      "on_issue": "natural-justice"
+    },
+    {
+      "name": "Canara Bank v. Debasish Das",
+      "cite": "(referred)",
+      "court": "Supreme Court",
+      "docid": "",
+      "principle": "To the same effect on the requirement of a precise, adequate show-cause notice.",
+      "treatment": "referred",
+      "on_issue": "natural-justice"
+    }
+  ],
+  "ratio": [
+    {
+      "issue_node": "natural-justice",
+      "proposition": "In a Section 126 unauthorised-use / DAE proceeding the show-cause notice must precisely disclose the grounds — including the consumption-pattern basis relied on — and the licensee must grant a real hearing; a demand founded on seal/glass irregularities without that disclosure or corroboration is set aside and remitted.",
+      "scope": "HC-SB (Delhi)",
+      "novelty": "applies",
+      "conflicts_with": []
+    },
+    {
+      "issue_node": "burden-proof",
+      "proposition": "Corroboration of suspected unauthorised use / DAE by the consumer's consumption pattern (Reg. 26(ii)) is a precondition to the exercise of the assessing officer's jurisdiction; if consumption exceeds the prescribed threshold, no case can be booked.",
+      "scope": "HC-SB (Delhi)",
+      "novelty": "settles",
+      "conflicts_with": []
+    }
+  ],
+  "significance": "A frequently-cited (59×) Delhi single-judge authority on the procedural / natural-justice safeguards in Section 126 unauthorised-use (DAE) assessments: seal or glass irregularities alone cannot found a demand without consumption-pattern corroboration, and the show-cause notice must spell out the grounds. Decided on the pre-2007 Section 126 text (1.5× multiplier; 3/6-month presumption).",
+  "validity": {
+    "overall": "good-law",
+    "as_of": "2026-07",
+    "provision_version_ok": false,
+    "per_issue": {
+      "natural-justice": "good-law on the notice-specificity and hearing requirements.",
+      "burden-proof": "good-law on the consumption-pattern corroboration precondition."
+    },
+    "note": "Not overruled. It applies the PRE-2007 Section 126 text (1.5× and 3/6-month presumption), later amended to 2× and a 12-month presumption — so do not cite it for the multiplier/period. The natural-justice and corroboration ratios are unaffected by the amendment."
+  },
+  "flags": [
+    "natural-justice-notice-specificity",
+    "corroboration-by-consumption-pattern (Reg 26(ii))",
+    "PRE-2007-s.126-text (1.5x; 3/6-month presumption)",
+    "DERC-Regulations-25-26",
+    "BSES-Delhi",
+    "cby-59 case the topicality filter had wrongly dropped"
+  ]
+}
