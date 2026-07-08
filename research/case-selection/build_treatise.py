@@ -40,9 +40,13 @@ for node, v in im.items():
     props = "".join(f"""<div class=prop><span class="cid">{e(p['case_id'])}</span>
               <span class=scope>{e(p['scope'])}</span> <span class=nov>{e(p['novelty'])}</span>
               <div>{e(p['proposition'])}</div></div>""" for p in v["propositions"])
+    _rank = {"SC": 3, "HC-DB": 2, "HC-SB": 1, "HC": 1}
+    lead, apex = v["leading_case"], v.get("apex_case", {})
+    apex_html = (f' · <span class=meta>apex</span> <span class=cid>{e(apex["case_id"])}</span> ({e(apex["court_type"])})'
+                 if apex and _rank.get(apex["court_type"],0) > _rank.get(lead["court_type"],0) else "")
     issue_html.append(f"""<details {'open' if v['n_cases']>=4 else ''}>
-      <summary><b>{e(node)}</b> — {v['n_cases']} cases · lead <span class=cid>{e(v['leading_case']['case_id'])}</span>
-        ({e(v['leading_case']['court_type'])}){' <span class=split>HC SPLIT</span>' if v['split_flag'] else ''}</summary>
+      <summary><b>{e(node)}</b> — {v['n_cases']} cases · lead <span class=cid>{e(lead['case_id'])}</span>
+        ({e(lead['court_type'])}){apex_html}{' <span class=split>HC SPLIT</span>' if v['split_flag'] else ''}</summary>
       <div class=line><b>line of authority:</b> {line}</div>
       {props}</details>""")
 

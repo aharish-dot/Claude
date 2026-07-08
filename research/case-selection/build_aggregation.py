@@ -73,18 +73,28 @@ def build_provision_index(recs):
     return out
 
 # ---------------------------------------------------------------- issue_matrix
-COURT_RANK = {"SC": 3, "HC-DB": 2, "HC-SB": 1, "HC": 1}
-def weight(r):
-    base = COURT_RANK.get(r.get("court_type"), 0) * 10
-    if r.get("court_type") != "SC":
-        base = COURT_RANK.get(r.get("bench_type"), COURT_RANK.get("HC", 1)) * 10
-    else:
-        base = 30
-    base += (r.get("bench_strength") or 1)
-    if r.get("reportable"): base += 2
-    return base
+# (6) Composite leading-case score: court rank is no longer the sole factor, so the
+# lone SC record no longer auto-"leads" nodes it does not actually anchor. Score =
+# court-rank base + bench_strength + reportable + in-corpus in-degree (anchor metric)
+# + issue-specific novelty. `apex_case` (highest court) is reported alongside so the
+# binding hierarchy is never lost.
+COURT_BASE = {"SC": 30, "HC-DB": 20, "HC-SB": 10, "HC": 10}
+NOVELTY = {"new": 6, "settles": 6, "settles-split": 6, "settles-explains": 5,
+           "extends": 4, "affirms": 3, "applies": 2, "explains": 1, "conflicts": 0}
 
-def build_issue_matrix(recs):
+def court_base(r):
+    return COURT_BASE.get(r.get("court_type") if r.get("court_type") == "SC" else r.get("bench_type"),
+                          COURT_BASE.get("HC", 10))
+
+def novelty_on(r, node):
+    vals = [NOVELTY.get(rt.get("novelty"), 0) for rt in r.get("ratio", []) if rt.get("issue_node") == node]
+    return max(vals) if vals else 0
+
+def composite(r, node, indeg):
+    return (court_base(r) + (r.get("bench_strength") or 1) + (2 if r.get("reportable") else 0)
+            + 5 * indeg.get(r["case_id"], 0) + novelty_on(r, node))
+
+def build_issue_matrix(recs, indeg):
     by_issue = defaultdict(list)
     for r in recs:
         nodes = set()
@@ -97,9 +107,9 @@ def build_issue_matrix(recs):
     out = {}
     for node in sorted(by_issue):
         cases = by_issue[node]
-        ranked = sorted(cases, key=lambda r: (weight(r), r.get("date", "")), reverse=True)
+        ranked = sorted(cases, key=lambda r: (composite(r, node, indeg), r.get("date", "")), reverse=True)
         leading = ranked[0]
-        # is there an HC split? collect ratio propositions on this node
+        apex = sorted(cases, key=lambda r: (court_base(r), r.get("date", "")), reverse=True)[0]
         props = []
         for r in cases:
             for rt in r.get("ratio", []):
@@ -112,7 +122,14 @@ def build_issue_matrix(recs):
         out[node] = {
             "n_cases": len(cases),
             "leading_case": {"case_id": leading["case_id"], "title": leading["title"],
-                             "court_type": leading["court_type"], "date": leading["date"]},
+                             "court_type": leading["court_type"], "date": leading["date"],
+                             "score": composite(leading, node, indeg)},
+            "apex_case": {"case_id": apex["case_id"], "title": apex["title"],
+                          "court_type": apex["court_type"], "date": apex["date"]},
+            "ranking": [{"case_id": r["case_id"], "court_type": r["court_type"],
+                         "score": composite(r, node, indeg), "in_degree": indeg.get(r["case_id"], 0),
+                         "novelty": novelty_on(r, node)}
+                        for r in ranked],
             "line_of_authority": [{"case_id": r["case_id"], "title": r["title"],
                                    "court_type": r["court_type"], "date": r["date"],
                                    "outcome_for": r.get("outcome_for")}
@@ -173,8 +190,8 @@ def build_citation_graph(recs):
 def main():
     recs = load_records()
     pi = build_provision_index(recs)
-    im = build_issue_matrix(recs)
-    cg = build_citation_graph(recs)
+    cg = build_citation_graph(recs)                       # first -> in-corpus in-degree
+    im = build_issue_matrix(recs, cg["in_corpus_in_degree"])
     json.dump(pi, open(os.path.join(HERE, "provision_index.json"), "w"), indent=2, ensure_ascii=False)
     json.dump(im, open(os.path.join(HERE, "issue_matrix.json"), "w"), indent=2, ensure_ascii=False)
     json.dump(cg, open(os.path.join(HERE, "citation_graph.json"), "w"), indent=2, ensure_ascii=False)
@@ -187,9 +204,13 @@ def main():
     print("\n-- provisions --")
     for sec, v in pi.items():
         print(f"  {sec:10s} {v['n_holdings']:2d} holdings ({v['n_ratio']} ratio) across {len(v['cases'])} cases {v['versions_applied']}")
-    print("\n-- issue-nodes (leading case) --")
+    print("\n-- issue-nodes (leading = composite score; apex = highest court) --")
     for node, v in im.items():
-        print(f"  {node:22s} {v['n_cases']} cases  lead={v['leading_case']['case_id']} ({v['leading_case']['court_type']}){' SPLIT' if v['split_flag'] else ''}")
+        lead, apex = v['leading_case'], v['apex_case']
+        # only surface apex when it outranks the leader on court hierarchy (SC over HC)
+        show = COURT_BASE.get(apex['court_type'], 0) > COURT_BASE.get(lead['court_type'], 0)
+        same = f"  apex={apex['case_id']}({apex['court_type']})" if show else ""
+        print(f"  {node:22s} {v['n_cases']} cases  lead={lead['case_id']}({lead['court_type']},s{lead['score']}){same}{' SPLIT' if v['split_flag'] else ''}")
     print("\n-- recurring authority backbone --")
     for b in cg["recurring_authorities"]:
         print(f"  {b['times_cited']}x  {b['authority'][:52]:52s} {dict(b['treatments'])}")

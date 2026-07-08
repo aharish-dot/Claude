@@ -4,6 +4,7 @@ queue/<ID>.txt and the free Stage-0 prefill to prefill/<ID>.prefill.json.
 Idempotent — skips a case whose text already exists. Uses curl (agent proxy).
 """
 import json, os, re, subprocess, sys
+from clean_queue import clean as clean_text   # (1) born-clean fetches
 HERE = os.path.dirname(os.path.abspath(__file__))
 TOKEN = os.environ.get("IK_API_TOKEN", "fd1bec72318f3a4a711b3d54a1008d86a5a44338")
 man = json.load(open(os.path.join(HERE, "manifest.json")))
@@ -45,7 +46,7 @@ for c in man["cases"]:
     if os.path.exists(tp) and os.path.getsize(tp) > 500:
         print(f"skip {cid} (already fetched)"); continue
     d = fetch(tid)
-    txt = plain(d.get("doc", ""))
+    txt = clean_text(plain(d.get("doc", "")))
     open(tp, "w").write(txt)
     json.dump(prefill(d, txt), open(os.path.join(HERE, "prefill", f"{cid}.prefill.json"), "w"),
               indent=2, ensure_ascii=False)
