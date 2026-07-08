@@ -1,0 +1,22 @@
+{
+  "_note": "Canonical authority registry (improvement 2). Merges name variants so the citation graph doesn't split one authority into several (e.g. Seetaram 'SOUTHCO' vs 'Southern Electricity Supply Co.'), and links authorities to corpus records via docid. 'aliases' are lowercase substrings; the first alias that appears in a (lowercased) authority name wins. docid, where present, is the Indian Kanoon id (also used to draw in-corpus edges).",
+  "authorities": {
+    "seetaram": {"canonical": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (SOUTHCO) v. Sri Seetaram Rice Mill", "cite": "(2012) 2 SCC 108", "court": "Supreme Court (3-Judge)", "docid": "43074463", "aliases": ["seetaram", "seetharam", "southco"]},
+    "orion-metal": {"canonical": "WBSEDCL v. Orion Metal Pvt. Ltd.", "cite": "(2020) 18 SCC 588", "court": "Supreme Court", "docid": "", "aliases": ["orion metal"]},
+    "anis-ahmad": {"canonical": "U.P. Power Corporation Ltd. v. Anis Ahmad", "cite": "(2013) 8 SCC 491", "court": "Supreme Court", "docid": "55216283", "aliases": ["anis ahmad"]},
+    "anwar-ali": {"canonical": "Accounts Officer, Jharkhand SEB v. Anwar Ali", "cite": "(2008) 12 SCC 774", "court": "Supreme Court", "docid": "1557946", "aliases": ["anwar ali"]},
+    "thomas-joseph": {"canonical": "Kerala SEB v. Thomas Joseph", "cite": "(2008) 1 SCC 213", "court": "Supreme Court", "docid": "12823358", "aliases": ["thomas joseph"]},
+    "tinsukhia": {"canonical": "Tinsukhia Electricity Supply Co. Ltd. v. State of Assam", "cite": "(1989) 3 SCC 709", "court": "Supreme Court (Constitution Bench)", "docid": "", "aliases": ["tinsukhia"]},
+    "sandeep-kesarwani": {"canonical": "Sandeep Kesarwani v. State of U.P.", "cite": "MANU/UP/1049/2014", "court": "Allahabad High Court (DB)", "docid": "162776314", "aliases": ["sandeep kesarwani"]},
+    "harvinder-motors": {"canonical": "Harvinder Motors v. BSES Rajdhani Power Ltd.", "cite": "AIR 2007 Del 85", "court": "Delhi High Court", "docid": "909057", "aliases": ["harvinder motors"]},
+    "hasi-mazumdar": {"canonical": "Hasi Mazumdar v. West Bengal State Electricity Board", "cite": "AIR 2006 Cal 59", "court": "Calcutta High Court", "docid": "243218", "aliases": ["hasi mazumdar"]},
+    "jindal-resources": {"canonical": "M/s Jindal Resources Pvt. Ltd. v. Executive Engineer (Elect.), WESCO", "cite": "AIR 2018 Ori 176", "court": "Orissa High Court", "docid": "106724713", "aliases": ["jindal resources"]},
+    "mohit-paper": {"canonical": "M/s Mohit Paper Mills Ltd. v. PVVNL", "cite": "(2011) Allahabad", "court": "Allahabad High Court", "docid": "57045694", "aliases": ["mohit paper"]},
+    "ashok-kumar-up": {"canonical": "Ashok Kumar v. State of U.P.", "cite": "2008 (6) ADJ 669", "court": "Allahabad High Court (DB)", "docid": "", "aliases": ["ashok kumar v. state", "ashok kumar and others", "ashok kumar vs. state"]},
+    "radha-krishna-cold": {"canonical": "M/s Radha Krishna Cold Storage v. State of U.P.", "cite": "WP No. 19574 of 2008 (Allahabad DB)", "court": "Allahabad High Court (DB)", "docid": "", "aliases": ["radha krishna cold"]},
+    "paliwal-alloys": {"canonical": "M/s Paliwal Alloys Pvt. Ltd. v. State of U.P.", "cite": "2009 (7) ADJ 455", "court": "Allahabad High Court (DB)", "docid": "", "aliases": ["paliwal alloys"]},
+    "basudeb-paine": {"canonical": "Basudeb Paine v. WBSEDCL", "cite": "MAT No. 263 of 2015 (Cal DB)", "court": "Calcutta High Court (DB)", "docid": "", "aliases": ["basudeb paine"]},
+    "dhulabhai": {"canonical": "Dhulabhai v. State of Madhya Pradesh", "cite": "AIR 1969 SC 78", "court": "Supreme Court", "docid": "", "aliases": ["dhulabhai"]},
+    "fiem-industries": {"canonical": "Fiem Industries Ltd. v. Superintending Engineer, TANGEDCO", "cite": "W.P. No. 25849 of 2013 (Madras)", "court": "Madras High Court", "docid": "", "aliases": ["fiem industries"]}
+  }
+}

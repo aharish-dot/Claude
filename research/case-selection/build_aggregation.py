@@ -41,6 +41,17 @@ def norm_name(n):
     n = re.sub(r"\b(v|vs|versus|ltd|limited|pvt|private|co|company|state|of|the|and|others|ors|anr|another)\b", " ", n)
     return re.sub(r"\s+", " ", n).strip()
 
+# (2) Canonical authority registry: merge name variants (e.g. Seetaram 'SOUTHCO' vs
+# 'Southern Electricity Supply Co.') and carry a docid to link authorities to records.
+_REG = json.load(open(os.path.join(HERE, "authority_registry.json")))["authorities"]
+def canonical(name):
+    """Return (key, canonical-entry-or-None) for an authority name."""
+    low = (name or "").lower()
+    for cid, e in _REG.items():
+        if any(a in low for a in e.get("aliases", [])):
+            return cid, e
+    return norm_name(name), None
+
 # ---------------------------------------------------------------- provision_index
 def build_provision_index(recs):
     idx = defaultdict(list)
@@ -161,17 +172,18 @@ def build_citation_graph(recs):
     in_corpus_indeg = Counter()
     for r in recs:
         for a in r.get("authorities", []):
-            key = norm_name(a.get("name"))
+            key, entry = canonical(a.get("name"))     # (2) canonicalised key merges variants
             rec = authority_hits[key]
-            rec["display"] = a.get("name")
-            rec["cite"] = rec["cite"] or a.get("cite", "")
-            rec["court"] = rec["court"] or a.get("court", "")
+            rec["display"] = (entry or {}).get("canonical") or rec.get("display") or a.get("name")
+            rec["cite"] = rec["cite"] or (entry or {}).get("cite") or a.get("cite", "")
+            rec["court"] = rec["court"] or (entry or {}).get("court") or a.get("court", "")
             rec["treatments"][a.get("treatment", "referred")] += 1
             rec["cited_by"].append({"case_id": r["case_id"], "treatment": a.get("treatment"),
                                     "on_issue": a.get("on_issue")})
             if a.get("on_issue"): rec["on_issues"][a["on_issue"]] += 1
-            # in-corpus edge?
-            tgt = a.get("docid") and by_docid.get(a["docid"]) or by_name.get(key)
+            # in-corpus edge? prefer registry docid, then authority docid, then fuzzy title
+            docid = (entry or {}).get("docid") or a.get("docid")
+            tgt = (by_docid.get(docid) if docid else None) or by_name.get(norm_name(a.get("name")))
             edges.append({"from": r["case_id"], "to_name": a.get("name"),
                           "to_case_id": tgt, "treatment": a.get("treatment"),
                           "on_issue": a.get("on_issue"), "in_corpus": bool(tgt)})

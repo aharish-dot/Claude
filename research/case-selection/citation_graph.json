@@ -6,15 +6,17 @@
       "authority": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (SOUTHCO) v. Sri Seetaram Rice Mill",
       "cite": "(2012) 2 SCC 108",
       "court": "Supreme Court (3-Judge)",
-      "times_cited": 8,
+      "times_cited": 14,
       "treatments": {
-        "followed": 7,
-        "referred": 1
+        "followed": 9,
+        "referred": 4,
+        "distinguished": 1
       },
       "on_issues": {
-        "126v135": 4,
+        "126v135": 7,
         "jurisdiction-145-154": 1,
-        "assessment-126": 3
+        "assessment-126": 3,
+        "appeal-127": 3
       },
       "cited_by": [
         {
@@ -26,6 +28,11 @@
           "case_id": "HC-016",
           "treatment": "referred",
           "on_issue": "jurisdiction-145-154"
+        },
+        {
+          "case_id": "HC-003",
+          "treatment": "distinguished",
+          "on_issue": "126v135"
         },
         {
           "case_id": "HC-009",
@@ -43,6 +50,11 @@
           "on_issue": "assessment-126"
         },
         {
+          "case_id": "HC-026",
+          "treatment": "referred",
+          "on_issue": "126v135"
+        },
+        {
           "case_id": "HC-023",
           "treatment": "followed",
           "on_issue": "126v135"
@@ -53,35 +65,14 @@
           "on_issue": "assessment-126"
         },
         {
-          "case_id": "HC-017",
-          "treatment": "followed",
-          "on_issue": "126v135"
-        }
-      ]
-    },
-    {
-      "authority": "Executive Engineer (SOUTHCO) v. Sri Seetaram Rice Mill",
-      "cite": "(2012) 2 SCC 108",
-      "court": "Supreme Court (3-Judge)",
-      "times_cited": 5,
-      "treatments": {
-        "referred": 3,
-        "followed": 2
-      },
-      "on_issues": {
-        "126v135": 2,
-        "appeal-127": 3
-      },
-      "cited_by": [
-        {
-          "case_id": "HC-026",
-          "treatment": "referred",
-          "on_issue": "126v135"
-        },
-        {
           "case_id": "HC-028",
           "treatment": "referred",
           "on_issue": "appeal-127"
+        },
+        {
+          "case_id": "HC-017",
+          "treatment": "followed",
+          "on_issue": "126v135"
         },
         {
           "case_id": "HC-022",
@@ -130,8 +121,61 @@
       ]
     },
     {
+      "authority": "WBSEDCL v. Orion Metal Pvt. Ltd.",
+      "cite": "(2020) 18 SCC 588",
+      "court": "Supreme Court",
+      "times_cited": 3,
+      "treatments": {
+        "followed": 3
+      },
+      "on_issues": {
+        "126v135": 3
+      },
+      "cited_by": [
+        {
+          "case_id": "HC-017",
+          "treatment": "followed",
+          "on_issue": "126v135"
+        },
+        {
+          "case_id": "HC-022",
+          "treatment": "followed",
+          "on_issue": "126v135"
+        },
+        {
+          "case_id": "HC-024",
+          "treatment": "followed",
+          "on_issue": "126v135"
+        }
+      ]
+    },
+    {
+      "authority": "M/s Paliwal Alloys Pvt. Ltd. v. State of U.P.",
+      "cite": "2009 (7) ADJ 455",
+      "court": "Allahabad High Court (DB)",
+      "times_cited": 2,
+      "treatments": {
+        "followed": 2
+      },
+      "on_issues": {
+        "126v135": 2
+      },
+      "cited_by": [
+        {
+          "case_id": "HC-003",
+          "treatment": "followed",
+          "on_issue": "126v135"
+        },
+        {
+          "case_id": "HC-027",
+          "treatment": "followed",
+          "on_issue": "126v135"
+        }
+      ]
+    },
+    {
       "authority": "M/s Radha Krishna Cold Storage v. State of U.P.",
-      "cite": "WP No. 19574 of 2008",
+      "cite": "WP No. 19574 of 2008 (Allahabad DB)",
       "court": "Allahabad High Court (DB)",
       "times_cited": 2,
       "treatments": {
@@ -181,7 +225,7 @@
     },
     {
       "authority": "Sandeep Kesarwani v. State of U.P.",
-      "cite": "Writ-C No. 69101 of 2013 (Allahabad DB, 11.02.2014)",
+      "cite": "MANU/UP/1049/2014",
       "court": "Allahabad High Court (DB)",
       "times_cited": 2,
       "treatments": {
@@ -201,30 +245,6 @@
           "case_id": "HC-022",
           "treatment": "followed",
           "on_issue": "provisional-final"
-        }
-      ]
-    },
-    {
-      "authority": "WBSEDCL v. Orion Metal Pvt. Ltd.",
-      "cite": "(2020) 18 SCC 588",
-      "court": "Supreme Court",
-      "times_cited": 2,
-      "treatments": {
-        "followed": 2
-      },
-      "on_issues": {
-        "126v135": 2
-      },
-      "cited_by": [
-        {
-          "case_id": "HC-022",
-          "treatment": "followed",
-          "on_issue": "126v135"
-        },
-        {
-          "case_id": "HC-024",
-          "treatment": "followed",
-          "on_issue": "126v135"
         }
       ]
     }
