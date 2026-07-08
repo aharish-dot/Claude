@@ -110,13 +110,24 @@ def build_issue_matrix(recs, indeg):
         ranked = sorted(cases, key=lambda r: (composite(r, node, indeg), r.get("date", "")), reverse=True)
         leading = ranked[0]
         apex = sorted(cases, key=lambda r: (court_base(r), r.get("date", "")), reverse=True)[0]
-        props = []
-        for r in cases:
-            for rt in r.get("ratio", []):
-                if rt.get("issue_node") == node:
-                    props.append({"case_id": r["case_id"], "scope": rt.get("scope"),
-                                  "novelty": rt.get("novelty"), "proposition": rt.get("proposition"),
-                                  "conflicts_with": rt.get("conflicts_with", [])})
+        # One detail card per case in the line of authority: prefer the case's ratio
+        # on this node; fall back to its provision_holding(s) on the node so every
+        # case in the line has a card (fixes nodes carried only via holdings).
+        contribs = []
+        for r in sorted(cases, key=lambda r: r.get("date", "")):
+            node_ratios = [rt for rt in r.get("ratio", []) if rt.get("issue_node") == node]
+            node_holds = [h for h in r.get("provision_holdings", []) if node in h.get("issue_node", [])]
+            if node_ratios:
+                for rt in node_ratios:
+                    contribs.append({"case_id": r["case_id"], "source": "ratio",
+                                     "scope": rt.get("scope"), "novelty": rt.get("novelty"),
+                                     "text": rt.get("proposition"),
+                                     "conflicts_with": rt.get("conflicts_with", [])})
+            else:
+                for h in node_holds:
+                    contribs.append({"case_id": r["case_id"], "source": "holding",
+                                     "provision": h.get("provision"), "holding_type": h.get("holding_type"),
+                                     "text": h.get("holding")})
         split = any(rt.get("conflicts_with") for r in cases for rt in r.get("ratio", [])
                     if rt.get("issue_node") == node and rt.get("conflicts_with"))
         out[node] = {
@@ -134,7 +145,7 @@ def build_issue_matrix(recs, indeg):
                                    "court_type": r["court_type"], "date": r["date"],
                                    "outcome_for": r.get("outcome_for")}
                                   for r in sorted(cases, key=lambda r: r.get("date", ""))],
-            "propositions": props,
+            "contributions": contribs,
             "split_flag": split,
         }
     return out

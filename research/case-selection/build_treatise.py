@@ -27,7 +27,7 @@ for sec, v in pi.items():
           <td>{'· '.join('<span class=node>'+e(n)+'</span>' for n in h['issue_node'])}</td>
           <td class="{ 'ratio' if h['holding_type']=='ratio' else 'obiter'}">{e(h['holding_type'])}</td>
           <td>{e(h['holding'])}</td></tr>""")
-    prov_html.append(f"""<details {'open' if v['n_holdings']>=5 else ''}>
+    prov_html.append(f"""<details open>
       <summary><b>{e(sec)}</b> — {v['n_holdings']} holdings ({v['n_ratio']} ratio) · {len(v['cases'])} cases {vbadges(v['versions_applied'])}</summary>
       <table><thead><tr><th>Case</th><th>Yr</th><th>as</th><th>issue-node</th><th>type</th><th>holding</th></tr></thead>
       <tbody>{''.join(hold)}</tbody></table></details>""")
@@ -37,9 +37,14 @@ issue_html = []
 for node, v in im.items():
     line = " → ".join(f'<span class="cid">{e(c["case_id"])}</span><span class=ct>{e(c["court_type"])}·{e(c["date"][:4])}</span>'
                       for c in v["line_of_authority"])
-    props = "".join(f"""<div class=prop><span class="cid">{e(p['case_id'])}</span>
-              <span class=scope>{e(p['scope'])}</span> <span class=nov>{e(p['novelty'])}</span>
-              <div>{e(p['proposition'])}</div></div>""" for p in v["propositions"])
+    def card(p):
+        if p.get("source") == "ratio":
+            tag = f'<span class=scope>{e(p.get("scope"))}</span> <span class=nov>{e(p.get("novelty"))}</span>'
+        else:
+            tag = f'<span class=hold>holding · {e(p.get("provision"))} · {e(p.get("holding_type"))}</span>'
+        return f"""<div class=prop><span class="cid">{e(p['case_id'])}</span> {tag}
+              <div>{e(p['text'])}</div></div>"""
+    props = "".join(card(p) for p in v["contributions"])
     _rank = {"SC": 3, "HC-DB": 2, "HC-SB": 1, "HC": 1}
     lead, apex = v["leading_case"], v.get("apex_case", {})
     apex_html = (f' · <span class=meta>apex</span> <span class=cid>{e(apex["case_id"])}</span> ({e(apex["court_type"])})'
@@ -86,6 +91,7 @@ th {{ color:var(--mut); font-weight:600; }}
 .line {{ padding:8px 13px; font-size:13px; }} .line .cid{{margin-left:2px;}}
 .prop {{ padding:6px 13px 10px; border-top:1px dashed var(--line); font-size:13px; }}
 .scope {{ background:#0b52; border-radius:9px; padding:0 7px; font-size:11px; }}
+.hold {{ background:#8884; border-radius:9px; padding:0 7px; font-size:11px; color:var(--mut); }}
 .nov {{ color:var(--mut); font-size:11px; }}
 .split {{ background:#c62828; color:#fff; padding:1px 7px; border-radius:9px; font-size:11px; }}
 .big {{ font-size:20px; font-weight:700; color:var(--accent); }}
