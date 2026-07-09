@@ -29,22 +29,13 @@ def vbadges(vs):
 def _git(*a):
     return subprocess.check_output(["git", "-C", HERE, *a]).decode().strip()
 try:
-    _remote = _git("remote", "get-url", "origin")
-    _m = re.search(r"/([^/]+)/([^/]+?)(?:\.git)?/?$", _remote)
-    OWNER, REPO = (_m.group(1), _m.group(2)) if _m else ("aharish-dot", "Claude")
-    BRANCH = _git("rev-parse", "--abbrev-ref", "HEAD")
-    SHA = _git("rev-parse", "HEAD")
     TOPLEVEL = _git("rev-parse", "--show-toplevel")
 except Exception:
-    OWNER, REPO, BRANCH, SHA, TOPLEVEL = "aharish-dot", "Claude", "main", "HEAD", os.path.dirname(HERE)
-# GH links render the per-case HTML via githack (a CDN that serves committed files
-# with the right content-type so the browser renders them, and supports #anchors).
-# We pin the commit SHA rather than the branch: the branch name contains slashes,
-# which githack/raw cannot disambiguate, and a SHA is cached immutably. NOTE: this
-# requires the record HTMLs to already be committed at HEAD before the map is built
-# (run render_record.py + commit the records, THEN build_treatise.py + commit the map),
-# and it only resolves once the repository is public (githack cannot read private repos).
-GITHACK = f"https://rawcdn.githack.com/{OWNER}/{REPO}/{SHA}"
+    TOPLEVEL = os.path.dirname(HERE)
+# GH links are RELATIVE — "records/<case>.record.html#h{n}". The map is published to
+# GitHub Pages next to a records/ folder holding the case pages (see build_site.py),
+# and the very same relative links also resolve when the map is opened locally
+# (records/ is a sibling directory). No external host -> no githack/CDN rate limits.
 
 def _record_paths():
     paths = glob.glob(os.path.join(HERE, "records", "*.record.json"))
@@ -86,15 +77,17 @@ def links(case_id, holding_text=None):
     if not cm:
         return ""
     docid, rel = cm["docid"], cm["rel"]
-    rel_html = rel[:-len(".record.json")] + ".record.html" if rel.endswith(".record.json") else rel
+    base = os.path.basename(rel)
+    base_html = base[:-len(".record.json")] + ".record.html" if base.endswith(".record.json") else base
+    gh_path = f"records/{urllib.parse.quote(base_html)}"       # relative to the map
     ik = f"https://indiankanoon.org/doc/{docid}/" if docid else ""
-    gh = f"{GITHACK}/{urllib.parse.quote(rel_html)}"
+    gh = gh_path
     hm = hold_meta.get((case_id, holding_text)) if holding_text else None
     if hm:
         if docid and hm.get("key_para"):
             ik = f"https://indiankanoon.org/doc/{docid}/{_textfrag(hm['key_para'])}"
         if hm.get("hidx") is not None:
-            gh = f"{GITHACK}/{urllib.parse.quote(rel_html)}#h{hm['hidx']}"
+            gh = f"{gh_path}#h{hm['hidx']}"
     ik_h = (f'<a href="{ik}" target="_blank" rel="noopener">IK</a>' if ik
             else '<span class="nolink">IK</span>')
     gh_h = f'<a href="{gh}" target="_blank" rel="noopener">GH</a>'
@@ -229,7 +222,7 @@ th {{ color:var(--mut); font-weight:600; }}
 <p class="legend">Each case shows <b>(<a href="#">IK</a>/<a href="#">GH</a>)</b> links.
 <b>IK</b> = the judgment on Indian Kanoon; on a specific holding it jumps to and highlights the exact passage
 (text-fragment link — works in Chrome/Edge/Safari; Firefox opens the judgment at the top).
-<b>GH</b> = the rendered case page (via githack), which opens with that holding highlighted.
+<b>GH</b> = the rendered case page on this site, which opens with that holding highlighted.
 The paragraph number of each holding is shown as a tag, e.g. <span class="para">para 23</span>.</p>
 
 <div>

@@ -1,0 +1,182 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@page { size: A4; margin: 18mm 16mm; }
+* { box-sizing: border-box; }
+body { font-family: Georgia, 'Times New Roman', serif; color:#1a1a1a; font-size:11pt; line-height:1.5; }
+h1 { font-size:16pt; margin:0 0 2px; }
+.sub { color:#555; font-size:10pt; margin-bottom:2px; }
+.meta { font-size:9.5pt; color:#444; border-bottom:2px solid #7a2e2e; padding-bottom:8px; margin-bottom:14px; }
+.meta b { color:#111; }
+.oneline { background:#f7f2ee; border-left:3px solid #7a2e2e; padding:8px 12px; font-style:italic; margin:12px 0; }
+h2 { font-size:11.5pt; color:#7a2e2e; border-bottom:1px solid #d8c9c0; padding-bottom:3px; margin:18px 0 8px; text-transform:uppercase; letter-spacing:.5px; }
+.holding { margin:0 0 12px; padding:6px 8px 10px; border-bottom:1px dotted #ddd; scroll-margin-top:14px; border-radius:4px; }
+.holding:target { background:#fff6e6; box-shadow:0 0 0 2px #e0b34d; }
+.holding-head { margin-bottom:4px; }
+.prov { font-weight:bold; background:#7a2e2e; color:#fff; padding:1px 7px; border-radius:3px; font-size:9.5pt; font-family:Arial,sans-serif; }
+.itype { font-family:Arial,sans-serif; font-size:8.5pt; color:#7a2e2e; margin-left:6px; }
+.nodes { float:right; }
+.chip { display:inline-block; background:#efe7e2; color:#5a3a30; border:1px solid #ddcfc7; border-radius:10px; padding:0 8px; font-size:8pt; font-family:Arial,sans-serif; margin-left:3px; }
+.chip.solid { background:#7a2e2e; color:#fff; border-color:#7a2e2e; }
+.holding-body { margin:3px 0; }
+blockquote { margin:5px 0 0; padding:5px 10px; background:#faf8f6; border-left:2px solid #bbb; font-size:9.5pt; color:#333; }
+blockquote cite { display:block; text-align:right; font-size:8.5pt; color:#888; font-style:normal; }
+.authcard { margin:0 0 11px; padding:0 0 9px; border-bottom:1px dotted #ddd; }
+.auth-head { margin-bottom:3px; }
+.auth-name { font-weight:bold; }
+.auth-cite { color:#888; font-size:8.5pt; margin-left:6px; }
+.auth-prin { font-size:9.5pt; color:#333; margin:2px 0; }
+.treat { float:right; padding:1px 8px; border-radius:3px; font-size:8pt; font-family:Arial,sans-serif; color:#fff; }
+.t-follow { background:#2e6a3e; }
+.t-distinguish { background:#a85a2e; }
+.t-overrule { background:#8a2e2e; }
+.t-refer { background:#5a6b7a; }
+.q-principle { border-left:2px solid #bbb; }
+.q-treat { border-left:2px solid #a85a2e; background:#faf5f1; }
+.none { font-style:italic; color:#666; background:#faf8f6; padding:8px 12px; border-left:2px solid #ccc; }
+.ratio { margin:0 0 10px; padding:8px 12px; background:#f7f2ee; border-radius:4px; }
+.ratio-head { margin-bottom:4px; }
+.tag { font-family:Arial,sans-serif; font-size:8pt; color:#555; background:#e8e0da; padding:1px 6px; border-radius:3px; margin-left:4px; }
+.tag.alt { background:#dde7ee; color:#2a4a5e; }
+.conflict { color:#8a2e2e; font-size:9pt; margin-top:3px; }
+.rnote { color:#666; font-size:9pt; font-style:italic; margin-top:3px; }
+.sig { font-size:10.5pt; }
+.htype { font-family:Arial,sans-serif; font-size:7.5pt; color:#fff; padding:1px 6px; border-radius:3px; margin-left:5px; }
+.ht-ratio { background:#2e5a6b; }
+.ht-explanatory { background:#8a7a2e; }
+.ht-obiter { background:#9a6a3a; }
+.pver { font-family:Arial,sans-serif; font-size:7.5pt; color:#666; background:#eee; padding:1px 6px; border-radius:3px; margin-left:4px; }
+.validity { padding:8px 12px; border-radius:4px; margin:12px 0; font-size:9.5pt; }
+.v-good { background:#eef5ee; border-left:4px solid #2e6a3e; }
+.v-warn { background:#fbf5e9; border-left:4px solid #b8860b; }
+.v-bad { background:#f8eded; border-left:4px solid #8a2e2e; }
+.vbadge { font-family:Arial,sans-serif; font-weight:bold; font-size:9pt; letter-spacing:.5px; }
+.vas { color:#666; font-size:8.5pt; margin-left:8px; }
+.vitem { margin-top:4px; }
+.vnote { margin-top:4px; color:#555; font-style:italic; font-size:9pt; }
+table.profile { width:100%; border-collapse:collapse; font-size:9.5pt; margin:4px 0; }
+table.profile td { padding:3px 8px; border-bottom:1px solid #f0eae6; vertical-align:top; }
+table.profile td.k { width:150px; color:#7a2e2e; font-family:Arial,sans-serif; font-size:8.5pt; }
+ol.issues { margin:4px 0 4px 18px; padding:0; font-size:10pt; }
+ol.issues li { margin-bottom:4px; }
+ul.regs { margin:4px 0 4px 18px; padding:0; font-size:9.5pt; }
+ul.regs li { margin-bottom:3px; }
+.foot { margin-top:16px; padding-top:8px; border-top:1px solid #ddd; font-size:8.5pt; color:#888; }
+</style></head><body>
+<h1>Ramesh Chand v. Uttar Haryana Bijli Vitran Nigam Ltd.</h1>
+<div class="sub">CWP No. 13209 of 2013 (P&amp;H) (with 4 connected writ petitions)</div>
+<div class="meta">
+<b>High Court of Punjab &amp; Haryana</b> (HC-SB) &nbsp;|&nbsp; 2016-01-19 &nbsp;|&nbsp;
+Bench: Rakesh Kumar Jain J (1) &nbsp;|&nbsp;
+IK doc 139237229 &nbsp;|&nbsp; HC-009 &nbsp;|&nbsp; schema 1.0
+</div>
+
+<div class="oneline">Sections 126 and 135 operate in different fields &#8212; theft under Section 135 is not assessed under Section 126 but its civil liability is measured under Section 154(5); a hearing must be given only in cases of suspected theft, not where theft is &#x27;writ large&#x27;, and compounding under Section 152 is available in both.</div>
+<div class="validity v-good">
+      <span class="vbadge">GOOD-LAW</span>
+      <span class="vas">as of 2026-07 &middot; provision-version OK: True</span>
+      <div class="vitem"><b>&#167;126 vs &#167;135:</b> good-law; a straightforward application of Seetaram Rice Mill (SC).</div><div class="vitem"><b>natural justice:</b> good-law as an application of the suspected-vs-established-theft distinction under Circular 54/2007; the &#x27;writ large = no hearing&#x27; proposition is fact-sensitive and should be read against the audi alteram partem line of authority.</div><div class="vitem"><b>&#167;152 compounding:</b> good-law.</div><div class="vnote">Not overruled. Oral single-judge order on the post-2007 text; the Section 154(5) measure and the different-fields distinction are settled law. The &#x27;no hearing where theft is writ large&#x27; proposition is the case&#x27;s own contribution and is fact-sensitive.</div></div>
+
+<h2>Facts &amp; profile</h2>
+<p>On inspection the meter was found dead-stopped with a wire soldered in the counter circuit after the counter lock had been broken; the Nigam treated it as established theft, made an assessment of Rs 11,66,650 and issued a Section 135 read with Section 152 notice offering compounding. The consumer challenged the assessment by writ, contending a show-cause notice was mandatory and that the amount could only be assessed by the Special Court under Section 154(5) (or under Section 126 after notice).</p>
+<table class="profile"><tr><td class="k">Procedural posture</td><td>Writ petitions under Article 226 challenging the final assessment / compounding notice</td></tr><tr><td class="k">Outcome for</td><td>licensee</td></tr><tr><td class="k">Relief granted</td><td>No relief to the consumer; assessment and compounding notice upheld.</td></tr><tr><td class="k">Consumer category</td><td>unspecified (direct theft from pole/counter circuit)</td></tr><tr><td class="k">Fact-pattern</td><td>dead-stop-meter, soldered-wire-counter-circuit, broken-lock, theft-writ-large, compounding-notice-s152</td></tr><tr><td class="k">State</td><td>Haryana</td></tr><tr><td class="k">DISCOM / party</td><td>Uttar Haryana Bijli Vitran Nigam Ltd. (UHBVN)</td></tr><tr><td class="k">Statutory version</td><td>post-2007 (Act 26 of 2007) &#8212; the judgment reproduces the current Section 126(5)/(6) (twice the tariff; 12-month period), Section 135 with &#x27;dishonestly&#x27; and the presumption proviso, and Section 154(5) (2x tariff for 12 months)</td></tr></table>
+<p style="font-size:9.5pt;color:#555"><b>Disposition:</b> Writ petitions dismissed; the Section 154(5) formula used by the Nigam was upheld, no hearing was required as the theft was writ large, and the consumer was left to accept the compounding notice or face trial before the Special Court.</p>
+
+<h2>Issues framed</h2>
+<ol class='issues'><li>Whether in case of theft, the consumer requires an opportunity of hearing or opportunity of hearing is only given in the case of suspected theft?</li><li>Whether the assessment under Section 135 of the Act has to be carried out in terms of Section 126 of the Act or in terms of Section 154 (5) of the Act as has been done by the respondents in this case?</li></ol>
+
+<h2>Interpretation of the Electricity Act</h2>
+<p style="font-size:9pt;color:#666">Provisions construed: s.126, s.135, s.152, s.154(5)</p>
+
+    <div class="holding" id="h0">
+      <div class="holding-head">
+        <span class="prov">s.126 / s.135</span><span class="htype ht-ratio">ratio</span><span class="pver">post-2007</span>
+        <span class="itype">different-fields</span>
+        <span class="nodes"><span class="chip">&#167;126 vs &#167;135</span></span>
+      </div>
+      <div class="holding-body">Sections 126 and 135 operate in different fields: Section 126 is invoked for over-consumption / unauthorised use of electricity, whereas Section 135 is invoked for theft of electricity.</div>
+      <blockquote>&ldquo;Sections 126 and 135 of the Act operate in different fields. Section 126 is invoked in case of over-consumption of electricity whereas Section 135 of the Act is invoked in case of theft of electricity.&rdquo;<cite>&mdash; para (analysis)</cite></blockquote>
+    </div>
+    <div class="holding" id="h1">
+      <div class="holding-head">
+        <span class="prov">s.126 / s.154(5)</span><span class="htype ht-ratio">ratio</span><span class="pver">post-2007</span>
+        <span class="itype">assessment-measure-for-theft</span>
+        <span class="nodes"><span class="chip">&#167;126 vs &#167;135</span> <span class="chip">jurisdiction (&#167;145/&#167;154)</span></span>
+      </div>
+      <div class="holding-body">Section 126 cannot be applied to assess the amount to be charged for theft of electricity; the civil liability for theft is measured under the Section 154(5) formula (twice the tariff for the twelve months preceding detection, or the exact period of theft if determined, whichever is less), subject to final adjudication by the Special Court.</div>
+      <blockquote>&ldquo;provisions of Section 126 of the Act cannot be applied for the purpose of assessment of amount, which is to be charged for theft of electricity.&rdquo;<cite>&mdash; para (analysis)</cite></blockquote>
+    </div>
+    <div class="holding" id="h2">
+      <div class="holding-head">
+        <span class="prov">s.135</span><span class="htype ht-ratio">ratio</span><span class="pver">post-2007</span>
+        <span class="itype">hearing-suspected-vs-writ-large</span>
+        <span class="nodes"><span class="chip">natural justice</span> <span class="chip">&#167;135 mens rea</span></span>
+      </div>
+      <div class="holding-body">A show-cause notice / opportunity of hearing is required only where theft is suspected (broken/tampered seals, no evidence at site &#8212; per Circular 54/2007); where the theft is &#x27;writ large&#x27; (here a dead-stop meter with a soldered wire after breaking the counter lock), no opportunity of hearing need be given before proceeding.</div>
+      <blockquote>&ldquo;in the case of suspected theft, opportunity of hearing has to be given but for the theft, which is writ large, as admitted by learned counsel for the respondents, no opportunity is required to be given.&rdquo;<cite>&mdash; para (analysis)</cite></blockquote>
+    </div>
+    <div class="holding" id="h3">
+      <div class="holding-head">
+        <span class="prov">s.152</span><span class="htype ht-ratio">ratio</span><span class="pver">post-2007</span>
+        <span class="itype">compounding-scope</span>
+        <span class="nodes"><span class="chip">&#167;152 compounding</span></span>
+      </div>
+      <div class="holding-body">The remedy of compounding under Section 152 is available in both cases &#8212; established theft and suspected theft; accepting the compounding notice avoids trial before the Special Court, refusing it exposes the consumer to punishment and fine by that Court.</div>
+      <blockquote>&ldquo;So far as Section 152 of the Act in respect of compounding of the offence is concerned, it is applied in both the cases, where there is theft and is suspected theft.&rdquo;<cite>&mdash; para (analysis)</cite></blockquote>
+    </div>
+<h2>Regulations / Supply Code construed</h2><ul class='regs'><li><b>UHBVN Instructions/Circular No. 54/2007 (procedure for suspected theft: notice, personal hearing, 75%-consumption threshold)</b> &mdash; implements s.135 enforcement procedure (made under Electricity Act, 2003)</li></ul>
+
+<h2>Authorities cited</h2>
+
+        <div class="authcard">
+          <div class="auth-head">
+            <span class="auth-name">Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (Southco) v. Sri Seetaram Rice Mill</span>
+            <span class="auth-cite">(2012) 2 SCC 108 &middot; Supreme Court</span>
+            <span class="treat t-follow">followed</span>
+          </div>
+          <div class="auth-prin">Cited for: Section 135 (theft) falls within criminal jurisprudence and requires mens rea/dishonesty, while Section 126 (unauthorised use) has no criminal intendment and is a civil remedy; the two operate in different and distinct fields with no commonality in law.</div>
+          <blockquote class="q-principle">&ldquo;Section 135 of the 2003 Act deals with an offence of theft of electricity and the penalty that can be imposed for such theft. This squarely falls within the dimensions of criminal jurisprudence and mens rea is one of the relevant factors for finding a case of theft. On the contrary, Section 126 of the 2003 Act does not speak of any criminal intendment and is primarily an action and remedy available under the civil law.&rdquo;<cite>&mdash; as quoted in the judgment</cite></blockquote>
+        </div>
+        <div class="authcard">
+          <div class="auth-head">
+            <span class="auth-name">Rajinder Kumar v. Uttar Haryana Bijli Vitran Nigam Ltd.</span>
+            <span class="auth-cite">CWP No. 25585 of 2013 (P&amp;H, 07.01.2016) &middot; Punjab &amp; Haryana High Court</span>
+            <span class="treat t-follow">followed</span>
+          </div>
+          <div class="auth-prin">Cited for: Sections 126 and 135 operate in different fields &#8212; Section 126 for over-consumption, Section 135 for theft (following Seetaram Rice Mill).</div>
+          <blockquote class="q-principle">&ldquo;It has been decided by this Court in CWP No.25585 of 2013 titled Rajinder Kumar and another Vs. Uttar Haryana Bijli Vitran Nigam Limited and others on 07.1.2016 that Sections 126 and 135 of the Act operate in different fields.&rdquo;<cite>&mdash; as quoted in the judgment</cite></blockquote><blockquote class="q-treat">&ldquo;It has been decided by this Court in CWP No.25585 of 2013 titled Rajinder Kumar and another Vs. Uttar Haryana Bijli Vitran Nigam Limited and others on 07.1.2016 that Sections 126 and 135 of the Act operate in different fields.&rdquo;<cite>&mdash; the Court&rsquo;s own treatment</cite></blockquote>
+        </div>
+        <div class="authcard">
+          <div class="auth-head">
+            <span class="auth-name">Mosmat Swaran @ Swaran Manraw v. State of Bihar</span>
+            <span class="auth-cite">2012 (6) RCR (Criminal) 2422 &middot; Patna High Court (DB)</span>
+            <span class="treat t-refer">cited-by-counsel</span>
+          </div>
+          <div class="auth-prin">Cited for: Cited by the petitioner on the requirement of notice/procedure in theft cases; not separately engaged with by the Court.</div>
+          
+        </div>
+
+<h2>Ratio &amp; what was decided</h2>
+
+    <div class="ratio">
+      <div class="ratio-head"><span class="chip solid">&#167;126 vs &#167;135</span>
+      <span class="tag">HC-SB (Punjab &amp; Haryana)</span><span class="tag alt">applies</span></div>
+      <div class="ratio-body">Sections 126 and 135 operate in different and distinct fields; theft under Section 135 cannot be assessed under Section 126, and its civil liability is measured under the Section 154(5) formula, subject to final adjudication by the Special Court.</div>
+    </div>
+    <div class="ratio">
+      <div class="ratio-head"><span class="chip solid">natural justice</span>
+      <span class="tag">HC-SB (Punjab &amp; Haryana)</span><span class="tag alt">settles</span></div>
+      <div class="ratio-body">A pre-assessment hearing in a theft case is required only where theft is merely suspected; where theft is &#x27;writ large&#x27; on the checking report, no opportunity of hearing need be afforded before the licensee proceeds.</div>
+    </div>
+    <div class="ratio">
+      <div class="ratio-head"><span class="chip solid">&#167;152 compounding</span>
+      <span class="tag">HC-SB (Punjab &amp; Haryana)</span><span class="tag alt">affirms</span></div>
+      <div class="ratio-body">Compounding under Section 152 is available both for established and for suspected theft; it is offered before the consumer is proceeded against before the Special Court.</div>
+    </div>
+
+<h2>Significance</h2>
+<p class="sig">A Punjab &amp; Haryana single-judge authority applying the Seetaram Rice Mill 126-vs-135 distinction to hold three practical points: (1) theft is assessed under the Section 154(5) formula, not Section 126; (2) a hearing is due only for suspected theft, not theft &#x27;writ large&#x27;; and (3) Section 152 compounding is available in both situations. Useful on the interface between the Section 135/154(5) theft channel and the Section 126 assessment channel, and on the &#x27;writ large&#x27; exception to natural justice.</p>
+
+<h2>Flags</h2>
+<p><span class="chip">applies-Seetaram on 126v135</span> <span class="chip">theft assessed under s.154(5), not s.126</span> <span class="chip">hearing only for SUSPECTED theft; none where theft writ large</span> <span class="chip">s.152 compounding available in both theft &amp; suspected theft</span> <span class="chip">post-2007-text</span> <span class="chip">UHBVN-Circular-54/2007</span></p>
+
+<div class="foot">Jurisprudence record &mdash; generated from HC-009.record.json for the Electricity Act &#167;126/&#167;135 project. Verbatim quotes are grep-verifiable against the source judgment.</div>
+</body></html>

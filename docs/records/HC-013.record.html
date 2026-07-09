@@ -1,0 +1,163 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@page { size: A4; margin: 18mm 16mm; }
+* { box-sizing: border-box; }
+body { font-family: Georgia, 'Times New Roman', serif; color:#1a1a1a; font-size:11pt; line-height:1.5; }
+h1 { font-size:16pt; margin:0 0 2px; }
+.sub { color:#555; font-size:10pt; margin-bottom:2px; }
+.meta { font-size:9.5pt; color:#444; border-bottom:2px solid #7a2e2e; padding-bottom:8px; margin-bottom:14px; }
+.meta b { color:#111; }
+.oneline { background:#f7f2ee; border-left:3px solid #7a2e2e; padding:8px 12px; font-style:italic; margin:12px 0; }
+h2 { font-size:11.5pt; color:#7a2e2e; border-bottom:1px solid #d8c9c0; padding-bottom:3px; margin:18px 0 8px; text-transform:uppercase; letter-spacing:.5px; }
+.holding { margin:0 0 12px; padding:6px 8px 10px; border-bottom:1px dotted #ddd; scroll-margin-top:14px; border-radius:4px; }
+.holding:target { background:#fff6e6; box-shadow:0 0 0 2px #e0b34d; }
+.holding-head { margin-bottom:4px; }
+.prov { font-weight:bold; background:#7a2e2e; color:#fff; padding:1px 7px; border-radius:3px; font-size:9.5pt; font-family:Arial,sans-serif; }
+.itype { font-family:Arial,sans-serif; font-size:8.5pt; color:#7a2e2e; margin-left:6px; }
+.nodes { float:right; }
+.chip { display:inline-block; background:#efe7e2; color:#5a3a30; border:1px solid #ddcfc7; border-radius:10px; padding:0 8px; font-size:8pt; font-family:Arial,sans-serif; margin-left:3px; }
+.chip.solid { background:#7a2e2e; color:#fff; border-color:#7a2e2e; }
+.holding-body { margin:3px 0; }
+blockquote { margin:5px 0 0; padding:5px 10px; background:#faf8f6; border-left:2px solid #bbb; font-size:9.5pt; color:#333; }
+blockquote cite { display:block; text-align:right; font-size:8.5pt; color:#888; font-style:normal; }
+.authcard { margin:0 0 11px; padding:0 0 9px; border-bottom:1px dotted #ddd; }
+.auth-head { margin-bottom:3px; }
+.auth-name { font-weight:bold; }
+.auth-cite { color:#888; font-size:8.5pt; margin-left:6px; }
+.auth-prin { font-size:9.5pt; color:#333; margin:2px 0; }
+.treat { float:right; padding:1px 8px; border-radius:3px; font-size:8pt; font-family:Arial,sans-serif; color:#fff; }
+.t-follow { background:#2e6a3e; }
+.t-distinguish { background:#a85a2e; }
+.t-overrule { background:#8a2e2e; }
+.t-refer { background:#5a6b7a; }
+.q-principle { border-left:2px solid #bbb; }
+.q-treat { border-left:2px solid #a85a2e; background:#faf5f1; }
+.none { font-style:italic; color:#666; background:#faf8f6; padding:8px 12px; border-left:2px solid #ccc; }
+.ratio { margin:0 0 10px; padding:8px 12px; background:#f7f2ee; border-radius:4px; }
+.ratio-head { margin-bottom:4px; }
+.tag { font-family:Arial,sans-serif; font-size:8pt; color:#555; background:#e8e0da; padding:1px 6px; border-radius:3px; margin-left:4px; }
+.tag.alt { background:#dde7ee; color:#2a4a5e; }
+.conflict { color:#8a2e2e; font-size:9pt; margin-top:3px; }
+.rnote { color:#666; font-size:9pt; font-style:italic; margin-top:3px; }
+.sig { font-size:10.5pt; }
+.htype { font-family:Arial,sans-serif; font-size:7.5pt; color:#fff; padding:1px 6px; border-radius:3px; margin-left:5px; }
+.ht-ratio { background:#2e5a6b; }
+.ht-explanatory { background:#8a7a2e; }
+.ht-obiter { background:#9a6a3a; }
+.pver { font-family:Arial,sans-serif; font-size:7.5pt; color:#666; background:#eee; padding:1px 6px; border-radius:3px; margin-left:4px; }
+.validity { padding:8px 12px; border-radius:4px; margin:12px 0; font-size:9.5pt; }
+.v-good { background:#eef5ee; border-left:4px solid #2e6a3e; }
+.v-warn { background:#fbf5e9; border-left:4px solid #b8860b; }
+.v-bad { background:#f8eded; border-left:4px solid #8a2e2e; }
+.vbadge { font-family:Arial,sans-serif; font-weight:bold; font-size:9pt; letter-spacing:.5px; }
+.vas { color:#666; font-size:8.5pt; margin-left:8px; }
+.vitem { margin-top:4px; }
+.vnote { margin-top:4px; color:#555; font-style:italic; font-size:9pt; }
+table.profile { width:100%; border-collapse:collapse; font-size:9.5pt; margin:4px 0; }
+table.profile td { padding:3px 8px; border-bottom:1px solid #f0eae6; vertical-align:top; }
+table.profile td.k { width:150px; color:#7a2e2e; font-family:Arial,sans-serif; font-size:8.5pt; }
+ol.issues { margin:4px 0 4px 18px; padding:0; font-size:10pt; }
+ol.issues li { margin-bottom:4px; }
+ul.regs { margin:4px 0 4px 18px; padding:0; font-size:9.5pt; }
+ul.regs li { margin-bottom:3px; }
+.foot { margin-top:16px; padding-top:8px; border-top:1px solid #ddd; font-size:8.5pt; color:#888; }
+</style></head><body>
+<h1>Bihar State Electricity Board v. Kishori Devi</h1>
+<div class="sub">AIR 2003 Patna 38; (2002) 2 PLJR 773 (LPA Nos. 20 &amp; 25 of 2001)</div>
+<div class="meta">
+<b>High Court of Patna</b> (HC-DB) &nbsp;|&nbsp; 2002-05-09 &nbsp;|&nbsp;
+Bench: Nagendra Rai J, R.S. Garg J (2) &nbsp;|&nbsp;
+IK doc 382076 &nbsp;|&nbsp; HC-013 &nbsp;|&nbsp; schema 1.0
+</div>
+
+<div class="oneline">Where a consumer is found using electricity beyond the sanctioned load (a malpractice/theft), the Board may disconnect supply WITHOUT prior notice under a statutory tariff clause &#8212; natural justice being excluded by the urgency/public-interest of preventing pilferage &#8212; but the subsequent determination of the value of energy consumed and the compensation MUST be made after giving the affected person a hearing.</div>
+<div class="validity v-good">
+      <span class="vbadge">GOOD-LAW-ON-PRINCIPLE</span>
+      <span class="vas">as of 2026-07 &middot; provision-version OK: False</span>
+      <div class="vitem"><b>natural justice:</b> The disconnection-without-notice / hearing-at-assessment principle remains good law and consistent with s.126(3) practice; but the case is decided under the PRE-2003 Supply Act 1948 and tariff Clause 16.9, not ss.126/135/56 of the 2003 Act.</div><div class="vnote">Does NOT construe the Electricity Act, 2003. Cite it for the disconnection-vs-assessment natural-justice principle, not for the text of s.126/s.135. The 2003 Act now codifies provisional/final assessment (s.126(3)) with a mandatory hearing and separately regulates disconnection (s.56) and theft (s.135).</div></div>
+
+<h2>Facts &amp; profile</h2>
+<p>A non-domestic (1 KW, one-shop) consumer was found on surprise inspection to have extended her connection to four tenant-shops and a coaching institute, consuming well beyond the sanctioned load (the meter had burnt out); the Board disconnected the line without notice under Clause 16.9 of its tariff notification and lodged an FIR for theft under the Indian Electricity Act. The Single Judge quashed the disconnection for want of notice; the Board appealed.</p>
+<table class="profile"><tr><td class="k">Procedural posture</td><td>Letters Patent Appeals against a Single Judge order allowing writ petitions for restoration of supply</td></tr><tr><td class="k">Outcome for</td><td>licensee</td></tr><tr><td class="k">Relief granted</td><td>Disconnection upheld; reconnection deferred until compensation is determined (after hearing) and paid.</td></tr><tr><td class="k">Consumer category</td><td>non-domestic/commercial, unauthorised extension to tenants</td></tr><tr><td class="k">Fact-pattern</td><td>excess-load, unauthorised-extension-to-tenants, meter-burnt, disconnection-without-notice, FIR-for-theft</td></tr><tr><td class="k">State</td><td>Bihar</td></tr><tr><td class="k">DISCOM / party</td><td>Bihar State Electricity Board</td></tr><tr><td class="k">Statutory version</td><td>PRE-2003 regime &#8212; decided under the Indian Electricity (Supply) Act, 1948 (ss.49, 79) and the Board&#x27;s tariff notification (Clause 16.9), with theft under the Indian Electricity Act, 1910; the Electricity Act, 2003 (ss.126/135/56) is NOT construed</td></tr></table>
+<p style="font-size:9.5pt;color:#555"><b>Disposition:</b> Both LPAs allowed; the Single Judge&#x27;s order set aside. Disconnection without notice upheld as valid; but the Board directed to determine the compensation under Clause 16.9 only after a hearing, and to restore supply once she pays.</p>
+
+<h2>Issues framed</h2>
+<ol class='issues'><li>whether the Board or its officers are required to give notice to the consumer before disconnecting electric line if they detect use of electricity in unauthorised mariner in the sense of consuming electricity beyond the sanctioned load which amounts to malpractice or theft</li></ol>
+
+<h2>Interpretation of the Electricity Act</h2>
+<p style="font-size:9pt;color:#666">Provisions construed: Indian Electricity (Supply) Act 1948, s.49, Indian Electricity (Supply) Act 1948, s.79(j), Tariff Notification Clause 16.9, Indian Electricity Act 1910 (theft) [analogue of 2003 Act s.135/s.126]</p>
+
+    <div class="holding" id="h0">
+      <div class="holding-head">
+        <span class="prov">Tariff Clause 16.9 / s.49 Supply Act</span><span class="htype ht-ratio">ratio</span><span class="pver">pre-2003</span>
+        <span class="itype">excess-load-is-theft-malpractice</span>
+        <span class="nodes"><span class="chip">natural justice</span> <span class="chip">&#167;126 vs &#167;135</span></span>
+      </div>
+      <div class="holding-body">Consumption beyond the sanctioned load without the Board&#x27;s consent amounts to theft or malpractice; the statutory tariff (Clause 16.9) empowers the Board to disconnect supply without notice on detecting unauthorised load.</div>
+      <blockquote>&ldquo;If the consumer uses electricity beyond the sanctioned load then the consumption of electricity beyond the sanctioned load without the consent of the Board amounts to theft or malpractices adopted by the consumer.&rdquo;<cite>&mdash; para 21</cite></blockquote>
+    </div>
+    <div class="holding" id="h1">
+      <div class="holding-head">
+        <span class="prov">Tariff Clause 16.9</span><span class="htype ht-ratio">ratio</span><span class="pver">pre-2003</span>
+        <span class="itype">natural-justice-excluded-urgency</span>
+        <span class="nodes"><span class="chip">natural justice</span></span>
+      </div>
+      <div class="holding-body">Where urgent action is needed to protect the Board&#x27;s property and prevent ongoing pilferage, the audi alteram partem rule is dispensed with; disconnection without notice is valid and not violative of natural justice or Article 14.</div>
+      <blockquote>&ldquo;in a case where the urgent action is required, the principle of natural justice; of giving opportunity of hearing is dispensed with&rdquo;<cite>&mdash; para 21</cite></blockquote>
+    </div>
+    <div class="holding" id="h2">
+      <div class="holding-head">
+        <span class="prov">Tariff Clause 16.9</span><span class="htype ht-ratio">ratio</span><span class="pver">pre-2003</span>
+        <span class="itype">hearing-required-at-assessment-stage</span>
+        <span class="nodes"><span class="chip">natural justice</span> <span class="chip">provisional/final</span></span>
+      </div>
+      <div class="holding-body">Although natural justice is excluded at the disconnection stage, the determination of the value of energy consumed and the assessment of compensation must be made after giving the affected person an opportunity of hearing &#8212; that requirement is read into the clause even though it is silent.</div>
+      <blockquote>&ldquo;the determination of value of electricity consumed and assessment of compensation in terms of the aforesaid clause has to be made after observing the principles of natural justice, i.e., after giving an opportunity to the affected person to present his/her version.&rdquo;<cite>&mdash; para 27</cite></blockquote>
+    </div>
+<h2>Regulations / Supply Code construed</h2><ul class='regs'><li><b>Bihar SEB Tariff Notification dated 23.6.1993, Clause 16.9 (detection of unauthorised load: disconnection without notice + assessment of value/compensation)</b> &mdash; implements s.49/s.79 Supply Act 1948 (made under Indian Electricity (Supply) Act, 1948)</li></ul>
+
+<h2>Authorities cited</h2>
+
+        <div class="authcard">
+          <div class="auth-head">
+            <span class="auth-name">Municipal Corporation of Delhi v. Ajanta Iron and Steel Co. Pvt. Ltd.</span>
+            <span class="auth-cite">AIR 1990 SC 882 &middot; Supreme Court</span>
+            <span class="treat t-distinguish">distinguished</span>
+          </div>
+          <div class="auth-prin">Cited for: Notice before disconnection was necessary there only because the agreement itself expressly made service of notice a pre-requisite for disconnection.</div>
+          <blockquote class="q-principle">&ldquo;the Apex Court held that notice was necessary after taking into consideration the provisions contained in the agreement which specially provided for service of notice as a pre-requisite condition for disconnection of electric supply.&rdquo;<cite>&mdash; as quoted in the judgment</cite></blockquote><blockquote class="q-treat">&ldquo;The learned single Judge did not notice this difference between the agreement in that case and the provision of tariff notification in question which provides disconnection without notice.&rdquo;<cite>&mdash; the Court&rsquo;s own treatment</cite></blockquote>
+        </div>
+        <div class="authcard">
+          <div class="auth-head">
+            <span class="auth-name">M.P. Electricity Board, Jabalpur v. Harsh Wood Products</span>
+            <span class="auth-cite">(1996) 4 SCC 522; AIR 1996 SC 2258 &middot; Supreme Court</span>
+            <span class="treat t-follow">followed</span>
+          </div>
+          <div class="auth-prin">Cited for: Where the consumer agreed to such tariff conditions and a prima facie conclusion of theft was reached, no hearing is required before disconnection; the action is not violative of Articles 20(1)/14 or natural justice.</div>
+          <blockquote class="q-principle">&ldquo;In view of the conditions to which the respondents had agreed at the time of installation and also the prima facie conclusion reached by the authorities, it was not necessary to give further hearing to the respondents. The action taken by the appellant is not violative of Articles 20(1) , 14 of the Constitution and principles of natural justice.&rdquo;<cite>&mdash; as quoted in the judgment</cite></blockquote>
+        </div>
+        <div class="authcard">
+          <div class="auth-head">
+            <span class="auth-name">Hyderabad Vanaspathi Ltd. v. A.P. State Electricity Board</span>
+            <span class="auth-cite">(1998) 4 SCC 470; AIR 1998 SC 1715 &middot; Supreme Court</span>
+            <span class="treat t-follow">followed</span>
+          </div>
+          <div class="auth-prin">Cited for: The Board has a statutory duty to supply efficiently and must prevent unauthorised user/pilferage; conditions of supply may provide for immediate disconnection and compensation, upheld against Article 14 challenge.</div>
+          <blockquote class="q-principle">&ldquo;it is the statutory duty of the Board to arrange for the supply of electricity throughout the State and for transmission and distribution of the same in the most efficient and economical manner. For that purpose it has necessarily got to prevent unauthorised user, pilferage or malpractices by the consumers.&rdquo;<cite>&mdash; as quoted in the judgment</cite></blockquote>
+        </div>
+
+<h2>Ratio &amp; what was decided</h2>
+
+    <div class="ratio">
+      <div class="ratio-head"><span class="chip solid">natural justice</span>
+      <span class="tag">HC-DB (Patna)</span><span class="tag alt">settles</span></div>
+      <div class="ratio-body">Under a statutory tariff clause, disconnection of supply on detecting excess-load/theft may be effected without prior notice (natural justice yielding to the urgency of protecting the Board&#x27;s property), but the ensuing assessment of the value of energy and compensation must be made only after a hearing.</div><div class="rnote">Pre-2003 regime; the same disconnection-vs-assessment natural-justice split now plays out under s.126(3)/s.135/s.56 of the 2003 Act.</div>
+    </div>
+
+<h2>Significance</h2>
+<p class="sig">A reported Patna Division-Bench authority (AIR 2003 Pat 38) drawing the disconnection-vs-assessment line: immediate disconnection for theft/pilferage needs no prior hearing (following M.P. Electricity Board and Hyderabad Vanaspathi; distinguishing Ajanta Iron on the express-notice-agreement point), but the compensation assessment must observe natural justice. Decided under the Supply Act 1948 / tariff Clause 16.9, it is the pre-2003 doctrinal ancestor of the s.126(3) natural-justice and s.135 theft jurisprudence, and the judgment also urges the Board to create an appellate/revisional forum. Kept for its principle value, flagged as not construing the 2003 Act.</p>
+
+<h2>Flags</h2>
+<p><span class="chip">PRE-2003 regime (Supply Act 1948 ss.49/79; tariff Clause 16.9; theft under 1910 Act)</span> <span class="chip">disconnection WITHOUT notice valid (urgency/public interest)</span> <span class="chip">assessment of compensation REQUIRES hearing (NJ read in)</span> <span class="chip">follows M.P. Electricity Board &amp; Hyderabad Vanaspathi; distinguishes Ajanta Iron</span> <span class="chip">urges Board to create appellate/revisional forum</span> <span class="chip">doctrinal ancestor of s.126(3)/s.135 natural-justice line</span></p>
+
+<div class="foot">Jurisprudence record &mdash; generated from HC-013.record.json for the Electricity Act &#167;126/&#167;135 project. Verbatim quotes are grep-verifiable against the source judgment.</div>
+</body></html>
