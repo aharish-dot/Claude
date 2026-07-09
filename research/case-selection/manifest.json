@@ -172,6 +172,41 @@
       "court": "Supreme Court of India",
       "title": "Assistant Engineer (D1), Ajmer VVNL v. Rahamatullah Khan",
       "note": "SC wave; s.56(2) limitation anchor (cby52); fills limitation-56 OPEN gap; gate-passed s.56"
+    },
+    {
+      "id": "SC-005",
+      "docid": "160269658",
+      "court": "Supreme Court of India",
+      "title": "K.C. Ninan v. Kerala State Electricity Board",
+      "note": "wave 3; NEW dimension s.56 dues-on-transfer / auction-purchaser (2023 large bench); gate-passed s.56"
+    },
+    {
+      "id": "SC-006",
+      "docid": "106830819",
+      "court": "Supreme Court of India",
+      "title": "M/s Prem Cottex v. Uttar Haryana Bijli Vitran Nigam",
+      "note": "wave 3; s.56(2) short/escaped assessment 'first due' (cby34); 2nd SC on limitation-56; gate-passed s.56"
+    },
+    {
+      "id": "SC-007",
+      "docid": "31616013",
+      "court": "Supreme Court of India",
+      "title": "Vishal Agrawal v. Chhattisgarh State Electricity Board",
+      "note": "wave 3; NEW dimension - criminal s.135 prosecution/cognizance/Special Court (cby31); gate-passed 126/135/154"
+    },
+    {
+      "id": "SC-008",
+      "docid": "1557946",
+      "court": "Supreme Court of India",
+      "title": "Accounts Officer, Jharkhand SEB v. Anwar Ali",
+      "note": "wave 3; foundational SC s.126 assessment vs consumer-forum/s.145 (2007, expert-cited); precursor to Anis Ahmad; gate-passed 126/145"
+    },
+    {
+      "id": "HC-029",
+      "docid": "100126948",
+      "court": "Delhi High Court",
+      "title": "BSES Rajdhani Power Ltd. v. Jagat Ram",
+      "note": "wave 3; s.152 compounding + s.145 civil-suit bar; fills thin compounding-152; gate-passed 135/145/152/154"
     }
   ],
   "status": {
@@ -200,7 +235,10 @@
     "HC-020": "done",
     "SC-002": "done",
     "SC-003": "done",
-    "SC-004": "done"
+    "SC-004": "done",
+    "SC-006": "done",
+    "SC-008": "done",
+    "HC-029": "done"
   },
   "rejections": {
     "HC-007": "Hindustan Zinc v. State of Raj. (2012) is a RAJASTHAN LAND TAX case (Rajasthan Finance Act 2006, ss.38-48, Rule 24) — NOT s.126/s.135 Electricity Act. Harvested as a false positive: petitioners include power/oil-generation companies and it cites Southco v. Seetaram Rice Mills (2012) 2 SCC 108 only for the onerous-pre-deposit / alternative-remedy point. No Electricity Act provision is construed. Needs a topical replacement (candidate: Southco v. Seetaram Rice Mills itself — a leading SC s.126 authority — or another HC s.126/135 case).",

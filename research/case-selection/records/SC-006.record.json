@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0",
+  "case_id": "SC-006",
+  "docid": "106830819",
+  "court": "Supreme Court of India",
+  "court_type": "SC",
+  "bench_type": "SC",
+  "title": "M/s Prem Cottex v. Uttar Haryana Bijli Vitran Nigam Ltd.",
+  "neutral_cite": "(2021) SCC OnLine SC 870; Civil Appeal No. 7235 of 2009",
+  "date": "2021-10-05",
+  "bench": ["Hemant Gupta J", "V. Ramasubramanian J"],
+  "bench_strength": 2,
+  "reportable": true,
+  "one_line": "A 'short assessment' correcting the licensee's own wrong multiply-factor is escaped assessment, not deficiency in service, so the consumer fora cannot interfere; and Section 56(2) bars both recovery and disconnection, but its bar is keyed to a consumer's neglect to pay a 'sum due' — it does not shield a consumer where the licensee later corrects its own short-billing mistake, and limitation runs only from when a bill/demand is raised.",
+  "facts_squib": "A cotton-yarn unit's connection was extended in 2006; three years later (2009) the licensee issued a 'short assessment notice' for Rs 1.35 crore, having wrongly recorded the multiply factor as 5 instead of 10. The consumer did not dispute the correctness of MF=10 but resisted on negligence and the Section 56(2) two-year bar; the National Commission dismissed the complaint as 'escaped assessment', not deficiency in service.",
+  "disposition": "Appeal dismissed; the short-assessment demand is not a deficiency in service and Section 56(2) does not rescue the consumer (limitation not having begun and the bar being keyed to a consumer's neglect, not the licensee's mistake); balance to be paid in eight weeks.",
+  "procedural_posture": "Statutory appeal from the National Consumer Disputes Redressal Commission",
+  "outcome_for": "licensee",
+  "relief_granted": "Complaint dismissal upheld; short-assessment demand payable.",
+  "consumer_category": ["industrial (cotton yarn)"],
+  "fact_pattern_tags": ["short/escaped-assessment", "wrong-multiply-factor", "licensee-mistake", "s56(2)-limitation", "deficiency-in-service"],
+  "state": ["Haryana"],
+  "discom": ["Uttar Haryana Bijli Vitran Nigam Ltd. (UHBVN)"],
+  "amendment_considered": "Section 56 of the Electricity Act, 2003 (unchanged by 2007 amendment); read with Consumer Protection Act, 1986",
+  "regulations_construed": [],
+  "issues_framed": [],
+  "provisions_construed": [
+    {"provision": "s.56", "docid": ""},
+    {"provision": "s.56(1)", "docid": ""},
+    {"provision": "s.56(2)", "docid": ""},
+    {"provision": "Consumer Protection Act 1986, s.2(1)(g)", "docid": ""}
+  ],
+  "provision_holdings": [
+    {
+      "provision": "s.56(2)",
+      "issue_node": ["limitation-56"],
+      "holding": "The Section 56(2) bar is not merely on disconnection of supply but also on recovery; it operates on two distinct rights of the licensee — the right to recover and the right to disconnect.",
+      "interpretation_type": "s56(2)-bars-both-recovery-and-disconnection",
+      "key_para": "the bar actually operates on two distinct rights of the licensee, namely, (i) the right to recover; and (ii) the right to disconnect.",
+      "para_ref": "para 15",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.56(2)",
+      "issue_node": ["limitation-56"],
+      "holding": "The second part of Section 56(2) is an exception to the general law of limitation, which normally bars only the remedy (through a court) and not the right — here it bars even the remedy of disconnection.",
+      "interpretation_type": "s56(2)-exception-to-limitation-law",
+      "key_para": "However, section 56(2) bars not merely the normal remedy of recovery but also bars the remedy of disconnection. This is why we think that the second part of Section 56(2) is an exception to the law of limitation.",
+      "para_ref": "para 15",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "Consumer Protection Act s.2(1)(g)",
+      "issue_node": ["jurisdiction-145-154", "assessment-126"],
+      "holding": "Raising a short-assessment demand to correct the licensee's own wrong multiply-factor is not a 'deficiency in service' where the consumer does not dispute the short-billing; it is 'escaped assessment', so the consumer fora cannot interfere.",
+      "interpretation_type": "short-assessment-not-deficiency",
+      "key_para": "If a licensee discovers in the course of audit or otherwise that a consumer has been short billed, the licensee is certainly entitled to raise a demand.",
+      "para_ref": "para 21",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "Consumer Protection Act",
+      "issue_node": ["jurisdiction-145-154"],
+      "holding": "A consumer forum must, at the threshold, find whether there was any deficiency in service before it can test the licensee's recovery against Section 56.",
+      "interpretation_type": "deficiency-threshold-first",
+      "key_para": "the consumer forum is obliged to find out at the threshold whether there was any deficiency in service.",
+      "para_ref": "para 22",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.56(1)",
+      "issue_node": ["limitation-56"],
+      "holding": "Section 56 is keyed to a consumer's neglect to pay a charge; the licensee's own negligence causing short-billing, and its later rectification, is not covered by Section 56(1), so such a corrective claim may not attract the Section 56(2) 'no sum due from any consumer' bar.",
+      "interpretation_type": "s56-keyed-to-consumer-neglect",
+      "key_para": "the negligence on the part of the licensee which led to short billing in the first instance and the rectification of the same after the mistake is detected",
+      "para_ref": "para 25",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.56(2)",
+      "issue_node": ["limitation-56"],
+      "holding": "The question of neglect to pay arises only after a demand is raised; if no bill is raised, limitation under Section 56(2) does not begin to run, and until it runs the bar on recovery/disconnection does not operate.",
+      "interpretation_type": "limitation-runs-from-demand",
+      "key_para": "The question of neglect to pay would arise only after a demand is raised by the licensee. If the demand is not raised, there is no occasion for a consumer to neglect to pay any charge for electricity.",
+      "para_ref": "para 26",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Assistant Engineer (D1), Ajmer VVNL v. Rahamatullah Khan",
+      "cite": "(2020) 4 SCALE 36",
+      "court": "Supreme Court (3-Judge)",
+      "docid": "190288453",
+      "principle": "Held that 'first due' is the bill date, that limitation runs from then, and that Section 56(2) bars only disconnection (leaving other recovery open) — a reading Prem Cottex distinguishes and refines by holding the bar covers both recovery and disconnection.",
+      "principle_para": "This Court also held that Section 56(2) does not preclude the licensee from raising an additional or supplementary demand after the expiry of the period of limitation in the case of a mistake or bonafide error.",
+      "treatment": "distinguished",
+      "treatment_para": "what is barred under Section 56(2) is only the disconnection of supply of electricity.",
+      "on_issue": "limitation-56"
+    }
+  ],
+  "ratio": [
+    {
+      "issue_node": "limitation-56",
+      "proposition": "Section 56(2) bars both recovery and disconnection (its disconnection bar being an exception to the ordinary law of limitation), but the bar is keyed to a consumer's neglect to pay a 'sum due'; a licensee's correction of its own short-billing mistake is escaped assessment (not deficiency in service and not a consumer's default), and limitation runs only from when a bill/demand is raised.",
+      "scope": "SC-binding (2-Judge; distinguishes the 3-Judge Rahamatullah Khan on facts)",
+      "novelty": "explains",
+      "conflicts_with": ["190288453"],
+      "note": "Refines/critiques Rahamatullah Khan (SC-004): that 3-Judge Bench read s.56(2) as barring only disconnection; Prem Cottex (2-Judge) reads it as barring both recovery and disconnection, but decides for the licensee on the distinct 'escaped assessment / consumer's neglect' ground."
+    }
+  ],
+  "significance": "A Supreme Court refinement of the Section 56(2) limitation jurisprudence: it holds that Section 56(2) bars both recovery and disconnection (its disconnection bar being an exception to the general rule that limitation bars only the remedy), that a short/escaped assessment correcting the licensee's own multiply-factor mistake is not a 'deficiency in service' and is recoverable, and that Section 56's bar is keyed to a consumer's neglect — not the licensee's mistake — with limitation running only from when a bill is raised. Distinguishes and partially re-reads the 3-Judge Rahamatullah Khan (SC-004).",
+  "validity": {
+    "overall": "good-law",
+    "as_of": "2026-07",
+    "provision_version_ok": true,
+    "per_issue": {
+      "limitation-56": "good-law; refines Rahamatullah Khan (SC-004). NOTE the two SC benches read the scope of the s.56(2) bar differently (disconnection-only vs recovery-and-disconnection) — a live nuance flagged for the aggregation."
+    },
+    "note": "Not overruled. 2-Judge Bench; distinguishes the 3-Judge Rahamatullah Khan on facts while offering a different reading of the s.56(2) bar's scope. Section 56 unchanged by the 2007 amendment."
+  },
+  "flags": [
+    "s.56(2) bars BOTH recovery AND disconnection (refines Rahamatullah/SC-004 'disconnection-only')",
+    "s.56(2) disconnection bar = exception to the ordinary law of limitation",
+    "short/escaped assessment correcting licensee's own MF mistake = NOT deficiency in service (recoverable)",
+    "s.56 keyed to CONSUMER's neglect, not licensee's mistake; limitation runs from demand",
+    "distinguishes Rahamatullah Khan (SC-004) -> in-corpus SC->SC edge + live nuance",
+    "SC 2-Judge; fills limitation-56 with a 2nd SC"
+  ]
+}

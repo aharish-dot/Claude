@@ -1,0 +1,140 @@
+{
+  "schema_version": "1.0",
+  "case_id": "HC-029",
+  "docid": "100126948",
+  "court": "High Court of Delhi",
+  "court_type": "HC",
+  "bench_type": "HC-SB",
+  "title": "BSES Rajdhani Power Ltd. v. Jagat Ram",
+  "neutral_cite": "Crl. A. 1051 of 2008 (with 1052-1056/2008) (Delhi HC) (2014)",
+  "date": "2014-12-10",
+  "bench": ["S. Muralidhar J"],
+  "bench_strength": 1,
+  "reportable": true,
+  "one_line": "Once a theft offence is compounded under Section 152 (a deemed acquittal under Section 152(3)/Section 300 CrPC), the Special Court cannot thereafter determine civil liability under Section 154(5) — because civil liability is defined as loss 'due to the commission of an offence' and must be preceded by a positive determination of the offence; and compounding under Section 152 cannot be done without the complainant-licensee's consent.",
+  "facts_squib": "In a batch of direct-theft cases, consumers compounded the offence under Section 152 before the Deputy Commissioner (over BRPL's objection that the theft bill must be paid first). The Special Court then held that, the offence being compounded (deemed acquittal), it could not determine the civil liability under Section 154(5). BRPL appealed, contending the Special Court must still determine civil liability despite the compounding.",
+  "disposition": "Appeals disposed of with a clarification: the Special Court's reason (a criminal court cannot determine civil liability) is wrong, but its conclusion (no civil liability can be determined after a compounding-acquittal) is correct; going forward, compounding under Section 152 requires the complainant-licensee's consent (past DC orders that attained finality unaffected).",
+  "procedural_posture": "Criminal appeals by the licensee against a Special Court order",
+  "outcome_for": "mixed (civil liability cannot be determined post-compounding; but compounding needs complainant consent prospectively)",
+  "relief_granted": "Clarification of law; no civil-liability determination after compounding; consent requirement affirmed prospectively.",
+  "consumer_category": ["domestic/commercial (direct theft)"],
+  "fact_pattern_tags": ["direct-theft-tapping-LV-mains", "compounding-s152", "deemed-acquittal", "special-court-civil-liability"],
+  "state": ["Delhi (NCT)"],
+  "discom": ["BSES Rajdhani Power Ltd."],
+  "amendment_considered": "post-2007 (Act 26 of 2007) — Sections 152, 153, 154(5) as in force",
+  "regulations_construed": [],
+  "issues_framed": [
+    "whether, notwithstanding the compounding of the criminal liability of a consumer under Section 152 of the Act, the special court can nevertheless proceed to determine the civil liability in exercise of its powers under Section 154(5) of the Act?"
+  ],
+  "provisions_construed": [
+    {"provision": "s.152", "docid": ""},
+    {"provision": "s.152(3)", "docid": ""},
+    {"provision": "s.153", "docid": "83044125"},
+    {"provision": "s.154(5)", "docid": "34349824"},
+    {"provision": "s.145", "docid": "113307258"},
+    {"provision": "CrPC s.300 / s.320", "docid": ""}
+  ],
+  "provision_holdings": [
+    {
+      "provision": "s.152(3)",
+      "issue_node": ["compounding-152"],
+      "holding": "Acceptance of the compounding fee under Section 152 is deemed to amount to an acquittal within the meaning of Section 300 CrPC.",
+      "interpretation_type": "compounding-is-deemed-acquittal",
+      "key_para": "Under Section 152(3) , once the compounding of fee is accepted by the appropriate government or an officer empowered, it shall be deemed to amount to an acquittal within the meaning of Section 300 Cr PC.",
+      "para_ref": "para 20",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.154(5)",
+      "issue_node": ["compounding-152", "jurisdiction-145-154"],
+      "holding": "Civil liability under Section 154(5) is defined (Explanation) as loss 'due to the commission of an offence', so its determination must necessarily be preceded by a positive determination of the commission of the offence.",
+      "interpretation_type": "civil-liability-requires-offence",
+      "key_para": "The Explanation is clear that determination of the civil liability has to necessarily be preceded by a positive determination of the commission of the offence",
+      "para_ref": "para 25",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.152 / s.154(5)",
+      "issue_node": ["compounding-152", "jurisdiction-145-154"],
+      "holding": "After a deemed acquittal by compounding under Section 152(3), the Special Court cannot determine civil liability under Section 154(5); there is no different consequence between an acquittal after full trial and a deemed acquittal by compounding.",
+      "interpretation_type": "no-civil-liability-after-compounding",
+      "key_para": "it is not possible to accept the submission that a Special Court can determine the civil liability against a consumer or a person in terms of money for theft of energy irrespective of there being a deemed acquittal of such consumer as a result of the compounding of the offence under Section 152 (3) of the Act.",
+      "para_ref": "para 25",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.152",
+      "issue_node": ["compounding-152"],
+      "holding": "There cannot be any compounding of the offence under Section 152 without the consent of the complainant-licensee; Section 152 permits the appropriate government to pass the compounding order but does not dispense with the complainant's consent.",
+      "interpretation_type": "compounding-requires-complainant-consent",
+      "key_para": "there cannot be any compounding of the offence without the consent of a complainant. This is evident from the scheme of not only Section 320 Cr PC, but even Section 152 of the Act. While Section 152 permits compounding order to be passed by the appropriate government, it does not dispense with the need to obtain the consent for such compounding by the Complainant",
+      "para_ref": "para 22",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.154",
+      "issue_node": ["jurisdiction-145-154"],
+      "holding": "The Special Court combines both criminal and civil jurisdictions, so the view that a criminal court cannot determine civil liability is incorrect; but its conclusion that no civil liability can be determined after a compounding-acquittal is correct.",
+      "interpretation_type": "special-court-dual-jurisdiction",
+      "key_para": "The view expressed by the Special Court that since it is a criminal court, it cannot determine the civil liability, is incorrect in view of the scheme of Section 154 of the Act. However, the conclusion in the impugned order of the Special Court that there cannot be any determination of the civil liability in the face of an acquittal as a result of compounding of the offence under Section 152 of the Act cannot be faulted.",
+      "para_ref": "para 26",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Radhey Shyam Bansal v. BSES Rajdhani Power Ltd.",
+      "cite": "2008 (148) DLT 462",
+      "court": "Delhi High Court",
+      "docid": "",
+      "principle": "Compounding under Section 152 must be preceded by a bilateral agreement between the complainant (licensee) and the accused; the authorised officer's power to accept compounding is discretionary and the complainant may insist the theft bill be paid as a pre-condition.",
+      "principle_para": "compounding of an offence has to be preceded by a bilateral agreement between the complainant which is BRPL and the accused.",
+      "treatment": "followed",
+      "on_issue": "compounding-152"
+    },
+    {
+      "name": "B.L. Kantroo v. BSES Rajdhani Power Ltd.",
+      "cite": "154 (2008) DLT 56",
+      "court": "Delhi High Court (DB)",
+      "docid": "75630952",
+      "principle": "Recognised the Special Court's exclusive jurisdiction to determine civil liability in theft cases (Section 145); but was not dealing with a compounding situation (this corpus: HC-006).",
+      "treatment": "distinguished",
+      "treatment_para": "The DB was not dealing with a situation where there has been a compounding of the offence under Section 152 of the Act",
+      "on_issue": "jurisdiction-145-154"
+    }
+  ],
+  "ratio": [
+    {
+      "issue_node": "compounding-152",
+      "proposition": "A Section 152 compounding is a deemed acquittal that bars the Special Court from thereafter determining civil liability under Section 154(5) (civil liability being predicated on a positive determination of the offence); and compounding under Section 152 cannot be effected without the complainant-licensee's consent.",
+      "scope": "HC-SB (Delhi)",
+      "novelty": "settles",
+      "conflicts_with": []
+    }
+  ],
+  "significance": "The leading Delhi authority on the compounding-vs-civil-liability interface: it holds that a Section 152 compounding (deemed acquittal under Section 152(3)) prevents the Special Court from determining civil liability under Section 154(5), because civil liability is defined as loss 'due to the commission of an offence' and must follow a positive determination of the offence; and it affirms (following Radhey Shyam Bansal) that compounding needs the complainant-licensee's consent. Complements HC-026 (no compounding under protest) with the consent + civil-liability-extinguishment angles; distinguishes B.L. Kantroo (HC-006).",
+  "validity": {
+    "overall": "good-law",
+    "as_of": "2026-07",
+    "provision_version_ok": true,
+    "per_issue": {
+      "compounding-152": "good-law; the substantive Delhi authority on compounding's effect on civil liability and the complainant-consent requirement.",
+      "jurisdiction-145-154": "good-law on the Special Court's dual (criminal + civil) jurisdiction under Section 154."
+    },
+    "note": "Not overruled. Applies the post-2007 Act. Consider against WBSEDCL v. Orion Metal (SC-003) which holds Section 126 assessment survives independently of the Section 135/154 outcome — HC-029 concerns the Section 154(5) Special-Court civil liability specifically after compounding, a different track."
+  },
+  "flags": [
+    "s.152 compounding = deemed acquittal (s.152(3)/s.300 CrPC)",
+    "after compounding, Special Court CANNOT determine s.154(5) civil liability",
+    "civil liability requires a positive determination of the offence",
+    "compounding under s.152 needs the complainant-licensee's CONSENT (Radhey Shyam Bansal)",
+    "Special Court has dual criminal+civil jurisdiction (s.154)",
+    "cites B.L. Kantroo (HC-006) -> in-corpus edge; complements HC-026",
+    "fills compounding-152 with distinct angles; post-2007-text"
+  ]
+}

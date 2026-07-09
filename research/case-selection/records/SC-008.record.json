@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0",
+  "case_id": "SC-008",
+  "docid": "1557946",
+  "court": "Supreme Court of India",
+  "court_type": "SC",
+  "bench_type": "SC",
+  "title": "Accounts Officer, Jharkhand State Electricity Board v. Anwar Ali",
+  "neutral_cite": "(2007) 11 SCC 753; AIR 2008 SC 164",
+  "date": "2007-10-09",
+  "bench": ["Arijit Pasayat J", "P. Sathasivam J"],
+  "bench_strength": 2,
+  "reportable": true,
+  "one_line": "Supply of electric energy is a 'service' under Section 2(o) of the Consumer Protection Act, but assessment for unauthorised use (a technical matter) engages Section 145 of the Electricity Act, 2003 which expressly bars the civil court from entertaining suits on Section 126 matters and makes the 2003 Act a complete code — so the consumer fora must decide (on remand) whether their beneficial jurisdiction extends to such disputes and tortious acts.",
+  "facts_squib": "An electricity consumer's supply was disconnected; the consumer fora (District/State/National) awarded Rs 50,000 compensation holding the disconnection was without prior notice. The Board appealed, arguing (a) an electricity consumer may not be a 'consumer' under the Consumer Protection Act, and (b) assessment/technical disputes under the 2003 Act (with the Section 145 civil-court bar) are outside the consumer fora's domain.",
+  "disposition": "Appeal allowed to the extent of setting aside the National Commission's order and remitting the matter to record a positive finding on whether an electricity consumer is a 'consumer' under Section 2(o) CPA, and on the disputed service of the disconnection notice.",
+  "procedural_posture": "Civil appeal from the National Consumer Disputes Redressal Commission",
+  "outcome_for": "mixed (remanded to the National Commission)",
+  "relief_granted": "National Commission order set aside; remitted for findings on CPA coverage and notice service.",
+  "consumer_category": ["domestic/general"],
+  "fact_pattern_tags": ["disconnection-without-notice", "consumer-forum-jurisdiction", "s145-bar-noted"],
+  "state": ["Jharkhand"],
+  "discom": ["Jharkhand State Electricity Board"],
+  "amendment_considered": "references the Electricity Act, 2003 (Sections 126, 145) and the Consumer Protection Act, 1986",
+  "regulations_construed": [],
+  "issues_framed": [],
+  "provisions_construed": [
+    {"provision": "s.126", "docid": "124046987"},
+    {"provision": "s.145", "docid": "113307258"},
+    {"provision": "Consumer Protection Act 1986, s.2(o)", "docid": ""}
+  ],
+  "provision_holdings": [
+    {
+      "provision": "Consumer Protection Act s.2(o)",
+      "issue_node": ["jurisdiction-145-154"],
+      "holding": "Supply of electric energy by the utility falls within 'service' as defined in Section 2(o) of the Consumer Protection Act, 1986.",
+      "interpretation_type": "electricity-supply-is-service",
+      "key_para": "supply of electric energy by the Nigam falls under Section 2(o) of the Act.",
+      "para_ref": "para 8",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.145",
+      "issue_node": ["jurisdiction-145-154", "assessment-126"],
+      "holding": "It was noted (relying on the Board's contention and Mam Chand) that Section 145 of the 2003 Act expressly bars the civil court from entertaining suits on matters falling under Section 126, the Act being a complete code, so assessment disputes should go to the competent authority under the Act.",
+      "interpretation_type": "s145-bar-noted",
+      "key_para": "under the Electricity Act, 2003 the jurisdiction of the civil court is excluded. In this connection reliance was placed on Section 145 of the said 2003 Act under which the jurisdiction of the civil court to entertain suits in respect of matters falling under Section 126 is expressly barred.",
+      "para_ref": "para 8",
+      "holding_type": "explanatory",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.126",
+      "issue_node": ["assessment-126", "jurisdiction-145-154"],
+      "holding": "Assessment of the charge for unauthorised use, meter-tampering and calibration are technical matters; whether the beneficial consumer jurisdiction extends to such determinations (and to tortious acts like disconnection) is left open and remitted to the National Commission.",
+      "interpretation_type": "open-question-remitted",
+      "key_para": "whether the beneficial consumer jurisdiction extends to determination of tortuous acts and liability arising therefrom by the Consumer Forum.",
+      "para_ref": "para 8",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Haryana State Electricity Board v. Mam Chand",
+      "cite": "(2006) 4 SCC 649",
+      "court": "Supreme Court",
+      "docid": "",
+      "principle": "Noted for the position that assessment of electricity bills engages the statutory scheme (the consumer should be relegated to the competent authority).",
+      "treatment": "referred",
+      "on_issue": "jurisdiction-145-154"
+    }
+  ],
+  "ratio": [
+    {
+      "issue_node": "jurisdiction-145-154",
+      "proposition": "Electricity supply is a 'service' under the Consumer Protection Act, but assessment disputes under Section 126 engage the Section 145 civil-court bar and the complete-code character of the 2003 Act; whether the consumer fora's jurisdiction extends to such technical/assessment disputes is left open and remitted.",
+      "scope": "SC-binding (on the CPA 'service' point); the Section 145 bar recorded, not finally adjudicated",
+      "novelty": "explains",
+      "conflicts_with": []
+    }
+  ],
+  "significance": "An early (2007) Supreme Court treatment of the interface between the consumer fora and the Electricity Act, 2003: it confirms electricity supply is a 'service' under the Consumer Protection Act, records the Section 145 civil-court bar on Section 126 assessment matters and the Act's complete-code character, and leaves open (remitting) whether the consumer fora may decide technical assessment/tortious disputes. A precursor to Anis Ahmad (SC-001, 2013), which later settled that consumer fora cannot decide Section 126/135 assessment disputes. Expert-cited (from the commentary).",
+  "validity": {
+    "overall": "good-law",
+    "as_of": "2026-07",
+    "provision_version_ok": true,
+    "per_issue": {
+      "jurisdiction-145-154": "good-law as a foundational precursor; the open question it remitted was later settled by Anis Ahmad (SC-001) — consumer fora cannot adjudicate Section 126/135 assessment disputes."
+    },
+    "note": "Not overruled. Primarily a consumer-forum-jurisdiction case; the Section 145/Section 126 points are recorded (via the Board's contention and Mam Chand), with the core question remitted. Read with Anis Ahmad (SC-001) for the settled position."
+  },
+  "flags": [
+    "electricity supply = 'service' under CPA s.2(o)",
+    "records s.145 bar on civil court for s.126 assessment matters + complete-code",
+    "leaves open (remits) whether consumer fora decide technical/assessment/tortious disputes",
+    "precursor to Anis Ahmad (SC-001) on consumer-forum jurisdiction",
+    "expert-cited; SC 2-Judge; foundational jurisdiction-145-154"
+  ]
+}
