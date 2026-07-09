@@ -22,14 +22,14 @@ issue_labels = {
 def ilabel(n): return issue_labels.get(n, n)
 
 ph_rows = ""
-for h in rec.get("provision_holdings", []):
+for i, h in enumerate(rec.get("provision_holdings", [])):
     nodes = h.get("issue_node", [])
     if isinstance(nodes, str): nodes = [nodes]
     htype = h.get("holding_type","")
     htbadge = f'<span class="htype ht-{esc(htype)}">{esc(htype)}</span>' if htype else ""
     pver = f'<span class="pver">{esc(h.get("provision_version",""))}</span>' if h.get("provision_version") else ""
     ph_rows += f"""
-    <div class="holding">
+    <div class="holding" id="h{i}">
       <div class="holding-head">
         <span class="prov">{esc(h['provision'])}</span>{htbadge}{pver}
         <span class="itype">{esc(h.get('interpretation_type',''))}</span>
@@ -128,7 +128,8 @@ h1 {{ font-size:16pt; margin:0 0 2px; }}
 .meta b {{ color:#111; }}
 .oneline {{ background:#f7f2ee; border-left:3px solid #7a2e2e; padding:8px 12px; font-style:italic; margin:12px 0; }}
 h2 {{ font-size:11.5pt; color:#7a2e2e; border-bottom:1px solid #d8c9c0; padding-bottom:3px; margin:18px 0 8px; text-transform:uppercase; letter-spacing:.5px; }}
-.holding {{ margin:0 0 12px; padding:0 0 10px; border-bottom:1px dotted #ddd; }}
+.holding {{ margin:0 0 12px; padding:6px 8px 10px; border-bottom:1px dotted #ddd; scroll-margin-top:14px; border-radius:4px; }}
+.holding:target {{ background:#fff6e6; box-shadow:0 0 0 2px #e0b34d; }}
 .holding-head {{ margin-bottom:4px; }}
 .prov {{ font-weight:bold; background:#7a2e2e; color:#fff; padding:1px 7px; border-radius:3px; font-size:9.5pt; font-family:Arial,sans-serif; }}
 .itype {{ font-family:Arial,sans-serif; font-size:8.5pt; color:#7a2e2e; margin-left:6px; }}
@@ -220,5 +221,7 @@ IK doc {esc(rec['docid'])} &nbsp;|&nbsp; {esc(rec['case_id'])} &nbsp;|&nbsp; sch
 </body></html>"""
 
 out = path.replace(".json", ".html")
-open(out, "w").write(doc)
+# Write ASCII-only (numeric character references) so the page renders correctly
+# regardless of how the viewer guesses the charset.
+open(out, "w", encoding="ascii", errors="xmlcharrefreplace").write(doc)
 print("wrote", out)
