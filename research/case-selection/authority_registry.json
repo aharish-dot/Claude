@@ -2,7 +2,7 @@
   "_note": "Canonical authority registry (improvement 2). Merges name variants so the citation graph doesn't split one authority into several (e.g. Seetaram 'SOUTHCO' vs 'Southern Electricity Supply Co.'), and links authorities to corpus records via docid. 'aliases' are lowercase substrings; the first alias that appears in a (lowercased) authority name wins. docid, where present, is the Indian Kanoon id (also used to draw in-corpus edges).",
   "authorities": {
     "seetaram": {"canonical": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (SOUTHCO) v. Sri Seetaram Rice Mill", "cite": "(2012) 2 SCC 108", "court": "Supreme Court (3-Judge)", "docid": "43074463", "aliases": ["seetaram", "seetharam", "southco"]},
-    "orion-metal": {"canonical": "WBSEDCL v. Orion Metal Pvt. Ltd.", "cite": "(2020) 18 SCC 588", "court": "Supreme Court", "docid": "", "aliases": ["orion metal"]},
+    "orion-metal": {"canonical": "WBSEDCL v. Orion Metal Pvt. Ltd.", "cite": "(2020) 18 SCC 588", "court": "Supreme Court", "docid": "95828096", "aliases": ["orion metal"]},
     "anis-ahmad": {"canonical": "U.P. Power Corporation Ltd. v. Anis Ahmad", "cite": "(2013) 8 SCC 491", "court": "Supreme Court", "docid": "55216283", "aliases": ["anis ahmad"]},
     "anwar-ali": {"canonical": "Accounts Officer, Jharkhand SEB v. Anwar Ali", "cite": "(2008) 12 SCC 774", "court": "Supreme Court", "docid": "1557946", "aliases": ["anwar ali"]},
     "thomas-joseph": {"canonical": "Kerala SEB v. Thomas Joseph", "cite": "(2008) 1 SCC 213", "court": "Supreme Court", "docid": "12823358", "aliases": ["thomas joseph"]},

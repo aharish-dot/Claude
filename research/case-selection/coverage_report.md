@@ -1,49 +1,55 @@
 # Coverage report — selection worklist
 
-Corpus: **25 records** — 4 SC, 21 HC across 11 states.
+Corpus: **30 records** — 8 SC, 22 HC across 13 states.
 
 ## 1 · Issue-node coverage (thin = <2 cases; single = 1)
 
 - `126v135` — 18 case(s) ✓  (lead SC-002)
-- `assessment-126` — 12 case(s) ✓  (lead SC-002)
-- `mensrea-135` — 15 case(s) ✓  (lead SC-002)
+- `assessment-126` — 14 case(s) ✓  (lead SC-002)
+- `mensrea-135` — 16 case(s) ✓  (lead SC-002)
 - `appeal-127` — 14 case(s) ✓  (lead SC-002)
-- `jurisdiction-145-154` — 12 case(s) ✓  (lead SC-002)
-- `compounding-152` — 2 case(s) • thin  (lead HC-026)
+- `jurisdiction-145-154` — 17 case(s) ✓  (lead SC-002)
+- `compounding-152` — 3 case(s) ✓  (lead HC-029)
 - `natural-justice` — 14 case(s) ✓  (lead HC-003)
 - `provisional-final` — 11 case(s) ✓  (lead SC-002)
 - `burden-proof` — 6 case(s) ✓  (lead SC-003)
-- `limitation-56` — 2 case(s) • thin  (lead SC-004)
+- `limitation-56` — 4 case(s) ✓  (lead SC-004)
 
 ## 2 · Provision-version risk (holdings resting only on superseded text)
 
-- `s.49` — 1 holding(s), only ['pre-2003'] → **no current-text authority**
+- `s.49` — 2 holding(s), only ['pre-2003'] → **no current-text authority**
 - `s.72` — 1 holding(s), only ['pre-2007'] → **no current-text authority**
 
 ## 3 · Court hierarchy
 
-- SC records: **4** — ✓
-- bench mix: {'HC-SB': 13, 'SC': 3, 'HC-DB': 8, None: 1}
+- SC records: **8** — ✓
+- bench mix: {'SC': 7, 'HC-SB': 14, 'HC-DB': 8, None: 1}
 
 ## 4 · Consumer-category coverage
 
-- industrial: 12 
-- commercial: 13 
-- domestic: 4 
+- industrial: 14 
+- commercial: 16 
+- domestic: 7 
 - agricultural: 1 
 
 ## 5 · Fact-pattern coverage
 
 - excess-load: 7
 - theft-by-tapping: 3
+- s56(2)-limitation: 2
 - FIR-under-135: 2
+- tampered-meter: 2
+- disconnection-without-notice: 2
 - FIR-for-theft: 2
 - no-final-assessment: 2
 - criminal-acquittal: 2
+- short/escaped-assessment: 1
+- wrong-multiply-factor: 1
+- licensee-mistake: 1
+- deficiency-in-service: 1
 - compounding-cheques-encashed: 1
 - s126-assessment: 1
 - appeal-dismissed-for-jurisdiction: 1
-- tampered-meter: 1
 - foreign-material-in-TTB: 1
 - theft-by-tampering: 1
 - criminal-complaint-filed: 1
@@ -51,10 +57,8 @@ Corpus: **25 records** — 4 SC, 21 HC across 11 states.
 - wrong-tariff-code: 1
 - audit-discovered-mistake: 1
 - supplementary-demand: 1
-- s56(2)-limitation: 1
 - unauthorised-extension-to-tenants: 1
 - meter-burnt: 1
-- disconnection-without-notice: 1
 - direct-hook/bypass (tapping LV mains): 1
 - excess-load-alleged: 1
 - Special-Court-complaint-pending: 1
@@ -70,6 +74,12 @@ Corpus: **25 records** — 4 SC, 21 HC across 11 states.
 - s126-assessment-on-same-facts: 1
 - s127-appeal-bypassed: 1
 - no-deposit: 1
+- consumer-forum-jurisdiction: 1
+- s145-bar-noted: 1
+- direct-theft-tapping-LV-mains: 1
+- compounding-s152: 1
+- deemed-acquittal: 1
+- special-court-civil-liability: 1
 - exceeded-contract-demand-100KVA: 1
 - LT-to-HT-category-change: 1
 - penalty-already-paid-argument: 1
@@ -96,6 +106,11 @@ Corpus: **25 records** — 4 SC, 21 HC across 11 states.
 - wrong-purpose: 1
 - compounding-fee-collected: 1
 - appeal-returned-without-hearing: 1
+- dues-on-transfer: 1
+- auction-purchaser: 1
+- as-is-where-is: 1
+- reconnection-vs-fresh-connection: 1
+- charge-on-premises: 1
 - overdrawal-of-maximum-demand: 1
 - change-of-category: 1
 - provisional-assessment-challenged-in-writ: 1
@@ -122,6 +137,10 @@ Corpus: **25 records** — 4 SC, 21 HC across 11 states.
 - unauthorised-use: 1
 - appeal-limitation: 1
 - inspection-not-in-consumer-presence: 1
+- direct-theft: 1
+- FIR-and-charge-sheet: 1
+- cognizance-s151: 1
+- HC-split-resolved: 1
 - tampered-seals: 1
 - meter-running-slow: 1
 - no-s127-appeal: 1

@@ -25,8 +25,8 @@
       {
         "case_id": "SC-003",
         "court_type": "SC",
-        "score": 40,
-        "in_degree": 0,
+        "score": 55,
+        "in_degree": 3,
         "novelty": 6
       },
       {
@@ -44,6 +44,13 @@
         "novelty": 0
       },
       {
+        "case_id": "HC-006",
+        "court_type": "HC",
+        "score": 32,
+        "in_degree": 1,
+        "novelty": 3
+      },
+      {
         "case_id": "HC-019",
         "court_type": "HC",
         "score": 29,
@@ -52,13 +59,6 @@
       },
       {
         "case_id": "HC-024",
-        "court_type": "HC",
-        "score": 27,
-        "in_degree": 0,
-        "novelty": 3
-      },
-      {
-        "case_id": "HC-006",
         "court_type": "HC",
         "score": 27,
         "in_degree": 0,
@@ -752,7 +752,7 @@
     "split_flag": false
   },
   "assessment-126": {
-    "n_cases": 12,
+    "n_cases": 14,
     "leading_case": {
       "case_id": "SC-002",
       "title": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (SOUTHCO) v. Sri Seetaram Rice Mill",
@@ -761,10 +761,10 @@
       "score": 110
     },
     "apex_case": {
-      "case_id": "SC-003",
-      "title": "West Bengal State Electricity Distribution Co. Ltd. (WBSEDCL) v. M/s Orion Metal Pvt. Ltd.",
+      "case_id": "SC-006",
+      "title": "M/s Prem Cottex v. Uttar Haryana Bijli Vitran Nigam Ltd.",
       "court_type": "SC",
-      "date": "2019-08-21"
+      "date": "2021-10-05"
     },
     "ranking": [
       {
@@ -777,12 +777,26 @@
       {
         "case_id": "SC-003",
         "court_type": "SC",
+        "score": 49,
+        "in_degree": 3,
+        "novelty": 0
+      },
+      {
+        "case_id": "SC-006",
+        "court_type": "SC",
         "score": 34,
         "in_degree": 0,
         "novelty": 0
       },
       {
         "case_id": "SC-001",
+        "court_type": "SC",
+        "score": 34,
+        "in_degree": 0,
+        "novelty": 0
+      },
+      {
+        "case_id": "SC-008",
         "court_type": "SC",
         "score": 34,
         "in_degree": 0,
@@ -861,6 +875,13 @@
         "outcome_for": "consumer"
       },
       {
+        "case_id": "SC-008",
+        "title": "Accounts Officer, Jharkhand State Electricity Board v. Anwar Ali",
+        "court_type": "SC",
+        "date": "2007-10-09",
+        "outcome_for": "mixed (remanded to the National Commission)"
+      },
+      {
         "case_id": "HC-020",
         "title": "M/s Mohit Paper Mills Ltd. v. PVVNL",
         "court_type": "HC",
@@ -924,6 +945,13 @@
         "outcome_for": "licensee"
       },
       {
+        "case_id": "SC-006",
+        "title": "M/s Prem Cottex v. Uttar Haryana Bijli Vitran Nigam Ltd.",
+        "court_type": "SC",
+        "date": "2021-10-05",
+        "outcome_for": "licensee"
+      },
+      {
         "case_id": "HC-024",
         "title": "Castron Technologies Ltd. v. Damodar Valley Corporation",
         "court_type": "HC",
@@ -946,6 +974,20 @@
         "novelty": "settles",
         "text": "A Section 126 provisional assessment must (a) be made under Section 126 itself, not under the Board's old supply conditions, and (b) be the assessing officer's own best judgment on his personal observation; an assessment dictated by a superior's guideline is a nullity, and coerced payment on an illegal assessment is recoverable as unjust enrichment.",
         "conflicts_with": []
+      },
+      {
+        "case_id": "SC-008",
+        "source": "holding",
+        "provision": "s.145",
+        "holding_type": "explanatory",
+        "text": "It was noted (relying on the Board's contention and Mam Chand) that Section 145 of the 2003 Act expressly bars the civil court from entertaining suits on matters falling under Section 126, the Act being a complete code, so assessment disputes should go to the competent authority under the Act."
+      },
+      {
+        "case_id": "SC-008",
+        "source": "holding",
+        "provision": "s.126",
+        "holding_type": "ratio",
+        "text": "Assessment of the charge for unauthorised use, meter-tampering and calibration are technical matters; whether the beneficial consumer jurisdiction extends to such determinations (and to tortious acts like disconnection) is left open and remitted to the National Commission."
       },
       {
         "case_id": "HC-020",
@@ -1030,6 +1072,13 @@
         "conflicts_with": []
       },
       {
+        "case_id": "SC-006",
+        "source": "holding",
+        "provision": "Consumer Protection Act s.2(1)(g)",
+        "holding_type": "ratio",
+        "text": "Raising a short-assessment demand to correct the licensee's own wrong multiply-factor is not a 'deficiency in service' where the consumer does not dispute the short-billing; it is 'escaped assessment', so the consumer fora cannot interfere."
+      },
+      {
         "case_id": "HC-024",
         "source": "holding",
         "provision": "s.126(2)",
@@ -1060,7 +1109,7 @@
       "title": "West Bengal State Electricity Distribution Co. Ltd. (WBSEDCL) v. M/s Orion Metal Pvt. Ltd.",
       "court_type": "SC",
       "date": "2019-08-21",
-      "score": 34
+      "score": 49
     },
     "apex_case": {
       "case_id": "SC-003",
@@ -1072,8 +1121,8 @@
       {
         "case_id": "SC-003",
         "court_type": "SC",
-        "score": 34,
-        "in_degree": 0,
+        "score": 49,
+        "in_degree": 3,
         "novelty": 0
       },
       {
@@ -1218,13 +1267,13 @@
     "split_flag": false
   },
   "compounding-152": {
-    "n_cases": 2,
+    "n_cases": 3,
     "leading_case": {
-      "case_id": "HC-026",
-      "title": "V. Swaminathan v. Superintending Engineer, TANGEDCO",
+      "case_id": "HC-029",
+      "title": "BSES Rajdhani Power Ltd. v. Jagat Ram",
       "court_type": "HC",
-      "date": "2018-02-09",
-      "score": 17
+      "date": "2014-12-10",
+      "score": 19
     },
     "apex_case": {
       "case_id": "HC-026",
@@ -1233,6 +1282,13 @@
       "date": "2018-02-09"
     },
     "ranking": [
+      {
+        "case_id": "HC-029",
+        "court_type": "HC",
+        "score": 19,
+        "in_degree": 0,
+        "novelty": 6
+      },
       {
         "case_id": "HC-026",
         "court_type": "HC",
@@ -1250,6 +1306,13 @@
     ],
     "line_of_authority": [
       {
+        "case_id": "HC-029",
+        "title": "BSES Rajdhani Power Ltd. v. Jagat Ram",
+        "court_type": "HC",
+        "date": "2014-12-10",
+        "outcome_for": "mixed (civil liability cannot be determined post-compounding; but compounding needs complainant consent prospectively)"
+      },
+      {
         "case_id": "HC-009",
         "title": "Ramesh Chand v. Uttar Haryana Bijli Vitran Nigam Ltd.",
         "court_type": "HC",
@@ -1265,6 +1328,14 @@
       }
     ],
     "contributions": [
+      {
+        "case_id": "HC-029",
+        "source": "ratio",
+        "scope": "HC-SB (Delhi)",
+        "novelty": "settles",
+        "text": "A Section 152 compounding is a deemed acquittal that bars the Special Court from thereafter determining civil liability under Section 154(5) (civil liability being predicated on a positive determination of the offence); and compounding under Section 152 cannot be effected without the complainant-licensee's consent.",
+        "conflicts_with": []
+      },
       {
         "case_id": "HC-009",
         "source": "ratio",
@@ -1285,7 +1356,7 @@
     "split_flag": false
   },
   "jurisdiction-145-154": {
-    "n_cases": 12,
+    "n_cases": 17,
     "leading_case": {
       "case_id": "SC-002",
       "title": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (SOUTHCO) v. Sri Seetaram Rice Mill",
@@ -1294,10 +1365,10 @@
       "score": 110
     },
     "apex_case": {
-      "case_id": "SC-003",
-      "title": "West Bengal State Electricity Distribution Co. Ltd. (WBSEDCL) v. M/s Orion Metal Pvt. Ltd.",
+      "case_id": "SC-005",
+      "title": "K.C. Ninan v. Kerala State Electricity Board",
       "court_type": "SC",
-      "date": "2019-08-21"
+      "date": "2023-05-19"
     },
     "ranking": [
       {
@@ -1308,6 +1379,20 @@
         "novelty": 0
       },
       {
+        "case_id": "SC-003",
+        "court_type": "SC",
+        "score": 49,
+        "in_degree": 3,
+        "novelty": 0
+      },
+      {
+        "case_id": "SC-005",
+        "court_type": "SC",
+        "score": 41,
+        "in_degree": 0,
+        "novelty": 6
+      },
+      {
         "case_id": "SC-001",
         "court_type": "SC",
         "score": 40,
@@ -1315,11 +1400,32 @@
         "novelty": 6
       },
       {
-        "case_id": "SC-003",
+        "case_id": "SC-008",
+        "court_type": "SC",
+        "score": 35,
+        "in_degree": 0,
+        "novelty": 1
+      },
+      {
+        "case_id": "SC-006",
         "court_type": "SC",
         "score": 34,
         "in_degree": 0,
         "novelty": 0
+      },
+      {
+        "case_id": "SC-007",
+        "court_type": "SC",
+        "score": 34,
+        "in_degree": 0,
+        "novelty": 0
+      },
+      {
+        "case_id": "HC-006",
+        "court_type": "HC",
+        "score": 34,
+        "in_degree": 1,
+        "novelty": 5
       },
       {
         "case_id": "HC-003",
@@ -1327,13 +1433,6 @@
         "score": 32,
         "in_degree": 2,
         "novelty": 0
-      },
-      {
-        "case_id": "HC-006",
-        "court_type": "HC",
-        "score": 29,
-        "in_degree": 0,
-        "novelty": 5
       },
       {
         "case_id": "HC-019",
@@ -1364,6 +1463,13 @@
         "novelty": 3
       },
       {
+        "case_id": "HC-029",
+        "court_type": "HC",
+        "score": 13,
+        "in_degree": 0,
+        "novelty": 0
+      },
+      {
         "case_id": "HC-022",
         "court_type": "HC",
         "score": 11,
@@ -1386,6 +1492,13 @@
       }
     ],
     "line_of_authority": [
+      {
+        "case_id": "SC-008",
+        "title": "Accounts Officer, Jharkhand State Electricity Board v. Anwar Ali",
+        "court_type": "SC",
+        "date": "2007-10-09",
+        "outcome_for": "mixed (remanded to the National Commission)"
+      },
       {
         "case_id": "HC-006",
         "title": "Sh. B.L. Kantroo v. BSES Rajdhani Power Ltd.",
@@ -1422,11 +1535,25 @@
         "outcome_for": "licensee"
       },
       {
+        "case_id": "SC-007",
+        "title": "Vishal Agrawal v. Chhattisgarh State Electricity Board",
+        "court_type": "SC",
+        "date": "2014-01-29",
+        "outcome_for": "licensee"
+      },
+      {
         "case_id": "HC-003",
         "title": "Sandeep Kesarwani v. State of U.P. & 3 Others",
         "court_type": "HC",
         "date": "2014-02-11",
         "outcome_for": "mixed (consumer on natural justice; licensee on the s.126-in-theft and s.56(2) points)"
+      },
+      {
+        "case_id": "HC-029",
+        "title": "BSES Rajdhani Power Ltd. v. Jagat Ram",
+        "court_type": "HC",
+        "date": "2014-12-10",
+        "outcome_for": "mixed (civil liability cannot be determined post-compounding; but compounding needs complainant consent prospectively)"
       },
       {
         "case_id": "HC-009",
@@ -1457,6 +1584,13 @@
         "outcome_for": "licensee"
       },
       {
+        "case_id": "SC-006",
+        "title": "M/s Prem Cottex v. Uttar Haryana Bijli Vitran Nigam Ltd.",
+        "court_type": "SC",
+        "date": "2021-10-05",
+        "outcome_for": "licensee"
+      },
+      {
         "case_id": "HC-017",
         "title": "Ashok Kumar Maity v. West Bengal State Electricity Board (WBSEDCL)",
         "court_type": "HC",
@@ -1469,9 +1603,24 @@
         "court_type": "HC",
         "date": "2022-07-15",
         "outcome_for": "consumer"
+      },
+      {
+        "case_id": "SC-005",
+        "title": "K.C. Ninan v. Kerala State Electricity Board",
+        "court_type": "SC",
+        "date": "2023-05-19",
+        "outcome_for": "mixed (law: arrears recoverable where a statutory charge exists; relief varied per appeal; interest waived under Article 142)"
       }
     ],
     "contributions": [
+      {
+        "case_id": "SC-008",
+        "source": "ratio",
+        "scope": "SC-binding (on the CPA 'service' point); the Section 145 bar recorded, not finally adjudicated",
+        "novelty": "explains",
+        "text": "Electricity supply is a 'service' under the Consumer Protection Act, but assessment disputes under Section 126 engage the Section 145 civil-court bar and the complete-code character of the 2003 Act; whether the consumer fora's jurisdiction extends to such technical/assessment disputes is left open and remitted.",
+        "conflicts_with": []
+      },
       {
         "case_id": "HC-006",
         "source": "ratio",
@@ -1518,11 +1667,60 @@
         "conflicts_with": []
       },
       {
+        "case_id": "SC-007",
+        "source": "holding",
+        "provision": "s.135",
+        "holding_type": "ratio",
+        "text": "Theft of electricity under Section 135 (punishable up to three years) is a cognizable offence; the CrPC therefore applies and it is the duty of the police to register an FIR and investigate."
+      },
+      {
+        "case_id": "SC-007",
+        "source": "holding",
+        "provision": "s.151",
+        "holding_type": "ratio",
+        "text": "Section 151 enables authorised persons to file a written complaint before the Court (on which cognizance may be taken straightway), but it does not exclude the other avenue of a police FIR/investigation; the Electricity Act is not a complete machinery for how offences are dealt with, so the CrPC governs."
+      },
+      {
+        "case_id": "SC-007",
+        "source": "holding",
+        "provision": "s.151",
+        "holding_type": "ratio",
+        "text": "The amendment (proviso) to Section 151 permitting cognizance on a police report is clarificatory in nature and applies to pending matters (retrospective); notwithstanding Section 151, an FIR could be filed with the police even under the unamended provision."
+      },
+      {
+        "case_id": "SC-007",
+        "source": "holding",
+        "provision": "s.135 / s.151",
+        "holding_type": "ratio",
+        "text": "The contrary High Court view (complaint-only route) does not lay down correct law; the police-FIR-competent view is approved — resolving the split."
+      },
+      {
         "case_id": "HC-003",
         "source": "holding",
         "provision": "s.154(5),(6)",
         "holding_type": "ratio",
         "text": "The Special Court's power under Section 154(5) to determine civil liability for theft does not preclude a Section 126 assessment; the amount 'deposited' referred to in Section 154(6) is the amount assessed under Section 126, there being no other provision for such a deposit."
+      },
+      {
+        "case_id": "HC-029",
+        "source": "holding",
+        "provision": "s.154(5)",
+        "holding_type": "ratio",
+        "text": "Civil liability under Section 154(5) is defined (Explanation) as loss 'due to the commission of an offence', so its determination must necessarily be preceded by a positive determination of the commission of the offence."
+      },
+      {
+        "case_id": "HC-029",
+        "source": "holding",
+        "provision": "s.152 / s.154(5)",
+        "holding_type": "ratio",
+        "text": "After a deemed acquittal by compounding under Section 152(3), the Special Court cannot determine civil liability under Section 154(5); there is no different consequence between an acquittal after full trial and a deemed acquittal by compounding."
+      },
+      {
+        "case_id": "HC-029",
+        "source": "holding",
+        "provision": "s.154",
+        "holding_type": "ratio",
+        "text": "The Special Court combines both criminal and civil jurisdictions, so the view that a criminal court cannot determine civil liability is incorrect; but its conclusion that no civil liability can be determined after a compounding-acquittal is correct."
       },
       {
         "case_id": "HC-009",
@@ -1567,6 +1765,20 @@
         "text": "The 'amount deposited by the consumer' in Section 154(6) is the amount deposited under Section 126 — there being no other deposit provision for theft — so Section 126 assessment and the Special Court's Section 154(5) determination coexist."
       },
       {
+        "case_id": "SC-006",
+        "source": "holding",
+        "provision": "Consumer Protection Act s.2(1)(g)",
+        "holding_type": "ratio",
+        "text": "Raising a short-assessment demand to correct the licensee's own wrong multiply-factor is not a 'deficiency in service' where the consumer does not dispute the short-billing; it is 'escaped assessment', so the consumer fora cannot interfere."
+      },
+      {
+        "case_id": "SC-006",
+        "source": "holding",
+        "provision": "Consumer Protection Act",
+        "holding_type": "ratio",
+        "text": "A consumer forum must, at the threshold, find whether there was any deficiency in service before it can test the licensee's recovery against Section 56."
+      },
+      {
         "case_id": "HC-017",
         "source": "holding",
         "provision": "s.145",
@@ -1579,32 +1791,54 @@
         "provision": "s.154(6)",
         "holding_type": "ratio",
         "text": "The Explanation to Section 154(6) ('civil liability') refers to the liability determined by the Special Court under Section 154(5) for theft, not to the amount raised as a provisional assessment under Section 126."
+      },
+      {
+        "case_id": "SC-005",
+        "source": "ratio",
+        "scope": "SC-binding (3-Judge)",
+        "novelty": "settles",
+        "text": "Electricity arrears of a previous owner/occupier are recoverable from a transferee/auction-purchaser as a precondition to supply where a statutory Condition of Supply / Supply Code so provides; the Section 43 duty to supply is not absolute, the Sections 50/181 (and 1948 Act Section 49) powers can create a statutory charge on the premises, and the suit remedy is independent of the Section 56 disconnection remedy.",
+        "conflicts_with": []
       }
     ],
     "split_flag": false
   },
   "limitation-56": {
-    "n_cases": 2,
+    "n_cases": 4,
     "leading_case": {
       "case_id": "SC-004",
       "title": "Assistant Engineer (D1), Ajmer Vidyut Vitran Nigam Ltd. v. Rahamatullah Khan",
       "court_type": "SC",
       "date": "2020-02-18",
-      "score": 41
+      "score": 46
     },
     "apex_case": {
-      "case_id": "SC-004",
-      "title": "Assistant Engineer (D1), Ajmer Vidyut Vitran Nigam Ltd. v. Rahamatullah Khan",
+      "case_id": "SC-005",
+      "title": "K.C. Ninan v. Kerala State Electricity Board",
       "court_type": "SC",
-      "date": "2020-02-18"
+      "date": "2023-05-19"
     },
     "ranking": [
       {
         "case_id": "SC-004",
         "court_type": "SC",
-        "score": 41,
-        "in_degree": 0,
+        "score": 46,
+        "in_degree": 1,
         "novelty": 6
+      },
+      {
+        "case_id": "SC-005",
+        "court_type": "SC",
+        "score": 35,
+        "in_degree": 0,
+        "novelty": 0
+      },
+      {
+        "case_id": "SC-006",
+        "court_type": "SC",
+        "score": 35,
+        "in_degree": 0,
+        "novelty": 1
       },
       {
         "case_id": "HC-003",
@@ -1628,6 +1862,20 @@
         "court_type": "SC",
         "date": "2020-02-18",
         "outcome_for": "consumer"
+      },
+      {
+        "case_id": "SC-006",
+        "title": "M/s Prem Cottex v. Uttar Haryana Bijli Vitran Nigam Ltd.",
+        "court_type": "SC",
+        "date": "2021-10-05",
+        "outcome_for": "licensee"
+      },
+      {
+        "case_id": "SC-005",
+        "title": "K.C. Ninan v. Kerala State Electricity Board",
+        "court_type": "SC",
+        "date": "2023-05-19",
+        "outcome_for": "mixed (law: arrears recoverable where a statutory charge exists; relief varied per appeal; interest waived under Article 142)"
       }
     ],
     "contributions": [
@@ -1646,12 +1894,29 @@
         "novelty": "settles",
         "text": "Charges become 'first due' under Section 56(2) only on issuance of the bill; the Section 56(1) disconnection right is subject to a two-year limitation from that date; beyond two years the licensee may raise a supplementary demand and pursue other recovery modes (limitation for a suit on a mistake running from discovery under Section 17(1)(c) Limitation Act) but cannot disconnect supply.",
         "conflicts_with": []
+      },
+      {
+        "case_id": "SC-006",
+        "source": "ratio",
+        "scope": "SC-binding (2-Judge; distinguishes the 3-Judge Rahamatullah Khan on facts)",
+        "novelty": "explains",
+        "text": "Section 56(2) bars both recovery and disconnection (its disconnection bar being an exception to the ordinary law of limitation), but the bar is keyed to a consumer's neglect to pay a 'sum due'; a licensee's correction of its own short-billing mistake is escaped assessment (not deficiency in service and not a consumer's default), and limitation runs only from when a bill/demand is raised.",
+        "conflicts_with": [
+          "190288453"
+        ]
+      },
+      {
+        "case_id": "SC-005",
+        "source": "holding",
+        "provision": "s.56",
+        "holding_type": "ratio",
+        "text": "The power to initiate recovery proceedings by filing a suit against a defaulting consumer is independent of the power to disconnect supply as a means of recovery under Section 56."
       }
     ],
-    "split_flag": false
+    "split_flag": true
   },
   "mensrea-135": {
-    "n_cases": 15,
+    "n_cases": 16,
     "leading_case": {
       "case_id": "SC-002",
       "title": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (SOUTHCO) v. Sri Seetaram Rice Mill",
@@ -1676,9 +1941,16 @@
       {
         "case_id": "SC-003",
         "court_type": "SC",
-        "score": 34,
-        "in_degree": 0,
+        "score": 49,
+        "in_degree": 3,
         "novelty": 0
+      },
+      {
+        "case_id": "SC-007",
+        "court_type": "SC",
+        "score": 40,
+        "in_degree": 0,
+        "novelty": 6
       },
       {
         "case_id": "SC-001",
@@ -1802,6 +2074,13 @@
         "outcome_for": "licensee"
       },
       {
+        "case_id": "SC-007",
+        "title": "Vishal Agrawal v. Chhattisgarh State Electricity Board",
+        "court_type": "SC",
+        "date": "2014-01-29",
+        "outcome_for": "licensee"
+      },
+      {
         "case_id": "HC-009",
         "title": "Ramesh Chand v. Uttar Haryana Bijli Vitran Nigam Ltd.",
         "court_type": "HC",
@@ -1914,6 +2193,14 @@
         "provision": "s.135",
         "holding_type": "ratio",
         "text": "Offences under Sections 135–140 (theft and allied acts) are triable only by a Special Court constituted under Section 153; a Consumer Forum has no jurisdiction over any action taken under Sections 135–140."
+      },
+      {
+        "case_id": "SC-007",
+        "source": "ratio",
+        "scope": "SC-binding",
+        "novelty": "settles-split",
+        "text": "Theft of electricity under Section 135 is a cognizable offence governed by the CrPC; the police may register an FIR, investigate and file a Section 173 report on which the Court takes cognizance, and the Section 151 complaint route does not exclude this — the 2007 proviso to Section 151 being clarificatory and retrospective.",
+        "conflicts_with": []
       },
       {
         "case_id": "HC-009",
