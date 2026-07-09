@@ -1,0 +1,140 @@
+{
+  "schema_version": "1.0",
+  "case_id": "SC-005",
+  "docid": "160269658",
+  "court": "Supreme Court of India",
+  "court_type": "SC",
+  "bench_type": "SC",
+  "title": "K.C. Ninan v. Kerala State Electricity Board",
+  "neutral_cite": "(2023) SCC OnLine SC 603; Civil Appeal No. 2109-2110 of 2004 (batch)",
+  "date": "2023-05-19",
+  "bench": ["Dr. D.Y. Chandrachud CJI", "Hima Kohli J", "P.S. Narasimha J"],
+  "bench_strength": 3,
+  "reportable": true,
+  "one_line": "Electricity arrears of a previous owner/occupier can be recovered from a transferee or auction-purchaser of the premises as a precondition to supply where a statutory Condition of Supply / Supply Code so provides — the regulatory powers under Sections 50 and 181 of the 2003 Act (and Section 49 of the 1948 Act) are wide enough to create such a statutory charge on the premises; the Section 43 duty to supply is not absolute, and the power to recover dues by suit is independent of the Section 56 disconnection remedy.",
+  "facts_squib": "Auction-purchasers of premises sold 'as is where is' under the SARFAESI/recovery process sought new electricity connections; the utilities refused unless the previous owners' outstanding electricity arrears were cleared. Whether such arrears constitute a charge on the premises recoverable from a transferee/auction-purchaser was referred to a larger (three-Judge) Bench in view of Isha Marbles.",
+  "disposition": "Reference answered by 10 conclusions (para 328): arrears of a previous owner are recoverable from a transferee/auction-purchaser where a statutory Condition of Supply/Code so provides; on the facts, under Article 142 the utilities were directed to waive the interest accrued on the principal from the date of the purchasers' supply applications.",
+  "procedural_posture": "Batch of civil appeals referred to a three-Judge Bench",
+  "outcome_for": "mixed (law: arrears recoverable where a statutory charge exists; relief varied per appeal; interest waived under Article 142)",
+  "relief_granted": "Reference answered; recovery of principal arrears from transferees upheld where statutorily provided; interest waived on facts.",
+  "consumer_category": ["commercial", "industrial (auction-purchased premises)"],
+  "fact_pattern_tags": ["dues-on-transfer", "auction-purchaser", "as-is-where-is", "reconnection-vs-fresh-connection", "charge-on-premises"],
+  "state": ["Kerala", "multiple (batch)"],
+  "discom": ["Kerala State Electricity Board", "others (batch)"],
+  "amendment_considered": "mixed — Sections 43, 49 (1948 Act), 50, 56 and 181 of the electricity legislation; the recovery/charge conditions arise under both the Electricity (Supply) Act, 1948 (s.49) and the Electricity Act, 2003 (ss.50/181)",
+  "regulations_construed": [
+    {"reg": "State Electricity Supply Codes / Conditions of Supply requiring clearance of previous owner's arrears before reconnection/new connection", "implements": "s.50/s.181 recovery of arrears", "made_under": "Electricity Act, 2003 (ss.50, 181); Electricity (Supply) Act, 1948 (s.49)"}
+  ],
+  "issues_framed": [
+    "Whether a connection of electricity supply sought by an auction-purchaser comprises a reconnection or a fresh connection"
+  ],
+  "provisions_construed": [
+    {"provision": "s.43", "docid": ""},
+    {"provision": "s.49 (1948 Act)", "docid": ""},
+    {"provision": "s.50", "docid": ""},
+    {"provision": "s.56", "docid": ""},
+    {"provision": "s.181", "docid": ""}
+  ],
+  "provision_holdings": [
+    {
+      "provision": "s.43",
+      "issue_node": ["jurisdiction-145-154"],
+      "holding": "The duty to supply electricity under Section 43 is not absolute; it is subject to the charges and compliances stipulated by the electric utilities as part of the application for supply.",
+      "interpretation_type": "s43-duty-not-absolute",
+      "key_para": "The duty to supply electricity under Section 43 of the 2003 Act is not absolute, and is subject to the such charges and compliances stipulated by the Electric Utilities as part of the application for supply of electricity;",
+      "para_ref": "para 328(a)",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.43",
+      "issue_node": ["jurisdiction-145-154"],
+      "holding": "The Section 43 duty is owed with respect to the owner/occupier of the premises (a consumer-premises synergy); one becomes a consumer only with respect to the particular premises for which electricity is sought and provided.",
+      "interpretation_type": "consumer-premises-synergy",
+      "key_para": "when electricity is supplied, the owner or occupier becomes a consumer only with respect to those particular premises for which electricity is sought and provided by the Electric Utilities;",
+      "para_ref": "para 328(b)",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.49 (1948 Act)",
+      "issue_node": ["jurisdiction-145-154"],
+      "holding": "A Condition of Supply requiring a new owner to clear the previous owner's electricity arrears as a precondition to supply has a statutory character.",
+      "interpretation_type": "condition-of-supply-statutory",
+      "key_para": "A condition of supply enacted under Section 49 of the 1948 Act requiring the new owner of the premises to clear the electricity arrears of the previous owner as a precondition to availing electricity supply will have a statutory character;",
+      "para_ref": "para 328(d)",
+      "holding_type": "ratio",
+      "provision_version": "pre-2003"
+    },
+    {
+      "provision": "s.50",
+      "issue_node": ["jurisdiction-145-154"],
+      "holding": "The State Commission's regulatory powers under Section 50 are wide enough to stipulate conditions for recovery of a previous owner's electricity arrears from new or subsequent owners.",
+      "interpretation_type": "s50-recovery-from-new-owner",
+      "key_para": "The scope of the regulatory powers of the State Commission under Section 50 of the 2003 Act is wide enough to stipulate conditions for recovery of electricity arrears of previous owners from new or subsequent owners;",
+      "para_ref": "para 328(e)",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.181 / s.50",
+      "issue_node": ["jurisdiction-145-154"],
+      "holding": "The rule-making power under Section 181 read with Section 50 is wide enough to enable the regulatory commission to provide for a statutory CHARGE on the premises, even absent a charge-creating provision in the plenary statute.",
+      "interpretation_type": "statutory-charge-via-s181-s50",
+      "key_para": "The rule making power contained under Section 181 read with Section 50 of the 2003 Act is wide enough to enable the regulatory commission to provide for a statutory charge in the absence of a provision in the plenary statute providing for creation of such a charge;",
+      "para_ref": "para 328(g)",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.56",
+      "issue_node": ["limitation-56", "jurisdiction-145-154"],
+      "holding": "The power to initiate recovery proceedings by filing a suit against a defaulting consumer is independent of the power to disconnect supply as a means of recovery under Section 56.",
+      "interpretation_type": "suit-independent-of-s56-disconnection",
+      "key_para": "The power to initiate recovery proceedings by filing a suit against the defaulting consumer is independent of the power to disconnect electrical supply as a means of recovery under Section 56 of the 2003 Act;",
+      "para_ref": "para 328(h)",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Isha Marbles v. Bihar State Electricity Board",
+      "cite": "(1995) 2 SCC 648",
+      "court": "Supreme Court",
+      "docid": "",
+      "principle": "Had held that a fresh purchaser/auction-purchaser could not be saddled with the previous owner's electricity arrears absent a statutory charge — a position substantially qualified/departed from here by recognising a statutory charge created under the Supply Code / Section 50-181.",
+      "treatment": "distinguished",
+      "on_issue": "jurisdiction-145-154"
+    }
+  ],
+  "ratio": [
+    {
+      "issue_node": "jurisdiction-145-154",
+      "proposition": "Electricity arrears of a previous owner/occupier are recoverable from a transferee/auction-purchaser as a precondition to supply where a statutory Condition of Supply / Supply Code so provides; the Section 43 duty to supply is not absolute, the Sections 50/181 (and 1948 Act Section 49) powers can create a statutory charge on the premises, and the suit remedy is independent of the Section 56 disconnection remedy.",
+      "scope": "SC-binding (3-Judge)",
+      "novelty": "settles",
+      "conflicts_with": []
+    }
+  ],
+  "significance": "The 2023 three-Judge landmark on recovery of a previous owner's electricity arrears from a transferee/auction-purchaser: it holds the Section 43 duty to supply is not absolute, that a Condition of Supply/Supply Code requiring a new owner to clear the previous owner's arrears is statutory and within the wide Section 50/181 (and 1948-Act Section 49) powers — capable of creating a statutory charge on the premises — and that the suit remedy for recovery is independent of the Section 56 disconnection remedy. Substantially qualifies Isha Marbles. Opens an entirely new dimension (dues-on-transfer / charge-on-premises) not previously in the corpus.",
+  "validity": {
+    "overall": "good-law",
+    "as_of": "2026-07",
+    "provision_version_ok": true,
+    "per_issue": {
+      "jurisdiction-145-154": "good-law; the settling 3-Judge SC authority on dues-on-transfer / statutory charge on premises.",
+      "limitation-56": "good-law on the independence of the suit remedy from the Section 56 disconnection remedy (read with SC-004/SC-006 on Section 56(2))."
+    },
+    "note": "Not overruled (leading 3-Judge Bench, 2023). NOTE: this opens a 'dues-on-transfer / charge-on-premises' sub-area that the fixed 10-node taxonomy does not squarely capture; tagged to jurisdiction-145-154 + limitation-56 as the closest nodes — consider adding a dedicated node."
+  },
+  "flags": [
+    "NEW DIMENSION: previous owner's arrears recoverable from transferee/auction-purchaser",
+    "s.43 duty to supply is NOT absolute (subject to Code charges/compliances)",
+    "Condition of Supply clearing prior arrears = statutory character (s.49 1948 Act)",
+    "s.50 + s.181 powers wide enough to create a STATUTORY CHARGE on premises",
+    "suit-recovery remedy INDEPENDENT of s.56 disconnection remedy",
+    "substantially qualifies Isha Marbles (1995)",
+    "SC-binding 3-Judge (2023); taxonomy note: dues-on-transfer node may be warranted"
+  ]
+}

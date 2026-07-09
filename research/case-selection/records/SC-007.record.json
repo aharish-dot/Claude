@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.0",
+  "case_id": "SC-007",
+  "docid": "31616013",
+  "court": "Supreme Court of India",
+  "court_type": "SC",
+  "bench_type": "SC",
+  "title": "Vishal Agrawal v. Chhattisgarh State Electricity Board",
+  "neutral_cite": "(2014) 3 SCC 696; AIR 2014 SC 1539",
+  "date": "2014-01-29",
+  "bench": ["K.S. Radhakrishnan J", "A.K. Sikri J"],
+  "bench_strength": 2,
+  "reportable": true,
+  "one_line": "Theft of electricity under Section 135 is a cognizable offence, so the police may register an FIR, investigate under Chapter XII CrPC and file a Section 173 report on which the Court takes cognizance — the Section 151 complaint route does not exclude this avenue; and the 2007 proviso to Section 151 (cognizance on a police report) is clarificatory and applies retrospectively to pending matters.",
+  "facts_squib": "On inspection the appellants' premises showed direct theft with a tampered meter; the Board complained to the police, an FIR was registered, the police filed a charge-sheet and the Special Judge took cognizance. The accused sought quashing, arguing that under (unamended) Section 151 only a written complaint by an authorised officer could found cognizance, so the police-report route was incompetent (and the 2007 proviso allowing a police report was prospective only).",
+  "disposition": "Appeal dismissed; the police FIR/charge-sheet route is competent for a Section 135 cognizable offence, and the 2007 proviso to Section 151 is clarificatory/retrospective — resolving a High Court split in the Board's favour.",
+  "procedural_posture": "Criminal appeal against a High Court order declining to quash the cognizance/FIR",
+  "outcome_for": "licensee",
+  "relief_granted": "Quashing refused; prosecution via police FIR/charge-sheet upheld.",
+  "consumer_category": ["domestic/commercial (direct theft, tampered meter)"],
+  "fact_pattern_tags": ["direct-theft", "tampered-meter", "FIR-and-charge-sheet", "cognizance-s151", "HC-split-resolved"],
+  "state": ["Chhattisgarh"],
+  "discom": ["Chhattisgarh State Electricity Board"],
+  "amendment_considered": "post-2007 (Act 26 of 2007) — the proviso to Section 151 (cognizance on a police report) held clarificatory and retrospective; read with the Electricity Rules, 2005 (Rule 12) and the CrPC",
+  "regulations_construed": [
+    {"reg": "Electricity Rules, 2005, Rule 12 (police cognizance/investigation of offences on complaint)", "implements": "s.135/s.151 procedure", "made_under": "Electricity Act, 2003 (s.176)"}
+  ],
+  "issues_framed": [],
+  "provisions_construed": [
+    {"provision": "s.135", "docid": "90633360"},
+    {"provision": "s.151 (cognizance)", "docid": ""},
+    {"provision": "s.153", "docid": "83044125"},
+    {"provision": "s.154", "docid": "34349824"},
+    {"provision": "CrPC Chapter XII / s.154 / s.173 / s.195", "docid": ""}
+  ],
+  "provision_holdings": [
+    {
+      "provision": "s.135",
+      "issue_node": ["mensrea-135", "jurisdiction-145-154"],
+      "holding": "Theft of electricity under Section 135 (punishable up to three years) is a cognizable offence; the CrPC therefore applies and it is the duty of the police to register an FIR and investigate.",
+      "interpretation_type": "s135-is-cognizable-crpc-applies",
+      "key_para": "if the offence under the Code is cognizable, provisions of Chapter XII containing Section 154 Cr.P.C. and onward would become applicable and it would be the duty of the police to register the FIR and investigate into the same.",
+      "para_ref": "para 23",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.151",
+      "issue_node": ["jurisdiction-145-154", "mensrea-135"],
+      "holding": "Section 151 enables authorised persons to file a written complaint before the Court (on which cognizance may be taken straightway), but it does not exclude the other avenue of a police FIR/investigation; the Electricity Act is not a complete machinery for how offences are dealt with, so the CrPC governs.",
+      "interpretation_type": "s151-does-not-exclude-police-fir",
+      "key_para": "When such a complaint is filed, the Court would be competent to take cognizance straightway. However, that would not mean that other avenues for investigation into the offence which are available would be excluded.",
+      "para_ref": "para 23",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.151",
+      "issue_node": ["jurisdiction-145-154"],
+      "holding": "The amendment (proviso) to Section 151 permitting cognizance on a police report is clarificatory in nature and applies to pending matters (retrospective); notwithstanding Section 151, an FIR could be filed with the police even under the unamended provision.",
+      "interpretation_type": "s151-proviso-clarificatory-retrospective",
+      "key_para": "conclusively holding that amendment to Section 151 is clarificatory in nature and further that notwithstanding the provisions of Section 151 of the Act, a FIR could be filed with the police",
+      "para_ref": "para 17",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    },
+    {
+      "provision": "s.135 / s.151",
+      "issue_node": ["jurisdiction-145-154"],
+      "holding": "The contrary High Court view (complaint-only route) does not lay down correct law; the police-FIR-competent view is approved — resolving the split.",
+      "interpretation_type": "resolves-hc-split",
+      "key_para": "do not lay down correct law and the view taken by the High Court of Delhi in Abhay Tyagi v. State NCT of Delhi Anr. and Asish Kumar Jain vs. State of Jharkhand (2010) CriLJ 271 is hereby approved.",
+      "para_ref": "para 25",
+      "holding_type": "ratio",
+      "provision_version": "post-2007"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Assistant Electrical Engineer v. Satyendra Rai",
+      "cite": "(2012) 1 PLJR 476",
+      "court": "Supreme Court",
+      "docid": "",
+      "principle": "An FIR can be registered with the police de hors Section 151 (unamended); the proviso to Section 151 is clarificatory and applies to pending matters (retrospective).",
+      "principle_para": "the amendment brought in is clarificatory in nature and as such it would take into its ambit even the pending matters and in that sense it would be a retrospective amendment.",
+      "treatment": "followed",
+      "on_issue": "jurisdiction-145-154"
+    },
+    {
+      "name": "State of Punjab v. Raj Singh",
+      "cite": "1998 Cri LJ 1104",
+      "court": "Supreme Court",
+      "docid": "",
+      "principle": "Sections 195/340 CrPC do not control or circumscribe the statutory power of the police to investigate an FIR disclosing a cognizable offence.",
+      "principle_para": "it has nothing to do with the statutory power of the police to investigate into an FIR which discloses a cognizable offence",
+      "treatment": "followed",
+      "on_issue": "mensrea-135"
+    },
+    {
+      "name": "Kerala/Calcutta/Madras line (Chacko v. AEE KSEB; Biswanath Patra; Ranjeet Kr. Bag; Paramasivan; Kumaran Chemicals)",
+      "cite": "(2010) 2 KLJ 569; AIR 2007 Cal 189; (2006) 1 C CrLJ (Cal) 334; (2007) 2 KLT 733; MANU/TN/0584/2010",
+      "court": "Kerala / Calcutta / Madras High Courts",
+      "docid": "",
+      "principle": "Held that a Section 135 prosecution could be founded only on a written complaint under Section 151, not a police report.",
+      "principle_para": "do not lay down correct law",
+      "treatment": "overruled",
+      "on_issue": "jurisdiction-145-154"
+    }
+  ],
+  "ratio": [
+    {
+      "issue_node": "mensrea-135",
+      "proposition": "Theft of electricity under Section 135 is a cognizable offence governed by the CrPC; the police may register an FIR, investigate and file a Section 173 report on which the Court takes cognizance, and the Section 151 complaint route does not exclude this — the 2007 proviso to Section 151 being clarificatory and retrospective.",
+      "scope": "SC-binding",
+      "novelty": "settles-split",
+      "conflicts_with": []
+    }
+  ],
+  "significance": "The Supreme Court authority on how a Section 135 prosecution is validly instituted: theft of electricity is a cognizable offence, so the police may register an FIR and file a charge-sheet under the CrPC, and Section 151's complaint route is an additional — not exclusive — avenue; the 2007 proviso to Section 151 (cognizance on a police report) is clarificatory and retrospective. It resolves a High Court split (disapproving the Kerala/Calcutta/Madras 'complaint-only' view, approving the Delhi/Jharkhand view). This anchors the criminal-procedure dimension of Section 135, which the civil-heavy corpus otherwise lacked.",
+  "validity": {
+    "overall": "good-law",
+    "as_of": "2026-07",
+    "provision_version_ok": true,
+    "per_issue": {
+      "mensrea-135": "good-law; settling SC authority that Section 135 theft is cognizable and prosecutable via police FIR/charge-sheet.",
+      "jurisdiction-145-154": "good-law on Section 151 cognizance being an additional (not exclusive) route and the 2007 proviso being clarificatory/retrospective."
+    },
+    "note": "Not overruled. Resolves an inter-High-Court split (follows Satyendra Rai and Raj Singh)."
+  },
+  "flags": [
+    "s.135 theft = COGNIZABLE offence; police FIR + s.173 charge-sheet competent",
+    "s.151 complaint route is ADDITIONAL, not exclusive; CrPC governs",
+    "2007 proviso to s.151 (cognizance on police report) = clarificatory + RETROSPECTIVE",
+    "resolves HC split: overrules Kerala/Calcutta/Madras; approves Delhi/Jharkhand",
+    "anchors the criminal s.135 procedure dimension (new territory)",
+    "SC 2-Judge; follows Satyendra Rai + Raj Singh"
+  ]
+}
