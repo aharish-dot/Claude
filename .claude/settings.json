@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /home/user/Claude/sync-backup.sh >> /tmp/backup-sync.log 2>&1",
+            "async": true,
+            "timeout": 120,
+            "statusMessage": "Syncing private backup..."
+          }
+        ]
+      }
+    ]
+  }
+}
