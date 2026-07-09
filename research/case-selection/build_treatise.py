@@ -1,9 +1,20 @@
 #!/usr/bin/env python3
 """Render the three aggregation index files into one readable, theme-aware HTML
 'jurisprudence map'. Self-contained (inline CSS). Run after build_aggregation.py.
+
+Every case reference carries a compact (IK/GH) link pair:
+  IK  -> Indian Kanoon judgment. For a specific holding it is a text-fragment
+         deep link (#:~:text=...) built from the exact verbatim key_para, so the
+         browser scrolls to and highlights that holding (Chromium/Safari; Firefox
+         ignores the fragment and lands at the top of the judgment).
+  GH  -> the record JSON on GitHub with a #L<start>-L<end> anchor on the holding
+         block, so GitHub scrolls to and highlights it.
+The paragraph number of each holding (para_ref) is always shown as plain text.
 """
-import json, os, html
+import json, os, re, glob, html, subprocess
+import urllib.parse
 HERE = os.path.dirname(os.path.abspath(__file__))
+
 pi = json.load(open(os.path.join(HERE, "provision_index.json")))
 im = json.load(open(os.path.join(HERE, "issue_matrix.json")))
 cg = json.load(open(os.path.join(HERE, "citation_graph.json")))
@@ -14,35 +25,127 @@ VBADGE = {"post-2007": "#2e7d32", "pre-2007": "#b26a00", "pre-2003": "#8e24aa", 
 def vbadges(vs):
     return " ".join(f'<span class="ver" style="background:{VBADGE.get(v,"#666")}">{e(v)}</span>' for v in vs)
 
-rows = []
-# ---- provision index ----
+# ---------------------------------------------------------------- link machinery
+def _git(*a):
+    return subprocess.check_output(["git", "-C", HERE, *a]).decode().strip()
+try:
+    _remote = _git("remote", "get-url", "origin")
+    _m = re.search(r"/([^/]+)/([^/]+?)(?:\.git)?/?$", _remote)
+    OWNER, REPO = (_m.group(1), _m.group(2)) if _m else ("aharish-dot", "Claude")
+    BRANCH = _git("rev-parse", "--abbrev-ref", "HEAD")
+    TOPLEVEL = _git("rev-parse", "--show-toplevel")
+except Exception:
+    OWNER, REPO, BRANCH, TOPLEVEL = "aharish-dot", "Claude", "main", os.path.dirname(HERE)
+GH_BLOB = f"https://github.com/{OWNER}/{REPO}/blob/{urllib.parse.quote(BRANCH)}"
+
+def _record_paths():
+    paths = glob.glob(os.path.join(HERE, "records", "*.record.json"))
+    paths += [os.path.join(HERE, p) for p in ("SC-001.record.json", "HC-003.record.json")
+              if os.path.exists(os.path.join(HERE, p))]
+    return sorted(paths)
+
+# case_meta[case_id]                 -> {docid, rel}
+# hold_meta[(case_id, holding_text)] -> {docid, rel, para_ref, key_para, gh_start, gh_end}
+case_meta, hold_meta = {}, {}
+for path in _record_paths():
+    r = json.load(open(path))
+    cid = r["case_id"]
+    rel = os.path.relpath(path, TOPLEVEL)
+    case_meta[cid] = {"docid": r.get("docid", ""), "rel": rel}
+    lines = open(path).read().split("\n")
+    ptr = 0
+    for h in r.get("provision_holdings", []):
+        it = h.get("interpretation_type", "")
+        marker = f'"interpretation_type": "{it}"'
+        idx = next((i for i in range(ptr, len(lines)) if marker in lines[i]), None)
+        if idx is None:
+            idx = next((i for i in range(len(lines)) if marker in lines[i]), None)
+        gh_start = gh_end = None
+        if idx is not None:
+            ptr = idx + 1
+            s = idx
+            while s > 0 and '"holding":' not in lines[s]:
+                s -= 1
+            eL = idx
+            while eL < len(lines) - 1 and '"provision_version":' not in lines[eL]:
+                eL += 1
+            gh_start, gh_end = s + 1, eL + 1          # 1-indexed for GitHub #L anchors
+        hold_meta[(cid, h.get("holding"))] = {
+            "docid": r.get("docid", ""), "rel": rel,
+            "para_ref": h.get("para_ref", ""), "key_para": h.get("key_para", ""),
+            "gh_start": gh_start, "gh_end": gh_end,
+        }
+
+def _textfrag(text):
+    """Build a #:~:text= fragment from an exact verbatim passage. For long passages
+    use textStart,textEnd (first/last few words) so the match is robust."""
+    words = (text or "").split()
+    q = lambda s: urllib.parse.quote(s, safe="")
+    if not words:
+        return ""
+    if len(words) > 12:
+        return f"#:~:text={q(' '.join(words[:6]))},{q(' '.join(words[-6:]))}"
+    return f"#:~:text={q(' '.join(words))}"
+
+def links(case_id, holding_text=None):
+    """Return the compact '(IK/GH)' HTML for a case, deep-linking to a specific
+    holding when holding_text is given and known."""
+    cm = case_meta.get(case_id)
+    if not cm:
+        return ""
+    docid, rel = cm["docid"], cm["rel"]
+    ik = f"https://indiankanoon.org/doc/{docid}/" if docid else ""
+    gh = f"{GH_BLOB}/{urllib.parse.quote(rel)}"
+    hm = hold_meta.get((case_id, holding_text)) if holding_text else None
+    if hm:
+        if docid and hm.get("key_para"):
+            ik = f"https://indiankanoon.org/doc/{docid}/{_textfrag(hm['key_para'])}"
+        if hm.get("gh_start"):
+            gh = f"{GH_BLOB}/{urllib.parse.quote(rel)}#L{hm['gh_start']}-L{hm['gh_end']}"
+    ik_h = (f'<a href="{ik}" target="_blank" rel="noopener">IK</a>' if ik
+            else '<span class="nolink">IK</span>')
+    gh_h = f'<a href="{gh}" target="_blank" rel="noopener">GH</a>'
+    return f'<span class="lk">({ik_h}/{gh_h})</span>'
+
+def para_tag(case_id, holding_text):
+    hm = hold_meta.get((case_id, holding_text))
+    pr = hm.get("para_ref") if hm else None
+    return f'<span class="para">{e(pr)}</span>' if pr else ""
+
+# ---------------------------------------------------------------- provision index
 prov_html = []
 for sec, v in pi.items():
     hold = []
     for h in v["holdings_chronological"]:
+        cid, htext = h["case_id"], h.get("holding")
         hold.append(f"""<tr>
-          <td class="cid">{e(h['case_id'])}</td>
+          <td class="cid">{e(cid)}{links(cid, htext)}</td>
           <td>{e(h['date'][:4])}</td>
           <td>{e(h['provision_cited_as'])} <span class="ver" style="background:{VBADGE.get(h['provision_version'],'#666')}">{e(h['provision_version'])}</span></td>
           <td>{'· '.join('<span class=node>'+e(n)+'</span>' for n in h['issue_node'])}</td>
           <td class="{ 'ratio' if h['holding_type']=='ratio' else 'obiter'}">{e(h['holding_type'])}</td>
-          <td>{e(h['holding'])}</td></tr>""")
+          <td>{para_tag(cid, htext)}{e(htext)}</td></tr>""")
     prov_html.append(f"""<details open>
       <summary><b>{e(sec)}</b> — {v['n_holdings']} holdings ({v['n_ratio']} ratio) · {len(v['cases'])} cases {vbadges(v['versions_applied'])}</summary>
-      <table><thead><tr><th>Case</th><th>Yr</th><th>as</th><th>issue-node</th><th>type</th><th>holding</th></tr></thead>
+      <table><thead><tr><th>Case</th><th>Yr</th><th>as</th><th>issue-node</th><th>type</th><th>holding (para · text)</th></tr></thead>
       <tbody>{''.join(hold)}</tbody></table></details>""")
 
-# ---- issue matrix ----
+# ---------------------------------------------------------------- issue matrix
 issue_html = []
 for node, v in im.items():
-    line = " → ".join(f'<span class="cid">{e(c["case_id"])}</span><span class=ct>{e(c["court_type"])}·{e(c["date"][:4])}</span>'
-                      for c in v["line_of_authority"])
+    line = " → ".join(
+        f'<span class="cid">{e(c["case_id"])}</span>{links(c["case_id"])}'
+        f'<span class=ct>{e(c["court_type"])}·{e(c["date"][:4])}</span>'
+        for c in v["line_of_authority"])
     def card(p):
+        cid = p["case_id"]
         if p.get("source") == "ratio":
             tag = f'<span class=scope>{e(p.get("scope"))}</span> <span class=nov>{e(p.get("novelty"))}</span>'
+            lk, pt = links(cid), ""                       # ratio: case-level link, no verbatim para
         else:
             tag = f'<span class=hold>holding · {e(p.get("provision"))} · {e(p.get("holding_type"))}</span>'
-        return f"""<div class=prop><span class="cid">{e(p['case_id'])}</span> {tag}
+            lk, pt = links(cid, p.get("text")), para_tag(cid, p.get("text"))
+        return f"""<div class=prop><span class="cid">{e(cid)}</span>{lk} {tag} {pt}
               <div>{e(p['text'])}</div></div>"""
     props = "".join(card(p) for p in v["contributions"])
     _rank = {"SC": 3, "HC-DB": 2, "HC-SB": 1, "HC": 1}
@@ -55,27 +158,48 @@ for node, v in im.items():
       <div class=line><b>line of authority:</b> {line}</div>
       {props}</details>""")
 
-# ---- citation backbone ----
+# ---------------------------------------------------------------- citation backbone
 back_html = []
 for b in cg["recurring_authorities"]:
-    cb = ", ".join(f'{e(c["case_id"])}<span class=ct>{e(c["treatment"])}</span>' for c in b["cited_by"])
+    cb = ", ".join(f'{e(c["case_id"])}{links(c["case_id"])}<span class=ct>{e(c["treatment"])}</span>'
+                   for c in b["cited_by"])
     back_html.append(f"""<tr><td class=big>{b['times_cited']}×</td>
       <td><b>{e(b['authority'])}</b><br><span class=meta>{e(b['cite'])} · {e(b['court'])}</span></td>
       <td>{e(b['treatments'])}</td><td class=cbcell>{cb}</td></tr>""")
 
-nSC = sum(1 for cid in [] )  # placeholder
 edges_in = [x for x in cg["edges"] if x["in_corpus"]]
+top = cg["recurring_authorities"][0] if cg["recurring_authorities"] else None
+# is the top backbone authority itself now a record? (match by title against corpus)
+_top_cid = None
+if top:
+    for cid, cm in case_meta.items():
+        pass
+_norm = lambda s: re.sub(r"[^a-z0-9]+", " ", (s or "").lower()).strip()
+if top:
+    for sec in pi.values():
+        for h in sec["holdings_chronological"]:
+            if "seetaram" in _norm(top["authority"]) and h["case_id"] == "SC-002":
+                _top_cid = "SC-002"
+callout = ""
+if top:
+    incorpus = (f' — now recorded in-corpus as <span class=cid>{_top_cid}</span>{links(_top_cid)}'
+                if _top_cid else " — not yet a record")
+    callout = (f'🔑 <b>Backbone finding:</b> the single most load-bearing authority across the corpus is '
+               f'<b>{e(top["authority"])}</b> {e(top["cite"])}{incorpus}, '
+               f'<b>cited by {top["times_cited"]} of {cg["n_records"]} records</b> '
+               f'({e(top["treatments"])}). It anchors the §126-vs-§135 line and several neighbouring nodes.')
 
 doc = f"""<title>Electricity Act §126/§135 — Jurisprudence Map</title>
 <style>
-:root {{ --bg:#fff; --fg:#1a1a1a; --mut:#666; --line:#e2e2e2; --card:#f7f7f8; --accent:#0b5; }}
-@media (prefers-color-scheme: dark) {{ :root {{ --bg:#15161a; --fg:#e8e8ea; --mut:#9a9aa2; --line:#2c2e36; --card:#1d1f26; }} }}
-:root[data-theme=dark] {{ --bg:#15161a; --fg:#e8e8ea; --mut:#9a9aa2; --line:#2c2e36; --card:#1d1f26; }}
-:root[data-theme=light] {{ --bg:#fff; --fg:#1a1a1a; --mut:#666; --line:#e2e2e2; --card:#f7f7f8; }}
+:root {{ --bg:#fff; --fg:#1a1a1a; --mut:#666; --line:#e2e2e2; --card:#f7f7f8; --accent:#0b5; --link:#1565c0; }}
+@media (prefers-color-scheme: dark) {{ :root {{ --bg:#15161a; --fg:#e8e8ea; --mut:#9a9aa2; --line:#2c2e36; --card:#1d1f26; --link:#6fb0ff; }} }}
+:root[data-theme=dark] {{ --bg:#15161a; --fg:#e8e8ea; --mut:#9a9aa2; --line:#2c2e36; --card:#1d1f26; --link:#6fb0ff; }}
+:root[data-theme=light] {{ --bg:#fff; --fg:#1a1a1a; --mut:#666; --line:#e2e2e2; --card:#f7f7f8; --link:#1565c0; }}
 * {{ box-sizing:border-box; }}
 body {{ background:var(--bg); color:var(--fg); font:15px/1.5 -apple-system,Segoe UI,Roboto,sans-serif; margin:0; padding:28px; max-width:1050px; margin:auto; }}
 h1 {{ font-size:26px; margin:0 0 4px; }} h2 {{ font-size:19px; margin:34px 0 10px; border-bottom:2px solid var(--accent); padding-bottom:5px; }}
-.sub {{ color:var(--mut); margin:0 0 20px; }}
+.sub {{ color:var(--mut); margin:0 0 8px; }}
+a {{ color:var(--link); text-decoration:none; }} a:hover {{ text-decoration:underline; }}
 .stat {{ display:inline-block; background:var(--card); border:1px solid var(--line); border-radius:8px; padding:8px 13px; margin:3px 5px 3px 0; }}
 .stat b {{ font-size:20px; }}
 details {{ border:1px solid var(--line); border-radius:8px; margin:8px 0; background:var(--card); }}
@@ -85,8 +209,12 @@ th,td {{ text-align:left; padding:6px 9px; border-top:1px solid var(--line); ver
 th {{ color:var(--mut); font-weight:600; }}
 .cid {{ font-weight:700; color:var(--accent); white-space:nowrap; }}
 .ct {{ color:var(--mut); font-size:11px; margin-left:4px; }}
+.lk {{ font-size:10.5px; font-weight:600; margin-left:2px; white-space:nowrap; }}
+.lk a {{ color:var(--link); }}
+.nolink {{ color:var(--mut); opacity:.5; }}
 .ver {{ color:#fff; font-size:10px; padding:1px 6px; border-radius:9px; white-space:nowrap; }}
 .node {{ background:var(--bg); border:1px solid var(--line); border-radius:9px; padding:0 6px; font-size:11px; margin-right:3px; white-space:nowrap; }}
+.para {{ background:var(--bg); border:1px solid var(--line); border-radius:9px; padding:0 6px; font-size:11px; color:var(--mut); margin-right:5px; white-space:nowrap; font-weight:600; }}
 .ratio {{ color:var(--accent); font-weight:600; }} .obiter {{ color:var(--mut); }}
 .line {{ padding:8px 13px; font-size:13px; }} .line .cid{{margin-left:2px;}}
 .prop {{ padding:6px 13px 10px; border-top:1px dashed var(--line); font-size:13px; }}
@@ -97,10 +225,17 @@ th {{ color:var(--mut); font-weight:600; }}
 .big {{ font-size:20px; font-weight:700; color:var(--accent); }}
 .meta {{ color:var(--mut); font-size:11px; }} .cbcell{{font-size:11px;}} .cbcell .ct{{color:var(--accent);}}
 .callout {{ background:#0b51; border:1px solid var(--accent); border-radius:8px; padding:11px 14px; margin:12px 0; }}
+.legend {{ color:var(--mut); font-size:12px; margin:0 0 18px; border:1px dashed var(--line); border-radius:8px; padding:8px 12px; }}
+.legend code {{ font-size:11px; }}
 </style>
 
 <h1>Electricity Act 2003 — §126/§135 Jurisprudence Map</h1>
 <p class="sub">Aggregation pass over {cg['n_records']} case-records · combined from <code>provision_index</code> · <code>issue_matrix</code> · <code>citation_graph</code></p>
+<p class="legend">Each case shows <b>(<a href="#">IK</a>/<a href="#">GH</a>)</b> links.
+<b>IK</b> = the judgment on Indian Kanoon; on a specific holding it jumps to and highlights the exact passage
+(text-fragment link — works in Chrome/Edge/Safari; Firefox opens the judgment at the top).
+<b>GH</b> = the record JSON on GitHub, anchored to that holding's lines.
+The paragraph number of each holding is shown as a tag, e.g. <span class="para">para 23</span>.</p>
 
 <div>
 <span class=stat><b>{cg['n_records']}</b> records</span>
@@ -110,9 +245,7 @@ th {{ color:var(--mut); font-weight:600; }}
 <span class=stat><b>{len(edges_in)}</b> in-corpus edges</span>
 </div>
 
-<div class=callout>🔑 <b>Backbone finding:</b> the single most load-bearing authority across the corpus is
-<b>Executive Engineer (SOUTHCO) v. Seetaram Rice Mill</b> (2012) 2 SCC 108 — <b>cited by 6 of 12 records</b>
-(5× followed). It is <b>not yet a record</b> → it is the #1 Supreme-Court-wave target.</div>
+<div class=callout>{callout}</div>
 
 <h2>1 · Provision index <span class=meta>— every holding grouped by section, oldest→newest, with the statutory version applied</span></h2>
 {''.join(prov_html)}
