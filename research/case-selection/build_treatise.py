@@ -33,10 +33,18 @@ try:
     _m = re.search(r"/([^/]+)/([^/]+?)(?:\.git)?/?$", _remote)
     OWNER, REPO = (_m.group(1), _m.group(2)) if _m else ("aharish-dot", "Claude")
     BRANCH = _git("rev-parse", "--abbrev-ref", "HEAD")
+    SHA = _git("rev-parse", "HEAD")
     TOPLEVEL = _git("rev-parse", "--show-toplevel")
 except Exception:
-    OWNER, REPO, BRANCH, TOPLEVEL = "aharish-dot", "Claude", "main", os.path.dirname(HERE)
-GH_BLOB = f"https://github.com/{OWNER}/{REPO}/blob/{urllib.parse.quote(BRANCH)}"
+    OWNER, REPO, BRANCH, SHA, TOPLEVEL = "aharish-dot", "Claude", "main", "HEAD", os.path.dirname(HERE)
+# GH links render the per-case HTML via githack (a CDN that serves committed files
+# with the right content-type so the browser renders them, and supports #anchors).
+# We pin the commit SHA rather than the branch: the branch name contains slashes,
+# which githack/raw cannot disambiguate, and a SHA is cached immutably. NOTE: this
+# requires the record HTMLs to already be committed at HEAD before the map is built
+# (run render_record.py + commit the records, THEN build_treatise.py + commit the map),
+# and it only resolves once the repository is public (githack cannot read private repos).
+GITHACK = f"https://rawcdn.githack.com/{OWNER}/{REPO}/{SHA}"
 
 def _record_paths():
     paths = glob.glob(os.path.join(HERE, "records", "*.record.json"))
@@ -52,28 +60,12 @@ for path in _record_paths():
     cid = r["case_id"]
     rel = os.path.relpath(path, TOPLEVEL)
     case_meta[cid] = {"docid": r.get("docid", ""), "rel": rel}
-    lines = open(path).read().split("\n")
-    ptr = 0
-    for h in r.get("provision_holdings", []):
-        it = h.get("interpretation_type", "")
-        marker = f'"interpretation_type": "{it}"'
-        idx = next((i for i in range(ptr, len(lines)) if marker in lines[i]), None)
-        if idx is None:
-            idx = next((i for i in range(len(lines)) if marker in lines[i]), None)
-        gh_start = gh_end = None
-        if idx is not None:
-            ptr = idx + 1
-            s = idx
-            while s > 0 and '"holding":' not in lines[s]:
-                s -= 1
-            eL = idx
-            while eL < len(lines) - 1 and '"provision_version":' not in lines[eL]:
-                eL += 1
-            gh_start, gh_end = s + 1, eL + 1          # 1-indexed for GitHub #L anchors
+    for hidx, h in enumerate(r.get("provision_holdings", [])):
+        # hidx aligns with the id="h{hidx}" anchors emitted by render_record.py, so a
+        # GH link can jump straight to the holding in the rendered case page.
         hold_meta[(cid, h.get("holding"))] = {
-            "docid": r.get("docid", ""), "rel": rel,
+            "docid": r.get("docid", ""), "rel": rel, "hidx": hidx,
             "para_ref": h.get("para_ref", ""), "key_para": h.get("key_para", ""),
-            "gh_start": gh_start, "gh_end": gh_end,
         }
 
 def _textfrag(text):
@@ -94,14 +86,15 @@ def links(case_id, holding_text=None):
     if not cm:
         return ""
     docid, rel = cm["docid"], cm["rel"]
+    rel_html = rel[:-len(".record.json")] + ".record.html" if rel.endswith(".record.json") else rel
     ik = f"https://indiankanoon.org/doc/{docid}/" if docid else ""
-    gh = f"{GH_BLOB}/{urllib.parse.quote(rel)}"
+    gh = f"{GITHACK}/{urllib.parse.quote(rel_html)}"
     hm = hold_meta.get((case_id, holding_text)) if holding_text else None
     if hm:
         if docid and hm.get("key_para"):
             ik = f"https://indiankanoon.org/doc/{docid}/{_textfrag(hm['key_para'])}"
-        if hm.get("gh_start"):
-            gh = f"{GH_BLOB}/{urllib.parse.quote(rel)}#L{hm['gh_start']}-L{hm['gh_end']}"
+        if hm.get("hidx") is not None:
+            gh = f"{GITHACK}/{urllib.parse.quote(rel_html)}#h{hm['hidx']}"
     ik_h = (f'<a href="{ik}" target="_blank" rel="noopener">IK</a>' if ik
             else '<span class="nolink">IK</span>')
     gh_h = f'<a href="{gh}" target="_blank" rel="noopener">GH</a>'
@@ -189,7 +182,9 @@ if top:
                f'<b>cited by {top["times_cited"]} of {cg["n_records"]} records</b> '
                f'({e(top["treatments"])}). It anchors the §126-vs-§135 line and several neighbouring nodes.')
 
-doc = f"""<title>Electricity Act §126/§135 — Jurisprudence Map</title>
+doc = f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Electricity Act §126/§135 — Jurisprudence Map</title>
 <style>
 :root {{ --bg:#fff; --fg:#1a1a1a; --mut:#666; --line:#e2e2e2; --card:#f7f7f8; --accent:#0b5; --link:#1565c0; }}
 @media (prefers-color-scheme: dark) {{ :root {{ --bg:#15161a; --fg:#e8e8ea; --mut:#9a9aa2; --line:#2c2e36; --card:#1d1f26; --link:#6fb0ff; }} }}
@@ -227,14 +222,14 @@ th {{ color:var(--mut); font-weight:600; }}
 .callout {{ background:#0b51; border:1px solid var(--accent); border-radius:8px; padding:11px 14px; margin:12px 0; }}
 .legend {{ color:var(--mut); font-size:12px; margin:0 0 18px; border:1px dashed var(--line); border-radius:8px; padding:8px 12px; }}
 .legend code {{ font-size:11px; }}
-</style>
+</style></head><body>
 
 <h1>Electricity Act 2003 — §126/§135 Jurisprudence Map</h1>
 <p class="sub">Aggregation pass over {cg['n_records']} case-records · combined from <code>provision_index</code> · <code>issue_matrix</code> · <code>citation_graph</code></p>
 <p class="legend">Each case shows <b>(<a href="#">IK</a>/<a href="#">GH</a>)</b> links.
 <b>IK</b> = the judgment on Indian Kanoon; on a specific holding it jumps to and highlights the exact passage
 (text-fragment link — works in Chrome/Edge/Safari; Firefox opens the judgment at the top).
-<b>GH</b> = the record JSON on GitHub, anchored to that holding's lines.
+<b>GH</b> = the rendered case page (via githack), which opens with that holding highlighted.
 The paragraph number of each holding is shown as a tag, e.g. <span class="para">para 23</span>.</p>
 
 <div>
@@ -256,6 +251,10 @@ The paragraph number of each holding is shown as a tag, e.g. <span class="para">
 <h2>3 · Citation backbone <span class=meta>— authorities the corpus repeatedly rests on (≥2 records)</span></h2>
 <table><thead><tr><th>freq</th><th>authority</th><th>treatment</th><th>cited by</th></tr></thead>
 <tbody>{''.join(back_html)}</tbody></table>
+</body></html>
 """
-open(os.path.join(HERE, "jurisprudence_map.html"), "w").write(doc)
+# ASCII-only output (numeric entities) so the page never mojibakes regardless of
+# how the viewer guesses the charset.
+open(os.path.join(HERE, "jurisprudence_map.html"), "w",
+     encoding="ascii", errors="xmlcharrefreplace").write(doc)
 print("wrote jurisprudence_map.html")
