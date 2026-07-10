@@ -70,6 +70,8 @@ def build(c):
             f'        <td>{a["prop"]}</td>\n'
             f'        <td><span class="trt {cls}">{a.get("treatment","Referred")}</span></td>\n      </tr>')
     auth = "\n".join(auth_rows)
+    court_type = "Supreme Court" if "supreme court" in c.get("court", "").lower() else "High Court"
+    interp_h2 = c.get("interp_heading") or "Interpretation of the Electricity Statutes"
     return f"""<!doctype html>
 <html lang="en">
 <head>
@@ -79,7 +81,7 @@ def build(c):
 </head>
 <body>
 
-  <div class="eyebrow">High Court &middot; Judgment Digest</div>
+  <div class="eyebrow">{court_type} &middot; Judgment Digest</div>
   <h1 class="case">{c["title"]}</h1>
   <div class="subcite">{c["subcite"]}</div>
 
@@ -102,7 +104,7 @@ def build(c):
   </div>
 {reasoning}
 
-  <h2>Interpretation of the Electricity Statutes</h2>
+  <h2>{interp_h2}</h2>
 {interp}
 
   <div class="ratio">

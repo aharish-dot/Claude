@@ -1,7 +1,15 @@
 {
  "court": "supreme-court",
  "prefix": "SC",
- "next_seq": 1,
+ "next_seq": 2,
  "note": "Stable filename -> case_id map. Reuse existing ids; never renumber a processed case.",
- "cases": []
+ "cases": [
+  {
+   "case_id": "SC-001",
+   "source_file": "Hon. SC_Judgement_09-Oct-2023.pdf",
+   "title": "Dakshin Gujarat Vij Co. Ltd. v. Gayatri Shakti Paper & Board Ltd.",
+   "court": "Supreme Court of India",
+   "status": "done"
+  }
+ ]
 }
