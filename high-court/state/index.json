@@ -1,7 +1,7 @@
 {
  "court": "high-court",
  "prefix": "HC",
- "next_seq": 7,
+ "next_seq": 8,
  "note": "Stable filename -> case_id map. Reuse existing ids; never renumber a processed case.",
  "cases": [
   {
@@ -44,6 +44,13 @@
    "source_file": "Kadodara Power Pvt. Ltd. & Others vs Gujarat Electricity Regulatory ... on 22 September, 2009.html",
    "title": "Kadodara Power Pvt. Ltd. v. Gujarat Electricity Regulatory Commission",
    "court": "Appellate Tribunal for Electricity",
+   "status": "done"
+  },
+  {
+   "case_id": "HC-007",
+   "source_file": "Jsw Energy Limited vs Karnataka Electricty Regulatory ... on 12 June, 2026.mht",
+   "title": "JSW Energy Ltd. v. Karnataka Electricity Regulatory Commission",
+   "court": "High Court of Karnataka",
    "status": "done"
   }
  ]
