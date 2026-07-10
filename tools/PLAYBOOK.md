@@ -95,6 +95,11 @@ interpretation, held, significance, citations) **plus**:
   referred / relied-on / doubted) — not just "relied on".
 - **Ratio vs Obiter:** stated separately.
 - **Disposition:** the operative order.
+- **Paragraph pins (required):** every `reasoning` body and every `interpretation` text ENDS with
+  a pin `<span class="pn">¶&nbsp;N</span>` (a range is `¶&nbsp;14&ndash;16`, a short list
+  `¶&nbsp;36, 38`) citing the judgment paragraph(s) the point is drawn from, so any statement can
+  be verified against the original at a glance. The `.pn` style is in `gen_hc.py`. The deep-extract
+  sub-agent must add these; keep author-name fields plain (pins go only on reasoning/interpretation).
 - Compilations gain a treatment dimension and group authorities by how they were treated.
 > Lock the exact look against the FIRST sample digest before any bulk run.
 

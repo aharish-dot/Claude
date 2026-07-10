@@ -28,6 +28,8 @@ HC_STYLE = """<style>
   .t-dist{ color:#7a2e0e; background:#fbe9e0; border:.5pt solid #e8b79c; }
   .t-ref { color:#334155; background:#eef1f5; border:.5pt solid #c7d0db; }
   .t-rel { color:#5f5010; background:#fbf3d6; border:.5pt solid #e6d69a; }
+  .pn{ font-family:Arial,'Liberation Sans',sans-serif; font-size:7.8pt; font-weight:700;
+       color:#8a94a3; white-space:nowrap; letter-spacing:.02em; }
 </style>"""
 
 TRT = {'followed':'t-foll','approved':'t-foll','affirmed':'t-foll','applied':'t-foll',
