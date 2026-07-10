@@ -70,7 +70,10 @@ def build(c):
             f'        <td>{a["prop"]}</td>\n'
             f'        <td><span class="trt {cls}">{a.get("treatment","Referred")}</span></td>\n      </tr>')
     auth = "\n".join(auth_rows)
-    court_type = "Supreme Court" if "supreme court" in c.get("court", "").lower() else "High Court"
+    _cl = c.get("court", "").lower()
+    court_type = ("Supreme Court" if "supreme court" in _cl
+                  else "High Court" if "high court" in _cl
+                  else (c.get("court_short") or "Judgment"))
     interp_h2 = c.get("interp_heading") or "Interpretation of the Electricity Statutes"
     return f"""<!doctype html>
 <html lang="en">

@@ -1,0 +1,136 @@
+{
+ "case_id": "HC-006",
+ "title": "Kadodara Power Pvt. Ltd. & Others v. Gujarat Electricity Regulatory Commission",
+ "subcite": "A. No. 171 & 172 of 2008, A. No. 10 of 2008 & A. No. 117 of 2009 | Appellate Tribunal for Electricity, New Delhi | 22 September 2009",
+ "court": "Appellate Tribunal for Electricity",
+ "court_short": "Appellate Tribunal for Electricity",
+ "scope": "Electricity Act, 2003; Electricity Rules, 2005",
+ "coram": "Hon’ble Ms. Justice Manju Goel, Judicial Member & Hon’ble Mr. H. L. Bajaj, Technical Member",
+ "date_of_judgment": "22 September 2009",
+ "nature": "Appeals under Section 111 of the Electricity Act, 2003 against orders of the Gujarat Electricity Regulatory Commission dated 22.10.07 and 08.05.09 relating to captive generating plant status and transmission rights",
+ "parties": "Kadodara Power Pvt. Ltd., Surbhi Infrastructure Services Ltd., Shahlon Industrial Infrastructure Pvt. Ltd., Nangalia Group of Association, and Gayatri Shakti Paper & Boards Ltd. (appellants — captive plant operators / owners) v. Gujarat Electricity Regulatory Commission & Dakshin Gujarat Vij Company Ltd. (respondents — regulatory authority & distribution licensee)",
+ "provisions": "Sections 2(8), 7, 9, 42(2) & 176, Electricity Act, 2003; Rule 3, Electricity Rules, 2005",
+ "result": "Appeals Nos. 171 & 172 of 2008 allowed; Appeals Nos. 10 of 2008 & 117 of 2009 dismissed; order of Commission partly set aside. The Tribunal held that special purpose vehicles are “associations of persons” subject to the proportionality rule; shareholding in a CGP operator qualifies as captive-user status; and no license is required for dedicated transmission lines from CGP to captive users, subject to open-access regulations.",
+ "issues": [
+  "Whether a company formed as a special purpose vehicle (SPV) to own and operate a captive generating plant constitutes an “association of persons” under Rule 3(1) of the Electricity Rules 2005, and whether it must comply with the proportionality requirement that electricity be consumed in proportion to ownership.",
+  "How the proportionality of consumption to ownership should be assessed — whether on the basis of 51% of generation (the minimum captive use threshold) or on 100% of total consumption.",
+  "Whether a shareholder in a company that owns a captive generating plant, but not a member of the SPV, can qualify as a captive user; and whether ownership interest via shareholding is sufficient.",
+  "Whether ownership of a captive generating plant can be transferred after its initial setup, or whether transfer causes loss of captive status.",
+  "Whether a captive generator requires a license to construct and use dedicated transmission lines to supply electricity to captive users / SPV members."
+ ],
+ "facts": [
+  "By petition No. 860 of 2006, the distribution companies (led by Dakshin Gujarat Vij Co. Ltd.) sought directions from the GERC against eight respondents alleging that they did not fulfill the requirements of captive generating plants (CGPs) under Rule 3 of the Electricity Rules 2005, and were therefore liable to pay distribution charges. The respondents included M/s. Surabhi Infrastructure Services Ltd., M/s. Kadodara Power Pvt. Ltd., M/s. Gayatri Shakti Paper & Boards Ltd., M/s. P. I. Industries Ltd., M/s. M. A. Group Industrial Co-operative Services Society Ltd., M/s. Shahlon Industrial Infrastructure Pvt. Ltd., and M/s. Nangalia Group of Association.",
+  "The GERC examined the shareholding structures and consumption patterns of these entities. In most cases, the GERC found that members of the SPVs did not consume electricity in proportion to their shareholding within the permitted ±10% variation (e.g., M/s. Kusum Dying & Printing Mills held 9.10% of shares in Surabhi but consumed 13.49%). In the case of M/s. Gayatri Shakti Paper & Boards Ltd., the GERC found that M/s. Kherani Paper Mills Ltd., though holding 37.86% of shares, could not be treated as a captive user merely by virtue of shareholding, as it was a separate legal entity and not part of the SPV ownership structure.",
+  "The GERC issued an order on 22 October 2007 holding that the CGPs in question did not meet the statutory criteria and directing that their consumption be treated as supply from a generating company to a consumer through open access, attracting electricity duty, cross-subsidy surcharge, and additional open-access charges. It also issued instructions to the Chief Electrical Inspector to monitor proportionality of consumption to shareholding annually.",
+  "The appellants challenged these findings in four separate appeals. A key procedural issue arose in Appeal No. 10 of 2008, where the question of the GERC’s jurisdiction itself was raised; the Tribunal remitted this to the Commission, which reaffirmed its jurisdiction on 08 May 2009, prompting Appeal No. 117 of 2009."
+ ],
+ "headnote": "On statutory interpretation of “captive generating plant” under the Electricity Act 2003 and Rule 3 of the 2005 Rules: a special purpose vehicle owning a CGP is an “association of persons” and must ensure members consume electricity in proportion to their shareholding within a ±10% tolerance, assessed only on the 51% minimum-captive-use portion, not on 100% of generation. A shareholder in the CGP-owning company qualifies as a captive user if its aggregate shareholding meets the 26% threshold; no license is required for dedicated transmission lines from the CGP to captive users, though open-access regulations apply if grid access is used. Ownership transfer does not extinguish captive status if the plant thereafter meets the statutory criteria.",
+ "reasoning": [
+  {
+   "point": "Special purpose vehicles are “associations of persons” under Rule 3",
+   "explanation": "The Tribunal rejected the appellants’ contention that an SPV, being a single legal entity, need only satisfy the 51% captive-use threshold without the proportionality requirement. Reading Section 2(8) (inclusive definition) and Rule 3 holistically, the Tribunal held that a CGP owned by an SPV must be treated as owned by an “association of persons” because: (i) the SPV is formed by multiple persons coming together; (ii) upon formation the SPV becomes a legal person, but this does not remove it from the class of “association of persons” in the Rule’s sense; (iii) the Rule grants a special exemption to registered cooperatives from the proportionality requirement; (iv) if the Rule intended to exempt SPVs, it would have said so explicitly; and (v) the proportionality rule is the natural counterpart to the ownership requirement (Rule 3(1)(a)(i) — 26% minimum). (Paras 15–16)"
+  },
+  {
+   "point": "Proportionality must be assessed on the 51% captive-use portion, not on 100% of output",
+   "explanation": "The GERC had calculated each member’s consumption as a percentage of 100% of total output. The Tribunal held this approach was erroneous. Rule 3(1)(a)(ii) requires that at least 51% of aggregate generation be consumed by captive users, and the proportionality requirement applies to that 51% portion only. For example, if output is 10,000 kWh, only 5,100 kWh need comply with the ±10% proportionality rule; the remaining 4,900 kWh can be sold freely. The GERC had not separated the 51% threshold from total consumption in its calculations, making its findings of disproportionality unsustainable. (Para 17)"
+  },
+  {
+   "point": "A shareholder holding 26%+ in the CGP-owning company is a captive user",
+   "explanation": "The Tribunal cited its own earlier judgment in Malwa Industries Ltd. Vs. Punjab State Electricity Regulatory Commission (Appeal No. 32 of 2007, 06.12.07) to hold that a shareholder in a CGP-owning company becomes a captive user once the aggregate shareholding of all captive users meets 26%, without requiring each individual user to hold 26%. Applying Rule 3(1)(a), read with Explanation 1(c) (ownership meaning “equity share capital with voting rights”), M/s. Kherani Paper Mills Ltd., holding 37.86% in M/s. Gayatri Shakti Paper & Boards Ltd., qualifies as a captive user. (Paras 19, 1086–1107)"
+  },
+  {
+   "point": "Ownership transfer does not extinguish captive-plant status",
+   "explanation": "The distribution licensees argued that the word “set up” in Section 2(8) means only the original founder can own a CGP and that transfer of ownership causes loss of captive status. The Tribunal held this interpretation untenable. Section 9 uses the phrase “construct, maintain or operate,” treating these as distinct from “set up.” The Act nowhere prohibits transfer of a CGP’s ownership, nor does it provide that transfer extinguishes captive status. If the generating plant thereafter meets the statutory and regulatory criteria — including the 26% ownership and 51% consumption thresholds — it remains a CGP regardless of who currently owns it. (Paras 20–21)"
+  },
+  {
+   "point": "No license required for dedicated transmission lines; open-access regulations apply if grid is used",
+   "explanation": "Section 9(1) permits a CGP owner to construct dedicated transmission lines and grants open access for carrying electricity to the point of use. The second proviso to Section 9(1), added in 2007, explicitly states that no license is required to supply electricity from a CGP to a consumer. The Tribunal held that M/s. Gayatri Shakti Paper & Boards Ltd. requires no license to transmit power to M/s. Kherani Paper Mills Ltd. (its captive user) via dedicated line. If open access through the grid is availed of, open-access regulations under Section 42(2) apply; if no grid access is used and the destination is a captive user or nearby consumer, the dedicated line can be erected without invoking open-access machinery. (Paras 22–25)"
+  }
+ ],
+ "interpretations": [
+  {
+   "provision": "Section 2(8) — Inclusive Definition of “Captive Generating Plant”",
+   "interpretation": "Section 2(8) defines “captive generating plant” as “a power plant set up by any person to generate electricity primarily for his own use” and “includes” plants set up by cooperatives or associations. The word “includes” renders the definition inclusive, not exhaustive; hence a CGP may be set up by any person (including a company), and the statute does not limit owners to the category of “cooperative or association” alone. However, the rules prescribe detailed criteria that apply once set up."
+  },
+  {
+   "provision": "Section 9 — Captive Generation; Dedicated Transmission Lines & Open Access",
+   "interpretation": "Section 9(1) permits a person to construct, maintain, and operate a captive generating plant and dedicated transmission lines “notwithstanding anything contained in this Act.” The section distinguishes “construct” from “maintain/operate,” implying that the original constructor need not be the current operator or owner. The second proviso (added 2007) explicitly exempts a CGP from the license requirement when supplying to a licensee or consumer, subject to open-access regulations where applicable. A dedicated transmission line connecting a CGP to a point of use (including a single consumer) is permissible without a license and without mandatory use of the grid."
+  },
+  {
+   "provision": "Rule 3(1)(a) — Ownership & Consumption Thresholds for Group CGPs",
+   "interpretation": "Rule 3(1)(a) prescribes that in the case of a group CGP: (i) captive users must hold not less than 26% of ownership; and (ii) not less than 51% of aggregate electricity generated annually must be consumed for captive use. A proviso allows registered cooperatives to satisfy these thresholds collectively among their members. A second proviso requires that in an association of persons, each member’s consumption be “in proportion to their shares in ownership” within a variation not exceeding “ten per cent.” The proportionality requirement applies only to the 51% minimum-captive-use quantum, not to 100% of generation. The remainder (up to 49%) may be sold freely."
+  },
+  {
+   "provision": "Rule 3 Explanations — “Captive User,” “Ownership” & “Special Purpose Vehicle”",
+   "interpretation": "Explanation (1)(b) defines “captive user” as “the end user of the electricity generated in a Captive Generating Plant.” Explanation (1)(c) clarifies that “ownership” in relation to a company means “equity share capital with voting rights.” Explanation (1)(d) defines “Special Purpose Vehicle” as “a legal entity owning, operating and maintaining a generating station and with no other business or activity.” A shareholder in an SPV that holds the prescribed 26% aggregate stake qualifies as a captive user by virtue of that equity ownership with voting rights, even if the shareholder is not a member of the SPV agreement itself."
+  },
+  {
+   "provision": "Section 42(2) — Regulations for Open Access & Supply to Consumers",
+   "interpretation": "Section 42(2) empowers the Appropriate Commission to frame regulations for open access to the transmission system. Regulations made thereunder apply when a generator uses the grid to carry electricity. The second proviso to Section 9(1) makes clear that supply from a CGP to a consumer is conditional on compliance with Section 42(2) regulations — but only if open access (grid) is availed of. If the CGP delivers power via dedicated transmission lines without using the grid, the open-access regulations do not mandate routing through the grid merely because they exist."
+  }
+ ],
+ "ratio": "A special purpose vehicle owning a captive generating plant is an “association of persons” under Rule 3 of the Electricity Rules 2005 and must ensure that at least 26% of the plant is owned by captive users and that at least 51% of generation is consumed by them in proportion to ownership (±10% tolerance), the proportionality test being applied to the 51% portion only. A shareholder holding 26%+ in a CGP-owning company qualifies as a captive user on the basis of equity ownership. Ownership of a CGP may be transferred after setup without loss of captive status if statutory criteria are thereafter met. No license is required for a CGP owner to construct dedicated transmission lines to supply captive users, though open-access regulations apply if the grid is used.",
+ "obiter": [
+  {
+   "point": "The word “set up” is not an exclusive ownership marker",
+   "explanation": "The Act does not restrict captive generation rights to the original founder or constructor. Section 9’s use of “construct, maintain or operate” as a triad implies these are distinct roles; the entity that maintains or operates need not be the one that constructed. What matters is that the plant, as currently operated, meets the statutory and regulatory criteria for being “primarily for the owner’s use.”"
+  },
+  {
+   "point": "The GERC’s jurisdiction to regulate captive-plant compliance is affirmed",
+   "explanation": "While the Tribunal remitted the jurisdiction question to the Commission (in response to IA No. 7 of 2009), the Commission’s reaffirmation of jurisdiction on 08.05.09 stands. The regulatory authority has power to monitor and enforce Rule 3 compliance by issuing directions to the electrical inspector and assessing whether a plant meets captive criteria."
+  }
+ ],
+ "disposition": "Appeals No. 171 and 172 of 2008 allowed; Appeals No. 10 of 2008 and 117 of 2009 dismissed. The order of the Gujarat Electricity Regulatory Commission dated 22.10.07 is set aside to the extent indicated in the judgment. The Tribunal held that M/s. Kherani Paper Mills Ltd. is a captive user and M/s. Gayatri Shakti Paper & Boards Ltd. does not need any license to transmit power via dedicated transmission line or open access. The captive-plant owners, including special-purpose vehicles, must maintain proportionality between consumption and ownership as “associations of persons.” The Commission is directed to re-determine proportionality of consumption and ownership afresh within 60 days in accordance with the Tribunal’s discussion of Rule 3(1)(a)(ii) and issue appropriate directions. All interlocutory applications are disposed of.",
+ "significance": [
+  {
+   "point": "Special purpose vehicles are “associations of persons,” not exempt legal entities",
+   "explanation": "The judgment rejects a technical distinction between an SPV (as a single legal person) and an “association of persons.” An SPV, formed by multiple member companies, remains within the Rule 3 proportionality regime, absent a specific exemption in the statute (as exists for cooperatives). This interpretation prevents avoidance of proportionality discipline."
+  },
+  {
+   "point": "The 51% captive-use threshold sets the domain for the proportionality rule",
+   "explanation": "Earlier regulatory practice had assessed members’ consumption against 100% of output, leading to technical breaches of the ±10% tolerance. The Tribunal clarified that proportionality applies only to the mandatory 51% minimum-captive portion; the excess 49% has no proportionality constraint, freeing CGP operators to sell and optimize that tranche."
+  },
+  {
+   "point": "Equity shareholding alone confers captive-user status",
+   "explanation": "A shareholder holding 26%+ equity (with voting rights) in a CGP-owning company becomes a captive user without needing to join the SPV agreement or co-ownership structure. This expands the class of potential captive beneficiaries from SPV members alone to equity stakeholders."
+  },
+  {
+   "point": "Ownership transfer does not void captive status retroactively or prospectively",
+   "explanation": "Contrary to the distribution licensees’ argument, the law does not “lock in” captive status to the original setter-up. A transferred plant remains captive if it meets the ongoing criteria. This principle enables secondary markets in CGP assets and permits restructuring without regulatory penalty."
+  },
+  {
+   "point": "Dedicated transmission lines require no license; open-access is conditional, not mandatory",
+   "explanation": "The judgment separates the legal rights of a CGP owner: right to build and use a dedicated line (licenseless) from the option to use the grid (subject to open-access charge and regulation). If a captive user is nearby or the owner bypasses the grid, the open-access machinery is not triggered, reducing costs and regulatory friction."
+  },
+  {
+   "point": "This ruling was later upheld by the Supreme Court in Dakshin Gujarat Vij Company Ltd. v. Ministry of Power (SC-001), affirming the Tribunal’s captive-plant jurisprudence",
+   "explanation": "The Appellate Tribunal’s interpretation of Rule 3, the proportionality test, and captive-user standing became binding precedent in the higher court, cementing the framework for captive generation under Indian electricity law."
+  }
+ ],
+ "authorities": [
+  {
+   "name": "Malwa Industries Ltd. Vs. Punjab State Electricity Regulatory Commission",
+   "citation": "Appeal No. 32 of 2007, decided 06 December 2007",
+   "court": "Appellate Tribunal for Electricity",
+   "docid": "1652054",
+   "treatment": "Followed",
+   "proposition": "Held that captive-user ownership may be aggregated and need not be 26% per individual member; equity shares with voting rights constitute “ownership”; and supply from a CGP to a shareholder-sister concern, without a license, is permissible subject to open-access regulations. Applied to establish that M/s. Kherani Paper Mills Ltd., holding 37.86% in the CGP owner, is a captive user."
+  },
+  {
+   "name": "Nalwa Steel & Power Ltd. Vs. Chhattisgarh State Electricity Board & Ors.",
+   "citation": "Appeal No. 139 of 2007, decided 20 May 2009",
+   "court": "Appellate Tribunal for Electricity",
+   "docid": "1726045",
+   "treatment": "Relied on",
+   "proposition": "Held that open-access regulations apply only when open access (grid) is availed of; if no grid access is used and a dedicated line serves a captive user or nearby consumer, the generating company cannot be forced to route power through the grid; and dedicated lines connecting a CGP to a load centre (including a single consumer) are permissible without a license. Relied on to support the Tribunal’s discussion of transmission rights and the distinction between dedicated-line supply and open-access supply."
+  },
+  {
+   "name": "A.P. Gas Corporation Ltd. Vs. APERC",
+   "citation": "AIR 2004 SC 3090",
+   "court": "Supreme Court",
+   "docid": "",
+   "treatment": "Referred",
+   "proposition": "Cited by the Commission (and referred to in the Tribunal’s recital) in support of the proposition that share transfer is permissible in a company structure; ownership is not frozen at incorporation. The Tribunal accepted this principle but held that even if shares can be transferred, the CGP must thereafter meet Rule 3 criteria."
+  }
+ ]
+}
