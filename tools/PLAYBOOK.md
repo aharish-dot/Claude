@@ -75,7 +75,10 @@ has read this file: *"Follow tools/PLAYBOOK.md, process the next 3 in high-court
 > {point, explanation}).
 > Rules: cite paragraph numbers where possible; use ONLY authorities actually discussed in the
 > text (match the doc-ids already listed in `<caseid>.fp.json`); never invent a citation or a
-> holding; if something is unclear or absent, use null / "not stated" rather than guessing.
+> holding, or an obiter/observation the judgment does not contain &mdash; EVERY point (facts,
+> reasoning, interpretation, obiter, significance) must be actually stated in the text; do not add
+> legally-correct background that isn't there. Provide a short verbatim quote for each obiter item
+> so it can be grep-checked. If unclear or absent, use null / "not stated" rather than guessing.
 
 ## 3. Verification checklist (before commit)
 - Every `authorities[].docid` in the extract exists in `<caseid>.fp.json` (grep the source).
@@ -84,6 +87,10 @@ has read this file: *"Follow tools/PLAYBOOK.md, process the next 3 in high-court
 - No judge or party name has leaked into the authorities list (a recurring Haiku error).
 - Spot-check one `treatment` label against its cited paragraph in the source.
 - Assessment/relief figures, if any, match the text.
+- **Obiter must be grounded (anti-hallucination):** grep-confirm EACH `obiter` item against
+  `<caseid>.txt`, and spot-check reasoning/significance. Haiku will sometimes add a
+  legally-plausible proposition the judgment does NOT contain (e.g. a §126/§135 theft aside in a
+  captive-power case where those sections never appear). Drop any obiter with zero support in the text.
 
 ## 4. HC / SC digest format (extends the Delhi DC format)
 The DC digest sections (title, docket, charge, facts, reasoning-with-blue-lead-ins, headnote,
