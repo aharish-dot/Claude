@@ -79,6 +79,17 @@ has read this file: *"Follow tools/PLAYBOOK.md, process the next 3 in high-court
 > reasoning, interpretation, obiter, significance) must be actually stated in the text; do not add
 > legally-correct background that isn't there. Provide a short verbatim quote for each obiter item
 > so it can be grep-checked. If unclear or absent, use null / "not stated" rather than guessing.
+> **Attribution &mdash; whose voice is it?** A judgment constantly REPRODUCES material it did not
+> originate: statutory text it extracts, higher-court passages it block-quotes, an authority's
+> propositions, counsel's arguments. Never present reproduced material as this court's own
+> reasoning / interpretation / holding. For every reasoning, interpretation, ratio and obiter
+> point, identify the speaker: if the paragraph merely extracts a statute or quotes another
+> court / authority / counsel (tell-tales: "reads as under", "extracted for ready reference", "the
+> Apex Court held", "according to the petitioners"), label it with its true source ("Per the
+> Supreme Court in X, reproduced at ¶N"; "Statutory text, extracted at ¶N") and keep it OUT of this
+> court's own reasoning. Reserve the court's own reasoning / holding / ratio for paragraphs where it
+> analyses, applies or decides in its own voice. Where a case is largely an application of a
+> higher-court framework, say so, and keep that framework separate from this court's own holding.
 
 ## 3. Verification checklist (before commit)
 - Every `authorities[].docid` in the extract exists in `<caseid>.fp.json` (grep the source).
@@ -91,6 +102,14 @@ has read this file: *"Follow tools/PLAYBOOK.md, process the next 3 in high-court
   `<caseid>.txt`, and spot-check reasoning/significance. Haiku will sometimes add a
   legally-plausible proposition the judgment does NOT contain (e.g. a §126/§135 theft aside in a
   captive-power case where those sections never appear). Drop any obiter with zero support in the text.
+- **Provenance / no mis-attribution (open the pinned paragraph):** for EACH reasoning / interpretation /
+  ratio / obiter point, confirm the deciding court is speaking in its OWN voice at the pinned paragraph.
+  If that paragraph only extracts a statute or block-quotes another court / authority / counsel, the point
+  must be re-labelled with its source (or moved to the "reproduced from [court]" section) — a paragraph that
+  merely quotes is NOT this court's interpretation. The classic failure (HC-007): an imported interpretation
+  pinned to a paragraph that only reproduces a definition, so the digest reads as if this court *held* what
+  it merely *quoted*. When a judgment reproduces a higher court's holding, verify the digest attributes it to
+  that court, not the deciding one.
 
 ## 4. HC / SC digest format (extends the Delhi DC format)
 The DC digest sections (title, docket, charge, facts, reasoning-with-blue-lead-ins, headnote,
@@ -107,6 +126,18 @@ interpretation, held, significance, citations) **plus**:
   `¶&nbsp;36, 38`) citing the judgment paragraph(s) the point is drawn from, so any statement can
   be verified against the original at a glance. The `.pn` style is in `gen_hc.py`. The deep-extract
   sub-agent must add these; keep author-name fields plain (pins go only on reasoning/interpretation).
+  A pin means "supported by THIS court, in its own voice, at ¶N" — if ¶N only quotes/extracts, the
+  point belongs in the reproduced-framework section (below), not here.
+- **Provenance labelling (required when a case applies a higher authority):** the digest must show what
+  the deciding court HELD apart from what it REPRODUCED. Put quoted / extracted framework (statute,
+  affirmed authority, higher-court holdings) in a clearly-labelled section — set `interp_heading` to e.g.
+  "Framework Applied &mdash; Reproduced from the Supreme Court", tag each item with the `.src` label
+  (`<span class="src src-sc">SUPREME COURT</span>`, styles in `gen_hc.py`), and prefix its text
+  "Per [court] …, reproduced at ¶N". Keep the deciding court's own voice under a settable
+  `reasoning_heading` (e.g. "This Court's Reasoning &amp; Holding"). Pins on reproduced items point to
+  where THIS judgment reproduces the passage; the text names the originating court. **HC-007 is the
+  worked reference** (`high-court/extracts/HC-007.extract.json`): its framework is the Supreme Court's in
+  *Dakshin Gujarat*, reproduced and tagged; only ¶45–49 are the High Court's own holding.
 - Compilations gain a treatment dimension and group authorities by how they were treated.
 > Lock the exact look against the FIRST sample digest before any bulk run.
 
