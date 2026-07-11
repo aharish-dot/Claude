@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UPERC Ombudsman — what 5 orders reveal</title>
+<style>
+  :root{
+    --bg:#FBFAF7; --surface:#FFFFFF; --card:#FCFCFA;
+    --ink:#1C1A16; --ink-2:#4A463E; --muted:#78736A;
+    --line:#E7E3DB; --line-2:#D9D4CA;
+    --accent:#4457B4; --threshold:#B5762A; --relief:#0F8A6E;
+    --threshold-soft:#B5762A22; --relief-soft:#0F8A6E22; --accent-soft:#4457B41A;
+    --serif:Georgia,"Times New Roman",serif;
+    --sans:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+    --mono:ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{
+      --bg:#16151B; --surface:#1E1D24; --card:#211F29;
+      --ink:#ECE9E3; --ink-2:#B9B4AC; --muted:#8B857C;
+      --line:#302E38; --line-2:#3B3846;
+      --accent:#6A78E4; --threshold:#B87A2C; --relief:#2FA588;
+      --threshold-soft:#B87A2C2E; --relief-soft:#2FA5882E; --accent-soft:#6A78E426;
+    }
+  }
+  :root[data-theme="light"]{
+    --bg:#FBFAF7; --surface:#FFFFFF; --card:#FCFCFA;
+    --ink:#1C1A16; --ink-2:#4A463E; --muted:#78736A;
+    --line:#E7E3DB; --line-2:#D9D4CA;
+    --accent:#4457B4; --threshold:#B5762A; --relief:#0F8A6E;
+    --threshold-soft:#B5762A22; --relief-soft:#0F8A6E22; --accent-soft:#4457B41A;
+  }
+  :root[data-theme="dark"]{
+    --bg:#16151B; --surface:#1E1D24; --card:#211F29;
+    --ink:#ECE9E3; --ink-2:#B9B4AC; --muted:#8B857C;
+    --line:#302E38; --line-2:#3B3846;
+    --accent:#6A78E4; --threshold:#B87A2C; --relief:#2FA588;
+    --threshold-soft:#B87A2C2E; --relief-soft:#2FA5882E; --accent-soft:#6A78E426;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+    line-height:1.55;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:960px;margin:0 auto;padding:clamp(28px,5vw,64px) clamp(18px,4vw,40px);}
+  .eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--accent);margin:0 0 14px;}
+  h1{font-family:var(--serif);font-weight:600;font-size:clamp(30px,5.2vw,46px);line-height:1.08;
+    letter-spacing:-.01em;margin:0 0 16px;text-wrap:balance;}
+  .dek{font-size:clamp(16px,2.2vw,19px);color:var(--ink-2);max-width:62ch;margin:0 0 8px;}
+  .meta{font-family:var(--mono);font-size:12.5px;color:var(--muted);margin-top:18px;}
+  section{margin-top:clamp(40px,6vw,66px);}
+  h2{font-family:var(--serif);font-weight:600;font-size:clamp(21px,3vw,27px);letter-spacing:-.01em;
+    margin:0 0 6px;text-wrap:balance;}
+  .lede{color:var(--ink-2);max-width:64ch;margin:0 0 22px;font-size:15.5px;}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;
+    padding:clamp(18px,3vw,26px);}
+  /* hero */
+  .hero{display:grid;grid-template-columns:auto 1fr;gap:clamp(20px,4vw,40px);align-items:center;
+    background:var(--surface);border:1px solid var(--line);border-radius:16px;
+    padding:clamp(22px,4vw,34px);}
+  .bignum{font-family:var(--serif);font-weight:600;font-variant-numeric:tabular-nums;
+    font-size:clamp(66px,15vw,116px);line-height:.86;letter-spacing:-.03em;color:var(--threshold);}
+  .bignum small{display:block;font-size:.2em;letter-spacing:.14em;text-transform:uppercase;
+    font-family:var(--mono);color:var(--muted);margin-top:12px;font-weight:400;}
+  .hero-body p{margin:0 0 12px;font-size:16.5px;color:var(--ink-2);max-width:48ch;}
+  .hero-body strong{color:var(--ink);font-weight:600;}
+  .tagrow{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px;}
+  .pill{font-family:var(--mono);font-size:11.5px;letter-spacing:.03em;padding:4px 10px;border-radius:999px;
+    border:1px solid var(--line-2);color:var(--ink-2);white-space:nowrap;}
+  .pill.th{background:var(--threshold-soft);border-color:transparent;color:var(--threshold);}
+  .pill.re{background:var(--relief-soft);border-color:transparent;color:var(--relief);}
+  /* legend */
+  .legend{display:flex;gap:18px;flex-wrap:wrap;margin:0 0 18px;font-family:var(--mono);font-size:12px;
+    color:var(--muted);}
+  .legend span{display:inline-flex;align-items:center;gap:7px;}
+  .dot{width:11px;height:11px;border-radius:3px;flex:none;}
+  .dot.th{background:var(--threshold);} .dot.re{background:var(--relief);} .dot.ac{background:var(--accent);}
+  /* case ladder */
+  .ladder{display:flex;flex-direction:column;gap:10px;}
+  .case{display:grid;grid-template-columns:76px 1fr 132px;gap:14px;align-items:center;
+    background:var(--card);border:1px solid var(--line);border-left:4px solid var(--threshold);
+    border-radius:11px;padding:13px 16px;}
+  .case.merits{border-left-color:var(--relief);}
+  .cid{font-family:var(--mono);font-size:12px;color:var(--ink);font-weight:600;}
+  .cid small{display:block;color:var(--muted);font-weight:400;font-size:11px;margin-top:2px;}
+  .csub{min-width:0;}
+  .csub b{font-weight:600;font-size:14.5px;}
+  .csub .who{color:var(--muted);font-family:var(--mono);font-size:11.5px;margin-top:3px;display:block;}
+  .verdict{text-align:right;}
+  .vlabel{font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+    color:var(--threshold);font-weight:600;}
+  .case.merits .vlabel{color:var(--relief);}
+  .vsub{font-size:12px;color:var(--ink-2);margin-top:3px;}
+  /* bars */
+  .bars{display:flex;flex-direction:column;gap:12px;}
+  .bar{display:grid;grid-template-columns:1fr;gap:5px;}
+  .bar-top{display:flex;justify-content:space-between;align-items:baseline;gap:12px;}
+  .bar-top .lab{font-size:13.5px;color:var(--ink-2);}
+  .bar-top .val{font-family:var(--mono);font-variant-numeric:tabular-nums;font-size:12.5px;color:var(--muted);}
+  .track{height:12px;background:var(--accent-soft);border-radius:6px;overflow:hidden;}
+  .fill{height:100%;border-radius:6px;background:var(--accent);}
+  .fill.th{background:var(--threshold);} .fill.re{background:var(--relief);}
+  /* split bar */
+  .split{display:flex;height:40px;border-radius:9px;overflow:hidden;border:1px solid var(--line);}
+  .split div{display:flex;align-items:center;justify-content:center;color:#fff;font-family:var(--mono);
+    font-size:12.5px;letter-spacing:.03em;gap:8px;padding:0 10px;white-space:nowrap;}
+  .split .s-th{background:var(--threshold);} .split .s-re{background:var(--relief);}
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:18px;}
+  .subjects{display:flex;flex-direction:column;gap:8px;}
+  .subj{display:flex;gap:12px;align-items:baseline;padding:11px 14px;background:var(--card);
+    border:1px solid var(--line);border-radius:9px;}
+  .subj .n{font-family:var(--mono);color:var(--accent);font-weight:600;flex:none;}
+  .subj .t b{font-weight:600;} .subj .t span{color:var(--muted);}
+  /* ladder diagram */
+  .tiers{display:flex;flex-direction:column;gap:0;}
+  .tier{border:1px solid var(--line);background:var(--card);padding:14px 18px;position:relative;}
+  .tier:first-child{border-radius:11px 11px 0 0;}
+  .tier:last-child{border-radius:0 0 11px 11px;}
+  .tier + .tier{border-top:none;}
+  .tier .role{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);}
+  .tier .name{font-family:var(--serif);font-size:18px;font-weight:600;margin:2px 0 4px;}
+  .tier .note{font-size:13px;color:var(--ink-2);}
+  .tier.focus{border-color:var(--accent);box-shadow:inset 3px 0 0 var(--accent);}
+  .arrows{font-family:var(--mono);font-size:11.5px;color:var(--muted);text-align:center;padding:6px 0;}
+  /* roadmap */
+  .grow{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+  .grow .g{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:16px 18px;}
+  .grow .g h3{margin:0 0 6px;font-size:14px;font-family:var(--mono);letter-spacing:.02em;color:var(--accent);font-weight:600;}
+  .grow .g p{margin:0;font-size:13.5px;color:var(--ink-2);}
+  .callout{background:var(--accent-soft);border:1px solid var(--line);border-radius:12px;
+    padding:18px 20px;font-size:15px;color:var(--ink-2);}
+  .callout b{color:var(--ink);}
+  footer{margin-top:56px;padding-top:22px;border-top:1px solid var(--line);
+    font-family:var(--mono);font-size:12px;color:var(--muted);line-height:1.7;}
+  a{color:var(--accent);}
+  :focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px;}
+  @media (max-width:680px){
+    .hero{grid-template-columns:1fr;text-align:left;}
+    .case{grid-template-columns:64px 1fr;}
+    .verdict{grid-column:1 / -1;text-align:left;border-top:1px dashed var(--line);padding-top:9px;}
+    .two,.grow{grid-template-columns:1fr;}
+  }
+  @media (prefers-reduced-motion:no-preference){
+    .fill,.split div{transition:width .5s ease;}
+  }
+</style>
+</head>
+<body>
+<main class="wrap">
+
+  <p class="eyebrow">UPERC Electricity Ombudsman · jurisprudence probe</p>
+  <h1>Five orders in, the pattern is already about the door — not the merits</h1>
+  <p class="dek">A first read of five 2026 orders of the Electricity Ombudsman, Uttar Pradesh, coded on
+    what each dispute was <em>about</em> and how it was actually <em>decided</em>. The gap between those
+    two is the finding.</p>
+  <p class="meta">n = 5 · orders C-19, C-20, C-25, 23 &amp; 15 of 2026 · a demonstration of the coding, not a statistic</p>
+
+  <section aria-label="Headline finding">
+    <div class="hero">
+      <div class="bignum">4/5<small>disposed at the threshold</small></div>
+      <div class="hero-body">
+        <p><strong>Four of the five never reached the electricity merits.</strong> They were turned away on a
+          jurisdiction or maintainability question — theft is outside the forum, the Ombudsman can't review its
+          own order, exhaust the CGRF first, or the appeal was withdrawn.</p>
+        <p>The one order that granted relief did so by <strong>enforcing a lower forum's order</strong> under
+          s.142 — not by deciding a fresh dispute. So in this sample the Ombudsman reads as a
+          <strong>gatekeeper of its own jurisdiction</strong>.</p>
+        <div class="tagrow">
+          <span class="pill th">theft → barred</span>
+          <span class="pill th">no power of review</span>
+          <span class="pill th">exhaust CGRF first</span>
+          <span class="pill th">withdrawn</span>
+          <span class="pill re">enforcement (s.142)</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section aria-label="How each case was decided">
+    <h2>How each of the five was decided</h2>
+    <p class="lede">Same statute, five different subjects, five different procedural routes in — and, bar one,
+      the same fate at the threshold.</p>
+    <div class="legend">
+      <span><i class="dot th"></i>disposed at threshold (jurisdiction / maintainability / withdrawal)</span>
+      <span><i class="dot re"></i>reached relief (on the merits side)</span>
+    </div>
+    <div class="ladder">
+      <div class="case">
+        <div class="cid">OMB-001<small>C-19/26</small></div>
+        <div class="csub"><b>Theft re-assessment &amp; non-compliance of a prior order</b>
+          <span class="who">Smt. Shabina · domestic · Lucknow (LESA/MVVNL)</span></div>
+        <div class="verdict"><div class="vlabel">subject-matter bar</div>
+          <div class="vsub">Dismissed — not maintainable</div></div>
+      </div>
+      <div class="case">
+        <div class="cid">OMB-002<small>C-20/26</small></div>
+        <div class="csub"><b>Defective-meter kVAH assessment</b>
+          <span class="who">Maa Shakumbhari Plastic Udyog · industrial (HV) · Saharanpur (PVVNL)</span></div>
+        <div class="verdict"><div class="vlabel">no power of review</div>
+          <div class="vsub">Dismissed (recall refused)</div></div>
+      </div>
+      <div class="case merits">
+        <div class="cid">OMB-003<small>C-25/26</small></div>
+        <div class="csub"><b>Electricity-duty exemption (Industrial Policy 2004)</b>
+          <span class="who">M/s Om Industries, rice mill · HV-2, 110 KVA · Amethi (MVVNL)</span></div>
+        <div class="verdict"><div class="vlabel">enforcement · s.142</div>
+          <div class="vsub">Directed compliance ✓</div></div>
+      </div>
+      <div class="case">
+        <div class="cid">OMB-004<small>23/26</small></div>
+        <div class="csub"><b>Builder over-recovery via prepaid billing; "consumer" u/s 2(15)</b>
+          <span class="who">Alok Kumar · domestic, society single-point · Ghaziabad (PVVNL)</span></div>
+        <div class="verdict"><div class="vlabel">withdrawn · liberty</div>
+          <div class="vsub">Dismissed as withdrawn</div></div>
+      </div>
+      <div class="case">
+        <div class="cid">OMB-005<small>15/26</small></div>
+        <div class="csub"><b>Supply cut 6h→2h; ₹7.5 cr compensation claim</b>
+          <span class="who">M/s J.K. Industries, hinges · MV-6, 80 HP · Ambedkar Nagar (MVVNL)</span></div>
+        <div class="verdict"><div class="vlabel">no original jurisdiction</div>
+          <div class="vsub">Dismissed — not maintainable</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section aria-label="Grounds and consumer mix">
+    <div class="two">
+      <div>
+        <h2>Grounds of disposition</h2>
+        <p class="lede">The decisive axis — why the case ended, independent of its subject.</p>
+        <div class="split" role="img" aria-label="4 of 5 disposed at threshold, 1 of 5 reached relief">
+          <div class="s-th" style="flex:4">4 · threshold</div>
+          <div class="s-re" style="flex:1">1 · relief</div>
+        </div>
+        <div class="bars" style="margin-top:18px">
+          <div class="bar"><div class="bar-top"><span class="lab">Maintainability — subject-matter / hierarchy / review</span><span class="val">3</span></div>
+            <div class="track"><div class="fill th" style="width:75%"></div></div></div>
+          <div class="bar"><div class="bar-top"><span class="lab">Withdrawal (with liberty)</span><span class="val">1</span></div>
+            <div class="track"><div class="fill th" style="width:25%"></div></div></div>
+          <div class="bar"><div class="bar-top"><span class="lab">Compliance / execution (relief)</span><span class="val">1</span></div>
+            <div class="track"><div class="fill re" style="width:25%"></div></div></div>
+        </div>
+      </div>
+      <div>
+        <h2>Who is litigating</h2>
+        <p class="lede">Small skew to industrial users — MSMEs bringing billing, duty and supply grievances.</p>
+        <div class="bars">
+          <div class="bar"><div class="bar-top"><span class="lab">Industrial (plastics · rice mill · hinges)</span><span class="val">3</span></div>
+            <div class="track"><div class="fill" style="width:100%"></div></div></div>
+          <div class="bar"><div class="bar-top"><span class="lab">Domestic (incl. one society single-point)</span><span class="val">2</span></div>
+            <div class="track"><div class="fill" style="width:66%"></div></div></div>
+        </div>
+        <div class="callout" style="margin-top:18px;font-size:13.5px">
+          <b>Two disconnections for dues</b> sit behind these files (OMB-005's ₹2.14 L; the theft history in OMB-001) —
+          a hint that "non-compliance / recovery" is its own recurring genre.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section aria-label="Subjects">
+    <h2>The disputes were all different. The outcome wasn't.</h2>
+    <p class="lede">Five distinct subject-matters across five orders — which is exactly why coding the
+      <em>procedural</em> axis matters: a subject-only sheet would file four dismissals-at-the-door under
+      "metering / billing / supply" and miss the through-line.</p>
+    <div class="subjects">
+      <div class="subj"><span class="n">01</span><span class="t"><b>Assessment — theft / unauthorised use.</b> <span>s.126/135 territory → outside the forum.</span></span></div>
+      <div class="subj"><span class="n">02</span><span class="t"><b>Metering — defective meter, kVAH assessment.</b> <span>reached only as a review petition.</span></span></div>
+      <div class="subj"><span class="n">03</span><span class="t"><b>Billing — electricity-duty exemption.</b> <span>the lone relief — by enforcement.</span></span></div>
+      <div class="subj"><span class="n">04</span><span class="t"><b>Franchisee / single-point over-recovery.</b> <span>"no profit, no loss" — cl. 4.46(b)(i).</span></span></div>
+      <div class="subj"><span class="n">05</span><span class="t"><b>Supply reliability / hours → compensation.</b> <span>routed back to CGRF / SoP Regs 2019.</span></span></div>
+    </div>
+  </section>
+
+  <section aria-label="Provisions that recur">
+    <h2>The same handful of provisions keep recurring</h2>
+    <p class="lede">Even at five orders, a citation core forms — the seed of a cross-forum authorities map.
+      (Count of orders invoking each, of 5.)</p>
+    <div class="legend"><span><i class="dot ac"></i>orders citing the provision</span></div>
+    <div class="bars">
+      <div class="bar"><div class="bar-top"><span class="lab">EA 2003, s.42 — grievance-redressal backbone</span><span class="val">4</span></div>
+        <div class="track"><div class="fill" style="width:100%"></div></div></div>
+      <div class="bar"><div class="bar-top"><span class="lab">U.P. Electricity Supply Code 2005</span><span class="val">4</span></div>
+        <div class="track"><div class="fill" style="width:100%"></div></div></div>
+      <div class="bar"><div class="bar-top"><span class="lab">EA 2003, s.142 — enforcement / non-compliance</span><span class="val">3</span></div>
+        <div class="track"><div class="fill" style="width:75%"></div></div></div>
+      <div class="bar"><div class="bar-top"><span class="lab">CGRF &amp; Ombudsman Regulations (2007 / 2022)</span><span class="val">3</span></div>
+        <div class="track"><div class="fill" style="width:75%"></div></div></div>
+      <div class="bar"><div class="bar-top"><span class="lab">s.126/135 (theft) · s.2(15) (consumer) · s.181 · SoP Regs 2019 · CPC O.47</span><span class="val">1 each</span></div>
+        <div class="track"><div class="fill" style="width:25%"></div></div></div>
+    </div>
+  </section>
+
+  <section aria-label="Forum ladder">
+    <h2>Where these sit on the forum ladder</h2>
+    <p class="lede">The Ombudsman keeps pointing <em>down</em>. Its recurring move is to insist it is appellate-only
+      and send the consumer back to the CGRF — which is why "exhaust the remedy below" is the doctrine to watch.</p>
+    <div class="tiers">
+      <div class="tier">
+        <div class="role">Original jurisdiction</div>
+        <div class="name">Consumer Grievance Redressal Forum (CGRF)</div>
+        <div class="note">Where OMB-003 &amp; OMB-004 started; where OMB-005 was told to go first. The forum the Ombudsman defers to.</div>
+      </div>
+      <div class="arrows">▲ appeal / representation &nbsp;·&nbsp; ▼ "go back and exhaust this"</div>
+      <div class="tier focus">
+        <div class="role">Appellate / supervisory — this dataset</div>
+        <div class="name">Electricity Ombudsman, U.P.</div>
+        <div class="note">All 5 orders. Disposes 4 at the threshold; enforces one CGRF order. Declines original jurisdiction.</div>
+      </div>
+      <div class="arrows">▲ writ (Art. 226) &nbsp;·&nbsp; ▼ liberty to approach the Ombudsman</div>
+      <div class="tier">
+        <div class="role">Constitutional / appellate above</div>
+        <div class="name">High Court · APTEL</div>
+        <div class="note">OMB-005 arrived here first (Allahabad HC Writ-C 12243/2025), was sent down "with liberty" — then bounced again for non-exhaustion.</div>
+      </div>
+    </div>
+  </section>
+
+  <section aria-label="What volume adds">
+    <h2>What this becomes at n = 100</h2>
+    <p class="lede">Five rows demonstrate the coding; they don't yet carry statistical weight. Hold the schema
+      steady and the same panels turn into real measures.</p>
+    <div class="grow">
+      <div class="g"><h3>base rates</h3><p>"% of billing disputes that succeed", "% bounced for non-exhaustion" — a rate, once each subject has 30–50 rows.</p></div>
+      <div class="g"><h3>cross-tabs</h3><p>subject × decided-on × outcome — the cells that reveal <em>which</em> disputes actually clear the threshold.</p></div>
+      <div class="g"><h3>who &amp; where</h3><p>per-adjudicator and per-discom comparison — is the gatekeeping uniform, or does it vary by MVVNL / PVVNL?</p></div>
+      <div class="g"><h3>citation graph</h3><p>provisions &amp; prior orders as edges — linking CGRF → Ombudsman → High Court into one map.</p></div>
+    </div>
+  </section>
+
+  <footer>
+    Source: 5 scanned bilingual orders of the Electricity Ombudsman, U.P., 2026, recovered by OCR (PyMuPDF +
+    Tesseract, hin+eng); low-confidence Hindi rows flagged for human check.<br>
+    Coded facets in <span style="color:var(--ink-2)">ombudsman/data/orders.csv</span> · reasoning in
+    <span style="color:var(--ink-2)">STRATEGY.md</span> · Phase 0 snapshot, hand-built · figures are counts of 5, not projections.
+  </footer>
+
+</main>
+</body>
+</html>
