@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="digest.css">
+<style>
+  .ratio{ color:#14532d; background:#eef7f0; border-left:3px solid #2f8f57;
+          padding:9pt 13pt; margin:6pt 0 12pt; font-size:9.9pt; line-height:1.5;
+          -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .disp{ color:#5b3a04; background:#fbf6ec; border-left:3px solid #b7791f;
+         padding:9pt 13pt; margin:6pt 0 12pt; font-size:9.9pt; line-height:1.5;
+         -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .ratio .hn, .disp .hn{ display:block; font-family:Arial,'Liberation Sans',sans-serif;
+          font-size:7.6pt; letter-spacing:.16em; text-transform:uppercase; font-weight:700; margin-bottom:3pt; }
+  .ratio .hn{ color:#2f8f57; } .disp .hn{ color:#b7791f; }
+  .formula{ font-family:'Cambria Math',Georgia,serif; text-align:center; font-size:11pt;
+            background:var(--panel); border:1px solid var(--rule2); border-radius:4pt;
+            padding:8pt 10pt; margin:8pt 0 10pt; color:var(--navy2);
+            -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .eg{ border:1px solid var(--rule2); border-left:3px solid var(--navy); background:var(--panel);
+       padding:9pt 13pt; margin:6pt 0 12pt; font-size:9.9pt; line-height:1.5;
+       -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .eg .hn{ display:block; font-family:Arial,'Liberation Sans',sans-serif; font-size:7.6pt;
+           letter-spacing:.16em; text-transform:uppercase; font-weight:700; color:var(--label); margin-bottom:4pt; }
+  .eg ul{ margin:4pt 0 0; padding-left:16pt; } .eg li{ margin:0 0 3pt; }
+  table.cit td.n{ text-align:center; font-family:Arial,'Liberation Sans',sans-serif; white-space:nowrap; }
+  .ok{ color:#14532d; font-weight:700; } .bad{ color:#7a2e0e; font-weight:700; }
+  .q{ color:#334155; font-style:italic; }
+</style>
+</head>
+<body>
+
+  <div class="eyebrow">Interpretive Note &middot; Editorial Commentary</div>
+  <h1 class="case">The Unitary Qualifying Ratio &mdash; A Boundary Artifact</h1>
+  <div class="subcite">On the proportionality principle in the second proviso to Rule&nbsp;3(1)(a), Electricity Rules&nbsp;2005 &mdash; as formulated in <span class="cn">M/s. Dakshin Gujarat Vij Company Ltd. v. M/s. Gayatri Shakti Paper &amp; Board Ltd.</span>, 2023&nbsp;INSC&nbsp;886 [corpus&nbsp;SC&#8209;001], and applied in <span class="cn">JSW Energy Ltd. v. Karnataka Electricity Regulatory Commission</span>, High Court of Karnataka, 12&nbsp;June&nbsp;2026 [corpus&nbsp;HC&#8209;007].</div>
+
+  <div class="disp">
+    <span class="hn">Nature of this note</span>
+    This is analytical commentary prepared on the digest corpus. It is <strong>not</strong> a statement of any court&rsquo;s holding or <em>ratio</em>. Where it argues that a result is right or wrong, that is the author&rsquo;s reasoned interpretation, expressly identified as such and offered for verification against the judgments themselves.
+  </div>
+
+  <div class="headnote">
+    <span class="hn">Thesis</span>
+    The &ldquo;every 1% of ownership &rarr; 1.96% of consumption&rdquo; formulation (the <em>Unitary Qualifying Ratio</em>, UQR) is a <strong>boundary artifact</strong>. It is self&#8209;consistent only where the captive users hold ~26% of the plant in aggregate, and it <strong>over&#8209;counts the required consumption</strong> the moment they hold more &mdash; disqualifying users who plainly satisfy the 26% ownership floor, the 51% consumption floor, <em>and</em> proportionality. Read faithfully, the UQR must yield to Rule&nbsp;3&rsquo;s aggregate thresholds and to the share&#8209;of&#8209;51% distribution method the Supreme Court expressly adopted from <span class="cn">Kadodara</span>.
+  </div>
+
+  <h2>1. The proposition under scrutiny</h2>
+  <p>The second proviso to Rule&nbsp;3(1)(a) sets three conjunctive requirements for a group&#8209;captive (association&#8209;of&#8209;persons) structure: the captive users must (i)&nbsp;hold <strong>&ge;&nbsp;26%</strong> of the ownership in aggregate; (ii)&nbsp;consume <strong>&ge;&nbsp;51%</strong> of the annual generation in aggregate; and (iii)&nbsp;do so <em>in proportion to their shares in ownership, within a variation not exceeding ±10%</em>.</p>
+  <p>In <span class="cn">Dakshin Gujarat</span> (para&nbsp;43) the Court, adopting Mr.&nbsp;Ramachandran&rsquo;s illustration, distilled requirement&nbsp;(iii) into a single ratio:</p>
+  <div class="formula">UQR = 51% &divide; 26% = 1.9615 &asymp; 1.96&nbsp;&nbsp;&rArr;&nbsp;&nbsp;each 1% of ownership carries a consumption duty of 1.96% of generation (band ±10% &rarr; 1.764% to 2.156%)</div>
+
+  <h2>2. Why the ratio breaks above the 26% floor</h2>
+  <p>The UQR is nothing more than the ratio of <em>two independent minima</em>. Summing the per&#8209;user duty <span class="q">1.96 × ownership<sub>i</sub></span> reproduces the 51% aggregate <em>only</em> when total captive ownership equals exactly 26%. Above that point the fixed 51% floor does not move, but the formula keeps scaling &mdash; so it demands the impossible:</p>
+  <table class="cit">
+    <thead>
+      <tr><th style="width:34%">Aggregate captive ownership</th><th style="width:33%">Literal UQR duty</th><th style="width:33%">Aggregate consumption demanded</th></tr>
+    </thead>
+    <tbody>
+      <tr><td class="n">26%</td><td class="n">1.96% per 1%</td><td class="n"><span class="ok">51% &#10003;</span> (true by construction)</td></tr>
+      <tr><td class="n">50%</td><td class="n">1.96% per 1%</td><td class="n"><span class="bad">98% &#10007;</span></td></tr>
+      <tr><td class="n">100%</td><td class="n">1.96% per 1%</td><td class="n"><span class="bad">196% &#10007;</span> (impossible)</td></tr>
+    </tbody>
+  </table>
+  <p>Rule&nbsp;3 fixes 51% as a <em>sufficient floor</em>; it does not rise with ownership. The correct &ldquo;consumption duty per 1% of the plant&rdquo; is therefore not the constant 1.96 but a <em>declining</em> quantity:</p>
+  <div class="formula">duty per 1% of ownership = 51 &divide; (aggregate captive ownership %) &nbsp;&mdash;&nbsp; 1.96 at 26%, 1.02 at 50%, 0.51 at 100%</div>
+  <p>The figure 1.96 silently assumes a <strong>thin captive slice</strong> &mdash; captive users sitting at the 26% minimum while outside investors hold the balance. That is the common group&#8209;captive shape, which is why the elaboration reads plausibly; but it is an assumption, not a universal law, and it fails for any structure in which the captive users own materially more than 26%.</p>
+
+  <h2>3. The corrective is already inside the judgment</h2>
+  <p>Immediately before stating the UQR, the Court (para&nbsp;42) <em>adopts</em> <span class="cn">Kadodara</span> [corpus&nbsp;HC&#8209;006] &mdash; and <span class="cn">Kadodara</span>&rsquo;s method is the antidote. It distributes the <strong>51% qualifying requirement</strong> across owners <em>by ownership share</em> and tests each against their own slice within ±10%. Its illustration: on 10,000&nbsp;kWh generated, 5,100&nbsp;kWh (51%) must be consumed by the owners; three equal owners each consume &#8531; of 5,100 = <strong>1,700&nbsp;kWh (17% of generation)</strong>, band 1,530&ndash;1,870 &mdash; expressly <em>not</em> assessed on 100% of generation.</p>
+  <p>That 17% figure is mathematically <strong>incompatible</strong> with a universal 1.96 floor (which would demand 33% × 1.96 = 65% each). Because the Court said it <span class="q">&ldquo;agree[s] with the reasoning in Kadodara&rdquo;</span> and merely wished to <span class="q">&ldquo;elaborate&rdquo;</span>, the UQR elaboration must be harmonised <em>downwards</em> to <span class="cn">Kadodara</span> &mdash; not read to override the very method it endorsed.</p>
+  <p>Structurally, requirement&nbsp;(iii) is a <strong>distributional</strong> test &mdash; does each user&rsquo;s <em>share</em> of consumption track their <em>share</em> of ownership? &mdash; layered on top of the aggregate 26%/51% floors. The UQR re&#8209;expresses that test as an <em>absolute</em> rate against total generation, and the two coincide only at the 26% point. Purpose confirms the reading: the anti&#8209;gaming discussion (paras&nbsp;45&ndash;47) targets <span class="q">&ldquo;a 1% or an insignificant shareholder [who] disproportionately uses the electricity&rdquo;</span> &mdash; a consumption&#8209;to&#8209;ownership ratio that is <em>too high</em>. The UQR is thus a <strong>floor&#8209;screen against token owners</strong>, not a ceiling that punishes substantial, proportional ones.</p>
+
+  <div class="ratio">
+    <span class="hn">The rule, corrected</span>
+    Where the captive users own <strong>X%</strong> in aggregate (X&nbsp;&ge;&nbsp;26), a user owning <strong>x<sub>i</sub>%</strong> must consume at least <strong>(x<sub>i</sub> &divide; X) × 51%</strong> of generation, within ±10%, subject to the aggregate consumption being &ge;&nbsp;51%. The UQR of 1.96 is simply the special case <strong>X&nbsp;=&nbsp;26</strong>. Reading 1.96 as invariant demands aggregate consumption above the 51% that the Rule itself declares sufficient, and is therefore self&#8209;defeating.
+  </div>
+
+  <h2>4. Worked example</h2>
+  <div class="eg">
+    <span class="hn">Two captive users &mdash; 25% / 25% ownership, 30% / 30% consumption</span>
+    <ul>
+      <li>Aggregate ownership 50% &ge; 26% <span class="ok">&#10003;</span> &nbsp;&middot;&nbsp; aggregate consumption 60% &ge; 51% <span class="ok">&#10003;</span></li>
+      <li>Ownership shares 50 : 50, consumption shares 50 : 50 &rarr; perfectly proportional <span class="ok">&#10003;</span></li>
+      <li>Correct per&#8209;user minimum = (25 &divide; 50) × 51% = <strong>25.5%</strong>; each consumes 30% &rarr; <span class="ok">qualifies</span>.</li>
+      <li>Literal UQR: 1.764 × 25 = 44.1% each, i.e. <strong>88% together</strong> <span class="bad">&#10007;</span> &mdash; the <em>reductio</em> that disproves the universal reading.</li>
+    </ul>
+  </div>
+  <p>The mischief the Court feared &mdash; a <em>small owner</em> who is a <em>big consumer</em> &mdash; is the exact opposite of these facts (large owners, modest consumers, ratio 1.2). There is nothing here for the anti&#8209;gaming screen to catch; only the mis&#8209;calibrated formula generates a disqualification.</p>
+
+  <h2>5. What Karnataka HC decided &mdash; and did not</h2>
+  <p><span class="cn">JSW Energy</span> [HC&#8209;007] confronted a <em>different</em> defect. KERC&rsquo;s Clause&nbsp;6.7 recomputed the UQR <strong>dynamically, against total <em>actual</em> consumption &divide; total ownership</strong> (a floating &ldquo;Y&nbsp;&divide;&nbsp;X&rdquo;). The High Court held (paras&nbsp;45&ndash;49) that <span class="cn">Dakshin Gujarat</span> anchors proportionality to the <em>qualifying</em> 51%, not to actual consumption, so KERC had effectively rewritten Rule&nbsp;3; it quashed the order (and on a parallel natural&#8209;justice / no&#8209;fresh&#8209;consultation ground) and remitted it.</p>
+  <p>But in doing so the Court <strong>re&#8209;affirmed the &ldquo;fixed, constant baseline UQR&rdquo; of 1.96 per 1% of ownership</strong> (para&nbsp;46). It framed the entire contest as <em>qualifying&#8209;51% versus total&#8209;actual&#8209;consumption</em>, and never reached the situation in which <strong>aggregate captive ownership exceeds 26%</strong> &mdash; precisely where the over&#8209;counting bites. The scenario in Part&nbsp;4 is thus genuinely unaddressed, and arguably <em>re&#8209;entrenched</em> by para&nbsp;46. Correcting the actual&#8209;vs&#8209;qualifying denominator does not cure a formula whose numerator already scales past 51%.</p>
+
+  <div class="disp">
+    <span class="hn">Bottom line</span>
+    The binding content is Rule&nbsp;3&rsquo;s thresholds plus <span class="cn">Kadodara</span>&rsquo;s share&#8209;of&#8209;51% distribution; the 1.96 UQR is a boundary illustration and an anti&#8209;gaming floor, not an operative disqualifier above 26% ownership. A remitted KERC procedure &mdash; or any future bench &mdash; that applies 1.96 as a universal per&#8209;user multiplier will reproduce exactly the error identified here. That gap is a clean ground for a representation on the remit, or for the next appeal.
+  </div>
+
+  <p class="disclaimer">Editorial commentary prepared from the text of the cited judgments and Rule&nbsp;3 of the Electricity Rules&nbsp;2005. It records a reasoned interpretation and an identified open question; it is not legal advice and is not a substitute for the judgments, which should be read in full before use.</p>
+
+</body>
+</html>
