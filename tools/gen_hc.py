@@ -30,6 +30,12 @@ HC_STYLE = """<style>
   .t-rel { color:#5f5010; background:#fbf3d6; border:.5pt solid #e6d69a; }
   .pn{ font-family:Arial,'Liberation Sans',sans-serif; font-size:7.8pt; font-weight:700;
        color:#8a94a3; white-space:nowrap; letter-spacing:.02em; }
+  .src{ font-family:Arial,'Liberation Sans',sans-serif; font-size:6.8pt; font-weight:700;
+        letter-spacing:.09em; padding:1pt 5pt; border-radius:7pt; vertical-align:middle;
+        margin-left:7pt; white-space:nowrap;
+        -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .src-sc{ color:#5b3a04; background:#fbf3d6; border:.5pt solid #e6d69a; }
+  .src-hc{ color:#14532d; background:#e3f3e8; border:.5pt solid #a9d6ba; }
 </style>"""
 
 TRT = {'followed':'t-foll','approved':'t-foll','affirmed':'t-foll','applied':'t-foll',
@@ -77,6 +83,7 @@ def build(c):
                   else "High Court" if "high court" in _cl
                   else (c.get("court_short") or "Judgment"))
     interp_h2 = c.get("interp_heading") or "Interpretation of the Electricity Statutes"
+    reasoning_h2 = c.get("reasoning_heading") or "Reasoning of the Court"
     return f"""<!doctype html>
 <html lang="en">
 <head>
@@ -102,7 +109,7 @@ def build(c):
   <h2>Facts</h2>
 {facts}
 
-  <h2>Reasoning of the Court</h2>
+  <h2>{reasoning_h2}</h2>
   <div class="headnote">
     <span class="hn">Headnote</span>
     {c["headnote"]}
