@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>UPERC Ombudsman — what 5 orders reveal</title>
+<title>UPERC Ombudsman — the pattern flips at n=10</title>
 <style>
   :root{
     --bg:#FBFAF7; --surface:#FFFFFF; --card:#FCFCFA;
@@ -148,191 +148,150 @@
 <body>
 <main class="wrap">
 
-  <p class="eyebrow">UPERC Electricity Ombudsman · jurisprudence probe</p>
-  <h1>Five orders in, the pattern is already about the door — not the merits</h1>
-  <p class="dek">A first read of five 2026 orders of the Electricity Ombudsman, Uttar Pradesh, coded on
-    what each dispute was <em>about</em> and how it was actually <em>decided</em>. The gap between those
-    two is the finding.</p>
-  <p class="meta">n = 5 · orders C-19, C-20, C-25, 23 &amp; 15 of 2026 · a demonstration of the coding, not a statistic</p>
+  <p class="eyebrow">UPERC Electricity Ombudsman · jurisprudence probe · n = 10</p>
+  <h1>Double the sample, and the headline flips</h1>
+  <p class="dek">At five orders the U.P. Electricity Ombudsman looked like a pure gatekeeper. Five
+    more — mostly merits wins for consumers — turn that into <strong>6 relief / 4 threshold</strong>.
+    The durable finding isn't a number; it's that a confident pattern from five rows was wrong by row ten.</p>
+  <p class="meta">n = 10 · reps C-16/13/03/17/C-18 (new) + C-19/C-20/C-25/23/15 of 2026 · one adjudicator (Sanjay Srivastava) · counts, not projections</p>
 
   <section aria-label="Headline finding">
     <div class="hero">
-      <div class="bignum">4/5<small>disposed at the threshold</small></div>
+      <div class="bignum" style="color:var(--relief)">6/10<small>reached relief on the merits</small></div>
       <div class="hero-body">
-        <p><strong>Four of the five never reached the electricity merits.</strong> They were turned away on a
-          jurisdiction or maintainability question — theft is outside the forum, the Ombudsman can't review its
-          own order, exhaust the CGRF first, or the appeal was withdrawn.</p>
-        <p>The one order that granted relief did so by <strong>enforcing a lower forum's order</strong> under
-          s.142 — not by deciding a fresh dispute. So in this sample the Ombudsman reads as a
-          <strong>gatekeeper of its own jurisdiction</strong>.</p>
+        <p><strong>The n=5 headline reversed.</strong> The first snapshot showed 1 of 5 reaching relief and
+          4 of 5 dismissed at the door. Doubling the sample flipped it: <strong>six of ten</strong> now reach
+          the merits — assessments corrected, CGRF awards enforced, bills adjusted.</p>
+        <p>The threshold count didn't grow — the merits count did. So the Ombudsman is a
+          <strong>gatekeeper <em>and</em> merits court</strong>, and only the coded corpus tells you the mix.</p>
         <div class="tagrow">
-          <span class="pill th">theft → barred</span>
-          <span class="pill th">no power of review</span>
-          <span class="pill th">exhaust CGRF first</span>
+          <span class="pill re">assessment corrected ×2</span>
+          <span class="pill re">CGRF award enforced ×3</span>
+          <span class="pill re">bill adjusted ×1</span>
+          <span class="pill th">theft barred</span>
+          <span class="pill th">no review</span>
+          <span class="pill th">exhaust CGRF</span>
           <span class="pill th">withdrawn</span>
-          <span class="pill re">enforcement (s.142)</span>
         </div>
       </div>
     </div>
+  </section>
+
+  <section aria-label="The flip">
+    <h2>The flip, in one row each</h2>
+    <p class="lede">Same schema, twice the data. Only the merits bar moved.</p>
+    <div class="bars">
+      <div class="bar"><div class="bar-top"><span class="lab">First snapshot — n = 5</span><span class="val">1 relief · 4 threshold</span></div>
+        <div class="split" style="height:34px"><div class="s-re" style="flex:1">1</div><div class="s-th" style="flex:4">4</div></div></div>
+      <div class="bar"><div class="bar-top"><span class="lab">Now — n = 10</span><span class="val">6 relief · 4 threshold</span></div>
+        <div class="split" style="height:34px"><div class="s-re" style="flex:6">6 · relief</div><div class="s-th" style="flex:4">4 · threshold</div></div></div>
+    </div>
+    <div class="legend" style="margin-top:14px"><span><i class="dot re"></i>reached relief / merits</span><span><i class="dot th"></i>disposed at threshold</span></div>
   </section>
 
   <section aria-label="How each case was decided">
-    <h2>How each of the five was decided</h2>
-    <p class="lede">Same statute, five different subjects, five different procedural routes in — and, bar one,
-      the same fate at the threshold.</p>
-    <div class="legend">
-      <span><i class="dot th"></i>disposed at threshold (jurisdiction / maintainability / withdrawal)</span>
-      <span><i class="dot re"></i>reached relief (on the merits side)</span>
-    </div>
+    <h2>How each of the ten was decided</h2>
+    <p class="lede">The six merits outcomes cluster into three genres — corrected assessments, enforced
+      CGRF awards, and an adjusted bill. The four threshold dismissals are each a different door.</p>
     <div class="ladder">
-      <div class="case">
-        <div class="cid">OMB-001<small>C-19/26</small></div>
-        <div class="csub"><b>Theft re-assessment &amp; non-compliance of a prior order</b>
-          <span class="who">Smt. Shabina · domestic · Lucknow (LESA/MVVNL)</span></div>
-        <div class="verdict"><div class="vlabel">subject-matter bar</div>
-          <div class="vsub">Dismissed — not maintainable</div></div>
-      </div>
-      <div class="case">
-        <div class="cid">OMB-002<small>C-20/26</small></div>
-        <div class="csub"><b>Defective-meter kVAH assessment</b>
-          <span class="who">Maa Shakumbhari Plastic Udyog · industrial (HV) · Saharanpur (PVVNL)</span></div>
-        <div class="verdict"><div class="vlabel">no power of review</div>
-          <div class="vsub">Dismissed (recall refused)</div></div>
-      </div>
-      <div class="case merits">
-        <div class="cid">OMB-003<small>C-25/26</small></div>
-        <div class="csub"><b>Electricity-duty exemption (Industrial Policy 2004)</b>
-          <span class="who">M/s Om Industries, rice mill · HV-2, 110 KVA · Amethi (MVVNL)</span></div>
-        <div class="verdict"><div class="vlabel">enforcement · s.142</div>
-          <div class="vsub">Directed compliance ✓</div></div>
-      </div>
-      <div class="case">
-        <div class="cid">OMB-004<small>23/26</small></div>
-        <div class="csub"><b>Builder over-recovery via prepaid billing; "consumer" u/s 2(15)</b>
-          <span class="who">Alok Kumar · domestic, society single-point · Ghaziabad (PVVNL)</span></div>
-        <div class="verdict"><div class="vlabel">withdrawn · liberty</div>
-          <div class="vsub">Dismissed as withdrawn</div></div>
-      </div>
-      <div class="case">
-        <div class="cid">OMB-005<small>15/26</small></div>
-        <div class="csub"><b>Supply cut 6h→2h; ₹7.5 cr compensation claim</b>
-          <span class="who">M/s J.K. Industries, hinges · MV-6, 80 HP · Ambedkar Nagar (MVVNL)</span></div>
-        <div class="verdict"><div class="vlabel">no original jurisdiction</div>
-          <div class="vsub">Dismissed — not maintainable</div></div>
-      </div>
+      <div class="case merits"><div class="cid">OMB-003<small>C-25/26</small></div>
+        <div class="csub"><b>Electricity-duty exemption (Industrial Policy 2004)</b><span class="who">Om Industries, rice mill · HV-2, 110 KVA · Amethi (MVVNL)</span></div>
+        <div class="verdict"><div class="vlabel">enforcement · s.142</div><div class="vsub">Directed compliance ✓</div></div></div>
+      <div class="case merits"><div class="cid">OMB-006<small>C-16/26</small></div>
+        <div class="csub"><b>Enforce CGRF SoP compensation (₹7,500)</b><span class="who">Manoj Garg · Civil Lines · Kanpur (KESCO)</span></div>
+        <div class="verdict"><div class="vlabel">SoP · paid</div><div class="vsub">Disposed as complied ✓</div></div></div>
+      <div class="case merits"><div class="cid">OMB-007<small>13/26</small></div>
+        <div class="csub"><b>Assessment ₹6.99 L — meter not checked yearly (Supply Code 5.5(b)(ii))</b><span class="who">Raju Chadha · Dadanagar · Kanpur (KESCO)</span></div>
+        <div class="verdict"><div class="vlabel">assessment corrected</div><div class="vsub">Reduced + installments ✓</div></div></div>
+      <div class="case merits"><div class="cid">OMB-008<small>03/26</small></div>
+        <div class="csub"><b>Assessment ₹2.93 L — no check in ~9 yrs (Supply Code 5.5(b)(iii))</b><span class="who">N.K. Gupta · Dadanagar · Kanpur (KESCO)</span></div>
+        <div class="verdict"><div class="vlabel">assessment revised</div><div class="vsub">Reduced + installments ✓</div></div></div>
+      <div class="case merits"><div class="cid">OMB-009<small>17/26</small></div>
+        <div class="csub"><b>Disconnection bill + surcharge; OTS credit</b><span class="who">rural consumer · village Suswahi · Varanasi (PuVVNL)</span></div>
+        <div class="verdict"><div class="vlabel">partial relief</div><div class="vsub">Surcharge upheld, OTS credited</div></div></div>
+      <div class="case merits"><div class="cid">OMB-010<small>C-18/26</small></div>
+        <div class="csub"><b>Enforce CGRF SoP penalty (₹3,330) + forum-competence ruling</b><span class="who">Sanobar Wasim · domestic · Bareilly</span></div>
+        <div class="verdict"><div class="vlabel">SoP · Company-level only</div><div class="vsub">Disposed + directive ✓</div></div></div>
+      <div class="case"><div class="cid">OMB-001<small>C-19/26</small></div>
+        <div class="csub"><b>Theft re-assessment &amp; non-compliance</b><span class="who">Smt. Shabina · domestic · Lucknow (MVVNL/LESA)</span></div>
+        <div class="verdict"><div class="vlabel">subject-matter bar</div><div class="vsub">Not maintainable</div></div></div>
+      <div class="case"><div class="cid">OMB-002<small>C-20/26</small></div>
+        <div class="csub"><b>Defective-meter kVAH assessment</b><span class="who">Shakumbhari Plastic · industrial (HV) · Saharanpur (PVVNL)</span></div>
+        <div class="verdict"><div class="vlabel">no power of review</div><div class="vsub">Recall refused</div></div></div>
+      <div class="case"><div class="cid">OMB-004<small>23/26</small></div>
+        <div class="csub"><b>Builder over-recovery; "consumer" u/s 2(15)</b><span class="who">Alok Kumar · society single-point · Ghaziabad (PVVNL)</span></div>
+        <div class="verdict"><div class="vlabel">withdrawn · liberty</div><div class="vsub">Dismissed as withdrawn</div></div></div>
+      <div class="case"><div class="cid">OMB-005<small>15/26</small></div>
+        <div class="csub"><b>Supply 6h→2h; ₹7.5 cr compensation</b><span class="who">J.K. Industries · MV-6, 80 HP · Ambedkar Nagar (MVVNL)</span></div>
+        <div class="verdict"><div class="vlabel">no original jurisdiction</div><div class="vsub">Not maintainable</div></div></div>
     </div>
   </section>
 
-  <section aria-label="Grounds and consumer mix">
-    <div class="two">
-      <div>
-        <h2>Grounds of disposition</h2>
-        <p class="lede">The decisive axis — why the case ended, independent of its subject.</p>
-        <div class="split" role="img" aria-label="4 of 5 disposed at threshold, 1 of 5 reached relief">
-          <div class="s-th" style="flex:4">4 · threshold</div>
-          <div class="s-re" style="flex:1">1 · relief</div>
-        </div>
-        <div class="bars" style="margin-top:18px">
-          <div class="bar"><div class="bar-top"><span class="lab">Maintainability — subject-matter / hierarchy / review</span><span class="val">3</span></div>
-            <div class="track"><div class="fill th" style="width:75%"></div></div></div>
-          <div class="bar"><div class="bar-top"><span class="lab">Withdrawal (with liberty)</span><span class="val">1</span></div>
-            <div class="track"><div class="fill th" style="width:25%"></div></div></div>
-          <div class="bar"><div class="bar-top"><span class="lab">Compliance / execution (relief)</span><span class="val">1</span></div>
-            <div class="track"><div class="fill re" style="width:25%"></div></div></div>
-        </div>
-      </div>
-      <div>
-        <h2>Who is litigating</h2>
-        <p class="lede">Small skew to industrial users — MSMEs bringing billing, duty and supply grievances.</p>
-        <div class="bars">
-          <div class="bar"><div class="bar-top"><span class="lab">Industrial (plastics · rice mill · hinges)</span><span class="val">3</span></div>
-            <div class="track"><div class="fill" style="width:100%"></div></div></div>
-          <div class="bar"><div class="bar-top"><span class="lab">Domestic (incl. one society single-point)</span><span class="val">2</span></div>
-            <div class="track"><div class="fill" style="width:66%"></div></div></div>
-        </div>
-        <div class="callout" style="margin-top:18px;font-size:13.5px">
-          <b>Two disconnections for dues</b> sit behind these files (OMB-005's ₹2.14 L; the theft history in OMB-001) —
-          a hint that "non-compliance / recovery" is its own recurring genre.
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section aria-label="Subjects">
-    <h2>The disputes were all different. The outcome wasn't.</h2>
-    <p class="lede">Five distinct subject-matters across five orders — which is exactly why coding the
-      <em>procedural</em> axis matters: a subject-only sheet would file four dismissals-at-the-door under
-      "metering / billing / supply" and miss the through-line.</p>
-    <div class="subjects">
-      <div class="subj"><span class="n">01</span><span class="t"><b>Assessment — theft / unauthorised use.</b> <span>s.126/135 territory → outside the forum.</span></span></div>
-      <div class="subj"><span class="n">02</span><span class="t"><b>Metering — defective meter, kVAH assessment.</b> <span>reached only as a review petition.</span></span></div>
-      <div class="subj"><span class="n">03</span><span class="t"><b>Billing — electricity-duty exemption.</b> <span>the lone relief — by enforcement.</span></span></div>
-      <div class="subj"><span class="n">04</span><span class="t"><b>Franchisee / single-point over-recovery.</b> <span>"no profit, no loss" — cl. 4.46(b)(i).</span></span></div>
-      <div class="subj"><span class="n">05</span><span class="t"><b>Supply reliability / hours → compensation.</b> <span>routed back to CGRF / SoP Regs 2019.</span></span></div>
+  <section aria-label="Merits sub-genre">
+    <h2>The clearest doctrine: assessment on periodic-check failure</h2>
+    <p class="lede">Two near-identical KESCO/Kanpur orders (OMB-007, OMB-008) make a repeatable, citable rule
+      — the strongest jurisprudence signal in the set.</p>
+    <div class="callout">
+      <b>Rule:</b> where the licensee breaches its duty to check the meter periodically —
+      <b>Supply Code 2005 cl. 5.5(b)</b> (every 1–2 years) — and thereby dumps a delayed assessment on the
+      consumer, the Ombudsman <b>corrects the tariff / reduces the assessment</b>, allows payment in
+      <b>5 interest-free installments</b>, and directs <b>action against the officials</b> and
+      <b>replacement of the meter</b>. Two matching applications in one batch = a pattern worth citing.
     </div>
   </section>
 
   <section aria-label="Provisions that recur">
-    <h2>The same handful of provisions keep recurring</h2>
-    <p class="lede">Even at five orders, a citation core forms — the seed of a cross-forum authorities map.
-      (Count of orders invoking each, of 5.)</p>
+    <h2>The Supply Code 2005 is the workhorse</h2>
+    <p class="lede">Across ten orders, the instrument actually doing the work is the Supply Code — its
+      clauses appear on both the merits and threshold sides. (Orders invoking each, of 10.)</p>
     <div class="legend"><span><i class="dot ac"></i>orders citing the provision</span></div>
     <div class="bars">
+      <div class="bar"><div class="bar-top"><span class="lab">U.P. Electricity Supply Code 2005 (cl. 5.5(b), 4.37, 4.38, 4.46 …)</span><span class="val">7</span></div>
+        <div class="track"><div class="fill" style="width:100%"></div></div></div>
       <div class="bar"><div class="bar-top"><span class="lab">EA 2003, s.42 — grievance-redressal backbone</span><span class="val">4</span></div>
-        <div class="track"><div class="fill" style="width:100%"></div></div></div>
-      <div class="bar"><div class="bar-top"><span class="lab">U.P. Electricity Supply Code 2005</span><span class="val">4</span></div>
-        <div class="track"><div class="fill" style="width:100%"></div></div></div>
+        <div class="track"><div class="fill" style="width:57%"></div></div></div>
+      <div class="bar"><div class="bar-top"><span class="lab">SoP Regulations 2019 — compensation</span><span class="val">3</span></div>
+        <div class="track"><div class="fill" style="width:43%"></div></div></div>
       <div class="bar"><div class="bar-top"><span class="lab">EA 2003, s.142 — enforcement / non-compliance</span><span class="val">3</span></div>
-        <div class="track"><div class="fill" style="width:75%"></div></div></div>
-      <div class="bar"><div class="bar-top"><span class="lab">CGRF &amp; Ombudsman Regulations (2007 / 2022)</span><span class="val">3</span></div>
-        <div class="track"><div class="fill" style="width:75%"></div></div></div>
-      <div class="bar"><div class="bar-top"><span class="lab">s.126/135 (theft) · s.2(15) (consumer) · s.181 · SoP Regs 2019 · CPC O.47</span><span class="val">1 each</span></div>
-        <div class="track"><div class="fill" style="width:25%"></div></div></div>
+        <div class="track"><div class="fill" style="width:43%"></div></div></div>
+      <div class="bar"><div class="bar-top"><span class="lab">CGRF &amp; Ombudsman Regs 2022 (incl. forum-competence)</span><span class="val">3</span></div>
+        <div class="track"><div class="fill" style="width:43%"></div></div></div>
     </div>
   </section>
 
   <section aria-label="Forum ladder">
-    <h2>Where these sit on the forum ladder</h2>
-    <p class="lede">The Ombudsman keeps pointing <em>down</em>. Its recurring move is to insist it is appellate-only
-      and send the consumer back to the CGRF — which is why "exhaust the remedy below" is the doctrine to watch.</p>
+    <h2>The ladder is busier than it looked</h2>
+    <p class="lede">Six of the ten are appeals from — or enforcement of — CGRF orders. The Ombudsman both
+      polices the CGRF's competence (OMB-010) and enforces its awards (OMB-003, 006, 010).</p>
     <div class="tiers">
-      <div class="tier">
-        <div class="role">Original jurisdiction</div>
-        <div class="name">Consumer Grievance Redressal Forum (CGRF)</div>
-        <div class="note">Where OMB-003 &amp; OMB-004 started; where OMB-005 was told to go first. The forum the Ombudsman defers to.</div>
-      </div>
-      <div class="arrows">▲ appeal / representation &nbsp;·&nbsp; ▼ "go back and exhaust this"</div>
-      <div class="tier focus">
-        <div class="role">Appellate / supervisory — this dataset</div>
-        <div class="name">Electricity Ombudsman, U.P.</div>
-        <div class="note">All 5 orders. Disposes 4 at the threshold; enforces one CGRF order. Declines original jurisdiction.</div>
-      </div>
+      <div class="tier"><div class="role">Original jurisdiction</div><div class="name">Consumer Grievance Redressal Forum (CGRF)</div>
+        <div class="note">Source of the appeals (OMB-007, 008, 009) and the SoP awards the Ombudsman enforces (OMB-003, 006, 010). OMB-010 fixes which forum level may hear SoP complaints.</div></div>
+      <div class="arrows">▲ appeal / enforcement &nbsp;·&nbsp; ▼ "exhaust this first"</div>
+      <div class="tier focus"><div class="role">Appellate / supervisory — this dataset</div><div class="name">Electricity Ombudsman, U.P.</div>
+        <div class="note">All 10 orders. Reaches merits in 6, gatekeeps in 4. Declines original jurisdiction.</div></div>
       <div class="arrows">▲ writ (Art. 226) &nbsp;·&nbsp; ▼ liberty to approach the Ombudsman</div>
-      <div class="tier">
-        <div class="role">Constitutional / appellate above</div>
-        <div class="name">High Court · APTEL</div>
-        <div class="note">OMB-005 arrived here first (Allahabad HC Writ-C 12243/2025), was sent down "with liberty" — then bounced again for non-exhaustion.</div>
-      </div>
+      <div class="tier"><div class="role">Constitutional / appellate above</div><div class="name">High Court · APTEL</div>
+        <div class="note">OMB-005 arrived from an Allahabad HC writ and was sent back down for non-exhaustion.</div></div>
     </div>
   </section>
 
   <section aria-label="What volume adds">
     <h2>What this becomes at n = 100</h2>
-    <p class="lede">Five rows demonstrate the coding; they don't yet carry statistical weight. Hold the schema
-      steady and the same panels turn into real measures.</p>
+    <p class="lede">Ten rows already corrected a five-row error. The same panels, at scale, turn into measures.</p>
     <div class="grow">
-      <div class="g"><h3>base rates</h3><p>"% of billing disputes that succeed", "% bounced for non-exhaustion" — a rate, once each subject has 30–50 rows.</p></div>
-      <div class="g"><h3>cross-tabs</h3><p>subject × decided-on × outcome — the cells that reveal <em>which</em> disputes actually clear the threshold.</p></div>
-      <div class="g"><h3>who &amp; where</h3><p>per-adjudicator and per-discom comparison — is the gatekeeping uniform, or does it vary by MVVNL / PVVNL?</p></div>
-      <div class="g"><h3>citation graph</h3><p>provisions &amp; prior orders as edges — linking CGRF → Ombudsman → High Court into one map.</p></div>
+      <div class="g"><h3>base rates</h3><p>"% of assessment appeals that get corrected", "% bounced for non-exhaustion" — real rates once each subject has 30–50 rows.</p></div>
+      <div class="g"><h3>cross-tabs</h3><p>subject × decided-on × outcome — which disputes clear the threshold, which don't.</p></div>
+      <div class="g"><h3>who &amp; where</h3><p>per-discom comparison — the KESCO/Kanpur cluster already hints supervision varies by utility.</p></div>
+      <div class="g"><h3>citation graph</h3><p>Supply-Code clauses &amp; prior orders as edges — linking CGRF → Ombudsman → High Court.</p></div>
     </div>
   </section>
 
   <footer>
-    Source: 5 scanned bilingual orders of the Electricity Ombudsman, U.P., 2026, recovered by OCR (PyMuPDF +
-    Tesseract, hin+eng); low-confidence Hindi rows flagged for human check.<br>
-    Coded facets in <span style="color:var(--ink-2)">ombudsman/data/orders.csv</span> · reasoning in
-    <span style="color:var(--ink-2)">STRATEGY.md</span> · Phase 0 snapshot, hand-built · figures are counts of 5, not projections.
+    Source: 10 scanned bilingual orders of the Electricity Ombudsman, U.P., 2026, recovered by OCR
+    (PyMuPDF + Tesseract, hin+eng); Hindi-heavy rows flagged, some rupee figures approximate.<br>
+    Facets in <span style="color:var(--ink-2)">data/orders.csv</span> · database in
+    <span style="color:var(--ink-2)">state/cases.json</span> · reasoning in
+    <span style="color:var(--ink-2)">STRATEGY.md</span> · figures are counts of 10, not projections.
   </footer>
 
 </main>

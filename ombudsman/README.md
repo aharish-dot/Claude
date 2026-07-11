@@ -1,58 +1,55 @@
 # `ombudsman/` — UPERC Electricity Ombudsman jurisprudence
 
-A new **forum** in this repo's judgment-digest pipeline, sitting one rung below `high-court/`
-on the same ladder and interpreting the same statute (Electricity Act 2003 + U.P. Supply Code
-2005 + UPERC regulations). Goal: turn Electricity Ombudsman (U.P.) orders into structured,
-queryable jurisprudence.
+A **research/search corpus** of Electricity Ombudsman (U.P.) orders, coded into a flat facet
+table so patterns can be measured across cases. A forum in this repo's collection, sibling to
+`high-court/` — but deliberately **lighter**: no rich digest / verify / render pipeline, because
+the goal is retrieval over short orders on a token budget.
 
 ## Status
-**Phase 0 — strategy + proof of concept.** First **5** orders read and coded. Schema is a
-**v0.1 proposal awaiting sign-off** before scaling. Nothing here is wired into the automated
-Routine yet.
+**Phase 1 — 10 orders coded, archived, and in the database.** Schema is a v0.1 proposal awaiting
+your sign-off before batch-scaling. Same adjudicator (Sanjay Srivastava) across all 10.
 
 ## Start here
-1. **[`STRATEGY.md`](STRATEGY.md)** — the plan, the pattern that already emerged, and the open
-   questions. Read this first.
-2. **[`schema/facets.md`](schema/facets.md)** — the "excel sheet" columns + controlled
-   vocabularies. **This is what needs your ratification.**
-3. **[`data/orders.csv`](data/orders.csv)** — the 5 orders coded into that schema (open in Excel).
-4. **[`data/orders-abstracts.md`](data/orders-abstracts.md)** — readable headnote per order.
+1. **[`STRATEGY.md`](STRATEGY.md)** — the (v0.2) plan, the token-cheap design, and the pattern
+   that flipped at n=10. Read first.
+2. **[`schema/facets.md`](schema/facets.md)** — the facet columns + controlled vocabularies. **Needs your sign-off.**
+3. **[`data/orders.csv`](data/orders.csv)** — 10 orders coded (open in Excel; this is the search index).
+4. **[`data/orders-abstracts.md`](data/orders-abstracts.md)** — bilingual headnote + ratio per order.
+5. **[`state/cases.json`](state/cases.json)** — the processed-cases database (dedup by PDF hash).
 
-## The idea in one picture
-- **Layer 1 (deep):** one rich digest per order — reuse the golden `HC-001.extract.json` schema.
-- **Layer 2 (wide):** one flat row per order in `orders.csv` — controlled vocab, for `GROUP BY`.
-- **Graph:** an authorities ledger (reuse the HC pattern) linking provisions, precedents, and
-  prior CGRF/HC orders across forums.
-
-## The headline finding (n=5)
-**4 of 5 orders were decided on a threshold question** — jurisdiction, maintainability,
-no-power-of-review, or withdrawal — not on the electricity merits. The U.P. Ombudsman is, in
-this sample, primarily a **jurisdictional gatekeeper**. Track "% disposed on threshold vs merits"
-as the project's headline metric.
+## The headline finding (and why it matters)
+At **n=5** it looked like "the Ombudsman dismisses 4 of 5 at the threshold." At **n=10 that flipped
+to 6 relief / 4 threshold** — the first five were an unrepresentative run. The lesson: don't trust a
+pattern volume hasn't stress-tested. A real merits doctrine also surfaced — **metering-assessment on
+periodic-check failure** (Supply Code cl. 5.5(b)) → assessment corrected + interest-free installments
+(OMB-007, OMB-008).
 
 ## Layout
 ```
 ombudsman/
-├── README.md                 # you are here
-├── STRATEGY.md               # the plan + reasoning + open questions
+├── README.md · STRATEGY.md
 ├── schema/facets.md          # the flat-table schema (ratify before scaling)
 ├── data/
-│   ├── orders.csv            # 5 orders coded (the "excel sheet")
-│   └── orders-abstracts.md   # readable per-order headnotes
-└── pipeline/
-    ├── ocr_extract.py        # scanned bilingual PDF -> text (PyMuPDF + tesseract hin+eng)
-    └── requirements.txt
+│   ├── orders.csv            # 10 orders coded — the search index
+│   └── orders-abstracts.md   # bilingual headnotes + ratios
+├── state/cases.json          # processed-cases DB; dedup key = source-PDF sha256; next_seq
+├── processed/                # the archive: OMB-XXX.pdf (source) + OMB-XXX.txt (OCR, hin+eng)
+├── report/ombudsman-analytics.html   # at-a-glance analytics view (n=10)
+└── pipeline/ocr_extract.py   # scanned bilingual PDF -> text (PyMuPDF + tesseract hin+eng)
 ```
 
-## Processing a new order (once the schema is frozen)
+## Processing a new order (token-cheap flow)
 ```bash
-# 1. OCR the scanned order to text
-python pipeline/ocr_extract.py path/to/OrderAppealNoXX2026.pdf -o extracts/OMB-006.txt
-# 2. (Phase 2) feed extracts/OMB-006.txt to the digest sub-agent -> OMB-006.extract.json
-# 3. (Phase 2) verify.py gate -> render digest -> add a row to data/orders.csv
+# 0. DEDUP: hash first; skip if the sha256 is already in state/cases.json
+sha256sum new_order.pdf
+# 1. OCR (local, free) — bilingual
+python pipeline/ocr_extract.py new_order.pdf -o processed/OMB-011.txt
+# 2. Read ONLY head + tail of the .txt (parties/subject + the "Held") — never the full order
+# 3. Append one row to data/orders.csv + a short abstract; add the record to state/cases.json
+# 4. git add processed/OMB-011.* && commit
 ```
 
-## Provenance note
-Source PDFs are scanned bilingual (Hindi/English) images; text is recovered by OCR, so cells
-carry an `ocr_confidence` flag. The Hindi-majority orders (OMB-001, OMB-003) are lower-confidence
-and should be human-checked before they are relied on.
+## Provenance
+Source PDFs are scanned bilingual (Hindi/English) images; text recovered by OCR, so every row
+carries an `ocr_confidence` flag and some rupee amounts are marked approximate. Search-grade, not
+citation-grade, until a row is human-checked.
