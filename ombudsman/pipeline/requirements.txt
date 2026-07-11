@@ -1,0 +1,9 @@
+# Python deps for the Ombudsman OCR front-end.
+# ocr_extract.py self-installs these, but pin them here for reproducible batch runs.
+PyMuPDF>=1.24      # PDF page rendering (import name: fitz)
+Pillow>=10.0       # image handling
+pytesseract>=0.3.10  # tesseract wrapper
+
+# System packages (NOT pip — install separately):
+#   apt-get install -y tesseract-ocr tesseract-ocr-hin
+# tesseract-ocr-hin is required for the Devanagari-heavy orders.
