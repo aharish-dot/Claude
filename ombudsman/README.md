@@ -30,12 +30,13 @@ ombudsman/
 ├── README.md · STRATEGY.md
 ├── schema/facets.md          # the flat-table schema (ratify before scaling)
 ├── data/
-│   ├── orders.csv            # 10 orders coded — the search index
-│   └── orders-abstracts.md   # bilingual headnotes + ratios
+│   ├── orders.json           # source of truth: facets + bilingual summaries + Supply Code
+│   ├── orders.csv            # generated flat search index
+│   └── orders-abstracts.md   # generated bilingual summaries + Supply Code detail
 ├── state/cases.json          # processed-cases DB; dedup key = source-PDF sha256; next_seq
 ├── processed/                # the archive: OMB-XXX.pdf (source) + OMB-XXX.txt (OCR, hin+eng)
 ├── report/ombudsman-analytics.html   # at-a-glance analytics view (n=10)
-└── pipeline/ocr_extract.py   # scanned bilingual PDF -> text (PyMuPDF + tesseract hin+eng)
+└── pipeline/                 # ocr_extract.py (PDF->text, tesseract hin+eng) · build_dataset.py (json->csv/md/ledger)
 ```
 
 ## Processing a new order (token-cheap flow)
@@ -44,9 +45,10 @@ ombudsman/
 sha256sum new_order.pdf
 # 1. OCR (local, free) — bilingual
 python pipeline/ocr_extract.py new_order.pdf -o processed/OMB-011.txt
-# 2. Read ONLY head + tail of the .txt (parties/subject + the "Held") — never the full order
-# 3. Append one row to data/orders.csv + a short abstract; add the record to state/cases.json
-# 4. git add processed/OMB-011.* && commit
+# 2. A Sonnet sub-agent reads the FULL .txt -> one record appended to data/orders.json
+#    (facets + condensed bilingual summary + EVERY Supply Code clause). Opus only orchestrates.
+# 3. python pipeline/build_dataset.py   # regenerates orders.csv, orders-abstracts.md, state/cases.json
+# 4. git add processed/OMB-011.* data/ state/ && commit
 ```
 
 ## Provenance

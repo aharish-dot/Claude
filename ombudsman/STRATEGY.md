@@ -16,15 +16,15 @@
 | CGRF layer | **yes, later** | a future `cgrf/` forum completes the ladder |
 | **Cost** | **optimise for tokens; the HC/SC pipeline is *not* required** | **[changed]** drop the rich digest + verify + render machinery entirely |
 
-## 1. The biggest change: one cheap layer, not two **[changed]**
+## 1. The biggest change: one cheap layer, read by Sonnet **[changed]**
 
 v0.1 proposed mirroring the High-Court pipeline — a rich `extract.json` digest per case, a Haiku sub-agent, `verify.py`, PDF rendering. **That's now dropped.** For a *search tool* over *short* orders, under a *token budget*, it's the wrong spend. The new shape:
 
 ```
 scanned bilingual PDF ─(local OCR, hin+eng — 0 tokens)─► processed/OMB-XXX.txt
                                                               │
-                              read HEAD + TAIL only (skip the ├─► data/orders.csv      (facets — the search index)
-                              verbose middle submissions)     ├─► data/orders-abstracts.md (2-line bilingual headnote + ratio)
+                              a Sonnet sub-agent reads the ├─► data/orders.csv      (facets — the search index)
+                              full order → structured record  ├─► data/orders-abstracts.md (2-line bilingual headnote + ratio)
                                                               └─► state/cases.json    (processed-cases DB, dedup by hash)
 ```
 
@@ -34,8 +34,8 @@ scanned bilingual PDF ─(local OCR, hin+eng — 0 tokens)─► processed/OMB-X
 
 ### Token discipline (the rule that keeps this cheap)
 1. **OCR is free** — it's local `tesseract`, no model tokens. Do it in the background, at volume.
-2. **Never read a full order into context.** These orders are 3–10 pages; the codeable facts sit in the **first page** (parties, connection, the impugned order) and the **last 1–2 pages** (the "Held/आदेश"). Read only those. The middle is party submissions — skip it. (This is exactly how the 5 new orders were coded here.)
-3. **Code directly to the CSV row + 2-line abstract.** No intermediate rich JSON, no verify/render pass.
+2. **A Sonnet sub-agent does the reading — offloaded, not skipped.** Each order is read *in full* by a cheap Sonnet sub-agent that returns one structured record (facets + condensed **bilingual** summary + **every Supply Code clause**). The main Opus context only orchestrates and integrates, so no full order is ever paid for at Opus rates. That is the real saving: *less effort per case, not less of the case.* (Correcting an earlier misread of this instruction as "read only head+tail" — that was too lossy and risked dropping Supply Code references.)
+3. **One structured record per order** in `data/orders.json` (the source of truth); `pipeline/build_dataset.py` regenerates `orders.csv`, the bilingual abstracts, and the ledger from it. No verify/render pass.
 4. Rough budget: **a few thousand tokens per order**, vs the HC pipeline's order-of-magnitude more.
 
 ## 2. The pattern flipped at n=10 — which is the real lesson
@@ -77,7 +77,7 @@ For now the corpus *is* searchable with plain tools (the point of the flat CSV +
 ## 6. Roadmap
 - **Phase 1 — now (this commit):** 10 orders coded + archived in `processed/`; `state/cases.json` live; strategy redesigned. **← done.**
 - **Phase 2 — ratify vocab:** you skim `schema/facets.md`; we freeze the `primary_subject` / `decided_on` enums (they've already grown: +`metering-assessment (periodic-check)`, +`disconnection/surcharge`, +`SoP-compensation enforcement`).
-- **Phase 3 — batch cheaply:** feed more orders through OCR→head/tail→row. Re-run the headline metric at n=25/50/100. Commit per batch; hash-dedup guards against repeats.
+- **Phase 3 — batch cheaply:** feed more orders through OCR→Sonnet-summary→row. Re-run the headline metric at n=25/50/100. Commit per batch; hash-dedup guards against repeats.
 - **Phase 4 — CGRF forum:** add `cgrf/` as a sibling (same schema) to complete CGRF → Ombudsman → HC, and start drawing the prior-order links between them.
 - **Phase 5 — search surface (optional):** the static filter page, if the volume justifies it.
 
