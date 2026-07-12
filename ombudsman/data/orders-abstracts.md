@@ -65,40 +65,40 @@ bilingual orders; `ocr_confidence` flags reliability. Search-grade, not citation
 - **Tags:** no-original-jurisdiction; appellate-only; exhaust-cgrf-first; sop-compensation-clause8; hc-liberty-no-jurisdiction; supply-hours
 
 ## OMB-006 — Representation C-16/2026
-**KESCO (Kanpur) · Kanpur Nagar · 2026-04-22 (approx) · OCR medium (hin+eng)**
+**KESCO · Kanpur Nagar · 2026-04-27 (approx) · OCR low**
 
-- **Consumer:** Sri Manoj Garg s/o late V.N. Garg (45/78 Civil Lines) — Domestic/Commercial (urban; not explicit), not stated, not stated, Direct-metered
-- **Summary:** Sri Manoj Garg's representation before the KESCO (Kanpur) Ombudsman sought enforcement of a CGRF award of Rs 7,500 Standards-of-Performance compensation. The licensee confirmed the Rs 7,500 had been paid, so the representation was disposed as complied; his separate grievance about the manner of cheque delivery was left to the SoP Regulations 2019.
-- **सारांश:** केस्को कानपुर के उपभोक्ता श्री मनोज गर्ग द्वारा CGRF से प्राप्त रु 7,500 की स्टैंडर्ड्स-ऑफ-परफॉरमेंस क्षतिपूर्ति के अनुपालन हेतु अभ्यावेदन। राशि का भुगतान होने पर मामला निस्तारित; चेक वितरण संबंधी शिकायत SoP विनियम 2019 के अंतर्गत छोड़ी गई।
-- **Supply Code, 2005:** — none cited
-- **Also cited:** EA 2003 §— · Regs SoP Regs 2019; CGRF & Ombudsman Regs 2022 · Precedent —
-- **Decided on:** Compliance / execution → **Disposed (compliance recorded)**
-- **Ratio:** Where a CGRF has awarded SoP compensation and the licensee has paid it, the representation is disposed as complied; a grievance over the manner of payment is left to the SoP Regulations 2019.
-- **Tags:** sop-compensation; cgrf-order-compliance; s142-enforcement
+- **Consumer:** Manoj Garg s/o late V.N. Garg — Unknown, Not stated, Not stated, Unknown
+- **Summary:** The petitioner sought action under Section 142 of the Electricity Act, 2003 for non-compliance of a CGRF (KESCO) order that had awarded Rs. 7,500 compensation for delay in processing his permanent disconnection request and security-deposit refund, in violation of the SoP Regulations, 2005. During the Ombudsman proceedings, KESCO confirmed payment of the compensation by cheque, though the petitioner's representative raised doubts about the manner of delivery of the cheque. Finding that compliance had been made, the Ombudsman disposed of the representation, leaving the licensee free to take any departmental action under the SoP Regulations regarding the delivery irregularity.
+- **सारांश:** अभ्यावेदनकर्ता ने फोरम, केस्को द्वारा पारित रु0 7,500/- क्षतिपूर्ति के आदेश के अनुपालन हेतु धारा 142 विद्युत अधिनियम के अन्तर्गत अभ्यावेदन प्रस्तुत किया। विपक्षी द्वारा चेक के माध्यम से क्षतिपूर्ति का भुगतान किये जाने की पुष्टि पर, विद्युत लोकपाल ने अभ्यावेदन निस्तारित कर दिया।
+- **Supply Code, 2005:** **4.38** — Final/PD bill must issue within prescribed time after permanent-disconnection request
+- **Also cited:** EA 2003 §Section 142, Electricity Act 2003 · Regs UPERC Standard of Performance Regulations, 2005 (Clause 8 - compensation for delay) · Precedent —
+- **Decided on:** Compliance / execution → **Disposed with liberty**
+- **Ratio:** Where the licensee demonstrates that a CGRF compensation order has in fact been complied with, the s.142 representation for penal action is disposed of, with liberty to the licensee to independently examine any irregularity in the mode of compliance.
+- **Tags:** s142-noncompliance; sop-compensation-clause8; cgrf-order-compliance
 
 ## OMB-007 — Representation 13/2026
-**KESCO (Kanpur) · Kanpur Nagar · 2026-04-23 (approx) · OCR medium (hin+eng)**
+**KESCO · Kanpur Nagar · 2026-04-23 (approx) · OCR medium**
 
-- **Consumer:** Sri Raju Chadha s/o Bal Krishna Chadha (06 Uptron, Dadanagar) — Commercial/Industrial (Dadanagar; not explicit), not stated, not stated, Direct-metered (pole meter)
-- **Summary:** Sri Raju Chadha (KESCO Kanpur; pole-metered connection at Dadanagar) challenged a large assessment bill traceable to the licensee's failure to check the meter periodically as required by Supply Code 2005 cl. 5.5(b)(ii). The Ombudsman corrected the tariff applied in the assessment, reduced the bill (~Rs 6,98,824 to ~Rs 6,00,096), allowed payment in five interest-free installments, and directed action against negligent officials and replacement of the pole meter.
-- **सारांश:** केस्को कानपुर के श्री राजू चड्ढा का विवाद — विद्युत प्रदाय संहिता 2005 खंड 5.5(b)(ii) के अंतर्गत मीटर की आवधिक जाँच में लाइसेंसी की चूक से उत्पन्न भारी निर्धारण बिल। लोकपाल ने टैरिफ सुधार कर बिल घटाया, 5 ब्याजरहित किश्तें दीं, दोषी अधिकारियों पर कार्यवाही व पोल मीटर बदलने का निर्देश दिया।
-- **Supply Code, 2005:** **5.5(b)(ii)** — licensee's duty of periodic (annual) meter check; breach caused the delayed assessment
-- **Also cited:** EA 2003 §42(6) · Regs — · Precedent —
-- **Decided on:** Merits → **Directed relief - assessment tariff corrected (partly allowed)**
-- **Ratio:** Where the licensee fails its duty to check the meter periodically (Supply Code 2005 cl 5.5(b)(ii)) and thereby saddles the consumer with a delayed assessment, the assessment tariff is corrected/reduced, payment allowed in interest-free installments, and the licensee directed to act against negligent officials and replace the meter.
-- **Tags:** metering-assessment; periodic-check-failure-5.5b; tariff-correction; installments-relief
+- **Consumer:** Raju Chadha s/o Bal Krishna Chadha — Industrial, LMV-6, 55 HP, Direct-metered
+- **Summary:** The petitioner, an LMV-6 industrial consumer, challenged a CGRF order that had upheld a Rs. 6,96,824 slow-meter assessment (based on MRI data showing carbonized CT/PT wires) recoverable in five interest-free instalments, arguing he was denied the MRI/assessment details needed to object and that the licensee never conducted the annual meter checks required by clause 5.5(b)(ii) of the Supply Code. The Ombudsman found the licensee had indeed been negligent in periodic checking and had also mis-applied the tariff rate, and directed issuance of a corrected bill of Rs. 6,40,198. The representation was disposed of with the corrected amount payable in five interest-free instalments, plus directions to replace the defective pole meter and proceed departmentally against the negligent staff.
+- **सारांश:** अभ्यावेदनकर्ता ने फोरम द्वारा अनुमोदित रु0 6,96,824/- के धीमी मीटर निर्धारण को चुनौती दी, यह तर्क देते हुए कि विपक्षी ने वार्षिक जाँच (प्रस्तर 5.5(b)(ii)) नहीं की। विद्युत लोकपाल ने टैरिफ त्रुटि सुधारते हुए निर्धारण घटाकर रु0 6,40,198/- कर पाँच किश्तों में जमा करने तथा पोल मीटर बदलने का आदेश दिया।
+- **Supply Code, 2005:** **5.5(b)(ii)** — Annual meter-check duty; licensee's lapse caused prolonged back-assessment; **5.5(b)(i)-(iv)** — Petitioner alleged breach of periodic meter/pole-meter verification sub-clauses
+- **Also cited:** EA 2003 §— · Regs — · Precedent —
+- **Decided on:** Merits → **Partly allowed**
+- **Ratio:** Where a licensee fails its clause 5.5(b)(ii) duty of annual meter verification, resulting in a prolonged slow-meter back-assessment, the assessment is not quashed but corrected for genuine errors (here, tariff rate) and eased into interest-free instalments, with accountability fixed on the licensee's negligent staff.
+- **Tags:** slow-meter-assessment; mri-based-billing; meter-check-lapse-5.5b; tariff-rate-correction; pole-meter-defect
 
 ## OMB-008 — Representation 03/2026
-**KESCO (Kanpur) · Kanpur Nagar · 2026-04-23 (approx) · OCR medium (hin+eng)**
+**KESCO · Kanpur Nagar · 2026-04-27 (approx) · OCR medium**
 
-- **Consumer:** Sri N.K. Gupta s/o S.R. Gupta (57-A Dadanagar) — Commercial/Industrial (Dadanagar; not explicit), not stated, not stated, Direct-metered (pole meter)
-- **Summary:** Sri N.K. Gupta (KESCO Kanpur; Dadanagar) faced an assessment bill arising from a roughly nine-year gap in meter-checking, breaching the licensee's periodic-check duty under Supply Code 2005 cl. 5.5(b)(iii). Following the same rule as OMB-007, the Ombudsman revised the assessment down (~Rs 2,93,125 to ~Rs 2,30,340), allowed five interest-free installments, and directed action against officials and installation of a pole meter.
-- **सारांश:** केस्को कानपुर के श्री एन.के. गुप्ता का मामला — लगभग नौ वर्ष तक मीटर जाँच न होना, संहिता 2005 खंड 5.5(b)(iii) का उल्लंघन। लोकपाल ने निर्धारण घटाया, 5 ब्याजरहित किश्तें दीं तथा अधिकारियों पर कार्यवाही व पोल मीटर लगाने का निर्देश दिया।
-- **Supply Code, 2005:** **5.5(b)(iii)** — biennial periodic meter-check duty; ~9-year gap breached it, triggering relief
-- **Also cited:** EA 2003 §42(6) · Regs — · Precedent —
-- **Decided on:** Merits → **Directed relief - assessment revised (partly allowed)**
-- **Ratio:** Same rule as OMB-007: a ~9-year gap in meter-checking breaches Supply Code 2005 cl 5.5(b)(iii); the assessment is revised, installments allowed, and the licensee directed to act against officials and install a pole meter.
-- **Tags:** metering-assessment; periodic-check-failure-5.5b; tariff-correction; installments-relief
+- **Consumer:** N.K. Gupta s/o S.R. Gupta — Industrial, LMV-6, 12 HP, Direct-metered
+- **Summary:** The petitioner, an LMV-6 industrial consumer, challenged a CGRF order upholding a Rs. 2,93,125 slow-meter assessment (Y-phase PT found carbonized, no pole meter installed) recoverable in five interest-free instalments, contending he was never given the MRI data or a chance to object and that the licensee had not checked the meter for about 9 years, contrary to clause 5.5(b)(iii) of the Supply Code requiring checks every two years. On the Ombudsman's direction, the licensee reworked its calculation to use actual/average fault-period data instead of assuming continuous Y-phase failure throughout, reducing the assessed bill to Rs. 2,13,034. The representation was disposed of with the reduced amount payable in five interest-free instalments, plus directions to install a pole meter and proceed departmentally against the negligent staff.
+- **सारांश:** अभ्यावेदनकर्ता ने फोरम द्वारा अनुमोदित रु0 2,93,125/- के धीमी मीटर निर्धारण को चुनौती दी, यह तर्क देते हुए कि विपक्षी ने प्रस्तर 5.5(b)(iii) के अनुसार दो वर्ष में एक बार होने वाली जाँच लगभग 9 वर्षों तक नहीं की। न्यायालय के निर्देश पर पुनर्गणना के बाद निर्धारण घटाकर रु0 2,13,034/- कर पाँच ब्याज-रहित किश्तों में जमा करने तथा पोल मीटर लगाने का आदेश दिया गया।
+- **Supply Code, 2005:** **5.5(b)(ii)** — Cited re pre-check proof and MRI/pole-meter copy withheld from consumer; **5.5(b)(iii)** — Biennial check duty; approx 9-year gap held gross licensee negligence
+- **Also cited:** EA 2003 §— · Regs — · Precedent —
+- **Decided on:** Merits → **Partly allowed**
+- **Ratio:** Where a licensee's periodic meter-verification lapse (here, ~9 years against the clause 5.5(b)(iii) biennial norm) leads to a prolonged back-assessment, the assessment must be recomputed on a defensible basis (actual/average fault-period data, not a blanket continuous-fault assumption) rather than being wholly annulled or mechanically upheld, with recovery eased into interest-free instalments.
+- **Tags:** slow-meter-assessment; mri-based-billing; meter-check-lapse-5.5b; assessment-methodology-correction; pole-meter-defect
 
 ## OMB-009 — Representation 17/2026
 **PuVVNL (inferred from district; not named in text) · Varanasi · 2026-04-23 (approx) · OCR low**

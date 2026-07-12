@@ -277,147 +277,182 @@
  {
   "case_id": "OMB-006",
   "representation_no": "C-16/2026",
-  "order_date": "2026-04-22 (approx)",
-  "ombudsman": "Sanjay Srivastava",
-  "discom": "KESCO (Kanpur)",
+  "order_date": "2026-04-27 (approx)",
+  "ombudsman": "Sanjay Shrivastava",
+  "discom": "KESCO",
   "district": "Kanpur Nagar",
-  "petitioner": "Sri Manoj Garg s/o late V.N. Garg (45/78 Civil Lines)",
-  "petitioner_role": "consumer",
-  "consumer_segment": "Domestic/Commercial (urban; not explicit)",
-  "tariff_category": "not stated",
-  "sanctioned_load": "not stated",
-  "connection_type": "Direct-metered",
-  "primary_subject": "Non-compliance of prior order (CGRF SoP compensation)",
+  "petitioner": "Manoj Garg s/o late V.N. Garg",
+  "petitioner_role": "Individual consumer / connection-holder",
+  "consumer_segment": "Unknown",
+  "tariff_category": "Not stated",
+  "sanctioned_load": "Not stated",
+  "connection_type": "Unknown",
+  "primary_subject": "Non-compliance of prior order",
   "secondary_subjects": [
-   "Standards of Performance compensation"
+   "Compensation (Standards of Performance)",
+   "Disconnection / reconnection",
+   "Security deposit / refund"
   ],
-  "procedural_posture": "Non-compliance / execution of CGRF order (KESCO Kanpur, Complaint Com./2025, dt 24-04-2026)",
+  "procedural_posture": "Non-compliance / execution (s.142)",
   "decided_on": "Compliance / execution",
-  "disposition": "Disposed (compliance recorded)",
-  "maintainability_holding": "Maintainable",
-  "amount_in_dispute": "SoP compensation Rs 7,500 (paid)",
-  "act_sections": [],
-  "supply_code_clauses": [],
-  "supply_code_detail": [],
+  "disposition": "Disposed with liberty",
+  "maintainability_holding": "Not decided",
+  "amount_in_dispute": "Rs. 7,500 (SoP Regulations compensation ordered by CGRF; only compliance, not quantum, was in issue)",
+  "act_sections": [
+   "Section 142, Electricity Act 2003"
+  ],
+  "supply_code_clauses": [
+   "4.38"
+  ],
+  "supply_code_detail": [
+   {
+    "clause": "4.38",
+    "note": "Final/PD bill must issue within prescribed time after permanent-disconnection request"
+   }
+  ],
   "regulations_cited": [
-   "SoP Regs 2019",
-   "CGRF & Ombudsman Regs 2022"
+   "UPERC Standard of Performance Regulations, 2005 (Clause 8 - compensation for delay)"
   ],
   "precedents_cited": [],
-  "key_provision_interpreted": "SoP Regs 2019 (compensation) - enforcement of CGRF award",
-  "relief_granted": "Rs 7,500 SoP compensation confirmed paid; grievance on cheque-delivery left to SoP Regs 2019",
-  "ratio_short": "Where a CGRF has awarded SoP compensation and the licensee has paid it, the representation is disposed as complied; a grievance over the manner of payment is left to the SoP Regulations 2019.",
-  "summary_en": "Sri Manoj Garg's representation before the KESCO (Kanpur) Ombudsman sought enforcement of a CGRF award of Rs 7,500 Standards-of-Performance compensation. The licensee confirmed the Rs 7,500 had been paid, so the representation was disposed as complied; his separate grievance about the manner of cheque delivery was left to the SoP Regulations 2019.",
-  "summary_hi": "केस्को कानपुर के उपभोक्ता श्री मनोज गर्ग द्वारा CGRF से प्राप्त रु 7,500 की स्टैंडर्ड्स-ऑफ-परफॉरमेंस क्षतिपूर्ति के अनुपालन हेतु अभ्यावेदन। राशि का भुगतान होने पर मामला निस्तारित; चेक वितरण संबंधी शिकायत SoP विनियम 2019 के अंतर्गत छोड़ी गई।",
+  "key_provision_interpreted": "Electricity Act 2003 s.142 - enforcement of CGRF's SoP-compensation order",
+  "relief_granted": "No fresh relief ordered; Ombudsman recorded that the Rs.7,500 SoP compensation already directed by the CGRF had been paid by cheque, closed the file, and left the licensee free to examine internally the manner of cheque delivery.",
+  "ratio_short": "Where the licensee demonstrates that a CGRF compensation order has in fact been complied with, the s.142 representation for penal action is disposed of, with liberty to the licensee to independently examine any irregularity in the mode of compliance.",
+  "summary_en": "The petitioner sought action under Section 142 of the Electricity Act, 2003 for non-compliance of a CGRF (KESCO) order that had awarded Rs. 7,500 compensation for delay in processing his permanent disconnection request and security-deposit refund, in violation of the SoP Regulations, 2005. During the Ombudsman proceedings, KESCO confirmed payment of the compensation by cheque, though the petitioner's representative raised doubts about the manner of delivery of the cheque. Finding that compliance had been made, the Ombudsman disposed of the representation, leaving the licensee free to take any departmental action under the SoP Regulations regarding the delivery irregularity.",
+  "summary_hi": "अभ्यावेदनकर्ता ने फोरम, केस्को द्वारा पारित रु0 7,500/- क्षतिपूर्ति के आदेश के अनुपालन हेतु धारा 142 विद्युत अधिनियम के अन्तर्गत अभ्यावेदन प्रस्तुत किया। विपक्षी द्वारा चेक के माध्यम से क्षतिपूर्ति का भुगतान किये जाने की पुष्टि पर, विद्युत लोकपाल ने अभ्यावेदन निस्तारित कर दिया।",
   "tags": [
-   "sop-compensation",
-   "cgrf-order-compliance",
-   "s142-enforcement"
+   "s142-noncompliance",
+   "sop-compensation-clause8",
+   "cgrf-order-compliance"
   ],
-  "ocr_confidence": "medium (hin+eng)",
-  "corrections": "carried from earlier coding; Sonnet full re-read pending (B1 hit the session usage limit)"
+  "ocr_confidence": "low",
+  "corrections": [
+   "Representation no. OCR'd as 'सी-46/2026' (caption) and 'M-त6/2026' (registration line); reconciled to task-supplied 'C-16/2026'.",
+   "'धारा 442' (cited as an Act provision) read as Electricity Act 2003 s.142 (non-compliance/penalty) - 442 is not a valid section number.",
+   "'धारा 438' read as UP Supply Code clause 4.38 (permanent-disconnection final-bill timeline), not an Act section - 438 is not a valid Act section.",
+   "'Standard of Performance Regulations, 2079' / '209' normalised to UPERC SoP Regulations, 2005.",
+   "Signature-block order date badly garbled ('227 0%; 2०2७'); read as 27-04-2026 (approx) from surrounding hearing-date context (last hearing/reservation 24-04-2026).",
+   "consumer_segment/tariff_category/sanctioned_load/connection_type marked Unknown/Not stated - this s.142 compliance order does not discuss the underlying connection's category or load."
+  ]
  },
  {
   "case_id": "OMB-007",
   "representation_no": "13/2026",
   "order_date": "2026-04-23 (approx)",
-  "ombudsman": "Sanjay Srivastava",
-  "discom": "KESCO (Kanpur)",
+  "ombudsman": "Sanjay Shrivastava",
+  "discom": "KESCO",
   "district": "Kanpur Nagar",
-  "petitioner": "Sri Raju Chadha s/o Bal Krishna Chadha (06 Uptron, Dadanagar)",
-  "petitioner_role": "consumer",
-  "consumer_segment": "Commercial/Industrial (Dadanagar; not explicit)",
-  "tariff_category": "not stated",
-  "sanctioned_load": "not stated",
-  "connection_type": "Direct-metered (pole meter)",
-  "primary_subject": "Metering - assessment (periodic-check failure)",
+  "petitioner": "Raju Chadha s/o Bal Krishna Chadha",
+  "petitioner_role": "Consumer / occupier (industrial premises)",
+  "consumer_segment": "Industrial",
+  "tariff_category": "LMV-6",
+  "sanctioned_load": "55 HP",
+  "connection_type": "Direct-metered",
+  "primary_subject": "Metering - defective / assessment",
   "secondary_subjects": [
-   "tariff correction",
-   "pole-meter replacement"
+   "Billing - tariff / charges"
   ],
-  "procedural_posture": "Appeal from CGRF u/s 42(6) (CGRF Mandal-II KESCO, Complaint 18/2025, dt 08-09-2025)",
+  "procedural_posture": "Appeal from CGRF (s.42(6))",
   "decided_on": "Merits",
-  "disposition": "Directed relief - assessment tariff corrected (partly allowed)",
-  "maintainability_holding": "Maintainable",
-  "amount_in_dispute": "assessment Rs 6,98,824 -> revised ~Rs 6,00,096 (OCR); 5 installments ~Rs 1,22,039/mo",
-  "act_sections": [
-   "42(6)"
-  ],
+  "disposition": "Partly allowed",
+  "maintainability_holding": "Not decided",
+  "amount_in_dispute": "Rs. 6,96,824 MRI-based slow-meter assessment (85,855 kVAH; connection no. 2504220000), revised to Rs. 6,40,198 after tariff-rate correction; payable in 5 monthly instalments",
+  "act_sections": [],
   "supply_code_clauses": [
-   "5.5(b)(ii)"
+   "5.5(b)(ii)",
+   "5.5(b)(i)-(iv)"
   ],
   "supply_code_detail": [
    {
     "clause": "5.5(b)(ii)",
-    "note": "licensee's duty of periodic (annual) meter check; breach caused the delayed assessment"
+    "note": "Annual meter-check duty; licensee's lapse caused prolonged back-assessment"
+   },
+   {
+    "clause": "5.5(b)(i)-(iv)",
+    "note": "Petitioner alleged breach of periodic meter/pole-meter verification sub-clauses"
    }
   ],
   "regulations_cited": [],
   "precedents_cited": [],
-  "key_provision_interpreted": "Supply Code 2005 cl 5.5(b)(ii) - licensee's duty of periodic meter check",
-  "relief_granted": "Tariff in assessment bill corrected; revised (reduced) bill; 5 interest-free installments; action vs officials; pole meter to be replaced",
-  "ratio_short": "Where the licensee fails its duty to check the meter periodically (Supply Code 2005 cl 5.5(b)(ii)) and thereby saddles the consumer with a delayed assessment, the assessment tariff is corrected/reduced, payment allowed in interest-free installments, and the licensee directed to act against negligent officials and replace the meter.",
-  "summary_en": "Sri Raju Chadha (KESCO Kanpur; pole-metered connection at Dadanagar) challenged a large assessment bill traceable to the licensee's failure to check the meter periodically as required by Supply Code 2005 cl. 5.5(b)(ii). The Ombudsman corrected the tariff applied in the assessment, reduced the bill (~Rs 6,98,824 to ~Rs 6,00,096), allowed payment in five interest-free installments, and directed action against negligent officials and replacement of the pole meter.",
-  "summary_hi": "केस्को कानपुर के श्री राजू चड्ढा का विवाद — विद्युत प्रदाय संहिता 2005 खंड 5.5(b)(ii) के अंतर्गत मीटर की आवधिक जाँच में लाइसेंसी की चूक से उत्पन्न भारी निर्धारण बिल। लोकपाल ने टैरिफ सुधार कर बिल घटाया, 5 ब्याजरहित किश्तें दीं, दोषी अधिकारियों पर कार्यवाही व पोल मीटर बदलने का निर्देश दिया।",
+  "key_provision_interpreted": "UP Electricity Supply Code 2005, clause 5.5(b)(ii) - mandatory annual meter verification",
+  "relief_granted": "Assessment corrected for a tariff-rate error, reduced from Rs.6,96,824 to Rs.6,40,198, payable interest-free in 5 equal monthly instalments; licensee directed to replace the defective pole meter and proceed departmentally against negligent staff.",
+  "ratio_short": "Where a licensee fails its clause 5.5(b)(ii) duty of annual meter verification, resulting in a prolonged slow-meter back-assessment, the assessment is not quashed but corrected for genuine errors (here, tariff rate) and eased into interest-free instalments, with accountability fixed on the licensee's negligent staff.",
+  "summary_en": "The petitioner, an LMV-6 industrial consumer, challenged a CGRF order that had upheld a Rs. 6,96,824 slow-meter assessment (based on MRI data showing carbonized CT/PT wires) recoverable in five interest-free instalments, arguing he was denied the MRI/assessment details needed to object and that the licensee never conducted the annual meter checks required by clause 5.5(b)(ii) of the Supply Code. The Ombudsman found the licensee had indeed been negligent in periodic checking and had also mis-applied the tariff rate, and directed issuance of a corrected bill of Rs. 6,40,198. The representation was disposed of with the corrected amount payable in five interest-free instalments, plus directions to replace the defective pole meter and proceed departmentally against the negligent staff.",
+  "summary_hi": "अभ्यावेदनकर्ता ने फोरम द्वारा अनुमोदित रु0 6,96,824/- के धीमी मीटर निर्धारण को चुनौती दी, यह तर्क देते हुए कि विपक्षी ने वार्षिक जाँच (प्रस्तर 5.5(b)(ii)) नहीं की। विद्युत लोकपाल ने टैरिफ त्रुटि सुधारते हुए निर्धारण घटाकर रु0 6,40,198/- कर पाँच किश्तों में जमा करने तथा पोल मीटर बदलने का आदेश दिया।",
   "tags": [
-   "metering-assessment",
-   "periodic-check-failure-5.5b",
-   "tariff-correction",
-   "installments-relief"
+   "slow-meter-assessment",
+   "mri-based-billing",
+   "meter-check-lapse-5.5b",
+   "tariff-rate-correction",
+   "pole-meter-defect"
   ],
-  "ocr_confidence": "medium (hin+eng)",
-  "corrections": "carried from earlier coding; Sonnet full re-read pending (B1 hit the session usage limit)"
+  "ocr_confidence": "medium",
+  "corrections": [
+   "Representation no. OCR'd as '43/2026' (caption) and '73/2026' (registration line); reconciled to task-supplied '13/2026'.",
+   "OCR consistently renders '(b)' as '(७)' in supply-code clause citations, e.g. '5.5(७)(ii)' read as 5.5(b)(ii).",
+   "Assessment amounts partly garbled: original assessment read as Rs 6,96,824 (also appears truncated as '6,96,82'); revised amount read as Rs 6,40,198 (also appears as '6,0,96' elsewhere).",
+   "Closing-paragraph per-instalment figure 'Rs 4,22,039' looks internally inconsistent with a 5-instalment split of Rs 6,40,198 (~Rs 1,28,040/month expected) and was not relied upon.",
+   "Signature-block order date read as 23-04-2026 (approx), corroborated by in-text references to a revised bill dated 23-04-2026.",
+   "Clause citation '5.5(b)(i)(iv)' (petitioner's point 5) kept as a compound citation; unclear whether it denotes sub-clauses (i) and (iv) specifically or a range (i)-(iv)."
+  ]
  },
  {
   "case_id": "OMB-008",
   "representation_no": "03/2026",
-  "order_date": "2026-04-23 (approx)",
-  "ombudsman": "Sanjay Srivastava",
-  "discom": "KESCO (Kanpur)",
+  "order_date": "2026-04-27 (approx)",
+  "ombudsman": "Sanjay Shrivastava",
+  "discom": "KESCO",
   "district": "Kanpur Nagar",
-  "petitioner": "Sri N.K. Gupta s/o S.R. Gupta (57-A Dadanagar)",
-  "petitioner_role": "consumer",
-  "consumer_segment": "Commercial/Industrial (Dadanagar; not explicit)",
-  "tariff_category": "not stated",
-  "sanctioned_load": "not stated",
-  "connection_type": "Direct-metered (pole meter)",
-  "primary_subject": "Metering - assessment (periodic-check failure)",
-  "secondary_subjects": [
-   "tamper report",
-   "pole-meter installation"
-  ],
-  "procedural_posture": "Appeal from CGRF (KESCO Mandal, Complaint C2/2025, dt 15-10-2025)",
+  "petitioner": "N.K. Gupta s/o S.R. Gupta",
+  "petitioner_role": "Consumer / occupier (industrial premises)",
+  "consumer_segment": "Industrial",
+  "tariff_category": "LMV-6",
+  "sanctioned_load": "12 HP",
+  "connection_type": "Direct-metered",
+  "primary_subject": "Metering - defective / assessment",
+  "secondary_subjects": [],
+  "procedural_posture": "Appeal from CGRF (s.42(6))",
   "decided_on": "Merits",
-  "disposition": "Directed relief - assessment revised (partly allowed)",
-  "maintainability_holding": "Maintainable",
-  "amount_in_dispute": "assessment Rs 2,93,125 -> revised ~Rs 2,30,340 (OCR); 5 installments ~Rs 42,607/mo",
-  "act_sections": [
-   "42(6)"
-  ],
+  "disposition": "Partly allowed",
+  "maintainability_holding": "Not decided",
+  "amount_in_dispute": "Rs. 2,93,125 MRI-based slow-meter assessment (~44,503 kVAH per licensee's prose; table shows truncated '4503'), reviewed down to ~Rs. 2,13,034 (~30,163 kVAH); payable in 5 monthly instalments of ~Rs. 42,607",
+  "act_sections": [],
   "supply_code_clauses": [
+   "5.5(b)(ii)",
    "5.5(b)(iii)"
   ],
   "supply_code_detail": [
    {
+    "clause": "5.5(b)(ii)",
+    "note": "Cited re pre-check proof and MRI/pole-meter copy withheld from consumer"
+   },
+   {
     "clause": "5.5(b)(iii)",
-    "note": "biennial periodic meter-check duty; ~9-year gap breached it, triggering relief"
+    "note": "Biennial check duty; approx 9-year gap held gross licensee negligence"
    }
   ],
   "regulations_cited": [],
   "precedents_cited": [],
-  "key_provision_interpreted": "Supply Code 2005 cl 5.5(b)(iii) - biennial meter check duty",
-  "relief_granted": "Assessment revised (reduced); 5 interest-free installments; action vs officials; pole meter to be installed",
-  "ratio_short": "Same rule as OMB-007: a ~9-year gap in meter-checking breaches Supply Code 2005 cl 5.5(b)(iii); the assessment is revised, installments allowed, and the licensee directed to act against officials and install a pole meter.",
-  "summary_en": "Sri N.K. Gupta (KESCO Kanpur; Dadanagar) faced an assessment bill arising from a roughly nine-year gap in meter-checking, breaching the licensee's periodic-check duty under Supply Code 2005 cl. 5.5(b)(iii). Following the same rule as OMB-007, the Ombudsman revised the assessment down (~Rs 2,93,125 to ~Rs 2,30,340), allowed five interest-free installments, and directed action against officials and installation of a pole meter.",
-  "summary_hi": "केस्को कानपुर के श्री एन.के. गुप्ता का मामला — लगभग नौ वर्ष तक मीटर जाँच न होना, संहिता 2005 खंड 5.5(b)(iii) का उल्लंघन। लोकपाल ने निर्धारण घटाया, 5 ब्याजरहित किश्तें दीं तथा अधिकारियों पर कार्यवाही व पोल मीटर लगाने का निर्देश दिया।",
+  "key_provision_interpreted": "UP Electricity Supply Code 2005, clause 5.5(b)(iii) - biennial meter verification requirement",
+  "relief_granted": "Assessed consumption/bill reduced from Rs.2,93,125 to Rs.2,13,034 by correcting the averaging methodology, payable interest-free in 5 monthly instalments of approx. Rs.42,607; licensee directed to install a pole meter and proceed departmentally against negligent staff.",
+  "ratio_short": "Where a licensee's periodic meter-verification lapse (here, ~9 years against the clause 5.5(b)(iii) biennial norm) leads to a prolonged back-assessment, the assessment must be recomputed on a defensible basis (actual/average fault-period data, not a blanket continuous-fault assumption) rather than being wholly annulled or mechanically upheld, with recovery eased into interest-free instalments.",
+  "summary_en": "The petitioner, an LMV-6 industrial consumer, challenged a CGRF order upholding a Rs. 2,93,125 slow-meter assessment (Y-phase PT found carbonized, no pole meter installed) recoverable in five interest-free instalments, contending he was never given the MRI data or a chance to object and that the licensee had not checked the meter for about 9 years, contrary to clause 5.5(b)(iii) of the Supply Code requiring checks every two years. On the Ombudsman's direction, the licensee reworked its calculation to use actual/average fault-period data instead of assuming continuous Y-phase failure throughout, reducing the assessed bill to Rs. 2,13,034. The representation was disposed of with the reduced amount payable in five interest-free instalments, plus directions to install a pole meter and proceed departmentally against the negligent staff.",
+  "summary_hi": "अभ्यावेदनकर्ता ने फोरम द्वारा अनुमोदित रु0 2,93,125/- के धीमी मीटर निर्धारण को चुनौती दी, यह तर्क देते हुए कि विपक्षी ने प्रस्तर 5.5(b)(iii) के अनुसार दो वर्ष में एक बार होने वाली जाँच लगभग 9 वर्षों तक नहीं की। न्यायालय के निर्देश पर पुनर्गणना के बाद निर्धारण घटाकर रु0 2,13,034/- कर पाँच ब्याज-रहित किश्तों में जमा करने तथा पोल मीटर लगाने का आदेश दिया गया।",
   "tags": [
-   "metering-assessment",
-   "periodic-check-failure-5.5b",
-   "tariff-correction",
-   "installments-relief"
+   "slow-meter-assessment",
+   "mri-based-billing",
+   "meter-check-lapse-5.5b",
+   "assessment-methodology-correction",
+   "pole-meter-defect"
   ],
-  "ocr_confidence": "medium (hin+eng)",
-  "corrections": "carried from earlier coding; Sonnet full re-read pending (B1 hit the session usage limit)"
+  "ocr_confidence": "medium",
+  "corrections": [
+   "Connection number OCR'd inconsistently as '774478:000' / '7747870000' / '1747870000'; underlying digits uncertain, so omitted from amount_in_dispute.",
+   "OCR consistently renders '(b)' as '(७)' in supply-code clause citations, consistent with the OMB-007 pattern.",
+   "Assessment figures partly garbled: original assessment read as Rs 2,93,125 (shown as '2,93,25/-', cross-checked against the assessment table's Rs 2,72,674.71 + Rs 20,450.60 breakup); revised assessment read as Rs 2,13,034 (shown as '2,3,034'/'2.3,034'), cross-checked against the stated 5-instalment figure of Rs 42,607/month (2,13,034/5 = 42,607).",
+   "Original deficit shown as '44503 kVAH' in prose (pp.3,5) but truncated to '4503' in the assessment table; the table's Rs 272,674.71 charge implies ~Rs 6.13/kVAH at 44,503 units (a plausible tariff) vs ~Rs 60.5/kVAH at 4,503 units (implausible), so 44,503 is treated as correct and the table as OCR-truncated. Revised figure '30I63' read as approx. 30,163 kVAH on the same basis (digit-count uncertain).",
+   "Signature-block order date heavily garbled ('2o7.4°26'); read as 27-04-2026 (approx).",
+   "Underlying CGRF order date shown as '45-70-2025', read as approx. 15-10-2025 (not a required field; noted for context only)."
+  ]
  },
  {
   "case_id": "OMB-009",
