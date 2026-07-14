@@ -1,0 +1,187 @@
+{
+ "court": "delhi-dc",
+ "keyed_by": "indiankanoon_docid",
+ "note": "Built incrementally from each case's verified extract; powers the merged Table of Authorities. Keyed by Indian Kanoon doc-id; each authority lists the cases that cited it and how it was treated.",
+ "authorities": {
+  "1249255": {
+   "name": "Sarjiwan Singh v. Delhi Vidyut Board",
+   "cite": "110 (2004) DLT 633",
+   "court": "High Court of Delhi",
+   "cited_by": [
+    {
+     "case_id": "DC-001",
+     "treatment": "Relied upon",
+     "proposition": "Where a bill has been raised by the Electricity Department which is prima facie legal, a declaration must be prayed for before an injunction can be granted. However, an exception is carved: where the bill is prima facie not legal, a suit for simple injunction is maintainable without a declaration."
+    }
+   ]
+  },
+  "75630952": {
+   "name": "B.L. Kantroo v. BSES Rajdhani Power Ltd.",
+   "cite": "154 (2008) DLT 56",
+   "court": "High Court of Delhi (Division Bench)",
+   "cited_by": [
+    {
+     "case_id": "DC-001",
+     "treatment": "Relied upon",
+     "proposition": "Although the Electricity Act is a complete code, civil courts retain jurisdiction where provisions of law have not been complied with or the tribunal has not acted according to fundamental principles of judicial procedure. Jurisdictional error or failure to comply with mandatory procedure means civil court jurisdiction is not ousted."
+    }
+   ]
+  },
+  "79972171": {
+   "name": "Super Auto Centre v. BSES Rajdhani Power Ltd.",
+   "cite": "RFA (OS) No. 66/2011, judgment dated 02.02.2011",
+   "court": "High Court of Delhi",
+   "cited_by": [
+    {
+     "case_id": "DC-001",
+     "treatment": "Referred",
+     "proposition": "The Special Court established under Section 153 has exclusive jurisdiction to try offences punishable under Sections 135–139. However, the civil court’s jurisdiction is not barred; it is the power to try criminal offences that is conferred exclusively on the Special Court. The Special Court can also determine civil liability."
+    }
+   ]
+  },
+  "1358159": {
+   "name": "M/s Rakesh Rubber Industries v. MCD",
+   "cite": "54 (1994) DLT 156 (Division Bench)",
+   "court": "High Court of Delhi",
+   "cited_by": [
+    {
+     "case_id": "DC-001",
+     "treatment": "Relied upon",
+     "proposition": "Where a consumer is re-classified or billed at a higher tariff for alleged misuse, and the matter is disputed, the authority must give the consumer an opportunity to be heard before raising any bill for such charges. A bill raised without such opportunity must be quashed."
+    }
+   ]
+  },
+  "487562": {
+   "name": "J.K. Steelomelt (P) Ltd. v. BSES Rajdhani Power Ltd.",
+   "cite": "140 (2007) DLT 563",
+   "court": "High Court of Delhi",
+   "cited_by": [
+    {
+     "case_id": "DC-001",
+     "treatment": "Relied upon",
+     "proposition": "In cases of Dishonest Abstraction of Electricity (DAE), the consumer must be shown to be responsible for tampering by tangible evidence. Mere external symptoms of tampering or consumption patterns are not conclusive evidence of DAE. The analysis of consumption pattern is merely corroborative, not substantive evidence. Some tangible evidence of physical means of tampering (such as an accu-check meter showing under-recording) must be shown."
+    }
+   ]
+  },
+  "756613": {
+   "name": "Kuldeep Singh Dhingra v. Municipal Corporation of Delhi & Ors.",
+   "cite": "AIR 1992 Delhi 228",
+   "court": "High Court of Delhi",
+   "cited_by": [
+    {
+     "case_id": "DC-001",
+     "treatment": "Relied upon",
+     "proposition": "Fair hearing and natural justice are requirements of administrative gentlemanliness. Representations made by an affected party, before an authority issues an order, must be considered. Ignoring such representations or not providing an opportunity to respond before an adverse order constitutes a breach of natural justice."
+    }
+   ]
+  },
+  "157866654": {
+   "name": "Ramesh Chander & Ors. v. State of Delhi & Anr.",
+   "cite": "68 (1997) DLT 257",
+   "court": "High Court of Delhi",
+   "cited_by": [
+    {
+     "case_id": "DC-001",
+     "treatment": "Referred",
+     "proposition": "The existence of a tampered meter does not by itself amount to ‘artificial means’ for abstraction of electricity under the relevant section. To frame a charge of theft, there must be material on record to prima facie show dishonest abstraction coupled with intention."
+    }
+   ]
+  },
+  "67598975": {
+   "name": "Kiran Mehta v. B.S.E.S. Rajdhani Power Ltd.",
+   "cite": "2011 (121) DRJ 611",
+   "court": "High Court of Delhi",
+   "cited_by": [
+    {
+     "case_id": "DC-001",
+     "treatment": "Referred",
+     "proposition": "A writ court should not foreclose the respondent’s right to prove a case before the Special Court by examining disputed factual questions. However, the respondent must place material evidence before the court to prima facie establish its case of direct theft; absent such evidence, the court can grant interim relief and direct the respondent to place evidence before the Special Court."
+    }
+   ]
+  },
+  "1631486": {
+   "name": "Jagannath Singh v. B.S. Ramaswamy",
+   "cite": "[1966] 1 SCR 885",
+   "court": "Supreme Court of India",
+   "cited_by": [
+    {
+     "case_id": "DC-001",
+     "treatment": "Referred",
+     "proposition": "The existence of artificial means for abstracting energy can only give rise to a presumption of dishonest abstraction. The supplier must still prove that the consumer is responsible for the tampering. A meter with an exposed stud-hole, without more, is not an artificial means; the meter must be converted into an instrument recording less than units actually passing through it."
+    }
+   ]
+  },
+  "241064": {
+   "name": "P.R. Metrani v. Commissioner of Income Tax, Bangalore",
+   "cite": "JT 2006 (10) SC 537",
+   "court": "Supreme Court of India",
+   "cited_by": [
+    {
+     "case_id": "DC-001",
+     "treatment": "Relied upon",
+     "proposition": "A presumption is an inference of fact from other known or proved facts. ‘May presume’ leaves discretion to the court. ‘Shall presume’ binds the court to make the presumption. ‘Conclusive proof’ provides an irrebuttable presumption. Words like ‘conclusive evidence’ in regulations must be interpreted to require proof by conclusive means, not by deeming provisions."
+    }
+   ]
+  },
+  "1099197": {
+   "name": "M/s Time Properties & Promoters v. Delhi Development Authority",
+   "cite": "C.R. 245/1984",
+   "court": "Supreme Court of India",
+   "cited_by": [
+    {
+     "case_id": "DC-001",
+     "treatment": "Relied upon",
+     "proposition": "If there is legal necessity for a declaration before granting injunction, the suit is not purely a suit for injunction. If declaration is not necessary, a suit for simple injunction is maintainable without a declaration."
+    }
+   ]
+  },
+  "1918256": {
+   "name": "M/s Ratlam Straw Board Mills Pvt. Ltd. v. Union of India and another",
+   "cite": "AIR 1975 Delhi 270 (4)",
+   "court": "High Court of Delhi",
+   "cited_by": [
+    {
+     "case_id": "DC-001",
+     "treatment": "Referred",
+     "proposition": "A suit for declaration that a contract has ended by acts of the defendant, coupled with an injunction to restrain recovery, attracts an ad valorem court fee based on the relief sought."
+    }
+   ]
+  },
+  "1801580": {
+   "name": "Punjab Exchange v. Rajdhani Grains Ltd.",
+   "cite": "1975 Raj. Law Reporter 485 (5)",
+   "court": "Rajasthan High Court",
+   "cited_by": [
+    {
+     "case_id": "DC-001",
+     "treatment": "Referred",
+     "proposition": "In a suit for mandatory injunction where the relief amounts to the plaintiff asking for possession from a defendant in exclusive possession, the court fee payable is as required by Section 7(v) of the Court Fee Act."
+    }
+   ]
+  },
+  "1411268": {
+   "name": "Secretary of State v. Mask and Co.",
+   "cite": "AIR 1940 Privy Council 105",
+   "court": "Privy Council",
+   "cited_by": [
+    {
+     "case_id": "DC-001",
+     "treatment": "Relied upon",
+     "proposition": "Even where jurisdiction is excluded by statute, civil courts have jurisdiction to examine cases where statutory provisions have not been complied with or the tribunal has not acted in conformity with fundamental principles of judicial procedure."
+    }
+   ]
+  },
+  "686491": {
+   "name": "State of Kerala v. Mathew (M.M) and Anr.",
+   "cite": "1978 AIR 1571, 1979 SCR (1) 264",
+   "court": "Supreme Court of India",
+   "cited_by": [
+    {
+     "case_id": "DC-001",
+     "treatment": "Referred",
+     "proposition": "Courts apply the well-recognised test of basic human probabilities in judging evidence. Public servants are prima facie presumed to act honestly and conscientiously; their evidence is assessed on its intrinsic worth and cannot be discarded merely because they are interested in the success of their case."
+    }
+   ]
+  }
+ }
+}

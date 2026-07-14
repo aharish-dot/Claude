@@ -1,0 +1,15 @@
+{
+ "court": "delhi-dc",
+ "prefix": "DC",
+ "next_seq": 2,
+ "note": "Stable filename -> case_id map for the modern (gen_hc) delhi-dc pipeline. Reuse existing ids; never renumber a processed case. These DC-0NN digests are distinct from the legacy case_0NN Case-Summary set under summaries/.",
+ "cases": [
+  {
+   "case_id": "DC-001",
+   "source_file": "Hem Chand Gupta vs BSES Rajdhani Power Ltd on 5 November, 2016.html",
+   "title": "Hem Chand Gupta v. BSES Rajdhani Power Ltd.",
+   "court": "Court of the Civil Judge-01, Central District, Delhi",
+   "status": "done"
+  }
+ ]
+}
