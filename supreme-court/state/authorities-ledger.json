@@ -2,5 +2,138 @@
  "court": "supreme-court",
  "keyed_by": "indiankanoon_docid",
  "note": "Built incrementally from each case's verified extract; powers the merged Table of Authorities.",
- "authorities": {}
+ "authorities": {
+  "53127": {
+   "name": "Balram Kumawat v. Union of India & Ors.",
+   "cite": "(2003) 7 SCC 628",
+   "court": "Supreme Court of India",
+   "cited_by": [
+    {
+     "case_id": "SC-002",
+     "treatment": "Referred to; Relied on",
+     "proposition": "Discussed principles of statutory interpretation including contextual reading, the rule of ex visceribus actus (construction of the statute as a whole), and the principle that narrow and pedantic literal construction may not always be given effect to fiscal or penal statutes, which must instead be interpreted having regard to the subject matter and object of the law. The Court cited this case for the proposition that purposive interpretation can apply even to penal statutes."
+    }
+   ]
+  },
+  "603736": {
+   "name": "State of West Bengal v. Union of India",
+   "cite": "[1964] 1 SCR 371",
+   "court": "Supreme Court of India",
+   "cited_by": [
+    {
+     "case_id": "SC-002",
+     "treatment": "Referred to",
+     "proposition": "Laid down the principle that the Court must ascertain the intention of the legislature by directing attention to the entire statute and comparing the clause to be construed with other parts of the law. This case was cited for the rule of contextual reading and ex visceribus actus."
+    }
+   ]
+  },
+  "995861": {
+   "name": "R.S. Raghunath v. State of Karnataka and Anr.",
+   "cite": "AIR 1992 SC 81",
+   "court": "Supreme Court of India",
+   "cited_by": [
+    {
+     "case_id": "SC-002",
+     "treatment": "Referred to",
+     "proposition": "Reiterated the principle that the clauses of a statute should be construed with reference to context and other provisions to make a consistent enactment. Applied the rule of ex visceribus actus."
+    }
+   ]
+  },
+  "1295007": {
+   "name": "K.V. Muthu v. Angamuthu Ammal",
+   "cite": "(1997) 2 SCC 53",
+   "court": "Supreme Court of India",
+   "cited_by": [
+    {
+     "case_id": "SC-002",
+     "treatment": "Referred to",
+     "proposition": "A case dealing with interpretation of a definition using the word ‘means’ (‘member of his family’ under Tamil Nadu Rent Act). Despite ‘means’ seemingly limiting the definition to specified relatives, the Court held that a foster son could be included by purposive construction, observing that interpretation should aid the achievement of the Act’s purpose. Cited as a comparable example demonstrating that ‘means’ is not always exhaustive."
+    }
+   ]
+  },
+  "477582": {
+   "name": "Bhilai Rerollers & Ors. v. M.P. Electricity Board & Ors.",
+   "cite": "(2003) 7 SCC 185",
+   "court": "Supreme Court of India",
+   "cited_by": [
+    {
+     "case_id": "SC-002",
+     "treatment": "Followed; Referred to",
+     "proposition": "Dealt with a case where a consumer drew electricity in excess of contracted load. The Board had the right under the general conditions of supply to levy higher charges. The Court held that the Board was entitled to raise the demand because overdrawal of extra load throws out of gear the entire supply system, undermining its efficiency and efficacy and causing voltage fluctuations. The Court rejected the consumer’s challenge."
+    }
+   ]
+  },
+  "275403": {
+   "name": "Orissa State Electricity Board & Anr. v. IPI Steel Ltd. & Ors.",
+   "cite": "(1995) 4 SCC 328",
+   "court": "Supreme Court of India",
+   "cited_by": [
+    {
+     "case_id": "SC-002",
+     "treatment": "Referred to",
+     "proposition": "Took a similar view to Bhilai Rerollers regarding cases of excess load of consumption."
+    }
+   ]
+  },
+  "93301": {
+   "name": "Punjab State Electricity Board v. Vishwa Caliber Builders Private Ltd.",
+   "cite": "(2010) 4 SCC 539",
+   "court": "Supreme Court of India",
+   "cited_by": [
+    {
+     "case_id": "SC-002",
+     "treatment": "Referred to",
+     "proposition": "Concerned whether the ombudsman had jurisdiction to regularize unauthorized electricity supply. The Court answered in the negative and held that consumption of electricity by the respondent beyond the sanctioned load amounted to unauthorized use of electrical energy, even where the excess arose from non-availability of infrastructure (transformer)."
+    }
+   ]
+  },
+  "69408974": {
+   "name": "M.C. Mehta v. Union of India",
+   "cite": "(2006) 3 SCC 391",
+   "court": "Supreme Court of India",
+   "cited_by": [
+    {
+     "case_id": "SC-002",
+     "treatment": "Referred to",
+     "proposition": "Dealt with interpretation of ‘unauthorized development’ under Section 31A of the Delhi Development Act, 1957. The Court held that development in violation of permission, approval, sanction, or conditions thereof constitutes unauthorized development. Used as an analogy to interpret ‘unauthorized use of electricity’ as use in violation of permission or authorization granted."
+    }
+   ]
+  },
+  "374797": {
+   "name": "Dr. S. Dutt v. State of U.P.",
+   "cite": "AIR 1966 SC 523",
+   "court": "Supreme Court of India",
+   "cited_by": [
+    {
+     "case_id": "SC-002",
+     "treatment": "Referred to",
+     "proposition": "Stated that a person who does anything with the intention to cause wrongful gain to one person or wrongful loss to another is said to do that dishonestly. Cited for the meaning of ‘dishonest’ under Section 135 of the Electricity Act."
+    }
+   ]
+  },
+  "1885496": {
+   "name": "Whirlpool Corporation v. Registrar of Trade Marks, Mumbai",
+   "cite": "(1998) 8 SCC 1",
+   "court": "Supreme Court of India",
+   "cited_by": [
+    {
+     "case_id": "SC-002",
+     "treatment": "Referred to; Relied on",
+     "proposition": "Extensively discussed the scope of Article 226 jurisdiction and when alternative remedy does not bar the exercise of writ jurisdiction. Held that the power to issue prerogative writs is plenary and not limited by other constitutional provisions, and that the alternative remedy bar operates with exceptions, particularly where the order is wholly without jurisdiction, vires of an Act is challenged, or natural justice is violated."
+    }
+   ]
+  },
+  "1663246": {
+   "name": "Union of India v. State of Haryana",
+   "cite": "(2000) 10 SCC 482",
+   "court": "Supreme Court of India",
+   "cited_by": [
+    {
+     "case_id": "SC-002",
+     "treatment": "Referred to",
+     "proposition": "Held that where a fundamental legal question requires determination (e.g., whether a particular transaction is a sale), the matter need not be put through the mill of statutory appeals in hierarchy but should be determined by the High Court as a question of law."
+    }
+   ]
+  }
+ }
 }
