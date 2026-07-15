@@ -1,0 +1,426 @@
+{
+ "case_id": "HC-008",
+ "title": "Tamil Nadu Power Producers Association v. Tamil Nadu Electricity Regulatory Commission",
+ "subcite": "Appeal No. 131 of 2020 (with IA Nos. 425, 426, 1210 & 1215 of 2020) | Appellate Tribunal for Electricity at New Delhi | Reserved judgment, 7 June 2021",
+ "court": "Appellate Tribunal for Electricity (APTEL)",
+ "court_short": "Appellate Tribunal for Electricity",
+ "scope": "Electricity Act, 2003",
+ "coram": "Hon’ble Mrs. Justice Manjula Chellur, Chairperson & Hon’ble Mr. Ravindra Kumar Verma, Technical Member (Electricity)",
+ "date_of_judgment": "7 June 2021",
+ "nature": "Appeal under Section 111 of the Electricity Act, 2003 against the impugned order of Tamil Nadu Electricity Regulatory Commission dated 28.01.2020 prescribing procedure for verification of Captive Generating Plant (CGP) status and Captive User status in Tamil Nadu",
+ "parties": "Tamil Nadu Power Producers Association (appellant / association of power producers formed in 2004) v. (1) Tamil Nadu Electricity Regulatory Commission (2) Tamil Nadu Generation and Distribution Corporation Limited (TANGEDCO) (3) Sugapriya Paper and Boards (P) Ltd. (4) Indian Wind Power Association (5) The Southern India Mills Association (6) Tamil Nadu Electricity Consumers Association (7) Sri Venkateshwara Boards (8) Tamil Nadu Spinning Mills Association (respondents / captive users and DISCOMs)",
+ "provisions": "Sections 2(8), 2(17), 2(47), 2(62), 2(75), 9, 10, 42(2), 42(3), 50, 86, 97, 111, Electricity Act, 2003; Rule 3, Electricity Rules, 2005; Regulations 4(2), 9(2), 13(2)(a), 14(2)(a), 16(2), TNERC Grid Connectivity & Intra-State Open Access Regulations, 2014",
+ "result": "Appeal partly allowed. The impugned order dated 28.01.2020 passed by TNERC in R.A. No. 7 of 2019 is set aside to the extent of the Tribunal’s findings on seven issues: (1) TANGEDCO may collect and verify data but adjudication rests with TNERC; (2) open access shall be granted per Regulations 2014, not subject to captive-status pre-verification; (3) SPV and AOP are distinct—proportionality test does not apply to SPV; (4) verification of CGP status shall be annual, at year-end; (5) no liability for CSS from non-complying users if aggregate 26%/51% thresholds met; (6) no retrospective application of the procedure; (7) weighted-average shareholding concept set aside. No coercive action pending final determination by the Commission.",
+ "issues": [
+  "Whether the appointment of TANGEDCO (the Distribution Licensee) as both verifying and adjudicating authority for captive status is justified in law, given it stands to benefit from denial of captive status and receipt of Cross-Subsidy Surcharge (CSS)",
+  "Whether documents required for grant of open access under Section 9 of the Act can be mandatorily linked to proof of captive status under Rule 3, and whether the prior verification of captive status is a condition precedent for open access",
+  "Whether a Special Purpose Vehicle (SPV) setting up a Captive Generating Plant can be equated with an Association of Persons (AOP) for purposes of applying the proportionality test to consumption",
+  "Whether the State Commission is justified in implementing a draft amendment to Electricity Rules 2005 (not yet notified by the Ministry of Power) as the basis for the verification procedure",
+  "Whether the criteria and methodology for verifying the twin consumption requirement (minimum 51% of generation on annual basis) is compliant with Rule 3, and whether verification can be conducted at points other than financial year-end",
+  "Whether retrospective applicability of the new procedure from financial year 2014-15 is permissible under the Electricity Act 2003",
+  "Whether the methodology for verification in the event of change in shareholding or consumption (including the concept of weighted-average shareholding) is in accordance with law and Rule 3"
+ ],
+ "facts": [
+  "On 15–31 March and 7–15 April 2017, TANGEDCO issued Circular Memoranda requiring captive generators and users to furnish documents for verification of captive status under Rule 3 of the Electricity Rules 2005. Writ Petitions challenging these circulars were filed before the Madras High Court (Madurai Bench), disposed of on 25 May 2017. TANGEDCO appealed, and the Division Bench (9 October 2018) left the jurisdiction to verify and determine CGP status open for decision by TNERC, directing TNERC to frame a procedure but leaving the appointment of the verifying body open.",
+  "On 27 February 2019, TNERC posted a draft procedure for CGP/captive-user verification by TANGEDCO/Distribution Licensee. After a revised draft (9 December 2019) and a hearing (23 December 2019), TNERC on 28 January 2020 passed the impugned order prescribing a detailed procedure vesting verification authority in TANGEDCO and mandating production of documents for captive status as a pre-condition for grant of open access, measured at multiple points during the financial year with weighted-average shareholding calculations.",
+  "The TNPPA (appellant) has approximately 7000–10000 captive users in the state, including wind-energy generators. It challenged the impugned order before APTEL, arguing: (a) TANGEDCO is judge in its own cause (beneficiary of CSS if captive status denied); (b) open access cannot be hinged on prior captive-status verification; (c) SPV cannot be treated as AOP; (d) the procedure wrongly applies draft amendments; (e) verification must occur annually at year-end, not mid-year; (f) retrospective applicability is impermissible.",
+  "TNERC and TANGEDCO argued the procedure was directed by the High Court, protects the concession, ensures only qualified entities receive CSS exemptions, and that verification at multiple points prevents gaming. The respondent associations (captive users) largely adopted the appellant's arguments. The Supreme Court, on 9 September 2020, directed APTEL to proceed with final hearing."
+ ],
+ "headnote": "In a captive-generation verification framework, a Distribution Licensee (who stands to receive CSS if captive status is denied) cannot be vested with adjudicatory power, though it may collect and verify data. The State Commission alone holds jurisdiction to adjudicate disputes and determine captive status under Section 86(1)(f). Open access is an independent statutory right under Section 9, not contingent on prior captive-status determination; documents required for open access are governed by the Open Access Regulations 2014, not Rule 3 verification prerequisites. A Special Purpose Vehicle (SPV) is a distinct entity from an Association of Persons (AOP) under Rule 3; the proportionality test and proviso thereto apply only to AOPs. Verification of the twin Rule 3 conditions (26% minimum ownership, 51% minimum consumption) must occur annually, at financial year-end, not mid-year or at multiple periods. Individual non-complying shareholders do not forfeit the CGP status of the collective if the aggregate thresholds are met. Delegated legislation cannot have retrospective effect unless the parent Act permits. The concept of weighted-average shareholding is not prescribed in Rule 3.",
+ "reasoning": [
+  {
+   "point": "The verifying authority cannot adjudicate when it benefits from an adverse finding",
+   "explanation": "Although Section 97 permits delegation of regulatory functions by the Commission, the delegation must preserve transparency, unbiasedness and fair play. TANGEDCO, as the sole beneficiary of CSS if a CGP loses its status, cannot be vested with the power to adjudicate captive status—that violates the principle that no person can be a judge in his own cause. The Commission may, under Section 97, delegate the collection and verification of data to TANGEDCO, but adjudication and final determination of captive status must remain with the Commission under Section 86(1)(f). The High Court order of 9 October 2018 left the appointment open for the Commission to decide; it was an interim arrangement, not a final direction. ¶ 10.9–10.17"
+  },
+  {
+   "point": "Open access is a statutory right, not conditional on prior captive-status proof",
+   "explanation": "Under Sections 2(47), 9, 42(2) and the TNERC Open Access Regulations 2014, open access is to be granted as a matter of right, on payment of wheeling charges. Rule 3 deals with conditions for captive status (for CSS exemption); it does not govern the grant of open access. The Regulations 2014 (Regulations 9(2), 13(2)(a), 14(2)(a)) specify only that applications contain details of the entity, quantum, and point of injection/drawl—they nowhere mandate verification of ownership as a pre-condition. Regulation 16(2)(b) limits the distribution licensee's grounds for withholding consent to three factors: metering infrastructure, distribution-system capacity, and RTU/communication facility. By linking open access approval to prior captive-status verification and imposing 30–45-day delays for document submission, the impugned order violates Section 42(3) (non-discrimination) and invents a requirement absent from the Regulations. ¶ 11.18–11.26"
+  },
+  {
+   "point": "SPV and AOP are distinct entities; the proportionality proviso does not apply to SPVs",
+   "explanation": "Rule 3(1)(a) prescribes the general conditions for CGPs and contains two provisos: one for cooperative societies, one for Associations of Persons (AOP). Rule 3(1)(b) separately addresses SPVs and states that the conditions in Rule 3(1)(a)(i) and (ii) apply but does not mention the provisos. The Parliament deliberately created an intelligible differentia between SPV (a company incorporated for a specific purpose) and AOP (an unincorporated entity). An AOP is a recognized tax entity and, once incorporated, becomes a company; the concept of 'association' implies an unincorporated joint enterprise. The provisos are exceptions to the general rule and cannot travel beyond the provision to which they attach. The second proviso to Rule 3(1)(a)—mandating that captive users holding aggregate 26% ownership must consume electricity in proportion to their shares, within ±10%—applies only to AOPs and cannot be read into Rule 3(1)(b) governing SPVs. The Tribunal’s decision in Kadodara (which equated SPV to AOP for proportionality purposes) is held to be per incuriam for having ignored the statutory distinction, the tax-law concept of AOP as unincorporated, and foundational cases on the meaning of 'association of persons'. ¶ 12.13–12.19"
+  },
+  {
+   "point": "Verification of captive status is an annual exercise, conducted at the end of the financial year",
+   "explanation": "Rule 3 mandates that the twin conditions—26% minimum ownership and 51% minimum annual consumption—be determined on an annual basis. In Prism Cement (Appeal Nos. 2 & 179 of 2018), this Tribunal held that both conditions must be verified together at year-end. Rule 3 does not require pre-verification of shareholding before grant of open access; it prescribes annual verification at the end of the financial year to determine whether the CGP qualifies for CSS exemption. If the Distribution Licensee delays or denies open access in order to block verification and assessment of captive status, it cannot benefit from its own default by claiming CSS at year-end. The impugned order’s direction to furnish ownership details 30–45 days before the date of open access, and to report shareholding changes within 10 days, contradicts Rule 3’s annual framework and creates undue burden. Verification is an independent exercise and must be done at year-end, not at multiple points during the year. ¶ 11.19–11.22"
+  },
+  {
+   "point": "Aggregate compliance with the 26%/51% thresholds is the operative test; individual non-compliance does not nullify collective status",
+   "explanation": "Per this Tribunal’s judgments in Appeal No. 252 of 2014 (MSEDC v. MERC) and Appeal No. 316 of 2013 (Sai Wardha), once a set of captive users collectively hold minimum 26% ownership and collectively consume minimum 51% of generation, the collective qualifies as captive. An individual shareholder who fails the proportionality test (where applicable, as in AOP) loses the benefit of CSS exemption, but that does not strip the collective or other complying members of captive status. Rule 3(2) provides that if the minimum percentage of captive use is not met in any year, the entire generation is treated as non-captive supply—but this refers to the aggregate. The direction in the impugned order (Para 7.8.2) that non-complying consumers trigger CSS levy on remaining complying consumers is contrary to Rule 3 and the Tribunal’s settled jurisprudence. ¶ 14.6–14.7"
+  },
+  {
+   "point": "Delegated legislation cannot have retrospective effect absent express grant in the parent Act",
+   "explanation": "The Electricity Act 2003 contains no provision permitting retrospective effect to delegated legislation. Under settled principle, a delegated authority may exercise only those powers expressly conferred; the legislature alone has plenary power to legislate retrospectively. The impugned order directs the procedure to apply retrospectively from financial year 2014-15, requiring CGPs to furnish documents for verification of years already concluded and transactions already settled (open access already granted). Such retrospectivity amounts to changing the rules of the game after the game was played, contrary to the Supreme Court’s ruling in K. Manjusree v. State of Andhra Pradesh. However, the distribution licensee may, for past years, verify captive status on the basis of data already furnished by the CGP/user while availing open access. ¶ 15.5–15.8"
+  },
+  {
+   "point": "Weighted-average shareholding is not prescribed in Rule 3; verification is on year-end shareholding",
+   "explanation": "The impugned order directs that if shareholding changes during the year, the distribution licensee shall verify on a weighted-average basis. Weighted-average shareholding is not envisaged in Rule 3. Shareholding in captive structures is fluid and dynamic; allowing mid-year reallocation on a weighted-average basis would create unpredictable difficulties for the CGP and shareholders. Verification must be done on the shareholding existing at the end of the financial year, without application of weighted-average calculations at interim points. The Tribunal’s decision in Prism Cement supports annual, year-end verification, and the concept of weighted-average shareholding remains pending adjudication before the Tribunal in other appeals (A. No. 340 & 341 of 2018), hence cannot be applied now. ¶ 16.6–16.8"
+  }
+ ],
+ "interpretations": [
+  {
+   "provision": "Section 9 — Right to Open Access for Captive Use",
+   "interpretation": "Section 9 of the Act grants a person who has established a captive generating plant an unequivocal right to open access for carrying electricity to the destination of the person’s own use. This is independent of, and prior to, the determination of captive status for CSS exemption purposes. Open access is a statutory right to be granted, as a matter of right, on payment of wheeling charges; it is not conditioned on prior proof of captive status. ¶ 10.28, 11.11"
+  },
+  {
+   "provision": "Section 42(2) — Open Access and Cross-Subsidy Surcharge Exemption",
+   "interpretation": "Section 42(2) mandates that open access be allowed on payment of wheeling and other charges. The section specifically exempts a person who has established a captive generating plant, for carrying electricity to the destination of the person’s own use, from payment of cross-subsidy surcharge (CSS). The exemption is conditioned on satisfaction of Rule 3 criteria, to be verified after open access is exercised, at the end of the financial year. Open access itself cannot be made dependent on such verification. ¶ 10.28, 11.24–11.25"
+  },
+  {
+   "provision": "Section 97 — Delegation of Functions by the State Commission",
+   "interpretation": "Section 97 permits the appropriate Commission to delegate such of its powers and functions as it thinks fit, except the powers to adjudicate disputes under Sections 79 & 86 and the power to make Regulations under Sections 178 or 181. Any delegation must preserve transparency, unbiasedness and fair play. Delegation to an authority with vested interest in the outcome is impermissible. ¶ 10.15"
+  },
+  {
+   "provision": "Rule 3(1)(a) — Captive Generating Plant: General Requirements",
+   "interpretation": "Rule 3(1)(a) prescribes two conditions: (i) not less than 26% ownership held by captive user(s), and (ii) not less than 51% of aggregate generation consumed for captive use, determined on an annual basis. These conditions are co-dependent and must be verified together, annually, at the end of the financial year. The Rule does not prescribe the manner or method of verification before open access; it establishes the criteria by which, at year-end, the CGP’s exemption status is determined. ¶ 11.18–11.22"
+  },
+  {
+   "provision": "Rule 3(1)(a), Second Proviso — Association of Persons: Proportionality Requirement",
+   "interpretation": "In the case of an Association of Persons, the captive user(s) shall hold not less than 26% ownership in aggregate and shall consume not less than 51% of electricity generated, in proportion to their ownership of the power plant within a variation not exceeding ten percent. This proviso is a stand-alone provision applying only to AOPs. It does not apply to CGPs set up by SPVs, which are distinct entities under Rule 3(1)(b). ¶ 12.13–12.14"
+  },
+  {
+   "provision": "Rule 3(1)(b) — Special Purpose Vehicle: Applicable Conditions",
+   "interpretation": "Where a generating station is owned by a company formed as a special purpose vehicle, the unit(s) identified for captive use must satisfy Rule 3(1)(a)(i) and (ii)—the 26% ownership and 51% consumption thresholds—without reference to the provisos to Rule 3(1)(a). The proportionality test and weighted-average shareholding concepts do not apply to SPVs. ¶ 12.14"
+  },
+  {
+   "provision": "Rule 3(2) — Consequence of Non-Compliance with Annual Requirements",
+   "interpretation": "If the minimum percentage of captive use (51% of annual aggregate generation) is not complied with in any year, the entire electricity generated shall be treated as if it is a supply of electricity by a generating company. However, this applies to the collective; if an aggregate of 26% ownership and 51% consumption is maintained by the qualifying set of captive users, non-compliance by an individual shareholder does not render the entire generation non-captive. ¶ 14.6"
+  },
+  {
+   "provision": "TNERC Grid Connectivity & Intra-State Open Access Regulations 2014, Regulation 9(2) — Eligibility for Open Access",
+   "interpretation": "Generating stations, captive generating plants and consumers are eligible for open access to the distribution system on payment of wheeling and other charges. The Regulation mandates non-discriminatory treatment and establishes open access as a statutory entitlement, not dependent on prior verification of the applicant’s captive or non-captive status. ¶ 11.24"
+  },
+  {
+   "provision": "TNERC Open Access Regulations 2014, Regulation 16(2)(b) — Conditions for Licensee Consent to Open Access",
+   "interpretation": "The distribution licensee may grant or withhold consent only after considering the following factors: (i) existence of infrastructure for time-block-wise energy metering and accounting; (ii) availability of capacity in the distribution network; and (iii) availability of RTU and communication facility. No other document or information may be mandatorily required by the distribution licensee as a condition of open access. ¶ 11.25–11.26"
+  }
+ ],
+ "ratio": "A State Electricity Regulatory Commission may delegate the collection and verification of data regarding captive-plant ownership and consumption to the Distribution Licensee under Section 97, but cannot delegate the adjudicatory function of determining captive status to an entity that stands to benefit financially from a denial of captive status. The determination of captive status under Rule 3—and any consequential levy of cross-subsidy surcharge—is an exclusive function of the State Commission, exercisable under Section 86(1)(f). Open access under Section 9 and Sections 42(2)–(3) of the Act is an independent statutory right governed by the Open Access Regulations 2014; it cannot be made conditional on prior verification of captive status. Verification of the twin Rule 3 conditions (minimum 26% ownership and minimum 51% annual consumption) is mandated by law to occur once yearly, at the end of the financial year, and not at multiple points during the year or on a weighted-average basis. A SPV is distinct from an AOP; the proportionality test applicable to AOPs under the second proviso to Rule 3(1)(a) does not apply to SPVs under Rule 3(1)(b). Delegated legislation cannot have retrospective effect unless the parent Act expressly permits. (The substantive framework on captive-generation requirements and CSS exemption is statutory; the Tribunal’s contribution is on the limits of regulatory delegation and the sequence of verification and open-access grant.)",
+ "obiter": [
+  {
+   "point": "The High Court’s order of 9 October 2018 left the appointment open; it was not a final directive",
+   "explanation": "Although the Madras High Court (Madurai Bench) in paragraph 10(v) of the order dated 9.10.2018 recorded that TANGEDCO could ‘make a determination’ on receipt of verification particulars, paragraph 10(i) explicitly stated that the issue of jurisdiction and power to verify and determine CGP status was ‘left open’. The direction to TANGEDCO was interim, pending the Commission’s independent application of its mind. Reliance on selective paragraphs of a High Court order, divorced from the full context and the express statement that the issue was left open, is an error in reading judgments."
+  },
+  {
+   "point": "The Tribunal’s prior judgment in Kadodara (on SPV and AOP equivalence) is held per incuriam and does not bind",
+   "explanation": "The Tribunal’s decision in Kadodara (Appeal Nos. 171, 172, 10 of 2008, decided 22.09.2009), treating a SPV as an AOP and applying the proportionality test, was rendered in ignorance of the plain language of Rule 3(1)(b), the distinct nature of a SPV as an incorporated entity versus an AOP as an unincorporated entity, and foundational tax-law cases (B.N. Elias, CIT v. Laxmidas Devidas, Dwaraknath Harishchandra Pitale, Ramanlal Bhailal Patel, CIT v. Buldana Distt., Mohd. Noorulla v. CIT) defining 'association of persons' as an unincorporated joint enterprise. The decision is therefore per incuriam and does not furnish binding authority for equating SPV and AOP."
+  },
+  {
+   "point": "The Tribunal’s appeal decisions citing Kadodara do not overcome the per incuriam holding",
+   "explanation": "While subsequent Tribunal decisions (Prism Cement in Appeal Nos. 2 & 179 of 2018; JSW Steel in Appeal No. 311 of 2018; Sai Wardha in Appeal No. 316 of 2013) have cited Kadodara, those citations do not cure the infirmity in Kadodara itself. The later decisions are secondary authorities relying on a flawed foundation and do not bind a co-ordinate bench deliberating the foundational question afresh."
+  }
+ ],
+ "disposition": "The appeal is partly allowed. The impugned order dated 28 January 2020 passed by the Tamil Nadu Electricity Regulatory Commission in R.A. No. 7 of 2019 is set aside to the extent of the Tribunal’s findings and directions as indicated in paragraphs 17.1 to 17.7 of this judgment, specifically: (1) TANGEDCO may collect and verify data only; adjudication of captive status rests with TNERC; (2) documents for open access shall be those specified in TNERC Open Access Regulations 2014, without additional pre-verification of captive status; (3) SPV and AOP are distinct; proportionality does not apply to SPV; (4) verification of CGP status shall be on an annual basis at the end of the financial year; (5) directions in paras 6.6.3 and 7.8.2 (on CSS levy for individual non-compliance) are set aside; (6) the procedure shall not have retrospective effect from FY 2014-15 (though the Licensee may verify past data already furnished); (7) direction in para 7.6.9 (on weighted-average shareholding) is set aside. The relief sought in Interim Applications Nos. 425, 426, 1210 & 1215 of 2020 does not survive for consideration and is disposed of. No order as to costs.",
+ "significance": [
+  {
+   "point": "A Distribution Licensee cannot adjudicate the very status that exempts it from CSS revenue",
+   "explanation": "Vesting verification and adjudication in the entity with a financial interest in denial violates the principle that no person can be judge in his own cause (Articles 14 and 20 of the Constitution; Section 86(1)(f) as the exclusive locus for determination). The judgment enforces institutional impartiality."
+  },
+  {
+   "point": "Open access is prior to and independent of captive-status verification",
+   "explanation": "Section 9 grants an unconditional right to open access; Rule 3 prescribes the conditions for CSS exemption. By unlinking them, the judgment prevents the Licensee from using open-access approval as leverage to force captive-status documentation, and prevents delays in exercising a statutory right."
+  },
+  {
+   "point": "A SPV is not an AOP; proportionality is not a blanket requirement",
+   "explanation": "By holding Kadodara per incuriam, the Tribunal removes a bar on SPVs. SPVs can now seek and maintain captive status without meeting the proportionality standard (51÷26=1.96% per 1% shareholding), reducing operational rigidity and accommodating corporate structures that use SPVs for project financing."
+  },
+  {
+   "point": "Verification is annual, at year-end, not at multiple points during the year",
+   "explanation": "This aligns verification timing with the statutory framework in Rule 3 and prevents mid-year disruption of open-access arrangements and constant document submission. CGPs can forecast their compliance based on year-end position, not on interim shareholding changes."
+  },
+  {
+   "point": "Retrospective procedures are void; delegated legislation must be prospective",
+   "explanation": "Absent express grant in the parent Act, delegated authorities cannot impose new rules on settled transactions. The judgment protects entities that have already availed open access and furnished documents, insulating those transactions from subsequent re-verification demands."
+  }
+ ],
+ "authorities": [
+  {
+   "name": "Kadodara Power Pvt. Ltd. and Others v. Gujarat Electricity Regulatory Commission and Another",
+   "citation": "2009 ELR 1037 / 2009 SCC Online APTEL 119",
+   "court": "Appellate Tribunal for Electricity",
+   "docid": "76510513",
+   "treatment": "Held per incuriam",
+   "proposition": "Interpreted Rule 3(1)(a) proviso to hold that a SPV is equivalent to an Association of Persons and therefore subject to the proportionality test (51% ÷ 26% = 1.96% per 1% shareholding, ±10%). The judgment applied this holding to deny full captive status to SPVs without meeting the proportionality requirement. Treated as foundational by respondents and cited in subsequent Tribunal appeals (Prism Cement, JSW Steel, Sai Wardha)."
+  },
+  {
+   "name": "Chhattisgarh State Power Distribution Co. Ltd. v. Shri J.P. Saboo, Urla Industries Association Ltd. & Ors.",
+   "citation": "Appeal No. 270 of 2006 (dated [referenced 22.09.2009 in Kadodara])",
+   "court": "Appellate Tribunal for Electricity",
+   "docid": "27707757",
+   "treatment": "Approved",
+   "proposition": "Held (paras 34–35) that a Distribution Licensee or State Transmission Utility cannot determine captive-plant status; only the State Commission, in exercise of its regulatory powers under Section 86(1)(f), is the appropriate authority to determine captive status. This principle is foundational to the adjudication function."
+  },
+  {
+   "name": "Chhattisgarh State Power Distribution Co. Ltd. v. Hira Ferro Alloys Ltd. & Anr.",
+   "citation": "Appeal No. 116 of 2009 (dated 18.5.2010, referenced in J.P. Saboo)",
+   "court": "Appellate Tribunal for Electricity",
+   "docid": "",
+   "treatment": "Approved",
+   "proposition": "Held (paras 27–28) that the State Commission has exclusive jurisdiction to determine whether the exemption from CSS under Section 42(2) can be accorded, in the same manner as it determines tariff. Affirmed that the captive-plant status determination is a regulatory and adjudicatory function vested only in the Commission."
+  },
+  {
+   "name": "Prism Cement Limited v. Madhya Pradesh Electricity Regulatory Commission & Ors.",
+   "citation": "Appeal Nos. 2 & 179 of 2018",
+   "court": "Appellate Tribunal for Electricity",
+   "docid": "42991347",
+   "treatment": "Approved",
+   "proposition": "Held (para 9.6, 10.1) that the twin requirements under Rule 3(1)(a)(i) and (ii) must be verified together, on an annual basis at the end of the financial year, with the status determined fresh each year. Rule 3 recognises that a power plant can be a CGP in one year but lose that status in a subsequent year if the conditions are not met. Verification at year-end is the correct timing for both ownership and consumption."
+  },
+  {
+   "name": "Uma Nath Pandey & Ors. v. State of Uttar Pradesh & Anr.",
+   "citation": "(2009) 12 SCC 40, para 16",
+   "court": "Supreme Court of India",
+   "docid": "1619801",
+   "treatment": "Approved",
+   "proposition": "Laid down the settled principle that no person can be made a judge in his own cause; this is fundamental to natural justice and impartiality in quasi-judicial proceedings."
+  },
+  {
+   "name": "J. Mohapatra and Co. & Anr. v. State of Orissa & Anr.",
+   "citation": "(1984) 4 SCC 103, para 10",
+   "court": "Supreme Court of India",
+   "docid": "",
+   "treatment": "Approved",
+   "proposition": "Reaffirmed the principle that a person with a vested interest in the outcome cannot be vested with adjudicatory power, as this violates the principles of fair play and transparency."
+  },
+  {
+   "name": "Salasar Steel and Power Ltd v. Chhattisgarh State Electricity Regulatory Commission and Others",
+   "citation": "Appeal No. 252 of 2015 (dated 08.11.2016)",
+   "court": "Appellate Tribunal for Electricity",
+   "docid": "29616041",
+   "treatment": "Approved",
+   "proposition": "Held that verification of captive status must be done on an aggregate (not individual or component-wise) basis. The aggregate shareholding and consumption are the operative criteria; individual non-compliance does not nullify the collective’s status if the thresholds are met."
+  },
+  {
+   "name": "Jitendra Kumar Singh v. State of U.P.",
+   "citation": "(2010) 3 SCC 119, page 140, paras 53–54",
+   "court": "Supreme Court of India",
+   "docid": "1393954",
+   "treatment": "Referred",
+   "proposition": "Held that in reading a judgment, isolated observations cannot be treated as precedent dehors the facts and circumstances in which the observation was made. The ratio decidendi—the principle upon which the case was decided—is binding, not every observation or dictum."
+  },
+  {
+   "name": "Union of India v. Dhanwanti Devi",
+   "citation": "(1996) 6 SCC 44, SCC p. 51-52, para 9",
+   "court": "Supreme Court of India",
+   "docid": "1145726",
+   "treatment": "Referred",
+   "proposition": "Held that it is the ratio decidendi—the principle on which a case is decided—that is binding, not every observation. A decision is an authority for what it actually decides; what is of essence is the ratio, not every observation found therein."
+  },
+  {
+   "name": "State of Orissa v. Mohd. Illiyas",
+   "citation": "(2006) 1 SCC 275",
+   "court": "Supreme Court of India",
+   "docid": "1613962",
+   "treatment": "Referred",
+   "proposition": "Reiterated that a decision is a precedent on its own facts, and reliance on a decision without looking into its factual background is impermissible. The ratio, not every observation, is binding."
+  },
+  {
+   "name": "Bachhaj Nahar v. Nilima Mandal & Anr.",
+   "citation": "(2008) 17 SCC 491, paras 10–13 and 22–23",
+   "court": "Supreme Court of India",
+   "docid": "170697",
+   "treatment": "Approved",
+   "proposition": "Laid down that a Court, out of judicial propriety, ought not to have decided an issue which was not presented before it for adjudication. Deciding an issue not on the agenda violates judicial propriety."
+  },
+  {
+   "name": "V.K. Majotra v. Union of India & Ors.",
+   "citation": "(2003) 8 SCC 40, para 8",
+   "court": "Supreme Court of India",
+   "docid": "55040",
+   "treatment": "Approved",
+   "proposition": "Held that a judicial body should not decide an issue that was not presented before it for adjudication; doing so violates principles of proper procedure and natural justice."
+  },
+  {
+   "name": "Gujarat Urja Vikas Nigam Ltd. v. Solar Semiconductor Power Co.(India) (P) Ltd.",
+   "citation": "(2017) 16 SCC 498, para 39",
+   "court": "Supreme Court of India",
+   "docid": "150450225",
+   "treatment": "Approved",
+   "proposition": "Held that a Commission, being a creature of statute, cannot assume powers not conferred on it. Under the guise of inherent power, a Commission cannot exercise a power whose procedure is specifically provided under the Act."
+  },
+  {
+   "name": "Sesa Sterlite Ltd. v. Orissa Electricity Regulatory Commission",
+   "citation": "(2014) 8 SCC 444",
+   "court": "Supreme Court of India",
+   "docid": "121318562",
+   "treatment": "Referred",
+   "proposition": "Recognized CSS as a key component for maintaining the efficacy of the open-access system and as a major source of revenue for the Distribution Licensee."
+  },
+  {
+   "name": "Panchi Devi v. State of Rajasthan",
+   "citation": "(2009) 2 SCC 589, para 9",
+   "court": "Supreme Court of India",
+   "docid": "630814",
+   "treatment": "Approved",
+   "proposition": "Held that a delegated legislation is ordinarily prospective in nature; a right or liability created for the first time cannot be given retrospective effect unless the parent Act permits."
+  },
+  {
+   "name": "M.D. University v. Jahan Singh",
+   "citation": "(2007) 5 SCC 77, para 19",
+   "court": "Supreme Court of India",
+   "docid": "1845821",
+   "treatment": "Approved",
+   "proposition": "Held that if the Act does not confer power on the delegatee to make regulations with retrospective effect, the delegatee cannot do so, as it is well settled that absence of such power prevents retrospective operation of delegated legislation."
+  },
+  {
+   "name": "State of Rajasthan v. Basant Agrotech (India) Ltd.",
+   "citation": "(2013) 15 SCC 1, para 22",
+   "court": "Supreme Court of India",
+   "docid": "33840213",
+   "treatment": "Approved",
+   "proposition": "Confirmed that a delegated authority exercising delegated powers can only exercise those powers specifically conferred; in the absence of conferment, a delegated authority has no power to issue a notification with retrospective effect."
+  },
+  {
+   "name": "K. Manjusree v. State of Andhra Pradesh & Another",
+   "citation": "(2008) 3 SCC 512, para 27",
+   "court": "Supreme Court of India",
+   "docid": "103037015",
+   "treatment": "Approved",
+   "proposition": "Held that introduction of a new criterion after a process is completed amounts to changing the rules of the game after the game was played, which is clearly impermissible. This principle applies to regulatory procedures affecting settled transactions."
+  },
+  {
+   "name": "In re. B.N. Elias",
+   "citation": "(1935) I.L.R. 63 Cal. 538",
+   "court": "Calcutta High Court",
+   "docid": "171956730",
+   "treatment": "Referred",
+   "proposition": "Established that an 'association of persons' must be one in which two or more persons join in a common purpose or action to produce income, profits or gains. An association is a combination of individuals not constituting a partnership under law."
+  },
+  {
+   "name": "CIT v. Laxmidas Devidas",
+   "citation": "(1937) 39 BOM LR 910",
+   "court": "Bombay High Court",
+   "docid": "",
+   "treatment": "Referred",
+   "proposition": "Laid down the test that an association of two or more persons for acquisition of property managed to produce income, profits or gains falls within the definition of 'association of persons'. Such an association is the owner of the property."
+  },
+  {
+   "name": "CIT v. Buldana Distt. Main Cloth Importer Group",
+   "citation": "(1961) 1 SCR 181",
+   "court": "Supreme Court of India",
+   "docid": "1691505",
+   "treatment": "Referred",
+   "proposition": "Held that where the business was carried on as one unit by consent of all parties, and profits were ascertained and distributed according to capital contributed by each member, the entity constituted an 'association of persons'."
+  },
+  {
+   "name": "Mohd. Noorulla v. CIT",
+   "citation": "(1961) 3 SCR 515, para 6",
+   "court": "Supreme Court of India",
+   "docid": "",
+   "treatment": "Referred",
+   "proposition": "Confirmed the test that an association of persons is a combination of individuals engaged in a joint enterprise but not constituting a partnership; the conclusion depends on the circumstances of each case."
+  },
+  {
+   "name": "Ramanlal Bhailal Patel v. State of Gujarat",
+   "citation": "(2008) 5 SCC 449",
+   "court": "Supreme Court of India",
+   "docid": "1267220",
+   "treatment": "Referred",
+   "proposition": "Held that the ordinary, natural meaning of 'person' in law refers to any entity having rights and duties; 'association of persons' is an unincorporated entity that may be recognized by law. Once an association is incorporated, it becomes a company."
+  },
+  {
+   "name": "State of Punjab v. Kailash Nath",
+   "citation": "(1989) 1 SCC 321, para 9",
+   "court": "Supreme Court of India",
+   "docid": "1659123",
+   "treatment": "Approved",
+   "proposition": "Held that a proviso to a provision only embraces the field covered by the main provision; it carves out an exception to the main provision to which it has been enacted as a proviso and to no other."
+  },
+  {
+   "name": "Ram Narain Sons Ltd. v. Asst. CST",
+   "citation": "AIR 1955 SC 765",
+   "court": "Supreme Court of India",
+   "docid": "506242",
+   "treatment": "Approved",
+   "proposition": "Laid down the cardinal rule of interpretation that a proviso to a particular provision only embraces the field covered by the main provision. It carves out an exception to the main provision and to no other."
+  },
+  {
+   "name": "Union of India v. Sanjay Kumar Jain",
+   "citation": "(2004) 6 SCC 708, paras 11–13",
+   "court": "Supreme Court of India",
+   "docid": "109918",
+   "treatment": "Approved",
+   "proposition": "Held that the normal function of a proviso is to except something from the enactment or to qualify something enacted; a proviso does not normally travel beyond the provision to which it is a proviso. A proviso must be read with the principal matter to which it stands as a proviso."
+  },
+  {
+   "name": "Vemareddy Kumaraswamy Reddy v. State of A.P.",
+   "citation": "(2006) 2 SCC 670, para 15",
+   "court": "Supreme Court of India",
+   "docid": "1273462",
+   "treatment": "Approved",
+   "proposition": "Held that where the words of a statute are clear and unambiguous, there is no scope for the court to innovate or amend the statutory provisions. Judges should not proclaim themselves law-makers; there is a line between adjudication and legislation."
+  },
+  {
+   "name": "Mohd. Shahabuddin v. State of Bihar",
+   "citation": "(2010) 4 SCC 653, paras 179–180",
+   "court": "Supreme Court of India",
+   "docid": "1772349",
+   "treatment": "Approved",
+   "proposition": "Held that courts cannot read anything into a plain and unambiguous statutory provision. The language of the statute is determinative of legislative intent. Where the legislature prescribes a condition at one place but not another, the omission is intentional, not inadvertent."
+  },
+  {
+   "name": "Adani Transmission Limited v. Maharashtra Electricity Regulatory Commission",
+   "citation": "Appeal No. 250 of 2016 (dated 29.05.2019)",
+   "court": "Appellate Tribunal for Electricity",
+   "docid": "187431175",
+   "treatment": "Referred",
+   "proposition": "Held that a previous judgment of a co-ordinate Bench can be declared per incuriam if it was given in ignorance of a statute or rule having statutory force, or in ignorance of a binding precedent. A judgment per incuriam does not form a binding precedent."
+  },
+  {
+   "name": "Delhi Municipal Corporation v. Gurunam Kaur",
+   "citation": "AIR 1989 SCC 38",
+   "court": "Supreme Court of India",
+   "docid": "16382121",
+   "treatment": "Referred",
+   "proposition": "Set out the test for determining whether a judgment is per incuriam: a decision given in ignorance of a prior decision or of a statutory provision is rendered per incuriam and may not bind a subsequent co-ordinate Bench."
+  },
+  {
+   "name": "M/s. Consolidated Coffee Ltd. v. The Agricultural Income-Tax Officer, Madikeri & Ors.",
+   "citation": "AIR 2000 SC 3731 (dated 14.11.2000)",
+   "court": "Supreme Court of India",
+   "docid": "607688",
+   "treatment": "Referred",
+   "proposition": "Held that Delayed Payment Charges (DPC) are in the nature of compensatory charges, not tariff income, and must be distinguished from other revenue sources."
+  },
+  {
+   "name": "MSEDC v. MERC",
+   "citation": "Appeal No. 252 of 2014 (dated 03.06.2016)",
+   "court": "Appellate Tribunal for Electricity",
+   "docid": "162798215",
+   "treatment": "Approved",
+   "proposition": "Affirmed that the aggregate 26% ownership and 51% consumption thresholds are the operative criteria; once met by the collective, individual non-compliance does not strip the collective of captive status."
+  },
+  {
+   "name": "M/s Sai Wardha Power Co. Ltd. v. Maharashtra Electricity Regulatory Commission & Anr.",
+   "citation": "Appeal No. 316 of 2013 (referenced in Salasar Steel judgment)",
+   "court": "Appellate Tribunal for Electricity",
+   "docid": "186863738",
+   "treatment": "Referred",
+   "proposition": "Referenced for the holding that proportionality of consumption is measured against the qualifying 51% requirement, not against 100% of total generation. Also applied the concept of weighted-average shareholding (which is now under challenge in pending appeals A. No. 340 & 341 of 2018)."
+  },
+  {
+   "name": "A.N. Sehgal v. Raje Ram Sheoran",
+   "citation": "[1992 Supp (1) SCC 304]",
+   "court": "Supreme Court of India",
+   "docid": "1375346",
+   "treatment": "Referred",
+   "proposition": "Held that a proviso must be considered with relation to the principal matter to which it stands as a proviso. A proviso carves out an exception to the main provision."
+  },
+  {
+   "name": "Kerala State Housing Board v. Ramapriya Hotels (P) Ltd.",
+   "citation": "(1994) 5 SCC 672",
+   "court": "Supreme Court of India",
+   "docid": "27395",
+   "treatment": "Referred",
+   "proposition": "Held that a proviso normally does not travel beyond the provision to which it is a proviso. It carves out an exception to the main provision and to no other."
+  },
+  {
+   "name": "Ansal Properties & Industries Ltd. v. State of Haryana",
+   "citation": "(2009) 3 SCC 553",
+   "court": "Supreme Court of India",
+   "docid": "880618",
+   "treatment": "Referred",
+   "proposition": "Referred to in context of not reading words into a plain statutory provision; courts cannot add to the language of a statute."
+  }
+ ]
+}
