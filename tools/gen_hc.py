@@ -77,6 +77,7 @@ def build(c):
         auth_rows.append(
             f'      <tr>\n        <td><span class="cn">{a["name"]}</span><br>{cite}</td>\n'
             f'        <td>{a["prop"]}</td>\n'
+            f'        <td>{a.get("usage","")}</td>\n'
             f'        <td><span class="trt {cls}">{a.get("treatment","Referred")}</span></td>\n      </tr>')
     auth = "\n".join(auth_rows)
     _cl = c.get("court", "").lower()
@@ -137,10 +138,10 @@ def build(c):
   </ul>
 
   <h2>Table of Authorities</h2>
-  <p class="cit-preamble">{c.get("cit_preamble","Authorities discussed in the judgment, with the treatment each received.")}</p>
+  <p class="cit-preamble">{c.get("cit_preamble","Authorities discussed in the judgment: the proposition each stands for, how this judgment used it, and the treatment given.")}</p>
   <table class="cit">
     <thead>
-      <tr><th style="width:30%">Authority</th><th style="width:52%">Proposition &amp; how treated</th><th style="width:18%">Treatment</th></tr>
+      <tr><th style="width:24%">Authority</th><th style="width:31%">Proposition</th><th style="width:31%">How it was used in this judgment</th><th style="width:14%">Treatment</th></tr>
     </thead>
     <tbody>
 {auth}

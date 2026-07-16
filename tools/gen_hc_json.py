@@ -68,6 +68,7 @@ def build(c):
                 "docid": str(a.get("docid", "")).strip(),
                 "treatment": clean(a.get("treatment")),
                 "proposition": clean(a.get("prop")),
+                "usage": clean(a.get("usage")),
             }
             for a in c.get("authorities", [])
         ],
