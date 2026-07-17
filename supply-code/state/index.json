@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 16,
+  "next_seq": 24,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -92,6 +92,54 @@
       "case_id": "SCJ-015",
       "source_basename": "Dakshinanchal Vidyut Vitran Nigam Ltd. ... vs MS Prakancha Metal Works Pvt. Ltd. on 21 May, 2012",
       "title": "DVVNL v. M/s Prakancha Metal Works",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-016",
+      "source_basename": "Devendra Sharma vs State Of U.P. Thru Secy. And Others on 14 July, 2011",
+      "title": "Devendra Sharma v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-017",
+      "source_basename": "Dhirendra Kumar Chaudhary vs State Of U.P. And 5 Others on 31 May, 2024",
+      "title": "Dhirendra Kumar Chaudhary v. State of U.P. [off-topic: service law]",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-018",
+      "source_basename": "Dipali Dey(Baxi) vs Mira Das on 14 July, 2009",
+      "title": "Dipali Dey (Baxi) v. Mira Das [off-topic: landlord-tenant]",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-019",
+      "source_basename": "Divisional Engineer, Electricity ... vs Raman Singh And Another on 29 August, 2018",
+      "title": "Divisional Engineer v. Raman Singh",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-020",
+      "source_basename": "Divya Sahani vs State Of U.P. And Another on 17 March, 2021",
+      "title": "Divya Sahani v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-021",
+      "source_basename": "Dr. Ashok Kumar Sharma And Another vs State Of Up And 4 Others on 23 February, 2024",
+      "title": "Dr. Ashok Kumar Sharma v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-022",
+      "source_basename": "Dr. Munni Lal vs State Of U.P. And Others on 19 May, 2011",
+      "title": "Dr. Munni Lal v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-023",
+      "source_basename": "Dr. Santosh Kumar Awasthi vs State Of U.P. And Others on 13 May, 2011",
+      "title": "Dr. Santosh Kumar Awasthi v. State of U.P.",
       "status": "done"
     }
   ]

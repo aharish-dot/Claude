@@ -1,0 +1,54 @@
+{
+  "case_id": "SCJ-021",
+  "title": "Dr. Ashok Kumar Sharma & Another v. State of U.P. & 4 Others",
+  "neutral_citation": "2024:AHC:31947-DB",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Saumitra Dayal Singh & Manjive Shukla, JJ. (delivered by Saumitra Dayal Singh, J.)",
+  "date_of_judgment": "2024-02-23",
+  "date_display": "23 February 2024",
+  "docket": "WRIT - C No. 5548 of 2024",
+  "disposition": "Writ petition disposed of (connection refused at this stage; liberty if the eviction decree is set aside/stayed)",
+
+  "headnote": "A tenant is an 'occupier' under Clause 2(oo) of the U.P. Electricity Supply Code, 2005, with a statutory right to apply for a connection (on an indemnity bond, Clause 4.4) and cannot be denied supply merely for want of the landlord's NOC (Dilip v. Satish; Anand Kumar). But 'occupier' means a person authorised to occupy the premises; a tenant against whom an unstayed decree of eviction operates cannot be recognised as authorised to occupy, and a connection may be refused at that stage — with liberty to apply if the decree is later set aside, recalled or stayed.",
+
+  "holding_units": [
+    {
+      "provision": "UP-2005::2(oo)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "2(oo) (read with 4.4)",
+      "topic": "'Occupier' requires authorised occupation — tenant under an unstayed eviction decree",
+      "type": "supply_code",
+      "question": "Is a tenant against whom an unstayed decree of eviction operates an 'occupier' entitled to a fresh connection under the Code?",
+      "holding": "A tenant is ordinarily an 'occupier' (Clause 2(oo)) entitled to apply for a connection on an indemnity bond and cannot be denied supply merely for want of the landlord's NOC. But 'occupier' means a person authorised to occupy; a tenant faced with an unstayed eviction decree is not so authorised, and the court declined, in its discretion under Article 226, to direct a connection at that stage — with liberty to apply if the decree is set aside, recalled or stayed.",
+      "limiting_facts": "An ex parte eviction decree (19.4.2018) against the tenants was pending execution with no stay; outstanding dues exceeding Rs. 3,00,000 stood on the old connection.",
+      "qualifier": "Liberty reserved to apply for a connection if the eviction decree is set aside, recalled or stayed.",
+      "paras": "10-17"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "occupier-must-be-authorised",
+      "application": "The right of a tenant/occupier to a connection under the Code presupposes authorised occupation; it does not extend to a person against whom an unstayed eviction decree operates. (Qualifies the tenant-occupier entitlement recognised in Anand Kumar / SCJ-006.)",
+      "lead_authorities": [
+        {"name": "Anand Kumar v. State of U.P.", "docid": "163340936"}
+      ],
+      "paras": "10-16"
+    }
+  ],
+
+  "not_decided": [
+    {
+      "point": "Ultimate fate of the eviction litigation",
+      "note": "The Court declined to speculate on the outcome of the pending execution/recall proceedings, deciding only that at this stage the tenants are not authorised occupiers.",
+      "docid": "",
+      "paras": "15"
+    }
+  ],
+
+  "authorities": [
+    {"name": "Dilip (Dead) through LRs. v. Satish & Others", "citation": "2022 LiveLaw (SC) 570", "court": "Supreme Court", "docid": "", "proposition": "Electricity is a basic amenity of which a person cannot be deprived; it cannot be declined to a tenant for the landlord's failure/refusal to issue an NOC — all the supply authority examines is whether the applicant is in occupation.", "how_treated": "Distinguished — it does not lay down that a connection must be granted to a tenant irrespective of all other facts (here, an unstayed eviction decree).", "how_treated_paras": "7, 10", "cited_by": "Petitioner", "treatment": "Distinguished"},
+    {"name": "Anand Kumar v. State of U.P.", "citation": "2023 (3) ADJ 668 (DB)", "court": "Allahabad High Court (DB)", "docid": "163340936", "proposition": "A tenant, being an 'occupier' under Clause 2(oo), has a statutory right to apply for and obtain a connection on fulfilling the Code's conditions (mainly an indemnity bond). [SCJ-006 in this corpus.]", "how_treated": "Distinguished — ratio held not squarely applicable, since it presupposes authorised occupation, absent here given the unstayed eviction decree.", "how_treated_paras": "11-14", "cited_by": "Petitioner", "treatment": "Distinguished"}
+  ]
+}

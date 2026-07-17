@@ -1,0 +1,57 @@
+{
+  "case_id": "SCJ-022",
+  "title": "Dr. Munni Lal v. State of U.P. & Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Satya Poot Mehrotra & Jayashree Tiwari, JJ. (delivered by Jayashree Tiwari, J.)",
+  "date_of_judgment": "2011-05-19",
+  "date_display": "19 May 2011",
+  "docket": "WRIT - C No. 21243 of 2011",
+  "disposition": "Writ petition allowed (demand notice quashed; objections to be filed and decided)",
+
+  "headnote": "Clause 8.1(b)(iii) of the U.P. Electricity Supply Code, 2005 requires that, on suspicion of theft, the assessing officer serve the provisional assessment bill with a show-cause notice giving 15 working days to file objections and fixing a date for hearing, before making a final assessment under Section 126. A notice giving only seven days, and without fixing a hearing, does not comply. Further, a recovery demand under Section 3 of the U.P. Government Electrical Undertaking (Dues Recovery) Act, 1958 can arise only after a final order of assessment; a demand issued before final assessment is quashed.",
+
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1(b)(iii)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "8.1(b)(iii)",
+      "topic": "Theft assessment — mandatory 15-working-day show-cause notice and hearing",
+      "type": "supply_code",
+      "question": "Was the provisional theft assessment valid where the show-cause notice gave only seven days and fixed no hearing?",
+      "holding": "No. Clause 8.1(b)(iii) requires a show-cause notice giving 15 working days to object and fixing a hearing date before a final assessment; a seven-day notice with no hearing date does not comply. No final order of assessment was passed, so the recovery demand was premature.",
+      "limiting_facts": "The checking report was unsigned by the consumer; the show-cause notice gave only seven days and no hearing date; a recovery demand was enclosed before any final assessment.",
+      "paras": "Section 126 / Clause 8.1(b)(iii) discussion (unnumbered order)"
+    },
+    {
+      "provision": "UPDR1958::3",
+      "code": "U.P. Government Electrical Undertaking (Dues Recovery) Act, 1958",
+      "clause": "s.3",
+      "topic": "Recovery demand presupposes a final assessment",
+      "type": "interplay",
+      "holding": "A demand under Section 3 of the 1958 Dues Recovery Act can be issued only after a final order of assessment is passed; a demand issued before final assessment is without authority and is quashed.",
+      "paras": "unnumbered order"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "opportunity-before-final-assessment",
+      "application": "A final theft assessment requires the Code's mandatory 15-working-day show-cause notice and a hearing; recovery cannot precede a final assessment.",
+      "lead_authorities": [],
+      "paras": "unnumbered order"
+    }
+  ],
+
+  "not_decided": [
+    {
+      "point": "Correctness of the assessment on merits",
+      "note": "Left to the objection/final-assessment process to be decided by a speaking order.",
+      "docid": "",
+      "paras": "unnumbered order"
+    }
+  ],
+
+  "authorities": []
+}

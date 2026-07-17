@@ -1,0 +1,49 @@
+{
+  "case_id": "SCJ-018",
+  "title": "Dipali Dey (Baxi) v. Mira Das",
+  "neutral_citation": "",
+  "court": "Supreme Court of India",
+  "bench": "Two-Judge Bench",
+  "coram": "R.M. Lodha & Tarun Chatterjee, JJ. (delivered by Tarun Chatterjee, J.)",
+  "date_of_judgment": "2009-07-14",
+  "date_display": "14 July 2009",
+  "docket": "Civil Appeal No. 4335 of 2009",
+  "disposition": "Appeal allowed (courts-below injunction restoring supply restored; HC order set aside)",
+
+  "headnote": "A civil court may, by injunction, direct a landlord to restore a tenant-in-possession's disconnected electric supply pending disposal of the tenancy suit; the tenancy question is to be decided at trial. The High Court, exercising supervisory jurisdiction under Article 227, ought not to have interfered with the concurrent orders of the courts below directing restoration. (This is a landlord-tenant civil matter and does not construe the Electricity Supply Code.)",
+
+  "holding_units": [
+    {
+      "provision": "OFFTOPIC::landlord-tenant-civil",
+      "code": "Civil / landlord-tenant (not the Supply Code)",
+      "clause": "Article 227; interim injunction to restore supply",
+      "topic": "Restoration of a tenant's electric supply by civil injunction",
+      "type": "interplay",
+      "holding": "Where a tenant in possession has had supply disconnected by the landlord, the civil court may by injunction direct restoration pending the tenancy suit; the High Court should not interfere with such concurrent orders under Article 227. The tenancy dispute abides the trial.",
+      "paras": "2-4",
+      "flag": "Off-topic for the Supply Code: a Supreme Court order on a landlord-tenant civil injunction to restore supply; no Electricity Supply Code provision is construed. Retained as a node in the landlord-tenant disconnection line (cf. SCJ-016, SCJ-020)."
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "disconnection-not-for-landlord-tenant-dispute",
+      "application": "A tenant in possession is not to be deprived of electric supply on account of a landlord-tenant dispute; supply is restored (here by civil injunction pending the suit).",
+      "lead_authorities": [],
+      "paras": "2-4"
+    }
+  ],
+
+  "not_decided": [
+    {
+      "point": "Whether the appellant is a tenant",
+      "note": "Expressly left to be decided at the trial of the suit on evidence.",
+      "docid": "",
+      "paras": "3"
+    }
+  ],
+
+  "authorities": [
+    {"name": "Managing Director (MIG), Hindustan Aeronautics Ltd. v. Ajit Prasad Tarway", "citation": "AIR 1973 SC 76", "court": "Supreme Court", "docid": "", "proposition": "The High Court's supervisory jurisdiction under Article 227 is not to be exercised to interfere with concurrent findings/orders of the courts below as if in appeal.", "how_treated": "Referred in support of non-interference under Article 227.", "how_treated_paras": "3", "cited_by": "Court", "treatment": "Referred"}
+  ]
+}
