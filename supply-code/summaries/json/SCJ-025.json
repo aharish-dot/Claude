@@ -1,0 +1,66 @@
+{
+  "case_id": "SCJ-025",
+  "title": "Executive Engineer, Electricity Distribution Division-II v. State of U.P. & 2 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Sunita Agarwal, J.",
+  "date_of_judgment": "2018-08-27",
+  "date_display": "27 August 2018",
+  "docket": "WRIT - C No. 25532 of 2018",
+  "disposition": "Writ petition dismissed (Permanent Lok Adalat award of ~Rs. 21 lakh upheld)",
+
+  "headnote": "'Public utility service' under Section 22-A of the Legal Services Authorities Act, 1987 means the supply of power to the public by any establishment, and does not require a consumer/service-provider relationship; so a non-consumer electrocuted by an unattended live high-tension line may bring his damages claim before the Permanent Lok Adalat, which has adjudicatory (not merely conciliatory) power under Section 22-C(8). For a consumer's dispute, by contrast, the Electricity Act, 2003 read with the Supply Code, 2005 is comprehensive and the civil court's jurisdiction is barred by Section 145. Damages for such an accident may be assessed on tort principles (restitutio in integram), taking guidance from the multiplier method of the Motor Vehicles Act, 1988; the compensation of ~Rs. 21 lakh for 100% disability was upheld, and the departmental circular capping compensation at Rs. 2 lakh does not bind the court.",
+
+  "holding_units": [
+    {
+      "provision": "EA2003::145",
+      "code": "Electricity Act, 2003 (with Supply Code 2005) & LSA Act, 1987",
+      "clause": "s.145 (with LSA Act s.22-A / 22-C)",
+      "topic": "Forum: consumer disputes (Code/civil-court bar) vs a non-consumer's electrocution-damages claim (Lok Adalat)",
+      "type": "interplay",
+      "question": "Does the Permanent Lok Adalat have jurisdiction over a non-consumer's damages claim for electrocution by the licensee's line, given the Electricity Act / Supply Code scheme?",
+      "holding": "Yes. 'Public utility service' (LSA Act s.22-A) means supply of power to the public and needs no consumer relationship; the Permanent Lok Adalat has adjudicatory power under s.22-C(8) where conciliation fails. A consumer's electricity dispute is cognizable only by the statutory authorities under the Act/Code, civil-court jurisdiction being barred by Section 145; but a non-consumer's tort claim for electrocution is a civil dispute the Lok Adalat may decide, and a weaker-section claimant cannot be relegated to a civil suit.",
+      "limiting_facts": "A 20-year-old non-consumer was electrocuted by an unattended live HT line in a field and suffered 100% disability; the department pleaded storm/force majeure and lack of a consumer relationship.",
+      "paras": "Section 22-C / Section 145 discussion (unnumbered order)"
+    },
+    {
+      "provision": "TORT::compensation-assessment",
+      "code": "Law of torts / Motor Vehicles Act, 1988 (guidance)",
+      "clause": "restitutio in integram; MV Act multiplier method",
+      "topic": "Assessment of damages for electrocution disability",
+      "type": "interplay",
+      "holding": "Damages for loss of limb/life flow from tort principles (restitutio in integram); the Permanent Lok Adalat rightly took guidance from the Motor Vehicles Act, 1988 second schedule / multiplier method to compute compensation for a 100% disability, and ~Rs. 21 lakh was not excessive. A departmental circular capping compensation at Rs. 2 lakh binds the Corporation's officials but not the court.",
+      "paras": "compensation discussion (unnumbered order)"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "code-forum-not-for-tortious-damages",
+      "application": "The Supply Code/EA scheme (and the s.145 civil-court bar) govern consumer disputes; a non-consumer's tort-damages claim for electrocution is a public-utility-service dispute the Permanent Lok Adalat may decide.",
+      "lead_authorities": [
+        {"name": "Bar Council of India v. Union of India", "docid": "56328920"},
+        {"name": "United India Insurance Co. Ltd. v. Ajay Sinha", "docid": "1100992"}
+      ],
+      "paras": "unnumbered order"
+    },
+    {
+      "tag": "hazardous-activity-strict-duty",
+      "application": "A distribution company has an onerous duty to maintain its devices and to disconnect current from the sub-station in a storm; failure to do so is negligence founding a damages claim.",
+      "lead_authorities": [],
+      "paras": "unnumbered order"
+    }
+  ],
+
+  "not_decided": [],
+
+  "authorities": [
+    {"name": "Bar Council of India v. Union of India", "citation": "(2012) 8 SCC 243", "court": "Supreme Court", "docid": "56328920", "proposition": "Chapter VI-A of the LSA Act, 1987 validly confers on Permanent Lok Adalats jurisdiction to conciliate and, failing settlement, adjudicate disputes concerning public utility services (including supply of power); not violative of Article 14 or the rule of law.", "how_treated": "Relied on to sustain the Permanent Lok Adalat's jurisdiction and its validity.", "how_treated_paras": "unnumbered order", "cited_by": "Court", "treatment": "Relied on"},
+    {"name": "United India Insurance Co. Ltd. v. Ajay Sinha", "citation": "", "court": "Supreme Court", "docid": "1100992", "proposition": "A Permanent Lok Adalat does not act merely as an arbitrator whose award may be challenged; Parliament has given it an adjudicatory role to decide the matter.", "how_treated": "Relied on for the adjudicatory character of the Permanent Lok Adalat.", "how_treated_paras": "unnumbered order", "cited_by": "Court", "treatment": "Relied on"},
+    {"name": "Raghunath Rai Bareja & Anr. v. Punjab National Bank & Ors.", "citation": "", "court": "Supreme Court", "docid": "603123", "proposition": "The first and foremost rule of construction is the literal rule; where the provision is unambiguous, the court reads the statute as it is without adding words (approving Hiralal Ratanlal, Harshad S. Mehta and Patangrao Kadam).", "how_treated": "Relied on to construe 'public utility service' literally — supply of power to the public, without importing a consumer requirement.", "how_treated_paras": "unnumbered order", "cited_by": "Court", "treatment": "Relied on"},
+    {"name": "Nizam's Institute of Medical Sciences v. Prasanth S. Dhananka & Ors.", "citation": "", "court": "Supreme Court", "docid": "1110505", "proposition": "In assessing compensation for grievous personal injury, the court strikes a balance and awards just compensation under different heads, taking guidance from Motor Vehicles Act principles.", "how_treated": "Referred for the approach to assessing disability compensation.", "how_treated_paras": "unnumbered order", "cited_by": "Court", "treatment": "Referred"},
+    {"name": "Balram Prasad v. Kunal Saha & Ors.", "citation": "", "court": "Supreme Court", "docid": "35346928", "proposition": "The court is sceptical of a strait-jacket multiplier method and may deviate from it to avoid over- or under-compensation, determining just, fair and reasonable compensation on the facts.", "how_treated": "Relied on (¶124 quoted) for a flexible, just-compensation approach.", "how_treated_paras": "unnumbered order", "cited_by": "Court", "treatment": "Relied on"},
+    {"name": "Ningamma & Anr. v. United India Insurance Co. Ltd.", "citation": "", "court": "Supreme Court", "docid": "486335", "proposition": "A claimant is entitled to determination of just and reasonable compensation under different heads.", "how_treated": "Applied to uphold the heads of compensation awarded.", "how_treated_paras": "unnumbered order", "cited_by": "Court", "treatment": "Applied"}
+  ]
+}

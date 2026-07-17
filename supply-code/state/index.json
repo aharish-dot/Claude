@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 24,
+  "next_seq": 26,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -140,6 +140,18 @@
       "case_id": "SCJ-023",
       "source_basename": "Dr. Santosh Kumar Awasthi vs State Of U.P. And Others on 13 May, 2011",
       "title": "Dr. Santosh Kumar Awasthi v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-024",
+      "source_basename": "Dr. Vinod Kumar Bassi vs The State Of U.P And Anr. on 10 July, 2014",
+      "title": "Dr. Vinod Kumar Bassi v. State of U.P. [off-topic: s.482 CrPC interim]",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-025",
+      "source_basename": "Executive Engineer, Electricity ... vs State Of U P And 2 Others on 27 August, 2018",
+      "title": "Executive Engineer v. State of U.P. (Lok Adalat / electrocution damages)",
       "status": "done"
     }
   ]
