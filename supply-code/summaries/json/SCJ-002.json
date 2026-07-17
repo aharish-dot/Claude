@@ -1,0 +1,76 @@
+{
+  "case_id": "SCJ-002",
+  "title": "Suman Engineering and Chemicals Pvt. Ltd. v. U.P.P.C.L. & 4 Others",
+  "neutral_citation": "2023:AHC:219951-DB",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta, J. & Manish Kumar Nigam, J. (delivered by Manoj Kumar Gupta, J.)",
+  "date_of_judgment": "2023-11-21",
+  "date_display": "21 November 2023",
+  "docket": "WRIT - C No. 6072 of 2016",
+  "disposition": "Writ petition allowed in part",
+
+  "headnote": "System-loading charges recovered as part of a connection estimate under the U.P. Electricity Supply Code, 2005 are a normative exaction towards extension and upgradation of the distribution system, and fall due only on a person who enjoys the benefit of that system by actually taking supply. Where a sanctioned load is cancelled before any electricity is supplied — here for want of a pollution NOC, for which the applicant was not responsible — the applicant remains a mere prospective consumer and cannot be saddled with system-loading charges; they are refundable with interest. Clause 4.21(a)'s bar on refund “for reduction of load” applies only to a continuing beneficiary of the system, not to one who never took supply. Charges for a service line or electric plant, by contrast, may be retained under Section 46 of the Electricity Act, 2003 to the extent the licensee proves actual expenditure reasonably incurred; extension of distribution mains and new sub-stations, being the licensee's own statutory obligation under the first proviso to Section 43(1), cannot be loaded onto the consumer.",
+
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.21(a)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.21(a) (read with 4.6(h))",
+      "topic": "System-loading charges — refundability where the connection is cancelled and never energised",
+      "type": "supply_code",
+      "question": "Are system-loading charges — a normative charge for extension/upgradation of the distribution system, taken as part of the connection estimate — refundable where the sanction is cancelled and the applicant never becomes an actual consumer or draws supply, given that Clause 4.21(a) bars refund “for reduction of load”?",
+      "holding": "Yes, refundable. A system-loading charge is a compulsory exaction on one who enjoys the benefit of the distribution system; the liability accrues only once the applicant starts consuming electricity using the licensee's system. A prospective consumer who never takes supply cannot be fastened with it. Refund of Rs. 32,00,000 with interest @ 8.5% p.a. from the date of deposit ordered.",
+      "limiting_facts": "The sanction for 3200 KVA was cancelled on 22.11.2014 because the U.P. Pollution Control Board never issued the NOC, for which the petitioner was not responsible; no electricity was ever supplied. Unlike a service line (Clause 4.29), the system upgradation remains the licensee's property and control even after disconnection.",
+      "qualifier": "Clause 4.21(a)'s bar on refund “for reduction of load” is confined to a consumer who continues to benefit from the system; it does not reach a prospective consumer who never took supply.",
+      "paras": "35-38, 40"
+    },
+    {
+      "provision": "EA2003::46",
+      "code": "Electricity Act, 2003 (read with Clauses 4.6 & 4.21, Supply Code 2005)",
+      "clause": "s.46 (with first proviso to s.43(1))",
+      "topic": "Recoverable expenditure — actual expenses proved vs the licensee's own statutory obligation",
+      "type": "interplay",
+      "holding": "Under Section 46 a licensee may recover only “expenses reasonably incurred in providing any electric line or electrical plant”, and the burden to prove actual expenditure lies on the licensee (as the Supreme Court's remand directed). Extension of distribution mains and commissioning of new sub-stations is the licensee's own statutory obligation under the first proviso to Section 43(1) and cannot be loaded onto the consumer. On the evidence the 4-pole structure and service line were actually constructed, so Rs. 5,49,181 and Rs. 4,65,000 were rightly retained; the processing fee of Rs. 5,000 is non-refundable per the Cost Data Book.",
+      "paras": "13-16, 25-26, 32",
+      "flag": "The Supreme Court's remand order dated 29.11.2022 (in this very case) fixed the frame: refund is to be denied only “to the extent” the respondents prove “the actual expenses incurred.”"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "charge-follows-actual-use",
+      "application": "Liability for system-upgradation (the system-loading charge) accrues only on actual consumption; a prospective consumer who never draws supply bears no share of it.",
+      "lead_authorities": [],
+      "paras": "38, 40"
+    },
+    {
+      "tag": "licensee-bears-burden-of-proving-retained-charges",
+      "application": "Deposits taken as part of the estimate are refundable unless the licensee proves the actual expenditure reasonably incurred; unproved heads must be refunded.",
+      "lead_authorities": [],
+      "paras": "16, 26, 32"
+    }
+  ],
+
+  "not_decided": [
+    {
+      "point": "Normative vs actual cost; APTEL & Ombudsman orders",
+      "note": "The petitioner's broader submissions distinguishing recoverable actual cost from normative cost, and the various Appellate Tribunal / Ombudsman orders relied on, were not separately adjudicated; the decision rested narrowly on the prospective-consumer ground.",
+      "docid": "",
+      "paras": "10"
+    }
+  ],
+
+  "authorities": [
+    {
+      "name": "Central GST Delhi-III v. Delhi International Airport Ltd.",
+      "citation": "",
+      "court": "Supreme Court",
+      "docid": "33926990",
+      "proposition": "User Development Fee (UDF) is in the nature of a tax or cess collected to fund future projects, not consideration for a service, and is therefore not exigible to service tax.",
+      "how_treated": "Cited by the respondents to characterise system-loading charges as a non-refundable exaction; distinguished — that case concerned only the leviability of service tax on UDF, collected from persons actually liable, and “is of no help to the respondents.”",
+      "how_treated_paras": "9, 39",
+      "treatment": "Distinguished"
+    }
+  ]
+}
