@@ -1,0 +1,48 @@
+{
+  "case_id": "SCJ-028",
+  "title": "Gauri Shankar Gupta v. State of U.P. & 4 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Manoj Misra & Dinesh Pathak, JJ.",
+  "date_of_judgment": "2021-07-05",
+  "date_display": "5 July 2021",
+  "docket": "WRIT - C No. 9000 of 2021",
+  "disposition": "Writ petition allowed (recovery order and citation quashed; liberty to reassess)",
+
+  "headnote": "A recovery under the U.P. Government Electrical Undertaking (Dues Recovery) Act, 1958 for electricity theft can be sustained only if a proper assessment under Section 126 of the Electricity Act, 2003 read with Clause 8.1(a) & (b) of the U.P. Electricity Supply Code, 2005 — with notice, service of the provisional assessment, and opportunity of hearing — has first been made. Where the department fails to show that the demand notice was served or that any final assessment order was passed, the demand and consequential recovery cannot stand; an appeal under Section 127 lies only against a proper assessment order.",
+
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1",
+      "code": "U.P. Electricity Supply Code, 2005 (with s.126, EA 2003 & 1958 Dues Recovery Act)",
+      "clause": "8.1(a) & (b) (r/w s.126; s.3, 1958 Act)",
+      "topic": "Proper assessment (with hearing) is a precondition to recovery",
+      "type": "supply_code",
+      "question": "Can a recovery under the 1958 Dues Recovery Act proceed without a proper Section 126 / Clause 8.1 assessment made after notice and hearing?",
+      "holding": "No. Clause 8.1(a)&(b) read with Section 126 require notice, service of the provisional assessment, and an opportunity of hearing before a final assessment; only on such an assessment, and non-payment of the demand thereunder, can recourse be had to the 1958 Act. The department failed to show the demand notice was served or that any assessment order was passed; the recovery order and citation are quashed, with liberty to reassess after hearing.",
+      "limiting_facts": "An FIR under s.135 alleged commercial use of a 5 H.P. agricultural connection; the department could not show service of the demand notice or any final assessment order.",
+      "paras": "the s.126 / Clause 8.1 discussion (unnumbered order)"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "opportunity-before-final-assessment",
+      "application": "A proper Section 126 / Clause 8.1 assessment made after notice and hearing is a precondition to any recovery of theft dues; recovery under the 1958 Act cannot precede a valid final assessment.",
+      "lead_authorities": [],
+      "paras": "unnumbered order"
+    }
+  ],
+
+  "not_decided": [
+    {
+      "point": "Whether theft/unauthorised use was in fact committed",
+      "note": "Left open; the respondents were given liberty to make a fresh assessment on the theft allegation after hearing the petitioner.",
+      "docid": "",
+      "paras": "unnumbered order"
+    }
+  ],
+
+  "authorities": []
+}

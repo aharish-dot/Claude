@@ -1,0 +1,63 @@
+{
+  "case_id": "SCJ-026",
+  "title": "Executive Engineer, Electricity Urban Distribution Division v. The Electricity Ombudsman & 2 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Sudhir Agarwal, J.",
+  "date_of_judgment": "2014-09-11",
+  "date_display": "11 September 2014",
+  "docket": "WRIT - C No. 1361 of 2014",
+  "disposition": "Writ petition dismissed with Rs. 25,000 costs (Ombudsman's order upheld)",
+
+  "headnote": "A statutory Consumer Grievance Redressal Forum (ECGRF) and the Electricity Ombudsman, constituted under Section 42(5)-(8) of the Electricity Act, 2003 and the UPERC (CGRF and Electricity Ombudsman) Regulations, 2007, are under a statutory duty to decide a consumer's grievance on merits and cannot decline jurisdiction by relegating the parties to an arbitration clause in the supply agreement; the agreement provides at most an additional forum (right of election, Section 42(8)), and the special statute overrides the general Arbitration Act (Gujarat Urja Vikas Nigam v. Essar Power). Separately, a 'Protective Load' charge under the Tariff Orders (and Clause 2.2(tt) of the Supply Code) can be levied only where the consumer has opted for, and been sanctioned, that facility; a suo motu demand raised years later on an audit objection, without any such option, is illegal.",
+
+  "holding_units": [
+    {
+      "provision": "EA2003::42",
+      "code": "Electricity Act, 2003 (with UPERC CGRF & Ombudsman Regulations, 2007)",
+      "clause": "s.42(5)-(8) (Reg. 5.1/5.2)",
+      "topic": "CGRF/Ombudsman cannot relegate a consumer's dispute to arbitration",
+      "type": "interplay",
+      "question": "Can the statutory ECGRF/Ombudsman decline to decide a consumer's dispute and relegate the parties to arbitration under the supply agreement?",
+      "holding": "No. Under Section 42(5)-(8) and the Regulations, 2007, the ECGRF and Ombudsman are under a statutory duty to decide a consumer's grievance on merits; an arbitration clause in the agreement is at most an additional forum (Section 42(8) — without prejudice to other rights; right of election) and does not oust the statutory forum. The special statute overrides the general Arbitration Act. Regulation 5.1 bars the Forum only from matters under ss.126, 127, 128, 135-139, 143, 152 and 161; other disputes (Reg. 5.2) it must decide. The ECGRF erred in diverting the dispute to arbitration.",
+      "paras": "31-43",
+      "flag": "Maintainability: a writ by the Executive Engineer alone (an officer, not a juristic person) without the Distribution Licensee (PVVNL) was held not maintainable, but the Court decided on merits anyway (paras 62-63)."
+    },
+    {
+      "provision": "UP-2005::2.2(tt)",
+      "code": "U.P. Electricity Supply Code, 2005 (with UPERC Tariff Orders)",
+      "clause": "2.2(tt) 'Protective Load' (with Tariff Order para 10)",
+      "topic": "Protective-load charge requires the consumer's option and sanction",
+      "type": "supply_code",
+      "question": "Can a 'Protective Load' charge be levied where the consumer never opted for, and was never sanctioned, the protective-load facility?",
+      "holding": "No. A 'Protective Load' (Clause 2.2(tt): a load not subject to normal rostering) charge under the Tariff Orders is attracted only where the consumer has opted for the facility and it has been sanctioned by the licensee. The Aviation College never exercised such option; the demand — raised suo motu for eight years' arrears on an audit objection — was illegal (following Allahabad Inter Prises v. State of U.P.).",
+      "limiting_facts": "The licensee raised a 'Protective Load' demand of Rs. 9,47,340 from 1.12.2004 collectively, only after an audit objection; the consumer had never opted for protective load and the agreement contained no such stipulation.",
+      "paras": "45-61"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "statutory-forum-cannot-relegate-to-arbitration",
+      "application": "A statutory consumer grievance forum (CGRF/Ombudsman) must decide the consumer's dispute on merits and cannot abdicate by relegating the parties to an arbitration clause; the statutory remedy is additional, by right of election, not ousted by the agreement.",
+      "lead_authorities": [
+        {"name": "Gujarat Urja Vikas Nigam Ltd. v. Essar Power Ltd.", "docid": "1223233"}
+      ],
+      "paras": "31-40"
+    },
+    {
+      "tag": "charge-requires-consumer-option",
+      "application": "A tariff charge conditioned on the consumer opting for a facility (here, protective load) cannot be levied absent that option and the licensee's sanction; it cannot be imposed suo motu on an audit objection.",
+      "lead_authorities": [],
+      "paras": "53-61"
+    }
+  ],
+
+  "not_decided": [],
+
+  "authorities": [
+    {"name": "Gujarat Urja Vikas Nigam Ltd. v. Essar Power Ltd.", "citation": "(2008) 4 SCC 755", "court": "Supreme Court", "docid": "1223233", "proposition": "Section 86(1)(f) of the Electricity Act, 2003 is a special provision for adjudication of disputes between a licensee and a generating company and overrides the general Section 11 of the Arbitration and Conciliation Act, 1996; after the 2003 Act, such disputes can be resolved only by the State Commission or an arbitrator appointed by it.", "how_treated": "Relied on for the proposition that the special statutory dispute-resolution scheme overrides a contractual arbitration clause.", "how_treated_paras": "34-36", "cited_by": "Court", "treatment": "Relied on"},
+    {"name": "Allahabad Inter Prises v. State of U.P.", "citation": "Writ-C No. 2788 of 2013 (Allahabad HC, DB)", "court": "Allahabad High Court (DB)", "docid": "", "proposition": "A 'Protective Load' charge cannot be raised in the absence of any option exercised by the consumer for that facility.", "how_treated": "Followed to hold the protective-load demand unsustainable.", "how_treated_paras": "60", "cited_by": "Court", "treatment": "Followed"}
+  ]
+}

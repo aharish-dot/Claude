@@ -1,0 +1,68 @@
+{
+  "case_id": "SCJ-031",
+  "title": "Haryana State Electricity Board v. M/s Hanuman Rice Mills, Dhanauri & Ors.",
+  "neutral_citation": "AIR 2010 SC 3835; (2010) 9 SCC 145",
+  "court": "Supreme Court of India",
+  "bench": "Two-Judge Bench",
+  "coram": "R.V. Raveendran & H.L. Gokhale, JJ. (delivered by R.V. Raveendran, J.)",
+  "date_of_judgment": "2010-08-20",
+  "date_display": "20 August 2010",
+  "docket": "Civil Appeal No. 6817 of 2010",
+  "disposition": "Appeal dismissed (auction-purchaser not liable for the previous owner's arrears)",
+
+  "headnote": "Electricity arrears do not constitute a charge over the premises; so, in general law, a transferee or auction-purchaser of premises cannot be made liable for the electricity dues of the previous owner/occupier. But where statutory rules, or terms and conditions of supply that are statutory in character, authorise the supplier to demand the previous owner's arrears from a purchaser seeking a fresh or re-connection, the supplier can recover them. Here, the Board pleaded no such statutory rule or condition (the enabling term was introduced in Haryana only in 2001, after the 1991 connection and 1995 demand), so the arrears of the previous owner could not be enforced against the auction-purchaser. Provisions such as Clause 4.3(g) and (h) of an Electricity Supply Code are what make such recovery permissible.",
+
+  "holding_units": [
+    {
+      "provision": "ARREARS::transferee-liability",
+      "code": "Electricity Act / Supply Codes (general principle; cf. Clause 4.3(g)&(h))",
+      "clause": "transferee liability for arrears",
+      "topic": "Arrears are not a charge; transferee liable only where statutory rules/terms so provide",
+      "type": "interplay",
+      "question": "Can the arrears of a previous owner's electricity dues be recovered from an auction-purchaser seeking a fresh connection?",
+      "holding": "(i) Electricity arrears do not constitute a charge over the property, so in general law a transferee cannot be made liable for the previous owner/occupier's dues. (ii) But where statutory rules, or statutory terms and conditions of supply, authorise the supplier to demand the previous owner's arrears from a purchaser seeking re-/fresh connection, the supplier may recover them. Here the Board pleaded no such enabling provision (introduced in Haryana only in 2001), so the demand against the auction-purchaser failed.",
+      "limiting_facts": "The first respondent bought a rice-mill at a Financial-Corporation auction in 1990 (supply already disconnected), obtained a fresh connection in its own name in 1991, and was served a demand for the previous owner's arrears only in 1995; no statutory rule/condition authorising such a demand was pleaded.",
+      "paras": "6-11",
+      "flag": "Multi-state (Haryana) and general-law principle; the doctrinal foundation of the arrears/transferee cluster (cf. SCJ-005 K.C. Ninan, SCJ-012). The Court expressly notes that provisions like Clause 4.3(g) & (h) of an Electricity Supply Code are necessary to enable such recovery."
+    },
+    {
+      "provision": "CPC::res-judicata",
+      "code": "Code of Civil Procedure, 1908",
+      "clause": "s.11 (res judicata)",
+      "topic": "Second suit on a different subject-matter/relief not barred",
+      "type": "interplay",
+      "holding": "The second suit (challenging the 1998 disconnection threat and disconnection for the previous owner's arrears) was not barred by res judicata by the dismissal of the earlier suit (for a permanent injunction against the 1995 demand), the matters directly in issue and the reliefs being different.",
+      "paras": "5"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "arrears-run-with-the-premises",
+      "application": "Electricity arrears are not a charge on the premises; a transferee/auction-purchaser is liable for the previous owner's dues only where statutory rules or statutory conditions of supply expressly so provide (the refinement underlying the K.C. Ninan line).",
+      "lead_authorities": [
+        {"name": "Isha Marbles v. Bihar State Electricity Board", "docid": "738683"},
+        {"name": "Dakshin Haryana Bijli Vitran Nigam Ltd. v. Paramount Polymers (P) Ltd.", "docid": ""},
+        {"name": "Paschimanchal Vidyut Vitran Nigam Ltd. v. DVS Steels & Alloys (P) Ltd.", "docid": "74832153"}
+      ],
+      "paras": "6-9"
+    }
+  ],
+
+  "not_decided": [
+    {
+      "point": "Correctness of Isha Marbles",
+      "note": "The Court did not reconsider the correctness of Isha Marbles; it decided on the absence of any pleaded statutory rule/condition authorising the demand.",
+      "docid": "738683",
+      "paras": "6-10"
+    }
+  ],
+
+  "authorities": [
+    {"name": "Isha Marbles v. Bihar State Electricity Board", "citation": "(1995) 2 SCC 648", "court": "Supreme Court", "docid": "738683", "proposition": "Absent a charge over the property or a statutory rule authorising a demand for the previous occupant's dues, an auction-purchaser seeking a fresh connection cannot be required to clear the pre-sale arrears; such a purchaser is not a 'consumer' liable for the predecessor's contractual dues.", "how_treated": "Explained and confined — its ratio applies where there is no enabling statutory rule/condition; it does not bar recovery where such a condition exists.", "how_treated_paras": "6, 8-9", "cited_by": "Respondent", "treatment": "Referred"},
+    {"name": "Dakshin Haryana Bijli Vitran Nigam Ltd. v. Paramount Polymers (P) Ltd.", "citation": "(2006) 13 SCC 101", "court": "Supreme Court", "docid": "", "proposition": "Where the statutory terms and conditions of supply contain a clause (e.g. Clause 21A) requiring arrears to be cleared before reconnection/new connection, the arrears are recoverable from the transferee; Isha Marbles is distinguishable in such a case.", "how_treated": "Discussed and relied on by the appellant to distinguish Isha Marbles; held inapplicable here for want of a pleaded enabling condition.", "how_treated_paras": "7", "cited_by": "Appellant", "treatment": "Distinguished"},
+    {"name": "Dakshin Haryana Bijli Vitran Nigam Ltd. v. Excel Buildcon Pvt. Ltd.", "citation": "(2008) 10 SCC 720", "court": "Supreme Court", "docid": "97885188", "proposition": "Followed Paramount Polymers on recovery of arrears from a transferee where the conditions of supply so provide.", "how_treated": "Referred as following Paramount Polymers.", "how_treated_paras": "7", "cited_by": "Court", "treatment": "Referred"},
+    {"name": "Hyderabad Vanaspati Ltd. v. A.P. State Electricity Board", "citation": "(1998) 2 SCR 620", "court": "Supreme Court", "docid": "", "proposition": "Terms and conditions of supply notified by an Electricity Board under Section 49 of the Electricity (Supply) Act are statutory, not contractual; a condition for recovery of dues from a transferee is not ex facie unauthorised or unreasonable.", "how_treated": "Referred (within Paramount Polymers) for the statutory character of the conditions of supply.", "how_treated_paras": "7", "cited_by": "Court", "treatment": "Referred"},
+    {"name": "Paschimanchal Vidyut Vitran Nigam Ltd. v. DVS Steels & Alloys Pvt. Ltd.", "citation": "(2009) 1 SCC 210", "court": "Supreme Court", "docid": "74832153", "proposition": "Electricity dues are not a charge on the premises, but a distributor may stipulate, as a condition of a fresh connection, that the previous occupant's arrears be cleared; if statutory rules govern, they bind the purchaser. Provisions similar to Clause 4.3(g) and (h) of the Electricity Supply Code are necessary to safeguard the distributor.", "how_treated": "Relied on and quoted for the arrears/transferee synthesis.", "how_treated_paras": "8", "cited_by": "Court", "treatment": "Relied on"}
+  ]
+}

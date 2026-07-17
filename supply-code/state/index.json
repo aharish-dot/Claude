@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 26,
+  "next_seq": 34,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -152,6 +152,54 @@
       "case_id": "SCJ-025",
       "source_basename": "Executive Engineer, Electricity ... vs State Of U P And 2 Others on 27 August, 2018",
       "title": "Executive Engineer v. State of U.P. (Lok Adalat / electrocution damages)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-026",
+      "source_basename": "Executive Engineer, Electricity Urban ... vs The Electricity Ombudsman (Appellate ... on 11 September, 2014",
+      "title": "Executive Engineer v. Electricity Ombudsman (CGRF/arbitration; protective load)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-027",
+      "source_basename": "Gaurav Sharma vs State Of U.P. And 4 Others on 18 September, 2018",
+      "title": "Gaurav Sharma v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-028",
+      "source_basename": "Gauri Shankar Gupta vs State Of U P And 4 Others on 5 July, 2021",
+      "title": "Gauri Shankar Gupta v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-029",
+      "source_basename": "Gaya Prasad vs State Of U.P.And Others on 30 May, 2013",
+      "title": "Gaya Prasad v. State of U.P. [empty listing order]",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-030",
+      "source_basename": "Harihar Cold Storage vs P V V N L & Another on 22 December, 2011",
+      "title": "Harihar Cold Storage v. PVVNL",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-031",
+      "source_basename": "Haryana State Electricity Board vs MS. Hanuman Rice Mills Dhanauri & Ors on 20 August, 2010",
+      "title": "Haryana SEB v. Hanuman Rice Mills (SC; arrears/transferee)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-032",
+      "source_basename": "Hazi Mohd. Yaseen vs Pvvnl And Another on 20 August, 2011",
+      "title": "Hazi Mohd. Yaseen v. PVVNL",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-033",
+      "source_basename": "Husna Bano vs State Of U.P. And 9 Others on 13 August, 2019",
+      "title": "Husna Bano v. State of U.P.",
       "status": "done"
     }
   ]
