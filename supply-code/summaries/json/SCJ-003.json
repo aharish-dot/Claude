@@ -1,0 +1,70 @@
+{
+  "case_id": "SCJ-003",
+  "title": "Abhinav Seva Sansthan Mahavidyalaya v. U.P. Power Corporation Nigam Ltd. & Ors.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sunil Ambwani, J. & Kashi Nath Pandey, J.",
+  "date_of_judgment": "2011-03-24",
+  "date_display": "24 March 2011",
+  "docket": "WRIT - C No. 8747 of 2010",
+  "disposition": "Writ petition dismissed (liberty to appeal the final assessment)",
+
+  "headnote": "Where a consumer has paid compounding charges for meter tampering / theft of electricity under Section 152 of the Electricity Act, 2003, the tampering stands compounded and the licensee need not follow the meter sealing/testing procedure of para 5.6(d) of the U.P. Electricity Supply Code, 2005 before the assessment can stand. Section 152 operates at two stages: under sub-section (2), where no prosecution has yet been instituted, payment of the compounding sum sets the person at liberty and bars proceedings; sub-section (3) (acceptance deemed an acquittal) applies only where a prosecution is already pending. Compounding therefore does not require a pending prosecution. A compounding amount paid without protest or contemporaneous objection cannot later be assailed as realised under coercion.",
+
+  "holding_units": [
+    {
+      "provision": "UP-2005::5.6(d)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "5.6(d) (read with Annexure 6.3)",
+      "topic": "Meter-testing procedure vs a compounded theft offence",
+      "type": "supply_code",
+      "question": "Where a consumer has paid compounding charges under Section 152 for meter tampering, must the licensee still follow the meter sealing/testing procedure under para 5.6(d) of the Supply Code before the compounding/assessment can stand?",
+      "holding": "No. Once the sum is paid under Section 152(1) and the offence is deemed compounded, the tampering stands admitted-compounded and the question of following the meter-testing procedure (para 5.6(d)) does not arise. The theft assessment was made on the Code's formula (Annexure 6.3); the procedural challenge fails.",
+      "limiting_facts": "Contracted load 7.5 KW against 32 KW connected; meter found tampered (a shunt resistance reducing the recording by 50%), the inspection videographed; the petitioner paid the compounding charge (Rs. 3,20,000) and part of the provisional assessment voluntarily, without protest.",
+      "qualifier": "The correctness of the provisional assessment (Rs. 4,29,359.56) was left to the statutory appeal under Section 127.",
+      "paras": "6-7, 14"
+    },
+    {
+      "provision": "EA2003::152",
+      "code": "Electricity Act, 2003",
+      "clause": "s.152(2) & (3)",
+      "topic": "Compounding of electricity theft — whether a pending prosecution is required",
+      "type": "interplay",
+      "holding": "Section 152(2) and (3) operate at different stages: under s.152(2), where no criminal proceeding has yet been instituted, payment of the compounding sum sets the person at liberty and bars institution of proceedings; s.152(3) (acceptance deemed an acquittal) applies only where a prosecution is already pending. Compounding therefore does not require a pending prosecution.",
+      "paras": "16-19",
+      "flag": "The judgment refers throughout to 'Section 152(2) of the Electricity Supply Code 2005'; Section 152 is in the Electricity Act, 2003. Recorded, not merged."
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "voluntary-payment-forecloses-coercion-plea",
+      "application": "A compounding/assessment amount paid without protest or contemporaneous objection cannot later be assailed as realised under coercion.",
+      "lead_authorities": [],
+      "paras": "11-12"
+    }
+  ],
+
+  "not_decided": [
+    {
+      "point": "Correctness of the provisional theft assessment",
+      "note": "The quantum of the provisional electricity-theft assessment was not adjudicated; liberty was granted to pursue the statutory appeal under Section 127.",
+      "docid": "",
+      "paras": "13, 20"
+    }
+  ],
+
+  "authorities": [
+    {
+      "name": "Dakshin Haryana Bijli Vitran Nigam Ltd. & Ors. v. Megh Raj",
+      "citation": "Revision Petition No. 3144 of 2007, decided 11.9.2008",
+      "court": "National Consumer Disputes Redressal Commission",
+      "docid": "7031498",
+      "proposition": "The power to compound under Section 152 presupposes a pending prosecution, acceptance of the sum amounting to an acquittal.",
+      "how_treated": "Distinguished / confined — read as applicable only to compounding under s.152(3), where a prosecution is pending; it does not govern s.152(2) compounding before any prosecution is instituted.",
+      "how_treated_paras": "10, 15-18",
+      "treatment": "Distinguished"
+    }
+  ]
+}

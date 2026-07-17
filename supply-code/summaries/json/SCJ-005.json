@@ -1,0 +1,61 @@
+{
+  "case_id": "SCJ-005",
+  "title": "Amir Ahmad v. State of U.P. & 4 Others",
+  "neutral_citation": "2025:AHC:164765-DB",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Arindam Sinha, J. & Avnish Saxena, J. (delivered by Arindam Sinha, J.)",
+  "date_of_judgment": "2025-09-16",
+  "date_display": "16 September 2025",
+  "docket": "WRIT - C No. 31054 of 2025",
+  "disposition": "Writ petition disposed of (auction-purchaser must clear dues under Clause 4.3(f))",
+
+  "headnote": "An auction-purchaser of premises sold on an 'as-is-where-is' basis under the SARFAESI Act is bound by Clause 4.3(f)(i) and (viii) of the U.P. Electricity Supply Code, 2005 to ascertain and clear outstanding electricity dues on the premises before a new connection is released; a recital in the sale certificate that the property is free from encumbrances, or that the vendor did not consume electricity, does not displace the statutory charge. Following K.C. Ninan v. Kerala State Electricity Board, a utility may, by subordinate legislation or supply code, create a charge for arrears recoverable from a subsequent transferee — the principle of 'buyer beware' applying to the auction-purchaser.",
+
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.3(f)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.3(f)(i) & (viii)",
+      "topic": "Liability of an auction-purchaser for arrears attaching to the premises",
+      "type": "supply_code",
+      "question": "Is an auction-purchaser under SARFAESI, holding a sale certificate declaring the property free from encumbrances, liable to clear the previous owner's electricity arrears before obtaining a new connection?",
+      "holding": "Yes. Clause 4.3(f)(i) & (viii) place the duty to ascertain and clear outstanding dues on both seller and purchaser and permit the application to be processed only on clearance. The auction-purchaser, buying 'as-is-where-is', is fixed with 'buyer beware' and cannot escape the statutory charge by relying on the encumbrance-free recital or the vendor's non-consumption.",
+      "limiting_facts": "SARFAESI sale certificate dated 24.4.2024 recited the property free from all encumbrances; the supply company refused a connection for arrear dues attached to the premises.",
+      "paras": "3, 6-7"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "arrears-run-with-the-premises",
+      "application": "Electricity arrears create a statutory charge on the premises recoverable from a subsequent transferee, including an auction-purchaser on an 'as-is-where-is' basis.",
+      "lead_authorities": [
+        {"name": "K.C. Ninan v. Kerala State Electricity Board", "docid": "160269658"}
+      ],
+      "paras": "4, 6-7"
+    }
+  ],
+
+  "not_decided": [
+    {
+      "point": "Quantum / correctness of the arrears",
+      "note": "The Court did not adjudicate the amount or validity of the dues; the petitioner must comply with the Clause 4.3 process to obtain the connection.",
+      "docid": "",
+      "paras": "7-8"
+    }
+  ],
+
+  "authorities": [
+    {
+      "name": "K.C. Ninan v. Kerala State Electricity Board",
+      "citation": "(2023) 14 SCC 431",
+      "court": "Supreme Court",
+      "docid": "160269658",
+      "proposition": "Electricity utilities can, by subordinate legislation or statutory conditions of supply, create a charge enabling recovery of electricity arrears from a subsequent transferee; recoupment of arrears protects the public good of electricity supply.",
+      "how_treated": "Followed and applied to hold the auction-purchaser liable to clear arrears before a new connection is released.",
+      "how_treated_paras": "4, 6",
+      "treatment": "Followed"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "case_id": "SCJ-006",
+  "title": "Anand Kumar v. State of U.P. & 2 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Surya Prakash Kesarwani, J. & Anish Kumar Gupta, J. (delivered by Anish Kumar Gupta, J.)",
+  "date_of_judgment": "2023-02-17",
+  "date_display": "17 February 2023",
+  "docket": "WRIT - C No. 32847 of 2022",
+  "disposition": "Writ petition disposed of (direction to process the tenant's connection application)",
+
+  "headnote": "Under the U.P. Electricity Supply Code, 2005 a 'premises' (Clause 2(ss)) is the specific portion for which a connection is sought, and a tenant is an 'occupier' (Clause 2(oo)) with a statutory right to apply for supply. The arrears-bar in the third proviso to Clause 4.1 operates only against dues on the same premises; by Clause 4.3(h) a licensee cannot refuse a new connection to an occupier of a distinct sub-premises on the ground that dues on other portions of the building are unpaid, and must instead pursue the defaulters under Clause 4.3(f)(v). A tenant may obtain a connection on an indemnity bond (Annexure 4.2, Clause 4.4) where the owner's consent is absent.",
+
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.1",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.1 third proviso (r/w 2(oo), 2(ss), 4.3(h))",
+      "topic": "Arrears-bar is premises-specific; connection to a tenant/occupier of a distinct premises",
+      "type": "supply_code",
+      "question": "Can a licensee refuse a new connection to a tenant of a shop because of electricity dues outstanding against other portions of the same building?",
+      "holding": "No. The arrears-bar in the third proviso to Clause 4.1 applies only to dues on the same 'premises' (Clause 2(ss)); the shop is a distinct premises and the tenant is an 'occupier' (Clause 2(oo)) entitled to apply. Clause 4.3(h) forbids refusal on the ground of dues on other portions; the licensee must instead pursue the defaulters under Clause 4.3(f)(v).",
+      "limiting_facts": "No dues were specific to the shop occupied by the petitioner; the alleged dues were against other persons/portions of the building.",
+      "paras": "11, 14, 16-18"
+    },
+    {
+      "provision": "UP-2005::4.4",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.4 (Annexure 4.2)",
+      "topic": "Tenant's connection on an indemnity bond absent owner's consent",
+      "type": "supply_code",
+      "holding": "Following Seema Mansoor, an occupier (including a tenant) has a statutory right to supply under Sections 42-43 read with Clause 4.4; where the owner's consent is unavailable, the tenant may file an indemnity bond (Annexure 4.2) to obtain the connection.",
+      "paras": "12"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "arrears-bar-is-premises-specific",
+      "application": "The bar on a new connection for arrears attaches only to the specific premises in default, not to other portions of a building.",
+      "lead_authorities": [],
+      "paras": "11, 17"
+    }
+  ],
+
+  "not_decided": [
+    {
+      "point": "Landlord-tenant relationship",
+      "note": "The Court expressly declined to record any finding on the landlord-tenant relationship; the direction is only to process the connection application after hearing the owner.",
+      "docid": "",
+      "paras": "19-20"
+    }
+  ],
+
+  "authorities": [
+    {
+      "name": "Seema Mansoor v. U.P. Power Corporation & 3 Others",
+      "citation": "2014 (6) ADJ 672",
+      "court": "Allahabad High Court",
+      "docid": "80741415",
+      "proposition": "An occupier (including a tenant) has a statutory right under Sections 42-43 and Clause 4.4 of the Code to apply for and obtain supply; where the owner's consent is absent, the indemnity-bond route (Annexure 4.2) is available.",
+      "how_treated": "Followed and relied on to hold the tenant entitled to have the application processed.",
+      "how_treated_paras": "12-13",
+      "treatment": "Followed"
+    }
+  ]
+}
