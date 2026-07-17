@@ -1,0 +1,60 @@
+{
+  "case_id": "SCJ-009",
+  "title": "Assistant Engineer (D1), Ajmer Vidyut Vitran Nigam Ltd. & Anr. v. Rahamatullah Khan alias Rahamjulla",
+  "neutral_citation": "AIRONLINE 2020 SC 208; (2020) 4 SCALE 36",
+  "court": "Supreme Court of India",
+  "bench": "Three-Judge Bench",
+  "coram": "Uday Umesh Lalit, Indu Malhotra & Hemant Gupta, JJ. (delivered by Indu Malhotra, J.)",
+  "date_of_judgment": "2020-02-18",
+  "date_display": "18 February 2020",
+  "docket": "Civil Appeal No. 1672 of 2020 (with C.A. No. 1673/2020)",
+  "disposition": "Civil appeals disposed of (questions of law answered; demand against the respondent not enforced)",
+
+  "headnote": "Electricity charges become 'first due' under Section 56(2) of the Electricity Act, 2003 only after the bill is issued to the consumer — not on consumption — the charges being ascertained per the tariff and the State Electricity Supply Code framed under Section 50. The two-year limitation in Section 56(2) bars only the coercive remedy of disconnection; it does not preclude the licensee from raising a supplementary or additional demand, or from pursuing other modes of recovery. Where a bona fide billing mistake (e.g. a wrong tariff code) is detected, limitation for the additional demand runs from the date of discovery under Section 17(1)(c) of the Limitation Act, 1963 — but even then the licensee cannot disconnect supply; it may only pursue other recovery.",
+
+  "holding_units": [
+    {
+      "provision": "EA2003::56(2)",
+      "code": "Electricity Act, 2003 (Supply Code framed under s.50)",
+      "clause": "s.56(2) (with s.56(1), s.17(1)(c) Limitation Act)",
+      "topic": "Meaning of 'first due'; disconnection barred after two years but recovery not",
+      "type": "interplay",
+      "question": "What does 'first due' mean in Section 56(2), when does a wrongly-billed sum become 'first due', and may the licensee disconnect supply after two years in a case of billing mistake?",
+      "holding": "'First due' means when the bill is first issued (the liability arises on consumption but the sum becomes due only on billing). Section 56(2) bars only the remedy of disconnection after two years from the sum first becoming due (unless continuously shown as arrears); it does not bar a supplementary/additional demand or other modes of recovery. In a case of bona fide mistake, limitation for the additional demand runs from discovery (s.17(1)(c), Limitation Act, 1963), but the licensee still cannot disconnect supply — only pursue other recovery.",
+      "limiting_facts": "For July 2009-September 2011 the consumer was billed under a wrong tariff code (Rs.1.65 instead of Rs.2.10/unit); the mistake was found in an internal audit on 18.3.2014 and an additional demand raised — beyond two years from the original billing.",
+      "paras": "6-9"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "first-due-on-billing-not-consumption",
+      "application": "Electricity charges become 'first due' when the bill is issued quantifying them, though liability to pay arises on consumption; the limitation clock under s.56(2) starts from billing.",
+      "lead_authorities": [],
+      "paras": "6.6, 6-8"
+    },
+    {
+      "tag": "disconnection-barred-but-recovery-not",
+      "application": "The two-year bar in s.56(2) restricts only the coercive remedy of disconnection; the licensee may still raise a supplementary demand and pursue other modes of recovery (including within limitation from discovery of a mistake).",
+      "lead_authorities": [],
+      "paras": "8-9"
+    }
+  ],
+
+  "not_decided": [
+    {
+      "point": "Recovery of the demand against this respondent",
+      "note": "By order dated 5.3.2019 the Court had directed that the appellant-corporation would not recover the additional demand from this respondent; only the questions of law were determined.",
+      "docid": "",
+      "paras": "1.9"
+    }
+  ],
+
+  "authorities": [
+    {"name": "Tata Power Co. Ltd. v. Reliance Energy Ltd.", "citation": "(2008) 10 SCC 321", "court": "Supreme Court", "docid": "", "proposition": "The Electricity Act, 2003 is a consumer-friendly statute enacted as a self-contained comprehensive legislation.", "how_treated": "Referred for the statute's consumer-protective character.", "how_treated_paras": "6", "cited_by": "Court", "treatment": "Referred"},
+    {"name": "State of A.P. v. National Thermal Power Corporation Ltd.", "citation": "(2002) 5 SCC 203", "court": "Supreme Court (Constitution Bench)", "docid": "970048", "proposition": "Electricity is 'goods'; a purchaser is liable to pay for it, the quantum and time of payment being ascertained post facto by agreement or statute.", "how_treated": "Referred to characterise the nature of electricity charges.", "how_treated_paras": "6.1", "cited_by": "Court", "treatment": "Referred"},
+    {"name": "Chandavarkar Sita Ratna Rao v. Ashalata S. Guram", "citation": "(1986) 4 SCC 447", "court": "Supreme Court", "docid": "895706", "proposition": "A non obstante clause gives the enacting part overriding effect over the provisions mentioned in it.", "how_treated": "Relied on to explain the non obstante clause opening s.56(2).", "how_treated_paras": "6.5", "cited_by": "Court", "treatment": "Relied on"},
+    {"name": "Swastic Industries v. Maharashtra State Electricity Board", "citation": "(1997) 9 SCC 465", "court": "Supreme Court", "docid": "", "proposition": "Under s.24 of the 1910 Act, the right to recover charges and the right to discontinue supply are two distinct parts.", "how_treated": "Relied on to separate the right to recover from the remedy of disconnection.", "how_treated_paras": "7.2", "cited_by": "Court", "treatment": "Relied on"},
+    {"name": "Mahabir Kishore v. State of M.P.", "citation": "(1989) 4 SCC 1", "court": "Supreme Court", "docid": "364995", "proposition": "Under s.17(1)(c) of the Limitation Act, 1963, in a case of relief on the ground of mistake, limitation does not begin until the plaintiff has discovered, or could with reasonable diligence have discovered, the mistake.", "how_treated": "Relied on to fix the limitation start-point at discovery of the billing mistake.", "how_treated_paras": "9", "cited_by": "Court", "treatment": "Relied on"}
+  ]
+}

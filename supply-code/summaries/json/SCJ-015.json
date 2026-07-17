@@ -1,0 +1,56 @@
+{
+  "case_id": "SCJ-015",
+  "title": "Dakshinanchal Vidyut Vitran Nigam Ltd. & Others v. M/s Prakancha Metal Works Pvt. Ltd.",
+  "neutral_citation": "AIR 2012 Allahabad 176",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Sudhir Agarwal, J.",
+  "date_of_judgment": "2012-05-21",
+  "date_display": "21 May 2012",
+  "docket": "WRIT - C No. 24848 of 2012",
+  "disposition": "Writ petition dismissed (Lok Adalat compensation for illegal disconnection upheld; inquiry into ante-dating directed)",
+
+  "headnote": "The Consumer Grievance Redressal Forum under the U.P. Electricity Supply Code, 2005 (Para 7.10, Clauses 7.7.1-7.7.5) covers supply-related matters, not a claim of tortious damages for wrongful disconnection; and Section 174 of the Electricity Act, 2003 gives the Act overriding effect only for matters provided under it (Section 50 not empowering the Code to ascertain such damages), so it does not oust the jurisdiction of a Lok Adalat / the Consumer Protection Act to award damages. On merits, Clause 6.1(g) of the Code requires the bill to be dispatched at least 15 days before the due date (plus a further disconnection-notice period); a bill giving only three days and a disconnection before the statutory window is illegal, sustaining the compensation awarded.",
+
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.1(g)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.1(g)",
+      "topic": "Billing/disconnection window — 15-day bill dispatch plus disconnection notice",
+      "type": "supply_code",
+      "question": "Was a disconnection lawful where the bill gave only three days to pay and supply was cut before the statutory window?",
+      "holding": "No. Clause 6.1(g) requires the bill to be dispatched at least 15 days before the due date, and a further seven days' notice is contemplated before disconnection; here the bill (issued 28.03.2011, due 31.03.2011) gave only three days and the disconnection (08.04.2011) preceded the statutory window, rendering it illegal. Ante-dating the payment receipt to 31.03.2011 was also illegal manipulation of the record.",
+      "limiting_facts": "Bill for Rs. 3,20,760 issued 28.03.2011 with a 31.03.2011 due date; deficient part-payment; supply disconnected on 08.04.2011.",
+      "paras": "16-19"
+    },
+    {
+      "provision": "EA2003::174",
+      "code": "Electricity Act, 2003 (with s.50; Supply Code Para 7.10 / 7.7.1-7.7.5)",
+      "clause": "s.174 (with s.173, s.50)",
+      "topic": "Overriding effect of the Act does not oust Lok Adalat / Consumer Protection remedies for damages",
+      "type": "interplay",
+      "holding": "Section 174 gives the Act overriding effect only for matters provided under it; Section 50 does not empower the Supply Code to ascertain damages for a licensee's wrongful acts, and the Consumer Grievance Redressal Forum (Para 7.10, Clauses 7.7.1-7.7.5) covers only supply-related matters, not tortious damages for illegal disconnection. The Consumer Protection Act, 1986 is preserved (ss.173/174), and the Legal Services Authorities Act, 1987 (Lok Adalat) is a special Act for such damages; the Lok Adalat therefore had jurisdiction, to which the petitioners had in any event submitted.",
+      "paras": "7-15"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "code-forum-not-for-tortious-damages",
+      "application": "The Code's grievance forum (CGRF/Ombudsman) and the Act's overriding clause do not cover a claim of tortious damages for wrongful disconnection; such claims lie before the Lok Adalat / consumer fora.",
+      "lead_authorities": [],
+      "paras": "9-13"
+    },
+    {
+      "tag": "opportunity-before-final-assessment",
+      "application": "The Code's billing/disconnection timeline (15-day bill dispatch plus notice) is mandatory; a truncated bill and premature disconnection are illegal.",
+      "lead_authorities": [],
+      "paras": "16-19"
+    }
+  ],
+
+  "not_decided": [],
+
+  "authorities": []
+}

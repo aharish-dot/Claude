@@ -1,0 +1,71 @@
+{
+  "case_id": "SCJ-010",
+  "title": "BSES Rajdhani Power Ltd. v. Delhi Electricity Regulatory Commission",
+  "neutral_citation": "",
+  "court": "Supreme Court of India",
+  "bench": "Two-Judge Bench",
+  "coram": "S. Abdul Nazeer & Krishna Murari, JJ. (delivered by S. Abdul Nazeer, J.)",
+  "date_of_judgment": "2022-10-18",
+  "date_display": "18 October 2022",
+  "docket": "Civil Appeal No. 4324 of 2015 (with C.A. No. 4323 of 2015)",
+  "disposition": "Appeals allowed in part (DERC/APTEL findings on Issues 1-6 set aside to the stated extent)",
+
+  "headnote": "A tariff order made under Section 64 of the Electricity Act, 2003 is quasi-judicial and binding until amended or revoked under Section 64(6); at the 'truing up' stage the Regulator cannot 'change the rules of the game after it has begun' by altering the methodology/principles of the initial determination, which would be an impermissible retrospective revision of tariff. Separately, on enforcement (theft/unauthorised-use) sales: where the Supply Code Regulations and Section 126 create a legal fiction that assessed energy is 'deemed' consumed/sold, that fiction must be carried to its logical end — the assessed units must be treated as 'sales', notwithstanding a Lok Adalat settlement reducing only the rupee amount.",
+
+  "holding_units": [
+    {
+      "provision": "EA2003::64",
+      "code": "Electricity Act, 2003",
+      "clause": "s.64(6) (with ss.61, 62)",
+      "topic": "Truing up cannot change the methodology of the original tariff determination",
+      "type": "interplay",
+      "question": "May a State Commission, at the 'truing up' stage, change the methodology or principles used in the initial tariff determination, or otherwise retrospectively amend a tariff order?",
+      "holding": "No. A tariff order under s.64 is quasi-judicial and binding until amended/revoked under s.64(6); truing up is only the adjustment of actuals against projections and cannot be used to re-think de novo the basic principles or retrospectively change the methodology of the initial determination. The DERC's changes on Issues 1, 2, 3 and 5 (LPSC/collection efficiency, depreciation, FR/SR salary, fringe benefit tax) were impermissible and are set aside; interest on Consumer Security Deposit (Issue 4) is a legitimate expense the appellants may recover.",
+      "paras": "45-55, 57-72"
+    },
+    {
+      "provision": "EA2003::126",
+      "code": "Electricity Act, 2003 (read with the DERC Supply Code Regulations)",
+      "clause": "s.126 (deemed assessment; enforcement sales)",
+      "topic": "Legal fiction of 'deemed' consumption under the Supply Code / s.126 must be given full effect",
+      "type": "supply_code",
+      "question": "In enforcement (theft/unauthorised-use) cases, must energy 'deemed' consumed under the Supply Code Regulations and Section 126 be treated as 'sales' for AT&C-loss computation, even where a Lok Adalat settlement reduces only the rupee amount recovered?",
+      "holding": "Yes. Where the statute and the DERC Supply Code Regulations create a legal fiction that assessed energy is 'deemed' consumed (e.g. under the LDHF formula), the fiction must be taken to its logical end: the assessed units must be treated as 'sales'. The DERC's method of back-calculating units from the reduced settlement amount is contrary to law; assessed energy is to be considered as supply, with the impact and carrying costs allowed.",
+      "paras": "73-80"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "regulator-cannot-change-rules-at-truing-up",
+      "application": "A Regulator cannot, at the truing-up stage, change the methodology or principles of the initial tariff determination; doing so is an impermissible retrospective revision of a quasi-judicial tariff order.",
+      "lead_authorities": [
+        {"name": "PTC India Ltd. v. CERC", "docid": "395434"}
+      ],
+      "paras": "51-55"
+    },
+    {
+      "tag": "legal-fiction-carried-to-logical-end",
+      "application": "When the Supply Code / Section 126 deems assessed energy to be consumed, the fiction must be given full effect and the assessed units treated as sales.",
+      "lead_authorities": [],
+      "paras": "79-80"
+    }
+  ],
+
+  "not_decided": [
+    {
+      "point": "Remaining substantial questions on Issues 1-3, 5 and 6",
+      "note": "Having set aside the truing-up changes, the Court found it unnecessary to answer the other substantial questions of law framed on those issues, and likewise the other contentions on Issue 6.",
+      "docid": "",
+      "paras": "67, 80"
+    }
+  ],
+
+  "authorities": [
+    {"name": "Sir Chunilal V. Mehta & Sons Ltd. v. Century Spg. & Mfg. Co. Ltd.", "citation": "AIR 1962 SC 1314", "court": "Supreme Court (Constitution Bench)", "docid": "", "proposition": "Test for a 'substantial question of law': one of general public importance or directly and substantially affecting the parties' rights, not finally settled or free from difficulty.", "how_treated": "Relied on to frame the s.125 substantial-question-of-law threshold.", "how_treated_paras": "29-30", "cited_by": "Court", "treatment": "Relied on"},
+    {"name": "PTC India Ltd. v. Central Electricity Regulatory Commission", "citation": "(2010) 4 SCC 603", "court": "Supreme Court (Constitution Bench)", "docid": "395434", "proposition": "Tariff fixation under Section 62 is quasi-judicial (and appealable under s.111), while Section 61 is the enabling provision for framing generic regulations.", "how_treated": "Relied on for the quasi-judicial character of tariff determination.", "how_treated_paras": "48", "cited_by": "Court", "treatment": "Relied on"},
+    {"name": "Gujarat Urja Vikas Nigam Ltd. v. Tarini Infrastructure Ltd.", "citation": "(2016) 8 SCC 743", "court": "Supreme Court", "docid": "", "proposition": "Tariff incorporated in a power purchase agreement is not a pure act of volition alterable only by mutual consent.", "how_treated": "Distinguished — held not applicable to the present (non-contractual, truing-up) facts.", "how_treated_paras": "54", "cited_by": "Respondent", "treatment": "Distinguished"},
+    {"name": "State Load Despatch Centre v. GERC", "citation": "2015 SCC OnLine APTEL 50", "court": "Appellate Tribunal for Electricity", "docid": "", "proposition": "'Truing up' means the adjustment of actual amounts incurred against the estimated/projected amounts determined under the ARR.", "how_treated": "Referred to define truing up.", "how_treated_paras": "52", "cited_by": "Court", "treatment": "Referred"},
+    {"name": "North Delhi Power Ltd. (NDPL) v. DERC", "citation": "2007 ELR (APTEL) 193", "court": "Appellate Tribunal for Electricity", "docid": "", "proposition": "Restricting a utility's claim by disallowing reasonably anticipated expenditure and deferring it to the truing-up exercise is not prudence; truing up only fills the gap between actual and anticipated expenses.", "how_treated": "Relied on and agreed with.", "how_treated_paras": "52-53", "cited_by": "Court", "treatment": "Relied on"}
+  ]
+}
