@@ -24,6 +24,13 @@ TREAT_CLASS = {
     "relied on": "t-rel", "relied-on": "t-rel", "relied upon": "t-rel",
 }
 
+# who put the authority before the court
+CITEDBY_CLASS = {
+    "petitioner": "cb-pet", "appellant": "cb-pet",
+    "respondent": "cb-resp", "respondents": "cb-resp",
+    "court": "cb-court", "suo motu": "cb-court", "bench": "cb-court",
+}
+
 STYLE = """<style>
   @page{ size:A4; margin:0; }
   body{ font-family:Georgia,'Liberation Serif',serif; font-size:9.8pt; line-height:1.5;
@@ -85,6 +92,12 @@ STYLE = """<style>
   .t-dist{ color:#7a2e0e; background:#fbe9e0; border:.5pt solid #e8b79c; }
   .t-ref { color:#334155; background:#eef1f5; border:.5pt solid #c7d0db; }
   .t-rel { color:#5f5010; background:#fbf3d6; border:.5pt solid #e6d69a; }
+  .cb{ font-size:7.4pt; padding:1pt 6pt; border-radius:8pt; white-space:nowrap; display:inline-block;
+       font-family:Arial,'Liberation Sans',sans-serif; font-weight:700;
+       -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .cb-pet{ color:#1e3a5f; background:#e6eefb; border:.5pt solid #b3ccef; }
+  .cb-resp{ color:#5b2c46; background:#fbe6f1; border:.5pt solid #e8b3d2; }
+  .cb-court{ color:#334155; background:#e9edf2; border:.5pt solid #c2ccd8; }
 
   .foot{ font-family:Arial,'Liberation Sans',sans-serif; font-size:7.6pt; color:#8a94a3;
         border-top:.5pt solid #c9d3df; margin-top:14pt; padding-top:5pt; }
@@ -156,10 +169,16 @@ def auth_row(a):
         meta.append(f'<span class="docid">{esc(a["court"])}</span>')
     metahtml = "<br>".join(meta)
     ht = esc(a.get("how_treated", "")) + pin(a.get("how_treated_paras", ""))
+    cb = a.get("cited_by", "")
+    cb_cell = ""
+    if cb:
+        cbcls = CITEDBY_CLASS.get(cb.strip().lower(), "cb-court")
+        cb_cell = f'<span class="cb {cbcls}">{esc(cb)}</span>'
     return (f'      <tr>\n'
             f'        <td><span class="cn">{esc(a["name"])}</span><br>{metahtml}</td>\n'
             f'        <td>{esc(a.get("proposition",""))}</td>\n'
             f'        <td>{ht}</td>\n'
+            f'        <td>{cb_cell}</td>\n'
             f'        <td><span class="trt {cls}">{esc(a.get("treatment","Referred"))}</span></td>\n'
             f'      </tr>\n')
 
@@ -184,8 +203,9 @@ def build(c):
         auth_sec = (
             '  <div class="seclabel">Table of Authorities</div>\n'
             '  <table class="cit"><thead><tr>'
-            '<th style="width:23%">Authority</th><th style="width:33%">Proposition</th>'
-            '<th style="width:31%">How Treated</th><th style="width:13%">Treatment</th>'
+            '<th style="width:21%">Authority</th><th style="width:28%">Proposition</th>'
+            '<th style="width:27%">How Treated</th><th style="width:11%">Cited By</th>'
+            '<th style="width:13%">Treatment</th>'
             f'</tr></thead>\n    <tbody>\n{rows}    </tbody>\n  </table>\n')
 
     return f"""<!doctype html>

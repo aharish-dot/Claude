@@ -17,15 +17,22 @@
       "provision": "UP-2005::compounding",
       "code": "U.P. Electricity Supply Code, 2005",
       "clause": "compounding remedy",
-      "topic": "Compounding of a Section 135 theft offence via the Supply Code",
+      "topic": "Theft (s.135) compounded through the Supply Code — theft/UUE-Code linkage",
       "type": "supply_code",
-      "holding": "A person accused of electricity theft under Section 135, the offence being compoundable, may seek the compounding remedy 'as provided under the provisions of the Electricity Supply Code, 2005.' The Court did not itself construe any Code clause; the reference is only a pointer to the Code's compounding machinery.",
+      "holding": "The offence of electricity theft under Section 135 being compoundable, the accused's compounding remedy lies 'as provided under the provisions of the Electricity Supply Code, 2005' — the Code furnishing the machinery through which theft (Section 135) and, cognately, unauthorised use of electricity (Section 126) are assessed and compounded. Pending compounding, as the offence does not entail imprisonment beyond seven years, any arrest must comply with Section 41(1)(b) read with Section 41-A Cr.P.C.; the FIR, disclosing a cognizable offence, was not quashed.",
       "paras": "para 5-6 (unnumbered order)",
-      "flag": "Thin supply-code content: the ratio concerns FIR-quashing and arrest safeguards (s.41(1)(b) / 41-A Cr.P.C.), not the Supply Code itself."
+      "flag": "Scope: the case's express Code engagement is the compounding remedy; the operative relief concerned arrest safeguards (s.41(1)(b)/41-A Cr.P.C.). Retained as a node in the theft / unauthorised-use line, which the Supply Code's assessment and compounding machinery governs."
     }
   ],
 
-  "principle_tags": [],
+  "principle_tags": [
+    {
+      "tag": "theft-uue-enforced-via-code",
+      "application": "A compoundable Section 135 theft offence is to be compounded under the Electricity Supply Code, 2005 procedure; the Code supplies the enforcement / compounding machinery for theft (and, cognately, unauthorised use under Section 126).",
+      "lead_authorities": [],
+      "paras": "para 5-6 (unnumbered order)"
+    }
+  ],
   "not_decided": [],
   "authorities": []
 }

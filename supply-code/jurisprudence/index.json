@@ -4,6 +4,7 @@
   "keyed_by": "supply_code_provision + principle",
   "case_count": 7,
   "provision_count": 11,
+  "authority_count": 13,
   "cases": [
     {
       "case_id": "SCJ-001",
@@ -256,7 +257,7 @@
     "UP-2005::compounding": {
       "code": "U.P. Electricity Supply Code, 2005",
       "clause": "compounding remedy",
-      "topic": "Compounding of a Section 135 theft offence via the Supply Code",
+      "topic": "Theft (s.135) compounded through the Supply Code — theft/UUE-Code linkage",
       "cases": [
         {
           "case_id": "SCJ-004",
@@ -265,10 +266,10 @@
           "court": "Allahabad High Court",
           "date": "3 February 2015",
           "type": "supply_code",
-          "topic": "Compounding of a Section 135 theft offence via the Supply Code",
-          "holding": "A person accused of electricity theft under Section 135, the offence being compoundable, may seek the compounding remedy 'as provided under the provisions of the Electricity Supply Code, 2005.' The Court did not itself construe any Code clause; the reference is only a pointer to the Code's compounding machinery.",
+          "topic": "Theft (s.135) compounded through the Supply Code — theft/UUE-Code linkage",
+          "holding": "The offence of electricity theft under Section 135 being compoundable, the accused's compounding remedy lies 'as provided under the provisions of the Electricity Supply Code, 2005' — the Code furnishing the machinery through which theft (Section 135) and, cognately, unauthorised use of electricity (Section 126) are assessed and compounded. Pending compounding, as the offence does not entail imprisonment beyond seven years, any arrest must comply with Section 41(1)(b) read with Section 41-A Cr.P.C.; the FIR, disclosing a cognizable offence, was not quashed.",
           "paras": "para 5-6 (unnumbered order)",
-          "flag": "Thin supply-code content: the ratio concerns FIR-quashing and arrest safeguards (s.41(1)(b) / 41-A Cr.P.C.), not the Supply Code itself."
+          "flag": "Scope: the case's express Code engagement is the compounding remedy; the operative relief concerned arrest safeguards (s.41(1)(b)/41-A Cr.P.C.). Retained as a node in the theft / unauthorised-use line, which the Supply Code's assessment and compounding machinery governs."
         }
       ]
     }
@@ -398,6 +399,20 @@
         }
       ]
     },
+    "theft-uue-enforced-via-code": {
+      "cases": [
+        {
+          "case_id": "SCJ-004",
+          "title": "Ajmal v. State of U.P. & 2 Ors.",
+          "neutral_citation": "",
+          "court": "Allahabad High Court",
+          "date": "3 February 2015",
+          "application": "A compoundable Section 135 theft offence is to be compounded under the Electricity Supply Code, 2005 procedure; the Code supplies the enforcement / compounding machinery for theft (and, cognately, unauthorised use under Section 126).",
+          "lead_authorities": [],
+          "paras": "para 5-6 (unnumbered order)"
+        }
+      ]
+    },
     "voluntary-payment-forecloses-coercion-plea": {
       "cases": [
         {
@@ -409,6 +424,229 @@
           "application": "A compounding/assessment amount paid without protest or contemporaneous objection cannot later be assailed as realised under coercion.",
           "lead_authorities": [],
           "paras": "11-12"
+        }
+      ]
+    }
+  },
+  "authorities_ledger": {
+    "Broom's Legal Maxims (10th Edn.), p. 191": {
+      "name": "Broom's Legal Maxims (10th Edn.), p. 191",
+      "citation": "",
+      "court": "Treatise",
+      "docid": "",
+      "proposition": "No man shall take advantage of his own wrong — recognised in courts of law and of equity.",
+      "cited_in": [
+        {
+          "case_id": "SCJ-001",
+          "title": "Indian Oil Corporation Ltd. v. State of U.P. & 3 Others",
+          "cited_by": "Court",
+          "treatment": "Referred",
+          "how_treated": "Extracted (¶ 56) in support of the maxim.",
+          "paras": "56"
+        }
+      ]
+    },
+    "33926990": {
+      "name": "Central GST Delhi-III v. Delhi International Airport Ltd.",
+      "citation": "",
+      "court": "Supreme Court",
+      "docid": "33926990",
+      "proposition": "User Development Fee (UDF) is in the nature of a tax or cess collected to fund future projects, not consideration for a service, and is therefore not exigible to service tax.",
+      "cited_in": [
+        {
+          "case_id": "SCJ-002",
+          "title": "Suman Engineering and Chemicals Pvt. Ltd. v. U.P.P.C.L. & 4 Others",
+          "cited_by": "Respondent",
+          "treatment": "Distinguished",
+          "how_treated": "Cited by the respondents to characterise system-loading charges as a non-refundable exaction; distinguished — that case concerned only the leviability of service tax on UDF, collected from persons actually liable, and “is of no help to the respondents.”",
+          "paras": "9, 39"
+        }
+      ]
+    },
+    "15924357": {
+      "name": "Chairman, SBI v. M.J. James",
+      "citation": "",
+      "court": "Supreme Court",
+      "docid": "15924357",
+      "proposition": "The court must consciously examine whether a party has sat over a matter and woken up to gain advantage; delay and laches are balanced accordingly.",
+      "cited_in": [
+        {
+          "case_id": "SCJ-001",
+          "title": "Indian Oil Corporation Ltd. v. State of U.P. & 3 Others",
+          "cited_by": "Court",
+          "treatment": "Relied on",
+          "how_treated": "Quoted (¶ 55); relied on to weigh the licensee's sitting-over against its demand.",
+          "paras": "55, 58"
+        }
+      ]
+    },
+    "7031498": {
+      "name": "Dakshin Haryana Bijli Vitran Nigam Ltd. & Ors. v. Megh Raj",
+      "citation": "Revision Petition No. 3144 of 2007, decided 11.9.2008",
+      "court": "National Consumer Disputes Redressal Commission",
+      "docid": "7031498",
+      "proposition": "The power to compound under Section 152 presupposes a pending prosecution, acceptance of the sum amounting to an acquittal.",
+      "cited_in": [
+        {
+          "case_id": "SCJ-003",
+          "title": "Abhinav Seva Sansthan Mahavidyalaya v. U.P. Power Corporation Nigam Ltd. & Ors.",
+          "cited_by": "Petitioner",
+          "treatment": "Distinguished",
+          "how_treated": "Distinguished / confined — read as applicable only to compounding under s.152(3), where a prosecution is pending; it does not govern s.152(2) compounding before any prosecution is instituted.",
+          "paras": "10, 15-18"
+        }
+      ]
+    },
+    "574042": {
+      "name": "Dehri Rohtas Light Railway Co. v. District Board, Bhojpur",
+      "citation": "",
+      "court": "Supreme Court",
+      "docid": "574042",
+      "proposition": "Delay/laches: whether a party has chosen to sit over the matter to gain advantage.",
+      "cited_in": [
+        {
+          "case_id": "SCJ-001",
+          "title": "Indian Oil Corporation Ltd. v. State of U.P. & 3 Others",
+          "cited_by": "Court",
+          "treatment": "Referred",
+          "how_treated": "Noticed within the M.J. James extract and listed in the catena.",
+          "paras": "55, 58"
+        }
+      ]
+    },
+    "160269658": {
+      "name": "K.C. Ninan v. Kerala State Electricity Board",
+      "citation": "(2023) 14 SCC 431",
+      "court": "Supreme Court",
+      "docid": "160269658",
+      "proposition": "Electricity utilities can, by subordinate legislation or statutory conditions of supply, create a charge enabling recovery of electricity arrears from a subsequent transferee; recoupment of arrears protects the public good of electricity supply.",
+      "cited_in": [
+        {
+          "case_id": "SCJ-005",
+          "title": "Amir Ahmad v. State of U.P. & 4 Others",
+          "cited_by": "Respondent",
+          "treatment": "Followed",
+          "how_treated": "Followed and applied to hold the auction-purchaser liable to clear arrears before a new connection is released.",
+          "paras": "4, 6"
+        }
+      ]
+    },
+    "655432": {
+      "name": "Kusheshwar Prasad Singh v. State of Bihar",
+      "citation": "",
+      "court": "Supreme Court",
+      "docid": "655432",
+      "proposition": "An authority cannot take undue advantage of its own default in discharging a statutory duty; a wrongdoer ought not to profit from his own wrong.",
+      "cited_in": [
+        {
+          "case_id": "SCJ-001",
+          "title": "Indian Oil Corporation Ltd. v. State of U.P. & 3 Others",
+          "cited_by": "Court",
+          "treatment": "Followed",
+          "how_treated": "Quoted (¶ 54) and applied to the licensee's 7-year delay in disconnecting and 10-year delay in amending.",
+          "paras": "54, 58"
+        }
+      ]
+    },
+    "1848972": {
+      "name": "M.K. Shah Engineers & Contractors v. State of M.P.",
+      "citation": "",
+      "court": "Supreme Court",
+      "docid": "1848972",
+      "proposition": "No one may take advantage of one's own wrong; a party whose conduct disables a preceding procedural step is deemed to have waived it.",
+      "cited_in": [
+        {
+          "case_id": "SCJ-001",
+          "title": "Indian Oil Corporation Ltd. v. State of U.P. & 3 Others",
+          "cited_by": "Court",
+          "treatment": "Followed",
+          "how_treated": "Quoted (¶ 51) and applied: the prerequisite of amending the agreement deemed waived within a reasonable time of the consumer's request.",
+          "paras": "51-52"
+        }
+      ]
+    },
+    "Mrutunjay Pani v. Narmada Bala Sasmal": {
+      "name": "Mrutunjay Pani v. Narmada Bala Sasmal",
+      "citation": "AIR 1961 SC 1353",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Commodum ex injuria sua nemo habere debet — no one can be allowed to benefit from his own wrongful act.",
+      "cited_in": [
+        {
+          "case_id": "SCJ-001",
+          "title": "Indian Oil Corporation Ltd. v. State of U.P. & 3 Others",
+          "cited_by": "Court",
+          "treatment": "Followed",
+          "how_treated": "Quoted (¶ 53) as the foundation of the maxim; applied against the licensee's default.",
+          "paras": "53, 58"
+        }
+      ]
+    },
+    "72255341": {
+      "name": "MSEDCL v. JSW Steel Ltd.",
+      "citation": "",
+      "court": "Supreme Court",
+      "docid": "72255341",
+      "proposition": "Captive consumers bear no additional surcharge under s.42(4) even when not drawing from the licensee; such a levy would be discriminatory.",
+      "cited_in": [
+        {
+          "case_id": "SCJ-001",
+          "title": "Indian Oil Corporation Ltd. v. State of U.P. & 3 Others",
+          "cited_by": "Petitioner",
+          "treatment": "Referred",
+          "how_treated": "Cited by the petitioner (¶ 27); noted, but the Court did not rest its decision on the captive/open-access point.",
+          "paras": "27"
+        }
+      ]
+    },
+    "1469962": {
+      "name": "Nirmala Anand v. Advent Corporation (Pvt.) Ltd.",
+      "citation": "",
+      "court": "Supreme Court",
+      "docid": "1469962",
+      "proposition": "A party cannot take advantage of its own wrong; to permit it would confer an unfair advantage.",
+      "cited_in": [
+        {
+          "case_id": "SCJ-001",
+          "title": "Indian Oil Corporation Ltd. v. State of U.P. & 3 Others",
+          "cited_by": "Court",
+          "treatment": "Relied on",
+          "how_treated": "Cited (¶ 57) in support of the maxim.",
+          "paras": "57"
+        }
+      ]
+    },
+    "395434": {
+      "name": "PTC India Ltd. v. CERC",
+      "citation": "",
+      "court": "Supreme Court (Constitution Bench)",
+      "docid": "395434",
+      "proposition": "Regulations, as part of the regulatory framework, intervene in and even override existing contracts between regulated entities.",
+      "cited_in": [
+        {
+          "case_id": "SCJ-001",
+          "title": "Indian Oil Corporation Ltd. v. State of U.P. & 3 Others",
+          "cited_by": "Petitioner",
+          "treatment": "Referred",
+          "how_treated": "Cited by the petitioner (¶ 28); noted, not made a basis of the decision.",
+          "paras": "28"
+        }
+      ]
+    },
+    "80741415": {
+      "name": "Seema Mansoor v. U.P. Power Corporation & 3 Others",
+      "citation": "2014 (6) ADJ 672",
+      "court": "Allahabad High Court",
+      "docid": "80741415",
+      "proposition": "An occupier (including a tenant) has a statutory right under Sections 42-43 and Clause 4.4 of the Code to apply for and obtain supply; where the owner's consent is absent, the indemnity-bond route (Annexure 4.2) is available.",
+      "cited_in": [
+        {
+          "case_id": "SCJ-006",
+          "title": "Anand Kumar v. State of U.P. & 2 Others",
+          "cited_by": "Court",
+          "treatment": "Followed",
+          "how_treated": "Followed and relied on to hold the tenant entitled to have the application processed.",
+          "paras": "12-13"
         }
       ]
     }

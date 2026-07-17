@@ -32,6 +32,7 @@ def build(cases):
     principles = {}
     not_decided = []
     case_list = []
+    authorities = {}
 
     for c in cases:
         cid = c.get("case_id")
@@ -77,9 +78,30 @@ def build(cases):
             not_decided.append({**ident, "point": nd.get("point", ""),
                                 "note": nd.get("note", "")})
 
+        # cross-case table of authorities — every citation, electricity-related or not
+        for a in c.get("authorities", []):
+            key = a.get("docid") or a.get("name", "")
+            led = authorities.setdefault(key, {
+                "name": a.get("name", ""),
+                "citation": a.get("citation", ""),
+                "court": a.get("court", ""),
+                "docid": a.get("docid", ""),
+                "proposition": a.get("proposition", ""),
+                "cited_in": [],
+            })
+            led["cited_in"].append({
+                "case_id": cid,
+                "title": c.get("title", ""),
+                "cited_by": a.get("cited_by", ""),
+                "treatment": a.get("treatment", ""),
+                "how_treated": a.get("how_treated", ""),
+                "paras": a.get("how_treated_paras", ""),
+            })
+
     # stable ordering
     provisions = dict(sorted(provisions.items()))
     principles = dict(sorted(principles.items()))
+    authorities = dict(sorted(authorities.items(), key=lambda kv: kv[1]["name"].lower()))
 
     return {
         "project": "Supply Code Jurisprudence",
@@ -89,9 +111,11 @@ def build(cases):
         "keyed_by": "supply_code_provision + principle",
         "case_count": len(cases),
         "provision_count": len(provisions),
+        "authority_count": len(authorities),
         "cases": case_list,
         "provisions": provisions,
         "principles": principles,
+        "authorities_ledger": authorities,
         "not_decided_register": not_decided,
     }
 
@@ -104,4 +128,5 @@ if __name__ == "__main__":
     print(f"wrote {OUT}: {index['case_count']} cases, "
           f"{index['provision_count']} provisions, "
           f"{len(index['principles'])} principles, "
+          f"{index['authority_count']} authorities, "
           f"{len(index['not_decided_register'])} not-decided entries")
