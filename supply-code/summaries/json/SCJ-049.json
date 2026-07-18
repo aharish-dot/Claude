@@ -1,0 +1,72 @@
+{
+  "case_id": "SCJ-049",
+  "title": "M.D., Pakshimanchal Vidyut Vitran Nigam Ltd. v. Electricity Ombudsman & Anr.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court (Lucknow Bench)",
+  "bench": "Single Judge",
+  "coram": "Sudhir Agarwal, J.",
+  "date_of_judgment": "2012-07-19",
+  "date_display": "19 July 2012",
+  "docket": "Misc. Single No. 6088 of 2009",
+  "disposition": "Writ petition allowed; CGRF and Ombudsman proceedings quashed as without jurisdiction (liberty to pursue the Section 126/127 remedy)",
+
+  "headnote": "Where an assessment is made on the ground of 'unauthorised use of electricity' referable to Section 126 of the Electricity Act, 2003, the Assessing Officer is a statutory authority whose order is appealable only under Section 127; when the statute itself creates its own adjudicatory forum (the Assessing Officer) and appellate forum (Section 127), a parallel forum created by subordinate legislation — the Consumer Grievance Redressal Forum (CGRF) and Electricity Ombudsman under the U.P. Electricity Regulatory Commission (CGRF & Ombudsman) Regulations, 2007 — has no jurisdiction to review a Section 126 assessment or a Section 127 appellate order. Jurisdiction cannot be conferred by consent, acquiescence, or an earlier court order that merely assumed jurisdiction without the point being raised, argued and decided (which does not constitute a binding precedent on the jurisdictional question). Further, a licensee has no remedy of representation under Clause 8 of the 2007 Regulations read with Section 42(6) of the Act before the Ombudsman against a CGRF order.",
+
+  "holding_units": [
+    {
+      "provision": "EA2003::126",
+      "code": "Electricity Act, 2003 (with UPERC (CGRF & Electricity Ombudsman) Regulations, 2007)",
+      "clause": "s.126/127 vis-a-vis CGRF/Ombudsman (Regulations 2007)",
+      "topic": "CGRF and Ombudsman have no jurisdiction over Section 126 unauthorised-use assessments or Section 127 appellate orders — a parallel forum by subordinate legislation is impermissible",
+      "type": "interplay",
+      "question": "Can the Consumer Grievance Redressal Forum and Electricity Ombudsman, constituted by regulations under Section 42(5)-(7)/181, review or set aside an assessment made by the statutory Assessing Officer under Section 126 (or an appeal decided under Section 127)?",
+      "holding": "No. The Assessing Officer under Section 126 is a statutory authority and his order is appealable only under Section 127; where the statute itself creates its own adjudicatory and appellate forum, a parallel forum created by subordinate legislation (CGRF/Ombudsman under the 2007 Regulations) is not permissible and has no jurisdiction at all over such assessments. An earlier writ order that had allowed the consumer to approach CGRF, without the jurisdictional point being raised or contested, does not confer jurisdiction — a judgment lays down a ratio decidendi only on an issue raised, argued and decided, and jurisdiction cannot be conferred by consent, acquiescence, or a court's assumption. The entire CGRF and Ombudsman proceedings (including the order refunding Rs. 14.44 lakh with 16% compound interest) were quashed as a nullity, with liberty to the consumer to pursue objections before the Assessing Officer under Section 126 or an appeal under Section 127, condoning any resulting delay if availed within one month.",
+      "limiting_facts": "A consumer was assessed under Section 126 for unauthorised use (supply diverted to an adjacent unit) — first for Rs. 14.44 lakh (paid without objection) and later, on audit objection, for a further Rs. 51.54 lakh; on a consumer writ, the licensee had earlier agreed (and the Court directed) that the matter be routed via CGRF, which set aside the second assessment but rejected the challenge to the first; the Ombudsman then set aside both assessments and ordered a refund with compound interest.",
+      "paras": "paras 17-20, 28, 30-32"
+    },
+    {
+      "provision": "OFFTOPIC::jurisdiction-not-by-consent",
+      "code": "General jurisdictional doctrine (Article 226 / limited-jurisdiction tribunals)",
+      "clause": "no jurisdiction by consent, acquiescence, or waiver",
+      "topic": "Jurisdiction of a tribunal of limited/statutory jurisdiction cannot be conferred by consent, acquiescence, or an unreasoned prior order",
+      "type": "interplay",
+      "holding": "A tribunal or forum of limited/statutory jurisdiction cannot derive jurisdiction beyond the statute; no acquiescence, consent, or waiver can confer it, and a defect of jurisdiction cannot be cured even by consent, rendering any resulting order a nullity.",
+      "paras": "paras 21-27"
+    },
+    {
+      "provision": "EA2003::42",
+      "code": "Electricity Act, 2003 (with Clause 8 of the UPERC (CGRF & Electricity Ombudsman) Regulations, 2007)",
+      "clause": "s.42(6) r/w Clause 8 of Regulations 2007",
+      "topic": "A licensee has no remedy of representation before the Ombudsman against a CGRF order",
+      "type": "interplay",
+      "holding": "The licensee has no remedy to file a representation under Clause 8 of the 2007 Regulations read with Section 42(6) of the Act before the Ombudsman against an order of the CGRF, following Dakshinanchal Vidyut Vitran Nigam Ltd. v. Vidyut Lokpal, Lucknow (which struck down Clause 8 to that extent).",
+      "paras": "para 29"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "cgrf-ombudsman-no-jurisdiction-over-s126",
+      "application": "CGRF/Ombudsman (creatures of subordinate regulation) have no jurisdiction to review a statutory Assessing Officer's Section 126 assessment or a Section 127 appellate order; the only remedy against such an assessment is under Sections 126/127 themselves. Anchors the later Full Bench holding (SCJ-043 Kisan Cold Storage) that the Ombudsman/CGRF scheme is a distinct consumer-grievance track confined to matters outside Sections 126/127/135 etc.",
+      "lead_authorities": [
+        {"name": "Dakshinanchal Vidyut Vitran Nigam Ltd. v. Vidyut Lokpal, Lucknow", "docid": "196915098"}
+      ],
+      "paras": "paras 17-20, 29"
+    }
+  ],
+
+  "not_decided": [],
+
+  "authorities": [
+    {"name": "Dakshinanchal Vidyut Vitran Nigam Ltd. v. Vidyut Lokpal, Lucknow & Ors.", "citation": "Writ Petition No. 4237 (MS) of 2008, decided 6.1.2012", "court": "Allahabad High Court (Lucknow Bench)", "docid": "196915098", "proposition": "Clause 8 of the UPERC (CGRF & Electricity Ombudsman) Regulations, 2007, in so far as it permits a licensee to represent to the Ombudsman against a CGRF order, is bad in law.", "how_treated": "Followed — held to squarely cover and dispose of the licensee's representation route.", "how_treated_paras": "para 29", "cited_by": "Respondent", "treatment": "Followed"},
+    {"name": "United Commercial Bank Ltd. v. Their Workmen", "citation": "AIR 1951 SC 230", "court": "Supreme Court", "docid": "622189", "proposition": "No acquiescence or consent can give a jurisdiction to a court of limited jurisdiction which it does not possess.", "how_treated": "Relied on for the no-jurisdiction-by-consent principle.", "how_treated_paras": "para 21", "cited_by": "Court", "treatment": "Relied on"},
+    {"name": "Kiran Singh v. Chaman Paswan", "citation": "AIR 1954 SC 340", "court": "Supreme Court", "docid": "1625415", "proposition": "A defect of jurisdiction strikes at the very authority of the Court to pass any decree and cannot be cured even by consent of parties.", "how_treated": "Relied on to the same effect.", "how_treated_paras": "para 22", "cited_by": "Court", "treatment": "Relied on"},
+    {"name": "Benarsi Silk Palace v. Commr. of Income Tax", "citation": "[1964] 52 ITR 220 (All)", "court": "Allahabad High Court", "docid": "477052", "proposition": "Jurisdiction can be conferred only by statute, not by consent or acquiescence — an assessee cannot confer jurisdiction on the Income Tax Officer by waiving a statutory notice requirement.", "how_treated": "Relied on for the no-jurisdiction-by-consent principle in a taxation analogy.", "how_treated_paras": "para 23", "cited_by": "Court", "treatment": "Relied on"},
+    {"name": "Kali Das Wadhwani & Anr. v. Jagjiwan Das & Anr.", "citation": "1985 (2) ARC 533", "court": "Allahabad High Court", "docid": "", "proposition": "Jurisdiction cannot be conferred by consent, acquiescence or waiver where there is none; these factors are relevant only to pecuniary/territorial jurisdiction, not inherent jurisdiction, the absence of which renders a decree a nullity.", "how_treated": "Relied on.", "how_treated_paras": "para 24", "cited_by": "Court", "treatment": "Relied on"},
+    {"name": "Sardar Hasan Siddique v. State Transport Appellate Tribunal", "citation": "AIR 1986 All 132", "court": "Allahabad High Court (DB)", "docid": "1943347", "proposition": "A tribunal of limited jurisdiction cannot derive jurisdiction apart from the statute; no consent can confer it, and any decision by such a tribunal without jurisdiction is a nullity.", "how_treated": "Relied on.", "how_treated_paras": "para 25", "cited_by": "Court", "treatment": "Relied on"},
+    {"name": "Karnal Improvement Trust v. Prakashwanti", "citation": "(1995) 5 SCC 159", "court": "Supreme Court", "docid": "", "proposition": "Acquiescence does not confer jurisdiction, and an erroneous interpretation should not be perpetuated defeating legislative intent.", "how_treated": "Relied on.", "how_treated_paras": "para 26", "cited_by": "Court", "treatment": "Relied on"},
+    {"name": "U.P. Rajkiya Nirman Nigam Ltd. v. Indure Pvt. Ltd.", "citation": "AIR 1996 SC 1373", "court": "Supreme Court", "docid": "1267330", "proposition": "(Same principle as Karnal Improvement Trust — acquiescence does not confer jurisdiction.)", "how_treated": "Relied on to the same effect.", "how_treated_paras": "para 26", "cited_by": "Court", "treatment": "Relied on"},
+    {"name": "S. Sethuraman v. R. Venkataraman & Ors.", "citation": "AIR 2007 SC 2499", "court": "Supreme Court", "docid": "859773", "proposition": "If jurisdiction cannot be conferred by consent, consent equally cannot clothe an authority to exercise jurisdiction in an illegal manner.", "how_treated": "Relied on.", "how_treated_paras": "para 27", "cited_by": "Court", "treatment": "Relied on"},
+    {"name": "Collector, Distt. Gwalior & Anr. v. Cine Exhibitors P. Ltd. & Anr.", "citation": "AIR 2012 SC 1239", "court": "Supreme Court", "docid": "33360772", "proposition": "(Follows and applies S. Sethuraman on jurisdiction not being conferrable by consent.)", "how_treated": "Referred as the recent Supreme Court reaffirmation of S. Sethuraman.", "how_treated_paras": "para 27", "cited_by": "Court", "treatment": "Referred"}
+  ]
+}

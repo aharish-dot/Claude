@@ -1,0 +1,45 @@
+{
+  "case_id": "SCJ-048",
+  "title": "Latif v. State of U.P. & Ors.",
+  "neutral_citation": "AIRONLINE 2019 ALL 2332",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sudhir Agarwal & Rajeev Misra, JJ.",
+  "date_of_judgment": "2019-10-14",
+  "date_display": "14 October 2019",
+  "docket": "WRIT - C No. 33732 of 2006",
+  "disposition": "Writ petition allowed; bill-cum-notice and demand notice set aside (liberty to proceed afresh in accordance with law)",
+
+  "headnote": "Clause 6.8 of the U.P. Electricity Supply Code, 2005 (read with Section 126 of the Electricity Act, 2003) prescribes a detailed, mandatory procedure for inspection, provisional assessment, hearing and final assessment in cases of unauthorised use of electricity: a site inspection report disclosing the irregularity must be handed/served on the consumer (6.8(a)); a show-cause notice with the provisional assessment must give 15 working days for reply and fix a hearing date (6.8(b)); and after hearing, a speaking final order must record whether unauthorised use is established and, if so, the assessed quantum (6.8(c)). Following Ashok Kumar v. State of U.P., before-the-fact recording of a conclusion of unauthorised use without opportunity to the consumer would violate natural justice and Article 14; a bill-cum-notice and demand issued directly under the U.P. Government Electricity Undertaking (Recovery of Dues) Act, 1958, bypassing this Clause 6.8/Section 126 process (no show-cause notice, no final speaking order), is illegal and must be set aside.",
+
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8",
+      "code": "U.P. Electricity Supply Code, 2005 (with s.126, EA 2003)",
+      "clause": "6.8(a)-(c) (inspection, notice, hearing, final assessment)",
+      "topic": "Mandatory Clause 6.8 procedure for unauthorised-use assessment; bypassing it via the 1958 Recovery of Dues Act is illegal",
+      "type": "supply_code",
+      "question": "Can a licensee issue a bill-cum-notice and demand notice for alleged unauthorised use of electricity directly under the U.P. Government Electricity Undertaking (Recovery of Dues) Act, 1958, without following the Clause 6.8 (Section 126) procedure of inspection report, show-cause notice, hearing, and a final speaking order?",
+      "holding": "No. Following Ashok Kumar & Others v. State of U.P., Clause 6.8 requires: (a) a site inspection report disclosing the irregularity, handed to the consumer or pasted/posted if refused; (b) a show-cause notice with the provisional assessment, giving 15 working days for reply and fixing a hearing date; and (c) after personal hearing, a speaking final order within 7 working days recording whether unauthorised use is established and the assessed amount. Since no such show-cause notice was issued and no final order under Clause 6.8(c) was passed, a bill-cum-notice and demand notice issued instead under Section 5 of the 1958 Act is illegal and inconsistent with the prescribed procedure; it is set aside, without prejudice to the licensee proceeding afresh in accordance with the Clause 6.8/Ashok Kumar procedure.",
+      "limiting_facts": "The bill-cum-notice dated 26.3.2006 was issued on an allegation of theft of electricity without any show-cause notice, hearing, or final assessment order under Clause 6.8; recovery was instead sought via a demand notice under the U.P. Government Electricity Undertaking (Recovery of Dues) Act, 1958.",
+      "paras": "paras 2-5 (applying Ashok Kumar paras 56-64, 77-78)"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "clause-8.1b-theft-notice-natural-justice",
+      "application": "The Clause 6.8 inspection-notice-hearing-final-order sequence is mandatory before any unauthorised-use assessment; a demand raised by bypassing this procedure (e.g. directly under the 1958 Recovery of Dues Act) is illegal, following and applying Ashok Kumar v. State of U.P.",
+      "lead_authorities": [
+        {"name": "Ashok Kumar & Others v. State of U.P. & Others", "docid": "897981"}
+      ],
+      "paras": "paras 2-5"
+    }
+  ],
+
+  "not_decided": [],
+
+  "authorities": [
+    {"name": "Ashok Kumar & Others v. State of U.P. & Others", "citation": "2008 (6) ADJ 660 (DB)", "court": "Allahabad High Court (DB)", "docid": "897981", "proposition": "Clause 6.8 of the Supply Code, 2005 prescribes a mandatory, detailed procedure (inspection report, show-cause notice with 15 working days to reply, personal hearing, and a speaking final order) for assessing unauthorised use of electricity under Section 126; before recording a conclusion of unauthorised use, the consumer must be given an opportunity of hearing, failing which the assessment/notice is illegal and violates natural justice and Article 14.", "how_treated": "Followed and applied in full — the impugned bill-cum-notice and demand notice were set aside for non-compliance with the Clause 6.8 procedure as laid down in Ashok Kumar.", "how_treated_paras": "paras 2-5, quoting Ashok Kumar paras 56-64, 77-78", "cited_by": "Court", "treatment": "Followed"}
+  ]
+}

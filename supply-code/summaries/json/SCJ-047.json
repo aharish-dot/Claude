@@ -1,0 +1,75 @@
+{
+  "case_id": "SCJ-047",
+  "title": "Lalit Kumar Kapoor v. Kanpur Electricity Supply Company & Anr.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Amitava Lala & V.K. Mathur, JJ.",
+  "date_of_judgment": "2011-09-22",
+  "date_display": "22 September 2011",
+  "docket": "Civil Misc. Writ Petition No. 54089 of 2011",
+  "disposition": "Writ petition disposed of (relegated to the statutory appeal under Section 127, subject to the amended deposit condition)",
+
+  "headnote": "For a theft-based Section 126 final assessment, the law applicable to the appeal's deposit condition (and to the assessment rate under Section 126(6)) is the law prevailing on the date of the FINAL assessment, not the date the provisional assessment/inspection was made or the date the cause of action (the theft) arose; a provisional assessment is not a final assessment and carries no independent right of appeal. Reasonable opportunity of hearing in a theft assessment is governed by Clauses 6.8(b)(i), 6.8(c)(iii) and 8.1(b) of the U.P. Electricity Supply Code, 2005; where an opportunity to represent was in substance afforded (even pursuant to an earlier writ court's direction to consider a representation), any procedural defect in the provisional stage is condoned — procedural law cannot override the substantive law. In a theft matter, the High Court will not relax the statutory pre-deposit for the alternative appellate remedy under Section 127, given the public interest in the essential service of electricity supply.",
+
+  "holding_units": [
+    {
+      "provision": "EA2003::126",
+      "code": "Electricity Act, 2003",
+      "clause": "s.126(1)/(2)/(6) (amended vs unamended; provisional vs final assessment)",
+      "topic": "Law applicable to the deposit condition and assessment rate is the law in force on the date of the FINAL assessment, not the date of provisional assessment or the underlying cause of action",
+      "type": "supply_code",
+      "question": "Where a theft occurred and provisional assessment was made before the 2007 amendment to Section 126 but the final assessment was made after it, does the unamended or the amended Act govern the appeal deposit condition and the assessment rate (one-and-half times vs twice the tariff)?",
+      "holding": "The amended Act governs. A provisional assessment is not a final assessment and carries no independent right of appeal; the cause of action for the statutory appeal arises only from the final assessment. The law prevailing on the date of the final assessment (here, 2011) applies both to the deposit condition for the appeal and to the assessment rate under Section 126(6) (amended to 'twice' the tariff, from 'one-and-half times'), regardless of when the theft/cause of action arose (2004) or the provisional assessment was made.",
+      "limiting_facts": "A theft-based final assessment (~Rs. 10 lakh) was made in 2011 in respect of a matter for which the cause of action arose in 2004 and an earlier writ (No. 10105 of 2011) had directed consideration of the petitioner's representation.",
+      "paras": "unnumbered order (paras 2-3, 6)"
+    },
+    {
+      "provision": "UP-2005::6.8",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.8(b)(i), 6.8(c)(iii) r/w 8.1(b)",
+      "topic": "Reasonable opportunity of hearing before a theft-based final assessment; procedural defect condoned where opportunity was in substance given",
+      "type": "supply_code",
+      "holding": "Reasonable opportunity of hearing in a theft assessment is governed by Clauses 6.8(b)(i), 6.8(c)(iii) read with 8.1(b) of the Code (citing Khem Chand v. Union of India and Transmission Corporation of A.P. v. Sri Rama Krishna Rice Mill on the nature of 'reasonable opportunity'). Provisional assessment, reply, and final assessment together form a single process reaching finality; where the authority afforded an opportunity for hearing (including through consideration of a representation directed by an earlier writ order) before making the final assessment, any procedural defect at the provisional stage is condoned, since procedural law cannot override the substantive law.",
+      "paras": "unnumbered order"
+    },
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act, 2003",
+      "clause": "s.127 (alternative remedy; deposit not to be relaxed in theft matters)",
+      "topic": "Challenge to a final theft assessment relegated to the statutory appeal; pre-deposit not relaxed",
+      "type": "interplay",
+      "holding": "Whether inspection or provisional assessment was properly made, and whether reasonable opportunity was given, are matters merged into the earlier writ proceeding that directed consideration of the representation (itself equivalent to the provisional stage) and cannot be reopened by a fresh writ against the final assessment; the final assessment must be challenged before the appellate authority under Section 127, and in a theft matter — given the public interest in the essential service of electricity — the Court will not relax the statutory deposit condition to enable the petitioner to avoid it.",
+      "paras": "unnumbered order"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "law-as-of-final-assessment-date",
+      "application": "For determining which version of Section 126 (deposit condition, assessment rate) applies, the operative date is the date of the FINAL assessment, not the provisional assessment or the date the cause of action arose.",
+      "lead_authorities": [
+        {"name": "Sri Bhagwan Gupta v. Kanpur Electricity Supply Company Ltd.", "docid": "559116"}
+      ],
+      "paras": "unnumbered order"
+    },
+    {
+      "tag": "reasonable-opportunity-theft-assessment",
+      "application": "Reasonable opportunity of hearing before a theft-based Section 126 assessment is governed by Clauses 6.8(b)(i)/6.8(c)(iii)/8.1(b) of the Supply Code; substantial compliance (even via a court-directed representation) condones a procedural defect at the provisional stage.",
+      "lead_authorities": [
+        {"name": "Khem Chand v. Union of India", "docid": "546415"},
+        {"name": "Transmission Corporation of A.P. Ltd. v. Sri Rama Krishna Rice Mill", "docid": "107041"}
+      ],
+      "paras": "unnumbered order"
+    }
+  ],
+
+  "not_decided": [],
+
+  "authorities": [
+    {"name": "Khem Chand v. Union of India & Ors.", "citation": "AIR 1958 SC 300", "court": "Supreme Court", "docid": "546415", "proposition": "Lays down the content and standard of 'reasonable opportunity' of hearing to be afforded before an adverse order.", "how_treated": "Relied on to define the standard of reasonable opportunity applicable before a theft-based Section 126 assessment.", "how_treated_paras": "unnumbered order", "cited_by": "Court", "treatment": "Relied on"},
+    {"name": "Transmission Corporation of A.P. Ltd. & Ors. v. Sri Rama Krishna Rice Mill", "citation": "(2006) 3 SCC 74", "court": "Supreme Court", "docid": "107041", "proposition": "Explains the standard of reasonable opportunity of hearing in the context of an electricity assessment.", "how_treated": "Relied on to the same effect as Khem Chand.", "how_treated_paras": "unnumbered order", "cited_by": "Court", "treatment": "Relied on"},
+    {"name": "Smt. R.S. Khan v. State of U.P. & Ors.", "citation": "2005 All. C.J. 985", "court": "Allahabad High Court (DB)", "docid": "87831737", "proposition": "Cited by the petitioner regarding the 2004 assessment proceedings and subsequent orders in the connected writ litigation.", "how_treated": "Noted as part of the petitioner's procedural history/background; not determinative.", "how_treated_paras": "unnumbered order", "cited_by": "Petitioner", "treatment": "Referred"},
+    {"name": "Sri Bhagwan Gupta v. Kanpur Electricity Supply Company Ltd. & Ors.", "citation": "2005 All. C.J. 977", "court": "Allahabad High Court (Single Judge)", "docid": "559116", "proposition": "Held (in the petitioner's submission) that the pre-2007 rate of one-and-half times the tariff under Section 126(5)/(6) applies where the cause of action (theft) arose before the amendment.", "how_treated": "Given only persuasive value; not followed — the Court held that the law as of the date of the FINAL assessment (not the date the cause of action arose) governs the applicable rate.", "how_treated_paras": "unnumbered order", "cited_by": "Petitioner", "treatment": "Distinguished"}
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 43,
+  "next_seq": 51,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -257,6 +257,54 @@
       "title": "WBSEDCL v. Orion Metal (SC; theft is subset of UUE; s.126 vs s.154(5))",
       "status": "done",
       "note": "Built from the detailed SC-003 record on branch claude/electricity-act-case-strategy-s2xebj, not from the source judgment text."
+    },
+    {
+      "case_id": "SCJ-043",
+      "source_basename": "Kisan Cold Storage & Ice Factory Thru ... vs Paschimanchal Vidyut Vitran Nigam ... on 3 April, 2019",
+      "title": "Kisan Cold Storage v. PVVNL (Full Bench; Ombudsman remedy consumer-only)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-044",
+      "source_basename": "Kishore Biyani vs State Of U.P. And Another on 12 March, 2024",
+      "title": "Kishore Biyani v. State of U.P. (OFFTOPIC; IPC 405/406)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-045",
+      "source_basename": "Kripa Shanker vs State Of U.P. Thru. Distt. Collector ... on 24 June, 2025",
+      "title": "Kripa Shanker v. State of U.P. (installment payment, Clause 6.14)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-046",
+      "source_basename": "Lala Ram Batham vs U.P. Power Corporation Nigam And Others on 12 December, 2012",
+      "title": "Lala Ram Batham v. UPPCL (meter reading dispute, Clause 6.5)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-047",
+      "source_basename": "Lalit Kumar Kapoor vs Kanpur Electricity Supply Company And ... on 22 September, 2011",
+      "title": "Lalit Kumar Kapoor v. KESCO (law as of final assessment date; Clause 6.8)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-048",
+      "source_basename": "Latif vs State Of U.P. And Others on 14 October, 2019",
+      "title": "Latif v. State of U.P. (Clause 6.8 mandatory procedure; applies Ashok Kumar)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-049",
+      "source_basename": "M.D. Pakshimanchal Vidut Vitran Nigam ... vs Ombudsman 3 Floor Neda Building Vibhuti ... on 19 July, 2012",
+      "title": "MD PVVNL v. Electricity Ombudsman (CGRF/Ombudsman no jurisdiction over s.126)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-050",
+      "source_basename": "M.K. Pathak ,Executive Engineer vs The Electricity Ombudsman And 2 Ors. on 10 October, 2018",
+      "title": "M.K. Pathak v. Electricity Ombudsman (Ombudsman remedy consumer-only, Clause 7.10)",
+      "status": "done"
     }
   ]
 }
