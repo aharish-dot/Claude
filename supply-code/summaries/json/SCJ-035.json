@@ -1,0 +1,53 @@
+{
+  "case_id": "SCJ-035",
+  "title": "Jharkhand State Electricity Board & Others v. M/s Ramkrishna Forging Limited",
+  "neutral_citation": "AIR 2021 SC 2184",
+  "court": "Supreme Court of India",
+  "bench": "Two-Judge Bench",
+  "coram": "L. Nageswara Rao & Vineet Saran, JJ. (delivered by Vineet Saran, J.)",
+  "date_of_judgment": "2021-04-30",
+  "date_display": "30 April 2021",
+  "docket": "Civil Appeal No. 6145 of 2010",
+  "disposition": "Appeal dismissed (reduction-of-load application deemed allowed under the Regulations)",
+
+  "headnote": "Where a consumer's sanctioned load for a single electricity connection is enhanced from time to time and a fresh agreement is executed for each enhancement, those 'fresh agreements' are, for the purpose of the Supply Code (Jharkhand Electricity Supply Code Regulations, 2005), merely supplementary agreements amending the initial agreement by which the connection was granted; the Code allows contract demand to be varied even by written communication and does not require a fresh agreement. Accordingly, the proviso to Regulation 9.2.1 (no reduction of load before expiry of the initial period of agreement) runs from the initial agreement, not the last enhancement agreement; and the Regulations are to be liberally interpreted in favour of the consumer against a monopoly supplier.",
+
+  "holding_units": [
+    {
+      "provision": "JH-2005::9.2",
+      "code": "Jharkhand SERC (Electricity Supply Code) Regulations, 2005 (framed under s.50, EA 2003)",
+      "clause": "Reg. 9.2 (proviso to 9.2.1; r/w 2(l), 9.2.6)",
+      "topic": "Reduction of contract demand — the 'initial period' runs from the initial agreement",
+      "type": "supply_code",
+      "question": "For the proviso barring reduction of load before the 'initial period of agreement', is the initial agreement or the last load-enhancement agreement to be reckoned?",
+      "holding": "The initial agreement. Enhancement 'fresh agreements' for the same connection are merely supplementary amendments of the initial agreement (contract demand can be varied even by written communication, Reg. 2(l); reduction itself is by supplementary agreement, Reg. 9.2.6). So the three-year 'initial period' runs from the initial agreement (2004), not the last enhancement (2007); the 2007 reduction application was beyond it and is deemed allowed under Reg. 9.2. The Regulations are liberally construed for the consumer.",
+      "limiting_facts": "Load was enhanced 325 -> 1325 -> 3500 -> 4000 KVA by successive agreements (last 7.7.2007); the reduction application (20.9.2007) was rejected as within three years of the 2007 agreement and treated as a determination of the agreement under Clause 9B.",
+      "paras": "12-18, 21"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "code-liberally-construed-for-consumer",
+      "application": "Supply Code regulations, being terms dictated by a monopoly supplier, are to be liberally interpreted in favour of the consumer; load-enhancement agreements are treated as continuations of the initial agreement.",
+      "lead_authorities": [],
+      "paras": "15-16"
+    }
+  ],
+
+  "not_decided": [
+    {
+      "point": "Validity of the proviso to Regulation 9.2.1",
+      "note": "The Court did not decide whether the proviso to Reg. 9.2.1 is discriminatory, arbitrary or against public policy (as the High Court had held); it decided on the initial-agreement construction.",
+      "docid": "",
+      "paras": "19"
+    }
+  ],
+
+  "authorities": [
+    {"name": "Bihar State Electricity Board v. M/s Green Rubber Industries", "citation": "(1990) 1 SCC 731", "court": "Supreme Court", "docid": "", "proposition": "On minimum-guarantee charge (under the Electricity Act, 1910).", "how_treated": "Distinguished on facts as relating to minimum-guarantee charge under the old 1910 Act.", "how_treated_paras": "17", "cited_by": "Petitioner", "treatment": "Distinguished"},
+    {"name": "Orissa State Electricity Board v. Orissa Tiles Limited", "citation": "(1993) Supp 3 SCC 481", "court": "Supreme Court", "docid": "137737414", "proposition": "On minimum-guarantee charge (under the 1910 Act).", "how_treated": "Distinguished on facts as relating to minimum-guarantee charge under the old 1910 Act.", "how_treated_paras": "17", "cited_by": "Petitioner", "treatment": "Distinguished"},
+    {"name": "Andhra Steel Corporation Ltd. v. A.P. State Electricity Board", "citation": "(1991) 3 SCC 263", "court": "Supreme Court", "docid": "", "proposition": "On minimum-guarantee charge (under the 1910 Act).", "how_treated": "Distinguished on facts as relating to minimum-guarantee charge under the old 1910 Act.", "how_treated_paras": "17", "cited_by": "Petitioner", "treatment": "Distinguished"},
+    {"name": "Jharkhand State Electricity Board v. Laxmi Business and Cement Company Pvt. Ltd.", "citation": "(2014) 5 SCC 236", "court": "Supreme Court", "docid": "", "proposition": "On minimum-guarantee charge.", "how_treated": "Distinguished on facts as relating to minimum-guarantee charge.", "how_treated_paras": "17", "cited_by": "Respondent", "treatment": "Distinguished"}
+  ]
+}

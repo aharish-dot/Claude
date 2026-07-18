@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 34,
+  "next_seq": 41,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -200,6 +200,48 @@
       "case_id": "SCJ-033",
       "source_basename": "Husna Bano vs State Of U.P. And 9 Others on 13 August, 2019",
       "title": "Husna Bano v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-034",
+      "source_basename": "Islam vs State Of U.P. And 4 Others on 24 June, 2013",
+      "title": "Islam v. State of U.P. (agricultural kolhu not UUE)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-035",
+      "source_basename": "Jharkhand State Electricity Board vs MS Ramkrishna Forging Limited on 30 April, 2021",
+      "title": "Jharkhand SEB v. Ramkrishna Forging (SC; load reduction)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-036",
+      "source_basename": "Jitendra Kumar Gupta & Anr vs State Of U.P Thru Prin Secy Deptt Of ... on 7 February, 2017",
+      "title": "Jitendra Kumar Gupta v. State of U.P. (arrears/purchaser)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-037",
+      "source_basename": "K.C. Ninan vs Kerala State Electricity Board & Ors. on 19 May, 2023",
+      "title": "K.C. Ninan v. Kerala SEB (SC; apex arrears/transferee)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-038",
+      "source_basename": "Kanpur Elect.Supply Co.Ltd.& Anr vs MS L.M.L.Limited & Ors on 7 May, 2010",
+      "title": "KESCO v. LML Ltd. (SC; load reduction / sick unit)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-039",
+      "source_basename": "Kanpur Electricity Supply Comp. Ltd. ... vs Uttar Pradesh Electricity Regulatory ... on 22 November, 2011",
+      "title": "KESCO v. UPERC (excess load not UUE)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-040",
+      "source_basename": "Kapil Gupta vs U.P. Power Corpn. Ltd. And Anr. on 29 May, 2014",
+      "title": "Kapil Gupta v. UPPCL (alternative remedy)",
       "status": "done"
     }
   ]

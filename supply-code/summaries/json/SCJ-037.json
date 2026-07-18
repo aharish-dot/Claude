@@ -1,0 +1,59 @@
+{
+  "case_id": "SCJ-037",
+  "title": "K.C. Ninan v. Kerala State Electricity Board & Ors.",
+  "neutral_citation": "(2023) SC (Civil Appeal Nos. 2109-2110/2004 and connected)",
+  "court": "Supreme Court of India",
+  "bench": "Three-Judge Bench",
+  "coram": "Dr D.Y. Chandrachud, CJI, Hima Kohli & P.S. Narasimha, JJ. (judgment delivered by Chandrachud, CJI)",
+  "date_of_judgment": "2023-05-19",
+  "date_display": "19 May 2023",
+  "docket": "Civil Appeal Nos. 2109-2110 of 2004 (and connected appeals)",
+  "disposition": "Appeals allowed / disposed of / dismissed as tabulated (arrears recoverable from new owner where the Code so provides; interest waived under Article 142)",
+
+  "headnote": "The duty to supply electricity under Section 43 of the Electricity Act, 2003 is not absolute; it is with respect to the owner or occupier of particular premises (a consumer-premises synergy), and an application for the same premises for which supply was earlier given is a 'reconnection', while different premises make it a fresh connection even for the same consumer. A condition of supply requiring a new owner to clear the previous owner's electricity arrears has a statutory character; the regulatory power under Section 50 (and the rule-making power under Section 181 read with Section 50) is wide enough to stipulate recovery of a previous owner's arrears from a new/subsequent owner and to create a statutory charge even absent a charge provision in the plenary statute. The power to recover arrears by suit is independent of the power to disconnect under Section 56; and 'as is where is' puts every auction-bidder on notice of dues including electricity dues (with outstanding interest waived here under Article 142).",
+
+  "holding_units": [
+    {
+      "provision": "ARREARS::transferee-liability",
+      "code": "Electricity Act, 2003 & Electricity Supply Codes (ss.43, 49(1948), 50, 56, 181)",
+      "clause": "ss.50 & 181 (Supply Code statutory charge); s.49, 1948 Act",
+      "topic": "Supply Code can create a statutory charge for a previous owner's arrears recoverable from a new owner (apex authority)",
+      "type": "interplay",
+      "question": "Can a new/subsequent owner (including an auction-purchaser) be required to clear the previous owner's electricity arrears as a condition of supply, and can the Supply Code create such a statutory charge?",
+      "holding": "Yes. A condition of supply requiring the new owner to clear the previous owner's arrears has a statutory character (s.49, 1948 Act); the State Commission's regulatory power under s.50, and the rule-making power under s.181 read with s.50, are wide enough to stipulate recovery of a previous owner's arrears from a new/subsequent owner and to create a statutory charge even where the plenary statute does not; such Supply Code recoupment has a reasonable nexus with the objects of the 2003 Act. The power to recover by suit is independent of the disconnection power under s.56; and 'as is where is' puts an auction-purchaser on notice of electricity dues. Outstanding interest from the date of application was waived under Article 142.",
+      "limiting_facts": "A batch of appeals concerning auction-purchasers/new owners of premises with unpaid electricity dues of previous owners; the appeals were allowed/disposed of/dismissed as tabulated by the Court.",
+      "paras": "summary conclusions (a)-(j) of the reportable judgment",
+      "flag": "This record is drawn from the operative order and the Court's summarized conclusions (a)-(j); the full reasoning and authorities are in the signed reportable judgment. This is the apex authority confirming the arrears/transferee line (cf. SCJ-031 Haryana SEB; applied in SCJ-005 Amir Ahmad)."
+    },
+    {
+      "provision": "EA2003::43",
+      "code": "Electricity Act, 2003",
+      "clause": "s.43 (duty to supply); reconnection vs fresh connection",
+      "topic": "Duty to supply is not absolute; consumer-premises synergy; reconnection = same premises",
+      "type": "interplay",
+      "holding": "The duty to supply under s.43 is not absolute and is subject to charges/compliances stipulated by the utility; it is owed to the owner or occupier of particular premises, and one becomes a 'consumer' only for those premises. An application for the same premises for which supply was earlier provided is a 'reconnection'; different premises make it a fresh connection even if the consumer is the same.",
+      "paras": "summary conclusions (a)-(c)"
+    },
+    {
+      "provision": "EA2003::56",
+      "code": "Electricity Act, 2003",
+      "clause": "s.56 (disconnection) vs recovery by suit",
+      "topic": "Recovery by suit is independent of the disconnection power",
+      "type": "interplay",
+      "holding": "The power to initiate recovery proceedings by filing a suit against a defaulting consumer is independent of the power to disconnect supply as a means of recovery under Section 56.",
+      "paras": "summary conclusion (h)"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "arrears-run-with-the-premises",
+      "application": "Apex authority: the Supply Code (under s.50/s.181) can create a statutory charge for a previous owner's arrears recoverable from a new/subsequent owner; a condition requiring a new owner to clear such arrears is statutory and valid (confirming and extending Haryana SEB v. Hanuman Rice Mills).",
+      "lead_authorities": [],
+      "paras": "summary conclusions (d)-(g), (i)"
+    }
+  ],
+
+  "not_decided": [],
+  "authorities": []
+}

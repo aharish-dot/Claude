@@ -1,0 +1,55 @@
+{
+  "case_id": "SCJ-038",
+  "title": "Kanpur Electricity Supply Co. Ltd. & Anr. v. M/s L.M.L. Limited & Ors.",
+  "neutral_citation": "AIR 2010 SC 1946; (2010) 6 SCC 165",
+  "court": "Supreme Court of India",
+  "bench": "Three-Judge Bench",
+  "coram": "Altamas Kabir, Cyriac Joseph & C.K. Prasad, JJ. (delivered by Altamas Kabir, J.)",
+  "date_of_judgment": "2010-05-07",
+  "date_display": "7 May 2010",
+  "docket": "Special Leave Petition (Civil) No. 33984 of 2009",
+  "disposition": "Special leave petition dismissed (load-reduction upheld; effective from 1.5.2006)",
+
+  "headnote": "Under Clause 4.41 read with the unamended Clause 4.49 of the U.P. Electricity Supply Code, 2005 (as in force when the reduction was decided on 19.4.2006), a consumer with disputed/stayed arrears seeking reduction of contracted load could furnish 'either a Bank Guarantee, or Bonds, or any instruments to the satisfaction of the licensee' of the pending dues; the effective date of reduction is the first day of the month following sanction (Clause 4.41(e)). A licensee that agreed to the reduction and was fully aware of the consumer's status as a Relief Undertaking / Sick Industrial Company (and of the BIFR order to accept instalments and not disconnect) could not defeat the agreed reduction by insisting on a Bank Guarantee and rejecting a Bond, and could not continue billing on the higher load. Annexure 6.5 / Clause 6.16 / Clause 9.5 accord protective treatment to sick/relief undertakings.",
+
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.49",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.49 (unamended) r/w 4.41",
+      "topic": "Load reduction with disputed arrears — Bond acceptable; effective date; agreed reduction cannot be defeated",
+      "type": "supply_code",
+      "question": "Could the licensee refuse to reduce the agreed load, and keep billing on the higher load, by rejecting the Bond and insisting on a Bank Guarantee under Clause 4.49?",
+      "holding": "No. The unamended Clause 4.49 (in force on 19.4.2006) allowed the consumer to secure disputed arrears by a Bank Guarantee OR a Bond OR any instrument to the licensee's satisfaction; the reduction took effect from the first day of the month after sanction (Clause 4.41(e), i.e. 1.5.2006). Having agreed to the reduction and known of the consumer's Relief-Undertaking/Sick-Company status and the BIFR order, the licensee acted unfairly in rejecting the Bond, insisting on a Bank Guarantee and continuing to bill on the higher (8 MVA) load; the load stood reduced.",
+      "limiting_facts": "LML, a Relief Undertaking / Sick Industrial Company, applied to reduce load 8 MVA -> 1.25 MVA (agreed 19.4.2006); KESCO kept billing at 8 MVA and rejected LML's Bond, demanding a Bank Guarantee for ~Rs. 10.24 crore arrears; BIFR had directed acceptance of Rs. 5 lakh/month and no coercive disconnection.",
+      "paras": "6-10, 24-29"
+    },
+    {
+      "provision": "UP-2005::6.16",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.16 (Annexure 6.5; Clause 9.5)",
+      "topic": "Protective treatment of sick industrial companies / relief undertakings",
+      "type": "supply_code",
+      "holding": "Clauses 4.41 and 4.49 are Rules framed to help industries in difficulty; read with Annexure 6.5 / Clause 6.16 (disconnected units seeking revival) and Clause 9.5 (Relief Undertaking regime under s.23), only current dues are realized from a sick/relief undertaking, with past dues recovered in instalments and no coercive disconnection — harmonised with the BIFR/SICA order.",
+      "paras": "13, 20, 27"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "sick-unit-protective-treatment",
+      "application": "A licensee must give protective, fair treatment to a Relief Undertaking / Sick Industrial Company (current dues only, arrears in instalments, no coercive disconnection) and cannot defeat an agreed load reduction by legalese; the Supply Code is applied to aid revival.",
+      "lead_authorities": [
+        {"name": "Modern Syntax (I) Ltd. v. Debts Recovery Tribunal, Jaipur", "docid": "1921960"}
+      ],
+      "paras": "24-29"
+    }
+  ],
+
+  "not_decided": [],
+
+  "authorities": [
+    {"name": "Modern Syntax (I) Ltd. v. Debts Recovery Tribunal, Jaipur", "citation": "AIR 2001 Raj 170", "court": "Rajasthan High Court", "docid": "1921960", "proposition": "The provisions of a Relief Undertaking Act, being meant to sub-serve public interest and prevent unemployment, are to be given a liberal interpretation.", "how_treated": "Relied on (by the respondent) for a liberal, revival-oriented reading of the relief regime.", "how_treated_paras": "18", "cited_by": "Respondent", "treatment": "Relied on"},
+    {"name": "Doburg Lager Breweries Pvt. Ltd. v. Dhariwal Bottle Trading Co.", "citation": "(1986) 2 SCC 382", "court": "Supreme Court", "docid": "", "proposition": "A Relief Undertaking Act sub-serves the public interest and prevention of unemployment, so its provisions are liberally interpreted.", "how_treated": "Referred (as the basis of Modern Syntax).", "how_treated_paras": "18", "cited_by": "Respondent", "treatment": "Referred"}
+  ]
+}

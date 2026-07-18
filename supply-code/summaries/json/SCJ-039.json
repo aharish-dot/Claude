@@ -1,0 +1,44 @@
+{
+  "case_id": "SCJ-039",
+  "title": "Kanpur Electricity Supply Co. Ltd. & Anr. v. U.P. Electricity Regulatory Commission & Ors.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Sudhir Agarwal, J.",
+  "date_of_judgment": "2011-11-22",
+  "date_display": "22 November 2011",
+  "docket": "WRIT - C No. 70240 of 2010",
+  "disposition": "Writ petition dismissed with Rs. 5,000 costs (frivolous)",
+
+  "headnote": "The installation of an air conditioner (or use within the contracted load) is not 'unauthorised use' of electricity assessable under Section 126 of the Electricity Act, 2003; para 6.9 of the U.P. Electricity Supply Code, 2005 makes clear that excess load is not covered by Section 126. The proper charge is the additional Fixed Charge prescribed in the tariff (here, for air conditioners for the April-September period), not a twelve-month theft/unauthorised-use assessment. The Consumer Grievance Redressal Forum and the Ombudsman rightly held Section 126 inapplicable and permitted only supplementary Fixed-Charge bills; the licensee's writ challenging that was frivolous.",
+
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.9",
+      "code": "U.P. Electricity Supply Code, 2005 (with s.126, EA 2003 & Tariff Order)",
+      "clause": "6.9 (r/w s.126)",
+      "topic": "Excess load / appliance installation is not 'unauthorised use' under Section 126",
+      "type": "supply_code",
+      "question": "Can the installation of air conditioners (excess load) be assessed as unauthorised use under Section 126, or is the remedy an additional Fixed Charge under the tariff?",
+      "holding": "It is not Section 126 unauthorised use. Para 6.9 of the Code provides that excess load is not covered by Section 126; the use of an air conditioner is not prohibited but attracts an additional Fixed Charge under the tariff (Rs. 150 per ton, April-September). The CGRF/Ombudsman rightly disallowed the Section 126 assessment and permitted only supplementary Fixed-Charge bills.",
+      "limiting_facts": "On checking, air conditioners were found connected to three connections; there was no allegation of theft, no load in excess of the contracted load, and no MRI-based finding — the demand was tied only to the AC installation.",
+      "paras": "5-7"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "excess-load-not-unauthorised-use",
+      "application": "Excess load or appliance installation within/around the contracted load is not 'unauthorised use' under Section 126 (para 6.9 of the Code); the remedy is the tariff's additional Fixed Charge, not a theft/UUE assessment.",
+      "lead_authorities": [],
+      "paras": "7"
+    }
+  ],
+
+  "not_decided": [],
+
+  "authorities": [
+    {"name": "State of U.P. v. Suresh Kumar", "citation": "Writ Petition No. 506 (S/B) of 2011 (Allahabad HC, DB)", "court": "Allahabad High Court (DB)", "docid": "157762969", "proposition": "The State and its instrumentalities should refrain from filing frivolous petitions that waste the Court's time.", "how_treated": "Referred to deprecate the licensee's frivolous writ petition.", "how_treated_paras": "7", "cited_by": "Court", "treatment": "Referred"},
+    {"name": "State of U.P. v. Brij Bhushan Sharma", "citation": "Writ Petition No. 474 (SB) of 2011 (Allahabad HC, DB)", "court": "Allahabad High Court (DB)", "docid": "1276201", "proposition": "The practice of the State filing frivolous writ petitions challenging tribunal orders is deprecated.", "how_treated": "Referred to the same effect in imposing costs.", "how_treated_paras": "8", "cited_by": "Court", "treatment": "Referred"}
+  ]
+}
