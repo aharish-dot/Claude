@@ -1,0 +1,58 @@
+{
+  "case_id": "SCJ-041",
+  "title": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (SOUTHCO) v. Sri Seetaram Rice Mill",
+  "neutral_citation": "(2012) 2 SCC 108",
+  "court": "Supreme Court of India",
+  "bench": "Three-Judge Bench",
+  "coram": "S.H. Kapadia, CJI, K.S. Radhakrishnan & Swatanter Kumar, JJ.",
+  "date_of_judgment": "2011-10-20",
+  "date_display": "20 October 2011",
+  "docket": "Civil Appeal (arising out of SLP) — SOUTHCO v. Sri Seetaram Rice Mill",
+  "disposition": "Appeal allowed; High Court judgment set aside and remanded to the assessing officer to pass a final Section 126(3) assessment after affording the consumer an opportunity to file objections",
+
+  "headnote": "Sections 126 and 135 of the Electricity Act, 2003 operate in different and distinct fields with no commonality in law. Section 135 (theft) falls within criminal jurisprudence and requires mens rea; Section 126 (unauthorised use) is primarily a civil remedy, not premised on any criminal intendment, and applies even in the absence of intention. 'Unauthorised use of electricity' is an expression of wider connotation to be construed purposively (not restrictively by the Explanation's clauses); consumption in excess of the contracted/sanctioned load falls within Explanation (b)(iv) to Section 126. Sections 126 and 127 together constitute a complete code: only a final order of assessment under Section 126(3) is appealable under Section 127; a notice-cum-provisional assessment under Section 126(2) is not. The High Court should normally decline to interfere under Article 226 with a final Section 126(3) assessment, confining itself to jurisdictional review rather than re-assessment.",
+
+  "holding_units": [
+    {
+      "provision": "EA2003::126",
+      "code": "Electricity Act, 2003",
+      "clause": "s.126 vis-a-vis s.135",
+      "topic": "Sections 126 and 135 are distinct provisions in different fields; s.126 is civil and intention-neutral",
+      "type": "interplay",
+      "question": "Do Sections 126 (unauthorised use) and 135 (theft) occupy the same field, and does Section 126 require mens rea?",
+      "holding": "No commonality. Sections 126 and 135 operate in different and distinct fields. Section 135 falls within criminal jurisprudence and mens rea is a relevant factor for theft; Section 126 does not speak of any criminal intendment and is primarily a civil remedy, applying even in the absence of intention.",
+      "paras": "paras 16-17"
+    },
+    {
+      "provision": "EA2003::126",
+      "code": "Electricity Act, 2003",
+      "clause": "s.126 Explanation (b)(iv)",
+      "topic": "'Unauthorised use' is a wider, purposively-construed expression covering excess load",
+      "type": "interplay",
+      "holding": "'Unauthorised use of electricity' is an expression of wider connotation, to be construed purposively rather than restrictively by the clauses of the Explanation, keeping in mind the object and purpose of the Act. Consumption in excess of the maximum contracted/sanctioned load falls under Explanation (b)(iv) to Section 126 (besides violating the Regulations and the agreement of supply).",
+      "limiting_facts": "On inspection, the licensee found the consumer drawing 142 KVA against its sanctioned load and issued a provisional assessment/show-cause under Section 126; the consumer, without filing objections under Section 126(3), moved the High Court, which held overdrawal did not amount to 'unauthorised use'.",
+      "paras": "para 58 (conclusion 2)"
+    },
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act, 2003",
+      "clause": "s.126/127 (complete code; only final order appealable)",
+      "topic": "Sections 126-127 form a complete code; only a final Section 126(3) order is appealable; the High Court should not ordinarily interfere with a final assessment",
+      "type": "interplay",
+      "holding": "Sections 126 and 127 together constitute a complete code. Only a final order of assessment under Section 126(3) is appealable under Section 127; a notice-cum-provisional assessment under Section 126(2) is not appealable. The High Court should normally decline to interfere under Article 226 with a final assessment — it may examine a jurisdictional challenge but must not travel into the assessing officer's exclusive domain of assessment and fact-finding.",
+      "paras": "para 58 (conclusions 4-5)"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "126-vs-135-distinct-fields",
+      "application": "Foundational: Section 126 (civil, no mens rea, wider purposive 'unauthorised use' covering excess load/change of category under Explanation (b)(iv)) and Section 135 (criminal, mens rea) operate in different and distinct fields with no commonality; Sections 126-127 are a complete code, only the final Section 126(3) order is appealable, and Article 226 relief is confined to jurisdictional review.",
+      "lead_authorities": [],
+      "paras": "paras 16-17, 58"
+    }
+  ],
+
+  "not_decided": [],
+  "authorities": []
+}

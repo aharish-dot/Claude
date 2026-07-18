@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 41,
+  "next_seq": 43,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -243,6 +243,20 @@
       "source_basename": "Kapil Gupta vs U.P. Power Corpn. Ltd. And Anr. on 29 May, 2014",
       "title": "Kapil Gupta v. UPPCL (alternative remedy)",
       "status": "done"
+    },
+    {
+      "case_id": "SCJ-041",
+      "source_basename": "The Executive Engineer vs MS Sri Seetaram Ricemill on 20 October, 2011",
+      "title": "Southco v. Sri Seetaram Rice Mill (SC; foundational s.126 vs s.135)",
+      "status": "done",
+      "note": "Built from the detailed SC-002 record on branch claude/electricity-act-case-strategy-s2xebj, not from the source judgment text."
+    },
+    {
+      "case_id": "SCJ-042",
+      "source_basename": "West Bengal State Electricity ... vs MS Orion Metal Pvt. Ltd. on 21 August, 2019",
+      "title": "WBSEDCL v. Orion Metal (SC; theft is subset of UUE; s.126 vs s.154(5))",
+      "status": "done",
+      "note": "Built from the detailed SC-003 record on branch claude/electricity-act-case-strategy-s2xebj, not from the source judgment text."
     }
   ]
 }
