@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 147,
+  "next_seq": 152,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -880,6 +880,36 @@
       "case_id": "SCJ-146",
       "source_basename": "Vinod Kumar Kanaujiya vs State Of U.P. on 7 March, 2014",
       "title": "Vinod Kumar Kanaujiya v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-147",
+      "source_basename": "Kerala State Electricity Board vs Thomas Joseph Alias Thomas M. J. on 16 December, 2022",
+      "title": "Kerala State Electricity Board & Ors. v. Thomas Joseph Alias Thomas M.J. & Ors. (with connected appeals)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-148",
+      "source_basename": "Vinod Kumar Singh vs State Of U.P. Thru Secy. Cooperative & 5 ... on 20 August, 2014",
+      "title": "Vinod Kumar Singh v. State of U.P. Thru' Secy. Cooperative & 5 Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-149",
+      "source_basename": "Vinod Kumar Singh vs State Of U.P.& 2 Ors. on 14 July, 2014",
+      "title": "Vinod Kumar Singh v. State of U.P. & 2 Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-150",
+      "source_basename": "Vinod Kumar vs State Of U.P. & Another on 9 September, 2014",
+      "title": "Vinod Kumar v. State of U.P. & Another",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-151",
+      "source_basename": "Western Elect.Sup.Co.Of Orissa Ld. vs MS Baba Baijanath Roller & Flour Mil.Ld on 26 March, 2014",
+      "title": "Western Electricity Supply Co. of Orissa Ltd. & Ors. v. M/s Baba Baijanath Roller and Flour Mill Pvt. Ltd.",
       "status": "done"
     }
   ]
