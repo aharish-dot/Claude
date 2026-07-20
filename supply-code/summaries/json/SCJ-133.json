@@ -1,0 +1,124 @@
+{
+  "case_id": "SCJ-133",
+  "title": "Tehsil Bar Association, Sadar Tehsil Parisar, Gandhi Nagar, Ghaziabad v. U.P. Power Corporation Limited And 3 Others",
+  "neutral_citation": "2023:AHC:155009-DB",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Surya Prakash Kesarwani & Anish Kumar Gupta, JJ.",
+  "date_of_judgment": "2023-08-03",
+  "date_display": "3 August 2023",
+  "docket": "WRIT - C No. 2637 of 2023",
+  "disposition": "Writ petition allowed; respondents directed to bill electricity consumption in advocates' court-premises chambers under rate schedule LMV-1 (domestic)",
+
+  "headnote": "The legal profession is not a 'commercial activity' for electricity tariff purposes — following a long line of authority (Dr. D.M. Surti v. State of Gujarat; V. Sasidharan v. M/s Peter and Karunakar; M.P. Electricity Board v. Shiv Narayan) holding that a professional activity carried on through personal skill, intelligence and individual characteristics is fundamentally distinct from a commercial activity, an advocate's chamber cannot be billed under a non-domestic/commercial rate schedule (LMV-2) merely because the residuary Clause 13 of the tariff schedule assigns unclassified consumers to LMV-2. Since Clause 3.3(e) of the U.P. Electricity Supply Code, 2005 already recognises that professionals (including lawyers) using up to 50 sq. m. of residential space for professional/consultancy work do not attract non-domestic tariff, and long-standing licensee circulars (1983, 1985) classified lawyers' offices as LMV-1, an advocate's chamber — even one located within a court compound rather than a residential building — must be billed under rate schedule LMV-1 (domestic), not LMV-2, and licensees within the same State (governed by the same Electricity Regulatory Commission-approved rate schedule) cannot discriminate between similarly situated advocates' chambers in different court compounds.",
+
+  "holding_units": [
+    {
+      "provision": "UP-2005::3.3(e)",
+      "code": "U.P. Electricity Supply Code, 2005 (Clause 3.3(e), professional use of residential space) read with the rate schedules (LMV-1 domestic, LMV-2 non-domestic/commercial) approved by the U.P. Electricity Regulatory Commission",
+      "clause": "3.3(e) (professionals including lawyers using up to 50 sq. m. of residential space for practice/consultancy do not attract non-domestic tariff) — extended in principle to advocates' chambers within court premises",
+      "topic": "Electricity consumption in lawyers' chambers within a court compound must be billed under the domestic rate schedule (LMV-1), not the commercial/non-domestic rate schedule (LMV-2), since the legal profession is not a commercial activity and the residuary 'not covered under any rate schedule' clause (assigning unclassified consumption to LMV-2) cannot override this classification",
+      "type": "supply_code",
+      "question": "Should electricity consumed in advocates' chambers located within a court compound be billed under the commercial/non-domestic rate schedule LMV-2 (on the theory that lawyers' chambers are not expressly listed under any rate schedule and thus fall into the residuary LMV-2 category), or under the domestic rate schedule LMV-1?",
+      "holding": "LMV-1 (domestic) applies, not LMV-2. Applying the noscitur a sociis principle (Dr. D.M. Surti v. State of Gujarat) that associated words take their colour from one another, LMV-2's illustrative list (shops, hotels, restaurants, cinemas, commercial/trading establishments, etc.) reflects purely commercial/trading activities, which the legal profession — carried on through personal skill, intelligence, and individual characteristics, and traditionally prohibited from advertising or profit-sharing arrangements by Bar Council rules — is not (Dr. D.M. Surti; V. Sasidharan v. Peter and Karunakar; M.P. Electricity Board v. Shiv Narayan; Sudha v. President, Advocates Association Chennai; Ramanathan v. State of Kerala; Sakharam v. Nagpur Corporation; Arup Sarkar v. CESC). Clause 3.3(e) of the Supply Code already recognises professionals' (including lawyers') use of residential space for practice as not attracting non-domestic tariff, and pre-existing licensee circulars (28.11.1983 and 8.10.1985) classified lawyers' offices as LMV-1; while the current tariff schedule's rate-classification list does not expressly enumerate 'lawyers' chambers,' the residuary Clause 13 (assigning unclassified LMV consumers to LMV-2) cannot be applied where the activity in question is affirmatively non-commercial. The fact that the chambers are located within a court compound rather than a residential building does not change this analysis, since the court compound is itself part of judicial premises historically billed at LMV-1. Discrimination between advocates' chambers in different court compounds within the same State, where a single Electricity Regulatory Commission-approved rate schedule applies uniformly, is impermissible regardless of which distribution company serves a given district.",
+      "limiting_facts": "Advocates' chambers in the Tehsil Sadar court compound, Ghaziabad, were billed at commercial (LMV-2) rates despite (a) a prior writ order (2019) recognising LMV-1 applicability to similar chambers, (b) RTI disclosures showing the meters were categorised as domestic, and (c) similarly situated advocates' chambers at the Gautam Budh Nagar district courts (served by a different distribution company) being billed at LMV-1; the licensee's 2019 and 2023 orders relied on the residuary Clause 13 to justify LMV-2 billing, citing the absence of an express lawyers'-chambers category in the current rate schedule.",
+      "paras": "paras 8-38"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "legal-profession-not-commercial-activity-for-tariff",
+      "application": "Establishes that the legal profession, being a professional (not commercial) activity, cannot be billed under the non-domestic/commercial LMV-2 tariff merely because the current rate schedule lacks an express 'lawyers' chambers' category and a residuary clause would otherwise sweep it into LMV-2 — an important tariff-classification precedent extending Clause 3.3(e)'s residential-professional-use exemption to court-compound chambers, and a discrimination bar between districts served by different licensees under the same State ERC tariff.",
+      "lead_authorities": [
+        {"name": "Dr. D.M. Surti v. State of Gujarat", "docid": "456043"},
+        {"name": "M.P. Electricity Board and Others v. Shiv Narayan and Another", "docid": "962390"},
+        {"name": "V. Sasidharan v. M/s Peter and Karunakar", "docid": "506405"}
+      ],
+      "paras": "paras 22-34"
+    }
+  ],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "Dr. D.M. Surti v. State of Gujarat",
+      "citation": "AIR 1969 SC 63",
+      "court": "Supreme Court",
+      "docid": "456043",
+      "proposition": "A professional activity, carried on by an individual through personal skill and intelligence, is fundamentally distinct from a commercial activity; associated words in a statutory list take their colour from one another (noscitur a sociis).",
+      "how_treated": "Followed as the foundational authority for the profession/commerce distinction.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "M.P. Electricity Board and Others v. Shiv Narayan and Another",
+      "citation": "(2005) 7 SCC 283",
+      "court": "Supreme Court",
+      "docid": "962390",
+      "proposition": "An advocate's office cannot be charged additional (commercial) tariff, as the legal profession is not a commercial activity; 'non-domestic' and 'commercial' are not interchangeable terms.",
+      "how_treated": "Followed as directly controlling.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "V. Sasidharan v. M/s Peter and Karunakar",
+      "citation": "AIR 1984 SC 1700 / (1984) 4 SCC 230",
+      "court": "Supreme Court",
+      "docid": "506405",
+      "proposition": "The office of a lawyer or firm of lawyers is not a 'commercial establishment' since lawyers traditionally do not carry on trade or business or render services to 'customers'.",
+      "how_treated": "Followed.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Sudha v. President, Advocates Association, Chennai and Ors.",
+      "citation": "(2010) 14 SCC 114",
+      "court": "Supreme Court",
+      "docid": "143244221",
+      "proposition": "The legal profession is a solemn, noble calling distinct from other occupations, given its role in the administration of justice.",
+      "how_treated": "Cited in support.",
+      "cited_by": "Court",
+      "treatment": "Cited"
+    },
+    {
+      "name": "Ramanathan v. State of Kerala",
+      "citation": "1991 (1) KLJ 410",
+      "court": "Kerala High Court",
+      "docid": "132566351",
+      "proposition": "The profession of a lawyer does not involve commercial or industrial activity, in the context of the Kerala Shops and Commercial Establishments Act.",
+      "how_treated": "Followed.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Sakharam Narayan Kherdekar v. City of Nagpur Corporation",
+      "citation": "AIR 1964 Bombay 200",
+      "court": "Bombay High Court (Division Bench)",
+      "docid": "625132",
+      "proposition": "A lawyer's office is not a commercial establishment under the Bombay Shops and Establishments Act, given the personal-skill, intelligence, and individual-characteristics nature of the activity.",
+      "how_treated": "Followed.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Arup Sarkar v. C.E.S.C. Limited and Others",
+      "citation": "2020 STPL 4200 Calcutta (Writ Petition No. 18367 of 2019, decided 11.2.2020)",
+      "court": "Calcutta High Court",
+      "docid": "118834377",
+      "proposition": "A litigation lawyer's chambers, used for livelihood based on personal professional skill, is not commercial activity; directed billing under 'Domestic (Urban)' category.",
+      "how_treated": "Followed as directly analogous precedent from another State.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "B.N. Magon v. South Delhi Municipal Corporation",
+      "citation": "217 (2015) DLT 55",
+      "court": "Delhi High Court",
+      "docid": "50971748",
+      "proposition": "Cited by petitioner in support of the profession/commercial-activity distinction.",
+      "how_treated": "Cited.",
+      "cited_by": "Court",
+      "treatment": "Cited"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "case_id": "SCJ-134",
+  "title": "The State of Haryana & Ors. v. M/s Faridabad Gurgaon Minerals & Anr. (with M/s Ganpati Enterprises Slate Mines)",
+  "neutral_citation": "2026 INSC 690",
+  "court": "Supreme Court of India",
+  "bench": "Two-Judge Bench",
+  "coram": "Dipankar Datta & Satish Chandra Sharma, JJ.",
+  "date_of_judgment": "2026-07-13",
+  "date_display": "13 July 2026",
+  "docket": "Civil Appeal (arising out of SLP (Civil) Diary No. 15252 of 2017), with connected Civil Appeal (SLP (Civil) Diary No. 30225 of 2017)",
+  "disposition": "Appeals allowed; High Court judgment set aside; State entitled to enhanced royalty/dead rent, with interest on arrears capped at 12% per annum",
+
+  "headnote": "Not an electricity case — a mining-law ruling on the State's power under the Mines and Minerals (Development and Regulation) Act, 1957 (s.15) and the Punjab Minor Mineral Concession Rules, 1964 to enhance royalty and dead rent during the subsistence of a mining lease, even where the executed lease deed (unlike the preceding Auction Notice and Letter of Acceptance) is silent on applicability of the Rules. Recorded compactly given its complete absence of electricity/Supply Code nexus (it concerns quarry/mining leases, royalty, and Rules of Business under Article 166(3) of the Constitution); noted in this corpus's master citation ledger only because the case was collected among Supply Code-adjacent search results. Core holding: statutory silence in a lease deed does not extinguish the State's statutory power to revise royalty/dead rent under validly framed rules — such power forms an implied condition of every mining lease traceable to the enabling statute — and Wednesbury unreasonableness (not correctness) is the standard for judicial review of the quantum of a royalty enhancement; a decision approved by the Chief Minister satisfies Rules-of-Business requirements even without express Finance Department consultation, absent evidence of the Finance Minister's disagreement.",
+
+  "holding_units": [
+    {
+      "provision": "OFFTOPIC::mining-royalty-enhancement-statutory-contract",
+      "code": "Mines and Minerals (Development and Regulation) Act, 1957 (s.15) and Punjab Minor Mineral Concession Rules, 1964 (Rules 10, 21) — enhancement of royalty/dead rent during subsistence of a mining lease",
+      "clause": "s.15(3) MMDR Act and Rule 21(1)(i)(a)/(iii), 1964 Rules — statutory power to revise royalty/dead rent surviving despite silence in the executed lease deed",
+      "topic": "A statutory contract's silence on rate-revision does not foreclose the government's independent statutory power to enhance royalty/dead rent; such power is an implied condition of every lease traceable to the enabling statute, and judicial review of the quantum of enhancement is confined to Wednesbury unreasonableness",
+      "type": "interplay",
+      "holding": "The appeals were allowed. Though the mining lease deed itself (unlike the preceding Auction Notice and Letter of Acceptance) did not expressly incorporate Rules 10 and 21 of the 1964 Rules, those Rules formed an implied condition of the lease because the lease is a statutory grant, not a purely private contract, and mere contractual silence cannot denude the State of a power expressly conferred by s.15(3) MMDR Act and the Rules. Distinguishing Indian Aluminium Co. v. Kerala SEB (which applies only where a contract expressly and validly fetters a statutory power), the Court held that a lease deed merely fixing a rate without expressly barring future enhancement does not fetter the State's statutory revision power; following J.K. Synthetics, statutory rate-revision provisions override contrary lease terms. The 50% royalty enhancement after a 5.5-year gap (exceeding the 3-year minimum interval) was not arbitrary — judicial review of the quantum is confined to Wednesbury unreasonableness, not a merits reassessment. On the Rules of Business (Article 166(3)) challenge, the Court held that approval by the Chief Minister personally (distinguishing MRF Ltd. v. Manohar Parrikar, where an individual minister acted without Chief Ministerial knowledge) satisfied the constitutional requirement of collective responsibility, and deemed Finance Department consent could be inferred absent evidence of the Finance Minister's disagreement.",
+      "limiting_facts": "Respondents held minor-mineral (road metal, masonry stone) mining leases in Haryana granted by public auction in 2002; the executed lease deeds did not reference the 1964 Rules, though the preceding Auction Notice and Letter of Acceptance did; a 2005 notification enhanced royalty by 50% and dead rent to the permissible ceiling; respondents' writ petitions succeeded before the Punjab & Haryana High Court on grounds of contractual silence, arbitrariness, and Rules-of-Business non-compliance.",
+      "paras": "paras 21-65",
+      "flag": "Recorded compactly given complete absence of electricity/Supply Code nexus; this is a pure mining-royalty/MMDR Act ruling collected incidentally, not exhaustively digested against Supply Code doctrine."
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "statutory-contract-silence-does-not-bar-statutory-power",
+      "application": "General administrative-law doctrine (statutory power survives contractual silence, subject to the Indian Aluminium exception for express valid fetters) with potential cross-application to electricity tariff/circular-enhancement disputes in this corpus (cf. SCJ-128's retrospective-circular-application doctrine, SCJ-123's clause-enforcement holding).",
+      "lead_authorities": [
+        {"name": "Indian Aluminium Co. v. Kerala State Electricity Board", "docid": "1286590"},
+        {"name": "State of Rajasthan v. J.K. Synthetics", "docid": "1508596"}
+      ],
+      "paras": "paras 21-37"
+    }
+  ],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "Indian Aluminium Co. v. Kerala State Electricity Board",
+      "citation": "(1975) 2 SCC 414",
+      "court": "Supreme Court",
+      "docid": "1286590",
+      "proposition": "A stipulation entered into by a public authority in exercise of a statutory power, even if it fetters future exercise of the same or another statutory power, is valid and binding on the principle of harmonious construction — but this applies only to express stipulations in exercise of statutory power, not silence in a private-contract-style term.",
+      "how_treated": "Distinguished — no express fettering stipulation existed in the lease deed here.",
+      "cited_by": "Court",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "State of Rajasthan v. J.K. Synthetics Ltd.",
+      "citation": "2011 (12) SCC 518",
+      "court": "Supreme Court",
+      "docid": "1508596",
+      "proposition": "Where a mining rule prescribing interest on delayed royalty is amended, any lease-deed term prescribing a lower rate must yield to the amended rule from the date of amendment, since the rule prevails over contractual stipulations.",
+      "how_treated": "Followed as establishing that statutory rules governing a mining lease prevail over contrary lease terms.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "MRF Limited v. Manohar Parrikar",
+      "citation": "(2010) 11 SCC 374",
+      "court": "Supreme Court",
+      "docid": "814552",
+      "proposition": "Rules of Business framed under Article 166(3) are mandatory; a decision by an individual minister without the Chief Minister's knowledge, on a matter affecting State finances, is a nullity.",
+      "how_treated": "Distinguished — here the Chief Minister himself approved the decision, satisfying the constitutional requirement.",
+      "cited_by": "Court",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "Haridwar Singh v. Bagun Sumbrui & Ors.",
+      "citation": "(1973) 3 SCC 889",
+      "court": "Supreme Court",
+      "docid": "255979",
+      "proposition": "Even a revenue-enhancing decision requires mandatory Finance Department consultation under Rules of Business if taken without the Chief Minister's involvement.",
+      "how_treated": "Distinguished on facts (no Chief Ministerial involvement there, unlike here).",
+      "cited_by": "Court",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "Mineral Area Development Authority v. Steel Authority of India Ltd.",
+      "citation": "(2024) 10 SCC 1",
+      "court": "Supreme Court (Nine-Judge Bench)",
+      "docid": "",
+      "proposition": "The State acts as trustee for minerals held for public benefit and retains its constitutional regulatory and taxation powers over mineral rights notwithstanding inability to alter mining-lease clauses directly.",
+      "how_treated": "Cited in support of the State's continuing regulatory authority.",
+      "cited_by": "Court",
+      "treatment": "Cited"
+    }
+  ]
+}

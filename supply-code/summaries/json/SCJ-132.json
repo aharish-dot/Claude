@@ -1,0 +1,149 @@
+{
+  "case_id": "SCJ-132",
+  "title": "Sunil Todi & Ors. v. State of Gujarat & Anr.",
+  "neutral_citation": "(2022) 8 SCC 187",
+  "court": "Supreme Court of India",
+  "bench": "Two-Judge Bench",
+  "coram": "Dr. Dhananjaya Y. Chandrachud & A.S. Bopanna, JJ.",
+  "date_of_judgment": "2021-12-03",
+  "date_display": "3 December 2021",
+  "docket": "Criminal Appeal Nos. 1446-1447 of 2021",
+  "disposition": "Appeals dismissed; quashing petitions against the s.138 NI Act complaint rejected, matter to proceed to trial",
+
+  "headnote": "Where a cheque is issued by a power-consuming company at the commencement of a Power Supply Agreement, endorsed 'security', but the underlying commercial transaction (uninterrupted power supply) is thereafter fully performed by the generator/supplier and monthly electricity dues fall due and remain unpaid, dishonour of that cheque on presentation attracts Section 138 of the Negotiable Instruments Act, 1881 notwithstanding its 'security' label. The Explanation to s.138 defines 'debt or other liability' as a legally enforceable debt or other liability; 'other liability' has content broader than 'debt' and is not confined to a sum owed at the moment the cheque is drawn. A cheque issued in anticipation of, or in close proximity to, the commencement of a commercial relationship — here, immediately before power supply began — matures into an instrument securing a legally enforceable liability once that liability actually accrues (i.e., once electricity is supplied and billed), distinguishing Indus Airways (where the underlying purchase order was cancelled before any liability arose) and aligning with Sampelly and Sripati Singh (loan-installment security cheques maturing on due-date non-payment). Whether a cheque was truly given 'only' as security and never intended for presentation, or whether an enforceable liability in fact existed and matured, are questions of fact for trial and cannot be resolved in a quashing petition under s.482 Cr.P.C. (HMT Watches; Womb Laboratories). Directors/Managing Directors of a company are prosecutable under s.141 NI Act if in charge of and responsible for the company's business at the relevant time; whether the statutory conditions are met is ordinarily a matter for trial, not for quashing at the summoning stage.",
+
+  "holding_units": [
+    {
+      "provision": "NIACT::138-security-cheque-electricity-dues",
+      "code": "Negotiable Instruments Act, 1881 (s.138, dishonour of cheque; Explanation, 'debt or other liability'; s.141, offences by companies) applied to a Power Supply Agreement's security cheque",
+      "clause": "s.138 Explanation ('debt or other liability') and its application to a cheque issued as 'security' at the commencement of a commercial power-supply relationship, later dishonoured after electricity dues accrued and went unpaid",
+      "topic": "A cheque issued as 'security' under a Power Supply Agreement, close in time to commencement of electricity supply, matures into an instrument for a legally enforceable debt once monthly power-supply dues accrue and are unpaid, and its dishonour is prosecutable under s.138 NI Act notwithstanding the security label; whether the cheque was truly non-presentable security is a triable defence, not a ground for quashing",
+      "type": "interplay",
+      "question": "Does dishonour of a cheque issued by an electricity consumer-company as 'security' under a Power Supply Agreement, and presented after the company defaulted on its monthly electricity charges, attract Section 138 of the NI Act, or does the 'security' endorsement and the PSA's contemplated payment-by-Letter-of-Credit mechanism take it outside s.138's scope (as in Indus Airways, where an advance-payment security cheque for a cancelled purchase order was held not to secure any existing debt)?",
+      "holding": "Yes, s.138 is attracted. The Explanation's phrase 'debt or other liability' is broader than 'debt' alone and is not confined to a liability existing at the exact moment of drawing the cheque; a post-dated or security cheque issued in the context of a commercial transaction that is thereafter carried into effect (here, three months of actual power supply consumed by the company) matures for presentation once payment for that supply falls due and is not met, irrespective of the cheque's original security label — merely labelling a cheque 'security' does not obviate its character as an instrument designed to meet a legally enforceable debt once that debt accrues. Indus Airways is distinguished because there the underlying purchase order was cancelled before any debt arose, whereas here the PSA was acted upon and power was actually supplied and billed. Following Sampelly Satyanarayana Rao and Sripati Singh, and per HMT Watches and Womb Laboratories, whether the cheque was given as non-presentable security and whether an enforceable liability existed are factual defences for trial, not grounds for quashing under s.482 Cr.P.C. On s.141 NI Act company-director liability (Sunil Bharati Mittal, SMS Pharmaceuticals, Mainuddin Abdul Sattar Shaikh), the complaint's averments sufficed prima facie, and the proviso's due-diligence defence is available only at trial, not at the summoning stage. The Magistrate's summoning order, having considered the complaint, affidavit, evidence list and submissions, was not vitiated by non-application of mind; s.145 NI Act dispenses with mandatory oral examination of witnesses on oath at the s.202 Cr.P.C. inquiry stage for NI Act complaints.",
+      "limiting_facts": "R.L. Steels & Energy Ltd. (company) issued a Letter of Intent (19.12.2015) and Power Supply Agreement (24.7.2016) with the second respondent (electricity generator/supplier) for uninterrupted power supply, contemplating payment by Letter of Credit; on 30.6.2016 the company issued two cheques 'only for security deposit, to be deposited after confirmation only,' one for Rs. 2,67,84,000; power supply commenced 1.7.2016 and continued for three months; the company's LCs were allegedly non-conforming; the company terminated the PSA (20.10.2016) and instructed its bank to stop payment; the cheque was presented 31.8.2017 and dishonoured; a s.138 complaint followed against the company's directors/managing director.",
+      "paras": "paras 17-46"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "security-cheque-matures-on-accrual-of-underlying-debt",
+      "application": "Establishes that a 'security' cheque issued at the outset of a Power Supply Agreement matures into an instrument for a legally enforceable debt once electricity is actually supplied and billed and payment defaults, distinguishing Indus Airways (no debt ever arose) and aligning with the Sampelly/Sripati Singh line — a significant precedent for electricity-dues enforcement via s.138 NI Act prosecutions, complementing this corpus's civil arrears-recovery cluster (SCJ-098, SCJ-124, SCJ-125, SCJ-127) with a criminal-law enforcement mechanism.",
+      "lead_authorities": [
+        {"name": "Sampelly Satyanarayana Rao v. Indian Renewable Energy Development Agency Ltd.", "docid": ""},
+        {"name": "Sripati Singh v. State of Jharkhand", "docid": ""},
+        {"name": "Indus Airways Private Ltd. v. Magnum Aviation Private Ltd.", "docid": ""}
+      ],
+      "paras": "paras 18-30"
+    },
+    {
+      "tag": "security-vs-debt-characterisation-is-a-triable-defence",
+      "application": "Whether a cheque was truly non-presentable security or secured an existing/maturing liability is a disputed question of fact for trial, not resolvable in a s.482 Cr.P.C. quashing petition.",
+      "lead_authorities": [
+        {"name": "HMT Watches v. M.A. Habida", "docid": ""},
+        {"name": "M/s Womb Laboratories Pvt. Ltd. v. Vijay Ahuja", "docid": ""}
+      ],
+      "paras": "paras 21, 28-29"
+    },
+    {
+      "tag": "s141-director-liability-summoning-stage-not-for-quashing",
+      "application": "Company-director liability under s.141 NI Act (whether the accused was 'in charge of and responsible for' the company's business) is ordinarily determined at trial; sufficient prima facie averments in the complaint preclude quashing at the summoning stage.",
+      "lead_authorities": [
+        {"name": "Sunil Bharati Mittal v. CBI", "docid": "159121041"},
+        {"name": "SMS Pharmaceuticals Ltd. v. Neeta Bhalla", "docid": ""}
+      ],
+      "paras": "paras 42-44"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the cheque was in fact intended purely as non-presentable security, and whether the appellant-directors were genuinely in charge of the company's affairs at the relevant time",
+      "note": "Left for determination at trial.",
+      "docid": "",
+      "paras": "paras 29, 44-45"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Indus Airways Private Ltd. v. Magnum Aviation Private Ltd.",
+      "citation": "(2014) 12 SCC 539",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "A cheque issued as advance payment for a purchase order later cancelled (with no goods ever supplied) does not secure a legally enforceable debt or liability; s.138 requires a subsisting debt/liability on the date of drawing.",
+      "how_treated": "Distinguished — here, unlike Indus Airways, the underlying commercial transaction (power supply) was actually performed and a debt accrued.",
+      "cited_by": "Court",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "Sampelly Satyanarayana Rao v. Indian Renewable Energy Development Agency Ltd.",
+      "citation": "(2016) 10 SCC 458",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "A post-dated cheque given as security for loan-installment repayment matures into an instrument for a legally enforceable debt once the installment falls due and remains unpaid; the true test is whether an enforceable debt exists or has matured, not the 'security' label.",
+      "how_treated": "Followed as the controlling test, applied to the electricity-dues context.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Sripati Singh v. State of Jharkhand",
+      "citation": "2021 SCC OnLine SC 1002",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "A cheque issued as loan-repayment security matures for presentation once the loan is not repaid by the due date; a security cheque is not a 'worthless piece of paper' in all circumstances.",
+      "how_treated": "Followed.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "HMT Watches Ltd. v. M.A. Habida",
+      "citation": "(2015) 11 SCC 776",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Whether a cheque was given as security or towards an outstanding liability is a factual question determinable only at trial, not in s.482 Cr.P.C. proceedings.",
+      "how_treated": "Followed.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "M/s Womb Laboratories Pvt. Ltd. v. Vijay Ahuja",
+      "citation": "Criminal Appeal Nos. 1382-1383 of 2019, decided 11.9.2019",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "That cheques were given by way of security, and whether they secured any debt or liability, are matters of defence to be proved at trial, not grounds to quash at the threshold.",
+      "how_treated": "Followed.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Sunil Bharati Mittal v. CBI",
+      "citation": "(2015) 4 SCC 609",
+      "court": "Supreme Court (Three-Judge Bench)",
+      "docid": "159121041",
+      "proposition": "Corporate criminal liability generally cannot be imputed to individual directors absent active personal role or an express statutory vicarious-liability provision such as s.141 NI Act.",
+      "how_treated": "Cited for the framework governing director liability under s.141.",
+      "cited_by": "Court",
+      "treatment": "Cited"
+    },
+    {
+      "name": "SMS Pharmaceuticals Ltd. v. Neeta Bhalla",
+      "citation": "(2005) 8 SCC 89",
+      "court": "Supreme Court (Three-Judge Bench)",
+      "docid": "",
+      "proposition": "A Managing Director/Joint Managing Director is presumed responsible for a company's conduct of business under s.141(1) unless shown otherwise; the proviso defence must be established at trial.",
+      "how_treated": "Followed.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "In Re: Expeditious Trial of Cases under Section 138 of the N.I. Act 1881",
+      "citation": "Suo Motu Writ Petition (Crl) No. 2 of 2020, decided 16.4.2021",
+      "court": "Supreme Court (Constitution Bench)",
+      "docid": "",
+      "proposition": "s.145 NI Act dispenses with mandatory oral examination of witnesses on oath for the s.202 Cr.P.C. inquiry in s.138 complaints; complainant's evidence may be by affidavit.",
+      "how_treated": "Applied to hold the Magistrate's summoning process procedurally valid.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}

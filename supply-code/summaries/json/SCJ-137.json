@@ -1,0 +1,45 @@
+{
+  "case_id": "SCJ-137",
+  "title": "U.P. Avas Evam Vikas Parishad & Anr. v. U.P. Power Corpn. Ltd.",
+  "neutral_citation": "(2011) 14 SCC 235",
+  "court": "Supreme Court of India",
+  "bench": "Two-Judge Bench",
+  "coram": "Jagdish Singh Khehar & R.M. Lodha, JJ.",
+  "date_of_judgment": "2011-10-18",
+  "date_display": "18 October 2011",
+  "docket": "Civil Appeal No. 4209 of 2007",
+  "disposition": "Civil appeal dismissed; supervision charges of 15% (under the Electricity Supply Code, 2002) upheld from 7.6.2002 onward",
+
+  "headnote": "Where a statutory development authority is permitted, by government relaxation-order, to itself execute electrification works (transmission lines, sub-stations, L.T. distribution mains) in its own colonies/complexes that would otherwise fall exclusively to the electricity licensee as 'designated licensee,' supervision charges payable to the licensee for overseeing such delegated works are governed by whichever instrument has statutory force at the relevant time: a mere administrative office memorandum (here, prescribing 5%) is superseded, from the date of its coming into force, by a subsequently-enacted statutory Electricity Supply Code (here, prescribing 15%) framed under the State Electricity Regulatory Commission's statutory mandate, since the Code's statutory character overrides the administrative memorandum's non-statutory character. A statutory relaxation-order permitting self-execution of electrification works (without itself prescribing any supervision-charge rate) is not amended or superseded by a later Supply Code that prescribes such charges, since the relaxation-order and the charge-rate instrument address distinct subject matters. A party's later, unilateral acceptance of a supervision-charge rate under a successor Supply Code estops it from disputing an analogous rate under the code's statutory predecessor for the same reasons it now advances.",
+
+  "holding_units": [
+    {
+      "provision": "UP-2002::4.45",
+      "code": "U.P. Electricity Supply Code, 2002 (Clause 4.45, supervision charges for delegated electrification works) — predecessor to the U.P. Electricity Supply Code, 2005; framed under s.10, U.P. Electricity Reforms Act, 1999",
+      "clause": "4.45 (15% supervision charges on works executed by the applicant/delegate itself, as opposed to works executed by the Licensee) superseding an administrative office memorandum's lower rate",
+      "topic": "A statutory Electricity Supply Code's supervision-charge rate (15% under Clause 4.45 of the 2002 Code) supersedes and displaces a pre-existing, merely administrative office-memorandum rate (5%) from the Code's date of statutory force, for electrification works a statutory development authority is permitted (by a separate relaxation-order) to execute itself in its own colonies",
+      "type": "supply_code",
+      "question": "Where a statutory development authority (U.P. Avas Evam Vikas Parishad) was permitted by a 1982 government relaxation-order to execute its own colonies' electrification works (in lieu of the exclusive statutory role otherwise reserved to the electricity licensee), and paid supervision charges at 5% under a 1984 administrative office memorandum, does the subsequently-enforced U.P. Electricity Supply Code, 2002 (effective 7.6.2002), prescribing 15% supervision charges under Clause 4.45, govern from its effective date, superseding the 1984 memorandum's 5% rate?",
+      "holding": "Yes. The 1982 relaxation-order, though issued under statutory rule-making power (Rule 133(1) read with the proviso to Rule 45(1), Indian Electricity Rules, 1956), did not itself prescribe any supervision-charge rate — it merely relaxed the exclusivity otherwise vested in the 'designated licensee' to execute electrification works, subject to prescribed technical/safety conditions. Supervision charges were levied for the first time only via the 1984 office memorandum (5%), which, being a mere administrative order without statutory force, stood superseded by the U.P. Electricity Supply Code, 2002 (effective 7.6.2002, framed under s.10 of the U.P. Electricity Reforms Act, 1999, to carry out the U.P. Electricity Regulatory Commission's statutory functions), which prescribed 15% supervision charges under Clause 4.45. Since the relaxation-order and the charge-rate instrument address distinct subject matters, the Code's enhancement of the rate did not amend or supersede the relaxation-order itself. Separately, since the appellant had unilaterally accepted the analogous supervision-charge provision under the successor Electricity Supply Code, 2005 (effective 18.2.2005) without raising the same objections it now pressed against the 2002 Code, it could not consistently dispute the 2002 Code's applicability for identical reasons. The contention that higher supervision charges would raise construction costs passed on to the public was rejected as both factually speculative and legally irrelevant, given the legitimate safety/quality-assurance purpose of supervision (dangerous, safety-critical electrification work) and the appellant's freedom to instead deposit the full estimated cost and have the licensee perform the work itself.",
+      "limiting_facts": "The appellant, a statutory housing/development authority, was permitted by a 1982 Government relaxation-order to execute its own colonies' electrification works up to 11 KV; it paid 5% supervision charges under a 1984 office memorandum; a 1998 office memorandum raising the rate to 15% was disputed by the appellant; the U.P. Electricity Regulatory Commission (2006), on appeal, held the 1984 memorandum (5%) governed only up to 6.6.2002, with the 2002 Supply Code's rate applying thereafter — a determination the appellant unsuccessfully challenged before the Appellate Tribunal for Electricity (2007) and then the Supreme Court.",
+      "paras": "paras 8-13"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "statutory-supply-code-supersedes-administrative-memorandum",
+      "application": "A statutory Electricity Supply Code (framed under the ERC's statutory mandate) overrides and supersedes a pre-existing administrative office memorandum on the same subject, from the Code's effective date, given the Code's statutory character versus the memorandum's mere administrative character — a useful precedent on the hierarchy between statutory Supply Code provisions and non-statutory licensee circulars/memoranda, complementing this corpus's Clause-precedence doctrine.",
+      "lead_authorities": [],
+      "paras": "paras 10-11"
+    },
+    {
+      "tag": "unilateral-acceptance-of-successor-code-estops-challenge-to-predecessor",
+      "application": "A party that unilaterally accepts a charge/obligation under a successor Supply Code cannot consistently dispute an analogous charge under the code's statutory predecessor for the same underlying reasons.",
+      "lead_authorities": [],
+      "paras": "para 12 (second)"
+    }
+  ],
+  "not_decided": [],
+  "authorities": []
+}

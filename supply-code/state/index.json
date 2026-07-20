@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 131,
+  "next_seq": 139,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -784,6 +784,54 @@
       "case_id": "SCJ-130",
       "source_basename": "State Of Gujarat vs Utility Users Welfare Association ... on 12 April, 2018",
       "title": "State of Gujarat & Ors. v. Utility Users' Welfare Association & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-131",
+      "source_basename": "Sunil Kumar vs State Of Up And Another on 3 May, 2024",
+      "title": "Sunil Kumar v. State of U.P. And Another",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-132",
+      "source_basename": "Sunil Todi vs The State Of Gujarat on 3 December, 2021",
+      "title": "Sunil Todi & Ors. v. State of Gujarat & Anr.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-133",
+      "source_basename": "Tehsil Bar Association , Sadar Tehsil ... vs U.P. Power Corporation Limited And 3 ... on 3 August, 2023",
+      "title": "Tehsil Bar Association, Sadar Tehsil Parisar, Gandhi Nagar, Ghaziabad v. U.P. Power Corporation Limited And 3 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-134",
+      "source_basename": "The State Of Haryana vs MS Faridabad Gurgaon Minerals on 13 July, 2026",
+      "title": "The State of Haryana & Ors. v. M/s Faridabad Gurgaon Minerals & Anr.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-135",
+      "source_basename": "The State Of Karnataka By Its Chief ... vs State Of Tamil Nadu By Its Chief ... on 16 February, 2018",
+      "title": "The State of Karnataka v. State of Tamil Nadu & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-136",
+      "source_basename": "Torrent Power Limited vs U.P. Electricity Regulatory ... on 14 July, 2025",
+      "title": "Torrent Power Limited v. U.P. Electricity Regulatory Commission & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-137",
+      "source_basename": "U.P. Avas Evam Vikas Parishad & Anr vs U.P.Power Corpn Ltd on 18 October, 2011",
+      "title": "U.P. Avas Evam Vikas Parishad & Anr. v. U.P. Power Corpn. Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-138",
+      "source_basename": "U.P. Power Corporation Limited Thru ... vs Electricity Ombudsman & Ors. ( MS ... on 23 September, 2010",
+      "title": "U.P. Power Corporation Limited Thru' Executive Engineer v. Electricity Ombudsman & Ors. (M/S Suresh Automobiles)",
       "status": "done"
     }
   ]

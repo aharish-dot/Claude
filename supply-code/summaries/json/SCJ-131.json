@@ -1,0 +1,70 @@
+{
+  "case_id": "SCJ-131",
+  "title": "Sunil Kumar v. State of U.P. And Another",
+  "neutral_citation": "2024:AHC:80248",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Krishan Pahal, J.",
+  "date_of_judgment": "2024-05-03",
+  "date_display": "3 May 2024",
+  "docket": "Criminal Misc. Anticipatory Bail Application U/S 438 Cr.P.C. No. 4188 of 2024",
+  "disposition": "Anticipatory bail application allowed, subject to standard conditions",
+
+  "headnote": "Not a Supply Code merits case — an anticipatory bail order under s.438 Cr.P.C. granted to a public-servant electricity official (an Executive Engineer/Assistant Engineer-level officer who had ordered permanent disconnection of a tubewell electricity connection) facing prosecution under IPC ss.420/467/468/471/120B, applying this Court's special-circumstances framework for entertaining a s.438 application directly (Vinod Kumar v. State of U.P., affirmed by the Constitution Bench in Ankit Bharti v. State of U.P.) and the Supreme Court's Sushila Aggarwal ruling on anticipatory bail. Recorded compactly given its criminal-procedure subject matter, which is distinct from the Supply Code framework central to this project; the underlying dispute (whether Clause 4.44 of the U.P. Electricity Supply Code, 2005 was properly followed in transferring a tubewell connection from a deceased original consumer's name to a subsequent land-purchaser, and the propriety of the later disconnection) is noted only as background context.",
+
+  "holding_units": [
+    {
+      "provision": "OFFTOPIC::anticipatory-bail-electricity-official-fraud-prosecution",
+      "code": "Cr.P.C. s.438 (anticipatory bail) — special-circumstances framework for direct High Court application; Clause 4.44, U.P. Electricity Supply Code, 2005 (transfer of connection) as background facts only",
+      "clause": "s.438 Cr.P.C. anticipatory bail, applying Vinod Kumar/Ankit Bharti special-circumstances test and Sushila Aggarwal",
+      "topic": "Anticipatory bail granted to an electricity department official prosecuted for fraud/forgery in connection with a disputed tubewell-connection transfer and disconnection, applying the settled special-circumstances test for direct High Court applications under s.438",
+      "type": "electricity_act",
+      "holding": "Anticipatory bail allowed. The applicant, an Assistant/Executive Engineer who had ordered disconnection of a tubewell connection at the request of the transferee-consumer (Smt. Shashi Kanta, whose transfer application under Clause 4.44 of the Supply Code was supported by a registered sale deed, mutation records, and regular bill payments), was found to have no personal antecedents, held a public-servant post without sanction to prosecute under s.197 Cr.P.C., and the case fell within the recognised special circumstances (Vinod Kumar, Ankit Bharti) justifying direct High Court recourse; following Sushila Aggarwal v. State (NCT of Delhi), anticipatory bail was granted till conclusion of trial subject to standard conditions.",
+      "limiting_facts": "The complainant/informant (a practising advocate) alleged that his father's tubewell electricity connection was fraudulently transferred to Smt. Shashi Kanta and disconnected in collusion with departmental officials, including the applicant; the applicant's defence, supported by revenue records and Clause 4.44 documentation, was that the transfer followed a valid registered sale of the underlying land and tubewell.",
+      "paras": "unnumbered order (full text)",
+      "flag": "Recorded compactly given its criminal-procedure/anticipatory-bail subject matter; the Clause 4.44 transfer-of-connection background is incidental to the bail analysis and not independently adjudicated."
+    }
+  ],
+
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Merits of the fraud/forgery allegations concerning the tubewell connection transfer and disconnection",
+      "note": "Expressly left open for trial; the Court disclaimed any opinion on the ultimate merits.",
+      "docid": "",
+      "paras": "para 28"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Vinod Kumar v. State of Uttar Pradesh",
+      "citation": "",
+      "court": "Allahabad High Court (Full Bench)",
+      "docid": "842560",
+      "proposition": "Sets out the special-circumstances test for entertaining a s.438 Cr.P.C. application directly before the High Court without first approaching the Court of Sessions.",
+      "how_treated": "Applied.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Ankit Bharti v. State of U.P.",
+      "citation": "",
+      "court": "Allahabad High Court (Constitution Bench)",
+      "docid": "39550418",
+      "proposition": "Affirms Vinod Kumar's special-circumstances framework for direct High Court applications under s.438 Cr.P.C.",
+      "how_treated": "Applied.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Sushila Aggarwal v. State (NCT of Delhi)",
+      "citation": "",
+      "court": "Supreme Court",
+      "docid": "123660783",
+      "proposition": "Governing law on the grant and duration of anticipatory bail under s.438 Cr.P.C.",
+      "how_treated": "Applied.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}

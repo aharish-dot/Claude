@@ -1,0 +1,85 @@
+{
+  "case_id": "SCJ-136",
+  "title": "Torrent Power Limited v. U.P. Electricity Regulatory Commission & Ors.",
+  "neutral_citation": "2025 INSC 838",
+  "court": "Supreme Court of India",
+  "bench": "Two-Judge Bench",
+  "coram": "J.B. Pardiwala & R. Mahadevan, JJ.",
+  "date_of_judgment": "2025-07-14",
+  "date_display": "14 July 2025",
+  "docket": "Civil Appeal No. 23514 of 2017",
+  "disposition": "Appeal allowed; APTEL's order (affirming UPERC's order constituting an Expert Committee to review a distribution franchisee's performance) set aside",
+
+  "headnote": "A distribution franchisee appointed under the seventh proviso to Section 14 of the Electricity Act, 2003 is the agent of the distribution licensee, which alone is accountable to consumers and to the Electricity Regulatory Commission (ERC) for the franchisee's conduct; the Act does not envisage direct regulatory oversight of a franchisee by an ERC, and an investigation under Section 128 (which requires the ERC's 'satisfaction' that a licensee has failed to comply with its licence or the Act) cannot be ordered to micromanage or review a franchisee's performance metrics (loss reduction, collection efficiency) absent a concrete showing that the distribution licensee itself has violated its licence conditions or the Act/Regulations. An ERC's jurisdiction to entertain a 'public interest' petition under Section 128/129 is confined to matters where the Act itself mandates public-interest consideration (tariff determination, power procurement, licensee/utility management safeguarding consumer interest) — bare allegations without documentation or a demonstrated tariff-order violation do not meet the threshold. Cross-subsidisation of a franchisee's below-bulk-supply input rate by consumers in a licensee's other areas is not, standing alone, an impermissible or unlawful practice, since input-rate franchisee models in high-loss areas inherently require rates below the average bulk supply cost to attract viable bids; courts will not second-guess the wisdom of such a commercial/regulatory arrangement absent evidence of illegality.",
+
+  "holding_units": [
+    {
+      "provision": "EA2003::14-franchisee-agency",
+      "code": "Electricity Act, 2003 (s.2(27) 'franchisee'; seventh proviso to s.14; s.128, investigation of licensees) read with the Conditions of Distribution License Regulations, 2004 (Clauses 4, 5.8-5.11, 7)",
+      "clause": "Seventh proviso to s.14 and s.2(27) — a distribution franchisee is the agent of the distribution licensee, which alone bears regulatory accountability; s.128 investigation confined to the licensee, not the franchisee",
+      "topic": "A distribution franchisee, being the statutory agent of the distribution licensee under s.2(27)/seventh proviso to s.14, is not directly subject to ERC regulatory oversight; an ERC's Section 128 investigation power can only be exercised against the distribution licensee (on a showing of licence/Act violation), not to review or micromanage a franchisee's performance metrics",
+      "type": "electricity_act",
+      "question": "Does an Electricity Regulatory Commission have jurisdiction under Section 128/129 of the Electricity Act, 2003 to investigate and review the performance (loss-reduction levels, collection efficiency, benefit-passthrough to consumers) of a distribution franchisee appointed by a distribution licensee, on a petition alleging that the franchisee arrangement was not adequately benefiting consumers?",
+      "holding": "No, not directly against the franchisee, and not as a bare performance review. The relationship between distribution licensee and franchisee is one of agency (principal-agent), following APTEL's reasoning in City Corporation Ltd. v. MERC: the franchisee is accountable only to the licensee, and the licensee alone is accountable to consumers and the ERC. The Act contains no provision for direct ERC regulatory oversight of a franchisee — Part IV (ss.12-24) regulates only the licensee. An investigation under s.128 requires the ERC's 'satisfaction,' based on concrete grounds, that the licensee has failed to comply with licence conditions or the Act/Regulations; bare, undocumented allegations (as here, where neither the petitioner nor the subsequently-appointed Expert Committee identified any specific tariff-order or licence violation) do not meet this threshold. While cross-subsidisation of a franchisee's below-bulk-supply input rate by other consumers is a legitimate feature of input-based franchisee models in high-loss areas (a low bid input rate reflects anticipated high capital investment, not misrepresentation), the UPERC and APTEL erred in ordering an open-ended performance review of the franchisee's collection efficiency and loss-reduction trends absent any finding of licensee non-compliance; such micromanagement of a franchisee transaction, without a specific Act/licence violation, exceeds the ERC's statutory mandate. The petition under s.128 was accordingly not maintainable, and the impugned orders were set aside.",
+      "limiting_facts": "Respondent no. 3 (DVVNL), an Agra-area distribution licensee, appointed the appellant (Torrent Power Ltd.) as an input-based distribution franchisee under a 2009 Distribution Franchisee Agreement (supplemented in 2010); a private individual (respondent no. 4) filed a petition before UPERC in 2012 alleging violation of s.17 (transfer of utility without Commission approval) and questioning whether the franchisee arrangement benefited consumers; UPERC (2015) held the petition maintainable on public-interest grounds and constituted an Expert Committee to assess the franchisee's performance since 2009-10; APTEL (2016) affirmed on a different rationale (regulatory oversight over licensee functions, not public interest litigation); the Expert Committee's 2017 report found mixed results (improving collection efficiency but slow loss reduction and poor DVVNL-arrears recovery by the franchisee).",
+      "paras": "paras 49-77 (Analysis parts (ii)-(iv)); Conclusion paras 78-81"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "franchisee-is-agent-of-licensee-not-directly-regulable",
+      "application": "Establishes that a distribution franchisee under s.2(27)/seventh proviso to s.14 is the licensee's agent, insulated from direct ERC regulatory oversight; an ERC's s.128 investigation power reaches only the licensee, requiring a concrete showing of licence/Act non-compliance rather than a bare performance review — a significant precedent for this corpus's regulatory-architecture cluster (alongside SCJ-130's SERC-composition ruling and SCJ-106's APTEL-jurisdiction ruling), clarifying the limits of ERC oversight over distribution-delegation arrangements.",
+      "lead_authorities": [
+        {"name": "City Corporation Limited v. Maharashtra Electricity Regulatory Commission and Anr.", "docid": "64146401"}
+      ],
+      "paras": "paras 73, 75-77"
+    },
+    {
+      "tag": "cross-subsidisation-of-franchisee-input-rate-not-per-se-unlawful",
+      "application": "Cross-subsidisation of a franchisee's below-bulk-supply input rate by a licensee's other-area consumers is a legitimate feature of input-based franchisee models addressing high-loss areas, and is not by itself a ground to invalidate the arrangement absent evidence of illegality or misrepresentation.",
+      "lead_authorities": [],
+      "paras": "paras 66, 72"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether DVVNL (the distribution licensee) itself, as opposed to the franchisee, could be investigated under s.128 for licence/Act non-compliance on a properly particularised petition",
+      "note": "Left open; the Court held the threshold was not met on the facts of this petition, without foreclosing a properly grounded future petition against the licensee.",
+      "docid": "",
+      "paras": "para 77"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "City Corporation Limited v. Maharashtra Electricity Regulatory Commission and Anr.",
+      "citation": "2024 SCC OnLine APTEL 103",
+      "court": "Appellate Tribunal for Electricity",
+      "docid": "64146401",
+      "proposition": "A distribution franchisee is the agent of the distribution licensee (its principal); the licensee alone is accountable to consumers and to the ERC's regulatory jurisdiction; an ERC lacks jurisdiction to adjudicate a petition filed by a franchisee, or to apply a licensee's tariff order to the franchisee directly.",
+      "how_treated": "Followed and extensively quoted as establishing the agency framework governing licensee-franchisee relationships.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Citizen Forum Maharashtra v. State of Maharashtra",
+      "citation": "W.P. No. 3701 of 2007, Bombay High Court (Nagpur Bench), decided 12.2.2008",
+      "court": "Bombay High Court",
+      "docid": "",
+      "proposition": "Upheld the power of a distribution licensee to appoint a distribution franchisee for consumer benefit.",
+      "how_treated": "Noted/cited by the distribution licensees in support of the franchisee arrangement's validity.",
+      "cited_by": "Court",
+      "treatment": "Cited"
+    },
+    {
+      "name": "Global Feeds Feedback Energy Distribution Company Private Ltd. v. Government of Odisha",
+      "citation": "2019 SCC OnLine Ori 205",
+      "court": "Orissa High Court",
+      "docid": "",
+      "proposition": "The contractual terms between a distribution licensee and its franchisee are privy to those parties, absent a specific statutory provision regulating that relationship.",
+      "how_treated": "Followed.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}
