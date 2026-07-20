@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 123,
+  "next_seq": 131,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -736,6 +736,54 @@
       "case_id": "SCJ-122",
       "source_basename": "Shyam Ferrous Ltd. Gopal Nagar vs State Of U.P. & 6 Others on 23 December, 2015",
       "title": "Shyam Ferrous Ltd. Gopal Nagar v. State of U.P. & 6 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-123",
+      "source_basename": "Sigma Castings Ltd & Another vs Pvvnl And Others on 12 September, 2013",
+      "title": "Sigma Castings Ltd. & Another v. Purvanchal Vidyut Vitran Nigam Ltd. & Ors. (with Kundan Castings, PVVNL v. Vidyut Lokpal, Shyam Ferrous Ltd.)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-124",
+      "source_basename": "Smt. Beena Dubey vs M.D. Kanpur Electricity Supply Co. Ltd. ... on 21 September, 2017",
+      "title": "Smt. Beena Dubey v. M.D. Kanpur Electricity Supply Co. Ltd. & 4 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-125",
+      "source_basename": "Smt. Pawan Jha @ Priya Jha vs State Of U.P. And Others on 26 May, 2011",
+      "title": "Smt. Pawan Jha @ Priya Jha v. State of U.P. And Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-126",
+      "source_basename": "Smt. Vimla Tiwari vs State Of U.P. And Others on 20 April, 2012",
+      "title": "Smt. Vimla Tiwari v. State of U.P. And Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-127",
+      "source_basename": "Spl.Officer Com.North Eas.Elc.Co.& ... vs MS Raghunath Paper Mills P.Ltd.& Anr on 9 November, 2012",
+      "title": "Special Officer, Commerce, North Eastern Electricity Company of Orissa (NESCO) & Anr. v. M/s Raghunath Paper Mills Private Limited & Anr.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-128",
+      "source_basename": "Sri Chandra Mohan Goyal vs U.P. Power Corporation Ltd. & Others on 20 December, 2018",
+      "title": "Sri Chandra Mohan Goyal v. U.P. Power Corporation Ltd. & Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-129",
+      "source_basename": "Sri Piyush Kumar vs State Of U.P. Thru' Secretary Lucknow ... on 27 March, 2012",
+      "title": "Sri Piyush Kumar v. State of U.P. Thru' Secretary Lucknow And Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-130",
+      "source_basename": "State Of Gujarat vs Utility Users Welfare Association ... on 12 April, 2018",
+      "title": "State of Gujarat & Ors. v. Utility Users' Welfare Association & Ors.",
       "status": "done"
     }
   ]

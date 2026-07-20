@@ -1,0 +1,142 @@
+{
+  "case_id": "SCJ-123",
+  "title": "Sigma Castings Ltd. & Another v. Purvanchal Vidyut Vitran Nigam Ltd. & Others (with Kundan Castings (P) Ltd.; PVVNL v. Vidyut Lokpal; M/s Shyam Ferrous Ltd.)",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Ashok Bhushan & Manoj Kumar Gupta, JJ.",
+  "date_of_judgment": "2013-09-12",
+  "date_display": "12 September 2013",
+  "docket": "Civil Misc. Writ Petition No. 3467 of 2008 (connected with Nos. 3466, 16216, 44169 of 2008)",
+  "disposition": "Writ petitions disposed of variously — bank-guarantee conditions quashed; independent-feeder requirement upheld; Electricity Ombudsman's award quashed",
+
+  "headnote": "Clause 3.4(a) of the U.P. Electricity Supply Code, 2005's mandatory independent-feeder requirement for load of 1000 KVA and above to Arc/Induction furnaces, Rolling Mills, Re-rolling Mills and Mini steel plants applies to BOTH new connections AND applications for enhancement of load — whether or not the enhancement results in a change of system or voltage of supply under Clause 4.43(b)/(c) — since Clause 3.4 is a substantive provision using the word 'only', which cannot be rendered otiose by a narrower reading of Clause 4.43 (a purely procedural/time-frame provision); harmonious construction requires reading Clause 4.43 together with, not in isolation from, Clause 3.4. A licensee's mixed feeder (serving multiple unrelated consumers/processes) is not an 'independent feeder' within Clause 2.2(ff), so Clause 3.4(d)'s tapping-permission provision (for independent feeders where separate-feeder construction is infeasible) cannot be invoked to justify tapping a mixed feeder for Clause 3.4(a)-covered industries. An Electricity Ombudsman's award must be consistent with the Act and the Supply Code (Regulation 11, UPERC Consumer Grievance Redressal Forum & Ombudsman Regulations, 2007); an award directing supply via a mixed feeder in derogation of Clause 3.4(a) exceeds the Ombudsman's jurisdiction and is quashed, following Punjab SEB v. Vishwa Calibere Builders (Ombudsman cannot direct regularisation/relief absent statutory/regulatory basis). A prior instance of a licensee mistakenly or inadvertently supplying another Clause 3.4(a) consumer via a mixed feeder cannot found a claim of discriminatory treatment under Article 14, since Article 14 does not guarantee negative equality (following Chandigarh Administration v. Jagjit Singh; State of Orissa v. Mamata Mohanty).",
+
+  "holding_units": [
+    {
+      "provision": "UP-2005::3.4",
+      "code": "U.P. Electricity Supply Code, 2005 (Clauses 2.2(ff), 3.4, 4.6, 4.7, 4.8, 4.43)",
+      "clause": "3.4(a) (mandatory independent feeder, ≥1000 KVA) vis-a-vis Clause 4.43(b)/(c) (load-enhancement procedure)",
+      "topic": "Clause 3.4(a)'s mandatory independent-feeder requirement for the specified heavy industries applies to load-enhancement applications as well as new connections, regardless of whether the enhancement changes the system/voltage of supply under Clause 4.43(b)/(c)",
+      "type": "supply_code",
+      "question": "Does Clause 3.4(a)'s mandatory independent-feeder requirement (for load of 1000 KVA and above to specified heavy industries) apply only to new connections/Clause 4.43(c) enhancements involving a system/voltage change, or does it also apply to Clause 4.43(b) enhancements not involving such a change?",
+      "holding": "Clause 3.4(a) applies to both. It is wide enough, and uses the word 'only', to cover both new connections and additional-load applications without qualification — Clause 4.43 (which only prescribes time-frames/procedure) cannot be read to narrow this substantive requirement; a harmonious construction requires reading Clause 4.43 alongside, not divorced from, Clause 3.4. Accordingly, after the Supply Code's 18.2.2005 commencement, any release of 1000 KVA-plus load to Clause 3.4(a) industries — whether by new connection or load enhancement, and whether or not it changes the system/voltage — must be through an independent feeder.",
+      "limiting_facts": "Sigma Castings and Kundan Castings sought enhancement of already-sanctioned high-tension loads (from 2700 to 5700 KVA, and 3410 to 6510 KVA respectively) via their existing mixed 33 KV feeders, arguing their applications (not involving a system/voltage change) fell under the lighter Clause 4.43(b) procedure and outside Clause 3.4's independent-feeder mandate.",
+      "paras": "paras 17-28"
+    },
+    {
+      "provision": "UP-2005::2.2(ff)",
+      "code": "U.P. Electricity Supply Code, 2005 (Clause 2.2(ff), 'independent feeder' definition) vis-a-vis UPERC Consumer Grievance Redressal Forum & Ombudsman Regulations, 2007 (Regulation 11)",
+      "clause": "2.2(ff) ('independent feeder' — single consumer/similar-process group) vis-a-vis a licensee's 'mixed feeder' (serving multiple unrelated consumers)",
+      "topic": "A licensee's mixed feeder is not an 'independent feeder' under Clause 2.2(ff), so Clause 3.4(d)'s tapping-permission provision cannot justify an Electricity Ombudsman directing supply of a Clause 3.4(a)-covered load via a mixed feeder; such an award, being inconsistent with the Supply Code, exceeds the Ombudsman's Regulation 11 jurisdiction and is quashed",
+      "type": "supply_code",
+      "question": "Can the Electricity Ombudsman direct a licensee to supply Clause 3.4(a)-covered load (1000 KVA+) via its existing mixed feeder (rather than a newly-constructed independent feeder), relying on Clause 3.4(d)'s tapping-permission provision and on instances of the licensee having previously done so for other consumers?",
+      "holding": "No. Clause 2.2(ff) defines 'independent feeder' as one supplying a single consumer or group of consumers with a similar process; a mixed feeder serving thousands of differently-processed industries (here, ~5110-11250 industries) does not qualify, so Clause 3.4(d) (which permits tapping of an existing independent feeder where separate-feeder construction is infeasible) has no application to a mixed feeder. The Electricity Ombudsman's award directing supply via the mixed feeder — vague as to duration and contrary to Clause 3.4(a) — exceeded its Regulation 11 jurisdiction (which confines awards to what is consistent with the Act and Supply Code, per Punjab SEB v. Vishwa Calibere Builders) and was quashed. Prior instances of the licensee mistakenly supplying other Clause 3.4(a) consumers via the mixed feeder (M/s Nitin Spat) do not found a valid discrimination claim, since Article 14 guarantees no negative equality (Chandigarh Administration v. Jagjit Singh; State of Orissa v. Mamata Mohanty) — a prior illegality cannot be perpetuated on that ground.",
+      "limiting_facts": "M/s Shyam Ferrous Ltd. sought a new 3000 KVA connection via the same 33 KV Fatehpur mixed feeder, obtaining a favourable Electricity Ombudsman award (18.1.2008) directing PVVNL to supply via that feeder, citing difficulty (railway line, agricultural land crossing) in constructing an independent feeder and pointing to two prior consumers (M/s Laxmi Cotsyn, M/s Nitin Spat) supplied via the same mixed feeder.",
+      "paras": "paras 29-48"
+    },
+    {
+      "provision": "UP-2005::4.49",
+      "code": "U.P. Electricity Supply Code, 2005 (Clause 4.49) — bank guarantee for disputed/pending dues as condition of a fresh sanction",
+      "clause": "4.49 (bank guarantee condition) — factual basis required",
+      "topic": "A condition requiring a bank guarantee for alleged 'arrears' as a precondition to releasing enhanced load is quashed where the underlying assessment giving rise to the alleged arrears was already conclusively revised and paid, with the revision having attained finality; the licensee may, however, later demand a guarantee for genuinely subsequently-arising dues",
+      "type": "supply_code",
+      "holding": "The Rs. 3.74 crore bank-guarantee condition imposed on Sigma Castings (and, derivatively, on its purported sister-concern Kundan Castings) was quashed, since the underlying 1995 theft-based assessment had been conclusively revised down (from Rs. 3.39 crore to Rs. 9.68 lakh) and paid, with the revision upheld and attained finality in a 2006-dismissed writ petition by UPPCL — a fact PVVNL's counter affidavit did not deny. However, it was left open to PVVNL to require the consumer to clear (or furnish a guarantee for) any dues genuinely accrued since the December 2007 office memorandum (e.g. dishonoured cheques, peak-hour penalties, unpaid current bills), since raising this did not amount to impermissibly supporting the original order on undisclosed grounds.",
+      "limiting_facts": "PVVNL demanded a Rs. 3.74 crore bank guarantee from Sigma Castings (and an identical guarantee from Kundan Castings, alleged to be its sister concern) as a condition of releasing enhanced load, based on a stale, already-superseded 1995 theft assessment.",
+      "paras": "paras 49-53"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "clause-3.4a-covers-enhancement-not-just-new-connections",
+      "application": "Clause 3.4(a)'s mandatory independent-feeder requirement for the specified heavy industries applies to load-enhancement applications as well as new connections — a significant clarification refining SCJ-101 (Pawan Kumar Agarwal) and SCJ-094 (Northern Coalfield) on the scope of Clause 3.4.",
+      "lead_authorities": [],
+      "paras": "paras 24-28"
+    },
+    {
+      "tag": "mixed-feeder-not-independent-feeder-ombudsman-cannot-override-code",
+      "application": "A mixed feeder serving multiple unrelated consumers is not an 'independent feeder' under Clause 2.2(ff); an Electricity Ombudsman award directing supply via a mixed feeder in derogation of Clause 3.4(a) exceeds Regulation 11 jurisdiction and is quashed.",
+      "lead_authorities": [{"name": "Punjab State Electricity Board v. Vishwa Calibere Builders Pvt. Ltd.", "docid": ""}],
+      "paras": "paras 29-39"
+    },
+    {
+      "tag": "no-negative-equality-in-electricity-supply-decisions",
+      "application": "A licensee's prior mistaken/inadvertent supply of another similarly-situated consumer via a non-compliant route cannot be invoked to compel repetition of that illegality for a different consumer — Article 14 does not guarantee negative equality.",
+      "lead_authorities": [{"name": "Chandigarh Administration v. Jagjit Singh", "docid": "373000"}, {"name": "State of Orissa v. Mamata Mohanty", "docid": ""}],
+      "paras": "paras 43-48"
+    }
+  ],
+
+  "not_decided": [
+    {
+      "point": "Quantum of any post-December-2007 arrears (dishonoured cheques, peak-hour penalties, unpaid current bills) against Sigma Castings",
+      "note": "Left open for PVVNL to examine and, if warranted, issue fresh orders/demand a guarantee.",
+      "docid": "",
+      "paras": "para 51"
+    }
+  ],
+
+  "authorities": [
+    {
+      "name": "Punjab State Electricity Board v. Vishwa Calibere Builders Pvt. Ltd.",
+      "citation": "(2010) 4 SCC 539",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "In the absence of a provision in the Act or Regulations, an Electricity Ombudsman commits jurisdictional error by directing regularisation of unauthorised use of electricity or refund of alleged excess charges.",
+      "how_treated": "Applied as the controlling authority on the limits of Ombudsman jurisdiction.",
+      "cited_by": "Respondent (PVVNL)",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Canara Bank v. P.R.N. Upadhyaya & Others",
+      "citation": "(1998) 6 SCC 526",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "A Banking Ombudsman (analogous statutory scheme) is bound by governing circulars/directions and cannot issue directions in ignorance of them.",
+      "how_treated": "Applied by analogy to confirm the Electricity Ombudsman's award must conform to the governing Supply Code.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Pawan Kumar Agrawal v. State of U.P. & Others",
+      "citation": "Writ Petition No. 31019 of 2007, judgment dated 12.10.2007",
+      "court": "Allahabad High Court",
+      "docid": "",
+      "proposition": "M/s Laxmi Cotsyn Ltd. (a textile-dyeing industry) is not covered by Clause 3.4(a) and cannot be compelled to construct an independent feeder at its own cost; it is entitled to a new connection from the existing mixed feeder.",
+      "how_treated": "Distinguished as involving a non-Clause-3.4(a) industry, unlike the petitioners here who conceded coverage by Clause 3.4(a).",
+      "cited_by": "Petitioners (for discrimination plea)",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "Chandigarh Administration v. Jagjit Singh",
+      "citation": "1995 (1) SCC 745; AIR 1995 SC 705",
+      "court": "Supreme Court",
+      "docid": "373000",
+      "proposition": "The mere fact an authority passed a particular (possibly illegal) order for another similarly-situated person cannot found a discrimination-based claim to have that illegality repeated; Article 14 does not envisage negative equality.",
+      "how_treated": "Applied to reject the discrimination plea based on the Nitin Spat precedent.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "State of West Bengal v. Dabasish Mukherjee",
+      "citation": "(2011) 14 SCC 187",
+      "court": "Supreme Court",
+      "docid": "1043630",
+      "proposition": "Equality before law is a positive concept, not enforceable negatively; an inadvertent illegal benefit to one person does not confer a legal right on others to the same benefit.",
+      "how_treated": "Applied for the negative-equality principle.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "State of Orissa v. Mamata Mohanty",
+      "citation": "(2011) 3 SCC 436",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Article 14 is not meant to perpetuate illegality and does not envisage negative equality; an inadvertent benefit granted to others does not confer a right to the same relief.",
+      "how_treated": "Applied alongside Chandigarh Administration and Dabasish Mukherjee for the negative-equality principle.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}

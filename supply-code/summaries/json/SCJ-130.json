@@ -1,0 +1,152 @@
+{
+  "case_id": "SCJ-130",
+  "title": "State of Gujarat & Ors. v. Utility Users' Welfare Association & Ors.",
+  "neutral_citation": "(2018) 6 SCC 21",
+  "court": "Supreme Court of India",
+  "bench": "Two-Judge Bench",
+  "coram": "Sanjay Kishan Kaul & J. Chelameswar, JJ.",
+  "date_of_judgment": "2018-04-12",
+  "date_display": "12 April 2018",
+  "docket": "Civil Appeal No. 14697 of 2015 (with C.A. No. 13451/2015, T.C.(C) Nos. 137-140/2015, C.A. Nos. 3759-3760/2016, T.P.(C) No. 974/2016)",
+  "disposition": "Appeals and transferred cases disposed of per the conclusions below; challenge to Tamil Nadu State Commission appointments and suo motu tariff revision rejected; parties to bear own costs",
+
+  "headnote": "Not a Supply Code case — a landmark ruling on the institutional architecture of the Electricity Act, 2003's State Electricity Regulatory Commissions (SERCs): whether s.84(2)'s provision that the State Government 'may' appoint a sitting/former High Court Judge as Chairperson should be read as mandatory ('shall'). Recorded compactly given its scale (~84 printed pages) and its subject (SERC composition/judicial-member architecture), which is distinct from the U.P. Electricity Supply Code's retail billing/assessment/disconnection framework central to this project; not exhaustively digested. Core holding: s.84(2) is merely an enabling provision, not mandatory, so a State Government is not obliged to appoint a Judge as Chairperson. However, because the SERC exercises adjudicatory functions with the 'trappings of a court' under ss.86(1)(f), 94-96 (particularly adjudicating licensee-generator disputes), the Supreme Court held it mandatory that at least one Member possess legal expertise (a person who is, or has been, holding judicial office, or possessing professional legal qualifications and substantial practice experience sufficient to qualify for appointment as a High Court or District Judge), and mandatory that any Bench discharging an adjudicatory function include such a legally-qualified Member. The ruling applies prospectively (not disturbing past Commission orders); the next vacancy in any State Commission lacking such a legal Member must be filled by one.",
+
+  "holding_units": [
+    {
+      "provision": "OFFTOPIC::serc-composition-judicial-member-requirement",
+      "code": "Electricity Act, 2003 (ss.84(2), 85, 86(1)(f), 94-96, 112-113) — composition of State Electricity Regulatory Commissions",
+      "clause": "s.84(2) ('may' appoint a Judge as Chairperson — enabling, not mandatory) read with the mandatory-legal-Member holding derived from ss.86(1)(f), 94-96 (adjudicatory functions/'trappings of a court')",
+      "topic": "s.84(2)'s discretion to appoint a High Court Judge as SERC Chairperson is not mandatory, but given the SERC's adjudicatory functions and 'trappings of a court', it is mandatory that at least one Member possess legal/judicial qualifications, and that any adjudicatory Bench include such a Member",
+      "type": "electricity_act",
+      "question": "Must the Chairperson of a State Electricity Regulatory Commission under s.84(2) of the Electricity Act, 2003 be a sitting/former High Court Judge, given the word 'may' in the provision and the SERC's quasi-judicial dispute-adjudication function under s.86(1)(f)?",
+      "holding": "No, s.84(2) is only an enabling provision permitting (not requiring) appointment of a Judge as Chairperson. But because the SERC discharges adjudicatory functions (chiefly under s.86(1)(f), adjudicating licensee-generating-company disputes) with civil-court-like powers under ss.94-96 and thus has the 'trappings of a court' (following the Constitution Bench's basic-structure reasoning in Madras Bar Association v. Union of India on separation of powers, rule of law, and judicial review), it is mandatory that the Commission include, as a Member, a person who is or has been holding judicial office or who possesses professional legal qualifications with substantial practice experience sufficient to qualify for appointment as a High Court or District Judge; and any Bench exercising adjudicatory functions must include such a legally-qualified Member. Prospective operation was directed (no disturbance of past Commission orders); vacancies must prospectively be filled to satisfy this requirement. The Tamil Nadu State Commission's specific appointments and its suo motu tariff-revision exercise were separately upheld on the facts (no established financial-bias disqualification under Rajesh Awasthi/Mor Modern Cooperative Transport Society).",
+      "limiting_facts": "Consolidated appeals/transfer petitions arising from conflicting Madras and Gujarat High Court rulings on whether s.84(2) mandates a judicial Chairperson for SERCs; the Union of India and several State Commissions argued for a purely enabling reading (functions being largely technical/tariff-related), while consumer/activist interveners and the Gujarat High Court's view favoured a mandatory judicial-mind requirement given the Commission's adjudicatory powers.",
+      "paras": "paras 104-114 (conclusions at para 114)",
+      "flag": "Recorded compactly given scale (~84 pages) and subject-matter distance from the Supply Code's retail billing/assessment/disconnection framework; the extensive mid-judgment citation discussion (paras ~43-104, not fully read) was not exhaustively catalogued."
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "serc-mandatory-legal-member-not-mandatory-judicial-chairperson",
+      "application": "Landmark Electricity Act institutional-architecture ruling: s.84(2) enabling (not mandatory) as to a judicial Chairperson, but mandatory legal/judicial Member requirement for any SERC exercising adjudicatory functions — foundational for any future case in this corpus touching SERC composition or the validity of Commission-level adjudicatory orders.",
+      "lead_authorities": [
+        {"name": "Union of India v. Madras Bar Association (MJ-I)", "docid": "522930"},
+        {"name": "Madras Bar Association v. Union of India (MJ-II)", "docid": "181443842"},
+        {"name": "Tamil Nadu Generation and Distribution Corporation Ltd. v. PPN Power Generating Company Pvt. Ltd.", "docid": "166466557"}
+      ],
+      "paras": "paras 104-114"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether advisory/regulatory and adjudicatory functions should be split into two separate bodies",
+      "note": "Left to legislative wisdom (citing Brahm Dutt v. Union of India); not decided by the Court.",
+      "docid": "1029167",
+      "paras": "para 108"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Union of India v. Madras Bar Association",
+      "citation": "(2010) 11 SCC 1",
+      "court": "Supreme Court (Constitution Bench)",
+      "docid": "522930",
+      "proposition": "Tribunals substituting for court jurisdiction should possess the same independence/security/capacity as the courts they replace; members discharging judicial functions must be drawn from sources possessing legal expertise.",
+      "how_treated": "Applied (with qualification, since no jurisdiction transfer from courts was involved here) to require a legally-qualified Member.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Madras Bar Association v. Union of India & Anr.",
+      "citation": "(2014) 10 SCC 1",
+      "court": "Supreme Court (Constitution Bench)",
+      "docid": "181443842",
+      "proposition": "Held the National Tax Tribunal Act unconstitutional on grounds including inadequate provision for judicial members; separation of powers/judicial review are part of the basic structure.",
+      "how_treated": "Relied upon for the basic-structure/legal-Member reasoning.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Tamil Nadu Generation and Distribution Corporation Ltd. v. PPN Power Generating Company Pvt. Ltd.",
+      "citation": "(2014) 11 SCC 53",
+      "court": "Supreme Court",
+      "docid": "166466557",
+      "proposition": "Adjudicatory functions ought not to be conducted by a State Commission in the absence of a judicial Member, at least for disputes not fairly relative to tariff fixation or advisory functions.",
+      "how_treated": "Followed and extended into the present holding.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Kihoto Hollohan v. Zachillhu",
+      "citation": "1992 Supp (2) SCC 651",
+      "court": "Supreme Court (Constitution Bench)",
+      "docid": "1686885",
+      "proposition": "A body discharging judicial functions of far-reaching effect must have the essential 'trappings of the Court', including presence of judicial members.",
+      "how_treated": "Cited for the 'trappings of a court' principle.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Pareena Swarup v. Union of India",
+      "citation": "(2008) 14 SCC 107",
+      "court": "Supreme Court",
+      "docid": "132042",
+      "proposition": "Discussed in the context of tribunals created to exercise functions earlier performed by regular judicial forums (PMLA Adjudicating Authority).",
+      "how_treated": "Distinguished on facts by counsel; addressed by the Court in its broader analysis.",
+      "cited_by": "Court",
+      "treatment": "Cited"
+    },
+    {
+      "name": "Gujarat Urja Vikas Nigam Ltd. v. Essar Power Ltd. (GJ-I)",
+      "citation": "(2008) 4 SCC 755",
+      "court": "Supreme Court",
+      "docid": "196582635",
+      "proposition": "Interpreted s.86(1)(f)'s 'and' as 'or' regarding SERC's licensee-generator dispute-adjudication and arbitration-referral functions.",
+      "how_treated": "Cited in argument on the scope of adjudicatory functions under s.86(1)(f).",
+      "cited_by": "Court",
+      "treatment": "Cited"
+    },
+    {
+      "name": "Gujarat Urja Vikas Nigam Ltd. v. Essar Power Ltd. (GJ-II)",
+      "citation": "(2016) 9 SCC 103",
+      "court": "Supreme Court",
+      "docid": "196582635",
+      "proposition": "Flagged that the law on Tribunal composition under the Electricity Act may call for review in light of Madras Bar Association (MJ-II).",
+      "how_treated": "Cited in argument supporting a mandatory legal-Member reading.",
+      "cited_by": "Court",
+      "treatment": "Cited"
+    },
+    {
+      "name": "Uttar Pradesh Power Corporation Ltd. v. National Thermal Power Corporation Ltd. & Ors.",
+      "citation": "(2011) 12 SCC 400",
+      "court": "Supreme Court",
+      "docid": "1751605",
+      "proposition": "The Central Electricity Regulatory Commission is an expert body for tariff determination; courts should ordinarily not interfere with tariff determinations.",
+      "how_treated": "Cited by counsel to emphasise the primarily technical/expert (non-adjudicatory) character of Commission functions.",
+      "cited_by": "Court",
+      "treatment": "Cited"
+    },
+    {
+      "name": "Brahm Dutt v. Union of India",
+      "citation": "",
+      "court": "Supreme Court",
+      "docid": "1029167",
+      "proposition": "Where a body performs both advisory/regulatory and adjudicatory functions, it may be appropriate (though a matter for legislative wisdom) to create two separate bodies.",
+      "how_treated": "Noted but left to legislative discretion; not directed.",
+      "cited_by": "Court",
+      "treatment": "Cited"
+    },
+    {
+      "name": "In re: Natural Resources Allocation, Special Reference No. 1 of 2012",
+      "citation": "(2012) 10 SCC 1",
+      "court": "Supreme Court (Constitution Bench)",
+      "docid": "",
+      "proposition": "Clarifies that the binding 'law declared' under Article 141 is the ratio decidendi culled from the judgment as a whole, not every observation.",
+      "how_treated": "Cited by counsel on how to read the Tamil Nadu Generation ratio.",
+      "cited_by": "Court",
+      "treatment": "Cited"
+    }
+  ]
+}

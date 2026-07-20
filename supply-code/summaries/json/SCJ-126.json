@@ -1,0 +1,207 @@
+{
+  "case_id": "SCJ-126",
+  "title": "Smt. Vimla Tiwari v. State of U.P. And Others",
+  "neutral_citation": "AIR 2012 Allahabad 142",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Sudhir Agarwal, J.",
+  "date_of_judgment": "2012-04-20",
+  "date_display": "20 April 2012",
+  "docket": "WRIT - C No. 14347 of 2012",
+  "disposition": "Writ petition allowed; s.126 assessment order and s.127 appellate order quashed; Rs. 10,000 costs awarded against respondents, recoverable from responsible officials personally, with direction for entry of censure in their Annual Character Roll",
+
+  "headnote": "Where a theft-of-electricity 'missing meter' checking report and the resultant s.126 assessment order are shown, on the Assessing and Appellate Authorities' own personal affidavits filed under the Court's directions, to be internally contradictory, inconsistent as to dates, and effectively fabricated or backdated, the entire proceeding is vitiated by 'malice in law' — i.e., action taken without just cause or excuse, or founded on non-existent/misrepresented facts, irrespective of any actual personal ill-will towards the consumer. Given the overlap between s.126 (assessment for unauthorised use) and s.135 (theft) — the same 'missing meter' facts routinely underlie both — an assessment under s.126 carries reputational and character consequences comparable to a theft charge, requiring the same rigour of procedural fairness, natural justice, and honest, reasoned recording of facts by the Assessing Officer as would be demanded in a quasi-criminal proceeding. Before finalising an assessment premised on an allegedly missing or non-functional meter, Clause 5.6 of the U.P. Electricity Supply Code, 2005 requires that the meter be sent for testing (to verify the checking report's claims) rather than the Assessing Officer relying solely on a field report riddled with internal contradiction. Structurally, the statutory s.127 Appellate Authority — a Commissioner assisted by a Superintending Engineer 'technical member' — must exercise independent, non-mechanical appellate judgment; an appellate order that reflects the Commissioner having abdicated all technical assessment to the Superintending Engineer, without independent application of mind, fails the requirements of a genuine appeal.",
+
+  "holding_units": [
+    {
+      "provision": "EA2003::126",
+      "code": "Electricity Act, 2003 (s.126, assessment for unauthorised use) read with U.P. Electricity Supply Code, 2005 (Clause 5.6, meter testing) and s.127 (appeal)",
+      "clause": "s.126 assessment procedure — natural justice, malice in law, and the overlap with s.135 theft consequences",
+      "topic": "A s.126 assessment premised on a 'missing meter' checking report that is internally contradictory and effectively fabricated/backdated (as revealed through compelled personal affidavits of the Assessing/Appellate Authorities and field officials) is vitiated by malice in law and must be quashed, given the assessment's overlap with theft (s.135) and its consequent reputational/character stakes requiring rigorous procedural fairness",
+      "type": "electricity_act",
+      "question": "Can a s.126 assessment order stand where the underlying 'missing meter' checking report — on which the entire assessment rests — is shown through the Assessing Authority's, Appellate Authority's, and field officials' own personal affidavits (filed pursuant to the Court's specific directions) to be internally inconsistent as to dates and material facts, indicating fabrication or backdating?",
+      "holding": "No. The Court, having directed personal affidavits from the Assessing Authority, the Appellate Authority (the Commissioner) and the Superintending Engineer (technical member), and multiple field officials involved in the checking, found the record riddled with irreconcilable inconsistencies going to the core factual premise (whether and when the meter was actually found missing/tampered), amounting to fabrication or backdating of the checking report. Such action, taken without just cause or on a misrepresented factual foundation, constitutes 'malice in law' regardless of any personal ill-will (extensively discussed via S.R. Venkatraman v. Union of India, Mukesh Kumar Agrawal v. State of U.P., Somesh Tiwari v. Union of India, HMT Ltd. v. Mudappa and the string of authorities at para 42). Because s.126 assessments frequently share their factual predicate with s.135 theft charges and carry comparable reputational/character consequences for the consumer, the same procedural rigour applicable to quasi-criminal proceedings must govern s.126 assessments — a standard flagrantly breached here. The assessment order and the appellate order affirming it are accordingly quashed.",
+      "limiting_facts": "A checking report alleged the petitioner's electricity meter was found missing/tampered, triggering a s.126 assessment; upon challenge, the Court required the Assessing Officer, the Appellate Authority (Commissioner) and Superintending Engineer, and the field checking officials to each file personal affidavits explaining the sequence of events and the report's preparation; the affidavits proved mutually contradictory and inconsistent with the documentary record, particularly as to dates.",
+      "paras": "paras throughout; malice-in-law discussion at para 42"
+    },
+    {
+      "provision": "UP-2005::5.6",
+      "code": "U.P. Electricity Supply Code, 2005 (Clause 5.6, meter testing procedure)",
+      "clause": "5.6 (requirement to test a meter alleged to be missing/defective/tampered before finalising assessment premised on that allegation)",
+      "topic": "Before an assessment is finalised on the basis that a meter was found missing, tampered, or otherwise defective, Clause 5.6 requires the meter to be sent for testing to verify the checking report's claim, rather than the Assessing Officer relying solely on the (here, internally contradictory) field checking report",
+      "type": "supply_code",
+      "question": "Was the Assessing Officer entitled to finalise the s.126 assessment based solely on the checking report's claim of a missing meter, without first sending the meter (or confirming its absence through a verifiable, testable process) per Clause 5.6?",
+      "holding": "No. Following Smt. Amrawati Devi v. PuVVNL and M/s Modern Rice Mill v. MVVNL (both already part of this corpus's Clause 5.6 line of authority), the Court held the Assessing Officer was obliged to ensure the meter was tested/verified per Clause 5.6 before relying on the checking report's contested factual claim; reliance on an internally inconsistent, unverified report without such testing further vitiated the assessment.",
+      "limiting_facts": "Same checking-report facts as above; no meter-testing process per Clause 5.6 was shown to have been followed before the assessment was finalised.",
+      "paras": "paras discussing Clause 5.6 and meter-testing precedent"
+    },
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act, 2003 (s.127, appeal) — structural independence of the Appellate Authority",
+      "clause": "s.127 (Appellate Authority: Commissioner assisted by Superintending Engineer as technical member) — requirement of independent appellate application of mind",
+      "topic": "A s.127 appellate order is vitiated where the Commissioner (Appellate Authority) mechanically defers entirely to the Superintending Engineer's technical assessment without independently applying his own mind to the record, undermining the structural purpose of a statutory appeal",
+      "type": "electricity_act",
+      "question": "Does an appellate order under s.127 satisfy the requirements of a genuine appeal where the Commissioner, who presides as the Appellate Authority, effectively abdicates independent assessment to the Superintending Engineer (technical member) rather than exercising his own judgment on the record, including the contested checking report?",
+      "holding": "No. The Court critiqued the structural functioning of the s.127 Appellate Authority as constituted, observing that the Commissioner routinely defers wholesale to the Superintending Engineer on technical questions without independent application of mind, which defeats the object of a genuine, independent appellate review distinct from the original assessment. On the facts, the appellate order simply affirmed the assessment without meaningfully grappling with the checking report's internal inconsistencies, and was accordingly quashed along with the assessment order.",
+      "limiting_facts": "The Commissioner's appellate order affirmed the Assessing Officer's order relying on the Superintending Engineer's technical view, without independently addressing the inconsistencies in the underlying checking report that the petitioner had raised.",
+      "paras": "paras critiquing s.127 Appellate Authority's independence"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "malice-in-law-vitiates-s126-assessment-on-fabricated-report",
+      "application": "A s.126 assessment founded on a checking report shown (through compelled personal affidavits) to be internally contradictory/fabricated is vitiated by malice in law, applying the doctrine that malice in law requires no proof of personal ill-will, only action without just cause or on a misrepresented factual basis — a significant procedural-fairness precedent in this corpus's s.126/s.135 assessment cluster.",
+      "lead_authorities": [
+        {"name": "S.R. Venkatraman v. Union of India", "docid": ""},
+        {"name": "Mukesh Kumar Agrawal v. State of U.P.", "docid": ""},
+        {"name": "Somesh Tiwari v. Union of India", "docid": ""},
+        {"name": "HMT Ltd. v. Mudappa", "docid": ""}
+      ],
+      "paras": "para 42 and surrounding discussion"
+    },
+    {
+      "tag": "s126-theft-overlap-requires-quasi-criminal-procedural-rigour",
+      "application": "Because s.126 assessment often shares its factual predicate with s.135 theft and carries comparable reputational/character consequences, the same procedural rigour and honest fact-recording expected in quasi-criminal proceedings must govern s.126 assessments.",
+      "lead_authorities": [],
+      "paras": "paras on s.126/s.135 overlap"
+    },
+    {
+      "tag": "clause-5.6-meter-testing-required-before-missing-meter-assessment",
+      "application": "Reinforces this corpus's Clause 5.6 line (Smt. Amrawati Devi, Modern Rice Mill) requiring meter testing/verification before an assessment premised on a missing or defective meter is finalised.",
+      "lead_authorities": [
+        {"name": "Smt. Amrawati Devi v. PuVVNL", "docid": "149862600"},
+        {"name": "M/s Modern Rice Mill v. MVVNL", "docid": "1883604"}
+      ],
+      "paras": "paras on Clause 5.6"
+    },
+    {
+      "tag": "s127-appellate-authority-must-exercise-independent-judgment",
+      "application": "Structural critique: a s.127 Commissioner who mechanically defers to the Superintending Engineer technical member without independent application of mind fails the statutory purpose of an appeal — a notable institutional-design observation in this corpus.",
+      "lead_authorities": [],
+      "paras": "paras critiquing s.127 Appellate Authority"
+    }
+  ],
+
+  "not_decided": [
+    {
+      "point": "Whether the petitioner in fact committed theft/unauthorised use",
+      "note": "Not reached on merits; assessment quashed on procedural/malice-in-law grounds arising from the fabricated/inconsistent checking report, without a finding on the underlying factual allegation.",
+      "docid": "",
+      "paras": "throughout"
+    }
+  ],
+
+  "authorities": [
+    {
+      "name": "S.R. Venkatraman v. Union of India",
+      "citation": "AIR 1979 SC 49",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Malice in law means an act done wrongfully and without reasonable/probable cause, though not necessarily with ill-will; an order founded on non-existent or misrepresented facts is vitiated by malice in law.",
+      "how_treated": "Applied as the foundational authority on malice in law to vitiate the assessment.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Mukesh Kumar Agrawal v. State of U.P.",
+      "citation": "JT 2009 (13) SC 643",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Elaborates the malice-in-law doctrine as applicable to administrative/statutory action taken without just cause.",
+      "how_treated": "Cited alongside S.R. Venkatraman in support of the malice-in-law finding.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Somesh Tiwari v. Union of India",
+      "citation": "(2009) 2 SCC 592",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Malice in law/fact distinction and its application to vitiate administrative action taken on an improper or misrepresented basis.",
+      "how_treated": "Cited in the malice-in-law discussion.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "HMT Ltd. v. Mudappa",
+      "citation": "JT 2007 (3) SC 112",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Malice in law doctrine applied to administrative/service action.",
+      "how_treated": "Cited in the malice-in-law discussion.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Manager, Government Branch Press v. D.B. Belliappa",
+      "citation": "",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Cited in the string of malice-in-law authorities at para 42.",
+      "how_treated": "Cited in support.",
+      "cited_by": "Court",
+      "treatment": "Cited"
+    },
+    {
+      "name": "Punjab Electricity Board v. Zora Singh",
+      "citation": "",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Cited in the string of malice-in-law authorities at para 42.",
+      "how_treated": "Cited in support.",
+      "cited_by": "Court",
+      "treatment": "Cited"
+    },
+    {
+      "name": "K.K. Bhalla v. State of U.P.",
+      "citation": "",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Cited in the string of malice-in-law authorities at para 42.",
+      "how_treated": "Cited in support.",
+      "cited_by": "Court",
+      "treatment": "Cited"
+    },
+    {
+      "name": "P. Mohanan Pillai v. State of Kerala",
+      "citation": "",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Cited in the string of malice-in-law authorities at para 42.",
+      "how_treated": "Cited in support.",
+      "cited_by": "Court",
+      "treatment": "Cited"
+    },
+    {
+      "name": "Swarn Singh Chand v. Punjab State Electricity Board",
+      "citation": "",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Cited in the string of malice-in-law authorities at para 42, in an electricity-board context.",
+      "how_treated": "Cited in support.",
+      "cited_by": "Court",
+      "treatment": "Cited"
+    },
+    {
+      "name": "Smt. Amrawati Devi v. Purvanchal Vidyut Vitran Nigam Ltd.",
+      "citation": "",
+      "court": "Allahabad High Court",
+      "docid": "149862600",
+      "proposition": "A meter alleged to be missing, defective, or tampered must be tested/verified per Clause 5.6 before an assessment premised on that allegation is finalised.",
+      "how_treated": "Followed as part of this corpus's Clause 5.6 meter-testing line.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "M/s Modern Rice Mill v. Madhyanchal Vidyut Vitran Nigam Ltd.",
+      "citation": "",
+      "court": "Allahabad High Court",
+      "docid": "1883604",
+      "proposition": "Same Clause 5.6 meter-testing requirement before finalising an assessment premised on a defective/missing meter.",
+      "how_treated": "Followed alongside Amrawati Devi.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "case_id": "SCJ-129",
+  "title": "Sri Piyush Kumar v. State of U.P. Thru' Secretary Lucknow And Others",
+  "neutral_citation": "AIR 2012 Allahabad 97",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sunil Ambwani & Pankaj Naqvi, JJ.",
+  "date_of_judgment": "2012-03-27",
+  "date_display": "27 March 2012",
+  "docket": "WRIT - C No. 24623 of 2003",
+  "disposition": "Writ petition partly allowed; recovery citation against the petitioner-director quashed; licensee left free to proceed against the company",
+
+  "headnote": "A company director who signs an electricity supply agreement 'on behalf of the Company' as its agent incurs no personal liability for the company's electricity dues, since a company is an artificial person that can only contract through agents, and the normal mode of signing does not itself impose personal liability on the signing director (Companies Act, 1956, s.46) absent an express personal guarantee, undertaking, or specific statutory provision. Because the demand notice and recovery citation here predated the U.P. Electricity Supply Code, 2005, Clause 4.3(f) of that Code (which for the first time makes outstanding company dues a first charge on the company's assets, permits recovery from directors only where the company's assets are insufficient, and requires the licensee to enter such a stipulation into new agreements) had no application; even applying Clause 4.3(f)(iv)-(v) prospectively, the licensee must first exhaust recovery against the company's assets before proceeding against directors personally, and the record here contained no averment that this had been done.",
+
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.3(f)",
+      "code": "U.P. Electricity Supply Code, 2005 (Clause 4.3(f)(iv)-(v), director liability for company dues) — inapplicable where dues predate the Code, and even prospectively requiring exhaustion of company assets first",
+      "clause": "4.3(f)(iv)-(v) (company dues are first charge on company assets; recovery from directors only after company assets prove insufficient)",
+      "topic": "A director who signed an electricity supply agreement as agent of the company (not personally) is not liable for the company's electricity dues absent a personal guarantee or specific statutory provision; Clause 4.3(f) of the 2005 Supply Code, which for the first time addresses director liability, did not apply to dues/demand notices predating the Code's notification, and in any event requires exhaustion of company assets before recovery from directors",
+      "type": "supply_code",
+      "question": "Can a recovery citation for a company's outstanding electricity dues be enforced personally against a director who signed the original supply agreement as the company's agent (with no personal guarantee or undertaking), where the demand notice and citation both predate the notification of the U.P. Electricity Supply Code, 2005?",
+      "holding": "No. A company, being an artificial person, acts only through agents; a director signing an agreement 'on behalf of the Company' under s.46 of the Companies Act, 1956 incurs no personal liability unless the Articles/Board resolution otherwise permit, or the director acts beyond his powers, misrepresents, or gives a personal guarantee/undertaking — none of which was shown here. Following this Court's own precedents (Adesh Kumar Jain v. UPSEB; M/s Meekin Transmission Ltd.), the 'consumer' under the pre-2003 Electric Supply (Consumers) Regulations, 1984 and under s.2(15) of the Electricity Act, 2003 is the company, not its directors personally. The U.P. Electricity Supply Code, 2005 — whose Clause 4.3(f)(iv) first makes outstanding dues a first charge on company assets and whose Clause 4.3(f)(v) permits recovery from directors — was notified after the dues were ascertained and the recovery citation issued, and so had no application; even prospectively, recovery from directors is permissible only after the company's assets prove insufficient to satisfy the dues, and the counter affidavit contained no averment that the licensee had first proceeded against the company's assets. The recovery citation against the petitioner-director was accordingly quashed, without prejudice to recovery proceedings against the company itself.",
+      "limiting_facts": "Petitioner, a director of U.P. Lime Chem. Ltd. (a public limited company), signed the original 1990 electricity-supply agreement (335 KVA) as the company's director/agent, without giving any personal guarantee or undertaking; a s.3 U.P. Government Electricity Undertaking (Recovery of Dues) Act, 1958 notice (30.6.2001) and a subsequent recovery citation (8.5.2003) sought Rs. 15,41,685 in company dues directly from the petitioner personally, without any break-up or averment that the company's own assets had first been proceeded against.",
+      "paras": "paras 3-16"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "clause-4.3f-director-liability-not-retrospective-and-requires-exhaustion-of-company-assets",
+      "application": "Establishes that Clause 4.3(f)'s director-liability regime (first-charge-on-company-assets, then directors only if insufficient) does not apply retrospectively to dues/citations predating the 2005 Supply Code, and requires the licensee to first exhaust recovery against company assets before reaching directors personally — a limiting counterpoint to this corpus's broader arrears/occupant-liability cluster (SCJ-090, SCJ-098, SCJ-124, SCJ-125), here protecting a corporate agent from personal exposure absent an express undertaking.",
+      "lead_authorities": [
+        {"name": "Adesh Kumar Jain v. U.P. State Electricity Board", "docid": ""},
+        {"name": "M/s Meekin Transmission Ltd., Kanpur", "docid": ""}
+      ],
+      "paras": "paras 9, 13-14"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the licensee may now proceed against the director personally after first exhausting recovery against the company's assets, per Clause 4.3(f)(iv)-(v)",
+      "note": "Left open; licensee free to proceed against the company (U.P. Lime Chem. Ltd.) in accordance with law.",
+      "docid": "",
+      "paras": "para 16"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Adesh Kumar Jain v. U.P. State Electricity Board",
+      "citation": "1998 LBESR-1-677",
+      "court": "Allahabad High Court",
+      "docid": "",
+      "proposition": "Directors of a company cannot be made personally liable for the company's electricity dues unless the director gives an undertaking or personal guarantee for recovery from his personal assets.",
+      "how_treated": "Followed.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "M/s Meekin Transmission Ltd., Kanpur and another",
+      "citation": "Writ Tax No. 749 of 2003, decided 14.02.2008",
+      "court": "Allahabad High Court",
+      "docid": "",
+      "proposition": "Same principle: absent personal guarantee/undertaking, directors are not personally liable for a defaulting consumer-company's dues.",
+      "how_treated": "Followed alongside Adesh Kumar Jain.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}

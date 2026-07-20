@@ -1,0 +1,113 @@
+{
+  "case_id": "SCJ-128",
+  "title": "Sri Chandra Mohan Goyal v. U.P. Power Corporation Ltd. & Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Sangeeta Chandra, J.",
+  "date_of_judgment": "2018-12-20",
+  "date_display": "20 December 2018",
+  "docket": "WRIT - C No. 29490 of 2008",
+  "disposition": "Writ petition dismissed; orders of the Consumer Grievance Redressal Forum and Electricity Ombudsman upheld",
+
+  "headnote": "A Supreme Court decision interpreting departmental circulars governing peak-hour-restriction-violation penalties applies retrospectively to pending, not-yet-finally-settled matters, since the general rule is that judicial decisions are retrospective unless the deciding court expressly makes them prospective (the doctrine of prospective overruling, traceable to Golak Nath and its service-jurisprudence progeny such as Union of India v. Mohd. Ramzan Khan and Managing Director, ECIL v. B. Karunakar, is an exception invoked only by the Supreme Court and only where expressly stated); absent an express prospective-only direction, a Supreme Court ruling correcting a High Court's erroneous circular-interpretation governs even transactions predating the ruling, so long as those transactions were not finally and conclusively settled. Where the record shows a subordinate officer's purported reduction of penalty liability was never ratified by the competent higher authority (and was in fact challenged internally via a show-cause notice to that officer), no binding 'settlement' arose, and the consumer remains liable for penalty recalculated per the Supreme Court's now-authoritative interpretation of the circulars (each Meter Reading Inspection Report violation attracting separate penalty, not one penalty per report).",
+
+  "holding_units": [
+    {
+      "provision": "PENALTY::retrospective-application-of-sc-precedent",
+      "code": "General jurisprudence on retrospective/prospective operation of judicial precedent, applied to U.P. Power Corporation peak-hour-violation penalty circulars (Circulars dated 15.10.1998 and 07.04.1999)",
+      "clause": "Doctrine of prospective overruling — applicability to a Supreme Court ruling reinterpreting departmental circulars governing electricity-penalty calculation",
+      "topic": "A Supreme Court decision correcting an erroneous High Court interpretation of penalty-calculation circulars applies retrospectively to pending (not finally settled) disputes, since prospective overruling is an exception invoked only by express direction of the Supreme Court itself",
+      "type": "electricity_act",
+      "question": "Does the Supreme Court's ruling in U.P. Power Corporation Ltd. v. Lohia Brass (P) Ltd. (2006) 7 SCC 220 — holding that each Meter Reading Inspection Report violation of peak-hour restrictions attracts separate penalty, correcting a contrary Allahabad High Court interpretation — apply to the petitioner's penalty dispute, where demand notices were first issued in 2001 (before the Supreme Court ruling) but the matter was never finally and conclusively settled?",
+      "holding": "Yes. It is settled law that judicial decisions are retrospective unless the court expressly makes them prospective; the doctrine of prospective overruling (traced through Golak Nath, Mohd. Ramzan Khan, B. Karunakar, Waman Rao, Atam Prakash) may only be invoked by the Supreme Court itself and only by express direction, which the Lohia Brass Court did not give. On the facts, the Executive Engineer's purported reduction of the petitioner's penalty liability (from over Rs. 42 lakh across seven consumers including the petitioner, down to under Rs. 6 lakh) was never shown to have been approved by the Chief General Manager (Commercial), the officer competent to finally settle such liability, and was in fact under internal challenge via a show-cause notice to the Executive Engineer for having acted without authority; no binding settlement therefore arose. The demand notices recalculating penalty per the Lohia Brass interpretation (and the later Bonds and Beyonds (India) ruling) were accordingly valid, and the Consumer Grievance Redressal Forum's and Electricity Ombudsman's orders upholding them were not infirm.",
+      "limiting_facts": "Petitioner held two electricity connections (his own and his mother's, later amalgamated in his name) for a Steel Rolling Mill; penalty demand notices for peak-hour-restriction violations, first issued in November 2001 per then-prevailing (and later Supreme-Court-corrected) circular interpretation, were allegedly reduced through an oral settlement with the Executive Engineer in 2003, but no written approval by the Chief General Manager was shown; fresh demand notices recalculating penalty per Lohia Brass were issued in 2007-2008 after the connection had already been permanently disconnected in 2005.",
+      "paras": "paras 40-55"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "sc-precedent-retrospective-unless-expressly-prospective",
+      "application": "Reaffirms, in an electricity-penalty-circular context, the general rule that judicial precedent (including a Supreme Court ruling correcting a High Court's erroneous statutory/circular interpretation) applies retrospectively to pending disputes unless the deciding court expressly limits it to prospective operation.",
+      "lead_authorities": [
+        {"name": "U.P. Power Corporation Ltd. v. Lohia Brass (P) Ltd.", "docid": "474231"},
+        {"name": "Union of India v. Mohd. Ramzan Khan", "docid": "727248"}
+      ],
+      "paras": "paras 41-53"
+    }
+  ],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "U.P. Power Corporation Ltd. and another v. Lohia Brass (P) Ltd. and others",
+      "citation": "(2006) 7 SCC 220",
+      "court": "Supreme Court",
+      "docid": "474231",
+      "proposition": "Each Meter Reading Inspection Report violation of peak-hour consumption restrictions attracts separate penalty; the Allahabad High Court's contrary interpretation (one penalty per report) was incorrect.",
+      "how_treated": "Followed as controlling; held to apply retrospectively to the petitioner's pending dispute.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "U.P. Power Corporation Ltd. and others v. Bonds and Beyonds (India) (P) Ltd.",
+      "citation": "(2007) 7 SCC 779",
+      "court": "Supreme Court",
+      "docid": "1346266",
+      "proposition": "Reaffirms Lohia Brass: each peak-hour-restriction violation attracts separate penalty.",
+      "how_treated": "Followed alongside Lohia Brass.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Union of India v. Mohd. Ramzan Khan",
+      "citation": "1991 (1) SCC 588",
+      "court": "Supreme Court",
+      "docid": "727248",
+      "proposition": "A ruling requiring furnishing of an inquiry report to a delinquent employee was expressly made prospective; illustrates that prospective overruling requires an express direction by the Supreme Court.",
+      "how_treated": "Distinguished/cited to illustrate that prospective overruling is exceptional and requires express direction, absent here.",
+      "cited_by": "Court",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "Managing Director, ECIL v. B. Karunakar",
+      "citation": "(1993) 4 SCC 727",
+      "court": "Supreme Court (Constitution Bench)",
+      "docid": "",
+      "proposition": "Explains and limits the prospective application of Mohd. Ramzan Khan; law was 'unsettled' only until the date of that decision.",
+      "how_treated": "Cited for the prospective-overruling framework.",
+      "cited_by": "Court",
+      "treatment": "Cited"
+    },
+    {
+      "name": "I.C. Golak Nath and others v. State of Punjab",
+      "citation": "1967 AIR 1643",
+      "court": "Supreme Court (Constitution Bench)",
+      "docid": "21266288",
+      "proposition": "Introduced the doctrine of prospective overruling into Indian constitutional jurisprudence, distinguishing the Blackstonian (purely retrospective) theory from Cardozo's prospective-overruling approach.",
+      "how_treated": "Cited as the foundational source of the prospective-overruling doctrine.",
+      "cited_by": "Court",
+      "treatment": "Cited"
+    },
+    {
+      "name": "Waman Rao v. Union of India",
+      "citation": "1981 (2) SCC 362",
+      "court": "Supreme Court",
+      "docid": "799151",
+      "proposition": "Applied prospective overruling to statutes declared ultra vires.",
+      "how_treated": "Cited in the doctrinal survey.",
+      "cited_by": "Court",
+      "treatment": "Cited"
+    },
+    {
+      "name": "Atam Prakash v. State of Haryana",
+      "citation": "1986 (2) SCC 249",
+      "court": "Supreme Court",
+      "docid": "986432",
+      "proposition": "Applied prospective overruling to a statute declared ultra vires.",
+      "how_treated": "Cited in the doctrinal survey.",
+      "cited_by": "Court",
+      "treatment": "Cited"
+    }
+  ]
+}

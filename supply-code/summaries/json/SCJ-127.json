@@ -1,0 +1,85 @@
+{
+  "case_id": "SCJ-127",
+  "title": "Special Officer, Commerce, North Eastern Electricity Company of Orissa (NESCO) & Anr. v. M/s Raghunath Paper Mills Private Limited & Anr.",
+  "neutral_citation": "(2013) 2 SCC 373",
+  "court": "Supreme Court of India",
+  "bench": "Two-Judge Bench",
+  "coram": "P. Sathasivam & Ranjan Gogoi, JJ.",
+  "date_of_judgment": "2012-11-09",
+  "date_display": "9 November 2012",
+  "docket": "Civil Appeal No. 7899 of 2012 (arising out of SLP (C) No. 35573 of 2010)",
+  "disposition": "Civil appeal dismissed; High Court's quashing of the arrears-demand order affirmed",
+
+  "headnote": "Sub-clause 10(b) of Regulation 13 of the Orissa Electricity Regulatory Commission Distribution (Conditions of Supply) Code, 2004 — which bars transfer of a service connection from one consumer's name to another's until the previous occupier's arrears are cleared — applies only to a request for transfer of an existing service connection, not to an application for a fresh connection by a purchaser (here, an auction-purchaser from an Official Liquidator on an 'as is where is, whatever there is' basis) who has no privity of contract with the licensee. Since electricity dues do not constitute a charge on the premises, a purchaser cannot be compelled to clear a previous occupant's arrears as a precondition to a fresh connection unless a specific statutory rule or a validly stipulated term of supply so requires; the words 'other dues including the security as may be payable' in the relevant Regulations/Forms do not extend to arrears of the earlier consumer. Synthesising the Court's own precedents — Isha Marbles (arrears do not bind a bona fide third-party purchaser absent privity), DVS Steels & Alloys (a distributor may, however, lawfully stipulate arrears-clearance as a condition of a fresh connection where its rules/regulations permit), Ahmedabad Electricity Co. v. Gujarat Inns (auction-purchasers not liable for previous owners' arrears absent a specific statutory provision), and Haryana State Electricity Board v. Hanuman Rice Mills (summarising: arrears create no charge on the property in general law, but a supplier may recover them from a purchaser seeking reconnection/fresh connection where its statutory rules or supply conditions expressly so authorise) — the Court held that, absent such an express authorising provision (and Sub-clause 10(b) here being limited to transfers, not fresh connections), the demand for arrears as a precondition to a fresh connection was unsustainable.",
+
+  "holding_units": [
+    {
+      "provision": "ARREARS::transferee-liability",
+      "code": "Orissa Electricity Regulatory Commission Distribution (Conditions of Supply) Code, 2004 (Regulation 13, Sub-clause 10(b)) read with Electricity Act, 2003 (s.43, duty to supply on request)",
+      "clause": "Regulation 13(10)(b) (arrears bar on transfer of service connection) — inapplicable to a fresh-connection application by a purchaser with no privity of contract with the licensee",
+      "topic": "An arrears-clearance precondition applicable to transfer of an existing service connection does not extend to a fresh-connection application by a purchaser (e.g., an auction-purchaser of liquidated assets) who has no privity of contract with the licensee and did not seek transfer of the erstwhile consumer's connection",
+      "type": "electricity_act",
+      "question": "Is a company that purchased a liquidated unit's assets/premises through an Official Liquidator's auction sale, on an 'as is where is, whatever there is' basis, and that applied for a fresh electricity connection (not transfer of the erstwhile company's connection), liable to clear the erstwhile company's outstanding electricity arrears as a precondition to obtaining supply, under Sub-clause 10(b) of Regulation 13 of the Orissa Supply Code?",
+      "holding": "No. Sub-clause 10(b) of Regulation 13 governs transfer of an existing service connection from one consumer's name to another's, not an application for a fresh connection. The auction-purchaser here applied for a fresh connection to its own unit after purchasing the premises from the Official Liquidator, and did not seek transfer of the erstwhile company's connection; the arrears were levied against the erstwhile company, not as a charge on the premises. Synthesising Isha Marbles v. Bihar SEB (1995) 2 SCC 648 (electricity dues create no charge on the property and a third-party purchaser lacking privity cannot be compelled to clear them), Paschimanchal Vidyut Vitran Nigam Ltd. v. DVS Steels & Alloys Pvt. Ltd. (2009) 1 SCC 210 (para 10: a distributor may nonetheless lawfully stipulate, as a condition of a fresh connection, that arrears be cleared, if its statutory rules/regulations or terms of supply so permit), Ahmedabad Electricity Co. Ltd. v. Gujarat Inns Pvt. Ltd. (2004) 3 SCC 587 (auction-purchasers not liable for previous owners' arrears on a fresh connection absent a specific statutory provision), and Haryana State Electricity Board v. Hanuman Rice Mills, Dhanauri (2010) 9 SCC 145 (summarising the position: no charge on property in general law, but the supplier may recover arrears from a purchaser seeking reconnection/fresh connection where statutory rules or supply terms expressly authorise it) — the Court held that, since no such specific authorising provision applied here (Sub-clause 10(b) being confined to transfers), the demand of Rs. 79,02,262 in arrears as a precondition to the fresh connection was unsustainable, affirming the High Court's quashing of the demand order.",
+      "limiting_facts": "Respondent no. 1 purchased the Factory Unit of M/s Konark Paper & Industries Ltd. (in liquidation) via an Official Liquidator auction, on an 'as is where is, whatever there is' basis, taking possession on 28.03.2008; it applied for a fresh 100 KW/33 KV connection (executing a fresh construction-power agreement dated 27.03.2009 and depositing security), but NESCO refused supply absent clearance of Rs. 79,02,262 in arrears outstanding against the premises from the erstwhile company.",
+      "paras": "paras 8-20"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "arrears-follow-premises-not-person-fresh-connection-vs-transfer",
+      "application": "A landmark synthesis of the Supreme Court's own arrears-transferee-liability line (Isha Marbles, DVS Steels, Ahmedabad Electricity Co., Hanuman Rice Mills), crystallising that a fresh-connection applicant with no privity of contract is not liable for a previous occupant's arrears absent an express statutory/regulatory provision so authorising, distinguishing this from a mere transfer of an existing connection; a foundational precedent for this corpus's arrears/transferee-liability cluster (SCJ-031, SCJ-037, SCJ-054, SCJ-098, SCJ-099, SCJ-125).",
+      "lead_authorities": [
+        {"name": "Isha Marbles v. Bihar State Electricity Board", "docid": "1082759"},
+        {"name": "Paschimanchal Vidyut Vitran Nigam Ltd. v. DVS Steels & Alloys Pvt. Ltd.", "docid": "74832153"},
+        {"name": "Ahmedabad Electricity Co. Ltd. v. Gujarat Inns Pvt. Ltd.", "docid": "28246"},
+        {"name": "Haryana State Electricity Board v. Hanuman Rice Mills, Dhanauri", "docid": "1336616"}
+      ],
+      "paras": "paras 16-19"
+    }
+  ],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "Isha Marbles v. Bihar State Electricity Board and Another",
+      "citation": "(1995) 2 SCC 648",
+      "court": "Supreme Court (Three-Judge Bench)",
+      "docid": "1082759",
+      "proposition": "Electricity arrears create no charge over the property; an auction-purchaser lacking privity of contract with the Board cannot be compelled to clear the previous consumer's arrears as a condition of supply.",
+      "how_treated": "Followed as foundational authority.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Paschimanchal Vidyut Vitran Nigam Ltd. & Ors. v. DVS Steels & Alloys Pvt. Ltd. & Ors.",
+      "citation": "AIR 2009 SC 647 = (2009) 1 SCC 210",
+      "court": "Supreme Court",
+      "docid": "74832153",
+      "proposition": "While arrears create no charge on the property, a distributor may lawfully stipulate, as a condition of a fresh connection, that the previous occupant's arrears be cleared, where its statutory rules/regulations or terms of supply so permit.",
+      "how_treated": "Distinguished on the facts (no applicable authorising provision here) while affirming its general principle.",
+      "cited_by": "Court",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "Ahmedabad Electricity Co. Ltd. v. Gujarat Inns Pvt. Ltd. and Others",
+      "citation": "(2004) 3 SCC 587",
+      "court": "Supreme Court (Three-Judge Bench)",
+      "docid": "28246",
+      "proposition": "In case of a fresh connection, though the premises are the same, auction-purchasers cannot be held liable to clear arrears incurred by previous owners absent a specific statutory provision.",
+      "how_treated": "Followed.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Haryana State Electricity Board v. Hanuman Rice Mills, Dhanauri and Others",
+      "citation": "(2010) 9 SCC 145",
+      "court": "Supreme Court",
+      "docid": "1336616",
+      "proposition": "Summarises the position: (i) electricity arrears create no charge on the property and in general law a transferee cannot be made liable for the previous owner/occupier's dues; (ii) where statutory rules or terms of supply expressly authorise it, the supplier can demand arrears from a purchaser seeking reconnection or a fresh connection.",
+      "how_treated": "Followed as the summarising statement of law.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}

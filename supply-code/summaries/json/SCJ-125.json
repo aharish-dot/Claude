@@ -1,0 +1,67 @@
+{
+  "case_id": "SCJ-125",
+  "title": "Smt. Pawan Jha @ Priya Jha v. State of U.P. And Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Amitava Lala & Ashok Srivastava, JJ.",
+  "date_of_judgment": "2011-05-26",
+  "date_display": "26 May 2011",
+  "docket": "Civil Misc. Writ Petition No. 30263 of 2011",
+  "disposition": "Writ petition disposed of; recovery from petitioner upheld subject to moulded relief (installments and time-bound connection), with liberty to proceed against the erstwhile occupier separately",
+
+  "headnote": "Applying the DVS Steels/Hanuman Rice Mills doctrine (this corpus, SCJ-099) to a novel fact pattern, a subsequent allottee of premises under an Allahabad Development Authority (ADA) EWS-flat allotment stands in no materially different position than a private purchaser of premises: where the erstwhile occupier/owner left electricity dues unpaid, the licensee is entitled to insist on clearance of those arrears (or a portion thereof through equitable moulding) as a condition of releasing a fresh connection to the new allottee, since the liability attaches to the premises/connection rather than merely to the departed consumer personally. The new allottee is not without remedy — she may independently pursue recovery of any amount she is compelled to pay from the erstwhile occupier/owner through appropriate proceedings — but cannot resist the licensee's demand as a precondition to obtaining a fresh connection. Equitable relief moulding (permitting phased/installment payment and mandating a time-bound connection upon initial part-payment) is appropriate to balance the licensee's revenue-recovery interest against the hardship of an incoming allottee with no personal fault.",
+
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.3",
+      "code": "U.P. Electricity Supply Code, 2005 (Clause 4.3, arrears as precondition to new connection) applying DVS Steels/Hanuman Rice Mills doctrine",
+      "clause": "4.3 (arrears of a previous occupier as a precondition to a fresh connection) — application to a statutory/development-authority allotment context",
+      "topic": "An ADA EWS-flat allottee is not distinguishable from a private purchaser for purposes of the arrears-liability doctrine: pre-existing dues of the erstwhile occupier may lawfully condition the grant of a fresh connection to the new allottee, subject to equitable moulding",
+      "type": "supply_code",
+      "question": "Can the licensee insist that a subsequent allottee of an ADA-allotted EWS flat clear the erstwhile occupier's unpaid electricity dues (Rs. 45,625) as a precondition to obtaining a fresh connection, notwithstanding that the allottee had no role in incurring those dues and her allotment arose through a statutory development authority rather than a private sale?",
+      "holding": "Yes, applying the DVS Steels Ltd. v. U.P. Power Corporation Ltd. (SCJ-099) and Hanuman Rice Mills doctrine that arrears follow the premises/connection and not merely the person of the departed consumer, an ADA-allotment context is not meaningfully distinguishable from a private purchase for this purpose; the licensee may insist on clearance of dues as a precondition to a fresh connection. However, exercising equitable jurisdiction, the Court moulded relief: the petitioner was permitted to deposit the outstanding amount in three equal monthly installments, with the licensee directed to release the electricity connection within 72 hours of the first installment being deposited, and the petitioner was given liberty to pursue recovery of any amounts paid from the erstwhile owner/occupier through appropriate independent proceedings.",
+      "limiting_facts": "The petitioner was allotted an EWS flat by the Allahabad Development Authority; the erstwhile occupier had left unpaid electricity dues of Rs. 45,625 on the premises' connection; the licensee refused a fresh connection to the petitioner absent clearance of those dues.",
+      "paras": "unnumbered order (full text)"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "arrears-follow-premises-not-person-ada-allotment-context",
+      "application": "Extends the DVS Steels/Hanuman Rice Mills arrears-transferee-liability doctrine (SCJ-099) from private-sale/purchase contexts to a statutory development-authority (ADA) EWS-flat allotment, holding the two contexts are not meaningfully distinguishable; part of this corpus's broader arrears/occupant-liability cluster (SCJ-090, SCJ-098, SCJ-124).",
+      "lead_authorities": [{"name": "Paschimanchal Vidyut Vitran Nigam Ltd. v. DVS Steels & Alloys Pvt. Ltd.", "docid": "74832153"}],
+      "paras": "unnumbered order"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Petitioner's recovery of the paid amount from the erstwhile owner/occupier",
+      "note": "Left open; liberty granted to pursue independently through appropriate proceedings.",
+      "docid": "",
+      "paras": "unnumbered order"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Paschimanchal Vidyut Vitran Nigam Ltd. v. DVS Steels & Alloys Pvt. Ltd.",
+      "citation": "(2009) 1 SCC 210",
+      "court": "Supreme Court",
+      "docid": "74832153",
+      "proposition": "Arrears of electricity dues attach to the premises/connection and may condition a fresh connection to a subsequent transferee, subject to equitable relief.",
+      "how_treated": "Applied to extend the doctrine to an ADA statutory-allotment context.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Haryana State Electricity Board v. Hanuman Rice Mills",
+      "citation": "",
+      "court": "",
+      "docid": "1336616",
+      "proposition": "Same arrears-follow-premises doctrine applied in the rice-mills line of cases.",
+      "how_treated": "Applied alongside DVS Steels as controlling authority.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "case_id": "SCJ-124",
+  "title": "Smt. Beena Dubey v. M.D. Kanpur Electricity Supply Co. Ltd. & 4 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Amreshwar Pratap Sahi & Rajiv Lochan Mehrotra, JJ.",
+  "date_of_judgment": "2017-09-21",
+  "date_display": "21 September 2017",
+  "docket": "WRIT - C No. 42074 of 2017",
+  "disposition": "Writ petition disposed of; recovery proceedings against the landlord-petitioner upheld, with liberty to seek redressal/pursue the tenant",
+
+  "headnote": "Under Clause 4.3(f)(vi) of the U.P. Electricity Supply Code, 2005, where an electricity connection is given to a tenant with the landlord's consent, the landlord's liability for clearing all electricity arrears/dues becomes co-extensive with the tenant's before the tenant vacates the premises — even though the landlord never directly gave consent or an undertaking of liability to the Electricity Department, a tenancy agreement clause (permitting the tenant to obtain the connection and bear its charges) suffices as the owner's consent under Clause 4.4(a)(vi) for the connection to be given in the first place, and Clause 4.3(f)(vi) then independently imposes co-extensive liability on the landlord for clearing dues before the tenant's departure. Recovery from the landlord is accordingly lawful, without prejudice to the landlord's remedies (civil recovery, cheque-dishonour prosecution under s.138 Negotiable Instruments Act, or the licensee's own action) against the defaulting tenant, and without prejudice to the landlord seeking installment or other relief available under the Supply Code.",
+
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.3(f)(vi)",
+      "code": "U.P. Electricity Supply Code, 2005 (Clauses 4.3(f)(vi), 4.4(a)(vi))",
+      "clause": "4.3(f)(vi) (landlord's co-extensive liability to clear tenant's electricity dues before tenant vacates) read with 4.4(a)(vi) (owner's consent for new connection)",
+      "topic": "A landlord's liability for a tenant's electricity dues becomes co-extensive under Clause 4.3(f)(vi) once the connection was given with the landlord's consent (which may be evidenced by a tenancy-agreement clause, even absent a direct undertaking to the licensee), requiring the landlord to clear arrears before the tenant vacates",
+      "type": "supply_code",
+      "question": "Can electricity dues, accrued on a connection held in a departed tenant's name, be recovered from the landlord-owner of the premises, where the landlord never directly gave the Electricity Department any consent or undertaking of liability, but the tenancy agreement itself contemplated the tenant obtaining the connection and bearing the charges?",
+      "holding": "Yes. Clause 4.4(a)(vi) requires the owner's consent for a new connection; here such consent, while not directly endorsed to the Electricity Department, is evidenced by Clause 5 of the tenancy agreement between the landlord and tenant contemplating the tenant obtaining the connection in his own name and bearing its charges — the landlord accordingly did not object to (and effectively agreed to) the connection. Separately and independently, Clause 4.3(f)(vi) makes the landlord's liability co-extensive with the tenant's for clearing all electricity arrears/dues before the tenant vacates the premises — a liability arising from the Supply Code itself, not from any direct undertaking to the Department. Since the tenant had already vacated without clearing dues, recovery from the landlord was lawful and the recovery proceedings were not quashed, though the landlord retains recourse against the tenant (civil suit, s.138 Negotiable Instruments Act prosecution over a dishonoured cheque, or the licensee's own separate action against the tenant) and may seek installment or other relief available under the Code.",
+      "limiting_facts": "The petitioner, landlord of the premises, let it to respondent no. 5, who obtained an electricity connection in his own name per Clause 5 of their tenancy agreement (making the tenant responsible for the connection and its charges); the tenant vacated leaving dues unpaid (including a dishonoured cheque tendered towards the dues), and recovery proceedings (22.8.2017) were initiated against the landlord.",
+      "paras": "unnumbered order (full text)"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "clause-4.3-f-vi-landlord-co-extensive-liability-for-tenant-dues",
+      "application": "A landlord's liability for a departed tenant's electricity dues is co-extensive under Clause 4.3(f)(vi), triggered once the connection was given with the landlord's consent (which a tenancy-agreement clause can itself evidence); this reinforces and extends this corpus's arrears/occupant-liability cluster (SCJ-090, SCJ-098) into the landlord-tenant context.",
+      "lead_authorities": [],
+      "paras": "unnumbered order"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Precise quantum of dues and any installment arrangement for the landlord",
+      "note": "Left open for the landlord to pursue with the Executive Engineer under the Supply Code.",
+      "docid": "",
+      "paras": "unnumbered order"
+    }
+  ],
+  "authorities": []
+}
