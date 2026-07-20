@@ -1,0 +1,48 @@
+{
+  "case_id": "SCJ-064",
+  "title": "M/S Santosh Preservation Pvt. Ltd. & Anr. v. Dakshinanchal Vidyut Vitran Nigam Ltd. & Anr.",
+  "neutral_citation": "2023:AHC:146861-DB",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta & Prashant Kumar, JJ. (delivered by Manoj Kumar Gupta, J.)",
+  "date_of_judgment": "2023-07-24",
+  "date_display": "24 July 2023",
+  "docket": "WRIT - C No. 27553 of 2019",
+  "disposition": "Writ petition dismissed",
+
+  "headnote": "The consumer's right under Clause 5.6(c)(iii) of the U.P. Electricity Supply Code, 2005 to have a meter tested at an independent laboratory of choice applies only where the conclusion of tampering or a fast/slow-running meter is arrived at ON THE BASIS OF a test report — i.e. where the defect/tampering is not obvious on inspection and requires laboratory analysis to establish. Where tampering is patent and visible to the naked eye at the time of inspection itself (e.g. cut phase wires, broken seals, a meter recording nil consumption despite live current on the transformer), the conclusion of theft does not depend on any test report, and Clause 5.6(c)(iii) is simply not attracted; sending the meter for testing thereafter (for record purposes) does not create a new right to independent testing that never existed. Mohd. Sagir and Smt. Amrawati Devi are distinguished as cases where tampering was not obvious on inspection and was established only by subsequent test reports.",
+
+  "holding_units": [
+    {
+      "provision": "UP-2005::5.6",
+      "code": "U.P. Electricity Supply Code, 2005 (with ss.126/135, EA 2003)",
+      "clause": "5.6(c)(iii) (independent-laboratory testing option)",
+      "topic": "Independent-laboratory testing right under Clause 5.6(c)(iii) applies only where the tampering/defect conclusion rests on a test report, not where tampering is patent on inspection",
+      "type": "supply_code",
+      "question": "Is a theft assessment vitiated for not offering the consumer an option to test the meter at an independent laboratory under Clause 5.6(c)(iii), where the tampering (cut phase wires, broken seals, nil consumption despite live transformer current) was patent and recorded on the spot at inspection, and not derived from any subsequent test report?",
+      "holding": "No. Clause 5.6(c)(iii)'s independent-testing option exists to rule out bias where the conclusion of a fast/slow-running or tampered meter is arrived at on the basis of a test report (i.e. where the defect is not visible on inspection and needs laboratory ascertainment) — as in Mohd. Sagir and Smt. Amrawati Devi, both distinguished here. Where, as here, tampering is obvious to the naked eye at inspection itself (window/TP seals tampered, R and B phase wires cut, the meter recording nil consumption though the transformer showed live current on all three phases), the conclusion of theft does not depend on any test report; the licensee's subsequent sending of the meter for testing (for record purposes) does not confer a Clause 5.6(c)(iii) right that never arose. Since the tampering was a foregone conclusion on the inspection report itself, the assessment order was not vitiated for want of independent testing or for being non-speaking, and interference under Article 226 was declined.",
+      "limiting_facts": "On checking (12.6.2019) of a cold storage's meters, both the Main meter and a Pole meter showed tampered window/TP seals with the R and B phase wires cut, rendering both meters incapable of recording consumption (showing nil) despite the transformer recording live current (112-125 Amp) on all three phases; the consumer paid Rs. 56 lakh as compounding fee (to avoid criminal prosecution) and Rs. 10 lakh towards the anticipated assessment, and was later assessed Rs. 20,54,895 for 59 days of unauthorised use.",
+      "paras": "paras 20-30"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "independent-lab-testing-only-if-conclusion-rests-on-test-report",
+      "application": "Clause 5.6(c)(iii)'s independent-laboratory option is triggered only when the tampering/defect finding is derived from a test report; it has no application where tampering is visibly patent at inspection, distinguishing Mohd. Sagir and Amrawati Devi (ambiguous, test-report-dependent tampering).",
+      "lead_authorities": [
+        {"name": "Mohd. Sagir v. Dakshinanchal Vidyut Vitran Nigam Ltd.", "docid": "1795995"},
+        {"name": "K.C. Ninan v. Kerala State Electricity Board & Ors.", "docid": "160269658"}
+      ],
+      "paras": "paras 21-27"
+    }
+  ],
+
+  "not_decided": [],
+
+  "authorities": [
+    {"name": "Mohd. Sagir v. Dakshinanchal Vidyut Vitran Nigam Ltd.", "citation": "(DB)", "court": "Allahabad High Court (DB)", "docid": "1795995", "proposition": "A tampered meter is also a 'defective meter' within Clause 5.6 (read with Clause 5.9(a)(ii)); where tampering (a foreign remote-sensing device) was not visible on inspection and was established only by a subsequent committee's opening of the meter, the consumer had a right under Clause 5.6(c)(iii) to independent testing.", "how_treated": "Distinguished — that case involved tampering not obvious at inspection, established only by later test/committee report, unlike the patent tampering here.", "how_treated_paras": "paras 21, 27", "cited_by": "Petitioner", "treatment": "Distinguished"},
+    {"name": "Smt. Amrawati Devi v. Purvanchal Vidyut Vitran Nigam Ltd. & Anr.", "citation": "(DB)", "court": "Allahabad High Court (DB)", "docid": "", "proposition": "Clause 5.6(c) requires the consumer's agreement for testing at the licensee's lab or an independent lab; failure to apprise the consumer of the right to independent testing (where tampering was found only via a subsequent lab test) renders the sealing/assessment proceedings irregular and illegal.", "how_treated": "Distinguished on the same ground as Mohd. Sagir.", "how_treated_paras": "paras 20, 27", "cited_by": "Petitioner", "treatment": "Distinguished"},
+    {"name": "K.C. Ninan v. Kerala State Electricity Board & Ors.", "citation": "2023 SCC OnLine SC 603", "court": "Supreme Court", "docid": "160269658", "proposition": "Electricity constitutes a 'public good', and the courts' interpretation of the law must foster this position.", "how_treated": "Referred to support a purposive interpretation of Clause 5.6 that does not create an artificial independent-testing right in cases of patent, visible meter tampering.", "how_treated_paras": "para 26", "cited_by": "Court", "treatment": "Referred"}
+  ]
+}

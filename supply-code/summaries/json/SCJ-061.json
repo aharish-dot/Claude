@@ -1,0 +1,59 @@
+{
+  "case_id": "SCJ-061",
+  "title": "M/S Om Ice Factory Thru' Its Partner Satyapal Singh v. Paschimanchal Vidyut Vitran Nigam Ltd. & Anr.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari & Vijay Lakshmi, JJ. (delivered by Krishna Murari, J.)",
+  "date_of_judgment": "2014-08-29",
+  "date_display": "29 August 2014",
+  "docket": "WRIT - C No. 23606 of 2014",
+  "disposition": "Writ petition dismissed on the ground of alternative remedy under Section 127",
+
+  "headnote": "Where a writ petition challenges only a provisional/final assessment on facts — after the consumer's objections were considered by the assessing authority pursuant to an earlier round of writ litigation — and raises no jurisdictional challenge, no challenge to a notification or provision as ultra vires, and no allegation of a breach of natural justice or fundamental rights, the petitioner must be relegated to the statutory appeal under Section 127 of the Electricity Act, 2003. Ashok Kumar v. State of U.P. is distinguishable because it involved a pure jurisdictional/vires challenge (validity of the notification appointing the assessing officer) which neither the assessing officer nor the appellate authority could decide; Southco v. Sri Seetaram Rice Mill governs instead — the High Court may entertain a writ raising a jurisdictional challenge to a notice/provisional assessment, but must remand rather than decide the factual assessment itself, and should normally decline to interfere with a final assessment order under Article 226.",
+
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act, 2003 (with Clauses 4.30/4.31, 6.8, 8.0(5), 8.1 of the Supply Code, 2005)",
+      "clause": "s.127 (alternative remedy) vis-a-vis the jurisdiction/natural-justice/fundamental-rights exceptions",
+      "topic": "Where an assessment challenge is purely factual/procedural (objections already considered) and raises no jurisdictional or vires issue, the writ is relegated to the s.127 appeal",
+      "type": "interplay",
+      "question": "Should a writ petition challenging a provisional assessment (alleging non-compliance with Clauses 4.30/4.31, 6.8 and 8.0(5)/8.1 of the Supply Code on checking-authorisation, notice and procedure) be entertained, or should the petitioner be relegated to the Section 127 appeal, where the assessing authority had already considered the petitioner's objections pursuant to an earlier writ order?",
+      "holding": "The petitioner must be relegated to the Section 127 appeal. None of the three recognised exceptions to the alternative-remedy rule (want of jurisdiction, breach of natural justice, violation of fundamental rights) was made out: the assessing authority had already considered the petitioner's objections as directed in an earlier writ (disposed of 6.8.2013) and taken a decision not shown to be dehors the law or established procedure; mere allegation of a factual/procedural flaw in that decision does not permit bypassing the statutory remedy. Ashok Kumar is distinguishable since it involved a pure legal/jurisdictional challenge (validity of the notification appointing the assessing officer) that neither the assessing officer nor the appellate authority could decide — here, by contrast, only the correctness of the provisional assessment on facts was at issue. The governing precedent is Southco v. Sri Seetaram Rice Mill: the High Court may examine a jurisdictional challenge to a provisional assessment but must remand rather than decide the assessment itself, and should normally decline to interfere with a final assessment under Article 226.",
+      "limiting_facts": "After a truck collision damaged a transformer causing anomalous billing, and after two earlier rounds of writ litigation (each relegating the consumer to the departmental process — deposit-and-representation, then objections-before-finalisation), a surprise checking (4.6.2013) found tampered seals; a provisional theft assessment of Rs. 1,09,33,708 was made, objections were invited and considered pursuant to the second writ order, and the present writ challenged the resulting order (14.5.2012 letter and 29.3.2014 rejection of representation) alleging breach of Clauses 4.30/4.31 (checking authorisation), 6.8 and 8.0(5)/8.1 (procedure/certification) of the Supply Code.",
+      "paras": "the alternative-remedy discussion (unnumbered order)"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "alternative-remedy-relegation",
+      "application": "Confirms and applies the alternative-remedy line (cf. SCJ-040 Kapil Gupta): a writ against a Section 126 assessment is entertained only on a genuine jurisdictional/natural-justice/fundamental-rights challenge; where objections have already been considered by the assessing authority and only the correctness of the assessment on facts/procedure is disputed, the petitioner is relegated to the Section 127 appeal, per Southco v. Sri Seetaram Rice Mill (SCJ-041).",
+      "lead_authorities": [
+        {"name": "Executive Engineer, Southern Electricity Supply Company of Orissa Ltd. (Southco) v. Sri Seetaram Rice Mill", "docid": "43074463"},
+        {"name": "Ashok Kumar & Others v. State of U.P. & Others", "docid": "897981"}
+      ],
+      "paras": "unnumbered order"
+    }
+  ],
+
+  "not_decided": [
+    {
+      "point": "Correctness of the theft assessment and the alleged Clause 4.30/4.31/6.8/8.0(5)/8.1 procedural flaws",
+      "note": "Not decided; the petitioner was relegated to the statutory appeal under Section 127.",
+      "docid": "",
+      "paras": "unnumbered order"
+    }
+  ],
+
+  "authorities": [
+    {"name": "Executive Engineer, Southco v. Sri Seetaram Rice Mill", "citation": "(2012) 2 SCC 108", "court": "Supreme Court", "docid": "43074463", "proposition": "The High Court may entertain a writ raising a jurisdictional challenge to a notice/provisional assessment but must remand rather than decide the assessment itself; it should normally decline to interfere with a final assessment order under Article 226.", "how_treated": "Applied as the governing precedent to dismiss the writ and relegate the petitioner to the s.127 appeal.", "how_treated_paras": "unnumbered order", "cited_by": "Court", "treatment": "Followed"},
+    {"name": "Ashok Kumar & Others v. State of U.P. & Others", "citation": "2008 (6) ADJ 660 (DB)", "court": "Allahabad High Court (DB)", "docid": "897981", "proposition": "A writ is entertained without relegation to the alternative remedy where a purely legal/jurisdictional issue (e.g. validity of the notification appointing the assessing officer) is raised, which the assessing/appellate authority cannot decide.", "how_treated": "Distinguished — no jurisdictional/vires issue was raised here, only a factual challenge to the assessment already considered by the authority.", "how_treated_paras": "unnumbered order", "cited_by": "Petitioner", "treatment": "Distinguished"},
+    {"name": "Shri Sitaram Sugar Company Ltd. & Anr. v. Union of India & Ors.", "citation": "(1990) 3 SCC 223", "court": "Supreme Court", "docid": "682224", "proposition": "Any act of the repository of power is open to challenge if in conflict with the Constitution, the governing Act, or general principles of law, or so arbitrary/unreasonable that no fair-minded authority could have made it.", "how_treated": "Held inapplicable to justify bypassing the alternative remedy on the facts.", "how_treated_paras": "unnumbered order", "cited_by": "Petitioner", "treatment": "Distinguished"},
+    {"name": "State of Bihar & Others v. Subhash Singh", "citation": "1997 (4) SCC 430", "court": "Supreme Court", "docid": "910514", "proposition": "State action must be carried out in accordance with the Constitution and within legal limits; judicial review can examine constitutionality and procedural legality of administrative action.", "how_treated": "Held inapplicable — the assessing authority's decision was not shown to be dehors the law or established procedure.", "how_treated_paras": "unnumbered order", "cited_by": "Petitioner", "treatment": "Distinguished"},
+    {"name": "V.C., Banaras Hindu University v. Shrikant", "citation": "(2006) 11 SCC 42", "court": "Supreme Court", "docid": "1413421", "proposition": "A statutory authority's action, though otherwise bona fide, must be fair and reasonable; an order made in ignorance of the prescribed procedure or on extraneous considerations is vitiated in law and subject to judicial review.", "how_treated": "Held inapplicable — no violation or unfairness in procedure was alleged.", "how_treated_paras": "unnumbered order", "cited_by": "Petitioner", "treatment": "Distinguished"},
+    {"name": "East Coast Railway & Anr. v. Mahadev Appa Rao & Ors.", "citation": "2010 (7) SCC 678", "court": "Supreme Court", "docid": "1075674", "proposition": "Whether an enquiry/verification was necessary before an adverse order depends on the facts; the authority must be alive to the material on which it purports to decide, not act mechanically or under impulse.", "how_treated": "Held inapplicable — no ground or demonstration that the assessment was made mechanically or without considering the material.", "how_treated_paras": "unnumbered order", "cited_by": "Petitioner", "treatment": "Distinguished"},
+    {"name": "Heinz India Pvt. Ltd. v. State of U.P.", "citation": "2012 (4) AWC 3662", "court": "Allahabad High Court", "docid": "", "proposition": "Judicial review of administrative action is confined to legality, procedural propriety, and Wednesbury unreasonableness — illegality, irrationality, procedural impropriety, or abuse of power.", "how_treated": "Held inapplicable — none of the five grounds of judicial review was shown to be violated.", "how_treated_paras": "unnumbered order", "cited_by": "Petitioner", "treatment": "Distinguished"}
+  ]
+}

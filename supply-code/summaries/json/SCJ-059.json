@@ -1,0 +1,99 @@
+{
+  "case_id": "SCJ-059",
+  "title": "M/S Modern Rice Mill v. MVVNL & Anr.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Sudhir Agarwal, J.",
+  "date_of_judgment": "2011-10-19",
+  "date_display": "19 October 2011",
+  "docket": "WRIT - C No. 52054 of 2010",
+  "disposition": "Writ petition allowed; assessment and appellate orders quashed (liberty to reassess afresh)",
+
+  "headnote": "Clause 5.6 of the U.P. Electricity Supply Code, 2005 gives the licensee the right to test 'any meter' on reasonable doubt of accuracy — its marginal heading 'Defective Meters' does not restrict its scope only to meters already known to be defective, since a marginal note/heading is not a legitimate aid to statutory construction. Where the licensee itself invokes Clause 5.6 to test a meter, it must test it at its own laboratory or an independent laboratory (or by consumer-option check-meter) and follow the Clause 5.6(d) procedural safeguards (advance notice of the testing date, opportunity to be present, signature on the test result sheet); testing by the meter's own manufacturer (e.g. 'Secure Meters Ltd.') is not testing by an 'independent laboratory', since a commercial manufacturer with an interest in defending its product's tamper-proof reputation cannot be judge in its own cause. Where the Electricity Act (as it stood on the date of checking) prescribes an assessment rate of one-and-a-half times the tariff, that statutory rate prevails over any discrepant multiple in the Supply Code or in the orders of the assessing/appellate authorities. Assessment under Section 126 is a penal exercise and cannot be enlarged to include dues (e.g. electricity duty) not contemplated by the statute/Code. Minimum consumption/guarantee charges for a period of disconnection are chargeable only where the disconnection is attributable to the consumer's own fault (e.g. established theft); a consumer cannot be penalised for a disconnection attributable to the licensee.",
+
+  "holding_units": [
+    {
+      "provision": "UP-2005::5.6",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "5.6(a)-(d), esp. 5.6(b)(iii)",
+      "topic": "Clause 5.6 applies to testing of 'any meter', not only a known-defective one; meter-manufacturer's own lab is not an 'independent laboratory'; procedural safeguards must be followed",
+      "type": "supply_code",
+      "question": "(a) Is Clause 5.6 confined to testing of meters already known to be defective, given its heading 'Defective Meters'? (b) Can the licensee rely on a test report from the meter's own manufacturer (Secure Meters Ltd.) as testing by an 'independent laboratory' under Clause 5.6(b)(iii), and can it dispense with the Clause 5.6(d) procedural safeguards?",
+      "holding": "(a) No, the heading does not confine the clause: a marginal heading/side-note is not a legitimate aid to statutory construction (Chandler v. DPP; Chandroji Rao v. CIT; Padmaraje R. Kadambande v. CIT; Guntaiah v. Hambamma; followed in Ghanshyam Gupta v. United India Insurance). Clause 5.6(a) gives the licensee the right to test 'any meter' on reasonable doubt of accuracy, which includes a meter that has stopped recording despite continued consumption. (b) No — testing by the meter's own manufacturer is not testing by an 'independent laboratory'; a commercial manufacturer with a business interest in its product's reputation for being tamper/pilfer-proof cannot be an unbiased arbiter, offending the principle that no one may be a judge in his own cause (following the Patna High Court's JMD Alloys Ltd. v. Bihar SEB, which deprecated testing of Secure Meters by their own manufacturer as creating a strong bias). Further, the Clause 5.6(d) safeguards (advance notice of the testing date, opportunity for the consumer/representative to be present, signature on the test result sheet) were not followed before the manufacturer's report was obtained, and this defect was never addressed by either the Assessing Officer or the Appellate Authority.",
+      "limiting_facts": "A digital 'Secure Meter' was found stopped for a period during inspection though electricity was apparently being consumed, with only the meter body seal (not the meter box seal or terminal plate seal) noted as 'disturbed/tampered' — an internal inconsistency the licensee could not explain (the body seal cannot be reached without first breaching the outer meter box seal); the meter was sent, without following Clause 5.6(d) safeguards, to its manufacturer Secure Meters Ltd., whose report of tampering was then treated as conclusive by the Assessing Officer and Appellate Authority without independent scrutiny of the meter's own tamper-detection memory/MRI data.",
+      "paras": "paras 34-53"
+    },
+    {
+      "provision": "EA2003::126",
+      "code": "Electricity Act, 2003 (s.126(6), pre-2007 amendment) vis-a-vis the Supply Code",
+      "clause": "s.126(6) (statutory assessment rate prevails over a discrepant Code rate)",
+      "topic": "Where the Code's assessment-rate provision conflicts with the statute, the statute prevails",
+      "type": "supply_code",
+      "holding": "At the relevant date, Section 126(6) fixed the assessment rate at one-and-a-half times the applicable tariff; any discrepancy in the Code (which the assessing/appellate authorities read as permitting a rate of thrice/twice respectively) must yield to the statute, which prevails over the Code in case of conflict. Both the assessing officer's (thrice) and the appellate authority's (twice) orders were accordingly unsustainable on rate alone, independent of the Clause 5.6 defect.",
+      "paras": "para 56"
+    },
+    {
+      "provision": "UP-2005::6.8",
+      "code": "U.P. Electricity Supply Code, 2005 (with s.126, EA 2003)",
+      "clause": "6.8 (assessment is penal in character; cannot be enlarged to non-statutory dues)",
+      "topic": "A Section 126 assessment (being penal/fiscal-preventive) cannot include dues not contemplated by the statute (e.g. electricity duty), and minimum-charge liability during disconnection requires fault attributable to the consumer",
+      "type": "supply_code",
+      "holding": "Since a Section 126/Clause 6.8 assessment amount is expressly excluded from computation of the consumer's monthly/annual charge liability, the assessment being penal in scope cannot be enlarged to add other dues (here, electricity duty) not contemplated by the statute. Separately, minimum consumption/guarantee charges for a period of disconnection can be demanded only where the disconnection is attributable to the consumer's own fault (e.g. an established theft justifying disconnection); where the fault (or its absence) is unresolved, the licensee cannot claim such charges, and the billing authority must determine responsibility for the disconnection before raising the demand.",
+      "paras": "paras 59-60"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "meter-manufacturer-testing-not-independent",
+      "application": "Testing of a disputed meter by its own manufacturer (e.g. Secure Meters Ltd.) does not satisfy the Code's requirement of testing at an 'independent laboratory'; such testing is inherently biased and cannot be relied upon to sustain an unauthorised-use assessment. Followed by later cases (see also SCJ-051 line applying the same technical background).",
+      "lead_authorities": [
+        {"name": "M/s JMD Alloys Limited v. Bihar State Electricity Board", "docid": "1595240"}
+      ],
+      "paras": "paras 48-50"
+    },
+    {
+      "tag": "marginal-heading-not-aid-to-construction",
+      "application": "A clause's marginal heading (e.g. 'Defective Meters' for Clause 5.6) does not restrict its substantive scope; general principle of statutory construction applied to a Supply Code clause.",
+      "lead_authorities": [
+        {"name": "Chandroji Rao v. CIT", "docid": "633431"},
+        {"name": "Padmaraje R. Kadambande v. CIT", "docid": "1245093"},
+        {"name": "Guntaiah & Others v. Hambamma & Others", "docid": "839754"}
+      ],
+      "paras": "paras 39-44"
+    },
+    {
+      "tag": "statute-prevails-over-supply-code",
+      "application": "Where the Supply Code's assessment-rate provision is discrepant with the governing statute (Section 126(6)), the statute prevails.",
+      "lead_authorities": [],
+      "paras": "para 56"
+    },
+    {
+      "tag": "minimum-charges-only-if-consumer-at-fault",
+      "application": "Minimum consumption/guarantee charges for a disconnection period are chargeable only if the disconnection is attributable to the consumer's own fault; a licensee-caused or unresolved-fault disconnection cannot ground such a demand.",
+      "lead_authorities": [],
+      "paras": "para 60"
+    }
+  ],
+
+  "not_decided": [
+    {
+      "point": "Whether the consumer in fact committed theft/unauthorised use of electrical energy",
+      "note": "Not decided on merits; quashed for procedural/legal defects, with liberty to the Assessing Officer to proceed afresh in accordance with law.",
+      "docid": "",
+      "paras": "para 64"
+    }
+  ],
+
+  "authorities": [
+    {"name": "M/s JMD Alloys Limited v. Bihar State Electricity Board", "citation": "AIR 2009 (Patna) 26", "court": "Patna High Court", "docid": "1595240", "proposition": "Sending a disputed Secure Meter for testing to its manufacturer's own accredited laboratory is likely to create a strong bias in favour of the supplier/manufacturer, even if the laboratory is accredited.", "how_treated": "Followed to hold that the manufacturer's testing report cannot be relied upon as an 'independent laboratory' report.", "how_treated_paras": "para 49", "cited_by": "Petitioner", "treatment": "Followed"},
+    {"name": "Ashok Kumar & Others v. State of U.P. & Others", "citation": "2008 (6) ADJ 660 (DB)", "court": "Allahabad High Court (DB)", "docid": "897981", "proposition": "Explains the Secure Meter's technical features (tamper/fraud detection and logging via MRI) and lays down the mandatory Clause 6.8 procedure (inspection report, notice, hearing, speaking final order) for unauthorised-use assessments; technical opinions causing serious stigma/fiscal liability must be proved with cogent, disclosed material, not accepted uncritically.", "how_treated": "Followed and extensively relied on for both the Clause 6.8 procedure and the Secure Meter technical background.", "how_treated_paras": "paras 27, 54", "cited_by": "Court", "treatment": "Followed"},
+    {"name": "M/s Mohit Paper Mills Ltd. & Anr. v. PVVNL & Ors.", "citation": "Civil Misc. Writ Petition No. 63610 of 2010, decided 14.10.2011", "court": "Allahabad High Court", "docid": "57045694", "proposition": "Detailed technical description of the Secure Meter system (Consumer Energy Meter, Meter Reading Instrument, Base Computer Software) and its tamper-logging capability.", "how_treated": "Relied on (a companion judgment by the same Judge, five days earlier) for the technical background of the Secure Meter.", "how_treated_paras": "para 26", "cited_by": "Court", "treatment": "Followed"},
+    {"name": "Chandler v. D.P.P.", "citation": "[1964] A.C. 763", "court": "House of Lords", "docid": "", "proposition": "Side notes/marginal headings cannot be used as an aid to statutory construction; they are mere catchwords, not enacted as part of the Act.", "how_treated": "Relied on for the marginal-heading principle applied to Clause 5.6's 'Defective Meters' heading.", "how_treated_paras": "para 40", "cited_by": "Court", "treatment": "Relied on"},
+    {"name": "Chandroji Rao v. CIT", "citation": "1970 (2) SCC 23", "court": "Supreme Court", "docid": "633431", "proposition": "A marginal heading cannot control the interpretation of a statutory provision.", "how_treated": "Relied on to the same effect.", "how_treated_paras": "para 41", "cited_by": "Court", "treatment": "Relied on"},
+    {"name": "Padmaraje R. Kadambande v. CIT", "citation": "1992 (3) SCC 432", "court": "Supreme Court", "docid": "1245093", "proposition": "A marginal heading (e.g. 'compensation') does not control the operation or interpretation of the section.", "how_treated": "Relied on to the same effect.", "how_treated_paras": "para 42", "cited_by": "Court", "treatment": "Relied on"},
+    {"name": "Guntaiah & Others v. Hambamma & Others", "citation": "(2005) 6 SCC 228", "court": "Supreme Court", "docid": "839754", "proposition": "Titles/marginal notes have the effect of only marginal notes and are not a legitimate aid to construction of a section or rule.", "how_treated": "Relied on to the same effect.", "how_treated_paras": "para 43", "cited_by": "Court", "treatment": "Relied on"},
+    {"name": "Ghanshyam Gupta v. United India Insurance Co. Ltd. & Ors.", "citation": "Civil Misc. Writ Petition No. 53188 of 2011, decided 14.9.2011", "court": "Allahabad High Court", "docid": "34782786", "proposition": "Follows the same marginal-heading-not-aid-to-construction principle.", "how_treated": "Referred as a recent application of the same principle by the same Court.", "how_treated_paras": "para 44", "cited_by": "Court", "treatment": "Referred"}
+  ]
+}

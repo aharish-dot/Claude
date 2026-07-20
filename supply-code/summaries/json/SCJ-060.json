@@ -1,0 +1,67 @@
+{
+  "case_id": "SCJ-060",
+  "title": "M/S Mohit Paper Mills Ltd. & Anr. v. PVVNL & Ors.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Sudhir Agarwal, J.",
+  "date_of_judgment": "2011-10-14",
+  "date_display": "14 October 2011",
+  "docket": "WRIT - C No. 63610 of 2010",
+  "disposition": "Writ petition allowed; assessment and appellate orders quashed; refund with 8% interest and Rs. 25,000 costs",
+
+  "headnote": "A theft-of-electricity assessment cannot be founded on mere presumption drawn from a difference between the consumer's billing meter and independent check-meters installed outside the premises, where the check-meters themselves (maintained under the licensee's own seal/custody) were never tested, showed no explained defect, and in fact recorded consumption comparable to the billing meter for almost the entire assessment period until the billing meter was destroyed by fire; theft must be established under para 8.1(b)(iv) of the Electricity Supply Code with cogent, disclosed evidence, not inferred from an unexplained late-period spike. As an exceptional principle (applying the maxims lex non cogit ad impossibilia / impotentia excusat legem), where the consumer's own meter is physically incapable of yielding a reading (e.g. destroyed by fire or theft), a licensee-installed independent/check meter outside the premises may exceptionally be relied upon for billing, provided it is shown to have been reliably and authentically maintained with the consumer's knowledge — following Inter College Kusmaul, Gorakhpur v. State of U.P. Where an assessment is quashed and the deposited amount is to be refunded, the Court may award interest (here 8% p.a.) and costs against the licensee.",
+
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1",
+      "code": "U.P. Electricity Supply Code, 2005 (with s.126/135, EA 2003)",
+      "clause": "8.1(b)(iv) (theft must be established, not presumed)",
+      "topic": "Theft cannot be inferred from an unexplained divergence between the billing meter and untested outside check-meters",
+      "type": "supply_code",
+      "question": "Can a theft-of-electricity assessment be sustained where the consumer's billing meter showed a late spike in consumption (before it was destroyed by fire) compared to three independent check-meters installed by the licensee outside the premises, but those check-meters were never tested and showed no discrepancy for almost the entire assessment period?",
+      "holding": "No. Under para 8.1(b)(iv) of the Code, a case of theft must be established, not presumed. Since the three outside meters (maintained under the licensee's own seal/custody) recorded consumption comparable to the billing meter for nearly the whole assessment period, were never independently tested, and no report of tampering with them was ever lodged, there was no material basis to infer theft at the consumer's premises merely from a late-period divergence (occurring only around the time the billing meter was destroyed by fire); an unsupported suggestion at the hearing that all four meters had been remotely tampered could not be explained by the licensee's own technical officer and did not constitute evidence. The assessment and confirming appellate order (itself unreasoned/non-speaking, contrary to para 8.1) were quashed.",
+      "limiting_facts": "Four meters recorded electricity for the petitioner's paper mill on an independent HT feeder: two meters in series at the sub-station (SS Meter 'A'/'B'), a double-pole check meter near the premises (DP Meter 'C'), and the consumer's own billing meter ('D'). After the consumer reported tripping/a burning smell and the metering cubicle later caught fire (27.6.2007, destroying the billing meter), the licensee's inspection team alleged the consumer had deliberately set the fire and, after analysing MRI data, assessed Rs. 86,46,221 (later Rs. 93,52,597 per revised notice) for unauthorised use over 24.4.2007-27.6.2007; the appellate authority upheld the assessment in a summary order.",
+      "paras": "paras 189-197"
+    },
+    {
+      "provision": "OFFTOPIC::impossibility-billing-on-outside-meter",
+      "code": "General maxim (lex non cogit ad impossibilia) applied to billing where the consumer's own meter cannot yield a reading",
+      "clause": "exceptional reliance on an outside/check meter for billing",
+      "topic": "Where the consumer's own meter is physically incapable of providing a reading, an independent check meter outside the premises may exceptionally found billing, if reliably maintained",
+      "type": "interplay",
+      "holding": "No statutory provision permits billing/assessment based on a meter other than the one installed at the consumer's premises; ordinarily the answer must go against the licensee for want of such a provision. However, the law does not require compliance with the impossible: where the consumer's own meter is destroyed (e.g. by fire) or stolen and cannot yield a reading, an independent/check meter installed by the licensee outside the premises may exceptionally be relied upon for billing, provided it is shown to be reliably and authentically maintained with the consumer's knowledge — applying lex non cogit ad impossibilia, impotentia excusat legem and nemo tenetur ad impossibilia, following the Division Bench in Inter College Kusmaul, Gorakhpur v. State of U.P.",
+      "paras": "para 194"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "theft-must-be-established-not-presumed",
+      "application": "A theft assessment under para 8.1(b)(iv) of the Code requires cogent, disclosed evidence of unauthorised use; an unexplained late-period divergence between the billing meter and untested outside check-meters (which otherwise tracked the billing meter closely) does not suffice, and an unsupported technical suggestion at hearing cannot cure the evidentiary gap.",
+      "lead_authorities": [],
+      "paras": "paras 189-197"
+    },
+    {
+      "tag": "impossibility-exception-outside-meter-billing",
+      "application": "Where the consumer's own meter cannot yield a reading due to physical impossibility (fire, theft), a reliably maintained outside/check meter may exceptionally found billing, applying the impossibility maxims.",
+      "lead_authorities": [
+        {"name": "Inter College Kusmaul, Gorakhpur & Anr. v. State of U.P. & Ors.", "docid": "840038"}
+      ],
+      "paras": "para 194"
+    }
+  ],
+
+  "not_decided": [
+    {
+      "point": "Whether the consumer in fact deliberately set fire to the metering cubicle",
+      "note": "Not conclusively decided in the consumer's favour or against; the assessment was quashed for want of established theft, without prejudice to the licensee taking such further action as permissible in law.",
+      "docid": "",
+      "paras": "para 198"
+    }
+  ],
+
+  "authorities": [
+    {"name": "Inter College Kusmaul, Gorakhpur & Anr. v. State of U.P. & Ors.", "citation": "2006 (5) AWC 4436", "court": "Allahabad High Court (DB)", "docid": "840038", "proposition": "Expounds the maxims lex non cogit ad impossibilia, impotentia excusat legem and nemo tenetur ad impossibilia (the law does not compel the impossible).", "how_treated": "Followed to permit exceptional reliance on an outside/check meter for billing where the consumer's own meter cannot yield a reading.", "how_treated_paras": "para 194", "cited_by": "Court", "treatment": "Followed"}
+  ]
+}

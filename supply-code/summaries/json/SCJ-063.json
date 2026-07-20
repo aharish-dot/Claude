@@ -1,0 +1,46 @@
+{
+  "case_id": "SCJ-063",
+  "title": "M/S Rayana Paper Board Industries Ltd. v. U.P. Power Corporation Ltd. & Ors.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Devi Prasad Singh & S.C. Chaurasia, JJ.",
+  "date_of_judgment": "2010-01-08",
+  "date_display": "8 January 2010",
+  "docket": "Misc. Bench No. 5533 of 2009",
+  "disposition": "Writ petition allowed; recovery citation against the purchaser quashed (liberty to proceed against the original owner)",
+
+  "headnote": "Clause 4.3(ii)-(iii) of the U.P. Electricity Supply Code, 2005 obliges a vendor to clear outstanding electricity dues before selling premises (or disclose them in the sale deed) and allows a purchaser who has not obtained a no-dues certificate to apply for one, with the licensee bound to disclose pending dues or issue the certificate within 30 working days. This creates a leverage for the licensee to withhold a new electricity connection to the premises (or refuse to transfer the existing one) until the outstanding dues are cleared, but does not by itself authorise coercive RECOVERY of the previous owner's dues from the purchaser as arrears of land revenue — such coercive recovery against a person who never consumed the electricity requires an express enabling statutory/Code provision, absent which the licensee's remedy is confined to withholding a fresh connection, and it must pursue recovery against the original defaulting consumer.",
+
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.3",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.3(ii)-(iii) (no-dues certificate on sale of premises)",
+      "topic": "Clause 4.3(ii)-(iii) supports withholding a fresh connection pending dues, but does not by itself authorise coercive recovery of the previous owner's dues from a purchaser who never held the connection",
+      "type": "supply_code",
+      "question": "Where an industrial land parcel is transferred by sale deed and the transferor's electricity dues remain unpaid, can the licensee issue a recovery citation (coercive recovery as arrears of land revenue) directly against the purchaser-transferee, who never held the electricity connection or consumed the electricity, relying on Clause 4.3(ii)-(iii) of the Supply Code?",
+      "holding": "No. Clause 4.3(ii) obliges the vendor to clear outstanding dues before sale (or disclose them in the sale deed), and Clause 4.3(iii) allows the purchaser to seek a no-dues certificate, with the licensee bound to disclose pending dues or issue the certificate within 30 working days; the Code does not, however, contain any penal/recovery provision empowering the licensee to coercively recover the vendor's dues from the vendee. In the absence of a provision enabling such recovery, the licensee's right is confined to withdrawing/declining the electricity connection to the premises (i.e. refusing a fresh connection until dues are cleared, consistent with Dakshin Haryana Bijli Vitran Nigam Ltd. v. Paramount Polymers Pvt. Ltd.) — it cannot issue a coercive recovery citation against the purchaser for dues never incurred by the purchaser. The impugned recovery citation was quashed, with liberty to recover from the original owner (who, moreover, already had a pending dispute before the Electricity Ombudsman over the same dues).",
+      "limiting_facts": "The transferor sold a portion of its industrial land to the petitioner by registered sale deed (14.9.2006); the licensee, without any electricity connection in the petitioner's name, issued a recovery citation for Rs. 25,36,000 against the petitioner for dues incurred by the transferor, whose dispute over those very charges was pending before the Electricity Ombudsman.",
+      "paras": "unnumbered order",
+      "flag": "An early (2010) ruling in the arrears/transferee cluster (cf. SCJ-005/012/031/036/037/054), drawing a distinction between (a) withholding a NEW connection pending dues (permissible leverage) and (b) coercive RECOVERY of the previous owner's dues from a non-consumer transferee (requires an express enabling provision). This narrower point about the mode of enforcement may retain force even after K.C. Ninan (SCJ-037) recognised that a Supply Code condition CAN create a statutory charge enabling recovery from a transferee where the Code so expressly provides."
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "arrears-run-with-the-premises",
+      "application": "Refines the cluster: absent an express Code provision authorising coercive recovery from a transferee, the licensee's leverage over unpaid dues on a transferred premises is limited to withholding a fresh connection (Clause 4.3), not issuing a land-revenue-style recovery citation against the non-consumer purchaser.",
+      "lead_authorities": [
+        {"name": "Dakshin Haryana Bijli Vitran Nigam Ltd. v. M/s Paramount Polymers Pvt. Ltd.", "docid": ""}
+      ],
+      "paras": "unnumbered order"
+    }
+  ],
+
+  "not_decided": [],
+
+  "authorities": [
+    {"name": "Dakshin Haryana Bijli Vitran Nigam Ltd. v. M/s Paramount Polymers Pvt. Ltd.", "citation": "AIR 2007 SC 2", "court": "Supreme Court", "docid": "", "proposition": "Where the Terms and Conditions of Supply validly condition a fresh/reconnection on clearing a previous consumer's arrears on the premises, a purchaser cannot invoke Isha Marbles to obtain a fresh connection without clearing those arrears; but the arrears remain tied to the premises/reconnection process, with any transferee payment adjusted against (and refundable if later recovered from) the original defaulter.", "how_treated": "Relied on for the proposition that the licensee may withhold a fresh connection pending dues, but distinguished to the extent it does not authorise coercive recovery from the transferee outside the connection process.", "how_treated_paras": "unnumbered order", "cited_by": "Respondent", "treatment": "Distinguished"}
+  ]
+}

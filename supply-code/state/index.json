@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 59,
+  "next_seq": 67,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -352,6 +352,54 @@
       "case_id": "SCJ-058",
       "source_basename": "MS Krown Bakers India Pvt. Ltd. vs Paschimanchal Vidyut Vitran Nigam And ... on 12 February, 2014",
       "title": "Krown Bakers v. PVVNL (Clause 5.6 check-meter procedure on consumer request)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-059",
+      "source_basename": "MS Modern Rice Mill vs Mvvnl And Another on 19 October, 2011",
+      "title": "Modern Rice Mill v. MVVNL (Clause 5.6 not confined to defective meters; manufacturer lab not independent)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-060",
+      "source_basename": "MS Mohit Paper Mills Ltd. And Another vs Pvvnl And Others on 14 October, 2011",
+      "title": "Mohit Paper Mills v. PVVNL (theft must be established not presumed; impossibility exception for outside meter billing)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-061",
+      "source_basename": "MS Om Ice Factory Thru' Its Partner ... vs Paschimanchal Vidyut Vitran Nigam Ltd. ... on 29 August, 2014",
+      "title": "Om Ice Factory v. PVVNL (alternative remedy; Seetaram Rice Mill applied, Ashok Kumar distinguished)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-062",
+      "source_basename": "MS Pashupati Castings Ltd. vs State Of U.P. And Others on 16 January, 2014",
+      "title": "Pashupati Castings v. State of U.P. (OFFTOPIC; Electricity Duty Act 1952, ~85 petitions)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-063",
+      "source_basename": "MS Rayana Paper Board Industries Ltd. vs U.P. Power Corporation Ltd. And Others on 8 January, 2010",
+      "title": "Rayana Paper Board v. UPPCL (Clause 4.3; no coercive recovery from transferee absent enabling provision)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-064",
+      "source_basename": "MS Santosh Preservation Pvt. Ltd. And ... vs Dakshinanachal Vidyut Vitran Nigam ... on 24 July, 2023",
+      "title": "Santosh Preservation v. DVVNL (Clause 5.6(c)(iii) only when tampering finding rests on test report)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-065",
+      "source_basename": "MS Sartaj Rice Mill Thru' Its Partner ... vs Paschimanchal Vidhyut Vitran Nigam ... on 7 October, 2015",
+      "title": "Sartaj Rice Mill v. PVVNL (assessment final by consumer's own acceptance/instalment offer)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-066",
+      "source_basename": "MS Shokumbhari Pulp & Paper Mills Ltd. vs U.P. Power Corporation Limited & 3 ... on 1 April, 2014",
+      "title": "Shokumbhari Pulp & Paper Mills v. UPPCL (Clause 3.8; no retrospective tariff)",
       "status": "done"
     }
   ]
