@@ -1,0 +1,72 @@
+{
+  "case_id": "SCJ-091",
+  "title": "Naresh Kumar Madan v. State of Madhya Pradesh",
+  "neutral_citation": "AIR 2008 SC 385",
+  "court": "Supreme Court of India",
+  "bench": "Two-Judge Bench",
+  "coram": "S.B. Sinha & Markandey Katju, JJ.",
+  "date_of_judgment": "2007-04-10",
+  "date_display": "10 April 2007",
+  "docket": "Criminal Appeal No. 519 of 2007 (arising out of SLP (Crl.) No. 4529 of 2006)",
+  "disposition": "Appeal dismissed; prosecution under the Prevention of Corruption Act, 1988 upheld",
+
+  "headnote": "Not a Supply Code case — a criminal appeal against prosecution of a Madhya Pradesh Electricity Board civil engineer under the Prevention of Corruption Act, 1988 for allegedly taking illegal gratification for grant of an electrical connection. The Supreme Court held that an employee of a State Electricity Board constituted under the Electricity (Supply) Act, 1948 is a 'public servant' for the purposes of the Prevention of Corruption Act, 1988 independently of s.81 of the 1948 Act's deeming provision (which operates only for Indian Penal Code purposes), because the Board is a statutory corporation and its employees fall within s.2(1)(c)(iii) of the 1988 Act; a term defined in one statute cannot be interpreted solely by reference to its definition in another. Recorded here as electricity-administration-adjacent but outside the Supply Code's consumer billing/assessment/disconnection framework.",
+
+  "holding_units": [
+    {
+      "provision": "OFFTOPIC::electricity-board-employee-public-servant-status",
+      "code": "Prevention of Corruption Act, 1988 (s.2(1)(c)) vis-a-vis Electricity (Supply) Act, 1948 (s.81) and IPC s.21",
+      "clause": "s.2(1)(c)(iii), 1988 Act (public servant) vis-a-vis s.81, 1948 Act (deemed public servant under IPC s.21)",
+      "topic": "An Electricity Board employee is a 'public servant' under the Prevention of Corruption Act, 1988 independently of the 1948 Act's IPC-specific deeming provision, since the Board is a statutory corporation within s.2(1)(c)(iii) of the 1988 Act",
+      "type": "interplay",
+      "holding": "A term defined in one statute cannot be construed solely by reference to its definition in a different statute; s.81 of the Electricity (Supply) Act, 1948 deems Board employees 'public servants' only for purposes of s.21 IPC, but that does not exhaust the question of their status under the differently-and-more-broadly-worded 'public servant' definition in s.2(1)(c) of the Prevention of Corruption Act, 1988, which independently captures any person in the service or pay of a corporation established by or under a Central, Provincial or State Act. The appellant, a Board employee, therefore answered the description of 'public servant' under the 1988 Act, and his prosecution for taking illegal gratification in connection with grant of an electrical connection was maintainable. The single-judge decision in Bimal Kumar Gupta v. Special Police Establishment Lokayukt holding otherwise was overruled as not laying down the correct law.",
+      "paras": "unspecified paragraphs (short judgment)",
+      "flag": "Recorded for corpus completeness; concerns the criminal-law 'public servant' status of Electricity Board employees for anti-corruption prosecution, not the Supply Code's consumer-facing billing/assessment/disconnection framework."
+    }
+  ],
+
+  "principle_tags": [],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "Bimal Kumar Gupta v. Special Police Establishment Lokayukt",
+      "citation": "2001 (1) MPHT 330; (2001) 3 JLJ 2",
+      "court": "Madhya Pradesh High Court (Single Judge)",
+      "docid": "1336883",
+      "proposition": "Employees of the Madhya Pradesh State Electricity Board are not 'public servants' for purposes of prosecution under the Prevention of Corruption Act, since s.81 of the 1948 Act only deems them public servants under IPC s.21, and a 'deemed provision' cannot extend to another statute (relying on State of Maharashtra v. Laljit Rajashi Shah).",
+      "how_treated": "Overruled — held not to lay down the correct law; the 1988 Act's own broader 'public servant' definition (s.2(1)(c)(iii)) independently captures Board employees regardless of the 1948 Act's IPC-specific deeming fiction.",
+      "cited_by": "Petitioner",
+      "treatment": "Overruled"
+    },
+    {
+      "name": "Raymond Ltd. v. State of Chhattisgarh & Ors.",
+      "citation": "(2007) 3 SCALE 341",
+      "court": "Supreme Court",
+      "docid": "577956",
+      "proposition": "Interpretation of a term in one statute cannot be done with reference to its definition contained in another statute.",
+      "how_treated": "Applied as the governing interpretive principle to reject reliance on s.81 of the 1948 Act to limit the 1988 Act's own 'public servant' definition.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "State of Maharashtra v. Laljit Rajashi Shah & Ors.",
+      "citation": "AIR 2000 SC 937",
+      "court": "Supreme Court",
+      "docid": "900221",
+      "proposition": "A person deemed a public servant under an analogous 'deemed to be public servant' provision for Maharashtra Cooperative Societies employees was not a public servant for purposes of the (former) Prevention of Corruption Act, 1947.",
+      "how_treated": "Distinguished — that case concerned a cooperative-society member, not an employee of a statutory corporation, and did not address the 1988 Act's broader definition.",
+      "cited_by": "Petitioner (via Bimal Kumar Gupta)",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "Madhya Pradesh Electricity Board v. Union of India & Ors.",
+      "citation": "2006 (9) SCALE 194",
+      "court": "Supreme Court",
+      "docid": "508231",
+      "proposition": "The Electricity (Supply) Act, 1948 provides for the constitution and composition of State Electricity Boards, each State being enjoined to constitute one.",
+      "how_treated": "Cited for the general statutory background on the constitution of Electricity Boards.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}

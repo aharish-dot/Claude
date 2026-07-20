@@ -1,0 +1,101 @@
+{
+  "case_id": "SCJ-094",
+  "title": "Northern Coalfield Ltd. v. Chairman and Managing Director, U.P. Power Corporation Ltd. & Ors.",
+  "neutral_citation": "2006 (2) AWC 1642",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Yatindra Singh & R.K. Rastogi, JJ.",
+  "date_of_judgment": "2005-10-18",
+  "date_display": "18 October 2005",
+  "docket": "Appeal under s.36, U.P. Electricity Reforms Act, 1999",
+  "disposition": "Appeal partly allowed",
+
+  "headnote": "Under the Tariff Order 2000-01 (HV-2 category), a consumer's liability to pay a 15% surcharge for taking power during 'restricted/peak hours' is independent of, and cumulative with, its liability to pay a separate 15% surcharge for being on an 'independent feeder' emanating from a 400/220/132 KV sub-station — a consumer availing both benefits pays a total 30% surcharge. An 'independent feeder' does not cease to be independent merely because other consumers are supplied from other feeders emanating from the same sub-station; it ceases to be independent only where another consumer is tapped onto the same feeder. The definition of 'Independent Feeder' first appeared in the Electricity Supply Code 2002 and was worded differently in the Electricity Supply Code 2005 (feeder for a single consumer or group of consumers with a similar process on the same/contiguous premises); since the Tariff Order 2000-01 predates both Codes and does not itself define the term, its ordinary meaning governs for that tariff period. A licensee cannot alter or vary a Commission-approved tariff order by its own circular/notification (following LML Ltd., Kanpur v. State of U.P.); where the two conflict, the tariff order prevails.",
+
+  "holding_units": [
+    {
+      "provision": "UP-2005::independent-feeder-definition",
+      "code": "Tariff Order 2000-01 (issued under s.24, U.P. Electricity Reforms Act, 1999) read with the 'Independent Feeder' definitions in the Electricity Supply Code 2002 and Electricity Supply Code 2005",
+      "clause": "'Independent Feeder' and 'restricted/peak hours' surcharge provisions (HV-2 tariff category, rows 3 and 4 of the Tariff Order 2000-01 table)",
+      "topic": "Interpretation of 'independent feeder' (pre-dating its Supply Code definitions) and whether restricted-hours and independent-feeder surcharges under a HV-2 tariff are cumulative",
+      "type": "supply_code",
+      "question": "(a) Is a consumer on an 'independent feeder' emanating from a 400/220/132 KV sub-station also separately liable for the 15% restricted/peak-hours surcharge, in addition to the 15% independent-feeder surcharge? (b) Does a feeder cease to be 'independent' merely because other consumers are fed from other feeders emanating from the same sub-station?",
+      "holding": "(a) Yes — the restricted-hours surcharge (row 3) and the independent-feeder surcharge (row 4) confer distinct benefits and are cumulative; a consumer availing both must pay a total 30% surcharge, and cannot avoid the restricted-hours surcharge merely by virtue of being on an independent feeder. (b) No — an independent feeder does not cease to be independent because other feeders (serving other consumers) also emanate from the same sub-station; it loses that character only if another consumer is tapped onto the very same feeder. Applying this, the NCL Bina connection (no other consumer on that feeder) was held an independent feeder from a 132 KV sub-station (both surcharges payable, 30% total), while the IWSS Khadia connection (power also tapped to a Kota Basti sub-station on the same feeder, without proven consumer consent) was held not an independent feeder (only the 15% restricted-hours surcharge payable, no independent-feeder surcharge; no penalty for want of prior permission, since the benefit had in fact been extended without objection).",
+      "limiting_facts": "Northern Coalfield Ltd. held two HV-2 power connections from a shared 2x20MVA sub-station at Bina — one for coal mining (NCL Bina, direct/unshared feeder) and one for an integrated water supply scheme (IWSS Khadia, whose feeder was also tapped to feed a Kota Basti sub-station serving other consumers) — and disputed a Tariff Order 2000-01/notification dated 9.8.2000 levying a cumulative 30% surcharge (restricted hours + independent feeder) rather than treating the two surcharges as mutually exclusive.",
+      "paras": "paras 1, 16-52, 55"
+    },
+    {
+      "provision": "EA1999(UP)::26",
+      "code": "U.P. Electricity Reforms Act, 1999 (ss.26, 48)",
+      "clause": "s.26 (Commission's power to enforce licence conditions/tariff compliance) vis-a-vis s.48 (bar of civil suits)",
+      "topic": "An application alleging that a licensee is charging a surcharge inconsistent with an approved tariff order (violating licence terms/tariff compliance) is properly filed under s.26 of the 1999 Act before the Commission, not a barred civil suit",
+      "type": "interplay",
+      "holding": "Since a civil suit is barred under s.48 of the 1999 Act, and the consumer's grievance was in substance that the licensee was contravening the terms and conditions of its licence/tariff order by levying an unauthorised surcharge, the application was properly maintainable under s.26 (not Regulation 138's 90-day review-application bar, which did not apply).",
+      "limiting_facts": "NCL's application before the U.P. Electricity Regulatory Commission was filed beyond the 90-day review window under Regulation 138 of the 2000 Conduct and Service Regulations but was recharacterised as one seeking enforcement of licence/tariff compliance under s.26.",
+      "paras": "paras 8-13"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "independent-feeder-tapping-not-shared-substation-determines-status",
+      "application": "A feeder remains 'independent' notwithstanding other consumers being fed from other feeders off the same sub-station; it loses independence only if another consumer is tapped onto the very same feeder — the operative test for 'Independent Feeder' both under this pre-Code tariff interpretation and, by extension, informing how the term is later defined in the Electricity Supply Code 2002/2005.",
+      "lead_authorities": [],
+      "paras": "paras 16-19, 55(b)-(c)"
+    },
+    {
+      "tag": "licensee-circular-cannot-override-commission-tariff-order",
+      "application": "A licensee's own circular/notification cannot alter or vary a tariff duly approved by the Regulatory Commission; in case of inconsistency, the Commission-approved tariff order prevails.",
+      "lead_authorities": [{"name": "LML Ltd., Kanpur v. State of U.P.", "docid": ""}],
+      "paras": "para 28"
+    },
+    {
+      "tag": "surcharge-vs-theft-penalty-distinction",
+      "application": "Where power is taken during restricted hours with (implicit or express) permission/acquiescence of the licensee, only the tariff surcharge applies; taking power surreptitiously/by theft during restricted hours instead attracts penalty under the theft provisions, not merely a surcharge.",
+      "lead_authorities": [{"name": "Prachi Leathers v. UPPCL", "docid": ""}],
+      "paras": "para 52"
+    }
+  ],
+
+  "not_decided": [
+    {
+      "point": "Whether a HV-2 consumer that is a continuous-process industry or on an independent feeder can opt out of restricted/peak-hours power supply altogether so as to avoid the 15% surcharge",
+      "note": "Expressly left open for decision in an appropriate future case.",
+      "docid": "",
+      "paras": "para 54"
+    }
+  ],
+
+  "authorities": [
+    {
+      "name": "LML Ltd., Kanpur v. State of U.P.",
+      "citation": "AIR 2001 Allahabad 321",
+      "court": "Allahabad High Court (DB)",
+      "docid": "",
+      "proposition": "A tariff approved by the Regulatory Commission alone can be implemented by a licensee, which has no power to alter or vary it; a licensee circular inconsistent with the approved tariff is void and inoperative.",
+      "how_treated": "Followed on the general principle (undisputed by both parties); its specific observations on restricted-hours surcharge were treated as obiter and not relied on, since that case did not involve a consumer who had in fact used power during restricted hours.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "M. Rathinaswami & Ors. v. State of Tamil Nadu & Ors.",
+      "citation": "(2009) 5 SCC 625",
+      "court": "Supreme Court",
+      "docid": "1274811",
+      "proposition": "To save a statutory provision from unconstitutionality, a restricted or extended interpretation may sometimes be required.",
+      "how_treated": "Held inapplicable — the non obstante clause in Rule 8(3)-equivalent tariff language here was clear and unambiguous, raising no constitutionality concern requiring a saving interpretation.",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "Prachi Leathers v. U.P. Power Corporation Ltd.",
+      "citation": "2003 (6) AWC 5665",
+      "court": "Allahabad High Court",
+      "docid": "",
+      "proposition": "Where power is taken surreptitiously/by theft (rather than under a licensee-sanctioned surcharge arrangement), a penalty rather than a mere surcharge is attracted.",
+      "how_treated": "Cited for the surcharge-versus-theft-penalty distinction.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}

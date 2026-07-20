@@ -1,0 +1,121 @@
+{
+  "case_id": "SCJ-098",
+  "title": "Palika Towns LLP v. State of U.P. & 2 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Surya Prakash Kesarwani & Vikas Budhwar, JJ.",
+  "date_of_judgment": "2022-05-27",
+  "date_display": "27 May 2022",
+  "docket": "Civil Misc. Writ (C) Petition No. 10123 of 2021",
+  "disposition": "Writ petition dismissed; refund of lease-rent arrears/interest deposited under protest refused",
+
+  "headnote": "Not itself a Supply Code case — a dispute over whether an IBC-liquidation auction purchaser of an industrial leasehold plot (from Greater Noida Industrial Development Authority) is liable for the corporate debtor-lessee's pre-existing arrears of lease rent and interest, where the purchaser had signed a Transfer Memorandum and accepted a Certificate of Sale incorporating the lease covenants. The Court held the purchaser liable, applying the lease deed's specific 'first charge' clause (excluding the general Transfer of Property Act s.55(1)(g) rule) and the doctrine against approbating and reprobating. In reasoning through whether such arrears run with the property to a purchaser, the Court surveyed — as persuasive analogy — the Supreme Court's electricity-dues-transferee-liability jurisprudence (Haryana SEB v. Hanuman Rice Mills; Paschimanchal Vidyut Vitran Nigam Ltd. v. DVS Steels & Alloys; Telangana State Southern Power Distribution Co. Ltd.), summarizing the settled position that electricity dues do not themselves constitute a charge on the property (so a transferee is not liable absent a specific statutory/regulatory or contractual stipulation), but that such a stipulation (e.g. Clause 4.3(g)/(h) equivalent conditions, or an auction notice/'AS IS WHERE IS' clause expressly flagging the dues) can validly bind the purchaser. This is directly relevant to, and reinforces, this corpus's electricity-arrears/transferee-liability doctrinal cluster (K.C. Ninan and its line), even though the arrears at issue here were lease rent, not electricity dues. Recorded for corpus completeness and its citation-ledger value.",
+
+  "holding_units": [
+    {
+      "provision": "ARREARS::transferee-liability",
+      "code": "General law (Transfer of Property Act, 1882 s.55(1)(g)) and specific lease/statutory stipulations — analogised from electricity-dues transferee-liability jurisprudence",
+      "clause": "Whether arrears (electricity or, as here, lease rent) run with the premises to bind a subsequent purchaser/transferee",
+      "topic": "Survey and application, by analogy, of the electricity-dues transferee-liability doctrine (dues do not constitute a charge absent specific stipulation) to hold an IBC-auction purchaser of an industrial leasehold liable for the corporate debtor's pre-existing lease-rent arrears, given an express 'first charge' clause in the lease deed and the purchaser's acceptance of the Transfer Memorandum/Sale Certificate",
+      "type": "interplay",
+      "question": "Is an auction purchaser of a leasehold plot (via IBC liquidation) liable for the corporate debtor-lessee's pre-existing arrears of lease rent and interest, notwithstanding a 'no encumbrances'/'as is where is' sale certificate and GNIDA's non-registration of its claim in the IBC proceedings?",
+      "holding": "Yes. Surveying the electricity-dues transferee-liability line (Haryana SEB v. Hanuman Rice Mills; Paschimanchal Vidyut Vitran Nigam v. DVS Steels & Alloys; Telangana State Southern Power Distribution Co.), the Court summarized the settled position: such dues do not themselves constitute a charge over the property, so a transferee is not automatically liable absent a specific statutory/regulatory stipulation authorising recovery from a purchaser, or an auction notice expressly flagging the dues as the purchaser's liability. Applying this by analogy, the Court found the lease deed here contained an express first-charge clause (Clause 3(b), Chapter IV) covering unpaid lease rent/interest/other dues, which displaced the general Transfer of Property Act s.55(1)(g) rule (applicable only 'in absence of a contract to the contrary'); the purchaser had also signed the Transfer Memorandum and accepted the Sale Certificate incorporating the lease covenants, and could not now approbate and reprobate by accepting the beneficial parts of those instruments while disclaiming the burden. GNIDA's failure to register its claim in the IBC liquidation proceedings did not extinguish its right to demand the arrears as a condition of transfer/recognition of the purchaser as lessee. Refund of the amount paid under protest was accordingly refused.",
+      "limiting_facts": "Petitioner purchased a GNIDA industrial leasehold plot via an IBC liquidation e-auction of the corporate debtor lessee (Moser Baer India); GNIDA (which had not registered a claim in the IBC proceedings) demanded ~Rs. 5.8 crore in arrears of lease rent/interest as a condition for issuing the Transfer Memorandum; the petitioner paid under protest and sought a refund with 18% interest.",
+      "paras": "paras 45-65"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "arrears-run-with-the-premises",
+      "application": "Reinforces, by cross-domain analogy, the arrears-transferee-liability doctrinal cluster already tracked in this corpus (K.C. Ninan/SCJ-037 line): dues (whether electricity or, as here, lease rent) do not automatically constitute a charge on the property, but a specific statutory/regulatory stipulation or an express contractual/auction-notice clause can validly bind a subsequent purchaser to clear the predecessor's arrears as a condition of connection/transfer/recognition.",
+      "lead_authorities": [
+        {"name": "Paschimanchal Vidyut Vitran Nigam Ltd. v. DVS Steels & Alloys Pvt. Ltd.", "docid": "74832153"},
+        {"name": "Haryana State Electricity Board v. Hanuman Rice Mills", "docid": "1336616"}
+      ],
+      "paras": "paras 53-56"
+    },
+    {
+      "tag": "approbate-and-reprobate-bars-selective-repudiation",
+      "application": "A party who accepts the beneficial parts of an instrument (here, a Transfer Memorandum/Sale Certificate incorporating lease covenants) cannot simultaneously repudiate its burdens — the doctrine of election/estoppel against approbating and reprobating.",
+      "lead_authorities": [{"name": "R.N. Gosain v. Yashpal Dhir", "docid": "1660026"}],
+      "paras": "paras 60-65"
+    }
+  ],
+
+  "not_decided": [],
+
+  "authorities": [
+    {
+      "name": "Paschimanchal Vidyut Vitran Nigam Ltd. v. DVS Steels & Alloys Pvt. Ltd. & Ors.",
+      "citation": "(2009) 1 SCC 210",
+      "court": "Supreme Court",
+      "docid": "74832153",
+      "proposition": "Electricity dues do not constitute a charge on the premises and a transferee cannot be foisted with a predecessor's dues merely by virtue of ownership; however, a distributor may validly stipulate, as a condition for a fresh connection/reconnection, that the predecessor's arrears be cleared first — such a stipulation (e.g. Clause 4.3(g)/(h) of a Supply Code) is not unreasonable or arbitrary and safeguards the distributor against unscrupulous defaulters absconding to new premises.",
+      "how_treated": "Surveyed and applied by analogy to hold that a specific stipulation (here, the lease deed's first-charge clause) can validly bind a purchaser to a predecessor's arrears, even outside the electricity context.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Haryana State Electricity Board v. Hanuman Rice Mills, Dhanauri & Ors.",
+      "citation": "(2010) 9 SCC 145",
+      "court": "Supreme Court",
+      "docid": "1336616",
+      "proposition": "Electricity arrears do not constitute a charge over the property (following Isha Marbles); a transferee cannot be made liable for a predecessor's electricity dues absent a specific enabling clause (such as Clause 21A considered in Paramount Polymers) in the terms and conditions of supply authorising such recovery from a purchaser.",
+      "how_treated": "Surveyed as part of the settled electricity-dues transferee-liability position; held of no assistance to the petitioner here since the lease deed did contain an express first-charge stipulation (unlike the absence of such a clause in the electricity context there).",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "Telangana State Southern Power Distribution Company Ltd. v. ...",
+      "citation": "",
+      "court": "Supreme Court",
+      "docid": "60837656",
+      "proposition": "Electricity dues, where statutory in character under the Electricity Act and the terms/conditions of supply, cannot be waived (s.56, Electricity Act 2003 / pari materia s.24, 1910 Act); where an e-auction notice specifically flags existing electricity dues as a purchaser liability on an 'AS IS WHERE IS, WITHOUT RECOURSE' basis, the purchaser is liable to pay them.",
+      "how_treated": "Applied by analogy — held to support (not assist) GNIDA's position, since the lease deed/Transfer Memorandum here similarly and specifically flagged the arrears as a purchaser liability.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "R.N. Gosain v. Yashpal Dhir",
+      "citation": "(1992) 4 SCC 683",
+      "court": "Supreme Court",
+      "docid": "1660026",
+      "proposition": "Law does not permit a person to both approbate and reprobate — a party cannot accept an instrument as valid to obtain an advantage and then treat it as void to avoid a burden.",
+      "how_treated": "Applied to hold the petitioner, having accepted the Transfer Memorandum/Sale Certificate, could not disclaim the arrears-payment obligation.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "A.I. Champdany Industries Ltd. (municipal dues case)",
+      "citation": "",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Municipal dues, being unsecured and not within the purview of Crown debt, do not have priority/charge over a company's assets on liquidation sale.",
+      "how_treated": "Distinguished — concerned unsecured municipal dues without a charge, unlike the lease deed's express first-charge clause here.",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "Rana Girders Ltd. (excise dues case)",
+      "citation": "",
+      "court": "Supreme Court",
+      "docid": "123741567",
+      "proposition": "A purchaser's statutory-liability undertaking limited to liabilities 'arising out of the land/building/machinery' does not extend to excise dues, which arise from manufacturing activity, not the property itself.",
+      "how_treated": "Distinguished — held inapplicable since lease rent (unlike excise duty) does arise directly from the leasehold property itself.",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "Shreyas Papers (P) Ltd. (Karnataka Sales Tax Act charge/notice case)",
+      "citation": "",
+      "court": "Supreme Court",
+      "docid": "330146",
+      "proposition": "A statutory charge is unenforceable against a transferee without actual or constructive notice of the charge; here the purchaser had no notice of sales-tax arrears at the time of sale.",
+      "how_treated": "Distinguished — the petitioner here had clear notice of the lease-rent charge via the lease deed and Transfer Memorandum it accepted.",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished"
+    }
+  ]
+}

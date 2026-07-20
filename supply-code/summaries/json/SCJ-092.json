@@ -1,0 +1,63 @@
+{
+  "case_id": "SCJ-092",
+  "title": "Navi Hasan v. U.P. Power Corporation & Another",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Surya Prakash Kesarwani & Chandra Kumar Rai, JJ.",
+  "date_of_judgment": "2022-07-19",
+  "date_display": "19 July 2022",
+  "docket": "WRIT - C No. 10825 of 2022",
+  "disposition": "Writ petition allowed with costs of Rs. 1,00,000/-; impugned demand order quashed, fresh assessment directed",
+
+  "headnote": "A demand/assessment order that consciously disregards prior directions of the writ court (to confront the consumer with adverse material, permit objections, fix a hearing, and pass a reasoned speaking order) and is instead a pre-printed proforma order with only the name, checking-report number, notice number and demanded amount filled in by hand, violates the audi alteram partem principle of natural justice and is liable to be quashed with costs; where the assessing officer withdraws such an order during the pendency of the writ petition without disclosing the statutory power (under the Electricity Act or the U.P. Electricity Supply Code, 2005) to recall/review it, that too constitutes prima facie misconduct.",
+
+  "holding_units": [
+    {
+      "provision": "EA2003::126",
+      "code": "Electricity Act, 2003 (assessment power) read with U.P. Electricity Supply Code, 2005 (recall/review power) and principles of natural justice",
+      "clause": "Natural justice (audi alteram partem) applicable to demand/assessment orders; recall/review power must be statutorily grounded",
+      "topic": "A pre-printed, non-speaking demand order passed in defiance of prior court directions to confront the consumer with adverse material and pass a reasoned order after hearing violates natural justice and is quashed with costs; an officer's unexplained recall/withdrawal of such an order mid-litigation, without disclosing statutory basis, is prima facie misconduct",
+      "type": "supply_code",
+      "question": "Can a demand order stand where it is a pre-printed proforma order issued in conscious disregard of the writ court's prior directions requiring disclosure of adverse material, an opportunity for objections, a hearing, and a reasoned speaking order?",
+      "holding": "No — the impugned order dated 21.3.2022 was found to be a pre-printed order (only name, checking-report number, notice number, and the demanded amount of Rs. 5,19,525/- filled in by hand), issued in conscious disregard of this Court's earlier order dated 22.10.2021 (Writ-C No. 26241 of 2021) requiring disclosure of adverse material, an opportunity for objections, a hearing, and a reasoned order. This violated the audi alteram partem principle and the order was quashed, with a direction to confront the petitioner with adverse material afresh, permit objections, and pass a reasoned assessment order after a hearing, all within a defined timeline. Costs of Rs. 1,00,000/- were imposed on the respondent officer given the deliberate defiance of the court's earlier directions, compounded by an unexplained mid-litigation withdrawal/recall of the impugned order without disclosing the statutory power under the Electricity Act or Supply Code to do so.",
+      "limiting_facts": "The petitioner had earlier obtained a conditional order (22.10.2021) requiring disclosure of adverse material before any demand; the officer nonetheless passed a pre-printed demand order (21.3.2022) disregarding it, then withdrew it mid-litigation (13.7.2022) without explaining the statutory basis for the withdrawal, prompting the Court to require personal affidavits.",
+      "paras": "paras 3-16"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "audi-alteram-partem-for-demand-assessment-orders",
+      "application": "A demand/assessment order must confront the consumer with adverse material, allow objections, and be a reasoned speaking order after a hearing; a pre-printed proforma order passed in disregard of these requirements (and of prior court directions to that effect) is vitiated for breach of natural justice.",
+      "lead_authorities": [{"name": "Uma Nath Pandey & Ors. v. State of U.P. & Anr.", "docid": "1915317"}],
+      "paras": "paras 9-14"
+    },
+    {
+      "tag": "recall-of-order-requires-disclosed-statutory-basis",
+      "application": "An assessing officer who withdraws/recalls a demand order during pending litigation must disclose the statutory power (under the Electricity Act or Supply Code, 2005) exercised to do so; failure to do so is prima facie misconduct.",
+      "lead_authorities": [],
+      "paras": "para 15"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness/quantum of the electricity dues underlying the demand (Rs. 5,19,525/-)",
+      "note": "Not decided; to be determined afresh by the assessing authority after due process.",
+      "docid": "",
+      "paras": "para 16"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Uma Nath Pandey & Ors. v. State of U.P. & Anr.",
+      "citation": "(2009) 12 SCC 40",
+      "court": "Supreme Court",
+      "docid": "1915317",
+      "proposition": "Natural justice is another name for common-sense justice; adherence to its principles is of supreme importance whenever a quasi-judicial body or an administrative action involving civil consequences is in issue.",
+      "how_treated": "Applied as the governing authority on the audi alteram partem principle to quash the impugned demand order.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}

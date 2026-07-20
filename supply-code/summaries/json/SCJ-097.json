@@ -1,0 +1,62 @@
+{
+  "case_id": "SCJ-097",
+  "title": "Orissa Power Transmission Corporation Ltd. & Ors. v. Asian School of Business Management Trust & Ors.",
+  "neutral_citation": "",
+  "court": "Supreme Court of India",
+  "bench": "Two-Judge Bench",
+  "coram": "G.S. Singhvi & V. Gopala Gowda, JJ.",
+  "date_of_judgment": "2013-08-05",
+  "date_display": "5 August 2013",
+  "docket": "Civil Appeal No. 6257 of 2013 (arising from SLP(C) No. 8168 of 2013)",
+  "disposition": "Appeal allowed; High Court Division Bench judgment set aside, Writ Petition No. 20659/2009 dismissed with costs of Rs. 10 lakh against the respondent",
+
+  "headnote": "Not a Supply Code case — a dispute over the siting/alignment of high-voltage transmission towers under ss.28/29 of the Electricity (Supply) Act, 1948, brought by a landowner (a business school trust) who purchased land and built on it more than 14 years after the transmission scheme was notified, without ever having made a representation/objection within the statutory window. The Supreme Court held: (a) a subsequent purchaser who acquired land and built on it long after a scheme's publication, and who neither made nor inherited any timely objection, cannot belatedly seek re-alignment of an already-substantially-executed transmission scheme; (b) pursuing a civil suit and a writ petition for substantially the same relief in parallel, abandoning the suit only once the writ appeal was entertained, is an abuse of process barred by res judicata/election-of-remedies principles; and (c) minor discrepancies in a transmission scheme's published nomenclature/details do not invalidate it under ss.28/29 where full technical details were made available for inspection as the notification specified. Recorded here for corpus completeness — a transmission-infrastructure-siting dispute under the wholesale/generation-transmission provisions of the 1948 Act, entirely outside the retail consumer-facing Supply Code framework.",
+
+  "holding_units": [
+    {
+      "provision": "OFFTOPIC::transmission-scheme-siting-dispute",
+      "code": "Electricity (Supply) Act, 1948 (ss.28, 29) — transmission scheme preparation, publication, and sanctioning",
+      "clause": "ss.28-29 (scheme preparation/publication/sanctioning) — validity challenge and re-alignment claim by a subsequent purchaser",
+      "topic": "A subsequent land purchaser who neither made nor inherited a timely representation against a validly-published transmission scheme cannot belatedly seek re-alignment of an already-substantially-executed scheme; parallel pursuit of a civil suit and writ petition for the same relief is an abuse of process",
+      "type": "interplay",
+      "holding": "The scheme (notified 1991, modified 1996) was validly published under ss.28/29 with full technical details available for inspection as specified; since neither the original landowner nor the respondent trust (which purchased the land and built on it 14+ years after publication) made any representation within the statutory window, they had no locus to belatedly challenge the scheme or seek re-alignment after ~150 towers had already been erected at a cost of over Rs. 14 crore. The Division Bench of the High Court erred in ordering re-alignment, having overlooked that the respondent stepped into the shoes of a party with no grievance, and in applying a half-baked feasibility analysis over the appellants' unrebutted technical objections. Additionally, pursuing a civil suit for injunction in parallel with two successive writ petitions seeking substantially the same relief, and withdrawing the suit only once the writ appeal was entertained, constituted an abuse of process; the second writ petition should have been dismissed on this ground, distinguishing S.J.S. Business Enterprises (which involved a suit withdrawn early, not maintained in parallel through appeal).",
+      "paras": "paras 16-30",
+      "flag": "Recorded compactly given its subject (transmission-tower siting/land dispute under the wholesale infrastructure provisions of the 1948 Act), which has no nexus to the U.P. Electricity Supply Code's consumer billing/assessment/disconnection framework central to this project; not exhaustively digested."
+    }
+  ],
+
+  "principle_tags": [],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "Ramakrishna Poultry (P) Ltd. v. R. Chellappan",
+      "citation": "(2009) 16 SCC 743",
+      "court": "Supreme Court",
+      "docid": "515981",
+      "proposition": "Where a landowner purchased land after a transmission-line survey/routing process was already underway, the appropriate remedy is a practical accommodation (e.g. raising line height/clearance) rather than re-routing an established transmission line, especially given the larger public interest.",
+      "how_treated": "Applied by analogy to hold that a purchaser with knowledge of an ongoing/prior transmission project cannot obtain re-routing to serve individual convenience over public interest.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "S.J.S. Business Enterprises (P) Ltd. v. State of Bihar",
+      "citation": "(2004) 7 SCC 166",
+      "court": "Supreme Court",
+      "docid": "1770523",
+      "proposition": "A writ petition is not automatically barred merely because a parallel civil suit was filed and later withdrawn; the court may call upon the party to elect between remedies rather than dismissing outright.",
+      "how_treated": "Distinguished — there the suit was withdrawn within two weeks of filing (an early election), whereas here the suit was kept pending through two rounds of writ litigation and withdrawn only once the writ appeal was entertained, amounting to abuse of process.",
+      "cited_by": "Respondent",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "Ramchandra Dagdu Sonavane v. Vithu Hira Mahar",
+      "citation": "(2009) 10 SCC 273",
+      "court": "Supreme Court",
+      "docid": "743414",
+      "proposition": "The doctrine of res judicata (including constructive res judicata under Explanation IV, s.11 CPC) applies broadly, barring re-litigation of matters that were or ought to have been raised in an earlier proceeding.",
+      "how_treated": "Applied to hold that the second writ petition, seeking substantially the same relief as the first (dismissed) petition, was barred.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "case_id": "SCJ-095",
+  "title": "Om Prakash s/o Gauri Shankar v. Dakshinanchal Vidyut Vitran Nigam Ltd. & Ors.",
+  "neutral_citation": "2006 (4) AWC 3445",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "B.S. Chauhan & Dilip Gupta, JJ.",
+  "date_of_judgment": "2006-05-10",
+  "date_display": "10 May 2006",
+  "docket": "Writ Petition (unnumbered order)",
+  "disposition": "Writ petition dismissed as withdrawn; prayer for interim protection during the interregnum rejected",
+
+  "headnote": "Compounding of a theft offence under Section 152(3) of the Electricity Act, 2003 (by payment of a compounding fee) is a penalty for the criminal offence and does not exonerate the consumer from separate civil liability to pay outstanding dues for electricity actually consumed; a recovery notice for such civil dues survives the compounding. A consumer disputing only the quantum of such a recovery notice must approach the authority under the U.P. Electricity Supply Code, 2005, not the writ court. Further, a writ court that declines to decide a matter on merits and relegates the petitioner to another forum (or before whom the petitioner withdraws the petition to approach another forum) has no jurisdiction to grant interim protection for the interregnum period, since Article 226 interim relief is only ancillary to a final relief obtainable on merits in a pending proceeding before that same court (following the Constitution Bench in State of Orissa v. Madan Gopal Rungta).",
+
+  "holding_units": [
+    {
+      "provision": "EA2003::152",
+      "code": "Electricity Act, 2003 (s.152(3) compounding) vis-a-vis civil recovery of electricity dues and U.P. Electricity Supply Code, 2005 (quantum-dispute authority)",
+      "clause": "s.152(3) compounding fee vis-a-vis separate civil-recovery liability for consumed electricity",
+      "topic": "Compounding of a theft offence under s.152(3) does not exonerate the consumer from separate civil liability for electricity consumption dues; a quantum dispute over such recovery must go to the Supply Code authority, not the writ court",
+      "type": "supply_code",
+      "question": "Does compounding a theft offence under s.152(3) (by payment of a compounding fee) bar a subsequent recovery notice for outstanding electricity-consumption dues?",
+      "holding": "No — the compounding fee is a penalty for the criminal offence of theft and does not exonerate the consumer from the separate civil liability to pay for electricity actually consumed; a recovery notice for such dues is not barred by compounding. Any grievance as to the quantum of such dues must be raised before the authority under the U.P. Electricity Supply Code, 2005, not by way of writ petition.",
+      "limiting_facts": "The petitioner was caught committing theft of electricity in a surprise check (15.2.2006); the offence was compounded under s.152(3) on payment of Rs. 50,000/-; a separate recovery notice for Rs. 2,54,686/- towards outstanding electricity-consumption dues followed, which the petitioner sought to quash.",
+      "paras": "paras 1-5"
+    },
+    {
+      "provision": "OFFTOPIC::interim-relief-after-withdrawal-general-writ-procedure",
+      "code": "Constitutional/writ procedure (Article 226) — power to grant interim relief after a petition is dismissed as withdrawn",
+      "clause": "N/A (general writ-procedure principle, not Supply-Code-specific)",
+      "topic": "A writ court has no jurisdiction to grant interim protection for the interregnum once a petition is dismissed as withdrawn or the party is relegated to another forum, since Article 226 interim relief is only ancillary to a final relief obtainable on merits in a proceeding still pending before that court",
+      "type": "interplay",
+      "holding": "Following the Constitution Bench in State of Orissa v. Madan Gopal Rungta (and its consistent subsequent approval), the Court held it lacks jurisdiction to grant interim relief (such as a stay of recovery) for the period during which a petitioner intends to approach the Clause-based Supply Code authority, once the writ petition itself has been dismissed as withdrawn; interim relief under Article 226 can only be granted as ancillary to final relief in a matter still pending before the court on merits.",
+      "paras": "paras 7-24",
+      "flag": "General writ-jurisdiction/interim-relief principle applied in an electricity-recovery context; not itself a Supply Code holding, but the Supply Code recovery notice was the underlying dispute in which it arose."
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "compounding-fee-does-not-extinguish-civil-consumption-dues",
+      "application": "Payment of a s.152(3) compounding fee for theft is distinct from, and does not extinguish, the consumer's separate civil liability for electricity actually consumed; recovery notices for consumption dues survive compounding — a companion principle to this corpus's theft/126 procedural-strictness line, clarifying that compounding addresses only the criminal offence.",
+      "lead_authorities": [],
+      "paras": "paras 3-4"
+    }
+  ],
+
+  "not_decided": [
+    {
+      "point": "Correctness/quantum of the recovery notice (Rs. 2,54,686/-)",
+      "note": "Not decided; the writ petition was withdrawn on the understanding the petitioner would approach the Supply Code authority instead.",
+      "docid": "",
+      "paras": "para 5"
+    }
+  ],
+
+  "authorities": [
+    {
+      "name": "The State of Orissa v. Madan Gopal Rungta",
+      "citation": "",
+      "court": "Supreme Court (Constitution Bench)",
+      "docid": "693740",
+      "proposition": "Article 226 cannot be used to grant interim relief as the only and final relief; interim relief is available only as ancillary to a final relief obtainable in a proceeding actually pending and to be decided on merits before that court.",
+      "how_treated": "Applied as the controlling authority to reject the petitioner's request for interim protection after withdrawing the writ petition.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}

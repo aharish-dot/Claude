@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 91,
+  "next_seq": 99,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -544,6 +544,54 @@
       "case_id": "SCJ-090",
       "source_basename": "Narendra Singh Panwar vs Pashchimanchal Vidyut Vitran Nigam ... on 12 January, 2023",
       "title": "Narendra Singh Panwar v. Pashchimanchal Vidyut Vitran Nigam Ltd. & 2 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-091",
+      "source_basename": "Naresh Kumar Madan vs State Of Madhya Pradesh on 10 April, 2007",
+      "title": "Naresh Kumar Madan v. State of Madhya Pradesh",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-092",
+      "source_basename": "Navi Hasan vs Up Power Corporation And Another on 19 July, 2022",
+      "title": "Navi Hasan v. U.P. Power Corporation & Another",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-093",
+      "source_basename": "North Delhi Power Ltd vs Govt. Of N.C.T. & Ors on 3 May, 2010",
+      "title": "North Delhi Power Ltd. v. Govt. of N.C.T. of Delhi & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-094",
+      "source_basename": "Northern Coalfield Limited, A ... vs Chairman And Managing Director, U.P. ... on 18 October, 2005",
+      "title": "Northern Coalfield Ltd. v. Chairman and Managing Director, U.P. Power Corporation Ltd. & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-095",
+      "source_basename": "Om Prakash Son Of Gauri Shankar vs Dakshinanchal Vidyut Vitran Nigam Ltd. ... on 10 May, 2006",
+      "title": "Om Prakash s/o Gauri Shankar v. Dakshinanchal Vidyut Vitran Nigam Ltd. & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-096",
+      "source_basename": "Om Prakash vs State Of U.P. And Others on 21 February, 2011",
+      "title": "Om Prakash v. State of U.P. & Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-097",
+      "source_basename": "Orissa Power Transmission Corp.Ltd.& ... vs Asian School Of Business Mgmt.Trust ... on 5 August, 2013",
+      "title": "Orissa Power Transmission Corporation Ltd. & Ors. v. Asian School of Business Management Trust & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-098",
+      "source_basename": "Palika Towns Llp vs State Of U P And 2 Others on 27 May, 2022",
+      "title": "Palika Towns LLP v. State of U.P. & 2 Others",
       "status": "done"
     }
   ]
