@@ -1,0 +1,81 @@
+{
+  "case_id": "SCJ-051",
+  "title": "M/S Beeco Electrical India & Anr. v. Pashchimanchal Vidyut Vitran Nigam Ltd. & Ors.",
+  "neutral_citation": "2012 AIR CC 3143 (All); (2012) 6 ADJ 622",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sudhir Agarwal & Pradeep Kumar Singh Baghel, JJ.",
+  "date_of_judgment": "2012-06-14",
+  "date_display": "14 June 2012",
+  "docket": "WRIT - C No. 30233 of 2012",
+  "disposition": "Writ petition dismissed (assessment upheld on merits despite the availability of the s.127 alternative remedy)",
+
+  "headnote": "Where a writ petitioner invokes the 'without jurisdiction' exception to the alternative-remedy rule by contending that theft itself is not proved (so the Assessing Officer's jurisdiction under Section 126/135 read with paras 8.1-8.2 of the U.P. Electricity Supply Code, 2005 never arose), and full arguments on the underlying merits have already been advanced, the Court may examine the record to see whether the assessment is patently without jurisdiction or illegal, instead of relegating the petitioner afresh to the Section 127 appeal. On the facts, physical indicators (a naked conductor at the LT mains bracket, broken seal continuity, an inexplicable reverse phase sequence in the MRI report) sufficiently support an inference of direct extraction/theft; Ashok Kumar's requirement that the consumer be told the manner of the alleged theft is satisfied where the checking report itself discloses the facts from which theft is inferred, even without a red-handed catch. Mens rea is not required for a Section 126 civil assessment (unlike Section 135 prosecution). A plea of mala fide cannot be entertained unless the individual official against whom it is alleged is impleaded eo nomine.",
+
+  "holding_units": [
+    {
+      "provision": "EA2003::126",
+      "code": "Electricity Act, 2003 (with paras 8.1-8.2, U.P. Electricity Supply Code, 2005)",
+      "clause": "s.126/135 r/w paras 8.1-8.2 of the Code",
+      "topic": "Physical/MRI indicators suffice to ground a theft inference; Ashok Kumar's notice requirement satisfied by the checking report's own disclosed facts",
+      "type": "supply_code",
+      "question": "Was the theft-based Section 126 assessment 'without jurisdiction' (justifying writ interference despite the s.127 alternative remedy) because theft itself was not proved and the consumer was not told the manner of the alleged theft?",
+      "holding": "No. A naked conductor found at the LT mains bracket, a broken seal, and an MRI report showing an unexplained wide variance in the power-factor ratio and a reversed phase sequence (which cannot occur without manual manipulation) together well-support the Assessing Officer's inference of direct extraction/theft; this is not a case of no evidence. Ashok Kumar requires only that the consumer be informed of the manner in which he is alleged to have committed theft so he can respond — satisfied here since the checking report itself discloses, under 'observations', the facts from which theft is inferred, even though the consumer was not caught red-handed. No error in the actual quantum of assessment was pointed out.",
+      "limiting_facts": "Checking (10.12.2007) found a broken plastic seal, no continuity in the holo seal, and a naked LT-mains conductor at the consumer's premises with historically low recorded consumption; after a prior round of litigation up to the Supreme Court (SLP (C) No. 14883/2008, decided 10.10.2011) directing a fresh hearing with the MRI report supplied, a fresh final assessment of Rs. 26,54,706 was passed on 17.3.2012.",
+      "paras": "paras 3, 17, 20"
+    },
+    {
+      "provision": "EA2003::135",
+      "code": "Electricity Act, 2003",
+      "clause": "s.126 vis-a-vis s.135 (mens rea)",
+      "topic": "Mens rea not required for a Section 126 civil assessment",
+      "type": "interplay",
+      "holding": "The question of mens rea does not arise for a Section 126 assessment on an allegation of theft, since that assessment does not require criminal intention; mens rea is required only for prosecution under Section 135. (Agreeing with Mohit Paper Mills Ltd. v. PVVNL, distinguishing Ram Chandra Prasad Sharma v. State of Bihar, which concerned criminal prosecution under the 1910 Act.)",
+      "paras": "para 23"
+    },
+    {
+      "provision": "OFFTOPIC::mala-fide-impleadment",
+      "code": "General administrative law",
+      "clause": "plea of mala fide requires eo nomine impleadment",
+      "topic": "A plea of mala fide cannot be entertained unless the official against whom it is alleged is impleaded eo nomine",
+      "type": "interplay",
+      "holding": "It is settled law that a plea of mala fide/bias against a named official cannot be entertained unless that official is impleaded eo nomine and given an opportunity to meet the allegation; the petitioner's mala fide plea failed for want of such impleadment.",
+      "paras": "paras 24-29"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "third-exception-writ-jurisdictional-review-on-merits",
+      "application": "Where full arguments on the underlying theft assessment have already been made and the 'without jurisdiction' exception is invoked, the Court may examine the record on merits (checking report, MRI report) to see if the assessment is patently illegal, rather than mechanically relegating to the s.127 appeal; physical/MRI indicators of direct extraction, even without a red-handed catch, satisfy Ashok Kumar's notice-of-manner requirement.",
+      "lead_authorities": [
+        {"name": "Ashok Kumar & Others v. State of U.P. & Others", "docid": "897981"}
+      ],
+      "paras": "paras 17, 20"
+    },
+    {
+      "tag": "126-vs-135-distinct-fields",
+      "application": "Mens rea is irrelevant to a Section 126 civil theft-assessment; it is required only for Section 135 criminal prosecution (agreeing with Mohit Paper Mills Ltd. v. PVVNL).",
+      "lead_authorities": [
+        {"name": "M/s Mohit Paper Mills Ltd. & Anr. v. PVVNL & Ors.", "docid": "57045694"}
+      ],
+      "paras": "para 23"
+    }
+  ],
+
+  "not_decided": [],
+
+  "authorities": [
+    {"name": "Ashok Kumar & Others v. State of U.P. & Others", "citation": "2008 (6) ADJ 660 (DB)", "court": "Allahabad High Court (DB)", "docid": "897981", "proposition": "Before making a theft-based assessment, the Assessing Officer must inform the consumer of the manner in which he is alleged to have unauthorisedly extracted electricity.", "how_treated": "Distinguished on facts — the requirement was held satisfied since the checking report itself disclosed the manner (naked conductor at LT mains bracket); the consumer's failure to explain it defeated his reliance on Ashok Kumar.", "how_treated_paras": "para 20", "cited_by": "Petitioner", "treatment": "Distinguished"},
+    {"name": "Transmission Corporation of A.P. Ltd. v. Sri Rama Krishna Rice Mill", "citation": "(2006) 3 SCC 74", "court": "Supreme Court", "docid": "107041", "proposition": "Material relied upon against a consumer must be disclosed to him; mere noting of his objections is not sufficient compliance with natural justice, though no strait-jacket procedure applies.", "how_treated": "Held inapplicable — the petitioner failed to show inadequate opportunity, and his objections were in fact considered and discussed in the assessment order.", "how_treated_paras": "para 21", "cited_by": "Petitioner", "treatment": "Distinguished"},
+    {"name": "Abdul Gani & Anr. v. State of U.P. & Ors.", "citation": "Civil Misc. Writ Petition No. 15498 of 2008", "court": "Allahabad High Court (DB)", "docid": "1358956", "proposition": "An assessment made only on the allegation of a tampered meter seal, without any evidence of how the seal was tampered or theft was effected, cannot stand.", "how_treated": "Distinguished on facts — unlike Abdul Gani, here there was affirmative evidence (naked conductor, MRI anomalies) of the manner of theft.", "how_treated_paras": "para 22", "cited_by": "Petitioner", "treatment": "Distinguished"},
+    {"name": "Ram Chandra Prasad Sharma & Others v. State of Bihar & Anr.", "citation": "AIR 1967 SC 349", "court": "Supreme Court", "docid": "180213", "proposition": "In a criminal trial for theft of electrical energy under Section 39 of the Indian Electricity Act, 1910, mens rea is a relevant consideration.", "how_treated": "Distinguished — that case concerned criminal prosecution (mens rea relevant), unlike a Section 126 civil assessment where mens rea is irrelevant.", "how_treated_paras": "para 23", "cited_by": "Petitioner", "treatment": "Distinguished"},
+    {"name": "M/s Mohit Paper Mills Ltd. & Anr. v. PVVNL & Ors.", "citation": "2011 (9) ADJ 239", "court": "Allahabad High Court", "docid": "57045694", "proposition": "Mens rea is not a requirement for a Section 126 civil assessment, as distinct from a Section 135 criminal prosecution.", "how_treated": "Agreed with and followed on the s.126/s.135 mens rea distinction.", "how_treated_paras": "para 23", "cited_by": "Court", "treatment": "Followed"},
+    {"name": "Madhya Pradesh State Cooperative Dairy Federation Ltd. v. Rajnesh Kumar Jamindar", "citation": "(2009) 15 SCC 221", "court": "Supreme Court", "docid": "608550", "proposition": "(Cited among the mala fide-doctrine authorities; held inapplicable on facts.)", "how_treated": "Held not applicable to the facts of the case.", "how_treated_paras": "para 24", "cited_by": "Petitioner", "treatment": "Distinguished"},
+    {"name": "Vice-Chancellor, Banaras Hindu University v. Shrikant", "citation": "(2006) 11 SCC 42", "court": "Supreme Court", "docid": "1413421", "proposition": "(Cited among the mala fide-doctrine authorities; held inapplicable on facts.)", "how_treated": "Held not applicable to the facts of the case.", "how_treated_paras": "para 24", "cited_by": "Petitioner", "treatment": "Distinguished"},
+    {"name": "State of Bihar v. P.P. Sharma", "citation": "1992 Supp (1) SCC 222", "court": "Supreme Court", "docid": "1287305", "proposition": "A person against whom mala fides or bias is imputed must be impleaded eo nomine and given an opportunity to meet the allegation; absent this, no enquiry into mala fides can be made.", "how_treated": "Relied on for dismissing the petitioner's unimpleaded mala fide plea.", "how_treated_paras": "para 25", "cited_by": "Court", "treatment": "Relied on"},
+    {"name": "J.N. Banavalikar v. Municipal Corporation of Delhi", "citation": "AIR 1996 SC 326", "court": "Supreme Court", "docid": "1803208", "proposition": "In the absence of impleadment of the person who allegedly passed a mala fide order, a contention of malice in fact should not be countenanced.", "how_treated": "Relied on to the same effect.", "how_treated_paras": "para 26", "cited_by": "Court", "treatment": "Relied on"},
+    {"name": "A.I.S.B. Officers Federation & Others v. Union of India & Others", "citation": "JT 1996 (8) SC 550", "court": "Supreme Court", "docid": "1396480", "proposition": "A petitioner cannot raise mala fide allegations against persons who have not been impleaded as respondents.", "how_treated": "Relied on to the same effect.", "how_treated_paras": "para 27", "cited_by": "Court", "treatment": "Relied on"},
+    {"name": "Federation of Railway Officers Association v. Union of India", "citation": "AIR 2003 SC 1344", "court": "Supreme Court", "docid": "1533633", "proposition": "Allegations of mala fide cannot be vaguely made and must be specific; the official said to be involved must be made a party to meet the allegations.", "how_treated": "Relied on to the same effect.", "how_treated_paras": "para 28", "cited_by": "Court", "treatment": "Relied on"}
+  ]
+}

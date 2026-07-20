@@ -1,0 +1,76 @@
+{
+  "case_id": "SCJ-055",
+  "title": "M/S Hind Industries Limited v. State of U.P. & Ors.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Arun Tandon, J.",
+  "date_of_judgment": "2011-10-19",
+  "date_display": "19 October 2011",
+  "docket": "WRIT - C No. 58434 of 2011",
+  "disposition": "Writ petition dismissed with directions (interest at not less than bank rate; departmental inquiry directed)",
+
+  "headnote": "Under the U.P. Electricity Supply Code, 2002, a representation against an assessment order for a sum above Rs. 10 lakh lies before the Area Level Committee/Chief General Manager, not the Superintending Engineer, whose jurisdiction was confined to representations up to Rs. 2 lakh. A time-bound interim protection order granted by a court lapses automatically on expiry of its term; a consumer cannot excuse nine years of non-payment merely because a modification application (clarifying which authority had jurisdiction) remained undecided, especially where he never approached the authority he claims did have jurisdiction. Payment of interest (here, at the Clause 8.1 rate) is a necessary corollary of retention of money and is neither penal nor confiscatory; where the delay and collusion between the consumer and licensee's officers has enabled evasion of a lawful assessment for years — including release of a fresh connection to the defaulting consumer without full payment — the writ court will order a departmental inquiry into the conduct of the licensee's officers alongside dismissing the petition.",
+
+  "holding_units": [
+    {
+      "provision": "UP-2002::area-level-committee-jurisdiction",
+      "code": "U.P. Electricity Supply Code, 2002 (Distribution Code)",
+      "clause": "jurisdiction over representations against assessment (Area Level Committee/CGM vs. Superintending Engineer/DGM)",
+      "topic": "Representations against an assessment exceeding Rs. 10 lakh lie before the Area Level Committee, not the Superintending Engineer (whose jurisdiction was capped at Rs. 2 lakh)",
+      "type": "supply_code",
+      "question": "Which authority under the U.P. Electricity Supply Code, 2002 had jurisdiction to decide a consumer's representation against a theft-based assessment of over Rs. 1.22 crore — the Superintending Engineer (as an earlier court order had directed) or the Area Level Committee/CGM?",
+      "holding": "The Area Level Committee/CGM had jurisdiction, since under the Code, 2002 the Committee at circle level/DGM (Superintending Engineer) could decide representations only up to Rs. 2 lakh, while representations concerning recoveries above Rs. 10 lakh had to be decided by the Committee at area level/CGM; a 2010 modification order accordingly directed the representation to the Area Level Committee instead. However, even accepting the petitioner's own contention that the Superintending Engineer lacked jurisdiction, this meant only that the representation itself had been filed before an incompetent authority and any order thereon was of no consequence — it did not excuse the petitioner from approaching the Area Level Committee, which he never did even after the modification order, leaving the original assessment order unchallenged before any competent authority.",
+      "limiting_facts": "A theft-based assessment of Rs. 1,22,55,783 (17.8.2002) went unrecovered for over nine years; a 2002 court order granting six weeks' interim protection to enable a representation before the Superintending Engineer lapsed, but the petitioner neither paid nor approached the correct forum, instead relying on a pending 'modification application' that (unknown to the Court until mid-hearing) had in fact already been decided over a year earlier; the petitioner meanwhile obtained a fresh connection for the same premises on furnishing a bank guarantee.",
+      "paras": "the jurisdiction discussion (unnumbered order, orders dated 12.10.2011 and 18-19.10.2011)"
+    },
+    {
+      "provision": "UP-2002::8.1",
+      "code": "U.P. Electricity Supply Code (interest on delayed dues, Clause 8.1)",
+      "clause": "8.1 (16% compound interest)",
+      "topic": "Interest on a delayed/evaded assessment is a necessary corollary of retention, neither penal nor confiscatory",
+      "type": "supply_code",
+      "holding": "Payment of interest on money retained for years (here at the Clause 8.1 rate of 16% compoundable every six months) is a necessary corollary of retention and is neither penal nor confiscatory (following Wig Brothers). The question of whether the 2003 Act (rather than pre-2003 dues) governed the applicable rate, and the exact rate, was left to the competent authority, but the Court directed that in the facts of the case interest could not be less than the bank rate applicable for the relevant period.",
+      "paras": "the interest discussion (unnumbered order)"
+    },
+    {
+      "provision": "OFFTOPIC::abuse-of-process-departmental-inquiry",
+      "code": "General (abuse of the writ process; supervisory direction)",
+      "clause": "direction for departmental inquiry into collusive non-recovery",
+      "topic": "Nine-year evasion of a lawful assessment, including grant of a fresh connection without full payment, warranted a departmental inquiry",
+      "type": "interplay",
+      "holding": "Where the record showed apparent collusion between the consumer and the licensee's officers — a modification application concealed as 'pending' when it had in fact been decided over a year earlier, and a fresh connection released to a nine-year defaulter on a bank guarantee rather than full payment — the Court, while dismissing the writ petition as an abuse of process, directed the Principal Secretary (Energy) to hold a detailed inquiry into the officers' and the petitioner's conduct and take consequential action against those responsible.",
+      "paras": "the concluding directions (unnumbered order)"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "interim-order-lapses-on-expiry",
+      "application": "A time-bound interim protection order automatically lapses on expiry of its term; a consumer cannot rely on its continued existence, or on an unrelated pending application, to justify years of non-payment of an assessed sum.",
+      "lead_authorities": [],
+      "paras": "unnumbered order"
+    },
+    {
+      "tag": "interest-corollary-of-retention",
+      "application": "Interest on a sum wrongfully retained/evaded (e.g. under Clause 8.1 of the Supply Code) is compensatory, not penal or confiscatory.",
+      "lead_authorities": [
+        {"name": "Wig Brothers (Builders & Engineers) (P) Ltd. & Anr. v. Union of India & Ors.", "docid": "315469"}
+      ],
+      "paras": "unnumbered order"
+    }
+  ],
+
+  "not_decided": [
+    {
+      "point": "Correctness of the assessment order dated 17.8.2002 on merits, and the precise applicable interest rate/statute (1910/2003 Act)",
+      "note": "Left open, as there was no challenge to the assessment before any competent authority; the competent authority was directed to examine the rate of interest question, subject to a bank-rate floor.",
+      "docid": "",
+      "paras": "unnumbered order"
+    }
+  ],
+
+  "authorities": [
+    {"name": "Wig Brothers (Builders & Engineers) (P) Ltd. & Anr. v. Union of India & Ors.", "citation": "(2003) 3 Company Law Journal 328 (All)", "court": "Allahabad High Court (DB)", "docid": "315469", "proposition": "Payment of interest is a necessary corollary to the retention of an amount; it is neither penal nor confiscatory.", "how_treated": "Relied on to justify charging interest on the long-evaded assessed sum.", "how_treated_paras": "unnumbered order", "cited_by": "Court", "treatment": "Relied on"}
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "case_id": "SCJ-052",
+  "title": "M/S Birla Aircon v. District Magistrate, Meerut & Ors.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Ashok Bhushan & Sunita Agarwal, JJ.",
+  "date_of_judgment": "2012-08-23",
+  "date_display": "23 August 2012",
+  "docket": "WRIT - C No. 33308 of 2012",
+  "disposition": "Writ petition disposed of (liberty to object before the Collector against sealing of the non-defaulting firm's premises)",
+
+  "headnote": "Under Clause 2.2(ss) of the U.P. Electricity Supply Code, 2005 (materially identical to Clause 2.2(an) of the 2002 Code), 'premises' means the area/portion of the building/shed/field etc. for which the electric connection has been applied for or sanctioned to a single consumer. Recovery of a defaulting consumer's dues as arrears of land revenue, and sealing under that process, can extend only to the premises (as so defined) actually covered by the sanctioned connection; where a third firm at the same or an adjoining municipal address (sharing a common history/registration lineage with the defaulter but holding no electricity connection of its own) disputes that its distinct premises were swept into the sealing, and there is insufficient material to determine the precise scope of the sanctioned premises as of the date of sanction, the matter is remitted to the Collector for a fact-specific inquiry (including spot inspection) rather than decided on the writ record.",
+
+  "holding_units": [
+    {
+      "provision": "UP-2005::2.2(ss)",
+      "code": "U.P. Electricity Supply Code, 2005 (and 2002, Clause 2.2(an))",
+      "clause": "2.2(ss) ('premises' definition) applied to recovery/sealing scope",
+      "topic": "Recovery/sealing for a defaulter's dues is confined to the 'premises' for which the connection was sanctioned; scope disputes go to the Collector on facts",
+      "type": "supply_code",
+      "question": "Where recovery proceedings and sealing (for a defaulting consumer's electricity dues, recovered as arrears of land revenue) are executed at a shared/adjoining municipal address, can they extend to the distinct premises of another firm that never held an electricity connection, without first determining what 'premises' (per Clause 2.2(ss)) the sanctioned connection actually covered?",
+      "holding": "No, not without that determination. 'Premises' under Clause 2.2(ss) of the Code means the area/portion of the building/shed/field for which the connection was applied for or sanctioned to a single consumer; recovery as arrears of land revenue against the defaulter can proceed only against premises so defined. Since the record lacked sufficient material on the ownership/occupation of the two firms and the precise extent of the premises sanctioned to the defaulter (M/s Beeco Electricals India) as of the date of sanction (26.5.2004), the Court could not resolve the scope issue on the writ record and remitted the objection to the Collector (with liberty to conduct spot inspection) for a reasoned decision within three weeks, after hearing the licensee.",
+      "limiting_facts": "M/s Beeco Electricals India (assessed for theft, Rs. 26,54,671, per SCJ-051) defaulted on the recovery certificate, and its sealed premises at Municipal No. 149 (old)/280 (new), Delhi Road, Meerut were sealed by revenue officials under the U.P. Zamindari Abolition and Land Reforms Act, 1950; M/s Birla Aircon, a separate partnership with its own generators and no electricity connection, claimed its premises (registered at the same old municipal number) were wrongly swept into the sealing.",
+      "paras": "unnumbered order"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "premises-definition-scope-of-recovery",
+      "application": "The Supply Code's 'premises' definition (area/portion sanctioned to a single consumer) bounds the scope of recovery/sealing against a defaulting consumer; disputes about whether a third party's distinct premises were wrongly included are fact-specific and go to the recovery authority (Collector), not the writ court.",
+      "lead_authorities": [],
+      "paras": "unnumbered order"
+    }
+  ],
+
+  "not_decided": [
+    {
+      "point": "Whether the sealed premises of M/s Birla Aircon fell within the premises sanctioned to M/s Beeco Electricals India",
+      "note": "Expressly left undetermined for want of material; remitted to the Collector for a fact-specific inquiry.",
+      "docid": "",
+      "paras": "unnumbered order"
+    }
+  ],
+  "authorities": []
+}

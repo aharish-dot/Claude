@@ -1,0 +1,66 @@
+{
+  "case_id": "SCJ-054",
+  "title": "M/S Dharti Agro Industries Pvt. Ltd. v. The Managing Director, Pashchimanchal Vidyut Vitran Nigam Ltd. & 2 Others",
+  "neutral_citation": "2025:AHC:166904-DB",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Arindam Sinha & Prashant Kumar, JJ. (delivered by Prashant Kumar, J.)",
+  "date_of_judgment": "2025-09-18",
+  "date_display": "18 September 2025",
+  "docket": "WRIT - C No. 27040 of 2025",
+  "disposition": "Writ petition allowed; demand order set aside; licensee directed to install the connection and recover its dues only from the Liquidator",
+
+  "headnote": "Where a corporate debtor's electricity dues arose before it went into liquidation under the Insolvency and Bankruptcy Code, 2016, and the electricity licensee has already participated in the liquidation proceedings and submitted its claim to the Liquidator, Section 238 of the IBC (a later, non-obstante special enactment) overrides Sections 173-174 of the Electricity Act, 2003 and Clause 4.3(f)(iv) of the U.P. Electricity Supply Code, 2005 (which makes outstanding dues a first charge on the premises); the licensee cannot simultaneously pursue its IBC claim before the Liquidator and also withhold or condition a fresh electricity connection to the auction-purchaser of the premises on payment of the former owner's arrears. K.C. Ninan v. Kerala SEB, which upholds a statutory Supply Code condition making a transferee liable for a previous owner's arrears, is confined to ordinary transfers outside the IBC framework and does not apply once liquidation proceedings under the IBC have been triggered and the utility has submitted its claim; the licensee's recourse is confined to the IBC Section 53 waterfall/distribution mechanism through the Liquidator, not recovery/refusal-to-connect under the Electricity Act.",
+
+  "holding_units": [
+    {
+      "provision": "ARREARS::transferee-liability",
+      "code": "Electricity Act, 2003 (ss.56, 173, 174) & U.P. Electricity Supply Code, 2005 (Clause 4.3(f)(iv), 6.15) vis-a-vis Insolvency and Bankruptcy Code, 2016 (s.238, s.53)",
+      "clause": "IB Code s.238 vis-a-vis EA2003 ss.173/174 and Supply Code Clause 4.3(f)(iv)",
+      "topic": "IBC Section 238 overrides the Electricity Act/Supply Code first-charge and arrears-recovery provisions where the premises were acquired via IBC liquidation and the licensee has submitted its claim to the Liquidator",
+      "type": "interplay",
+      "question": "Can an electricity licensee, having already participated in an IBC liquidation and submitted its claim for the corporate debtor's outstanding electricity dues, refuse a fresh connection to the auction-purchaser of the premises (bought 'as is where is' from the Liquidator) unless the dues are paid, relying on the first-charge/arrears-recovery provisions of the Electricity Act and Supply Code (as applied in K.C. Ninan)?",
+      "holding": "No. Section 238 of the IBC — a subsequent, non-obstante special enactment — overrides Sections 173-174 of the Electricity Act, 2003 and Clause 4.3(f)(iv) of the Supply Code (first charge on assets), following Paschimanchal Vidyut Vitran Nigam Ltd. v. Raman Ispat (P) Ltd. and Southern Power Distribution Co. of Telangana v. Gopal Agarwal. Once the licensee has participated in the liquidation and lodged its claim, it cannot also insist on payment of the arrears as a precondition for a fresh connection to the auction-purchaser; its dues are recoverable only through the IBC Section 53 waterfall mechanism via the Liquidator, not by withholding supply. K.C. Ninan's holding that a Supply Code condition can make arrears run with the premises is confined to its own facts (no IBC liquidation in issue) and does not apply once the IBC framework and the licensee's own participation in it are engaged. The impugned demand/refusal order was set aside and the licensee directed to install the connection, retaining liberty to recover its dues only from the Liquidator.",
+      "limiting_facts": "The petitioner purchased the corporate debtor's (M/s Chaudhary Ingots Pvt. Ltd.) immovable assets 'as is where is, whatever there is' in an NCLT-directed online liquidation auction (2022), paid the full price, and obtained a sale certificate/possession letter/sale deed; the licensee refused a fresh connection unless Rs. 4,92,69,142 in the corporate debtor's outstanding electricity dues (secured, per the connection agreement, by a Clause 4.3(f)(iv) first charge) was paid, while having already lodged its claim with the Liquidator for the same dues.",
+      "paras": "paras 26-48"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "arrears-run-with-the-premises",
+      "application": "IMPORTANT QUALIFICATION: the K.C. Ninan arrears-run-with-premises doctrine (SCJ-037) is confined to ordinary/non-insolvency transfers; where the premises were acquired through an IBC liquidation auction and the licensee has itself submitted a claim to the Liquidator for the same dues, IBC s.238 overrides the Electricity Act/Supply Code first-charge provisions and the licensee's sole recourse is the IBC waterfall mechanism, not withholding a fresh connection.",
+      "lead_authorities": [
+        {"name": "Paschimanchal Vidyut Vitran Nigam Ltd. v. Raman Ispat Private Ltd. & Ors.", "docid": "5808278"},
+        {"name": "K.C. Ninan v. Kerala State Electricity Board & Ors.", "docid": "160269658"}
+      ],
+      "paras": "paras 26-45"
+    },
+    {
+      "tag": "ibc-s238-overrides-sector-statutes",
+      "application": "Section 238 of the IBC, being a later special enactment with a non-obstante clause, overrides sectoral statutes with their own non-obstante/first-charge provisions (Electricity Act ss.173-174; also applied to the Customs Act and the Tea Act in other SC rulings) once liquidation/moratorium proceedings are triggered and the sectoral authority has participated in them.",
+      "lead_authorities": [
+        {"name": "Innoventive Industries Ltd. v. ICICI Bank & Anr.", "docid": "181931435"}
+      ],
+      "paras": "paras 29-40"
+    }
+  ],
+
+  "not_decided": [],
+
+  "authorities": [
+    {"name": "K.C. Ninan v. Kerala State Electricity Board & Ors.", "citation": "2023 SCC OnLine SC 603 : (2023) 9 SCR 637", "court": "Supreme Court", "docid": "160269658", "proposition": "Electric utilities can create a charge over premises by subordinate legislation/statutory conditions of supply, enabling recovery of a previous owner's electricity arrears from a subsequent transferee; in general law absent such a condition, arrears do not automatically become a charge.", "how_treated": "Distinguished/confined — held applicable only outside the IBC framework; does not govern where the utility has itself participated in and lodged a claim in an IBC liquidation.", "how_treated_paras": "paras 26-27", "cited_by": "Petitioner and Respondent (both relied on it, for opposite conclusions)", "treatment": "Distinguished"},
+    {"name": "Paschimanchal Vidyut Vitran Nigam Ltd. v. Raman Ispat Private Ltd. & Ors.", "citation": "AIR 2023 SC 3501", "court": "Supreme Court", "docid": "5808278", "proposition": "In an IBC liquidation, the electricity utility is a secured creditor whose claim for arrears (secured by the Supply Code's charge) must be classified and paid per the s.53 waterfall mechanism; IBC s.238 overrides the Electricity Act/Supply Code despite their own non-obstante provisions (ss.173-174).", "how_treated": "Followed as the central authority for the IBC-overrides-Electricity-Act holding.", "how_treated_paras": "paras 13, 44", "cited_by": "Petitioner", "treatment": "Followed"},
+    {"name": "Southern Power Distribution Company of Telangana Ltd. v. Gopal Agarwal & Ors.", "citation": "Civil Appeal No. 1918 of 2016", "court": "Supreme Court", "docid": "", "proposition": "An auction purchaser (per Isha Marbles) cannot be called upon to clear a past owner's arrears as a precondition for a power connection.", "how_treated": "Relied on for the auction-purchaser protection, alongside Raman Ispat.", "how_treated_paras": "paras 12, 44", "cited_by": "Petitioner", "treatment": "Followed"},
+    {"name": "NESCO v. Raghunath Paper Mills (P) Ltd.", "citation": "(2012) 13 SCC 479", "court": "Supreme Court", "docid": "", "proposition": "An auction purchaser buying an official liquidator's sale 'as is where is, whatever there is' is not liable for the past owner's electricity arrears, and a request for a fresh connection cannot be rejected on that ground.", "how_treated": "Relied on by the petitioner as a directly analogous liquidation-sale precedent.", "how_treated_paras": "para 12", "cited_by": "Petitioner", "treatment": "Relied on"},
+    {"name": "Ahmedabad Electricity Supply Company Ltd. v. Gujarat Inns Pvt. Ltd.", "citation": "(2004) 3 SCC 587", "court": "Supreme Court", "docid": "28246", "proposition": "An auction purchaser cannot be denied power supply for non-payment of arrears by the erstwhile company.", "how_treated": "Relied on by the petitioner as foundational auction-purchaser precedent.", "how_treated_paras": "para 11", "cited_by": "Petitioner", "treatment": "Relied on"},
+    {"name": "Tata Power Western Odisha Distribution Ltd. v. Jagannath Sponge Private Ltd.", "citation": "Civil Appeal No. 5556 of 2023", "court": "Supreme Court", "docid": "183986005", "proposition": "Following Raman Ispat, a power distribution company cannot insist on payment of the corporate debtor's arrears (to be paid per the IBC waterfall mechanism) as a precondition for granting an electricity connection to the successful resolution applicant.", "how_treated": "Relied on by the petitioner as a further application of Raman Ispat.", "how_treated_paras": "para 15", "cited_by": "Petitioner", "treatment": "Relied on"},
+    {"name": "Innoventive Industries Ltd. v. ICICI Bank & Anr.", "citation": "(2018) 1 SCC 407", "court": "Supreme Court", "docid": "181931435", "proposition": "Section 238 of the IBC, containing the widest possible non-obstante clause, ensures that no right of the corporate debtor under any other law can come in the way of the Code.", "how_treated": "Relied on for the general primacy of IBC s.238 over conflicting sectoral statutes.", "how_treated_paras": "paras 37, 47", "cited_by": "Petitioner", "treatment": "Followed"},
+    {"name": "Sundaresh Bhatt, Liquidator of ABG Shipyard v. Central Board of Indirect Taxes and Customs", "citation": "2022 SCC OnLine SC 1101", "court": "Supreme Court", "docid": "", "proposition": "IBC prevails over the Customs Act, 1962 once moratorium is imposed; the customs authority retains only a limited jurisdiction to assess duty, not to recover by sale/confiscation.", "how_treated": "Relied on (via Raman Ispat) as an analogous application of s.238 primacy over a sectoral statute with its own first-charge provision.", "how_treated_paras": "paras 34, 142(within Raman Ispat)", "cited_by": "Court", "treatment": "Referred"},
+    {"name": "Duncans Industries Ltd. v. A.J. Agrochem", "citation": "(2019) 9 SCC 725; AIR 2019 SC 5472", "court": "Supreme Court", "docid": "", "proposition": "Section 16G of the Tea Act, 1953 (requiring prior Central Government consent for winding-up proceedings) is overridden by the IBC.", "how_treated": "Relied on as a further analogous instance of IBC s.238 overriding a sectoral consent/priority provision.", "how_treated_paras": "para 36", "cited_by": "Court", "treatment": "Referred"},
+    {"name": "Ghanshyam Mishra and Sons Pvt. Ltd. v. Edelweiss Asset Reconstruction Company Ltd.", "citation": "(2021) 21 SCC 196", "court": "Supreme Court", "docid": "", "proposition": "Explains the legislative intent behind IBC s.238's overriding effect and the finality/clean-slate assurance given to a resolution applicant.", "how_treated": "Relied on to explain the policy rationale for s.238's primacy.", "how_treated_paras": "para 33", "cited_by": "Court", "treatment": "Referred"},
+    {"name": "CIT v. Monnet Ispat and Energy Ltd.", "citation": "(2018) 18 SCC 786", "court": "Supreme Court", "docid": "42502475", "proposition": "Follows Innoventive Industries on the overriding effect of IBC s.238.", "how_treated": "Referred as a further application of the Innoventive ratio.", "how_treated_paras": "para 37", "cited_by": "Court", "treatment": "Referred"},
+    {"name": "K. Kishan v. Vijay Nirman Company Private Limited", "citation": "(2018) 17 SCC 662", "court": "Supreme Court", "docid": "73508068", "proposition": "Upholds the primacy of IBC s.238 over the Arbitration and Conciliation Act, 1996.", "how_treated": "Referred as another instance of IBC primacy.", "how_treated_paras": "para 38", "cited_by": "Court", "treatment": "Referred"},
+    {"name": "M/s Uttarakhand Power Corporation Ltd. v. M/s Shyam Baba Developers & Builders Pvt. Ltd.", "citation": "Company Appeal (AT) No. 346 of 2023", "court": "NCLAT", "docid": "", "proposition": "K.C. Ninan is not applicable where the electricity authority has filed a claim in liquidation proceedings.", "how_treated": "Relied on by the petitioner and accepted by the Court to confine K.C. Ninan outside the IBC context.", "how_treated_paras": "para 16", "cited_by": "Petitioner", "treatment": "Followed"}
+  ]
+}

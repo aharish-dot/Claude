@@ -1,0 +1,45 @@
+{
+  "case_id": "SCJ-057",
+  "title": "M/S Kissan Chilling Udyog & Anr. v. State of U.P. & Ors.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Sudhir Agarwal, J.",
+  "date_of_judgment": "2014-09-05",
+  "date_display": "5 September 2014",
+  "docket": "WRIT - C No. 12840 of 2012",
+  "disposition": "Writ petition allowed; assessment and demand notices quashed (liberty to reassess afresh strictly per Clause 6.8/Ashok Kumar)",
+
+  "headnote": "Applying Ashok Kumar v. State of U.P., a theft-based Section 126 assessment must strictly follow Clause 6.8 of the U.P. Electricity Supply Code, 2005 (inspection report, show-cause notice with 15 working days to reply, hearing, speaking final order); a demand notice that misreads the checking report — e.g. attributing tampering to 'all seals' when the report in fact recorded the body-seal defect only for the main meter and the foreign/tampering element only inside a separate double (test) meter installed by the licensee itself — cannot sustain an unauthorised-use assessment, since the consumer is thereby condemned on a mischaracterisation of the very evidence relied upon, without any disclosure of how the assessed quantum was calculated.",
+
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8",
+      "code": "U.P. Electricity Supply Code, 2005 (with s.126, EA 2003)",
+      "clause": "6.8(a)-(c)",
+      "topic": "A theft assessment resting on a misreading of the checking report (conflating the main meter and a separately-installed double/test meter) cannot sustain",
+      "type": "supply_code",
+      "question": "Can a Section 126 unauthorised-use assessment stand where the show-cause notice and final order attribute meter-tampering ('all seals tampered') to the consumer's main meter, when the checking report in fact recorded the body-seal defect only for the main meter and the foreign/remote-controlled device only inside a separate double (test) meter installed by the licensee itself to test the main meter?",
+      "holding": "No. Following Ashok Kumar's Clause 6.8 procedure (inspection report, 15-working-day show-cause notice, hearing, speaking final order), the impugned orders were quashed for two independent defects: (1) no valid Clause 6.8 notice/final order was issued disclosing the manner of the alleged unauthorised use or the basis for the assessed quantum, and (2) the notice and final order misread the checking report by attributing tampering ('all seals found tempered') to the main meter and treating the double meter's contents as equally condemnatory, when the checking report showed the body-seal defect recorded only for the main meter and the foreign device only inside the double meter (installed by the respondents themselves to test the main meter, under no averred common sealing certificate) — a misreading respondent's own counsel conceded justified remand. The Assessing Authority was given liberty to reassess afresh strictly per Clause 6.8 and Ashok Kumar.",
+      "limiting_facts": "On checking (24.8.2008) of a chilling-plant's meters, the main meter's body seal was recorded as damaged, and a foreign remote-controlled device was found inside a separately installed 'double meter' (used by the licensee to test the main meter); the show-cause notice/final assessment (Rs. 21,74,211, later revised) nonetheless stated 'all the seals in meter were found tempered' without distinguishing the two meters or disclosing the basis of the quantum, despite two prior rounds of writ litigation (Writ Petition No. 898 of 2008) that had already quashed an earlier final order for the same non-disclosure defect.",
+      "paras": "paras 14-18 (applying Ashok Kumar paras 56-64, 77-78)"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "clause-8.1b-theft-notice-natural-justice",
+      "application": "Extends the Ashok Kumar/Clause 6.8 line: a theft assessment fails not only for skipping the prescribed procedure but also where the notice/final order misreads or mischaracterises the checking report itself (e.g. conflating a test/double meter's findings with the main meter's), since the consumer is thereby condemned on a factual basis the evidence does not support.",
+      "lead_authorities": [
+        {"name": "Ashok Kumar & Others v. State of U.P. & Others", "docid": "897981"}
+      ],
+      "paras": "paras 14-18"
+    }
+  ],
+
+  "not_decided": [],
+
+  "authorities": [
+    {"name": "Ashok Kumar & Others v. State of U.P. & Others", "citation": "2008 (6) ADJ 660 (DB)", "court": "Allahabad High Court (DB)", "docid": "897981", "proposition": "Clause 6.8 of the Supply Code, 2005 prescribes a mandatory procedure (inspection report, show-cause notice, hearing, speaking final order) for a Section 126 unauthorised-use assessment; the consumer must be told the manner of the alleged unauthorised use before condemnation.", "how_treated": "Followed and applied; the impugned orders were quashed for non-compliance and misreading of the underlying checking report.", "how_treated_paras": "paras 14, 18, quoting Ashok Kumar paras 56-64, 77-78", "cited_by": "Court", "treatment": "Followed"}
+  ]
+}

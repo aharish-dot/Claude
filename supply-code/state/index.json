@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 51,
+  "next_seq": 59,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -304,6 +304,54 @@
       "case_id": "SCJ-050",
       "source_basename": "M.K. Pathak ,Executive Engineer vs The Electricity Ombudsman And 2 Ors. on 10 October, 2018",
       "title": "M.K. Pathak v. Electricity Ombudsman (Ombudsman remedy consumer-only, Clause 7.10)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-051",
+      "source_basename": "MS Beeco Electrical India And Another vs Pashchimanchal Vidyut Vitran Nigam ... on 14 June, 2012",
+      "title": "Beeco Electrical v. PVVNL (theft inference from MRI/naked conductor)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-052",
+      "source_basename": "MS Birla Aircon vs District Magistrate, Meerut And Others on 23 August, 2012",
+      "title": "Birla Aircon v. District Magistrate Meerut (Clause 2.2(ss) premises definition; recovery/sealing scope)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-053",
+      "source_basename": "MS Dev Prayag Paper Mill (Pvt.) vs State Of U.P. And 3 Others on 21 March, 2017",
+      "title": "Dev Prayag Paper Mill v. State of U.P. (batch of ~90; Clause 4.20/s.47(5) prepayment-meter security)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-054",
+      "source_basename": "MS Dharti Agro Industries Pvt. Ltd. vs The Managing Director, Pashchimanchal ... on 18 September, 2025",
+      "title": "Dharti Agro Industries v. PVVNL (IBC s.238 overrides Electricity Act arrears; K.C. Ninan confined)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-055",
+      "source_basename": "MS Hind Industries Limited vs State Of U.P. And Others on 19 October, 2011",
+      "title": "Hind Industries v. State of U.P. (Area Level Committee jurisdiction; interest; abuse of process)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-056",
+      "source_basename": "MS Jindal Steel And Power Ltd. vs Chattisgarh State Elect. Reg. Commn.. on 29 September, 2022",
+      "title": "Jindal Steel & Power v. CSERC (OFFTOPIC; distribution licensing, not Supply Code)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-057",
+      "source_basename": "MS Kissan Chilling Udoyg And Anr. vs State Of U.P. And Others on 5 September, 2014",
+      "title": "Kissan Chilling Udyog v. State of U.P. (Clause 6.8; misreading of checking report)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-058",
+      "source_basename": "MS Krown Bakers India Pvt. Ltd. vs Paschimanchal Vidyut Vitran Nigam And ... on 12 February, 2014",
+      "title": "Krown Bakers v. PVVNL (Clause 5.6 check-meter procedure on consumer request)",
       "status": "done"
     }
   ]

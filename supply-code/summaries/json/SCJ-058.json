@@ -1,0 +1,40 @@
+{
+  "case_id": "SCJ-058",
+  "title": "M/S Krown Bakers India Pvt. Ltd. v. Paschimanchal Vidyut Vitran Nigam & Anr.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Amreshwar Pratap Sahi & Vivek Kumar Birla, JJ.",
+  "date_of_judgment": "2014-02-12",
+  "date_display": "12 February 2014",
+  "docket": "WRIT - C No. 59470 of 2011",
+  "disposition": "Writ petition dismissed",
+
+  "headnote": "Under Clause 5.6 of the U.P. Electricity Supply Code, 2005, the obligation to install a check meter (or otherwise test a meter under the prescribed procedure) arises only on a consumer's request; where the sealing certificate on inspection recorded that the main meter was running slow (with the difference from a double-pole meter chargeable per rule) and the consumer, with knowledge of that finding, never questioned the meter's operational status or requested a check-meter test — challenging only the resulting bill and seeking installments — the consumer cannot later contend that the bill is vitiated for want of a Clause 5.6 check-meter procedure.",
+
+  "holding_units": [
+    {
+      "provision": "UP-2005::5.6",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "5.6 (defective meters; check-meter procedure)",
+      "topic": "Check-meter procedure under Clause 5.6 is triggered only by the consumer's request; silence on the meter's slow-running finding forfeits the objection",
+      "type": "supply_code",
+      "question": "Is a bill based on an inspection finding that the meter was running slow (difference chargeable per rule) vitiated for not following the Clause 5.6 check-meter procedure, where the consumer never disputed the meter's slow-running or requested a check meter, but only objected to the resulting bill?",
+      "holding": "No. Clause 5.6 gives the licensee the right to test a meter on reasonable doubt of accuracy, and separately gives the consumer the right to request testing (including installation of a check meter) if he doubts the meter's accuracy; the obligation to install a check meter arises only on the consumer's request. Since the consumer had full knowledge from the sealing certificate that the meter was found running slow, never disputed that finding or sought a check-meter test — his representations and applications (including a request for installment payment) challenged only the bill, not the meter's operational status — he cannot now contend that the bill is vitiated for non-compliance with Clause 5.6.",
+      "limiting_facts": "On inspection (18.4.2011) no discrepancy was found with the main meter's tamper status, but the sealing certificate recorded the meter running slow, with the difference from a double-pole meter chargeable per rule, resulting in demand bill dated 8.8.2011; the consumer never sought a check-meter test and only sought installment payment of the bill.",
+      "paras": "unnumbered order"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "check-meter-procedure-on-consumer-request",
+      "application": "The Clause 5.6 check-meter/testing procedure for a disputed meter is triggered only by the consumer's request; a consumer who has knowledge of a slow-meter finding and does not dispute it or seek testing cannot later invoke Clause 5.6 non-compliance to challenge the consequential bill.",
+      "lead_authorities": [],
+      "paras": "unnumbered order"
+    }
+  ],
+
+  "not_decided": [],
+  "authorities": []
+}
