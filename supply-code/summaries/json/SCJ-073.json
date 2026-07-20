@@ -1,0 +1,40 @@
+{
+  "case_id": "SCJ-073",
+  "title": "M/S NTPC Ltd. v. M.P. State Electricity Board & Ors. (with connected appeals)",
+  "neutral_citation": "Civil Appeal Nos. 2451, 2452, 2493, 3972 & 4231 of 2007",
+  "court": "Supreme Court of India",
+  "bench": "Two-Judge Bench",
+  "coram": "J.M. Panchal & H.L. Gokhale, JJ. (delivered by Gokhale, J.)",
+  "date_of_judgment": "2011-09-29",
+  "date_display": "29 September 2011",
+  "docket": "Civil Appeal No. 2451 of 2007 (with connected appeals)",
+  "disposition": "NTPC's appeals allowed; Electricity Boards' appeals dismissed (no interest on the tariff-determination differential)",
+
+  "headnote": "Not a Supply Code case in substance — a wholesale generation-tariff dispute between NTPC (a generating company) and purchasing State Electricity Boards over interest on the differential between an interim/continued tariff (charged pending final tariff determination under Section 62 of the Electricity Act, 2003) and the lower tariff finally determined years later. The Supreme Court held Section 62(6) interest (payable only where a licensee/generating company 'recovers a price or charge exceeding the tariff determined under this section') does not extend to the interim/provisional period before final determination, absent a specific regulation so providing (as was later inserted, prospectively, by CERC Regulation 5A in 2006); nor could interest be awarded on equity/restitution principles absent any contractual, regulatory, or statutory basis, industry practice, or evidence of coercive/unjust extraction by the generating company. Recorded here only for completeness of the source corpus; flagged OFFTOPIC since it concerns bulk generation tariff, not the retail consumer-facing Supply Code framework this project tracks — though its narrow construction of Section 62(6) is useful background to Supply Code cases (e.g. SCJ-072) construing the same provision at the retail level.",
+
+  "holding_units": [
+    {
+      "provision": "OFFTOPIC::s62-6-interest-generation-tariff",
+      "code": "Electricity Act, 2003 (s.62(6)) — wholesale generation-tariff dispute, unrelated to the retail Supply Code",
+      "clause": "s.62(6) construed narrowly: no interest on a provisional-vs-final tariff differential absent a specific regulation",
+      "topic": "Section 62(6) interest does not extend to the interim/provisional tariff period pending final determination, absent an express regulation; equity/restitution principles do not independently justify interest absent any statutory, contractual, or customary basis",
+      "type": "interplay",
+      "holding": "Section 62(6) only prohibits recovery of a price 'exceeding the tariff determined under this section' — it does not address the interim period during which tariff determination is pending, nor deem a subsequently-reduced final tariff to retroactively convert prior lawful interim charges into 'excess' charges attracting interest. CERC's 2006 Regulation 5A (providing simple interest on provisional-vs-final tariff differentials) could not apply retrospectively to the 2001-2004 period in issue. The Appellate Tribunal erred in awarding interest on equity/justice/fair-play grounds, since there was no contractual, statutory, or regulatory basis for interest, no industry practice of paying it, and no finding that the generating company had coercively or unjustly extracted the interim tariff (which was charged strictly per the Commission's own continuing notifications).",
+      "limiting_facts": "The Central Electricity Regulatory Commission determined final tariffs (in 2005-2006) for NTPC's power supply to state Electricity Boards for the period 2001-2004 at rates lower than the interim tariff continued by the Commission's own notifications pending determination; NTPC promptly adjusted the resulting excess in subsequent bills, but the Boards claimed interest on the differential for the intervening years.",
+      "paras": "paras 13-31",
+      "flag": "SC's authoritative narrow construction of s.62(6) interest ('exceeding the tariff determined') — useful cross-reference for retail Supply Code cases construing the same provision (cf. SCJ-072 Kamla Cold Storage, which similarly held s.62(6) inapplicable to a delayed rebate)."
+    }
+  ],
+
+  "principle_tags": [],
+  "not_decided": [],
+
+  "authorities": [
+    {"name": "BSES Ltd. v. Tata Power Co. Ltd.", "citation": "(2004) 1 SCC 195", "court": "Supreme Court", "docid": "197296101", "proposition": "An interim arrangement, based on a prima facie view without full examination, would be subject to final adjustment with interest where a matter (there, standby charges) was pending Commission determination and remained unpaid.", "how_treated": "Distinguished — that case involved a dispute referred for determination and unpaid pending resolution, unlike the present case where the interim tariff was lawfully charged and paid per standing notifications.", "how_treated_paras": "para 20", "cited_by": "Appellate Tribunal (relied on below)", "treatment": "Distinguished"},
+    {"name": "South Eastern Coalfields Ltd. v. State of M.P. & Ors.", "citation": "(2003) 8 SCC 648", "court": "Supreme Court", "docid": "79780222", "proposition": "A party finally entitled to a monetary relief is entitled to be compensated by interest, payable even in equity/restitution (Section 144 CPC principle).", "how_treated": "Distinguished — that claim was statutorily covered under Section 61 of the Sale of Goods Act with a crystallized liability, unlike the present tariff-determination context.", "how_treated_paras": "paras 21-22", "cited_by": "Electricity Boards", "treatment": "Distinguished"},
+    {"name": "Union of India v. Rallia Ram", "citation": "AIR 1963 SC 1685", "court": "Supreme Court", "docid": "1961694", "proposition": "Interest is payable in equity only where circumstances attract equitable jurisdiction, or under the Interest Act, or where an agreement/statute/trade usage so provides.", "how_treated": "Relied on to reject the equity-based interest claim absent any such basis.", "how_treated_paras": "paras 23, 30", "cited_by": "Court", "treatment": "Relied on"},
+    {"name": "Union of India v. Watkins Mayor and Co.", "citation": "AIR 1966 SC 275", "court": "Supreme Court", "docid": "823952", "proposition": "Interest is claimable only where there is an agreement, trade usage having force of law, or a substantive statutory provision; equity alone cannot justify an interest claim.", "how_treated": "Relied on to the same effect.", "how_treated_paras": "paras 24, 30", "cited_by": "Court", "treatment": "Relied on"},
+    {"name": "Kavita Trehan & Anr. v. Balsara Hygiene Products Ltd.", "citation": "(1994) 5 SCC 380", "court": "Supreme Court", "docid": "708348", "proposition": "The power to make restitution is inherent in every court, applying even outside Section 144 CPC.", "how_treated": "Distinguished — that case involved wrongful termination of a contract and an injunction in a civil suit, factually inapposite here; the Tribunal itself found no coercive extraction by NTPC.", "how_treated_paras": "para 26", "cited_by": "Electricity Boards", "treatment": "Distinguished"},
+    {"name": "PTC India Ltd. v. Central Electricity Regulatory Commission", "citation": "(2010) 4 SCC 603", "court": "Supreme Court (Constitution Bench)", "docid": "395434", "proposition": "Tariff/price fixation is legislative in character unless the statute makes it quasi-judicial for specified purposes (as tariff fixation under Section 62 is made appealable under Section 111).", "how_treated": "Referred; the legislative/quasi-judicial characterisation was found not determinative of the interest question.", "how_treated_paras": "paras 29-30", "cited_by": "Electricity Boards", "treatment": "Referred"}
+  ]
+}

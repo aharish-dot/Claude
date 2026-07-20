@@ -1,0 +1,57 @@
+{
+  "case_id": "SCJ-071",
+  "title": "M/S Venus Stone Crushing Co. & Anr. v. U.P. Power Corporation Ltd. & Ors.",
+  "neutral_citation": "AIR 2013 All 47; (2012) 8 ADJ 221",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Sudhir Agarwal, J.",
+  "date_of_judgment": "2012-05-15",
+  "date_display": "15 May 2012",
+  "docket": "WRIT - C No. 64725 of 2011",
+  "disposition": "Writ petition allowed; appellate assessment order quashed; refund with 6% interest and costs",
+
+  "headnote": "Under paras 5.17, 5.18 and 5.20 of the U.P. Electricity Supply Code, 2002 (materially identical to Clause 5.6 of the 2005 Code), a licensee testing a meter in its laboratory must inform the consumer of the proposed testing date at least seven days in advance so the consumer may be present; this procedure is mandatory (Amrawati Devi v. PVVNL, whose SLP was dismissed by the Supreme Court, rendering the ruling final), and a test report obtained without it cannot be relied upon. Where no tampering or defect was noted in the meter or its seals at the time of its removal (only a burnt meter and unrelated CT/PT phase errors, which are also explicable on purely technical grounds and self-corrected without external intervention), a subsequent 'tampering' finding by the meter manufacturer's own lab — obtained ex parte and after the meter had passed into the licensee's custody — cannot be relied upon; the licensee bears the burden of proving, with cogent evidence, that the consumer (and not some intervening cause after the meter left his possession) caused the irregularity found. A meter manufacturer's own laboratory is not an 'independent laboratory'. Where the very basis of an assessment (the test report) is legally vitiated, the entire assessment must fall.",
+
+  "holding_units": [
+    {
+      "provision": "UP-2005::5.6",
+      "code": "U.P. Electricity Supply Code, 2002 (paras 5.17, 5.18, 5.20 — precursor to Clause 5.6, 2005 Code)",
+      "clause": "5.17/5.18/5.20 (mandatory 7-day notice before lab testing; burden on licensee)",
+      "topic": "Mandatory pre-testing notice (now final per SC's SLP dismissal in Amrawati Devi); licensee bears the burden of proving the consumer, not an intervening cause, caused the irregularity; manufacturer's lab is not independent",
+      "type": "supply_code",
+      "question": "Can a theft assessment rest on a manufacturer-lab 'tampering' finding obtained without the mandatory seven-day pre-testing notice to the consumer, where no defect was noted in the meter/seals at removal and the alleged phase errors were also explicable on technical grounds and self-corrected?",
+      "holding": "No. Paras 5.17/5.18/5.20 of the 2002 Code (materially identical to Clause 5.6 of the 2005 Code) mandate seven days' advance notice of any laboratory testing so the consumer may be present; this is a mandatory procedure per Amrawati Devi v. PVVNL, a ruling since rendered final by the Supreme Court's dismissal of the SLP against it (3.8.2009) — a test report obtained without this procedure cannot ground any action against the consumer. Since the sealing certificate at removal recorded only a burnt meter (no tampered/defective seals) and unrelated CT/PT phase errors that were also technically explicable and had self-corrected without any external intervention, the subsequent 'tampering' finding of the manufacturer's own lab (obtained ex parte, undated, and after the meter had left the consumer's custody) could not be relied upon; the licensee bears the burden of proving with cogent evidence that the consumer, rather than some cause arising after the meter's removal, caused the alleged irregularity. Following Modern Rice Mill v. MVVNL and JMD Alloys v. Bihar SEB, a meter manufacturer's own laboratory is not an 'independent laboratory'. Since the assessment's very basis (the test report) was vitiated, and the Clause 6.8/Ashok Kumar assessment procedure was also not followed, the entire assessment fell.",
+      "limiting_facts": "A burnt meter was replaced (21.8.2003) with no tampering noted in the sealing certificate, only unrelated CT/PT phase errors that had self-corrected (e.g. a CT error recorded 28.5.2002 became normal by 17.6.2002 without any noted intervention); a subsequent undated report from the meter's manufacturer (obtained without notice to the consumer) alleged tampered body/lab seals, on the strength of which a theft assessment (~Rs. 21.5 lakh, later reduced on appeal to ~Rs. 6.37 lakh) was made and confirmed on appeal with a further direction to prosecute under Section 135.",
+      "paras": "paras 24-38"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "mandatory-pretesting-notice-final-by-slp-dismissal",
+      "application": "The mandatory seven-day pre-testing notice requirement (Amrawati Devi) is now final law, the Supreme Court having dismissed the SLP against it; non-compliance renders the test report unusable.",
+      "lead_authorities": [
+        {"name": "Smt. Amrawati Devi v. Purvanchal Vidyut Vitran Nigam Ltd. & Anr.", "docid": ""}
+      ],
+      "paras": "para 27"
+    },
+    {
+      "tag": "meter-manufacturer-testing-not-independent",
+      "application": "Reaffirms (following Modern Rice Mill, SCJ-059, and JMD Alloys) that a meter manufacturer's own lab is not an 'independent laboratory'; extends the point with a burden-of-proof holding that the licensee must affirmatively prove the consumer (not an intervening cause after the meter left his custody) caused any tampering found.",
+      "lead_authorities": [
+        {"name": "M/s Modern Rice Mill v. MVVNL & Anr.", "docid": ""},
+        {"name": "M/s JMD Alloys Limited v. Bihar State Electricity Board", "docid": "559116"}
+      ],
+      "paras": "paras 33, 39, 49-50 (quoting Modern Rice Mill)"
+    }
+  ],
+
+  "not_decided": [],
+
+  "authorities": [
+    {"name": "Smt. Amrawati Devi v. Purvanchal Vidyut Vitran Nigam Ltd. & Anr.", "citation": "2009 (1) ADJ 430; SLP dismissed 3.8.2009", "court": "Allahabad High Court (DB); SLP dismissed by Supreme Court", "docid": "", "proposition": "The procedure prescribed for meter testing (enabling the consumer to remain present) is mandatory; a test report obtained without following it cannot be relied on to take action against the consumer.", "how_treated": "Followed as now-final law (SLP dismissed), applied to invalidate the manufacturer's ex parte test report.", "how_treated_paras": "para 27", "cited_by": "Court", "treatment": "Followed"},
+    {"name": "M/s Modern Rice Mill v. MVVNL & Anr.", "citation": "2012 (1) ADJ 296", "court": "Allahabad High Court", "docid": "", "proposition": "A meter manufacturer's own lab cannot be an 'independent laboratory'; testing by the manufacturer amounts to making a person judge in his own cause, given its commercial interest in defending its product's tamper-proof reputation.", "how_treated": "Followed and quoted at length.", "how_treated_paras": "paras 33, 36", "cited_by": "Court", "treatment": "Followed"},
+    {"name": "M/s JMD Alloys Limited v. Bihar State Electricity Board", "citation": "(referenced via Modern Rice Mill)", "court": "Patna High Court", "docid": "559116", "proposition": "Testing of a Secure Meter by its own manufacturer is likely to create a strong bias in favour of the supplier/manufacturer.", "how_treated": "Followed (via Modern Rice Mill).", "how_treated_paras": "para 33", "cited_by": "Court", "treatment": "Followed"},
+    {"name": "Ashok Kumar & Others v. State of U.P. & Others", "citation": "2008 (6) ADJ 660 (DB)", "court": "Allahabad High Court (DB)", "docid": "897981", "proposition": "Lays down the mandatory Clause 6.8 procedure for a theft-based assessment.", "how_treated": "Followed; the assessment procedure was found not to have been complied with in this case either.", "how_treated_paras": "para 37", "cited_by": "Court", "treatment": "Followed"}
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "case_id": "SCJ-068",
+  "title": "M/S Three Star Paper Mills Pvt. Ltd. v. State of U.P. & 5 Ors.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sudhir Agarwal & Ajit Kumar, JJ. (delivered by Sudhir Agarwal, J.)",
+  "date_of_judgment": "2018-01-11",
+  "date_display": "11 January 2018",
+  "docket": "WRIT - C No. 43194 of 2015",
+  "disposition": "Writ petition dismissed with Rs. 10,000 costs",
+
+  "headnote": "A consumer who accepts a licensee's 'One Time Settlement' scheme — expressly to settle 'all pending matters' across multiple long-running billing disputes, in exchange for a substantial waiver of accrued late-payment surcharge — is estopped from thereafter reviving one of the settled disputes (here, a claim to a 10% development rebate under M/s Pawan Alloys and Casting Pvt. Ltd. v. UPSEB) via the Consumer Redressal Forum/Ombudsman route under Clause 7.10 of the Electricity Supply Code. Independently, a consumer who did not challenge the withdrawal of a subsidy/rebate at the time (unlike other consumers who litigated promptly and obtained the benefit of the Supreme Court's 1997 ruling in Pawan Alloys) cannot invoke that later judgment more than 20 years afterward to claim the same benefit; extraordinary delay and laches bar equitable relief under Article 226, irrespective of other similarly-situated consumers having succeeded through their own timely litigation.",
+
+  "holding_units": [
+    {
+      "provision": "UP-2005::7.10",
+      "code": "U.P. Electricity Supply Code, 2005 (One Time Settlement scheme; Clause 7.10 CGRF/Ombudsman route)",
+      "clause": "7.10 (consumer grievance redressal) applied to an OTS-settled dispute",
+      "topic": "A consumer who accepted a One Time Settlement covering 'all pending matters' is estopped from later reviving one of the settled disputes through the CGRF/Ombudsman route",
+      "type": "supply_code",
+      "question": "Can a consumer, having accepted the licensee's One Time Settlement scheme (paying an agreed principal in exchange for waiver of accrued surcharge across several long-pending billing disputes), later pursue a separate, decades-old claim (10% development rebate) through the Consumer Redressal Forum and Electricity Ombudsman under Clause 7.10 of the Code, treating it as still 'pending'?",
+      "holding": "No. The consumer's own representation accepting the One Time Settlement made clear it was 'ready to settle its ALL pending matters' by paying the agreed principal sum; the licensee accepted this and waived more than Rs. 78 lakh of accrued surcharge. Having obtained that benefit on the basis that all disputes stood settled, the consumer is estopped from raising the 10%-rebate dispute afresh before the Redressal Forum/Ombudsman; both correctly rejected the claim.",
+      "limiting_facts": "Multiple writ petitions over 1989-1993 had challenged various demand notices; a cumulative outstanding sum (principal plus surcharge) of about Rs. 98.56 lakh was compromised via a 2010 One Time Settlement circular, under which the consumer paid Rs. 20,46,588.49 principal in instalments and the licensee waived Rs. 78,09,444.07 of surcharge; years later the consumer sought a separate refund for a 10% development rebate denied for October 1986-May 1988.",
+      "paras": "paras 6-13"
+    },
+    {
+      "provision": "OFFTOPIC::delay-and-laches-writ-jurisdiction",
+      "code": "General equity/Article 226 doctrine",
+      "clause": "delay and laches bar equitable relief even for similarly-situated claimants",
+      "topic": "A consumer who did not timely challenge withdrawal of a benefit cannot invoke a later favourable judgment obtained by other litigants more than two decades afterward",
+      "type": "interplay",
+      "holding": "Those who were vigilant and raised their dispute in time are entitled to the benefit of a subsequent favourable judgment (here, Pawan Alloys, 1997, on promissory estoppel for a development rebate); a consumer who accepted withdrawal of the rebate without protest, and made no claim until a year after the judgment (1998) and pursued it in this writ only decades later, is guilty of extraordinary delay and laches disentitling equitable relief under Article 226, irrespective of being similarly situated to successful litigants.",
+      "paras": "paras 14-18"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "one-time-settlement-finality",
+      "application": "Acceptance of a licensee's One Time Settlement covering all pending disputes estops the consumer from later reviving any one of those disputes.",
+      "lead_authorities": [],
+      "paras": "paras 6-13"
+    },
+    {
+      "tag": "delay-laches-bar-similarly-situated-claim",
+      "application": "Delay/laches of decades bars a consumer from claiming the benefit of a favourable judgment obtained by other, timely litigants on the same point.",
+      "lead_authorities": [
+        {"name": "New Delhi Municipal Council v. Pan Singh & Others", "docid": "670840"},
+        {"name": "Yunus v. State of Maharashtra & Others", "docid": "1125536"}
+      ],
+      "paras": "paras 15-18"
+    }
+  ],
+
+  "not_decided": [],
+
+  "authorities": [
+    {"name": "New Delhi Municipal Council v. Pan Singh & Others", "citation": "JT 2007 (4) SC 253", "court": "Supreme Court", "docid": "670840", "proposition": "A writ petition filed after a long time should not be entertained even if petitioners are similarly situated to those who obtained relief; delay and laches are relevant to exercise of equitable jurisdiction.", "how_treated": "Relied on to dismiss the claim for delay/laches.", "how_treated_paras": "para 16", "cited_by": "Court", "treatment": "Relied on"},
+    {"name": "M/S Lipton India Ltd. & Others v. Union of India & Others", "citation": "JT 1994 (6) SC 71", "court": "Supreme Court", "docid": "158917471", "proposition": "Though no limitation period is prescribed for Article 226 petitions, they should ordinarily be filed within a reasonable time.", "how_treated": "Relied on.", "how_treated_paras": "para 17", "cited_by": "Court", "treatment": "Relied on"},
+    {"name": "K.V. Rajalakshmiah Setty v. State of Mysore", "citation": "AIR 1961 SC 993", "court": "Supreme Court", "docid": "", "proposition": "A mere representation is not an adequate explanation for delay in approaching the court.", "how_treated": "Relied on.", "how_treated_paras": "para 17", "cited_by": "Court", "treatment": "Relied on"},
+    {"name": "State of Orissa v. Pyari Mohan Samantaray & Others", "citation": "AIR 1976 SC 2617", "court": "Supreme Court", "docid": "847902", "proposition": "Reiterates that unexplained delay disentitles a petitioner to discretionary relief under Article 226.", "how_treated": "Relied on.", "how_treated_paras": "para 17", "cited_by": "Court", "treatment": "Relied on"},
+    {"name": "Shiv Dass v. Union of India & Others", "citation": "AIR 2007 SC 1330", "court": "Supreme Court", "docid": "796287", "proposition": "Reiterates the same delay/laches principle.", "how_treated": "Relied on.", "how_treated_paras": "para 17", "cited_by": "Court", "treatment": "Relied on"},
+    {"name": "Chunvad Pandey v. State of U.P. & Others", "citation": "2008 (4) ESC 2423", "court": "Allahabad High Court", "docid": "991812", "proposition": "Follows the Supreme Court authorities on delay and laches.", "how_treated": "Referred.", "how_treated_paras": "para 17", "cited_by": "Court", "treatment": "Referred"},
+    {"name": "Virender Chaudhary v. Bharat Petroleum Corporation & Ors.", "citation": "2009 (1) SCC 297", "court": "Supreme Court", "docid": "56321", "proposition": "Follows the same delay/laches principle.", "how_treated": "Referred.", "how_treated_paras": "para 17", "cited_by": "Court", "treatment": "Referred"},
+    {"name": "S.S. Balu & Another v. State of Kerala & Others", "citation": "2009 (2) SCC 479", "court": "Supreme Court", "docid": "1957971", "proposition": "Delay defeats equity.", "how_treated": "Relied on.", "how_treated_paras": "para 17", "cited_by": "Court", "treatment": "Relied on"},
+    {"name": "Yunus v. State of Maharashtra & Others", "citation": "2009 (3) SCC 281", "court": "Supreme Court", "docid": "1125536", "proposition": "Explains the doctrine of laches (per Lindsay Petroleum Co. v. Hurd): where it would be practically unjust to give a remedy because of conduct amounting to waiver, or where delay has changed the other party's position, lapse of time is material.", "how_treated": "Relied on for the classical formulation of laches applied to bar the claim.", "how_treated_paras": "paras 18-19", "cited_by": "Court", "treatment": "Relied on"}
+  ]
+}

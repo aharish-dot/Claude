@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 67,
+  "next_seq": 75,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -400,6 +400,54 @@
       "case_id": "SCJ-066",
       "source_basename": "MS Shokumbhari Pulp & Paper Mills Ltd. vs U.P. Power Corporation Limited & 3 ... on 1 April, 2014",
       "title": "Shokumbhari Pulp & Paper Mills v. UPPCL (Clause 3.8; no retrospective tariff)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-067",
+      "source_basename": "MS Shri Parasnath Alloys (Pvt.) Ltd. vs Paschimanchal Vidyut Vitran Nigam Ltd. ... on 17 April, 2013",
+      "title": "Shri Parasnath Alloys v. PVVNL (Clause 3.4 independent feeder; 'original consumer' consent)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-068",
+      "source_basename": "MS Three Star Paper Mills Pvt. Ltd. vs State Of U.P. And 5 Ors. on 11 January, 2018",
+      "title": "Three Star Paper Mills v. State of U.P. (One Time Settlement finality; delay/laches)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-069",
+      "source_basename": "MS Trikoot Iron & Steels Castings Ltd. vs State Of U.P. And Others on 28 March, 2012",
+      "title": "Trikoot Iron & Steels v. State of U.P. (theft assessment always under s.126, appealable s.127)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-070",
+      "source_basename": "MS Urmila Oil Industries vs U.P. Dakshiranchal Vidut Vitran Nigam ... on 7 November, 2019",
+      "title": "Urmila Oil Industries v. Dakshinanchal (theft cannot rest on mere possibility)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-071",
+      "source_basename": "MS Venus Stone Crushing Co. And Another vs U.P. Power Corporation Ltd. And Others on 15 May, 2012",
+      "title": "Venus Stone Crushing v. UPPCL (mandatory pre-testing notice final by SLP dismissal; burden on licensee)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-072",
+      "source_basename": "MS. Kamla Cold Storage And Ice Factory vs M.V.V.N.L. And Anr. on 18 February, 2020",
+      "title": "Kamla Cold Storage v. MVVNL (s.62(6) interest only for overcharging, not delayed rebate)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-073",
+      "source_basename": "MS. Ntpc Ltd vs M.P. State Electiricity Board & Ors on 29 September, 2011",
+      "title": "NTPC v. MPSEB (OFFTOPIC; SC s.62(6) generation-tariff interest construction)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-074",
+      "source_basename": "MS. Sesa Sterlite Ltd. vs Orissa Electricity Regulatory Comm on 25 April, 2014",
+      "title": "Sesa Sterlite v. OERC (OFFTOPIC; CSS/open access/SEZ deemed licensee)",
       "status": "done"
     }
   ]

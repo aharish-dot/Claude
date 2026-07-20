@@ -1,0 +1,32 @@
+{
+  "case_id": "SCJ-074",
+  "title": "M/S Sesa Sterlite Ltd. v. Orissa Electricity Regulatory Commission & Ors.",
+  "neutral_citation": "Civil Appeal No. 5479 of 2013",
+  "court": "Supreme Court of India",
+  "bench": "Two-Judge Bench",
+  "coram": "Surinder Singh Nijjar & A.K. Sikri, JJ. (delivered by Sikri, J.)",
+  "date_of_judgment": "2014-04-25",
+  "date_display": "25 April 2014",
+  "docket": "Civil Appeal No. 5479 of 2013",
+  "disposition": "Appeal dismissed; the appellant SEZ developer held liable to pay Cross Subsidy Surcharge (CSS) to WESCO",
+
+  "headnote": "Not a Supply Code case in substance — a Supreme Court ruling on Cross Subsidy Surcharge (CSS), open access, and the interplay between the Special Economic Zone Act, 2005 and Section 14(b) of the Electricity Act, 2003 (deemed distribution licensee status for an SEZ developer). The Court held that a single-unit SEZ developer, though deemed a distribution licensee under a Central notification issued under Section 49 of the SEZ Act, remains a 'consumer' liable to pay CSS to the area distribution licensee (WESCO) when it procures its entire power requirement for its own captive consumption from another generator via a power purchase agreement, since the deemed-licensee fiction presupposes actual distribution/supply of power to others and cannot be stretched to a developer supplying only itself. Recorded here only for completeness of the source corpus; flagged OFFTOPIC as it concerns the CSS/open-access wholesale-power regime under Sections 14/42/62, not the consumer-facing Supply Code billing/assessment/disconnection framework this project tracks (though it references Orissa's Conditions of Supply Code Regulation 27 on service-line ownership as one strand of reasoning).",
+
+  "holding_units": [
+    {
+      "provision": "OFFTOPIC::cross-subsidy-surcharge-sez-deemed-licensee",
+      "code": "Electricity Act, 2003 (ss.14(b), 42) & Special Economic Zone Act, 2005 (s.49) — CSS/open-access wholesale regime, not the retail Supply Code",
+      "clause": "s.14(b) deemed-licensee proviso vis-a-vis 'consumer' status and CSS liability",
+      "topic": "A single-unit SEZ developer deemed a distribution licensee under s.14(b) remains liable, as a 'consumer', to pay Cross Subsidy Surcharge to the area distribution licensee when procuring its entire power for captive use from another generator",
+      "type": "interplay",
+      "holding": "The deeming fiction in the proviso to Section 14(b) (SEZ developer = deemed distribution licensee) presupposes actual distribution of power to others; it cannot be stretched to exempt a developer who establishes an SEZ solely for its own single unit and consumes the entire power itself, from CSS liability as a 'consumer' under Section 2(15). CSS compensates the area distribution licensee for the loss of cross-subsidy revenue when a consumer situated in its area procures power from elsewhere via open access, regardless of whether the licensee's own line is physically used, and applies whether or not the deemed-licensee status is held. The appellant's transmission line was found (on the facts) not to be a 'dedicated transmission line' exempting it from this liability. The appeal was dismissed.",
+      "limiting_facts": "The appellant, an aluminium-smelter developer in a single-unit SEZ (VAL-SEZ) within WESCO's area of supply, entered a power purchase agreement with a sister generating company (Sterlite) for its entire captive power requirement and sought exemption from CSS on the strength of a Section 14(b) deemed-distribution-licensee notification for SEZ developers; the State Commission and Appellate Tribunal held it liable to pay CSS as a consumer.",
+      "paras": "the CSS/deemed-licensee discussion (unnumbered order)",
+      "flag": "Recorded compactly given its scale and its subject (CSS/open-access/SEZ interplay), which is distinct from the U.P. Electricity Supply Code billing/assessment/disconnection framework central to this project; not exhaustively digested."
+    }
+  ],
+
+  "principle_tags": [],
+  "not_decided": [],
+  "authorities": []
+}

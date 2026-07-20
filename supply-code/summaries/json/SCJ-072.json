@@ -1,0 +1,40 @@
+{
+  "case_id": "SCJ-072",
+  "title": "M/S. Kamla Cold Storage And Ice Factory v. M.V.V.N.L. & Anr.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Ramesh Sinha & Ajit Kumar, JJ.",
+  "date_of_judgment": "2020-02-18",
+  "date_display": "18 February 2020",
+  "docket": "WRIT - C No. 70447 of 2009",
+  "disposition": "Writ petition dismissed",
+
+  "headnote": "Section 62(6) of the Electricity Act, 2003 entitles a consumer to interest at the bank rate only where the licensee has recovered a price or charge EXCEEDING the tariff determined under Section 62 — i.e. genuine overcharging above the prescribed tariff. A rebate under the tariff order (as defined in Clause 2.2(yy)/(zz) of the U.P. Electricity Supply Code, 2005, read with the 'energy charge'/'fixed charge'/'demand charge' definitions in Clause 2.2) is a concession applied to the bill generated from the tariff-calculated charges, not itself part of the chargeable tariff; delay in crediting a rebate (as opposed to charging a higher-than-prescribed tariff) does not attract Section 62(6) interest, since it is not a case of the licensee having recovered an amount exceeding the tariff.",
+
+  "holding_units": [
+    {
+      "provision": "UP-2005::2.2",
+      "code": "Electricity Act, 2003 (s.62(6)) with U.P. Electricity Supply Code, 2005 (Clause 2.2 definitions of tariff order/schedule, energy/demand/fixed charge)",
+      "clause": "s.62(6) (interest only for overcharging above tariff) vis-a-vis a rebate under the tariff order",
+      "topic": "Delayed crediting of a tariff-order rebate does not attract Section 62(6) interest, since a rebate is a bill-level concession, not itself part of the chargeable tariff",
+      "type": "supply_code",
+      "question": "Does Section 62(6) of the Act (entitling a consumer to bank-rate interest where the licensee recovers a charge exceeding the determined tariff) apply where a consumer was correctly billed as per the tariff order, but a tariff-order rebate (for supply from a rural rather than urban feeder) was credited to the consumer's account only belatedly?",
+      "holding": "No. Under Clause 2.2 of the Code, 'tariff order' and 'tariff schedule' fix the rates (fixed charge, energy charge, demand charge) a licensee may charge; a rebate is a distinct concession applied to reduce the bill generated from those tariff-calculated charges, not itself an element of the chargeable tariff. Since the fixed and energy charges billed to the consumer were correctly calculated as per the tariff order, and the rebate (also provided for in the tariff order) was in fact eventually credited, this is not a case of the licensee recovering a price or charge 'exceeding the tariff determined' within Section 62(6); a rebate cannot be equated to excessive tariff so as to bring delayed crediting within the ambit of Section 62(6). No interest was payable on the delayed rebate.",
+      "limiting_facts": "The consumer's cold storage was supplied from a rural feeder (at its own request, having previously been on an urban feeder) and was billed fixed/energy charges as per the tariff order; a rebate applicable to rural-feeder supply was credited only after some delay, and the consumer sought bank-rate interest under s.62(6) on the rebate amount, alleging the delay itself amounted to an admission of overcharging.",
+      "paras": "unnumbered order"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "s62-6-interest-only-for-overcharging-not-delayed-rebate",
+      "application": "Section 62(6) interest is confined to genuine overcharging above the determined tariff; a rebate under the tariff order is a bill-level concession, and its delayed crediting does not attract s.62(6) interest.",
+      "lead_authorities": [],
+      "paras": "unnumbered order"
+    }
+  ],
+
+  "not_decided": [],
+  "authorities": []
+}
