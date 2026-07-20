@@ -1,0 +1,101 @@
+{
+  "case_id": "SCJ-112",
+  "title": "Sanjay Rizvi v. M.D. Kanpur Electricity Supply Co. & Others",
+  "neutral_citation": "AIR 2012 Allahabad 163; 2012 (8) ADJ 335",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "R.K. Agrawal & Vinay Kumar Mathur, JJ.",
+  "date_of_judgment": "2012-04-20",
+  "date_display": "20 April 2012",
+  "docket": "Civil Misc. Writ Petition No. 67180 of 2008",
+  "disposition": "Writ petition disposed of; petitioner relegated to file a representation, with directions for a reasoned decision and appeal rights preserved",
+
+  "headnote": "Clause 6.8 of the U.P. Electricity Supply Code, 2005 lays down a detailed, mandatory procedure for assessment of unauthorised use of electricity (UUE): a site inspection report communicated to the consumer, a provisional assessment/show-cause notice inviting objections, a personal hearing, and a speaking final order — before an assessing officer can record even a prima facie conclusion of unauthorised use, some opportunity consistent with natural justice must be afforded, since the allegation can be serious and offence-adjacent. Where the licensee's own procedure contemplates verification of a disputed meter through Meter Reading Instrument (MRI) technology and such verification is neither carried out despite repeated requests and a court direction, nor its unavailability adequately explained before the provisional assessment is finalised, the assessment is impugnable as lacking an authentic evidentiary basis. Availability of the statutory appeal under s.127 read with Clause 6.8(d) is ordinarily a bar to writ entertainment, but the Whirlpool Corporation exceptions (violation of natural justice, want of jurisdiction, enforcement of fundamental rights) may still permit the writ court to examine the process (though the ultimate technical/factual determination is better left to the departmental process).",
+
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8",
+      "code": "Electricity Act, 2003 (s.126) read with U.P. Electricity Supply Code, 2005 (Clause 6.8) — inspection, MRI verification, provisional/final assessment procedure",
+      "clause": "6.8(a)-(c) (inspection report, notice, hearing, speaking final order) and the evidentiary role of MRI meter verification",
+      "topic": "A provisional assessment for alleged unauthorised use/theft, made without authentic verification data (e.g. MRI testing of the seized meter, despite the licensee's own procedure contemplating it and a specific court direction to obtain instructions on it), and without full compliance with the Clause 6.8 hearing procedure, is impugnable; the consumer is relegated to a fresh, properly-conducted departmental assessment process with preserved appeal rights, rather than a writ-court determination of the underlying factual dispute",
+      "type": "supply_code",
+      "question": "Can a provisional assessment for alleged theft/unauthorised use of electricity stand where (a) the licensee's own procedure contemplates MRI verification of the disputed meter, but such verification was never carried out despite repeated requests and a specific court direction to obtain instructions, and a belated 'report' explaining a simulation test of a different meter was produced only during the pendency of the writ petition; and (b) the Clause 6.8 hearing/notice procedure was allegedly not properly followed?",
+      "holding": "The provisional assessment notice did not appear to have an authentic evidentiary basis; Clause 6.8 of the Supply Code requires that before concluding unauthorised use of electricity, the consumer be given an opportunity (inspection report communicated, show-cause notice with objections invited, personal hearing, then a speaking final order) — a requirement rooted in natural justice given the serious, offence-adjacent nature of the allegation. Given that an equally efficacious alternative remedy exists and the underlying factual/technical controversy (correctness of the alleged theft-detection method, given the absence of MRI verification) is better assessed by persons with technical expertise than by the writ court, the petition was disposed of by directing the petitioner to file a fresh representation (annexing the writ petition) before the licensee, to be decided by a reasoned, speaking order after a hearing addressing whether unauthorised use is established; if established, a final assessment order was to follow (for the full period per Clause 6.8(c)(iii)), appealable under s.127 read with Clause 6.8(d).",
+      "limiting_facts": "A March 2008 inspection of the petitioner's premises (commercial pump/generator-repair business) led to an inspection memo alleging under-billed consumption (~Rs. 1,40,000) and compounding fees (~Rs. 2,80,000), with an FIR under s.136 lodged when the petitioner did not pay; the petitioner had requested MRI verification of the seized meter (noted in the inspection memo itself) which was never carried out (the licensee lacked the requisite MRI software), and a 'test report' on a different (non-seized) meter number surfaced only during the writ petition's pendency, years later.",
+      "paras": "unnumbered/final paragraphs (procedural narrative)"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "clause-6.8-hearing-procedure-mandatory-before-uue-conclusion",
+      "application": "Before an assessing officer concludes that unauthorised use of electricity has occurred, Clause 6.8's inspection-report/show-cause/hearing/speaking-order procedure must be substantially followed, given the seriousness of the allegation; a provisional assessment lacking authentic verification data (e.g. unperformed MRI testing that the licensee's own procedure contemplates) is impugnable.",
+      "lead_authorities": [{"name": "Ashok Kumar & Others v. State of U.P. & Others", "docid": "897981"}],
+      "paras": "unnumbered"
+    },
+    {
+      "tag": "whirlpool-exceptions-to-alternative-remedy-bar",
+      "application": "The availability of a statutory appeal (s.127/Clause 6.8(d)) does not bar writ entertainment where natural justice is violated, the action is without jurisdiction, or fundamental rights are enforced — though on the facts here, the underlying technical/evidentiary controversy was left to be resolved through the departmental process rather than adjudicated directly by the writ court.",
+      "lead_authorities": [],
+      "paras": "unnumbered"
+    }
+  ],
+
+  "not_decided": [
+    {
+      "point": "Whether the petitioner in fact committed unauthorised use/theft of electricity, and the correct quantum of under-billed consumption",
+      "note": "Not decided; left to a fresh departmental determination after a reasoned hearing, with appeal rights preserved under s.127/Clause 6.8(d).",
+      "docid": "",
+      "paras": "unnumbered"
+    },
+    {
+      "point": "Entitlement to refund of the Rs. 2,80,000/- compounding fee",
+      "note": "Not decided on the merits; the respondents contended the compounding fee is levied by and payable to the State Government, not refundable by the licensee.",
+      "docid": "",
+      "paras": "unnumbered"
+    }
+  ],
+
+  "authorities": [
+    {
+      "name": "Ashok Kumar & Others v. State of U.P. & Others",
+      "citation": "2008 (6) ADJ 660",
+      "court": "Allahabad High Court (DB)",
+      "docid": "897981",
+      "proposition": "A writ petition may be entertained despite an available alternative remedy where the issues raised are purely legal and involve a jurisdictional question.",
+      "how_treated": "Relied on by the licensee to justify its compliance with directions in that case; also relied on by the petitioner to support writ maintainability.",
+      "cited_by": "Both parties",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Whirlpool Corporation (established exceptions to alternative remedy)",
+      "citation": "",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "The alternative-remedy rule does not operate as an absolute bar where the writ petition seeks enforcement of a fundamental right, alleges violation of natural justice, or challenges an order/proceeding as wholly without jurisdiction or the vires of an Act.",
+      "how_treated": "Applied as the governing exceptions framework, though the Court ultimately relegated the petitioner to the departmental process for the factual/technical determination.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Harbanslal Sahnia & Another",
+      "citation": "",
+      "court": "Supreme Court",
+      "docid": "25064411",
+      "proposition": "Reiterates the Whirlpool Corporation exceptions to the alternative-remedy bar.",
+      "how_treated": "Followed as reinforcing authority.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "ABL International Ltd.",
+      "citation": "",
+      "court": "Supreme Court",
+      "docid": "25064411",
+      "proposition": "A writ petition against the State/instrumentality arising from a contractual obligation is maintainable notwithstanding disputed questions of fact, including for consequential monetary relief, unless action is arbitrary/unreasonable violating Article 14.",
+      "how_treated": "Cited for writ maintainability principles despite the presence of disputed facts.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}

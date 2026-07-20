@@ -1,0 +1,81 @@
+{
+  "case_id": "SCJ-114",
+  "title": "Saurabh Agrawal & Another v. State of U.P. & Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Amar Singh Chauhan, J.",
+  "date_of_judgment": "2017-05-19",
+  "date_display": "19 May 2017",
+  "docket": "Application U/S 482 No. 31955 of 2008",
+  "disposition": "Application allowed; charge-sheet/cognizance order and criminal proceedings under s.135 quashed",
+
+  "headnote": "Where the consumer inspection report underlying an FIR under Section 135 of the Electricity Act, 2003 does not itself record theft (the 'theft' column being struck through), and instead the licensee's own subsequent action treats the matter as one of slow metering under Clause 5.6(c)(ii) of the U.P. Electricity Supply Code, 2005 (billed and paid as such), and the appellate authority under Section 127 has already conclusively found — in proceedings that attained finality — that the case was not one of theft, continued criminal prosecution under Section 135 is an abuse of the process of law liable to be quashed under Section 482 Cr.P.C. Clause 5.6(d) of the Supply Code mandates a specific procedure for testing a disputed/defective meter (notice to the consumer of the testing date, an opportunity to be present, and a right to dispute the testing per Clause 5.6(c)); non-compliance (including failure to obtain an MRI report or send the meter to a proper testing laboratory) undermines the evidentiary basis for any theft finding. Once a consumer has paid the full slow-metering assessment under Clause 5.6(c)(ii), and the appellate authority has held Section 135 inapplicable, no separate theft prosecution can be sustained on the same consumer inspection report.",
+
+  "holding_units": [
+    {
+      "provision": "UP-2005::5.6(d)",
+      "code": "Electricity Act, 2003 (s.135) read with U.P. Electricity Supply Code, 2005 (Clauses 5.6(c)/(d), 6.8, 6.1-F, 8.1)",
+      "clause": "5.6(d) (meter-testing procedure) and the distinction between slow-metering assessment (5.6(c)(ii)) and theft proceedings (8.1)",
+      "topic": "Continued s.135 theft prosecution is quashed as an abuse of process where the underlying consumer inspection report does not itself allege theft, the licensee's own subsequent conduct treated the matter as slow metering (fully paid under Clause 5.6(c)(ii)), the Clause 5.6(d) meter-testing procedure (including MRI/proper laboratory testing) was not followed, and the s.127 appellate authority already conclusively held (with finality) that s.135 was inapplicable on the same facts",
+      "type": "supply_code",
+      "question": "Should a criminal prosecution under s.135 for theft of electricity be quashed where: (a) the underlying consumer inspection report's theft column was struck through and does not allege theft; (b) the licensee itself separately assessed and recovered the amount as slow metering under Clause 5.6(c)(ii) (fully paid); (c) the mandated Clause 5.6(d) meter-testing procedure (including MRI) was never followed, with the meter instead left at the police station; and (d) the s.127 appellate authority had already held, in a final and unchallenged order, that the case was not one of theft?",
+      "holding": "Yes — quashed. The consumer inspection report dated 2.8.2007, the sole evidentiary basis for the FIR/charge-sheet, did not itself record an allegation of theft (the relevant column was struck through); the licensee's parallel conduct — assessing and fully recovering the disputed amount (Rs. 71,95,449) as slow-metering charges under Clause 5.6(c)(ii) — was inconsistent with treating the same facts as theft. The Clause 5.6(d) procedure (notice of testing date, opportunity to be present, right to dispute per 5.6(c)) was never followed; no MRI report was obtained, and the seized meter was left at the police station rather than sent for proper laboratory testing, undermining any theft finding. The appellate authority under s.127 (Additional Commissioner, Judicial-II, Saharanpur) had, in a final order dated 24.10.2008 (upheld by a separate writ petition and never further challenged), held that s.135 was inapplicable and directed revision of the bills — a finding of finality directly negating the criminal prosecution's premise. Continuing the s.135 prosecution on the same consumer inspection report, after these developments, amounts to an abuse of the process of law within the settled Prakash P. Hinduja standard, and the charge-sheet, cognizance order, and pending proceedings were accordingly quashed.",
+      "limiting_facts": "The applicants' company (an induction-furnace steel unit, 4000 KVA contracted load) was inspected multiple times in July-August 2007; the 2.8.2007 consumer inspection report found the meter circuit slow (53.14%, per a private testing agency) rather than recording theft; a provisional assessment (Rs. 97,53,840, later revised) and separately, slow-metering charges (Rs. 71,95,449, fully paid) were raised; an FIR under s.135 was nonetheless lodged the same day, leading to a charge-sheet and cognizance in 2007, even as the s.127 appeal against the theft-based assessment succeeded on the merits (order dated 24.10.2008, holding s.135 inapplicable) and that finding was upheld in a separate writ petition and attained finality.",
+      "paras": "unnumbered (final paragraphs)"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "clause-5.6d-meter-testing-procedure-mandatory-for-theft-finding",
+      "application": "A theft finding premised on a defective/tampered meter requires compliance with Clause 5.6(d)'s testing procedure (notice, opportunity to be present, consumer's right to dispute per 5.6(c)); non-compliance (no MRI, no proper laboratory testing) undermines the evidentiary basis for both the assessment and any criminal prosecution.",
+      "lead_authorities": [
+        {"name": "M/s Modern Rice Mill v. Madhyanchal Vidyut Vitran Nigam Ltd. & Another", "docid": "1883604"},
+        {"name": "Smt. Amrawati Devi v. Purvanchal Vidyut Vitran Nigam Ltd.", "docid": "149862600"}
+      ],
+      "paras": "unnumbered"
+    },
+    {
+      "tag": "slow-metering-assessment-inconsistent-with-parallel-theft-prosecution",
+      "application": "Where a licensee itself assesses and fully recovers disputed consumption as slow-metering charges under Clause 5.6(c)(ii) (a civil, non-theft remedy), and a s.127 appellate authority conclusively finds s.135 inapplicable on the same facts, a parallel/continuing s.135 theft prosecution on the identical inspection report is an abuse of process.",
+      "lead_authorities": [],
+      "paras": "unnumbered"
+    }
+  ],
+
+  "not_decided": [],
+
+  "authorities": [
+    {
+      "name": "M/s Modern Rice Mill v. Madhyanchal Vidyut Vitran Nigam Ltd. & Another",
+      "citation": "2012 (1) ADJ 296",
+      "court": "Allahabad High Court",
+      "docid": "1883604",
+      "proposition": "Clause 5.6(d) mandates a specific procedure before meter testing — information to the consumer of the proposed testing date, an opportunity to be present (personally or through a representative), obtaining signature if present, and a right to dispute the testing under Clause 5.6(c).",
+      "how_treated": "Applied to hold the meter-testing procedure was not followed, undermining the theft allegation.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Smt. Amrawati Devi v. Purvanchal Vidyut Vitran Nigam Ltd.",
+      "citation": "2009 (1) ADJ 430",
+      "court": "Allahabad High Court (DB)",
+      "docid": "149862600",
+      "proposition": "Clause 5.6(c)(iii) requires the consumer's agreement for the choice of testing laboratory (licensee's/independent/Electrical Inspector); this being a harsh provision against the consumer must be construed strictly, and failure to apprise the consumer of this right renders the meter-sealing/testing proceedings irregular and illegal.",
+      "how_treated": "Applied (quoting para 6) to reinforce that non-compliance with the meter-testing consumer-rights procedure vitiates the proceedings.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Union of India v. Prakash P. Hinduja & Another",
+      "citation": "AIR 2003 SC 2612",
+      "court": "Supreme Court",
+      "docid": "767596",
+      "proposition": "Section 482 Cr.P.C. power to quash criminal proceedings may be exercised (sparingly, with circumspection) where the FIR/complaint even taken at face value discloses no offence, or the uncontroverted allegations/evidence do not disclose commission of any offence, or there is an express legal bar to continuance of proceedings.",
+      "how_treated": "Applied as the governing standard for quashing the s.135 prosecution.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}

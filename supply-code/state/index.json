@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 107,
+  "next_seq": 115,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -640,6 +640,54 @@
       "case_id": "SCJ-106",
       "source_basename": "Ptc India Ltd vs Central Electricity Reg. Comm. ... on 15 March, 2010",
       "title": "PTC India Ltd. v. Central Electricity Regulatory Commission, thr. Secy.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-107",
+      "source_basename": "Rajesh & Others vs State Of U.P. & Another on 28 August, 2014",
+      "title": "Rajesh & Others v. State of U.P. & Another",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-108",
+      "source_basename": "Raju vs Dakshinanchal Vidyut Vitran Nigam Ltd ... on 15 October, 2024",
+      "title": "Raju v. Dakshinanchal Vidyut Vitran Nigam Ltd. & Another",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-109",
+      "source_basename": "Rakesh Kaushik vs State Of U.P. And Another on 1 August, 2016",
+      "title": "Rakesh Kaushik v. State of U.P. & Another",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-110",
+      "source_basename": "Ramayana Ispat Pvt. Ltd. And Anr vs State Of Rajasthan And Ors on 1 April, 2025",
+      "title": "Ramayana Ispat Pvt. Ltd. & Anr. v. State of Rajasthan & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-111",
+      "source_basename": "Sandeep Kesarwani vs State Of U.P. & 3 Others on 11 February, 2014",
+      "title": "Sandeep Kesarwani v. State of U.P. & 3 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-112",
+      "source_basename": "Sanjay Rizvi vs M.D. Kanpur Electricity Suply And ... on 20 April, 2012",
+      "title": "Sanjay Rizvi v. M.D. Kanpur Electricity Supply Co. & Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-113",
+      "source_basename": "Satya Narayan [In Chamber] vs U.P.Power Corporation Ltd.Thr.Its ... on 22 May, 2013",
+      "title": "Satya Narayan v. U.P. Power Corporation Ltd. thru. its Managing Director & Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-114",
+      "source_basename": "Saurabh Agrawal And Another vs State Of U.P.And Others on 19 May, 2017",
+      "title": "Saurabh Agrawal & Another v. State of U.P. & Others",
       "status": "done"
     }
   ]

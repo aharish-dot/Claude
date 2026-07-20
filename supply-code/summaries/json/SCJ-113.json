@@ -1,0 +1,98 @@
+{
+  "case_id": "SCJ-113",
+  "title": "Satya Narayan v. U.P. Power Corporation Ltd. thru. its Managing Director & Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court (Lucknow Bench)",
+  "bench": "Division Bench",
+  "coram": "Devi Prasad Singh & Satish Chandra, JJ.",
+  "date_of_judgment": "2013-05-22",
+  "date_display": "22 May 2013",
+  "docket": "Misc. Bench No. 9090 of 2012",
+  "disposition": "Writ petition allowed; relief moulded — refund directed if overpaid, Corporation directed to sensitise staff on Supply Code duties",
+
+  "headnote": "Clause 6.15(1)(b) of the U.P. Electricity Supply Code, 2005 (mirroring s.56(2), Electricity Act, 2003) bars recovery of electricity dues after two years from when the sum first became due, unless continuously shown as recoverable arrears — this bar is not merely directory but casts a positive, ongoing obligation on the licensee: upon non-payment, it is mandatory (not optional) for the licensee to issue notice and proceed to temporary disconnection under Clause 4.36 within the two-year window; a licensee that remains silent for over a decade without sending any demand notice or taking disconnection action cannot thereafter invoke Clause 4.38(c) (permanent disconnection requiring an affidavit clearing all dues) in isolation to justify recovering a stale, undemanded debt — Supply Code provisions must be read as a whole, not piecemeal, and Clause 4.38(c) operates subject to the licensee's own Clause 4.36/6.15 obligations. Where a consumer's electricity connection is dormant and undemanded for years, the burden shifts to the licensee to justify continued recoverability; failure to explain a prolonged silence (here, ~12 years without a single notice) warrants relief moulded in the consumer's favour, including potential refund of amounts paid in excess of a properly-limited two-year recovery.",
+
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.15",
+      "code": "U.P. Electricity Supply Code, 2005 (Clauses 6.15, 4.36, 4.38) read with Electricity Act, 2003 (s.56(2))",
+      "clause": "6.15(1)(b) (2-year recovery bar) read with 4.36 (mandatory temporary-disconnection duty) and 4.38(c) (permanent disconnection requiring consumer affidavit)",
+      "topic": "The Clause 6.15/s.56(2) two-year recovery bar imposes a positive obligation on the licensee to act (notice, then temporary disconnection under Clause 4.36) within that window; prolonged licensee silence (here, ~12 years with no demand notice) forfeits the right to recover, and Clause 4.38(c)'s affidavit requirement for permanent disconnection cannot be invoked in isolation to defeat this bar",
+      "type": "supply_code",
+      "question": "Can a licensee recover electricity dues via a recovery citation issued ~14-15 years after the alleged dues accrued, where no demand notice was sent for over a decade and the consumer contends the connection was long disconnected/dormant?",
+      "holding": "No, not beyond the two-year window contemplated by Clause 6.15(1)(b)/s.56(2), absent evidence the sum was continuously shown as recoverable arrears. Reading the Supply Code as a whole (not piecemeal), Clause 4.36 casts a mandatory obligation on the licensee to issue notice and proceed with temporary disconnection upon non-payment within the statutory window; a licensee's total silence for ~12 years, without a single demand notice, forecloses reliance on Clause 4.38(c) (permanent disconnection contingent on the consumer's own affidavit clearing dues) to justify a stale recovery — that clause operates subject to, not independent of, the licensee's own Clause 4.36/6.15 obligations. The Court moulded relief: the petitioner was permitted to seek refund of any amount paid in excess of what would be recoverable for a proper two-year period, and the Corporation was directed to issue a circular/order sensitising its employees to their Supply Code duties, given the demonstrated departmental negligence.",
+      "limiting_facts": "The petitioner's shop/electricity connection (since 1984-85) was allegedly disconnected/closed in 1997-98 (disputed by the licensee, which denied receiving any disconnection application); after ~14 years of silence, a recovery citation for Rs. 86,925 was issued in 2012; the petitioner deposited Rs. 11,000 under threat of civil imprisonment and, during the writ petition, the parties compromised for an additional Rs. 2,841, but the Court proceeded to record findings on the underlying limitation/procedural issue given evident departmental negligence.",
+      "paras": "paras 9-24"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "clause-6.15-two-year-bar-mandatory-licensee-duty-to-act",
+      "application": "The Clause 6.15/s.56(2) two-year recovery bar is not passive — it obliges the licensee to actively pursue notice-and-disconnection under Clause 4.36 within that window; prolonged inaction (here, ~12 years) forfeits recoverability, and Clause 4.38(c)'s permanent-disconnection-affidavit requirement cannot be read in isolation to override this.",
+      "lead_authorities": [],
+      "paras": "paras 14-22"
+    },
+    {
+      "tag": "supply-code-read-as-whole-not-piecemeal",
+      "application": "Provisions of the Supply Code must be construed together, in context, not in isolation — a specific clause (Clause 4.38(c)) cannot be relied upon divorced from the licensee's parallel obligations (Clause 4.36/6.15).",
+      "lead_authorities": [
+        {"name": "Grasim Industries Ltd. v. Collector of Customs", "docid": "1723469"},
+        {"name": "Zameer Ahmed Latifur Rehman Sheikh v. State of Maharashtra", "docid": "37174"}
+      ],
+      "paras": "para 18"
+    }
+  ],
+
+  "not_decided": [
+    {
+      "point": "Precise quantum refundable to the petitioner",
+      "note": "Not finally quantified; the licensee directed to compute and consider refund of any amount paid in excess of a proper two-year recovery, per the petitioner's representation.",
+      "docid": "",
+      "paras": "paras 21, 23-24"
+    }
+  ],
+
+  "authorities": [
+    {
+      "name": "Dr. Devendra Pratap Singh & Others v. Union of India",
+      "citation": "2011 (7) ADJ 169 (DB) (LB)",
+      "court": "Allahabad High Court (Lucknow Bench, DB)",
+      "docid": "",
+      "proposition": "Even while deciding a private dispute, the Court may have regard to the larger public interest.",
+      "how_treated": "Cited to justify the Court's broader observations/directions on departmental negligence beyond the immediate dispute.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Om Narain Sahu v. U.P. Power Corporation & Others",
+      "citation": "Writ Petition No. 4545 (M/B) of 2005, order dated 3.1.2013",
+      "court": "Allahabad High Court (Lucknow Bench, DB)",
+      "docid": "",
+      "proposition": "Directed U.P. Power Corporation to refund dues with interest, constitute a committee for time-bound connection processes, hold disciplinary inquiry against responsible officers, with costs for departmental default/delay.",
+      "how_treated": "Relied on as a companion precedent (same author-Judge) directing systemic reform in response to Power Corporation administrative failures.",
+      "cited_by": "Petitioner",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Grasim Industries Ltd. v. Collector of Customs",
+      "citation": "2002 (4) SCC 297",
+      "court": "Supreme Court",
+      "docid": "1723469",
+      "proposition": "Statutory provisions must be interpreted in context, not in isolation; a construction leaving part of the statute without effect is normally rejected.",
+      "how_treated": "Applied among a catena of cases to support reading the Supply Code holistically.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Zameer Ahmed Latifur Rehman Sheikh v. State of Maharashtra",
+      "citation": "(2010) 5 SCC 246",
+      "court": "Supreme Court",
+      "docid": "37174",
+      "proposition": "Same interpretive principle — statutory provisions read as a whole, not piecemeal.",
+      "how_treated": "Cited among the catena of authorities supporting holistic statutory construction.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "case_id": "SCJ-110",
+  "title": "Ramayana Ispat Pvt. Ltd. & Anr. v. State of Rajasthan & Ors. (with connected appeals)",
+  "neutral_citation": "2025 INSC 424",
+  "court": "Supreme Court of India",
+  "bench": "Two-Judge Bench",
+  "coram": "Vikram Nath & (companion Judge), JJ. (delivered by Nath, J.)",
+  "date_of_judgment": "2025-04-01",
+  "date_display": "1 April 2025",
+  "docket": "Civil Appeal No. 7964 of 2019 (with Civil Appeal Nos. 7965 and 7966 of 2019)",
+  "disposition": "Appeals dismissed; validity of the Rajasthan Regulations of 2016 upheld",
+
+  "headnote": "Not a Supply Code case — a wholesale/open-access regulatory dispute over the validity of the Rajasthan Electricity Regulatory Commission (Terms and Conditions for Open Access) Regulations, 2016, challenged by captive power plants (CPPs) and inter-state open-access consumers as ultra vires the Electricity Act, 2003. The Supreme Court held: (a) State Commissions (RERC) retain jurisdiction under ss.42/86(1)(c)/181 to regulate the intra-state aspects of open access even where power originates from outside the state, since CERC's s.79(1)(c) jurisdiction over inter-state transmission does not extend to regulating end-consumer/distribution-level access within a state; (b) penalties for deviation from scheduled drawal (Regulation 21) are a legitimate, non-discriminatory grid-discipline measure, not an unreasonable restriction on the s.42 open-access right or a violation of the s.9(1) proviso protecting captive generation; and (c) the 24-hour advance-scheduling requirement for short-term inter-state open access (Regulation 26(7)) is a reasonable procedural safeguard for grid stability, not an ultra vires or arbitrary barrier — courts must accord deference to specialized regulatory bodies' technical/economic determinations absent manifest arbitrariness or excess of statutory authority. Recorded here for corpus completeness given its general significance to Electricity Act regulatory architecture (CERC/State Commission jurisdictional demarcation), but it concerns wholesale open-access/captive-generation regulation entirely outside the retail consumer-facing U.P. Electricity Supply Code framework central to this project.",
+
+  "holding_units": [
+    {
+      "provision": "OFFTOPIC::rerc-open-access-regulations-vires",
+      "code": "Electricity Act, 2003 (ss.9, 42, 79(1)(c), 86(1)(c), 178, 181) — CERC/State Commission jurisdictional demarcation over open access; Rajasthan Open Access Regulations, 2016 (Regulations 21, 26(7))",
+      "clause": "ss.42/86(1)(c)/181 (State Commission's intra-state open-access jurisdiction) vis-a-vis s.79(1)(c) (CERC's inter-state transmission jurisdiction)",
+      "topic": "State Electricity Regulatory Commissions retain jurisdiction to regulate the intra-state aspects of open access (including deviation penalties and advance-scheduling requirements for captive power plants and inter-state consumers) even where the power originates outside the state; such regulatory measures are not ultra vires or unreasonable restrictions on the statutory open-access right",
+      "type": "interplay",
+      "holding": "The Court held: (i) RERC had jurisdiction to regulate the intra-state aspects of open access transactions under ss.42(2)/(3), 86(1)(c) and 181 of the Act of 2003, notwithstanding that the power might originate from outside Rajasthan or that CERC has jurisdiction under s.79(1)(c) over inter-state transmission — the key determinant is delivery/consumption within the state's intra-state grid, not the power's source; (ii) penalties under Regulation 21 for deviation/under-injection by captive power plants are a legitimate, uniformly-applied grid-discipline measure serving the Act's objectives (preventing gaming, ensuring frequency stability), not a discriminatory or unreasonable restriction on the s.9(1) proviso right to captive generation; (iii) Regulation 26(7)'s 24-hour advance-notice requirement for short-term inter-state open access is a reasonable procedural safeguard for grid stability and scheduling discipline, not an ultra vires or arbitrary barrier to open access, particularly since real-time/day-ahead market alternatives remain available for urgent procurement; and (iv) courts must exercise judicial restraint and defer to specialized regulatory commissions' technical/economic determinations, interfering only where a regulation is shown to be wholly irrational, ultra vires the parent statute, or violative of fundamental rights. All three appeals were accordingly dismissed and the High Court judgments upholding the Regulations of 2016 affirmed.",
+      "paras": "paras 43-58+ (~83-page judgment)",
+      "flag": "Recorded compactly given its scale (~2755 lines) and its subject (CERC/State Commission open-access regulatory jurisdiction and captive-generation deviation penalties), which is distinct from the U.P. Electricity Supply Code's retail billing/assessment/disconnection framework central to this project; not exhaustively digested."
+    }
+  ],
+
+  "principle_tags": [],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "Energy Watchdog v. Central Electricity Regulatory Commission",
+      "citation": "(2017) 14 SCC 80",
+      "court": "Supreme Court",
+      "docid": "29719380",
+      "proposition": "Whenever generation or supply of electricity is inter-State, the Central Commission is the appropriate regulator; whenever intra-State, the State Commission is — jurisdiction turns on whether generation and sale occurs within one State or more than one State.",
+      "how_treated": "Relied on by the appellants for CERC's exclusive inter-state jurisdiction, but distinguished/held not to displace RERC's jurisdiction over the intra-state delivery/consumption aspects of open access.",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "Reliance Infrastructure v. State of Maharashtra",
+      "citation": "(2019) 3 SCC 352",
+      "court": "Supreme Court",
+      "docid": "14874857",
+      "proposition": "Regulatory decisions of expert bodies should be accorded deference unless shown to be wholly irrational, ultra vires the parent statute, or violative of fundamental rights.",
+      "how_treated": "Applied as the governing standard of judicial restraint in reviewing RERC's Regulations of 2016.",
+      "cited_by": "Respondent",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Hindustan Zinc Ltd. v. RERC",
+      "citation": "(2015) 12 SCC 611",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Subordinate legislation, including regulations framed under statutory authority, carries a presumption of constitutionality; the burden lies on the challenger to establish invalidity.",
+      "how_treated": "Applied to place the burden on the appellants to demonstrate the Regulations of 2016 were invalid, a burden they failed to discharge.",
+      "cited_by": "Respondent",
+      "treatment": "Followed"
+    }
+  ]
+}

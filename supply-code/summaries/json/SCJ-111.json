@@ -1,0 +1,169 @@
+{
+  "case_id": "SCJ-111",
+  "title": "Sandeep Kesarwani v. State of U.P. & 3 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Ashok Bhushan & Mahesh Chandra Tripathi, JJ.",
+  "date_of_judgment": "2014-02-11",
+  "date_display": "11 February 2014",
+  "docket": "WRIT - C No. 69101 of 2013",
+  "disposition": "Writ petition disposed of; recovery citation set aside, fresh objection/final-assessment process directed",
+
+  "headnote": "Assessment under Section 126 of the Electricity Act, 2003 must be made even where the same conduct also constitutes theft of electricity under Section 135, and criminal proceedings are pending before the Special Court — 'unauthorised use of electricity' (Explanation (b) to s.126) is the wider genus of which theft under s.135 is a dishonest species; the Special Court's role under s.154(5)/(6) to determine civil liability for theft does not oust or duplicate, but operates alongside, the Executive Engineer's s.126 assessment (the sixth proviso to s.135(1), referencing the 'assessed amount', itself presupposes a s.126 assessment). Recovery of dues becomes barred under s.56(2) only two years from when the sum first became due, which (for assessed dues) is the date of final assessment, not the date of provisional assessment or inspection. Where a provisional assessment notice under s.126(2)/(3) is not followed by a final assessment order for an inordinately long period (here, over two years), natural justice requires a fresh opportunity to object before the final assessment is made; a final order passed after such delay without a fresh opportunity is liable to be set aside, notwithstanding the existence of an appellate remedy under s.127, where the assessing officer's very jurisdiction to assess under s.126 in a theft case is under challenge.",
+
+  "holding_units": [
+    {
+      "provision": "EA2003::126",
+      "code": "Electricity Act, 2003 (ss.126, 135, 154) read with U.P. Electricity Supply Code, 2005 (Clause 8.1)",
+      "clause": "s.126 (assessment) applicability where s.135 (theft) FIR/trial is pending; s.154(5)/(6) (Special Court's civil-liability determination) does not oust s.126 assessment",
+      "topic": "Section 126 assessment must be made even in theft (s.135) cases with a pending Special Court trial; the Special Court's civil-liability jurisdiction under s.154(5)/(6) operates alongside, not instead of, the assessing officer's s.126 process — 'unauthorised use of electricity' is the genus of which theft is a dishonest species",
+      "type": "supply_code",
+      "question": "(1) Where theft of electricity under s.135 is alleged and a criminal trial is pending before the Special Court, does the Executive Engineer retain jurisdiction to make an assessment under s.126? (2) Is assessment under s.126 inapplicable to theft cases, with civil liability to be determined only by the Special Court under s.154(5)?",
+      "holding": "(1)-(2) Yes, s.126 assessment must be made even in theft cases pending Special Court trial. 'Unauthorised use of electricity' under Explanation (b) to s.126 is a wide genus comprehensively covering theft under s.135 as a dishonest species of the same conduct; the sixth proviso to s.135(1), which conditions restoration of supply on payment of the 'assessed amount', itself presupposes a s.126 assessment exists to be paid. Clause 8.1 of the Supply Code, 2005 (framed by the Regulatory Commission under s.50) confirms this understanding by prescribing a provisional-assessment-and-hearing procedure specifically for theft cases under s.135. The now-omitted Clause 8.0(6) (allowing interim-payment restoration pending Special Court decision) was merely an option for restoration, not an indication that s.126 assessment is inapplicable to theft. The Special Court's role under s.154(5)/(6) is to finally determine civil liability (which may differ from — and trigger refund/adjustment against — the s.126-assessed amount already deposited), not to displace the assessing officer's s.126 jurisdiction. Following Paliwal Alloys, Radha Krishna Cold Storage, Ashok Kumar, Mohit Paper Mills, and distinguishing the Andhra Pradesh High Court's Tirumala Modern Rice Mill and clarifying that the Supreme Court's Southco v. Seetaram Rice Mill (holding ss.126/135 operate in 'different fields') did not hold that s.126 assessment is barred in theft cases: (i) assessment under s.126 is to be made even where a s.135 offence is pending trial before the Special Court; (ii) the Special Court finally determines civil liability, with s.154(6) governing any refund if that determination is less than the amount already deposited pursuant to s.126 assessment.",
+      "limiting_facts": "The petitioner was found in a 8.3.2011 checking indulging in theft of electricity via L.T. lines without a meter, used for commercial purposes; an FIR under s.135 was lodged the same day and a charge-sheet filed, with trial pending before the Special Court; separately, a provisional assessment notice (23.5.2011) and, over two years later, a final assessment order (21.6.2013) were issued under s.126, followed by a recovery citation (19.11.2013) which the petitioner challenged.",
+      "paras": "paras 10-28 (headings/issues 1-2), 30-68"
+    },
+    {
+      "provision": "EA2003::56",
+      "code": "Electricity Act, 2003 (s.56(2)) — limitation on recovery",
+      "clause": "s.56(2) (2-year bar on recovery from when a sum 'first became due')",
+      "topic": "For assessed dues, the sum 'first becomes due' under s.56(2) only on final assessment, not on the date of provisional assessment or the underlying checking/inspection",
+      "type": "supply_code",
+      "question": "Is a recovery citation issued in November 2013, referable to dues from a March 2011 checking, barred by the two-year limitation in s.56(2)?",
+      "holding": "No — under s.126, a sum cannot be held 'due' against a consumer until the final assessment is made (here, 21.6.2013); the recovery citation issued 19.11.2013 was therefore well within two years of the sum first becoming due, and s.56(2) was not attracted.",
+      "limiting_facts": "The checking occurred 8.3.2011, the provisional assessment notice issued 23.5.2011, the final assessment order issued 21.6.2013, and the recovery citation issued 19.11.2013.",
+      "paras": "paras 69-71"
+    },
+    {
+      "provision": "UP-2005::6.8",
+      "code": "Electricity Act, 2003 (s.126(3)) read with the general obligation of natural justice",
+      "clause": "s.126(3) (final assessment ordinarily within 30 days of provisional assessment) and natural justice where a final assessment follows an inordinate delay",
+      "topic": "A final assessment order passed more than two years after the provisional assessment notice, without affording a fresh opportunity to object, violates natural justice and is liable to be set aside notwithstanding an available s.127 appellate remedy, where the assessing officer's jurisdiction itself is challenged",
+      "type": "supply_code",
+      "holding": "Section 126(3) contemplates a final assessment ordinarily within 30 days of the provisional assessment order; where, as here, more than two years elapsed between the provisional assessment notice (23.5.2011) and the final assessment order (21.6.2013) with no fresh notice or opportunity given, the final assessment order cannot be said to have been passed in consonance with natural justice, notwithstanding the petitioner's failure to object to the original provisional notice and the availability of an appeal under s.127. The recovery citation was set aside, and the petitioner was directed to file objections to the (revived) provisional assessment notice within 15 days, with the Executive Engineer to pass a fresh final assessment decision within one month, leaving the respondents free to proceed further in accordance with law thereafter.",
+      "limiting_facts": "No proof of service of the provisional assessment notice by registered post was annexed by the respondents; over two years elapsed before the final assessment order issued.",
+      "paras": "paras 72-76"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "126-vs-135-distinct-fields-but-126-still-applies-to-theft",
+      "application": "Confirms and extends this corpus's tracked doctrine (SCJ-069 Trikoot Iron & Steels) that theft-based assessment proceeds under s.126 (never under s.135 alone), clarifying (contra a misreading of Southco v. Seetaram Rice Mill's 'different fields' language) that s.126 assessment remains mandatory even where a s.135 FIR/Special Court trial is simultaneously pending — the two tracks (assessment for the civil dues, prosecution/civil-liability determination by the Special Court) run in parallel, not in the alternative.",
+      "lead_authorities": [
+        {"name": "Executive Engineer, Southern Electricity Supply Company of Orissa Ltd. (Southco) v. Sri Seetaram Rice Mill", "docid": "1777029"},
+        {"name": "M/s Paliwal Alloys (Pvt) Ltd. v. U.P. Power Corporation Ltd.", "docid": "1777029"}
+      ],
+      "paras": "paras 43-68"
+    },
+    {
+      "tag": "s126-final-assessment-delay-requires-fresh-hearing",
+      "application": "An inordinate gap between provisional and final assessment (here, over two years) requires a fresh notice/hearing before the final assessment is passed; failure to do so violates natural justice regardless of the consumer's earlier default in objecting.",
+      "lead_authorities": [],
+      "paras": "paras 72-73"
+    }
+  ],
+
+  "not_decided": [
+    {
+      "point": "Correctness/quantum of the theft-based electricity dues (Rs. 8,49,173/-)",
+      "note": "Not decided; to be determined afresh by the Executive Engineer after the petitioner's objections and a fresh hearing.",
+      "docid": "",
+      "paras": "para 75"
+    }
+  ],
+
+  "authorities": [
+    {
+      "name": "Executive Engineer, Southern Electricity Supply Company of Orissa Ltd. (Southco) & Anr. v. Sri Seetaram Rice Mill",
+      "citation": "(2012) 2 SCC 108",
+      "court": "Supreme Court",
+      "docid": "1777029",
+      "proposition": "Sections 126 and 135 of the 2003 Act operate in different, distinct fields with no common premise in law — s.126 covers unauthorised use even absent dishonest intent (a civil-law remedy without mens rea), while s.135 requires dishonest intent and falls within criminal jurisprudence; s.126 is intended to cover cases 'over and above' those specifically covered by s.135.",
+      "how_treated": "Distinguished from the petitioner's reading — clarified that the 'different fields' holding does not mean s.126 assessment is barred wherever s.135 also applies; rather, both provisions can and do operate concurrently on overlapping conduct.",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished (narrowly construed)"
+    },
+    {
+      "name": "M/s Paliwal Alloys (Pvt) Ltd. v. U.P. Power Corporation Ltd.",
+      "citation": "2009 (7) ADJ 455",
+      "court": "Allahabad High Court (DB)",
+      "docid": "1777029",
+      "proposition": "Theft of electricity under s.135 is also 'unauthorised use of electricity' for which assessment under s.126 is contemplated and mandatory; the s.135(1A) third proviso (restoration on payment of the 'assessed amount') presupposes a s.126 assessment; a Supply Code procedural provision cannot take away the substantive s.127 right of appeal.",
+      "how_treated": "Followed as the controlling Division Bench precedent (with one member common to the present Bench).",
+      "cited_by": "Respondent",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Radha Krishna Cold Storage v. State of U.P. & Others",
+      "citation": "Writ Petition No. 19574 of 2008",
+      "court": "Allahabad High Court (DB)",
+      "docid": "181377341",
+      "proposition": "An appeal under s.127 lies against an order that is in substance an assessment order under s.126, regardless of whether it is mislabelled as passed under s.135.",
+      "how_treated": "Followed to confirm s.127 appellate remedy is available for theft-related assessments.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Ashok Kumar & Others v. State of U.P. & Others",
+      "citation": "2008 (6) ADJ 660 / 2008 (6) Allahabad Daily Judgments 669",
+      "court": "Allahabad High Court (DB)",
+      "docid": "897981",
+      "proposition": "'Unauthorised use of electricity' under Explanation (b) to s.126 also covers acts/omissions constituting an offence under s.135; the assessing officer must give an opportunity of hearing before concluding unauthorised use, since the allegation can amount to a serious (offence-adjacent) matter.",
+      "how_treated": "Followed for the genus/species relationship between ss.126 and 135 and the natural-justice requirement.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Chairman, West Bengal State Electricity Board & Others v. Syed Mukbul Hossain & Others",
+      "citation": "(2009) 2 SCC 727",
+      "court": "Supreme Court",
+      "docid": "759180",
+      "proposition": "In a theft-of-electricity case, the Supreme Court noted the right of appeal under s.127 of the Electricity Act, 2003.",
+      "how_treated": "Cited for the general availability of s.127 appeal in theft-adjacent assessment cases.",
+      "cited_by": "Petitioner",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Kunwar Sarvesh Kumar Singh v. Paschimanchal Vidyut Vitran Nigam Ltd. & Ors.",
+      "citation": "2012 (2) ADJ 509",
+      "court": "Allahabad High Court (Single Judge)",
+      "docid": "22637242",
+      "proposition": "In theft cases, the Clause 8.1 assessment procedure of the Supply Code, 2005 applies.",
+      "how_treated": "Followed as consistent authority for the Clause 8.1 procedure applying to theft assessments.",
+      "cited_by": "Respondent",
+      "treatment": "Followed"
+    },
+    {
+      "name": "M/s Mohit Paper Mills Ltd. & Anr. v. PVVNL & Ors.",
+      "citation": "2011 (9) ADJ 239",
+      "court": "Allahabad High Court (Single Judge)",
+      "docid": "1777029",
+      "proposition": "Use of electricity through a tampered meter constitutes 'unauthorised use of electricity' under s.126 Explanation (b), for which assessment can be made, while simultaneously constituting theft under s.135(1)(d), permitting parallel criminal proceedings.",
+      "how_treated": "Followed for the overlapping-but-parallel operation of ss.126 and 135.",
+      "cited_by": "Respondent",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Tinsukhia Electricity Supply Co. Ltd. v. State of Assam & Ors.",
+      "citation": "(1989) 3 SCC 709",
+      "court": "Supreme Court (Constitution Bench)",
+      "docid": "864296",
+      "proposition": "A statute must be construed so as to make it effective and operative ('ut res magis valeat quam pereat'); courts should avoid interpretations reducing a provision to futility.",
+      "how_treated": "Applied to support a harmonious, purposive reading of ss.126 and 135 that gives effect to both provisions rather than rendering s.126 inoperative in theft cases.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Tirumala Modern Rice Mill v. Transmission Corporation of A.P. Ltd. (AP Transco)",
+      "citation": "AIR 2007 AP 265",
+      "court": "Andhra Pradesh High Court",
+      "docid": "",
+      "proposition": "Parts XIV/XV of the Electricity Act do not contemplate provisional assessment of energy pilfered in theft cases; where a consumer accepts and deposits a provisional assessment without demur, no further liability/action may be taken.",
+      "how_treated": "Held not to lay down the proposition that s.126 assessment is inapplicable to theft cases; distinguished as not supporting the petitioner's submission.",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished"
+    }
+  ]
+}
