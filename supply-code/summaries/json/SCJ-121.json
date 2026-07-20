@@ -1,0 +1,102 @@
+{
+  "case_id": "SCJ-121",
+  "title": "Shri Kunwar Sarvesh Kumar Singh v. Paschimanchal Vidyut Vitran Nigam Ltd. & Ors.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Sudhir Agarwal, J.",
+  "date_of_judgment": "2011-11-18",
+  "date_display": "18 November 2011",
+  "docket": "WRIT - C No. 20679 of 2010",
+  "disposition": "Writ petition partly allowed; assessment upheld, appeal remanded to Commissioner solely to consider effect of subsequent criminal acquittal under Clause 8.2(X)(g)/(h)",
+
+  "headnote": "The definition of 'consumer' under Section 2(15) of the Electricity Act, 2003 is broad enough to cover an owner of premises where theft of electricity is detected, even if the premises was purportedly let out to a tenant, since the second limb of the definition ('any person whose premises are ... connected ... with the works of a licensee') does not require a contractual/supply relationship — mere connection of the premises' works (transformer, line, apparatus) for receiving electricity suffices; an owner's lack of mens rea may be a defence to a criminal charge under s.135 but does not exempt him from civil assessment liability where his act of leasing to an unscrupulous occupant caused revenue loss. For assessment of theft of electricity under Section 135, Clauses 8.1 and 8.2 of the U.P. Electricity Supply Code, 2005 apply (not Clause 6.8, which governs 'unauthorised use' assessment generally) — the specific provision prevails over the general (following Mohit Paper Mills). Clause 8.1(b)(iii)-(iv) requires 15 working days' show-cause notice (not less) and, if theft is established after hearing, assessment at 1.5 times (not thrice) the applicable tariff. Where an assessing officer's procedural failings (undated/backdated orders, wrong multiplication factor, casual/negligent conduct) are demonstrated but the consumer's only defence was a bare denial of occupancy (never substantiated) with no challenge to the theft allegation or quantum, a writ court exercising equitable jurisdiction under Article 226 will decline to interfere with the ultimate (corrected) assessment, notwithstanding serious departmental irregularities, where the underlying conduct (theft) is clearly established on the record. Clause 8.2(X)(g)/(h) makes a licensee's theft-based assessment subject to adjudication by the criminal court, with a mandatory withdrawal of charges/assessment and restoration of the original meter if the court finds theft not established; where a subsequent criminal acquittal (post-dating the appellate order) was not considered by the appellate authority, the matter is remanded for that authority to independently examine Clause 8.2(X)(g)/(h) in light of the acquittal.",
+
+  "holding_units": [
+    {
+      "provision": "EA2003::2(15)",
+      "code": "Electricity Act, 2003 (s.2(15), 'consumer'; s.2(20), 'electric line'; s.2(77), 'works') read with s.135",
+      "clause": "s.2(15) 'consumer' definition — second limb ('premises connected with works for receiving electricity') vis-a-vis owner's liability for theft detected at leased-out premises",
+      "topic": "An owner of premises where theft of electricity is detected can be held liable for assessment purposes as a 'consumer' under s.2(15), even where he claims the premises was let out, since the premises' 'works' being connected for receiving electricity suffices — lack of mens rea (relevant to criminal liability under s.135) does not exempt the owner from civil assessment liability, particularly where an unsubstantiated leasing claim caused revenue loss",
+      "type": "supply_code",
+      "question": "Can the owner of premises where theft of electricity is detected be held liable for assessment merely by virtue of ownership, where he claims (but does not substantiate) that the premises was let out to someone else?",
+      "holding": "Yes. Section 135's widest-possible scope (using 'whoever', 'person', 'consumer', 'occupant' interchangeably) shows the legislature did not confine its mischief by any hyper-technical plea as to individual status. The s.2(15) 'consumer' definition's second limb covers any person whose premises are for the time being connected with the works (electric line, transformer, apparatus) of a licensee 'for the purpose of receiving electricity', without requiring a contractual/supply relationship — this is broad enough to include an owner. A bare, unsubstantiated claim of having let out the premises (disbelieved by both the Assessing Officer and Appellate Authority, and not substantiated before the High Court either) does not exempt the owner from assessment liability, though it may bear on the separate criminal-law mens rea requirement under s.135. On the facts, the petitioner did not dispute ownership and did not challenge the theft allegation or quantum in his objections — only bare non-occupancy was pleaded and disbelieved.",
+      "paras": "paras 22-35"
+    },
+    {
+      "provision": "UP-2005::8.1",
+      "code": "U.P. Electricity Supply Code, 2005 (Clauses 8.1, 8.2) vis-a-vis Clause 6.8 (general unauthorised-use assessment)",
+      "clause": "8.1/8.2 (theft-specific assessment procedure under s.135) — specific provision prevails over Clause 6.8 (general)",
+      "topic": "For assessment of theft of electricity under s.135, Clauses 8.1/8.2 of the Supply Code (not Clause 6.8) govern; Clause 8.1(b)(iii) requires 15 working days' show-cause notice and Clause 8.1(b)(iv) mandates assessment at 1.5 times (not 3 times) the applicable tariff if theft is established after hearing",
+      "type": "supply_code",
+      "question": "Which Supply Code procedure — Clause 6.8 (general unauthorised use) or Clauses 8.1/8.2 (theft-specific) — governs assessment where theft of electricity under s.135 is alleged, and did the assessing officer follow the correct procedure and tariff multiplier?",
+      "holding": "Following Mohit Paper Mills (applying the specific-prevails-over-general canon), Clauses 8.1/8.2 govern theft-based assessment, not Clause 6.8. On the facts, the assessing officer's provisional-assessment notice (25.5.2007) gave only one week (not the mandated 15 working days), lacked specificity as to which s.135(1) clause was invoked, and calculated the provisional assessment at thrice (not 1.5 times) the applicable tariff — all procedural lapses reflecting negligence or lack of legal clarity by the (technically-trained, non-legal) assessing officer, for which the licensee bears responsibility to provide adequate training. However, since the petitioner's only reply (31.5.2007) addressed occupancy, not the theft allegation or quantum, and the assessing officer's own subsequent (albeit procedurally chaotic) self-correction reduced the assessment to the correct 1.5x multiplier (Rs. 21,17,016, down from Rs. 42,78,355), and given the clearly-established theft on the inspection record (a 160 KVA transformer improperly connected via temporary L.T. line to run an ice factory with no sanctioned connection), the Court declined to interfere with the corrected final assessment despite the demonstrated procedural laxity — noting the Court, exercising equity under Article 226, would not assist a demonstrably blameworthy party on technicalities causing loss to public revenue.",
+      "limiting_facts": "A raid (14.5.2007) at premises owned by the petitioner (running 'Kanchi Ice Factory') detected a direct L.T. connection bypassing any sanctioned meter, drawing power from a 160 KVA transformer; provisional assessment (Rs. 42,78,355, at 3x tariff) was issued 25.5.2007; the petitioner's reply addressed only alleged non-occupancy; the assessing officer's conduct included an inexplicably backdated/ante-dated 'final assessment' order (dated 23.5.2007, i.e. before the provisional assessment and the petitioner's reply) which the Court found deeply troubling but not, on the facts, fatal to the ultimately-corrected assessment.",
+      "paras": "paras 36-56"
+    },
+    {
+      "provision": "UP-2005::8.2",
+      "code": "U.P. Electricity Supply Code, 2005 (Clause 8.2(X)(g)/(h)) — effect of a subsequent criminal acquittal on a theft-based civil assessment",
+      "clause": "8.2(X)(g)/(h) (final theft assessment 'subject to adjudication by the court'; mandatory withdrawal of charges/assessment and meter restoration if the court finds theft not established)",
+      "topic": "Where a criminal acquittal on the s.135 charge post-dates the appellate order upholding a theft-based assessment, the matter must be remanded to the appellate authority to independently examine Clause 8.2(X)(g)/(h) in light of that acquittal",
+      "type": "supply_code",
+      "question": "What is the effect of the petitioner's subsequent criminal acquittal (in the s.135 trial) on the already-decided s.127 appeal upholding the theft-based assessment, given Clause 8.2(X)(g)/(h)'s mandate that a court finding of 'theft not established' requires withdrawal of the assessment?",
+      "holding": "Since the appellate order (1.4.2010) predated the trial court's acquittal judgment (23.1.2011, disclosed only in the petitioner's rejoinder), the Commissioner had no occasion to consider Clause 8.2(X)(g)/(h). The appellate order is modified/partly set aside to the extent that the petitioner's appeal shall be treated as pending before the Commissioner, who must independently and objectively examine the acquittal judgment in light of Clause 8.2(X)(g)/(h) and pass a fresh appropriate order, unaffected by the High Court's observations on issues (a)-(c) above (which concerned assessment on the civil/administrative record, not the separate criminal mens rea question).",
+      "limiting_facts": "The petitioner was tried and acquitted (23.1.2011) under s.135 in S.S.T. No. 69 of 2008 by the Special Judge, E.C. Act, Moradabad — a fact disclosed to the Court only via rejoinder affidavit after the appellate order (1.4.2010) had already been passed.",
+      "paras": "paras 57-60"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "owner-liable-as-consumer-for-theft-regardless-of-tenancy-claim",
+      "application": "The s.2(15) 'consumer' definition's broad second limb (premises connected for receiving electricity) extends civil assessment liability for theft to a property owner even where an unsubstantiated tenancy is claimed, though criminal mens rea remains a separate question — an important gloss on who bears assessment liability, complementing this corpus's transferee/occupant-liability cluster (SCJ-090, SCJ-098).",
+      "lead_authorities": [],
+      "paras": "paras 24-34"
+    },
+    {
+      "tag": "clause-8.1-8.2-govern-theft-assessment-not-6.8",
+      "application": "Confirms and applies the specific-over-general canon (from Mohit Paper Mills) that Clauses 8.1/8.2, not Clause 6.8, govern theft-based (s.135) assessment, including the mandatory 15-working-day notice and 1.5x (not 3x) tariff multiplier.",
+      "lead_authorities": [{"name": "M/s Mohit Paper Mills Ltd. & Another v. PVVNL & Others", "docid": "57045694"}],
+      "paras": "paras 36-40"
+    },
+    {
+      "tag": "clause-8.2x-acquittal-requires-withdrawal-of-theft-assessment",
+      "application": "A subsequent criminal acquittal on the s.135 charge, per Clause 8.2(X)(g)/(h), mandatorily requires withdrawal of the theft-based civil assessment and meter restoration — where such acquittal post-dates an appellate order, remand is required for the appellate authority to apply this clause.",
+      "lead_authorities": [],
+      "paras": "paras 57-60"
+    }
+  ],
+
+  "not_decided": [
+    {
+      "point": "Effect of the petitioner's subsequent criminal acquittal on the theft-based civil assessment under Clause 8.2(X)(g)/(h)",
+      "note": "Remanded to the Commissioner (Appellate Authority) for independent determination, unencumbered by the High Court's observations on the assessment-procedure issues.",
+      "docid": "",
+      "paras": "para 60"
+    }
+  ],
+
+  "authorities": [
+    {
+      "name": "M/s Mohit Paper Mills Ltd. & Another v. PVVNL & Others",
+      "citation": "2011 (9) ADJ 239",
+      "court": "Allahabad High Court (Single Judge)",
+      "docid": "57045694",
+      "proposition": "Clauses 8.1 and 8.2 of the Supply Code, 2005 (not Clause 6.8) govern assessment where theft of electricity under s.135 is alleged; the specific provision prevails over the general where two provisions cover overlapping fields.",
+      "how_treated": "Followed as the controlling precedent on which Supply Code procedure governs theft assessment.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Ashok Kumar & Others v. State of U.P. & Others",
+      "citation": "2008 (6) ADJ 660",
+      "court": "Allahabad High Court (DB)",
+      "docid": "897981",
+      "proposition": "A show-cause notice for unauthorised-use assessment must communicate the material relied upon with sufficient detail so the consumer can understand and respond to the charge.",
+      "how_treated": "Cited (via the pari materia Clause 6.8 analogy) for the content-sufficiency requirement of a show-cause notice.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}

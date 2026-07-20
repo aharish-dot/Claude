@@ -1,0 +1,60 @@
+{
+  "case_id": "SCJ-115",
+  "title": "Seema Mansoor v. U.P. Power Corporation Ltd. & 3 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari & Vijay Lakshmi, JJ.",
+  "date_of_judgment": "2014-05-26",
+  "date_display": "26 May 2014",
+  "docket": "WRIT - C No. 28295 of 2014",
+  "disposition": "Writ petition allowed; mandamus issued directing consideration and grant of connection",
+
+  "headnote": "A tenant/occupier's application for a new electricity connection cannot be refused solely for want of the landlord/owner's consent. Section 43 of the Electricity Act, 2003 casts a statutory duty on the distribution licensee to supply electricity to any owner or occupier applying for it, and Clause 2.2(oo) of the U.P. Electricity Supply Code, 2005 defines 'occupier' to include an authorised person in occupation (which includes a tenant). While Clause 4.4(a)(i) lists owner's consent (Annexure 4.3) among the documents ordinarily required, the Code itself provides an alternative route: Annexure 4.2, an indemnity bond that a tenant/lessee/occupier who cannot obtain the owner's consent may execute instead, indemnifying the licensee against any loss/claim arising from the owner's objection, recoverable from the occupier under the Revenue Recovery Act. Reading Clause 4.4 as providing either owner's consent OR an occupier's indemnity bond, a licensee cannot lawfully refuse connection to a tenant merely because a landlord (especially one embroiled in a rent dispute, using disconnection as leverage to evict) withholds consent — such an interpretation would nullify Rent Control Act protections and is against public policy. Two prior Division Bench decisions (Ravi Shankar Giri; Iftikhar Ahsan/Tanveer Azam) holding otherwise, having failed to notice ss.42/43 of the Act and Clause 4.4(a)(i)/Annexure 4.2 of the Code, do not lay down the correct law.",
+
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.4",
+      "code": "Electricity Act, 2003 (ss.42, 43) read with U.P. Electricity Supply Code, 2005 (Clause 2.2(oo), Clause 4.4(a)(i), Annexure 4.2, Annexure 4.3)",
+      "clause": "4.4(a)(i) (owner's consent, Annexure 4.3) read together with the Annexure 4.2 indemnity-bond alternative for occupiers unable to obtain owner's consent",
+      "topic": "A tenant/occupier cannot be refused a new electricity connection solely for want of the landlord's consent, since the Supply Code provides an alternative indemnity-bond route (Annexure 4.2) precisely for such situations; refusing connection on landlord-consent grounds alone nullifies Rent Control Act protections and is against public policy",
+      "type": "supply_code",
+      "question": "Can a distribution licensee refuse a new electricity connection to a tenant/occupier solely because the landlord/owner of the premises has refused to give a no-objection/consent?",
+      "holding": "No. Section 43 of the Electricity Act, 2003 obliges the licensee to supply electricity to any owner OR occupier (a term the Supply Code, Clause 2.2(oo), defines to include an authorised person in occupation, i.e. a tenant) making a proper application. While Clause 4.4(a)(i) of the Code lists owner's consent (Annexure 4.3) among required documents, the Code simultaneously provides Annexure 4.2 — an indemnity bond specifically designed for the situation where 'the intending consumer is not the owner' and 'is not able to obtain the consent' of the owner — as an alternative route, indemnifying the licensee against loss/claims from the owner, recoverable under the Revenue Recovery Act if needed. Reading the Code holistically, a tenant cannot be denied connection merely for lack of landlord consent; to hold otherwise would let an unscrupulous landlord (here, one in an ongoing rent dispute who had already gotten the existing connection disconnected to pressure the tenant to vacate) defeat Rent Control Act protections by simply withholding consent — an interpretation contrary to both the statutory scheme and public policy. Two prior Division Bench rulings to the contrary (Ravi Shankar Giri; the Iftikhar Ahsan/Tanveer Azam line) were held not to lay down correct law, having overlooked ss.42/43 of the Act and Clause 4.4(a)(i)/Annexure 4.2 of the Code. Mandamus issued directing the licensee to consider and grant connection to the petitioner-tenant, subject to a proper application, indemnity bond, and fulfilment of other requirements.",
+      "limiting_facts": "The petitioner, a tenant embroiled in a rent dispute (depositing rent under s.30, U.P. Act No. 13 of 1972 due to the landlord's refusal to accept it), had her electricity supply disconnected by the landlord seeking to pressure her to vacate; her subsequent new-connection application was returned for want of the landlord's no-objection.",
+      "paras": "unnumbered order (full text)"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "clause-4.4-occupant-connection-on-indemnity-bond",
+      "application": "A tenant/occupier may obtain a new electricity connection via the Annexure 4.2 indemnity-bond route where the landlord withholds consent; this reinforces and extends the Clause 4.4 occupant-connection principle already tracked in this corpus (SCJ-085, Mohd. Ashfaq Khan) to the new-connection (not just restoration) context, and explicitly holds that landlord-consent refusal cannot be an absolute bar.",
+      "lead_authorities": [],
+      "paras": "unnumbered order"
+    }
+  ],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "Ravi Shanker Giri v. Sub-Divisional Officer, U.P. Power Corporation Ltd. & Others",
+      "citation": "2007 (4) AWC 3934",
+      "court": "Allahabad High Court (DB)",
+      "docid": "193909",
+      "proposition": "Unless there is consent of the owner of the premises (as required under the Supply Code), electricity connection cannot be granted.",
+      "how_treated": "Overruled/held not to lay down correct law — decided without noticing ss.42/43 of the Electricity Act, the Code's definition of 'occupier', and Clause 4.4(a)(i)/Annexure 4.2's indemnity-bond alternative.",
+      "cited_by": "Respondent",
+      "treatment": "Overruled"
+    },
+    {
+      "name": "Tanveer Azam v. State of U.P. & Others (also cited as Iftikhar Ahsan v. State of U.P.)",
+      "citation": "Writ Petition No. 71425 of 2013, order dated 3.1.2014",
+      "court": "Allahabad High Court (DB)",
+      "docid": "",
+      "proposition": "Same as Ravi Shankar Giri — owner's consent required under the Code for grant of electricity connection.",
+      "how_treated": "Overruled/held not to lay down correct law, for the same reasons as Ravi Shankar Giri.",
+      "cited_by": "Respondent",
+      "treatment": "Overruled"
+    }
+  ]
+}

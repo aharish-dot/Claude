@@ -1,0 +1,82 @@
+{
+  "case_id": "SCJ-117",
+  "title": "Shishir Jain v. Paschimanchal Vidyut Vitran Nigam Ltd. & Another",
+  "neutral_citation": "AIR 2017 (NOC) 833 (All.); 2017 (4) ALJ 19; (2017) 6 ADJ 344",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari & Ravindra Nath Kakkar, JJ.",
+  "date_of_judgment": "2017-04-12",
+  "date_display": "12 April 2017",
+  "docket": "WRIT - C No. 15130 of 2017",
+  "disposition": "Writ petition allowed; impugned 'final notice' letters quashed, licensee left free to make a proper final assessment",
+
+  "headnote": "The condition precedent to a provisional assessment under Section 126(1) of the Electricity Act, 2003 is the assessing officer's recorded conclusion, based on inspection, that the person is indulging in unauthorised use of electricity — such satisfaction cannot rest on mere vagaries without a fair opportunity of hearing. Clause 8.1(b) of the U.P. Electricity Supply Code, 2005 mandates, after a consumer files objections to a provisional assessment/show-cause notice, a personal hearing before any final assessment is made. A licensee cannot, after a consumer has filed timely objections to a provisional assessment (following a prior court order permitting such objections), simply issue a 'final notice' demanding payment of the same provisionally-assessed amount — without any notice of hearing, without considering the objections, and without passing or serving any actual final assessment order — and treat that notice as enforceable; such notices, issued to pressure the consumer into payment while dehors the statutory Section 126/Clause 8.1 procedure, are liable to be quashed, without prejudice to the licensee thereafter conducting a proper final assessment in accordance with law.",
+
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1",
+      "code": "Electricity Act, 2003 (s.126(1)/(3)) read with U.P. Electricity Supply Code, 2005 (Clause 8.1(a)/(b))",
+      "clause": "8.1(b)(iii) (personal hearing after objections to provisional assessment, before final assessment)",
+      "topic": "A 'final notice' demanding payment of a provisionally assessed amount, issued without any hearing on the consumer's timely-filed objections and without an actual reasoned final assessment order, is dehors the Section 126/Clause 8.1 procedure and must be quashed",
+      "type": "supply_code",
+      "question": "Can a licensee enforce payment of a provisionally assessed theft-related amount by issuing a 'final notice' after the consumer has filed objections, without giving any notice of personal hearing, considering the objections, or passing/serving a reasoned final assessment order?",
+      "holding": "No. Section 126(1)'s provisional assessment requires the assessing officer's recorded conclusion of unauthorised use, which itself cannot be reached without a fair opportunity of hearing given the potential overlap with s.135 investigation. Clause 8.1(b)(iii) of the Supply Code specifically requires a personal hearing after the consumer files objections to the provisional assessment/show-cause notice, before any final order is passed. Here, after the petitioner filed timely objections (pursuant to an earlier court order permitting him to do so and deposit 50% of the provisional amount for restoration), the licensee neither gave notice of hearing nor considered the objections, yet issued 'final notice' letters (4.3.2017, repeated 17.3.2017) simply reiterating the original provisional-assessment figure as though finally established, without ever serving any actual reasoned final assessment order. This is dehors the statutory procedure (following Ashok Kumar, Kamil, and Hazi Mohd. Yaseen) — a consumer cannot be compelled to pay a provisional-assessment amount as if final, absent a proper final assessment after hearing. The two impugned notices were quashed, with liberty to the licensee to conduct the final assessment properly, in accordance with the Act and the Code.",
+      "limiting_facts": "The petitioner's LMV-1 (residential) connection was subjected to a s.135(1)(e) FIR and provisional assessment (Rs. 1,74,725) after an inspection alleged the premises was being run as a commercial girls'/boys' hostel (attracting LMV-2 commercial tariff); a prior writ petition secured restoration on 50% deposit and leave to object; objections were duly filed, but the licensee then issued 'final notice' letters demanding the full amount without any hearing or reasoned final order.",
+      "paras": "paras 7-18"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "clause-8.1b-personal-hearing-mandatory-before-final-assessment",
+      "application": "After a consumer files objections to a theft-related provisional assessment, Clause 8.1(b)(iii) requires an actual personal hearing before any final assessment can be made; a bare 'final notice' reiterating the provisional figure, without a hearing or reasoned order, is unenforceable — reinforcing the corpus's cluster of s.126/Clause 8.1 procedural-strictness rulings (SCJ-069, SCJ-087, SCJ-092, SCJ-111).",
+      "lead_authorities": [
+        {"name": "Ashok Kumar & Others v. State of U.P. & Others", "docid": "897981"},
+        {"name": "Kamil v. State of U.P. & Others", "docid": ""},
+        {"name": "Hazi Mohd. Yaseen v. Paschimanchal Vidyut Vitran Nigam Ltd.", "docid": ""}
+      ],
+      "paras": "paras 13-15"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the premises was in fact being used commercially (LMV-2) or residentially (LMV-1), and the correct assessment amount",
+      "note": "Not decided; left to a proper final assessment after hearing.",
+      "docid": "",
+      "paras": "para 18"
+    }
+  ],
+
+  "authorities": [
+    {
+      "name": "Ashok Kumar & Others v. State of U.P. & Others",
+      "citation": "2008 (6) ADJ 660 (DB)",
+      "court": "Allahabad High Court (DB)",
+      "docid": "897981",
+      "proposition": "A fair opportunity of hearing is required before an assessing officer records a conclusion of unauthorised use of electricity.",
+      "how_treated": "Followed as supporting authority for the natural-justice requirement.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Kamil v. State of U.P. & Others",
+      "citation": "2016 (6) ADJ 11 (DB)",
+      "court": "Allahabad High Court (DB)",
+      "docid": "",
+      "proposition": "Same procedural-fairness principle for s.126/Clause 8.1 assessment.",
+      "how_treated": "Followed as supporting authority.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Hazi Mohd. Yaseen v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+      "citation": "2011 (10) ADJ 261 (DB)",
+      "court": "Allahabad High Court (DB)",
+      "docid": "",
+      "proposition": "Same procedural-fairness principle for s.126/Clause 8.1 assessment.",
+      "how_treated": "Followed as supporting authority.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}

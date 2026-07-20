@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 115,
+  "next_seq": 123,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -688,6 +688,54 @@
       "case_id": "SCJ-114",
       "source_basename": "Saurabh Agrawal And Another vs State Of U.P.And Others on 19 May, 2017",
       "title": "Saurabh Agrawal & Another v. State of U.P. & Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-115",
+      "source_basename": "Seema Mansoor vs U.P. Power Corporation Ltd. & 3 Others on 26 May, 2014",
+      "title": "Seema Mansoor v. U.P. Power Corporation Ltd. & 3 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-116",
+      "source_basename": "Shabih Haider vs State Of U.P.Thru. Prin.Secy.,Housing ... on 6 December, 2017",
+      "title": "Shabih Haider v. State of U.P. thru. Prin. Secy., Housing & Urban Planning & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-117",
+      "source_basename": "Shishir Jain vs Paschimanchal Vidyut Vitran Nigam Ltd. ... on 12 April, 2017",
+      "title": "Shishir Jain v. Paschimanchal Vidyut Vitran Nigam Ltd. & Another",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-118",
+      "source_basename": "Shiv Murti Yadav vs State Of U.P. And 6 Others on 19 August, 2014",
+      "title": "Shiv Murti Yadav v. State of U.P. & 6 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-119",
+      "source_basename": "Shiv Shankar Giri vs Purvanchal Vidyut Vitran Nigam Ltd. And ... on 30 May, 2011",
+      "title": "Shiv Shankar Giri v. Purvanchal Vidyut Vitran Nigam Ltd. & Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-120",
+      "source_basename": "Shivmahraj vs State Of Up And 6 Others on 1 July, 2024",
+      "title": "Shivmahraj v. State of U.P. & 6 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-121",
+      "source_basename": "Shri Kunwar Sarvesh Kumar Singh vs Paschimanchal Vidyut Vitran Nigam Ltd. ... on 18 November, 2011",
+      "title": "Shri Kunwar Sarvesh Kumar Singh v. Paschimanchal Vidyut Vitran Nigam Ltd. & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-122",
+      "source_basename": "Shyam Ferrous Ltd. Gopal Nagar vs State Of U.P. & 6 Others on 23 December, 2015",
+      "title": "Shyam Ferrous Ltd. Gopal Nagar v. State of U.P. & 6 Others",
       "status": "done"
     }
   ]

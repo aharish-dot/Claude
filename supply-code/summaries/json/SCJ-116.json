@@ -1,0 +1,62 @@
+{
+  "case_id": "SCJ-116",
+  "title": "Shabih Haider v. State of U.P. thru. Prin. Secy., Housing & Urban Planning & Ors.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court (Lucknow Bench)",
+  "bench": "Division Bench",
+  "coram": "Devendra Kumar Arora & Rajnish Kumar, JJ.",
+  "date_of_judgment": "2017-12-06",
+  "date_display": "6 December 2017",
+  "docket": "Service Bench No. 26771 of 2017",
+  "disposition": "Writ petition allowed; suspension order quashed, reinstatement with full back wages directed",
+
+  "headnote": "Not primarily a Supply Code case — a service-law dispute over the suspension of a Development Authority Superintending Engineer pending disciplinary inquiry into alleged financial irregularities in a project to shift a 33 KV electric line (payment of supervision/centage charges and a construction contract). The Court quashed the suspension for want of application of mind under Rule 4, U.P. Government Servant (Discipline & Appeal) Rules, 1999, finding the petitioner had no substantive role in project approval, tendering, or contract award, and — incidentally — that the supervision-charge payment he processed was consistent with, not contrary to, Clause 4.6(e) of the U.P. Electricity Supply Code, 2005 (which the respondents conceded requires supervision charges to be paid to the licensee before commencement of work). Recorded here for corpus completeness given its incidental engagement with a Supply Code provision, but its substance is government-servant suspension jurisprudence, not the retail consumer billing/assessment/disconnection framework.",
+
+  "holding_units": [
+    {
+      "provision": "OFFTOPIC::government-servant-suspension-electric-line-project",
+      "code": "U.P. Government Servant (Discipline & Appeal) Rules, 1999 (Rule 4) — suspension pending disciplinary inquiry; incidental reference to U.P. Electricity Supply Code, 2005 (Clause 4.6(e), supervision charges)",
+      "clause": "Rule 4 (suspension requires application of mind to gravity of allegations) — Clause 4.6(e) (supervision charges payable to licensee before work begins) cited only as a factual defense",
+      "topic": "Suspension of a Development Authority engineer for alleged financial irregularity in an electric-line-shifting project quashed for want of application of mind; Clause 4.6(e) of the Supply Code (supervision charges due before work commencement) was invoked only to show the petitioner's processing of such charges was procedurally correct, not to establish any independent Supply Code holding",
+      "type": "interplay",
+      "holding": "The suspension order was quashed as passed without application of mind to Rule 4's requirement that suspension be resorted to only where allegations, if established, would warrant a major penalty; the record showed the petitioner had no substantive role in project conception, tender approval, or contract award, and had merely forwarded files in the ordinary course. On the specific supervision-charges allegation, the respondents conceded that Clause 4.6(e) of the Electricity Supply Code, 2005 requires such charges to be deposited with the licensee before commencement of work — meaning the charge that the petitioner had improperly processed centage payment 'prior to commencement of work' was, on the correct reading of Clause 4.6(e), based on a mistaken premise.",
+      "paras": "paras 29, 43",
+      "flag": "Recorded for completeness of the source corpus; the operative holding is a service-law suspension ruling, with Clause 4.6(e) of the Supply Code invoked only incidentally as a factual defense regarding timing of a supervision-charge payment — not itself a substantive Supply Code determination relevant to this project's consumer-facing focus."
+    }
+  ],
+
+  "principle_tags": [],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "State of Orissa v. Bimal Kumar Mohanty",
+      "citation": "AIR 1994 SC 2296",
+      "court": "Supreme Court",
+      "docid": "399238",
+      "proposition": "Suspension should not be passed as an administrative routine or mechanically; it requires consideration of the gravity of alleged misconduct and the evidence, applying the disciplinary authority's mind.",
+      "how_treated": "Applied as the governing standard to quash the suspension order.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "The Management of Hotel Imperial, New Delhi v. Hotel Workers' Union",
+      "citation": "AIR 1959 SC 1342",
+      "court": "Supreme Court",
+      "docid": "1202878",
+      "proposition": "The power to suspend is a creature of statute or contract, to be exercised keeping in view the letter and spirit of the statute.",
+      "how_treated": "Cited (via Dhirendra Kumar Rai) for the statutory basis of suspension power.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Dhirendra Kumar Rai v. State of U.P.",
+      "citation": "2010 (28) LCD 1248",
+      "court": "Allahabad High Court (DB)",
+      "docid": "",
+      "proposition": "Surveys precedent on suspension power under Rule 4, U.P. Government Servant (Discipline & Appeal) Rules, 1999, holding suspension warranted only for allegations serious enough to attract major penalty if established.",
+      "how_treated": "Followed as the controlling survey of the applicable suspension standard.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}
