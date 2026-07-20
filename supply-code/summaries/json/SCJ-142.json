@@ -1,0 +1,70 @@
+{
+  "case_id": "SCJ-142",
+  "title": "Vijay Kumar Sachan v. State of U.P. And Another",
+  "neutral_citation": "AIRONLINE 2018 ALL 3033",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Ramesh Sinha & Dinesh Kumar Singh-I, JJ.",
+  "date_of_judgment": "2018-04-04",
+  "date_display": "4 April 2018",
+  "docket": "Application U/S 482 No. 11021 of 2018",
+  "disposition": "s.482 Cr.P.C. application dismissed; charge sheet not quashed",
+
+  "headnote": "Not a Supply Code case — a s.482 Cr.P.C. quashing application by a retired electricity department Junior Engineer against a Prevention of Corruption Act disproportionate-assets charge sheet, applying the settled R.P. Kapur/Bhajan Lal/P.P. Sharma/Zandu Pharmaceutical framework confining s.482 quashing to cases where no offence is disclosed on the face of the record, and declining to adjudicate disputed factual defences (agricultural income, family gifts) at the quashing stage. Recorded compactly given the absence of any Supply Code nexus (the applicant's former employment as a Junior Engineer in the electricity distribution department is incidental background, not a subject of adjudication).",
+
+  "holding_units": [
+    {
+      "provision": "OFFTOPIC::disproportionate-assets-quashing-electricity-employee",
+      "code": "Cr.P.C. s.482 (inherent power to quash) applied to a Prevention of Corruption Act, 1947 s.13(1)(d)/13(2) disproportionate-assets charge sheet against a former electricity department Junior Engineer",
+      "clause": "s.482 Cr.P.C. — quashing standard (R.P. Kapur, Bhajan Lal, P.P. Sharma, Zandu Pharmaceutical) applied to disputed factual defences in a disproportionate-assets prosecution",
+      "topic": "A s.482 Cr.P.C. application to quash a disproportionate-assets charge sheet is dismissed where the defence (agricultural land income, family gifts explaining the excess assets) raises disputed questions of fact not resolvable at the quashing stage",
+      "type": "interplay",
+      "holding": "Application dismissed. Applying R.P. Kapur v. State of Punjab, State of Haryana v. Bhajan Lal, State of Bihar v. P.P. Sharma, and Zandu Pharmaceutical Works Ltd. v. Mohd. Sharaful Haq, the Court held that at the s.482 stage only a prima facie case need be examined, and the applicant's explanations (agricultural income from family land, gifts from a retired father) for the alleged disproportionate assets (Rs. 31,66,841) were disputed questions of fact requiring evidence, not resolvable on a quashing application; the Court left it open to the applicant to raise his health condition (kidney ailment requiring dialysis) before the trial court in any future bail application.",
+      "limiting_facts": "The applicant, a retired Junior Engineer, Distribution, of the electricity distribution department, faced a Prevention of Corruption Act charge sheet alleging he possessed assets disproportionate to his known sources of income by Rs. 31,66,841.",
+      "paras": "unnumbered order (full text)",
+      "flag": "Recorded compactly given its criminal-procedure/PC Act disproportionate-assets subject matter and absence of Supply Code nexus; the applicant's former employment in the electricity department is incidental background only."
+    }
+  ],
+
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Merits of the disproportionate-assets allegation and the applicant's factual defences",
+      "note": "Left for trial; the Court expressly declined to adjudicate disputed questions of fact at the s.482 stage.",
+      "docid": "",
+      "paras": "unnumbered order"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "R.P. Kapur v. State of Punjab",
+      "citation": "AIR 1960 SC 866",
+      "court": "Supreme Court",
+      "docid": "1033301",
+      "proposition": "Sets out the settled categories of cases in which the High Court's inherent power under s.482 Cr.P.C. may be exercised to quash criminal proceedings.",
+      "how_treated": "Applied.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "State of Bihar v. P.P. Sharma",
+      "citation": "1992 SCC (Cri) 192",
+      "court": "Supreme Court",
+      "docid": "1287305",
+      "proposition": "Reaffirms the limited scope of s.482 Cr.P.C. quashing, confined to cases where no offence is disclosed on the face of the record.",
+      "how_treated": "Applied.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Zandu Pharmaceutical Works Ltd. v. Mohd. Sharaful Haq",
+      "citation": "2005 SCC (Cri) 283",
+      "court": "Supreme Court",
+      "docid": "279427",
+      "proposition": "At the quashing stage, only a prima facie case is to be examined; disputed factual questions must go to trial.",
+      "how_treated": "Applied.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 139,
+  "next_seq": 147,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -832,6 +832,54 @@
       "case_id": "SCJ-138",
       "source_basename": "U.P. Power Corporation Limited Thru ... vs Electricity Ombudsman & Ors. ( MS ... on 23 September, 2010",
       "title": "U.P. Power Corporation Limited Thru' Executive Engineer v. Electricity Ombudsman & Ors. (M/S Suresh Automobiles)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-139",
+      "source_basename": "U.P.Power Corporation Ltd. & Ors vs Anis Ahmad on 1 July, 2013",
+      "title": "U.P. Power Corporation Ltd. & Ors. v. Anis Ahmad (with connected appeals)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-140",
+      "source_basename": "Usha Devi (Smt.) vs State Of U.P. & 2 Others on 2 August, 2014",
+      "title": "Usha Devi (Smt.) v. State of U.P. & 2 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-141",
+      "source_basename": "V.S. Achuthanandan vs R. Balakrishna Pillai & Ors on 10 February, 2011",
+      "title": "V.S. Achuthanandan v. R. Balakrishna Pillai & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-142",
+      "source_basename": "Vijay Kumar Sachan vs State Of U.P. And Another on 4 April, 2018",
+      "title": "Vijay Kumar Sachan v. State of U.P. And Another",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-143",
+      "source_basename": "Vimal Gupta vs Executive Engineer, Dakshinanchal ... on 21 September, 2017",
+      "title": "Vimal Gupta v. Executive Engineer, Dakshinanchal Electricity Dist. Nigam",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-144",
+      "source_basename": "Vinay Kumar Singh vs State Of U.P. And 2 Others on 14 January, 2020",
+      "title": "Vinay Kumar Singh v. State of U.P. And 2 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-145",
+      "source_basename": "Vinod Kumar Agarwal vs State Of U.P. And Others on 10 July, 2012",
+      "title": "Vinod Kumar Agarwal v. State of U.P. And Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-146",
+      "source_basename": "Vinod Kumar Kanaujiya vs State Of U.P. on 7 March, 2014",
+      "title": "Vinod Kumar Kanaujiya v. State of U.P.",
       "status": "done"
     }
   ]

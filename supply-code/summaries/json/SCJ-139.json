@@ -1,0 +1,39 @@
+{
+  "case_id": "SCJ-139",
+  "title": "U.P. Power Corporation Ltd. & Ors. v. Anis Ahmad (with connected appeals)",
+  "neutral_citation": "(2013) 8 SCC 491",
+  "court": "Supreme Court of India",
+  "bench": "Two-Judge Bench",
+  "coram": "G.S. Singhvi & Sudhansu Jyoti Mukhopadhaya, JJ.",
+  "date_of_judgment": "2013-07-01",
+  "date_display": "1 July 2013",
+  "docket": "Civil Appeal No. 5466 of 2012 (arising out of SLP(C) No. 35906 of 2011), with C.A. Nos. 5467-5468, 5469, 5470-5475 of 2012",
+  "disposition": "Civil appeals allowed; National Consumer Disputes Redressal Commission's orders set aside",
+
+  "headnote": "A 'complaint' against a final assessment order passed by an assessing officer under Section 126 of the Electricity Act, 2003 (unauthorised use of electricity), or against action/prosecution for offences under Sections 135 to 140 (theft of electricity and related offences), is not maintainable before a Consumer Forum constituted under the Consumer Protection Act, 1986. Though Sections 173-175 of the Electricity Act, 2003 save the Consumer Protection Act's application generally and the two statutes run in parallel, this only means a genuine 'consumer' under s.2(1)(d) CP Act may pursue a 'complaint' as narrowly defined under s.2(1)(c) CP Act — confined to unfair/restrictive trade practice, defective goods, deficiency in service, hazardous goods/services, or overcharging beyond the legally fixed price. The quasi-judicial, penal assessment of 'unauthorised use of electricity' under s.126 (assessed at twice the tariff) and the offences of theft/interference with meters under ss.135-140 (triable only by Special Courts under s.153) bear no relationship to any of these categories, and so fall outside the Consumer Protection Act's 'complaint' definition altogether — this is not a case of 'inconsistency' between the two statutes resolved in the Consumer Protection Act's favour, but simply a matter the CP Act's complaint jurisdiction never reached in the first place. Separately, a person availing an electricity connection for 'commercial purpose' does not qualify as a 'consumer' under s.2(1)(d) CP Act and cannot file a complaint at all. Section 42 of the Electricity Act, 2003 (establishing the Ombudsman/Forum grievance mechanism, on which the National Commission had relied) applies only to distribution licensees under Part VI, and does not confer Consumer Forum jurisdiction over assessment/theft matters; nor does the Electricity Supply Code under s.50 (billing, disconnection, tampering-prevention measures) extend to s.126/135-140 assessment or offences.",
+
+  "holding_units": [
+    {
+      "provision": "EA2003::126",
+      "code": "Electricity Act, 2003 (ss.126, 127, 135-140, 145, 153, 173-175) read with Consumer Protection Act, 1986 (ss.2(1)(b)-(d), 2(1)(o), 3)",
+      "clause": "s.126 (assessment for unauthorised use) and ss.135-140 (theft/interference offences) — non-maintainability of a Consumer Forum complaint against either",
+      "topic": "A complaint against a final s.126 assessment order, or against action/prosecution for theft/interference offences under ss.135-140 of the Electricity Act, 2003, is not maintainable before a Consumer Forum under the Consumer Protection Act, 1986, since neither falls within the CP Act's narrow definition of 'complaint,' and a person availing a commercial electricity connection is not a 'consumer' under the CP Act at all",
+      "type": "electricity_act",
+      "question": "Is a complaint filed before a Consumer Forum under the Consumer Protection Act, 1986, challenging (a) a final assessment order passed under Section 126 of the Electricity Act, 2003 for unauthorised use of electricity, or (b) action taken/prosecution under Sections 135 to 140 for theft of electricity or interference with meters, maintainable, given Sections 173-175 of the Electricity Act (saving/not-derogating from the Consumer Protection Act)?",
+      "holding": "No. Overruling the National Consumer Disputes Redressal Commission's majority view, the Supreme Court held that Sections 173-175 of the Electricity Act, 2003 preserve the Consumer Protection Act's general applicability and resolve any 'inconsistency' in the CP Act's favour, but this does not itself confer Consumer Forum jurisdiction over matters that never fall within the CP Act's 'complaint' definition (s.2(1)(c)) in the first place — namely unfair/restrictive trade practice, defective goods, deficiency in service, hazardous goods/services, or overcharging. The quasi-judicial assessment of 'unauthorised use of electricity' under s.126 (assessed by a public-servant assessing officer at twice the applicable tariff, appealable under s.127, with a further 50%-of-assessed-amount deposit precondition) has no relationship to any of these categories, and offences under ss.135-140 (theft, meter-tampering, interference) are triable exclusively by Special Courts constituted under s.153 — the Civil Court's jurisdiction over both is expressly ousted by s.145. The Electricity Supply Code under s.50 governs billing, disconnection, and tampering-prevention measures, not s.126/135-140 assessment or offences. Separately, all the respondent-complainants here held commercial/industrial electricity connections and so were not 'consumers' under s.2(1)(d) CP Act (which excludes persons availing goods/services for commercial purpose), rendering their complaints independently non-maintainable on that ground too. Section 42 of the Electricity Act (Ombudsman/Forum mechanism, on which the National Commission relied) applies only to distribution licensees under Part VI and does not extend Consumer Forum jurisdiction to assessment/theft matters. All the National Commission's orders were accordingly set aside.",
+      "limiting_facts": "Consolidated appeals from eight consumer complaints (Anis Ahmad, Rakhi Ghosh, Prithvi Pal Singh, Zulfikar, Shahzadey Alam, Atul Kumar Gupta, Tauseef Ahmed, Mohd. Yunus) filed before District Consumer Fora against U.P. Power Corporation Ltd. and West Bengal SEB, all challenging revenue-assessment notices/bills issued following inspection reports alleging theft of electricity, excess/unauthorised load usage, or meter-tampering (industrial/commercial connections in most cases); the National Commission's earlier majority decision (10.4.2008) had held such complaints maintainable, over a dissenting minority judgment.",
+      "paras": "paras 17-48"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "consumer-forum-lacks-jurisdiction-over-s126-s135-140-matters",
+      "application": "Landmark bar on Consumer Protection Act jurisdiction over Electricity Act s.126 assessment and s.135-140 theft/interference offences, distinguishing 'saving' of the CP Act's general applicability (ss.173-175) from an affirmative grant of jurisdiction over matters outside the CP Act's own 'complaint' definition — a foundational precedent for this corpus's forum-jurisdiction cluster, complementing SCJ-138's Ombudsman-status ruling and clarifying which remedies (appeal under s.127, not a CP Act complaint) properly lie against assessment/theft proceedings.",
+      "lead_authorities": [],
+      "paras": "paras 27-48"
+    }
+  ],
+  "not_decided": [],
+  "authorities": []
+}
