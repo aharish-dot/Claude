@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 75,
+  "next_seq": 83,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -448,6 +448,54 @@
       "case_id": "SCJ-074",
       "source_basename": "MS. Sesa Sterlite Ltd. vs Orissa Electricity Regulatory Comm on 25 April, 2014",
       "title": "Sesa Sterlite v. OERC (OFFTOPIC; CSS/open access/SEZ deemed licensee)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-075",
+      "source_basename": "Madarsa Dargah Aaliya Islamiya Shareef ... vs State Of U.P. And 3 Others on 17 August, 2023",
+      "title": "Madarsa Dargah Aaliya Islamiya Shareef Nagar & Anr. v. State of U.P. & 3 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-076",
+      "source_basename": "Maharashtra Electricity Regulatory ... vs Reliance Energy Ltd. & Ors on 14 August, 2007",
+      "title": "Maharashtra Electricity Regulatory Commission v. Reliance Energy Ltd. & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-077",
+      "source_basename": "Maharashtra State Electricity ... vs Maharashtra Electricity Regulatory ... on 8 October, 2021",
+      "title": "Maharashtra State Electricity Distribution Co. Ltd. v. Maharashtra Electricity Regulatory Commission & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-078",
+      "source_basename": "Mahendra Pratap Singh vs State Of U.P. on 28 March, 2011",
+      "title": "Mahendra Pratap Singh v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-079",
+      "source_basename": "Maniram vs State Of U.P. on 8 August, 2014",
+      "title": "Maniram v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-080",
+      "source_basename": "Manno Singh vs State Of U.P. & Others on 11 September, 2014",
+      "title": "Manno Singh v. State of U.P. & Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-081",
+      "source_basename": "Mobin Ahamad vs State Of U.P. 2 Ors on 4 February, 2015",
+      "title": "Mobin Ahamad v. State of U.P. & 2 Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-082",
+      "source_basename": "Mohamad Aslam vs State Of U.P. 2 Ors on 4 February, 2015",
+      "title": "Mohamad Aslam v. State of U.P. & 2 Ors.",
       "status": "done"
     }
   ]

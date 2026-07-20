@@ -1,0 +1,46 @@
+{
+  "case_id": "SCJ-076",
+  "title": "Maharashtra Electricity Regulatory Commission v. Reliance Energy Ltd. & Ors.",
+  "neutral_citation": "(2007) 8 SCC 381; AIR 2008 SC 976",
+  "court": "Supreme Court of India",
+  "bench": "Two-Judge Bench",
+  "coram": "A.K. Mathur & Markandey Katju, JJ.",
+  "date_of_judgment": "2007-08-14",
+  "date_display": "14 August 2007",
+  "docket": "Civil Appeal No. 2846 of 2006",
+  "disposition": "Appeal disposed of; blanket refund direction set aside, replaced with a public-notice/individual-hearing mechanism, with grievances thereafter routed via ss.42(5)/(6)",
+
+  "headnote": "Energy consumption charges for metered consumers must be billed on the basis of actual meter readings; the licensee, not the consumer, is responsible for maintaining, rectifying or replacing meters. 'Amendment'/'supplementary' bills raised — often years later, without reasons, on a basis other than actual recorded consumption (e.g. presumed/average consumption because of a suspected faulty meter) — are not mandated by law, and any additional billing must follow due process and statutory provision. While a State Electricity Regulatory Commission has power under Section 128(6) of the Electricity Act, 2003 to issue general directions to its licensees to ensure conditions of licence and statutory billing practices are observed, that power must be exercised on the basis of a proper investigation and report under Section 128(1)/(5); a blanket direction compelling refund of all amounts collected under such bills, issued without such investigation, exceeds the Commission's jurisdiction. The Commission's own adjudicatory function under Section 86(1)(f) is confined to disputes between licensees and generating companies; it cannot adjudicate individual consumers' billing grievances, which must instead be routed through the Section 42(5) Consumer Grievance Redressal Forum and, if unsatisfied, the Section 42(6) Ombudsman.",
+
+  "holding_units": [
+    {
+      "provision": "EA2003::42",
+      "code": "Electricity Act, 2003 (ss.42(5)/(6), 86(1)(f), 128)",
+      "clause": "s.42(5)/(6) (individual grievance route) vis-a-vis s.86(1)(f)/s.128(6) (Commission's own powers)",
+      "topic": "Billing must follow actual meter readings; a Regulatory Commission cannot issue a blanket refund direction for supplementary/amended bills without a proper s.128 investigation, and individual consumer billing grievances go through the s.42(5) Forum/s.42(6) Ombudsman, not the Commission directly",
+      "type": "interplay",
+      "question": "(a) Can a licensee raise a supplementary/amended bill years later on a basis other than actual meter reading (e.g. presumed average consumption on suspicion of a defective meter)? (b) Can a State Electricity Regulatory Commission, on receiving mass consumer complaints, issue a blanket direction compelling licensees to withdraw all such bills and refund all amounts collected, without an investigation under Section 128?",
+      "holding": "(a) No — billing must be on the basis of actual meter reading; the licensee bears responsibility for meter maintenance/replacement, and any additional/amended billing must follow due statutory process, not an unexplained years-later reassessment on a presumed basis. (b) The Commission does have a general power under Section 128(6) to direct licensees to bring billing practices into conformity with the statute, but exercising that power via a blanket direction to refund all amounts collected — without first conducting an investigation and obtaining a report under Section 128(1)/(5) — exceeds its jurisdiction; and in any event the Commission's own adjudicatory function under Section 86(1)(f) is limited to licensee-generator disputes, not individual consumer grievances. The correct route for individual billing grievances is the Section 42(5) Consumer Grievance Redressal Forum, with a further remedy before the Section 42(6) Ombudsman. In substitution of the Commission's blanket refund order, the Court directed licensees to publish notice inviting affected consumers to make representations for redress (decided after a hearing), with a further remedy via ss.42(5)/(6) for those still dissatisfied.",
+      "limiting_facts": "The Maharashtra Commission, on receiving mass complaints of 'amendment'/'supplementary' bills raised by licensees years after the relevant billing period on a basis other than actual meter readings (often via automated computerised systems, on suspicion of faulty meters), directed (23.2.2005 and 23.8.2005 orders) that such bills be withdrawn and all amounts collected refunded (with or without interest depending on the circumstances), without conducting a Section 128 investigation; the Appellate Tribunal set aside these orders, directing consumers to the s.42(5) Forum instead.",
+      "paras": "paras 8-19"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "billing-must-follow-actual-meter-reading",
+      "application": "Metered consumption must be billed on actual meter readings; a licensee's supplementary/amended bill raised later on a presumed/average basis (e.g. suspected faulty meter) is not lawful absent due process — resonates with the Clause 5.6/5.9 defective-meter procedure line already established in this corpus (e.g. SCJ-058, SCJ-059, SCJ-071).",
+      "lead_authorities": [],
+      "paras": "paras 1, 8"
+    },
+    {
+      "tag": "individual-grievance-via-s42-not-commission",
+      "application": "A State Electricity Regulatory Commission cannot adjudicate individual consumers' billing grievances or issue a blanket refund direction without a proper s.128 investigation; individual grievances go through the s.42(5) Forum and s.42(6) Ombudsman.",
+      "lead_authorities": [],
+      "paras": "paras 12, 17-19"
+    }
+  ],
+
+  "not_decided": [],
+  "authorities": []
+}

@@ -1,0 +1,32 @@
+{
+  "case_id": "SCJ-077",
+  "title": "Maharashtra State Electricity Distribution Co. Ltd. v. Maharashtra Electricity Regulatory Commission & Ors.",
+  "neutral_citation": "Civil Appeal No. 1843 of 2021",
+  "court": "Supreme Court of India",
+  "bench": "Two-Judge Bench",
+  "coram": "V. Ramasubramanian & Indira Banerjee, JJ. (delivered by Banerjee, J.)",
+  "date_of_judgment": "2021-10-08",
+  "date_display": "8 October 2021",
+  "docket": "Civil Appeal No. 1843 of 2021",
+  "disposition": "Appeal dismissed; concurrent MERC/APTEL findings against the distribution company affirmed",
+
+  "headnote": "Not a Supply Code case in substance — a wholesale bulk-power-procurement dispute between a distribution licensee and generating companies over Late Payment Surcharge (LPS) under Power Purchase Agreements, and whether the RBI's replacement of the Prime Lending Rate (PLR) methodology with the Base Rate/MCLR systems constituted a 'Change in Law' under the PPAs' Change-in-Law clauses, entitling the distribution company to recompute LPS at the lower Base Rate/MCLR rather than the contractually defined SBAR-based PLR rate. The Supreme Court dismissed the appeal, declining to interfere (in a Section 125 second appeal) with concurrent factual findings of MERC and APTEL, holding the distribution company had accepted the invoiced LPS without dispute and could not introduce fresh material at the Supreme Court stage. Recorded here only for completeness of the source corpus; flagged OFFTOPIC as it concerns PPA contract interpretation and RBI lending-rate methodology in bulk power procurement, entirely outside the retail consumer-facing Supply Code framework this project tracks.",
+
+  "holding_units": [
+    {
+      "provision": "OFFTOPIC::lps-change-in-law-ppa",
+      "code": "Power Purchase Agreements (contractual Change-in-Law and Late Payment Surcharge clauses) — bulk generation procurement, unrelated to the retail Supply Code",
+      "clause": "Change-in-Law clause vis-a-vis RBI PLR-to-Base-Rate/MCLR transition",
+      "topic": "RBI's replacement of PLR with Base Rate/MCLR did not entitle the distribution company to recompute LPS at the new (lower) rate, given concurrent factual findings and the company's own prior acceptance of invoices",
+      "type": "interplay",
+      "holding": "The Supreme Court declined to disturb the concurrent findings of MERC and APTEL rejecting the distribution company's claim that the RBI's introduction of the Base Rate (2010) and MCLR (2016) systems, replacing the PLR methodology, constituted a 'Change in Law' under the Power Purchase Agreements entitling it to pay Late Payment Surcharge at the lower Base Rate/MCLR-linked rate instead of the PLR-based SBAR rate defined in the agreements; the distribution company had accepted and reconciled the invoiced LPS without dispute for years, and could not introduce fresh material in a second appeal under Section 125 not tendered before the regulatory authorities below.",
+      "limiting_facts": "The distribution company (MSEDCL) sought retrospective recalculation of Late Payment Surcharge payable to several independent power producers under Power Purchase Agreements, relying on RBI notifications replacing the PLR benchmark with the Base Rate (2010) and then MCLR (2016) systems as a 'Change in Law'.",
+      "paras": "the LPS/Change-in-Law discussion (unnumbered order, ~209-para judgment)",
+      "flag": "Recorded compactly given its scale (~5170 lines) and its subject (bulk power-procurement PPA/LPS contract dispute), which is distinct from the U.P. Electricity Supply Code billing/assessment/disconnection framework central to this project; not exhaustively digested."
+    }
+  ],
+
+  "principle_tags": [],
+  "not_decided": [],
+  "authorities": []
+}
