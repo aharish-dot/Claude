@@ -1,0 +1,39 @@
+{
+  "case_id": "SCJ-101",
+  "title": "Pawan Kumar Agarwal s/o M.P. Agarwal v. State of U.P. thru. Secretary & Ors.",
+  "neutral_citation": "2008 (1) AWC 158",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "R.K. Agrawal & Sabhajeet Yadav, JJ.",
+  "date_of_judgment": "2007-10-12",
+  "date_display": "12 October 2007",
+  "docket": "Writ Petition (unnumbered order)",
+  "disposition": "Writ petition allowed; condition requiring an independent feeder connection quashed",
+
+  "headnote": "Under Clause 3.4(a) of the U.P. Electricity Supply Code, supply through an independent feeder is mandatory only for the specifically enumerated industries (Arc/Induction furnaces, Rolling Mills, Re-rolling Mills, Mini steel plants) with a load of 1000 KVA and above — this list is not illustrative but specific and restrictive. Clause 3.4(b), by contrast, gives *other* consumers (including those enumerated in 3.4(a) but with a load below 1000 KVA, and townships/institutions/etc. with load above 500 KVA) an *option*, not an obligation, to take supply via an independent feeder; a licensee cannot compel such a consumer to bear independent-feeder costs where supply via a shared/dependent feeder is found technically feasible. A generalized concern about electricity theft does not justify insisting on an independent feeder outside Clause 3.4(a)'s mandatory scope, since the Code separately provides ample anti-theft mechanisms; the Code being statutory, its provisions must be adhered to as written.",
+
+  "holding_units": [
+    {
+      "provision": "UP-2005::3.4",
+      "code": "U.P. Electricity Supply Code, 2005/2003 (Clause 3.4 — Supply through Independent Feeders)",
+      "clause": "3.4(a) (mandatory independent feeder for specified heavy industries ≥1000 KVA) vis-a-vis 3.4(b) (optional independent feeder for other consumers ≥500 KVA)",
+      "topic": "Clause 3.4(a)'s list of industries requiring mandatory independent-feeder supply is specific/restrictive, not illustrative; consumers outside that list (or below the 1000 KVA threshold) have only an option, not an obligation, to take an independent feeder, and cannot be compelled to bear its cost where a shared feeder is technically feasible",
+      "type": "supply_code",
+      "question": "Can a licensee insist that a textile-weaving/dyeing unit (3000 KVA load, outside Clause 3.4(a)'s enumerated heavy industries) take supply only through an independent feeder (at the consumer's cost of ~Rs. 19 lakh), where supply via an existing dependent feeder has been found technically feasible?",
+      "holding": "No — Clause 3.4(a)'s enumerated industries (Arc/Induction furnaces, Rolling Mills, Re-rolling Mills, Mini steel plants) are specific and restrictive, not illustrative; a textile unit does not fall within it. Clause 3.4(b) gives such other consumers with load above 500 KVA merely an *option* to seek an independent feeder — it is not compulsory, and the licensee cannot insist on or compel independent-feeder supply where a dependent/shared feeder has been found technically feasible (as the respondents' own committee had found here). A generalized theft-prevention rationale does not override the Code's clear text, since the Code itself provides other anti-theft mechanisms. The condition imposed (independent-feeder connection, at ~Rs. 19 lakh cost to the consumer) was quashed, and the licensee directed to provide the sanctioned 3000 KVA connection from the existing 33 KV Fatehpur feeder within two weeks.",
+      "limiting_facts": "The petitioner applied for a new 3000 KVA connection for a weaving/dyeing textile unit; the licensee's sanction letter (6.7.2007) conditioned the connection on the consumer bearing the cost of an independent feeder (~Rs. 19 lakh), citing power-theft concerns; the licensee's own committee later found supply from the existing 33 KV Fatehpur feeder (previously used by another consumer, now permanently disconnected) technically feasible.",
+      "paras": "paras 10-14"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "clause-3.4a-independent-feeder-list-is-restrictive-not-illustrative",
+      "application": "Clause 3.4(a)'s enumerated heavy-industry categories requiring mandatory independent-feeder supply are specific and restrictive, not illustrative; other consumers (even at higher loads) have only the Clause 3.4(b) option, not obligation, to seek an independent feeder — directly informs how 'Independent Feeder' provisions are to be read alongside the definitional line traced in SCJ-094 (Northern Coalfield).",
+      "lead_authorities": [],
+      "paras": "paras 10-11"
+    }
+  ],
+  "not_decided": [],
+  "authorities": []
+}

@@ -1,0 +1,77 @@
+{
+  "case_id": "SCJ-102",
+  "title": "Pawan Kumar Laur v. State of U.P. & Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Amar Saran & Ramesh Sinha, JJ.",
+  "date_of_judgment": "2011-11-30",
+  "date_display": "30 November 2011",
+  "docket": "Criminal Misc. Writ Petition (unnumbered order)",
+  "disposition": "Writ petition dismissed; FIR not quashed",
+
+  "headnote": "An officer of a distribution licensee, authorised by the State Government under Section 135(2) of the Electricity Act, 2003, is competent to lodge an FIR for theft of electricity under Section 135(1); such an officer's power to enter, inspect, search and seize under s.135(2) independently supports the FIR's validity, and an FIR is not liable to be quashed merely because it followed shortly after the petitioner's spouse (co-owner) obtained a notice-stage order in a separate writ petition, absent clear evidence of malafide. Following the well-settled principle (State of Haryana v. Bhajan Lal; Satya Pal; Ajit Singh @ Muraha), courts will not interfere with investigation or FIR unless no cognizable offence is ex-facie discernible from the FIR or a statutory restriction bars investigation.",
+
+  "holding_units": [
+    {
+      "provision": "EA2003::135",
+      "code": "Electricity Act, 2003 (s.135(1)/(2))",
+      "clause": "s.135(2) (authorised officer's power to enter, inspect, search, seize) as the basis for lodging an FIR under s.135(1)",
+      "topic": "A licensee's authorised officer is competent under s.135(2) to lodge an FIR for theft of electricity; the FIR is not quashed absent ex-facie absence of a cognizable offence or proven malafide",
+      "type": "supply_code",
+      "question": "Is an Assistant Engineer of a distribution licensee competent to lodge an FIR under s.135 for theft of electricity, and can the FIR be quashed as malafide where it followed shortly after the petitioner's spouse obtained a notice-stage order in a related writ petition?",
+      "holding": "Yes, the officer is competent under s.135(2), which empowers an authorised officer of the licensee to enter, inspect, search and seize in relation to unauthorised use of electricity, supporting the officer's authority to also lodge an FIR under s.135(1). No malafide was made out merely from the FIR's timing relative to the related writ petition (which had only resulted in notice being issued, not a stay of recovery); the FIR disclosed a prima facie cognizable offence (theft found on inspection, and substantial dues outstanding), and following the settled Bhajan Lal/Satya Pal/Ajit Singh line, courts do not interfere with investigation or quash an FIR absent ex-facie absence of a cognizable offence or a statutory bar on investigation.",
+      "limiting_facts": "FIR (Case Crime No. 209 of 2011, s.135 EA2003) was lodged by the Assistant Engineer, Noida Power Company Ltd. against the petitioner for theft of electricity at his industrial unit, alleging dues of Rs. 16,21,891/- outstanding as of 14.2.2011 and theft detected on inspection; the petitioner alleged malafide timing linked to a separate writ petition filed by his wife/co-owner, and alleged non-compliance with Supply Code inspection procedure.",
+      "paras": "unnumbered order"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "s135-2-authorised-officer-competent-to-lodge-fir",
+      "application": "An officer of a distribution licensee authorised under s.135(2) is competent to lodge an FIR for theft of electricity under s.135(1); this authority is not displaced by unproven allegations of malafide timing.",
+      "lead_authorities": [{"name": "State of Haryana v. Bhajan Lal", "docid": "1033637"}],
+      "paras": "unnumbered order"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits of the theft allegation and compliance with Supply Code inspection procedure",
+      "note": "Not decided; left for trial/investigation.",
+      "docid": "",
+      "paras": "unnumbered order"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "State of Haryana v. Bhajan Lal",
+      "citation": "AIR 1992 SC 604",
+      "court": "Supreme Court",
+      "docid": "1033637",
+      "proposition": "Courts should not interfere with investigation or quash an FIR unless no cognizable offence is ex-facie discernible from the allegations, or a statutory restriction bars the police from investigating.",
+      "how_treated": "Applied (via Ajit Singh @ Muraha and Satya Pal) as the governing standard to decline quashing the FIR.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Ajit Singh @ Muraha v. State of U.P. & Others",
+      "citation": "2006 (56) ACC 433",
+      "court": "Allahabad High Court (Full Bench)",
+      "docid": "1638274",
+      "proposition": "Reiterates the Bhajan Lal/Satya Pal standard that FIR quashing/stay of arrest is warranted only where no cognizable offence is ex-facie discernible or a statutory restriction on investigation exists.",
+      "how_treated": "Followed as the controlling Full Bench authority.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Satya Pal v. State of U.P. & Others",
+      "citation": "2000 Cr.L.J. 569",
+      "court": "Allahabad High Court (Full Bench)",
+      "docid": "98606",
+      "proposition": "Same standard as above (earlier Full Bench).",
+      "how_treated": "Followed.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}

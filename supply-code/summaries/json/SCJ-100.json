@@ -1,0 +1,144 @@
+{
+  "case_id": "SCJ-100",
+  "title": "Paschimanchal Vidyut Vitran Nigam Ltd. v. Raman Ispat Private Limited & Ors.",
+  "neutral_citation": "2023 INSC 625",
+  "court": "Supreme Court of India",
+  "bench": "Two-Judge Bench",
+  "coram": "Dipankar Datta & S. Ravindra Bhat, JJ. (delivered by Bhat, J.)",
+  "date_of_judgment": "2023-07-17",
+  "date_display": "17 July 2023",
+  "docket": "Civil Appeal No. 7976 of 2019",
+  "disposition": "Appeal dismissed, subject to a direction that the liquidator decide PVVNL's claim within 10 weeks",
+
+  "headnote": "This is the authoritative Supreme Court ruling underlying the NCLT/NCLAT decision cited (as persuasive authority) in SCJ-090 (Narendra Singh Panwar v. PVVNL) and directly refines this corpus's IBC/electricity-arrears doctrinal cluster. Section 238 of the Insolvency and Bankruptcy Code, 2016 overrides ss.173 and 174 of the Electricity Act, 2003 (both non-obstante provisions) — the special-law-prevails maxim does not save the 2003 Act's recovery mechanism from the later, equally special IBC once liquidation has commenced; a distribution licensee (even one with government shareholding) cannot bypass the IBC's collective liquidation process and independently attach/auction a corporate debtor's property for electricity dues under ss.173/174 or the U.P. Electricity Supply Code's Clause 4.3/6.15 recovery mechanism. Electricity dues do not automatically fall within the 'government dues' category (Section 53(1)(e)/(f) IBC) merely because the licensee has government shareholding, since the licensee remains a distinct juristic entity carrying on a liberalised, privately-contestable activity — its dues, however, may still be a 'secured interest' (and hence rank as a secured creditor in the Section 53 waterfall) if such security was created by operation of law or contract, as concurrently found by the NCLT and NCLAT on the facts here (an agreement clause making outstanding dues 'a charge on the assets'). State Tax Officer v. Rainbow Papers (recognising a statutory first-charge provision as creating secured-creditor status) is confined to its facts — it did not consider the Section 53 waterfall mechanism and arose in a resolution-plan (not liquidation) context, and cannot be read to elevate government/quasi-government dues above the priorities Parliament deliberately fixed.",
+
+  "holding_units": [
+    {
+      "provision": "EA2003::173",
+      "code": "Electricity Act, 2003 (ss.173, 174) vis-a-vis Insolvency and Bankruptcy Code, 2016 (s.238, s.53 waterfall mechanism)",
+      "clause": "ss.173/174 (non-obstante overriding clauses) vis-a-vis IBC s.238 (later, overriding non-obstante clause) and s.53 (liquidation waterfall)",
+      "topic": "IBC s.238 overrides the Electricity Act's ss.173/174 recovery mechanism once liquidation has commenced; a distribution licensee cannot independently attach/auction a corporate debtor's property for electricity dues outside the IBC process, and its dues do not automatically rank as 'government dues' merely due to state shareholding, though they may be a 'secured interest' on the facts",
+      "type": "supply_code",
+      "question": "(a) Do ss.173/174 of the Electricity Act, 2003 (and the Clause 4.3/6.15 Supply Code recovery mechanism) survive/override the IBC once a corporate debtor-consumer enters liquidation, permitting the licensee to independently attach and auction the debtor's property for electricity dues? (b) Do a licensee's electricity dues rank as 'government dues' under s.53(1)(e)/(f) IBC by virtue of government shareholding in the licensee? (c) Are electricity dues automatically a 'secured interest' under the IBC?",
+      "holding": "(a) No — s.238 of the IBC, being the later special enactment expressly covering corporate insolvency/liquidation, overrides ss.173/174 of the Electricity Act, 2003 despite the latter's non-obstante clauses; once liquidation commences, the licensee cannot independently attach or auction the corporate debtor's property outside the IBC's collective process, and the District Collector's attachment/auction notice for electricity dues was accordingly set aside, with the property released to the liquidator per the NCLT/NCLAT's order. (b) No — dues payable to a distribution licensee, even one with government shareholding, do not fall within s.53(1)(f)'s 'government dues' description, since such licensees are distinct juristic entities carrying on a liberalised activity open to private participation, and are not 'the State Government' merely by virtue of shareholding or historical function. (c) Not automatically — but on the facts here, given the supply agreement's clause making outstanding dues 'a charge on the assets of the company' and the concurrent, unchallenged NCLT/NCLAT findings that PVVNL was a secured creditor, PVVNL's claim proceeds within the s.53 waterfall as a secured creditor's claim (not outside/above the IBC process), to be verified and processed by the liquidator within 10 weeks. State Tax Officer v. Rainbow Papers, which treated a statutory first-charge as automatically conferring secured-creditor priority, was confined to its facts — it neither considered the s.53 waterfall nor arose in a liquidation (as opposed to resolution-plan) context, and cannot be extended to elevate electricity/quasi-government dues above Parliament's deliberately structured priority.",
+      "limiting_facts": "PVVNL supplied electricity to the corporate debtor (Raman Ispat) under a 2010 agreement whose Clause 5 stated outstanding dues would be 'a charge on the assets of the company'; PVVNL attached the debtor's properties (2016) for unpaid dues of ~Rs. 4.32 crore; the debtor entered CIRP (unsuccessful) and then liquidation; the liquidator sought release of the attached property from the District Collector/Tehsildar to enable sale and distribution under the IBC; NCLT and NCLAT (2018-2019) directed release, holding PVVNL an operational/secured creditor subject to the IBC process rather than an independent enforcement right under ss.173/174.",
+      "paras": "paras 6-58"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "ibc-s238-overrides-electricity-act-recovery-mechanism-in-liquidation",
+      "application": "Once liquidation commences, IBC s.238 overrides the Electricity Act's ss.173/174 non-obstante recovery provisions and the Supply Code's Clause 4.3/6.15 mechanism; a licensee cannot independently attach/auction a corporate debtor's assets for electricity dues outside the IBC's collective process — directly confirms and elevates to Supreme Court authority the qualification to the arrears-run-with-the-premises doctrine already tracked via SCJ-054 (Dharti Agro Industries) and the NCLT/NCLAT ruling cited in SCJ-090 (Narendra Singh Panwar).",
+      "lead_authorities": [
+        {"name": "Sundaresh Bhatt, Liquidator of ABG Shipyard v. Central Board of Indirect Taxes and Customs", "docid": ""},
+        {"name": "Duncans Industries Ltd. v. AJ Agrochem", "docid": "132105056"}
+      ],
+      "paras": "paras 45-52"
+    },
+    {
+      "tag": "government-shareholding-does-not-make-licensee-dues-government-dues",
+      "application": "A distribution licensee's dues do not automatically rank as 'government dues' under s.53(1)(e)/(f) IBC merely because of state shareholding in the licensee; the licensee remains a distinct juristic entity in a liberalised, privately-contestable sector.",
+      "lead_authorities": [{"name": "Municipal Commissioner of Dum Dum Municipality v. Indian Tourism Development Corporation", "docid": "1983849"}],
+      "paras": "paras 45-47"
+    },
+    {
+      "tag": "electricity-dues-not-automatically-a-secured-interest",
+      "application": "Electricity dues are not automatically a 'secured interest'/first charge under the IBC merely by virtue of a Supply Code recovery-as-arrears-of-land-revenue mechanism; secured-creditor status depends on whether a security interest was actually created (by contract clause or operation of law) and, if so, the claim is processed within the s.53 waterfall, not outside/above the IBC.",
+      "lead_authorities": [{"name": "State Tax Officer v. Rainbow Papers Ltd.", "docid": "186684406"}],
+      "paras": "paras 48-53"
+    }
+  ],
+
+  "not_decided": [
+    {
+      "point": "Effect of non-registration of PVVNL's charge under s.77, Companies Act, 2013 on its secured-creditor status",
+      "note": "Not ruled on — the Court declined to disturb the concurrent NCLT/NCLAT findings that PVVNL was a secured creditor, given later factual developments (liquidator's own application recognising PVVNL as a secured operational creditor).",
+      "docid": "",
+      "paras": "paras 54-56"
+    }
+  ],
+
+  "authorities": [
+    {
+      "name": "State Tax Officer v. Rainbow Papers Ltd.",
+      "citation": "2022 (13) SCR 808",
+      "court": "Supreme Court",
+      "docid": "186684406",
+      "proposition": "A statutory first-charge provision (s.48, Gujarat VAT Act) makes the State a 'secured creditor' under the IBC, since the definition of 'secured creditor' does not exclude government/statutory charges; a resolution plan excluding such dues is not IBC-compliant and not binding on the State.",
+      "how_treated": "Distinguished and confined to its facts — did not consider or apply the s.53 waterfall mechanism, arose in a resolution-plan (not liquidation) context, and cannot be extended to give government/quasi-government dues priority over the deliberately structured s.53 hierarchy.",
+      "cited_by": "Petitioner (PVVNL)",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "Sundaresh Bhatt, Liquidator of ABG Shipyard v. Central Board of Indirect Taxes and Customs",
+      "citation": "2022 SCC OnLine SC 1101",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "IBC prevails over the Customs Act once a moratorium is imposed; the customs authority retains only a limited jurisdiction to assess duty, not to independently recover via sale/confiscation outside the IBC process.",
+      "how_treated": "Applied by analogy to hold IBC s.238 similarly overrides the Electricity Act's ss.173/174 independent-recovery mechanism.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Duncans Industries Ltd. v. AJ Agrochem",
+      "citation": "(2019) 9 SCC 725",
+      "court": "Supreme Court",
+      "docid": "132105056",
+      "proposition": "A requirement of prior Central Government consent under s.16G of the Tea Act, 1953 for winding-up proceedings is overridden by the IBC.",
+      "how_treated": "Cited as a parallel instance of IBC's overriding primacy over a specialised sectoral statute.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Municipal Commissioner of Dum Dum Municipality v. Indian Tourism Development Corporation",
+      "citation": "1995 (5) SCC 251",
+      "court": "Supreme Court",
+      "docid": "1983849",
+      "proposition": "Statutory corporations (including Electricity Boards under the Electricity Supply Act, 1948) are distinct juristic entities with their own funds/properties, capable of contracting and being creditors/debtors independent of the Government even where government-owned.",
+      "how_treated": "Applied to hold PVVNL's dues are not 'government dues' merely because of state shareholding.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Board of Trustees, Port of Mumbai v. Indian Oil Corporation",
+      "citation": "1998 (2) SCR 774",
+      "court": "Supreme Court",
+      "docid": "569235",
+      "proposition": "Port dues under the Major Port Trust Act, 1963 override all other claims, including secured creditors, in liquidation.",
+      "how_treated": "Held inapplicable/distinguishable in light of the IBC's later, comprehensive waterfall mechanism under s.53.",
+      "cited_by": "Petitioner (PVVNL)",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "K. Shashidhar v. Indian Overseas Bank",
+      "citation": "2019 (3) SCR 845",
+      "court": "Supreme Court",
+      "docid": "28868630",
+      "proposition": "Once the conditions of s.33 IBC are met, the Adjudicating Authority must initiate liquidation as a matter of course, with no discretion to evaluate the CoC's commercial decision.",
+      "how_treated": "Cited for the mandatory, non-discretionary nature of liquidation initiation under s.33.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Committee of Creditors of Essar Steel India Ltd. v. Satish Kumar Gupta & Ors.",
+      "citation": "2019 (16) SCR 275",
+      "court": "Supreme Court",
+      "docid": "115468342",
+      "proposition": "NCLT possesses no discretionary jurisdiction over initiation of liquidation proceedings once the statutory conditions under ss.30, 31(2), 60(5)(c) IBC are met.",
+      "how_treated": "Cited alongside K. Shashidhar for the mandatory liquidation-trigger point.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Member, Board of Revenue v. Anthony Paul Benthall",
+      "citation": "(1955) 2 SCR 842",
+      "court": "Supreme Court",
+      "docid": "1553487",
+      "proposition": "When a statute uses two different expressions in consecutive provisions, they cannot be construed as having the same meaning.",
+      "how_treated": "Applied to hold 'secured creditor' dues and 'government dues' are distinct categories under s.53 IBC, not interchangeable.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}

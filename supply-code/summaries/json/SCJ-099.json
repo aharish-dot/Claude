@@ -1,0 +1,45 @@
+{
+  "case_id": "SCJ-099",
+  "title": "Paschimanchal Vidyut Vitran Nigam Ltd. & Ors. v. M/s DVS Steels & Alloys Pvt. Ltd. & Ors.",
+  "neutral_citation": "(2009) 1 SCC 210",
+  "court": "Supreme Court of India",
+  "bench": "Two-Judge Bench",
+  "coram": "Lokeshwar Singh Panta & R.V. Raveendran, JJ. (delivered by Raveendran, J.)",
+  "date_of_judgment": "2008-11-07",
+  "date_display": "7 November 2008",
+  "docket": "Civil Appeal No. 6565 of 2008 (arising out of SLP (C) No. 14003 of 2007)",
+  "disposition": "Appeal allowed; High Court order set aside, writ petition of the purchaser-consumer dismissed",
+
+  "headnote": "This is the foundational Supreme Court authority (cited throughout this corpus's arrears/transferee-liability cluster, e.g. SCJ-090, SCJ-098) on the interplay between the general law of contract and Clause 4.3(g)/(h) of the Electricity Supply Code. Electricity dues do not constitute a 'charge' on the premises; in the absence of a contract to the contrary, a purchaser/transferee cannot be sued or subjected to revenue recovery for a predecessor's electricity dues, since the supply contract binds only the distributor and the consumer with whom it has privity. However, this legal position affords no practical protection to a purchaser seeking a *fresh* connection: the distributor may lawfully stipulate, as a condition for supplying electricity to the premises (fresh connection or reconnection), that the predecessor's arrears be cleared first — such a stipulation (e.g. Clause 4.3(g)/(h), requiring pro-rata clearance of dues on a legally sub-divided property before a new connection is given) is not unreasonable or arbitrary and is a legitimate safeguard against consumers absconding via property transfer to evade dues. A consumer who voluntarily pays such pro-rata dues as a condition for a fresh connection, before any injunction restrains the demand, cannot later claim a refund merely because a regulatory Commission subsequently directs the distributor not to demand further such payments from future connection-seekers, absent an express refund direction; the amount is refundable only if the original consumer's disputed liability is ultimately negated or actually cleared.",
+
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.3(g)",
+      "code": "U.P. Electricity Supply Code, 2005 (Clause 4.3(g)/(h)) read with general contract law",
+      "clause": "4.3(g)/(h) (pro-rata dues on sub-divided premises as a condition for a new connection)",
+      "topic": "Electricity dues are not a charge on the premises and cannot be recovered from a transferee absent contract/stipulation, but a distributor may lawfully condition a fresh connection to a sub-divided plot on pro-rata clearance of the predecessor's arrears",
+      "type": "supply_code",
+      "question": "(a) Can a distributor recover a predecessor-consumer's electricity dues from a purchaser of (part of) the premises by suit or revenue recovery? (b) Can the distributor instead condition the grant of a fresh connection to the purchaser on pro-rata clearance of those dues? (c) Is a purchaser who voluntarily paid such pro-rata dues (before any injunction) entitled to a refund once a Commission later directs the distributor not to demand such payments from future applicants?",
+      "holding": "(a) No — electricity dues do not constitute a charge on the premises; a transferee with no privity of contract cannot be sued or subjected to revenue recovery for a predecessor's dues, absent a contract to the contrary. (b) Yes — this legal position affords no practical protection to a purchaser seeking a fresh connection: the distributor may validly stipulate, as a condition for supply, that a predecessor's arrears (or, for a legally sub-divided property, the pro-rata share under Clause 4.3(g)/(h)) be cleared first; such a condition is not unreasonable or arbitrary and legitimately protects the distributor against consumers evading dues by selling and relocating. (c) No — the purchaser here voluntarily paid the pro-rata dues as a condition for connection before any Commission order or injunction; a subsequent Commission direction restraining the distributor from *demanding* such payments from future applicants (issued because the predecessor furnished a bank guarantee for its disputed liability) did not itself direct refund of amounts already paid, and the purchaser — having paid pursuant to its own undertaking to obtain connection — is estopped from reclaiming it except on the agreed terms (i.e., refundable only if the predecessor's liability is ultimately negated or the predecessor actually clears the dues).",
+      "limiting_facts": "The third respondent (original consumer) disputed a supplementary bill of Rs. 105.78 lakh (HV1-vs-HV2 tariff dispute) in pending litigation; it later sub-divided its plot into 129 smaller plots and sold one to the first respondent, who was granted a fresh connection conditioned on paying Rs. 8,63,451 (pro-rata dues), which it paid under an undertaking to refund if the underlying dispute were resolved in the original consumer's favour. The Regulatory Commission later directed the distributor to accept a bank guarantee from the original consumer and release future connections to other plot-purchasers without further pro-rata demands; the first respondent then sought a refund of its already-paid amount, which the High Court granted but the Supreme Court reversed.",
+      "paras": "paras 8-14"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "arrears-run-with-the-premises",
+      "application": "The foundational SC statement of the doctrine underlying this corpus's arrears/transferee-liability cluster (K.C. Ninan/SCJ-037 line, and later applied/qualified in SCJ-054, SCJ-063, SCJ-090, SCJ-098): dues are not a charge on the property in the absence of a stipulation, but a distributor may lawfully condition supply/reconnection on clearance of a predecessor's dues via Clause 4.3(g)/(h)-type provisions, without that being arbitrary or unreasonable.",
+      "lead_authorities": [],
+      "paras": "paras 9-11"
+    },
+    {
+      "tag": "voluntary-payment-under-undertaking-not-refundable-absent-express-direction",
+      "application": "A consumer who voluntarily pays disputed dues as a condition for obtaining a benefit (here, a fresh connection), pursuant to its own undertaking, cannot later claim a refund based on a subsequent regulatory order that merely restrains future demands, absent an express refund direction — the payment remains refundable only per the terms of the original undertaking.",
+      "lead_authorities": [],
+      "paras": "paras 13-14"
+    }
+  ],
+  "not_decided": [],
+  "authorities": []
+}

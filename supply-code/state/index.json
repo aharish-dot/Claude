@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 99,
+  "next_seq": 107,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -592,6 +592,54 @@
       "case_id": "SCJ-098",
       "source_basename": "Palika Towns Llp vs State Of U P And 2 Others on 27 May, 2022",
       "title": "Palika Towns LLP v. State of U.P. & 2 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-099",
+      "source_basename": "Paschimanchal Vidyut Vitran ... vs MS Dvs Steels & Alloys Pvt.Ltd.& Ors on 7 November, 2008",
+      "title": "Paschimanchal Vidyut Vitran Nigam Ltd. & Ors. v. M/s DVS Steels & Alloys Pvt. Ltd. & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-100",
+      "source_basename": "Paschimanchal Vidyut Vitran Nigam Ltd. vs Raman Ispat Private Limited on 17 July, 2023",
+      "title": "Paschimanchal Vidyut Vitran Nigam Ltd. v. Raman Ispat Private Limited & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-101",
+      "source_basename": "Pawan Kumar Agarwal SO M.P. Agarwal vs State Of U.P. Through Secretary, ... on 12 October, 2007",
+      "title": "Pawan Kumar Agarwal s/o M.P. Agarwal v. State of U.P. thru. Secretary & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-102",
+      "source_basename": "Pawan Kumar Laur vs State Of U.P. & Others on 30 November, 2011",
+      "title": "Pawan Kumar Laur v. State of U.P. & Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-103",
+      "source_basename": "Prem Singh vs State Of U.P. And 2 Others on 26 March, 2021",
+      "title": "Prem Singh v. State of U.P. & 2 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-104",
+      "source_basename": "Priy Shankar Pandey vs State Of Up And 4 Others on 21 October, 2024",
+      "title": "Priy Shankar Pandey v. State of U.P. & 4 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-105",
+      "source_basename": "Priya Prem vs Uttar Pradesh Power Corporation ... on 24 April, 2025",
+      "title": "Priya Prem v. Uttar Pradesh Power Corporation Ltd. & 4 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-106",
+      "source_basename": "Ptc India Ltd vs Central Electricity Reg. Comm. ... on 15 March, 2010",
+      "title": "PTC India Ltd. v. Central Electricity Regulatory Commission, thr. Secy.",
       "status": "done"
     }
   ]
