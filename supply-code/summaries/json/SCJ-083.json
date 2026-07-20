@@ -1,0 +1,64 @@
+{
+  "case_id": "SCJ-083",
+  "title": "Mohamdabad Cold Storage Private Ltd. (& Anr.) v. Dakshinanchal Vidyut Vitran Nigam Ltd. & Ors.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Amitava Lala & Shishir Kumar, JJ.",
+  "date_of_judgment": "2007-07-18",
+  "date_display": "18 July 2007",
+  "docket": "Writ Petition (unnumbered order)",
+  "disposition": "Writ petition dismissed as premature; petitioner relegated to Clause 5.6 meter-testing procedure / Electrical Inspector, without prejudice",
+
+  "headnote": "A supplementary bill raised on account of an allegedly defective transformer is a 'disputed bill' within Clause 6.5(b) of the U.P. Electricity Supply Code, 2005 despite the clause's heading referring only to 'Disputed Bills and Arrears'; a marginal/clause heading does not confine its substantive scope. Since the bill's correctness turns on the accuracy of the meter/instrument, the consumer must first invoke the Clause 5.6 meter-testing procedure (and, if unresolved, the Electrical Inspector under s.162 of the Electricity Act, 2003 — the statutory successor to the Electrical Inspector's adjudicatory role recognised under the Indian Electricity Act, 1910 in Bombay Electric Supply and Transport Undertaking v. Laffans (India) Pvt. Ltd.) before invoking writ jurisdiction; a challenge to a supplementary bill grounded in a disputed meter/transformer reading is premature if brought directly to the writ court without first exhausting that statutory testing/adjudication route.",
+
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5(b)",
+      "code": "U.P. Electricity Supply Code, 2005 (Clauses 5.5, 5.6, 5.6(c)(iii), 6.5(b)) read with s.162, Electricity Act, 2003",
+      "clause": "6.5(b) (Disputed Bills and Arrears) read with 5.6 (meter testing)",
+      "topic": "A supplementary bill grounded in a disputed/defective meter or transformer reading is a 'disputed bill' under Clause 6.5(b); the consumer must first invoke the Clause 5.6 meter-testing procedure (and thereafter the Electrical Inspector) rather than approaching the writ court directly",
+      "type": "supply_code",
+      "question": "Is a challenge to a supplementary bill (raised on the basis of an allegedly defective transformer) maintainable directly in writ jurisdiction, or must the consumer first invoke the Clause 5.6 meter-testing procedure and the Electrical Inspector?",
+      "holding": "A supplementary bill founded on a disputed meter/transformer reading falls within Clause 6.5(b)'s 'disputed bills' notwithstanding its heading; since the bill cannot be assessed without first resolving the accuracy of the underlying meter/instrument reading, the consumer must invoke the Clause 5.6 (and 5.6(c)(iii)) meter-testing procedure, and if unresolved, approach the Electrical Inspector under s.162 of the Electricity Act, 2003 (the modern successor, per Bombay Electric Supply and Transport Undertaking v. Laffans (India) Pvt. Ltd., to the Electrical Inspector's statutory-arbitration role under the 1910 Act). The writ petition, filed without first exhausting this route, is premature and dismissed without costs, without prejudice to the petitioners' right to raise their grievance before the authority concerned or the Electrical Inspector.",
+      "limiting_facts": "A supplementary bill of Rs. 2,54,033/- was raised with a disconnection threat; the petitioners paid the amount under protest and disputed it on the ground that the transformer was admittedly defective, without first invoking the Clause 5.6 testing procedure.",
+      "paras": "paras 2-5"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "clause-heading-not-a-limit-on-substantive-scope",
+      "application": "Clause 6.5(b)'s heading ('Disputed Bills and Arrears') does not confine its scope; a supplementary bill grounded in a disputed meter reading is a disputed bill within the clause — resonates with the marginal-heading-not-an-aid-to-construction principle already tracked in this corpus (SCJ-059/060, Chandler v. DPP line).",
+      "lead_authorities": [],
+      "paras": "para 2"
+    },
+    {
+      "tag": "meter-dispute-must-exhaust-clause-5.6-before-writ",
+      "application": "Where a billing dispute turns on the accuracy of a meter/transformer reading, the consumer must first invoke the Clause 5.6 testing procedure (and thereafter the Electrical Inspector) rather than approach the writ court directly; the writ challenge is premature until that statutory route is exhausted.",
+      "lead_authorities": [{"name": "Bombay Electric Supply and Transport Undertaking v. Laffans (India) Pvt. Ltd.", "docid": "316379"}],
+      "paras": "paras 2-3"
+    }
+  ],
+
+  "not_decided": [
+    {
+      "point": "Correctness/quantum of the supplementary bill and whether the transformer defect in fact caused inaccurate billing",
+      "note": "Not decided; left to the Clause 5.6 testing process and, if invoked, the Electrical Inspector.",
+      "docid": "",
+      "paras": "para 3"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Bombay Electric Supply and Transport Undertaking v. Laffans (India) Pvt. Ltd. & Anr.",
+      "citation": "2005 (3) AWC 2133 (SC)",
+      "court": "Supreme Court",
+      "docid": "316379",
+      "proposition": "Under the Indian Electricity Act, 1910, the Electrical Inspector is the appropriate person to adjudicate a dispute regarding meter accuracy underlying a bill, functioning as a form of independent statutory arbitration.",
+      "how_treated": "Applied by analogy to hold that s.162 of the Electricity Act, 2003 (Chief Electrical Inspector/Electrical Inspector) is the modern successor forum for such meter-accuracy disputes.",
+      "cited_by": "Petitioner",
+      "treatment": "Followed"
+    }
+  ]
+}

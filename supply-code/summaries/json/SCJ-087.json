@@ -1,0 +1,52 @@
+{
+  "case_id": "SCJ-087",
+  "title": "Mrs Rajendra Kumar Sharma v. State of U.P. & 3 Others",
+  "neutral_citation": "2024:AHC:93673-DB",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta & Kshitij Shailendra, JJ.",
+  "date_of_judgment": "2024-05-23",
+  "date_display": "23 May 2024",
+  "docket": "WRIT - C No. 13030 of 2024",
+  "disposition": "Writ petition disposed of; electricity supply to be restored on deposit of Rs. 25,00,000/- pending fresh final assessment",
+
+  "headnote": "A final assessment order under Section 126 of the Electricity Act, 2003 that does not deal with the consumer's objections, does not disclose that any hearing date was fixed, and does not record findings supporting a theft conclusion, is passed in breach of Clauses 6.8 and 8.1 of the U.P. Electricity Supply Code, 2005; the licensee's own two-member inquiry committee's finding of such procedural breach warrants quashing the coercive recovery, initiation of disciplinary action against the erring assessing officer, and a fresh assessment after due notice and hearing — with electricity supply restored in the interim upon the consumer furnishing adequate security.",
+
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8",
+      "code": "Electricity Act, 2003 (s.126) read with U.P. Electricity Supply Code, 2005 (Clauses 6.8, 8.1)",
+      "clause": "6.8, 8.1 (procedural requirements for a s.126 final assessment)",
+      "topic": "A s.126 final assessment order that does not address the consumer's objections, fix a hearing date, or record theft findings breaches Clauses 6.8/8.1; the recovery citation founded on it must be withdrawn and a fresh assessment made after due notice and hearing",
+      "type": "supply_code",
+      "question": "Can a final assessment order under s.126 (and the recovery citation issued in pursuance of it) stand where it fails to deal with the consumer's objections, fix a hearing date, or record findings on the alleged theft, in breach of Clauses 6.8/8.1 of the Supply Code?",
+      "holding": "No — the licensee's own two-member inquiry committee found that Clauses 6.8 and 8.1 of the Supply Code had not been followed by the assessing Executive Engineer; the recovery citation founded on the impugned final assessment was directed to be cancelled, a fresh notice with objections and a hearing was issued, disciplinary show-cause proceedings were initiated against the officer, and a fresh final assessment order was to be passed within ten days. Pending that fresh assessment, the Court directed restoration of electricity supply on the petitioner depositing Rs. 25,00,000/- as security, subject to the outcome of the fresh assessment.",
+      "limiting_facts": "The petitioner's electricity supply was disconnected pursuant to a final assessment order dated 24.6.2023 (theft-based) and a recovery citation dated 28.10.2023; on the Court's repeated queries about procedural compliance, the licensee's Managing Director's affidavit (via a two-member inquiry committee) admitted the Clause 6.8/8.1 breaches.",
+      "paras": "paras 1-8"
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "s126-procedural-strictness-notice-and-hearing",
+      "application": "A final assessment under s.126 must engage with the consumer's objections and record findings after a fixed hearing date, per Clauses 6.8/8.1; failure to do so vitiates the assessment and any recovery founded on it — reinforcing the procedural-strictness line already tracked in this corpus for theft/final-assessment orders (e.g. SCJ-069, SCJ-071).",
+      "lead_authorities": [],
+      "paras": "paras 2, 4"
+    },
+    {
+      "tag": "interim-restoration-on-security-pending-fresh-assessment",
+      "application": "Where a defective assessment is set aside for procedural non-compliance, the Court may order interim restoration of supply on the consumer furnishing security, subject to the outcome of a properly conducted fresh assessment.",
+      "lead_authorities": [],
+      "paras": "paras 6-7"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner in fact committed theft of electricity",
+      "note": "Not decided; to be determined afresh by the assessing authority after due notice and hearing.",
+      "docid": "",
+      "paras": "para 4"
+    }
+  ],
+  "authorities": []
+}

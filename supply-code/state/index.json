@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 83,
+  "next_seq": 91,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -496,6 +496,54 @@
       "case_id": "SCJ-082",
       "source_basename": "Mohamad Aslam vs State Of U.P. 2 Ors on 4 February, 2015",
       "title": "Mohamad Aslam v. State of U.P. & 2 Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-083",
+      "source_basename": "Mohamdabad Cold Storate Private Ltd. (A ... vs Dakshinanchal Vidut Vitran Nigam Ltd. ... on 18 July, 2007",
+      "title": "Mohamdabad Cold Storage Private Ltd. (& Anr.) v. Dakshinanchal Vidyut Vitran Nigam Ltd. & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-084",
+      "source_basename": "Mohd Usman Ansari vs Chairman, Uttar Pradesh Power ... on 5 August, 2025",
+      "title": "Mohd Usman Ansari v. Chairman, Uttar Pradesh Power Corporation Ltd. & 4 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-085",
+      "source_basename": "Mohd. Ashfaq Khan @ Ashfaq Khan vs State Of U.P. Thru. Addl. Chief Secy. ... on 18 February, 2025",
+      "title": "Mohd. Ashfaq Khan @ Ashfaq Khan v. State of U.P. thru. Addl. Chief Secy., Energy Deptt., Lucknow & 3 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-086",
+      "source_basename": "Mother India Refrigeration Industries ... vs Dakshinanchal Vidut Vitran Nigam Ltd. ... on 18 July, 2007",
+      "title": "Mother India Refrigeration Industries (& Anr.) v. Dakshinanchal Vidyut Vitran Nigam Ltd. & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-087",
+      "source_basename": "Mrs Rajendra Kumar Sharma vs State Of Up And 3 Others on 23 May, 2024",
+      "title": "Mrs Rajendra Kumar Sharma v. State of U.P. & 3 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-088",
+      "source_basename": "Mukesh Kumar vs State Of U.P. on 22 September, 2017",
+      "title": "Mukesh Kumar v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-089",
+      "source_basename": "Nadeem vs State Of U.P. And 4 Others on 23 July, 2024",
+      "title": "Nadeem v. State of U.P. & 4 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-090",
+      "source_basename": "Narendra Singh Panwar vs Pashchimanchal Vidyut Vitran Nigam ... on 12 January, 2023",
+      "title": "Narendra Singh Panwar v. Pashchimanchal Vidyut Vitran Nigam Ltd. & 2 Others",
       "status": "done"
     }
   ]

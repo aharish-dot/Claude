@@ -1,0 +1,56 @@
+{
+  "case_id": "SCJ-086",
+  "title": "Mother India Refrigeration Industries (& Anr.) v. Dakshinanchal Vidyut Vitran Nigam Ltd. & Ors.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Amitava Lala & Shishir Kumar, JJ.",
+  "date_of_judgment": "2007-07-18",
+  "date_display": "18 July 2007",
+  "docket": "Writ Petition (unnumbered order)",
+  "disposition": "Writ petition dismissed as premature; petitioner relegated to Clause 5.6 meter-testing procedure / Electrical Inspector, without prejudice",
+
+  "headnote": "Near-verbatim companion order to SCJ-083 (Mohamdabad Cold Storage Private Ltd. v. Dakshinanchal Vidyut Vitran Nigam Ltd.), decided the same day by the same Bench: a supplementary bill grounded in an admittedly defective transformer is a 'disputed bill' under Clause 6.5(b) of the U.P. Electricity Supply Code, 2005 (the clause's heading does not confine its scope), and the consumer must first invoke the Clause 5.6 meter-testing procedure (and thereafter the Electrical Inspector under s.162 of the Electricity Act, 2003, per Bombay Electric Supply and Transport Undertaking v. Laffans (India) Pvt. Ltd.) before approaching the writ court.",
+
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5(b)",
+      "code": "U.P. Electricity Supply Code, 2005 (Clauses 5.5, 5.6, 5.6(c)(iii), 6.5(b)) read with s.162, Electricity Act, 2003",
+      "clause": "6.5(b) (Disputed Bills and Arrears) read with 5.6 (meter testing)",
+      "topic": "Companion ruling to SCJ-083 — identical holding on a parallel supplementary-bill dispute grounded in a defective transformer",
+      "type": "supply_code",
+      "holding": "As in SCJ-083: a supplementary bill founded on a disputed/defective transformer reading is a 'disputed bill' under Clause 6.5(b); the consumer must first invoke the Clause 5.6 meter-testing procedure and, if unresolved, the Electrical Inspector under s.162 of the Electricity Act, 2003, rather than approach the writ court directly. The writ petition is premature and dismissed without costs, without prejudice to the petitioners' right to raise their grievance before the authority concerned or the Electrical Inspector.",
+      "limiting_facts": "A supplementary bill of Rs. 2,54,033/- was raised with a disconnection threat; the petitioners paid the amount under protest, disputing it on the ground of an admittedly defective transformer — a companion writ petition to SCJ-083, heard and decided together by the same Bench.",
+      "paras": "paras 2-5",
+      "flag": "Near-verbatim companion order to SCJ-083; recorded compactly to avoid duplicating the identical reasoning."
+    }
+  ],
+
+  "principle_tags": [
+    {
+      "tag": "clause-heading-not-a-limit-on-substantive-scope",
+      "application": "Companion application of the same principle as SCJ-083.",
+      "lead_authorities": [],
+      "paras": "para 2"
+    },
+    {
+      "tag": "meter-dispute-must-exhaust-clause-5.6-before-writ",
+      "application": "Companion application of the same principle as SCJ-083.",
+      "lead_authorities": [{"name": "Bombay Electric Supply and Transport Undertaking v. Laffans (India) Pvt. Ltd.", "docid": "316379"}],
+      "paras": "paras 2-3"
+    }
+  ],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "Bombay Electric Supply and Transport Undertaking v. Laffans (India) Pvt. Ltd. & Anr.",
+      "citation": "2005 (3) AWC 2133 (SC)",
+      "court": "Supreme Court",
+      "docid": "316379",
+      "proposition": "Under the Indian Electricity Act, 1910, the Electrical Inspector is the appropriate person to adjudicate a dispute regarding meter accuracy underlying a bill, functioning as a form of independent statutory arbitration.",
+      "how_treated": "Applied by analogy to hold that s.162 of the Electricity Act, 2003 is the modern successor forum for such meter-accuracy disputes (companion citation to SCJ-083).",
+      "cited_by": "Petitioner",
+      "treatment": "Followed"
+    }
+  ]
+}
