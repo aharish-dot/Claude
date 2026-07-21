@@ -1,0 +1,49 @@
+{
+  "case_id": "SCJ-238",
+  "title": "Smt. Mamata Verma v. State of U.P. & 3 Others",
+  "neutral_citation": "2017 SCC OnLine All 776",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "V.K. Shukla, J. & Ashok Kumar, J.",
+  "date_of_judgment": "2017-03-10",
+  "date_display": "10 March 2017",
+  "docket": "Writ-C No. 11271 of 2017",
+  "disposition": "Writ petition dismissed on the ground of alternative remedy",
+  "headnote": "Clause 6.5(b) of the U.P. Electricity Supply Code, 2005 provides a self-contained, full-fledged statutory mechanism for a consumer disputing the accuracy of a bill, and a writ petition will not be entertained where that remedy is available. Under Clause 6.5(b) the consumer may pay under protest either the sum claimed or the charges computed on the average of the preceding six months' bills (whichever is less) and file a complaint with the competent authority before the due date; the complaint must be decided within seven days, with a revised bill within seven days (and no late-payment surcharge / eligibility for timely-payment rebate) if found correct, or payment of the original bill with surcharge if found incorrect. The petitioner, disputing bills for some eight years and having had objections entertained and bills corrected earlier without paying, was relegated to the Clause 6.5(b) mechanism and the writ dismissed.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5(b)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.5(b)",
+      "topic": "Clause 6.5(b) is a self-contained mechanism for bill-accuracy disputes; writ not entertained",
+      "type": "supply_code",
+      "question": "Should the writ court direct issuance of 'correct' bills, or relegate a consumer disputing bill accuracy to the Clause 6.5(b) mechanism?",
+      "holding": "Relegate to Clause 6.5(b). That clause is a self-contained full-fledged mechanism: pay under protest the sum claimed or the six-month-average charges (whichever is less) and complain to the competent authority before the due date; the complaint is to be decided within seven days, a revised bill issued within seven days with no late-payment surcharge (and timely-payment rebate) if the complaint is correct, or the original bill enforced with surcharge if incorrect. As a statutory forum was available, the Court did not entertain the writ and dismissed it on the ground of alternative remedy, leaving the petitioner to invoke Clause 6.5(b).",
+      "limiting_facts": "Dues unpaid for about eight years; objections repeatedly entertained and bills corrected earlier but payment never made; grievance that the bills still did not match consumption.",
+      "paras": "4-7"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "billing-objection-to-executive-engineer-under-6.5",
+      "application": "Clause 6.5(b) provides a self-contained pay-under-protest-and-complain mechanism for bill-accuracy disputes; a writ is not entertained where that remedy exists.",
+      "lead_authorities": [],
+      "paras": "4-7"
+    },
+    {
+      "tag": "relegate-to-statutory-remedy",
+      "application": "A bill-accuracy dispute is dismissed in writ jurisdiction and relegated to the Clause 6.5(b) statutory forum.",
+      "lead_authorities": [],
+      "paras": "6-7"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the disputed bills were commensurate with actual consumption",
+      "note": "Left to the competent authority under the Clause 6.5(b) complaint mechanism.",
+      "docid": "",
+      "paras": "6-7"
+    }
+  ],
+  "authorities": []
+}

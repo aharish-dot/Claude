@@ -1,0 +1,59 @@
+{
+  "case_id": "SCJ-236",
+  "title": "Iftakhar Ahsan v. State of U.P. and others",
+  "neutral_citation": "2014 SCC OnLine All 81",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "A.P. Sahi, J. & Anil Kumar Agarwal, J.",
+  "date_of_judgment": "2014-01-03",
+  "date_display": "3 January 2014",
+  "docket": "Civil Misc. Writ Petition No. 71425 of 2013",
+  "disposition": "Mandamus refused; writ petition consigned to records",
+  "headnote": "Under Clause 4.4(a)(vi) of the U.P. Electricity Supply Code, 2005, the owner's consent is mandatory for a new electricity connection to an occupier/tenant, and a mandamus to grant a connection cannot issue where that consent is absent. The occupier-petitioner sought a connection relying on a temporary injunction against his landlord and on a Division Bench precedent (Rajesh Kumar Gupta v. State of U.P.) which had directed grant of a connection. The Court held that precedent turned on the provisions then in force and did not aid the petitioner, since the 2005 Code (Clause 4.4(a)(vi)), unchallenged by the petitioner, now makes the owner's consent a mandatory pre-condition; the petitioner had also not impleaded the landlord. Mandamus was refused, with liberty to approach the appropriate authority or seek remedy in the pending suit.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.4",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.4(a)(vi)",
+      "topic": "Owner's consent is a mandatory pre-condition for a new connection to an occupier/tenant",
+      "type": "supply_code",
+      "question": "Can a mandamus issue directing a new connection to an occupier/tenant without the owner's consent, relying on a pre-2005-Code precedent and a temporary injunction against the landlord?",
+      "holding": "No. Clause 4.4(a)(vi) of the 2005 Code makes the owner's consent mandatory for a new supply connection to an occupier. A pre-2005 precedent (Rajesh Kumar Gupta) decided under the then-existing provisions does not aid the petitioner, and the Code provision was neither challenged nor its consent requirement satisfied; the landlord was also not impleaded. Accordingly no mandamus could issue, and the petition was consigned to records with liberty to approach the appropriate authority or seek remedy in the pending suit.",
+      "limiting_facts": "Occupier/tenant applicant; temporary injunction against the landlord in a civil dispute; reliance on Rajesh Kumar Gupta (2005); landlord not impleaded; Clause 4.4(a)(vi) unchallenged.",
+      "paras": "(pp. 540-541)"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "owner-consent-mandatory-for-new-connection-clause-4.4",
+      "application": "A new connection to an occupier/tenant requires the owner's consent under Clause 4.4(a)(vi); absent that consent no mandamus to connect can issue.",
+      "lead_authorities": [],
+      "paras": "(pp. 540-541)"
+    },
+    {
+      "tag": "precedent-under-superseded-provisions-does-not-govern-post-2005-code",
+      "application": "A judgment delivered under the provisions in force before the 2005 Code does not aid an applicant where the Code has since introduced a new mandatory requirement.",
+      "lead_authorities": [
+        {
+          "name": "Rajesh Kumar Gupta v. State of U.P.",
+          "docid": ""
+        }
+      ],
+      "paras": "(pp. 540-541)"
+    }
+  ],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "Rajesh Kumar Gupta v. State of U.P.",
+      "citation": "2005 (1) AWC 474",
+      "court": "Allahabad High Court (Division Bench)",
+      "docid": "",
+      "proposition": "Under the provisions then in force, and in view of a temporary injunction in favour of the tenant, the electricity department could not refuse a connection to the tenant-applicant.",
+      "how_treated": "Distinguished: decided under the pre-2005-Code provisions; superseded by Clause 4.4(a)(vi) of the 2005 Code which makes the owner's consent mandatory, so it does not aid the petitioner.",
+      "how_treated_paras": "(pp. 540-541)",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished"
+    }
+  ]
+}

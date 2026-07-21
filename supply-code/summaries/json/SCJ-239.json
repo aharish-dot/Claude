@@ -1,0 +1,49 @@
+{
+  "case_id": "SCJ-239",
+  "title": "Tehsildar v. State of U.P. and others",
+  "neutral_citation": "2009 SCC OnLine All 1931 : (2009) 83 AIC 493 : (2010) 1 All LJ (NOC 84) 22",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sunil Ambwani, J. & Ran Vijai Singh, J.",
+  "date_of_judgment": "2009-07-16",
+  "date_display": "16 July 2009",
+  "docket": "C.M.W.P. No. 35103 of 2009",
+  "disposition": "Writ petition allowed; theft recovery held in abeyance until a final assessment is made",
+  "headnote": "In a theft-of-electricity case, Clause 8.1(b) of the U.P. Electricity Supply Code, 2005 requires a final assessment to be made before recovery can be initiated, even where the consumer has filed no objection to the provisional assessment; recovering on the provisional assessment alone, without a final assessment, is violative of the procedure prescribed by the Code. An FIR under Section 135 of the Electricity Act, 2003 was lodged on a checking report, and a provisional assessment was served, but the department admittedly made no final assessment before issuing a recovery notice. The Court held that Clause 8.1(b) obliges the authorised officer, after hearing (or even absent objections), to make a final assessment at 1.5 times the applicable normal tariff and record findings that the provisional assessment was served; insistence on recovery without a final assessment was impermissible. The recovery was directed to remain in abeyance until a final assessment is made.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "8.1(b) (r/w s.135, Electricity Act 2003)",
+      "topic": "A final assessment under Clause 8.1(b) is a condition precedent to theft recovery, even absent objections",
+      "type": "interplay",
+      "question": "Can a theft recovery be enforced on the provisional assessment alone where the consumer filed no objection, without a final assessment being made?",
+      "holding": "No. Clause 8.1(b) requires a final assessment to be made before recovery, even if no objection to the provisional assessment has been filed; the authorised officer must record findings that the provisional assessment was served and make the final assessment (at 1.5 times the applicable normal tariff, whichever is higher, per Clause 8.1(b)(iv)). Insisting on recovery without any final assessment violates the Code's procedure. The recovery under the notice was directed to remain in abeyance until a final assessment is made against the petitioner.",
+      "limiting_facts": "FIR under s.135 on a checking report (7.5 HP motor connected by three-core cable); provisional assessment served, opportunity given, but final assessment admittedly not made before the recovery notice.",
+      "paras": "5-9"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "no-recovery-without-final-assessment-clause-8.1(b)",
+      "application": "Theft recovery cannot precede a final assessment under Clause 8.1(b); a final assessment must be made (recording service of the provisional assessment) even where the consumer files no objection.",
+      "lead_authorities": [],
+      "paras": "5-9"
+    },
+    {
+      "tag": "opportunity-before-final-assessment",
+      "application": "Clause 8.1(b) contemplates notice, hearing and a speaking final assessment in theft cases before recovery is initiated.",
+      "lead_authorities": [],
+      "paras": "5-8"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "The correctness/quantum of any final assessment for the alleged theft",
+      "note": "To be determined when the department makes the final assessment under Clause 8.1(b); recovery stayed until then.",
+      "docid": "",
+      "paras": "9"
+    }
+  ],
+  "authorities": []
+}

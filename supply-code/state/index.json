@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 232,
+  "next_seq": 240,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -1390,6 +1390,54 @@
       "case_id": "SCJ-231",
       "source_basename": "080_Vineet_Plastics_Ltd._v._Purvanchal_Vidyut_Vitran_Nigam_Ltd.",
       "title": "Vineet Plastics Ltd. v. Purvanchal Vidyut Vitran Nigam Ltd. and Another",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-232",
+      "source_basename": "081_Udayveer_Singh_v._State_of_U.P.",
+      "title": "Udayveer Singh v. State of U.P. and 3 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-233",
+      "source_basename": "082_Rishipal_v._State_of_U.P.",
+      "title": "Rishipal v. State of U.P. [OFF-TOPIC: criminal bail, s.376 IPC]",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-234",
+      "source_basename": "083_Shashi_Bhushan_Singh_v._State_of_U.P.",
+      "title": "Shashi Bhushan Singh v. State of U.P. and Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-235",
+      "source_basename": "084_Foran_Singh_v._Executive_Engineer_Dakshiranchal_Vidyut_Vitaran_Distribution_Divi",
+      "title": "Foran Singh v. Executive Engineer, Dakshiranchal Vidyut Vitaran Distribution Division, Firozabad and Another",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-236",
+      "source_basename": "085_Iftakhar_Ahsan_v._State_of_U.P.",
+      "title": "Iftakhar Ahsan v. State of U.P. and others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-237",
+      "source_basename": "086_Buddhesh_Patel_v._State_of_U.P.",
+      "title": "Buddhesh Patel v. State of U.P. and Another",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-238",
+      "source_basename": "087_Mamata_Verma_v._State_of_U.P.",
+      "title": "Smt. Mamata Verma v. State of U.P. & 3 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-239",
+      "source_basename": "088_Tehsildar_v._State_of_U.P.",
+      "title": "Tehsildar v. State of U.P. and others",
       "status": "done"
     }
   ]
