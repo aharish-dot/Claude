@@ -1,0 +1,60 @@
+{
+  "case_id": "SCJ-166",
+  "title": "Hyundai Engineering and Construction Co. Ltd. v. State of U.P. & Others",
+  "neutral_citation": "2013 SCC OnLine All 8908",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Manoj Misra, J.",
+  "date_of_judgment": "2013-10-10",
+  "date_display": "10 October 2013",
+  "docket": "Writ - C No. 3672 of 2006",
+  "disposition": "Writ petition dismissed; 25% additional (temporary-supply) charge upheld",
+  "headnote": "A power connection taken for construction/civil work is 'temporary supply' under Part C of Rate Schedule LMV-9 of the U.P. tariff, and the classification turns on the nature and purpose of the supply, not the load factor. Under Clause (3) of Part C, such a consumer pays the net rate of the appropriate schedule (here HV-2, Large & Heavy Power) plus 25%. A construction company that took an HV-2-load connection for the Naini Bridge works was therefore rightly charged HV-2 + 25%. 'Temporary' means lasting for a limited or defined time; where the agreement fixes the period (two years, extendable year to year) or the supply is for a specific purpose that by its nature will not last indefinitely, the supply is temporary even if it continues for two or three years. Under Clauses 7(a) and 7(d) of the supply agreement the consumer was liable to pay the applicable rates and any other charge; the 25% additional demand was neither arbitrary nor dehors the agreement, and the writ (against the appellate order affirming the demand) was dismissed.",
+  "holding_units": [
+    {
+      "provision": "RATE-SCHEDULE-UP::LMV-9-Part-C",
+      "code": "U.P. Electricity Rate Schedule LMV-9 (Temporary Supply), Part C",
+      "clause": "Part C, clauses (1) & (3)",
+      "topic": "Construction/civil-work supply is temporary (LMV-9 Part C): appropriate schedule rate + 25%",
+      "type": "interplay",
+      "question": "Is a construction company's HV-2-load connection for bridge works chargeable at HV-2 rates only, or at HV-2 + 25% as temporary construction supply under LMV-9 Part C?",
+      "holding": "The 25% additional charge is valid. Part C of Rate Schedule LMV-9 applies to power taken for construction purposes including civil work by all consumers, and applies by the nature/purpose of the supply, not the load factor; under clause (3) the rate is the net rate of the appropriate schedule (here HV-2) plus 25%. As the supply was for the Naini Bridge works and limited by the agreement, it was temporary, and by Clauses 7(a) and 7(d) of the agreement the consumer was liable for the applicable rates and any other charge.",
+      "limiting_facts": "HV-2 supply agreement dated 22.12.2000 for a fixed initial period of two years, extendable year to year, taken for construction of a bridge; no statutory definition of 'temporary supply'.",
+      "qualifier": "'Temporary' is judged by a fixed/limited period or a purpose that by its nature will not last indefinitely; supply is temporary even if it continues two or three years.",
+      "paras": "14-18"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "temporary-supply-classified-by-purpose-not-duration",
+      "application": "Supply for construction/civil work is 'temporary' under LMV-9 Part C by reason of its purpose and defined period, not its load or how long it actually ran; it attracts the appropriate schedule's rate plus 25%.",
+      "lead_authorities": [],
+      "paras": "16-18"
+    }
+  ],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "P. Ramanatha Aiyar's Advanced Law Lexicon (4th Edn.)",
+      "citation": "",
+      "court": "Dictionary",
+      "docid": "",
+      "proposition": "'Temporary' means lasting for a time only; existing or continuing for a limited time; not of long duration; not permanent; transitory.",
+      "how_treated": "Referred to construe 'temporary supply' in the absence of a statutory definition.",
+      "how_treated_paras": "17",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    },
+    {
+      "name": "Black's Law Dictionary (5th Edn.)",
+      "citation": "",
+      "court": "Dictionary",
+      "docid": "",
+      "proposition": "'Temporary' is that which is to last for a limited time only, as distinguished from that which is perpetual or indefinite in its duration.",
+      "how_treated": "Referred to construe 'temporary supply'.",
+      "how_treated_paras": "17",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    }
+  ]
+}

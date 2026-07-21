@@ -1,0 +1,61 @@
+{
+  "case_id": "SCJ-167",
+  "title": "U.P. Rajya Vidyut Parishad v. Panjab Corbohydrate",
+  "neutral_citation": "2015 SCC OnLine All 7156",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sudhir Agarwal, J. & Ram Surat Ram (Maurya), J.",
+  "date_of_judgment": "2015-11-23",
+  "date_display": "23 November 2015",
+  "docket": "First Appeal No. 246 of 2007 (under s.96 CPC)",
+  "disposition": "First appeal dismissed; trial court's permanent injunction affirmed",
+  "headnote": "Where a licensee alleges only that a meter is not correctly recording consumption — with no allegation of theft or tampering — the dispute about the correctness of the meter must be referred to the Electrical Inspector under Section 26(6) of the Indian Electricity Act, 1910, whose opinion is final; the licensee cannot itself raise a supplementary or assessment bill on the footing of under-recording. Only the Electrical Inspector may estimate the energy consumed (for a period not exceeding six months) and fix the amount payable. Following M.P. Electricity Board v. Basantibai, the Court affirmed a permanent injunction against an assessment of about Rs. 17.25 lakh raised for 'less recording' where neither a check meter was installed nor the matter referred to the Electrical Inspector, and the licensee could point to no provision authorising the assessment. The Court noted the analogous scheme under the 2003 regime — Clauses 5 and 6 of the U.P. Electricity Supply Code, 2005 (Amrawati Devi) — under which the consumer likewise has a right to have the meter tested by the Electrical Inspector, the Nigam's lab or an independent agency on notice.",
+  "holding_units": [
+    {
+      "provision": "IEA1910::26(6)",
+      "code": "Indian Electricity Act, 1910",
+      "clause": "26(6)",
+      "topic": "Meter-correctness dispute (no theft) must go to the Electrical Inspector; licensee cannot self-assess",
+      "type": "interplay",
+      "question": "Where the licensee says a meter under-records consumption (no theft/tampering alleged), may it raise a supplementary/assessment bill itself, or must it refer the dispute to the Electrical Inspector?",
+      "holding": "It must refer the dispute to the Electrical Inspector under s.26(6), whose opinion on whether the meter has ceased to be correct is final; the licensee cannot raise a supplementary/assessment bill on the ground of under-recording. If the Inspector finds the meter faulty, only the Inspector estimates the energy consumed (for a period not exceeding six months) and fixes the amount. Here no check meter was installed and no reference was made, and the licensee could show no provision authorising the assessment, so the assessment was illegal.",
+      "limiting_facts": "1996 dispute governed by the IEA 1910 and the Electricity (Supply) Act, 1948; licensee admitted there was no allegation of theft/tampering, only alleged under-recording; assessment of about Rs. 17,25,399.",
+      "paras": "6-10"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "meter-correctness-dispute-referred-to-electrical-inspector",
+      "application": "Absent any allegation of theft or tampering, a dispute about whether a meter records correctly must be decided by the Electrical Inspector (s.26(6) IEA 1910), who alone may estimate consumption and fix the amount; the licensee cannot self-assess. The 2003 regime carries a parallel scheme (Code 2005, Clauses 5-6).",
+      "lead_authorities": [
+        {"name": "Madhya Pradesh Electricity Board v. Smt. Basantibai", "docid": ""}
+      ],
+      "paras": "6-10"
+    }
+  ],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "Madhya Pradesh Electricity Board v. Smt. Basantibai",
+      "citation": "(1988) 1 SCC 23",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Where there is no allegation of tampering, a dispute whether a meter is correct or faulty falls under s.26(6) of the IEA 1910 and must be decided by the Electrical Inspector, who alone may estimate the energy consumed (not exceeding six months) and fix the amount; the Board cannot itself raise or enforce a supplementary bill pending that determination.",
+      "how_treated": "Followed and quoted (para 13) as the governing authority.",
+      "how_treated_paras": "7-8",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Smt. Amrawati Devi v. Purvanchal Vidyut Vitran Nigam Ltd.",
+      "citation": "2009 (74) ALR 701",
+      "court": "Allahabad High Court (Division Bench)",
+      "docid": "",
+      "proposition": "Under the 2003 regime (Clauses 5-6 of the Code 2005) the consumer likewise has a right to have a disputed meter tested by the Electrical Inspector, the Nigam's lab or an independent agency, and must be given notice of that option.",
+      "how_treated": "Referred as the analogous position under the Code 2005. (Digested in the corpus as SCJ-162.)",
+      "how_treated_paras": "9",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    }
+  ]
+}
