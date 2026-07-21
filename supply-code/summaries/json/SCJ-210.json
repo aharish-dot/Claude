@@ -1,0 +1,61 @@
+{
+  "case_id": "SCJ-210",
+  "title": "Radhe Shyam Singh v. State of U.P. & 2 Ors.",
+  "neutral_citation": "2014 SCC OnLine All 8036",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J. & Vijay Lakshmi, J.",
+  "date_of_judgment": "2014-05-28",
+  "date_display": "28 May 2014",
+  "docket": "Writ - C No. 30266 of 2014",
+  "disposition": "Writ petition disposed of; mandamus to provide the tenant a new connection",
+  "headnote": "Section 43 of the Electricity Act, 2003 casts a duty on every licensee to supply electricity to the owner OR occupier of any premises in its area. A landlord's refusal to give consent — here to pressure a tenant to vacate — cannot be a ground to refuse a new connection to the tenant in occupation, the licensee being under a legal duty under Section 43. The Court issued a mandamus directing the licensee to install a new connection in the tenant's name (subject to his completing the formalities under the U.P. Electricity Supply Code, 2005), following the Supreme Court in Chandu Khamaru v. Nayan Malik and Dr. Meena Chaudhary v. BSES Rajdhani Power Ltd.",
+  "holding_units": [
+    {
+      "provision": "EA2003::43",
+      "code": "Electricity Act, 2003",
+      "clause": "43",
+      "topic": "Duty to supply to owner or occupier; landlord's consent not a precondition for a tenant's connection",
+      "type": "interplay",
+      "question": "Can a licensee refuse a new connection to a tenant in occupation because the landlord objects/withholds consent?",
+      "holding": "No. Section 43 casts a duty to supply to the owner or occupier of premises; the landlord's refusal of consent (here to pressure the tenant to vacate) is no ground to refuse the tenant a new connection. A mandamus was issued to install the connection in the tenant's name, subject to his completing the Code formalities.",
+      "limiting_facts": "Tenant in occupation; the landlord had disconnected the existing connection and objected to a fresh one to force the tenant out.",
+      "paras": "(judgment)"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "landlord-consent-not-required-for-tenant-connection-s43",
+      "application": "Under the s.43 duty to supply to an owner or occupier, a tenant/occupier cannot be refused a new connection merely because the landlord objects or withholds consent.",
+      "lead_authorities": [
+        {"name": "Chandu Khamaru v. Nayan Malik", "docid": ""}
+      ],
+      "paras": "(judgment)"
+    }
+  ],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "Chandu Khamaru v. Nayan Malik",
+      "citation": "(2011) 12 SCC 314",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "A tenant/occupier is entitled to an electricity connection and the owner's consent is not an indispensable precondition; the licensee's statutory duty to supply cannot be defeated for want of the owner's consent.",
+      "how_treated": "Followed as the governing Supreme Court authority.",
+      "how_treated_paras": "(judgment)",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Dr. Meena Chaudhary @ Dr. Meena P.N. Singh v. BSES Rajdhani Power Ltd.",
+      "citation": "Writ Petition (Crl.) No. 103 of 2013 (SC, 25-06-2013)",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Reaffirms that an occupier is entitled to a connection and the owner's consent is not an indispensable precondition.",
+      "how_treated": "Followed as reaffirming the same view.",
+      "how_treated_paras": "(judgment)",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}

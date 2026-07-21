@@ -1,0 +1,77 @@
+{
+  "case_id": "SCJ-211",
+  "title": "Ram Bahadur v. State of U.P. & Others",
+  "neutral_citation": "2016 SCC OnLine All 3479",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Tarun Agarwala, J. & Vipin Sinha, J.",
+  "date_of_judgment": "2016-09-07",
+  "date_display": "7 September 2016",
+  "docket": "Civil Misc. Writ Petition No. 39477 of 2016",
+  "disposition": "Writ petition allowed; assessment and recovery quashed; fresh assessment directed",
+  "headnote": "In assessing unauthorised use of electricity under Section 126(5) of the Electricity Act, 2003 read with Clause 6.8(c)(iii) and the Annexure 6.3 formula of the U.P. Electricity Supply Code, 2005, the twelve-month (365-day) period in criterion 'D' is a FALLBACK to be used only when the assessing officer, having recorded his satisfaction, finds that the actual period of unauthorised use cannot be ascertained. Where the period can be ascertained it must be used. Here the connection was granted on 14.04.2015 and the unauthorised use detected on 03.06.2015, so the period was ascertainable (at most from the date of connection); mechanically taking 365 days — extending the assessment to a period before the connection even existed — without recording any satisfaction was patently erroneous. The assessment and recovery were quashed and a fresh assessment directed.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.8(c)(iii) & Annexure 6.3 (criterion 'D') (r/w s.126(5))",
+      "topic": "The 365-day assessment period is a fallback, not a default; actual period must be determined",
+      "type": "supply_code",
+      "question": "May the assessing officer mechanically assess unauthorised use for 12 months (365 days) where the actual period is ascertainable?",
+      "holding": "No. Under s.126(5) and Clause 6.8(c)(iii)/Annexure 6.3, the assessment is for the entire period of unauthorised use, and the 365-day period (criterion 'D') applies only when, on recorded satisfaction, the actual period cannot be ascertained. Here the connection was granted on 14.4.2015 and the use detected on 3.6.2015, so the period was ascertainable (at most from the date of connection); assessing 365 days mechanically — reaching back before the connection existed — without recorded satisfaction is patently erroneous. Assessment and recovery quashed; fresh assessment directed.",
+      "limiting_facts": "Tubewell connection granted 14.4.2015; inspection 3.6.2015 found bypassing of the meter to run an aata chakki; final assessment of Rs. 5,73,682 computed on a mechanical 365-day period.",
+      "paras": "9-15"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "uue-period-365-days-is-fallback-not-default",
+      "application": "The 12-month/365-day period for a UUE assessment is a fallback used only when the actual period cannot be ascertained on recorded satisfaction; where ascertainable (e.g. from the date of connection) it must be used, and the period cannot predate the connection.",
+      "lead_authorities": [],
+      "paras": "9-15"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "The correct quantum on the ascertainable period",
+      "note": "Left to the fresh assessment computing the period from the date of connection; the Court decided only the erroneous use of the 365-day fallback.",
+      "docid": "",
+      "paras": "15"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "J.M.D. Alloys Ltd. v. Bihar State Electricity Board",
+      "citation": "(2003) 5 SCC 226 : AIR 2003 SC 1354",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Where the period of unauthorised use cannot be established, the maximum (fallback) period may be taken for computing the assessment.",
+      "how_treated": "Distinguished: there the period could not be established; here it was ascertainable from the date of connection.",
+      "how_treated_paras": "13-14",
+      "cited_by": "Respondent",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "Lalit Kumar Kapoor v. Kanpur Electricity Supply Company, Kanpur",
+      "citation": "2011 (10) ADJ 484 : 2012 (2) ALJ 63",
+      "court": "Allahabad High Court",
+      "docid": "",
+      "proposition": "Where the period of unauthorised use could not be ascertained, the maximum period was used for the assessment.",
+      "how_treated": "Distinguished on the same basis.",
+      "how_treated_paras": "13-14",
+      "cited_by": "Respondent",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "Sri Bhagwan Gupta v. Kanpur Electricity Supply Company Ltd.",
+      "citation": "2005 (2) AWC 1269",
+      "court": "Allahabad High Court",
+      "docid": "",
+      "proposition": "On use of the maximum period where the actual period of unauthorised use cannot be established.",
+      "how_treated": "Distinguished on the same basis.",
+      "how_treated_paras": "13-14",
+      "cited_by": "Respondent",
+      "treatment": "Distinguished"
+    }
+  ]
+}

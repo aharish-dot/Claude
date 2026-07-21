@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 208,
+  "next_seq": 216,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -1246,6 +1246,54 @@
       "case_id": "SCJ-207",
       "source_basename": "056_Executive_Engineer_Distribution_Division_v._Pacific_Promoter",
       "title": "Executive Engineer, Distribution Division & Anr. v. Pacific Promoter",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-208",
+      "source_basename": "057_Om_Prakash_v._Dakshinanchal_Vidyut_Vitran_Nigam_Ltd.",
+      "title": "Om Prakash v. Dakshinanchal Vidyut Vitran Nigam Ltd. & Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-209",
+      "source_basename": "058_Abdul_Ajij_v._State_of_U.P.",
+      "title": "Abdul Ajij v. State of U.P. & Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-210",
+      "source_basename": "059_Radhe_Shyam_Singh_v._State_of_U.P.",
+      "title": "Radhe Shyam Singh v. State of U.P. & 2 Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-211",
+      "source_basename": "060_Ram_Bahadur_v._State_of_U.P.",
+      "title": "Ram Bahadur v. State of U.P. & Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-212",
+      "source_basename": "061_Deepak_Jain_v._State_of_U.P.",
+      "title": "Deepak Jain v. State of U.P. & Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-213",
+      "source_basename": "062_Awadhesh_Kumar_Yadav_v._State_Of_U.P.",
+      "title": "Awadhesh Kumar Yadav v. State of U.P. & Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-214",
+      "source_basename": "063_Muneshwar_Prasad_Baranwal_v._U.P._Power_Corporation_Ltd.",
+      "title": "Muneshwar Prasad Baranwal v. U.P. Power Corporation Ltd. & Another",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-215",
+      "source_basename": "064_Vikas_Gupta_v._State_of_U.P.",
+      "title": "Vikas Gupta & Another v. State of U.P. & 2 Others",
       "status": "done"
     }
   ]
