@@ -1,0 +1,63 @@
+{
+  "case_id": "SCJ-263",
+  "title": "M/s. Zaz Leather Complex Pvt. Ltd. v. Kanpur Electricity Supply Co. Ltd. and Another",
+  "neutral_citation": "2023 SCC OnLine All 4072",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Siddhartha Varma, J. & Shekhar B. Saraf, J.",
+  "date_of_judgment": "2023-12-13",
+  "date_display": "13 December 2023",
+  "docket": "Writ - C No. 34855 of 2011",
+  "disposition": "Writ petition partly allowed; the demand (6.6.2011) quashed and the licensee directed to re-bill only for the two years preceding 6.6.2011",
+  "headnote": "Under Section 56(2) of the Electricity Act, 2003 and Clause 6.15 of the U.P. Electricity Supply Code, 2005, no sum due from a consumer is recoverable after two years from the date it first became due unless shown continuously as recoverable as arrears; a fresh bill covering more than two years for a licensee's own metering error cannot stand. On a routine check the licensee found that the multiplying factor (MF) had been applied at 6 instead of 10 after a load enhancement, and raised a fresh bill of Rs. 1,46,48,514 for four years (2008-2011). The Court held that, the error being the licensee's own and the consumer having bona fide paid all bills, the demand could reach back only two years before 6.6.2011. The Supreme Court's decision in Assistant Engineer (D1), Ajmer Vidyut v. Rahamatullah Khan was distinguished: it concerned a supplementary bill and dealt only with Section 56(2), not Clause 6.15, whereas here a fresh (not supplementary) bill was issued for over two years. The bill was quashed and re-billing limited to the two-year period.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.15",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.15 (r/w s.56(2), Electricity Act 2003)",
+      "topic": "Two-year recovery bar applies to a fresh bill for the licensee's own metering (MF) error",
+      "type": "supply_code",
+      "question": "Can the licensee, on discovering its own multiplying-factor error, raise a fresh bill recovering charges for more than two years?",
+      "holding": "No. Section 56(2) and Clause 6.15(b) bar recovery of a sum after two years from when it first became due unless shown continuously as recoverable as arrears. The MF error was the licensee's own and the consumer had bona fide paid all bills; the fresh demand of 6.6.2011 could therefore reach back only two years (to 6.6.2009). The bill was quashed and the licensee directed to re-bill only for that two-year period.",
+      "limiting_facts": "MF applied at 6 instead of 10 after a load enhancement (480 to 880 KVA); error discovered on a routine check and on change of the billing contractor; a fresh (not supplementary) bill of Rs. 1,46,48,514 for 2008-2011.",
+      "paras": "7-16"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.15-two-year-bar-mandatory-licensee-duty-to-act",
+      "application": "A licensee cannot recover, via a fresh bill, sums that became due more than two years earlier for its own metering error; the s.56(2)/Clause 6.15 bar applies.",
+      "lead_authorities": [],
+      "paras": "14-16"
+    },
+    {
+      "tag": "fresh-bill-distinguished-from-supplementary-bill-for-s56(2)",
+      "application": "The relaxation for a supplementary bill (limitation running from discovery of a bona fide mistake) does not extend to a fresh bill for over two years; Clause 6.15 was not addressed in the Ajmer Vidyut line.",
+      "lead_authorities": [
+        {"name": "Assistant Engineer (D1), Ajmer Vidyut Vitran Nigam Ltd. v. Rahamatullah Khan", "docid": "SCJ-009"}
+      ],
+      "paras": "13-15"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the correct multiplying factor was 6 or 10",
+      "note": "The Court proceeded on the footing that the MF may have increased with the load, but decided the case on the two-year bar; the re-billing is confined to the two-year window regardless.",
+      "docid": "",
+      "paras": "14"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Assistant Engineer (D1), Ajmer Vidyut Vitran Nigam Ltd. v. Rahamatullah Khan @ Rahamjulla",
+      "citation": "Civil Appeal No. 1672 of 2020 (arising out of SLP (C) No. 5190 of 2019)",
+      "court": "Supreme Court",
+      "docid": "SCJ-009",
+      "proposition": "Under Section 56(2) a licensee is not precluded from raising a supplementary demand after two years, the limitation running from the date the mistake/escaped billing was discovered.",
+      "how_treated": "Distinguished: it dealt only with Section 56(2) (not Clause 6.15) and with a supplementary bill, whereas here a fresh bill was issued for over two years for the licensee's own error.",
+      "how_treated_paras": "13-15",
+      "cited_by": "Respondent",
+      "treatment": "Distinguished"
+    }
+  ]
+}

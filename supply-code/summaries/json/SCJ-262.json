@@ -1,0 +1,102 @@
+{
+  "case_id": "SCJ-262",
+  "title": "I.G. Shoes Pvt. Ltd. v. Kanpur Electricity Supply Co. Ltd. and Others",
+  "neutral_citation": "2016 SCC OnLine All 4269 : (2017) 122 ALR 297",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sudhir Agarwal, J. & Kaushal Jayendra Thaker, J.",
+  "date_of_judgment": "2016-11-29",
+  "date_display": "29 November 2016",
+  "docket": "C.M.W.P. No. 63196 of 2005",
+  "disposition": "Writ petition dismissed; the Chief Electrical Inspector's order revising bills held wholly without jurisdiction and a nullity, so no mandamus to enforce it",
+  "headnote": "Section 26(6) of the Indian Electricity Act, 1910 confers jurisdiction on the Electrical Inspector only to decide a dispute as to the correctness of a meter (and, if the meter is found incorrect, to estimate consumption for a period not exceeding six months); it does not extend to disputes over the correctness of bills, nor to assessments for theft/fraud/tampering. Where a consumer raises no dispute about meter correctness while the meter is installed, allows it to be removed and replaced without objection, and only later disputes past bills, Section 26(6) has no application and the material evidence (the meter) is lost by the consumer's own inaction. The Chief Electrical Inspector's order (25.11.2004) revising the consumer's 1995-2001 bills was therefore wholly without jurisdiction and a nullity, and no mandamus could issue to enforce it; the writ was dismissed.",
+  "holding_units": [
+    {
+      "provision": "IEA1910::26(6)",
+      "code": "Indian Electricity Act, 1910",
+      "clause": "s.26(6) (r/w s.26(1),(4))",
+      "topic": "Electrical Inspector's jurisdiction confined to meter-correctness disputes, not bill disputes or theft/fraud",
+      "type": "interplay",
+      "question": "Does Section 26(6) empower the Electrical Inspector to revise a consumer's bills where no live dispute about meter correctness was raised, and where the meter has been removed/replaced?",
+      "holding": "No. Section 26(6) applies only where a difference arises as to whether the meter is correct; the Inspector first examines the meter and, if it has ceased to be correct, estimates consumption for up to six months (the meter register otherwise being conclusive, absent fraud). It does not reach disputes over the correctness of bills, nor theft/fraud/tampering assessments (which fall outside s.26). Here no meter-correctness dispute was raised while the meter was installed; it was removed and replaced without objection, destroying the material evidence, and the consumer only later disputed old bills. The CEI's order revising the bills was without jurisdiction and a nullity, and no mandamus could issue to enforce a patently illegal order.",
+      "limiting_facts": "Old meter removed 31.12.2001 without objection; complaint to CEI first made 20.1.2003; a separate theft assessment (Rs. 18,61,585) was under challenge elsewhere; disputed bills were for 1995-2001 under the removed meter.",
+      "paras": "8-28"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "s26-6-confined-to-meter-correctness-not-bill-disputes",
+      "application": "The Electrical Inspector's s.26(6) jurisdiction is limited to a live meter-correctness dispute; it does not extend to disputes over bills or to theft/fraud/tampering assessments.",
+      "lead_authorities": [
+        {"name": "Bombay Electricity Supply and Transport Undertaking v. Laffans (India) (P) Ltd.", "docid": ""}
+      ],
+      "paras": "9-21"
+    },
+    {
+      "tag": "meter-removed-without-objection-loses-right-to-dispute",
+      "application": "A consumer who allows the meter to be removed/replaced without raising a s.26(6) dispute loses the material evidence and cannot later dispute past bills on meter-correctness grounds.",
+      "lead_authorities": [],
+      "paras": "22-26"
+    },
+    {
+      "tag": "no-mandamus-to-enforce-order-without-jurisdiction",
+      "application": "A writ court will not issue a mandamus to enforce an order that is without jurisdiction and a nullity.",
+      "lead_authorities": [],
+      "paras": "27-28"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "The theft/excess-load assessment of Rs. 18,61,585",
+      "note": "Under challenge in a separate writ (Writ-C No. 19857 of 2003), remanded to the assessing authority; not decided here.",
+      "docid": "",
+      "paras": "6"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Madhya Pradesh Electricity Board v. Smt. Basantibai",
+      "citation": "(1988) 1 SCC 23",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Section 26(6) has no application where the dispute concerns fraud or tampering with the meter / breaking of the body seal.",
+      "how_treated": "Followed on the limits of s.26(6).",
+      "how_treated_paras": "13",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Belwal Spinning Mills Ltd. v. U.P. State Electricity Board",
+      "citation": "(1997) 6 SCC 740",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "A meter-correctness dispute is decided by the Electrical Inspector, who may assess consumption for the preceding six months where the meter has ceased to be correct.",
+      "how_treated": "Followed on the scope of s.26(6).",
+      "how_treated_paras": "14",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Bombay Electricity Supply and Transport Undertaking v. Laffans (India) (P) Ltd.",
+      "citation": "(2005) 4 SCC 327",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Section 26(6) is attracted only when the meter is not correct; it does not apply to fraud/trick/tampering, and a licensee who removes the meter without a reference loses the material evidence and cannot revise the demand.",
+      "how_treated": "Followed and applied to the near-identical situation of a removed meter and an unraised dispute.",
+      "how_treated_paras": "17, 23",
+      "cited_by": "Respondent",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Western Electricity Supply Co. of Orissa Ltd. v. Baba Baijanath Roller and Flour Mill (P) Ltd.",
+      "citation": "(2014) 105 ALR 762 (SC)",
+      "court": "Supreme Court",
+      "docid": "SCJ-151",
+      "proposition": "Section 26 is relevant only to a dispute about the correctness of a meter; a question of fraud/tampering falls outside it.",
+      "how_treated": "Followed as the recent authority applying the s.26(6) line of cases.",
+      "how_treated_paras": "19",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}

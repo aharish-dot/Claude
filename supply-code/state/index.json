@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 259,
+  "next_seq": 264,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -1552,6 +1552,36 @@
       "case_id": "SCJ-258",
       "source_basename": "107_Executive_Engineer_Electricity_Urban_Distribution_Division_IInd_v._Electricity_O",
       "title": "Executive Engineer, Electricity Urban Distribution Division IInd v. Electricity Ombudsman, Lucknow & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-259",
+      "source_basename": "108_Devanshu_Bose_v._Electricity_Ombudsman",
+      "title": "Devanshu Bose v. Electricity Ombudsman, Lucknow and 4 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-260",
+      "source_basename": "109_Purvanchal_Vidyut_Vitran_Nigam_Ltd._v._Vidyut_Lokpal_Electricity_Ombudsman",
+      "title": "Purvanchal Vidyut Vitran Nigam Ltd., Bhikaripur & Anr. v. Vidyut Lokpal (Electricity Ombudsman) & Anr.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-261",
+      "source_basename": "110_Kanpur_Electricity_Supply_Co._Ltd._v._Uttar_Pradesh_Electricity_Regulatory_Commi",
+      "title": "Kanpur Electricity Supply Co. Ltd. and another v. Uttar Pradesh Electricity Regulatory Commission, Lucknow and others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-262",
+      "source_basename": "111_I.G._Shoes_P_Ltd._v._Kanpur_Electricity_Supply_Co._Ltd.",
+      "title": "I.G. Shoes Pvt. Ltd. v. Kanpur Electricity Supply Co. Ltd. and Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-263",
+      "source_basename": "112_Zaz_Leather_Complex_P_Ltd._v._Kanpur_Electricity_Supply_Co._Ltd.",
+      "title": "M/s. Zaz Leather Complex Pvt. Ltd. v. Kanpur Electricity Supply Co. Ltd. and Another",
       "status": "done"
     }
   ]

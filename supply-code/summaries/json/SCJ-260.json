@@ -1,0 +1,83 @@
+{
+  "case_id": "SCJ-260",
+  "title": "Purvanchal Vidyut Vitran Nigam Ltd., Bhikaripur & Anr. v. Vidyut Lokpal (Electricity Ombudsman) & Anr.",
+  "neutral_citation": "2008 SCC OnLine All 376 : AIR 2008 All 127 : (2008) 5 All LJ 683",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Sunil Ambwani, J.",
+  "date_of_judgment": "2008-04-02",
+  "date_display": "2 April 2008",
+  "docket": "C.M.W.P. No. 16216 of 2008",
+  "disposition": "Writ petition dismissed; the Electricity Ombudsman's award directing temporary connection by tapping upheld",
+  "headnote": "The foundational decision on the scope of interference with an Electricity Ombudsman's award and on the independent-feeder tapping exception. (i) An Electricity Ombudsman (appointed under Section 42(6)-(7) of the Electricity Act, 2003) resolves grievances by conciliation/mediation or, failing that, by a reasoned award; where he settles by conciliation, the proceedings are challengeable only for want of jurisdiction or fraud, and in the case of an award the scope of interference is limited to grounds akin to Section 34 of the Arbitration and Conciliation Act, 1996. (ii) On the merits, Clause 3.4(d) of the U.P. Electricity Supply Code, 2005 is an exception to Clause 3.4(a): where an independent feeder cannot be constructed (here a railway track and several km of agricultural land intervened), tapping of an existing feeder may be permitted for a similar-process consumer. The Ombudsman rightly directed temporary release of the 3000 KVA connection by tapping the 33 KV Fatehpur feeder (with an independent meter for energy audit) for a model consumer suffering Rs. 50 lakh/month loss, pending the railway/farmer no-objection for an independent feeder. The licensee's objection, confined to Clause 3.4(a) without regard to the 3.4(d) exception, was rejected and the writ dismissed. (Reiterated in SCJ-258.)",
+  "holding_units": [
+    {
+      "provision": "EA2003::42",
+      "code": "Electricity Act, 2003",
+      "clause": "s.42(6)-(7) (r/w UPERC CGRF & Electricity Ombudsman Regulations 2004/2007; s.34, Arbitration and Conciliation Act 1996)",
+      "topic": "Limited scope of interference with an Electricity Ombudsman's award/settlement",
+      "type": "interplay",
+      "question": "On what grounds may the High Court interfere with an Electricity Ombudsman's settlement or award?",
+      "holding": "Only on limited grounds. Where the Ombudsman settles the dispute by conciliation/mediation, the proceedings are not challengeable except for want of jurisdiction or fraud; where he makes an award, the scope of interference is confined to grounds akin to Section 34 of the Arbitration and Conciliation Act, 1996 (incapacity, want of notice, matters beyond or excepted from the reference, subject-matter not arbitrable, or conflict with public policy). The Court drew the analogy from Section 34 as the measure of permissible challenge.",
+      "limiting_facts": "The licensee challenged the award only on the merits of Clause 3.4(a), raising no jurisdictional, natural-justice, fraud or public-policy ground.",
+      "paras": "8, 22-24"
+    },
+    {
+      "provision": "UP-2005::3.4",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "3.4(d) (exception to 3.4(a))",
+      "topic": "Tapping of an existing feeder permitted where an independent feeder cannot be constructed",
+      "type": "supply_code",
+      "question": "Where Clause 3.4(a) requires supply to a 1000+ KVA furnace/rolling-mill load through an independent feeder, may a connection instead be released by tapping an existing feeder?",
+      "holding": "Yes, under the Clause 3.4(d) exception. Where construction of a separate feeder is not possible (non-availability of corridor/right of way/bay - here a railway track and agricultural land intervened), tapping of the independent feeder may be permitted to another connection having a similar process, which includes such furnace/rolling-mill consumers. The Ombudsman's direction for temporary tapping of the 33 KV Fatehpur feeder (with an independent meter for energy audit) was not contrary to Clause 3.4(a) but within the 3.4(d) exception, and was upheld; the licensee's objection confined to 3.4(a) ignored the exception.",
+      "limiting_facts": "3000 KVA connection to a model consumer suffering Rs. 50 lakh/month loss; independent feeder unfeasible pending railway/farmer NOC; similar tapping earlier allowed to Nitin Ispat and Laxmi Katsin; temporary arrangement to balance equities.",
+      "paras": "9-10, 23"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "ombudsman-award-challengeable-only-on-s34-arbitration-grounds",
+      "application": "An Electricity Ombudsman's award is akin to an arbitral award, challengeable only on grounds similar to s.34 of the Arbitration and Conciliation Act, 1996; a conciliated settlement is challengeable only for want of jurisdiction or fraud.",
+      "lead_authorities": [],
+      "paras": "22-24"
+    },
+    {
+      "tag": "clause-3.4d-tapping-exception-where-independent-feeder-infeasible",
+      "application": "Clause 3.4(d) allows tapping of an existing feeder for a similar-process consumer where an independent feeder cannot be constructed; a licensee cannot insist on 3.4(a) while ignoring the 3.4(d) exception.",
+      "lead_authorities": [],
+      "paras": "10, 23"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the Ombudsman's award may be challenged only under Section 34 of the Arbitration and Conciliation Act, 1996 as a statutory arbitration",
+      "note": "Expressly left open (not argued); the Court drew only an analogy from Section 34 for the limited grounds of challenge.",
+      "docid": "",
+      "paras": "24"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Maharashtra State Electricity Regulatory Commission v. Reliance Energy Ltd.",
+      "citation": "(2007) 8 SCC 381 : AIR 2008 SC 976",
+      "court": "Supreme Court",
+      "docid": "SCJ-076",
+      "proposition": "On the CGRF/Ombudsman redressal scheme, directing wide advertisement of the provisions for redressal through the forum and the Electricity Ombudsman.",
+      "how_treated": "Referred and applied - similar directions issued to the UPERC to advertise the redressal mechanism.",
+      "how_treated_paras": "25-26",
+      "cited_by": "Court",
+      "treatment": "Applied"
+    },
+    {
+      "name": "Durga Hotel Complex v. Reserve Bank of India",
+      "citation": "(2007) 5 SCC 120 : AIR 2007 SC 1467",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "On the nature and role of an Ombudsman.",
+      "how_treated": "Referred in explaining the office and function of the Electricity Ombudsman.",
+      "how_treated_paras": "12",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    }
+  ]
+}
