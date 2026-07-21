@@ -1,0 +1,66 @@
+{
+  "case_id": "SCJ-222",
+  "title": "Daya Nand Sharma v. State of U.P. & Others",
+  "neutral_citation": "2022 SCC OnLine All 598",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Manoj Misra, J. & Mohd. Azhar Husain Idrisi, J.",
+  "date_of_judgment": "2022-09-03",
+  "date_display": "3 September 2022",
+  "docket": "Special Appeal Defective No. 395 of 2022",
+  "disposition": "Interim order — contempt-court direction and contempt proceedings stayed",
+  "headnote": "Interim order in an intra-court appeal. A writ court had disposed of a tenant's petition by directing the licensee to grant him a connection on furnishing an indemnity bond under Clause 4.4 of the U.P. Electricity Supply Code, 2005 'ignoring the objection of the landlord' — but without deciding whether the tenant was in occupation, and without directing that supply be made even if the owner resisted. When the owner resisted installation, the contempt court directed the department and police to provide the connection within 72 hours and that the owner not object. Prima facie holding that the contempt court's direction travelled beyond the writ court's order (which neither adjudicated occupation nor directed supply against the owner's resistance), and noting that where an owner objects to supply over his premises the licensee must obtain the District Magistrate's/Commissioner's permission under the proviso to Rule 3(b) of the Works of Licensees Rules, 2006 (framed under s.176(2)(e) read with s.67(2) of the Electricity Act, 2003), the Court stayed both the contempt direction and the contempt proceedings. It also held (following Midnapore People's Co-op. Bank v. Chunilal Nanda) that a special appeal is maintainable where a contempt court issues a direction in the nature of writ-court powers beyond the writ court's order.",
+  "holding_units": [
+    {
+      "provision": "EA2003::176",
+      "code": "Electricity Act, 2003",
+      "clause": "176(2)(e) r/w s.67(2) (Works of Licensees Rules, 2006, Rule 3(b) proviso)",
+      "topic": "Owner's objection to supply over his premises; DM's permission required — interim",
+      "type": "interplay",
+      "question": "(Interim) Could the contempt court direct immediate installation of a tenant's connection over the owner's objection, beyond the writ court's order?",
+      "holding": "Prima facie, no. The writ court had directed a connection on an indemnity bond (Clause 4.4) ignoring the landlord's objection, but did not decide the tenant's occupation nor direct supply despite the owner's resistance. Where an owner objects to supply over his premises, the licensee must obtain the DM's/Commissioner's permission under the proviso to Rule 3(b) of the Works of Licensees Rules, 2006 (s.176(2)(e) r/w s.67(2)). The contempt court's direction to install within 72 hours and bar the owner's objection travelled beyond the writ order and was stayed, along with the contempt proceedings.",
+      "limiting_facts": "Tenant granted a connection on indemnity bond by the writ court; owner (claiming possession) resisted installation; contempt filed; no DM permission shown for works over the objecting owner's premises.",
+      "paras": "11-14",
+      "flag": "Interim order (stay) in a special appeal; the occupation dispute and merits are reserved."
+    },
+    {
+      "provision": "CONTEMPT::special-appeal-maintainability",
+      "code": "Contempt of Courts Act / High Court Rules",
+      "clause": "s.19 CoC Act; Ch. VIII Rule 5 HC Rules",
+      "topic": "Special appeal lies where a contempt court exercises writ-court powers beyond the writ order",
+      "type": "interplay",
+      "holding": "A special appeal is maintainable, notwithstanding that no punishment order was passed, where the contempt court issues a direction in the nature of the exercise of writ-court powers, even beyond the scope of the order passed by the writ court.",
+      "paras": "9-10",
+      "flag": "Procedural node recorded for the ledger; the electricity-law substance is the Rule 3(b) / owner-objection point above."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "owner-objection-to-supply-requires-dm-permission-rule-3b",
+      "application": "Where an owner objects to a licensee laying/supplying over his premises, the licensee must obtain the DM's/Commissioner's permission under the proviso to Rule 3(b) of the Works of Licensees Rules, 2006; a connection cannot be forced over the objection without it.",
+      "lead_authorities": [],
+      "paras": "12"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the tenant is in lawful occupation and entitled to supply over the owner's resistance",
+      "note": "The writ court never decided occupation; the special appeal court granted only interim stay, reserving the merits.",
+      "docid": "",
+      "paras": "11-13"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Midnapore People's Co-op. Bank v. Chunilal Nanda",
+      "citation": "(2006) 5 SCC 399",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Where a contempt court issues a direction in the nature of the exercise of writ-court powers, even beyond the scope of the writ court's order, a special appeal against that direction is maintainable.",
+      "how_treated": "Followed to hold the special appeal maintainable despite no punishment order.",
+      "how_treated_paras": "10",
+      "cited_by": "Appellant",
+      "treatment": "Followed"
+    }
+  ]
+}

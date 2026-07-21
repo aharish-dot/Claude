@@ -1,0 +1,60 @@
+{
+  "case_id": "SCJ-223",
+  "title": "Virendra Kumar Mittal v. U.P. Power Corporation Ltd. & 2 Others",
+  "neutral_citation": "2014 SCC OnLine All 6594",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sanjay Misra, J. & Anant Kumar, J.",
+  "date_of_judgment": "2014-05-09",
+  "date_display": "9 May 2014",
+  "docket": "Writ - C No. 26105 of 2014",
+  "disposition": "Writ petition disposed of; new connection to be given on securing the disputed theft-assessment amount",
+  "headnote": "The right to a new electricity connection on deposit of the estimate is independent of a consumer's liability to pay a theft assessment whose liability is still to be determined. Where a theft assessment (28.12.2010) was pending adjudication before the Special Judge (E.C. Act) at the licensee's own instance, the licensee could not, under Clause 4.3 of the U.P. Electricity Supply Code, treat the undetermined theft-assessment amount as an 'outstanding due' so as to refuse a new connection (the CGRF having already directed the connection). Following the Supreme Court in Dr. Meena Chaudhary v. BSES Rajdhani Power Ltd., the Court directed that, on the consumer depositing the estimate and furnishing security (other than cash or bank guarantee) for the disputed theft amount, the new connection be provided; whether the theft assessment is an 'outstanding due' under Clause 4.3 abides the Special Judge's decision.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.3",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.3 (r/w s.43, Electricity Act 2003)",
+      "topic": "A new connection cannot be withheld for a theft-assessment amount whose liability is undetermined",
+      "type": "supply_code",
+      "question": "Can a licensee refuse a new connection under Clause 4.3 for an unpaid theft-assessment amount whose liability is still being adjudicated?",
+      "holding": "No. The right to supply on deposit of the estimate is independent of the theft-assessment liability, which is still to be fixed by the Special Judge (E.C. Act). The licensee cannot treat the undetermined theft assessment as an 'outstanding due' under Clause 4.3 to refuse the connection; instead the amount is secured by the consumer furnishing security (other than cash or bank guarantee), whereupon the new connection is to be provided. Whether it is an 'outstanding due' under Clause 4.3 abides the Special Judge's decision.",
+      "limiting_facts": "Theft assessment of 28.12.2010 pending before the Special Judge at the licensee's instance; CGRF had directed the new connection; licensee demanded the theft amount along with the new-connection estimate.",
+      "paras": "(judgment)"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "new-connection-independent-of-undetermined-theft-assessment",
+      "application": "Supply on payment of the estimate is independent of an as-yet-undetermined theft-assessment liability; the licensee cannot withhold a new connection for such an amount under Clause 4.3, but may take security for it.",
+      "lead_authorities": [
+        {
+          "name": "Dr. Meena Chaudhary v. BSES Rajdhani Power Ltd.",
+          "docid": ""
+        }
+      ],
+      "paras": "(judgment)"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the theft assessment is an 'outstanding due' under Clause 4.3",
+      "note": "Abides the Special Judge (E.C. Act)'s determination of the theft liability.",
+      "docid": "",
+      "paras": "(judgment)"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Dr. Meena Chaudhary @ Dr. Meena P.N. Singh v. BSES Rajdhani Power Ltd.",
+      "citation": "Writ Petition (Crl.) No. 103 of 2013 (SC, 25-06-2013)",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "A consumer's right to a new electricity connection on deposit of the estimate is independent of a disputed/undetermined theft-assessment liability, which cannot be a ground to refuse the connection.",
+      "how_treated": "Relied on to hold that the theft-assessment amount could not be demanded as a precondition to the new connection.",
+      "how_treated_paras": "(judgment)",
+      "cited_by": "Petitioner",
+      "treatment": "Relied on"
+    }
+  ]
+}

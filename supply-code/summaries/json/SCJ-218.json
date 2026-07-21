@@ -1,0 +1,68 @@
+{
+  "case_id": "SCJ-218",
+  "title": "M/s Paliwal Alloys (Pvt.) Ltd. v. U.P. Power Corporation Ltd. & Ors.",
+  "neutral_citation": "2009 SCC OnLine All 829",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Ashok Bhushan, J. & R.A. Singh, J.",
+  "date_of_judgment": "2009-07-31",
+  "date_display": "31 July 2009",
+  "docket": "C.M.W.P. No. 35248 of 2009",
+  "disposition": "Writ petition disposed of; recovery notice and citation quashed; s.127 appeal to be decided in three months",
+  "headnote": "Recovery of electricity arrears is subject to the two-year limitation in Section 56(2) of the Electricity Act, 2003 and Clause 6.15 of the U.P. Electricity Supply Code, 2005: no sum is recoverable after two years from the date it first became due unless it has been continuously shown as recoverable. A peak-hour penalty imposed on 27.11.2006 for the period 24.11.2002-8.2.2003 could not be recovered years later without the Corporation adverting to s.56(2)/Clause 6.15 and passing a reasoned order explaining recovery after two years; the bald notice of 10.6.2009 gave no such reason and the recovery was unjustified. Separately, recovery of a theft assessment could not proceed while the consumer's Section 127 appeal (permitted by an earlier Division Bench on a part-deposit, with recovery restrained pending the appeal) was pending and the Corporation's SLP had obtained no stay. The demand notice under the U.P. Government Electrical Undertakings (Dues Recovery) Act, 1958, however, was not invalid (registered notice, recovery certificate after 30 days). The recovery notice and citation were quashed and the Divisional Commissioner directed to decide the s.127 appeal within three months.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.15",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.15 (r/w s.56(2), Electricity Act 2003)",
+      "topic": "Two-year bar on recovery of arrears; a reasoned order required to recover after two years",
+      "type": "supply_code",
+      "question": "Could the Corporation recover a peak-hour penalty years after it first became due without adverting to the s.56(2)/Clause 6.15 two-year bar?",
+      "holding": "No. Under s.56(2) of the Act and Clause 6.15 of the Code, arrears are not recoverable after two years from the date they first became due (unless continuously shown as recoverable). The peak-hour penalty (imposed 27.11.2006 for 24.11.2002-8.2.2003) could not be recovered after two years without the Corporation adverting to s.56(2)/Clause 6.15 and passing a reasoned order explaining recovery beyond that period; the 10.6.2009 notice gave no such reason, so the recovery of the peak-hour penalty was unjustified.",
+      "limiting_facts": "Peak-hour penalty for 2002-03 sought to be recovered by a 2009 notice giving no reason for recovery after two years; the two-year issue had also been raised before the UPERC, with the Corporation's own SLP pending.",
+      "paras": "31-32, 35(b), 36"
+    },
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act, 2003",
+      "clause": "127",
+      "topic": "Recovery of a theft assessment cannot proceed while the s.127 appeal is pending under a restraint",
+      "type": "interplay",
+      "holding": "The Corporation could not recover the theft assessment (Rs. 84,33,146) while the consumer's s.127 appeal — permitted by an earlier Division Bench (3.8.2006) on a Rs. 10 lakh deposit, with recovery restrained until the appeal was disposed of — was pending, the Corporation's SLP having obtained no interim stay. It ought instead to have pursued early disposal of the appeal.",
+      "paras": "35(a), 36",
+      "flag": "The order of 19.11.2008 in the Corporation's special appeal did not direct recovery; it only called for details of liability."
+    },
+    {
+      "provision": "UPGEU1958::3",
+      "code": "U.P. Government Electrical Undertakings (Dues Recovery) Act, 1958",
+      "clause": "3 (r/w s.5)",
+      "topic": "Validity of the s.3/s.5 demand notice and recovery certificate",
+      "type": "interplay",
+      "holding": "The demand notice under the 1958 Act was not invalid: a registered notice is deemed sufficient service under s.3 Explanation (1), and the recovery certificate under s.5 was issued after the thirty-day period. That specific challenge to the recovery notice failed.",
+      "paras": "33-34"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.15-two-year-bar-mandatory-licensee-duty-to-act",
+      "application": "Arrears (here a peak-hour penalty) cannot be recovered after two years from when they first became due (s.56(2)/Clause 6.15); recovery beyond two years requires a reasoned order adverting to the bar.",
+      "lead_authorities": [],
+      "paras": "31-32, 35(b)"
+    },
+    {
+      "tag": "recovery-of-assessment-stayed-pending-s127-appeal",
+      "application": "Where an earlier order permitted a s.127 appeal on a part-deposit and restrained recovery pending the appeal, the licensee cannot recover the assessment while the appeal is undecided and no stay has been granted against that restraint.",
+      "lead_authorities": [],
+      "paras": "35(a)"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "The merits of the theft assessment and the peak-hour penalty",
+      "note": "Left open: the s.127 appeal is to be decided by the Divisional Commissioner, and the Corporation may proceed on the peak-hour penalty after adverting to s.56(2)/Clause 6.15.",
+      "docid": "",
+      "paras": "36(ii)-(iii)"
+    }
+  ],
+  "authorities": []
+}

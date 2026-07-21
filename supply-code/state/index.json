@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 216,
+  "next_seq": 224,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -1294,6 +1294,54 @@
       "case_id": "SCJ-215",
       "source_basename": "064_Vikas_Gupta_v._State_of_U.P.",
       "title": "Vikas Gupta & Another v. State of U.P. & 2 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-216",
+      "source_basename": "065_Sultan_Khan_v._State_of_U.P.",
+      "title": "Sultan Khan v. State of U.P. & 2 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-217",
+      "source_basename": "066_Veerendra_Kumar_Jain_v._State_of_U.P.",
+      "title": "Veerendra Kumar Jain v. State of U.P. & Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-218",
+      "source_basename": "067_Paliwal_Alloys_Pvt._Ltd._v._U.P._Power_Corporation_Ltd.",
+      "title": "M/s Paliwal Alloys (Pvt.) Ltd. v. U.P. Power Corporation Ltd. & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-219",
+      "source_basename": "068_Satguru_Metalloys_Pvt._Ltd._v._State_of_U.P.",
+      "title": "Shri Satguru Metalloys (Pvt.) Ltd. v. State of U.P. & 3 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-220",
+      "source_basename": "069_Mohammad_Rashid_v._State_of_U.P.",
+      "title": "Mohammad Rashid & Another v. State of U.P. & 3 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-221",
+      "source_basename": "070_Shanti_Devi_v._Pashichhamanchal_Vidhut_Vitran",
+      "title": "Smt. Shanti Devi v. Managing Director, Pashchimanchal Vidyut Vitran & Anr.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-222",
+      "source_basename": "071_Daya_Nand_Sharma_v._State_of_U.P.",
+      "title": "Daya Nand Sharma v. State of U.P. & Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-223",
+      "source_basename": "072_Virendra_Kumar_Mittal_v._U.P._Power_Corporation_Ltd.",
+      "title": "Virendra Kumar Mittal v. U.P. Power Corporation Ltd. & 2 Others",
       "status": "done"
     }
   ]
