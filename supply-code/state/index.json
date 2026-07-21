@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 184,
+  "next_seq": 192,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -1102,6 +1102,54 @@
       "case_id": "SCJ-183",
       "source_basename": "032_Santosh_Pathak_v._State_of_U.P.",
       "title": "Santosh Pathak v. State of U.P. & 3 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-184",
+      "source_basename": "033_A.K._Dixit_v._State_of_U.P.",
+      "title": "A.K. Dixit @ Avdhesh Kumar Dixit v. State of U.P. & 4 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-185",
+      "source_basename": "034_Kanchan_Singh_v._State_of_U.P.",
+      "title": "Kanchan Singh v. State of U.P. & 3 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-186",
+      "source_basename": "035_Santosh_Pathak_v._State_of_U.P.",
+      "title": "Santosh Pathak v. State of U.P. & 3 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-187",
+      "source_basename": "036_Mukesh_Singh_Chaturvedi_v._State_of_U.P.",
+      "title": "Mukesh Singh Chaturvedi v. State of U.P. & 2 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-188",
+      "source_basename": "037_Ramveer_Singh_v._U.P._Power_Corporation_Ltd.",
+      "title": "Ramveer Singh v. U.P. Power Corporation Ltd. & Another",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-189",
+      "source_basename": "038_Krishna_Kumar_Bhargava_v._State_of_U.P.",
+      "title": "Shri Krishna Kumar Bhargava v. State of U.P. & 4 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-190",
+      "source_basename": "039_Mamta_Tripathi_v._State_of_U.P.",
+      "title": "Dr. Mamta Tripathi v. State of U.P. & 6 Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-191",
+      "source_basename": "040_Arvind_Kumar_v._Paschimanchal_Vidyut_Vitran_Nigam_Limited",
+      "title": "Arvind Kumar v. Paschimanchal Vidyut Vitran Nigam Ltd. & Another",
       "status": "done"
     }
   ]

@@ -1,0 +1,62 @@
+{
+  "case_id": "SCJ-190",
+  "title": "Dr. Mamta Tripathi v. State of U.P. & 6 Ors.",
+  "neutral_citation": "2015 SCC OnLine All 1878",
+  "court": "Allahabad High Court (Lucknow Bench)",
+  "bench": "Division Bench",
+  "coram": "Dhananjaya Yeshwant Chandrachud, C.J. & Devendra Kumar Upadhyaya, J.",
+  "date_of_judgment": "2015-01-22",
+  "date_display": "22 January 2015",
+  "docket": "Misc. Bench No. 12974 of 2014",
+  "disposition": "Writ petition disposed of; application for connection to be processed on an indemnity bond",
+  "headnote": "Clause 4.4 of the U.P. Electricity Supply Code, 2005 is in aid of the statutory duty to supply electricity cast by Section 43 of the Electricity Act, 2003. Where an occupier of premises applies for a connection but is unable to produce the owner's consent — particularly where there is a dispute between owner and occupier (here a tenant against her landlord) — the Code provides for the connection to be granted on furnishing an Indemnity Bond in the proforma of Annexure 4.2. Following the Division Bench in Sushama Chowdhary (itself based on the Supreme Court's Chandu Khamaru v. Nayan Malik), the Court directed the electricity authority (LESA) to process the tenant's application on that basis, inform her of any other requirements within two days, and take a final decision within a week of her compliance.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.4",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.4 (r/w Annexure 4.2; s.43, Electricity Act 2003)",
+      "topic": "Occupier's connection on an indemnity bond where the owner's consent is unavailable",
+      "type": "supply_code",
+      "question": "Can a tenant/occupier obtain an electricity connection in her own name without the landlord/owner's consent, where there is an owner-occupier dispute?",
+      "holding": "Yes. Clause 4.4, which aids the s.43 statutory duty to supply, provides that where an occupier cannot produce the owner's consent — especially in an owner-occupier dispute — a connection may be granted on furnishing an Indemnity Bond (Annexure 4.2). Absence of the landlord's consent is therefore no bar; the authority must process the tenant's application on that basis, subject to her fulfilling the other legal requirements.",
+      "limiting_facts": "Tenant since 2012 receiving supply through the landlord's connection; supply disconnected; her fresh application met only with a demand for the rent agreement and landlord's consent, which she could not furnish due to a dispute.",
+      "paras": "(order)"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-4.4-occupant-connection-on-indemnity-bond",
+      "application": "An occupier unable to produce the owner's consent (e.g. an owner-occupier dispute) is entitled to a connection on an Indemnity Bond under Clause 4.4, which serves the s.43 duty to supply; consent of the owner is not an absolute precondition.",
+      "lead_authorities": [
+        {"name": "Smt. Sushama Chowdhary v. U.P. Power Corporation Ltd.", "docid": ""},
+        {"name": "Chandu Khamaru v. Smt. Nayan Malik", "docid": ""}
+      ],
+      "paras": "(order)"
+    }
+  ],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "Smt. Sushama Chowdhary v. U.P. Power Corporation Ltd.",
+      "citation": "Misc. Bench No. 9588 of 2014 (Allahabad HC, 24-09-2014)",
+      "court": "Allahabad High Court (Division Bench)",
+      "docid": "",
+      "proposition": "Clause 4.4 of the Code is in aid of the s.43 duty to supply; an occupier unable to produce the owner's consent (owner-occupier dispute) may obtain a connection on an Indemnity Bond (Annexure 4.2), and a denial merely citing Clause 4.4 without reasons is bad.",
+      "how_treated": "Followed and quoted as the governing Division Bench authority.",
+      "how_treated_paras": "(order)",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Chandu Khamaru v. Smt. Nayan Malik",
+      "citation": "AIR 2011 SC 2897",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "An occupier/tenant is entitled to an electricity connection and the owner's consent is not an indispensable precondition; the statutory duty to supply cannot be defeated for want of the owner's consent.",
+      "how_treated": "Relied on (via Sushama Chowdhary) as the Supreme Court foundation for the indemnity-bond route.",
+      "how_treated_paras": "(order)",
+      "cited_by": "Court",
+      "treatment": "Relied on"
+    }
+  ]
+}
