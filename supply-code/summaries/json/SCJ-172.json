@@ -1,0 +1,49 @@
+{
+  "case_id": "SCJ-172",
+  "title": "Suresh Kumar v. U.P. Power Corporation, Shakti Bhawan, Lucknow & Others",
+  "neutral_citation": "2011 SCC OnLine All 817",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Satya Poot Mehrotra, J. & Rajesh Chandra, J.",
+  "date_of_judgment": "2011-05-12",
+  "date_display": "12 May 2011",
+  "docket": "C.M.W.P. No. 15788 of 2011",
+  "disposition": "Writ petition disposed of with directions; recovery stayed pending decision on objections",
+  "headnote": "A document styled a 'provisional assessment' that contains no calculation of the assessment and does not even state the amount assessed on account of the alleged theft cannot be treated as a provisional assessment under Section 126 of the Electricity Act, 2003 and the U.P. Electricity Supply Code, 2005. Where such a defective provisional assessment was followed by a 'final assessment', the Court directed that the final assessment order be treated as the provisional assessment, that the consumer's objections be considered and disposed of by a speaking order after a reasonable opportunity of hearing, and that recovery under the citation remain stayed until the objections are decided and thereafter abide that decision.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.8 (r/w s.126, Electricity Act 2003)",
+      "topic": "A 'provisional assessment' with no calculation or amount is not a valid provisional assessment",
+      "type": "supply_code",
+      "question": "Is a document that shows no calculation and states no assessed amount a valid provisional assessment for a theft/UUE case?",
+      "holding": "No. Such a document does not contain any calculation of the provisional assessment nor mention the amount assessed, and so cannot be a provisional assessment as contemplated by s.126 of the Act and the Code. The purported final assessment is therefore to be treated as the provisional assessment, and the consumer's objections must be decided by a speaking order after a reasonable opportunity of hearing; recovery under the citation stays meanwhile and abides that decision.",
+      "limiting_facts": "Checking on 10.1.2008 alleged theft; the 29.2.2008 'provisional assessment' had no calculation and no amount; the consumer received only the 1.5.2008 'final assessment' and filed objections that were not decided.",
+      "paras": "7, 14-15"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "provisional-assessment-must-state-basis-and-amount",
+      "application": "A provisional assessment must contain the calculation and the amount assessed; a document lacking these is no assessment at all, and the consumer is entitled to have objections decided by a speaking order after hearing.",
+      "lead_authorities": [],
+      "paras": "7, 14-15"
+    },
+    {
+      "tag": "opportunity-before-final-assessment",
+      "application": "Objections to the (re-characterised) provisional assessment must be decided by a speaking order after a reasonable opportunity of hearing before recovery proceeds.",
+      "lead_authorities": [],
+      "paras": "15"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether theft occurred and the quantum of the assessment",
+      "note": "Left to the assessing officer to decide on the objections; the Court did not adjudicate the merits.",
+      "docid": "",
+      "paras": "15"
+    }
+  ],
+  "authorities": []
+}

@@ -1,0 +1,49 @@
+{
+  "case_id": "SCJ-173",
+  "title": "Shailendra Kumar v. State of U.P. & Another",
+  "neutral_citation": "2019 SCC OnLine All 4790",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Sanjay Kumar Singh, J.",
+  "date_of_judgment": "2019-04-11",
+  "date_display": "11 April 2019",
+  "docket": "Application U/S 482 Cr.P.C. No. 13903 of 2019",
+  "disposition": "Application under s.482 Cr.P.C. dismissed; non-bailable warrant and proceedings not quashed",
+  "headnote": "The offence under Section 138 of the Electricity Act, 2003 (unauthorisedly reconnecting a meter/line after disconnection) is entirely distinct from a dispute about arrears/billing, which is governed by Chapter 6 of the U.P. Electricity Supply Code, 2005. Where a consumer's electricity was disconnected for non-payment of a revised bill and he then reconnected the line himself without following the reconnection procedure, an FIR and prosecution under Section 138 are not an abuse of process merely because a Consumer Forum had earlier set aside a different bill — that civil grievance does not touch the s.138 offence, and in any event the revised bill was neither paid nor challenged. On a s.482 application at the pre-trial stage the Court will not appreciate evidence or determine the genuineness of allegations; a prima facie s.138 case being made out, the proceedings and the non-bailable warrant (issued for non-appearance) were not quashed.",
+  "holding_units": [
+    {
+      "provision": "EA2003::138",
+      "code": "Electricity Act, 2003",
+      "clause": "138",
+      "topic": "Unauthorised reconnection (s.138) is distinct from a billing/arrears dispute",
+      "type": "interplay",
+      "question": "Does a Consumer Forum order setting aside an earlier bill bar prosecution under s.138 for unauthorised reconnection after disconnection?",
+      "holding": "No. The s.138 offence of unauthorisedly reconnecting the line after disconnection is entirely different from the arrears/billing dispute (governed by Chapter 6 of the Code); the prosecution was for the reconnection, not for non-payment. A prior consumer-forum order on a different bill does not make the criminal proceedings an abuse of process, especially as the revised bill was neither paid nor challenged. At the pre-trial stage under s.482 the Court will not appreciate evidence; a prima facie s.138 case being made out, the proceedings and the non-bailable warrant were not quashed.",
+      "limiting_facts": "Supply disconnected on 13.3.2018 for non-payment of a revised bill; on inspection (30.5.2018) the line was found reconnected by the consumer; FIR under s.138 followed, charge-sheet filed, cognizance taken, NBW issued for non-appearance.",
+      "paras": "6-11"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "s138-reconnection-offence-distinct-from-billing-dispute",
+      "application": "Prosecution for unauthorised reconnection under s.138 is independent of any billing/arrears dispute under Chapter 6 of the Code; a favourable consumer-forum order on a bill does not bar the s.138 prosecution.",
+      "lead_authorities": [],
+      "paras": "6-8"
+    },
+    {
+      "tag": "section-482-sparingly-at-pre-trial-stage",
+      "application": "The inherent power under s.482 Cr.P.C. is used sparingly and not to appreciate evidence or test the genuineness of allegations at the pre-trial/summoning stage; where a prima facie offence is disclosed, the proceedings are not quashed.",
+      "lead_authorities": [],
+      "paras": "9-11"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Guilt under s.138 and the correctness of the revised bill",
+      "note": "Left to the trial; the Court expressly declined to appreciate evidence at the pre-trial stage, and noted the revised bill had not been challenged before any competent court.",
+      "docid": "",
+      "paras": "6, 9-10"
+    }
+  ],
+  "authorities": []
+}

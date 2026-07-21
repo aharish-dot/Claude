@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 168,
+  "next_seq": 176,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -1006,6 +1006,54 @@
       "case_id": "SCJ-167",
       "source_basename": "016_U.P._Rajya_Vidyut_Parishad_v._Panjab_Corbohydrate",
       "title": "U.P. Rajya Vidyut Parishad v. Panjab Corbohydrate",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-168",
+      "source_basename": "017_Mohd._Daud_v._State_of_U.P.",
+      "title": "Mohd. Daud v. State of U.P. & 2 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-169",
+      "source_basename": "018_Abhimanyu_Singh_v._State_of_U.P.",
+      "title": "Abhimanyu Singh v. State of U.P. & 7 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-170",
+      "source_basename": "019_Heera_Lal_v._State_of_U.P.",
+      "title": "Heera Lal v. State of U.P. & Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-171",
+      "source_basename": "020_Vandana_Srivastava_v._Purvanchal_Vidyut_Vitran_Nigam_Ltd.",
+      "title": "Vandana Srivastava v. Purvanchal Vidyut Vitran Nigam Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-172",
+      "source_basename": "021_Suresh_Kumar_v._U.P._Power_Corporation_Shakti_Bhawan_Lucknow",
+      "title": "Suresh Kumar v. U.P. Power Corporation, Shakti Bhawan, Lucknow & Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-173",
+      "source_basename": "022_Shailendra_Kumar_v._State_of_U.P.",
+      "title": "Shailendra Kumar v. State of U.P. & Another",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-174",
+      "source_basename": "023_Meva_Ram_v._State_of_U.P.",
+      "title": "Meva Ram v. State of U.P. & 2 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-175",
+      "source_basename": "024_Forntier_Alloy_Steels_Limited_v._Dakshinanchal_Vidyut_Vitran_Nigam_Ltd.",
+      "title": "M/s Forntier Alloy Steels Ltd. v. Dakshinanchal Vidyut Vitran Nigam Ltd. & 2 Others",
       "status": "done"
     }
   ]

@@ -1,0 +1,72 @@
+{
+  "case_id": "SCJ-170",
+  "title": "Heera Lal v. State of U.P. & Others",
+  "neutral_citation": "2009 SCC OnLine All 83",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Amitava Lala, J. & Rajes Kumar, J.",
+  "date_of_judgment": "2009-01-28",
+  "date_display": "28 January 2009",
+  "docket": "Civil Misc. Writ Petition No. 4897 of 2009",
+  "disposition": "Writ petition dismissed",
+  "headnote": "In the recovery of electricity dues, the recovery proceeding is in the nature of execution and the executing authority (the Tehsildar acting on a citation) is confined to execution, discharge or satisfaction of the 'decree' — here the electricity authority's demand/assessment — and cannot vary or override it. A consumer who objects to the underlying demand must approach the authority that raised it (the electricity authority under the Electricity Act) or prefer an appeal, not raise the objection before the executing Tehsildar; variation of the 'decree' and its execution cannot run simultaneously. The petitioner, who filed his objection only before the Tehsildar and refused to approach the electricity authority despite the Court's endeavour, and who annexed the demand notice he claimed never to have received without explaining how he obtained it, had not come with clean hands; the writ was dismissed.",
+  "holding_units": [
+    {
+      "provision": "CPC::47",
+      "code": "Code of Civil Procedure, 1908 (applied by analogy to recovery of electricity dues)",
+      "clause": "47 / Order 21 Rule 10",
+      "topic": "Executing authority cannot vary the underlying demand; objection must go to the assessing authority",
+      "type": "interplay",
+      "question": "Can a consumer challenge the correctness of an electricity demand before the executing Tehsildar in recovery proceedings, or must he approach the electricity authority?",
+      "holding": "Recovery is akin to execution; the executing authority (Tehsildar) is confined to the execution, discharge or satisfaction of the demand ('decree') and cannot modify, set aside or vary it. An objection that seeks to vary the demand must be taken before the authority that passed it (the electricity authority) or by appeal, not before the executing Tehsildar; variation and execution cannot proceed simultaneously.",
+      "limiting_facts": "Petitioner filed his objection only before the Tehsildar, declined to approach the electricity authority, and produced a copy of the demand notice he claimed never to have received without explaining how he obtained it — not clean hands.",
+      "paras": "(order)"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "recovery-objection-goes-to-assessing-authority-not-executing-tehsildar",
+      "application": "An objection to the correctness of an electricity demand lies before the assessing/electricity authority (or on appeal), not before the executing Tehsildar, who is confined to execution and cannot vary the demand.",
+      "lead_authorities": [
+        {"name": "Chandra Kishore Jha v. Mahabir Prasad", "docid": ""}
+      ],
+      "paras": "(order)"
+    }
+  ],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "Chandra Kishore Jha v. Mahabir Prasad",
+      "citation": "JT 1999 (7) SC 256",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Where a statute provides for a thing to be done in a particular manner, it must be done in that manner and no other.",
+      "how_treated": "Proposition accepted, but held to support relegating the objection to the electricity authority, not the Tehsildar.",
+      "how_treated_paras": "(order)",
+      "cited_by": "Petitioner",
+      "treatment": "Referred"
+    },
+    {
+      "name": "Seth Banarsi Dass (dead) by LRs v. District Magistrate and Collector, Meerut",
+      "citation": "(1996) 2 SCC 689",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Recovery proceedings are equivalent to execution proceedings under the CPC; an auction sale without deciding objections is a material irregularity vitiating the sale.",
+      "how_treated": "Cited by the petitioner; the Court held the executing authority is confined to the decree and cannot decide objections that vary it.",
+      "how_treated_paras": "(order)",
+      "cited_by": "Petitioner",
+      "treatment": "Referred"
+    },
+    {
+      "name": "Smt. Chandrawati v. U.P. State Electricity Board",
+      "citation": "1986 All LJ 1451",
+      "court": "Allahabad High Court (Division Bench)",
+      "docid": "",
+      "proposition": "Where no notice of demand was admittedly served, the consumer is entitled to a mandamus restraining recovery under the demand and recovery certificates.",
+      "how_treated": "Distinguished as factually different — there the non-service was admitted, whereas here there was no such admission.",
+      "how_treated_paras": "(order)",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished"
+    }
+  ]
+}
