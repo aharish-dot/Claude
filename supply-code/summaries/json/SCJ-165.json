@@ -1,0 +1,111 @@
+{
+  "case_id": "SCJ-165",
+  "title": "Kamil v. State of U.P. & Others",
+  "neutral_citation": "2016 SCC OnLine All 2684",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J. & Amar Singh Chauhan, J.",
+  "date_of_judgment": "2016-04-25",
+  "date_display": "25 April 2016",
+  "docket": "C.M.W.P. No. 19318 of 2008",
+  "disposition": "Writ petition allowed; assessment/representation-rejection order and s.3 (1958 Act) demand notice quashed",
+  "headnote": "A provisional assessment for unauthorised use of electricity is valid only if made following Section 126 of the Electricity Act, 2003 and the detailed procedure in Clause 6.8 of the U.P. Electricity Supply Code, 2005 — inspection and a site report indicating conclusive evidence of UUE handed to the consumer, a provisional assessment bill with a show-cause notice giving 15 working days to reply and a fixed date of hearing, a personal hearing, and a speaking order recording whether UUE is established and the quantum. Here the notice dated 29.7.2005 gave the consumer no opportunity to file objections and fixed no date of hearing — it merely demanded a deposit within seven days — and no final order of assessment preceded the demand notice under Section 3 of the U.P. Government Electrical Undertakings (Dues Recovery) Act, 1958. The procedure was wholly de hors the statutory provisions and violated natural justice; the s.127 alternative remedy is no bar in such a case (natural-justice breach, plus six years' pendency). The impugned order and the s.3 demand notice are quashed, with liberty to issue a fresh provisional assessment notice complying with s.126 and Clause 6.8.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.8",
+      "topic": "Mandatory Clause 6.8 procedure for a UUE assessment; bare deposit-demand notice is illegal",
+      "type": "supply_code",
+      "question": "Is a provisional assessment valid where the notice gave no opportunity to object and fixed no hearing date, and no final assessment order preceded the recovery demand?",
+      "holding": "No. Clause 6.8 requires a site inspection report indicating conclusive evidence of UUE handed to the consumer (6.8(a)), a provisional assessment bill with a show-cause notice giving 15 working days to reply and a fixed date of hearing (6.8(b)), a personal hearing, and a speaking order on whether UUE is established and the quantum (6.8(c)). The notice dated 29.7.2005 offered no opportunity to object and fixed no hearing, merely demanding a deposit within seven days, and no final assessment order preceded the s.3 (1958 Act) demand. The entire procedure was de hors s.126 and Clause 6.8; the impugned order and the s.3 demand notice are quashed, with liberty to issue a fresh, compliant provisional assessment notice.",
+      "limiting_facts": "Surprise checking found a 32.16 HP load against a sanctioned 6.7 HP and a direct connection from the L.T. line (theft); an FIR was lodged, but the assessment machinery was not followed.",
+      "paras": "11-15, 22-25"
+    },
+    {
+      "provision": "EA2003::126",
+      "code": "Electricity Act, 2003",
+      "clause": "126(1) & (3)",
+      "topic": "Recorded conclusion of UUE and a fair hearing are conditions precedent to assessment",
+      "type": "interplay",
+      "holding": "The condition precedent to the s.126(1) power is the assessing officer's conclusion that the consumer indulged in unauthorised use; that satisfaction cannot rest on the officer's mere vagaries without a fair opportunity of hearing. Natural justice, not being excluded by the Act, applies to a serious charge of unauthorised use that may also amount to a s.135 offence; s.126(3) itself contemplates a reasonable opportunity of hearing before final assessment.",
+      "paras": "9-10, 19"
+    },
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act, 2003",
+      "clause": "127",
+      "topic": "Alternative remedy no bar where assessment breaches natural justice",
+      "type": "interplay",
+      "holding": "The s.127 appeal does not bar the writ: an order passed in violation of natural justice is an established exception to the alternative-remedy rule (Whirlpool), and the writ had in any event been entertained with a conditional interim order and remained pending for six years. The petitioner was not relegated to the appeal.",
+      "paras": "17-21"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.8-hearing-procedure-mandatory-before-uue-conclusion",
+      "application": "A provisional assessment must follow Clause 6.8 — site report of conclusive evidence, 15 working days to reply, a fixed hearing date, and a speaking order; a bare demand for deposit within seven days, with no objection/hearing opportunity, is de hors the Code and illegal.",
+      "lead_authorities": [
+        {"name": "Ashok Kumar v. State of U.P.", "docid": ""}
+      ],
+      "paras": "11-15"
+    },
+    {
+      "tag": "opportunity-before-final-assessment",
+      "application": "A recorded conclusion of UUE reached without a fair opportunity of hearing cannot support an assessment; natural justice applies to the serious charge of unauthorised use, which may also be a s.135 offence.",
+      "lead_authorities": [],
+      "paras": "9-10"
+    },
+    {
+      "tag": "whirlpool-exceptions-to-alternative-remedy-bar",
+      "application": "An assessment passed in breach of natural justice falls within the Whirlpool exceptions, so the s.127 appeal is no bar to the writ; long pendency reinforced the refusal to relegate.",
+      "lead_authorities": [
+        {"name": "Whirlpool Corporation v. Registrar of Trade Marks, Mumbai", "docid": ""}
+      ],
+      "paras": "19-21"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the consumer's connection was in fact restored",
+      "note": "The petitioner alleged non-restoration despite depositing Rs. 1 lakh; the respondents claimed restoration. The Court held this was not the issue for adjudication in the writ.",
+      "docid": "",
+      "paras": "4-5"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008 (72) ALR 43",
+      "court": "Allahabad High Court (Division Bench)",
+      "docid": "",
+      "proposition": "A provisional/UUE assessment under s.126 read with Clause 6.8 requires a recorded conclusion of unauthorised use and an opportunity of hearing at the appropriate stages; an assessment de hors that procedure is illegal.",
+      "how_treated": "Relied on as directly supporting the view taken. (Digested in the corpus as SCJ-158.)",
+      "how_treated_paras": "16",
+      "cited_by": "Court",
+      "treatment": "Relied on"
+    },
+    {
+      "name": "Whirlpool Corporation v. Registrar of Trade Marks, Mumbai",
+      "citation": "(1998) 8 SCC 1",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Alternative statutory remedy does not bar a writ where there is a breach of natural justice, enforcement of fundamental rights, want of jurisdiction, or a challenge to vires; exhaustion is a rule of discretion, not law.",
+      "how_treated": "Relied on and quoted (paras 15-21) to entertain the writ despite the s.127 appeal.",
+      "how_treated_paras": "20",
+      "cited_by": "Court",
+      "treatment": "Relied on"
+    },
+    {
+      "name": "State of U.P. v. Mohd. Nooh",
+      "citation": "AIR 1958 SC 86",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "The rule requiring exhaustion of statutory remedies before a writ is one of policy, convenience and discretion, not of law; certiorari has issued despite adequate alternative remedies.",
+      "how_treated": "Noticed within the quoted Whirlpool extract.",
+      "how_treated_paras": "20",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    }
+  ]
+}

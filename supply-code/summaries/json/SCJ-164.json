@@ -1,0 +1,107 @@
+{
+  "case_id": "SCJ-164",
+  "title": "Parmarth Steels & Alloys (Pvt.) Ltd. & Anr. v. U.P. Power Corporation Ltd. (Transco) & Others",
+  "neutral_citation": "2013 SCC OnLine All 11490",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Ashok Bhushan, J. & Vipin Sinha, J.",
+  "date_of_judgment": "2013-12-03",
+  "date_display": "3 December 2013",
+  "docket": "Writ - C No. 4544 of 2008",
+  "disposition": "Writ petition allowed to the extent indicated; rejection order set aside; matter remitted for fresh final assessment",
+  "headnote": "In a theft/unauthorised-use assessment on an independent-feeder consumer, the assessing officer is bound to consider the consumer's detailed objections and pass a speaking order before final assessment under Section 126 of the Electricity Act, 2003. Here the objections specifically pointed out that the outdoor double-pole (check) meter was found O.K. and that the sub-station energy-accounting meter's line-loss readings — which tally at both ends — were relevant to disprove theft; these were never considered, the only reply to a key objection being the non-speaking line 'Assessment is as per rules and has been finalised after considering all the facts'. The check meter's reading and the sub-station readings had to be given due consideration. The order rejecting the objections is set aside and the matter remitted for a fresh final assessment after due consideration of the objections. Separately, the writ was not dismissed for the s.127 alternative remedy: that bar is a self-imposed discipline, not a jurisdictional one, and a writ entertained with completed pleadings, an interim order, and five years' pendency should be decided on merits.",
+  "holding_units": [
+    {
+      "provision": "EA2003::126",
+      "code": "Electricity Act, 2003",
+      "clause": "126",
+      "topic": "Assessing officer must consider all objections (check-meter and sub-station readings) via a speaking order",
+      "type": "interplay",
+      "question": "Can a final assessment stand where the assessing officer rejected the consumer's detailed objections by a non-speaking, parawise reply without considering the check-meter and sub-station readings?",
+      "holding": "No. Before making a final assessment under s.126 the assessing officer must consider the consumer's detailed objections and pass a speaking order. The outdoor double-pole meter functions as a check meter and was found O.K., and the sub-station meter maintains line-loss readings that tally at both ends; both were relevant to whether theft occurred and had to be given due consideration. The rejection order, which met a key objection only with 'Assessment is as per rules...', did not do so and is set aside; the matter is remitted for a fresh final assessment after due consideration of the objections.",
+      "limiting_facts": "Independent-feeder consumer with three meters (energy meter in premises, outdoor double-pole check meter, sub-station accounting meter); on inspection the C.T.-chamber plastic seal was found damaged/tampered but the outdoor meter was O.K.",
+      "paras": "24-33",
+      "flag": "The Court did not decide whether theft in fact occurred (para 31) — the ratio is the duty to consider objections via a speaking order."
+    },
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act, 2003",
+      "clause": "127",
+      "topic": "Alternative remedy is self-imposed discipline; not a bar after long pendency and completed pleadings",
+      "type": "interplay",
+      "holding": "The s.127 appeal does not bar the writ. The bar of alternative remedy is a self-imposed discipline, a matter of discretion not jurisdiction; where the writ was entertained, pleadings exchanged, an interim order granted, and it remained pending over five years, it is not fit to be dismissed on that ground and should be decided on merits.",
+      "paras": "14-16"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "check-meter-and-substation-readings-relevant-to-theft-assessment",
+      "application": "In a theft/UUE assessment, the reading of an outdoor check meter (found O.K.) and of the sub-station accounting meter (line-loss records tallying at both ends) are relevant factors the assessing officer must consider before concluding theft.",
+      "lead_authorities": [],
+      "paras": "24-30"
+    },
+    {
+      "tag": "alternative-remedy-not-a-bar-after-long-pendency",
+      "application": "A writ entertained with completed pleadings, an interim order and years of pendency should be decided on merits rather than dismissed for the statutory appeal; the alternative-remedy bar is self-imposed discipline, not a jurisdictional bar.",
+      "lead_authorities": [
+        {"name": "Durga Enterprises (P) Ltd. v. Principal Secretary, Govt. of U.P.", "docid": ""},
+        {"name": "Roshan Lal v. State of U.P.", "docid": ""}
+      ],
+      "paras": "14-16"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether theft of electricity was in fact committed",
+      "note": "The Court expressly declined to enter the merits of whether there was material to support a theft assessment; that is for the assessing officer on the remitted final assessment after considering the objections.",
+      "docid": "",
+      "paras": "31"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Durga Enterprises (P) Ltd. v. Principal Secretary, Govt. of U.P.",
+      "citation": "(2004) 13 SCC 665",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Where the High Court has entertained a writ petition in which pleadings are complete, it ought to decide the case on merits rather than relegate the parties to the alternative remedy.",
+      "how_treated": "Relied on to decide the writ on merits despite the s.127 appeal.",
+      "how_treated_paras": "14-15",
+      "cited_by": "Petitioner",
+      "treatment": "Relied on"
+    },
+    {
+      "name": "Roshan Lal v. State of U.P.",
+      "citation": "2009 (9) ADJ 670",
+      "court": "Allahabad High Court (Division Bench)",
+      "docid": "",
+      "proposition": "Existence of an alternative remedy is a self-imposed discipline, not a jurisdictional bar; dismissing a writ on that ground long after filing and exchange of pleadings may shut out the alternative remedy itself and is to be avoided.",
+      "how_treated": "Followed and quoted (paras 7, 10, 11).",
+      "how_treated_paras": "15",
+      "cited_by": "Petitioner",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Dhani Ram v. Chief Engineer, Raj Ghat Project Betwa River Board",
+      "citation": "(2013) 5 ADJ 691",
+      "court": "Allahabad High Court (Division Bench)",
+      "docid": "",
+      "proposition": "On declining to relegate a long-pending, fully-pleaded writ to the alternative remedy.",
+      "how_treated": "Cited in support of deciding the writ on merits.",
+      "how_treated_paras": "14",
+      "cited_by": "Petitioner",
+      "treatment": "Referred"
+    },
+    {
+      "name": "Diwakar Dutt Bhatt v. Life Insurance Corporation of India",
+      "citation": "(1998) 2 UPLBEC 1154",
+      "court": "Allahabad High Court (Division Bench)",
+      "docid": "",
+      "proposition": "The bar of alternative remedy is a matter of self-imposed discipline; where the petition was entertained and pleadings exchanged, it is inexpedient to dismiss it on that ground.",
+      "how_treated": "Noticed within the quoted Roshan Lal extract.",
+      "how_treated_paras": "15",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    }
+  ]
+}
