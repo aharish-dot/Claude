@@ -1,0 +1,115 @@
+{
+  "case_id": "SCJ-252",
+  "title": "Tehri Girders Limited and another v. Paschimanchal Vidyut Vitran Nigam Limited and others (with R.A. Castings, Sikka Papers and connected petitions)",
+  "neutral_citation": "2009 SCC OnLine All 1262 : (2009) 77 ALR 669 : (2010) 1 All LJ 59 : 2010 AIHC 663",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Ashok Bhushan, J. & R.A. Singh, J.",
+  "date_of_judgment": "2009-11-20",
+  "date_display": "2009 (2009 SCC OnLine All 1262)",
+  "docket": "Civil Misc. Writ Petition No. 38 of 2009 (with W.P. Nos. 27186, 24557, 41222 and 32452 of 2009)",
+  "disposition": "Petitions challenging bank-guarantee demands for additional security allowed; the connected petition on withdrawal of load-factor rebate dismissed (that amount being a due)",
+  "headnote": "Additional security demanded under Section 47 of the Electricity Act, 2003 on enhancement of load is not 'dues' recoverable by any process under the Act or the U.P. Electricity Supply Code, 2005, and therefore Clause 4.49 of the Code (which applies where recovery of 'dues' has been stayed by a court/forum) is not attracted; a licensee cannot demand a bank guarantee under Clause 4.49 for an additional-security amount stayed by the court. Security is in the nature of an advance payment (Ferro Alloys), the relationship being depositor-depositee not debtor-creditor, and 'dues' connotes an amount owed as an enforceable debt; the only consequence of non-payment of additional security is non-release of the additional load and discontinuance of supply, with no recovery process contemplated (Mirzapur Electric Supply). The Court distinguished withdrawal of a load-factor rebate, which does become a 'due' recoverable, and upheld a bank-guarantee demand to that extent.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.49",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.49 (r/w Clause 4.43(a)(v))",
+      "topic": "Clause 4.49 not attracted to additional security, which is not 'dues'; no bank guarantee for it",
+      "type": "supply_code",
+      "question": "Where a demand of additional security on load enhancement has been stayed, can the licensee demand a bank guarantee for an equal amount under Clause 4.49?",
+      "holding": "No. Clause 4.49 is attracted only where a court/forum has stayed the 'recovery of any dues'; the condition precedent is that the amount be a due recoverable by some process under the Act or the Code. Additional security is not such a due: its non-payment merely results in non-release of the additional load and discontinuance of supply, with no recovery process provided. Clause 4.49 is therefore not attracted, and the demand of a bank guarantee for the stayed additional-security amount was unjustified; the petitioners are entitled to release of any bank guarantee already furnished.",
+      "limiting_facts": "Load-enhancement applications; additional-security demands stayed by the High Court in separate writ petitions; bank guarantee demanded under Clause 4.43(a)(v) r/w 4.49.",
+      "paras": "11, 19-21, 32, 34"
+    },
+    {
+      "provision": "EA2003::47",
+      "code": "Electricity Act, 2003",
+      "clause": "s.47 (r/w Clause 4.20, Supply Code; ss.45-46)",
+      "topic": "Nature of security: advance payment / depositor-depositee, not a recoverable debt",
+      "type": "interplay",
+      "question": "What is the nature of a security/additional-security deposit under s.47, and can it be treated as a 'due'/arrear recoverable as arrears of land revenue?",
+      "holding": "Security under s.47 is in the nature of an advance payment of charges (a running current account) - the relationship being depositor-depositee, not debtor-creditor (Ferro Alloys) - and is only an amount demanded as a condition of supply, not owed as an enforceable debt; hence it is not 'dues' and cannot be recovered as arrears of land revenue (Mirzapur Electric Supply, on s.47-A of the 1948 Act). By contrast, a load-factor rebate once given in the bill and later withdrawn does become a 'due', and a bank-guarantee demand for that amount cannot be faulted.",
+      "limiting_facts": "Security/additional security is refundable with interest and adjustable against arrears; non-payment leads only to non-supply; withdrawal-of-rebate amounts distinguished as bill-based dues.",
+      "paras": "21, 26-30, 35"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "additional-security-is-not-dues-clause-4.49-not-attracted",
+      "application": "Additional security is not a recoverable 'due'; Clause 4.49 (stay-of-recovery-of-dues) is not attracted and no bank guarantee for additional security can be demanded.",
+      "lead_authorities": [
+        {"name": "Mirzapur Electric Supply Company Limited v. State of U.P.", "docid": ""}
+      ],
+      "paras": "32, 34"
+    },
+    {
+      "tag": "security-deposit-is-advance-payment-not-debt",
+      "application": "A security/additional-security deposit is an advance payment (depositor-depositee), not a debt owed to the licensee, and is not recoverable as arrears of land revenue.",
+      "lead_authorities": [
+        {"name": "Ferro Alloys Corporation Limited v. A.P. State Electricity Board", "docid": ""}
+      ],
+      "paras": "26-29"
+    },
+    {
+      "tag": "withdrawn-load-factor-rebate-is-a-recoverable-due",
+      "application": "A load-factor rebate given in the bill and later withdrawn becomes a 'due', so a bank-guarantee demand for that amount is permissible (unlike additional security).",
+      "lead_authorities": [],
+      "paras": "35"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "The validity of the orders withdrawing the load-factor rebate",
+      "note": "Separate writ petitions challenging the withdrawal of the rebate were pending; the Court expressed no opinion on them, only holding the withdrawn-rebate amount to be a due.",
+      "docid": "",
+      "paras": "35"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ferro Alloys Corporation Limited v. A.P. State Electricity Board",
+      "citation": "1993 Supp (4) SCC 136",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "The true nature of a security deposit is an advance payment of charges (a running current account); the relationship between consumer and licensee is that of depositor and depositee, not debtor and creditor.",
+      "how_treated": "Relied on for the nature of security as advance payment, supporting the conclusion that it is not 'dues'.",
+      "how_treated_paras": "26-27",
+      "cited_by": "Petitioner",
+      "treatment": "Relied on"
+    },
+    {
+      "name": "Mirzapur Electric Supply Company Limited v. State of U.P.",
+      "citation": "AIR 1975 All 29",
+      "court": "Allahabad High Court (Division Bench)",
+      "docid": "",
+      "proposition": "The amount of security demanded is not 'dues' owed as a debt but only an amount demanded as a condition of supply; it cannot be recovered as arrears of land revenue under the U.P. Government Electrical Undertakings (Dues Recovery) Act, 1958.",
+      "how_treated": "Relied on / followed as fully covering the issue that security is not 'dues'.",
+      "how_treated_paras": "28-29, 33",
+      "cited_by": "Petitioner",
+      "treatment": "Relied on"
+    },
+    {
+      "name": "M.P. State Electricity Board v. Gras Industries Ltd.",
+      "citation": "AIR 2008 SC 433",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Cited on the distinction between security/additional security and dues/arrears.",
+      "how_treated": "Referred in support of the petitioners' distinction between security and dues.",
+      "how_treated_paras": "8",
+      "cited_by": "Petitioner",
+      "treatment": "Referred"
+    },
+    {
+      "name": "State of Kerala v. V.R. Kalliyanikutty",
+      "citation": "(1999) 3 SCC 657",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "On the meaning and scope of 'dues' / amounts recoverable.",
+      "how_treated": "Referred in support of the petitioners' construction of 'dues'.",
+      "how_treated_paras": "8",
+      "cited_by": "Petitioner",
+      "treatment": "Referred"
+    }
+  ]
+}

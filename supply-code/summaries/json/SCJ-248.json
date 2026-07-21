@@ -1,0 +1,81 @@
+{
+  "case_id": "SCJ-248",
+  "title": "Kalawati Rana v. U.P. Power Corporation Ltd. Thru its M.D./Chairman and Another",
+  "neutral_citation": "2017 SCC OnLine All 4594 : (2017) 3 All LJ 267",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "V.K. Shukla, J. & Ashok Kumar, J.",
+  "date_of_judgment": "2017-03-06",
+  "date_display": "6 March 2017",
+  "docket": "Writ C. No. 9766 of 2017",
+  "disposition": "Writ petition disposed of; refusal of the new connection upheld, with liberty to obtain a No-Dues Certificate on depositing the erstwhile owner's dues",
+  "headnote": "A new electricity connection to a purchaser of premises may lawfully be refused until the arrears standing against the erstwhile owner of those premises are cleared. Under the third proviso to Clause 4.1 of the U.P. Electricity Supply Code, 2005, where arrears exist on premises whose ownership has changed, a new connection is released to the new owner only on a No-Dues Certificate under Clause 4.3(f). Following the coordinate-bench decision in Pawan Jha and the Supreme Court in PVVNL v. DVS Steels and Haryana SEB v. Hanuman Rice Mills, the Court held that although past dues are not a charge on the premises and cannot be foisted on a transferee as such, the distributor may stipulate clearing the arrears as a condition of a fresh connection to the same premises; a sale-deed clause casting the dues on the seller does not bind the licensee. The refusal was upheld, with liberty to the purchaser to deposit the erstwhile owner's dues and obtain a No-Dues Certificate.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.1",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.1 (third proviso) r/w Clause 4.3(f)",
+      "topic": "New connection to a purchaser conditioned on a No-Dues Certificate for the premises' arrears",
+      "type": "supply_code",
+      "question": "Can a purchaser of premises be refused a new connection for arrears standing against the erstwhile owner of those premises?",
+      "holding": "Yes. The third proviso to Clause 4.1 provides that where arrears exist on premises whose ownership has changed, a new connection is released to the new owner only on submission of a No-Dues Certificate under Clause 4.3(f). Consistently with PVVNL v. DVS Steels and Haryana SEB v. Hanuman Rice Mills (as applied by the coordinate bench in Pawan Jha), the distributor may stipulate clearing the premises' arrears as a condition of a fresh connection, and an inter-party sale-deed clause fixing the dues on the seller does not bind the licensee. The refusal was upheld, with liberty to deposit the erstwhile owner's dues and obtain a No-Dues Certificate.",
+      "limiting_facts": "Purchaser under a registered sale deed (13.12.2012) with a clause casting electricity dues on the sellers; new connection refused for the sellers' outstanding dues on the same house.",
+      "paras": "4-12"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "arrears-follow-premises-not-person-fresh-connection-vs-transfer",
+      "application": "Past dues are not a charge on the premises, but a fresh connection to a purchaser may be conditioned on clearing them via a No-Dues Certificate; the sale-deed's inter-party allocation does not bind the licensee.",
+      "lead_authorities": [
+        {"name": "Paschimanchal Vidyut Vitran Nigam Ltd. v. DVS Steels & Alloys Pvt. Ltd.", "docid": "SCJ-099"},
+        {"name": "Haryana State Electricity Board v. Hanuman Rice Mills, Dhanauri", "docid": "SCJ-031"}
+      ],
+      "paras": "7-11"
+    },
+    {
+      "tag": "arrears-run-with-the-premises",
+      "application": "The third proviso to Clause 4.1 r/w Clause 4.3(f) makes a No-Dues Certificate a condition precedent to a new connection on premises carrying arrears.",
+      "lead_authorities": [
+        {"name": "Smt. Pawan Jha @ Priya Jha v. State of U.P.", "docid": "SCJ-125"}
+      ],
+      "paras": "5-10"
+    }
+  ],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "Paschimanchal Vidyut Vitran Nigam Ltd. v. DVS Steels & Alloys Pvt. Ltd.",
+      "citation": "(2009) 1 SCC 210 : AIR 2009 SC 647",
+      "court": "Supreme Court",
+      "docid": "SCJ-099",
+      "proposition": "Past electricity dues are not a charge on the premises and cannot be recovered from a transferee as such, but when the purchaser seeks a fresh connection to the same premises the distributor may stipulate clearing the arrears as a condition of supply; such a stipulation is not unreasonable or arbitrary.",
+      "how_treated": "Applied (via the coordinate-bench decision in Pawan Jha) to uphold the refusal pending a No-Dues Certificate.",
+      "how_treated_paras": "7-10",
+      "cited_by": "Respondent",
+      "treatment": "Applied"
+    },
+    {
+      "name": "Haryana State Electricity Board v. Hanuman Rice Mills, Dhanauri",
+      "citation": "(2010) 9 SCC 145 : AIR 2010 SC 3835",
+      "court": "Supreme Court",
+      "docid": "SCJ-031",
+      "proposition": "Electricity arrears are not a charge on the property, but where statutory rules or statutory terms and conditions of supply authorise it, the supplier may demand the previous owner's arrears from a purchaser claiming a fresh/re-connection.",
+      "how_treated": "Applied; the U.P. Code (unlike the position in Haryana) contains express rules enabling recovery, so the refusal was justified.",
+      "how_treated_paras": "8-10",
+      "cited_by": "Respondent",
+      "treatment": "Applied"
+    },
+    {
+      "name": "Smt. Pawan Jha @ Priya Jha v. State of U.P.",
+      "citation": "(2011) 5 All WC 5176",
+      "court": "Allahabad High Court (Division Bench)",
+      "docid": "SCJ-125",
+      "proposition": "There is no basic difference between a private sale and a development-authority allotment for arrears purposes; applying DVS Steels and Hanuman Rice Mills, the licensee may insist on clearance of the premises' arrears before a fresh connection.",
+      "how_treated": "Followed as a binding coordinate-bench interpretation of Clause 4.1/4.3(f).",
+      "how_treated_paras": "7-10",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}

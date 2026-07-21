@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 248,
+  "next_seq": 255,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -1486,6 +1486,48 @@
       "case_id": "SCJ-247",
       "source_basename": "096_Citi_Hotel_v._Commissioner",
       "title": "M/s. Citi Hotel v. Commissioner, Lucknow Division, Lucknow & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-248",
+      "source_basename": "097_Kalawati_Rana_v._U.P._Power_Corpn._Ltd.",
+      "title": "Kalawati Rana v. U.P. Power Corporation Ltd. Thru its M.D./Chairman and Another",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-249",
+      "source_basename": "098_Dakshinanchal_Vidyut_Vitran_Nigam_Ltd._v._Permanent_Lok_Adalat",
+      "title": "Dakshinanchal Vidyut Vitran Nigam Ltd. v. Permanent Lok Adalat and Another",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-250",
+      "source_basename": "099_Barnala_Steel_Industries_Ltd._v._Pashchimanchal_Vidyut_Vitran_Nigam_Ltd.",
+      "title": "Barnala Steel Industries Ltd. v. Pashchimanchal Vidyut Vitran Nigam Ltd. and Anr.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-251",
+      "source_basename": "100_Usha_Devi_v._State_of_U.P.",
+      "title": "Usha Devi v. State of U.P. & 2 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-252",
+      "source_basename": "101_Tehri_Girders_Limited_v._Paschimanchal_Vidyut_Vitran_Nigam_Limited",
+      "title": "Tehri Girders Limited and another v. Paschimanchal Vidyut Vitran Nigam Limited and others (with R.A. Castings, Sikka Papers and connected petitions)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-253",
+      "source_basename": "102_Mohammad_Khalid_v._Pashchimanchal_Vidhyut_Vitran_Nigam_Ltd.",
+      "title": "Mohammad Khalid v. Pashchimanchal Vidyut Vitran Nigam Ltd. & Another",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-254",
+      "source_basename": "103_Chandrapal_v._Dakshinanchal_Vidyut_Vitran_Nigam_Ltd.",
+      "title": "Chandrapal v. Dakshinanchal Vidyut Vitran Nigam Ltd. & 4 Others",
       "status": "done"
     }
   ]

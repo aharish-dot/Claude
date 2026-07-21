@@ -1,0 +1,69 @@
+{
+  "case_id": "SCJ-249",
+  "title": "Dakshinanchal Vidyut Vitran Nigam Ltd. v. Permanent Lok Adalat and Another",
+  "neutral_citation": "2016 SCC OnLine All 1179",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "V.K. Shukla, J. & Mahesh Chandra Tripathi, J.",
+  "date_of_judgment": "2016-12-20",
+  "date_display": "20 December 2016",
+  "docket": "Writ - C No. 11612 of 2015",
+  "disposition": "Writ petition allowed; the Permanent Lok Adalat's award directing a connection on an indemnity bond quashed, with liberty to apply afresh in compliance with the Code",
+  "headnote": "A Permanent Lok Adalat has jurisdiction to entertain a consumer's grievance over refusal of an electricity connection (a public-utility service) - such jurisdiction being in addition to, not in derogation of, the fora under the Electricity Act, 2003 - but it cannot direct the licensee to act contrary to the Act and the U.P. Electricity Supply Code, 2005. Under Section 43 the licensee must supply an owner or occupier, and Clause 4.4 of the 2005 Code allows a non-owner occupier to apply on an indemnity bond (Annexure 4.2) in place of the owner's consent (Annexure 4.3), but only on producing proof of occupancy (valid power of attorney / latest rent receipt / registered lease deed). Here the applicant was neither owner (the property stood in his father's name, with a pending civil suit) nor able to furnish proof of occupancy; the Lok Adalat's award directing a connection merely on an indemnity bond was contrary to Clause 4.4 and was quashed.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.4",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.4(a) (Annexures 4.2 & 4.3) r/w s.43, Electricity Act 2003",
+      "topic": "Occupier's new connection requires proof of occupancy plus indemnity bond; Lok Adalat cannot order otherwise",
+      "type": "interplay",
+      "question": "Can a Permanent Lok Adalat direct grant of a connection to a non-owner occupier who furnishes only an indemnity bond, without proof of occupancy, and does it have jurisdiction at all?",
+      "holding": "The Permanent Lok Adalat has jurisdiction over such a public-utility grievance (in addition to, not in derogation of, the Act's fora), but it cannot direct action contrary to law. Section 43 obliges the licensee to supply an owner or occupier; under Clause 4.4 a non-owner occupier may apply on an indemnity bond (Annexure 4.2) instead of the owner's consent (Annexure 4.3), but must produce proof of occupancy (valid power of attorney / latest rent receipt / registered lease deed). As the applicant was not the owner (property in his father's name, civil suit pending) and furnished no proof of occupancy, the award directing a connection on a mere indemnity bond was contrary to Clause 4.4 and was quashed, with liberty to apply afresh in compliance with the Code.",
+      "limiting_facts": "Applicant sought a 5 KW LMV-6 connection; property stood in his father's name with a pending civil suit (Sunil Kumar v. Jung Bahadur); no proof of occupancy furnished; Lok Adalat's two-member award directed connection on an indemnity bond (the Chairman having disowned the claim).",
+      "paras": "8-19"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "permanent-lok-adalat-jurisdiction-over-public-utility-electricity-grievance",
+      "application": "A Permanent Lok Adalat may entertain a consumer's grievance over refusal of an electricity connection; its jurisdiction is in addition to, not in derogation of, the Act's fora.",
+      "lead_authorities": [
+        {"name": "Bar Council of India v. Union of India", "docid": ""}
+      ],
+      "paras": "9-10"
+    },
+    {
+      "tag": "lok-adalat-cannot-direct-action-contrary-to-code",
+      "application": "A Lok Adalat cannot direct the licensee to grant a connection in a manner contrary to the Act and the Supply Code.",
+      "lead_authorities": [],
+      "paras": "17-18"
+    },
+    {
+      "tag": "occupier-needs-proof-of-occupancy-plus-indemnity-bond-clause-4.4",
+      "application": "A non-owner occupier may obtain a connection on an indemnity bond (Annexure 4.2) in lieu of owner's consent, but only on producing proof of occupancy (PoA / rent receipt / registered lease).",
+      "lead_authorities": [],
+      "paras": "13-16"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "The ownership dispute between the applicant and his father",
+      "note": "Pending in Civil Suit No. 533 of 2014; the connection question abides proof of occupancy under Clause 4.4.",
+      "docid": "",
+      "paras": "15-16"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Bar Council of India v. Union of India",
+      "citation": "(2012) 8 SCC 243",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "The Permanent Lok Adalat mechanism (Chapter VI-A, Legal Services Authorities Act, 1987) for public-utility disputes provides a speedy remedy and, failing settlement, may decide on merits; it is in addition to, not in derogation of, fora created under special statutes.",
+      "how_treated": "Relied on to hold the Permanent Lok Adalat had jurisdiction to entertain the connection grievance.",
+      "how_treated_paras": "9-10",
+      "cited_by": "Court",
+      "treatment": "Relied on"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "case_id": "SCJ-250",
+  "title": "Barnala Steel Industries Ltd. v. Pashchimanchal Vidyut Vitran Nigam Ltd. and Anr.",
+  "neutral_citation": "2013 SCC OnLine All 10200",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Ashok Bhushan, J. & Vipin Sinha, J.",
+  "date_of_judgment": "2013-10-31",
+  "date_display": "31 October 2013",
+  "docket": "Writ - C No. 58763 of 2013",
+  "disposition": "Writ petition disposed of; the demand of a bank guarantee for the additional-security amount quashed, the consumer to comply with the other conditions of the load-enhancement sanction",
+  "headnote": "Additional security demanded on enhancement of load is not 'dues' within Clause 4.49 of the U.P. Electricity Supply Code, 2005, and a bank guarantee for such additional security cannot be demanded - following the coordinate Division Bench in Tehri Girders Ltd. v. PVVNL, against which no SLP was filed. The petitioner's load enhancement was sanctioned (25.5.2013) subject to furnishing a bank guarantee of Rs. 2,66,70,160 for the additional-security amount. Applying Tehri Girders (para 30), which held that Clause 4.49 speaks of 'recovery of any dues' and additional security is not a recoverable due (its only consequence on non-payment being non-release of load / discontinuance of supply), the Court held the bank-guarantee demand unjustified and quashed it, while directing compliance with the sanction's other conditions.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.49",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.49",
+      "topic": "Additional security is not 'dues' under Clause 4.49; no bank guarantee for it",
+      "type": "supply_code",
+      "question": "Can a licensee demand a bank guarantee under Clause 4.49 for the additional-security amount payable on load enhancement?",
+      "holding": "No. Following the coordinate Division Bench in Tehri Girders Ltd. v. PVVNL (unchallenged by any SLP), Clause 4.49 is attracted only where recovery of 'dues' has been stayed; additional security is not a recoverable due (the sole consequence of its non-payment being non-release of the additional load and discontinuance of supply). The demand of a bank guarantee for the additional-security amount was therefore not in accordance with law and was quashed, the consumer being directed to comply with the sanction's other conditions.",
+      "limiting_facts": "Load enhancement sanctioned on 25.5.2013 subject to a bank guarantee of Rs. 2,66,70,160 for additional security; consumer willing to meet the other conditions.",
+      "paras": "(pp. 604-605)"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "additional-security-is-not-dues-clause-4.49-not-attracted",
+      "application": "Additional security on load enhancement is not a recoverable 'due'; Clause 4.49 is not attracted and a bank guarantee for it cannot be demanded.",
+      "lead_authorities": [
+        {"name": "Tehri Girders Ltd. v. Paschimanchal Vidyut Vitran Nigam Ltd.", "docid": "SCJ-252"}
+      ],
+      "paras": "(pp. 604-605)"
+    }
+  ],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "Tehri Girders Ltd. v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+      "citation": "2009 (9) ADJ 19 (2009 SCC OnLine All 1262)",
+      "court": "Allahabad High Court (Division Bench)",
+      "docid": "SCJ-252",
+      "proposition": "Clause 4.49 speaks of 'recovery of any dues'; additional security is not a recoverable due, its only consequence on non-payment being non-release of load / discontinuance of supply, so Clause 4.49 is not attracted and no bank guarantee for additional security can be demanded.",
+      "how_treated": "Followed as a binding coordinate-bench decision (no SLP filed against it).",
+      "how_treated_paras": "(pp. 604-605)",
+      "cited_by": "Petitioner",
+      "treatment": "Followed"
+    }
+  ]
+}
