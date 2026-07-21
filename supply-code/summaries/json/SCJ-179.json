@@ -1,0 +1,77 @@
+{
+  "case_id": "SCJ-179",
+  "title": "Paschimanchal Vidyut Vitaran Nigam Ltd. & Anr. v. Commissioner, Moradabad Region & Anr.",
+  "neutral_citation": "2015 SCC OnLine All 3916",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Surya Prakash Kesarwani, J.",
+  "date_of_judgment": "2015-02-06",
+  "date_display": "6 February 2015",
+  "docket": "Writ - C No. 7006 of 2015",
+  "disposition": "Interim order — operation of the Commissioner's appellate order stayed",
+  "headnote": "Interim order. On a limited remand, an appellate authority cannot reopen and reverse the findings of the remanding court that had attained finality. An earlier judgment of the High Court (18.11.2011) had held, on the theft assessment of an ice factory run on the owner's premises, that the owner falls within the definition of 'consumer' and can be proceeded against for theft under Section 135 (mens rea being a matter for the criminal trial), and that the assessment was valid; it remanded the appeal to the Commissioner for the limited purpose of examining the effect of the consumer's criminal acquittal (SST No. 69/2008) in light of Clause 8.2(X)(G) and (H) of the Supply Code, 2005. Prima facie finding that the Commissioner had travelled beyond the remand and recorded findings contrary to those final findings, the Court stayed the operation of the Commissioner's order (11.12.2014) pending the writ petition.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.2",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "8.2(X)(G)&(H) (r/w limited-remand scope)",
+      "topic": "Appellate authority on a limited remand cannot reverse the remanding court's final findings",
+      "type": "supply_code",
+      "question": "(Interim) Could the Commissioner, on a remand limited to the effect of the criminal acquittal under Clause 8.2(X), reverse the High Court's final findings on the owner's liability and the validity of the assessment?",
+      "holding": "Prima facie, no. The remand was for the limited purpose of examining the acquittal (SST No. 69/2008) under Clause 8.2(X)(G) and (H); the Commissioner travelled beyond it and recorded findings contrary to the High Court's final findings on the owner's liability and the validity of the assessment. The operation of the Commissioner's order is stayed pending the writ petition.",
+      "paras": "14-17",
+      "flag": "Interim order only (stay). The substantive findings on owner-liability and assessment-validity are reproduced from the earlier final judgment dated 18.11.2011 in Writ-C No. 20679/2010, not originated here."
+    },
+    {
+      "provision": "EA2003::2(15)",
+      "code": "Electricity Act, 2003",
+      "clause": "2(15) (r/w s.135)",
+      "topic": "Owner of premises is a 'consumer' liable to theft assessment (reproduced from the 2011 judgment)",
+      "type": "interplay",
+      "holding": "Per the earlier final judgment (reproduced): a person whose premises are connected with anything capable of carrying the licensee's electricity is a 'consumer' under s.2(15); the owner of premises where theft is detected can be proceeded against under s.135 for revenue assessment even if the premises were let out, mens rea for the criminal offence being a matter for trial. On these facts the letting-out plea was disbelieved.",
+      "paras": "9 (quoting the 18.11.2011 judgment, paras 33-35, 45-46)",
+      "flag": "Reproduced from the High Court's final judgment dated 18.11.2011; relied on as the settled position, not decided afresh in this interim order."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "appellate-authority-cannot-exceed-limited-remand",
+      "application": "On a limited remand, the appellate authority is confined to the remitted question and cannot reverse findings of the remanding court that have attained finality.",
+      "lead_authorities": [],
+      "paras": "14-17"
+    },
+    {
+      "tag": "owner-of-premises-is-consumer-liable-for-theft-assessment",
+      "application": "The owner of premises falls within 'consumer' (s.2(15)) and can be subjected to a s.135 theft assessment for revenue purposes even if the premises were let out; criminal mens rea is a separate trial question.",
+      "lead_authorities": [],
+      "paras": "9"
+    },
+    {
+      "tag": "clause-8.2x-acquittal-requires-withdrawal-of-theft-assessment",
+      "application": "The effect of a criminal acquittal on a theft assessment is to be examined under Clause 8.2(X)(G)&(H) — the specific and only question remitted to the Commissioner.",
+      "lead_authorities": [],
+      "paras": "12, 14"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Final effect of the criminal acquittal on the assessment",
+      "note": "Only an interim stay was granted; whether the acquittal (SST No. 69/2008) discharges the assessment under Clause 8.2(X) awaits final hearing.",
+      "docid": "",
+      "paras": "17"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Paschimanchal VVNL v. (owner) — judgment dated 18.11.2011 in Writ-C No. 20679 of 2010",
+      "citation": "Writ-C No. 20679 of 2010 (Allahabad HC, 18-11-2011)",
+      "court": "Allahabad High Court",
+      "docid": "",
+      "proposition": "The owner of premises is a 'consumer' and can be assessed under s.135 for theft on the premises even if let out; the assessment there was valid; the appeal was remanded only to examine the acquittal under Clause 8.2(X)(G)&(H).",
+      "how_treated": "Relied on as the final judgment whose findings the Commissioner was bound by and could not reverse on the limited remand.",
+      "how_treated_paras": "8-16",
+      "cited_by": "Petitioner",
+      "treatment": "Relied on"
+    }
+  ]
+}

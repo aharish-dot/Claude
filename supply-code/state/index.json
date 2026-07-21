@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 176,
+  "next_seq": 184,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -1054,6 +1054,54 @@
       "case_id": "SCJ-175",
       "source_basename": "024_Forntier_Alloy_Steels_Limited_v._Dakshinanchal_Vidyut_Vitran_Nigam_Ltd.",
       "title": "M/s Forntier Alloy Steels Ltd. v. Dakshinanchal Vidyut Vitran Nigam Ltd. & 2 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-176",
+      "source_basename": "025_Rakesh_v._State_of_U.P.",
+      "title": "Rakesh v. State of U.P. & 3 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-177",
+      "source_basename": "026_Mohammad_Idrish_v._State_of_U.P.",
+      "title": "Mohammad Idrish v. State of U.P. & Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-178",
+      "source_basename": "027_Asma_Begam_v._State_of_U.P.",
+      "title": "Smt. Asma Begam v. State of U.P. & Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-179",
+      "source_basename": "028_Paschimanchal_Vidyut_Vitaran_Nigam_Ltd._v._Commissioner_Moradabad_Region",
+      "title": "Paschimanchal Vidyut Vitaran Nigam Ltd. & Anr. v. Commissioner, Moradabad Region & Anr.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-180",
+      "source_basename": "029_Jalaluddin_v._State_of_U.P.",
+      "title": "Jalaluddin v. State of U.P. & 3 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-181",
+      "source_basename": "030_Amrita_Arya_v._Uttar_Pradesh_Power_Corporation_Ltd.",
+      "title": "Amrita Arya v. Uttar Pradesh Power Corporation Ltd. & 2 Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-182",
+      "source_basename": "031_Mohammad_Waseem_v._State_of_U.P.",
+      "title": "Mohammad Waseem v. State of U.P. & Another",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-183",
+      "source_basename": "032_Santosh_Pathak_v._State_of_U.P.",
+      "title": "Santosh Pathak v. State of U.P. & 3 Others",
       "status": "done"
     }
   ]

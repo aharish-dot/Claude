@@ -1,0 +1,63 @@
+{
+  "case_id": "SCJ-176",
+  "title": "Rakesh v. State of U.P. & 3 Others",
+  "neutral_citation": "2016 SCC OnLine All 1586",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sudhir Agarwal, J. & Kaushal Jayendra Thaker, J.",
+  "date_of_judgment": "2016-07-18",
+  "date_display": "18 July 2016",
+  "docket": "Writ - C No. 19095 of 2016",
+  "disposition": "Writ petition disposed of; recovery suspended pending a fresh, Code-compliant assessment",
+  "headnote": "No recovery of an assessed amount can arise where no final order of assessment has been passed. Where a theft (s.135) provisional assessment was made and a recovery citation issued, but the department could not show that any final order of assessment was ever passed, the recovery cannot stand; further, the provisional assessment notice was not in conformity with Ashok Kumar v. State of U.P. and Clause 6.8 of the U.P. Electricity Supply Code, 2005. The Court directed the licensee to issue a fresh provisional assessment notice conforming to Ashok Kumar and Clause 6.8, afford an adequate opportunity of reply and oral hearing, and pass a speaking order; recovery remains suspended until the final assessment and thereafter abides it.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.8 (r/w s.126, Electricity Act 2003)",
+      "topic": "No recovery without a final assessment; provisional notice must conform to Clause 6.8 and Ashok Kumar",
+      "type": "supply_code",
+      "question": "Can recovery proceed on a theft assessment where no final order of assessment is shown to have been passed and the provisional notice does not conform to the Code?",
+      "holding": "No. In the absence of any final order of assessment, no question of recovery arises; and the provisional assessment notice was not in conformity with Ashok Kumar and Clause 6.8 of the Code. The licensee must issue a fresh provisional assessment notice conforming to Ashok Kumar and Clause 6.8, give adequate opportunity of reply and oral hearing, and pass a speaking order; recovery stays suspended until then and abides the final assessment.",
+      "limiting_facts": "FIR under s.135 for direct theft via a charcoal cable bypassing the meter; provisional assessment of about Rs. 6.24 lakh and a recovery citation, but no final assessment order shown despite repeated queries.",
+      "paras": "10-13"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "final-s126-assessment-mandatory-precondition-to-recovery-citation",
+      "application": "Recovery cannot issue without a final order of assessment; a recovery citation founded on a mere provisional assessment (or an unproved final order) cannot stand.",
+      "lead_authorities": [],
+      "paras": "10"
+    },
+    {
+      "tag": "clause-6.8-hearing-procedure-mandatory-before-uue-conclusion",
+      "application": "The fresh provisional assessment must conform to Clause 6.8 and Ashok Kumar — opportunity of reply and oral hearing, then a speaking order.",
+      "lead_authorities": [
+        {"name": "Ashok Kumar v. State of U.P.", "docid": ""}
+      ],
+      "paras": "11-12"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether theft occurred and the quantum",
+      "note": "Left to the fresh assessment; the Court did not decide the merits of the theft allegation.",
+      "docid": "",
+      "paras": "12"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008 (6) ADJ 660",
+      "court": "Allahabad High Court (Division Bench)",
+      "docid": "",
+      "proposition": "A provisional/UUE assessment under s.126 read with Clause 6.8 requires a proper notice, opportunity of hearing and a speaking order.",
+      "how_treated": "Followed; the fresh assessment was directed to conform to it. (Digested in the corpus as SCJ-158.)",
+      "how_treated_paras": "11-12",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}
