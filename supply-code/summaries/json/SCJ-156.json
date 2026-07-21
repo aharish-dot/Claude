@@ -1,0 +1,112 @@
+{
+  "case_id": "SCJ-156",
+  "title": "Noida Power Company Ltd. v. State of U.P. & Anr.",
+  "neutral_citation": "2005 SCC OnLine All 1117",
+  "court": "Allahabad High Court (Lucknow Bench)",
+  "bench": "Division Bench",
+  "coram": "Pradeep Kant, J. & G.K. Gupta, J.",
+  "date_of_judgment": "2005-11-10",
+  "date_display": "10 November 2005",
+  "docket": "C.W.P. No. 1048 of 2000 (M/B)",
+  "disposition": "Writ petition allowed; Beg Committee (Third) Report set aside; the Commission's determination affirmed",
+  "headnote": "A long-running dispute over the power-purchase price payable by Noida Power Company Ltd. (a joint-venture licensee for Greater Noida, licensed under the Indian Electricity Act, 1910 and a licensee under s.2(6) of the Electricity (Supply) Act, 1948) to the U.P. State Electricity Board under a 1993 agreement (tentative Rs. 1.66/unit, to be revised by an Independent Authority). Held: from the constitution of the U.P. Electricity Regulatory Commission on 25.4.1998, only the Commission is competent to determine the tariff/power-purchase price — under s.10(a) of the U.P. Electricity Reforms Act, 1999 (and s.22 of the 1998 Act) — irrespective of Clause 7(a) of the agreement and notwithstanding the agreement's protection under s.47 of the Electricity (Supply) Act, 1948; the Commission also has jurisdiction under s.10(q)/s.22(2)(n) to adjudicate disputes between licensees and utilities, s.52 having overriding effect. NPCL is entitled to a reasonable return, and the rate may appropriately be fixed by reverse application of the Sixth Schedule principles. The Commission's determination rested on settled norms and was affirmed; two mistaken observations by the Commission (that the agreement had 'broken down' and that no scheme existed) did not affect its jurisdiction or order.",
+  "holding_units": [
+    {
+      "provision": "EA1999(UP)::10(a)",
+      "code": "U.P. Electricity Reforms Act, 1999",
+      "clause": "10(a)",
+      "topic": "Commission alone determines tariff/power-purchase price, overriding the contract",
+      "type": "interplay",
+      "question": "Who determines the power-purchase price after the Regulatory Commission was constituted — the Commission or the price mechanism in the parties' agreement?",
+      "holding": "From the constitution of the Commission on 25.4.1998, only the Regulatory Commission is competent to determine the tariff/power-purchase price under s.10(a), irrespective of Clause 7(a) of the agreement and despite the agreement's protection under s.47 of the Electricity (Supply) Act, 1948. If the Commission can fix the rate in the teeth of the agreement once constituted, it equally has jurisdiction to fix it for the initial six months and subsequent periods.",
+      "paras": "147-149"
+    },
+    {
+      "provision": "EA1999(UP)::10(q)",
+      "code": "U.P. Electricity Reforms Act, 1999",
+      "clause": "10(q) (r/w s.22(2)(n), U.P. Electricity Reforms Act 1998; s.52)",
+      "topic": "Commission's jurisdiction to adjudicate licensee-utility disputes",
+      "type": "interplay",
+      "holding": "Section 10(q) must be given its widest meaning: the Commission's functions include adjudicating disputes and differences between licensees and utilities and referring matters to arbitration (mirroring s.22(2)(n) of the 1998 Act), and s.52 gives the Act overriding effect. The reference of the dispute to the Commission was therefore competent.",
+      "paras": "148-149"
+    },
+    {
+      "provision": "ESA1948::sixth-schedule",
+      "code": "Electricity (Supply) Act, 1948",
+      "clause": "Sixth Schedule",
+      "topic": "Reasonable return; power-purchase rate by reverse application of the Sixth Schedule",
+      "type": "interplay",
+      "holding": "NPCL being entitled to a reasonable return, the power-purchase rate may be determined by reverse application of the principles of the Sixth Schedule, which is one of the most appropriate, accurate and secure methods. The Commission's year-wise determination rested on settled norms and did not call for interference.",
+      "qualifier": "The Commission's mistaken observations that the agreement had 'broken down' and that no scheme existed did not affect its jurisdiction or the validity of its determination.",
+      "paras": "143, 145-147, 177-179"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "commission-alone-determines-tariff-overrides-contract",
+      "application": "Once the regulatory commission is constituted, the statutory power to determine tariff/power-purchase price displaces the price mechanism agreed between the parties, even where the agreement is otherwise statutorily protected.",
+      "lead_authorities": [],
+      "paras": "147-149"
+    },
+    {
+      "tag": "reasonable-return-via-sixth-schedule-reverse-application",
+      "application": "A licensee is entitled to a reasonable return; where the purchase price is disputed, reverse application of the Sixth Schedule principles is an appropriate method of determining the rate.",
+      "lead_authorities": [],
+      "paras": "143"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness of the Commission's incidental findings on the agreement",
+      "note": "The Commission's observations that the agreement had 'broken down' and that no scheme existed were accepted (even by the petitioner) to be factually incorrect, but the Court held they did not affect the Commission's jurisdiction or its determination, and so did not decide the merits of those observations.",
+      "docid": "",
+      "paras": "145-147"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Orissa State Electricity Board v. Indian Aluminium Co. Ltd.",
+      "citation": "(1975)",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "On the power to fix and revise electricity tariff/charges and the scope of a supplier's entitlement in such arrangements.",
+      "how_treated": "Cited in the tariff/power-purchase discussion.",
+      "how_treated_paras": "",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    },
+    {
+      "name": "Raymonds Ltd. v. M.P. State Electricity Board",
+      "citation": "(2001) 1 SCC",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "On tariff/charges payable to an electricity board and the interpretation of the governing arrangement.",
+      "how_treated": "Cited in the discussion on determination of the power-purchase price.",
+      "how_treated_paras": "",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    },
+    {
+      "name": "R.N. Gosain v. Yashpal Dhir",
+      "citation": "(1992) 4 SCC 683 : AIR 1993 SC 352",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "A party cannot approbate and reprobate — it cannot accept the part of a determination favourable to it and reject the unfavourable part.",
+      "how_treated": "Relied on to hold that a party could not selectively accept and reject the Independent Authority's / Commission's determination.",
+      "how_treated_paras": "",
+      "cited_by": "Court",
+      "treatment": "Relied on"
+    },
+    {
+      "name": "New Bihar Biri Leaves Co. v. State of Bihar",
+      "citation": "(1981) 1 SCC 537",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "On the construction of commercial agreements and the ascertainment of price where the contract leaves it to be fixed.",
+      "how_treated": "Cited on the construction of the agreement and price determination.",
+      "how_treated_paras": "",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    }
+  ]
+}

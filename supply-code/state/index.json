@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 154,
+  "next_seq": 159,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -922,6 +922,36 @@
       "case_id": "SCJ-153",
       "source_basename": "002_Mohd._Sagir_v._Dakshinanchal_Vidyut_Vitran_Nigam_Ltd.",
       "title": "Mohd. Sagir v. Dakshinanchal Vidyut Vitran Nigam Ltd. & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-154",
+      "source_basename": "003_Arup_Kumar_Mitra_v._State_of_U.P.",
+      "title": "Arup Kumar Mitra v. State of U.P. & Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-155",
+      "source_basename": "004_Saini_Alloys_Private_Limited_v._U.P._Power_Corporation",
+      "title": "M/s Saini Alloys Pvt. Ltd. v. U.P. Power Corporation, Lucknow & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-156",
+      "source_basename": "005_Noind_Power_Co._Ltd._v._State_of_U.P.",
+      "title": "Noida Power Company Ltd. v. State of U.P. & Anr.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-157",
+      "source_basename": "006_South_East_U.P._Power_Transmission_Co._Ltd._v._Prescribed_Authority",
+      "title": "South East U.P. Power Transmission Company Ltd. v. Prescribed Authority & Ors. (with Tata Steel Ltd. v. State of U.P.)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-158",
+      "source_basename": "007_Ashok_Kumar_v._State_of_U.P.",
+      "title": "Ashok Kumar & Ors. v. State of U.P. & Ors.",
       "status": "done"
     }
   ]

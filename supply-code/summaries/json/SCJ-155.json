@@ -1,0 +1,99 @@
+{
+  "case_id": "SCJ-155",
+  "title": "M/s Saini Alloys Pvt. Ltd. v. U.P. Power Corporation, Lucknow & Ors.",
+  "neutral_citation": "2006 SCC OnLine All 1312",
+  "court": "Allahabad High Court (Lucknow Bench)",
+  "bench": "Division Bench",
+  "coram": "S.R. Alam, J. & Bhanwar Singh, J.",
+  "date_of_judgment": "2006-10-19",
+  "date_display": "19 October 2006",
+  "docket": "First Appeal No. 75 of 2002 (with F.A. Nos. 76, 78, 82, 96 of 2002 and connected writ petition)",
+  "disposition": "Appeals and writ petition dismissed with costs (subsequently REVERSED by the Supreme Court)",
+  "headnote": "IMPORTANT — this High Court judgment was REVERSED by the Supreme Court in Badri Kedar Paper (P) Ltd. v. U.P. Electricity Regulatory Commission, (2009) 3 SCC 754, and is no longer good law; it is digested for the record and to trace the doctrine's history. The High Court held that under the U.P. Electricity Reforms Act, 1999 the tariff is determined by the U.P. Electricity Regulatory Commission and a distribution licensee (UPPCL) has no power to alter it: the circulars of 8-9-2000 and 15-12-2000 offering an option out of the guaranteed 500-hours supply / affecting the 15% independent-feeder surcharge were issued without following the mandatory procedure of Section 24(5)-(8) and were void ab initio, with no 'deemed approval'; the later circular of 31-8-2001 withdrawing them was valid. There is no promissory estoppel against a statute, so the licensee could not be compelled to honour a surcharge-exemption promise contrary to Section 24. Whether the guaranteed supply was in fact provided is a question of fact for the prescribed authority hearing objections to the bills, not for the Commission (whose role is tariff determination) or the Court. The prior Division Bench in L.M.L.'s case was binding and followed.",
+  "holding_units": [
+    {
+      "provision": "EA1999(UP)::24",
+      "code": "U.P. Electricity Reforms Act, 1999",
+      "clause": "24",
+      "topic": "Tariff is fixed by the Commission; a licensee cannot alter it by circular",
+      "type": "interplay",
+      "question": "Could the distribution licensee alter the tariff / the 15% guaranteed-supply surcharge by executive circulars, and were the 2000 circulars valid?",
+      "holding": "No. Tariff is determined by the U.P. Electricity Regulatory Commission under Section 24; a licensee has no authority to alter it. Any alteration required the procedure in Section 24(5)-(8), which was not followed; the circulars of 8-9-2000 and 15-12-2000 were therefore void ab initio and acquired no significance, and the theory of 'deemed approval' was rejected. The circular of 31-8-2001 withdrawing them was valid.",
+      "qualifier": "Where an act must be done in a prescribed manner, it can be done only that way; a short-circuiting of the transparent Section 24 procedure is invalid.",
+      "flag": "REVERSED by the Supreme Court in Badri Kedar Paper (P) Ltd. v. U.P. ERC, (2009) 3 SCC 754 — this holding is no longer good law.",
+      "paras": "72-74, 98, 112"
+    },
+    {
+      "provision": "EA1999(UP)::24-tariff-fact-forum",
+      "code": "U.P. Electricity Reforms Act, 1999",
+      "clause": "24 (forum for factual disputes)",
+      "topic": "Whether guaranteed supply was given is a fact for the prescribed authority, not the Commission",
+      "type": "interplay",
+      "holding": "Whether the licensee actually made the guaranteed supply of 500 hours per month is a question of fact to be determined by the prescribed authority competent to hear objections to the bills; it is not for the Commission (whose role is to determine tariff, not adjudicate factual controversies) nor for the Court.",
+      "flag": "Part of a judgment reversed by the Supreme Court in Badri Kedar Paper (2009) 3 SCC 754.",
+      "paras": "74"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "no-promissory-estoppel-against-statute",
+      "application": "The licensee could not be held to a surcharge-exemption promise that would breach Section 24 of the Reforms Act; there is no estoppel against a statute, and a concession can be withdrawn in public interest.",
+      "lead_authorities": [
+        {
+          "name": "Sharma Transport v. Government of A.P.",
+          "docid": ""
+        }
+      ],
+      "paras": "98"
+    },
+    {
+      "tag": "licensee-cannot-alter-commission-determined-tariff",
+      "application": "Tariff is set by the regulatory commission; a distribution licensee has no power to alter it by executive circular, and a purported alteration not following the statutory procedure is void ab initio.",
+      "lead_authorities": [],
+      "paras": "72-73, 98, 112"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the guaranteed 500-hours supply was actually provided",
+      "note": "Expressly treated as a question of fact for the prescribed authority hearing objections to the bills; neither the Commission nor the High Court entered upon it.",
+      "docid": "",
+      "paras": "74"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Badri Kedar Paper (P) Ltd. v. U.P. Electricity Regulatory Commission",
+      "citation": "(2009) 3 SCC 754",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "On appeal, the Supreme Court took a different view of the licensee/tariff and surcharge questions decided by the High Court in this and connected matters.",
+      "how_treated": "Subsequent Supreme Court judgment that REVERSED this High Court decision; noted here (it post-dates and was not before the High Court) so the record reflects that this judgment is no longer good law.",
+      "how_treated_paras": "",
+      "cited_by": "",
+      "treatment": "Overruled"
+    },
+    {
+      "name": "L.M.L. Ltd. (U.P. Power Corporation v. L.M.L. Ltd.)",
+      "citation": "2001 All LJ 2520",
+      "court": "Allahabad High Court (Division Bench)",
+      "docid": "",
+      "proposition": "Earlier Division Bench decision adjudicating the tariff/guaranteed-supply-surcharge issues between the licensee and consumers.",
+      "how_treated": "Held binding on this coordinate Bench and good law; the Bench followed it and held the Commission had no jurisdiction to reinterpret it or to permit the appellants to approach the High Court.",
+      "how_treated_paras": "91-92, 112",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Sharma Transport v. Government of A.P.",
+      "citation": "(2002) 2 SCC 188 : AIR 2002 SC 322",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "There can be no promissory estoppel against a statute; a concession, even for a fixed period, can be withdrawn in public interest, and the doctrine requires a clear, positive foundation laid in the pleadings.",
+      "how_treated": "Applied to reject the plea of promissory estoppel against Section 24 of the Reforms Act.",
+      "how_treated_paras": "98",
+      "cited_by": "Court",
+      "treatment": "Applied"
+    }
+  ]
+}

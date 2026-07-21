@@ -1,0 +1,150 @@
+{
+  "case_id": "SCJ-157",
+  "title": "South East U.P. Power Transmission Company Ltd. v. Prescribed Authority & Ors. (with Tata Steel Ltd. v. State of U.P.)",
+  "neutral_citation": "2026 SCC OnLine All 3329",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Ajit Kumar, J. & Swarupama Chaturvedi, J. (delivered by Swarupama Chaturvedi, J.)",
+  "date_of_judgment": "2026-04-24",
+  "date_display": "24 April 2026 (reserved 11 February 2026)",
+  "docket": "Writ - C No. 19391 of 2023 with Writ - C No. 17846 of 2025",
+  "disposition": "Writ petitions allowed; pre-CIRP electricity demand notices quashed",
+  "headnote": "Where a corporate debtor has emerged from insolvency under an NCLT-approved resolution plan, electricity dues relating to the period prior to approval of the plan that were neither filed as claims during the CIRP nor incorporated in the resolution plan stand extinguished under Section 31 of the Insolvency and Bankruptcy Code, 2016: the successful resolution applicant takes over on a 'clean slate'. Section 238 IBC, a later non-obstante provision, prevails over the Electricity Act, 2003 — including the Act's own overriding clauses in Sections 173 and 174 — so electricity dues enjoy no immunity from extinguishment; State Tax Officer v. Rainbow Papers and the Telangana DISCOM case are distinguished, and Paschimanchal Vidyut Vitran Nigam Ltd., Ghanashyam Mishra, Essar Steel and Ruchi Soya are followed. Publication of the CIRP announcement is sufficient notice to statutory authorities, who cannot demand separate notice, and continuity of the company's name does not revive pre-CIRP dues. Pre-CIRP demand notices are quashed; the authorities remain free to raise fresh demands for the post-resolution period in accordance with law, which must themselves meet standards of fairness, transparent computation and disclosure.",
+  "holding_units": [
+    {
+      "provision": "IBC::31",
+      "code": "Insolvency and Bankruptcy Code, 2016",
+      "clause": "31",
+      "topic": "Approved resolution plan extinguishes pre-CIRP claims not part of it (clean slate)",
+      "type": "interplay",
+      "question": "Can a DISCOM enforce electricity dues for a period prior to approval of the resolution plan, where the dues were not claimed during CIRP and not part of the approved plan?",
+      "holding": "No. On approval under s.31, the resolution plan binds all stakeholders including statutory authorities and extinguishes all claims not filed during CIRP or not forming part of the plan; such claims cannot be resurrected under the guise of statutory recovery. The authorities admittedly filed no claim during CIRP and the dues were not in the plan, so the impugned pre-CIRP demands cannot be enforced. Continuity of the corporate name does not make the reborn entity liable for pre-CIRP unclaimed dues, and CIRP publication is sufficient notice to all stakeholders.",
+      "limiting_facts": "Both petitioners' resolution plans were approved by NCLT and attained finality; the impugned demand notices related to pre-CIRP periods.",
+      "paras": "102.1-102.3 (quoted from the Supreme Court), 104-110",
+      "flag": "Paras 102.1-102.3 are the Supreme Court's holding (Ghanashyam Mishra) reproduced; the deciding Court's own reasoning is at paras 101-116."
+    },
+    {
+      "provision": "IBC::238",
+      "code": "Insolvency and Bankruptcy Code, 2016",
+      "clause": "238",
+      "topic": "Section 238 IBC overrides the Electricity Act, 2003 (including ss.173/174)",
+      "type": "interplay",
+      "question": "Do the Electricity Act's own overriding clauses (ss.173/174) protect electricity dues from the IBC?",
+      "holding": "No. Although s.174 gives the Electricity Act overriding effect (subject to the s.173 carve-outs), that clause is itself subject to s.238 IBC, a later and unambiguous non-obstante provision that prevails over all other laws in case of inconsistency. In insolvency, the IBC prevails notwithstanding ss.173 and 174 of the Electricity Act; the contention that electricity dues, being statutory, cannot be extinguished is unacceptable.",
+      "paras": "101, 82 (quoting Paschimanchal), 103",
+      "flag": "Applies the Supreme Court's ratio in Paschimanchal Vidyut Vitran Nigam Ltd. (s.238 IBC overrides the Electricity Act)."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "resolution-plan-extinguishes-pre-cirp-electricity-dues-clean-slate",
+      "application": "Electricity dues for the pre-CIRP period, not claimed during CIRP and not in the approved resolution plan, stand extinguished under s.31 IBC; the resolved entity takes over on a clean slate and statutory recovery cannot revive them.",
+      "lead_authorities": [
+        {"name": "Ghanashyam Mishra & Sons (P) Ltd. v. Edelweiss Asset Reconstruction Co. Ltd.", "docid": ""},
+        {"name": "CoC of Essar Steel India Ltd. v. Satish Kumar Gupta", "docid": ""}
+      ],
+      "paras": "108-110"
+    },
+    {
+      "tag": "ibc-s238-overrides-sector-statutes",
+      "application": "Section 238 IBC prevails over the Electricity Act, 2003, including its own overriding provisions (ss.173/174); electricity dues have no special immunity from the IBC framework.",
+      "lead_authorities": [
+        {"name": "Paschimanchal Vidyut Vitran Nigam Ltd. v. Raman Ispat (P) Ltd.", "docid": ""}
+      ],
+      "paras": "101, 103"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Category of use / tariff and computation of the demands",
+      "note": "Not considered: pre-CIRP demands are extinguished, and for any post-resolution period the parties have their remedy under the Electricity Act. The authorities are at liberty to issue fresh demand notices for the post-resolution period.",
+      "docid": "",
+      "paras": "111, 115"
+    },
+    {
+      "point": "Fairness of any future post-resolution demand",
+      "note": "Obiter caution: even a post-resolution demand must conform to fairness, transparency and procedural propriety; failure to give an adequate break-up, clarity in computation and disclosure of the basis of classification may bear on the legality of such notices.",
+      "docid": "",
+      "paras": "112"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Paschimanchal Vidyut Vitran Nigam Ltd. v. Raman Ispat (P) Ltd.",
+      "citation": "(2023) 10 SCC 60",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Section 238 IBC (non-obstante) overrides the Electricity Act, 2003; the s.53 waterfall places government dues below secured/operational creditors, and Rainbow Papers (which did not notice s.53 and arose in resolution, not liquidation) is distinguishable.",
+      "how_treated": "Followed as the governing authority on the primacy of the IBC over electricity dues.",
+      "how_treated_paras": "82, 101, 102",
+      "cited_by": "Petitioner",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Ghanashyam Mishra & Sons (P) Ltd. v. Edelweiss Asset Reconstruction Co. Ltd.",
+      "citation": "(2021) 9 SCC 657",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Once a resolution plan is approved under s.31(1), all claims not part of it stand extinguished and are frozen and binding on all stakeholders including governments and local authorities; the 2019 amendment to s.31 is clarificatory/declaratory and effective from the Code's inception.",
+      "how_treated": "Followed and quoted for the extinguishment / clean-slate principle.",
+      "how_treated_paras": "102.1-102.3, 109",
+      "cited_by": "Petitioner",
+      "treatment": "Followed"
+    },
+    {
+      "name": "CoC of Essar Steel India Ltd. v. Satish Kumar Gupta",
+      "citation": "",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "The successful resolution applicant takes over the corporate debtor on a clean slate, free from past liabilities except those specifically incorporated in the resolution plan.",
+      "how_treated": "Followed for the clean-slate principle.",
+      "how_treated_paras": "109",
+      "cited_by": "Petitioner",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Ruchi Soya Industries Ltd. v. Union of India",
+      "citation": "(2022) 6 SCC 343",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "A claim not lodged after the public announcements under ss.13 and 15 IBC does not survive; on approval of the plan all claims stand frozen and any claim not part of the plan cannot survive.",
+      "how_treated": "Relied on and quoted.",
+      "how_treated_paras": "81",
+      "cited_by": "Petitioner",
+      "treatment": "Relied on"
+    },
+    {
+      "name": "State Tax Officer (1) v. Rainbow Papers Ltd.",
+      "citation": "(2023) 9 SCC 545",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Certain statutory dues may partake of the character of secured debts under the relevant statute's first-charge provision.",
+      "how_treated": "Distinguished as arising in a different factual matrix (resolution, not liquidation) and as not having noticed the s.53 waterfall; held not to detract from the binding effect of an implemented resolution plan.",
+      "how_treated_paras": "80, 103",
+      "cited_by": "Respondent",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "Telangana State Southern Power Distribution Co. Ltd.",
+      "citation": "",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Relied on by the respondents for the proposition that electricity dues cannot be extinguished.",
+      "how_treated": "Distinguished on facts; held not to detract from the binding effect of the resolution plan.",
+      "how_treated_paras": "80, 103",
+      "cited_by": "Respondent",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "Duncans Industries Ltd. v. AJ Agrochem",
+      "citation": "(2019) 9 SCC 725",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "A special enactment's requirement (there, s.16-G of the Tea Act, 1953, requiring prior Central Government consent for winding-up) is overridden by the IBC.",
+      "how_treated": "Referred (within the Paschimanchal extract) as an instance of IBC primacy over a special statute.",
+      "how_treated_paras": "82",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "case_id": "SCJ-154",
+  "title": "Arup Kumar Mitra v. State of U.P. & Others",
+  "neutral_citation": "2014 SCC OnLine All 18761",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sudhir Agarwal, J. & Suneet Kumar, J. (delivered by Sudhir Agarwal, J.)",
+  "date_of_judgment": "2014-06-30",
+  "date_display": "30 June 2014",
+  "docket": "Writ - C No. 33119 of 2014",
+  "disposition": "Writ petition allowed; reaffirming order set aside; exemplary personal cost imposed on the assessing officer",
+  "headnote": "A theft assessment made under the U.P. Electricity Supply Code, 2005 that has been set aside by the writ court becomes non est — it ceases to exist in law — and cannot be treated as subsisting: on remand the assessing authority must pass a fresh, reasoned, speaking order after actually considering the consumer's objection, not merely 'reaffirm' the quashed order. An order of 5.5.2014 that reaffirmed the already-quashed final assessment of 18.9.2013, without dealing with the consumer's 19-page objection, is non-speaking, founded on a non est order and illegal. Once the assessment was set aside, the recovery had to be withdrawn, not merely 'kept in abeyance'/deferred. The Court set aside the order, declined contempt only on the officer's unconditional apology and undertaking, and imposed exemplary costs of Rs. 20,000 payable personally by the erring Executive Engineer.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "8.1 (theft assessment)",
+      "topic": "Effect of a set-aside theft assessment; duty to pass a fresh reasoned order on remand",
+      "type": "supply_code",
+      "question": "After a Code-2005 theft assessment is set aside and remanded, may the assessing authority simply 'reaffirm' the quashed order, or must it pass a fresh reasoned order on the consumer's objection?",
+      "holding": "The set-aside assessment (18.9.2013) became non est and ceased to exist in law. The assessing authority was bound to pass a fresh, reasoned, speaking order after considering the consumer's objection dated 3.10.2013. The order of 5.5.2014, which merely reaffirmed the quashed assessment without dealing with the 19-page objection, is non-speaking, founded on a non est order and cannot sustain; it is set aside.",
+      "limiting_facts": "Vigilance found a magnetic relay device tampering the meter (s.135 theft); the final assessment of 18.9.2013 had itself been passed before the revised provisional notice of 29.6.2013 was even transmitted/served, and had already been quashed once (13.11.2013) with recovery separately quashed (2.4.2014).",
+      "flag": "The show-cause and assessment refer to assessment 'in accordance with the U.P. Electricity Supply Code, 2005' for a s.135 theft; the Court did not cite a specific clause number. Keyed to the Code's theft-assessment clause for indexing.",
+      "paras": "12, 17-19"
+    },
+    {
+      "provision": "EA2003::152",
+      "code": "Electricity Act, 2003",
+      "clause": "152",
+      "topic": "Compounding cheque dishonoured — assessment at double the rate",
+      "type": "interplay",
+      "holding": "Where the consumer tendered a cheque (Rs. 40,000) towards compounding under s.152 but stopped payment so that it was dishonoured, the assessing authority proceeded to assess at double the rate (Rs. 3,17,333). Recorded as the factual/procedural setting; the assessment was nonetheless quashed for the natural-justice and non est defects above.",
+      "paras": "5-7",
+      "flag": "Recorded as an interplay node; the case turned on the remand-compliance and non est points, not on the s.152 doubling itself."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "set-aside-assessment-is-non-est-fresh-reasoned-order-required",
+      "application": "An assessment quashed by the writ court is non est; on remand the authority must pass a fresh reasoned/speaking order dealing with the objection, and cannot merely reaffirm or treat the quashed order as alive.",
+      "lead_authorities": [
+        {
+          "name": "Ashok Kumar v. State of U.P.",
+          "docid": ""
+        }
+      ],
+      "paras": "17-19"
+    },
+    {
+      "tag": "recovery-must-be-withdrawn-not-merely-deferred-on-set-aside",
+      "application": "When the final assessment is set aside, the recovery/citation must be withdrawn, not merely 'kept in abeyance' or deferred; deferring it is not compliance with the order.",
+      "lead_authorities": [],
+      "paras": "10"
+    },
+    {
+      "tag": "opportunity-before-final-assessment",
+      "application": "A final assessment passed before the revised provisional notice was even transmitted/served, and without considering the objection, violates natural justice.",
+      "lead_authorities": [],
+      "paras": "7, 12"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits of the theft assessment",
+      "note": "Whether theft was in fact committed and the correctness/quantum of the assessment were not decided; the matter was left to a fresh reasoned order by the assessing authority on the consumer's objection.",
+      "docid": "",
+      "paras": "19-20"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "(2008) 6 ADJ 660",
+      "court": "Allahabad High Court",
+      "docid": "",
+      "proposition": "Lays down the requirement that an assessing authority pass a proper reasoned order in electricity assessment matters in accordance with law.",
+      "how_treated": "Referred; the officer undertook to make compliance by passing a reasoned order 'in accordance with law laid down by this Court in various cases, including Ashok Kumar', on the basis of which the Court declined to initiate contempt.",
+      "how_treated_paras": "17",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    }
+  ]
+}
