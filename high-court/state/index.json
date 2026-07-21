@@ -1,7 +1,7 @@
 {
  "court": "high-court",
  "prefix": "HC",
- "next_seq": 10,
+ "next_seq": 11,
  "note": "Stable filename -> case_id map. Reuse existing ids; never renumber a processed case.",
  "cases": [
   {
@@ -64,6 +64,13 @@
    "case_id": "HC-009",
    "source_file": "Indian Oil Corporation Ltd. vs State Of U.P. And 3 Others on 18 January, 2024.html",
    "title": "Indian Oil Corporation Ltd. v. State of U.P. & 3 Others",
+   "court": "Allahabad High Court",
+   "status": "done"
+  },
+  {
+   "case_id": "HC-010",
+   "source_file": "007_Ashok_Kumar_v._State_of_U.P..pdf",
+   "title": "Ashok Kumar & Ors. v. State of U.P. & Ors.",
    "court": "Allahabad High Court",
    "status": "done"
   }
