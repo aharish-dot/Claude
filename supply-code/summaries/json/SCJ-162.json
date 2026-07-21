@@ -1,0 +1,65 @@
+{
+  "case_id": "SCJ-162",
+  "title": "Smt. Amrawati Devi v. Purvanchal Vidyut Vitran Nigam Ltd. & Anr.",
+  "neutral_citation": "2009 SCC OnLine All 26",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "V.M. Sahai, J. & Ran Vijai Singh, J.",
+  "date_of_judgment": "2009-01-15",
+  "date_display": "15 January 2009",
+  "docket": "C.M.W.P. No. 1545 of 2009",
+  "disposition": "Writ petition allowed; provisional assessment notice quashed; meter to be tested by an independent agency",
+  "headnote": "The leading Division Bench statement on Clause 5.6(c)(iii) of the U.P. Electricity Supply Code, 2005: where a defective/allegedly-tampered meter is sealed and sent for testing, it must be tested 'at licensee's lab/independent lab/electrical inspector, as agreed by the consumer', and the consumer's agreement is essential. Because the clause operates harshly against the consumer it is construed strictly, and the licensee has a corresponding DUTY to apprise the consumer of the right to choose the testing venue (including an independent agency); failure to do so renders the sealing and testing proceedings irregular and illegal. A notice merely stating that the meter will be tested at the licensee's lab, without intimating the right to independent testing, is contrary to law. No waiver of the option can be inferred against a consumer who was never informed of it, since waiver requires full knowledge of the right and there is no presumption that everyone knows the law. The Court prescribed that after sealing, the Nigam must serve a notice — printed in bold capitals — inviting the consumer to exercise the option (electrical inspector / Nigam lab / an approved outside agency, with the list supplied), fix a testing date in the consumer's presence, and treat the resulting report as final.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::5.6(c)(iii)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "5.6(c)(iii)",
+      "topic": "Duty to apprise the consumer of the testing-venue option before testing a sealed meter",
+      "type": "supply_code",
+      "question": "Must the licensee inform the consumer of, and obtain agreement to, the venue for testing a sealed meter (licensee's lab / independent lab / electrical inspector) before it is tested?",
+      "holding": "Yes. Clause 5.6(c)(iii) requires the sealed meter to be tested at the licensee's lab, an independent lab or by the electrical inspector 'as agreed by the consumer'; the consumer's agreement is essential and, once exercised, the option cannot be changed. The clause operates harshly and is construed strictly, so the licensee has a corresponding duty to apprise the consumer of the right — including the right to independent testing. Failure to do so renders the sealing and testing proceedings irregular and illegal, and a notice intimating only licensee-lab testing is contrary to law.",
+      "limiting_facts": "Secure meter found running 12.61% slow, sealed on 26.11.2008 with a notice to appear at the Nigam's lab on 4.12.2008; on testing it was found tampered and a provisional assessment issued; the consumer was never told of the independent-testing option.",
+      "qualifier": "The Court laid down the procedure: a bold-capitals notice inviting the consumer to exercise the option (electrical inspector / Nigam lab / an approved outside agency, with the approved list supplied), a testing date fixed in the consumer's presence, and the resulting report treated as final.",
+      "paras": "6-7, 10-12",
+      "flag": "Leading DB authority on Clause 5.6(c)(iii); followed in SCJ-153 (Mohd. Sagir). The SLP against this judgment was dismissed by the Supreme Court on 3-8-2009 (as noted in SCJ-153)."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "meter-testing-venue-option-must-be-offered-before-sealing",
+      "application": "Before a sealed meter is tested, the licensee must give the consumer a clear (bold-capitals) notice of the right to choose the testing venue — licensee's lab, an approved independent agency, or the electrical inspector; omitting it makes the testing illegal.",
+      "lead_authorities": [],
+      "paras": "6-7, 10-11"
+    },
+    {
+      "tag": "waiver-requires-full-knowledge-of-right",
+      "application": "A consumer not informed of the Clause 5.6(c)(iii) option cannot be deemed to have waived it; waiver is an intentional act with full knowledge of the right, and there is no presumption that everyone knows the law.",
+      "lead_authorities": [
+        {"name": "Moti Lal Padampat Sugar Mills Ltd. v. State of U.P.", "docid": ""}
+      ],
+      "paras": "9"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether 'ignorance of law is no excuse' applies to the Code",
+      "note": "The respondents argued the consumer could not plead ignorance of the Code, being law; the Court found it unnecessary to decide this wider question, having held the notice contrary to Clause 5.6(c)(iii).",
+      "docid": "",
+      "paras": "8"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Moti Lal Padampat Sugar Mills Ltd. v. State of U.P.",
+      "citation": "(1979) 2 SCC 409 : AIR 1979 SC 621",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Waiver means the intentional abandonment of a right and must be made with full knowledge of the right; there is no presumption that every person knows the law, so a right cannot be treated as waived without knowledge of it.",
+      "how_treated": "Relied on and quoted (para 6 of the SC judgment) to reject the plea of waiver against the consumer.",
+      "how_treated_paras": "9",
+      "cited_by": "Petitioner",
+      "treatment": "Relied on"
+    }
+  ]
+}

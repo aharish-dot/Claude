@@ -1,0 +1,108 @@
+{
+  "case_id": "SCJ-161",
+  "title": "Rituraj v. State of U.P. & Others",
+  "neutral_citation": "2017 SCC OnLine All 3786",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sudhir Agarwal, J. & Ajit Kumar, J.",
+  "date_of_judgment": "2017-12-14",
+  "date_display": "14 December 2017",
+  "docket": "C.M.W.P. No. 35477 of 2016",
+  "disposition": "Writ petition allowed with costs; assessment, demand and test report quashed",
+  "headnote": "A demand raised on the strength of meter testing is illegal where the consumer was given no intimation/notice of the testing as required by Clause 5.6(d) of the U.P. Electricity Supply Code, 2005, and where the consumer was never apprised of the right under Clause 5.6(c)(iii) to have the sealed meter tested at an independent lab. Following the Division Bench in Amrawati Devi and Mohd. Sagir, the licensee has a duty to apprise the consumer of the testing-venue option; failure renders the sealing and testing illegal. Following Modern Rice Mill, a report of a laboratory that is not an independent test laboratory — in particular the meter manufacturer's own lab (Secure Meters Ltd.) — cannot be relied upon: no one can be a judge in his own cause, the manufacturer has a commercial interest and bias, and its lab is not an 'independent laboratory' under Clause 5.6(b)(iii). Here no intimation was given for testing of the meter seals; the assessment order, demand notice and test-lab report are quashed, with liberty to proceed afresh in accordance with law.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::5.6(d)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "5.6(d)(i)",
+      "topic": "Assessment based on meter/seal testing without the Clause 5.6(d) intimation is illegal",
+      "type": "supply_code",
+      "question": "Is a demand valid where it rests on testing of meter seals conducted without giving the consumer the Clause 5.6(d)(i) intimation/notice of testing?",
+      "holding": "No. Clause 5.6(d) makes it imperative to inform the consumer of the proposed date of testing, give him an opportunity to be present, obtain his signature and preserve his right to dispute the result. Here no intimation was given for the alleged testing of the meter seals; the assessment order is per se illegal and, with the demand notice and the test-lab report, is quashed.",
+      "limiting_facts": "Demand raised on a testing report dated 17.2.2017 that showed no defect or even doubt about the meter seals, and without the Clause 5.6(d)(i) notice.",
+      "paras": "2, 6"
+    },
+    {
+      "provision": "UP-2005::5.6(c)(iii)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "5.6(c)(iii) / 5.6(b)(iii)",
+      "topic": "Meter manufacturer's lab is not an 'independent laboratory'; duty to offer the venue option",
+      "type": "supply_code",
+      "question": "Can the licensee rely on a testing report of the meter manufacturer's own laboratory, and need it apprise the consumer of the independent-testing option?",
+      "holding": "No to the first, yes to the second. Applying Amrawati Devi and Mohd. Sagir, the licensee must apprise the consumer of the Clause 5.6(c)(iii) right to have the sealed meter tested at an independent agency; failure renders the proceedings illegal. Applying Modern Rice Mill, a report of a non-independent lab cannot be relied upon: the meter manufacturer (Secure Meters Ltd.) has a commercial interest and cannot be a judge in its own cause, and its lab is not an 'independent laboratory' under Clause 5.6(b)(iii).",
+      "paras": "4-6",
+      "flag": "Follows the corpus cases SCJ-162 (Amrawati Devi) and SCJ-153 (Mohd. Sagir), and Modern Rice Mill, on Clause 5.6."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-5.6d-meter-testing-procedure-mandatory-for-theft-finding",
+      "application": "The Clause 5.6(d) procedure — advance intimation of the testing date, opportunity to be present, signature, right to dispute — is mandatory; an assessment on testing done without the 5.6(d)(i) intimation is illegal.",
+      "lead_authorities": [
+        {"name": "Smt. Amrawati Devi v. Purvanchal Vidyut Vitran Nigam Ltd.", "docid": ""}
+      ],
+      "paras": "2, 6"
+    },
+    {
+      "tag": "meter-manufacturer-testing-not-independent",
+      "application": "A meter manufacturer's own laboratory (Secure Meters Ltd.) is not an 'independent laboratory' under Clause 5.6(b)(iii); its report cannot be relied upon because it has a commercial interest and cannot be a judge in its own cause.",
+      "lead_authorities": [
+        {"name": "Modern Rice Mill v. Madhyanchal Vidyut Vitran Nigam Ltd.", "docid": ""}
+      ],
+      "paras": "5"
+    },
+    {
+      "tag": "meter-testing-venue-option-must-be-offered-before-sealing",
+      "application": "The licensee must apprise the consumer of the Clause 5.6(c)(iii) right to choose the testing venue, including independent testing, before testing a sealed meter.",
+      "lead_authorities": [],
+      "paras": "4-6"
+    }
+  ],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "Smt. Amrawati Devi v. Purvanchal Vidyut Vitran Nigam Ltd.",
+      "citation": "(2009) 74 ALR 701",
+      "court": "Allahabad High Court (Division Bench)",
+      "docid": "",
+      "proposition": "The licensee must apprise the consumer of the Clause 5.6(c)(iii) right to have a sealed meter tested at an independent agency; failure renders the sealing and testing illegal, and no waiver runs without knowledge of the right.",
+      "how_treated": "Followed and quoted at length. (Digested in the corpus as SCJ-162.)",
+      "how_treated_paras": "4",
+      "cited_by": "Petitioner",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Mohd. Sagir v. Dakshinanchal Vidyut Vitran Nigam Ltd.",
+      "citation": "(2014) 105 ALR 603",
+      "court": "Allahabad High Court (Division Bench)",
+      "docid": "",
+      "proposition": "Clause 5.6 applies to tampered meters too and the Clause 5.6(c)(iii) testing-venue option must be offered before testing.",
+      "how_treated": "Relied on. (Digested in the corpus as SCJ-153.)",
+      "how_treated_paras": "3",
+      "cited_by": "Petitioner",
+      "treatment": "Relied on"
+    },
+    {
+      "name": "Modern Rice Mill v. Madhyanchal Vidyut Vitran Nigam Ltd.",
+      "citation": "2012 (1) ADJ 296 : (2012) 90 ALR 12",
+      "court": "Allahabad High Court",
+      "docid": "",
+      "proposition": "A report of a laboratory that is not independent — in particular the meter manufacturer's own lab — cannot be relied upon; the manufacturer cannot be a judge in its own cause and its lab is not an 'independent laboratory'.",
+      "how_treated": "Followed and quoted (paras 48-52) on the manufacturer-lab point.",
+      "how_treated_paras": "5",
+      "cited_by": "Petitioner",
+      "treatment": "Followed"
+    },
+    {
+      "name": "JMD Alloys Ltd.",
+      "citation": "",
+      "court": "Patna High Court",
+      "docid": "",
+      "proposition": "Sending a meter for testing to the accredited laboratory of its manufacturer/supplier (Secure Meters Ltd.) is likely to create a strong bias on the part of the supplier/manufacturer.",
+      "how_treated": "Noticed within the quoted Modern Rice Mill extract in support of the manufacturer-bias point.",
+      "how_treated_paras": "5",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    }
+  ]
+}

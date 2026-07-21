@@ -1,0 +1,135 @@
+{
+  "case_id": "SCJ-160",
+  "title": "Reliance Projects and Property Management Services Ltd. v. State of U.P. & Others",
+  "neutral_citation": "2026 SCC OnLine All 3330",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Ajit Kumar, J. & Swarupama Chaturvedi, J.",
+  "date_of_judgment": "2026-04-24",
+  "date_display": "24 April 2026 (reserved 12 February 2026)",
+  "docket": "Writ - C No. 32408 of 2023",
+  "disposition": "Writ petition allowed; pre-effective-date demand notices, recovery certificates and coercive proceedings quashed",
+  "headnote": "Companion to SCJ-157 (same Bench). The successful resolution applicant that took over the corporate debtor (RITL) under an NCLT-approved and implemented resolution plan cannot be saddled with dues for the period before the plan's 'effective date' (here 22-12-2022, the date of actual takeover on deposit of the resolution amount). Under Section 31 IBC the approved plan binds all stakeholders including statutory authorities and, on the clean-slate principle, extinguishes every claim not filed during the CIRP or not provided for in the plan — across all pre-effective-date phases (pre-CIRP dues, CIRP-period operational costs, and the monitoring-committee/transition phase up to the effective date). Liability crystallises only from the effective date, determined by the plan's implementation structure and the actual transition of control (particularly where implementation was delayed by litigation), and the exclusion-of-time principle enures to the resolved debtor, not to the tardy statutory creditors. Because the IBC has overriding effect (s.238), even electricity arrears that would otherwise run with the premises under the Electricity Act cannot be demanded for the pre-effective-date period. The impugned recovery certificates and Kruki (attachment) proceedings for the pre-effective-date period are quashed; the authorities may raise fresh demands only for dues arising after 22-12-2022.",
+  "holding_units": [
+    {
+      "provision": "IBC::31",
+      "code": "Insolvency and Bankruptcy Code, 2016",
+      "clause": "31",
+      "topic": "Extinguishment of all pre-effective-date claims; liability crystallises at the plan's 'effective date'",
+      "type": "interplay",
+      "question": "For what period do a resolved corporate debtor's dues to statutory authorities stand extinguished, and from what date does its liability begin?",
+      "holding": "All claims for the periods before the plan's effective date — pre-CIRP dues, CIRP-period operational costs, and the monitoring/transition phase up to the effective date — that were not filed during the CIRP or not provided for in the approved plan stand extinguished under s.31 and are unenforceable; the corporate debtor emerges on a clean slate notwithstanding continuity or change of name. Liability crystallises only from the 'effective date' (here 22-12-2022, the actual transition of control on deposit of the resolution amount), determined by the plan's implementation structure — not merely the date of approval — especially where implementation was delayed by litigation; and the exclusion of time taken in litigation benefits the petitioner, not the respondent authorities.",
+      "limiting_facts": "The authorities neither filed a claim during CIRP nor objected to the plan before the NCLT; the plan was approved, litigated up to the Supreme Court, and implemented with takeover on 22-12-2022.",
+      "paras": "75-85"
+    },
+    {
+      "provision": "IBC::238",
+      "code": "Insolvency and Bankruptcy Code, 2016",
+      "clause": "238",
+      "topic": "IBC overrides the Electricity Act — even 'arrears on premises' cannot be demanded for the pre-effective-date period",
+      "type": "interplay",
+      "holding": "Because the IBC has overriding effect, statutory authorities cannot enforce extinguished claims or resort to coercive recovery; and dues or arrears 'on premises' that would ordinarily be demandable under the Electricity Act cannot be demanded for the pre-effective-date period, the IBC prevailing. For any post-effective-date dues the parties have their remedy under the Electricity Act.",
+      "paras": "82, 86-87"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "resolution-plan-extinguishes-pre-cirp-electricity-dues-clean-slate",
+      "application": "An approved and implemented resolution plan binds statutory authorities and extinguishes all pre-effective-date claims not filed during CIRP or not in the plan; a claim cannot be resurrected after implementation.",
+      "lead_authorities": [
+        {"name": "Ghanshyam Mishra & Sons (P) Ltd. v. Edelweiss Asset Reconstruction Co. Ltd.", "docid": ""}
+      ],
+      "paras": "76-85"
+    },
+    {
+      "tag": "ibc-liability-crystallises-at-resolution-plan-effective-date",
+      "application": "The resolved debtor's liability crystallises from the plan's 'effective date' (actual transition of control), not the mere date of NCLT approval, especially where implementation was delayed by litigation; time excluded in litigation benefits the debtor, not the statutory creditors.",
+      "lead_authorities": [],
+      "paras": "78-81, 86"
+    },
+    {
+      "tag": "ibc-s238-overrides-sector-statutes",
+      "application": "Section 238 IBC prevails over the Electricity Act; even arrears that would otherwise run with the premises cannot be demanded for the pre-effective-date period.",
+      "lead_authorities": [
+        {"name": "Paschimanchal Vidyut Vitran Nigam Ltd. v. Raman Ispat (P) Ltd.", "docid": ""}
+      ],
+      "paras": "48, 86"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Disconnection / reconnection of the electricity supply",
+      "note": "Expressly not considered; the case turned on the date from which liability could be imposed (the effective date). Pre-effective-date demands are extinguished; post-effective-date dues are to be pursued under the Electricity Act.",
+      "docid": "",
+      "paras": "86"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ghanshyam Mishra & Sons (P) Ltd. v. Edelweiss Asset Reconstruction Co. Ltd.",
+      "citation": "(2021) 9 SCC 657",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "On approval under s.31(1) all claims not part of the resolution plan stand extinguished and are binding on all stakeholders, including statutory authorities; the 2019 amendment to s.31 is clarificatory.",
+      "how_treated": "Relied on and followed for the extinguishment / clean-slate principle.",
+      "how_treated_paras": "60-61, 76-85",
+      "cited_by": "Petitioner",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Ruchi Soya Industries Ltd. v. Union of India",
+      "citation": "(2022) 6 SCC 343",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "A claim not lodged after the public announcement does not survive; on approval of the plan all claims stand frozen.",
+      "how_treated": "Relied on for extinguishment of unfiled claims.",
+      "how_treated_paras": "60-64",
+      "cited_by": "Petitioner",
+      "treatment": "Relied on"
+    },
+    {
+      "name": "Paschimanchal Vidyut Vitran Nigam Ltd. v. Raman Ispat (P) Ltd.",
+      "citation": "(2023) 10 SCC 60",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Section 238 IBC overrides the Electricity Act, 2003; the s.53 waterfall governs, and Rainbow Papers is distinguishable.",
+      "how_treated": "Relied on for the primacy of the IBC over electricity dues.",
+      "how_treated_paras": "48",
+      "cited_by": "Petitioner",
+      "treatment": "Relied on"
+    },
+    {
+      "name": "State Tax Officer (1) v. Rainbow Papers Ltd.",
+      "citation": "(2023) 9 SCC 545",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Certain statutory dues may be treated as secured debts under the relevant first-charge provision.",
+      "how_treated": "Distinguished (as in Paschimanchal) as arising on different facts and not noticing the s.53 waterfall.",
+      "how_treated_paras": "48-49",
+      "cited_by": "Respondent",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "Innoventive Industries Ltd. v. ICICI Bank",
+      "citation": "(2018) 1 SCC 407",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "The IBC is a complete, self-contained code with overriding effect over inconsistent State/other laws.",
+      "how_treated": "Referred on the primacy and self-contained nature of the IBC.",
+      "how_treated_paras": "",
+      "cited_by": "Petitioner",
+      "treatment": "Referred"
+    },
+    {
+      "name": "Duncans Industries Ltd. v. AJ Agrochem",
+      "citation": "(2019) 9 SCC 725",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "A special enactment's requirement is overridden by the IBC.",
+      "how_treated": "Referred (within the Paschimanchal extract) as an instance of IBC primacy.",
+      "how_treated_paras": "48",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    }
+  ]
+}

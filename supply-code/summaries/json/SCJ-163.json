@@ -1,0 +1,95 @@
+{
+  "case_id": "SCJ-163",
+  "title": "Jai Laxmi Cement Company Ltd. v. State of U.P. & 3 Others",
+  "neutral_citation": "2013 SCC OnLine All 9880",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Ashok Bhushan, J. & Vipin Sinha, J.",
+  "date_of_judgment": "2013-10-29",
+  "date_display": "29 October 2013",
+  "docket": "Writ - C No. 58746 of 2013",
+  "disposition": "Writ petition disposed of with directions; interference at the provisional-assessment stage declined",
+  "headnote": "A provisional assessment notice under Section 126(2) of the Electricity Act, 2003 that relies on a checking report said to confirm theft does not thereby express a 'concluded opinion' or prejudge the matter, because the consumer has a right to file objections which the assessing officer must consider before final assessment; it is not vitiated on the prejudgment principle of Oryx Fisheries (decided on different facts, where the notice said the charge was 'proved beyond doubt'). A writ against a provisional assessment will normally not be entertained: following SOUTHCO v. Sri Seetaram Rice Mill, only a final order under Section 126(3) is appealable under Section 127, a Section 126(2) provisional assessment is not, and the High Court should decline to interfere save within the Whirlpool exceptions (a true jurisdictional challenge, vires, or breach of natural justice), which this case did not attract. The writ was disposed of with directions: 21 days to file a detailed objection, consideration of the meter-testing request, and — on the petitioner depositing one-third of the provisional amount — reconnection abiding the final assessment, to be completed within four weeks.",
+  "holding_units": [
+    {
+      "provision": "EA2003::126",
+      "code": "Electricity Act, 2003",
+      "clause": "126(2)",
+      "topic": "A provisional assessment relying on a checking report is not a prejudged 'concluded opinion'",
+      "type": "interplay",
+      "question": "Is a provisional assessment notice liable to be struck down for prejudgment because it relies on a checking report that 'confirms' theft?",
+      "holding": "No. A bare reading of the provisional assessment notice shows it does not express a concluded opinion or prejudge the issue; it is based on the checking report and the consumer has been given a right to file objections against both the checking report and the notice, to be examined by the authority finalising the assessment. Oryx Fisheries, where the notice said the charge was 'proved beyond doubt', is on different facts and does not apply.",
+      "paras": "(notice discussion) — running paragraphs on Annexure-6"
+    },
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act, 2003",
+      "clause": "127",
+      "topic": "Writ against a provisional assessment normally declined; only the final s.126(3) order is appealable",
+      "type": "interplay",
+      "holding": "A provisional assessment under s.126(2) is not appealable under s.127 — only a final order under s.126(3) is — and the High Court should normally decline to interfere with a provisional assessment under Article 226, exercising jurisdiction only within the Whirlpool exceptions (a jurisdictional challenge, vires, or natural-justice breach). This case fell in none of those exceptions, so it was not fit to be entertained at the provisional stage; the petitioner's remedy is to file objections.",
+      "paras": "(quoting SOUTHCO paras 79-87)"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "relegate-to-statutory-remedy",
+      "application": "A writ against a provisional assessment notice is premature; the consumer must file objections under s.126(3) and is relegated to the statutory assessment process, interference being confined to the Whirlpool exceptions.",
+      "lead_authorities": [
+        {"name": "Executive Engineer, SOUTHCO v. Sri Seetaram Rice Mill", "docid": ""}
+      ],
+      "paras": "quoting SOUTHCO 79-82, 87"
+    },
+    {
+      "tag": "whirlpool-exceptions-to-alternative-remedy-bar",
+      "application": "Interference with a provisional assessment despite the statutory remedy is available only within the Whirlpool exceptions (jurisdictional challenge, vires, natural justice); absent these, the writ is not entertained.",
+      "lead_authorities": [
+        {"name": "Whirlpool Corporation v. Registrar of Trade Marks, Mumbai", "docid": ""}
+      ],
+      "paras": "quoting SOUTHCO 82"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits of the theft allegation and the assessment",
+      "note": "Whether theft occurred, whether tampering of the pole meter could support the assessment, and compliance with the Supply Code were left to the assessing officer on the petitioner's detailed objection; only a limited interim direction (one-third deposit for reconnection) was made.",
+      "docid": "",
+      "paras": "(disposition)"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (SOUTHCO) v. Sri Seetaram Rice Mill",
+      "citation": "(2012) 2 SCC 108",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Only a final order of assessment under s.126(3) is appealable under s.127; a s.126(2) provisional assessment is not, and the High Court should normally decline to interfere with a provisional assessment under Article 226, entertaining it only on true jurisdictional grounds and then remitting the merits to the assessing authority.",
+      "how_treated": "Relied on and quoted (paras 79-82, 87) to decline interference at the provisional stage.",
+      "how_treated_paras": "quoted 79-87",
+      "cited_by": "Petitioner",
+      "treatment": "Relied on"
+    },
+    {
+      "name": "Whirlpool Corporation v. Registrar of Trade Marks, Mumbai",
+      "citation": "(1998) 8 SCC 1",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Alternative statutory remedy does not bar a writ where there is a jurisdictional defect, a challenge to vires, or a breach of natural justice; otherwise the High Court should decline to interfere.",
+      "how_treated": "Applied: the case did not fall within any of the Whirlpool exceptions, so the writ was not entertained at the provisional stage.",
+      "how_treated_paras": "quoted within SOUTHCO 82",
+      "cited_by": "Court",
+      "treatment": "Relied on"
+    },
+    {
+      "name": "Oryx Fisheries Pvt. Ltd. v. Union of India",
+      "citation": "(2010) 13 SCC 427",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "A show-cause notice that pronounces the charge already 'proved beyond doubt' prejudges the issue and is bad; the noticee must not be met with a concluded mind.",
+      "how_treated": "Distinguished on facts; the provisional assessment notice here did not express a concluded opinion.",
+      "how_treated_paras": "(notice discussion)",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished"
+    }
+  ]
+}

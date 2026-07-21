@@ -1,0 +1,99 @@
+{
+  "case_id": "SCJ-159",
+  "title": "Pashchimanchal Vidyut Vitran Nigam Ltd. v. Permanent Lok Adalat, Moradabad & Anr.",
+  "neutral_citation": "2018 SCC OnLine All 6208",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Saumitra Dayal Singh, J.",
+  "date_of_judgment": "2018-12-20",
+  "date_display": "20 December 2018",
+  "docket": "Civil Misc. Writ Petition No. 39082 of 2018",
+  "disposition": "Writ petition allowed; the Permanent Lok Adalat's award quashed as without jurisdiction",
+  "headnote": "A Permanent Lok Adalat has conciliatory jurisdiction under the first proviso to Section 22-C(1) of the Legal Services Authorities Act, 1987 over a dispute involving theft of electricity (theft being a compoundable offence, its conciliatory jurisdiction is not ousted). But once conciliation fails, its adjudicatory jurisdiction under Section 22-C(8) does not arise where the dispute 'relates to an offence' — and unlike the first proviso, s.22-C(8) makes compoundability irrelevant. Theft under Section 135 of the Electricity Act, 2003 is an offence, and the jurisdictional fact ousting adjudicatory power is the mere existence of an offence, regardless of whether an FIR has been lodged or a criminal prosecution launched; the civil consequence (provisional assessment) does not change that. Section 175 of the Electricity Act (Act in addition to other laws) does not save the PLA's adjudicatory jurisdiction, which is ousted by the Legal Services Act itself. The PLA's award setting aside the provisional assessment was therefore without jurisdiction and a nullity; it is quashed, and the licensee is to decide the consumer's objections to the provisional assessment on merits.",
+  "holding_units": [
+    {
+      "provision": "LSAA1987::22-C(8)",
+      "code": "Legal Services Authorities Act, 1987",
+      "clause": "22-C(8) (r/w first proviso to 22-C(1))",
+      "topic": "Permanent Lok Adalat has no adjudicatory jurisdiction over a dispute relating to an offence",
+      "type": "interplay",
+      "question": "After conciliation fails, can a Permanent Lok Adalat adjudicate an electricity-theft dispute on merits because theft is compoundable?",
+      "holding": "No. The first proviso to s.22-C(1) preserves only conciliatory jurisdiction (ousted only for non-compoundable offences), so the PLA could conciliate the theft dispute. But once conciliation fails, adjudicatory jurisdiction under s.22-C(8) does not arise if the dispute 'relates to an offence', and — in contrast to the first proviso — compoundability is irrelevant under s.22-C(8). The award adjudicating the dispute was therefore without jurisdiction and a nullity, and is quashed.",
+      "paras": "10-16",
+      "flag": "Section 175 of the Electricity Act (Act 'in addition to' other laws) was pleaded but does not save the PLA's adjudicatory jurisdiction, which the Legal Services Act itself ousts."
+    },
+    {
+      "provision": "EA2003::135",
+      "code": "Electricity Act, 2003",
+      "clause": "135",
+      "topic": "Theft is an 'offence' for the jurisdictional test even without an FIR",
+      "type": "interplay",
+      "holding": "Theft of electricity under s.135 is an offence giving rise to both civil and criminal consequences. For the s.22-C(8) jurisdictional test the mere allegation/existence of the offence is decisive; it is not necessary that an FIR be lodged or a criminal prosecution be launched, and the phrase 'to any offence' is not to be read restrictively. So long as the consumer was being proceeded against for theft (even in civil assessment proceedings), the dispute 'related to an offence'.",
+      "paras": "13-15"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "permanent-lok-adalat-no-adjudicatory-jurisdiction-over-theft-offence",
+      "application": "A Permanent Lok Adalat may conciliate but cannot adjudicate on merits a dispute relating to electricity theft; s.22-C(8) ousts adjudicatory jurisdiction over any offence-related dispute regardless of compoundability or whether an FIR was lodged.",
+      "lead_authorities": [
+        {"name": "Torrent Power Ltd. v. State of U.P.", "docid": ""}
+      ],
+      "paras": "10-15"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits of the theft allegation / provisional assessment",
+      "note": "Not decided; the consumer's objections to the provisional assessment are to be decided on merits by the licensee after opportunity of hearing, and all other statutory remedies remain intact.",
+      "docid": "",
+      "paras": "19"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Torrent Power Ltd. v. State of U.P.",
+      "citation": "Civil Misc. Writ Petition No. 41139 of 2012, decided 4-12-2013 (Allahabad HC)",
+      "court": "Allahabad High Court (Single Judge)",
+      "docid": "",
+      "proposition": "A Permanent Lok Adalat can entertain a compoundable-offence electricity dispute for conciliation, but on failure of conciliation cannot decide it on merits under s.22-C(8), because that provision ousts adjudicatory jurisdiction over any dispute relating to an offence irrespective of compoundability.",
+      "how_treated": "Followed, the Court being in full agreement.",
+      "how_treated_paras": "7, 11",
+      "cited_by": "Petitioner",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008 (6) ADJ 660 (DB) : (2008) 72 ALR 43",
+      "court": "Allahabad High Court (Division Bench)",
+      "docid": "",
+      "proposition": "On the s.126 assessment procedure and the safeguards attending an allegation of unauthorised use/theft of electricity.",
+      "how_treated": "Cited by the respondent (paras 59-61); noted. (This is the case digested in the corpus as SCJ-158.)",
+      "how_treated_paras": "9",
+      "cited_by": "Respondent",
+      "treatment": "Referred"
+    },
+    {
+      "name": "Bar Council of India v. Union of India",
+      "citation": "(2012) 8 SCC 243",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "On the nature and scope of the Legal Services Authorities / Lok Adalat framework.",
+      "how_treated": "Cited by the respondent; not found to save the PLA's adjudicatory jurisdiction.",
+      "how_treated_paras": "9",
+      "cited_by": "Respondent",
+      "treatment": "Referred"
+    },
+    {
+      "name": "Executive Engineer, Electricity Distribution Division-II v. Chairman, Permanent Lok Adalat",
+      "citation": "(2015) 113 ALR 603",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "On the jurisdiction of a Permanent Lok Adalat in electricity disputes.",
+      "how_treated": "Cited by the respondent; noted.",
+      "how_treated_paras": "9",
+      "cited_by": "Respondent",
+      "treatment": "Referred"
+    }
+  ]
+}

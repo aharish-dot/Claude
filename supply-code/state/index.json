@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 159,
+  "next_seq": 164,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -952,6 +952,36 @@
       "case_id": "SCJ-158",
       "source_basename": "007_Ashok_Kumar_v._State_of_U.P.",
       "title": "Ashok Kumar & Ors. v. State of U.P. & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-159",
+      "source_basename": "008_Pashchimanchal_Vidhyut_Vitran_Nigam_Ltd._v._Permanent_Lok_Adalat",
+      "title": "Pashchimanchal Vidyut Vitran Nigam Ltd. v. Permanent Lok Adalat, Moradabad & Anr.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-160",
+      "source_basename": "009_Reliance_Projects_Property_Management_Services_Ltd._v._State_of_U.P.",
+      "title": "Reliance Projects and Property Management Services Ltd. v. State of U.P. & Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-161",
+      "source_basename": "010_Rituraj_v._State_of_U.P.",
+      "title": "Rituraj v. State of U.P. & Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-162",
+      "source_basename": "011_Amrawati_Devi_v._Purvanchal_Vidyut_Vitran_Nigam_Ltd.",
+      "title": "Smt. Amrawati Devi v. Purvanchal Vidyut Vitran Nigam Ltd. & Anr.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-163",
+      "source_basename": "012_Jai_Laxmi_Cement_Company_Ltd._v._State_of_U.P.",
+      "title": "Jai Laxmi Cement Company Ltd. v. State of U.P. & 3 Others",
       "status": "done"
     }
   ]
