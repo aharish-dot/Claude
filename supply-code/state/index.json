@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 240,
+  "next_seq": 248,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -1438,6 +1438,54 @@
       "case_id": "SCJ-239",
       "source_basename": "088_Tehsildar_v._State_of_U.P.",
       "title": "Tehsildar v. State of U.P. and others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-240",
+      "source_basename": "089_Ishwar_Chandra_v._U.P._Power_Corporation_Limited",
+      "title": "Ishwar Chandra v. U.P. Power Corporation Limited Thru' its M.D. & Another",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-241",
+      "source_basename": "090_Gul_Mohammad_v._U.P._Power_Corporation",
+      "title": "Gul Mohammad v. U.P. Power Corporation and 2 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-242",
+      "source_basename": "091_Gopali_v._State_of_U.P.",
+      "title": "Gopali v. State of U.P. through Secretary and others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-243",
+      "source_basename": "092_Subhashis_Chatterjee_v._U.P._Power_Corporation_Limited",
+      "title": "Subhashis Chatterjee v. U.P. Power Corporation Limited, Lucknow through Chairman and others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-244",
+      "source_basename": "093_Raj_Narayan_Singh_v._State_of_U.P.",
+      "title": "Raj Narayan Singh v. State of U.P. and Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-245",
+      "source_basename": "094_Mukesh_Kumar_v._State_of_U.P.",
+      "title": "Mukesh Kumar and 3 Others v. State of U.P. and 4 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-246",
+      "source_basename": "095_L.M.L._Ltd._v._State_of_U.P.",
+      "title": "M/s L.M.L. Ltd. v. State of U.P. & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-247",
+      "source_basename": "096_Citi_Hotel_v._Commissioner",
+      "title": "M/s. Citi Hotel v. Commissioner, Lucknow Division, Lucknow & Ors.",
       "status": "done"
     }
   ]

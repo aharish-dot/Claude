@@ -1,0 +1,55 @@
+{
+  "case_id": "SCJ-243",
+  "title": "Subhashis Chatterjee v. U.P. Power Corporation Limited, Lucknow through Chairman and others",
+  "neutral_citation": "2011 SCC OnLine All 611 : (2011) 89 ALR 888 : (2011) 6 All LJ 527",
+  "court": "Allahabad High Court (Lucknow Bench)",
+  "bench": "Division Bench",
+  "coram": "Pradeep Kant, J. & Vedpal, J.",
+  "date_of_judgment": "2011-04-06",
+  "date_display": "6 April 2011",
+  "docket": "Writ Petition No. 3170 (M/B) of 2011",
+  "disposition": "Writ petition disposed of directing restoration of the domestic connection (with liberty to seize the offending gadget) and permitting the consumer to file objections to the provisional assessment",
+  "headnote": "The power to disconnect supply during proceedings under Code Clause 8.1 is confined to cases of theft (Section 135 of the Electricity Act, 2003); it does not extend to a case treated by the licensee itself as 'unauthorised use of electricity' (Section 126). Where the licensee, having issued a provisional assessment under Section 126 (UUE), disconnected a domestic connection to check further misuse, the Court held that Code 8.1(iv),(vii),(viii) permitting disconnection applies only to theft, not UUE, and there is no power under the Act or the Code to disconnect a domestic connection in a UUE case; the proper course for the detected gadget was search and seizure under Code Clauses 4.33-4.34 (in the person's presence, with a signed seizure list), not disconnection. The domestic connection was directed to be restored forthwith (the offending gadget to be seized if necessary), with liberty to the consumer to file objections to the provisional assessment for expeditious decision.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "8.1(iv),(vii),(viii) r/w Clauses 4.33-4.34 (and ss.126, 135, Electricity Act 2003)",
+      "topic": "No power to disconnect for 'unauthorised use'; Code disconnection power is confined to theft",
+      "type": "interplay",
+      "question": "Can a domestic connection be disconnected under Code Clause 8.1 where the licensee has itself treated the matter as unauthorised use of electricity (s.126) rather than theft (s.135)?",
+      "holding": "No. Code 8.1(iv),(vii),(viii) permits disconnection only in cases of 'theft' under s.135, not in cases of 'unauthorised use of electricity' assessed under s.126. Once the licensee treated the case as UUE (issuing a s.126 provisional assessment), the disconnection provisions were not attracted, and neither the Act nor the Code confers power to disconnect a domestic connection for UUE. The remedy for the detected gadget was search and seizure under Clauses 4.33-4.34 (in the person's presence with a signed list), not disconnection. Restoration was ordered, with liberty to file objections to the provisional assessment.",
+      "limiting_facts": "Domestic 3 KW connection (1995) disconnected on inspection (18.3.2011) alleging commercial use for a cable network (700 KW); provisional assessment (28.3.2011) issued under s.126; licensee's counter-affidavit itself treated it as UUE, not theft; no seizure list prepared.",
+      "paras": "8-17"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "no-disconnection-power-for-uue-only-for-theft",
+      "application": "Code Clause 8.1 disconnection applies only to theft (s.135); a UUE case (s.126) does not attract it, and a domestic connection cannot be disconnected for UUE.",
+      "lead_authorities": [],
+      "paras": "9-16"
+    },
+    {
+      "tag": "126-vs-135-distinct-fields",
+      "application": "The licensee's own election to proceed as UUE under s.126 (not theft under s.135) determines which Code powers apply; the theft-only disconnection power is unavailable.",
+      "lead_authorities": [],
+      "paras": "9-11"
+    },
+    {
+      "tag": "search-seizure-of-uue-gadget-under-clauses-4.33-4.34",
+      "application": "The lawful response to a device used for unauthorised use is search and seizure under Clauses 4.33-4.34 (in the person's presence, with a signed seizure list), not disconnection.",
+      "lead_authorities": [],
+      "paras": "13-17"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether unauthorised use in fact occurred and the correctness of the provisional assessment",
+      "note": "Left to the assessment proceedings on the consumer's objections; the Court decided only the disconnection question.",
+      "docid": "",
+      "paras": "20"
+    }
+  ],
+  "authorities": []
+}

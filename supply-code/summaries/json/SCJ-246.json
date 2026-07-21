@@ -1,0 +1,105 @@
+{
+  "case_id": "SCJ-246",
+  "title": "M/s L.M.L. Ltd. v. State of U.P. & Ors.",
+  "neutral_citation": "2009 SCC OnLine All 1157 : (2009) 6 All LJ 537 : (2009) 77 ALR (SUM 57) 26 : 2010 AIHC 480",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Ashok Bhushan, J. & R.A. Singh, J.",
+  "date_of_judgment": "2009-09-18",
+  "date_display": "18 September 2009",
+  "docket": "C.M.W.P. No. 24900 of 2009",
+  "disposition": "Writ petition allowed; the reduction of contracted load from 8 MVA to 1.25 MVA held to have stood approved on 19.4.2006, effective from 1.5.2006",
+  "headnote": "A licensee's decision to reduce a consumer's contracted load, once taken, leaves only ministerial steps, and cannot be undone by later insistence on requirements not demanded at the time. The petitioner (a loss-making two-wheeler manufacturer, notified a 'Relief Undertaking' under the U.P. Industrial Undertaking (Special Provisions for Prevention of Unemployment) Act, 1966, and later a sick unit) applied on 31.3.2006 to reduce load from 8 MVA to 1.25 MVA after a lock-out halted production; the licensee agreed in a signed meeting on 19.4.2006, subject only to ministerial conditions, and the UPERC (8.5.2006) raised no objection. The Court held: (i) the reduction stood approved on 19.4.2006, effective from the first day of the following month (1.5.2006) under Clause 4.41(e); (ii) the relief-undertaking notification under ss.3-4 of the 1966 Act operates as a statutory stay of recovery, satisfying the 'stay by Court/Forum' condition of Clause 4.49; (iii) the unamended Clause 4.49 (which then accepted a bond or any instrument, including an affidavit of undertaking, not only a bank guarantee) governed the 31.3.2006 application, so the later demand for a bank guarantee (based on the 14.9.2006 amendment) was irrelevant; and (iv) no UPERC approval was needed for a licensee's load-reduction decision. Continuing to bill at 8 MVA after a production halt was unjust. This judgment was AFFIRMED by the Supreme Court in Kanpur Electricity Supply Co. Ltd. v. LML Ltd., (2010) 6 SCC 165.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.49",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.49 (unamended, as on 31.3.2005) r/w Clause 4.41(b),(e)",
+      "topic": "Load reduction stood approved on the licensee's decision; unamended Clause 4.49 governs and only ministerial steps remained",
+      "type": "supply_code",
+      "question": "Where the licensee decided to reduce load on a complete application, can it later refuse effect for want of a bank guarantee introduced by a subsequent amendment, and from when does the reduction take effect?",
+      "holding": "No. The load reduction stood approved by the licensee's signed decision of 19.4.2006, at which time no shortcoming in the application or non-compliance with Clauses 4.41/4.49 was pointed out; only ministerial steps remained. The application dated 31.3.2006 was governed by Clause 4.49 as it then stood, which accepted a bond or any instrument (the word 'instrument' being wide enough to include the affidavit of undertaking filed) and not only a bank guarantee; the requirement of a bank guarantee introduced by the 14.9.2006 amendment did not apply, so the later demands for a bank guarantee were of no consequence. No UPERC approval was required for a licensee's load-reduction decision. Under Clause 4.41(e) the reduction takes effect from the first day of the following month, i.e. 1.5.2006.",
+      "limiting_facts": "Lock-out from 7.3.2006 halted production; application of 31.3.2006 to reduce 8 MVA to 1.25 MVA; signed licensee decision on 19.4.2006 subject only to ministerial conditions; UPERC (8.5.2006) raised no objection; bank-guarantee demanded only later (4.10.2006 / 20.3.2007) on the amended Code.",
+      "paras": "9-27"
+    },
+    {
+      "provision": "URUA1966::4",
+      "code": "U.P. Industrial Undertaking (Special Provisions for Prevention of Unemployment) Act, 1966",
+      "clause": "ss.3-4 (relief-undertaking notification) r/w Clause 4.49, Supply Code 2005",
+      "topic": "A relief-undertaking notification operates as a statutory stay of recovery satisfying Clause 4.49",
+      "type": "interplay",
+      "question": "Does a 'Relief Undertaking' notification under ss.3-4 of the 1966 Act satisfy Clause 4.49's condition of a stay of recovery 'by any Court/Forum/Tribunal/Commission' where there is no such stay order?",
+      "holding": "Yes. Under s.4 of the 1966 Act the liabilities of a notified relief undertaking accruing before the relevant date stand suspended while the notification is in force, and all proceedings for their enforcement are stayed. As the petitioner was a notified relief undertaking when it applied (31.3.2006), the recovery of arrears is to be treated as stayed, satisfying the 'stay' condition of Clause 4.49; the respondents' contention that Clause 4.49 was inapplicable for want of a court/forum stay was rejected. The declaration binds all instrumentalities of the State, including the licensee.",
+      "limiting_facts": "Relief-undertaking notification of 24.6.2004 under s.3(1) of the 1966 Act, extended to 23.6.2007, in force when the load-reduction application was made; subsequent BIFR/1985-Act proceedings post-dated the application and were not relied on.",
+      "paras": "13-16, 25"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "sick-unit-protective-treatment",
+      "application": "A loss-making unit notified as a 'Relief Undertaking' cannot be burdened with billing at the pre-reduction load after production has halted; the relief declaration binds the licensee.",
+      "lead_authorities": [],
+      "paras": "24-26"
+    },
+    {
+      "tag": "law-as-of-application-date-governs",
+      "application": "A load-reduction application is governed by the Code as it stood when the application was made (here the unamended Clause 4.49 accepting bond/instrument), not by a later amendment introducing a bank-guarantee requirement.",
+      "lead_authorities": [],
+      "paras": "17, 23"
+    },
+    {
+      "tag": "relief-undertaking-notification-stays-recovery",
+      "application": "A notification under ss.3-4 of the 1966 Act suspends pre-notification liabilities and stays their enforcement, satisfying the stay condition of Clause 4.49.",
+      "lead_authorities": [
+        {
+          "name": "Modern Syntax (I) Ltd. v. Debts Recovery Tribunal, Jaipur",
+          "docid": ""
+        }
+      ],
+      "paras": "13-16"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "The quantum of arrears and the consequences of the subsequent BIFR proceedings",
+      "note": "The arrears dispute abided separate settlement/BIFR proceedings; the BIFR orders post-dated the application and were not gone into.",
+      "docid": "",
+      "paras": "16"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Kanpur Electricity Supply Co. Ltd. v. LML Ltd.",
+      "citation": "(2010) 6 SCC 165",
+      "court": "Supreme Court",
+      "docid": "SCJ-038",
+      "proposition": "Affirmed this judgment: the load reduction stood approved on the licensee's decision and the consumer was entitled to have its load treated as reduced.",
+      "how_treated": "Subsequent history - this High Court judgment was affirmed by the Supreme Court (recorded in the corpus as SCJ-038).",
+      "how_treated_paras": "(headnote)",
+      "cited_by": "Court",
+      "treatment": "Affirmed"
+    },
+    {
+      "name": "Modern Syntax (I) Ltd. v. Debts Recovery Tribunal, Jaipur",
+      "citation": "AIR 2001 Rajasthan 170",
+      "court": "Rajasthan High Court (Division Bench)",
+      "docid": "",
+      "proposition": "The effect of a relief-undertaking notification is that any right, obligation or liability accrued before the undertaking was declared a relief undertaking, and any remedy for its enforcement, stands suspended, and all proceedings related thereto pending before any court/tribunal/authority are stayed during the currency of the notification.",
+      "how_treated": "Relied on to hold that the relief-undertaking notification operated as a stay of recovery satisfying Clause 4.49.",
+      "how_treated_paras": "15-16",
+      "cited_by": "Petitioner",
+      "treatment": "Relied on"
+    },
+    {
+      "name": "K. Sambasivaraju v. M.V.S.R. Chandrayya Chetty",
+      "citation": "AIR 1967 Andhra Pradesh 87",
+      "court": "Andhra Pradesh High Court (Division Bench)",
+      "docid": "",
+      "proposition": "The word 'instrument' (as in s.2(14) of the Stamp Act, 1899) must receive an extensive meaning including an affidavit.",
+      "how_treated": "Relied on to hold that the affidavit of undertaking qualified as an 'instrument' acceptable under the unamended Clause 4.49.",
+      "how_treated_paras": "18-19",
+      "cited_by": "Petitioner",
+      "treatment": "Relied on"
+    }
+  ]
+}

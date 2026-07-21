@@ -1,0 +1,42 @@
+{
+  "case_id": "SCJ-244",
+  "title": "Raj Narayan Singh v. State of U.P. and Others",
+  "neutral_citation": "2013 SCC OnLine All 1445",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sunil Ambwani, J. & Bharat Bhushan, J.",
+  "date_of_judgment": "2013-03-05",
+  "date_display": "5 March 2013",
+  "docket": "Writ - C No. 10253 of 2013",
+  "disposition": "Writ petition disposed of; no right to object to tapping, but licensee may allow tapping only after recording feasibility that the petitioner's supply is unaffected",
+  "headnote": "Clause 3.4 of the U.P. Electricity Supply Code, 2005 (supply through independent feeders, and the conditions for tapping such feeders, including the original consumer's consent) applies only where supply is released through an independent feeder - for Arc/Induction furnaces, Rolling/Re-rolling Mills and mini steel plants of 1000 KVA and above, or (on request, bearing the charges) other loads above 500 KVA. A small consumer running a tube-well on a 2 HP / 2 KW connection, who merely deposited the cost of ordinary lines and a transformer, does not have an independent feeder and acquires no right under Clause 3.4 to object to the licensee tapping that transformer/line to supply another consumer. The Court held Clause 3.4 inapplicable, but observed that tapping should be permitted only if technically feasible and after the licensee records satisfaction that the petitioner's own supply will not be affected.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::3.4",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "3.4",
+      "topic": "Clause 3.4 (independent feeders / consent to tapping) does not protect a small consumer who has no independent feeder",
+      "type": "supply_code",
+      "question": "Can a small tube-well consumer who deposited the cost of ordinary lines and a transformer invoke Clause 3.4 to prevent the licensee from tapping that transformer/line to supply another consumer?",
+      "holding": "No. Clause 3.4 governs supply through independent feeders (Arc/Induction furnaces, Rolling/Re-rolling Mills, mini steel plants of 1000 KVA and above, or other loads above 500 KVA on request) and the conditions for tapping such feeders, including the original consumer's consent. A 2 HP / 2 KW tube-well consumer who merely paid for ordinary lines and a transformer has no independent feeder and no right under Clause 3.4 to object to tapping. Tapping may nonetheless be permitted only if technically feasible and after the licensee records satisfaction that the petitioner's own supply will not be affected.",
+      "limiting_facts": "Petitioner had a 2 KW / 2 HP tube-well connection and had deposited the cost of drawing lines and a transformer, not an independent feeder; respondent no. 5 sought a tube-well connection tapped from the same transformer/line.",
+      "paras": "(pp. 562-564)"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "independent-feeder-original-consumer-consent",
+      "application": "The Clause 3.4 protection (consent of the original consumer before tapping) attaches only to a genuine independent feeder; it does not arise for a small consumer supplied through ordinary lines/transformer.",
+      "lead_authorities": [],
+      "paras": "(pp. 563-564)"
+    },
+    {
+      "tag": "tapping-allowed-if-feasible-and-original-supply-unaffected",
+      "application": "Even absent a right to object, tapping is permissible only where technically feasible and the licensee records that the original consumer's supply is not affected.",
+      "lead_authorities": [],
+      "paras": "(p. 564)"
+    }
+  ],
+  "not_decided": [],
+  "authorities": []
+}

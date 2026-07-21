@@ -1,0 +1,65 @@
+{
+  "case_id": "SCJ-247",
+  "title": "M/s. Citi Hotel v. Commissioner, Lucknow Division, Lucknow & Ors.",
+  "neutral_citation": "2009 SCC OnLine All 346 : AIR 2009 All 137 : (2009) 4 All LJ 741",
+  "court": "Allahabad High Court (Lucknow Bench)",
+  "bench": "Single Judge",
+  "coram": "Rajiv Sharma, J.",
+  "date_of_judgment": "2009-04-06",
+  "date_display": "6 April 2009",
+  "docket": "W.P. No. 1724 (MS) of 2008",
+  "disposition": "Writ petition allowed; the appellate order (18.3.2008) and the theft-assessment order (17.9.2002) quashed; the amounts deposited (Rs. 11,58,109) to be refunded (subject to adjustment of any legal dues), with interest on default",
+  "headnote": "Where a consumer charged with theft of electricity is acquitted after a full criminal trial, Clause 8.2 (sub-clauses (x)(g) and (h)) of the U.P. Electricity Supply Code, 2005 obliges the licensee to withdraw the theft-based assessment in writing and restore the connection through the original meter; an appellate authority that dismisses the consumer's appeal without considering the acquittal and Clause 8.2 acts perversely. The petitioner-hotel was booked for theft (alleged 88.75 KW against a sanctioned 40 KW) and assessed; the criminal court, after trial, acquitted the accused, finding the prosecution had failed to prove theft and that the load used was within the permissible +/-10% limit. The Court held the appellate authority erred in ignoring the acquittal and Clause 8.2; distinguished J.M.D. Alloys (where a police final report, not a trial, ended the criminal matter); and held that the acquittal, coupled with the SDO's load report and absence of any pre-raid dues, meant no civil liability for excess-load use could be sustained either. The impugned orders were quashed and the deposits ordered refunded.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.2",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "8.2 sub-clauses (x)(g) and (h) (r/w s.135, Electricity Act 2003)",
+      "topic": "Acquittal of theft after trial requires withdrawal of the theft assessment and restoration through the original meter",
+      "type": "interplay",
+      "question": "What is the effect of a criminal acquittal (after full trial) on a theft-based assessment, and can an appellate authority ignore it?",
+      "holding": "Under Clause 8.2(x)(g)-(h), the final theft assessment is subject to adjudication by the court, and where the court holds theft not established, the charges and assessment must be withdrawn in writing and the connection restored through the original meter. The appellate authority acted perversely and irrationally in dismissing the appeal without considering the acquittal (which had attained finality) or recording reasons for disagreeing with it, and in ignoring Clause 8.2. As the charge was only theft (not dishonest consumption), no wrongful loss was shown, there were no pre-raid dues, and the SDO's report placed the load within the permissible +/-10%, no civil liability survived either. The appellate order and the theft assessment were quashed and the deposits ordered refunded.",
+      "limiting_facts": "Full criminal trial ending in acquittal (prosecution failed to prove theft; seized cable not found on opening the case property); sanctioned load 40 KW, alleged 88.75 KW; SDO report showed load within +/-10%; no dues before the raid; consumer paid bills after restoration.",
+      "paras": "12-19"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-8.2x-acquittal-requires-withdrawal-of-theft-assessment",
+      "application": "A criminal acquittal of theft after trial obliges the licensee/appellate authority to withdraw the theft assessment and restore supply through the original meter under Clause 8.2(x)(g)-(h).",
+      "lead_authorities": [],
+      "paras": "15-16"
+    },
+    {
+      "tag": "appellate-authority-must-give-reasons-for-disagreeing-with-acquittal",
+      "application": "An appellate authority cannot dismiss the appeal without considering a final criminal acquittal or recording reasons for not agreeing with it; doing so is perverse.",
+      "lead_authorities": [],
+      "paras": "16-17"
+    }
+  ],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "J.M.D. Alloys Ltd. v. Bihar State Electricity Board",
+      "citation": "(2003) 5 SCC 226 : AIR 2003 SC 1354",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Mere acceptance of a police final report by the Magistrate does not amount to a finding by the criminal court that theft of electricity was not committed, where the accused was not summoned, no charge was framed and no evidence recorded.",
+      "how_treated": "Distinguished: here there was a full trial with oral and documentary evidence ending in acquittal, unlike the mere acceptance of a final report in J.M.D. Alloys, so it did not aid the licensee.",
+      "how_treated_paras": "13-14",
+      "cited_by": "Respondent",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "Bhavnagar University v. Palitana Sugar Mills (P) Ltd.",
+      "citation": "(2003) 2 SCC 111 : AIR 2003 SC 511",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "A little difference in facts or additional facts may make a lot of difference in the precedential value of a decision.",
+      "how_treated": "Referred, to explain why J.M.D. Alloys (on materially different facts) was not applicable.",
+      "how_treated_paras": "14",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    }
+  ]
+}
