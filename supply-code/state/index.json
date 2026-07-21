@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 192,
+  "next_seq": 200,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -1150,6 +1150,54 @@
       "case_id": "SCJ-191",
       "source_basename": "040_Arvind_Kumar_v._Paschimanchal_Vidyut_Vitran_Nigam_Limited",
       "title": "Arvind Kumar v. Paschimanchal Vidyut Vitran Nigam Ltd. & Another",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-192",
+      "source_basename": "041_Ram_Prakash_Yadav_v._State_of_U.P.",
+      "title": "Ram Prakash Yadav v. State of U.P. & 3 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-193",
+      "source_basename": "042_Yogendra_Singh_v._Dakshinanchal_Vidyut_Vitaran_Nigam_Ltd.",
+      "title": "Yogendra Singh v. Dakshinanchal Vidyut Vitaran Nigam Ltd. & 3 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-194",
+      "source_basename": "043_Dhyanendra_Singh_v._State_of_U.P.",
+      "title": "Dhyanendra Singh v. State of U.P. & 5 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-195",
+      "source_basename": "044_Bharat_Bhati_v._State_of_U.P.",
+      "title": "Bharat Bhati v. State of U.P. & 2 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-196",
+      "source_basename": "045_Ganga_Dayal_v._State_of_U.P.",
+      "title": "Ganga Dayal v. State of U.P. & 2 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-197",
+      "source_basename": "046_Gaya_Prasad_v._U.P._Power_Corporation_Ltd.",
+      "title": "Gaya Prasad v. U.P. Power Corporation Ltd. & 3 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-198",
+      "source_basename": "047_Mamta_Devi_Srivastava_v._State_of_U.P.",
+      "title": "Smt. Mamta Devi Srivastava v. State of U.P. & 2 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-199",
+      "source_basename": "048_Teena_Sehgal_v._State_of_U.P.",
+      "title": "Teena Sehgal v. State of U.P. & 2 Others",
       "status": "done"
     }
   ]

@@ -1,0 +1,66 @@
+{
+  "case_id": "SCJ-193",
+  "title": "Yogendra Singh v. Dakshinanchal Vidyut Vitaran Nigam Ltd. & 3 Others",
+  "neutral_citation": "2014 SCC OnLine All 12750",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J. & Ashwani Kumar Mishra, J.",
+  "date_of_judgment": "2014-08-05",
+  "date_display": "5 August 2014",
+  "docket": "Writ - C No. 39011 of 2014",
+  "disposition": "Writ petition allowed; demand quashed; fresh Code-compliant assessment directed",
+  "headnote": "A theft/unauthorised-use assessment under the U.P. Electricity Supply Code, 2005 is bad where (i) the licensee cannot show, by any positive reply on the method of service, that the provisional assessment was actually received by the consumer, and (ii) the provisional assessment gives no basis for the amount and the assessing authority has not recorded its satisfaction that the consumer committed theft. In such a case the consumer was not afforded the adequate opportunity to reply and object required by Clause 6.8(b), and the demand and consequential recovery are quashed. Following Ashok Kumar v. State of U.P., the licensee must prepare a fresh provisional assessment, serve it, and pass a final assessment after considering the consumer's objections with reasons.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.8(b) (r/w s.126, Electricity Act 2003)",
+      "topic": "Unproved service + no recorded satisfaction of theft = denial of Clause 6.8(b) opportunity",
+      "type": "supply_code",
+      "question": "Is a theft assessment valid where service of the provisional assessment is not proved and the assessing authority recorded no satisfaction of theft?",
+      "holding": "No. Sending the provisional assessment by registered post, with nothing to show it was received and no positive reply on the method of service, means the consumer was denied the Clause 6.8(b) opportunity to reply and object; further, the provisional assessment gave no basis for the amount and the assessing authority did not record its satisfaction that theft was committed. Treating the unanswered provisional assessment as final and issuing a recovery certificate was therefore illegal; the demand and consequential proceedings are quashed and a fresh Code-compliant assessment (per Ashok Kumar) directed.",
+      "limiting_facts": "Assessment of Rs. 98,142; provisional assessment (notice No. 2349) dated 23.9.2013 sent by registered post, no proof of receipt; treated as final for want of objection and recovery issued.",
+      "paras": "(order)"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.8-hearing-procedure-mandatory-before-uue-conclusion",
+      "application": "A provisional assessment must give the basis of the amount and record the assessing authority's satisfaction of theft, and the consumer must get the Clause 6.8(b) opportunity to reply; absent these the assessment cannot be treated as final.",
+      "lead_authorities": [
+        {
+          "name": "Ashok Kumar v. State of U.P.",
+          "docid": ""
+        }
+      ],
+      "paras": "(order)"
+    },
+    {
+      "tag": "assessment-service-must-be-proved-else-non-receipt-presumed",
+      "application": "Without a positive reply on the method of service, the provisional assessment is presumed not received and the consumer is treated as denied his opportunity to object.",
+      "lead_authorities": [],
+      "paras": "(order)"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether theft occurred and the quantum",
+      "note": "Left to the fresh assessment; the merits were not decided.",
+      "docid": "",
+      "paras": "(order)"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008 (6) ADJ 660",
+      "court": "Allahabad High Court (Division Bench)",
+      "docid": "",
+      "proposition": "Paras 56-64 set out the Code 2005 procedure to be followed for a theft assessment - recording of satisfaction, a proper provisional assessment, opportunity and a reasoned final order.",
+      "how_treated": "Followed; the fresh assessment was directed to conform to it. (Digested in the corpus as SCJ-158.)",
+      "how_treated_paras": "(order)",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}

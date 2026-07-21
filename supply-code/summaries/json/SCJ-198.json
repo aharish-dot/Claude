@@ -1,0 +1,49 @@
+{
+  "case_id": "SCJ-198",
+  "title": "Smt. Mamta Devi Srivastava v. State of U.P. & 2 Others",
+  "neutral_citation": "2014 SCC OnLine All 3942",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Vineet Saran, J. & Attau Rahman Masoodi, J.",
+  "date_of_judgment": "2014-03-13",
+  "date_display": "13 March 2014",
+  "docket": "Writ - C No. 13585 of 2014",
+  "disposition": "Writ petition dismissed",
+  "headnote": "The two-year limitation bar in Section 56(2) of the Electricity Act, 2003 does not apply to the regular current bills of a continuing consumer who is being supplied electricity. Where the consumer's line had been reconnected/re-energised and she thereafter paid nothing for years while continuing to receive supply, a demand for those accrued charges is not a belated demand of the kind barred by s.56(2) (which addresses sums first shown as due after long delay, on pain of disconnection) but non-payment of ongoing bills. Whether bills were in fact sent is a disputed question of fact not decidable in writ jurisdiction, and the consumer has an alternative remedy under Clause 6.5 of the U.P. Electricity Supply Code, 2005; the Court declined to exercise Article 226 jurisdiction in favour of a gross defaulter and dismissed the petition.",
+  "holding_units": [
+    {
+      "provision": "EA2003::56(2)",
+      "code": "Electricity Act, 2003",
+      "clause": "56(2)",
+      "topic": "The s.56(2) two-year bar does not apply to a continuing consumer's regular current bills",
+      "type": "interplay",
+      "question": "Does the s.56(2) two-year limitation bar the recovery of accrued charges from a consumer who continued to be supplied electricity but did not pay?",
+      "holding": "No. The s.56(2) bar does not apply where it is not a case of a belated demand after disconnection but of non-payment of regular bills by a continuing consumer being supplied electricity; the consumer, having paid nothing since re-energisation while consuming, cannot invoke the 12/24-month bar. Whether bills were sent is a disputed fact not for writ jurisdiction, and the remedy lies under Clause 6.5; the Court declined Article 226 relief to a gross defaulter.",
+      "limiting_facts": "Line reconnected in 2009 (respondents) or 2011 (petitioner); the consumer admittedly paid nothing since re-energisation while continuing to receive supply; demand of Rs. 1,29,558 for bills up to December 2013.",
+      "paras": "(order)"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "s56(2)-bar-does-not-apply-to-continuing-regular-bills",
+      "application": "The s.56(2) limitation protects against belated first demands, not the ongoing accrued bills of a continuing consumer still being supplied; a gross defaulter who paid nothing while consuming cannot invoke it.",
+      "lead_authorities": [],
+      "paras": "(order)"
+    },
+    {
+      "tag": "relegate-to-statutory-remedy",
+      "application": "A dispute about whether bills were sent is a disputed fact for the Clause 6.5 remedy, not the writ court.",
+      "lead_authorities": [],
+      "paras": "(order)"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether regular bills were in fact served on the consumer",
+      "note": "Disputed question of fact not decided in writ jurisdiction; left to the Clause 6.5 remedy.",
+      "docid": "",
+      "paras": "(order)"
+    }
+  ],
+  "authorities": []
+}
