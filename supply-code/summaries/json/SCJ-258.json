@@ -1,0 +1,78 @@
+{
+  "case_id": "SCJ-258",
+  "title": "Executive Engineer, Electricity Urban Distribution Division IInd v. Electricity Ombudsman, Lucknow & Ors.",
+  "neutral_citation": "2010 SCC OnLine All 2611 : (2010) 6 All LJ 446",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sunil Ambwani, J. & Kashi Nath Pandey, J.",
+  "date_of_judgment": "2010-08-23",
+  "date_display": "23 August 2010",
+  "docket": "Civil Misc. Writ Petition No. 47592 of 2010",
+  "disposition": "Writ petition dismissed; the Electricity Ombudsman's award (upholding the CGRF's directions) sustained",
+  "headnote": "Two holdings. (i) Under Clause 4.6(a) of the U.P. Electricity Supply Code, 2005 a sanctioned estimate is valid for three months and, the applicant having completed all formalities and deposited the estimate, the connection must be drawn/metered within the stipulated period; the department's own delay and a consequent re-demarcation of the area cannot justify shifting the consumer to a different (costlier) feeder or demanding a fresh estimate (proviso 4.6(g): estimates sanctioned before a revision of charges are not to be charged in excess). The Ombudsman rightly directed connection to the tube well on the old estimate from the urban feeder, billed under rate schedule LMV-5.3(b). (ii) The scope of interference with an Electricity Ombudsman's award is limited: the award has the flavour of an arbitral award and is challengeable only on grounds akin to Section 34 of the Arbitration and Conciliation Act, 1996 (jurisdictional error, breach of natural justice, violation of the Act/Code/Rules/rate schedule, fraud, or conflict with public policy) - reiterating Purvanchal Vidyut Vitran Nigam Ltd. v. Vidyut Lokpal. No such ground being made out, the writ was dismissed.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.6",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.6(a) and proviso 4.6(g)",
+      "topic": "Departmental delay cannot shift the consumer to a costlier feeder or a fresh estimate; connection on the old estimate",
+      "type": "supply_code",
+      "question": "Where the department delays energising a sanctioned, fully-paid connection and the area is later re-demarcated, can it require a fresh (higher) estimate and a different feeder?",
+      "holding": "No. The estimate is valid for three months (Clause 4.6(a)) and the connection ought to have been drawn and metered within the stipulated period after the applicant completed formalities and deposited the amount; the department's own delay and the consequential change of area cannot authorise it to change the feeder or demand a fresh estimate. Proviso 4.6(g) bars charging estimates in excess where they were sanctioned before a revision of charges. The Ombudsman rightly directed connection to the tube well on the old estimate from the urban feeder (no restriction in the Code against supplying a private tube well from an urban feeder), billed under rate schedule LMV-5.3(b).",
+      "limiting_facts": "Connection sanctioned and estimate (Rs. 48,575) deposited in 2007; department failed to draw the line for years; area re-demarcated; department offered a fresh estimate from a farther rural feeder.",
+      "paras": "9-11"
+    },
+    {
+      "provision": "EA2003::42",
+      "code": "Electricity Act, 2003",
+      "clause": "s.42(6) (r/w UPERC CGRF & Electricity Ombudsman Regulations 2004/2007; s.34, Arbitration and Conciliation Act 1996)",
+      "topic": "Limited scope of judicial interference with an Electricity Ombudsman's award",
+      "type": "interplay",
+      "question": "On what grounds may the High Court interfere with an award of the Electricity Ombudsman?",
+      "holding": "Only on limited grounds. The Ombudsman (appointed under s.42(6) and the Regulations) resolves grievances by conciliation/mediation or, failing that, by an award that has the flavour of an arbitral award; it is challengeable only on grounds akin to Section 34 of the Arbitration and Conciliation Act, 1996 - jurisdictional error, breach of natural justice, violation of an express provision of the Act/Code/Rules/rate schedule, fraud, or conflict with public policy - reiterating Purvanchal Vidyut Vitran Nigam Ltd. v. Vidyut Lokpal. As none of these grounds was made out, the writ was dismissed.",
+      "limiting_facts": "EE challenged the Ombudsman's award only on the merits of the feeder/estimate direction, raising no jurisdictional, natural-justice, fraud or public-policy ground.",
+      "paras": "12-16 (and reiteration at 13-15)"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "estimate-departmental-delay-cannot-shift-feeder-or-force-fresh-estimate",
+      "application": "A sanctioned, fully-paid estimate must be honoured; the department's delay cannot be used to move the consumer to a costlier feeder or demand a fresh estimate (Clause 4.6(a)/(g)).",
+      "lead_authorities": [],
+      "paras": "9-11"
+    },
+    {
+      "tag": "ombudsman-award-challengeable-only-on-s34-arbitration-grounds",
+      "application": "An Electricity Ombudsman's award is akin to an arbitral award and may be interfered with only on grounds similar to s.34 of the Arbitration and Conciliation Act, 1996.",
+      "lead_authorities": [
+        {"name": "Purvanchal Vidyut Vitran Nigam Ltd. v. Vidyut Lokpal (Electricity Ombudsman)", "docid": "SCJ-260"}
+      ],
+      "paras": "12-15"
+    }
+  ],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "Purvanchal Vidyut Vitran Nigam Ltd. v. Vidyut Lokpal (Electricity Ombudsman)",
+      "citation": "2008 (5) ALJ 683 : AIR 2008 All 127",
+      "court": "Allahabad High Court (Division Bench)",
+      "docid": "SCJ-260",
+      "proposition": "An Electricity Ombudsman's award (where conciliation/mediation fails) is akin to an arbitral award and challengeable only on limited grounds similar to s.34 of the Arbitration and Conciliation Act, 1996; a settlement by conciliation is challengeable only for want of jurisdiction or fraud.",
+      "how_treated": "Reiterated and followed on the limited scope of interference with an Ombudsman's award.",
+      "how_treated_paras": "12-15",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Durga Hotel Complex v. Reserve Bank of India",
+      "citation": "(2007) 5 SCC 120 : AIR 2007 SC 1467",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "On the nature and role of an Ombudsman and the scope of interference with its decisions.",
+      "how_treated": "Referred in explaining the office and function of the Electricity Ombudsman.",
+      "how_treated_paras": "13",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    }
+  ]
+}

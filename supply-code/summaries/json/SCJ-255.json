@@ -1,0 +1,102 @@
+{
+  "case_id": "SCJ-255",
+  "title": "M/s. Suvidha Engineers India Ltd. v. Paschimanchal Vidyut Vitran Nigam Ltd. & Ors.",
+  "neutral_citation": "2009 SCC OnLine All 1773 : (2010) 1 All LJ 35",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Ashok Bhushan, J. & R.A. Singh, J.",
+  "date_of_judgment": "2009-10-15",
+  "date_display": "15 October 2009",
+  "docket": "C.M.W.P. Nos. 30363 with 32562 of 2009",
+  "disposition": "Both writ petitions dismissed; the challenge to the vires of Clause 4.49 refused, with liberty to represent on the quantum of the bank guarantee",
+  "headnote": "Clause 4.49 of the U.P. Electricity Supply Code, 2005 - which requires a bank guarantee for a stayed dues/assessment amount as a condition of releasing enhanced load - is intra vires and constitutional. The Supply Code specified under Section 50 of the Electricity Act, 2003 is not confined to the subjects enumerated in Section 50; it is a compilation of regulations traceable to Section 181(2)(p)-(x) and the general power in Section 181(1), and 'supply' in Section 86(1) is read liberally to include ancillary measures for protecting/preserving revenue. Clause 4.49 is a protective provision (not a recovery mechanism), and the petitioner's grounds fail: it does not offend Section 127(2) (which concerns the pre-deposit for an appeal), nor Section 56(2) (the two-year bar does not apply since the amount is under stay, which presupposes it is recoverable), nor the power of judicial review (the bank guarantee arises only because the consumer sought load enhancement, and does not override the court's stay - Cauvery, S.S. Bola and Indian Aluminium distinguished). The petitions were dismissed, with liberty to represent on the bank-guarantee quantum. (Companion to Tehri Girders (SCJ-252), decided by the same Bench, which held additional security is not 'dues' under Clause 4.49.)",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.49",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.49 (r/w Clause 4.43(a)(iv))",
+      "topic": "Clause 4.49 is intra vires - a protective provision, not a recovery mechanism; does not offend s.127(2), s.56(2) or judicial review",
+      "type": "supply_code",
+      "question": "Is Clause 4.49 (bank guarantee for a stayed dues amount as a condition of load enhancement) ultra vires the Electricity Act, 2003 or an interference with judicial review?",
+      "holding": "No. Clause 4.49 is intra vires. It is a protective provision to insulate the licensee against apprehended future loss, triggered only because the consumer applied for enhancement of load; it neither enforces recovery of the stayed amount nor overrides the court's stay, so it does not abridge judicial review (Cauvery, S.S. Bola, Indian Aluminium distinguished). It does not violate Section 127(2) (which governs the one-third pre-deposit for an assessment appeal), nor Section 56(2) (the two-year recovery bar is inapplicable, since a stay of recovery presupposes a recoverable amount). The vires challenge was refused and the petitions dismissed, with liberty to represent on the bank-guarantee quantum.",
+      "limiting_facts": "Theft assessment (1999) stayed by an interim order (14.7.2000) on a Rs. 4,00,000 deposit; on the consumer's later load-enhancement application (97 to 150 KVA) the licensee demanded a bank guarantee of Rs. 23,17,038 under Clause 4.49; assessment writ still pending.",
+      "paras": "10-32, 37-42"
+    },
+    {
+      "provision": "EA2003::50",
+      "code": "Electricity Act, 2003",
+      "clause": "s.50 (r/w s.181(1),(2) and s.86(1))",
+      "topic": "The Supply Code is not confined to s.50's subjects; it is regulation-making under s.181 and s.86(1) 'supply'",
+      "type": "interplay",
+      "question": "Is the Supply Code (and hence Clause 4.49) confined to the subjects enumerated in Section 50, so that fiscal/protective provisions fall outside it?",
+      "holding": "No. The Supply Code specified under Section 50 is a compilation of regulations traceable to Section 181(2)(p)-(x) and the general power in Section 181(1); the headings, marginal notes and Statement of Objects confirm this. 'Supply' in Section 86(1) is read liberally to include ancillary measures for protecting/preserving revenue, and the power to legislate on a substantive topic subsumes ancillary matters. The Code is therefore not confined to Section 50's enumerated subjects, and Clause 4.49 is within the Commission's regulation-making power.",
+      "limiting_facts": "Vires challenge premised on Section 50 being exhaustive and the Section 181(2) heads standing on a higher pedestal; rejected.",
+      "paras": "11-28"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-4.49-intra-vires-protective-not-recovery",
+      "application": "Clause 4.49 is a valid protective provision (bank guarantee for a stayed amount as a condition of load enhancement), not a recovery mechanism, and is intra vires the Act.",
+      "lead_authorities": [],
+      "paras": "37-38"
+    },
+    {
+      "tag": "supply-code-not-confined-to-s50-subjects-s181-rulemaking",
+      "application": "The Supply Code is regulation-making under s.181 (and s.86(1) 'supply'), not limited to the subjects listed in s.50; fiscal/protective provisions are within power.",
+      "lead_authorities": [],
+      "paras": "17-28"
+    },
+    {
+      "tag": "protective-condition-on-load-enhancement-does-not-override-court-stay",
+      "application": "A bank-guarantee condition that operates only because the consumer voluntarily sought enhanced load does not nullify or override the court's stay of the underlying assessment.",
+      "lead_authorities": [
+        {"name": "Cauvery Water Disputes Tribunal, In re", "docid": ""}
+      ],
+      "paras": "33-37"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "The correctness/quantum of the bank guarantee of Rs. 23,17,038 (alleged inflated)",
+      "note": "Liberty given to represent before the Executive Engineer, to be decided within three weeks; the underlying assessment writ remained pending.",
+      "docid": "",
+      "paras": "39-41"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Cauvery Water Disputes Tribunal, In re",
+      "citation": "1993 Supp (1) SCC 96(2) : AIR 1992 SC 22",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "A legislature may remove the basis of a court's decision but cannot direct the instrumentalities of the State to disobey or disregard a court's decision.",
+      "how_treated": "Distinguished: Clause 4.49 does not affect the consequence of the court's interim stay, the bank guarantee arising only from the consumer's own load-enhancement application.",
+      "how_treated_paras": "33-34",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "S.S. Bola v. B.D. Sardana",
+      "citation": "(1997) 8 SCC 522 : AIR 1997 SC 3127",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "A legislature cannot directly override a judicial decision but, under its plenary powers, may enact a law fundamentally altering the provisions that were the basis of the decision; judicial review is a basic feature.",
+      "how_treated": "Distinguished: no provision here affects the interim order or abridges judicial review.",
+      "how_treated_paras": "35-36",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "Indian Aluminium Co. v. State of Kerala",
+      "citation": "(1996) 7 SCC 637 : AIR 1996 SC 1431",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "The legislature cannot by mere declaration overrule a judicial decision, but may render it ineffective by validly altering the law fundamentally and retrospectively.",
+      "how_treated": "Distinguished: the tests for a validating act do not arise, Clause 4.49 being a protective provision unconnected with overriding any decision.",
+      "how_treated_paras": "37",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished"
+    }
+  ]
+}

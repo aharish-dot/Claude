@@ -1,0 +1,49 @@
+{
+  "case_id": "SCJ-256",
+  "title": "Suresh Chand Bansal v. Electricity Ombudsman & Others",
+  "neutral_citation": "2014 SCC OnLine All 13588",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Ram Surat Ram (Maurya), J.",
+  "date_of_judgment": "2014-08-22",
+  "date_display": "22 August 2014",
+  "docket": "Misc. Single No. 4512 of 2014",
+  "disposition": "Writ petition dismissed; the Ombudsman's order holding the CGRF without jurisdiction over accident-related property loss upheld",
+  "headnote": "The Consumer Grievance Redressal Forum has no jurisdiction to award compensation for loss to property caused by an accident in transmission lines, and a person is not a 'consumer' qua transmission lines. Overhead 11,000-volt transmission lines passing over the petitioner's house fell in the rains, sending current through his connection and destroying appliances/causing a fire. His CGRF compensation award (Rs. 89,572) was set aside by the Electricity Ombudsman. Held: transmission lines are, by definition (Section 2(72) of the Electricity Act, 2003), not an essential part of a licensee's distribution system, so the petitioner is not a 'consumer' (Section 2(15)) in respect of them; the CGRF's jurisdiction under Section 42 r/w Section 181 and the UPERC (CGRF & Electricity Ombudsman) Regulation 2007 (cl. 2.1(e) / cl. 5) covers defects/deficiency in supply, billing and tariff, not loss to public property from a transmission-line accident (which engages the Section 161 accident-inquiry mechanism, itself confined to human/animal life). The Ombudsman committed no illegality; the writ was dismissed.",
+  "holding_units": [
+    {
+      "provision": "EA2003::42",
+      "code": "Electricity Act, 2003",
+      "clause": "s.42 (r/w s.181, s.2(15), s.2(72), s.161) and UPERC (CGRF & Electricity Ombudsman) Regulation 2007, cl. 2.1(e)/5",
+      "topic": "CGRF has no jurisdiction over compensation for property loss from a transmission-line accident; claimant not a 'consumer' qua transmission lines",
+      "type": "interplay",
+      "question": "Can the CGRF award compensation for loss to property caused by an accident in transmission lines, and is the affected person a 'consumer' in that respect?",
+      "holding": "No. Transmission lines are, by Section 2(72), not an essential part of a licensee's distribution system, so the affected person is not a 'consumer' (Section 2(15)) qua those lines - the presence of a transformer tapped off the line does not alter this. The CGRF's jurisdiction under Section 42 r/w Section 181 and the 2007 Regulation (cl. 2.1(e)/cl. 5) is confined to defects/deficiency in supply, billing and tariff, and does not extend to loss of public property from a transmission-line accident; the Section 161 accident-inquiry mechanism concerns loss to human/animal life, not property. The Ombudsman rightly held the CGRF without jurisdiction and set aside its compensation award.",
+      "limiting_facts": "11,000-volt overhead transmission lines over the petitioner's house fell in the rains, destroying appliances and causing a fire; CGRF had awarded Rs. 89,572 compensation.",
+      "paras": "6-11"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "cgrf-no-jurisdiction-over-transmission-line-accident-property-loss",
+      "application": "The CGRF cannot award compensation for property loss from a transmission-line accident; its jurisdiction covers supply/billing/tariff grievances, not accident-related property damage.",
+      "lead_authorities": [],
+      "paras": "8-10"
+    },
+    {
+      "tag": "not-a-consumer-qua-transmission-lines-s2(72)",
+      "application": "Transmission lines are not part of a licensee's distribution system (s.2(72)), so a person affected by a transmission-line accident is not a 'consumer' (s.2(15)) for that purpose.",
+      "lead_authorities": [],
+      "paras": "8"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Any other remedy the petitioner may have for the property loss",
+      "note": "The Court decided only the CGRF's lack of jurisdiction; it did not address alternative remedies for the accident loss.",
+      "docid": "",
+      "paras": "10-12"
+    }
+  ],
+  "authorities": []
+}

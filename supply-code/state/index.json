@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 255,
+  "next_seq": 259,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -1528,6 +1528,30 @@
       "case_id": "SCJ-254",
       "source_basename": "103_Chandrapal_v._Dakshinanchal_Vidyut_Vitran_Nigam_Ltd.",
       "title": "Chandrapal v. Dakshinanchal Vidyut Vitran Nigam Ltd. & 4 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-255",
+      "source_basename": "104_Suvidha_Engineers_India_Ltd._v._Paschimanchal_Vidyut_Vitran_Nigam_Ltd.",
+      "title": "M/s. Suvidha Engineers India Ltd. v. Paschimanchal Vidyut Vitran Nigam Ltd. & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-256",
+      "source_basename": "105_Suresh_Chand_Bansal_v._Electricity_Ombudsman",
+      "title": "Suresh Chand Bansal v. Electricity Ombudsman & Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-257",
+      "source_basename": "106_Bhajan_Lal_v._Executive_Engineer_Electricity_Distribution_Khand-1",
+      "title": "Bhajan Lal and Anr. v. Executive Engineer, Electricity Distribution Khand-1, U.P. and Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-258",
+      "source_basename": "107_Executive_Engineer_Electricity_Urban_Distribution_Division_IInd_v._Electricity_O",
+      "title": "Executive Engineer, Electricity Urban Distribution Division IInd v. Electricity Ombudsman, Lucknow & Ors.",
       "status": "done"
     }
   ]
