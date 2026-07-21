@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 152,
+  "next_seq": 154,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -910,6 +910,18 @@
       "case_id": "SCJ-151",
       "source_basename": "Western Elect.Sup.Co.Of Orissa Ld. vs MS Baba Baijanath Roller & Flour Mil.Ld on 26 March, 2014",
       "title": "Western Electricity Supply Co. of Orissa Ltd. & Ors. v. M/s Baba Baijanath Roller and Flour Mill Pvt. Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-152",
+      "source_basename": "001_U.P._State_Cement_Corpn._Ltd._In_re",
+      "title": "U.P. State Cement Corporation Ltd. (In Liquidation), In re",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-153",
+      "source_basename": "002_Mohd._Sagir_v._Dakshinanchal_Vidyut_Vitran_Nigam_Ltd.",
+      "title": "Mohd. Sagir v. Dakshinanchal Vidyut Vitran Nigam Ltd. & Ors.",
       "status": "done"
     }
   ]

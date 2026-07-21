@@ -1,0 +1,152 @@
+{
+  "case_id": "SCJ-152",
+  "title": "U.P. State Cement Corporation Ltd. (In Liquidation), In re",
+  "neutral_citation": "2007 SCC OnLine All 2528",
+  "court": "Allahabad High Court (Company Court)",
+  "bench": "Single Judge",
+  "coram": "Sunil Ambwani, J.",
+  "date_of_judgment": "2007-04-27",
+  "date_display": "27 April 2007",
+  "docket": "Misc. Company Application No. 4 of 1997 (with connected appeals/objections)",
+  "disposition": "Objections/appeals to the Official Liquidator's report partly allowed; electricity dues re-fixed",
+  "headnote": "In the winding up of U.P. State Cement Corporation Ltd., electricity supplied by the U.P. Power Corporation to the company's residential colonies AFTER the winding-up order, under the Company Court's directions for the welfare of unpaid workmen and to preserve the assets, is a 'liquidation expense' under Section 457 of the Companies Act, 1956, to be borne by the Official Liquidator ahead of distribution — it is neither a secured debt ranking pari passu with workmen and secured creditors under Sections 529/529-A, nor an ordinary preferential claim under Section 530, and the proviso to Section 529(2) is not attracted. Only the actual bills are admitted: late payment surcharge (a statutory tariff levy under Clause 6.7 of the U.P. Electricity Supply Code, 2005 and Rate Schedule LMV-2) is disallowed because the Official Liquidator, having no funds until the assets were realised, could not be treated as a defaulter. Pre-winding-up dues are not liquidation expenses and abide the Section 529-A pari passu rule (and the State's waiver scheme). Following Textile Labour Association, a writ of mandamus or Article 142 direction to supply cannot override the substantive priority scheme of Sections 529 and 529-A.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.7",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.7",
+      "topic": "Late payment surcharge — not leviable on a Liquidator who had no funds and was not a defaulter",
+      "type": "supply_code",
+      "question": "Can late payment surcharge under Clause 6.7 of the Supply Code and Rate Schedule LMV-2 be recovered from the Official Liquidator on bills for court-ordered electricity supply during liquidation?",
+      "holding": "No. Late payment surcharge is part of the statutory tariff, but it presupposes a defaulting consumer. The Official Liquidator had no money in the company's account until the assets were realised and could raise no dispute, so there was no default or wilful non-payment by the OL or the Court. The actual bills (in the supplementary affidavit) are admitted to proof, but the large late-payment-surcharge component is excluded.",
+      "limiting_facts": "Supply was maintained only under Court orders in an extraordinary situation; the OL was funded solely from the eventual sale proceeds; a component of the bills was raised arbitrarily on single-point meters not regularly read.",
+      "paras": "125-127"
+    },
+    {
+      "provision": "CA1956::457",
+      "code": "Companies Act, 1956",
+      "clause": "457 (r/w Rule 338, Companies (Court) Rules, 1959)",
+      "topic": "Court-ordered post-winding-up electricity supply as a liquidation expense",
+      "type": "interplay",
+      "holding": "Electricity supplied to the workmen's residential colonies after the winding-up order, under the Court's directions to prevent hardship and to preserve the assets for a smooth sale, was 'absolutely essential for effective liquidation' and is a liquidation expense to be borne by the Official Liquidator, along with security, valuation and claims-committee costs. It is not a secured debt ranking pari passu with workmen and secured creditors, and the proviso to Section 529(2) is not attracted (the supplier is not a secured creditor realising its own security).",
+      "qualifier": "Only post-winding-up, court-ordered supply qualifies; pre-winding-up dues are ordinary claims (and abide the State's waiver scheme), not liquidation expenses.",
+      "paras": "115, 119-122",
+      "flag": "The judgment is primarily a Companies Act winding-up distribution order among workmen, secured creditors, Government, EPF and unsecured creditors; only the U.P. Power Corporation electricity-dues question (paras 111-127) is digested for the supply-code corpus."
+    },
+    {
+      "provision": "CA1956::529A",
+      "code": "Companies Act, 1956",
+      "clause": "529-A (r/w ss.529, 530)",
+      "topic": "Priority ceiling on an electricity supplier's dues in liquidation",
+      "type": "interplay",
+      "holding": "Section 529-A makes workmen's dues and secured creditors' debts rank pari passu and overrides preferential claims under Section 530 and all other claims; a writ of mandamus or an Article 142 direction to continue supply cannot override these substantive statutory provisions. An electricity supplier therefore obtains no preference over workmen and secured creditors except to the extent its post-winding-up, court-ordered dues qualify as liquidation expenses.",
+      "paras": "116, 121",
+      "flag": "Textile Labour Association distinguished on facts (gas supply ordered before winding up; ONGC an unsecured creditor) but its Section 529-A ratio applied to cap the U.P. Power Corporation's claim."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "lps-not-leviable-absent-consumer-default",
+      "application": "Late payment surcharge under Clause 6.7 / the rate schedule cannot be charged where the payer was not a defaulter — here an Official Liquidator with no funds until realisation of assets, supplying under court order; actual bills admitted, surcharge disallowed.",
+      "lead_authorities": [],
+      "paras": "125-127"
+    },
+    {
+      "tag": "electricity-dues-not-automatically-a-secured-interest",
+      "application": "An electricity supplier's dues in a winding up do not rank pari passu with workmen and secured creditors under ss.529/529-A; only post-winding-up, court-ordered supply is recoverable — and only as a liquidation expense under s.457, not as a secured debt.",
+      "lead_authorities": [
+        {
+          "name": "Textile Labour Association v. Official Liquidator",
+          "docid": ""
+        }
+      ],
+      "paras": "116, 119-122"
+    },
+    {
+      "tag": "mandamus-cannot-override-statutory-distribution-scheme",
+      "application": "A writ of mandamus or an Article 142 direction to supply/continue supply cannot displace the substantive priority scheme of ss.529, 529-A and 530; residuary powers are supplementary, not a means to ignore statute.",
+      "lead_authorities": [
+        {
+          "name": "Textile Labour Association v. Official Liquidator",
+          "docid": ""
+        },
+        {
+          "name": "Supreme Court Bar Association v. Union of India",
+          "docid": ""
+        }
+      ],
+      "paras": "116"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Workmen's complaints about the supply itself",
+      "note": "Workmen alleged supply was limited to a few hours a day, that many unauthorised connections and illegally-operating stone crushers drew from the same supply in connivance with corporation officials. The Court expressly declined to take cognizance, holding it was not the appropriate stage.",
+      "docid": "",
+      "paras": "127"
+    },
+    {
+      "point": "Correctness of pre-winding-up dues and the exact waiver figure",
+      "note": "The State's MOU announced a waiver of Rs. 110.10 crore; the Corporation asserted the actual waiver was Rs. 76.40 crore (industrial dues only, not domestic). These pre-winding-up amounts, held not to be liquidation expenses, were left to be worked out on the ordinary Section 529-A footing.",
+      "docid": "",
+      "paras": "122"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Textile Labour Association v. Official Liquidator",
+      "citation": "(2004) 9 SCC 741",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "By operation of ss.529 and 529-A, workmen become secured creditors (or unsecured preferential creditors, absent a contractual secured creditor) and their dues rank pari passu with secured creditors, overriding s.530 and all other claims; a mandamus (or Article 142 power) cannot ignore substantive statutory provisions, so a supplier's dues must still be worked out under ss.529/529-A.",
+      "how_treated": "Distinguished on facts (there, gas supply was ordered before winding up and ONGC was an unsecured creditor) but its ratio on ss.529/529-A applied to hold that the U.P. Power Corporation's claim cannot rank above workmen and secured creditors.",
+      "how_treated_paras": "116, 121",
+      "cited_by": "Respondent",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "Supreme Court Bar Association v. Union of India",
+      "citation": "(1998) 4 SCC 409",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "The Supreme Court's power under Article 142 cannot be used to ignore substantive statutory provisions; it is a residuary power, supplementary and complementary to powers conferred by statute, to do complete justice.",
+      "how_treated": "Relied on within the Textile Labour Association extract to reject the contention that a mandamus prevails over the statutory distribution scheme.",
+      "how_treated_paras": "116",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    },
+    {
+      "name": "UCO Bank v. Official Liquidator",
+      "citation": "",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Section 529-A overrides all other claims of creditors even where a decree has been passed by a court.",
+      "how_treated": "Noticed within the Textile Labour Association extract as authority that s.529-A prevails over other claims.",
+      "how_treated_paras": "116",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    },
+    {
+      "name": "Wonder Jupiterchit, In re",
+      "citation": "1992 (74) CC 215 (Kerala)",
+      "court": "Kerala High Court",
+      "docid": "",
+      "proposition": "Cited by a secured creditor on the scope of expenses recoverable from the liquidation estate.",
+      "how_treated": "Held not applicable to the facts of the case.",
+      "how_treated_paras": "121",
+      "cited_by": "Respondent",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "RPJ Mineral Pvt. Ltd. v. S.K. Saxena, Official Liquidator",
+      "citation": "SLP (Civil) No. 19132 of 2006",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Interim order (9-2-2007) that no money be disbursed during the pendency of the special leave petition arising out of these liquidation proceedings.",
+      "how_treated": "Noted as binding on disbursement; the OL may adjudicate the proofs of debt per this judgment but must not disburse pending the Supreme Court's orders.",
+      "how_treated_paras": "127, 203",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    }
+  ]
+}

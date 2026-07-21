@@ -1,0 +1,171 @@
+{
+  "case_id": "SCJ-153",
+  "title": "Mohd. Sagir v. Dakshinanchal Vidyut Vitran Nigam Ltd. & Ors.",
+  "neutral_citation": "2014 SCC OnLine All 8462",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Ashok Bhushan, J. & Ranjana Pandya, J. (delivered by Ashok Bhushan, J.)",
+  "date_of_judgment": "2014-05-30",
+  "date_display": "30 May 2014",
+  "docket": "Writ - C No. 55384 of 2009",
+  "disposition": "Writ petition disposed of; final assessment order set aside; matter remitted",
+  "headnote": "A tampered meter is a 'defective meter' within Clause 5.6 of the U.P. Electricity Supply Code, 2005: the marginal heading 'Defective Meters' cannot cut down the substantive right in Clause 5.6(a) to test 'any meter', and Clause 5.6 read with Clause 5.9 (which speaks of a meter 'rendered defective due to tampering') shows tampering falls within the same testing machinery. Consequently the mandatory procedure of Clause 5.6(c)(iii) applies even in a theft/tampering case: once the meter is removed and sealed, the licensee must apprise the consumer of, and let him exercise, his option to have it tested at the licensee's lab, an independent lab or by the Electrical Inspector 'as agreed by consumer'; failure to offer that option renders the testing and the assessment built on it illegal, and no waiver can be inferred against a consumer who was never told of the right. Independently, a final assessment under Section 126(3) of the Electricity Act, 2003 passed without a reasonable opportunity of hearing — refusing the consumer any time to object and never deciding his pending objection, before the statutory one-month period had even run — violates natural justice and is void; and the availability of a Section 127 appeal is no bar to writ relief in such a case.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::5.6",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "5.6",
+      "topic": "Whether the 'Defective Meters' heading confines Clause 5.6 to non-tampered meters",
+      "type": "supply_code",
+      "question": "Does Clause 5.6 (headed 'Defective Meters') apply where the licensee alleges the meter was tampered, or is it limited to meters that are merely inaccurate/defective?",
+      "holding": "Clause 5.6 applies to tampered meters too. The heading cannot control the clear substantive provision: Clause 5.6(a) gives the licensee the right to test 'any meter' on reasonable doubt, and Clause 5.9(b)(ii) expressly treats a meter 'rendered defective due to tampering or any other deliberate act' within the same scheme. Read together, a tampered meter is a defective meter for Clause 5.6; the licensee's contention that Clause 5.6 was not attracted is incorrect.",
+      "limiting_facts": "Meter removed from the premises on 16/8/2009 and sent for lab testing; on testing (3/9/2009) foreign wires, remote control and sensing device were found inside, and an FIR under ss.135/150 followed; the licensee argued 5.6(c) governs only 'defective', not 'tampered', meters."
+    },
+    {
+      "provision": "UP-2005::5.6(c)(iii)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "5.6(c)(iii)",
+      "topic": "Consumer's option on the venue of meter testing; illegality of testing without it",
+      "type": "supply_code",
+      "question": "Where a sealed meter is sent for testing, must the licensee inform the consumer of, and obtain, his agreement to the testing venue (licensee's lab / independent lab / Electrical Inspector) before testing?",
+      "holding": "Yes. Clause 5.6(c)(iii) requires the meter, after sealing in the consumer's presence, to be tested 'at licensee's lab/Independent lab/Electrical Inspector, as agreed by consumer', the option once exercised not to be changed and the resulting report to be final. The licensee has a corresponding duty to apprise the consumer of this right; failure to offer the option renders the sealing and testing irregular and illegal, and vitiates the assessment built upon it.",
+      "qualifier": "The clause operates harshly against the consumer and is to be construed strictly."
+    },
+    {
+      "provision": "EA2003::126(3)",
+      "code": "Electricity Act, 2003",
+      "clause": "126(3)",
+      "topic": "Reasonable opportunity of hearing before a final assessment",
+      "type": "interplay",
+      "holding": "A final assessment order passed without affording a reasonable opportunity of hearing violates s.126(3) and natural justice and is liable to be set aside on that ground alone. Here the consumer's objection of 11/9/2009 was never decided, his request on 29/9/2009 for time (even short of the 15 days sought) was refused, and the one-month period contemplated by s.126(3) had not expired when the final order of 30/9/2009 was passed.",
+      "limiting_facts": "Consumer's proprietor was abroad; his manager twice sought a later date; a writ challenging the meter testing was pending; yet the assessing officer finalised in haste."
+    },
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act, 2003",
+      "clause": "127",
+      "topic": "Alternative statutory appeal as a bar to writ jurisdiction",
+      "type": "interplay",
+      "holding": "The existence of a s.127 appeal against a s.126 final assessment does not bar a writ petition where the order is assailed for violation of natural justice; the rule of exhaustion is one of policy and discretion, not law. The Court also declined to relegate the petitioner because the writ had been entertained, an interim order passed, and it had been pending for about five years.",
+      "paras": ""
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-heading-not-a-limit-on-substantive-scope",
+      "application": "The 'Defective Meters' marginal heading of Clause 5.6 does not confine the clause to non-tampered meters; the substantive words ('any meter' in 5.6(a); 'rendered defective due to tampering' in 5.9) govern, so tampering falls within the Clause 5.6 testing machinery.",
+      "lead_authorities": [],
+      "paras": ""
+    },
+    {
+      "tag": "opportunity-before-final-assessment",
+      "application": "A s.126(3) final assessment made without deciding the consumer's objection and without allowing even minimal time to be heard — and before the statutory one-month window closed — is void for breach of natural justice; set aside on that ground alone.",
+      "lead_authorities": [],
+      "paras": ""
+    },
+    {
+      "tag": "whirlpool-exceptions-to-alternative-remedy-bar",
+      "application": "A s.127 appeal is no bar to a writ where the assessment is challenged for violation of natural justice; alternative remedy is a rule of discretion, not an absolute bar (fundamental rights, natural justice, want of jurisdiction, vires).",
+      "lead_authorities": [
+        {
+          "name": "Whirlpool Corporation v. Registrar of Trade Marks, Mumbai",
+          "docid": ""
+        }
+      ],
+      "paras": "15-21"
+    },
+    {
+      "tag": "waiver-requires-full-knowledge-of-right",
+      "application": "A consumer who was never informed of the Clause 5.6(c)(iii) testing option cannot be deemed to have waived it; waiver is an intentional act done with full knowledge of the right, and there is no presumption that everyone knows the law.",
+      "lead_authorities": [
+        {
+          "name": "M/s Moti Lal Padampat Sugar Mills Ltd. v. State of U.P.",
+          "docid": ""
+        }
+      ],
+      "paras": "9"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether assessment for 365 days was justified",
+      "note": "The petitioner argued that, the meter having been inspected on 28/4/2009 with nothing found wrong, no period prior to that date could be assessed. Having set aside the order on other grounds, the Court left this open for the fresh assessment / objection.",
+      "docid": "",
+      "paras": ""
+    },
+    {
+      "point": "Vires of Office Order dated 19/6/2009 constituting the meter-testing committee",
+      "note": "Challenged as ultra vires the Code, 2005; the Court held it needed no consideration in this petition and left it open for an appropriate case.",
+      "docid": "",
+      "paras": ""
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Smt. Amrawati Devi v. Purvanchal Vidyut Vitran Nigam Ltd.",
+      "citation": "2009 (1) ADJ 430",
+      "court": "Allahabad High Court (Division Bench)",
+      "docid": "",
+      "proposition": "Clause 5.6(c)(iii) requires the licensee to apprise the consumer of, and obtain his agreement to, the testing venue (licensee's lab / independent lab / Electrical Inspector) before a sealed meter is tested; the clause operates harshly and is construed strictly, and failure to give a bold, printed notice of the option renders the proceedings illegal.",
+      "how_treated": "Followed and applied; the Court held the law it lays down fully supports the petitioner. Noted that the licensee's SLP against Amrawati Devi was dismissed by the Supreme Court on 3/8/2009.",
+      "how_treated_paras": "6-11",
+      "cited_by": "Petitioner",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Whirlpool Corporation v. Registrar of Trade Marks, Mumbai",
+      "citation": "(1998) 8 SCC 1",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Alternative statutory remedy does not bar a writ under Article 226 in at least three contingencies — enforcement of fundamental rights, violation of natural justice, or an order wholly without jurisdiction / where the vires of an Act is challenged; exhaustion is a rule of policy, convenience and discretion, not of law.",
+      "how_treated": "Relied on and quoted (paras 15-21) to entertain the writ despite the s.127 appeal, the order being challenged for breach of natural justice.",
+      "how_treated_paras": "15-21",
+      "cited_by": "Court",
+      "treatment": "Relied on"
+    },
+    {
+      "name": "M/s Moti Lal Padampat Sugar Mills Ltd. v. State of U.P.",
+      "citation": "AIR 1979 SC 621",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Waiver means the intentional abandonment of a right and must be made with full knowledge of the right; there is no presumption that every person knows the law, so a right cannot be treated as waived without knowledge of it.",
+      "how_treated": "Quoted within the Amrawati Devi extract and relied on: absent intimation of the Clause 5.6(c)(iii) option, the consumer cannot be deemed to have waived it.",
+      "how_treated_paras": "6 (quoting SC para 6)",
+      "cited_by": "Court",
+      "treatment": "Relied on"
+    },
+    {
+      "name": "State of U.P. v. Mohd. Nooh",
+      "citation": "AIR 1958 SC 86",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "The rule requiring exhaustion of statutory remedies before a writ is one of policy, convenience and discretion, not of law; certiorari has issued despite the availability of other adequate legal remedies.",
+      "how_treated": "Noticed within the quoted Whirlpool extract as part of the catena on the alternative-remedy rule.",
+      "how_treated_paras": "17",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    },
+    {
+      "name": "A.V. Venkateswaran, Collector of Customs v. Ramchand Sobhraj Wadhwani",
+      "citation": "AIR 1961 SC 1506",
+      "court": "Supreme Court (Constitution Bench)",
+      "docid": "",
+      "proposition": "The exceptions to the alternative-remedy rule are not exhaustive; a discretion vests in the High Court to entertain a petition and grant relief notwithstanding an adequate alternative remedy.",
+      "how_treated": "Noticed within the quoted Whirlpool extract.",
+      "how_treated_paras": "18",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    },
+    {
+      "name": "Calcutta Discount Co. Ltd. v. Income Tax Officer, Companies Distt. I",
+      "citation": "AIR 1961 SC 372",
+      "court": "Supreme Court (Constitution Bench)",
+      "docid": "",
+      "proposition": "Where an executive authority acts without jurisdiction and thereby subjects a person to lengthy proceedings and harassment, the High Court may issue prohibition/certiorari notwithstanding the executive character of the act.",
+      "how_treated": "Noticed within the quoted Whirlpool extract.",
+      "how_treated_paras": "19",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    }
+  ]
+}
