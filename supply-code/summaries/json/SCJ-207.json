@@ -1,0 +1,63 @@
+{
+  "case_id": "SCJ-207",
+  "title": "Executive Engineer, Distribution Division & Anr. v. Pacific Promoter",
+  "neutral_citation": "2017 SCC OnLine All 3167",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Sunita Agarwal, J.",
+  "date_of_judgment": "2017-07-20",
+  "date_display": "20 July 2017",
+  "docket": "Matters Under Article 227 No. 4085 of 2017",
+  "disposition": "Petition allowed; civil suit dismissed as barred by s.145; plaint rejected",
+  "headnote": "The jurisdiction of the civil court is expressly barred by Section 145 of the Electricity Act, 2003 in respect of matters that are, or could be, the subject of an assessment under Section 126 (unauthorised use, including excess load) with an appeal under Section 127. The Electricity Act is a special, complete Code: civil liability for unauthorised use is imposed only through a s.126 assessment (appealable under s.127), while theft under Section 135 is triable by Special Courts constituted under Section 153; the Supply Code, 2005 (Chapters 6 and 8) supplies the full procedure. A civil suit seeking a declaration that a checking report and the consequent assessment (of an excess-load demand from 24.5 KW to 51.9 KW) are illegal and void is therefore barred, and Section 9 CPC excludes the civil court's jurisdiction. The plea of lack of jurisdiction can be raised at any stage; the suit (pending about ten years) was dismissed as barred by s.145 and the plaint rejected. The contrary view of the Punjab and Haryana High Court in Punjab State Electricity Board v. Guru Nanak Agriculture Engineering Works was respectfully disagreed with.",
+  "holding_units": [
+    {
+      "provision": "EA2003::145",
+      "code": "Electricity Act, 2003",
+      "clause": "145 (r/w s.9 CPC; ss.126/127)",
+      "topic": "Civil court's jurisdiction barred for a s.126 assessment dispute",
+      "type": "interplay",
+      "question": "Can a civil court entertain a suit challenging a s.126 assessment (excess-load demand) as illegal and void?",
+      "holding": "No. Section 145 expressly bars the civil court's jurisdiction over matters of assessment under ss.126/127; civil liability for unauthorised use is imposed only through a s.126 assessment (appealable under s.127), and s.9 CPC excludes the civil court where jurisdiction is so barred. A suit for a declaration that the checking report and the consequent assessment are illegal/void is barred; the plaint is rejected and the suit dismissed. The plea of lack of jurisdiction can be raised at any stage, even after long pendency.",
+      "limiting_facts": "Suit (OS 58/2009) for injunction/declaration against a s.126 assessment dated 21.8.2007 arising from inclusion of excess load (24.5 KW to 51.9 KW) and the demand thereon; pending about ten years.",
+      "paras": "7-9, 12-13"
+    },
+    {
+      "provision": "EA2003::153",
+      "code": "Electricity Act, 2003",
+      "clause": "153 (r/w s.135)",
+      "topic": "Theft (s.135) is triable by Special Courts; civil liability via s.126 assessment",
+      "type": "interplay",
+      "holding": "Theft of electricity under s.135 is a criminal offence triable by Special Courts constituted under s.153, the procedure being in s.154 read with Clauses 8.1-8.5 of the Code; civil liability for unauthorised use is separately imposed through a s.126 assessment (Chapter 6 of the Code). The Act is a complete Code covering both aspects, leaving no room for a civil suit on the assessment.",
+      "paras": "6-8"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "civil-court-barred-s145-for-s126-assessment",
+      "application": "Section 145 bars the civil court from entertaining a suit challenging a s.126 assessment; the Electricity Act is a complete Code and s.9 CPC excludes such jurisdiction.",
+      "lead_authorities": [],
+      "paras": "7-9"
+    },
+    {
+      "tag": "plea-of-jurisdiction-can-be-raised-at-any-stage",
+      "application": "A plea that the civil court lacks jurisdiction (here under s.145) can be raised at any stage of the proceedings, even after years, since every court must satisfy itself of its jurisdiction.",
+      "lead_authorities": [],
+      "paras": "12"
+    }
+  ],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "Punjab State Electricity Board v. Guru Nanak Agriculture Engineering Works",
+      "citation": "AIR 2007 P&H 57",
+      "court": "Punjab and Haryana High Court",
+      "docid": "",
+      "proposition": "Relied on by the plaintiff for the proposition that the civil court's jurisdiction is not barred in such an electricity dispute.",
+      "how_treated": "Respectfully disagreed with; the Court held the civil court's jurisdiction is barred by s.145.",
+      "how_treated_paras": "10-11",
+      "cited_by": "Respondent",
+      "treatment": "Doubted"
+    }
+  ]
+}

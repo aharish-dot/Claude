@@ -1,0 +1,36 @@
+{
+  "case_id": "SCJ-201",
+  "title": "Smt. Madhu Rani Agrawal v. State of U.P. & 5 Others",
+  "neutral_citation": "2014 SCC OnLine All 229",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Amreshwar Pratap Sahi, J. & Anil Kumar Agarwal, J.",
+  "date_of_judgment": "2014-01-07",
+  "date_display": "7 January 2014",
+  "docket": "Writ - C No. 526 of 2014",
+  "disposition": "Writ petition dismissed",
+  "headnote": "A consumer cannot insist on supplying and installing the equipment (transformer, poles, etc.) for a new electricity connection herself. Under the regulations and the Cost Data Book, where installation is to be made up to 500 metres from the pole/connection the entire installation work is done by the Electricity Department itself (beyond that, charges are levied or the consumer may be allowed to install at her own expense). Clause 4.6 of the U.P. Electricity Supply Code, 2005 provides that the estimate for release of a new connection includes the charges of laying the line, distribution mains, material and system-loading charges — which covers the installation of poles and transformer. The Department is therefore obliged to carry out the installation and the consumer is obliged to pay for it; the plea to self-install (installation being within 500 metres) had no merit.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.6",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.6 (r/w Cost Data Book; installation within 500 m)",
+      "topic": "Licensee performs the installation (within 500 m); consumer cannot self-supply equipment",
+      "type": "supply_code",
+      "question": "Can a consumer insist on providing and installing the transformer/poles for a new connection instead of the Department?",
+      "holding": "No. Under the regulations and the Cost Data Book, installation up to 500 metres from the pole is done by the Department; and Clause 4.6 provides that the new-connection estimate includes the charges of laying the line, distribution mains, material and system-loading charges, which covers poles and transformer. The Department is obliged to carry out the installation and the consumer to pay for it; the plea to self-install (the installation being within 500 metres) fails.",
+      "limiting_facts": "New connection with installation admittedly within 500 metres; consumer wished to supply a 'better quality' transformer and poles herself.",
+      "paras": "(order)"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "licensee-performs-installation-consumer-cannot-self-supply",
+      "application": "Installation of new-connection infrastructure (within 500 m) is done by the licensee, whose estimate under Clause 4.6 includes laying-line/mains/material charges; the consumer pays but cannot insist on supplying/installing the equipment himself.",
+      "lead_authorities": [],
+      "paras": "(order)"
+    }
+  ],
+  "not_decided": [],
+  "authorities": []
+}

@@ -1,0 +1,52 @@
+{
+  "case_id": "SCJ-204",
+  "title": "M/s Shri Radhey Iron (Pvt.) Ltd. v. State of U.P. & 2 Others",
+  "neutral_citation": "2013 SCC OnLine All 12387",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Ashok Bhushan, J. & Vipin Sinha, J.",
+  "date_of_judgment": "2013-12-17",
+  "date_display": "17 December 2013",
+  "docket": "Writ - C No. 64376 of 2013",
+  "disposition": "Writ petition allowed; electricity duty already realised to be adjusted; supply restored",
+  "headnote": "A new industrial unit entitled to a ten-year exemption from electricity duty (under a notification dated 21.1.2010 issued under Section 3(4) of the U.P. Electricity Duty Act, 1952) had electricity duty realised from it for October 2011 to May 2013 (Rs. 66,81,010) despite the exemption operating from the date supply was released (9.10.2011). That realisation was an excess/unauthorised recovery for which the unit had no liability, and it had to be adjusted against the current bill (dated 2.11.2013, Rs. 52,93,258); the licensee could not defer the adjustment to future bills against the consumer's wishes or disconnect for non-payment of a bill fully covered by the amount already lying with it. Clause 6.12 of the U.P. Electricity Supply Code, 2005 (order of application of amounts received) governs the appropriation of a consumer's bill payment and did not apply to adjusting duty already realised. Writ allowed; the licensee directed to adjust the bill against the duty realised and restore supply.",
+  "holding_units": [
+    {
+      "provision": "UPEDA1952::3(4)",
+      "code": "U.P. Electricity Duty Act, 1952",
+      "clause": "3(4) (exemption notification dated 21.1.2010)",
+      "topic": "Electricity duty realised during an exemption period is an excess realisation to be adjusted",
+      "type": "interplay",
+      "question": "Where duty was realised from an exempt new unit, must the licensee adjust it against the current bill, or may it defer the adjustment?",
+      "holding": "The duty of Rs. 66,81,010 realised for October 2011 to May 2013 was an excess/unauthorised realisation, the unit being exempt from 9.10.2011; the licensee must adjust it against the bill dated 2.11.2013 (which is smaller than the amount already realised) rather than defer the adjustment to future bills, and could not disconnect for non-payment of that bill. Non-adjustment and disconnection were arbitrary and unsustainable.",
+      "limiting_facts": "New unit set up after the 21.1.2010 exemption notification; exemption accepted w.e.f. 9.10.2011 for ten years; duty realised Oct 2011-May 2013; supply disconnected on 23.11.2013 for non-payment of the Oct 2013 bill.",
+      "paras": "(judgment)"
+    },
+    {
+      "provision": "UP-2005::6.12",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.12",
+      "topic": "Clause 6.12 governs appropriation of a consumer's bill payment, not adjustment of duty already realised",
+      "type": "supply_code",
+      "question": "Does Clause 6.12 (order of application of amounts received) dictate the manner of adjusting duty already realised from the consumer?",
+      "holding": "No. Clause 6.12 applies to the appropriation of a payment made by the consumer (arrear, then current charges, then miscellaneous, with duty/LPS in proportion); it does not govern the adjustment claimed here, which is of duty already realised from the consumer, and cannot be used to defer that adjustment.",
+      "paras": "(judgment, quoting Clause 6.12)"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "excess-duty-realised-must-be-adjusted-against-current-bill",
+      "application": "Electricity duty realised during an exemption period is an excess recovery that must be adjusted against the consumer's current bill; the licensee cannot defer the adjustment or disconnect for a bill covered by the amount already held.",
+      "lead_authorities": [],
+      "paras": "(judgment)"
+    },
+    {
+      "tag": "clause-6.12-governs-bill-payment-appropriation-not-duty-refund",
+      "application": "Clause 6.12's order of application applies to appropriating a consumer's bill payment, not to adjusting duty/amounts already realised from the consumer.",
+      "lead_authorities": [],
+      "paras": "(judgment)"
+    }
+  ],
+  "not_decided": [],
+  "authorities": []
+}

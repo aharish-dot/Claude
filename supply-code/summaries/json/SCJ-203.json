@@ -1,0 +1,44 @@
+{
+  "case_id": "SCJ-203",
+  "title": "M/s Madhuvan Properties (P) Ltd. v. Pashchimanchal Vidyut Vitran Nigam Ltd. & Another",
+  "neutral_citation": "2016 SCC OnLine All 1150",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Tarun Agarwala, J. & Siddhartha Varma, J.",
+  "date_of_judgment": "2016-12-22",
+  "date_display": "22 December 2016",
+  "docket": "Writ - C No. 60839 of 2016",
+  "disposition": "Interim order — partial deposit, restoration of supply, balance recovery stayed",
+  "headnote": "Interim order. A slow/defective-meter demand is governed by Clause 5.6 of the U.P. Electricity Supply Code, 2005: the meter must be tested in the consumer's presence (which prima facie was not done here), the consumer must be given an opportunity to object, and under Clause 5.6(c)(ii) the difference of energy consumed can be charged only for the previous three months (with an option to pay in instalments). Where the department, on an MRI test finding the meter running slow (recording only 50%), demanded about Rs. 1.03 crore for nearly four years (3.11.2012 to 15.09.2016), the Court found prima facie that recovery for more than two-and-a-half years could not be done, and, as interim relief, directed restoration of supply on a Rs. 15 lakh deposit with the balance not to be recovered pending the petition.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::5.6",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "5.6 / 5.6(c)(ii)",
+      "topic": "Slow-meter difference chargeable only for the previous three months; testing in consumer's presence",
+      "type": "supply_code",
+      "question": "(Interim) Can a slow-meter demand cover nearly four years, and without testing in the consumer's presence?",
+      "holding": "Prima facie, no. Clause 5.6 requires the meter to be tested in the consumer's presence with an opportunity to object, and Clause 5.6(c)(ii) permits charging the difference of energy consumed only for the previous three months (with an instalment option). A demand for more than two-and-a-half years could not be made; as interim relief, restoration of supply was ordered on a Rs. 15 lakh deposit, the balance not to be recovered pending the petition.",
+      "limiting_facts": "Carbonized meter; MRI showed it running slow, recording only 50%; demand of Rs. 1,03,69,390 for 3.11.2012 to 15.9.2016; supply disconnected after the writ was filed.",
+      "paras": "5-6, 9",
+      "flag": "Interim order only; final view reserved after counter affidavit."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "slow-meter-difference-only-three-months-clause-5.6cii",
+      "application": "Under Clause 5.6(c)(ii) the difference for a slow/defective meter is chargeable only for the previous three months, and testing must be in the consumer's presence with an opportunity to object; a multi-year slow-meter demand cannot stand.",
+      "lead_authorities": [],
+      "paras": "5-6"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Final validity and quantum of the slow-meter demand",
+      "note": "Only interim protection was granted; the correctness of the demand awaits the counter affidavit and final hearing.",
+      "docid": "",
+      "paras": "6-9"
+    }
+  ],
+  "authorities": []
+}

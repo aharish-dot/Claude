@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 200,
+  "next_seq": 208,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -1198,6 +1198,54 @@
       "case_id": "SCJ-199",
       "source_basename": "048_Teena_Sehgal_v._State_of_U.P.",
       "title": "Teena Sehgal v. State of U.P. & 2 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-200",
+      "source_basename": "049_Ram_Padarath_Gupta_v._U.P._Power_Corporation_Ltd.",
+      "title": "Ram Padarath Gupta v. U.P. Power Corporation Ltd. & 4 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-201",
+      "source_basename": "050_Madhu_Rani_Agrawal_v._State_of_U.P.",
+      "title": "Smt. Madhu Rani Agrawal v. State of U.P. & 5 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-202",
+      "source_basename": "051_Gautam_Motors_P_Ltd._v._U.P._Power_Corpn._Ltd.",
+      "title": "Shri Gautam Motors Pvt. Ltd. v. U.P. Power Corporation Ltd. & Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-203",
+      "source_basename": "052_Madhuvan_Properties_P_Ltd._v._Pashchimanchal_Vidyut_Vitran_Nigam_Limited",
+      "title": "M/s Madhuvan Properties (P) Ltd. v. Pashchimanchal Vidyut Vitran Nigam Ltd. & Another",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-204",
+      "source_basename": "053_Shri_Radhey_Iron_Pvt._Ltd._v._State_of_U.P.",
+      "title": "M/s Shri Radhey Iron (Pvt.) Ltd. v. State of U.P. & 2 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-205",
+      "source_basename": "054_Mahboob_Ahmad_v._Commissioner",
+      "title": "Mahboob Ahmad v. Commissioner, Moradabad & Another",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-206",
+      "source_basename": "055_Urmila_Devi_v._Dakshinanchal_Vidyut_Vitran_Nigam_Ltd.",
+      "title": "Smt. Urmila Devi v. Dakshinanchal Vidyut Vitran Nigam Ltd. & 3 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-207",
+      "source_basename": "056_Executive_Engineer_Distribution_Division_v._Pacific_Promoter",
+      "title": "Executive Engineer, Distribution Division & Anr. v. Pacific Promoter",
       "status": "done"
     }
   ]
