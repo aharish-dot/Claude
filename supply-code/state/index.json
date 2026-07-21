@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 224,
+  "next_seq": 232,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -1342,6 +1342,54 @@
       "case_id": "SCJ-223",
       "source_basename": "072_Virendra_Kumar_Mittal_v._U.P._Power_Corporation_Ltd.",
       "title": "Virendra Kumar Mittal v. U.P. Power Corporation Ltd. & 2 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-224",
+      "source_basename": "073_Moolchand_Saini_v._State_of_U.P.",
+      "title": "Moolchand Saini v. State of U.P. through Secretary, Power Corporation & Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-225",
+      "source_basename": "074_Raman_Ispat_Pvt._Ltd._v._Pashchimanchal_Vidyut_Vitran_Nigam_Ltd.",
+      "title": "Raman Ispat (Pvt.) Ltd. & Anr. v. Pashchimanchal Vidyut Vitran Nigam Ltd. & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-226",
+      "source_basename": "075_Shree_Radhey_Ice_Factory_v._State_of_U.P.",
+      "title": "M/s Shree Radhey Ice Factory v. State of U.P. & 4 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-227",
+      "source_basename": "076_Vijay_Pal_Singh_v._Dakshinanchal_Vidyut_Vitran_Nigam_Ltd.",
+      "title": "Vijay Pal Singh & Another v. Dakshinanchal Vidyut Vitran Nigam Ltd. and Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-228",
+      "source_basename": "077_Vijay_Pal_Singh_v._Dakshinanchal_Vidyut_Vitran_Nigam_Ltd.",
+      "title": "Vijay Pal Singh v. Dakshinanchal Vidyut Vitran Nigam Ltd. and Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-229",
+      "source_basename": "078_Soni_Dwivedi_v._Madhyanchal_Vidyut_Vitran_Nigam_Ltd.",
+      "title": "Smt. Soni Dwivedi v. Madhyanchal Vidyut Vitran Nigam Ltd. thru. its Chairman & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-230",
+      "source_basename": "079_KPB_Metals_P_Ltd._v._State_of_U.P.",
+      "title": "KPB Metals Private Limited v. State of U.P. and Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-231",
+      "source_basename": "080_Vineet_Plastics_Ltd._v._Purvanchal_Vidyut_Vitran_Nigam_Ltd.",
+      "title": "Vineet Plastics Ltd. v. Purvanchal Vidyut Vitran Nigam Ltd. and Another",
       "status": "done"
     }
   ]

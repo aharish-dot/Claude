@@ -1,0 +1,49 @@
+{
+  "case_id": "SCJ-227",
+  "title": "Vijay Pal Singh & Another v. Dakshinanchal Vidyut Vitran Nigam Ltd. and Others",
+  "neutral_citation": "2010 SCC OnLine All 4452",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Vijay Manohar Sahai, J. & Raj Mani Chauhan, J.",
+  "date_of_judgment": "2010-03-29",
+  "date_display": "29 March 2010",
+  "docket": "Writ - C No. 60987 of 2005",
+  "disposition": "Writ petition allowed; theft assessment order dated 5.7.2005 quashed on condition that the petitioner pays 1.5 times (not three times) the applicable tariff",
+  "headnote": "The three-times-tariff theft assessment prescribed by the (unamended) U.P. Electricity Supply Code, 2005 was ultra vires Section 126(6) of the Electricity Act, 2003, which caps assessment at 1.5 times the applicable tariff. Section 174 of the Act gives it overriding effect, and the Code, being subordinate legislation framed under the Act, cannot travel beyond it. On a theft detected on checking (4.5.2005), the licensee assessed Rs. 6,94,203 at three times the tariff under Clause 8.2(iv) r/w Annexure 6.3(c) of the Code, whereas Clause 6.8(c)(iv)(a) itself echoed the Act's 1.5 times rate. The Court held the three-times rate contrary to Section 126(6), quashed the assessment (5.7.2005), and directed the petitioner to pay 1.5 times the tariff instead. (The Commission's 3rd amendment dated 14.9.2006 later brought the Code into line at 1.5 times; the point was decided on the pre-amendment position governing the petitioner.)",
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.2",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "8.2(iv) r/w Annexure 6.3(c) (against s.126(6), Electricity Act 2003; s.174 overriding effect)",
+      "topic": "Code's three-times theft-assessment rate is ultra vires the Act's 1.5-times cap under s.126(6)",
+      "type": "interplay",
+      "question": "Can the Code prescribe a theft assessment at three times the applicable tariff when Section 126(6) of the Electricity Act, 2003 provides for assessment at one-and-a-half times?",
+      "holding": "No. Section 126(6) caps the assessment at 1.5 times the applicable tariff; by virtue of Section 174 the Act overrides, and the Code, being subordinate legislation framed under the Act, cannot travel beyond it. The three-times rate in Clause 8.2(iv) r/w Annexure 6.3(c) was ultra vires and contrary to Section 126(6). The theft assessment (5.7.2005) was quashed with a direction that the petitioner pay only 1.5 times the tariff applicable on the date of checking (4.5.2005).",
+      "limiting_facts": "Checking on 4.5.2005 (pre-amendment Code); theft detected (meter bypassed by cable); assessment demanded at three times under the then-existing Clause 8.2(iv); Code's own Clause 6.8(c)(iv)(a) already stated the 1.5-times rate.",
+      "paras": "(pp. 515-517)"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "uue-assessment-at-1.5x-tariff-not-thrice",
+      "application": "Section 126(6) fixes assessment at 1.5 times the tariff; a Code provision assessing theft/UUE at three times is ultra vires and cannot be enforced.",
+      "lead_authorities": [],
+      "paras": "(pp. 516-517)"
+    },
+    {
+      "tag": "supply-code-regulation-cannot-exceed-parent-act-s174-overriding",
+      "application": "The Supply Code is subordinate legislation framed under the Electricity Act; by s.174 the Act overrides and the Code cannot travel beyond the Act's assessment limits.",
+      "lead_authorities": [],
+      "paras": "(pp. 516-517)"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Effect of the U.P. Electricity Regulatory Commission's failure to amend Clause 8.1(b)(iv) to match the 15.6.2007 amendment of s.126(6) (which raised the rate to two times)",
+      "note": "Expressly left open; the petitioner's case was governed by the pre-amendment position (checking on 4.5.2005), so only 1.5 times was payable.",
+      "docid": "",
+      "paras": "(pp. 516-517)"
+    }
+  ],
+  "authorities": []
+}

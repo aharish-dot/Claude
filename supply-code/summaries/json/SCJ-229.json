@@ -1,0 +1,54 @@
+{
+  "case_id": "SCJ-229",
+  "title": "Smt. Soni Dwivedi v. Madhyanchal Vidyut Vitran Nigam Ltd. thru. its Chairman & Ors.",
+  "neutral_citation": "2016 SCC OnLine All 1675",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Narayan Shukla, J. & Anant Kumar, J.",
+  "date_of_judgment": "2016-07-19",
+  "date_display": "19 July 2016",
+  "docket": "Misc. Bench No. 16565 of 2016",
+  "disposition": "Writ petition dismissed",
+  "headnote": "A new electricity connection to a purchaser of premises may lawfully be refused until the arrears standing against the erstwhile owner/occupier of those premises are cleared. Clause 4.1 of the U.P. Electricity Supply Code, 2005 obliges the licensee to supply on application, but its third and further provisos provide that where arrears exist on premises whose ownership has changed, a new connection shall be released to the new owner only on a No-Dues Certificate under Clause 4.3(f), and that a new connection shall not be released to a new applicant on the same premises while arrears subsist. The purchaser's reliance on Isha Marbles was rejected: that decision arose under the Electricity Act, 1910 read with the Bihar and Orissa Public Demands Recovery Act, 1914 (auction-purchaser context), whereas here the 2005 Code governs the field and makes clearing the previous dues a condition precedent to a new connection. The petitioner's remedy is to enforce the sale deed against the seller; her liability to the department for a new connection is not absolved. Writ dismissed.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.1",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.1 (third and further provisos) r/w 4.3(f)",
+      "topic": "Clearing the premises' arrears is a condition precedent to a new connection to a purchaser of the premises",
+      "type": "supply_code",
+      "question": "Can a new connection to a purchaser of premises be refused for arrears standing against the erstwhile owner of those premises?",
+      "holding": "Yes. Though Clause 4.1 obliges the licensee to supply on application, its provisos provide that where ownership of premises has changed and arrears subsist, a new connection is released to the new owner only on a No-Dues Certificate under Clause 4.3(f), and shall not be released to a new applicant on the same premises while arrears remain. The 2005 Code governs the field and makes clearing the previous dues a condition precedent to a new connection; the purchaser's liability to the department is not absolved by a sale-deed clause casting the dues on the seller (which she may enforce against the seller). The refusal was upheld and the writ dismissed.",
+      "limiting_facts": "Purchaser bought the house 'free from all encumbrances' with a sale-deed clause fixing dues on the seller; connection application refused for the erstwhile owner/occupier's dues; new connection (not a mere transfer) sought.",
+      "paras": "4-10"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "arrears-follow-premises-not-person-fresh-connection-vs-transfer",
+      "application": "A new connection to a purchaser of premises may be conditioned on clearing the previous consumer's arrears on those premises; a sale-deed clause shifting dues to the seller does not absolve the purchaser vis-a-vis the licensee.",
+      "lead_authorities": [],
+      "paras": "8-9"
+    },
+    {
+      "tag": "arrears-run-with-the-premises",
+      "application": "Clause 4.1's provisos read with Clause 4.3(f) make a No-Dues Certificate / clearance of the premises' arrears a condition precedent to a new connection on the same premises.",
+      "lead_authorities": [],
+      "paras": "4-8"
+    }
+  ],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "Isha Marbles v. Bihar State Electricity Board",
+      "citation": "(1995) 2 SCC 648",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "It is impossible to impose on the (auction-)purchaser a liability which was not incurred by them; an auction-purchaser is not a consumer/occupier under the Electricity Act, 1910 and the previous contracting party's liability cannot be enforced against such a third party.",
+      "how_treated": "Distinguished: it arose under the Electricity Act, 1910 r/w the Bihar and Orissa Public Demands Recovery Act, 1914 (auction-purchaser context), whereas the 2005 Code governs the present field and makes clearing prior dues a condition precedent to a new connection.",
+      "how_treated_paras": "7-9",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished"
+    }
+  ]
+}
