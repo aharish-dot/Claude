@@ -15,10 +15,13 @@ def treat_cls(x): return TREAT.get((x or '').strip().lower(),'t-ref')
 def cb_cls(x): return CB.get((x or '').strip().lower(),'cb-court')
 
 def court_group(c):
+    # Detect High Court / Allahabad BEFORE Supreme Court: an HC decision whose
+    # SLP was dismissed/affirmed by the SC is still an HC authority. Only a
+    # judgment actually *delivered* by the Supreme Court belongs in group 0.
     c=(c or '').lower()
-    if 'supreme' in c: return 0
     if 'allahabad' in c: return 1
     if 'high court' in c or ' hc' in c or '(hc' in c: return 2
+    if 'supreme' in c: return 0
     return 3
 GNAMES={0:'Supreme Court of India',1:'Allahabad High Court',2:'Other High Courts',
         3:'Statutes, Tribunals, Treatises & Other'}
