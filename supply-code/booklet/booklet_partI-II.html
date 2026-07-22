@@ -1,0 +1,515 @@
+<style>
+@page{ size:A4; margin:20mm 20mm 18mm; }
+:root{ --navy:#0f2f4c; --navy2:#12405f; --blue:#2f6f9f; --ink:#1d2430; --grey:#5b6b7b; --line:#d0dbe6; }
+*{ box-sizing:border-box; }
+body{ font-family:'Georgia','Liberation Serif',serif; color:var(--ink); font-size:10.6pt; line-height:1.62; }
+h1,h2,h3,h4,.kick,.rh,.chip,.tag,.meta,.masterhead th,.abbr b{ font-family:'Arial','Liberation Sans',sans-serif; }
+
+/* ---- cover ---- */
+.cover{ height:257mm; display:flex; flex-direction:column; justify-content:center; text-align:center;
+  page-break-after:always; }
+.cover .crest{ font-size:8.5pt; letter-spacing:.42em; text-transform:uppercase; color:var(--blue); margin-bottom:20pt; }
+.cover h1{ font-family:'Georgia',serif; font-size:31pt; line-height:1.16; color:var(--navy); margin:0 0 6pt; letter-spacing:.3pt; }
+.cover .yr{ font-size:15pt; color:#39566f; font-style:italic; }
+.cover .sub{ font-size:12.5pt; color:#33475b; margin-top:16pt; font-style:italic; }
+.cover .barwrap{ margin:26pt auto 22pt; width:58%; }
+.cover .bar{ height:2.6pt; background:var(--navy); }
+.cover .stats{ font-family:'Arial',sans-serif; font-size:9.3pt; color:var(--grey); line-height:1.9; }
+.cover .vol{ margin-top:30pt; font-family:'Arial',sans-serif; font-size:9.5pt; letter-spacing:.2em; text-transform:uppercase; color:var(--navy2); font-weight:700; }
+.cover .draft{ font-family:'Arial',sans-serif; font-size:7.6pt; letter-spacing:.24em; text-transform:uppercase; color:#93a2b1; margin-top:6pt; }
+
+/* ---- generic ---- */
+.section{ page-break-before:always; }
+.kick{ font-size:8pt; letter-spacing:.24em; text-transform:uppercase; color:var(--blue); font-weight:700; margin-bottom:3pt; }
+h2.part{ font-family:'Arial',sans-serif; font-size:10pt; letter-spacing:.28em; text-transform:uppercase; color:#fff;
+  background:var(--navy); padding:7pt 12pt; border-radius:3pt; margin:0 0 3pt; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+h2.fm{ font-size:19pt; color:var(--navy); margin:0 0 3pt; border-bottom:2pt solid var(--navy); padding-bottom:5pt; }
+h3.chap{ font-size:17pt; color:var(--navy); margin:5pt 0 2pt; }
+.chapnum{ font-family:'Arial',sans-serif; font-size:8.5pt; letter-spacing:.2em; text-transform:uppercase; color:var(--blue); font-weight:700; }
+h4.issue{ font-size:12.5pt; color:#10233a; margin:16pt 0 2pt; padding-left:9pt; border-left:3.5pt solid var(--blue);
+  -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+h4.issue .qn{ font-family:'Arial',sans-serif; font-size:7.4pt; font-weight:700; letter-spacing:.14em; color:var(--blue); display:block; margin-bottom:1pt; }
+p{ margin:0 0 8pt; text-align:justify; }
+.lead{ font-size:11pt; }
+em.case{ font-style:italic; font-weight:700; color:#12283e; }
+.cite{ font-family:'Arial',sans-serif; font-size:8.2pt; color:var(--grey); }
+.scj{ font-family:'Arial',sans-serif; font-size:7.4pt; font-weight:700; color:var(--navy); background:#e9eff5;
+  border:.5pt solid #c2d0de; border-radius:3pt; padding:0 4pt; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+.sc-badge{ font-family:'Arial',sans-serif; font-size:6.6pt; font-weight:700; background:var(--navy); color:#fff;
+  padding:.5pt 4pt; border-radius:2pt; letter-spacing:.03em; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+
+/* holding pull-box */
+.hold{ border:.6pt solid #b9cbd9; border-left:4pt solid var(--blue); background:#f5f9fc; border-radius:3pt;
+  padding:8pt 12pt; margin:9pt 0 11pt; -webkit-print-color-adjust:exact; print-color-adjust:exact; break-inside:avoid; }
+.hold .hl{ font-family:'Arial',sans-serif; font-size:7pt; font-weight:700; letter-spacing:.16em; text-transform:uppercase; color:var(--blue); margin-bottom:2pt; }
+.hold .case-line{ font-size:9.4pt; color:#10233a; margin-bottom:3pt; }
+.hold .case-line b{ font-style:italic; }
+.hold p{ margin:0; font-size:10pt; }
+.apex{ border-left-color:var(--navy); background:#eef3f8; }
+.apex .hl{ color:var(--navy); }
+
+/* case-note inline block */
+.cn{ margin:0 0 9pt; }
+.cn .cn-h{ font-size:10.4pt; }
+.cn .cn-h b{ font-style:italic; color:#12283e; }
+.cn .cn-meta{ font-family:'Arial',sans-serif; font-size:8pt; color:var(--grey); display:block; margin:1pt 0 3pt; }
+
+/* tables */
+table.master{ width:100%; border-collapse:collapse; font-size:9pt; margin:6pt 0 4pt; }
+table.master th{ font-size:7.2pt; letter-spacing:.1em; text-transform:uppercase; color:var(--grey); text-align:left;
+  border-bottom:1pt solid var(--navy); padding:4pt 6pt; }
+table.master td{ border-bottom:.5pt solid var(--line); padding:5pt 6pt; vertical-align:top; }
+table.master td.n{ font-family:'Arial',sans-serif; font-weight:700; color:var(--navy); white-space:nowrap; }
+table.master tr.ph td{ background:#eef3f8; font-family:'Arial',sans-serif; font-weight:700; font-size:7.6pt;
+  letter-spacing:.1em; text-transform:uppercase; color:var(--navy2); -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+.abbr{ columns:2; column-gap:14mm; font-size:9.2pt; }
+.abbr div{ break-inside:avoid; margin-bottom:3pt; } .abbr b{ font-size:8.6pt; color:var(--navy); }
+.note-box{ background:#f6f8fa; border:.5pt solid var(--line); border-radius:3pt; padding:7pt 11pt; margin:8pt 0;
+  font-size:9.6pt; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+.xref{ font-family:'Arial',sans-serif; font-size:8.4pt; color:var(--blue); }
+hr.soft{ border:none; border-top:.5pt solid var(--line); margin:10pt 0; }
+.small{ font-size:9.2pt; }
+</style>
+
+<!-- ============================ COVER ============================ -->
+<div class="cover">
+  <div class="crest">Indian Electricity Jurisprudence &middot; A Working Digest</div>
+  <h1>The U.P. Electricity Supply<br>Code, 2005 in the Courts</h1>
+  <div class="yr">1995 &ndash; 2026</div>
+  <div class="sub">Issues Framed, Treated Chronologically, and Traced to Authority</div>
+  <div class="barwrap"><div class="bar"></div></div>
+  <div class="stats">
+    Built on a corpus of <b>263 decisions</b> &mdash; the Supreme Court of India,<br>
+    the High Court of Judicature at Allahabad, and other High Courts<br>
+    &mdash; digested into 340 ratios, 229 principles and 418 authorities.
+  </div>
+  <div class="vol">Part I &ndash; Part II &nbsp;&middot;&nbsp; Chapters 1 &ndash; 2</div>
+  <div class="draft">Working Draft for Review</div>
+</div>
+
+<!-- ============================ FOREWORD ============================ -->
+<div class="section">
+  <div class="kick">Front Matter</div>
+  <h2 class="fm">Foreword &amp; Methodology</h2>
+
+  <p class="lead">This digest reads a large body of decided cases on the U.P. Electricity
+  Supply Code, 2005 not as a chronological list of judgments but as a set of <em>questions</em> the
+  courts have had to answer. Each chapter opens by framing an issue as a question; the answer is
+  then built up in the order the courts actually gave it, so that the reader can watch a rule form,
+  wobble, correct itself, and settle. Where a High Court view was later approved, doubted or overtaken
+  by the Supreme Court, the apex authority is placed at the head of the discussion and the subordinate
+  material read in its light.</p>
+
+  <p><b>The corpus.</b> The digest is built on 263 decisions decided between 1995 and 2026. Each
+  decision carries a stable identifier of the form <span class="scj">SCJ-000</span>, used throughout
+  for cross-reference. The set spans the foundational Supreme Court authorities (Isha Marbles,
+  DVS Steels, Seetaram Rice Mill, Anis Ahmad, K.C. Ninan, Thomas Joseph), the very large Allahabad
+  High Court jurisprudence that applies them to the U.P. Code, and a selection of other High Court
+  and regulatory decisions used where they illuminate a point.</p>
+
+  <p><b>Sources and fidelity.</b> The analysis rests on structured summaries of every case &mdash;
+  the framed issue, the ratio, the operative facts, the disposition, and the treatment of every
+  authority cited. For the marquee decisions the full judgment text has been used directly. Holdings
+  reproduced in the ruled boxes are the courts' own, verbatim from the summaries; nothing in a box is
+  paraphrase.</p>
+
+  <p><b>Two-tier subject matter.</b> The governing instruments are the Electricity Act, 2003 (the
+  primary Act) and the U.P. Electricity Supply Code, 2005 (delegated legislation specified by the
+  State Commission under Section 50 read with Section 181). Much of the litigation turns on the
+  relationship between the two, so the digest opens there.</p>
+
+  <div class="note-box"><b>Companion reference volumes.</b> This narrative digest is accompanied by
+  four categorised reference tables, each built from the same corpus and organised on the identical
+  fourteen-category scheme used here: the <em>Headnote Digest</em> (every judgment's headnote,
+  verbatim), the <em>Ratio Digest</em> (all 340 holdings), the <em>Principles Digest</em> (229 ratio
+  labels), and the consolidated <em>Table of Authorities</em> (418 authorities, 496 citations). Where
+  this text says &ldquo;see the Ratio Digest, category&nbsp;H,&rdquo; it refers to those volumes.</div>
+</div>
+
+<!-- ============================ HOW TO USE ============================ -->
+<div class="section">
+  <div class="kick">Front Matter</div>
+  <h2 class="fm">How to Use This Digest</h2>
+  <table class="master">
+    <tr><td class="n">Framed issue</td><td>Each numbered <b>Issue</b> states the legal question the
+      courts answered, phrased as a question. The discussion that follows answers it chronologically.</td></tr>
+    <tr><td class="n"><span class="scj">SCJ-115</span></td><td>The corpus identifier for a case. Use it
+      to find the same decision in any of the four companion reference volumes.</td></tr>
+    <tr><td class="n"><span class="sc-badge">SC</span></td><td>Marks a Supreme Court decision. Unmarked
+      decisions are of the Allahabad High Court unless the citation says otherwise.</td></tr>
+    <tr><td class="n">Ruled box</td><td>A <b>Holding</b> box carries the court's operative ratio,
+      verbatim. A box ruled in dark navy marks a binding Supreme Court holding.</td></tr>
+    <tr><td class="n"><span class="xref">&rarr; category&nbsp;B</span></td><td>A pointer to the
+      category in the companion reference volumes where the fuller entry is found.</td></tr>
+  </table>
+</div>
+
+<!-- ============================ ABBREVIATIONS ============================ -->
+<div class="section">
+  <div class="kick">Front Matter</div>
+  <h2 class="fm">Table of Abbreviations</h2>
+  <div class="abbr">
+    <div><b>the Act / EA 2003</b> &mdash; the Electricity Act, 2003</div>
+    <div><b>the Code / the Supply Code</b> &mdash; the U.P. Electricity Supply Code, 2005</div>
+    <div><b>IEA 1910</b> &mdash; the Indian Electricity Act, 1910</div>
+    <div><b>ESA 1948</b> &mdash; the Electricity (Supply) Act, 1948</div>
+    <div><b>UPERC / the Commission</b> &mdash; the U.P. Electricity Regulatory Commission</div>
+    <div><b>the licensee / distribution licensee</b> &mdash; the distribution company (PVVNL, DVVNL, MVVNL, PuVVNL, KESCO, UPPCL)</div>
+    <div><b>CGRF / the Forum</b> &mdash; Consumer Grievance Redressal Forum (s.42(5))</div>
+    <div><b>the Ombudsman</b> &mdash; the Electricity Ombudsman / Vidyut Lokpal (s.42(6))</div>
+    <div><b>UUE</b> &mdash; unauthorised use of electricity (s.126)</div>
+    <div><b>s.126 / s.127 / s.135</b> &mdash; sections of the Electricity Act, 2003</div>
+    <div><b>Clause 4.4 etc.</b> &mdash; clauses of the U.P. Electricity Supply Code, 2005</div>
+    <div><b>IBC</b> &mdash; the Insolvency and Bankruptcy Code, 2016</div>
+    <div><b>DB</b> &mdash; Division Bench &nbsp;&middot;&nbsp; <b>SLP</b> &mdash; Special Leave Petition</div>
+    <div><b>SCJ-000</b> &mdash; this digest's stable case identifier</div>
+  </div>
+</div>
+
+<!-- ============================ MASTER TABLE OF ISSUES ============================ -->
+<div class="section">
+  <div class="kick">Front Matter</div>
+  <h2 class="fm">Master Table of Framed Issues &mdash; Parts I&ndash;II</h2>
+  <table class="master">
+    <thead><tr><th style="width:9%">Issue</th><th style="width:58%">Question</th><th style="width:33%">Lead authority</th></tr></thead>
+    <tbody>
+      <tr class="ph"><td colspan="3">Part I &mdash; Foundations &middot; Chapter 1: The Statutory Architecture</td></tr>
+      <tr><td class="n">1</td><td>What is the source and scope of the Supply Code &mdash; is it confined to the subjects listed in Section 50, and is a fiscal/protective clause such as Clause 4.49 intra vires?</td><td>Suvidha Engineers <span class="scj">255</span>; Thomas Joseph <span class="sc-badge">SC</span> <span class="scj">147</span></td></tr>
+      <tr><td class="n">2</td><td>Can the Code travel beyond the Act? The Section 174 overriding effect and the ultra vires ceiling on delegated legislation.</td><td>Vijay Pal Singh <span class="scj">227</span>; Modern Rice Mill <span class="scj">059</span>; DVVNL v. Prakancha <span class="scj">015</span></td></tr>
+      <tr><td class="n">3</td><td>Is access to electricity protected by Article 21, and what follows for arbitrary refusal or disconnection?</td><td>Devendra Sharma <span class="scj">016</span>; Divya Sahani <span class="scj">020</span></td></tr>
+      <tr class="ph"><td colspan="3">Part II &mdash; Getting a Connection &middot; Chapter 2: The Duty to Supply and Who May Apply</td></tr>
+      <tr><td class="n">4</td><td>Is the Section 43 duty to supply absolute? To whom is it owed &mdash; owner or occupier &mdash; and for what?</td><td>K.C. Ninan <span class="sc-badge">SC</span> <span class="scj">037</span>; Seema Mansoor <span class="scj">115</span></td></tr>
+      <tr><td class="n">5</td><td>Can a tenant or occupier obtain a connection without the owner's consent? The indemnity-bond route under Clause 4.4, and its limits.</td><td>Seema Mansoor <span class="scj">115</span> (correcting Iftakhar Ahsan <span class="scj">236</span>)</td></tr>
+    </tbody>
+  </table>
+  <p class="small" style="color:var(--grey); margin-top:6pt">The master table continues in later Parts (Arrears &amp;
+  Transferee Liability; Metering; Billing &amp; Recovery; Unauthorised Use; Theft; Fora &amp; Remedies), tracking the
+  fourteen categories of the companion volumes.</p>
+</div>
+
+<!-- ============================ PART I ============================ -->
+<div class="section">
+  <h2 class="part">Part I &nbsp;&middot;&nbsp; Foundations</h2>
+  <span class="chapnum">Chapter 1</span>
+  <h3 class="chap">The Statutory Architecture: the Act, the Code, and their Hierarchy</h3>
+
+  <p class="lead">Every dispute in this digest is played out on a two-tier field. Above sits the
+  Electricity Act, 2003 &mdash; a self-contained parliamentary code for the generation, transmission,
+  distribution and use of electricity. Beneath it sits the U.P. Electricity Supply Code, 2005 &mdash;
+  delegated legislation &ldquo;specified&rdquo; by the State Commission under Section 50 of the Act,
+  read with the Commission's general regulation-making power in Section 181. Because so much of the
+  litigation is really an argument about which instrument governs, and how far the junior instrument
+  may go, the digest begins with the architecture itself.</p>
+
+  <!-- Issue 1 -->
+  <h4 class="issue"><span class="qn">Issue 1</span>What is the source and scope of the Supply Code &mdash; is it confined to the subjects listed in Section 50, and is a fiscal or protective clause such as Clause 4.49 intra vires?</h4>
+
+  <p>The first line of attack on any inconvenient clause of the Code is that the clause is
+  <em>ultra vires</em> &mdash; that Section 50, which authorises the Commission to specify a Supply
+  Code, enumerates a closed list of subjects (recovery of charges, billing intervals, disconnection,
+  restoration, tamper-prevention, entry) into which the impugned clause does not fit. That argument
+  was pressed, and rejected, in <em class="case">Suvidha Engineers India Ltd. v. Paschimanchal Vidyut
+  Vitran Nigam Ltd.</em> <span class="cite">(2009 SCC OnLine All 1773; Ashok Bhushan and R.A. Singh, JJ.)</span>
+  <span class="scj">SCJ-255</span>. The consumer there, resisting a demand for a bank guarantee under
+  Clause 4.49 as a condition of enhanced load, contended that Clause 4.49 lay outside Section 50 and
+  therefore outside the Commission's power.</p>
+
+  <p>The Division Bench held that the Supply Code is not confined to the subjects enumerated in
+  Section 50 at all. It is, in substance, a compilation of regulations traceable to the various heads
+  of Section 181(2)(p)&ndash;(x) and to the Commission's general power in Section 181(1); the word
+  &ldquo;supply&rdquo; in Section 86(1) is read liberally to take in ancillary measures for protecting
+  and preserving revenue, and the power to legislate on a substantive topic subsumes matters ancillary
+  to it. Clause 4.49, being a protective provision rather than a recovery mechanism, was well within
+  power, and offended neither Section 127(2) nor Section 56(2) nor the power of judicial review.</p>
+
+  <div class="hold">
+    <div class="hl">Holding &middot; Suvidha Engineers <span class="scj">SCJ-255</span></div>
+    <div class="case-line"><b>M/s Suvidha Engineers India Ltd. v. PVVNL</b> &middot; 2009 SCC OnLine All 1773</div>
+    <p>&ldquo;The Supply Code specified under Section 50 is a compilation of regulations traceable to
+    Section 181(2)(p)-(x) and the general power in Section 181(1); the headings, marginal notes and
+    Statement of Objects confirm this. &lsquo;Supply&rsquo; in Section 86(1) is read liberally to include
+    ancillary measures for protecting/preserving revenue, and the power to legislate on a substantive
+    topic subsumes ancillary matters.&rdquo;</p>
+  </div>
+
+  <p>If <em class="case">Suvidha Engineers</em> tells us how <em>wide</em> the delegated power is, the
+  Supreme Court has told us where its outer wall stands. In <em class="case">Kerala State Electricity
+  Board v. Thomas Joseph</em> <span class="cite">(2022) 8 SCC 723; Dinesh Maheshwari and J.B. Pardiwala, JJ.</span>
+  <span class="sc-badge">SC</span> <span class="scj">SCJ-147</span> the Court struck down Regulation 153(15)
+  of the Kerala Supply Code &mdash; a provision that purported to exempt unauthorised additional load
+  in the same premises under the same tariff from being &ldquo;reckoned as unauthorised use&rdquo; &mdash;
+  as <em>ultra vires</em> Section 126 of the Act. Delegated legislation made under Section 50 read with
+  Section 181(2)(x), the Court held, can supplement but not <em>supplant</em> the parent Act, and cannot
+  carve out a substantive exemption from a liability that Parliament itself imposed. A Supply Code,
+  echoing the Court's own earlier ruling in <em class="case">U.P. Power Corporation Ltd. v. Anis Ahmad</em>,
+  is confined to billing, recovery, disconnection, restoration and tamper-prevention; it &ldquo;need not
+  provide, and does not relate to,&rdquo; the assessment of unauthorised-use charges, which lives
+  exclusively in the self-contained scheme of Sections 126&ndash;127.</p>
+
+  <div class="hold apex">
+    <div class="hl">Holding &middot; Supreme Court of India</div>
+    <div class="case-line"><b>Kerala State Electricity Board v. Thomas Joseph</b> &middot; (2022) 8 SCC 723 <span class="sc-badge">SC</span></div>
+    <p>Regulation 153(15) is ultra vires Section 126 and invalid: &ldquo;delegated/subordinate
+    legislation made under Section 50 (read with Section 181(2)(x)) can only supplement, not supplant,
+    the parent Act, and cannot create a substantive exemption from Section 126 liability that the
+    Parliament itself did not provide.&rdquo;</p>
+  </div>
+
+  <p>Read together, the two decisions fix the boundaries of the field. The Code may range widely across
+  the Commission's regulation-making heads and may add protective, procedural and machinery provisions
+  that the bare text of Section 50 does not spell out (<em class="case">Suvidha Engineers</em>); but it
+  may not contradict, dilute or exempt from a substantive liability created by the Act itself
+  (<em class="case">Thomas Joseph</em>). That is the two-sided rule against which every vires argument in
+  this digest is measured. <span class="xref">&rarr; category&nbsp;A of the companion volumes.</span></p>
+
+  <div class="note-box small"><b>A pleading caveat.</b> A challenge to the vires of a clause must be
+  properly raised and founded. In <em class="case">Narendra Singh Panwar v. PVVNL</em>
+  <span class="scj">SCJ-090</span> (2023) the Court declined to entertain a vires attack advanced without
+  a pleaded foundation &mdash; vires is not a point to be picked up in argument.</div>
+
+  <!-- Issue 2 -->
+  <h4 class="issue"><span class="qn">Issue 2</span>Can the Code travel beyond the Act? The Section 174 overriding effect and the ultra vires ceiling.</h4>
+
+  <p>The ceiling identified in <em class="case">Thomas Joseph</em> had already been applied, years
+  earlier and in the sharpest possible form, by the Allahabad High Court to the U.P. Code itself. In the
+  twin decisions in <em class="case">Vijay Pal Singh v. Dakshinanchal Vidyut Vitran Nigam Ltd.</em>
+  <span class="cite">(2010 SCC OnLine All 4452 and 3985; Vijay Manohar Sahai and Raj Mani Chauhan, JJ.)</span>
+  <span class="scj">SCJ-227</span>/<span class="scj">SCJ-228</span>, the unamended Code prescribed a theft
+  assessment at <em>three</em> times the tariff, while Section 126(6) of the Act capped assessment at
+  one-and-a-half times. Because Section 174 gives the Act overriding effect, and the Code is subordinate
+  legislation that &ldquo;cannot travel beyond&rdquo; the Act, the three-times rate was held
+  <em>ultra vires</em> and the assessment re-cast at 1.5 times.</p>
+
+  <div class="hold">
+    <div class="hl">Holding &middot; Vijay Pal Singh (twins) <span class="scj">SCJ-227 / 228</span></div>
+    <div class="case-line"><b>Vijay Pal Singh v. DVVNL</b> &middot; 2010 SCC OnLine All 4452</div>
+    <p>&ldquo;Section 174 of the Act gives it overriding effect, and the Code, being subordinate
+    legislation framed under the Act, cannot travel beyond it&hellip; the three-times rate [was] contrary
+    to Section 126(6).&rdquo;</p>
+  </div>
+
+  <p>The overriding effect in Section 174 is, however, a shield for the Act, not a sword for the
+  licensee. It operates &ldquo;only for matters provided under&rdquo; the Act, and does not sweep away
+  remedies the Act never purported to occupy. In <em class="case">DVVNL v. Prakancha Metal Works</em>
+  <span class="cite">(AIR 2012 Allahabad 176; Sudhir Agarwal, J.)</span> <span class="scj">SCJ-015</span> the
+  Court held that Section 174 does not oust a Lok Adalat's or a consumer forum's power to award damages
+  for a wrongful disconnection, because Section 50 never empowered the Code to ascertain such damages in
+  the first place; the CGRF machinery (Clause 7.10, Clauses 7.7.1&ndash;7.7.5) reaches supply-related
+  grievances, not tortious damages. The Act is supreme within its field &mdash; but the field has edges.</p>
+
+  <p>Two further threads complete the picture of a hierarchy policed by ordinary canons of construction:</p>
+
+  <p><b>The Act is a complete code within its own subjects.</b> In <em class="case">Executive Engineer
+  v. Pacific Promoter</em> <span class="cite">(2017 SCC OnLine All 3167; Sunita Agarwal, J.)</span>
+  <span class="scj">SCJ-207</span> the Court held that civil liability for unauthorised use is imposed
+  <em>only</em> through a Section 126 assessment (appealable under Section 127), while theft under
+  Section 135 is triable by the Special Courts under Section 153; the Code (Chapters 6 and 8) supplies
+  the procedure, and Section 145 bars the civil court. There is no room for a parallel civil suit.</p>
+
+  <p><b>Ordinary interpretive canons apply to the Code.</b> A marginal heading is not a legitimate aid
+  to construction and does not cut down the substantive width of a clause: in <em class="case">Modern
+  Rice Mill v. MVVNL</em> <span class="scj">SCJ-059</span> the heading &ldquo;Defective Meters&rdquo; was
+  held not to confine Clause 5.6 to meters already known to be defective, and where the Act's rate
+  differs from the Code's, &ldquo;that statutory rate prevails.&rdquo; The Code must be read as a whole,
+  not piecemeal (<em class="case">Satya Narayan v. UPPCL</em> <span class="scj">SCJ-113</span>); and,
+  being the consumer's protection against a monopoly supplier, it is to be construed liberally in the
+  consumer's favour &mdash; a canon the Supreme Court itself applied to a State Supply Code in
+  <em class="case">Jharkhand SEB v. Ramkrishna Forging</em> <span class="cite">(AIR 2021 SC 2184)</span>
+  <span class="sc-badge">SC</span> <span class="scj">SCJ-035</span>.</p>
+
+  <!-- Issue 3 -->
+  <h4 class="issue"><span class="qn">Issue 3</span>Is access to electricity protected by Article 21, and what follows for arbitrary refusal or disconnection?</h4>
+
+  <p>Running beneath the statutory architecture is a constitutional floor. The Allahabad High Court has
+  repeatedly located the supply of electricity within the right to life with dignity under Article 21,
+  and has used that location to convert an unlawful refusal or disconnection from a mere statutory breach
+  into a constitutional wrong. In <em class="case">Devendra Sharma v. State of U.P.</em>
+  <span class="cite">(Sunil Ambwani and Pankaj Mithal, JJ., 2011)</span> <span class="scj">SCJ-016</span> the
+  Court held that a validly sanctioned connection, on which bills are regularly paid, may be disconnected
+  <em>only</em> on grounds authorised by the Act and the Code &mdash; theft, unauthorised use,
+  non-payment &mdash; and that disconnection for an extraneous or malafide reason (there, a landlord-tenant
+  dispute) is &ldquo;not merely a statutory breach but a violation of the right to life under
+  Article 21.&rdquo;</p>
+
+  <p>The same principle governs refusal. In <em class="case">Divya Sahani v. State of U.P.</em>
+  <span class="cite">(Pankaj Naqvi and Piyush Agrawal, JJ., 2021)</span> <span class="scj">SCJ-020</span> the
+  Court held that neither Clause 4.4 nor anything else in the Code permits refusal of a connection merely
+  because the premises are the subject of a pending civil dispute &mdash; a connection confers no title
+  (Note-3, Annexure 4.1) &mdash; and that refusal on that ground alone is &ldquo;dehors the law and
+  offends the right to live with dignity under Article 21.&rdquo; The constitutional overlay does not
+  enlarge the consumer's statutory entitlement; but where the licensee acts outside the Act and the Code,
+  Article 21 raises the stakes of the illegality and sharpens the writ court's response.</p>
+
+  <hr class="soft">
+  <p class="small" style="color:var(--grey)"><b>Chapter 1 in a sentence.</b> The Code is wide but
+  subordinate: it may add machinery and protective provisions across the Commission's regulation-making
+  heads (<em>Suvidha Engineers</em>), but may neither exceed a rate fixed by the Act (<em>Vijay Pal
+  Singh</em>) nor exempt from a liability the Act creates (<em>Thomas Joseph</em>); the Act overrides only
+  within its own field (<em>Prakancha</em>); and beneath both lies an Article 21 floor against arbitrary
+  refusal and disconnection (<em>Devendra Sharma</em>, <em>Divya Sahani</em>).</p>
+</div>
+
+<!-- ============================ PART II ============================ -->
+<div class="section">
+  <h2 class="part">Part II &nbsp;&middot;&nbsp; Getting a Connection</h2>
+  <span class="chapnum">Chapter 2</span>
+  <h3 class="chap">The Duty to Supply and Who May Apply</h3>
+
+  <p class="lead">With the hierarchy settled, the digest turns to the threshold transaction: obtaining
+  a connection. The governing provision is Section 43 of the Act &mdash; the duty of every distribution
+  licensee to supply, on application, to the owner <em>or occupier</em> of any premises in its area of
+  supply &mdash; worked out through Clauses 4.1 and 4.4 of the Code. Two questions have generated almost
+  all the litigation: how far the duty binds, and whether a person who is not the owner may compel a
+  connection over the owner's head.</p>
+
+  <!-- Issue 4 -->
+  <h4 class="issue"><span class="qn">Issue 4</span>Is the Section 43 duty to supply absolute? To whom is it owed, and for what?</h4>
+
+  <p>The starting point is the breadth of the statutory duty. Section 43(1) obliges the licensee to
+  give supply within one month of a completed application by the &ldquo;owner or occupier&rdquo; of
+  premises, and the Code, at Clause 2.2(oo), defines an occupier to include an authorised person in
+  occupation. The duty is real and enforceable: failure attracts a daily penalty, and the courts have
+  not hesitated to issue mandamus to compel it (below, Issue 5).</p>
+
+  <p>But the duty is not unconditional, and the Supreme Court has now said so authoritatively. In
+  <em class="case">K.C. Ninan v. Kerala State Electricity Board</em> <span class="cite">(2023) SCC OnLine
+  SC 603; Dr D.Y. Chandrachud, CJI, Hima Kohli and P.S. Narasimha, JJ.</span> <span class="sc-badge">SC</span>
+  <span class="scj">SCJ-037</span> &mdash; a decision whose main work on arrears is taken up in Chapter&nbsp;3
+  &mdash; the Court laid down the frame within which the whole duty operates. The duty under Section 43,
+  it held, is <em>not absolute</em>: it is subject to the charges and compliances stipulated by the
+  utility as part of the application for supply, and it is owed with respect to the owner or occupier of
+  <em>particular premises</em>. One becomes a &ldquo;consumer&rdquo; only for the premises for which
+  supply is sought and provided &mdash; a &ldquo;consumer-premises synergy&rdquo; &mdash; so that an
+  application for the same premises earlier supplied is a reconnection, while a different premises makes
+  it a fresh connection even for the same person.</p>
+
+  <div class="hold apex">
+    <div class="hl">Holding &middot; Supreme Court of India</div>
+    <div class="case-line"><b>K.C. Ninan v. Kerala State Electricity Board</b> &middot; (2023) SCC OnLine SC 603 <span class="sc-badge">SC</span></div>
+    <p>&ldquo;The duty to supply under s.43 is not absolute and is subject to the charges and compliances
+    stipulated by the utility&hellip; it is owed to the owner or occupier of particular premises, and one
+    becomes a &lsquo;consumer&rsquo; only with respect to those premises for which electricity is sought
+    and provided.&rdquo;</p>
+  </div>
+
+  <p>Two corollaries of this framing recur throughout the digest. First, because the duty is owed
+  &ldquo;subject to&hellip; compliances,&rdquo; a licensee may lawfully attach conditions to supply &mdash;
+  the completion of formalities, the payment of proper charges, and (as Chapter&nbsp;3 shows) in defined
+  circumstances the clearing of arrears on the premises. Second, because the duty runs to
+  <em>premises</em> and not to a person at large, questions of who is entitled to apply, and of what
+  attaches to the premises, are never far apart. The balance of this chapter takes the first of those:
+  who may apply.</p>
+
+  <!-- Issue 5 -->
+  <h4 class="issue"><span class="qn">Issue 5</span>Can a tenant or occupier obtain a connection without the owner's consent? The indemnity-bond route under Clause 4.4, and its limits.</h4>
+
+  <p>No question in this corner of the Code has produced more litigation, or a cleaner example of a rule
+  correcting itself, than whether a tenant can be refused a connection because the landlord will not
+  consent. The friction is built into Clause 4.4 itself: Clause 4.4(a)(i) lists the owner's consent
+  (Annexure 4.3) among the documents ordinarily required, yet the Code simultaneously supplies Annexure
+  4.2 &mdash; an indemnity bond that an occupier who <em>cannot</em> obtain the owner's consent may
+  execute in its place. Whether the consent was a hard pre-condition or merely one of two alternative
+  routes divided the Court for a time.</p>
+
+  <p><b>The high-water mark of the &ldquo;consent-is-mandatory&rdquo; view.</b> In
+  <em class="case">Iftakhar Ahsan v. State of U.P.</em> <span class="cite">(2014 SCC OnLine All 81;
+  A.P. Sahi and Anil Kumar Agarwal, JJ., 3 January 2014)</span> <span class="scj">SCJ-236</span> the Court
+  read Clause 4.4(a)(vi) as making the owner's consent a <em>mandatory</em> pre-condition, and refused a
+  mandamus to an occupier who lacked it &mdash; the more so as the clause was unchallenged and the
+  landlord was not impleaded. Earlier Division Bench authority (<em>Ravi Shankar Giri</em>;
+  <em>Tanveer Azam</em>) had taken the same line.</p>
+
+  <p><b>The correction.</b> Within months the position was reversed. In <em class="case">Seema Mansoor
+  v. U.P. Power Corporation Ltd.</em> <span class="cite">(Krishna Murari and Vijay Lakshmi, JJ., 26 May
+  2014)</span> <span class="scj">SCJ-115</span> a differently-constituted Division Bench read Clause 4.4 as
+  offering <em>either</em> the owner's consent (Annexure 4.3) <em>or</em> the occupier's indemnity bond
+  (Annexure 4.2). Since Section 43 casts the duty to supply to an owner <em>or occupier</em>, and Clause
+  2.2(oo) brings a tenant within &ldquo;occupier,&rdquo; a licensee cannot refuse a connection merely
+  because a landlord &mdash; often one using disconnection as leverage in a rent dispute &mdash; withholds
+  consent; the contrary reading would nullify Rent Control Act protections and is against public policy.
+  The Court expressly held that the earlier decisions, including <em>Iftikhar Ahsan</em>, having failed to
+  notice Sections 42/43 and Annexure 4.2, &ldquo;do not lay down the correct law.&rdquo;</p>
+
+  <div class="hold">
+    <div class="hl">Holding &middot; the corrective &middot; Seema Mansoor <span class="scj">SCJ-115</span></div>
+    <div class="case-line"><b>Seema Mansoor v. U.P. Power Corporation Ltd.</b> &middot; Allahabad HC (DB), 26 May 2014</div>
+    <p>Reading Clause 4.4 as providing &ldquo;either owner's consent OR an occupier's indemnity bond, a
+    licensee cannot lawfully refuse connection to a tenant merely because a landlord&hellip; withholds
+    consent&hellip;. Two prior Division Bench decisions&hellip; having failed to notice ss.42/43 of the Act
+    and Clause 4.4(a)(i)/Annexure 4.2 of the Code, do not lay down the correct law.&rdquo;</p>
+  </div>
+
+  <p>Two days later the same Bench applied the rule in <em class="case">Radhe Shyam Singh v. State of
+  U.P.</em> <span class="cite">(28 May 2014)</span> <span class="scj">SCJ-210</span>, issuing a mandamus for
+  a tenant's connection and holding a landlord's refusal &mdash; there, pressure to vacate &mdash; no ground
+  to refuse, on the authority of the Supreme Court in <em class="case">Chandu Khamaru v. Nayan Malik</em>
+  and <em class="case">Dr. Meena Chaudhary v. BSES Rajdhani</em>.</p>
+
+  <p><b>Consolidation.</b> <em>Seema Mansoor</em> has since hardened into settled law through a long line
+  of Division Bench decisions, each refusing to let an owner's silence defeat an occupier's statutory
+  right and directing the licensee to process the application on an indemnity bond:</p>
+
+  <div class="cn small">
+    <div class="cn-h"><b>Dr. Mamta Tripathi v. State of U.P.</b> <span class="scj">SCJ-190</span> <span class="cite">(2015)</span> &mdash; in an owner-occupier dispute, absence of the landlord's consent is no bar; the application must be processed on an Annexure 4.2 bond.</div>
+    <div class="cn-h"><b>Gaurav Sharma v. State of U.P.</b> <span class="scj">SCJ-027</span> <span class="cite">(2018)</span> &mdash; the object of the bond is only to exclude a trespasser or house-grabber; a family dispute or the owner's want of consent is no ground to refuse a genuine occupier (a son in separate possession).</div>
+    <div class="cn-h"><b>Husna Bano v. State of U.P.</b> <span class="scj">SCJ-033</span> <span class="cite">(2019)</span> &mdash; possession may be shown by a Ration Card and Aadhaar (cash rent often leaving no receipt); the bond is not a document of title and a connection does not bar an eviction suit.</div>
+    <div class="cn-h"><b>Anand Kumar v. State of U.P.</b> <span class="scj">SCJ-006</span> <span class="cite">(2023)</span>; <b>Deepak Jain v. State of U.P.</b> <span class="scj">SCJ-212</span> <span class="cite">(2023)</span> &mdash; following <em>Seema Mansoor</em>; the application to be decided, after hearing the stakeholders, within four weeks.</div>
+  </div>
+
+  <p><b>The limits of the rule.</b> The indemnity-bond route is a right for a genuine occupier, not a
+  device for anyone. Four qualifications keep it within bounds:</p>
+
+  <p><span class="scj">1</span>&nbsp;&nbsp;<b>Proof of occupancy is still required.</b> The bond does not
+  dispense with proof that the applicant is in lawful occupation. In <em class="case">DVVNL v. Permanent
+  Lok Adalat</em> <span class="scj">SCJ-249</span> (2016) the Court quashed an award granting a connection
+  on a bare indemnity bond where the applicant &mdash; neither owner (the property stood in his father's
+  name) nor able to produce a power of attorney, rent receipt or registered lease &mdash; had shown no
+  proof of occupancy. Clause 4.4 requires <em>both</em> a bond (in lieu of consent) <em>and</em> proof of
+  occupancy.</p>
+
+  <p><span class="scj">2</span>&nbsp;&nbsp;<b>Clean hands.</b> A claimant who suppresses an adverse finding
+  on his own status will be turned away. In <em class="case">Vandana Srivastava v. PuVVNL</em>
+  <span class="scj">SCJ-171</span> (2017) the petitioner concealed a trial court's finding that she had
+  failed to establish tenancy even prima facie; the writ court declined relief for want of clean hands.</p>
+
+  <p><span class="scj">3</span>&nbsp;&nbsp;<b>The bond does not authorise forcing lines over an objecting
+  owner's premises.</b> The occupier's right to a connection is not a right to run the licensee's works
+  across a resisting owner's property without more. In <em class="case">Daya Nand Sharma v. State of
+  U.P.</em> <span class="scj">SCJ-222</span> (2022) the Court, staying a contempt-court direction that had
+  ordered installation within 72 hours over the owner's objection, held that where an owner objects to
+  supply over his premises the licensee must obtain the District Magistrate's or Commissioner's permission
+  under the proviso to Rule 3(b) of the Works of Licensees Rules, 2006. An order directing a connection
+  &ldquo;ignoring the objection of the landlord&rdquo; does not, by itself, decide occupation or authorise
+  overriding the owner's resistance.</p>
+
+  <p><span class="scj">4</span>&nbsp;&nbsp;<b>Dues attributable to the occupied portion must be paid.</b>
+  The right is to supply, not to free supply. In <em class="case">Teena Sehgal v. State of U.P.</em>
+  <span class="scj">SCJ-199</span> (2026) an occupier of the undisputed ground floor was granted a
+  connection on an Annexure 4.2 bond, but only against payment of the dues attributable to that portion
+  (fixed by the Court at Rs. 1,20,000, by instalments) and of regular bills.</p>
+
+  <p><b>A distinction to keep in view.</b> All of the foregoing concerns a <em>new</em> connection.
+  Clause 4.4 governs the processing of new-connection applications; it is not a warrant to
+  <em>disconnect an existing</em> one. In <em class="case">Devendra Sharma</em> <span class="scj">SCJ-016</span>
+  (Issue 3 above) the Court held that a landlord-tenant dispute is no ground to cut a validly sanctioned
+  connection on which bills are paid &mdash; a valid connection may be severed only on a ground the Act and
+  the Code authorise. The threshold questions of who may <em>obtain</em> supply and when supply may be
+  <em>withdrawn</em> are governed by different provisions and must not be conflated.</p>
+
+  <div class="note-box"><b>The rule as it now stands.</b> A tenant or occupier has a statutory right to a
+  new connection under Section 43 read with Clause 4.4, and the owner's refusal of consent is no bar: the
+  occupier may proceed on an Annexure 4.2 indemnity bond <em>in lieu</em> of the owner's consent
+  (<em>Seema Mansoor</em>). But the right belongs to a genuine occupier who (i) proves lawful occupancy
+  (<em>Permanent Lok Adalat</em>), (ii) comes with clean hands (<em>Vandana Srivastava</em>), (iii) does
+  not thereby acquire a licence to force works over an objecting owner without the DM's permission
+  (<em>Daya Nand Sharma</em>), and (iv) clears the dues attributable to the occupied portion
+  (<em>Teena Sehgal</em>). Consistently with <em>K.C. Ninan</em> (Issue 4), the duty is real but
+  conditional. <span class="xref">&rarr; category&nbsp;B of the companion volumes.</span></div>
+
+  <hr class="soft">
+  <p class="small" style="color:var(--grey)"><b>Looking ahead.</b> <em>K.C. Ninan</em>'s second and larger
+  holding &mdash; that a Condition of Supply may require a new owner to clear the previous owner's arrears
+  as a precondition to supply, and may fasten a statutory charge on the premises &mdash; belongs to the
+  next chapter, where the duty to supply meets the arrears that run with the premises.</p>
+  <p class="small" style="color:#93a2b1; text-align:center; margin-top:14pt">[ End of the draft &mdash; Parts I&ndash;II, Chapters 1&ndash;2. Chapter 3 (Arrears &amp; Transferee Liability) follows. ]</p>
+</div>
