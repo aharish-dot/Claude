@@ -1,0 +1,63 @@
+{
+  "case_id": "SCJ-265",
+  "title": "Smt. Sushama Chowdhary v. U.P. Power Corporation Ltd. thru. Chairman & 4 Ors.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court (Lucknow Bench)",
+  "bench": "Division Bench (Chief Justice's Court)",
+  "coram": "Dr. D.Y. Chandrachud, C.J. & Devendra Kumar Upadhyaya, J.",
+  "date_of_judgment": "2014-09-24",
+  "date_display": "24 September 2014",
+  "docket": "Misc. Bench No. 9588 of 2014",
+  "disposition": "Writ petition allowed; the Executive Engineer's rejection order dated 2.8.2014 quashed; licensee directed to grant the connection on a fresh indemnity bond, without insisting on the owner's consent, within ten days",
+  "headnote": "Section 43(1) of the Electricity Act, 2003 casts an affirmative statutory obligation on a distribution licensee to supply electricity, on an application by the owner or occupier of premises, and confers a correlative statutory right on the owner or occupier to require supply; and Clause 4.4 of the U.P. Electricity Supply Code, 2005 is in aid of that duty. Annexure 4.2 of the Code (the indemnity-bond proforma) deals precisely with the situation where an occupier who applies for a connection is unable to produce the owner's consent — notably where the owner and occupier are in dispute (here, a family dispute between the petitioner and her brother, with a pending injunction suit). The petitioner, having furnished an indemnity bond describing herself as occupier and stating that she could not obtain the owner's consent because of the pending litigation, was wrongly refused a connection by an order that gave no reason beyond a bare reference to Clause 4.4; that order revealed a total non-application of mind and an unawareness of the Section 43 obligation. Applying the Supreme Court in Chandu Khamaru v. Nayan Malik, the Court quashed the rejection, directed that the owner's consent not be insisted upon, and ordered the connection to be granted on a fresh indemnity bond within ten days.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.4",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.4 (Annexure 4.2) r/w s.43(1), Electricity Act 2003",
+      "topic": "Occupier's connection on an indemnity bond where the owner's consent is unavailable in an owner-occupier dispute",
+      "type": "supply_code",
+      "question": "Can an occupier be refused a connection for want of the owner's consent where she is in an owner-occupier (family) dispute and has furnished an indemnity bond under Annexure 4.2 of the Code?",
+      "holding": "No. Clause 4.4 is in aid of the Section 43 duty to supply, and Annexure 4.2 provides expressly for the case of an occupier who cannot produce the owner's consent — the paradigm being an owner-occupier dispute. Having furnished an indemnity bond describing herself as occupier unable to obtain consent because of pending litigation, the petitioner could not be refused a connection by an order that merely referred to Clause 4.4 without reasons; such an order shows total non-application of mind and unawareness of the Section 43 obligation. The rejection was quashed, the licensee directed not to insist on the owner's consent, and the connection ordered to be granted on a fresh indemnity bond within ten days.",
+      "limiting_facts": "Occupier-petitioner in a family dispute with her brother (the fifth respondent, who had sought disconnection); pending injunction suit; indemnity bond under Annexure 4.2 furnished on 21.7.2014; EE's rejection (2.8.2014) cited only Clause 4.4.",
+      "paras": "(paras on pp. 1-2 of the order)"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-4.4-occupant-connection-on-indemnity-bond",
+      "application": "An occupier who cannot obtain the owner's consent — especially in an owner-occupier dispute — is entitled to a connection on an Annexure 4.2 indemnity bond; the licensee cannot insist on the owner's consent.",
+      "lead_authorities": [
+        {"name": "Chandu Khamaru v. Nayan Malik", "docid": "SCJ-264"}
+      ],
+      "paras": "(pp. 1-2)"
+    },
+    {
+      "tag": "landlord-consent-not-required-for-tenant-connection-s43",
+      "application": "Clause 4.4 is in aid of the s.43 duty; refusal of a connection to an occupier for want of the owner's consent, by a reasonless order, breaches that duty.",
+      "lead_authorities": [],
+      "paras": "(pp. 1-2)"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "The family/ownership dispute between the petitioner and the fifth respondent",
+      "note": "Pending in Regular Suit No. 228 of 2014; the connection was granted on an indemnity bond without prejudice to that dispute.",
+      "docid": "",
+      "paras": "(p. 1)"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Chandu Khamaru v. Nayan Malik",
+      "citation": "(2011) 12 SCC 314 : AIR 2011 SC 2897",
+      "court": "Supreme Court",
+      "docid": "SCJ-264",
+      "proposition": "Under Section 43(1) of the Electricity Act, 2003 a distribution licensee has a statutory duty to supply electricity to an owner or occupier of premises in its area on application, and every owner or occupier has a correlative statutory right to apply for and obtain supply.",
+      "how_treated": "Applied/followed to hold that the licensee was bound to supply the occupier-petitioner and could not insist on the owner's consent.",
+      "how_treated_paras": "(pp. 1-2)",
+      "cited_by": "Court",
+      "treatment": "Applied"
+    }
+  ]
+}

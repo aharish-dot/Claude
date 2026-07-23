@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 264,
+  "next_seq": 266,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -1582,6 +1582,18 @@
       "case_id": "SCJ-263",
       "source_basename": "112_Zaz_Leather_Complex_P_Ltd._v._Kanpur_Electricity_Supply_Co._Ltd.",
       "title": "M/s. Zaz Leather Complex Pvt. Ltd. v. Kanpur Electricity Supply Co. Ltd. and Another",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-264",
+      "source_basename": "Sri Chandu Khamaru vs Nayan Malik & Ors on 2 September, 2011",
+      "title": "Sri Chandu Khamaru v. Smt. Nayan Malik & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-265",
+      "source_basename": "JUDGMENT_ORDER IN - MISC. BENCH No. 9588 of 2014 at Lucknow Dated-24.9.2014 CASE TITLE - Smt. Sushama Chowdhary Vs. U.P. Pow",
+      "title": "Smt. Sushama Chowdhary v. U.P. Power Corporation Ltd. thru. Chairman & 4 Ors.",
       "status": "done"
     }
   ]

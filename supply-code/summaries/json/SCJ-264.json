@@ -1,0 +1,66 @@
+{
+  "case_id": "SCJ-264",
+  "title": "Sri Chandu Khamaru v. Smt. Nayan Malik & Ors.",
+  "neutral_citation": "(2011) 12 SCC 314 : AIR 2011 SC 2897 : (2011) 9 SCALE 598",
+  "court": "Supreme Court of India",
+  "bench": "Division Bench",
+  "coram": "R.V. Raveendran, J. & A.K. Patnaik, J. (judgment delivered by A.K. Patnaik, J.)",
+  "date_of_judgment": "2011-09-02",
+  "date_display": "2 September 2011",
+  "docket": "Civil Appeal No. 7572 of 2011 (arising out of SLP (C) No. 15332 of 2008)",
+  "disposition": "Appeal allowed to the extent indicated; orders of the Single Judge and Division Bench of the Calcutta High Court set aside; licensee directed to find an alternative route or follow the s.67(2) procedure within six months, existing supply not to be disconnected meanwhile",
+  "headnote": "Sections 42(1) and 43(1) of the Electricity Act, 2003 cast an affirmative statutory duty on a distribution licensee to supply electricity, on application, to the owner or occupier of any premises in its area of supply, and confer a correlative statutory right on the owner or occupier to apply for and obtain supply. A pending private/ownership dispute between the applicant and third parties — here over the passage of land through which the electric line must be drawn, the subject of a civil suit — cannot be a ground to deny the applicant supply to his house. Where the line must pass over land whose ownership is disputed and the owner/occupier objects to the works, the licensee must either find an alternative route to supply the applicant's premises or, if there is none, follow the procedure under Section 67(2) of the Act (the rules governing consent, and the authority that may grant permission where an owner/occupier objects to the carrying out of works), completing the exercise within six months; and pending that, the supply already effected to the applicant is not to be disconnected. The Supreme Court accordingly set aside the High Court's direction to disconnect the appellant's supply until he established his right to the land in the civil court.",
+  "holding_units": [
+    {
+      "provision": "EA2003::43",
+      "code": "Electricity Act, 2003",
+      "clause": "ss.42(1), 43(1)",
+      "topic": "Statutory duty to supply owner/occupier; a pending private dispute is no ground to deny supply",
+      "type": "electricity_act",
+      "question": "Can a distribution licensee (or a court) deny an applicant supply of electricity to his premises because of a pending private/ownership dispute with third parties over the land through which the line must run?",
+      "holding": "No. Sections 42(1) and 43(1) cast a statutory duty on the licensee to supply an owner or occupier of premises in its area on application, and confer a correlative statutory right to obtain supply. A pending private dispute between the applicant and third parties (here over the passage of land, the subject of a civil suit) cannot be a ground to deny the applicant supply to his house; pending resolution of that dispute the applicant cannot be denied electricity.",
+      "limiting_facts": "Applicant's house had no supply; connection given on an earlier writ; third parties then obtained disconnection on the ground that the line ran over their disputed land; civil suit over the land pending.",
+      "paras": "6-11"
+    },
+    {
+      "provision": "EA2003::67",
+      "code": "Electricity Act, 2003",
+      "clause": "s.67(1)-(2)",
+      "topic": "Drawing a line over land whose owner objects: alternative route, else the s.67(2) permission procedure",
+      "type": "electricity_act",
+      "question": "Where the electric line must be drawn over land whose ownership is disputed and the owner/occupier objects to the works, how is supply to be effected?",
+      "holding": "The licensee must first ascertain whether there is any other way to draw the line to the applicant's house; if there is none, it must follow the procedure under Section 67(2) — the rules specifying the cases where consent is required and the authority which may grant permission where an owner/occupier objects to the works. The exercise is to be completed within six months, and until supply is effected by some other route the applicant's existing supply is not to be disconnected.",
+      "limiting_facts": "Line drawn through a passage on Dag Nos. 406/407/409 claimed by the respondents; applicant contended it was a common passage; ownership to be resolved in the civil suit.",
+      "paras": "8-11"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "pending-private-dispute-no-ground-to-deny-supply",
+      "application": "A pending private/ownership dispute between the applicant and third parties is not a ground to deny the owner/occupier his statutory right to supply under s.43.",
+      "lead_authorities": [],
+      "paras": "10-11"
+    },
+    {
+      "tag": "s43-duty-to-supply-owner-or-occupier-correlative-right",
+      "application": "Sections 42(1)/43(1) impose a duty to supply an owner or occupier on application and confer a correlative statutory right to obtain supply.",
+      "lead_authorities": [],
+      "paras": "6-7"
+    },
+    {
+      "tag": "s67-line-over-objecting-owner-land-alternative-or-permission",
+      "application": "Where a line must cross land whose owner objects, the licensee must find an alternative route or follow the s.67(2) permission procedure, causing least damage and paying compensation.",
+      "lead_authorities": [],
+      "paras": "8-11"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Ownership of the disputed passage (Dag Nos. 406/407/409)",
+      "note": "Left to be resolved in Civil Suit No. 83 of 2004 (or any other suit); the Court decided only the entitlement to supply pending that resolution.",
+      "docid": "",
+      "paras": "10-11"
+    }
+  ],
+  "authorities": []
+}
