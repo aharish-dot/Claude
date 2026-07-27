@@ -1,7 +1,7 @@
 {
  "court": "supreme-court",
  "prefix": "SC",
- "next_seq": 3,
+ "next_seq": 4,
  "note": "Stable filename -> case_id map. Reuse existing ids; never renumber a processed case.",
  "cases": [
   {
@@ -15,6 +15,13 @@
    "case_id": "SC-002",
    "source_file": "43074463.ik",
    "title": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (SOUTHCO) v. Sri Seetaram Rice Mill",
+   "court": "Supreme Court of India",
+   "status": "done"
+  },
+  {
+   "case_id": "SC-003",
+   "source_file": "Raman Ispat_Vs_PVVNL.pdf",
+   "title": "Paschimanchal Vidyut Vitran Nigam Ltd. v. Raman Ispat Pvt. Ltd. & Ors.",
    "court": "Supreme Court of India",
    "status": "done"
   }
