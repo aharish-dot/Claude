@@ -1,7 +1,7 @@
 {
  "court": "high-court",
  "prefix": "HC",
- "next_seq": 12,
+ "next_seq": 13,
  "note": "Stable filename -> case_id map. Reuse existing ids; never renumber a processed case.",
  "cases": [
   {
@@ -78,6 +78,13 @@
    "case_id": "HC-011",
    "source_file": "SCJ-054_MS Dharti Agro Industries Pvt. Ltd. vs The Managing Director, Pashchimanchal ... on 18 September, 2025.html",
    "title": "M/s Dharti Agro Industries Pvt. Ltd. v. Managing Director, PVVNL & Ors.",
+   "court": "Allahabad High Court",
+   "status": "done"
+  },
+  {
+   "case_id": "HC-012",
+   "source_file": "SCJ-160_009_Reliance_Projects_Property_Management_Services_Ltd._v._State_of_U.P..pdf",
+   "title": "Reliance Projects & Property Management Services Ltd. v. State of U.P. & Ors.",
    "court": "Allahabad High Court",
    "status": "done"
   }
