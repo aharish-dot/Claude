@@ -694,6 +694,126 @@
      "proposition": "Respondents cannot take advantage of their own wrong; such conduct amounts to taking unfair advantage."
     }
    ]
+  },
+  "177537342": {
+   "name": "Electricity Act, 2003",
+   "cite": "Act No. 36 of 2003",
+   "court": "Statutory",
+   "cited_by": [
+    {
+     "case_id": "HC-011",
+     "treatment": "Cited (as foundational framework, but subordinated to IBC)",
+     "proposition": "Sections 56, 173, 174, 175 establish the framework for recovery of electricity dues, disconnection of supply for non-payment, and authorize the State Commission to frame regulations (such as the Electricity Supply Code) for recovery."
+    }
+   ]
+  },
+  "123158571": {
+   "name": "Insolvency and Bankruptcy Code, 2016",
+   "cite": "Act No. 31 of 2016",
+   "court": "Statutory",
+   "cited_by": [
+    {
+     "case_id": "HC-011",
+     "treatment": "Applied",
+     "proposition": "Sections 14, 33, 35, 50, 53, 238 establish the comprehensive regime for insolvency resolution and liquidation; Section 238 grants absolute overriding effect to the Code over all other laws."
+    }
+   ]
+  },
+  "109520577": {
+   "name": "Section 53, Insolvency and Bankruptcy Code, 2016 — Waterfall Mechanism",
+   "cite": "Section 53, IBC, 2016",
+   "court": "Statutory",
+   "cited_by": [
+    {
+     "case_id": "HC-011",
+     "treatment": "Applied",
+     "proposition": "Establishes the priority order for distribution of liquidation proceeds: (1) costs of IRP/liquidation; (2) secured creditors and workmen dues (capped); (3) employees; (4) unsecured financial creditors and workmen; (5) government dues; (6) remaining debts; (7) surplus to shareholders."
+    }
+   ]
+  },
+  "160269658": {
+   "name": "K.C. Ninan v. Kerala State Electricity Board and others",
+   "cite": "2023 SCC Online SC 663 : (2023) 9 S.C.R. 637; Civil Appeal No. 2109–2110 of 2004",
+   "court": "Supreme Court of India",
+   "cited_by": [
+    {
+     "case_id": "HC-011",
+     "treatment": "Distinguished",
+     "proposition": "Electricity utilities can create a statutory charge to recover arrears from subsequent transferees through subordinate legislation or statutory conditions of supply, grounded in the public interest of protecting utility infrastructure."
+    }
+   ]
+  },
+  "5808278": {
+   "name": "Paschimanchal Vidyut Vitran Nigam Ltd. v. Raman Ispat Private Limited and Others",
+   "cite": "AIR 2023 SC 3501",
+   "court": "Supreme Court of India",
+   "cited_by": [
+    {
+     "case_id": "HC-011",
+     "treatment": "Applied",
+     "proposition": "An electricity supply company that participates in an IBC proceeding is treated as a secured creditor under the waterfall mechanism (Section 53) and cannot demand payment from a resolution applicant or new owner; its dues must be satisfied through the liquidation process according to priority."
+    }
+   ]
+  },
+  "183986005": {
+   "name": "Tata Power Western Odisha Distribution Limited (TPWODL) & Anr. v. Jagannath Sponge Private Limited",
+   "cite": "Company Appeal (AT) No. 5556 of 2023 (Supreme Court judgment)",
+   "court": "Supreme Court of India",
+   "cited_by": [
+    {
+     "case_id": "HC-011",
+     "treatment": "Cited",
+     "proposition": "A power company cannot insist on payment of arrears (which must be paid under the waterfall mechanism) for grant of an electricity connection to a successful resolution applicant; however, the applicant must comply with other requirements for connection."
+    }
+   ]
+  },
+  "181931435": {
+   "name": "M/s Innoventive Industries Ltd. v. ICICI Bank",
+   "cite": "(2018) 1 SCC 407",
+   "court": "Supreme Court of India",
+   "cited_by": [
+    {
+     "case_id": "HC-011",
+     "treatment": "Cited",
+     "proposition": "Section 238 of the IBC mandates that the provisions of the Code shall have effect notwithstanding anything inconsistent in any other law; the non-obstante clause is ‘in the widest terms possible’ to preclude any right under any other law from impeding the Code."
+    }
+   ]
+  },
+  "1992542": {
+   "name": "Duncans Industries Ltd. v. A.J. Agrochem",
+   "cite": "(2019) 9 SCC 725; AIR 2019 Supreme Court 5472",
+   "court": "Supreme Court of India",
+   "cited_by": [
+    {
+     "case_id": "HC-011",
+     "treatment": "Cited",
+     "proposition": "Section 16G of the Tea Act, 1953 (requiring Central Government consent for winding up) is overridden by the IBC, establishing that even substantive requirements of sectoral statutes yield to the IBC."
+    }
+   ]
+  },
+  "42502475": {
+   "name": "CIT v. Monnet Ispat and Energy Ltd.",
+   "cite": "(2018) 18 SCC 786",
+   "court": "Supreme Court of India",
+   "cited_by": [
+    {
+     "case_id": "HC-011",
+     "treatment": "Cited",
+     "proposition": "The IBC’s overriding effect under Section 238 is absolute and applies to tax and revenue statutes."
+    }
+   ]
+  },
+  "73508068": {
+   "name": "K. Kishan v. Vijay Nirman Company Private Limited",
+   "cite": "(2018) 17 SCC 662",
+   "court": "Supreme Court of India",
+   "cited_by": [
+    {
+     "case_id": "HC-011",
+     "treatment": "Cited",
+     "proposition": "The IBC overrides the Arbitration and Conciliation Act, 1996; the IBC’s comprehensive framework takes precedence over other procedural statutes."
+    }
+   ]
   }
  }
 }

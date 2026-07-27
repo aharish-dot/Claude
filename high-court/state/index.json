@@ -1,7 +1,7 @@
 {
  "court": "high-court",
  "prefix": "HC",
- "next_seq": 11,
+ "next_seq": 12,
  "note": "Stable filename -> case_id map. Reuse existing ids; never renumber a processed case.",
  "cases": [
   {
@@ -71,6 +71,13 @@
    "case_id": "HC-010",
    "source_file": "007_Ashok_Kumar_v._State_of_U.P..pdf",
    "title": "Ashok Kumar & Ors. v. State of U.P. & Ors.",
+   "court": "Allahabad High Court",
+   "status": "done"
+  },
+  {
+   "case_id": "HC-011",
+   "source_file": "SCJ-054_MS Dharti Agro Industries Pvt. Ltd. vs The Managing Director, Pashchimanchal ... on 18 September, 2025.html",
+   "title": "M/s Dharti Agro Industries Pvt. Ltd. v. Managing Director, PVVNL & Ors.",
    "court": "Allahabad High Court",
    "status": "done"
   }
