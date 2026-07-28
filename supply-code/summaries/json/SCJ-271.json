@@ -1,0 +1,161 @@
+{
+  "case_id": "SCJ-271",
+  "title": "RKG Industries LLP v. Uttar Pradesh Power Corporation Limited & 4 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sunita Agarwal, J. & Vipin Chandra Dixit, J.",
+  "date_of_judgment": "2023-05-08",
+  "date_display": "8 May 2023",
+  "docket": "Civil Misc. Review Application No. 129 of 2023 (in Writ-C; original judgment dated 30 September 2022)",
+  "disposition": "Review application dismissed as devoid of merit; the original judgment dismissing the writ petition affirmed; the licensee held entitled to recover the erstwhile owner's outstanding electricity dues from the auction purchaser by initiating proceedings for recovery as arrears of land revenue",
+  "headnote": "Where an auction purchaser buys a property in a distress sale (here, a sale by the Debt Recovery Tribunal under the SARFAESI Act, 2002) on an \"as is where is\" basis, Clause 4.3(f)(i) of the U.P. Electricity Supply Code, 2005 casts a co-extensive statutory duty on the purchaser, as much as on the seller, to find out and clear the outstanding electricity dues on the premises up to the date of sale and obtain a no-dues certificate; that duty is not confined to private sales. Electricity dues are statutory in character under the Electricity Act, 2003 and the terms and conditions of supply, cannot be waived in view of Section 56, and do not partake of the character of purely contractual dues; a condition that arrears be cleared before a fresh connection is given is neither arbitrary nor unreasonable (Telangana State Southern Power Distribution Co. v. Srigdhaa Beverages; PVVNL v. DVS Steels). Isha Marbles is distinguishable because there was no clause in that auction dealing with electricity dues, whereas here the property was expressly sold \"as is where is\" with the Recovery Officer disclaiming knowledge of any encumbrances, putting the purchaser to enquiry. Clause 4.3(f)(v) (financial-institution auctions) does not make a claim against the financial institution the licensee's only route: it does not bar recovery from the auction purchaser, especially where (as here) SARFAESI Section 26-E gave the secured creditor priority and no surplus was shown to remain with the bank. The review was accordingly dismissed and the licensee held entitled to recover the dues from the purchaser as arrears of land revenue.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.3(f)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.3(f)(i)-(iii)",
+      "topic": "Auction purchaser's co-extensive duty to clear a predecessor's electricity dues on an \"as is where is\" distress sale; duty not confined to private sales",
+      "type": "supply_code",
+      "question": "Can the outstanding electricity dues of the erstwhile owner be recovered from an auction purchaser who bought the premises in a DRT/SARFAESI distress sale on an \"as is where is\" basis, or is Clause 4.3(f)(i) confined to private sales?",
+      "holding": "Yes, the dues can be recovered. Clause 4.3(f)(i) casts a co-extensive duty on both seller and purchaser to find out and pay the outstanding electricity dues up to the date of sale and obtain a no-dues certificate, and Clause 4.3(f)(iii) obliges a purchaser who has no such certificate to apply to the licensee before purchase; this duty is not confined to private sales. Where the property is sold \"as is where is\" with the Recovery Officer disclaiming knowledge of encumbrances, the purchaser is put to enquiry and, having made none, cannot escape the erstwhile owner's dues. The licensee is entitled to recover them from the purchaser as arrears of land revenue.",
+      "limiting_facts": "Property G-599 to G-623, Mussoorie–Gulawati Road Industrial Area, Ghaziabad; sold by DRT-II Delhi Recovery Officer under SARFAESI; sale proclamation dated 14.5.2019 stated \"as is where is\" and \"Not Known\" against encumbrances; erstwhile owner's dues of Rs. 1,76,00,528 had been communicated to the Recovery Officer (letter 23.10.2015) and were not included in the sale consideration; no no-dues application made by the purchaser.",
+      "paras": "29-32, 42-44"
+    },
+    {
+      "provision": "UP-2005::4.3(f)(v)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.3(f)(v) r/w s.26-E, SARFAESI Act 2002",
+      "topic": "Financial-institution-auction sub-clause does not make a claim against the institution the sole recovery route; SARFAESI priority of the secured creditor",
+      "type": "supply_code",
+      "question": "Does Clause 4.3(f)(v) — permitting the licensee to lodge its claim with a financial institution that auctioned the property — mean recovery can only be made from the institution and not from the auction purchaser?",
+      "holding": "No. Clause 4.3(f)(v) merely enables the licensee to lodge a claim with the financial institution that auctioned a company's property; it does not bar recovery of the outstanding dues from the auction purchaser. In any event Section 26-E of the SARFAESI Act gives the secured creditor priority, and the purchaser did not show that the sale consideration exceeded the bank's debt so as to leave a surplus from which the electricity dues could have been met; the licensee could therefore proceed against the purchaser.",
+      "limiting_facts": "Sale conducted for the secured creditor bank's DRT dues; no plea or proof that any surplus remained with the bank after settling its own debt.",
+      "paras": "29, 33, 44"
+    },
+    {
+      "provision": "EA2003::56",
+      "code": "Electricity Act, 2003",
+      "clause": "s.56 r/w Clause 6.15, U.P. Supply Code 2005",
+      "topic": "Electricity dues are statutory in character, not purely contractual, and a clearance condition for a fresh connection is not unreasonable",
+      "type": "electricity_act",
+      "question": "Are electricity dues purely contractual (so unenforceable against a third-party purchaser), or statutory in character such that clearance may be insisted upon as a condition of supply?",
+      "holding": "Electricity dues under the Act and the terms and conditions of supply are statutory in character, cannot be waived in view of Section 56, and do not partake of the character of purely contractual dues. A condition that the arrears in respect of the premises be cleared before a fresh connection is granted is neither arbitrary nor unreasonable and will not be interfered with in judicial review; and such dues are recoverable as arrears of land revenue under the U.P. Government Electrical Undertakings (Dues Recovery) Act, 1958 read with Clause 6.15.",
+      "limiting_facts": "Dues sought to be recovered as arrears of land revenue; statutory character affirmed on the authority of Hyderabad Vanaspathi and Telangana SPDCL.",
+      "paras": "25-26, 41-44"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "auction-purchaser-liable-for-predecessor-dues-as-is-where-is",
+      "application": "An auction purchaser buying on an \"as is where is\" basis is put to enquiry about, and takes the premises subject to, the erstwhile owner's outstanding electricity dues, which the licensee may recover from him.",
+      "lead_authorities": [
+        {"name": "Telangana State Southern Power Distribution Co. Ltd. v. Srigdhaa Beverages", "docid": ""}
+      ],
+      "paras": "40-44"
+    },
+    {
+      "tag": "clause-4.3f-co-extensive-liability-not-confined-to-private-sale",
+      "application": "The Clause 4.3(f)(i) duty to find out and clear outstanding electricity dues to obtain a no-dues certificate is co-extensive on seller and purchaser and applies to auction/distress sales, not only private sales.",
+      "lead_authorities": [],
+      "paras": "30-31, 44"
+    },
+    {
+      "tag": "electricity-dues-statutory-character-clearance-condition-not-unreasonable",
+      "application": "Electricity dues are statutory, not purely contractual; insisting on clearance of a premises' arrears as a condition of a fresh connection is not arbitrary or unreasonable.",
+      "lead_authorities": [
+        {"name": "Paschimanchal Vidyut Vitran Nigam Ltd. v. DVS Steels & Alloys (P) Ltd.", "docid": "SCJ-099"},
+        {"name": "Hyderabad Vanaspathi Ltd. v. A.P. State Electricity Board", "docid": ""}
+      ],
+      "paras": "38-41"
+    },
+    {
+      "tag": "isha-marbles-distinguishable-where-auction-clause-covers-dues",
+      "application": "Isha Marbles is confined to auctions with no clause dealing with electricity dues; where the auction is \"as is where is\" and the terms put the purchaser to notice of dues, the purchaser is liable.",
+      "lead_authorities": [
+        {"name": "Isha Marbles v. Bihar State Electricity Board", "docid": ""}
+      ],
+      "paras": "37, 42"
+    }
+  ],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "Telangana State Southern Power Distribution Co. Ltd. v. Srigdhaa Beverages",
+      "citation": "(2020) 6 SCC 404",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Electricity dues, being statutory in character under the Electricity Act, 2003 and the terms and conditions of supply, cannot be waived and do not partake of the character of purely contractual dues; where the auction notice sells the property \"as is where is, whatever there is and without recourse\" and puts the purchaser to notice, the liability to pay the last owner's electricity dues rests on the auction purchaser, and the question of new connection or re-connection is not relevant.",
+      "how_treated": "Followed as the governing authority to hold the auction purchaser liable for the erstwhile owner's electricity dues on the \"as is where is\" sale.",
+      "how_treated_paras": "15, 34-42",
+      "cited_by": "Respondent",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Isha Marbles v. Bihar State Electricity Board",
+      "citation": "(1995) 2 SCC 648",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "An auction purchaser who is a third party unconnected with the previous consumer is not a \"consumer\" and cannot be saddled with the previous consumer's electricity dues as a condition of supply, since electricity dues are no charge on the property; what matters is the contract of the erstwhile consumer, which cannot be enforced against a third party.",
+      "how_treated": "Distinguished: it applied where the auction had no clause dealing with electricity dues, whereas here the property was sold \"as is where is\" with the terms putting the purchaser to notice, so its reasoning did not aid the review applicant.",
+      "how_treated_paras": "10, 37, 42",
+      "cited_by": "Applicant",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "Paschimanchal Vidyut Vitran Nigam Ltd. v. DVS Steels & Alloys (P) Ltd.",
+      "citation": "(2009) 1 SCC 210",
+      "court": "Supreme Court",
+      "docid": "SCJ-099",
+      "proposition": "Though electricity dues are not a charge on the premises and a transferee has no privity with the supplier, when a purchaser seeks a fresh connection the distributor may stipulate clearance of the arrears due on the premises as a condition of supply; if statutory rules govern such conditions the distributor may insist on their fulfilment, and so long as the conditions are not arbitrary or unreasonable courts will not interfere.",
+      "how_treated": "Relied on (para 12) to hold that insisting on clearance of the arrears as a condition of a fresh connection was neither arbitrary nor unreasonable, notwithstanding the applicant's reliance on the same decision.",
+      "how_treated_paras": "11, 41",
+      "cited_by": "Applicant",
+      "treatment": "Relied on"
+    },
+    {
+      "name": "Hyderabad Vanaspathi Ltd. v. A.P. State Electricity Board",
+      "citation": "(1998) 4 SCC 470",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Electricity dues under the terms and conditions of supply partake of the character of statutory dues; the agreements with individual consumers only bring the statutory terms to their notice and do not render the terms purely contractual.",
+      "how_treated": "Referred (through Telangana SPDCL) to affirm the statutory, non-contractual character of the dues.",
+      "how_treated_paras": "38",
+      "cited_by": "Respondent",
+      "treatment": "Referred"
+    },
+    {
+      "name": "Dakshin Haryana Bijli Vitran Nigam Ltd. v. Paramount Polymers (P) Ltd.",
+      "citation": "(2006) 13 SCC 101",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Where a specific clause deals with electricity dues, a transferee who desires the service connection must pay the outstanding dues, and a reconnection or new connection shall not be given to premises with arrears unless so declared in advance.",
+      "how_treated": "Referred (through Telangana SPDCL) in support of a purchaser's liability where the terms deal with dues.",
+      "how_treated_paras": "39",
+      "cited_by": "Respondent",
+      "treatment": "Referred"
+    },
+    {
+      "name": "Southern Power Distribution Co. of Telangana Ltd. v. Gopal Agarwal",
+      "citation": "(2018) 12 SCC 644",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Considered in Telangana SPDCL v. Srigdhaa Beverages on the liability of a subsequent/auction purchaser for the previous owner's electricity dues.",
+      "how_treated": "Referred as part of the line of authority reviewed in Telangana SPDCL.",
+      "how_treated_paras": "34",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    },
+    {
+      "name": "Allahabad High Court DB, Misc. Bench No. 971 of 2018 (decided 16 January 2018)",
+      "citation": "Misc. Bench No. 971 of 2018 (Allahabad HC, DB)",
+      "court": "Allahabad High Court (DB)",
+      "docid": "",
+      "proposition": "Where a bank/financial institution auctioned property without enquiring from the electricity department about outstanding dues, it was liable to pay those dues out of the surplus sale proceeds, with directions to decide after notice to the borrower and the department.",
+      "how_treated": "Distinguished as misplaced on the facts, because the sale consideration did not include, and no surplus was available to meet, the electricity dues.",
+      "how_treated_paras": "13, 19",
+      "cited_by": "Applicant",
+      "treatment": "Distinguished"
+    }
+  ]
+}

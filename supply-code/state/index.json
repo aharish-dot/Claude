@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 271,
+  "next_seq": 272,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -1624,6 +1624,12 @@
       "case_id": "SCJ-270",
       "source_basename": "CC_Office_upercorg_20260728_153129_1_60-ocr (compilation) — split part for SCJ-270",
       "title": "HSA Traders v. Office of the Executive Engineer, Electricity Distribution Division, Paschimanchal Vidyut Vitran Nigam Limited & Anr.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-271",
+      "source_basename": "Rkg Industries Llp vs Uttar Pradesh Power Corporation ... on 8 May, 2023",
+      "title": "RKG Industries LLP v. Uttar Pradesh Power Corporation Limited & 4 Others",
       "status": "done"
     }
   ]
