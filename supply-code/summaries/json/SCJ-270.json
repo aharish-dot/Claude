@@ -1,0 +1,107 @@
+{
+  "case_id": "SCJ-270",
+  "title": "HSA Traders v. Office of the Executive Engineer, Electricity Distribution Division, Paschimanchal Vidyut Vitran Nigam Limited & Anr.",
+  "neutral_citation": "2023 SCC OnLine NCLT 10668",
+  "court": "National Company Law Tribunal, Allahabad Bench (Prayagraj)",
+  "bench": "Division Bench",
+  "coram": "Praveen Gupta, Member (Judicial) & Ashish Verma, Member (Technical)",
+  "date_of_judgment": "2023-02-21",
+  "date_display": "21 February 2023",
+  "docket": "IA No. 219/2022 in CP(IB) No. 140/ALD/2017",
+  "disposition": "IA allowed; licensee directed to complete documentation on the applicant's application and energise the electricity connection in terms of the Electricity Act, 2003 without insisting on payment of pre-CIRP dues, the applicants to complete all other statutory requirements",
+  "headnote": "A Successful Auction Purchaser of the assets of a corporate debtor sold in liquidation cannot be required to pay the corporate debtor's pre-CIRP electricity dues as a pre-condition to a fresh electricity connection. By Section 238 of the Insolvency and Bankruptcy Code, 2016 the Code overrides the Electricity Act, 2003 and the U.P. Supply Code, 2005 to the extent of inconsistency (following the NCLAT in PVVNL v. Raman Ispat, unstayed though pending in the Supreme Court). Clause 4.3(f) of the Supply Code, which makes outstanding dues a first charge and casts joint liability on seller and purchaser, is inconsistent with Section 53 of the Code; the licensee is at most a secured operational creditor entitled to receive its pre-CIRP dues only through the Section 53 waterfall and cannot realise them from the auction purchaser (following the NCLAT in Eastern Power Distribution Co. of A.P. v. Maithan Alloys and the Calcutta High Court in West Bengal SEDCL v. Sri Vasavi Industries). On completion of the liquidation the right to recover pre-CIRP dues stands extinguished, and where a duty to supply is cast by the Electricity Act the licensee must energise the connection without insisting on those dues.",
+  "holding_units": [
+    {
+      "provision": "IBC::238",
+      "code": "Insolvency and Bankruptcy Code, 2016",
+      "clause": "s.238 r/w Clause 4.3(f), U.P. Electricity Supply Code 2005",
+      "topic": "IBC override of the Supply Code; auction purchaser not liable for the corporate debtor's pre-CIRP electricity dues",
+      "type": "interplay",
+      "question": "Does Section 238 IBC override Clause 4.3(f) of the U.P. Supply Code so that a successful auction purchaser of the liquidated assets need not clear the corporate debtor's pre-CIRP electricity dues to obtain a fresh connection?",
+      "holding": "Yes. Section 238, being a non-obstante provision in a subsequent parliamentary enactment, gives the Code overriding effect over the Electricity Act, 2003 and the Supply Code, 2005 wherever inconsistent (following NCLAT in PVVNL v. Raman Ispat). Clause 4.3(f), making outstanding dues a first charge and casting joint liability on seller and purchaser, is inconsistent with Section 53 and cannot be enforced against the auction purchaser; the licensee's demand of pre-CIRP dues as a pre-condition to the connection was rejected.",
+      "limiting_facts": "Applicant No. 1 (HSA Traders, sole proprietor) was the successful auction purchaser of the liquidated assets of corporate debtor Shashi Oils & Fats Pvt. Ltd. (dissolved 15.07.2021); the connection was sought in the name of Applicant No. 2 (Ezwaste Recycling Pvt. Ltd.), of which he is a director; licensee demanded Rs. 39,15,625 of pre-CIRP dues.",
+      "paras": "9-13"
+    },
+    {
+      "provision": "IBC::53",
+      "code": "Insolvency and Bankruptcy Code, 2016",
+      "clause": "s.53(1)",
+      "topic": "Liquidation waterfall: licensee a secured operational creditor recovering pre-CIRP dues only under Section 53; extinguishment of the right to recover from the purchaser",
+      "type": "interplay",
+      "question": "How are the licensee's pre-CIRP electricity dues to be recovered where the premises are sold in liquidation, and can they be demanded from the auction purchaser before supply?",
+      "holding": "The licensee is at most a secured operational creditor entitled to receive its pre-CIRP dues only through the Section 53 distribution of liquidation proceeds; it cannot realise them from the successful auction purchaser (Maithan Alloys). On completion of the liquidation the right to recover the pre-CIRP dues stands extinguished, and where the Electricity Act casts a duty to supply the licensee must energise the connection without insisting on those dues.",
+      "limiting_facts": "Assets sold in liquidation of Shashi Oils & Fats; licensee's claim to be lodged with the Liquidator; demand of Rs. 39,15,625 raised against the purchaser; Respondent admitted no recovery had been initiated against the applicant.",
+      "paras": "12-16"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "section-238-ibc-overrides-supply-code-clause-4.3f",
+      "application": "Section 238 IBC overrides Clause 4.3(f) of the U.P. Supply Code where inconsistent; a fresh connection to an auction purchaser cannot be conditioned on clearing the corporate debtor's pre-CIRP dues.",
+      "lead_authorities": [
+        {"name": "Paschimanchal Vidyut Vitran Nigam Ltd. v. Raman Ispat Pvt. Ltd. (NCLAT)", "docid": ""}
+      ],
+      "paras": "9-11"
+    },
+    {
+      "tag": "pre-cirp-electricity-dues-recoverable-only-under-section-53-waterfall",
+      "application": "The licensee is a secured operational creditor recovering pre-CIRP dues only through the Section 53 waterfall, not from the auction purchaser; on liquidation the right to recover from the premises/purchaser is extinguished.",
+      "lead_authorities": [
+        {"name": "Eastern Power Distribution Co. of Andhra Pradesh Ltd. v. Maithan Alloys Ltd. (NCLAT)", "docid": ""},
+        {"name": "West Bengal State Electricity Distribution Co. Ltd. v. Sri Vasavi Industries Ltd.", "docid": ""}
+      ],
+      "paras": "12-15"
+    },
+    {
+      "tag": "duty-to-supply-survives-extinguishment-of-right-to-recover",
+      "application": "On extinguishment of the right to recover, if a duty to supply is cast under the Electricity Act, 2003, the licensee cannot escape performing that duty and must energise the connection.",
+      "lead_authorities": [
+        {"name": "West Bengal State Electricity Distribution Co. Ltd. v. Sri Vasavi Industries Ltd.", "docid": ""}
+      ],
+      "paras": "14-15"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Final correctness of the NCLAT's Section 238 ruling in PVVNL v. Raman Ispat",
+      "note": "The NCLAT order (15.05.2019) was under challenge in the Supreme Court (CA No. 7976/2019) but unstayed; the Tribunal decided the issue as per the NCLAT ruling.",
+      "docid": "",
+      "paras": "9-10"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Paschimanchal Vidyut Vitran Nigam Ltd. v. Raman Ispat Pvt. Ltd. (NCLAT)",
+      "citation": "Company Appeal (AT) (Insolvency) No. 639 of 2018, decided 15 May 2019",
+      "court": "National Company Law Appellate Tribunal",
+      "docid": "",
+      "proposition": "Section 238 of the I&B Code, being a subsequent parliamentary law with a non-obstante clause, has overriding effect on all laws in force including the Electricity Act, 2003 and the rules/regulations framed thereunder where inconsistent; the Electricity Act cannot override the Code.",
+      "how_treated": "Followed to hold that Clause 4.3(f) of the Supply Code yields to the Code and the auction purchaser need not clear pre-CIRP dues.",
+      "how_treated_paras": "9-10",
+      "cited_by": "Applicant",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Eastern Power Distribution Co. of Andhra Pradesh Ltd. v. Maithan Alloys Ltd. (NCLAT)",
+      "citation": "Company Appeal (AT) (Insolvency) No. 961 of 2021",
+      "court": "National Company Law Appellate Tribunal",
+      "docid": "",
+      "proposition": "A successful auction purchaser in the liquidation of a corporate debtor is not liable to pay the electricity dues (pre-CIRP and during CIRP) of the corporate debtor; the licensee's pre-CIRP dues are operational debt to be paid under Section 53 and the licensee cannot realise them from the auction purchaser, that being in conflict with the statutory scheme of the Code.",
+      "how_treated": "Followed to direct energisation of the connection without insisting on pre-CIRP dues.",
+      "how_treated_paras": "13",
+      "cited_by": "Applicant",
+      "treatment": "Followed"
+    },
+    {
+      "name": "West Bengal State Electricity Distribution Co. Ltd. v. Sri Vasavi Industries Ltd.",
+      "citation": "MAT 646 of 2022, Calcutta High Court, decided 12 July 2022",
+      "court": "Calcutta High Court (DB)",
+      "docid": "",
+      "proposition": "In case of conflict with State legislation the IBC prevails over the State Electricity Regulation; on extinguishment of the right to recover pre-resolution dues, if a duty to supply is cast under the Electricity Act, 2003, the supplier cannot escape performing that duty and must provide the connection.",
+      "how_treated": "Followed to direct the licensee to energise the connection in terms of the Electricity Act without insisting on pre-CIRP dues.",
+      "how_treated_paras": "14",
+      "cited_by": "Applicant",
+      "treatment": "Followed"
+    }
+  ]
+}

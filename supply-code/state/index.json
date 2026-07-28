@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 266,
+  "next_seq": 271,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -1594,6 +1594,36 @@
       "case_id": "SCJ-265",
       "source_basename": "JUDGMENT_ORDER IN - MISC. BENCH No. 9588 of 2014 at Lucknow Dated-24.9.2014 CASE TITLE - Smt. Sushama Chowdhary Vs. U.P. Pow",
       "title": "Smt. Sushama Chowdhary v. U.P. Power Corporation Ltd. thru. Chairman & 4 Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-266",
+      "source_basename": "CC_Office_upercorg_20260728_153129_1_60-ocr (compilation) — split part for SCJ-266",
+      "title": "Trimurti Concast Pvt. Ltd. v. Paschimanchal Vidyut Vitran Nigam Limited",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-267",
+      "source_basename": "CC_Office_upercorg_20260728_153129_1_60-ocr (compilation) — split part for SCJ-267",
+      "title": "S.K. Construction Co. v. State of U.P. & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-268",
+      "source_basename": "CC_Office_upercorg_20260728_153129_1_60-ocr (compilation) — split part for SCJ-268",
+      "title": "Vijay Lakshmi v. Bihar State Electricity Board & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-269",
+      "source_basename": "CC_Office_upercorg_20260728_153129_1_60-ocr (compilation) — split part for SCJ-269",
+      "title": "Ujala Kumar @ Ujala Singh v. State of Bihar & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-270",
+      "source_basename": "CC_Office_upercorg_20260728_153129_1_60-ocr (compilation) — split part for SCJ-270",
+      "title": "HSA Traders v. Office of the Executive Engineer, Electricity Distribution Division, Paschimanchal Vidyut Vitran Nigam Limited & Anr.",
       "status": "done"
     }
   ]

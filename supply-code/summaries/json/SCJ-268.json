@@ -1,0 +1,136 @@
+{
+  "case_id": "SCJ-268",
+  "title": "Vijay Lakshmi v. Bihar State Electricity Board & Ors.",
+  "neutral_citation": "2013 SCC OnLine Pat 966 : (2013) 4 PLJR 210 : (2013) 4 BBCJ 72",
+  "court": "High Court of Patna",
+  "bench": "Single Judge",
+  "coram": "Ramesh Kr. Datta, J.",
+  "date_of_judgment": "2013-08-12",
+  "date_display": "12 August 2013",
+  "docket": "CWJC No. 17712 of 2012",
+  "disposition": "Writ application disposed of; the Board directed not to insist on payment of the erstwhile tenant's arrears and to grant a new domestic connection to the petitioner within one month under Section 43 of the Electricity Act, 2003",
+  "headnote": "Clause 4.15(vi) of the Bihar Electricity Supply Code, 2007 fastens liability for a tenant's electricity arrears on the house-owner only where the connection to the premises was given with the owner's consent; that consent is a precondition to the sub-clause and, absent proof of it, the owner (or a successor-in-title who is neither an associate nor a relative of the defaulting consumer) cannot be refused a fresh connection on account of the tenant's dues. Electricity arrears are not a charge on the premises, so a transferee is liable for a predecessor's dues only where statutory rules or statutory conditions of supply so provide (Haryana SEB v. Hanuman Rice Mills; PVVNL v. DvS Steels). Here the petitioner acquired the premises through a family partition decree, there was nothing on record to show the tenant's connection had been given with the consent of the petitioner's father, and the Code of 2007 was not even in force on the date of disconnection (11.3.2007), so Clause 4.15(vi) could not be applied retrospectively. The third proviso to Clause 4.1 (arrears of an associate/relative) had no application, and Section 56(2) of the Act was inapplicable on the facts. The Board was directed to grant the connection.",
+  "holding_units": [
+    {
+      "provision": "BIHAR-2007::4.15",
+      "code": "Bihar Electricity Supply Code, 2007",
+      "clause": "4.15(vi)",
+      "topic": "Owner's liability for a tenant's arrears arises only where the connection was given with the owner's consent; no retrospective application",
+      "type": "supply_code",
+      "question": "Can the Board refuse a new connection to the owner/successor of premises under Clause 4.15(vi) on account of a former tenant's arrears, where there is no proof the tenant's connection was given with the owner's consent and the Code post-dates the disconnection?",
+      "holding": "No. Clause 4.15(vi) applies only where the electricity connection to the premises was given with the consent of the house-owner; that precondition must be satisfied before the owner can be made liable for the tenant's arrears. There being nothing on record to show the tenant's connection was given with the consent of the petitioner's father, and the Code of 2007 not being in force on the date of disconnection (so the clause cannot operate retrospectively), the Board could not insist on payment of the tenant's arrears and was directed to grant a new connection within one month.",
+      "limiting_facts": "Petitioner became owner through a family partition compromise decree (2003); premises had arrears (Rs. 2,03,473) of a former tenant (Shankar Rai) whose LTIS connection was disconnected on 11.3.2007; Bihar Supply Code gazetted 10.1.2008; petitioner not an associate or relative of the defaulting tenant.",
+      "paras": "16-18"
+    },
+    {
+      "provision": "BIHAR-2007::4.1",
+      "code": "Bihar Electricity Supply Code, 2007",
+      "clause": "4.1 (third proviso)",
+      "topic": "Arrears of an associate/relative: third proviso to Clause 4.1 inapplicable to an unconnected successor",
+      "type": "supply_code",
+      "question": "Does the third proviso to Clause 4.1 (which bars a new connection where the applicant is an associate or relative of the defaulting consumer with arrears) apply to the petitioner?",
+      "holding": "No. The third proviso to Clause 4.1 applies only where the applicant is an associate or relative of the defaulting consumer; the petitioner, being neither an associate nor a relative of the erstwhile tenant, does not fall within it, and it furnishes no ground to deny her a connection.",
+      "limiting_facts": "Defaulting consumer was the father's erstwhile tenant, not a relative or associate of the petitioner.",
+      "paras": "15"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "owner-consent-precondition-clause-4.15vi-bihar-code",
+      "application": "Clause 4.15(vi) of the Bihar Supply Code makes the owner liable for a tenant's arrears only where the connection was given with the owner's consent; without proof of consent the clause cannot be invoked to deny a fresh connection.",
+      "lead_authorities": [],
+      "paras": "16"
+    },
+    {
+      "tag": "electricity-arrears-not-a-charge-transferee-liable-only-under-statutory-rules",
+      "application": "Electricity arrears are not a charge on the premises; a transferee is liable for a predecessor's dues only where statutory rules or statutory conditions of supply so authorise.",
+      "lead_authorities": [
+        {"name": "Haryana State Electricity Board v. Hanuman Rice Mills", "docid": ""},
+        {"name": "Paschimanchal Vidyut Vitran Nigam Ltd. v. DvS Steels & Alloys (P) Ltd.", "docid": ""}
+      ],
+      "paras": "9-10"
+    },
+    {
+      "tag": "no-retrospective-operation-of-supply-code-clause",
+      "application": "A Supply Code clause cannot be applied retrospectively to fasten liability arising from a disconnection that pre-dates the Code's coming into force.",
+      "lead_authorities": [],
+      "paras": "17"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Applicability of Section 56(2) of the Electricity Act, 2003 (two-year limitation)",
+      "note": "Held to have no application on the facts, since the last bill at disconnection (11.3.2007) showed the entire arrears and the arrears were not being carried forward as continuously recoverable.",
+      "docid": "",
+      "paras": "14"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Haryana State Electricity Board v. Hanuman Rice Mills",
+      "citation": "2010 (4) PLJR (SC) 61",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Electricity arrears do not constitute a charge over the property, so a transferee of premises cannot in general law be made liable for the dues of the previous owner/occupier; but where statutory rules or statutory conditions of supply authorise the supplier to demand the previous owner/occupier's arrears from a purchaser seeking re-connection or a fresh connection, the supplier can recover the arrears from the purchaser.",
+      "how_treated": "Relied on to hold that, absent an applicable statutory condition, the petitioner-transferee could not be saddled with the former tenant's arrears.",
+      "how_treated_paras": "9-10",
+      "cited_by": "Petitioner",
+      "treatment": "Relied on"
+    },
+    {
+      "name": "Paschimanchal Vidyut Vitran Nigam Ltd. v. DvS Steels & Alloys (P) Ltd.",
+      "citation": "(2009) 1 SCC 210",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "A transferee/subsequent occupant with whom the supplier has no privity cannot be asked to pay the dues of a predecessor, as the amount is not a charge on the premises; but the distributor may stipulate clearance of past arrears as a condition of a fresh connection, and where statutory rules govern such conditions the distributor may insist on their fulfilment.",
+      "how_treated": "Referred (through Hanuman Rice Mills) for the principle that arrears bind a purchaser only under statutory conditions of supply.",
+      "how_treated_paras": "9",
+      "cited_by": "Petitioner",
+      "treatment": "Referred"
+    },
+    {
+      "name": "Smt. Rekha Gupta v. Bihar State Electricity Board",
+      "citation": "1999 (3) PLJR 222",
+      "court": "High Court of Patna",
+      "docid": "",
+      "proposition": "The liability to pay electricity dues is a personal contractual liability between the Board and the consumer and cannot be enforced against a third party such as a landlord or bona fide purchaser unconnected with the erstwhile consumer, as it is not a charge over the property; the Board cannot take advantage of its own wrong in allowing arrears to accumulate to refuse a new connection.",
+      "how_treated": "Relied on for the principle that arrears are a personal liability not enforceable against an unconnected successor.",
+      "how_treated_paras": "7",
+      "cited_by": "Petitioner",
+      "treatment": "Relied on"
+    },
+    {
+      "name": "Archana Devi v. Chairman, Bihar State Electricity Board",
+      "citation": "2012 (4) PLJR 701",
+      "court": "High Court of Patna",
+      "docid": "",
+      "proposition": "Under the Supply Code, no obligation is cast on a purchaser to enquire into or clear pending electricity dues unless she is a relative of the defaulting consumer; the third proviso to Clause 4.1 requires clearance only from such a relative-purchaser.",
+      "how_treated": "Relied on to hold that no duty to clear the former tenant's dues was cast on the unconnected petitioner.",
+      "how_treated_paras": "8",
+      "cited_by": "Petitioner",
+      "treatment": "Relied on"
+    },
+    {
+      "name": "Isha Marbles v. Bihar State Electricity Board",
+      "citation": "(1995) 2 SCC 648",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "A purchaser of a unit in a statutory auction who had no connection with the original consumer is not bound by the personal agreement of, and is not statutorily liable to clear the personal dues of, the erstwhile consumer.",
+      "how_treated": "Referred (through Rekha Gupta) as affirming the Patna High Court's view that unconnected purchasers are not liable for a predecessor's dues.",
+      "how_treated_paras": "7",
+      "cited_by": "Petitioner",
+      "treatment": "Referred"
+    },
+    {
+      "name": "Sanjay Kumar Singh v. Bihar State Electricity Board",
+      "citation": "CWJC No. 16101 of 2010, decided 2 December 2010",
+      "court": "High Court of Patna",
+      "docid": "",
+      "proposition": "In view of Clause 4.15(vi), no fault can be found with the Board's stand that until dues are cleared it need not provide a connection.",
+      "how_treated": "Distinguished as of no avail, since the issues of the consent precondition and non-retrospectivity of Clause 4.15(vi) did not arise there.",
+      "how_treated_paras": "18",
+      "cited_by": "Respondent",
+      "treatment": "Distinguished"
+    }
+  ]
+}

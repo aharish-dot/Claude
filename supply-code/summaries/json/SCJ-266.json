@@ -1,0 +1,93 @@
+{
+  "case_id": "SCJ-266",
+  "title": "Trimurti Concast Pvt. Ltd. v. Paschimanchal Vidyut Vitran Nigam Limited",
+  "neutral_citation": "2023 SCC OnLine NCLT 11590",
+  "court": "National Company Law Tribunal, Allahabad Bench (Prayagraj)",
+  "bench": "Division Bench",
+  "coram": "Praveen Gupta, Member (Judicial) & Ashish Verma, Member (Technical)",
+  "date_of_judgment": "2023-02-23",
+  "date_display": "23 February 2023",
+  "docket": "IA No. 409/2022 in CP(IB) No. 355/ALD/2019",
+  "disposition": "IA allowed; the licensee held not legally correct in rejecting the new-connection application on account of pre-CIRP dues, and directed to consider the corporate debtor's application and take immediate steps to energise a new connection as a going concern, without recovery of pre-CIRP dues from the corporate debtor (other requirements of the Electricity Act, 2003 r/w U.P. Supply Code, 2005 to be adhered to)",
+  "headnote": "Where a resolution plan for a corporate debtor has been approved under Section 31 of the Insolvency and Bankruptcy Code, 2016 and the management has passed to the Successful Resolution Applicant, the distribution licensee cannot refuse the corporate debtor (under new management) a fresh electricity connection on the ground of pre-CIRP electricity dues invoking Clause 4.3(f) of the U.P. Electricity Supply Code, 2005 r/w Section 180 of the Electricity Act, 2003. On approval of the plan all claims not forming part of it stand frozen and extinguished (Ghanshyam Mishra & Sons v. Edelweiss ARC), and Section 32A(2) of the Code bars any action against the property of the corporate debtor for a pre-CIRP liability where the plan results in a change of control to a person not connected with the erstwhile management. The corporate debtor is an independent entity and is not liable for pre-CIRP dues after approval of the plan; the licensee's reliance on Narendra Singh Panwar v. PVVNL was misplaced, as that decision concerned only the co-extensive personal liability of the erstwhile directors as guarantors under an independent contract of guarantee, not the liability of the corporate debtor itself. The licensee was accordingly directed to provide a new connection to support the revival of the corporate debtor as a going concern, without recovering pre-CIRP dues from it.",
+  "holding_units": [
+    {
+      "provision": "IBC::31",
+      "code": "Insolvency and Bankruptcy Code, 2016",
+      "clause": "s.31 r/w Clause 4.3(f), U.P. Electricity Supply Code 2005",
+      "topic": "Clean slate on approval of a resolution plan: pre-CIRP electricity dues extinguished; new connection cannot be denied to the corporate debtor under new management",
+      "type": "interplay",
+      "question": "After a resolution plan is approved under Section 31 IBC and control passes to the Successful Resolution Applicant, can the distribution licensee refuse the corporate debtor a fresh connection under Clause 4.3(f) of the U.P. Supply Code for pre-CIRP electricity dues?",
+      "holding": "No. Once a resolution plan is approved under Section 31, all claims not forming part of the plan stand frozen and extinguished and no person may initiate or continue proceedings in respect of them (Ghanshyam Mishra & Sons). The corporate debtor, being an independent entity under new management, is not liable for pre-CIRP dues; the licensee cannot invoke Clause 4.3(f) to refuse a new connection on account of such dues and must energise the connection to support the corporate debtor as a going concern, subject otherwise to the Electricity Act, 2003 and Supply Code, 2005.",
+      "limiting_facts": "Resolution plan approved 22.03.2022; SRA (Shree Shailja Iron & Steel) took over; SRA paid the admitted claim of Rs. 6,62,848; new management applied for a fresh connection which the Executive Engineer rejected citing pre-CIRP dues on the premises.",
+      "paras": "5-9"
+    },
+    {
+      "provision": "IBC::32A",
+      "code": "Insolvency and Bankruptcy Code, 2016",
+      "clause": "s.32A(2)",
+      "topic": "Statutory bar on action against the property of the corporate debtor for pre-CIRP liabilities after a change of control",
+      "type": "interplay",
+      "question": "Does Section 32A(2) protect the property of the corporate debtor from action for a pre-CIRP liability where the approved plan results in a change of control to an unconnected person?",
+      "holding": "Yes. By Section 32A(2), no action can be taken against the property of the corporate debtor in relation to an offence/liability committed prior to commencement of CIRP where the property is covered by an approved resolution plan resulting in a change of control to a person who was not a promoter/related party of the erstwhile management. The licensee (a State instrumentality) therefore cannot proceed against the corporate debtor's property or premises for pre-CIRP dues.",
+      "limiting_facts": "Change of control effected by the approved plan to the SRA, who was unconnected with the suspended ex-directors.",
+      "paras": "8-9"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "resolution-plan-clean-slate-extinguishes-pre-cirp-dues",
+      "application": "On approval of a resolution plan under s.31 IBC, pre-CIRP claims not in the plan are extinguished; the corporate debtor under new management cannot be denied a fresh electricity connection for those dues.",
+      "lead_authorities": [
+        {"name": "Ghanshyam Mishra & Sons (P) Ltd. v. Edelweiss Asset Reconstruction Co. Ltd.", "docid": ""}
+      ],
+      "paras": "7-9"
+    },
+    {
+      "tag": "section-32a-protects-corporate-debtor-property-pre-cirp",
+      "application": "Section 32A(2) bars action against the corporate debtor's property for pre-CIRP liabilities once an approved plan changes control to an unconnected person.",
+      "lead_authorities": [],
+      "paras": "8-9"
+    },
+    {
+      "tag": "corporate-debtor-liability-distinct-from-director-guarantor-liability",
+      "application": "Extinguishment of the corporate debtor's pre-CIRP liability is distinct from the co-extensive personal liability of erstwhile directors as guarantors under an independent contract of guarantee.",
+      "lead_authorities": [
+        {"name": "Narendra Singh Panwar v. Paschimanchal Vidyut Vitran Nigam Ltd.", "docid": ""}
+      ],
+      "paras": "6-7"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Personal/guarantor liability of the erstwhile directors of the corporate debtor",
+      "note": "The order clarifies that Narendra Singh Panwar concerned only the directors' co-extensive guarantee liability, which was not the subject of this IA.",
+      "docid": "",
+      "paras": "7"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ghanshyam Mishra & Sons (P) Ltd. v. Edelweiss Asset Reconstruction Co. Ltd.",
+      "citation": "Civil Appeal No. 8129 of 2019, decided 13 April 2021",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Once a resolution plan is duly approved by the Adjudicating Authority under Section 31(1), the claims provided in the plan stand frozen and bind the corporate debtor and all stakeholders; all claims not part of the plan stand extinguished and no person may initiate or continue proceedings in respect of a claim not part of the plan. Statutory dues owed to the Central/State Government or local authority, if not part of the plan, also stand extinguished.",
+      "how_treated": "Applied to hold that the licensee's pre-CIRP electricity dues, not forming part of the approved plan, stood extinguished and could not bar a fresh connection to the corporate debtor.",
+      "how_treated_paras": "7",
+      "cited_by": "Applicant",
+      "treatment": "Applied"
+    },
+    {
+      "name": "Narendra Singh Panwar v. Paschimanchal Vidyut Vitran Nigam Limited",
+      "citation": "WRIT-C No. 26355 of 2022, Allahabad High Court, decided 12 January 2023",
+      "court": "Allahabad High Court (DB)",
+      "docid": "",
+      "proposition": "Approval of a resolution plan does not ipso facto absolve a surety/guarantor of his liability arising out of an independent contract of guarantee; a demand notice for electricity dues issued jointly against the directors of the corporate debtor (as guarantors) cannot be set aside merely because of acceptance of the resolution plan under Section 31.",
+      "how_treated": "Distinguished as inapplicable: it addressed only the co-existent personal guarantee liability of the ex-directors, not the liability of the corporate debtor, which stands extinguished on approval of the plan.",
+      "how_treated_paras": "6-7",
+      "cited_by": "Respondent",
+      "treatment": "Distinguished"
+    }
+  ]
+}
