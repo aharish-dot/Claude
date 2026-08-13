@@ -1,7 +1,7 @@
 {
  "court": "high-court",
  "prefix": "HC",
- "next_seq": 13,
+ "next_seq": 14,
  "note": "Stable filename -> case_id map. Reuse existing ids; never renumber a processed case.",
  "cases": [
   {
@@ -86,6 +86,13 @@
    "source_file": "SCJ-160_009_Reliance_Projects_Property_Management_Services_Ltd._v._State_of_U.P..pdf",
    "title": "Reliance Projects & Property Management Services Ltd. v. State of U.P. & Ors.",
    "court": "Allahabad High Court",
+   "status": "done"
+  },
+  {
+   "case_id": "HC-013",
+   "source_file": "The Tata Power Company Limited vs Maharashtra Electricity Regulatory ... on 4 October, 2019.pdf",
+   "title": "Tata Power Company Ltd. v. Maharashtra Electricity Regulatory Commission & Ors.",
+   "court": "Appellate Tribunal for Electricity",
    "status": "done"
   }
  ]
