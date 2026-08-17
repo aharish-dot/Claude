@@ -41,6 +41,7 @@ HC_STYLE = """<style>
 TRT = {'followed':'t-foll','approved':'t-foll','affirmed':'t-foll','applied':'t-foll',
        'distinguished':'t-dist','doubted':'t-dist','overruled':'t-dist','dissented from':'t-dist',
        'per incuriam':'t-dist','held per incuriam':'t-dist','not good law':'t-dist',
+       'set aside':'t-dist','reversed':'t-dist','disapproved':'t-dist',
        'referred':'t-ref','referred to':'t-ref','discussed':'t-ref','considered':'t-ref','noted':'t-ref',
        'relied on':'t-rel','relied-on':'t-rel','relied upon':'t-rel'}
 
