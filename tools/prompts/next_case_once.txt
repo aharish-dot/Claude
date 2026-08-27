@@ -1,0 +1,15 @@
+Process exactly ONE next Supply Code Jurisprudence case. Read supply-code/NEXT.md and supply-code/HANDOFF.md and follow them. Mechanical procedure is supply-code/RUNBOOK.md.
+
+Hard rules:
+1. Id = SCJ- + zero-padded next_seq from supply-code/state/index.json (e.g. 283 → SCJ-283).
+2. Queue = PDFs in supply-code/input/ (alphabetical). Skip: already in supply-code/processed/ · names matching " (1).pdf" · WRIC(A)_20210_2012.pdf (already SCJ-273). If the next file is a docket/party duplicate of an existing SCJ record (grep state/index.json and summaries/json/), retire it to processed/ without a new id and take the following unique file — still exactly one NEW case this run.
+3. Extract: python tools/extract_judgment.py "supply-code/input/<file>" supply-code/extracts SCJ-NNN
+4. Draft supply-code/summaries/json/SCJ-NNN.json in the lean schema. Do not invent citations or holdings. Reuse existing principle_tags / provision keys (CODE::clause). cited_by is a STRING. lead_authorities is [{name, docid}, ...]. Thin / interlocutory / contempt / not-pressed orders: still record, compactly, with a flag. Points raised but not decided → not_decided[].
+5. Validate JSON, then python tools/gen_scj.py … and Chrome PDF (Windows: chrome.exe --headless=new --disable-gpu --no-sandbox --user-data-dir=%TEMP%\chrome-pdf-scj --no-pdf-header-footer). PDF name SCJ-NNN_<slug>.pdf — no _Digest suffix. Bump next_seq, append state/index.json, Move-Item source → processed/, delete temp HTML, python tools/build_supply_code.py (never hand-edit jurisprudence/index.json).
+6. Commit one case on branch claude/supply-code-jurisprudence-design-yiwgen and push. Message: supply-code: process SCJ-NNN (short title — one-line holding). Do not commit extracts/SCJ-*.txt or .fp.json. Do not write treatise Parts.
+7. Do NOT process a second new case.
+8. End with exactly one status line:
+   SCJ-NNN · <short title> · <disposition ≤15 words> · next_seq=<n> · digest ok
+
+If supply-code/input/ has no unique pending PDF, reply only: NO_INPUT · next_seq=<n> · stop
+If a fatal error blocks the case, reply only: FAILED · <brief reason> · next_seq=<n>

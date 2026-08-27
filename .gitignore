@@ -2,3 +2,6 @@
 # Python bytecode caches
 __pycache__/
 *.pyc
+
+# Unattended loop logs
+supply-code/tmp/

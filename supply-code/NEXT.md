@@ -2,6 +2,15 @@
 
 Do **exactly one** unique pending judgment. Do not wait for confirmation. Do not start the treatise.
 
+To run many cases unattended (fresh Grok session each time):
+
+```
+cd C:\Users\HP\Downloads\Grok\Claude
+powershell -ExecutionPolicy Bypass -File tools\run_next_case_loop.ps1 -Count 100
+```
+
+`-DryRun` prints the grok command only. Logs: `supply-code/tmp/loop_logs/`.
+
 Read `HANDOFF.md` + `RUNBOOK.md` if this is a fresh chat. Then:
 
 ## 1. Pick the file

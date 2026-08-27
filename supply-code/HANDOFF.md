@@ -26,6 +26,7 @@ Process remaining judgments **first** (mechanical pipeline → index), **then** 
 | User says | Do |
 |---|---|
 | **next** / **next case** / **now next one** | Process **exactly one** unique pending file. See **`NEXT.md`**. Do not ask. |
+| *(unattended)* | `powershell -ExecutionPolicy Bypass -File tools\run_next_case_loop.ps1 -Count 100` from repo root. Each iteration is a fresh `grok -p`. |
 | **next batch** | `RUNBOOK.md` default: up to 8, early-stop ~22k words. |
 | Anything about the treatise / booklet Parts | Not yet, unless they explicitly override §2. |
 
@@ -71,6 +72,7 @@ Branch `claude/supply-code-jurisprudence-design-yiwgen`. One commit per case, th
 | Path | What |
 |---|---|
 | `NEXT.md` | **Trigger card.** User said “next” → follow this. |
+| `../tools/run_next_case_loop.ps1` | Unattended loop: `-Count N` fresh `grok -p` sessions. |
 | `HANDOFF.md` | This file. |
 | `RUNBOOK.md` | Lean-schema procedure (batch size, schema). |
 | `sessions/2026-08-27.md` | Log of the Windows session that did SCJ-273–282. |
