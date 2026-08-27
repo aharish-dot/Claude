@@ -1,0 +1,66 @@
+{
+  "case_id": "SCJ-277",
+  "title": "Anil Kumar Upadhyay v. State of U.P. & 6 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Chandra Dhari Singh, J. & Tarun Saxena, J.",
+  "date_of_judgment": "2026-08-19",
+  "date_display": "19 August 2026",
+  "docket": "Criminal Misc. Writ Petition No. 7538 of 2026",
+  "disposition": "Writ petition disposed of, on the petitioner's prayer, after the licensee recorded that the assessment amount had been received and that a compounding report would be sent to the police station; FIR and provisional assessment not quashed on the merits; no order on the prayer for disciplinary action",
+  "headnote": "A consumer who sought to quash an FIR under Section 135 of the Electricity Act, 2003 (Case Crime No. 1462 of 2025, P.S. Anti Power Theft, Varanasi) and a provisional assessment notice dated 01.01.2026, and to restrain arrest, had the writ disposed of without a merits adjudication. The licensee’s short counter-affidavit recorded that payment had already been received from the petitioner in connection with the inspection and the assessment notice, and that a report would be sent to the concerned police station for compounding. On the petitioner’s prayer that the petition be disposed of in view of that affidavit, and with no objection from the department or the State, the Court saw no reason to keep the petition pending. It did not quash the FIR or the assessment, did not decide the alleged violation of the Electricity Act, 2003 and the Electricity Supply Code, 2005, and did not order disciplinary proceedings against the inspecting officers.",
+  "holding_units": [
+    {
+      "provision": "EA2003::135",
+      "code": "Electricity Act, 2003 (s.135 / s.152) with U.P. Electricity Supply Code, 2005 (compounding / assessment)",
+      "clause": "s.135 FIR and provisional assessment — disposal after payment and a proposed compounding report",
+      "topic": "A s.135 FIR / provisional-assessment writ may be disposed of, without quashing, where the consumer has paid the assessment and the licensee will send a compounding report to the police, and the petitioner so prays",
+      "type": "interplay",
+      "question": "Where a consumer challenges a Section 135 FIR and a provisional assessment notice, but then pays the assessment and the licensee undertakes to send a compounding report to the police station, should the writ court quash the FIR/notice or merely dispose of the petition?",
+      "holding": "The Court disposed of the petition without quashing either the FIR or the provisional assessment. After the licensee recorded that payment had been received under the assessment notice and that a compounding report would be sent to the police station, the petitioner prayed for disposal in view of that affidavit; the department and the State did not object. The Court found no good reason to keep the petition pending. This is not a decision that the FIR was illegal, that compounding has already extinguished the offence, or that the Code procedure was (or was not) followed.",
+      "limiting_facts": "FIR dated 31.10.2025, Case Crime No. 1462 of 2025, s.135, P.S. Anti Power Theft, Varanasi; provisional assessment notice dated 01.01.2026; petitioner Anil Kumar Upadhyay; Executive Engineer, Electricity Urban Distribution Division, Varunapaar Imliyaghat, Varanasi, had been directed to appear (29.07.2026) and was then exempted.",
+      "flag": "Thin disposal on consent/payment. Prayer (iv) alleged violation of 'mandatory provisions' of the Act and the Supply Code, 2005, and sought disciplinary action; that was not decided. The FIR describes the statute as the 'Indian Electricity Act, 2003' — the 2003 Act, not the 1910 Act; recorded, not merged. Compounding is spoken of in the affidavit, not attributed by the Court to a numbered Code clause; indexed with the s.135/compounding cluster.",
+      "paras": "1, 4, 6-9"
+    },
+    {
+      "provision": "EA2003::152",
+      "code": "Electricity Act, 2003",
+      "clause": "s.152 (compounding) — report to the police after payment of the assessment",
+      "topic": "After payment of the assessment, the licensee may send a compounding report to the police station; the writ court recorded that statement and disposed of the petition without deciding whether compounding was complete",
+      "type": "interplay",
+      "holding": "The licensee’s counsel stated that payment had been received from the petitioner in connection with the inspection and the assessment notice, and (on oral instruction) that a report would be sent to the concerned police station for compounding. The Court recorded that statement and disposed of the writ on the petitioner’s prayer. It did not hold that compounding under Section 152 was complete, nor did it stay or quash the criminal case.",
+      "paras": "4, 6-9",
+      "flag": "The Court did not cite s.152; compounding is the department’s description. Keyed here as the statutory compounding provision the affidavit was invoking."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "theft-uue-enforced-via-code",
+      "application": "A thin node: payment of the s.135-linked assessment and a proposed compounding report to the police station led the consumer to give up the writ; the Court did not itself apply the Code’s compounding machinery or decide that it had been followed.",
+      "lead_authorities": [],
+      "paras": "4, 6-9"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the FIR dated 31.10.2025 (s.135) or the provisional assessment notice dated 01.01.2026 was illegal and liable to be quashed",
+      "note": "Prayers (i)–(iii) were not decided; the petition was disposed of on the petitioner’s request after payment and the compounding-report statement.",
+      "docid": "",
+      "paras": "1, 6-9"
+    },
+    {
+      "point": "Whether the inspecting officers violated the Electricity Act, 2003 or the Supply Code, 2005, and whether disciplinary proceedings should follow",
+      "note": "Prayer (iv) was not addressed.",
+      "docid": "",
+      "paras": "1, 9"
+    },
+    {
+      "point": "Whether compounding under s.152 was complete so as to bar further prosecution",
+      "note": "The Court only recorded that a compounding report 'shall be sent' to the police station; it did not hold compounding complete or stay the investigation.",
+      "docid": "",
+      "paras": "4, 9"
+    }
+  ],
+  "authorities": []
+}
