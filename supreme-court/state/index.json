@@ -1,7 +1,7 @@
 {
  "court": "supreme-court",
  "prefix": "SC",
- "next_seq": 6,
+ "next_seq": 7,
  "note": "Stable filename -> case_id map. Reuse existing ids; never renumber a processed case.",
  "cases": [
   {
@@ -36,6 +36,13 @@
    "case_id": "SC-005",
    "source_file": "19753_2019_43_1503_32012_Judgement_10-Dec-2021.pdf",
    "title": "Maharashtra State Electricity Distribution Co. Ltd. v. JSW Steel Ltd. & Ors.",
+   "court": "Supreme Court of India",
+   "status": "done"
+  },
+  {
+   "case_id": "SC-006",
+   "source_file": "Ferro Alloys Corpn. Ltd. And Ors. Etc. ... vs A.P. State Electricity Board And Ors ... on 15 April, 1993",
+   "title": "Ferro Alloys Corporation Ltd. & Ors. v. A.P. State Electricity Board & Ors.",
    "court": "Supreme Court of India",
    "status": "done"
   }
