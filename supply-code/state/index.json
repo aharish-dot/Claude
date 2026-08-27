@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 294,
+  "next_seq": 295,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -1762,6 +1762,12 @@
       "case_id": "SCJ-293",
       "source_basename": "WRIC(A)_18550_2026.pdf",
       "title": "Neelam Gupta v. Uttar Pradesh Power Corporation Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-294",
+      "source_basename": "WRIC(A)_20059_2011.pdf",
+      "title": "M/s K.L. Concast Pvt. Ltd. v. Pashchimanchal Vidyut Vitran Nigam Ltd.",
       "status": "done"
     }
   ]
