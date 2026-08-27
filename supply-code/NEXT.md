@@ -21,4 +21,4 @@ Each iteration still produces **JSON + digest PDF + commit + push**. Grok only a
    Do not Chrome/git/index by hand.
 5. Stop. One-line status: `SCJ-NNN · title · disposition · next_seq=N · digest ok`.
 
-Skip: `processed/` names · ` (1).pdf` · `WRIC(A)_20210_2012.pdf` (SCJ-273). Next as of handoff: **`WRIC(A)_12303_2026.pdf` → SCJ-283**.
+Skip: `processed/` names · ` (1).pdf` · `WRIC(A)_20210_2012.pdf` (SCJ-273) · `WRIC(A)_12303_2026.pdf` if still in `input/` (SCJ-283, docket dup). Next as of handoff: **`next_seq=289`** — run prepare; likely `WRIC(A)_15707_2026.pdf`.
