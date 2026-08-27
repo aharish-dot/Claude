@@ -1,0 +1,99 @@
+{
+  "case_id": "SCJ-274",
+  "title": "M/S Ambuja Cements Limited v. Uttar Pradesh Power Corporation Limited",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Piyush Agrawal, J.",
+  "date_of_judgment": "2026-05-26",
+  "date_display": "26 May 2026",
+  "docket": "Arbitration and Conciliation Appl. u/s 11(4) No. 28 of 2026",
+  "disposition": "Sole arbitrator (Mr. Justice Sudhir Agarwal, former Judge, Allahabad High Court) appointed with the parties' consent, subject to his consent under s.11(8) of the Arbitration and Conciliation Act, 1996; Registry to obtain consent within three weeks; listed on 14.07.2026; all objections on the merits left open to be raised before the arbitrator",
+  "headnote": "On an application under Section 11 of the Arbitration and Conciliation Act, 1996 for appointment of a sole arbitrator in a dispute over a penalty for alleged delay in depositing security under a 26.05.2017 agreement for supply of electrical energy, the licensee objected that the penalty was imposed under the U.P. Electricity Supply Code, 2005, that the consumer must first approach the grievance machinery (UPERC CGRF & Ombudsman Regulations, 2003, Clauses 7.7.1–7.7.5, and Clause 7.10 of the Code) and that the application was therefore not maintainable. The Court did not decide that Code-forum objection. Applying Mayavati Trading (s.11(6A) is confined to the existence of an arbitration agreement, in the narrow sense of Duro Felguera, as reiterated in GOQII Technologies), it recorded a prima facie finding that an arbitration clause exists, noted the parties had not appointed a consented arbitrator, and — with counsel's consent — appointed a former High Court Judge as sole arbitrator, expressly leaving all objections the Act permits (including, by reservation, the Code/CGRF exclusivity point) to be raised before that forum. No finding was made on the merits of the penalty or on whether Clause 7.10 ousts arbitration.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::7.10",
+      "code": "U.P. Electricity Supply Code, 2005 (r/w UPERC CGRF & Ombudsman Regulations, 2003)",
+      "clause": "7.10 (r/w CGRF Regulations Clauses 7.7.1–7.7.5)",
+      "topic": "Licensee's objection that a Code-imposed penalty must go to CGRF/Ombudsman under Clause 7.10, not to a s.11 arbitrator — raised, not decided",
+      "type": "supply_code",
+      "question": "Does a penalty imposed (as the licensee put it) under the Supply Code have to be challenged before the CGRF/Ombudsman under Clause 7.10, so that a Section 11 application for appointment of an arbitrator is not maintainable?",
+      "holding": "Not decided. The licensee so objected, invoking Clause 7.10 of the Code, Clauses 7.7.1–7.7.5 of the UPERC CGRF & Ombudsman Regulations, 2003, and the Cost Data Book. The Court, in a Section 11 proceeding confined to the existence of an arbitration agreement, appointed a sole arbitrator without ruling on that objection, and expressly left it open to the opposite party to raise all objections the Act permits before the arbitrator. This case is not authority that Clause 7.10 ousts contractual arbitration, nor that it does not.",
+      "limiting_facts": "Agreement dated 26.05.2017 for supply of electrical energy; dispute over a penalty for alleged delay in depositing security; applicant had furnished a bank guarantee under the agreement and issued an arbitration notice on 15.11.2025; opposite party UPPCL.",
+      "flag": "Peripheral to the Supply-Code core: a s.11 appointment order. Indexed under Clause 7.10 only because that clause was the licensee's maintainability objection; the Court made no construction of it. Respondent also referred to 'U.P. Electricity Act, 2003' (the 2003 Act is the central Electricity Act) — recorded, not merged.",
+      "paras": "4, 6, 10-13"
+    },
+    {
+      "provision": "OFFTOPIC::arbitration-s11-appointment",
+      "code": "Arbitration and Conciliation Act, 1996",
+      "clause": "s.11(6) / s.11(6A) / s.11(8)",
+      "topic": "Section 11 court examines only the existence of an arbitration agreement; merits and other objections (including a Code-forum bar) are left to the arbitrator",
+      "type": "interplay",
+      "question": "On a Section 11 application, may the Court refuse appointment because the dispute is said to arise under the Supply Code and to lie before the CGRF, or is it confined to whether an arbitration agreement exists?",
+      "holding": "The Court is confined, under s.11(6A) as explained in Mayavati Trading (following Duro Felguera paras 48 and 59; reiterated in GOQII Technologies), to a narrow examination of the existence of an arbitration agreement. On a prima facie finding that a clause exists and that the parties had not appointed a consented arbitrator, and with counsel's consent, the Court appointed Mr. Justice Sudhir Agarwal (former Judge) as sole arbitrator subject to s.11(8) consent. No final conclusion was drawn on the merits; all objections the Act permits remain open before the arbitrator.",
+      "limiting_facts": "Cause-title is an application u/s 11(4); the body invokes s.11(6). Listed again on 14.07.2026 for the proposed arbitrator's consent.",
+      "paras": "2, 7-14"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "s11-confined-to-existence-of-arbitration-agreement",
+      "application": "A Section 11 court does not decide whether a Supply Code penalty must go to the Clause 7.10 CGRF/Ombudsman; it only asks whether an arbitration agreement exists, leaving the Code-forum objection to the arbitrator.",
+      "lead_authorities": [
+        {"name": "M/S Mayavati Trading Pvt. Ltd. v. Pradyuat Deb Burman", "docid": ""},
+        {"name": "Duro Felguera, S.A. v. Gangavaram Port Ltd.", "docid": ""},
+        {"name": "GOQII Technologies Pvt. Ltd. v. Sokrati Technologies Pvt. Ltd.", "docid": ""}
+      ],
+      "paras": "7-13"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether Clause 7.10 of the Supply Code / the CGRF-Ombudsman route ousts contractual arbitration of a Code-imposed penalty",
+      "note": "The licensee's maintainability objection was noted and left open to be raised before the arbitrator; the Court made no finding.",
+      "docid": "",
+      "paras": "4, 11-13"
+    },
+    {
+      "point": "Merits of the penalty for alleged delay in depositing security",
+      "note": "Expressly no final conclusion on the merits of the claim; that remains for the arbitrator on claim, objection, challenge or appeal.",
+      "docid": "",
+      "paras": "11-12"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "M/S Mayavati Trading Pvt. Ltd. v. Pradyuat Deb Burman",
+      "citation": "Civil Appeal No. 7023 of 2019, decided 5 September 2019",
+      "court": "Supreme Court (3-Judge)",
+      "docid": "",
+      "proposition": "After the 2015 Amendment, s.11(6A) confines the referral court to a narrow examination of the existence of an arbitration agreement (Duro Felguera paras 48 and 59); the pre-2015 enquiry into accord and satisfaction stands legislatively overruled.",
+      "how_treated": "Quoted and applied as making the scope of s.11 'crystal clear'; the Court appointed an arbitrator on a prima facie finding that an arbitration clause exists, without deciding the Code-forum objection.",
+      "how_treated_paras": "7",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Duro Felguera, S.A. v. Gangavaram Port Ltd.",
+      "citation": "(2017) 9 SCC 729",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Section 11(6A) examination of the existence of an arbitration agreement is to be understood in a narrow sense (paras 48 and 59).",
+      "how_treated": "Followed as the authority to which Mayavati Trading refers for the narrow s.11(6A) test.",
+      "how_treated_paras": "7-8",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "GOQII Technologies Pvt. Ltd. v. Sokrati Technologies Pvt. Ltd.",
+      "citation": "(2025) 2 SCC 192",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Reiterates the Mayavati Trading / Duro Felguera position on the confined scope of s.11.",
+      "how_treated": "Cited as a recent reiteration of the same position in law.",
+      "how_treated_paras": "9",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}
