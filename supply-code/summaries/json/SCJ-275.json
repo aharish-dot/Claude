@@ -1,0 +1,54 @@
+{
+  "case_id": "SCJ-275",
+  "title": "Smt. Jama Begum v. Madhyanchal Vidyut Vitran Nigam Ltd. & 2 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Rohit Ranjan Agarwal, J.",
+  "date_of_judgment": "2026-03-12",
+  "date_display": "12 March 2026",
+  "docket": "Contempt Application (Civil) No. 1587 of 2026",
+  "disposition": "Contempt application dismissed as misconceived; no case for contempt made out",
+  "headnote": "A consumer who had challenged an alleged incorrect electricity bill (dated 7 December 2024) in Writ-C No. 14446 of 2025 was told by the writ court (14 July 2025) that Clause 6.5 of the U.P. Electricity Supply Code, 2005 provides for dispute on bills, and that she must raise the dispute as per the prescribed procedure; the writ was disposed of with that observation. Civil contempt of that order does not lie. The contempt court held that, on a perusal of the writ order, no case for contempt was made out, and dismissed the application as misconceived. The Court did not re-decide the billing dispute or further construe Clause 6.5.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.5",
+      "topic": "Bill dispute to be raised under Clause 6.5 — as held in the underlying writ, recited on a contempt application",
+      "type": "supply_code",
+      "question": "Where the writ court has already relegated a consumer disputing an electricity bill to the Clause 6.5 procedure, does non-issuance of a 'correct bill' amount to contempt of that order?",
+      "holding": "No. The writ order of 14.07.2025 in Writ-C No. 14446 of 2025 itself recorded Clause 6.5 as the provision for dispute on bills and directed the petitioner to raise the dispute as per the prescribed procedure, disposing of the writ with that observation. That is not a direction to the licensee whose breach founds civil contempt. The contempt application was dismissed as misconceived.",
+      "limiting_facts": "Applicant Smt. Jama Begum; alleged incorrect bill dated 7.12.2024 of Madhyanchal Vidyut Vitran Nigam Ltd. (Shahjahanpur); she had offered to pay the correct charges for electricity consumed.",
+      "flag": "This Court only recites and characterises the earlier writ order; it does not independently construe Clause 6.5. Indexed here because the writ holding it recites is a Clause 6.5 relegation (the underlying writ is not itself in the corpus).",
+      "paras": "1-3"
+    },
+    {
+      "provision": "OFFTOPIC::contempt-civil",
+      "code": "Contempt of Courts Act / civil contempt (not the Supply Code)",
+      "clause": "civil contempt of a writ-disposal order",
+      "topic": "An order relegating the petitioner to a Code procedure is not a direction whose non-compliance is contempt",
+      "type": "interplay",
+      "holding": "From a perusal of the writ order — which only observed that the petitioner must raise her bill dispute under the prescribed Clause 6.5 procedure and disposed of the petition — no case for contempt is made out. Application dismissed as misconceived.",
+      "paras": "2-3",
+      "flag": "Contempt-procedure holding; retained because the alleged contempt was of a Supply-Code relegation order."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "relegate-to-statutory-remedy",
+      "application": "Confirms (by reciting and refusing to treat as a mandatory direction) the writ court's relegation of a billing dispute to Clause 6.5; contempt does not lie to compel a 'correct bill' after such a disposal.",
+      "lead_authorities": [],
+      "paras": "1-3"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness of the bill dated 7.12.2024",
+      "note": "Not reached; the contempt court did not examine the billing dispute on merits.",
+      "docid": "",
+      "paras": "1-3"
+    }
+  ],
+  "authorities": []
+}
