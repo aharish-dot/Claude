@@ -1,0 +1,60 @@
+{
+  "case_id": "SCJ-293",
+  "title": "Neelam Gupta v. Uttar Pradesh Power Corporation Ltd.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Arindam Sinha and Satya Veer Singh, JJ.",
+  "date_of_judgment": "2026-07-10",
+  "date_display": "10 July 2026",
+  "docket": "Writ-C No. 18550 of 2026",
+  "page_count": 3,
+  "significance": "ordinary",
+  "disposition": "Writ and impleadment application dismissed; liberty to apply for spot inspection.",
+  "headnote": "A writ court will not compel a new electricity connection where occupation is disputed and the applicant herself refused the licensee's spot inspection, so settled possession cannot be verified. Seema Mansoor (tenant entitled to supply without the landlord's consent) is distinguishable on facts. Impleadment of other occupants serves no purpose. Dismissal does not prevent a written application to the supply company for inspection.",
+  "facts": "Neelam Gupta applied on 18 April 2026 through the Jhatpat portal (application J4478420801) for a new 2 kW LMV-01 connection. Occupation was disputed: she claimed residence as wife of a son of her deceased mother-in-law's second marriage, and suit No. 130/2024 was pending before Junior Division-03, Gorakhpur. The Junior Engineer reported she refused spot inspection, produced no proof of permanent residence, and answered a portal query without uploading documents; the application was cancelled. She offered to pay charges on the common meter and sought to implead other occupants.",
+  "holding_units": [
+    {
+      "provision": "EA2003::43",
+      "code": "Electricity Act, 2003 (with U.P. Electricity Supply Code, 2005)",
+      "clause": "43",
+      "topic": "New connection — disputed occupation and refusal of spot inspection",
+      "type": "interplay",
+      "holding": "The writ court will not interfere. Settled possession cannot be resolved because the petitioner herself resisted spot inspection, so Abhimanyu Mazumdar (person in settled possession entitled to electricity) cannot be applied. Seema Mansoor is distinguishable: that case concerned a tenant; here the petitioner claims residence as wife of a son from one of her mother-in-law's marriages. Impleadment of other occupants is pointless for the same reason. Dismissal does not bar a written application to the supply company to make spot inspection.",
+      "paras": "4-5",
+      "flag": "Order does not number the section. It quotes Seema Mansoor on the licensee's obligation to supply under the Electricity Act, 2003 and the Supply Code, 2005; s. 43 is the duty-to-supply provision that quotation paraphrases."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner is in settled possession of the premises",
+      "note": "The controversy could not be resolved because she stood in the way of spot inspection; Abhimanyu Mazumdar therefore not applied. Title/occupation remains in the pending civil suit.",
+      "paras": "4"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Seema Mansoor v. U.P. Power Corporation Ltd.",
+      "citation": "2014 (6) ADJ 672 (DB)",
+      "court": "Allahabad High Court",
+      "docid": "",
+      "proposition": "A licensee must supply on a proper application; every owner or occupier, including a tenant, has a statutory right to obtain electricity under the Electricity Act, 2003 and the Supply Code, 2005, and cannot be refused merely for want of the landlord's consent if an indemnity bond is submitted.",
+      "how_treated": "Relied on by the petitioner (paras 15–16 quoted). Distinguished on facts: Seema Mansoor was a tenant seeking connection; the petitioner here claims residence as wife of a son from one of her mother-in-law's marriages.",
+      "how_treated_paras": "2, 4",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "Abhimanyu Mazumdar v. Superintending Engineer",
+      "citation": "AIR 2011 Cal 64",
+      "court": "Calcutta High Court",
+      "docid": "",
+      "proposition": "A person in settled possession is entitled to electricity.",
+      "how_treated": "Court noted the view (judgment dated 11 February 2011) but held the settled-possession controversy could not be resolved because the petitioner herself obstructed spot inspection.",
+      "how_treated_paras": "4",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    }
+  ]
+}
