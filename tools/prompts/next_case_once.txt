@@ -7,7 +7,9 @@ If its status is NO_INPUT, reply only: NO_INPUT · next_seq=<n> · stop
 Otherwise:
 1. Read the ticket's txt (the full judgment). Read the fp.json for Indian Kanoon doc-ids. Read supply-code/jurisprudence/catalog.txt and reuse matching provision keys / principle tags. Shape the record like supply-code/summaries/json/SCJ-280.json (compact) — do not load HANDOFF.md or the giant jurisprudence/index.json.
 2. Write ONLY supply-code/summaries/json/<case_id>.json in the lean schema:
-   case_id, title, neutral_citation, court, bench, coram, date_of_judgment (ISO), date_display, docket, disposition, headnote, holding_units[], principle_tags[], not_decided[], authorities[].
+   case_id, title, neutral_citation, court, bench, coram, date_of_judgment (ISO), date_display, docket, page_count, significance, disposition, headnote, holding_units[], principle_tags[], not_decided[], authorities[].
+   page_count: integer pages of the SOURCE judgment. Copy from the ticket / fp.json; do not guess. finalize_scj.py will overwrite it from the PDF if missing.
+   significance: "significant" (new or reusable construction of the Code/Act, including quashing on a doctrinal point) | "ordinary" (routine reasoned disposal applying settled law; "normal" is an alias) | "procedural" (listing, interlocutory, adjournment, contempt dismissed as infructuous/misconceived, not-pressed, or otherwise thin). Shown on PDF page 1 as: SUPPLY CODE JURISPRUDENCE · SCJ-NNN · N PAGES · SIGNIFICANT.
    holding_units: {provision, code, clause, topic, type, question?, holding, limiting_facts?, qualifier?, paras, flag?}. type is "supply_code" | "interplay" | "electricity_act". provision is CODE::clause (never merge a Code clause into an Act section).
    principle_tags: {tag, application, lead_authorities:[{name,docid}], paras}. lead_authorities is a list of objects, never bare strings.
    authorities: every precedent the judgment actually cites. cited_by is a STRING ("Court"|"Petitioner"|"Respondent"), never a list. treatment ∈ Followed|Approved|Applied|Affirmed|Distinguished|Doubted|Overruled|Referred|Relied on.

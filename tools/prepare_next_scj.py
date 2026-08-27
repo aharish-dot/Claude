@@ -152,6 +152,7 @@ def main():
         "txt": f"supply-code/extracts/{cid}.txt",
         "fp": f"supply-code/extracts/{cid}.fp.json",
         "word_count": fp.get("word_count", 0),
+        "page_count": fp.get("page_count"),
         "citation_count": fp.get("citation_count", 0),
         "catalog": "supply-code/jurisprudence/catalog.txt",
         "example": "supply-code/summaries/json/SCJ-280.json",

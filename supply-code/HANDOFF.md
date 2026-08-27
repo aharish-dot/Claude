@@ -61,6 +61,8 @@ Token split (quality of the JSON unchanged):
 - `lead_authorities` = `[{name, docid}, …]`, never bare strings.
 - `provision` = `CODE::clause` (never merge a Code clause into an Act section).
 - `type`: `"supply_code"` | `"interplay"` | `"electricity_act"`.
+- `page_count` = integer pages of the **source judgment** (fingerprint / input PDF). Digest PDF page 1 eyebrow: `SUPPLY CODE JURISPRUDENCE · SCJ-NNN · N PAGES · SIGNIFICANT`.
+- `significance`: `"significant"` | `"ordinary"` | `"procedural"` (`normal` aliases ordinary). Required on new records; old records without it still render.
 - OFFTOPIC / thin orders still recorded, compactly, with a `flag`. Listing-only → `OFFTOPIC::procedural-listing`.
 - Validate JSON + the two gotcha checks before `gen_scj.py`.
 

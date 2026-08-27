@@ -81,7 +81,9 @@ def from_pdf(path):
         subprocess.run([sys.executable, "-m", "pip", "install", "--quiet", "pymupdf"], check=True)
         import fitz
     d = fitz.open(path)
-    return "\n".join(p.get_text() for p in d), {}, "", "", ""
+    page_count = d.page_count
+    txt = "\n".join(p.get_text() for p in d)
+    return txt, {}, "", "", "", page_count
 
 
 def looks_html(raw):
@@ -156,11 +158,12 @@ def main():
     docid = ik_docid(content) if len(raw) < 4000 else ""
     if not docid and not content.strip() and ext not in ('.pdf', '.html', '.htm', '.xhtml', '.mht', '.mhtml'):
         docid = ik_docid(os.path.splitext(os.path.basename(inp))[0])
+    page_count = None
     if docid:
         txt, cites, title, court, coram = from_ik_api(docid)
         fmt = 'ik-api'
     elif ext == '.pdf':
-        txt, cites, title, court, coram = from_pdf(inp)
+        txt, cites, title, court, coram, page_count = from_pdf(inp)
         fmt = 'pdf'
     elif ext in ('.mht', '.mhtml') or looks_mhtml(raw):
         txt, cites, title, court, coram = from_mhtml(raw)
@@ -182,10 +185,11 @@ def main():
         "cause_title": title, "court": court, "coram": coram,
         "sections_cited": secs, "citation_count": len(cites),
         "citations": sorted(cites.values(), key=lambda c: -c["count"]),
+        "page_count": page_count,
     }
     with open(os.path.join(outdir, cid + '.fp.json'), 'w') as f:
         json.dump(fp, f, indent=1, ensure_ascii=False)
-    print(f"{cid}: fmt={fmt} words={fp['word_count']} citations={len(cites)} "
+    print(f"{cid}: fmt={fmt} words={fp['word_count']} pages={page_count} citations={len(cites)} "
           f"sections={secs[:8]} title={title[:60]!r}")
 
 

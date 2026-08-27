@@ -43,8 +43,13 @@ def build(cases):
             "court": c.get("court", ""),
             "date": c.get("date_display") or c.get("date_of_judgment", ""),
         }
-        case_list.append({**ident, "disposition": c.get("disposition", ""),
-                          "holding_units": len(c.get("holding_units", []))})
+        row = {**ident, "disposition": c.get("disposition", ""),
+               "holding_units": len(c.get("holding_units", []))}
+        if isinstance(c.get("page_count"), int) and c["page_count"] > 0:
+            row["page_count"] = c["page_count"]
+        if c.get("significance"):
+            row["significance"] = c["significance"]
+        case_list.append(row)
 
         for hu in c.get("holding_units", []):
             key = hu.get("provision") or hu.get("clause") or "UNKEYED"

@@ -33,7 +33,17 @@ Any session (fresh or resumed) can execute this from repo state alone. Branch:
 
 ## Lean schema (per case) — the ONLY thing we keep
 Top-level: `case_id, title, neutral_citation, court, bench, coram, date_of_judgment (ISO),
-date_display, docket, disposition, headnote, holding_units[], principle_tags[], not_decided[], authorities[]`.
+date_display, docket, page_count, significance, disposition, headnote, holding_units[],
+principle_tags[], not_decided[], authorities[]`.
+
+- **page_count**: integer pages of the **source judgment** (the input PDF), not the digest.
+  Copied from the extract fingerprint; `finalize_scj.py` backfills it from the PDF.
+- **significance**: `"significant"` | `"ordinary"` | `"procedural"`. Significant = a new or
+  reusable construction of the Code/Act (including quashing on a doctrinal point). Ordinary
+  (alias `"normal"`) = a routine reasoned disposal applying settled law. Procedural = listing,
+  interlocutory, adjournment, contempt dismissed as infructuous/misconceived, not-pressed, or
+  otherwise thin. Rendered on PDF page 1 as
+  `SUPPLY CODE JURISPRUDENCE · SCJ-NNN · N PAGES · SIGNIFICANT`.
 
 - **headnote**: one dense paragraph stating the whole-case rule (the anchor when a case
   appears under several provision chapters).

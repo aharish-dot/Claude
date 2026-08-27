@@ -183,6 +183,18 @@ def auth_row(a):
             f'      </tr>\n')
 
 
+def eyebrow_line(c):
+    """First line of page 1: SUPPLY CODE JURISPRUDENCE · SCJ-NNN · N PAGES · SIGNIFICANT."""
+    parts = ["Supply Code Jurisprudence", c.get("case_id", "")]
+    pc = c.get("page_count")
+    if isinstance(pc, int) and pc > 0:
+        parts.append("1 page" if pc == 1 else f"{pc} pages")
+    sig = (c.get("significance") or "").strip()
+    if sig:
+        parts.append(sig)
+    return " &middot; ".join(esc(p) for p in parts if p)
+
+
 def build(c):
     ident = " &middot; ".join(x for x in [
         esc(c.get("court", "")), esc(c.get("bench", "")),
@@ -214,7 +226,7 @@ def build(c):
 {STYLE}
 </head>
 <body>
-  <div class="eyebrow">Supply Code Jurisprudence &middot; {esc(c.get("case_id",""))}</div>
+  <div class="eyebrow">{eyebrow_line(c)}</div>
   <h1>{esc(c.get("title",""))}</h1>
   <div class="idline">{ident}</div>
 

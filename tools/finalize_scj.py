@@ -16,6 +16,12 @@ from shutil import which
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SC = os.path.join(ROOT, "supply-code")
 BRANCH = "claude/supply-code-jurisprudence-design-yiwgen"
+SIG_ALIASES = {
+    "significant": "significant",
+    "ordinary": "ordinary",
+    "normal": "ordinary",
+    "procedural": "procedural",
+}
 
 
 def die(msg):
@@ -52,12 +58,70 @@ def file_uri(path):
     return "file://" + path
 
 
+def pdf_page_count(path):
+    try:
+        import fitz
+        d = fitz.open(path)
+        n = d.page_count
+        d.close()
+        return n
+    except Exception:
+        return None
+
+
+def inject_judgment_meta(c, cid, src):
+    """Backfill page_count from the source PDF / fingerprint; normalise significance.
+
+    page_count is the source judgment's page count (not the digest). significance is
+    significant | ordinary | procedural (normal is an alias of ordinary). Old records
+    without these fields still finalize; the digest eyebrow just omits the blanks.
+    """
+    changed = False
+    pc = None
+    fp_path = os.path.join(SC, "extracts", cid + ".fp.json")
+    if os.path.exists(fp_path):
+        try:
+            fp = json.load(open(fp_path, encoding="utf-8"))
+            pc = fp.get("page_count")
+        except (OSError, json.JSONDecodeError):
+            pc = None
+    if not isinstance(pc, int) or pc < 1:
+        for folder in ("input", "processed"):
+            p = os.path.join(SC, folder, src)
+            if os.path.exists(p) and p.lower().endswith(".pdf"):
+                pc = pdf_page_count(p)
+                if isinstance(pc, int) and pc > 0:
+                    break
+    if isinstance(pc, int) and pc > 0 and c.get("page_count") != pc:
+        c["page_count"] = pc
+        changed = True
+    raw = c.get("significance")
+    if raw is not None and str(raw).strip():
+        key = str(raw).strip().lower()
+        if key not in SIG_ALIASES:
+            die("significance must be significant|ordinary|procedural "
+                f"(normal is accepted as ordinary), got {raw!r}")
+        mapped = SIG_ALIASES[key]
+        if c.get("significance") != mapped:
+            c["significance"] = mapped
+            changed = True
+    return changed
+
+
 def check_record(c, cid):
     if c.get("case_id") != cid:
         die(f"record case_id {c.get('case_id')!r} != {cid}")
     for k in ("title", "court", "disposition", "headnote", "holding_units"):
         if not c.get(k):
             die(f"missing/empty field: {k}")
+    pc = c.get("page_count")
+    if pc is not None and (not isinstance(pc, int) or pc < 1):
+        die(f"page_count must be a positive integer, got {pc!r}")
+    raw = c.get("significance")
+    if raw is not None and str(raw).strip():
+        if str(raw).strip().lower() not in SIG_ALIASES:
+            die("significance must be significant|ordinary|procedural "
+                f"(normal is accepted as ordinary), got {raw!r}")
     for i, a in enumerate(c.get("authorities") or []):
         cb = a.get("cited_by")
         if cb is not None and not isinstance(cb, str):
@@ -168,6 +232,10 @@ def main():
     if not os.path.exists(rec):
         die(f"missing record {rec}")
     c = json.load(open(rec, encoding="utf-8"))
+    if inject_judgment_meta(c, cid, src):
+        with open(rec, "w", encoding="utf-8") as f:
+            json.dump(c, f, indent=2, ensure_ascii=False)
+            f.write("\n")
     check_record(c, cid)
     title = c.get("title") or cid
     slug = slug_from_title(title)
