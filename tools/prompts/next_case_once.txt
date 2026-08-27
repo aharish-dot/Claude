@@ -1,15 +1,22 @@
-Process exactly ONE next Supply Code Jurisprudence case. Read supply-code/NEXT.md and supply-code/HANDOFF.md and follow them. Mechanical procedure is supply-code/RUNBOOK.md.
+Process exactly ONE Supply Code Jurisprudence case. Quality of the lean JSON is paramount. Do not write treatise Parts.
 
-Hard rules:
-1. Id = SCJ- + zero-padded next_seq from supply-code/state/index.json (e.g. 283 → SCJ-283).
-2. Queue = PDFs in supply-code/input/ (alphabetical). Skip: already in supply-code/processed/ · names matching " (1).pdf" · WRIC(A)_20210_2012.pdf (already SCJ-273). If the next file is a docket/party duplicate of an existing SCJ record (grep state/index.json and summaries/json/), retire it to processed/ without a new id and take the following unique file — still exactly one NEW case this run.
-3. Extract: python tools/extract_judgment.py "supply-code/input/<file>" supply-code/extracts SCJ-NNN
-4. Draft supply-code/summaries/json/SCJ-NNN.json in the lean schema. Do not invent citations or holdings. Reuse existing principle_tags / provision keys (CODE::clause). cited_by is a STRING. lead_authorities is [{name, docid}, ...]. Thin / interlocutory / contempt / not-pressed orders: still record, compactly, with a flag. Points raised but not decided → not_decided[].
-5. Validate JSON, then python tools/gen_scj.py … and Chrome PDF (Windows: chrome.exe --headless=new --disable-gpu --no-sandbox --user-data-dir=%TEMP%\chrome-pdf-scj --no-pdf-header-footer). PDF name SCJ-NNN_<slug>.pdf — no _Digest suffix. Bump next_seq, append state/index.json, Move-Item source → processed/, delete temp HTML, python tools/build_supply_code.py (never hand-edit jurisprudence/index.json).
-6. Commit one case on branch claude/supply-code-jurisprudence-design-yiwgen and push. Message: supply-code: process SCJ-NNN (short title — one-line holding). Do not commit extracts/SCJ-*.txt or .fp.json. Do not write treatise Parts.
-7. Do NOT process a second new case.
-8. End with exactly one status line:
-   SCJ-NNN · <short title> · <disposition ≤15 words> · next_seq=<n> · digest ok
+The work ticket is already prepared at supply-code/tmp/NEXT_TICKET.json. Read it first.
 
-If supply-code/input/ has no unique pending PDF, reply only: NO_INPUT · next_seq=<n> · stop
+If its status is NO_INPUT, reply only: NO_INPUT · next_seq=<n> · stop
+
+Otherwise:
+1. Read the ticket's txt (the full judgment). Read the fp.json for Indian Kanoon doc-ids. Read supply-code/jurisprudence/catalog.txt and reuse matching provision keys / principle tags. Shape the record like supply-code/summaries/json/SCJ-280.json (compact) — do not load HANDOFF.md or the giant jurisprudence/index.json.
+2. Write ONLY supply-code/summaries/json/<case_id>.json in the lean schema:
+   case_id, title, neutral_citation, court, bench, coram, date_of_judgment (ISO), date_display, docket, disposition, headnote, holding_units[], principle_tags[], not_decided[], authorities[].
+   holding_units: {provision, code, clause, topic, type, question?, holding, limiting_facts?, qualifier?, paras, flag?}. type is "supply_code" | "interplay" | "electricity_act". provision is CODE::clause (never merge a Code clause into an Act section).
+   principle_tags: {tag, application, lead_authorities:[{name,docid}], paras}. lead_authorities is a list of objects, never bare strings.
+   authorities: every precedent the judgment actually cites. cited_by is a STRING ("Court"|"Petitioner"|"Respondent"), never a list. treatment ∈ Followed|Approved|Applied|Affirmed|Distinguished|Doubted|Overruled|Referred|Relied on.
+   Use ONLY authorities in the text; match doc-ids to fp.json; never invent a citation or holding. Thin / interlocutory / contempt / not-pressed: still record, compactly, with a flag. Points raised but not decided → not_decided[].
+3. Then run exactly:
+   python tools/finalize_scj.py <case_id> --source "<exact ticket.source filename>"
+   Do not render PDF, edit state, or git by hand. Do not process a second case.
+
+End with exactly one status line:
+SCJ-NNN · <short title> · <disposition ≤15 words> · next_seq=<n> · digest ok
+
 If a fatal error blocks the case, reply only: FAILED · <brief reason> · next_seq=<n>

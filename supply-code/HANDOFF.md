@@ -73,6 +73,9 @@ Branch `claude/supply-code-jurisprudence-design-yiwgen`. One commit per case, th
 |---|---|
 | `NEXT.md` | **Trigger card.** User said “next” → follow this. |
 | `../tools/run_next_case_loop.ps1` | Unattended loop: `-Count N` fresh `grok -p` sessions. |
+| `../tools/prepare_next_scj.py` | Pick next unique PDF, skip dups, extract text → `tmp/NEXT_TICKET.json`. |
+| `../tools/finalize_scj.py` | After JSON: PDF, state, index, catalog, git. Grok must not do this by hand. |
+| `jurisprudence/catalog.txt` | Compact provision-key + principle-tag list for reuse. Generated. |
 | `HANDOFF.md` | This file. |
 | `RUNBOOK.md` | Lean-schema procedure (batch size, schema). |
 | `sessions/2026-08-27.md` | Log of the Windows session that did SCJ-273–282. |

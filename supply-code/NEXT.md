@@ -9,7 +9,9 @@ cd C:\Users\HP\Downloads\Grok\Claude
 powershell -ExecutionPolicy Bypass -File tools\run_next_case_loop.ps1 -Count 100
 ```
 
-`-DryRun` prints the grok command only. Logs: `supply-code/tmp/loop_logs/`.
+`-DryRun` prints commands only. `-NoPush` commits locally and pushes later. Logs: `supply-code/tmp/loop_logs/`.
+
+**Token split (quality unchanged):** `prepare_next_scj.py` picks/extracts; Grok **only authors the lean JSON** (reads the judgment + `jurisprudence/catalog.txt`); `finalize_scj.py` does Chrome PDF, state, index, git. Do not load `HANDOFF.md` or `jurisprudence/index.json` in the authoring session.
 
 Read `HANDOFF.md` + `RUNBOOK.md` if this is a fresh chat. Then:
 
