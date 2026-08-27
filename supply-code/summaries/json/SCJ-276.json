@@ -1,0 +1,54 @@
+{
+  "case_id": "SCJ-276",
+  "title": "Devendra Nath Dubey v. Executive Engineer, Purvanchal Vidyut Vitran Nigam Ltd.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Rohit Ranjan Agarwal, J.",
+  "date_of_judgment": "2026-03-23",
+  "date_display": "23 March 2026",
+  "docket": "Contempt Application (Civil) No. 3250 of 2025",
+  "disposition": "Contempt application dismissed as infructuous; contempt notice discharged, the writ order having been complied with by a decision on the petitioner's claim dated 24.07.2025",
+  "headnote": "A consumer disputing electricity dues of Rs. 1,48,790 (connection no. 0423449000, House No. 217, Kayasthana, Machhalishahar, Jaunpur) was relegated by the writ court in Writ-C No. 36499 of 2024 (6 November 2024) to the statutory remedy under Clause 6.5 of the U.P. Electricity Supply Code, 2005: liberty to file a representation/objection within 15 days, to be decided on merits by the Executive Engineer preferably within one month, with a two-month stay of coercive recovery that would stand automatically vacated if the representation was not filed in time. On a later civil-contempt application, a compliance affidavit showed that the claim had already been decided by order dated 24.07.2025. Holding the writ order complied with, the contempt court dismissed the application as infructuous and discharged the contempt notice. It did not re-examine the billing merits or further construe Clause 6.5.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.5",
+      "topic": "Bill-dues dispute relegated to a time-bound Clause 6.5 representation before the Executive Engineer — contempt dismissed once that representation was decided",
+      "type": "supply_code",
+      "question": "Where the writ court has relegated a consumer disputing electricity dues to a Clause 6.5 representation before the Executive Engineer, with a time-bound decision and interim protection against coercive recovery, does contempt lie after that representation has in fact been decided?",
+      "holding": "No. The writ order of 06.11.2024 itself treated Clause 6.5 as the effective statutory remedy, granted liberty to file a representation within 15 days to be decided on merits by the Executive Engineer preferably within one month, and stayed coercive recovery for two months (auto-vacating if the representation was not filed in time). A compliance affidavit of 01.09.2025 showed the claim had been decided on 24.07.2025. The writ order having been complied with, the contempt application was infructuous and was dismissed; the notice was discharged.",
+      "limiting_facts": "Dues of Rs. 1,48,790 up to 03.09.2024; connection no. 0423449000; House No. 217, Kayasthana, Machhalishahar, Jaunpur; PuVVNL; opposite party named as Rajan Singh, Executive Engineer.",
+      "flag": "This Court recites the earlier writ's Clause 6.5 relegation and decides only that it has been complied with. Indexed under 6.5 because that is the provision the writ order applied (the underlying writ is not itself in the corpus). No independent construction of the clause.",
+      "paras": "1-4"
+    },
+    {
+      "provision": "OFFTOPIC::contempt-civil",
+      "code": "Contempt of Courts Act / civil contempt (not the Supply Code)",
+      "clause": "civil contempt of a writ-disposal order",
+      "topic": "Contempt of a Clause 6.5 relegation order becomes infructuous once the representation has been decided",
+      "type": "interplay",
+      "holding": "Where the writ court's direction was only to consider and decide a Clause 6.5 representation, and that representation has been decided, the contempt application is infructuous; the notice stands discharged.",
+      "paras": "2-4",
+      "flag": "Contempt-procedure holding; retained because the alleged contempt was of a Supply-Code relegation order."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "relegate-to-statutory-remedy",
+      "application": "Recites the writ court's relegation of a dues/correctness dispute to Clause 6.5 (time-bound EE decision + limited stay of coercive recovery). Contempt does not survive once that representation has been decided.",
+      "lead_authorities": [],
+      "paras": "1-3"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness of the dues of Rs. 1,48,790 / the Executive Engineer's decision dated 24.07.2025",
+      "note": "Not examined; the contempt court treated the 24.07.2025 decision as compliance and did not review it on merits.",
+      "docid": "",
+      "paras": "2-3"
+    }
+  ],
+  "authorities": []
+}
