@@ -1,0 +1,50 @@
+{
+  "case_id": "SCJ-280",
+  "title": "Shahvez Abdullah v. State of U.P. & 6 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Ajit Kumar, J. & Indrajeet Shukla, J.",
+  "date_of_judgment": "2026-04-23",
+  "date_display": "23 April 2026",
+  "docket": "Writ - C No. 10722 of 2026",
+  "disposition": "Writ petition disposed of; the final assessment dated 24.03.2026 is to be treated as a provisional assessment; petitioner may file objections within four weeks, with a hearing and a fresh final assessment within one further month; no coercive action if objections are filed in time; the recovery citation is put in abeyance to abide that decision",
+  "headnote": "Where a consumer challenges a recovery citation on the ground that no provisional assessment notice was ever issued so as to enable objections under the U.P. Electricity Supply Code, 2005, and the licensee's instructions recite a final assessment (24.03.2026) founded on a provisional notice (27.03.2025) to which the consumer allegedly did not reply, but the record contains no receipt from which service of that provisional notice can be inferred, the writ court will not let the 'final' assessment and recovery stand as concluded. The final assessment is directed to be treated as a provisional assessment; the consumer may file objections within four weeks, shall then be heard, and a fresh final assessment shall be passed within one further month. If objections are filed in time, no coercive action is to be taken on the recovery notice, which is put in abeyance. The Court did not decide the quantum of the assessment or whether a numbered Code clause (6.8 or 8.1) had been followed.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "provisional assessment — service and opportunity to object before a final assessment / recovery",
+      "topic": "A 'final' assessment cannot support recovery where there is no receipt showing service of the provisional assessment notice; it is to be treated as provisional and objections heard",
+      "type": "supply_code",
+      "question": "Can a recovery citation rest on a final assessment that recites a prior provisional notice, when the licensee produces no receipt from which service of that provisional notice on the consumer can be inferred?",
+      "holding": "No. The petitioner's case was that no provisional assessment notice was ever issued so as to enable an objection under the Supply Code, 2005. Instructions showed a final assessment dated 24.03.2026 said to rest on a provisional notice dated 27.03.2025, with a recital that the petitioner did not reply. The Court found no receipt appended to the instructions from which service of the provisional notice could be inferred. It therefore directed that the 24.03.2026 order be treated as a provisional assessment; the petitioner may file objections within four weeks; if he does, he shall be heard and a fresh final assessment passed within one further month, and no coercive action shall be taken on the recovery notice, which is put in abeyance to abide that decision.",
+      "limiting_facts": "Petitioner Shahvez Abdullah; recovery citation challenged (para 2: dated 07.10.2025; para 6: dated 24.03.2026); respondents include the Electricity Department.",
+      "flag": "The Court did not cite a clause number. Petitioner invoked objections 'under Electricity Supply Code, 2005' to a provisional assessment. Keyed to Clause 8.1 (provisional bill, objections, hearing, then final assessment) as the theft-assessment procedure that this pattern matches; it could equally be Clause 6.8 if the demand was for unauthorised use rather than theft — the order does not say. Internal date inconsistency on the recovery citation (07.10.2025 vs 24.03.2026) recorded as the judgment states it; the operative paragraph puts the citation dated 24.03.2026 in abeyance.",
+      "paras": "2-6"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "opportunity-before-final-assessment",
+      "application": "Service of the provisional assessment must be shown (a receipt on the record); a recital that the consumer did not object, without proof of service, will not support a 'final' assessment or recovery. The 'final' order is demoted to a provisional one and objections are to be heard. Same cluster as SCJ-014, SCJ-022, SCJ-028, SCJ-117.",
+      "lead_authorities": [],
+      "paras": "5-6"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness / quantum of the assessment",
+      "note": "Left to the fresh final assessment after objections and hearing.",
+      "docid": "",
+      "paras": "6"
+    },
+    {
+      "point": "Whether the demand was a theft assessment (Clause 8.1) or other unauthorised use (Clause 6.8)",
+      "note": "The order does not characterise the demand; it speaks only of provisional/final assessment under the Code.",
+      "docid": "",
+      "paras": "3-6"
+    }
+  ],
+  "authorities": []
+}
