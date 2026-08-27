@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 273,
+  "next_seq": 274,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -1636,6 +1636,12 @@
       "case_id": "SCJ-272",
       "source_basename": "Mohd. Rizvan vs State Of U.P. And 2 Others on 2 February, 2023",
       "title": "Mohd. Rizvan v. State of U.P. & 2 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-273",
+      "source_basename": "WRIC(A)_20210_2012.pdf",
+      "title": "M/S Kamakhya Steels Pvt. Ltd. v. State of U.P. & Others",
       "status": "done"
     }
   ]
