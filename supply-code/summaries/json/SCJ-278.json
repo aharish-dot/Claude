@@ -1,0 +1,126 @@
+{
+  "case_id": "SCJ-278",
+  "title": "Satish Kumar Bharti alias Chhotu v. State of U.P. & 2 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Anish Kumar Gupta, J.",
+  "date_of_judgment": "2026-06-29",
+  "date_display": "29 June 2026",
+  "docket": "Application u/s 528 BNSS No. 36991 of 2025",
+  "disposition": "Application allowed; entire proceedings of Sessions Case No. 557 of 2023 (Case Crime No. 667 of 2020, s.135, P.S. Anti Power Theft, Chandauli) quashed against the applicant; respondent no. 2 directed to initiate appropriate proceedings against respondent no. 3 for failing to lodge the FIR within the stipulated period",
+  "headnote": "The second proviso to Section 135(1-A) of the Electricity Act, 2003 — requiring the authorised officer to lodge a written complaint at the police station within 24 hours of disconnection on detection of theft — is mandatory, not directory. Clause 8.2 of the U.P. Electricity Supply Code, 2005 independently requires the police complaint within 24 hours and the case before the Special Court within 30 days, and ties failure to the compensation/obligation under Section 57 of the Act. Because those consequences exist, the Division Bench in Indresh Patel (which treated the 24-hour rule as directory for want of consequences) is per incuriam and not a binding precedent. Following the coordinate Bench in Varun Kumar Yadav (SLP pending), an FIR lodged four days after the 26.10.2020 inspection is void; the sessions case is quashed. Separately, non-mention of the specific clause of s.135(1)(a)–(e) in the FIR, charge-sheet or cognizance order is not fatal where the narration (direct connection with no authorised supply) makes the offence clear: those clauses define theft, they do not create five distinct offences with different punishments. A Gangster-Act decision on specifying offences (Ashim @ Hassim) is distinguished.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.2",
+      "code": "U.P. Electricity Supply Code, 2005 (r/w s.135(1-A) second proviso and s.57, Electricity Act, 2003)",
+      "clause": "8.2 (police complaint within 24 hours; Special Court case within 30 days; s.57 consequences)",
+      "topic": "Clause 8.2's 24-hour police-complaint / 30-day Special Court filing, read with s.57, supplies the 'consequences' that make the s.135(1-A) 24-hour FIR rule mandatory; breach voids the criminal case",
+      "type": "supply_code",
+      "question": "Is the requirement that a theft complaint be lodged with the police within 24 hours (s.135(1-A) second proviso; Clause 8.2 of the Code) directory for want of consequences, or mandatory so that a late FIR vitiates the prosecution?",
+      "holding": "Mandatory. Clause 8.2 of the Code requires the police complaint within 24 hours and the case before the Special Court within 30 days; failure attracts the licensee's obligations under Section 57 of the Act (compensation for missing specified standards of performance). Those are the consequences Indresh Patel said were missing. That Division Bench decision, having been given without looking at s.57 and Clause 8.2, is per incuriam and not binding. Following Varun Kumar Yadav (a thing required to be done in a particular manner is void if done otherwise — Dr. Arun Kumar), and it being admitted that the FIR was lodged four days after the inspection, well beyond 24 hours, the entire sessions case is quashed. The licensee is directed to proceed against the officer who failed to lodge the FIR in time.",
+      "limiting_facts": "Inspection 26.10.2020: applicant found using electricity by an illegal cable with no authorised connection, videographed; FIR 30.10.2020 (Crime No. 667 of 2020, P.S. Anti Power Theft, Chandauli); charge-sheet; cognizance 5.7.2023; Sessions Case No. 557 of 2023 before ADJ, FTC, Chandauli. SLP (Crl.) Diary No. 74474 of 2025 against Varun Kumar Yadav is pending (notices 23.1.2026); the Court still followed that coordinate-Bench decision.",
+      "flag": "The statutory 24-hour clock in s.135(1-A) second proviso runs from disconnection, not from inspection; the applicant and the Court treated the four-day gap from inspection (26.10.2020 → 30.10.2020) as the breach. No separate finding on the date of disconnection. The operative direction at para 12 refers to the mandate as 'Section 135(1)(a)' — the 24-hour rule is the second proviso to s.135(1-A); (1)(a) is the tapping/direct-connection offence. Recorded as a slip, not merged. Tension with Indresh Patel (DB, directory) is stated, not papered over; this is a Single Judge holding a DB per incuriam.",
+      "paras": "5, 7, 10-12"
+    },
+    {
+      "provision": "EA2003::135",
+      "code": "Electricity Act, 2003",
+      "clause": "s.135(1)(a)–(e) — categories are the definition of theft, not five offences that must be particularised in the FIR",
+      "topic": "Non-mention of the specific clause of s.135(1) in the FIR, charge-sheet or cognizance order is not fatal where the narration makes the theft clear",
+      "type": "interplay",
+      "question": "Does failure to specify which of s.135(1)(a)–(e) is invoked in the FIR, charge-sheet or cognizance order vitiate the prosecution?",
+      "holding": "No, on these facts. The five clauses of s.135(1) carry the same punishment (up to three years or fine or both) and are the definition of theft of electricity. The FIR's narration — no authorised connection, electricity used by laying a cable illegally, videographed, no document produced — makes the offence under s.135(1) clear (direct/unauthorised connection). Mere mention of 'Section 135' without the sub-clause does not aid the accused. Ashim @ Hassim is distinguished: it concerned the Gangster Act, where the different offences have a different connotation.",
+      "limiting_facts": "The Electricity Department accepted that the specific category was not named, but submitted the narration showed s.135(1)(a).",
+      "paras": "5, 8, 10"
+    },
+    {
+      "provision": "EA2003::57",
+      "code": "Electricity Act, 2003",
+      "clause": "s.57(2) (compensation when the licensee misses specified standards of performance)",
+      "topic": "Section 57, with Clause 8.2, is the statutory consequence of missing the 24-hour FIR / 30-day Special Court timeline",
+      "type": "interplay",
+      "holding": "Section 57(2) requires the licensee, without prejudice to penalty or prosecution, to pay such compensation as the Commission determines if it fails to meet the standards specified under s.57(1). Read with Clause 8.2 of the Code (24-hour police complaint; 30-day Special Court filing), it supplies the consequence for breach of the s.135(1-A) 24-hour lodging rule, and is why Indresh Patel's 'no consequences' premise does not hold.",
+      "paras": "11",
+      "flag": "Deployed only as the consequence that makes the 24-hour rule mandatory; the Court did not award s.57 compensation."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "s135-1A-24-hour-FIR-is-mandatory",
+      "application": "The 24-hour police-complaint rule in s.135(1-A) second proviso, reinforced by Clause 8.2 of the Code and s.57 consequences, is mandatory; a theft FIR lodged four days after inspection vitiates the criminal case. Indresh Patel (DB, directory) is treated as per incuriam; Varun Kumar Yadav (coordinate Bench; SLP pending) is followed.",
+      "lead_authorities": [
+        {"name": "Varun Kumar Yadav v. State of U.P. & Others", "docid": ""},
+        {"name": "Indresh Patel @ Indreshwar Singh v. State of U.P. & 4 Others", "docid": ""},
+        {"name": "Dr. Arun Kumar v. Nagar Nigam, Bareilly", "docid": ""}
+      ],
+      "paras": "10-12"
+    },
+    {
+      "tag": "s135-1-clauses-are-definitional-not-separate-offences",
+      "application": "s.135(1)(a)–(e) define theft and share one punishment; omitting the sub-clause from the FIR/charge-sheet/cognizance is not fatal if the narration is complete.",
+      "lead_authorities": [],
+      "paras": "10"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "The correctness of Varun Kumar Yadav, now under challenge in SLP (Crl.) Diary No. 74474 of 2025",
+      "note": "Notices issued 23.1.2026; this Court followed the coordinate Bench notwithstanding the pending SLP. The Supreme Court has not yet spoken.",
+      "docid": "",
+      "paras": "8, 10"
+    },
+    {
+      "point": "Whether a disconnection in fact took place on the date of inspection so as to start the s.135(1-A) 24-hour clock",
+      "note": "The proviso times the complaint from disconnection. The Court treated the four-day gap from inspection as the breach, without a separate finding of the disconnection date.",
+      "docid": "",
+      "paras": "11-12"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Varun Kumar Yadav v. State of U.P. & Others",
+      "citation": "2025 (7) ADJ 710",
+      "court": "Allahabad High Court",
+      "docid": "",
+      "proposition": "The 24-hour lodging requirement for a theft complaint is mandatory; a thing required to be done in a particular manner is void if done otherwise.",
+      "how_treated": "Followed as the coordinate-Bench authority on which the quashing rests, despite a pending SLP against it.",
+      "how_treated_paras": "6, 8, 10-12",
+      "cited_by": "Petitioner",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Indresh Patel @ Indreshwar Singh v. State of U.P. & 4 Others",
+      "citation": "Criminal Misc. Writ Petition No. 265 of 2023, decided 6.2.2013 (as cited)",
+      "court": "Allahabad High Court (DB)",
+      "docid": "",
+      "proposition": "The 24-hour requirement in the second proviso to s.135(1-A) is directory; no consequences are specified for its breach.",
+      "how_treated": "Held per incuriam and not a binding precedent, because it did not notice s.57 of the Act or Clause 8.2 of the Code, which do specify consequences. (The citation as given is internally inconsistent: a 2023 writ number with a 2013 decision date — recorded as the judgment states it.)",
+      "how_treated_paras": "7, 10-11",
+      "cited_by": "Respondent",
+      "treatment": "Doubted"
+    },
+    {
+      "name": "Ashim @ Hassim v. State of U.P. & Another",
+      "citation": "Criminal Misc. Writ Petition No. 18729 of 2023, decided 2 December 2023",
+      "court": "Allahabad High Court (DB)",
+      "docid": "",
+      "proposition": "(Relied on by the applicant for the need to specify which of several statutory offences is charged.)",
+      "how_treated": "Distinguished — it concerned the Gangster Act, where the different offences have an entirely different connotation; it does not govern s.135(1)(a)–(e), which share one punishment and define theft.",
+      "how_treated_paras": "6, 10",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "Dr. Arun Kumar v. Nagar Nigam, Bareilly",
+      "citation": "2017 (2) ADJ 638",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Where a statute requires a thing to be done in a particular manner, doing it otherwise is void and illegal.",
+      "how_treated": "Applied, as in Varun Kumar Yadav, to hold a late s.135 FIR void.",
+      "how_treated_paras": "10",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}
