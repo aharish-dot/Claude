@@ -1,0 +1,22 @@
+Process exactly ONE short Supply Code case. Ticket authoring is short (≤2 pages or ≤800 words). Do not write treatise Parts.
+
+Read supply-code/tmp/NEXT_TICKET.json first. If status is NO_INPUT, reply only: NO_INPUT · next_seq=<n> · stop
+
+Do NOT open: catalog.txt, HANDOFF.md, jurisprudence/index.json, or any example JSON (SCJ-280 etc.). Those are the token save.
+
+1. Read the ticket's txt (the whole order — it is short) and fp.json.
+2. Reuse provision keys and principle tags from ticket.catalog_hits only. If a hit fits, use it. If none fit, key CODE::clause from the order itself (UP-2005::… / EA2003::…). Listing-only → OFFTOPIC::procedural-listing. Do not invent a synonym for a hit that already fits.
+3. Write ONLY supply-code/summaries/json/<case_id>.json. Same fields as the full schema, kept compact:
+   case_id, title, neutral_citation, court, bench, coram, date_of_judgment (ISO), date_display, docket, page_count (from ticket), significance, disposition, headnote, facts, holding_units[], principle_tags[], not_decided[], authorities[].
+   significance: "significant" | "ordinary" | "procedural" ("normal" = ordinary). Short does not mean skip the label — a 2-page doctrinal quash is still "significant".
+   facts: one short paragraph (~60–90 words), the story not the holding.
+   holding_units: usually one. {provision, code, clause, topic, type, holding, paras, flag?}. Omit question unless it adds something the holding does not say. No limiting_facts. type is "supply_code" | "interplay" | "electricity_act". Flag wrong/ambiguous clause numbers (do not silently "correct" them).
+   principle_tags: omit if the tag would only repeat the holding. If used: {tag, application, lead_authorities:[{name,docid}], paras}.
+   not_decided[]: keep — points raised and left open. authorities[]: every precedent actually cited; cited_by is a STRING; never invent a citation. Empty arrays are fine.
+4. python tools/finalize_scj.py <case_id> --source "<exact ticket.source filename>"
+   Do not Chrome/git/index by hand. Do not process a second case.
+
+End with exactly one status line:
+SCJ-NNN · <short title> · <disposition ≤15 words> · next_seq=<n> · digest ok
+
+If a fatal error blocks the case, reply only: FAILED · <brief reason> · next_seq=<n>

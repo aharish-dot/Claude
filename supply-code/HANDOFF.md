@@ -48,7 +48,7 @@ Process remaining judgments **first** (mechanical pipeline → index), **then** 
 Token split (quality of the JSON unchanged):
 
 1. `python tools/prepare_next_scj.py` — next unique PDF, skip dups, extract text → `tmp/NEXT_TICKET.json`
-2. Grok authors **only** `summaries/json/SCJ-NNN.json` (full judgment + `catalog.txt` + example SCJ-280). Does not load this HANDOFF or `jurisprudence/index.json`.
+2. Grok authors **only** `summaries/json/SCJ-NNN.json`. **Short path** if pages ≤ 2 or words ≤ 800 (`ticket.authoring=short`, `next_case_short.txt`, `catalog_hits` on the ticket, max 15 turns — do not load `catalog.txt` or SCJ-280). **Full path** otherwise (`next_case_once.txt` + catalog + SCJ-280). Does not load this HANDOFF or `jurisprudence/index.json`.
 3. `python tools/finalize_scj.py SCJ-NNN --source "<file>"` — schema gates, Chrome PDF (`--user-data-dir` required on Windows), state, spine, catalog, git commit+push. Loop re-runs finalize if the agent wrote JSON but skipped this step.
 
 - PDF name: `SCJ-<NNN>_<slug>.pdf` — **no `_Digest`**.

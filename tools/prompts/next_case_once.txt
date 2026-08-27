@@ -3,6 +3,7 @@ Process exactly ONE Supply Code Jurisprudence case. Quality of the lean JSON is 
 The work ticket is already prepared at supply-code/tmp/NEXT_TICKET.json. Read it first.
 
 If its status is NO_INPUT, reply only: NO_INPUT · next_seq=<n> · stop
+If ticket.authoring is "short", follow tools/prompts/next_case_short.txt instead of this file (do not load catalog.txt or SCJ-280).
 
 Otherwise:
 1. Read the ticket's txt (the full judgment). Read the fp.json for Indian Kanoon doc-ids. Read supply-code/jurisprudence/catalog.txt and reuse matching provision keys / principle tags. Shape the record like supply-code/summaries/json/SCJ-280.json (compact) — do not load HANDOFF.md or the giant jurisprudence/index.json.

@@ -52,10 +52,13 @@ if (-not (Test-Path $ScRoot)) {
 }
 
 $promptFile = Join-Path $RepoRoot "tools\prompts\next_case_once.txt"
+$promptShort = Join-Path $RepoRoot "tools\prompts\next_case_short.txt"
 $preparePy = Join-Path $RepoRoot "tools\prepare_next_scj.py"
 $finalizePy = Join-Path $RepoRoot "tools\finalize_scj.py"
 $ticketPath = Join-Path $ScRoot "tmp\NEXT_TICKET.json"
 if (-not (Test-Path $promptFile)) { throw "Missing prompt file: $promptFile" }
+if (-not (Test-Path $promptShort)) { throw "Missing prompt file: $promptShort" }
+$maxTurnsUserSet = $PSBoundParameters.ContainsKey("MaxTurns")
 
 $grok = Get-Command grok -ErrorAction SilentlyContinue
 if (-not $grok -and -not $DryRun) {
@@ -103,7 +106,7 @@ for ($i = 1; $i -le $Count; $i++) {
 
   if ($DryRun) {
     Write-Log "DRY-RUN: $py tools/prepare_next_scj.py"
-    Write-Log "DRY-RUN: $grokPath --prompt-file $promptFile --max-turns $MaxTurns"
+    Write-Log "DRY-RUN: $grokPath --prompt-file <full|short from ticket.authoring> --max-turns <ticket.max_turns unless -MaxTurns>"
     Write-Log "DRY-RUN: $py tools/finalize_scj.py SCJ-NNN --source <file>"
     continue
   }
@@ -127,15 +130,22 @@ for ($i = 1; $i -le $Count; $i++) {
     $fail++
     continue
   }
-  Write-Log "ticket $($ticket.case_id) source=$($ticket.source) words=$($ticket.word_count)"
+  $authoring = [string]$ticket.authoring
+  if (-not $authoring) { $authoring = "full" }
+  $casePrompt = if ($authoring -eq "short") { $promptShort } else { $promptFile }
+  $caseTurns = $MaxTurns
+  if (-not $maxTurnsUserSet -and $ticket.max_turns) {
+    $caseTurns = [int]$ticket.max_turns
+  }
+  Write-Log "ticket $($ticket.case_id) authoring=$authoring source=$($ticket.source) pages=$($ticket.page_count) words=$($ticket.word_count) turns=$caseTurns"
 
   $caseLog = Join-Path $logDir ("case_{0:D2}_{1}_{2}.log" -f $i, $ticket.case_id, $stamp)
   $grokArgs = @(
     "--cwd", $RepoRoot,
-    "--prompt-file", $promptFile,
+    "--prompt-file", $casePrompt,
     "--permission-mode", "bypassPermissions",
     "--always-approve",
-    "--max-turns", "$MaxTurns",
+    "--max-turns", "$caseTurns",
     "--output-format", "plain",
     "--no-auto-update"
   )

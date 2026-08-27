@@ -19,8 +19,15 @@ SUMM = os.path.join(SC, "summaries", "json")
 EXTRACTS = os.path.join(SC, "extracts")
 TICKET = os.path.join(SC, "tmp", "NEXT_TICKET.json")
 SKIP_NAMES = {"WRIC(A)_20210_2012.pdf"}  # already SCJ-273
+CATALOG = os.path.join(SC, "jurisprudence", "catalog.txt")
+SHORT_PAGES = 2
+SHORT_WORDS = 800
+SHORT_TURNS = 15
+FULL_TURNS = 50
 
 FN_DOCKET = re.compile(r"_(\d+)_(\d{4})\.pdf$", re.I)
+CLAUSE_NUM = re.compile(r"\b\d+\.\d+(?:\([A-Za-z0-9]+\))*")
+SECTION_NUM = re.compile(r"(?i)\b(?:sections?|s\.)\s*(\d+[A-Z]?(?:\(\d+[A-Z]?\))*)")
 
 
 def load_state():
@@ -112,12 +119,42 @@ def extract(src_name, cid):
 
 
 def ensure_catalog():
-    cat = os.path.join(SC, "jurisprudence", "catalog.txt")
-    if not os.path.exists(cat):
+    if not os.path.exists(CATALOG):
         subprocess.run(
             [sys.executable, os.path.join(ROOT, "tools", "build_scj_catalog.py")],
             cwd=ROOT, check=True,
         )
+
+
+def is_short(page_count, word_count):
+    if isinstance(page_count, int) and page_count <= SHORT_PAGES:
+        return True
+    return int(word_count or 0) <= SHORT_WORDS
+
+
+def catalog_hits(txt, limit=40):
+    """Provision/tag lines that mention clause or section numbers found in the order."""
+    if not txt or not os.path.exists(CATALOG):
+        return []
+    needles = {m.group(0).lower() for m in CLAUSE_NUM.finditer(txt)}
+    needles.update(m.group(1).lower() for m in SECTION_NUM.finditer(txt))
+    needles = {n for n in needles if n and n not in {"1", "2", "3"}}
+    if not needles:
+        return []
+    hits, seen = [], set()
+    with open(CATALOG, encoding="utf-8") as f:
+        for line in f:
+            s = line.strip()
+            if (not s or s.startswith("#")
+                    or s.startswith("PROVISIONS ") or s.startswith("TAGS ")):
+                continue
+            low = s.lower()
+            if any(n in low for n in needles) and s not in seen:
+                seen.add(s)
+                hits.append(s)
+            if len(hits) >= limit:
+                break
+    return hits
 
 
 def main():
@@ -144,6 +181,12 @@ def main():
 
     fp = extract(name, cid)
     ensure_catalog()
+    words = int(fp.get("word_count") or 0)
+    pages = fp.get("page_count")
+    txt_path = os.path.join(EXTRACTS, cid + ".txt")
+    txt = open(txt_path, encoding="utf-8", errors="replace").read() if os.path.exists(txt_path) else ""
+    short = is_short(pages, words)
+    hits = catalog_hits(txt)
     ticket = {
         "status": "READY",
         "case_id": cid,
@@ -151,18 +194,26 @@ def main():
         "source": name,
         "txt": f"supply-code/extracts/{cid}.txt",
         "fp": f"supply-code/extracts/{cid}.fp.json",
-        "word_count": fp.get("word_count", 0),
-        "page_count": fp.get("page_count"),
+        "word_count": words,
+        "page_count": pages,
         "citation_count": fp.get("citation_count", 0),
-        "catalog": "supply-code/jurisprudence/catalog.txt",
-        "example": "supply-code/summaries/json/SCJ-280.json",
+        "authoring": "short" if short else "full",
+        "max_turns": SHORT_TURNS if short else FULL_TURNS,
+        "catalog_hits": hits,
         "out_json": f"supply-code/summaries/json/{cid}.json",
     }
+    if short:
+        ticket["prompt"] = "tools/prompts/next_case_short.txt"
+    else:
+        ticket["catalog"] = "supply-code/jurisprudence/catalog.txt"
+        ticket["example"] = "supply-code/summaries/json/SCJ-280.json"
+        ticket["prompt"] = "tools/prompts/next_case_once.txt"
     os.makedirs(os.path.dirname(TICKET), exist_ok=True)
     with open(TICKET, "w", encoding="utf-8") as f:
         json.dump(ticket, f, indent=2)
         f.write("\n")
-    print(f"READY {cid} source={name} words={ticket['word_count']} → {TICKET}")
+    print(f"READY {cid} authoring={ticket['authoring']} source={name} "
+          f"pages={pages} words={words} catalog_hits={len(hits)} → {TICKET}")
     return 0
 
 
