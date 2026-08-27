@@ -1,0 +1,71 @@
+{
+  "case_id": "SCJ-279",
+  "title": "Shah Faisal v. State of Uttar Pradesh & 4 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court (Lucknow Bench)",
+  "bench": "Single Judge",
+  "coram": "Shree Prakash Singh, J.",
+  "date_of_judgment": "2026-07-06",
+  "date_display": "6 July 2026",
+  "docket": "Application u/s 528 BNSS No. 2047 of 2026",
+  "disposition": "Application disposed of as not pressed; if the applicant appears before the trial court within two weeks and files a bail application, it shall be decided expeditiously in light of Satender Kumar Antil v. CBI (2022) 10 SCC 51",
+  "headnote": "An accused who sought to quash a Section 135 charge-sheet (FIR No. 1466/2022, P.S. Anti-Power Theft, Sitapur; Sessions Case 2082 of 2025) and to set aside an inspection report dated 02.11.2022 and a revenue assessment of Rs. 5,96,266 for alleged non-compliance with Clause 8.1 of the U.P. Electricity Supply Code, 2005 (want of mandatory videography and independent public witnesses), did not press the 528 BNSS application and asked only for liberty to apply for bail. The State had submitted that a prima facie offence was made out and that the allegations were disputed questions of fact for trial. The Court recorded the withdrawal, granted two weeks to appear and file bail, and directed that any such application be decided expeditiously in light of Satender Kumar Antil. It did not construe Clause 8.1, did not examine the assessment, and did not quash the charge-sheet.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "8.1 (theft-assessment procedure — videography and independent public witnesses, as pleaded)",
+      "topic": "Clause 8.1 challenge to inspection and assessment (no videography / no independent witnesses) — raised, not decided, because the 528 application was not pressed",
+      "type": "supply_code",
+      "question": "Is an inspection report and a theft-linked revenue assessment of Rs. 5,96,266 void for non-compliance with Clause 8.1 (mandatory videography and independent public witnesses)?",
+      "holding": "Not decided. That was prayer (II) of the 528 application. After the State submitted that a prima facie s.135 offence was made out and that the facts were for trial, counsel did not press the application and sought only liberty to apply for bail. The Court disposed of the application on that prayer. This case is not authority on Clause 8.1's videography or witness requirements.",
+      "limiting_facts": "Applicant Shah Faisal; FIR No. 1466/2022, s.135, P.S. Anti-Power Theft, Sitapur; Charge-sheet No. 544/2025 dated 10.09.2025; Sessions Case 2082 of 2025 before the Special Judge (Electricity Act), Sitapur; inspection 02.11.2022; assessment Rs. 5,96,266. Prayer (III) also sought an inquiry into alleged departmental entrapment and extortion of Rs. 2,05,000 — equally not reached.",
+      "flag": "Indexed under Clause 8.1 only because that was the Code ground pleaded. Thin criminal-procedure disposal; no construction of the Code.",
+      "paras": "(unnumbered order)"
+    },
+    {
+      "provision": "EA2003::135",
+      "code": "Electricity Act, 2003",
+      "clause": "s.135 (theft) — charge-sheet not quashed; bail liberty only",
+      "topic": "A 528 BNSS challenge to a s.135 charge-sheet, withdrawn at the hearing, yields only a direction that a promptly filed bail application be decided in light of Satender Kumar Antil",
+      "type": "interplay",
+      "holding": "The charge-sheet and sessions case were not quashed. On the applicant not pressing the 528 application, the Court granted two weeks to appear before the trial court and file bail, to be decided expeditiously following Satender Kumar Antil v. CBI. The State's submission that the allegations are disputed questions of fact for trial was not traversed.",
+      "paras": "(unnumbered order)",
+      "flag": "Criminal-procedure disposal of a s.135 prosecution; retained as a node in the theft line."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the inspection of 02.11.2022 and the assessment of Rs. 5,96,266 are void for want of Clause 8.1 videography and independent public witnesses",
+      "note": "Prayer (II); not pressed.",
+      "docid": "",
+      "paras": "(unnumbered order)"
+    },
+    {
+      "point": "Whether the charge-sheet / sessions case under s.135 should be quashed",
+      "note": "Prayer (I); not pressed. State had submitted a prima facie case and disputed facts for trial.",
+      "docid": "",
+      "paras": "(unnumbered order)"
+    },
+    {
+      "point": "Alleged departmental entrapment, fraudulent transformer installation, and extortion of Rs. 2,05,000",
+      "note": "Prayer (III); not addressed.",
+      "docid": "",
+      "paras": "(unnumbered order)"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Satender Kumar Antil v. Central Bureau of Investigation & Another",
+      "citation": "(2022) 10 SCC 51",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Bail applications are to be considered in accordance with the principles laid down in this decision (guidelines on arrest, appearance, and expedition of bail).",
+      "how_treated": "Applied only to the direction that, if the applicant appears within two weeks and files bail, the trial court shall decide it expeditiously in light of this case. Not applied to the s.135/Code merits, which were not pressed.",
+      "how_treated_paras": "(unnumbered order)",
+      "cited_by": "Petitioner",
+      "treatment": "Followed"
+    }
+  ]
+}
