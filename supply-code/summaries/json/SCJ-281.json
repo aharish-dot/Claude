@@ -1,0 +1,72 @@
+{
+  "case_id": "SCJ-281",
+  "title": "Parvati Devi v. Purvanchal Vidyut Vitran Nigam Ltd. & Another",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Arindam Sinha, J. & Satya Veer Singh, J.",
+  "date_of_judgment": "2026-04-08",
+  "date_display": "8 April 2026",
+  "docket": "Writ - C No. 11370 of 2026",
+  "disposition": "Writ petition dismissed; the Court refused to examine the surcharge / billed-amount dispute after the petitioner declined to deposit the bill-minus-surcharge as directed, and refused to compel a permanent disconnection",
+  "headnote": "A consumer who had obtained a revised bill (20.02.2026) after a prior writ, still disputed late-payment surcharge of Rs. 2,24,241.30 on that bill and sought a single bill from inception (final reading 4468 kWh) with no fixed charges after temporary disconnection and no surcharge, invoking Clauses 4.37(a), 4.38 and 6.5(b)(i) of the U.P. Electricity Supply Code, 2005. The Court had required her to deposit Rs. 1,44,253 (the billed amount less surcharge) as a precondition to examining the surcharge, and the licensee to disclose particulars of a 21.03.2025 disconnection memo. She refused to deposit, saying Clauses 4.37/4.38 mandated permanent disconnection so she need not pay the difference. The writ court would not be drawn into a billed-amount dispute on that footing, and dismissed the petition. Clauses 4.37 and 4.38 empower the licensee to permanently disconnect a line that has remained temporarily disconnected without the cause being removed; whether the consumer can compel the licensee to do that is not a question for a writ in which the bill itself is disputed. The Clause 6.5(b)(i) contention (no LPS when a revised bill follows a complaint found correct) was not decided.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.37",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.37(a) r/w 4.38 (temporary then permanent disconnection; minimum-charge billing; dormant connection / final account)",
+      "topic": "Clauses 4.37 and 4.38 empower the licensee to permanently disconnect after six months of unremedied temporary disconnection; a consumer who disputes the bill cannot compel that step in writ",
+      "type": "supply_code",
+      "question": "Can a consumer who disputes a revised bill (including late-payment surcharge after temporary disconnection) compel the licensee, under Clauses 4.37(a) and 4.38, to permanently disconnect and to recast the account from inception without fixed charges or surcharge?",
+      "holding": "The licensee is empowered by Clauses 4.37 and 4.38 to permanently disconnect a line that was temporarily disconnected, where the cause has not been removed (Clause 4.37(a): minimum-charge billing after TD, Annexure 4.9 notice, permanent disconnection after six months, then dormant connection and a final account; Clause 4.38(b): PD if the cause is not removed within six months). Whether the consumer can compel the licensee to exercise that power is not a question for consideration in a writ petition in which the bill itself is disputed. The petition, which sought a recast bill from inception without fixed charges after TD and without surcharge, and quashing of the 20.02.2026 bill, was dismissed.",
+      "limiting_facts": "Temporary disconnection memo 21.03.2025 demanding Rs. 4,23,419; consumer complained; revised bill 20.02.2026 for Rs. 3,68,494 including LPS of Rs. 2,24,241.30; earlier coordinate-Bench order in Writ-C No. 43924 of 2025 had led to that revised bill. Petitioner Parvati Devi; PuVVNL. She refused the Court's direction to deposit Rs. 1,44,253 (bill less surcharge) as a precondition to examining the surcharge.",
+      "paras": "1, 4-7"
+    },
+    {
+      "provision": "UP-2005::6.5(b)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.5(b)(i) (no late-payment surcharge when a bill is revised on a complaint found correct) — raised, not decided",
+      "topic": "Writ court will not examine an LPS challenge on a revised bill if the consumer refuses to deposit the undisputed billed amount",
+      "type": "supply_code",
+      "question": "Where a revised bill still includes late-payment surcharge, and the consumer invokes Clause 6.5(b)(i) (no LPS when the complaint is found correct), will the writ court quash the surcharge without deposit of the rest of the bill?",
+      "holding": "The Court did not decide Clause 6.5(b)(i). It had narrowed the controversy to the surcharge of Rs. 2,24,241.30 and directed deposit of the difference (Rs. 1,44,253) as a precondition to looking into the surcharge, with the licensee to disclose particulars of the 21.03.2025 disconnection memo. The petitioner refused to deposit, recasting the case as a demand for permanent disconnection. The Court would not be drawn into a dispute on the billed amount and dismissed the writ.",
+      "flag": "Clause 6.5(b)(i) is indexed because it was the consumer's surcharge ground; this order is not a construction of that sub-clause.",
+      "paras": "2-3, 5-7"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "writ-will-not-adjudicate-bill-if-undisputed-part-unpaid",
+      "application": "A surcharge / Clause 6.5(b)(i) grievance will not be examined in writ if the consumer refuses to deposit the billed amount less the disputed surcharge, as previously directed.",
+      "lead_authorities": [],
+      "paras": "5-7"
+    },
+    {
+      "tag": "clause-4.37-4.38-licensee-empowered-to-permanently-disconnect",
+      "application": "After temporary disconnection, Clauses 4.37(a) and 4.38 empower the licensee to move to permanent disconnection if the cause is not removed within six months; that power is the licensee's, and a bill-disputing consumer cannot compel its exercise in writ.",
+      "lead_authorities": [],
+      "paras": "4, 6"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether Clause 6.5(b)(i) bars late-payment surcharge on the revised bill of 20.02.2026",
+      "note": "Raised; not decided. The Court dismissed for refusal to deposit the bill-minus-surcharge and would not examine the billed amount.",
+      "docid": "",
+      "paras": "2-3, 6-7"
+    },
+    {
+      "point": "Whether the consumer can compel permanent disconnection under Clauses 4.37/4.38",
+      "note": "Expressly not considered, because the bill itself was in dispute.",
+      "docid": "",
+      "paras": "6"
+    },
+    {
+      "point": "Correctness of the disconnection memo of 21.03.2025 and of the revised demand of Rs. 3,68,494",
+      "note": "Not reached.",
+      "docid": "",
+      "paras": "6-7"
+    }
+  ],
+  "authorities": []
+}

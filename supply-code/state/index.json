@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 281,
+  "next_seq": 282,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -1684,6 +1684,12 @@
       "case_id": "SCJ-280",
       "source_basename": "WRIC(A)_10722_2026.pdf",
       "title": "Shahvez Abdullah v. State of U.P. & 6 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-281",
+      "source_basename": "WRIC(A)_11370_2026.pdf",
+      "title": "Parvati Devi v. Purvanchal Vidyut Vitran Nigam Ltd. & Another",
       "status": "done"
     }
   ]
