@@ -2,46 +2,23 @@
 
 Do **exactly one** unique pending judgment. Do not wait for confirmation. Do not start the treatise.
 
-To run many cases unattended (fresh Grok session each time):
+Unattended (user runs this; they do not babysit):
 
 ```
 cd C:\Users\HP\Downloads\Grok\Claude
 powershell -ExecutionPolicy Bypass -File tools\run_next_case_loop.ps1 -Count 100
 ```
 
-`-DryRun` prints commands only. `-NoPush` commits locally and pushes later. Logs: `supply-code/tmp/loop_logs/`.
+Each iteration still produces **JSON + digest PDF + commit + push**. Grok only authors the JSON; `finalize_scj.py` does PDF/git. `-NoPush` is opt-out. `-DryRun` prints commands. Logs: `supply-code/tmp/loop_logs/`.
 
-**Token split (quality unchanged):** `prepare_next_scj.py` picks/extracts; Grok **only authors the lean JSON** (reads the judgment + `jurisprudence/catalog.txt`); `finalize_scj.py` does Chrome PDF, state, index, git. Do not load `HANDOFF.md` or `jurisprudence/index.json` in the authoring session.
+## Chat path (same artifacts)
 
-Read `HANDOFF.md` + `RUNBOOK.md` if this is a fresh chat. Then:
+1. `python tools/prepare_next_scj.py`  
+   Exit 2 / ticket `status: NO_INPUT` → stop. Docket/filename duplicates are retired to `processed/` with no new id.
+2. Read `supply-code/tmp/NEXT_TICKET.json`, then the ticket's `.txt` (full judgment) and `.fp.json`. Read `supply-code/jurisprudence/catalog.txt` for existing keys. Shape like `summaries/json/SCJ-280.json`. **Do not** load `HANDOFF.md` or `jurisprudence/index.json`.
+3. Write **only** `supply-code/summaries/json/<case_id>.json` (lean schema). Never invent citations/holdings. `cited_by` is a string; `lead_authorities` is `[{name, docid}, …]`; provision keys are `CODE::clause`. Thin orders still recorded, with a `flag`. Unresolved points → `not_decided[]`.
+4. `python tools/finalize_scj.py <case_id> --source "<ticket.source>"`  
+   Do not Chrome/git/index by hand.
+5. Stop. One-line status: `SCJ-NNN · title · disposition · next_seq=N · digest ok`.
 
-## 1. Pick the file
-- Queue = PDFs in `supply-code/input/` (alphabetical).
-- **Skip:** already in `processed/` · names matching ` (1).pdf` (upload twins) · `WRIC(A)_20210_2012.pdf` (already **SCJ-273**).
-- **Duplicate guard BEFORE assigning an id:** grep `state/index.json` and `summaries/json/` for the writ/docket number and party names. `WRIC(A)_10937_2026.pdf` was **already SCJ-169** — retire to `processed/` without a new id, then take the following unique file (that is still “next”).
-- Id = `SCJ-` + zero-padded `state/index.json` → `next_seq` (currently **283**). Next file as of this note: **`WRIC(A)_12303_2026.pdf`**.
-
-## 2. Extract and draft
-```
-python tools/extract_judgment.py "supply-code/input/<file>" "supply-code/extracts" SCJ-NNN
-```
-Read `.txt` (short cases: this thread). Reuse existing `principle_tags` / provision keys. Do not invent citations or holdings. Thin / interlocutory / contempt / not-pressed orders: still record, compactly, with a `flag`. Points raised but not decided → `not_decided[]`.
-
-Schema gotchas: `cited_by` is a **string**; `lead_authorities` is `[{name, docid}, …]`; provision keys are `CODE::clause`.
-
-## 3. Render, index, commit
-```
-python tools/gen_scj.py summaries/json/SCJ-NNN.json summaries/SCJ-NNN.html
-```
-Windows Chrome (must use a **separate** `--user-data-dir` or a running Chrome swallows the job):
-
-```
-"C:\Program Files\Google\Chrome\Application\chrome.exe" --headless=new --disable-gpu --no-sandbox --user-data-dir="%TEMP%\chrome-pdf-scj" --no-pdf-header-footer --print-to-pdf="<abs pdf>" "file:///<abs html with forward slashes>"
-```
-
-PDF name: `SCJ-NNN_<slug>.pdf` — **no `_Digest`**. Bump `next_seq`, append the case in `state/index.json`, `Move-Item` source → `processed/`, delete the temp HTML, `python tools/build_supply_code.py` (never hand-edit `jurisprudence/index.json`).
-
-Commit one case, message `supply-code: process SCJ-NNN (short title — one-line holding)`, push branch `claude/supply-code-jurisprudence-design-yiwgen`. Do not commit `extracts/SCJ-*.txt` / `.fp.json`.
-
-## 4. Reply
-Cause title, court/bench/date/docket, disposition, what was held / not decided, paths, spine counts, next filename. Then stop.
+Skip: `processed/` names · ` (1).pdf` · `WRIC(A)_20210_2012.pdf` (SCJ-273). Next as of handoff: **`WRIC(A)_12303_2026.pdf` → SCJ-283**.

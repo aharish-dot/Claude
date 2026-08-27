@@ -4,7 +4,7 @@
 > Mechanical procedure: **`RUNBOOK.md`**. One-command trigger: **`NEXT.md`**.
 > Project rationale: **`README.md`**. Do not duplicate them.
 
-_Last updated: 27 August 2026 — end of the session that processed SCJ-273 … SCJ-282 on Windows._
+_Last updated: 27 August 2026 — SCJ-273…282 processed; unattended loop + token-split (prepare → JSON → finalize) committed. PDF+push still happen every case._
 
 ---
 
@@ -42,12 +42,19 @@ Process remaining judgments **first** (mechanical pipeline → index), **then** 
 - **Docket duplicate:** `WRIC(A)_10937_2026.pdf` = **SCJ-169** (Abhimanyu Singh, 9 Apr 2026). Retired to `processed/` without a new id. **Always grep docket + parties before assigning `SCJ-NNN`.**
 
 ### Windows pipeline (this checkout)
-- Extract: `python tools/extract_judgment.py "<pdf>" supply-code/extracts SCJ-NNN`
-- Render HTML: `python tools/gen_scj.py summaries/json/SCJ-NNN.json summaries/SCJ-NNN.html`
-- Chrome: `C:\Program Files\Google\Chrome\Application\chrome.exe` with `--headless=new --disable-gpu --no-sandbox --user-data-dir=%TEMP%\chrome-pdf-scj --no-pdf-header-footer --print-to-pdf=… file:///<html>`. **Without a separate user-data-dir, a running Chrome eats the job and no PDF appears.** Wait for `bytes written`. Delete the temp HTML after.
-- Linux Chromium path in the old handoff (`/opt/pw-browsers/…`) does **not** apply here.
+
+**User does nothing after starting it.** Chat **next** or the loop command both end in JSON + PDF + commit + **push** per case.
+
+Token split (quality of the JSON unchanged):
+
+1. `python tools/prepare_next_scj.py` — next unique PDF, skip dups, extract text → `tmp/NEXT_TICKET.json`
+2. Grok authors **only** `summaries/json/SCJ-NNN.json` (full judgment + `catalog.txt` + example SCJ-280). Does not load this HANDOFF or `jurisprudence/index.json`.
+3. `python tools/finalize_scj.py SCJ-NNN --source "<file>"` — schema gates, Chrome PDF (`--user-data-dir` required on Windows), state, spine, catalog, git commit+push. Loop re-runs finalize if the agent wrote JSON but skipped this step.
+
 - PDF name: `SCJ-<NNN>_<slug>.pdf` — **no `_Digest`**.
 - Do not commit `extracts/SCJ-*.txt` / `.fp.json`.
+- Linux Chromium path (`/opt/pw-browsers/…`) does **not** apply here.
+- First **live** run of this split has not been executed yet (only `-DryRun`).
 
 ### Schema (still breaks `build_supply_code.py` if wrong)
 - `cited_by` = string (`"Court"` / `"Petitioner"` / `"Respondent"`), never a list.
@@ -78,7 +85,7 @@ Branch `claude/supply-code-jurisprudence-design-yiwgen`. One commit per case, th
 | `jurisprudence/catalog.txt` | Compact provision-key + principle-tag list for reuse. Generated. |
 | `HANDOFF.md` | This file. |
 | `RUNBOOK.md` | Lean-schema procedure (batch size, schema). |
-| `sessions/2026-08-27.md` | Log of the Windows session that did SCJ-273–282. |
+| `sessions/2026-08-27.md` | This chat: SCJ-273–282, then the loop + token-split. |
 | `state/index.json` | filename → id + `next_seq`. |
 | `summaries/json/`, `summaries/pdf/` | Leaves. |
 | `jurisprudence/index.json` | Spine. Never hand-edit. |
@@ -93,4 +100,4 @@ Rebuild index; skim what shifted; revisit the outline; then author the treatise 
 
 ---
 
-**One-line resume:** _282 cases done; treatise on hold; user shorthand **next** = one unique PDF per `NEXT.md`; next is `WRIC(A)_12303_2026.pdf` → SCJ-283._
+**One-line resume:** _282 cases done; treatise on hold; **next** or `tools\run_next_case_loop.ps1 -Count 100` = JSON+PDF+push per case (Grok writes JSON; finalize does the rest); next is `WRIC(A)_12303_2026.pdf` → SCJ-283._
