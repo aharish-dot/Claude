@@ -1,0 +1,79 @@
+{
+  "case_id": "SCJ-286",
+  "title": "M/s K.G.N. Stone Crusher Mill & Another v. State of U.P. & 3 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Arun Kumar, J.",
+  "date_of_judgment": "2026-02-27",
+  "date_display": "27 February 2026",
+  "docket": "Writ - C No. 12786 of 2024",
+  "page_count": 10,
+  "significance": "significant",
+  "disposition": "Writ petition allowed; final assessment dated 05.07.2023 under s.126 and the s.127 appellate order dated 14.03.2024 set aside; no costs",
+  "headnote": "An 11 kV industrial connection (stone crusher, 140 kW) that had been permanently disconnected after an NGT/UPPCB shutdown cannot be assessed for theft or unauthorised use merely because a later restart-inspection found an 11 kV cable lying on the ground, from which, the inspecting team said, theft 'can be done' if the consumer resorted to artificial means. The proviso to Section 135(1) of the Electricity Act, 2003 does not authorise a presumption of theft where no artificial means were found on the spot and the earlier inspections themselves recorded that no 11 kV conductor was connected to the energised double-pole line. Following Ashok Kumar (2008 (6) ADJ 660), a citizen cannot be indicted for unauthorised use on the vagaries of the licensee's officers. Because unauthorised use is not established, the Section 126 assessment (read by the Court with Clause 6.8 of the U.P. Electricity Supply Code, 2005) falls with it, and a Section 127 appellate order that affirms by a statement contrary to the inspection report is set aside. Twin of SCJ-285 (Sangam Crusher Works), reserved and delivered the same day; no remand.",
+  "facts": "M/s K.G.N. Stone Crusher Mill (and its proprietor) held a 140 kW / 11 kV connection in Chitrakoot. Production stopped after the NGT/UPPCB shutdown of crushers in the district on 22.06.2018; the licensee permanently disconnected supply after a 12.10.2019 inspection. Revised State guidelines (14.01.2022) led to a UPPCB inspection on 29.09.2022 and a restart permission dated 18.12.2022 for 17.12.2022–31.07.2027. Restart inspections on 29.10.2022 (gate closed; jumper not attached; wires removed because theft was 'not ruled out in future') and 08.12.2022 (gate locked; an 11 kV wire coming from the premises, but no 11 kV cable connected at the rear) found no abstraction.\n\nOn 17.12.2022 a joint team entered the plant, found a non-working generator, stone grits near the crusher, an energised 11 kV double-pole line at the rear, and an 11 kV cable on the ground from which theft 'can be done' by artificial means; the inspection was videographed. A provisional assessment of 22.12.2022 (usage Rs. 83,40,994 plus compounding Rs. 15,00,000) became a final assessment of 05.07.2023 (Rs. 62,34,761 plus compounding Rs. 28,00,000). Writ-C No. 26481 of 2023 was relegated to a s.127 appeal, dismissed on 14.03.2024. This writ challenges both orders.",
+  "holding_units": [
+    {
+      "provision": "EA2003::135",
+      "code": "Electricity Act, 2003",
+      "clause": "s.135(1) proviso — possibility that a consumer could abstract electricity by artificial means is not theft",
+      "topic": "A cable lying on the floor, from which theft 'can be done' if artificial means were obtained, does not establish theft or support the s.135(1) proviso presumption",
+      "type": "electricity_act",
+      "question": "Does an inspection that finds an 11 kV cable lying on the ground, connected to the crusher via a transformer, and infers that the consumer 'can' connect it to an energised double-pole line by artificial means, make out theft under Section 135 so as to found an assessment?",
+      "holding": "No. Inspections of 29.10.2022 and 08.12.2022 recorded no evidence of abstraction from the energised double-pole line behind the premises (jumper not attached; no 11 kV cable connected at the rear). The 17.12.2022 inside inspection found an 11 kV cable on the floor and concluded only that unauthorised consumption was possible with artificial means. Nothing on the record showed any such artificial means in the premises. The proviso to s.135(1) — that existence of artificial means is presumed to be dishonest abstraction until the contrary is proved — is misplaced where those means were not found. A cable lying in a premises cannot indict the occupier on the footing that if he obtained artificial means he could steal. In the absence of a positive act of unauthorised use by artificial means found on the spot, no presumption of theft lies. Allegation of theft/unauthorised use under s.135 is not established. Presence of stone grits after an NGT-directed shutdown and permanent disconnection w.e.f. 12.10.2019 cannot itself found a presumption that the crusher was being run unauthorisedly.",
+      "limiting_facts": "M/s K.G.N. Stone Crusher Mill, Chitrakoot; 140 kW / 11 kV; UPPCB shutdown 22.06.2018; PD after 12.10.2019 inspection; restart permission 18.12.2022 for 17.12.2022–31.07.2027; inspections 29.10.2022, 08.12.2022, 17.12.2022 (videographed). Reserved 13.02.2026, delivered 27.02.2026.",
+      "flag": "Twin of SCJ-285 (Sangam Crusher Works, Writ-C 12783/2024), same Bench, same dates, same reasoning. Distinguishing facts: 140 kW (not 90 kW); PD 12.10.2019 (not 23.07.2019); inspections 29.10.2022 (not 28.10.2022); restart order 18.12.2022; 08.12.2022 report noted an 11 kV wire coming from the premises; provisional Rs. 83,40,994 + compounding Rs. 15,00,000; final Rs. 62,34,761 + compounding Rs. 28,00,000; earlier writ 26481/2023. Same s.126/s.135 mix: compounding on a s.126 assessment; Court treated issue (1) as s.135 theft and issue (2) as s.126 r/w Clause 6.8.",
+      "paras": "4-6, 14-19, 22-23"
+    },
+    {
+      "provision": "UP-2005::6.8",
+      "code": "U.P. Electricity Supply Code, 2005 (r/w ss.126 and 127, Electricity Act, 2003)",
+      "clause": "6.8 (s.126 assessment) — assessment cannot stand where unauthorised use is not established; s.127 appeal that misstates the inspection report falls with it",
+      "topic": "Once theft/UUE is not made out, the s.126 assessment (which the Court keyed to Clause 6.8) is unsustainable, and a s.127 order that affirms by a finding contrary to the inspection report is set aside",
+      "type": "supply_code",
+      "question": "Where unauthorised use is not established on the inspection reports, can a Section 126 final assessment (and a Section 127 order dismissing the appeal) stand, including an assessment for 365 days under s.126(5)?",
+      "holding": "No. The second issue was framed as whether the assessment accorded with s.126 read with Clause 6.8. Because no unauthorised use was established, the s.126 assessment is unsustainable. The appellate authority failed to consider the grounds of appeal; its observation that the 17.12.2022 report recorded an energised 11 kV line with the jumper duly connected is contrary to that report (Annexure-9). Final assessment dated 05.07.2023 and the appellate order dated 14.03.2024 are set aside. Writ allowed. No costs. No remand.",
+      "limiting_facts": "Provisional assessment 22.12.2022: usage Rs. 83,40,994 plus compounding Rs. 15,00,000. Final assessment 05.07.2023: Rs. 62,34,761 plus compounding Rs. 28,00,000 (365 days). Earlier Writ-C No. 26481 of 2023 relegated to s.127; appeal dismissed 14.03.2024.",
+      "flag": "As in SCJ-285: the Court keyed issue (2) to Clause 6.8 but did not construe 6.8(a)–(c). The holding is that the assessment falls because UUE is not proved. Compounding (a s.135/s.152 incident) sat on a s.126 assessment; not separately analysed. Licensee's s.126(5) 12-month default period was not reached.",
+      "paras": "2, 7, 14, 20-23"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "theft-cannot-rest-on-mere-possibility",
+      "application": "Twin of SCJ-285, same day: a restart-inspection that finds an 11 kV cable on the floor and infers that the consumer could connect it to an energised line by artificial means does not make out theft. Without artificial means found on the spot, the s.135(1) proviso presumption is misplaced. Assessment and appeal set aside; no remand.",
+      "lead_authorities": [
+        {"name": "Ashok Kumar & Others v. State of U.P. & Others", "docid": "897981"}
+      ],
+      "paras": "16-19, 22"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether, if unauthorised use were established, assessment for 365 days under s.126(5) was lawful, or could run only from 09.12.2022 after the 08.12.2022 report recorded no connected 11 kV cable",
+      "note": "Raised by the petitioner (para 9) and met by the licensee with s.126(5)'s 12-month default (para 12). Not reached: UUE was not established, so the assessment fell with it.",
+      "docid": "",
+      "paras": "9, 12, 21"
+    },
+    {
+      "point": "Whether compounding (Rs. 15,00,000 provisional / Rs. 28,00,000 final) was authorised, and whether the demand was a theft assessment under Clause 8.1 or a UUE assessment under Clause 6.8",
+      "note": "The bills carried compounding (theft machinery) while the Court treated the assessment as s.126 r/w Clause 6.8. Neither compounding nor the 6.8/8.1 characterisation was separately decided.",
+      "docid": "",
+      "paras": "7, 14, 21"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar & Others v. State of U.P. & Others",
+      "citation": "2008 (6) ADJ 660 (DB)",
+      "court": "Allahabad High Court (DB)",
+      "docid": "897981",
+      "proposition": "Before a conclusion of unauthorised use under s.126, the consumer must be told the manner of the alleged use and given an opportunity of defence; a citizen cannot be indicted of unauthorised use (which may also be an offence under s.135) on the vagaries of the licensee's officers. Stern measures against theft do not justify condemnation without that minimum hearing (paras 56–60).",
+      "how_treated": "Relied on by the petitioner (paras 56–60 quoted). Applied: in the absence of a positive act of unauthorised use by artificial means found on the spot, no presumption of theft/UUE, and the officers' inference of future possibility cannot found an assessment.",
+      "how_treated_paras": "11, 18",
+      "cited_by": "Petitioner",
+      "treatment": "Followed"
+    }
+  ]
+}
