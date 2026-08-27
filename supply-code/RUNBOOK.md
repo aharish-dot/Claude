@@ -33,7 +33,7 @@ Any session (fresh or resumed) can execute this from repo state alone. Branch:
 
 ## Lean schema (per case) — the ONLY thing we keep
 Top-level: `case_id, title, neutral_citation, court, bench, coram, date_of_judgment (ISO),
-date_display, docket, page_count, significance, disposition, headnote, holding_units[],
+date_display, docket, page_count, significance, disposition, headnote, facts, holding_units[],
 principle_tags[], not_decided[], authorities[]`.
 
 - **page_count**: integer pages of the **source judgment** (the input PDF), not the digest.
@@ -47,6 +47,10 @@ principle_tags[], not_decided[], authorities[]`.
 
 - **headnote**: one dense paragraph stating the whole-case rule (the anchor when a case
   appears under several provision chapters).
+- **facts**: 1–2 short paragraphs (about 80–180 words) of the story — who, the connection,
+  what happened, what was challenged. Enough to follow the case; not the holding and not a
+  dump of `limiting_facts`. Rendered on the digest under the headnote as **FACTUAL SUMMARY**
+  (cream box, same pattern as the EOJ digests).
 - **holding_units[]**: `{provision, code, clause, topic, type, question?, holding, limiting_facts?,
   qualifier?, paras, flag?}`. `provision` is the key, e.g. `UP-2005::4.3(f)`, `EA2003::56(2)`,
   `WB-2004::5.2` (multi-state — key by the actual Code/Act, never merge a Code clause into an Act

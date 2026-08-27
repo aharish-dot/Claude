@@ -9,9 +9,10 @@ Then render to PDF (Chromium, headless):
 The lean schema is the SINGLE source of truth (supply-code/summaries/json/<id>.json).
 Unlike the older tools/gen_hc.py (which renders the bulky per-case digest), this
 generator renders only what the jurisprudence keeps: identity, headnote,
-holding-units (supply_code = green, interplay = grey), principle tags,
-not-decided register, and the 4-column table of authorities. HTML is fully
-self-contained (styles inlined) so the PDF renders with no external assets.
+factual summary, holding-units (supply_code = green, interplay = grey),
+principle tags, not-decided register, and the 4-column table of authorities.
+HTML is fully self-contained (styles inlined) so the PDF renders with no
+external assets.
 Strings are treated as PLAIN TEXT and HTML-escaped; only the "smart" punctuation
 already in the data is preserved.
 """
@@ -41,10 +42,16 @@ STYLE = """<style>
   .idline{ background:#eef1f5; border-left:3px solid #64748b; padding:6pt 11pt; margin:0 0 11pt;
         font-size:9pt; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
   .headnote{ background:#f4f6f9; border:1pt solid #c9d3df; border-radius:3pt;
-        padding:8pt 12pt; margin:0 0 12pt; font-size:9.4pt; line-height:1.5; text-align:justify;
+        padding:8pt 12pt; margin:0 0 10pt; font-size:9.4pt; line-height:1.5; text-align:justify;
         -webkit-print-color-adjust:exact; print-color-adjust:exact; }
   .headnote .hn{ display:block; font-family:Arial,'Liberation Sans',sans-serif; font-size:7.6pt;
         letter-spacing:.32em; text-transform:uppercase; font-weight:700; color:#14324f; margin-bottom:4pt; }
+  .facts{ background:#fbf6ee; border:1pt solid #e2d2b3; border-radius:3pt;
+        padding:8pt 12pt; margin:0 0 12pt; font-size:9.3pt; line-height:1.5; text-align:justify;
+        -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .facts .hn{ display:block; font-family:Arial,'Liberation Sans',sans-serif; font-size:7.6pt;
+        letter-spacing:.32em; text-transform:uppercase; font-weight:700; color:#6b4e16; margin-bottom:4pt; }
+  .facts p{ margin:0 0 6pt; } .facts p:last-child{ margin-bottom:0; }
   .seclabel{ font-family:Arial,'Liberation Sans',sans-serif; font-size:7.4pt; letter-spacing:.13em;
         text-transform:uppercase; font-weight:700; color:#64748b; margin:14pt 0 6pt; }
 
@@ -183,6 +190,26 @@ def auth_row(a):
             f'      </tr>\n')
 
 
+def facts_box(c):
+    """Cream box under the headnote: brief narrative facts, not the legal rule."""
+    raw = c.get("facts")
+    if not raw:
+        return ""
+    if isinstance(raw, list):
+        paras = [str(p).strip() for p in raw if str(p).strip()]
+    else:
+        paras = [p.strip() for p in str(raw).replace("\r\n", "\n").split("\n\n") if p.strip()]
+    if not paras:
+        return ""
+    body = "\n".join(f"    <p>{esc(p)}</p>" for p in paras)
+    return (
+        '  <div class="facts"><span class="hn">'
+        "F&nbsp;A&nbsp;C&nbsp;T&nbsp;U&nbsp;A&nbsp;L&nbsp;&nbsp;"
+        "S&nbsp;U&nbsp;M&nbsp;M&nbsp;A&nbsp;R&nbsp;Y</span>\n"
+        f"{body}\n  </div>\n"
+    )
+
+
 def eyebrow_line(c):
     """First line of page 1: SUPPLY CODE JURISPRUDENCE · SCJ-NNN · N PAGES · SIGNIFICANT."""
     parts = ["Supply Code Jurisprudence", c.get("case_id", "")]
@@ -231,7 +258,7 @@ def build(c):
   <div class="idline">{ident}</div>
 
   <div class="headnote"><span class="hn">H&nbsp;E&nbsp;A&nbsp;D&nbsp;N&nbsp;O&nbsp;T&nbsp;E</span>{esc(c.get("headnote",""))}</div>
-
+{facts_box(c)}
   <div class="seclabel">Holding-units</div>
 {hus}
 {tags_sec}{nd_sec}{auth_sec}
