@@ -44,13 +44,13 @@ STYLE = """<style>
   .headnote{ background:#f4f6f9; border:1pt solid #c9d3df; border-radius:3pt;
         padding:8pt 12pt; margin:0 0 10pt; font-size:9.4pt; line-height:1.5; text-align:justify;
         -webkit-print-color-adjust:exact; print-color-adjust:exact; }
-  .headnote .hn{ display:block; font-family:Arial,'Liberation Sans',sans-serif; font-size:7.6pt;
-        letter-spacing:.32em; text-transform:uppercase; font-weight:700; color:#14324f; margin-bottom:4pt; }
+  .headnote .hn{ display:block; font-family:Arial,'Liberation Sans',sans-serif; font-size:8pt;
+        letter-spacing:.12em; text-transform:uppercase; font-weight:700; color:#14324f; margin-bottom:4pt; }
   .facts{ background:#fbf6ee; border:1pt solid #e2d2b3; border-radius:3pt;
         padding:8pt 12pt; margin:0 0 12pt; font-size:9.3pt; line-height:1.5; text-align:justify;
         -webkit-print-color-adjust:exact; print-color-adjust:exact; }
-  .facts .hn{ display:block; font-family:Arial,'Liberation Sans',sans-serif; font-size:7.6pt;
-        letter-spacing:.32em; text-transform:uppercase; font-weight:700; color:#6b4e16; margin-bottom:4pt; }
+  .facts .hn{ display:block; font-family:Arial,'Liberation Sans',sans-serif; font-size:8pt;
+        letter-spacing:.12em; text-transform:uppercase; font-weight:700; color:#6b4e16; margin-bottom:4pt; }
   .facts p{ margin:0 0 6pt; } .facts p:last-child{ margin-bottom:0; }
   .seclabel{ font-family:Arial,'Liberation Sans',sans-serif; font-size:7.4pt; letter-spacing:.13em;
         text-transform:uppercase; font-weight:700; color:#64748b; margin:14pt 0 6pt; }
@@ -138,7 +138,6 @@ def holding_unit(u):
     body = '    <div class="hu-body">\n'
     body += field("Question", u.get("question"))
     body += field("Holding", u.get("holding"), u.get("paras", ""))
-    body += field("Limiting facts", u.get("limiting_facts"))
     body += field("Qualifier", u.get("qualifier"))
     if u.get("flag"):
         body += (f'      <div class="flagbox"><span class="fl">Flag</span>{esc(u["flag"])}</div>\n')
@@ -203,9 +202,7 @@ def facts_box(c):
         return ""
     body = "\n".join(f"    <p>{esc(p)}</p>" for p in paras)
     return (
-        '  <div class="facts"><span class="hn">'
-        "F&nbsp;A&nbsp;C&nbsp;T&nbsp;U&nbsp;A&nbsp;L&nbsp;&nbsp;"
-        "S&nbsp;U&nbsp;M&nbsp;M&nbsp;A&nbsp;R&nbsp;Y</span>\n"
+        f'  <div class="facts"><span class="hn">Factual Summary</span>\n'
         f"{body}\n  </div>\n"
     )
 
@@ -257,7 +254,7 @@ def build(c):
   <h1>{esc(c.get("title",""))}</h1>
   <div class="idline">{ident}</div>
 
-  <div class="headnote"><span class="hn">H&nbsp;E&nbsp;A&nbsp;D&nbsp;N&nbsp;O&nbsp;T&nbsp;E</span>{esc(c.get("headnote",""))}</div>
+  <div class="headnote"><span class="hn">Headnote</span>{esc(c.get("headnote",""))}</div>
 {facts_box(c)}
   <div class="seclabel">Holding-units</div>
 {hus}

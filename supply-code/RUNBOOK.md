@@ -49,10 +49,11 @@ principle_tags[], not_decided[], authorities[]`.
   appears under several provision chapters).
 - **facts**: 1–2 short paragraphs (about 80–180 words) of the story — who, the connection,
   what happened, what was challenged. Enough to follow the case; not the holding and not a
-  dump of `limiting_facts`. Rendered on the digest under the headnote as **FACTUAL SUMMARY**
-  (cream box, same pattern as the EOJ digests).
-- **holding_units[]**: `{provision, code, clause, topic, type, question?, holding, limiting_facts?,
-  qualifier?, paras, flag?}`. `provision` is the key, e.g. `UP-2005::4.3(f)`, `EA2003::56(2)`,
+  dump of docket trivia. Rendered on the digest under the headnote as **FACTUAL SUMMARY**
+  (cream box). Labels print as ordinary words (Headnote / Factual Summary), not letter-spaced.
+- **holding_units[]**: `{provision, code, clause, topic, type, question?, holding,
+  qualifier?, paras, flag?}`. Do **not** write `limiting_facts` (dropped from the digest;
+  the story belongs in `facts`). `provision` is the key, e.g. `UP-2005::4.3(f)`, `EA2003::56(2)`,
   `WB-2004::5.2` (multi-state — key by the actual Code/Act, never merge a Code clause into an Act
   section). `type` = `"supply_code"` (green) for a Supply Code clause, `"interplay"` (grey) for a
   companion Act provision (s.56(2), s.126/127, s.46, s.174, tariff ss.61/62/64…). `flag` records a
