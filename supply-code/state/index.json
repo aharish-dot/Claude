@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 296,
+  "next_seq": 297,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -1774,6 +1774,12 @@
       "case_id": "SCJ-295",
       "source_basename": "WRIC(A)_20071_2026.pdf",
       "title": "Sharafat Ulla (since deceased) v. Purvanchal Vidhut Vitrana Nigam Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-296",
+      "source_basename": "WRIC(A)_20742_2026.pdf",
+      "title": "Ashish Pal v. State of U.P. and others",
       "status": "done"
     }
   ]
