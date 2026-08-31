@@ -1,6 +1,7 @@
 Process exactly ONE short Supply Code case. Ticket authoring is short (≤2 pages or ≤800 words). Do not write treatise Parts.
 
 Read supply-code/tmp/NEXT_TICKET.json first. If status is NO_INPUT, reply only: NO_INPUT · next_seq=<n> · stop
+If ticket.authoring is "stencil", do not use this file: run `python tools/scj_stencil.py --write` then finalize. Do not read the judgment.
 
 Do NOT open: catalog.txt, HANDOFF.md, jurisprudence/index.json, or any example JSON (SCJ-280 etc.). Those are the token save.
 

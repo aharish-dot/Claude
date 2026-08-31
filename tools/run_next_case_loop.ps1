@@ -7,8 +7,10 @@
     1. python tools/prepare_next_scj.py  (pick PDF, skip dups, extract text)
     2. grok -p                          (author lean JSON only — quality-critical)
     3. python tools/finalize_scj.py     (PDF, state, index, git) if the agent did not
-  Fresh grok process each time (no -c / -r). Quality of the JSON is unchanged;
-  Chrome/git/index no longer occupy model turns.
+  Fresh grok process each time (no -c / -r), except stencil tickets: proved
+  families (Clause 6.5 billing relegation; contempt of a 6.5 writ dismissed)
+  are filled by tools/scj_stencil.py with no grok call. Chrome/git/index
+  still run via finalize_scj.py.
 
 .PARAMETER Count
   Max cases to process (default 10).
@@ -99,6 +101,7 @@ Write-Log "Starting next_seq=$(Get-NextSeq)"
 $ok = 0
 $fail = 0
 $skipped = 0
+$prepFailStreak = 0
 
 for ($i = 1; $i -le $Count; $i++) {
   $seqBefore = Get-NextSeq
@@ -106,7 +109,7 @@ for ($i = 1; $i -le $Count; $i++) {
 
   if ($DryRun) {
     Write-Log "DRY-RUN: $py tools/prepare_next_scj.py"
-    Write-Log "DRY-RUN: $grokPath --prompt-file <full|short from ticket.authoring> --max-turns <ticket.max_turns unless -MaxTurns>"
+    Write-Log "DRY-RUN: if ticket.authoring=stencil → $py tools/scj_stencil.py --write ; else grok --prompt-file <full|short>"
     Write-Log "DRY-RUN: $py tools/finalize_scj.py SCJ-NNN --source <file>"
     continue
   }
@@ -121,8 +124,14 @@ for ($i = 1; $i -le $Count; $i++) {
   if ($prepExit -ne 0) {
     Write-Log "FAIL case $i prepare exit=$prepExit"
     $fail++
+    $prepFailStreak++
+    if ($prepFailStreak -ge 3) {
+      Write-Log "STOP: prepare failed $prepFailStreak times in a row (next_seq=$seqBefore). Fix extract then re-run."
+      break
+    }
     continue
   }
+  $prepFailStreak = 0
 
   $ticket = Get-Ticket
   if (-not $ticket -or $ticket.status -ne "READY") {
@@ -132,44 +141,76 @@ for ($i = 1; $i -le $Count; $i++) {
   }
   $authoring = [string]$ticket.authoring
   if (-not $authoring) { $authoring = "full" }
-  $casePrompt = if ($authoring -eq "short") { $promptShort } else { $promptFile }
-  $caseTurns = $MaxTurns
-  if (-not $maxTurnsUserSet -and $ticket.max_turns) {
-    $caseTurns = [int]$ticket.max_turns
-  }
-  Write-Log "ticket $($ticket.case_id) authoring=$authoring source=$($ticket.source) pages=$($ticket.page_count) words=$($ticket.word_count) turns=$caseTurns"
-
   $caseLog = Join-Path $logDir ("case_{0:D2}_{1}_{2}.log" -f $i, $ticket.case_id, $stamp)
-  $grokArgs = @(
-    "--cwd", $RepoRoot,
-    "--prompt-file", $casePrompt,
-    "--permission-mode", "bypassPermissions",
-    "--always-approve",
-    "--max-turns", "$caseTurns",
-    "--output-format", "plain",
-    "--no-auto-update"
-  )
-
+  $jsonPath = Join-Path $ScRoot "summaries\json\$($ticket.case_id).json"
+  $stencilPy = Join-Path $RepoRoot "tools\scj_stencil.py"
   $sw = [System.Diagnostics.Stopwatch]::StartNew()
-  try {
-    & $grokPath @grokArgs 2>&1 | Tee-Object -FilePath $caseLog
-    $exit = $LASTEXITCODE
-  } catch {
-    Write-Log "ERROR invoking grok: $_"
-    $exit = 1
+  $exit = 0
+  $tail = ""
+
+  if ($authoring -eq "stencil") {
+    $fam = [string]$ticket.stencil_family
+    Write-Log "ticket $($ticket.case_id) authoring=stencil family=$fam source=$($ticket.source) pages=$($ticket.page_count) words=$($ticket.word_count) — no grok"
+    try {
+      & $py $stencilPy --write 2>&1 | Tee-Object -FilePath $caseLog
+      $exit = $LASTEXITCODE
+    } catch {
+      Write-Log "ERROR stencil write: $_"
+      $exit = 1
+    }
+    if ($exit -ne 0 -or -not (Test-Path $jsonPath)) {
+      $sw.Stop()
+      if (Test-Path $caseLog) {
+        $tail = (Get-Content $caseLog -Tail 8 -ErrorAction SilentlyContinue) -join " | "
+      }
+      Write-Log "FAIL case $i stencil write exit=$exit"
+      Write-Log "  tail: $tail"
+      $fail++
+      continue
+    }
+    $finArgs = @($finalizePy, $ticket.case_id, "--source", $ticket.source)
+    if ($NoPush) { $finArgs += "--no-push" }
+    & $py @finArgs 2>&1 | Tee-Object -FilePath $caseLog -Append
+    if ($LASTEXITCODE -ne 0) {
+      $sw.Stop()
+      Write-Log "FAIL case $i stencil finalize exit=$LASTEXITCODE"
+      $fail++
+      continue
+    }
+  } else {
+    $casePrompt = if ($authoring -eq "short") { $promptShort } else { $promptFile }
+    $caseTurns = $MaxTurns
+    if (-not $maxTurnsUserSet -and $ticket.max_turns) {
+      $caseTurns = [int]$ticket.max_turns
+    }
+    Write-Log "ticket $($ticket.case_id) authoring=$authoring source=$($ticket.source) pages=$($ticket.page_count) words=$($ticket.word_count) turns=$caseTurns"
+    $grokArgs = @(
+      "--cwd", $RepoRoot,
+      "--prompt-file", $casePrompt,
+      "--permission-mode", "bypassPermissions",
+      "--always-approve",
+      "--max-turns", "$caseTurns",
+      "--output-format", "plain",
+      "--no-auto-update"
+    )
+    try {
+      & $grokPath @grokArgs 2>&1 | Tee-Object -FilePath $caseLog
+      $exit = $LASTEXITCODE
+    } catch {
+      Write-Log "ERROR invoking grok: $_"
+      $exit = 1
+    }
   }
   $sw.Stop()
 
-  $jsonPath = Join-Path $ScRoot "summaries\json\$($ticket.case_id).json"
   $seqMid = Get-NextSeq
-  $tail = ""
   if (Test-Path $caseLog) {
     $tail = (Get-Content $caseLog -Tail 8 -ErrorAction SilentlyContinue) -join " | "
   }
 
-  # Safety net: if the agent wrote JSON but skipped finalize, do it here.
+  # Safety net: JSON exists but finalize did not bump next_seq.
   if ((Test-Path $jsonPath) -and ($seqMid -le $seqBefore)) {
-    Write-Log "agent left JSON unfinalized; running finalize_scj.py"
+    Write-Log "JSON unfinalized; running finalize_scj.py"
     $finArgs = @($finalizePy, $ticket.case_id, "--source", $ticket.source)
     if ($NoPush) { $finArgs += "--no-push" }
     & $py @finArgs

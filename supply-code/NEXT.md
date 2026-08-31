@@ -9,16 +9,20 @@ cd C:\Users\HP\Downloads\Grok\Claude
 powershell -ExecutionPolicy Bypass -File tools\run_next_case_loop.ps1 -Count 100
 ```
 
-Each iteration still produces **JSON + digest PDF + commit + push**. Grok only authors the JSON; `finalize_scj.py` does PDF/git. `-NoPush` is opt-out. `-DryRun` prints commands. Logs: `supply-code/tmp/loop_logs/`.
+Each iteration still produces **JSON + digest PDF + commit + push**. `finalize_scj.py` does PDF/git. If the ticket is **`authoring=stencil`**, Grok is **not** called — `tools/scj_stencil.py --write` fills the JSON. `-NoPush` is opt-out. `-DryRun` prints commands. Logs: `supply-code/tmp/loop_logs/`.
 
 ## Chat path (same artifacts)
 
 1. `python tools/prepare_next_scj.py`  
    Exit 2 / ticket `status: NO_INPUT` → stop. Docket/filename duplicates are retired to `processed/` with no new id.
-2. Read `supply-code/tmp/NEXT_TICKET.json`. If `authoring` is **`short`** (pages ≤ 2 or words ≤ 800), follow `tools/prompts/next_case_short.txt`: ticket `.txt` + `.fp.json` + `catalog_hits` only — **do not** load `catalog.txt` or `SCJ-280.json`. Else follow `tools/prompts/next_case_once.txt` (full catalog + SCJ-280). **Do not** load `HANDOFF.md` or `jurisprudence/index.json`.
-3. Write **only** `supply-code/summaries/json/<case_id>.json` (lean schema). Include `page_count`, `significance` (`significant` | `ordinary` | `procedural`; `normal` = ordinary), and `facts`. Never invent citations/holdings. `cited_by` is a string; `lead_authorities` is `[{name, docid}, …]`; provision keys are `CODE::clause`. No `limiting_facts`. Thin orders still recorded, with a `flag`. Unresolved points → `not_decided[]`.
+2. Read `supply-code/tmp/NEXT_TICKET.json`.
+   - **`authoring=stencil`** (proved clone: 6.5 billing relegation, or contempt of a 6.5 writ dismissed): run `python tools/scj_stencil.py --write` then step 4. **Do not** read the judgment or write JSON by hand. Listing-only / 4.4 / 6.5-*refusals* are **not** stencil.
+   - **`authoring=short`** (pages ≤ 2 or words ≤ 800): follow `tools/prompts/next_case_short.txt`: ticket `.txt` + `.fp.json` + `catalog_hits` only — **do not** load `catalog.txt` or `SCJ-280.json`.
+   - Else follow `tools/prompts/next_case_once.txt` (full catalog + SCJ-280).
+   **Do not** load `HANDOFF.md` or `jurisprudence/index.json`.
+3. Write **only** `supply-code/summaries/json/<case_id>.json` (lean schema) — skip this step on stencil. Include `page_count`, `significance` (`significant` | `ordinary` | `procedural`; `normal` = ordinary), and `facts`. Never invent citations/holdings. `cited_by` is a string; `lead_authorities` is `[{name, docid}, …]`; provision keys are `CODE::clause`. No `limiting_facts`. Thin orders still recorded, with a `flag`. Unresolved points → `not_decided[]`.
 4. `python tools/finalize_scj.py <case_id> --source "<ticket.source>"`  
    Do not Chrome/git/index by hand.
 5. Stop. One-line status: `SCJ-NNN · title · disposition · next_seq=N · digest ok`.
 
-Skip: `processed/` names · ` (1).pdf` · `WRIC(A)_20210_2012.pdf` (SCJ-273) · `WRIC(A)_12303_2026.pdf` if still in `input/` (SCJ-283, docket dup). Next as of handoff: **`next_seq=289`** — run prepare; likely `WRIC(A)_15707_2026.pdf`.
+Skip: `processed/` names · ` (1).pdf` · `WRIC(A)_20210_2012.pdf` (SCJ-273). Next: run prepare (`next_seq` in `state/index.json`).

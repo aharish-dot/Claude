@@ -4,15 +4,14 @@
 > Mechanical procedure: **`RUNBOOK.md`**. One-command trigger: **`NEXT.md`**.
 > Project rationale: **`README.md`**. Do not duplicate them.
 
-_Last updated: 27 August 2026 — SCJ-001…288 processed. Digest now has page_count, significance, FACTUAL SUMMARY; limiting_facts dropped; short authoring path for ≤2 pages / ≤800 words. PDF+push still every case._
+_Last updated: 31 August 2026 — SCJ-001…300 processed. Stencil path live for 6.5 billing relegation and contempt of a 6.5 writ (no grok). Listing-only / 4.4 / 6.5-refusals stay on short/full LLM. PDF+push still every case._
 
 ---
 
 ## 1. Where the project stands
 
-- **288 judgments fully processed** → `SCJ-001` … `SCJ-288`. Lean JSON + digest PDF + folded into `jurisprudence/index.json`.
-- **`state/index.json`**: `next_seq = 289`.
-- **Spine** (after SCJ-288): 288 cases · 157 provisions · 254 principles · 443 authorities · 200 not-decided.
+- **300 judgments fully processed** → `SCJ-001` … `SCJ-300`. Lean JSON + digest PDF + folded into `jurisprudence/index.json`.
+- **`state/index.json`**: `next_seq = 301`.
 - **Treatise outline** exists (`jurisprudence/treatise/00-OUTLINE.md`); **all Parts still `todo`**. Treatise remains **ON HOLD** until the input queue is empty.
 - **Branch**: `claude/supply-code-jurisprudence-design-yiwgen` (commit and push each case).
 - **This machine is Windows.** Sources in the live queue are **PDFs in `supply-code/input/`**, not `html_input/`.
@@ -25,12 +24,12 @@ Process remaining judgments **first** (mechanical pipeline → index), **then** 
 
 | User says | Do |
 |---|---|
-| **next** / **next case** / **now next one** | Process **exactly one** unique pending file. See **`NEXT.md`**. Do not ask. |
-| *(unattended)* | `powershell -ExecutionPolicy Bypass -File tools\run_next_case_loop.ps1 -Count 100` from repo root. Each iteration is a fresh `grok -p`. Short vs full prompt is chosen from the ticket. |
+| **next** / **next case** / **now next one** | Process **exactly one** unique pending file. See **`NEXT.md`**. Do not ask. Stencil tickets: write+finalize only, do not read the judgment. |
+| *(unattended)* | `powershell -ExecutionPolicy Bypass -File tools\run_next_case_loop.ps1 -Count 100` from repo root. Each iteration is a fresh `grok -p` **unless** `authoring=stencil` (no grok). |
 | **next batch** | `RUNBOOK.md` default: up to 8, early-stop ~22k words. |
 | Anything about the treatise / booklet Parts | Not yet, unless they explicitly override §2. |
 
-**Immediate next:** run `python tools/prepare_next_scj.py`. `WRIC(A)_12303_2026.pdf` may still sit in `input/` = **SCJ-283** — retire as docket dup, no new id. After that, first unique is likely **`WRIC(A)_15707_2026.pdf`**. Skip `(1)` twins.
+**Immediate next:** run `python tools/prepare_next_scj.py`. Skip `(1)` twins. `next_seq=301`.
 
 ## 4. Gotchas a fresh session MUST know
 
@@ -46,12 +45,13 @@ Process remaining judgments **first** (mechanical pipeline → index), **then** 
 
 Token split:
 
-1. `python tools/prepare_next_scj.py` — next unique PDF, skip dups, extract text → `tmp/NEXT_TICKET.json` (`authoring`, `catalog_hits`, `page_count`).
-2. Grok authors **only** `summaries/json/SCJ-NNN.json`.
+1. `python tools/prepare_next_scj.py` — next unique PDF, skip dups, extract text → `tmp/NEXT_TICKET.json` (`authoring`, `catalog_hits`, `page_count`). Classifier may set `authoring=stencil` + `stencil_family`.
+2. JSON:
+   - **Stencil** (`authoring=stencil`): `python tools/scj_stencil.py --write` — **no grok**, do not read the judgment. Live families only: `6.5-billing-relegation`, `contempt-6.5-dismissed`. Not stencil: listing-only, 4.4, 6.5 invoked-but-not-applied (SCJ-283/284/288).
    - **Short path** if pages ≤ 2 **or** words ≤ 800 (`authoring=short`, `tools/prompts/next_case_short.txt`, `catalog_hits` on the ticket, max 15 turns). **Do not** load `catalog.txt` or SCJ-280.
    - **Full path** otherwise (`tools/prompts/next_case_once.txt` + catalog + SCJ-280).
    - Does not load this HANDOFF or `jurisprudence/index.json`.
-3. `python tools/finalize_scj.py SCJ-NNN --source "<file>"` — schema gates, Chrome PDF (`--user-data-dir` required on Windows), state, spine, catalog, git commit+push. Loop re-runs finalize if the agent wrote JSON but skipped this step.
+3. `python tools/finalize_scj.py SCJ-NNN --source "<file>"` — schema gates, Chrome PDF (`--user-data-dir` required on Windows), state, spine, catalog, git commit+push. Loop re-runs finalize if JSON exists but `next_seq` did not bump.
 
 - PDF name: `SCJ-<NNN>_<slug>.pdf` — **no `_Digest`**.
 - Do not commit `extracts/SCJ-*.txt` / `.fp.json`.
@@ -86,9 +86,10 @@ Branch `claude/supply-code-jurisprudence-design-yiwgen`. One commit per case, th
 | Path | What |
 |---|---|
 | `NEXT.md` | **Trigger card.** User said “next” → follow this. |
-| `../tools/run_next_case_loop.ps1` | Unattended loop: `-Count N` fresh `grok -p` sessions. Picks short vs full prompt from the ticket. |
-| `../tools/prepare_next_scj.py` | Pick next unique PDF, skip dups, extract, set `authoring` + `catalog_hits`. |
-| `../tools/finalize_scj.py` | After JSON: PDF, state, index, catalog, git. Grok must not do this by hand. |
+| `../tools/run_next_case_loop.ps1` | Unattended loop: `-Count N`. Stencil tickets skip grok; else a fresh `grok -p`. |
+| `../tools/prepare_next_scj.py` | Pick next unique PDF, skip dups, extract, set `authoring` (`stencil`/`short`/`full`). |
+| `../tools/scj_stencil.py` | Zero-LLM JSON for proved families. `--dry-run` scores extracts. `--write` fills JSON. |
+| `../tools/finalize_scj.py` | After JSON: PDF, state, index, catalog, git. Do not do this by hand. |
 | `../tools/prompts/next_case_once.txt` | Full authoring prompt. |
 | `../tools/prompts/next_case_short.txt` | Short authoring prompt (pages ≤ 2 or words ≤ 800). |
 | `jurisprudence/catalog.txt` | Compact provision-key + principle-tag list. Generated. |
@@ -110,4 +111,4 @@ Rebuild index; skim what shifted; revisit the outline; then author the treatise 
 
 ---
 
-**One-line resume:** _288 cases done; treatise on hold; **next** or `tools\run_next_case_loop.ps1 -Count 100` = JSON+PDF+push (short path if ≤2 pages or ≤800 words); `next_seq=289`; 12303 in `input/` is SCJ-283 (retire)._
+**One-line resume:** _300 cases done; treatise on hold; **next** or `tools\run_next_case_loop.ps1 -Count 100` = JSON+PDF+push; stencil (no grok) for 6.5 billing relegation and 6.5-contempt-dismissed; short path if ≤2 pages or ≤800 words; `next_seq=301`._

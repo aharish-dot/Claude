@@ -11,6 +11,8 @@ docket duplicates to processed/ without assigning an id.
 import json, os, re, subprocess, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import scj_stencil
 SC = os.path.join(ROOT, "supply-code")
 INPUT = os.path.join(SC, "input")
 PROCESSED = os.path.join(SC, "processed")
@@ -109,10 +111,14 @@ def extract(src_name, cid):
     r = subprocess.run(
         [sys.executable, os.path.join(ROOT, "tools", "extract_judgment.py"),
          src, EXTRACTS, cid],
-        cwd=ROOT, check=True, capture_output=True, text=True,
+        cwd=ROOT, capture_output=True, text=True,
     )
     if r.stdout:
         print(r.stdout.strip())
+    if r.returncode != 0:
+        if r.stderr:
+            print(r.stderr.strip(), file=sys.stderr)
+        sys.exit(r.returncode)
     fp_path = os.path.join(EXTRACTS, cid + ".fp.json")
     fp = json.load(open(fp_path, encoding="utf-8")) if os.path.exists(fp_path) else {}
     return fp
@@ -180,13 +186,16 @@ def main():
         break
 
     fp = extract(name, cid)
-    ensure_catalog()
     words = int(fp.get("word_count") or 0)
     pages = fp.get("page_count")
     txt_path = os.path.join(EXTRACTS, cid + ".txt")
     txt = open(txt_path, encoding="utf-8", errors="replace").read() if os.path.exists(txt_path) else ""
+    stencil = scj_stencil.classify(txt, fp, live_only=True)
+    is_stencil = (
+        stencil.get("verdict") == "STENCIL"
+        and stencil.get("family") in scj_stencil.LIVE
+    )
     short = is_short(pages, words)
-    hits = catalog_hits(txt)
     ticket = {
         "status": "READY",
         "case_id": cid,
@@ -197,23 +206,38 @@ def main():
         "word_count": words,
         "page_count": pages,
         "citation_count": fp.get("citation_count", 0),
-        "authoring": "short" if short else "full",
-        "max_turns": SHORT_TURNS if short else FULL_TURNS,
-        "catalog_hits": hits,
         "out_json": f"supply-code/summaries/json/{cid}.json",
     }
-    if short:
-        ticket["prompt"] = "tools/prompts/next_case_short.txt"
+    if is_stencil:
+        ticket["authoring"] = "stencil"
+        ticket["stencil_family"] = stencil["family"]
+        ticket["max_turns"] = 0
+        ticket["catalog_hits"] = []
+        ticket["prompt"] = "tools/scj_stencil.py"
     else:
-        ticket["catalog"] = "supply-code/jurisprudence/catalog.txt"
-        ticket["example"] = "supply-code/summaries/json/SCJ-280.json"
-        ticket["prompt"] = "tools/prompts/next_case_once.txt"
+        ensure_catalog()
+        hits = catalog_hits(txt)
+        ticket["catalog_hits"] = hits
+        if short:
+            ticket["authoring"] = "short"
+            ticket["max_turns"] = SHORT_TURNS
+            ticket["prompt"] = "tools/prompts/next_case_short.txt"
+        else:
+            ticket["authoring"] = "full"
+            ticket["max_turns"] = FULL_TURNS
+            ticket["catalog"] = "supply-code/jurisprudence/catalog.txt"
+            ticket["example"] = "supply-code/summaries/json/SCJ-280.json"
+            ticket["prompt"] = "tools/prompts/next_case_once.txt"
     os.makedirs(os.path.dirname(TICKET), exist_ok=True)
     with open(TICKET, "w", encoding="utf-8") as f:
         json.dump(ticket, f, indent=2)
         f.write("\n")
-    print(f"READY {cid} authoring={ticket['authoring']} source={name} "
-          f"pages={pages} words={words} catalog_hits={len(hits)} → {TICKET}")
+    extra = ""
+    if is_stencil:
+        extra = f" family={ticket['stencil_family']}"
+    print(f"READY {cid} authoring={ticket['authoring']}{extra} source={name} "
+          f"pages={pages} words={words} catalog_hits={len(ticket.get('catalog_hits') or [])} "
+          f"→ {TICKET}")
     return 0
 
 
