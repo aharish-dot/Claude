@@ -1,0 +1,77 @@
+{
+  "case_id": "SCJ-328",
+  "title": "Ghanshyam v. State of U.P. Thru. Prin. Secy. Energy Deptt. & 3 Others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad (Lucknow Bench)",
+  "bench": "Division Bench",
+  "coram": "Alok Mathur, J. and Amitabh Kumar Rai, J.",
+  "date_of_judgment": "2026-05-19",
+  "date_display": "19 May 2026",
+  "docket": "Writ - C No. 4619 of 2026",
+  "page_count": 4,
+  "significance": "significant",
+  "outcome": "consumer",
+  "disposition": "Writ petition allowed; Executive Engineer's demand dated 28.5.2025 quashed.",
+  "headnote": "Clause 4.14(g) of the U.P. Electricity Supply Code, 2005 — paid final bill after consumer-initiated termination. Where the consumer produces a receipt stamped 'P.D. Final Amount' for the sum later recited in the licensee's own demand, and the licensee admits that records of the connection are not available, that receipt is treated as authentic proof that the agreement was terminated and the FINAL BILL (no-dues) paid. Once permanent disconnection has been approved and that bill paid, the licensee has no occasion to issue further bills or to reassess the consumer; missing departmental records cannot be used to subject him to illegal billing. A disconnection application is not to be rejected for want of the prescribed format or the last receipt: it must be processed forthwith, with disconnection, a reading and a final bill within 30 days. The Executive Engineer's demand of Rs 1,66,916 dated 28.5.2025 is quashed.",
+  "facts": "Ghanshyam had electricity connections at his residence in Village Bidhar Khas, Bhidur, Tehsil Tanda, District Ambedkar Nagar. After constructing a new house he applied for disconnection of the old premises, deposited the communicated final amount of Rs 1,696, and received a receipt dated 10 November 2016 bearing the endorsement '702/2326/014048 P.D. Final Amount'. No bills issued from 2016 until 2024. An RTI request to the Executive Engineer, Madhyanchal Vidyut Vitran Nigam Ltd., Tanda, was answered that the subdivision had changed to Alapur and that records of the connection were not available. By order dated 28 May 2025 the Executive Engineer, Vidyut Vitran Khand, Allapur, nevertheless directed him to deposit Rs 1,66,916 against connection No. 0087104000. He sought certiorari to quash that order. The distribution company opposed the writ on instructions, pointing to Clauses 4.38 and 4.14(g) of the Electricity Supply Code, 2005.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.14(g)",
+      "code": "UP-2005",
+      "clause": "4.14(g)",
+      "topic": "paid final bill after consumer-initiated termination bars further demand",
+      "type": "supply_code",
+      "question": "Once a consumer has paid a final bill stamped for permanent disconnection under Clause 4.14(g), may the licensee later demand a further amount on that connection, including where its own records of the connection are missing?",
+      "holding": "No. The 10.11.2016 receipt for Rs 1,696 stamped 'P.D. Final Amount' was not denied; a departmental letter of 9.5.2024 said records of the connection were unavailable, so the Court saw no reason to doubt the receipt. The same Rs 1,696 is recited in the 28.5.2025 demand, identifying the same connection. Clause 4.14(g) requires, after 30 days' notice, a reading, disconnection, removal of meter and cable, and a final bill including arrears; payment yields a receipt stamped FINAL BILL, treated as a no-dues certificate. Once permanent disconnection is approved and that bill paid, there is no occasion to issue further bills or to assess the consumer again for an unusual amount. Missing records cannot be used to subject him to illegal billing. The demand of Rs 1,66,916 is quashed.",
+      "qualifier": "Identity of the 2016 PD account (702/2326/014048) with demand connection No. 0087104000 rested on the shared Rs 1,696 figure appearing in both documents.",
+      "paras": "7-11, 15",
+      "flag": "Licensee also cited Clause 4.38 (permanent disconnection); the Court reproduced and applied only Clause 4.14(g)."
+    },
+    {
+      "provision": "UP-2005::4.14(g)",
+      "code": "UP-2005",
+      "clause": "4.14(g)",
+      "topic": "prescribed format or last receipt not a ground to refuse processing a disconnection application",
+      "type": "supply_code",
+      "question": "May the licensee refuse to process a consumer's application for disconnection because it is not in the prescribed format or does not annex the last bill or receipt?",
+      "holding": "No. There is no justification for insisting on a prescribed-format application annexing the last receipt when those materials are with the department itself. Any disconnection application is to be processed forthwith: supply disconnected and a final bill on the last reading. Mere non-use of the prescribed format, or failure to annex the bill or receipt, is not a ground to reject or not process the application. The department is under a duty to frame consumer-friendly rules. The application itself indicates cessation of the consumer-supplier relationship; under paragraph 4.14, supply is to be disconnected and a reading taken within 30 days so that a final bill can be submitted, which the consumer must clear or dispute under the Code.",
+      "paras": "12-14",
+      "flag": "Observations made while quashing a post-PD demand, not on a pending disconnection application. The prescribed format referred to is Annexure 4.7, quoted in Clause 4.14(g)."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-4.14g-paid-final-bill-bars-further-demand",
+      "application": "A 2016 receipt stamped 'P.D. Final Amount' for Rs 1,696, undenied and consistent with the licensee's admission that records are missing, is treated as Clause 4.14(g) termination and no-dues. A 2025 demand of Rs 1,66,916 on that connection is quashed; missing records cannot revive billing.",
+      "lead_authorities": [],
+      "paras": "9-11, 15"
+    },
+    {
+      "tag": "code-liberally-construed-for-consumer",
+      "application": "A disconnection application is not to be rejected for want of the prescribed format (Annexure 4.7) or the last receipt. The Code's 30-day Clause 4.14 process is to be applied in a consumer-friendly way; the application itself marks cessation of the supply relationship.",
+      "lead_authorities": [],
+      "paras": "12-14"
+    },
+    {
+      "tag": "licensee-demand-on-paid-bills-requires-shown-provision",
+      "application": "After due discharge of the Clause 4.14(g) final bill, a later unusual demand is quashed. The licensee showed no provision authorising reassessment of a permanently disconnected, no-dues connection, and missing records were not a substitute.",
+      "lead_authorities": [],
+      "paras": "9-11"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Construction of Clause 4.38 (permanent disconnection)",
+      "note": "Cited by the licensee as the provision governing permanent disconnection; the Court reproduced and decided the case under Clause 4.14(g) only.",
+      "docid": "",
+      "paras": "6"
+    },
+    {
+      "point": "Computation or legal basis of the Rs 1,66,916 demand",
+      "note": "The order of 28.5.2025 was quashed in full as unauthorized post-PD billing; the Court did not examine how the figure was assessed.",
+      "docid": "",
+      "paras": "10-11, 15"
+    }
+  ],
+  "authorities": []
+}
