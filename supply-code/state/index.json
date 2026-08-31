@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 330,
+  "next_seq": 331,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -1978,6 +1978,12 @@
       "case_id": "SCJ-329",
       "source_basename": "WRIC(L)_4696_2026.pdf",
       "title": "Gauri Prasad v. State of U.P. Thru. Prin. Secy. Deptt. of Energy, Lko. & 4 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-330",
+      "source_basename": "WRIC(L)_523_2026.pdf",
+      "title": "M/s Abacus India Agencies Pvt. Ltd. v. U.P. Power Corporation Ltd.",
       "status": "done"
     }
   ]
