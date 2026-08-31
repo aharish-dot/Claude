@@ -1,0 +1,44 @@
+{
+  "case_id": "SCJ-310",
+  "title": "Retrospective OMF charges — unreasoned order quashed",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Arindam Sinha and Satya Veer Singh, JJ.",
+  "date_of_judgment": "2026-08-17",
+  "date_display": "17 August 2026",
+  "docket": "Writ - C No. 27416 of 2026",
+  "page_count": 3,
+  "significance": "procedural",
+  "outcome": "alternate_remedy",
+  "disposition": "Impugned order quashed for lack of reasons; Executive Engineer to pass a fresh order on the retrospective claim after the petitioner pays current-bill arrears.",
+  "headnote": "An Executive Engineer’s order reiterating retrospective electricity charges, made without dealing with the consumer’s objection under clause 5.6 of the U.P. Electricity Supply Code, 2005 and the recorded CT ratio/OMF, suffers from lack of reasons and is quashed. A fresh order on the retrospective claim is to follow payment of outstanding current bills.",
+  "facts": "The petitioner challenged an order dated 6 November 2025 reiterating retrospective electricity charges on bills already paid. A coordinate Bench on 13 August 2025 had directed MRI supply, a hearing, a reasoned order, and no coercive recovery. The petitioner’s 16 September 2025 objection alleged a fresh sealing certificate showing OMF=200 without clause 5.6 compliance, and that the 9 May 2023 certificate recorded CT ratio 10/5 and OMF=2, not 1000/5. The company said the MRI was supplied and the petitioner heard.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::5.6",
+      "code": "UP-2005",
+      "clause": "5.6",
+      "topic": "retrospective assessment / meter multiplier (OMF)",
+      "type": "supply_code",
+      "holding": "An order reiterating retrospective charges without dealing with the consumer’s objection—including alleged non-compliance with clause 5.6 (no check meter; MRI not properly supplied) and the sealing-certificate CT ratio/OMF of 10/5 and 2 versus the claimed 1000/5 and 200—suffers from lack of reasons and is set aside. The Executive Engineer must pass a fresh order on the retrospective claim after the consumer pays outstanding arrears on current bills.",
+      "paras": "3, 4"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "clause 5.6 procedure",
+      "note": "Whether clause 5.6 was complied with (check meter; MRI analysis) before the OMF=200 assessment."
+    },
+    {
+      "point": "CT ratio / OMF",
+      "note": "Whether the CT ratio is 1000/5 (OMF 200) or 10/5 (OMF 2) as recorded in the 9 May 2023 sealing certificate."
+    },
+    {
+      "point": "retrospective charges",
+      "note": "Merits of the retrospective consumption charges."
+    }
+  ],
+  "authorities": []
+}
