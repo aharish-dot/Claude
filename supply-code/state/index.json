@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 304,
+  "next_seq": 305,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -1822,6 +1822,12 @@
       "case_id": "SCJ-303",
       "source_basename": "WRIC(A)_25099_2026.pdf",
       "title": "Vinod Kumar Sahu v. State of Uttar Pradesh And 3 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-304",
+      "source_basename": "WRIC(A)_25298_2026.pdf",
+      "title": "Smt. Vidyavati Devi v. State of U.P.",
       "status": "done"
     }
   ]
