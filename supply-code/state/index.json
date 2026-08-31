@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 321,
+  "next_seq": 322,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -1924,6 +1924,12 @@
       "case_id": "SCJ-320",
       "source_basename": "WRIC(A)_6472_2026.pdf",
       "title": "Vasnav Devi Aatta Chakki v. Purvanchal Vidyut Vitran Nigam Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-321",
+      "source_basename": "WRIC(A)_7642_2026.pdf",
+      "title": "Jatin Kumar Modanwal v. State of Uttar Pradesh",
       "status": "done"
     }
   ]
