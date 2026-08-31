@@ -22,6 +22,25 @@ SIG_ALIASES = {
     "normal": "ordinary",
     "procedural": "procedural",
 }
+# Who succeeded on the electricity dispute (not CPC party role).
+# consumer = the occupier/applicant got the relief; licensee = discom succeeded;
+# alternate_remedy = relegated to a Code/Act channel without a merits win.
+OUTCOME_ALIASES = {
+    "consumer": "consumer",
+    "petitioner": "consumer",
+    "applicant": "consumer",
+    "licensee": "licensee",
+    "discom": "licensee",
+    "supply_company": "licensee",
+    "alternate_remedy": "alternate_remedy",
+    "relegated": "alternate_remedy",
+    "relegation": "alternate_remedy",
+    "pending": "pending",
+    "interlocutory": "pending",
+    "none": "none",
+    "infructuous": "none",
+    "split": "split",
+}
 
 
 def die(msg):
@@ -105,6 +124,17 @@ def inject_judgment_meta(c, cid, src):
         if c.get("significance") != mapped:
             c["significance"] = mapped
             changed = True
+    raw_o = c.get("outcome")
+    if raw_o is not None and str(raw_o).strip():
+        key = str(raw_o).strip().lower().replace(" ", "_").replace("-", "_")
+        if key not in OUTCOME_ALIASES:
+            die("outcome must be consumer|licensee|alternate_remedy|pending|none|split "
+                "(petitioner/discom/relegated/interlocutory are aliases), got "
+                f"{raw_o!r}")
+        mapped = OUTCOME_ALIASES[key]
+        if c.get("outcome") != mapped:
+            c["outcome"] = mapped
+            changed = True
     return changed
 
 
@@ -122,6 +152,19 @@ def check_record(c, cid):
         if str(raw).strip().lower() not in SIG_ALIASES:
             die("significance must be significant|ordinary|procedural "
                 f"(normal is accepted as ordinary), got {raw!r}")
+    raw_o = c.get("outcome")
+    try:
+        seq = int(str(cid).split("-")[1])
+    except (IndexError, ValueError):
+        seq = 0
+    if seq >= 301 and not (raw_o and str(raw_o).strip()):
+        die("outcome required on SCJ-301+ "
+            "(consumer|licensee|alternate_remedy|pending|none|split)")
+    if raw_o is not None and str(raw_o).strip():
+        key = str(raw_o).strip().lower().replace(" ", "_").replace("-", "_")
+        if key not in OUTCOME_ALIASES:
+            die("outcome must be consumer|licensee|alternate_remedy|pending|none|split "
+                f"(petitioner/discom/relegated/interlocutory are aliases), got {raw_o!r}")
     for i, a in enumerate(c.get("authorities") or []):
         cb = a.get("cited_by")
         if cb is not None and not isinstance(cb, str):

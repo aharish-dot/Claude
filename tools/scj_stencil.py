@@ -473,6 +473,7 @@ def fill_65(cid: str, fp: dict, slots: dict) -> dict:
         "docket": slots.get("docket") or "",
         "page_count": fp.get("page_count"),
         "significance": "ordinary",
+        "outcome": "alternate_remedy",
         "disposition": (
             "Writ disposed of; petitioner relegated to Clause 6.5"
             + (f"; no disconnection for {stay}" if stay else "")
@@ -528,6 +529,7 @@ def fill_contempt(cid: str, fp: dict, slots: dict) -> dict:
         "docket": slots.get("docket") or "",
         "page_count": fp.get("page_count"),
         "significance": "procedural",
+        "outcome": "none",
         "disposition": (
             f"Contempt application dismissed as {how_disp}; "
             "Clause 6.5 bill not re-decided"

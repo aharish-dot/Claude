@@ -207,8 +207,18 @@ def facts_box(c):
     )
 
 
+OUTCOME_LABEL = {
+    "consumer": "consumer",
+    "licensee": "licensee",
+    "alternate_remedy": "alternate remedy",
+    "pending": "pending",
+    "none": "no merits result",
+    "split": "split",
+}
+
+
 def eyebrow_line(c):
-    """First line of page 1: SUPPLY CODE JURISPRUDENCE · SCJ-NNN · N PAGES · SIGNIFICANT."""
+    """First line of page 1: SUPPLY CODE JURISPRUDENCE · SCJ-NNN · N PAGES · SIGNIFICANT · CONSUMER."""
     parts = ["Supply Code Jurisprudence", c.get("case_id", "")]
     pc = c.get("page_count")
     if isinstance(pc, int) and pc > 0:
@@ -216,6 +226,9 @@ def eyebrow_line(c):
     sig = (c.get("significance") or "").strip()
     if sig:
         parts.append(sig)
+    oc = OUTCOME_LABEL.get((c.get("outcome") or "").strip().lower())
+    if oc:
+        parts.append(oc)
     return " &middot; ".join(esc(p) for p in parts if p)
 
 
@@ -269,7 +282,7 @@ def build(c):
 
 if __name__ == "__main__":
     src, out = sys.argv[1], sys.argv[2]
-    c = json.load(open(src))
-    open(out, "w").write(build(c))
+    c = json.load(open(src, encoding="utf-8"))
+    open(out, "w", encoding="utf-8").write(build(c))
     print(f"wrote {out} from {src} "
           f"({len(c.get('holding_units', []))} holding-units, {len(c.get('authorities', []))} authorities)")

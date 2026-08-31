@@ -64,6 +64,7 @@ Token split:
 - `type`: `"supply_code"` | `"interplay"` | `"electricity_act"`.
 - `page_count` = integer pages of the **source judgment** (fingerprint / input PDF). Digest PDF page 1 eyebrow: `SUPPLY CODE JURISPRUDENCE · SCJ-NNN · N PAGES · SIGNIFICANT`.
 - `significance`: `"significant"` | `"ordinary"` | `"procedural"` (`normal` aliases ordinary). Required on new records; old records without it still render.
+- `outcome`: `"consumer"` | `"licensee"` | `"alternate_remedy"` | `"pending"` | `"none"` | `"split"`. Who succeeded on the **electricity dispute**, not the CPC petitioner label (a discom that files and wins is `licensee`). `alternate_remedy` = relegated to 6.5/6.8/s.127 or “apply/consider in accordance with law” without a merits grant. `pending` = listed. `none` = infructuous / not-pressed / contempt dismissed without deciding the bill. Required from **SCJ-301**. Aliases: petitioner→consumer, discom→licensee. Tally: `python tools/tally_outcomes.py UP-2005::4.4`.
 - `facts`: 1–2 short paragraphs of the story. Digest PDF: cream **FACTUAL SUMMARY** box under the headnote. Labels print as ordinary words (`HEADNOTE` / `FACTUAL SUMMARY`), not letter-spaced. Old records without `facts` still render.
 - Do **not** write `limiting_facts` on holding-units (dropped from the digest from SCJ-287 on). Generator ignores the field even if present on old JSON.
 - OFFTOPIC / thin orders still recorded, compactly, with a `flag`. Listing-only → `OFFTOPIC::procedural-listing`.
@@ -89,6 +90,7 @@ Branch `claude/supply-code-jurisprudence-design-yiwgen`. One commit per case, th
 | `../tools/run_next_case_loop.ps1` | Unattended loop: `-Count N`. Stencil tickets skip grok; else a fresh `grok -p`. |
 | `../tools/prepare_next_scj.py` | Pick next unique PDF, skip dups, extract, set `authoring` (`stencil`/`short`/`full`). |
 | `../tools/scj_stencil.py` | Zero-LLM JSON for proved families. `--dry-run` scores extracts. `--write` fills JSON. |
+| `../tools/tally_outcomes.py` | Count records by `outcome`, optional provision filter (`UP-2005::4.4`). |
 | `../tools/finalize_scj.py` | After JSON: PDF, state, index, catalog, git. Do not do this by hand. |
 | `../tools/prompts/next_case_once.txt` | Full authoring prompt. |
 | `../tools/prompts/next_case_short.txt` | Short authoring prompt (pages ≤ 2 or words ≤ 800). |

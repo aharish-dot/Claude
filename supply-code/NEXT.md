@@ -20,7 +20,7 @@ Each iteration still produces **JSON + digest PDF + commit + push**. `finalize_s
    - **`authoring=short`** (pages ≤ 2 or words ≤ 800): follow `tools/prompts/next_case_short.txt`: ticket `.txt` + `.fp.json` + `catalog_hits` only — **do not** load `catalog.txt` or `SCJ-280.json`.
    - Else follow `tools/prompts/next_case_once.txt` (full catalog + SCJ-280).
    **Do not** load `HANDOFF.md` or `jurisprudence/index.json`.
-3. Write **only** `supply-code/summaries/json/<case_id>.json` (lean schema) — skip this step on stencil. Include `page_count`, `significance` (`significant` | `ordinary` | `procedural`; `normal` = ordinary), and `facts`. Never invent citations/holdings. `cited_by` is a string; `lead_authorities` is `[{name, docid}, …]`; provision keys are `CODE::clause`. No `limiting_facts`. Thin orders still recorded, with a `flag`. Unresolved points → `not_decided[]`.
+3. Write **only** `supply-code/summaries/json/<case_id>.json` (lean schema) — skip this step on stencil. Include `page_count`, `significance` (`significant` | `ordinary` | `procedural`; `normal` = ordinary), `outcome` (`consumer` | `licensee` | `alternate_remedy` | `pending` | `none` | `split` — who succeeded on the electricity dispute, not CPC party role; required from SCJ-301), and `facts`. Never invent citations/holdings. `cited_by` is a string; `lead_authorities` is `[{name, docid}, …]`; provision keys are `CODE::clause`. No `limiting_facts`. Thin orders still recorded, with a `flag`. Unresolved points → `not_decided[]`.
 4. `python tools/finalize_scj.py <case_id> --source "<ticket.source>"`  
    Do not Chrome/git/index by hand.
 5. Stop. One-line status: `SCJ-NNN · title · disposition · next_seq=N · digest ok`.

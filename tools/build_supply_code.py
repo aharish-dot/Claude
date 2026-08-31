@@ -49,6 +49,8 @@ def build(cases):
             row["page_count"] = c["page_count"]
         if c.get("significance"):
             row["significance"] = c["significance"]
+        if c.get("outcome"):
+            row["outcome"] = c["outcome"]
         case_list.append(row)
 
         for hu in c.get("holding_units", []):
@@ -66,6 +68,8 @@ def build(cases):
                 "holding": hu.get("holding", ""),
                 "paras": hu.get("paras", ""),
             }
+            if c.get("outcome"):
+                entry["outcome"] = c["outcome"]
             if hu.get("flag"):
                 entry["flag"] = hu["flag"]
             p["cases"].append(entry)

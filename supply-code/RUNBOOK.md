@@ -33,7 +33,7 @@ Any session (fresh or resumed) can execute this from repo state alone. Branch:
 
 ## Lean schema (per case) — the ONLY thing we keep
 Top-level: `case_id, title, neutral_citation, court, bench, coram, date_of_judgment (ISO),
-date_display, docket, page_count, significance, disposition, headnote, facts, holding_units[],
+date_display, docket, page_count, significance, outcome, disposition, headnote, facts, holding_units[],
 principle_tags[], not_decided[], authorities[]`.
 
 - **page_count**: integer pages of the **source judgment** (the input PDF), not the digest.
@@ -44,6 +44,13 @@ principle_tags[], not_decided[], authorities[]`.
   interlocutory, adjournment, contempt dismissed as infructuous/misconceived, not-pressed, or
   otherwise thin. Rendered on PDF page 1 as
   `SUPPLY CODE JURISPRUDENCE · SCJ-NNN · N PAGES · SIGNIFICANT`.
+
+- **outcome**: `"consumer"` | `"licensee"` | `"alternate_remedy"` | `"pending"` |
+  `"none"` | `"split"`. Who succeeded on the electricity dispute, not CPC party
+  role. A discom-petitioner who wins is `licensee`. Relegation to 6.5 / “apply
+  under 4.4 in accordance with law” is `alternate_remedy`, not a consumer win.
+  A direction that the connection *shall be granted* is `consumer`. Required
+  from SCJ-301. Tally: `python tools/tally_outcomes.py UP-2005::4.4`.
 
 - **headnote**: one dense paragraph stating the whole-case rule (the anchor when a case
   appears under several provision chapters).
