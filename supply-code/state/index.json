@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 323,
+  "next_seq": 324,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -1936,6 +1936,12 @@
       "case_id": "SCJ-322",
       "source_basename": "WRIC(A)_7901_2012.pdf",
       "title": "M/s Janki News Print Ltd. v. Pashchimanchal Vidyut Vitran Nigam Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-323",
+      "source_basename": "WRIC(A)_8187_2026.pdf",
+      "title": "Smt. Habibunissa v. State of Uttar Pradesh & Ors.",
       "status": "done"
     }
   ]
