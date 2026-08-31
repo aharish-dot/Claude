@@ -9,9 +9,7 @@
   "date_display": "16 December 2022",
   "docket": "Civil Appeal Nos. 9252-9253 of 2022 (arising out of SLP(C) Nos. 7860-7861 of 2018), with C.A. Nos. 9254-9255, 9256-9257, 9258-9259, 9260-9261, 9262-9263, 9264-9265, 9266-9267, 9268-9269, 9270-9271 of 2022",
   "disposition": "Civil appeals allowed; Kerala High Court's declaration in para 31(vi) set aside; Regulation 153(15) of the Kerala Electricity Supply Code, 2014 declared invalid as ultra vires Section 126 of the Electricity Act, 2003",
-
   "headnote": "A landmark ruling resolving a recurring, high-stakes question under Section 126 of the Electricity Act, 2003 that had generated a flood of litigation in Kerala: whether a consumer's overdrawal of electricity in excess of the sanctioned/connected load — within the same premises, for the same purpose, involving no change of tariff category, already metered and paid for, and involving no artificial means or meter-tampering — nonetheless constitutes 'unauthorised use of electricity' under Explanation (b)(iv) to Section 126, exposing the consumer to assessment at twice the full tariff (both fixed and energy charges), or whether such 'mere overdrawal' cases may be assessed only at twice the fixed charges (as the Kerala High Court had held, carving out an exception not found in the statutory text). The Supreme Court, applying and extending the three-Judge Bench ruling in Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (Southco) v. Seetaram Rice Mill, held that Section 126 (read with Section 127) constitutes a complete code in itself with the purpose of restricting unauthorised consumption of electricity to protect the integrity of the supply system; the statutory expression 'unauthorised use of electricity' is not exhaustively defined by the five sub-clauses of Explanation (b) but must be purposively construed, and overdrawal in excess of sanctioned/connected load falls squarely within Explanation (b)(iv) regardless of whether it changes the tariff category, causes any actual revenue loss to the licensee, or involves artificial means or tampering — because such overdrawal is inherently 'prejudicial to the public at large,' threatening to 'throw out of gear the entire supply system' and increase voltage fluctuations, independent of any effect on individual billing. Since Section 45(3)(a) makes clear that 'tariff' includes both fixed charges and energy charges, Section 126(6)'s mandate of assessment 'at a rate equal to twice the tariff applicable' necessarily includes both components in every case of unauthorised use — there is no textual or principled basis for a judicially-carved exception limiting liability to twice the fixed charges alone in 'mere overdrawal, same-tariff, already-metered' cases. Most significantly, the Court held that Regulation 153(15) of the Kerala Electricity Supply Code, 2014 — which purported to exempt 'unauthorised additional load in the same premises and under same tariff' from being 'reckoned as unauthorised use of electricity' — is ultra vires Section 126 of the Act and invalid, since delegated/subordinate legislation made under Section 50 (read with Section 181(2)(x)) can only supplement, not supplant, the parent Act, and cannot create a substantive exemption from Section 126 liability that the Parliament itself did not provide; a State Commission's Supply Code, per the Court's own earlier ruling in U.P. Power Corporation Ltd. v. Anis Ahmad, is confined to matters of billing, recovery, disconnection, restoration, and tampering-prevention — it 'need not provide, and does not relate to,' assessment of unauthorised-use charges under Section 126, which lies exclusively within Section 126 and 127's self-contained statutory scheme.",
-
   "holding_units": [
     {
       "provision": "EA2003::126",
@@ -36,13 +34,15 @@
       "paras": "paras 61-82, 89, 92"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "overdrawal-is-unauthorised-use-regardless-of-tariff-change-or-revenue-loss",
       "application": "Extends and crystallises Seetaram Rice Mill's core holding: excess-load consumption is 'unauthorised use of electricity' under Explanation (b)(iv) to s.126 in every case, independent of whether it changes tariff category or causes revenue loss, because the harm targeted by s.126 is systemic (grid integrity, voltage stability) not merely pecuniary — the single most significant s.126/Explanation(b) doctrinal clarification in this corpus, directly governing every 'excess load' assessment case in the collection (cf. SCJ-042, SCJ-061, SCJ-111, SCJ-123's Clause 3.4 independent-feeder line, SCJ-121, SCJ-126, SCJ-139, SCJ-145).",
       "lead_authorities": [
-        {"name": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (Southco) v. Sri Seetaram Rice Mill", "docid": "43074463"}
+        {
+          "name": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (Southco) v. Sri Seetaram Rice Mill",
+          "docid": "43074463"
+        }
       ],
       "paras": "paras 51-60"
     },
@@ -50,8 +50,14 @@
       "tag": "supply-code-regulation-cannot-exempt-from-s126-liability-ultra-vires",
       "application": "A landmark, sharply-reasoned ultra vires ruling: a State Commission's Supply Code, being delegated legislation under s.50/s.181(2)(x), cannot create a substantive carve-out from Section 126 liability that the parent Act's self-contained assessment code does not itself provide — reinforcing and extending Anis Ahmad's holding (already in this corpus at SCJ-139) that Supply Codes 'do not relate to' s.126 assessment, into an affirmative invalidation of a specific Regulation. This is the leading authority in this corpus on the limits of Supply Code rule-making power vis-a-vis the parent Electricity Act.",
       "lead_authorities": [
-        {"name": "U.P. Power Corporation Ltd. & Ors. v. Anis Ahmad", "docid": "55216283"},
-        {"name": "Sukhdev Singh & Ors. v. Bhagatram Sardar Singh Raghuvanshi & Anr.", "docid": "974148"}
+        {
+          "name": "U.P. Power Corporation Ltd. & Ors. v. Anis Ahmad",
+          "docid": "55216283"
+        },
+        {
+          "name": "Sukhdev Singh & Ors. v. Bhagatram Sardar Singh Raghuvanshi & Anr.",
+          "docid": "974148"
+        }
       ],
       "paras": "paras 62-82, 92"
     },
@@ -65,12 +71,14 @@
       "tag": "unauthorised-connected-load-detected-in-excess-of-sanction-is-assessable",
       "application": "Applies Punjab SEB v. Vishwa Caliber Builders' holding that a licensee's inability to timeously release a sanctioned enhancement does not excuse a consumer's overdrawal in the interim, and that an Ombudsman/adjudicatory authority commits jurisdictional error by directing regularisation/refund of amounts properly charged for such overdrawal absent statutory authorisation — reinforcing this corpus's Ombudsman-jurisdiction-limits cluster (cf. SCJ-123's citation of the same case; SCJ-138).",
       "lead_authorities": [
-        {"name": "Punjab State Electricity Board v. Vishwa Caliber Builders Private Limited", "docid": "93301"}
+        {
+          "name": "Punjab State Electricity Board v. Vishwa Caliber Builders Private Limited",
+          "docid": "93301"
+        }
       ],
       "paras": "paras 59-60"
     }
   ],
-
   "not_decided": [
     {
       "point": "All other findings of the Kerala High Court's impugned judgment beyond para 31(vi) (e.g., whether the assessing officer's presence at inspection is mandatory; whether intention/mens rea is required; validity of Regulation 51(1) of the Conditions of Supply, 2005 and the 2008 Board Order)",
@@ -79,7 +87,6 @@
       "paras": "para 28"
     }
   ],
-
   "authorities": [
     {
       "name": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (Southco) & Another v. Sri Seetaram Rice Mill",
@@ -251,5 +258,6 @@
       "cited_by": "Court",
       "treatment": "Referred"
     }
-  ]
+  ],
+  "outcome": "licensee"
 }

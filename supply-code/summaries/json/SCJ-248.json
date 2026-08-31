@@ -28,8 +28,14 @@
       "tag": "arrears-follow-premises-not-person-fresh-connection-vs-transfer",
       "application": "Past dues are not a charge on the premises, but a fresh connection to a purchaser may be conditioned on clearing them via a No-Dues Certificate; the sale-deed's inter-party allocation does not bind the licensee.",
       "lead_authorities": [
-        {"name": "Paschimanchal Vidyut Vitran Nigam Ltd. v. DVS Steels & Alloys Pvt. Ltd.", "docid": "SCJ-099"},
-        {"name": "Haryana State Electricity Board v. Hanuman Rice Mills, Dhanauri", "docid": "SCJ-031"}
+        {
+          "name": "Paschimanchal Vidyut Vitran Nigam Ltd. v. DVS Steels & Alloys Pvt. Ltd.",
+          "docid": "SCJ-099"
+        },
+        {
+          "name": "Haryana State Electricity Board v. Hanuman Rice Mills, Dhanauri",
+          "docid": "SCJ-031"
+        }
       ],
       "paras": "7-11"
     },
@@ -37,7 +43,10 @@
       "tag": "arrears-run-with-the-premises",
       "application": "The third proviso to Clause 4.1 r/w Clause 4.3(f) makes a No-Dues Certificate a condition precedent to a new connection on premises carrying arrears.",
       "lead_authorities": [
-        {"name": "Smt. Pawan Jha @ Priya Jha v. State of U.P.", "docid": "SCJ-125"}
+        {
+          "name": "Smt. Pawan Jha @ Priya Jha v. State of U.P.",
+          "docid": "SCJ-125"
+        }
       ],
       "paras": "5-10"
     }
@@ -77,5 +86,6 @@
       "cited_by": "Court",
       "treatment": "Followed"
     }
-  ]
+  ],
+  "outcome": "licensee"
 }

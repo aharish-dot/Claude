@@ -9,9 +9,7 @@
   "date_display": "3 August 2023",
   "docket": "WRIT - C No. 2637 of 2023",
   "disposition": "Writ petition allowed; respondents directed to bill electricity consumption in advocates' court-premises chambers under rate schedule LMV-1 (domestic)",
-
   "headnote": "The legal profession is not a 'commercial activity' for electricity tariff purposes — following a long line of authority (Dr. D.M. Surti v. State of Gujarat; V. Sasidharan v. M/s Peter and Karunakar; M.P. Electricity Board v. Shiv Narayan) holding that a professional activity carried on through personal skill, intelligence and individual characteristics is fundamentally distinct from a commercial activity, an advocate's chamber cannot be billed under a non-domestic/commercial rate schedule (LMV-2) merely because the residuary Clause 13 of the tariff schedule assigns unclassified consumers to LMV-2. Since Clause 3.3(e) of the U.P. Electricity Supply Code, 2005 already recognises that professionals (including lawyers) using up to 50 sq. m. of residential space for professional/consultancy work do not attract non-domestic tariff, and long-standing licensee circulars (1983, 1985) classified lawyers' offices as LMV-1, an advocate's chamber — even one located within a court compound rather than a residential building — must be billed under rate schedule LMV-1 (domestic), not LMV-2, and licensees within the same State (governed by the same Electricity Regulatory Commission-approved rate schedule) cannot discriminate between similarly situated advocates' chambers in different court compounds.",
-
   "holding_units": [
     {
       "provision": "UP-2005::3.3(e)",
@@ -25,15 +23,23 @@
       "paras": "paras 8-38"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "legal-profession-not-commercial-activity-for-tariff",
       "application": "Establishes that the legal profession, being a professional (not commercial) activity, cannot be billed under the non-domestic/commercial LMV-2 tariff merely because the current rate schedule lacks an express 'lawyers' chambers' category and a residuary clause would otherwise sweep it into LMV-2 — an important tariff-classification precedent extending Clause 3.3(e)'s residential-professional-use exemption to court-compound chambers, and a discrimination bar between districts served by different licensees under the same State ERC tariff.",
       "lead_authorities": [
-        {"name": "Dr. D.M. Surti v. State of Gujarat", "docid": "456043"},
-        {"name": "M.P. Electricity Board and Others v. Shiv Narayan and Another", "docid": "962390"},
-        {"name": "V. Sasidharan v. M/s Peter and Karunakar", "docid": "506405"}
+        {
+          "name": "Dr. D.M. Surti v. State of Gujarat",
+          "docid": "456043"
+        },
+        {
+          "name": "M.P. Electricity Board and Others v. Shiv Narayan and Another",
+          "docid": "962390"
+        },
+        {
+          "name": "V. Sasidharan v. M/s Peter and Karunakar",
+          "docid": "506405"
+        }
       ],
       "paras": "paras 22-34"
     }
@@ -120,5 +126,6 @@
       "cited_by": "Court",
       "treatment": "Referred"
     }
-  ]
+  ],
+  "outcome": "consumer"
 }

@@ -40,8 +40,14 @@
       "tag": "resolution-plan-extinguishes-pre-cirp-electricity-dues-clean-slate",
       "application": "Electricity dues for the pre-CIRP period, not claimed during CIRP and not in the approved resolution plan, stand extinguished under s.31 IBC; the resolved entity takes over on a clean slate and statutory recovery cannot revive them.",
       "lead_authorities": [
-        {"name": "Ghanashyam Mishra & Sons (P) Ltd. v. Edelweiss Asset Reconstruction Co. Ltd.", "docid": ""},
-        {"name": "CoC of Essar Steel India Ltd. v. Satish Kumar Gupta", "docid": ""}
+        {
+          "name": "Ghanashyam Mishra & Sons (P) Ltd. v. Edelweiss Asset Reconstruction Co. Ltd.",
+          "docid": ""
+        },
+        {
+          "name": "CoC of Essar Steel India Ltd. v. Satish Kumar Gupta",
+          "docid": ""
+        }
       ],
       "paras": "108-110"
     },
@@ -49,7 +55,10 @@
       "tag": "ibc-s238-overrides-sector-statutes",
       "application": "Section 238 IBC prevails over the Electricity Act, 2003, including its own overriding provisions (ss.173/174); electricity dues have no special immunity from the IBC framework.",
       "lead_authorities": [
-        {"name": "Paschimanchal Vidyut Vitran Nigam Ltd. v. Raman Ispat (P) Ltd.", "docid": ""}
+        {
+          "name": "Paschimanchal Vidyut Vitran Nigam Ltd. v. Raman Ispat (P) Ltd.",
+          "docid": ""
+        }
       ],
       "paras": "101, 103"
     }
@@ -146,5 +155,6 @@
       "cited_by": "Court",
       "treatment": "Referred"
     }
-  ]
+  ],
+  "outcome": "consumer"
 }

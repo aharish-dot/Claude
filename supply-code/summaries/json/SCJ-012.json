@@ -9,9 +9,7 @@
   "date_display": "23 January 2014",
   "docket": "WRIT - C No. 4606 of 2014",
   "disposition": "Writ petition disposed of (auction-purchaser may apply on furnishing a No-Dues Certificate)",
-
   "headnote": "The pre-2005 rule that, absent any statutory provision, an auction-purchaser applying for a fresh connection cannot be fastened with the previous owner's electricity dues (Ahmedabad Electricity Co. v. Gujarat Inns, 2004) is displaced by Clause 4.1 of the U.P. Electricity Supply Code, 2005, promulgated after 2004, which now statutorily bars a new connection on premises with arrears unless a No-Dues Certificate is furnished. A SARFAESI auction-purchaser must therefore obtain a No-Dues Certificate before a fresh connection is released.",
-
   "holding_units": [
     {
       "provision": "UP-2005::4.1",
@@ -25,21 +23,32 @@
       "paras": "1-3"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "arrears-run-with-the-premises",
       "application": "The 2005 Code creates the statutory charge that the pre-Code case law lacked: an auction-purchaser cannot escape the previous owner's arrears and must furnish a No-Dues Certificate for a fresh connection.",
       "lead_authorities": [
-        {"name": "Ahmedabad Electricity Co. Ltd. v. Gujarat Inns Pvt. Ltd.", "docid": "28246"}
+        {
+          "name": "Ahmedabad Electricity Co. Ltd. v. Gujarat Inns Pvt. Ltd.",
+          "docid": "28246"
+        }
       ],
       "paras": "2-3"
     }
   ],
-
   "not_decided": [],
-
   "authorities": [
-    {"name": "Ahmedabad Electricity Co. Ltd. v. Gujarat Inns Pvt. Ltd. & Ors.", "citation": "AIR 2004 SC 2171", "court": "Supreme Court (Three-Judge Bench)", "docid": "28246", "proposition": "In the absence of any statutory provision, an auction-purchaser applying for a fresh connection cannot be fastened with the previous owner's electricity dues, and a fresh connection cannot be denied on that ground.", "how_treated": "Distinguished — held inapplicable after Clause 4.1 of the 2005 Code supplied the statutory provision it presupposed to be absent.", "how_treated_paras": "2-3", "cited_by": "Petitioner", "treatment": "Distinguished"}
-  ]
+    {
+      "name": "Ahmedabad Electricity Co. Ltd. v. Gujarat Inns Pvt. Ltd. & Ors.",
+      "citation": "AIR 2004 SC 2171",
+      "court": "Supreme Court (Three-Judge Bench)",
+      "docid": "28246",
+      "proposition": "In the absence of any statutory provision, an auction-purchaser applying for a fresh connection cannot be fastened with the previous owner's electricity dues, and a fresh connection cannot be denied on that ground.",
+      "how_treated": "Distinguished — held inapplicable after Clause 4.1 of the 2005 Code supplied the statutory provision it presupposed to be absent.",
+      "how_treated_paras": "2-3",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished"
+    }
+  ],
+  "outcome": "alternate_remedy"
 }

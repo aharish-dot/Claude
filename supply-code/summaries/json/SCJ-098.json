@@ -9,9 +9,7 @@
   "date_display": "27 May 2022",
   "docket": "Civil Misc. Writ (C) Petition No. 10123 of 2021",
   "disposition": "Writ petition dismissed; refund of lease-rent arrears/interest deposited under protest refused",
-
   "headnote": "Not itself a Supply Code case — a dispute over whether an IBC-liquidation auction purchaser of an industrial leasehold plot (from Greater Noida Industrial Development Authority) is liable for the corporate debtor-lessee's pre-existing arrears of lease rent and interest, where the purchaser had signed a Transfer Memorandum and accepted a Certificate of Sale incorporating the lease covenants. The Court held the purchaser liable, applying the lease deed's specific 'first charge' clause (excluding the general Transfer of Property Act s.55(1)(g) rule) and the doctrine against approbating and reprobating. In reasoning through whether such arrears run with the property to a purchaser, the Court surveyed — as persuasive analogy — the Supreme Court's electricity-dues-transferee-liability jurisprudence (Haryana SEB v. Hanuman Rice Mills; Paschimanchal Vidyut Vitran Nigam Ltd. v. DVS Steels & Alloys; Telangana State Southern Power Distribution Co. Ltd.), summarizing the settled position that electricity dues do not themselves constitute a charge on the property (so a transferee is not liable absent a specific statutory/regulatory or contractual stipulation), but that such a stipulation (e.g. Clause 4.3(g)/(h) equivalent conditions, or an auction notice/'AS IS WHERE IS' clause expressly flagging the dues) can validly bind the purchaser. This is directly relevant to, and reinforces, this corpus's electricity-arrears/transferee-liability doctrinal cluster (K.C. Ninan and its line), even though the arrears at issue here were lease rent, not electricity dues. Recorded for corpus completeness and its citation-ledger value.",
-
   "holding_units": [
     {
       "provision": "ARREARS::transferee-liability",
@@ -25,27 +23,35 @@
       "paras": "paras 45-65"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "arrears-run-with-the-premises",
       "application": "Reinforces, by cross-domain analogy, the arrears-transferee-liability doctrinal cluster already tracked in this corpus (K.C. Ninan/SCJ-037 line): dues (whether electricity or, as here, lease rent) do not automatically constitute a charge on the property, but a specific statutory/regulatory stipulation or an express contractual/auction-notice clause can validly bind a subsequent purchaser to clear the predecessor's arrears as a condition of connection/transfer/recognition.",
       "lead_authorities": [
-        {"name": "Paschimanchal Vidyut Vitran Nigam Ltd. v. DVS Steels & Alloys Pvt. Ltd.", "docid": "74832153"},
-        {"name": "Haryana State Electricity Board v. Hanuman Rice Mills", "docid": "1336616"}
+        {
+          "name": "Paschimanchal Vidyut Vitran Nigam Ltd. v. DVS Steels & Alloys Pvt. Ltd.",
+          "docid": "74832153"
+        },
+        {
+          "name": "Haryana State Electricity Board v. Hanuman Rice Mills",
+          "docid": "1336616"
+        }
       ],
       "paras": "paras 53-56"
     },
     {
       "tag": "approbate-and-reprobate-bars-selective-repudiation",
       "application": "A party who accepts the beneficial parts of an instrument (here, a Transfer Memorandum/Sale Certificate incorporating lease covenants) cannot simultaneously repudiate its burdens — the doctrine of election/estoppel against approbating and reprobating.",
-      "lead_authorities": [{"name": "R.N. Gosain v. Yashpal Dhir", "docid": "1660026"}],
+      "lead_authorities": [
+        {
+          "name": "R.N. Gosain v. Yashpal Dhir",
+          "docid": "1660026"
+        }
+      ],
       "paras": "paras 60-65"
     }
   ],
-
   "not_decided": [],
-
   "authorities": [
     {
       "name": "Paschimanchal Vidyut Vitran Nigam Ltd. v. DVS Steels & Alloys Pvt. Ltd. & Ors.",
@@ -117,5 +123,6 @@
       "cited_by": "Petitioner",
       "treatment": "Distinguished"
     }
-  ]
+  ],
+  "outcome": "licensee"
 }

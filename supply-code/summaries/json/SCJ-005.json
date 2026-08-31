@@ -9,9 +9,7 @@
   "date_display": "16 September 2025",
   "docket": "WRIT - C No. 31054 of 2025",
   "disposition": "Writ petition disposed of (auction-purchaser must clear dues under Clause 4.3(f))",
-
   "headnote": "An auction-purchaser of premises sold on an 'as-is-where-is' basis under the SARFAESI Act is bound by Clause 4.3(f)(i) and (viii) of the U.P. Electricity Supply Code, 2005 to ascertain and clear outstanding electricity dues on the premises before a new connection is released; a recital in the sale certificate that the property is free from encumbrances, or that the vendor did not consume electricity, does not displace the statutory charge. Following K.C. Ninan v. Kerala State Electricity Board, a utility may, by subordinate legislation or supply code, create a charge for arrears recoverable from a subsequent transferee — the principle of 'buyer beware' applying to the auction-purchaser.",
-
   "holding_units": [
     {
       "provision": "UP-2005::4.3(f)",
@@ -25,18 +23,19 @@
       "paras": "3, 6-7"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "arrears-run-with-the-premises",
       "application": "Electricity arrears create a statutory charge on the premises recoverable from a subsequent transferee, including an auction-purchaser on an 'as-is-where-is' basis.",
       "lead_authorities": [
-        {"name": "K.C. Ninan v. Kerala State Electricity Board", "docid": "160269658"}
+        {
+          "name": "K.C. Ninan v. Kerala State Electricity Board",
+          "docid": "160269658"
+        }
       ],
       "paras": "4, 6-7"
     }
   ],
-
   "not_decided": [
     {
       "point": "Quantum / correctness of the arrears",
@@ -45,7 +44,6 @@
       "paras": "7-8"
     }
   ],
-
   "authorities": [
     {
       "name": "K.C. Ninan v. Kerala State Electricity Board",
@@ -58,5 +56,6 @@
       "cited_by": "Respondent",
       "treatment": "Followed"
     }
-  ]
+  ],
+  "outcome": "licensee"
 }

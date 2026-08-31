@@ -9,9 +9,7 @@
   "date_display": "14 March 2012",
   "docket": "WRIT - C No. 31602 of 2011",
   "disposition": "Writ petition partly allowed (Commissioner's order set aside; appeal remitted to the pre-2003 forum)",
-
   "headnote": "An appeal under Section 127 of the Electricity Act, 2003 — and its pre-deposit condition under Section 127(2) — lies only against a final order of assessment made under Section 126 of the 2003 Act. An assessment made under the pre-2003 regime (the U.P. Electricity Supply (Consumers) Regulations, 1984 or the U.P. Electricity Supply Code, 2002) is not a Section 126 order; Section 127 has no application to it, and no pre-deposit can be demanded. The right of appeal is a substantive vested right, governed by the law in force when the assessment proceedings were initiated, and is not divested by the 2003 Act, whose Section 185(2) & (5) (read with Section 6 of the General Clauses Act) preserve the earlier forum. The Commissioner therefore had no jurisdiction to reject the appeal under Section 127(2); it must be decided by the appellate forum under the earlier provisions.",
-
   "holding_units": [
     {
       "provision": "EA2003::127",
@@ -26,15 +24,23 @@
       "flag": "Multi-regime transitional case: it construes the pre-2005 U.P. regime (Regulations 1984 and U.P. Electricity Supply Code, 2002), not the 2005 Code."
     }
   ],
-
   "principle_tags": [
     {
       "tag": "vested-right-of-appeal-at-initiation",
       "application": "The right of appeal is a substantive right that vests when the original (here, assessment) proceedings are initiated, governed by the law then in force, and is not taken away by a later statute unless expressly or by necessary intendment; a new pre-deposit condition cannot be imposed on such a vested appeal.",
       "lead_authorities": [
-        {"name": "Garikapati Veeraya v. N. Subbiah Choudhry", "docid": "673500"},
-        {"name": "Ramesh Singh v. Cinta Devi", "docid": "1757511"},
-        {"name": "Shiv Shakti Coop. Housing Society v. Swaraj Developers", "docid": "213017"}
+        {
+          "name": "Garikapati Veeraya v. N. Subbiah Choudhry",
+          "docid": "673500"
+        },
+        {
+          "name": "Ramesh Singh v. Cinta Devi",
+          "docid": "1757511"
+        },
+        {
+          "name": "Shiv Shakti Coop. Housing Society v. Swaraj Developers",
+          "docid": "213017"
+        }
       ],
       "paras": "17-23"
     },
@@ -42,13 +48,18 @@
       "tag": "change-of-forum-not-mere-procedure",
       "application": "A change of forum is not a matter of pure procedure; once proceedings are validly initiated before a forum, that vested right continues despite a later change of jurisdiction, unless the legislature clearly provides otherwise.",
       "lead_authorities": [
-        {"name": "CIT v. R. Sharadamma", "docid": "1246791"},
-        {"name": "CIT v. Dhadi Sahu", "docid": "952427"}
+        {
+          "name": "CIT v. R. Sharadamma",
+          "docid": "1246791"
+        },
+        {
+          "name": "CIT v. Dhadi Sahu",
+          "docid": "952427"
+        }
       ],
       "paras": "21"
     }
   ],
-
   "not_decided": [
     {
       "point": "Consequences of the appellate committee's long inaction",
@@ -57,22 +68,172 @@
       "paras": "15"
     }
   ],
-
   "authorities": [
-    {"name": "Colonial Sugar Refining Co. Ltd. v. Irving", "citation": "(1905) AC 369", "court": "Privy Council", "docid": "", "proposition": "The right of appeal is a substantive right that vests on the initiation of proceedings; only procedural statutes may be retrospective, not those affecting the right of appeal.", "how_treated": "Referred as the foundational statement of the principle.", "how_treated_paras": "17", "cited_by": "Court", "treatment": "Referred"},
-    {"name": "Nana bin Aba v. Skeku bin Andu", "citation": "(1908) ILR 32 Bom 337", "court": "Bombay High Court", "docid": "", "proposition": "Followed Colonial Sugar Refining on the vested, substantive nature of the right of appeal.", "how_treated": "Referred within the line of authority.", "how_treated_paras": "17", "cited_by": "Court", "treatment": "Referred"},
-    {"name": "Delhi Cloth & General Mills Co. Ltd. v. Income Tax Commissioner, Delhi", "citation": "ILR 9 Lahore 284", "court": "Privy Council", "docid": "", "proposition": "Only a statute dealing with procedure may have retrospective effect; a statute conferring substantive rights, including the right of appeal, does not.", "how_treated": "Referred within the line of authority.", "how_treated_paras": "17", "cited_by": "Court", "treatment": "Referred"},
-    {"name": "Indira Sohanlal v. Custodian of Evacuee Property, Delhi", "citation": "AIR 1956 SC 77", "court": "Supreme Court", "docid": "752151", "proposition": "Observed that the right of appeal in a pending action may be a substantive vesting right, but left the question open.", "how_treated": "Referred; the open question was later settled in Garikapati.", "how_treated_paras": "17", "cited_by": "Court", "treatment": "Referred"},
-    {"name": "Garikapati Veeraya v. N. Subbiah Choudhry", "citation": "AIR 1957 SC 540", "court": "Supreme Court", "docid": "673500", "proposition": "Leading five-principle statement: the right of appeal is a vested substantive right governed by the law at the institution of the suit/proceeding, preserved through all appellate stages, and can be taken away only by express enactment or necessary intendment.", "how_treated": "Followed as the governing authority.", "how_treated_paras": "17", "cited_by": "Court", "treatment": "Followed"},
-    {"name": "Kirpa Singh v. Ajaypal Singh", "citation": "1928 ILR 10 Lahore 165 (FB)", "court": "Lahore High Court", "docid": "", "proposition": "Right of appeal governed by law at the date of institution of the suit, not at the date of decision or of filing the appeal.", "how_treated": "Referred; approved in Garikapati.", "how_treated_paras": "17", "cited_by": "Court", "treatment": "Referred"},
-    {"name": "Manujendra Dutt v. Purnedu Prosad Roy Chowdhury", "citation": "AIR 1967 SC 1419", "court": "Supreme Court", "docid": "57894", "proposition": "Deletion of a provision (there, s.29 of the Calcutta Thika Tenancy Act) does not divest the forum of jurisdiction over proceedings validly transferred and pending before it, absent a contrary provision.", "how_treated": "Relied on.", "how_treated_paras": "18", "cited_by": "Court", "treatment": "Relied on"},
-    {"name": "Maria Cristina De Souza Sodder v. Amria Zurana Pereira Pinto", "citation": "(1979) 1 SCC 92", "court": "Supreme Court", "docid": "634758", "proposition": "The right of appeal is a substantive right that vests when the lis commences and is not affected by a repeal unless the repealing enactment expressly or by necessary implication takes it away.", "how_treated": "Relied on.", "how_treated_paras": "19", "cited_by": "Court", "treatment": "Relied on"},
-    {"name": "Ramesh Singh v. Cinta Devi", "citation": "(1996) 3 SCC 142", "court": "Supreme Court", "docid": "1757511", "proposition": "A vested right of appeal under the old Motor Vehicles Act is not dislodged by the new Act; the appellant may appeal without the pre-deposit required by the proviso to s.173 of the new Act.", "how_treated": "Followed as the most apt authority.", "how_treated_paras": "20", "cited_by": "Court", "treatment": "Followed"},
-    {"name": "Hoosein Kasam Dada (India) Ltd. v. State of M.P.", "citation": "AIR 1953 SC 221", "court": "Supreme Court", "docid": "", "proposition": "Unless the new Act expressly or by necessary implication is retrospective, the right of appeal crystallises on institution and a new deposit condition cannot be imposed.", "how_treated": "Referred (within Ramesh Singh).", "how_treated_paras": "20", "cited_by": "Court", "treatment": "Referred"},
-    {"name": "State of Bombay v. Supreme General Films Exchange Ltd.", "citation": "AIR 1960 SC 980", "court": "Supreme Court", "docid": "", "proposition": "To the same effect on the vested right of appeal.", "how_treated": "Referred (within Ramesh Singh).", "how_treated_paras": "20", "cited_by": "Court", "treatment": "Referred"},
-    {"name": "Vitthalbhai Narangbhai Patel v. CST", "citation": "AIR 1967 SC 344", "court": "Supreme Court", "docid": "", "proposition": "To the same effect on the vested right of appeal.", "how_treated": "Referred (within Ramesh Singh).", "how_treated_paras": "20", "cited_by": "Court", "treatment": "Referred"},
-    {"name": "CIT, Bangalore v. R. Sharadamma", "citation": "(1996) 8 SCC 388", "court": "Supreme Court", "docid": "1246791", "proposition": "Where an authority is validly seized of a matter on a reference, it does not lose jurisdiction on a later amendment; change of forum is not mere procedure but a vested right.", "how_treated": "Relied on.", "how_treated_paras": "21", "cited_by": "Court", "treatment": "Relied on"},
-    {"name": "CIT v. Dhadi Sahu", "citation": "1994 Supp (1) SCC 257", "court": "Supreme Court", "docid": "952427", "proposition": "A law changing the forum does not affect pending actions unless a contrary intention is clearly shown; the forum of appeal is a vested right, not pure procedure.", "how_treated": "Referred (followed within Sharadamma).", "how_treated_paras": "21", "cited_by": "Court", "treatment": "Referred"},
-    {"name": "Shiv Shakti Coop. Housing Society, Nagpur v. Swaraj Developers", "citation": "(2003) 6 SCC 659", "court": "Supreme Court", "docid": "213017", "proposition": "An appeal is a continuation of the original proceedings; the right of appeal is statutory and, once conferred, a vested substantive right, distinct from the inherent right to sue.", "how_treated": "Relied on.", "how_treated_paras": "22", "cited_by": "Court", "treatment": "Relied on"}
-  ]
+    {
+      "name": "Colonial Sugar Refining Co. Ltd. v. Irving",
+      "citation": "(1905) AC 369",
+      "court": "Privy Council",
+      "docid": "",
+      "proposition": "The right of appeal is a substantive right that vests on the initiation of proceedings; only procedural statutes may be retrospective, not those affecting the right of appeal.",
+      "how_treated": "Referred as the foundational statement of the principle.",
+      "how_treated_paras": "17",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    },
+    {
+      "name": "Nana bin Aba v. Skeku bin Andu",
+      "citation": "(1908) ILR 32 Bom 337",
+      "court": "Bombay High Court",
+      "docid": "",
+      "proposition": "Followed Colonial Sugar Refining on the vested, substantive nature of the right of appeal.",
+      "how_treated": "Referred within the line of authority.",
+      "how_treated_paras": "17",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    },
+    {
+      "name": "Delhi Cloth & General Mills Co. Ltd. v. Income Tax Commissioner, Delhi",
+      "citation": "ILR 9 Lahore 284",
+      "court": "Privy Council",
+      "docid": "",
+      "proposition": "Only a statute dealing with procedure may have retrospective effect; a statute conferring substantive rights, including the right of appeal, does not.",
+      "how_treated": "Referred within the line of authority.",
+      "how_treated_paras": "17",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    },
+    {
+      "name": "Indira Sohanlal v. Custodian of Evacuee Property, Delhi",
+      "citation": "AIR 1956 SC 77",
+      "court": "Supreme Court",
+      "docid": "752151",
+      "proposition": "Observed that the right of appeal in a pending action may be a substantive vesting right, but left the question open.",
+      "how_treated": "Referred; the open question was later settled in Garikapati.",
+      "how_treated_paras": "17",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    },
+    {
+      "name": "Garikapati Veeraya v. N. Subbiah Choudhry",
+      "citation": "AIR 1957 SC 540",
+      "court": "Supreme Court",
+      "docid": "673500",
+      "proposition": "Leading five-principle statement: the right of appeal is a vested substantive right governed by the law at the institution of the suit/proceeding, preserved through all appellate stages, and can be taken away only by express enactment or necessary intendment.",
+      "how_treated": "Followed as the governing authority.",
+      "how_treated_paras": "17",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Kirpa Singh v. Ajaypal Singh",
+      "citation": "1928 ILR 10 Lahore 165 (FB)",
+      "court": "Lahore High Court",
+      "docid": "",
+      "proposition": "Right of appeal governed by law at the date of institution of the suit, not at the date of decision or of filing the appeal.",
+      "how_treated": "Referred; approved in Garikapati.",
+      "how_treated_paras": "17",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    },
+    {
+      "name": "Manujendra Dutt v. Purnedu Prosad Roy Chowdhury",
+      "citation": "AIR 1967 SC 1419",
+      "court": "Supreme Court",
+      "docid": "57894",
+      "proposition": "Deletion of a provision (there, s.29 of the Calcutta Thika Tenancy Act) does not divest the forum of jurisdiction over proceedings validly transferred and pending before it, absent a contrary provision.",
+      "how_treated": "Relied on.",
+      "how_treated_paras": "18",
+      "cited_by": "Court",
+      "treatment": "Relied on"
+    },
+    {
+      "name": "Maria Cristina De Souza Sodder v. Amria Zurana Pereira Pinto",
+      "citation": "(1979) 1 SCC 92",
+      "court": "Supreme Court",
+      "docid": "634758",
+      "proposition": "The right of appeal is a substantive right that vests when the lis commences and is not affected by a repeal unless the repealing enactment expressly or by necessary implication takes it away.",
+      "how_treated": "Relied on.",
+      "how_treated_paras": "19",
+      "cited_by": "Court",
+      "treatment": "Relied on"
+    },
+    {
+      "name": "Ramesh Singh v. Cinta Devi",
+      "citation": "(1996) 3 SCC 142",
+      "court": "Supreme Court",
+      "docid": "1757511",
+      "proposition": "A vested right of appeal under the old Motor Vehicles Act is not dislodged by the new Act; the appellant may appeal without the pre-deposit required by the proviso to s.173 of the new Act.",
+      "how_treated": "Followed as the most apt authority.",
+      "how_treated_paras": "20",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Hoosein Kasam Dada (India) Ltd. v. State of M.P.",
+      "citation": "AIR 1953 SC 221",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Unless the new Act expressly or by necessary implication is retrospective, the right of appeal crystallises on institution and a new deposit condition cannot be imposed.",
+      "how_treated": "Referred (within Ramesh Singh).",
+      "how_treated_paras": "20",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    },
+    {
+      "name": "State of Bombay v. Supreme General Films Exchange Ltd.",
+      "citation": "AIR 1960 SC 980",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "To the same effect on the vested right of appeal.",
+      "how_treated": "Referred (within Ramesh Singh).",
+      "how_treated_paras": "20",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    },
+    {
+      "name": "Vitthalbhai Narangbhai Patel v. CST",
+      "citation": "AIR 1967 SC 344",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "To the same effect on the vested right of appeal.",
+      "how_treated": "Referred (within Ramesh Singh).",
+      "how_treated_paras": "20",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    },
+    {
+      "name": "CIT, Bangalore v. R. Sharadamma",
+      "citation": "(1996) 8 SCC 388",
+      "court": "Supreme Court",
+      "docid": "1246791",
+      "proposition": "Where an authority is validly seized of a matter on a reference, it does not lose jurisdiction on a later amendment; change of forum is not mere procedure but a vested right.",
+      "how_treated": "Relied on.",
+      "how_treated_paras": "21",
+      "cited_by": "Court",
+      "treatment": "Relied on"
+    },
+    {
+      "name": "CIT v. Dhadi Sahu",
+      "citation": "1994 Supp (1) SCC 257",
+      "court": "Supreme Court",
+      "docid": "952427",
+      "proposition": "A law changing the forum does not affect pending actions unless a contrary intention is clearly shown; the forum of appeal is a vested right, not pure procedure.",
+      "how_treated": "Referred (followed within Sharadamma).",
+      "how_treated_paras": "21",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    },
+    {
+      "name": "Shiv Shakti Coop. Housing Society, Nagpur v. Swaraj Developers",
+      "citation": "(2003) 6 SCC 659",
+      "court": "Supreme Court",
+      "docid": "213017",
+      "proposition": "An appeal is a continuation of the original proceedings; the right of appeal is statutory and, once conferred, a vested substantive right, distinct from the inherent right to sue.",
+      "how_treated": "Relied on.",
+      "how_treated_paras": "22",
+      "cited_by": "Court",
+      "treatment": "Relied on"
+    }
+  ],
+  "outcome": "split"
 }

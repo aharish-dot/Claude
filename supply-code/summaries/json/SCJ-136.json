@@ -9,9 +9,7 @@
   "date_display": "14 July 2025",
   "docket": "Civil Appeal No. 23514 of 2017",
   "disposition": "Appeal allowed; APTEL's order (affirming UPERC's order constituting an Expert Committee to review a distribution franchisee's performance) set aside",
-
   "headnote": "A distribution franchisee appointed under the seventh proviso to Section 14 of the Electricity Act, 2003 is the agent of the distribution licensee, which alone is accountable to consumers and to the Electricity Regulatory Commission (ERC) for the franchisee's conduct; the Act does not envisage direct regulatory oversight of a franchisee by an ERC, and an investigation under Section 128 (which requires the ERC's 'satisfaction' that a licensee has failed to comply with its licence or the Act) cannot be ordered to micromanage or review a franchisee's performance metrics (loss reduction, collection efficiency) absent a concrete showing that the distribution licensee itself has violated its licence conditions or the Act/Regulations. An ERC's jurisdiction to entertain a 'public interest' petition under Section 128/129 is confined to matters where the Act itself mandates public-interest consideration (tariff determination, power procurement, licensee/utility management safeguarding consumer interest) — bare allegations without documentation or a demonstrated tariff-order violation do not meet the threshold. Cross-subsidisation of a franchisee's below-bulk-supply input rate by consumers in a licensee's other areas is not, standing alone, an impermissible or unlawful practice, since input-rate franchisee models in high-loss areas inherently require rates below the average bulk supply cost to attract viable bids; courts will not second-guess the wisdom of such a commercial/regulatory arrangement absent evidence of illegality.",
-
   "holding_units": [
     {
       "provision": "EA2003::14-franchisee-agency",
@@ -25,13 +23,15 @@
       "paras": "paras 49-77 (Analysis parts (ii)-(iv)); Conclusion paras 78-81"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "franchisee-is-agent-of-licensee-not-directly-regulable",
       "application": "Establishes that a distribution franchisee under s.2(27)/seventh proviso to s.14 is the licensee's agent, insulated from direct ERC regulatory oversight; an ERC's s.128 investigation power reaches only the licensee, requiring a concrete showing of licence/Act non-compliance rather than a bare performance review — a significant precedent for this corpus's regulatory-architecture cluster (alongside SCJ-130's SERC-composition ruling and SCJ-106's APTEL-jurisdiction ruling), clarifying the limits of ERC oversight over distribution-delegation arrangements.",
       "lead_authorities": [
-        {"name": "City Corporation Limited v. Maharashtra Electricity Regulatory Commission and Anr.", "docid": "64146401"}
+        {
+          "name": "City Corporation Limited v. Maharashtra Electricity Regulatory Commission and Anr.",
+          "docid": "64146401"
+        }
       ],
       "paras": "paras 73, 75-77"
     },
@@ -81,5 +81,6 @@
       "cited_by": "Court",
       "treatment": "Followed"
     }
-  ]
+  ],
+  "outcome": "licensee"
 }

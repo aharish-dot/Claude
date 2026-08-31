@@ -9,9 +9,7 @@
   "date_display": "23 December 2015",
   "docket": "WRIT - C No. 61204 of 2015",
   "disposition": "Writ petition dismissed; recovery upheld, six months' time granted for deposit with recovery held in abeyance meanwhile",
-
   "headnote": "Section 56(2) of the Electricity Act, 2003 (and the corresponding Clause 6.15/Clause 6.31.2 two-year recovery bar under the Supply Codes of 2005/2002) applies only to liabilities incurred after the Electricity Act, 2003 came into force (10 June 2003); for liabilities incurred under the earlier regime (Indian Electricity Act, 1910, s.24; Electricity Supply Act, 1948; Electricity Supply Code, 2002), no such two-year limitation bar exists on the licensee's power to demand and recover charges via supplementary bill or as arrears of land revenue under the U.P. Government Electrical Undertakings (Dues Recovery) Act, 1958 — following the Supreme Court in Kusumam Hotels v. Kerala SEB, s.6 of the General Clauses Act, 1897 preserves such pre-2003-Act liabilities notwithstanding the repeal, and s.24 of the 1910 Act (as construed in Isha Marbles and Swastic Industries) confers an unlimited-in-time power to demand/recover (subject only to the separate limitation period for filing a civil suit, which is not the exclusive recovery route). Electricity charges/penalties 'first become due' — for limitation purposes — only when a bill/demand is actually raised and remains unpaid, not from the date of the underlying default/violation itself; a licensee's delay of years in raising a bill (here, due to an erroneous, later-corrected waiver by an unauthorised officer) does not extinguish its right to recover once the bill is properly raised. Service of a demand notice by registered post to the address on the licensee's records is deemed sufficient service under Explanation 1 to Section 3 of the 1958 Dues Recovery Act, regardless of the consumer's claim of non-receipt, particularly where the consumer's own conduct (e.g., seeking temporary reconnection, prior partial payment under protest) shows awareness of the liability.",
-
   "holding_units": [
     {
       "provision": "EA2003::56",
@@ -25,14 +23,19 @@
       "paras": "unnumbered order (full text)"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "s56-2-two-year-bar-not-retrospective-to-pre-2003-act-liabilities",
       "application": "The s.56(2)/Clause 6.15 two-year recovery-limitation bar applies only prospectively to post-2003-Act liabilities; pre-2003-Act liabilities remain governed by s.24 of the 1910 Act (no limitation on demand/recovery power) via s.6 of the General Clauses Act — an important temporal-scope qualification on the recovery-limitation doctrine tracked elsewhere in this corpus (SCJ-111, SCJ-113, SCJ-119), distinguishing and narrowing the Paliwal Alloys/Satya Narain line where the underlying liability predates the 2003 Act.",
       "lead_authorities": [
-        {"name": "Kusumam Hotels (P) Ltd. v. Kerala State Electricity Board", "docid": "1873931"},
-        {"name": "M/s Isha Marbles v. Bihar State Electricity Board", "docid": "1082759"}
+        {
+          "name": "Kusumam Hotels (P) Ltd. v. Kerala State Electricity Board",
+          "docid": "1873931"
+        },
+        {
+          "name": "M/s Isha Marbles v. Bihar State Electricity Board",
+          "docid": "1082759"
+        }
       ],
       "paras": "unnumbered order"
     },
@@ -40,19 +43,29 @@
       "tag": "sum-first-due-means-when-bill-actually-raised",
       "application": "For limitation purposes, an electricity charge/penalty 'first becomes due' only when a bill/demand is actually raised (and unpaid), not from the date of the underlying default/violation — a licensee's delayed billing (for legitimate reasons, e.g. awaiting correction of an earlier erroneous waiver) does not by itself extinguish recovery rights.",
       "lead_authorities": [
-        {"name": "MCD v. H.D. Shourie", "docid": "779489"},
-        {"name": "NDMC v. Karam Chandra Thapar & Brothers Pvt. Ltd.", "docid": "1713428"}
+        {
+          "name": "MCD v. H.D. Shourie",
+          "docid": "779489"
+        },
+        {
+          "name": "NDMC v. Karam Chandra Thapar & Brothers Pvt. Ltd.",
+          "docid": "1713428"
+        }
       ],
       "paras": "unnumbered order"
     },
     {
       "tag": "registered-post-to-recorded-address-deemed-sufficient-service",
       "application": "Service of a demand notice by registered post to the address on the licensee's records is deemed sufficient under Explanation 1 to s.3 of the 1958 Dues Recovery Act, regardless of a bare denial of receipt.",
-      "lead_authorities": [{"name": "Vishanji Tokarsi v. Collector, Kanpur Nagar", "docid": ""}],
+      "lead_authorities": [
+        {
+          "name": "Vishanji Tokarsi v. Collector, Kanpur Nagar",
+          "docid": ""
+        }
+      ],
       "paras": "unnumbered order"
     }
   ],
-
   "not_decided": [
     {
       "point": "Whether Clause 6.15's two-year bar (Section 56(2)-analogue) would apply differently to purely post-2003-Act peak-hour or other penalty liabilities",
@@ -61,7 +74,6 @@
       "paras": "unnumbered order"
     }
   ],
-
   "authorities": [
     {
       "name": "Kusumam Hotels (P) Ltd. v. Kerala State Electricity Board & Others",
@@ -173,5 +185,6 @@
       "cited_by": "Court",
       "treatment": "Followed"
     }
-  ]
+  ],
+  "outcome": "licensee"
 }

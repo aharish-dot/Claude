@@ -9,9 +9,7 @@
   "date_display": "7 November 2019",
   "docket": "WRIT - C No. 60272 of 2005",
   "disposition": "Writ petition allowed; assessment notice and demand set aside (liberty to pass a fresh order)",
-
   "headnote": "An assessment cannot be sustained where it is founded merely on the 'possibility' of theft inferred from an MRI pattern (nil load recorded at night over several months) without any specific finding of how the authorities concluded that theft had in fact occurred, without disclosing the manner of assessment, and without issuing the show-cause notice contemplated by Clause 6.8 of the U.P. Electricity Supply Code, 2005, as required by Ashok Kumar v. State of U.P. A consumer's explanation that nil night-time load reflected a genuine safety-driven disconnection (not consumption) must be engaged with on its merits, not summarily rejected as 'unsatisfactory' without reasoned analysis.",
-
   "holding_units": [
     {
       "provision": "UP-2005::6.8",
@@ -25,18 +23,19 @@
       "paras": "paras 8-10"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "theft-cannot-rest-on-mere-possibility",
       "application": "An assessment cannot be grounded merely on the 'possibility' of theft inferred from a load pattern (e.g. MRI-recorded nil night load); the assessing authority must give specific, disclosed reasons and follow the Clause 6.8 procedure, engaging with the consumer's explanation on its merits (cf. SCJ-060 Mohit Paper Mills: theft must be established, not presumed).",
       "lead_authorities": [
-        {"name": "Ashok Kumar & Others v. State of U.P. & Others", "docid": "897981"}
+        {
+          "name": "Ashok Kumar & Others v. State of U.P. & Others",
+          "docid": "897981"
+        }
       ],
       "paras": "paras 8-9"
     }
   ],
-
   "not_decided": [
     {
       "point": "Whether the consumer in fact committed theft by bypassing the meter",
@@ -45,8 +44,18 @@
       "paras": "para 10"
     }
   ],
-
   "authorities": [
-    {"name": "Ashok Kumar & Others v. State of U.P. & Others", "citation": "2008 (6) ADJ 660 (DB)", "court": "Allahabad High Court (DB)", "docid": "897981", "proposition": "Clause 6.8 of the Supply Code prescribes a mandatory procedure (inspection report, show-cause notice, hearing, speaking final order) for an unauthorised-use/theft assessment, requiring disclosed, cogent reasons for a conclusion of theft.", "how_treated": "Followed and applied to quash an assessment resting on mere 'possibility' of theft without Clause 6.8 compliance.", "how_treated_paras": "paras 8-9", "cited_by": "Petitioner", "treatment": "Followed"}
-  ]
+    {
+      "name": "Ashok Kumar & Others v. State of U.P. & Others",
+      "citation": "2008 (6) ADJ 660 (DB)",
+      "court": "Allahabad High Court (DB)",
+      "docid": "897981",
+      "proposition": "Clause 6.8 of the Supply Code prescribes a mandatory procedure (inspection report, show-cause notice, hearing, speaking final order) for an unauthorised-use/theft assessment, requiring disclosed, cogent reasons for a conclusion of theft.",
+      "how_treated": "Followed and applied to quash an assessment resting on mere 'possibility' of theft without Clause 6.8 compliance.",
+      "how_treated_paras": "paras 8-9",
+      "cited_by": "Petitioner",
+      "treatment": "Followed"
+    }
+  ],
+  "outcome": "consumer"
 }

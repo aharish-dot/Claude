@@ -9,9 +9,7 @@
   "date_display": "29 August 2018",
   "docket": "WRIT - C No. 29001 of 2018",
   "disposition": "Writ petition dismissed (Permanent Lok Adalat compensation upheld)",
-
   "headnote": "For a consumer's electricity dispute, the Electricity Act, 2003 and the U.P. Electricity Supply Code, 2005 are a comprehensive code, and the jurisdiction of the civil court is expressly barred by Section 145 of the Act. But a claim by a member of the public for damages caused by the licensee's fault — here, livestock electrocuted by a snapped 11 KV line — is not a consumer/Code matter: 'supply of power' is a 'public utility service' under Section 22-A of the Legal Services Authorities Act, 1987, so such a claim falls within the jurisdiction of the Permanent Lok Adalat, and the CGRF/Ombudsman Regulations, 2007 (which cover only consumer grievances) do not apply. Electricity distribution being a hazardous activity, the licensee is under a duty to maintain its lines.",
-
   "holding_units": [
     {
       "provision": "EA2003::145",
@@ -25,14 +23,19 @@
       "paras": "the jurisdiction discussion (unnumbered order)"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "code-forum-not-for-tortious-damages",
       "application": "The Supply Code and its CGRF/Ombudsman forum cover consumer grievances, not a non-consumer's tort-damages claim against the licensee; such claims lie before the Permanent Lok Adalat as a public-utility-service dispute.",
       "lead_authorities": [
-        {"name": "Bar Council of India v. Union of India", "docid": "56328920"},
-        {"name": "S.N. Pandey v. Union of India", "docid": "1831524"}
+        {
+          "name": "Bar Council of India v. Union of India",
+          "docid": "56328920"
+        },
+        {
+          "name": "S.N. Pandey v. Union of India",
+          "docid": "1831524"
+        }
       ],
       "paras": "unnumbered order"
     },
@@ -40,17 +43,49 @@
       "tag": "hazardous-activity-strict-duty",
       "application": "Electricity distribution is a hazardous activity; the licensee is under a statutory duty to maintain its installations and lines so that passers-by (human or animal) are not harmed.",
       "lead_authorities": [
-        {"name": "Shakuntala Devi v. Delhi Electric Supply Undertaking", "docid": "734012"}
+        {
+          "name": "Shakuntala Devi v. Delhi Electric Supply Undertaking",
+          "docid": "734012"
+        }
       ],
       "paras": "unnumbered order"
     }
   ],
-
   "not_decided": [],
-
   "authorities": [
-    {"name": "Bar Council of India v. Union of India", "citation": "(2012) 8 SCC 243", "court": "Supreme Court", "docid": "56328920", "proposition": "Permanent Lok Adalats under Chapter VI-A of the LSA Act, 1987 have jurisdiction over disputes concerning public utility services (including supply of power) up to a pecuniary limit, in addition to and not in derogation of other fora, before the dispute is brought to a court.", "how_treated": "Relied on to sustain the Permanent Lok Adalat's jurisdiction.", "how_treated_paras": "unnumbered order", "cited_by": "Court", "treatment": "Relied on"},
-    {"name": "S.N. Pandey v. Union of India", "citation": "(2012) 8 SCC 261", "court": "Supreme Court", "docid": "1831524", "proposition": "Upholds the validity of the Permanent Lok Adalat mechanism for deciding disputes involving public utility services as an alternative dispute-resolution forum.", "how_treated": "Relied on in support of the Lok Adalat's adjudicatory jurisdiction.", "how_treated_paras": "unnumbered order", "cited_by": "Court", "treatment": "Relied on"},
-    {"name": "Smt. Shakuntala Devi v. Delhi Electric Supply Undertaking & Ors.", "citation": "(1995) 2 SCC 369", "court": "Supreme Court", "docid": "734012", "proposition": "A statutory electricity authority has a duty to maintain its electric installations and lines in proper condition so as to avoid any threat to the lives of people.", "how_treated": "Relied on to fix the licensee's duty and negligence.", "how_treated_paras": "unnumbered order", "cited_by": "Court", "treatment": "Relied on"}
-  ]
+    {
+      "name": "Bar Council of India v. Union of India",
+      "citation": "(2012) 8 SCC 243",
+      "court": "Supreme Court",
+      "docid": "56328920",
+      "proposition": "Permanent Lok Adalats under Chapter VI-A of the LSA Act, 1987 have jurisdiction over disputes concerning public utility services (including supply of power) up to a pecuniary limit, in addition to and not in derogation of other fora, before the dispute is brought to a court.",
+      "how_treated": "Relied on to sustain the Permanent Lok Adalat's jurisdiction.",
+      "how_treated_paras": "unnumbered order",
+      "cited_by": "Court",
+      "treatment": "Relied on"
+    },
+    {
+      "name": "S.N. Pandey v. Union of India",
+      "citation": "(2012) 8 SCC 261",
+      "court": "Supreme Court",
+      "docid": "1831524",
+      "proposition": "Upholds the validity of the Permanent Lok Adalat mechanism for deciding disputes involving public utility services as an alternative dispute-resolution forum.",
+      "how_treated": "Relied on in support of the Lok Adalat's adjudicatory jurisdiction.",
+      "how_treated_paras": "unnumbered order",
+      "cited_by": "Court",
+      "treatment": "Relied on"
+    },
+    {
+      "name": "Smt. Shakuntala Devi v. Delhi Electric Supply Undertaking & Ors.",
+      "citation": "(1995) 2 SCC 369",
+      "court": "Supreme Court",
+      "docid": "734012",
+      "proposition": "A statutory electricity authority has a duty to maintain its electric installations and lines in proper condition so as to avoid any threat to the lives of people.",
+      "how_treated": "Relied on to fix the licensee's duty and negligence.",
+      "how_treated_paras": "unnumbered order",
+      "cited_by": "Court",
+      "treatment": "Relied on"
+    }
+  ],
+  "outcome": "licensee"
 }

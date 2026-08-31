@@ -9,9 +9,7 @@
   "date_display": "18 July 2007",
   "docket": "Writ Petition (unnumbered order)",
   "disposition": "Writ petition dismissed as premature; petitioner relegated to Clause 5.6 meter-testing procedure / Electrical Inspector, without prejudice",
-
   "headnote": "A supplementary bill raised on account of an allegedly defective transformer is a 'disputed bill' within Clause 6.5(b) of the U.P. Electricity Supply Code, 2005 despite the clause's heading referring only to 'Disputed Bills and Arrears'; a marginal/clause heading does not confine its substantive scope. Since the bill's correctness turns on the accuracy of the meter/instrument, the consumer must first invoke the Clause 5.6 meter-testing procedure (and, if unresolved, the Electrical Inspector under s.162 of the Electricity Act, 2003 — the statutory successor to the Electrical Inspector's adjudicatory role recognised under the Indian Electricity Act, 1910 in Bombay Electric Supply and Transport Undertaking v. Laffans (India) Pvt. Ltd.) before invoking writ jurisdiction; a challenge to a supplementary bill grounded in a disputed meter/transformer reading is premature if brought directly to the writ court without first exhausting that statutory testing/adjudication route.",
-
   "holding_units": [
     {
       "provision": "UP-2005::6.5(b)",
@@ -25,7 +23,6 @@
       "paras": "paras 2-5"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "clause-heading-not-a-limit-on-substantive-scope",
@@ -36,11 +33,15 @@
     {
       "tag": "meter-dispute-must-exhaust-clause-5.6-before-writ",
       "application": "Where a billing dispute turns on the accuracy of a meter/transformer reading, the consumer must first invoke the Clause 5.6 testing procedure (and thereafter the Electrical Inspector) rather than approach the writ court directly; the writ challenge is premature until that statutory route is exhausted.",
-      "lead_authorities": [{"name": "Bombay Electric Supply and Transport Undertaking v. Laffans (India) Pvt. Ltd.", "docid": "316379"}],
+      "lead_authorities": [
+        {
+          "name": "Bombay Electric Supply and Transport Undertaking v. Laffans (India) Pvt. Ltd.",
+          "docid": "316379"
+        }
+      ],
       "paras": "paras 2-3"
     }
   ],
-
   "not_decided": [
     {
       "point": "Correctness/quantum of the supplementary bill and whether the transformer defect in fact caused inaccurate billing",
@@ -60,5 +61,6 @@
       "cited_by": "Petitioner",
       "treatment": "Followed"
     }
-  ]
+  ],
+  "outcome": "alternate_remedy"
 }

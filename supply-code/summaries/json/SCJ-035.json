@@ -9,9 +9,7 @@
   "date_display": "30 April 2021",
   "docket": "Civil Appeal No. 6145 of 2010",
   "disposition": "Appeal dismissed (reduction-of-load application deemed allowed under the Regulations)",
-
   "headnote": "Where a consumer's sanctioned load for a single electricity connection is enhanced from time to time and a fresh agreement is executed for each enhancement, those 'fresh agreements' are, for the purpose of the Supply Code (Jharkhand Electricity Supply Code Regulations, 2005), merely supplementary agreements amending the initial agreement by which the connection was granted; the Code allows contract demand to be varied even by written communication and does not require a fresh agreement. Accordingly, the proviso to Regulation 9.2.1 (no reduction of load before expiry of the initial period of agreement) runs from the initial agreement, not the last enhancement agreement; and the Regulations are to be liberally interpreted in favour of the consumer against a monopoly supplier.",
-
   "holding_units": [
     {
       "provision": "JH-2005::9.2",
@@ -25,7 +23,6 @@
       "paras": "12-18, 21"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "code-liberally-construed-for-consumer",
@@ -34,7 +31,6 @@
       "paras": "15-16"
     }
   ],
-
   "not_decided": [
     {
       "point": "Validity of the proviso to Regulation 9.2.1",
@@ -43,11 +39,51 @@
       "paras": "19"
     }
   ],
-
   "authorities": [
-    {"name": "Bihar State Electricity Board v. M/s Green Rubber Industries", "citation": "(1990) 1 SCC 731", "court": "Supreme Court", "docid": "", "proposition": "On minimum-guarantee charge (under the Electricity Act, 1910).", "how_treated": "Distinguished on facts as relating to minimum-guarantee charge under the old 1910 Act.", "how_treated_paras": "17", "cited_by": "Petitioner", "treatment": "Distinguished"},
-    {"name": "Orissa State Electricity Board v. Orissa Tiles Limited", "citation": "(1993) Supp 3 SCC 481", "court": "Supreme Court", "docid": "137737414", "proposition": "On minimum-guarantee charge (under the 1910 Act).", "how_treated": "Distinguished on facts as relating to minimum-guarantee charge under the old 1910 Act.", "how_treated_paras": "17", "cited_by": "Petitioner", "treatment": "Distinguished"},
-    {"name": "Andhra Steel Corporation Ltd. v. A.P. State Electricity Board", "citation": "(1991) 3 SCC 263", "court": "Supreme Court", "docid": "", "proposition": "On minimum-guarantee charge (under the 1910 Act).", "how_treated": "Distinguished on facts as relating to minimum-guarantee charge under the old 1910 Act.", "how_treated_paras": "17", "cited_by": "Petitioner", "treatment": "Distinguished"},
-    {"name": "Jharkhand State Electricity Board v. Laxmi Business and Cement Company Pvt. Ltd.", "citation": "(2014) 5 SCC 236", "court": "Supreme Court", "docid": "", "proposition": "On minimum-guarantee charge.", "how_treated": "Distinguished on facts as relating to minimum-guarantee charge.", "how_treated_paras": "17", "cited_by": "Respondent", "treatment": "Distinguished"}
-  ]
+    {
+      "name": "Bihar State Electricity Board v. M/s Green Rubber Industries",
+      "citation": "(1990) 1 SCC 731",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "On minimum-guarantee charge (under the Electricity Act, 1910).",
+      "how_treated": "Distinguished on facts as relating to minimum-guarantee charge under the old 1910 Act.",
+      "how_treated_paras": "17",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "Orissa State Electricity Board v. Orissa Tiles Limited",
+      "citation": "(1993) Supp 3 SCC 481",
+      "court": "Supreme Court",
+      "docid": "137737414",
+      "proposition": "On minimum-guarantee charge (under the 1910 Act).",
+      "how_treated": "Distinguished on facts as relating to minimum-guarantee charge under the old 1910 Act.",
+      "how_treated_paras": "17",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "Andhra Steel Corporation Ltd. v. A.P. State Electricity Board",
+      "citation": "(1991) 3 SCC 263",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "On minimum-guarantee charge (under the 1910 Act).",
+      "how_treated": "Distinguished on facts as relating to minimum-guarantee charge under the old 1910 Act.",
+      "how_treated_paras": "17",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "Jharkhand State Electricity Board v. Laxmi Business and Cement Company Pvt. Ltd.",
+      "citation": "(2014) 5 SCC 236",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "On minimum-guarantee charge.",
+      "how_treated": "Distinguished on facts as relating to minimum-guarantee charge.",
+      "how_treated_paras": "17",
+      "cited_by": "Respondent",
+      "treatment": "Distinguished"
+    }
+  ],
+  "outcome": "consumer"
 }

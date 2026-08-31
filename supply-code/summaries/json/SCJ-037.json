@@ -9,9 +9,7 @@
   "date_display": "19 May 2023",
   "docket": "Civil Appeal Nos. 2109-2110 of 2004 (and connected appeals)",
   "disposition": "Reference answered by ten conclusions (para 328); recovery of principal arrears from transferees/auction-purchasers upheld where a statutory Condition of Supply/Code so provides; interest accrued from the date of the purchasers' supply applications waived under Article 142",
-
   "headnote": "The duty to supply electricity under Section 43 of the Electricity Act, 2003 is not absolute; it is subject to the charges and compliances stipulated by the utility, and is owed with respect to the owner or occupier of particular premises (a consumer-premises synergy) — one becomes a 'consumer' only for the premises for which supply is sought and provided, so an application for the same premises earlier supplied is a 'reconnection' while different premises make it a fresh connection even for the same consumer. A Condition of Supply requiring a new owner to clear the previous owner's electricity arrears as a precondition to supply has a statutory character (Section 49 of the 1948 Act); the regulatory power under Section 50, and the rule-making power under Section 181 read with Section 50, are wide enough to stipulate recovery of a previous owner's arrears from a new/subsequent owner and to create a statutory charge on the premises even absent a charge-creating provision in the plenary statute. The power to recover arrears by suit is independent of the power to disconnect under Section 56; and 'as is where is' puts every auction-bidder on notice of dues including electricity dues. Isha Marbles is substantially qualified. (Interest from the date of the supply applications was waived under Article 142.)",
-
   "holding_units": [
     {
       "provision": "ARREARS::transferee-liability",
@@ -44,21 +42,32 @@
       "paras": "para 328(h)"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "arrears-run-with-the-premises",
       "application": "Apex authority: the Supply Code (under s.50/s.181) can create a statutory charge on the premises for a previous owner's arrears recoverable from a new/subsequent owner; a condition requiring a new owner to clear such arrears is statutory and valid (confirming and extending Haryana SEB v. Hanuman Rice Mills; substantially qualifying Isha Marbles).",
       "lead_authorities": [
-        {"name": "Isha Marbles v. Bihar State Electricity Board", "docid": ""}
+        {
+          "name": "Isha Marbles v. Bihar State Electricity Board",
+          "docid": ""
+        }
       ],
       "paras": "para 328(d)-(g), (i)"
     }
   ],
-
   "not_decided": [],
-
   "authorities": [
-    {"name": "Isha Marbles v. Bihar State Electricity Board", "citation": "(1995) 2 SCC 648", "court": "Supreme Court", "docid": "", "proposition": "A fresh purchaser / auction-purchaser could not be saddled with the previous owner's electricity arrears in the absence of a statutory charge; the duty to supply could not be conditioned on clearing another's dues.", "how_treated": "Distinguished / substantially qualified — the Court recognised that a statutory charge can be created under the Supply Code (ss.50/181, and s.49 of the 1948 Act), so arrears are recoverable from a transferee where such a Condition of Supply exists.", "how_treated_paras": "para 328 and preceding discussion", "cited_by": "Petitioner", "treatment": "Distinguished"}
-  ]
+    {
+      "name": "Isha Marbles v. Bihar State Electricity Board",
+      "citation": "(1995) 2 SCC 648",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "A fresh purchaser / auction-purchaser could not be saddled with the previous owner's electricity arrears in the absence of a statutory charge; the duty to supply could not be conditioned on clearing another's dues.",
+      "how_treated": "Distinguished / substantially qualified — the Court recognised that a statutory charge can be created under the Supply Code (ss.50/181, and s.49 of the 1948 Act), so arrears are recoverable from a transferee where such a Condition of Supply exists.",
+      "how_treated_paras": "para 328 and preceding discussion",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished"
+    }
+  ],
+  "outcome": "licensee"
 }

@@ -9,9 +9,7 @@
   "date_display": "23 September 2010",
   "docket": "Special Appeal (Defective) No. 547 of 2010",
   "disposition": "Preliminary objection to maintainability of the Special Appeal overruled; appeal held maintainable and to be listed for hearing on merits",
-
   "headnote": "The Electricity Ombudsman, constituted under Section 42(6) of the Electricity Act, 2003 and the U.P. Electricity Regulatory Commission (Consumer Grievance Redressal Forum & Electricity Ombudsman) Regulations, 2007, is neither an 'Appellate Authority' exercising appellate/revisional jurisdiction nor a 'Tribunal,' and consequently an order of a Single Judge disposing of a writ petition against the Ombudsman's award is not barred from Special Appeal under Rule 5, Chapter VIII of the Allahabad High Court Rules, 1952 (which excludes appeals from orders passed in the exercise of appellate/revisional jurisdiction over a tribunal, or in the exercise of Article 226/227 superintendence over a tribunal). Although Regulation 8.1 of the 2007 Regulations styles a consumer's or licensee's approach to the Ombudsman as a 'representation' against a Forum decision, and although the Ombudsman must pass a reasoned order/award after hearing the parties, the Ombudsman's function is that of an alternative dispute-resolution mechanism (facilitating settlement through conciliation/mediation, or passing an award) rather than a hierarchical appellate review, since (a) the Regulations expressly permit either party, aggrieved by the Ombudsman's award, to approach 'any Court or Tribunal having jurisdiction' (Regulation 12.8) — meaning there is no finality or defined superior-inferior court relationship of the kind that defines an 'appeal' (Shiv Shakti Cooperative Housing Society v. Swaraj Developers; Tirupati Balaji Developers v. State of Bihar) — and (b) the Ombudsman lacks the coercive/judicial 'trappings of a Court' (power to compel witness attendance and examine on oath, public sittings, binding finality, power to impose fines/damages) that would qualify it as a 'Tribunal' invested with the State's inherent judicial power (Union of India v. R. Gandhi, President, Madras Bar Association; Committee of Management v. Regional Deputy Director of Education, Agra).",
-
   "holding_units": [
     {
       "provision": "EA2003::42(6)",
@@ -25,14 +23,19 @@
       "paras": "paras 2-15"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "electricity-ombudsman-not-appellate-authority-nor-tribunal",
       "application": "Establishes the Electricity Ombudsman's institutional character under s.42(6) as an ADR/quasi-judicial grievance-redressal mechanism, not an Appellate Authority or Tribunal, given the absence of finality (Regulation 12.8's 'any Court or Tribunal' access) and the absence of judicial 'trappings of a Court' — significant for characterising the Ombudsman's role and for procedural questions (appealability, superintendence) arising from Ombudsman awards throughout this corpus's Ombudsman-related cases (e.g. SCJ-128's Electricity Ombudsman appeal background).",
       "lead_authorities": [
-        {"name": "Union of India v. R. Gandhi, President, Madras Bar Association", "docid": ""},
-        {"name": "Shiv Shakti Cooperative Housing Society v. Swaraj Developers", "docid": "213017"}
+        {
+          "name": "Union of India v. R. Gandhi, President, Madras Bar Association",
+          "docid": ""
+        },
+        {
+          "name": "Shiv Shakti Cooperative Housing Society v. Swaraj Developers",
+          "docid": "213017"
+        }
       ],
       "paras": "paras 10-15"
     }
@@ -106,5 +109,6 @@
       "cited_by": "Court",
       "treatment": "Referred"
     }
-  ]
+  ],
+  "outcome": "pending"
 }

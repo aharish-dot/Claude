@@ -8,10 +8,9 @@
   "date_of_judgment": "2014-09-11",
   "date_display": "11 September 2014",
   "docket": "WRIT - C No. 1361 of 2014",
+  "outcome": "consumer",
   "disposition": "Writ petition dismissed with Rs. 25,000 costs (Ombudsman's order upheld)",
-
   "headnote": "A statutory Consumer Grievance Redressal Forum (ECGRF) and the Electricity Ombudsman, constituted under Section 42(5)-(8) of the Electricity Act, 2003 and the UPERC (CGRF and Electricity Ombudsman) Regulations, 2007, are under a statutory duty to decide a consumer's grievance on merits and cannot decline jurisdiction by relegating the parties to an arbitration clause in the supply agreement; the agreement provides at most an additional forum (right of election, Section 42(8)), and the special statute overrides the general Arbitration Act (Gujarat Urja Vikas Nigam v. Essar Power). Separately, a 'Protective Load' charge under the Tariff Orders (and Clause 2.2(tt) of the Supply Code) can be levied only where the consumer has opted for, and been sanctioned, that facility; a suo motu demand raised years later on an audit objection, without any such option, is illegal.",
-
   "holding_units": [
     {
       "provision": "EA2003::42",
@@ -36,13 +35,15 @@
       "paras": "45-61"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "statutory-forum-cannot-relegate-to-arbitration",
       "application": "A statutory consumer grievance forum (CGRF/Ombudsman) must decide the consumer's dispute on merits and cannot abdicate by relegating the parties to an arbitration clause; the statutory remedy is additional, by right of election, not ousted by the agreement.",
       "lead_authorities": [
-        {"name": "Gujarat Urja Vikas Nigam Ltd. v. Essar Power Ltd.", "docid": "1223233"}
+        {
+          "name": "Gujarat Urja Vikas Nigam Ltd. v. Essar Power Ltd.",
+          "docid": "1223233"
+        }
       ],
       "paras": "31-40"
     },
@@ -53,11 +54,29 @@
       "paras": "53-61"
     }
   ],
-
   "not_decided": [],
-
   "authorities": [
-    {"name": "Gujarat Urja Vikas Nigam Ltd. v. Essar Power Ltd.", "citation": "(2008) 4 SCC 755", "court": "Supreme Court", "docid": "1223233", "proposition": "Section 86(1)(f) of the Electricity Act, 2003 is a special provision for adjudication of disputes between a licensee and a generating company and overrides the general Section 11 of the Arbitration and Conciliation Act, 1996; after the 2003 Act, such disputes can be resolved only by the State Commission or an arbitrator appointed by it.", "how_treated": "Relied on for the proposition that the special statutory dispute-resolution scheme overrides a contractual arbitration clause.", "how_treated_paras": "34-36", "cited_by": "Court", "treatment": "Relied on"},
-    {"name": "Allahabad Inter Prises v. State of U.P.", "citation": "Writ-C No. 2788 of 2013 (Allahabad HC, DB)", "court": "Allahabad High Court (DB)", "docid": "", "proposition": "A 'Protective Load' charge cannot be raised in the absence of any option exercised by the consumer for that facility.", "how_treated": "Followed to hold the protective-load demand unsustainable.", "how_treated_paras": "60", "cited_by": "Court", "treatment": "Followed"}
+    {
+      "name": "Gujarat Urja Vikas Nigam Ltd. v. Essar Power Ltd.",
+      "citation": "(2008) 4 SCC 755",
+      "court": "Supreme Court",
+      "docid": "1223233",
+      "proposition": "Section 86(1)(f) of the Electricity Act, 2003 is a special provision for adjudication of disputes between a licensee and a generating company and overrides the general Section 11 of the Arbitration and Conciliation Act, 1996; after the 2003 Act, such disputes can be resolved only by the State Commission or an arbitrator appointed by it.",
+      "how_treated": "Relied on for the proposition that the special statutory dispute-resolution scheme overrides a contractual arbitration clause.",
+      "how_treated_paras": "34-36",
+      "cited_by": "Court",
+      "treatment": "Relied on"
+    },
+    {
+      "name": "Allahabad Inter Prises v. State of U.P.",
+      "citation": "Writ-C No. 2788 of 2013 (Allahabad HC, DB)",
+      "court": "Allahabad High Court (DB)",
+      "docid": "",
+      "proposition": "A 'Protective Load' charge cannot be raised in the absence of any option exercised by the consumer for that facility.",
+      "how_treated": "Followed to hold the protective-load demand unsustainable.",
+      "how_treated_paras": "60",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
   ]
 }

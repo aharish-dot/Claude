@@ -9,9 +9,7 @@
   "date_display": "21 March 2017",
   "docket": "WRIT - C No. 30898 of 2016 (leading case; batch of ~90 connected writ petitions)",
   "disposition": "Writ petitions dismissed; all interim orders discharged",
-
   "headnote": "Clause 4.20(l) of the U.P. Electricity Supply Code, 2005 (barring a distribution licensee from requiring security under Section 47(1) if the consumer is prepared to take supply through a prepayment meter, 'as and when' the licensee offers that choice) is not ultra vires Section 47(5) of the Electricity Act, 2003. Section 47(5) is not a free-standing override of Section 47(1)-(4); the words 'subject to the provisions of this section' in Section 47(1) mean the security determination is governed by Section 47 read as a whole, not subservient only to sub-section (5). The exemption from security in sub-section (5) is conditioned on the actual availability of a prepayment meter — the consumer's mere 'preparedness' to take supply through such a meter does not, by itself, denude the licensee of the power to demand security where prepayment meters for the relevant consumer category (here, High Tension consumers) are not manufactured or available in the market; a demand for additional security on account of increased consumption remains valid until such meters become available. Read with Section 55 (which only mandates a 'correct meter', not a prepayment meter), Clause 4.20(l) tracks and does not exceed Section 47(5).",
-
   "holding_units": [
     {
       "provision": "UP-2005::4.20",
@@ -34,18 +32,19 @@
       "paras": "the 'subject to' discussion (unnumbered order)"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "prepayment-meter-exemption-conditional-on-availability",
       "application": "The s.47(5)/Clause 4.20(l) security exemption for consumers willing to take supply through a prepayment meter operates only once such meters are actually available for that consumer category; unavailability (as for HT consumers) leaves the licensee's ordinary power to demand security under s.47(1)-(4) intact. Followed and agreed with the Telangana/AP High Court's parallel ruling in Sarwottam Ispat.",
       "lead_authorities": [
-        {"name": "Sarwottam Ispat Ltd. v. Southern Power Distribution Company of Telangana Ltd. & Ors.", "docid": "3799508"}
+        {
+          "name": "Sarwottam Ispat Ltd. v. Southern Power Distribution Company of Telangana Ltd. & Ors.",
+          "docid": "3799508"
+        }
       ],
       "paras": "the Sarwottam Ispat discussion (unnumbered order)"
     }
   ],
-
   "not_decided": [
     {
       "point": "Whether the absence of regulations under Section 181 (as opposed to the Supply Code) renders the demand for security without authority of law",
@@ -54,12 +53,62 @@
       "paras": "unnumbered order"
     }
   ],
-
   "authorities": [
-    {"name": "Sarwottam Ispat Ltd. v. Southern Power Distribution Company of Telangana Ltd. & Ors.", "citation": "2016 (6) ALD 162", "court": "High Court of Judicature at Hyderabad (DB)", "docid": "3799508", "proposition": "Where pre-paid meters are not installed, it is mandatory for consumers to pay the security deposit demanded; a request for a prepaid meter when none is available does not entitle the consumer to a waiver, and Section 47 does not envisage waiver or an alternative mode of security (e.g. bank guarantee) enforceable by writ.", "how_treated": "Followed and agreed with in full (the same Chief Justice had been a member of that Division Bench).", "how_treated_paras": "the Sarwottam Ispat discussion (unnumbered order)", "cited_by": "Court", "treatment": "Followed"},
-    {"name": "Commissioner of Central Excise, Bhavnagar v. Saurashtra Chemicals Ltd.", "citation": "(2007) 10 SCC 352", "court": "Supreme Court", "docid": "1218178", "proposition": "The expression 'subject to' denotes a limitation — 'governed or affected by', 'provided that' — citing Ashok Leyland Ltd. v. State of T.N. and Black's Law Dictionary.", "how_treated": "Relied on by the petitioners for the proposition that s.47(5) overrides s.47(1)-(4); the Court accepted the dictionary meaning but held it supported the opposite conclusion — that s.47(1) is governed by s.47 as a whole, not subservient to s.47(5) alone.", "how_treated_paras": "the 'subject to' discussion (unnumbered order)", "cited_by": "Petitioner", "treatment": "Distinguished"},
-    {"name": "United India Insurance Co. Ltd. v. Lehru & Ors.", "citation": "(2003) 3 SCC 338", "court": "Supreme Court", "docid": "726134", "proposition": "(Cited alongside Saurashtra Chemicals in support of the petitioners' 'subject to' argument.)", "how_treated": "Relied on by the petitioners; rejected along with Saurashtra Chemicals for the same reasons.", "how_treated_paras": "the 'subject to' discussion (unnumbered order)", "cited_by": "Petitioner", "treatment": "Distinguished"},
-    {"name": "Chandra Kumar Shah & Anr. v. The District Judge & Ors.", "citation": "AIR 1976 All 328", "court": "Allahabad High Court (FB)", "docid": "1941349", "proposition": "The power to frame regulations/rules cannot be read as a source of authority to enact independent legislation or impose obligations not otherwise envisaged by the parent Act.", "how_treated": "Cited by the petitioners in support of a contention (that Clause 4.20 exceeds the s.181 regulation-making power) which the Court declined to examine in detail as it was not pleaded and was raised only in oral submissions.", "how_treated_paras": "the regulation-making-power discussion (unnumbered order)", "cited_by": "Petitioner", "treatment": "Referred"},
-    {"name": "Bharathidasan University & Anr. v. All-India Council for Technical Education & Ors.", "citation": "(2001) 8 SCC 676", "court": "Supreme Court", "docid": "1384523", "proposition": "(Same proposition as Chandra Kumar Shah — regulation-making power is not a source of independent legislative authority.)", "how_treated": "Cited to the same effect; not examined in detail for the same reason.", "how_treated_paras": "the regulation-making-power discussion (unnumbered order)", "cited_by": "Petitioner", "treatment": "Referred"}
-  ]
+    {
+      "name": "Sarwottam Ispat Ltd. v. Southern Power Distribution Company of Telangana Ltd. & Ors.",
+      "citation": "2016 (6) ALD 162",
+      "court": "High Court of Judicature at Hyderabad (DB)",
+      "docid": "3799508",
+      "proposition": "Where pre-paid meters are not installed, it is mandatory for consumers to pay the security deposit demanded; a request for a prepaid meter when none is available does not entitle the consumer to a waiver, and Section 47 does not envisage waiver or an alternative mode of security (e.g. bank guarantee) enforceable by writ.",
+      "how_treated": "Followed and agreed with in full (the same Chief Justice had been a member of that Division Bench).",
+      "how_treated_paras": "the Sarwottam Ispat discussion (unnumbered order)",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Commissioner of Central Excise, Bhavnagar v. Saurashtra Chemicals Ltd.",
+      "citation": "(2007) 10 SCC 352",
+      "court": "Supreme Court",
+      "docid": "1218178",
+      "proposition": "The expression 'subject to' denotes a limitation — 'governed or affected by', 'provided that' — citing Ashok Leyland Ltd. v. State of T.N. and Black's Law Dictionary.",
+      "how_treated": "Relied on by the petitioners for the proposition that s.47(5) overrides s.47(1)-(4); the Court accepted the dictionary meaning but held it supported the opposite conclusion — that s.47(1) is governed by s.47 as a whole, not subservient to s.47(5) alone.",
+      "how_treated_paras": "the 'subject to' discussion (unnumbered order)",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "United India Insurance Co. Ltd. v. Lehru & Ors.",
+      "citation": "(2003) 3 SCC 338",
+      "court": "Supreme Court",
+      "docid": "726134",
+      "proposition": "(Cited alongside Saurashtra Chemicals in support of the petitioners' 'subject to' argument.)",
+      "how_treated": "Relied on by the petitioners; rejected along with Saurashtra Chemicals for the same reasons.",
+      "how_treated_paras": "the 'subject to' discussion (unnumbered order)",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "Chandra Kumar Shah & Anr. v. The District Judge & Ors.",
+      "citation": "AIR 1976 All 328",
+      "court": "Allahabad High Court (FB)",
+      "docid": "1941349",
+      "proposition": "The power to frame regulations/rules cannot be read as a source of authority to enact independent legislation or impose obligations not otherwise envisaged by the parent Act.",
+      "how_treated": "Cited by the petitioners in support of a contention (that Clause 4.20 exceeds the s.181 regulation-making power) which the Court declined to examine in detail as it was not pleaded and was raised only in oral submissions.",
+      "how_treated_paras": "the regulation-making-power discussion (unnumbered order)",
+      "cited_by": "Petitioner",
+      "treatment": "Referred"
+    },
+    {
+      "name": "Bharathidasan University & Anr. v. All-India Council for Technical Education & Ors.",
+      "citation": "(2001) 8 SCC 676",
+      "court": "Supreme Court",
+      "docid": "1384523",
+      "proposition": "(Same proposition as Chandra Kumar Shah — regulation-making power is not a source of independent legislative authority.)",
+      "how_treated": "Cited to the same effect; not examined in detail for the same reason.",
+      "how_treated_paras": "the regulation-making-power discussion (unnumbered order)",
+      "cited_by": "Petitioner",
+      "treatment": "Referred"
+    }
+  ],
+  "outcome": "licensee"
 }

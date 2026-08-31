@@ -9,9 +9,7 @@
   "date_display": "22 December 2011",
   "docket": "WRIT - C No. 24309 of 2007",
   "disposition": "Writ petition disposed of (minimum-guarantee charges held not recoverable; rural-rate billing directed; set-off refused)",
-
   "headnote": "Where a consumer has not committed to pay a fixed sum as minimum-guarantee charges, the licensee can recover such charges only if it ensures the minimum guaranteed supply; if the supply fails for a reason attributable to the licensee (here, a burnt transformer left unrepaired for about five months), no minimum-guarantee charges can be levied (Raymond Ltd. v. M.P. Electricity Board). Clause 4.37 of the U.P. Electricity Supply Code, 2005 (minimum-charge billing on temporary disconnection) applies only where the disconnection is due to the consumer's default, not the licensee's; and Clause 7.07 requires restoration within 24 hours / transformer replacement within 15 days. Supply given from a rural feeder cannot be billed at the urban-feeder rate; and a consumer who repairs the transformer himself, without authorisation, cannot set off the cost against his bills (remedy: civil suit).",
-
   "holding_units": [
     {
       "provision": "UP-2005::4.37",
@@ -34,18 +32,19 @@
       "paras": "unnumbered order"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "no-charge-when-supply-fails-by-licensee-fault",
       "application": "Minimum-guarantee (and like) charges cannot be levied for a period in which supply failed for a reason attributable to the licensee; the obligation to pay is tied to the licensee's maintaining the minimum standard of supply.",
       "lead_authorities": [
-        {"name": "Raymond Ltd. v. M.P. Electricity Board", "docid": "1865062"}
+        {
+          "name": "Raymond Ltd. v. M.P. Electricity Board",
+          "docid": "1865062"
+        }
       ],
       "paras": "unnumbered order"
     }
   ],
-
   "not_decided": [
     {
       "point": "Minimum-guarantee charges for 20.11.2004-8.5.2005",
@@ -54,8 +53,18 @@
       "paras": "unnumbered order"
     }
   ],
-
   "authorities": [
-    {"name": "Raymond Ltd. & Anr. v. M.P. Electricity Board & Ors.", "citation": "(2001) 1 SCC 534", "court": "Supreme Court", "docid": "1865062", "proposition": "Where the consumer has not committed to a fixed minimum-guarantee sum, the licensee can enforce minimum-guarantee charges only by ensuring the minimum guaranteed supply; if the licensee fails to supply, the consumer is exonerated from paying minimum-guarantee charges.", "how_treated": "Applied to hold minimum-guarantee charges not recoverable where supply failed by the licensee's fault.", "how_treated_paras": "unnumbered order", "cited_by": "Court", "treatment": "Followed"}
-  ]
+    {
+      "name": "Raymond Ltd. & Anr. v. M.P. Electricity Board & Ors.",
+      "citation": "(2001) 1 SCC 534",
+      "court": "Supreme Court",
+      "docid": "1865062",
+      "proposition": "Where the consumer has not committed to a fixed minimum-guarantee sum, the licensee can enforce minimum-guarantee charges only by ensuring the minimum guaranteed supply; if the licensee fails to supply, the consumer is exonerated from paying minimum-guarantee charges.",
+      "how_treated": "Applied to hold minimum-guarantee charges not recoverable where supply failed by the licensee's fault.",
+      "how_treated_paras": "unnumbered order",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ],
+  "outcome": "split"
 }

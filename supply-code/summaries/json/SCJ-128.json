@@ -9,9 +9,7 @@
   "date_display": "20 December 2018",
   "docket": "WRIT - C No. 29490 of 2008",
   "disposition": "Writ petition dismissed; orders of the Consumer Grievance Redressal Forum and Electricity Ombudsman upheld",
-
   "headnote": "A Supreme Court decision interpreting departmental circulars governing peak-hour-restriction-violation penalties applies retrospectively to pending, not-yet-finally-settled matters, since the general rule is that judicial decisions are retrospective unless the deciding court expressly makes them prospective (the doctrine of prospective overruling, traceable to Golak Nath and its service-jurisprudence progeny such as Union of India v. Mohd. Ramzan Khan and Managing Director, ECIL v. B. Karunakar, is an exception invoked only by the Supreme Court and only where expressly stated); absent an express prospective-only direction, a Supreme Court ruling correcting a High Court's erroneous circular-interpretation governs even transactions predating the ruling, so long as those transactions were not finally and conclusively settled. Where the record shows a subordinate officer's purported reduction of penalty liability was never ratified by the competent higher authority (and was in fact challenged internally via a show-cause notice to that officer), no binding 'settlement' arose, and the consumer remains liable for penalty recalculated per the Supreme Court's now-authoritative interpretation of the circulars (each Meter Reading Inspection Report violation attracting separate penalty, not one penalty per report).",
-
   "holding_units": [
     {
       "provision": "PENALTY::retrospective-application-of-sc-precedent",
@@ -25,14 +23,19 @@
       "paras": "paras 40-55"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "sc-precedent-retrospective-unless-expressly-prospective",
       "application": "Reaffirms, in an electricity-penalty-circular context, the general rule that judicial precedent (including a Supreme Court ruling correcting a High Court's erroneous statutory/circular interpretation) applies retrospectively to pending disputes unless the deciding court expressly limits it to prospective operation.",
       "lead_authorities": [
-        {"name": "U.P. Power Corporation Ltd. v. Lohia Brass (P) Ltd.", "docid": "474231"},
-        {"name": "Union of India v. Mohd. Ramzan Khan", "docid": "727248"}
+        {
+          "name": "U.P. Power Corporation Ltd. v. Lohia Brass (P) Ltd.",
+          "docid": "474231"
+        },
+        {
+          "name": "Union of India v. Mohd. Ramzan Khan",
+          "docid": "727248"
+        }
       ],
       "paras": "paras 41-53"
     }
@@ -109,5 +112,6 @@
       "cited_by": "Court",
       "treatment": "Referred"
     }
-  ]
+  ],
+  "outcome": "licensee"
 }

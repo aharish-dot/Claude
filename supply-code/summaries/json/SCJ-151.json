@@ -9,9 +9,7 @@
   "date_display": "26 March 2014",
   "docket": "Civil Appeal No. 4023 of 2014 (arising out of SLP (C) No. 3396 of 2011), with C.A. No. 4024 of 2014",
   "disposition": "Civil appeals allowed; High Court's quashing of the penal bill and disconnection notice set aside; writ petitions filed by the consumer dismissed",
-
   "headnote": "Section 26(6) of the Indian Electricity Act, 1910 — which confines a 'difference or dispute' as to a meter's correctness to determination by an Electrical Inspector — has no application where the licensee's case is one of fraud/tampering with the meter or metering equipment (deliberate interference with seals, cut potential-transformer wires, etc.), as distinct from a case of an inherently defective or faulty meter; a consumer alleging tampering-based penal charges are unwarranted must, if genuinely disputing the meter's correctness, apply to the Electrical Inspector under s.26(6) — the mere assertion, without such application, that the meter was 'defective' does not entitle the consumer to have the tampering allegation set aside. Where a distribution licensee's own statutory Supply Code (here, the Orissa Electricity Regulatory Commission Distribution (Conditions of Supply) Code, 1998, Clauses 56, 64, 105) specifically governs detection and penal-charge consequences of meter-tampering (independently of s.26 of the 1910 Act), that Code — not s.26(6) — supplies the governing framework, and a writ court errs in analysing a tampering-based penal bill solely through the s.26(6) 'defective meter' lens while ignoring the Code's own tampering provisions. Findings that an inspection occurred in the consumer's authorised representative's presence, undisputedly evidenced by a signed inspection report, cannot be displaced by unsubstantiated, unproven allegations of duress/coercion raised for the first time before the writ court without any complaint to an appropriate authority.",
-
   "holding_units": [
     {
       "provision": "IEA1910::26(6)",
@@ -25,14 +23,19 @@
       "paras": "paras 5-16"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "s26-6-inapplicable-to-fraud-tampering-disputes",
       "application": "Confirms the well-settled distinction (M.P. Electricity Board v. Basantibai; Rupa Ice Factory; Sub-Divisional Officer (P), UHBVNL v. Dharam Pal) that s.26(6) of the 1910 Act, confined to genuine meter-correctness disputes referable to an Electrical Inspector, has no application to fraud/tampering allegations, which are instead governed by the licensee's own statutory Supply Code tampering provisions — directly relevant to this corpus's meter-tampering/theft-assessment cluster.",
       "lead_authorities": [
-        {"name": "Madhya Pradesh Electricity Board & Ors. v. Smt. Basantibai", "docid": "877880"},
-        {"name": "State of W.B. v. Rupa Ice Factory (P) Ltd.", "docid": ""}
+        {
+          "name": "Madhya Pradesh Electricity Board & Ors. v. Smt. Basantibai",
+          "docid": "877880"
+        },
+        {
+          "name": "State of W.B. v. Rupa Ice Factory (P) Ltd.",
+          "docid": ""
+        }
       ],
       "paras": "paras 8, 11, 14-15"
     }
@@ -69,5 +72,6 @@
       "cited_by": "Court",
       "treatment": "Followed"
     }
-  ]
+  ],
+  "outcome": "licensee"
 }

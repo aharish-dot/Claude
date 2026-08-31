@@ -9,9 +9,7 @@
   "date_display": "17 April 2013",
   "docket": "WRIT - C No. 58652 of 2012",
   "disposition": "Writ petition dismissed",
-
   "headnote": "Under Clause 3.4(d)(ii) of the U.P. Electricity Supply Code, 2005, the consent required before the licensee permits another consumer to tap an independent feeder (for Arc/Induction Furnaces, Rolling Mills, Re-rolling Mills and Mini Steel Plants) is the consent of the 'original consumer' — i.e. the consumer at whose instance and cost the independent feeder itself was constructed — not of every subsequent consumer who was merely permitted to tap the already-constructed feeder on paying only the cost of the connecting line from the tapping (T-off) point to its own premises. A consumer who bore only the connection-line cost (not the feeder's own construction cost) does not thereby become a co-original-consumer whose consent is required for further downstream tapping to other similar-process consumers; that status, and the corresponding consent right, is confined to the party that actually funded the independent feeder's construction (distinguishing Kesarwani Sheetalaya, where the objecting consumer had itself obtained the original consumer's consent and shared the feeder's construction cost).",
-
   "holding_units": [
     {
       "provision": "UP-2005::3.4",
@@ -25,25 +23,69 @@
       "paras": "unnumbered order"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "independent-feeder-original-consumer-consent",
       "application": "Clause 3.4(d)(ii)'s consent requirement for tapping an independent feeder runs to the consumer who funded the feeder's construction (the 'original consumer'), not to every downstream tapping consumer who paid only its own connecting-line cost; a downstream consumer can acquire a consent right only by itself having obtained the true original consumer's consent and shared the feeder's cost (Kesarwani Sheetalaya).",
       "lead_authorities": [
-        {"name": "M/s Kesarwani Sheetalaya & Others v. Purvanchal Vidyut Vitran Nigam Ltd. & Others", "docid": ""},
-        {"name": "M/s Shiv Flour and Rice Mills v. State of U.P. & Others", "docid": "477172"}
+        {
+          "name": "M/s Kesarwani Sheetalaya & Others v. Purvanchal Vidyut Vitran Nigam Ltd. & Others",
+          "docid": ""
+        },
+        {
+          "name": "M/s Shiv Flour and Rice Mills v. State of U.P. & Others",
+          "docid": "477172"
+        }
       ],
       "paras": "unnumbered order"
     }
   ],
-
   "not_decided": [],
-
   "authorities": [
-    {"name": "M/s Kesarwani Sheetalaya & Others v. Purvanchal Vidyut Vitran Nigam Ltd. & Others", "citation": "Civil Misc. Writ Petition No. 2309 of 2009, decided 9.10.2009", "court": "Allahabad High Court (DB)", "docid": "", "proposition": "Where a tapping consumer had itself obtained the original consumer's consent and shared the feeder's construction cost, it stands at par with the original consumer, and a further connection through tapping to another consumer without ITS consent violates Clause 3.4(d)(ii).", "how_treated": "Distinguished — the petitioner here had not obtained the true original consumer's consent or shared the feeder's own construction cost, unlike the petitioners in Kesarwani Sheetalaya.", "how_treated_paras": "unnumbered order", "cited_by": "Petitioner", "treatment": "Distinguished"},
-    {"name": "M/s Shiv Flour and Rice Mills v. State of U.P. & Others", "citation": "Civil Misc. Writ Petition No. 32927 of 2003", "court": "Allahabad High Court", "docid": "477172", "proposition": "Distinguishes 'service line' (Para 2.2(bb)) from 'independent feeder' (Para 2.2(ff)); without fulfilling Clause 3.4(d)'s conditions, the licensee cannot allow tapping of an independent feeder to supply another consumer running an arc/induction furnace, rolling mill or steel plant.", "how_treated": "Cited alongside Kesarwani Sheetalaya for the general Clause 3.4/consent framework; the petitioner's reliance nonetheless failed on the 'original consumer' facts.", "how_treated_paras": "unnumbered order", "cited_by": "Petitioner", "treatment": "Referred"},
-    {"name": "Chandu Khamaru v. Nayan Malik & Others", "citation": "(2011) 12 SCC 314", "court": "Supreme Court", "docid": "864936", "proposition": "A consumer has a statutory right under the Electricity Act, 2003 to apply for and obtain a supply of electricity, and the distribution licensee has a corresponding statutory obligation to supply it, notwithstanding a private dispute over the passage/right of way for the line.", "how_treated": "Relied on by the successful respondent to support the statutory right to obtain a fresh connection/tapping.", "how_treated_paras": "unnumbered order", "cited_by": "Respondent", "treatment": "Relied on"},
-    {"name": "Punjab State Electricity Board Ltd. v. Zora Singh & Others", "citation": "JT 2005 (7) SC 258", "court": "Supreme Court", "docid": "1101587", "proposition": "The Board must supply electrical energy to consumers within a reasonable period, in order of seniority of application, per its own circulars/regulations, and must notify applicants of reasons for any delay.", "how_treated": "Relied on by the successful respondent to reinforce the statutory duty to supply on request.", "how_treated_paras": "unnumbered order", "cited_by": "Respondent", "treatment": "Relied on"}
-  ]
+    {
+      "name": "M/s Kesarwani Sheetalaya & Others v. Purvanchal Vidyut Vitran Nigam Ltd. & Others",
+      "citation": "Civil Misc. Writ Petition No. 2309 of 2009, decided 9.10.2009",
+      "court": "Allahabad High Court (DB)",
+      "docid": "",
+      "proposition": "Where a tapping consumer had itself obtained the original consumer's consent and shared the feeder's construction cost, it stands at par with the original consumer, and a further connection through tapping to another consumer without ITS consent violates Clause 3.4(d)(ii).",
+      "how_treated": "Distinguished — the petitioner here had not obtained the true original consumer's consent or shared the feeder's own construction cost, unlike the petitioners in Kesarwani Sheetalaya.",
+      "how_treated_paras": "unnumbered order",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "M/s Shiv Flour and Rice Mills v. State of U.P. & Others",
+      "citation": "Civil Misc. Writ Petition No. 32927 of 2003",
+      "court": "Allahabad High Court",
+      "docid": "477172",
+      "proposition": "Distinguishes 'service line' (Para 2.2(bb)) from 'independent feeder' (Para 2.2(ff)); without fulfilling Clause 3.4(d)'s conditions, the licensee cannot allow tapping of an independent feeder to supply another consumer running an arc/induction furnace, rolling mill or steel plant.",
+      "how_treated": "Cited alongside Kesarwani Sheetalaya for the general Clause 3.4/consent framework; the petitioner's reliance nonetheless failed on the 'original consumer' facts.",
+      "how_treated_paras": "unnumbered order",
+      "cited_by": "Petitioner",
+      "treatment": "Referred"
+    },
+    {
+      "name": "Chandu Khamaru v. Nayan Malik & Others",
+      "citation": "(2011) 12 SCC 314",
+      "court": "Supreme Court",
+      "docid": "864936",
+      "proposition": "A consumer has a statutory right under the Electricity Act, 2003 to apply for and obtain a supply of electricity, and the distribution licensee has a corresponding statutory obligation to supply it, notwithstanding a private dispute over the passage/right of way for the line.",
+      "how_treated": "Relied on by the successful respondent to support the statutory right to obtain a fresh connection/tapping.",
+      "how_treated_paras": "unnumbered order",
+      "cited_by": "Respondent",
+      "treatment": "Relied on"
+    },
+    {
+      "name": "Punjab State Electricity Board Ltd. v. Zora Singh & Others",
+      "citation": "JT 2005 (7) SC 258",
+      "court": "Supreme Court",
+      "docid": "1101587",
+      "proposition": "The Board must supply electrical energy to consumers within a reasonable period, in order of seniority of application, per its own circulars/regulations, and must notify applicants of reasons for any delay.",
+      "how_treated": "Relied on by the successful respondent to reinforce the statutory duty to supply on request.",
+      "how_treated_paras": "unnumbered order",
+      "cited_by": "Respondent",
+      "treatment": "Relied on"
+    }
+  ],
+  "outcome": "licensee"
 }

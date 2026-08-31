@@ -9,9 +9,7 @@
   "date_display": "29 May 2014",
   "docket": "WRIT - C No. 31023 of 2014",
   "disposition": "Writ petition dismissed (relegated to the Section 127 appeal)",
-
   "headnote": "A writ petition against a provisional/final assessment under Section 126 of the Electricity Act, 2003 will not ordinarily be entertained where the statutory appeal under Section 127 is available and the challenge raises only disputed questions of fact; the exceptions to the alternative-remedy rule (want of jurisdiction, breach of natural justice, or violation of fundamental rights) do not apply to a pure factual challenge, and complex factual disputes are better left to the appeal. A provisional assessment under Section 126 (Chapter XII — investigation and enforcement) can be made even in a theft case; Section 135 (Chapter XIV — offences) makes unauthorised use a criminal offence, but a person committing theft still bears the civil liability to pay for the electricity consumed.",
-
   "holding_units": [
     {
       "provision": "EA2003::127",
@@ -34,19 +32,23 @@
       "paras": "the s.126/135 discussion (unnumbered order)"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "alternative-remedy-relegation",
       "application": "A writ against a Section 126 assessment is relegated to the Section 127 appeal unless the case falls within the jurisdiction / natural-justice / fundamental-rights exceptions; pure factual disputes go to the appeal.",
       "lead_authorities": [
-        {"name": "Ashok Kumar v. State of U.P.", "docid": "897981"},
-        {"name": "M/s Popcorn Entertainment v. City Industrial Development Corporation", "docid": ""}
+        {
+          "name": "Ashok Kumar v. State of U.P.",
+          "docid": "897981"
+        },
+        {
+          "name": "M/s Popcorn Entertainment v. City Industrial Development Corporation",
+          "docid": ""
+        }
       ],
       "paras": "unnumbered order"
     }
   ],
-
   "not_decided": [
     {
       "point": "Merits of the theft assessment",
@@ -55,12 +57,62 @@
       "paras": "unnumbered order"
     }
   ],
-
   "authorities": [
-    {"name": "Ashok Kumar & Others v. State of U.P.", "citation": "2008 (6) ADJ 660 (DB)", "court": "Allahabad High Court (DB)", "docid": "897981", "proposition": "Where the challenge to a Section 126 assessment involves purely legal/jurisdictional issues (including the vires of a notification), which the assessing officer or the s.127 appellate authority cannot decide, the writ petition is entertained without relegating the party to the alternative remedy.", "how_treated": "Distinguished — inapplicable to a pure factual challenge with no vires/jurisdictional issue.", "how_treated_paras": "unnumbered order", "cited_by": "Petitioner", "treatment": "Distinguished"},
-    {"name": "M/s Popcorn Entertainment v. City Industrial Development Corporation", "citation": "JT 2007 (4) SC 70", "court": "Supreme Court", "docid": "", "proposition": "A writ may be entertained despite an alternative remedy where the action is without jurisdiction, or in breach of natural justice, or violates fundamental rights.", "how_treated": "Referred (through Ashok Kumar) for the three exceptions, held inapplicable here.", "how_treated_paras": "unnumbered order", "cited_by": "Court", "treatment": "Referred"},
-    {"name": "New Okhla Industrial Development Authority v. Kendriya Karmachari Sahkari Grih Nirman Samiti", "citation": "2006 (II) RJ 1365", "court": "Supreme Court", "docid": "293050", "proposition": "The High Court has jurisdiction under Article 226 to try issues of fact and law, but where the petition raises complex questions of fact requiring evidence, it should ordinarily decline and relegate the party to the normal remedy.", "how_treated": "Applied against the petitioner: complex factual disputes are better left to the appeal.", "how_treated_paras": "unnumbered order", "cited_by": "Petitioner", "treatment": "Distinguished"},
-    {"name": "Mahanta Moti Das v. S.P. Sahid", "citation": "", "court": "Supreme Court", "docid": "254621", "proposition": "Where a question involves investigation of complicated facts and recording of evidence, the High Court may refuse to decide it in a writ proceeding.", "how_treated": "Referred (within New Okhla) on declining writ jurisdiction over complex facts.", "how_treated_paras": "unnumbered order", "cited_by": "Court", "treatment": "Referred"},
-    {"name": "Gunwant Kaur v. Municipal Committee, Bhatinda", "citation": "(1969) 3 SCC 769", "court": "Supreme Court", "docid": "", "proposition": "In a petition under Article 226 the High Court has jurisdiction to try issues both of fact and law.", "how_treated": "Referred (within New Okhla).", "how_treated_paras": "unnumbered order", "cited_by": "Court", "treatment": "Referred"}
-  ]
+    {
+      "name": "Ashok Kumar & Others v. State of U.P.",
+      "citation": "2008 (6) ADJ 660 (DB)",
+      "court": "Allahabad High Court (DB)",
+      "docid": "897981",
+      "proposition": "Where the challenge to a Section 126 assessment involves purely legal/jurisdictional issues (including the vires of a notification), which the assessing officer or the s.127 appellate authority cannot decide, the writ petition is entertained without relegating the party to the alternative remedy.",
+      "how_treated": "Distinguished — inapplicable to a pure factual challenge with no vires/jurisdictional issue.",
+      "how_treated_paras": "unnumbered order",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "M/s Popcorn Entertainment v. City Industrial Development Corporation",
+      "citation": "JT 2007 (4) SC 70",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "A writ may be entertained despite an alternative remedy where the action is without jurisdiction, or in breach of natural justice, or violates fundamental rights.",
+      "how_treated": "Referred (through Ashok Kumar) for the three exceptions, held inapplicable here.",
+      "how_treated_paras": "unnumbered order",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    },
+    {
+      "name": "New Okhla Industrial Development Authority v. Kendriya Karmachari Sahkari Grih Nirman Samiti",
+      "citation": "2006 (II) RJ 1365",
+      "court": "Supreme Court",
+      "docid": "293050",
+      "proposition": "The High Court has jurisdiction under Article 226 to try issues of fact and law, but where the petition raises complex questions of fact requiring evidence, it should ordinarily decline and relegate the party to the normal remedy.",
+      "how_treated": "Applied against the petitioner: complex factual disputes are better left to the appeal.",
+      "how_treated_paras": "unnumbered order",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "Mahanta Moti Das v. S.P. Sahid",
+      "citation": "",
+      "court": "Supreme Court",
+      "docid": "254621",
+      "proposition": "Where a question involves investigation of complicated facts and recording of evidence, the High Court may refuse to decide it in a writ proceeding.",
+      "how_treated": "Referred (within New Okhla) on declining writ jurisdiction over complex facts.",
+      "how_treated_paras": "unnumbered order",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    },
+    {
+      "name": "Gunwant Kaur v. Municipal Committee, Bhatinda",
+      "citation": "(1969) 3 SCC 769",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "In a petition under Article 226 the High Court has jurisdiction to try issues both of fact and law.",
+      "how_treated": "Referred (within New Okhla).",
+      "how_treated_paras": "unnumbered order",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    }
+  ],
+  "outcome": "alternate_remedy"
 }

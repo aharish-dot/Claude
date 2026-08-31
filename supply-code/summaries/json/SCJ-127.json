@@ -9,9 +9,7 @@
   "date_display": "9 November 2012",
   "docket": "Civil Appeal No. 7899 of 2012 (arising out of SLP (C) No. 35573 of 2010)",
   "disposition": "Civil appeal dismissed; High Court's quashing of the arrears-demand order affirmed",
-
   "headnote": "Sub-clause 10(b) of Regulation 13 of the Orissa Electricity Regulatory Commission Distribution (Conditions of Supply) Code, 2004 — which bars transfer of a service connection from one consumer's name to another's until the previous occupier's arrears are cleared — applies only to a request for transfer of an existing service connection, not to an application for a fresh connection by a purchaser (here, an auction-purchaser from an Official Liquidator on an 'as is where is, whatever there is' basis) who has no privity of contract with the licensee. Since electricity dues do not constitute a charge on the premises, a purchaser cannot be compelled to clear a previous occupant's arrears as a precondition to a fresh connection unless a specific statutory rule or a validly stipulated term of supply so requires; the words 'other dues including the security as may be payable' in the relevant Regulations/Forms do not extend to arrears of the earlier consumer. Synthesising the Court's own precedents — Isha Marbles (arrears do not bind a bona fide third-party purchaser absent privity), DVS Steels & Alloys (a distributor may, however, lawfully stipulate arrears-clearance as a condition of a fresh connection where its rules/regulations permit), Ahmedabad Electricity Co. v. Gujarat Inns (auction-purchasers not liable for previous owners' arrears absent a specific statutory provision), and Haryana State Electricity Board v. Hanuman Rice Mills (summarising: arrears create no charge on the property in general law, but a supplier may recover them from a purchaser seeking reconnection/fresh connection where its statutory rules or supply conditions expressly so authorise) — the Court held that, absent such an express authorising provision (and Sub-clause 10(b) here being limited to transfers, not fresh connections), the demand for arrears as a precondition to a fresh connection was unsustainable.",
-
   "holding_units": [
     {
       "provision": "ARREARS::transferee-liability",
@@ -25,16 +23,27 @@
       "paras": "paras 8-20"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "arrears-follow-premises-not-person-fresh-connection-vs-transfer",
       "application": "A landmark synthesis of the Supreme Court's own arrears-transferee-liability line (Isha Marbles, DVS Steels, Ahmedabad Electricity Co., Hanuman Rice Mills), crystallising that a fresh-connection applicant with no privity of contract is not liable for a previous occupant's arrears absent an express statutory/regulatory provision so authorising, distinguishing this from a mere transfer of an existing connection; a foundational precedent for this corpus's arrears/transferee-liability cluster (SCJ-031, SCJ-037, SCJ-054, SCJ-098, SCJ-099, SCJ-125).",
       "lead_authorities": [
-        {"name": "Isha Marbles v. Bihar State Electricity Board", "docid": "1082759"},
-        {"name": "Paschimanchal Vidyut Vitran Nigam Ltd. v. DVS Steels & Alloys Pvt. Ltd.", "docid": "74832153"},
-        {"name": "Ahmedabad Electricity Co. Ltd. v. Gujarat Inns Pvt. Ltd.", "docid": "28246"},
-        {"name": "Haryana State Electricity Board v. Hanuman Rice Mills, Dhanauri", "docid": "1336616"}
+        {
+          "name": "Isha Marbles v. Bihar State Electricity Board",
+          "docid": "1082759"
+        },
+        {
+          "name": "Paschimanchal Vidyut Vitran Nigam Ltd. v. DVS Steels & Alloys Pvt. Ltd.",
+          "docid": "74832153"
+        },
+        {
+          "name": "Ahmedabad Electricity Co. Ltd. v. Gujarat Inns Pvt. Ltd.",
+          "docid": "28246"
+        },
+        {
+          "name": "Haryana State Electricity Board v. Hanuman Rice Mills, Dhanauri",
+          "docid": "1336616"
+        }
       ],
       "paras": "paras 16-19"
     }
@@ -81,5 +90,6 @@
       "cited_by": "Court",
       "treatment": "Followed"
     }
-  ]
+  ],
+  "outcome": "licensee"
 }

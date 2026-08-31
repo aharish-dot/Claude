@@ -50,7 +50,10 @@
       "tag": "auction-purchaser-liable-for-predecessor-dues-as-is-where-is",
       "application": "An auction purchaser buying on an \"as is where is\" basis is put to enquiry about, and takes the premises subject to, the erstwhile owner's outstanding electricity dues, which the licensee may recover from him.",
       "lead_authorities": [
-        {"name": "Telangana State Southern Power Distribution Co. Ltd. v. Srigdhaa Beverages", "docid": ""}
+        {
+          "name": "Telangana State Southern Power Distribution Co. Ltd. v. Srigdhaa Beverages",
+          "docid": ""
+        }
       ],
       "paras": "40-44"
     },
@@ -64,8 +67,14 @@
       "tag": "electricity-dues-statutory-character-clearance-condition-not-unreasonable",
       "application": "Electricity dues are statutory, not purely contractual; insisting on clearance of a premises' arrears as a condition of a fresh connection is not arbitrary or unreasonable.",
       "lead_authorities": [
-        {"name": "Paschimanchal Vidyut Vitran Nigam Ltd. v. DVS Steels & Alloys (P) Ltd.", "docid": "SCJ-099"},
-        {"name": "Hyderabad Vanaspathi Ltd. v. A.P. State Electricity Board", "docid": ""}
+        {
+          "name": "Paschimanchal Vidyut Vitran Nigam Ltd. v. DVS Steels & Alloys (P) Ltd.",
+          "docid": "SCJ-099"
+        },
+        {
+          "name": "Hyderabad Vanaspathi Ltd. v. A.P. State Electricity Board",
+          "docid": ""
+        }
       ],
       "paras": "38-41"
     },
@@ -73,7 +82,10 @@
       "tag": "isha-marbles-distinguishable-where-auction-clause-covers-dues",
       "application": "Isha Marbles is confined to auctions with no clause dealing with electricity dues; where the auction is \"as is where is\" and the terms put the purchaser to notice of dues, the purchaser is liable.",
       "lead_authorities": [
-        {"name": "Isha Marbles v. Bihar State Electricity Board", "docid": ""}
+        {
+          "name": "Isha Marbles v. Bihar State Electricity Board",
+          "docid": ""
+        }
       ],
       "paras": "37, 42"
     }
@@ -157,5 +169,6 @@
       "cited_by": "Applicant",
       "treatment": "Distinguished"
     }
-  ]
+  ],
+  "outcome": "licensee"
 }

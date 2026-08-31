@@ -9,9 +9,7 @@
   "date_display": "3 December 2021",
   "docket": "Criminal Appeal Nos. 1446-1447 of 2021",
   "disposition": "Appeals dismissed; quashing petitions against the s.138 NI Act complaint rejected, matter to proceed to trial",
-
   "headnote": "Where a cheque is issued by a power-consuming company at the commencement of a Power Supply Agreement, endorsed 'security', but the underlying commercial transaction (uninterrupted power supply) is thereafter fully performed by the generator/supplier and monthly electricity dues fall due and remain unpaid, dishonour of that cheque on presentation attracts Section 138 of the Negotiable Instruments Act, 1881 notwithstanding its 'security' label. The Explanation to s.138 defines 'debt or other liability' as a legally enforceable debt or other liability; 'other liability' has content broader than 'debt' and is not confined to a sum owed at the moment the cheque is drawn. A cheque issued in anticipation of, or in close proximity to, the commencement of a commercial relationship — here, immediately before power supply began — matures into an instrument securing a legally enforceable liability once that liability actually accrues (i.e., once electricity is supplied and billed), distinguishing Indus Airways (where the underlying purchase order was cancelled before any liability arose) and aligning with Sampelly and Sripati Singh (loan-installment security cheques maturing on due-date non-payment). Whether a cheque was truly given 'only' as security and never intended for presentation, or whether an enforceable liability in fact existed and matured, are questions of fact for trial and cannot be resolved in a quashing petition under s.482 Cr.P.C. (HMT Watches; Womb Laboratories). Directors/Managing Directors of a company are prosecutable under s.141 NI Act if in charge of and responsible for the company's business at the relevant time; whether the statutory conditions are met is ordinarily a matter for trial, not for quashing at the summoning stage.",
-
   "holding_units": [
     {
       "provision": "NIACT::138-security-cheque-electricity-dues",
@@ -25,15 +23,23 @@
       "paras": "paras 17-46"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "security-cheque-matures-on-accrual-of-underlying-debt",
       "application": "Establishes that a 'security' cheque issued at the outset of a Power Supply Agreement matures into an instrument for a legally enforceable debt once electricity is actually supplied and billed and payment defaults, distinguishing Indus Airways (no debt ever arose) and aligning with the Sampelly/Sripati Singh line — a significant precedent for electricity-dues enforcement via s.138 NI Act prosecutions, complementing this corpus's civil arrears-recovery cluster (SCJ-098, SCJ-124, SCJ-125, SCJ-127) with a criminal-law enforcement mechanism.",
       "lead_authorities": [
-        {"name": "Sampelly Satyanarayana Rao v. Indian Renewable Energy Development Agency Ltd.", "docid": ""},
-        {"name": "Sripati Singh v. State of Jharkhand", "docid": ""},
-        {"name": "Indus Airways Private Ltd. v. Magnum Aviation Private Ltd.", "docid": ""}
+        {
+          "name": "Sampelly Satyanarayana Rao v. Indian Renewable Energy Development Agency Ltd.",
+          "docid": ""
+        },
+        {
+          "name": "Sripati Singh v. State of Jharkhand",
+          "docid": ""
+        },
+        {
+          "name": "Indus Airways Private Ltd. v. Magnum Aviation Private Ltd.",
+          "docid": ""
+        }
       ],
       "paras": "paras 18-30"
     },
@@ -41,8 +47,14 @@
       "tag": "security-vs-debt-characterisation-is-a-triable-defence",
       "application": "Whether a cheque was truly non-presentable security or secured an existing/maturing liability is a disputed question of fact for trial, not resolvable in a s.482 Cr.P.C. quashing petition.",
       "lead_authorities": [
-        {"name": "HMT Watches v. M.A. Habida", "docid": ""},
-        {"name": "M/s Womb Laboratories Pvt. Ltd. v. Vijay Ahuja", "docid": ""}
+        {
+          "name": "HMT Watches v. M.A. Habida",
+          "docid": ""
+        },
+        {
+          "name": "M/s Womb Laboratories Pvt. Ltd. v. Vijay Ahuja",
+          "docid": ""
+        }
       ],
       "paras": "paras 21, 28-29"
     },
@@ -50,8 +62,14 @@
       "tag": "s141-director-liability-summoning-stage-not-for-quashing",
       "application": "Company-director liability under s.141 NI Act (whether the accused was 'in charge of and responsible for' the company's business) is ordinarily determined at trial; sufficient prima facie averments in the complaint preclude quashing at the summoning stage.",
       "lead_authorities": [
-        {"name": "Sunil Bharati Mittal v. CBI", "docid": "159121041"},
-        {"name": "SMS Pharmaceuticals Ltd. v. Neeta Bhalla", "docid": ""}
+        {
+          "name": "Sunil Bharati Mittal v. CBI",
+          "docid": "159121041"
+        },
+        {
+          "name": "SMS Pharmaceuticals Ltd. v. Neeta Bhalla",
+          "docid": ""
+        }
       ],
       "paras": "paras 42-44"
     }
@@ -145,5 +163,6 @@
       "cited_by": "Court",
       "treatment": "Followed"
     }
-  ]
+  ],
+  "outcome": "licensee"
 }

@@ -9,9 +9,7 @@
   "date_display": "18 September 2018",
   "docket": "WRIT - C No. 8396 of 2018",
   "disposition": "Writ petition allowed (refusal quashed; connection to be reconsidered)",
-
   "headnote": "Under Section 43(1) of the Electricity Act, 2003, an owner or occupier of any premises has a statutory right to a connection, and the licensee a corresponding duty to supply. Clause 4.4 of the U.P. Electricity Supply Code, 2005 and the Indemnity Bond (Annexure 4.2) enable a genuine occupier — including a family member in separate possession who cannot obtain the owner's NOC — to obtain a connection; the object of the bond is only to exclude a trespasser or house-grabber. A connection cannot be refused merely because of a family dispute or the absence of the owner's consent.",
-
   "holding_units": [
     {
       "provision": "UP-2005::4.4",
@@ -25,24 +23,58 @@
       "paras": "6-13"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "occupier-entitled-to-connection-on-indemnity-bond",
       "application": "A genuine occupier (including a family member in separate possession) has a statutory right under s.43(1) to a connection and may furnish an indemnity bond (Annexure 4.2) where the owner's NOC is unavailable; the bond only excludes trespassers/house-grabbers.",
       "lead_authorities": [
-        {"name": "Seema Mansoor v. U.P. Power Corporation", "docid": "80741415"},
-        {"name": "Chandu Khamaru v. Nayan Malik", "docid": ""}
+        {
+          "name": "Seema Mansoor v. U.P. Power Corporation",
+          "docid": "80741415"
+        },
+        {
+          "name": "Chandu Khamaru v. Nayan Malik",
+          "docid": ""
+        }
       ],
       "paras": "6-12"
     }
   ],
-
   "not_decided": [],
-
   "authorities": [
-    {"name": "Seema Mansoor v. U.P. Power Corporation Ltd. & Others", "citation": "2014 (6) ADJ 672 (DB)", "court": "Allahabad High Court (DB)", "docid": "80741415", "proposition": "Under Clause 4.4 and Annexure 4.2 of the Code, a lessee/tenant/occupier cannot be refused a connection merely for want of the landlord's consent; the indemnity bond enables the occupier to obtain supply.", "how_treated": "Followed as the governing authority on the occupier's entitlement.", "how_treated_paras": "8", "cited_by": "Petitioner", "treatment": "Followed"},
-    {"name": "Smt. Sushama Chowdhary v. U.P. Power Corporation Ltd. & 4 Others", "citation": "Misc. Bench No. 9588 of 2014 (Allahabad HC, DB)", "court": "Allahabad High Court (DB)", "docid": "864936", "proposition": "Section 43(1) casts an affirmative obligation on the licensee to supply an owner or occupier; Clause 4.4 is in aid of that duty, and an occupier who cannot get the owner's consent may furnish an indemnity bond (Annexure 4.2).", "how_treated": "Relied on and quoted for the s.43(1) obligation and the indemnity-bond route.", "how_treated_paras": "9", "cited_by": "Court", "treatment": "Relied on"},
-    {"name": "Chandu Khamaru v. Smt. Nayan Malik", "citation": "AIR 2011 SC 2897", "court": "Supreme Court", "docid": "", "proposition": "Under Section 43(1), a distribution licensee has a statutory duty to supply an owner or occupier who applies, and the occupier a corresponding statutory right; a family dispute does not deprive a person of a connection.", "how_treated": "Relied on (through Sushama Chowdhary) for the statutory right of an occupier.", "how_treated_paras": "9", "cited_by": "Court", "treatment": "Relied on"}
-  ]
+    {
+      "name": "Seema Mansoor v. U.P. Power Corporation Ltd. & Others",
+      "citation": "2014 (6) ADJ 672 (DB)",
+      "court": "Allahabad High Court (DB)",
+      "docid": "80741415",
+      "proposition": "Under Clause 4.4 and Annexure 4.2 of the Code, a lessee/tenant/occupier cannot be refused a connection merely for want of the landlord's consent; the indemnity bond enables the occupier to obtain supply.",
+      "how_treated": "Followed as the governing authority on the occupier's entitlement.",
+      "how_treated_paras": "8",
+      "cited_by": "Petitioner",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Smt. Sushama Chowdhary v. U.P. Power Corporation Ltd. & 4 Others",
+      "citation": "Misc. Bench No. 9588 of 2014 (Allahabad HC, DB)",
+      "court": "Allahabad High Court (DB)",
+      "docid": "864936",
+      "proposition": "Section 43(1) casts an affirmative obligation on the licensee to supply an owner or occupier; Clause 4.4 is in aid of that duty, and an occupier who cannot get the owner's consent may furnish an indemnity bond (Annexure 4.2).",
+      "how_treated": "Relied on and quoted for the s.43(1) obligation and the indemnity-bond route.",
+      "how_treated_paras": "9",
+      "cited_by": "Court",
+      "treatment": "Relied on"
+    },
+    {
+      "name": "Chandu Khamaru v. Smt. Nayan Malik",
+      "citation": "AIR 2011 SC 2897",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Under Section 43(1), a distribution licensee has a statutory duty to supply an owner or occupier who applies, and the occupier a corresponding statutory right; a family dispute does not deprive a person of a connection.",
+      "how_treated": "Relied on (through Sushama Chowdhary) for the statutory right of an occupier.",
+      "how_treated_paras": "9",
+      "cited_by": "Court",
+      "treatment": "Relied on"
+    }
+  ],
+  "outcome": "consumer"
 }

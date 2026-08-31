@@ -9,9 +9,7 @@
   "date_display": "3 April 2019",
   "docket": "Special Appeal No. 20 of 2016 (Full Bench reference)",
   "disposition": "Reference answered; special appeal remitted to the Division Bench for decision in light of the answers",
-
   "headnote": "Section 42(5)-(7) of the Electricity Act, 2003 constitutes the Consumer Grievance Redressal Forum solely for redressal of the grievances of consumers, and gives only a 'consumer' aggrieved by non-redressal the right to approach the Electricity Ombudsman; the Act contains no provision entitling a Distribution Licensee to approach the Ombudsman against an order of the Forum. Regulation 8.1(i) of the U.P. Electricity Regulatory Commission (Consumer Grievance Redressal Forum & Electricity Ombudsman) Regulations, 2007, in so far as it also gives the Distribution Licensee a remedy of representation to the Ombudsman, is inconsistent with and ultra vires Section 42(5)-(7) read with Rule 7 of the Electricity Rules, 2005 and the regulation-making power under Section 181(1); a regulation made under Section 181(1) must be consistent with the Act and cannot expand a remedy the parent statute confines to the consumer. The Division Bench decision in Jindal Poly Films Ltd. v. U.P. Electricity Regulatory Commission (2011), which had upheld Regulation 8.1(i) as intra vires on a general 'read as a whole' reasoning without engaging Section 42(5)-(7) specifically, does not lay down the correct law and is overruled.",
-
   "holding_units": [
     {
       "provision": "EA2003::42",
@@ -34,18 +32,19 @@
       "paras": "para 57(ii)"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "ombudsman-remedy-consumer-only",
       "application": "Foundational Full Bench ruling: the Section 42(5)-(7) Forum/Ombudsman grievance scheme is for the consumer alone; a Regulation cannot extend the Ombudsman remedy to the Distribution Licensee, as that would make the subordinate regulation inconsistent with the parent Act.",
       "lead_authorities": [
-        {"name": "Jindal Poly Films Limited v. U.P. Electricity Regulatory Commission", "docid": "93465500"}
+        {
+          "name": "Jindal Poly Films Limited v. U.P. Electricity Regulatory Commission",
+          "docid": "93465500"
+        }
       ],
       "paras": "paras 45-57"
     }
   ],
-
   "not_decided": [
     {
       "point": "Whether the Consumer Grievance Redressal Forum is functionally independent of the Distribution Licensee",
@@ -54,11 +53,51 @@
       "paras": "para 53"
     }
   ],
-
   "authorities": [
-    {"name": "Jindal Poly Films Limited v. U.P. Electricity Regulatory Commission, Lucknow", "citation": "Writ Petition No. 2456 (MB) of 2011, decided 15.4.2011", "court": "Allahabad High Court (DB)", "docid": "93465500", "proposition": "Regulation 8.1(i) of the 2007 Regulations, giving the Distribution Licensee a remedy of representation to the Electricity Ombudsman, is intra vires the Act, 2003, on a 'read as a whole' construction.", "how_treated": "Overruled — did not engage Section 42(5)-(7) specifically; does not lay down the correct law.", "how_treated_paras": "paras 55, 57(ii)", "cited_by": "Court", "treatment": "Overruled"},
-    {"name": "Dakshinanchal Vidyut Vitran Nigam Ltd. v. Vidyut Lokpal, Lucknow", "citation": "Writ Petition No. 4237 (MS) of 2008", "court": "Allahabad High Court (Single Judge)", "docid": "196915098", "proposition": "(One of the two conflicting Single-Judge decisions that prompted the reference; view consistent with confining the Ombudsman remedy to the consumer.)", "how_treated": "Referred as part of the conflict occasioning the Full Bench reference; approach vindicated.", "how_treated_paras": "para 2", "cited_by": "Court", "treatment": "Referred"},
-    {"name": "Pachimanchal Vidyut Vitran Nigam Ltd. v. Electricity Ombudsman & Ors.", "citation": "Writ Petition No. 6411 (MS) of 2012", "court": "Allahabad High Court (Single Judge)", "docid": "95616790", "proposition": "(The other Single-Judge decision consistent with confining the Ombudsman remedy to the consumer.)", "how_treated": "Referred as part of the conflict occasioning the Full Bench reference; approach vindicated.", "how_treated_paras": "para 2", "cited_by": "Court", "treatment": "Referred"},
-    {"name": "A.R. Antulay v. R.S. Nayak and 38 further authorities on statutory interpretation, precedent (sub silentio/per incuriam), vires of delegated legislation, and harmonious construction (incl. Kunj Behari Lal Butail v. State of H.P.; Global Energy Ltd. v. CERC; State of T.N. v. P. Krishnamurthy; J.K. Cotton Spinning & Weaving Mills v. State of U.P.; PTC India v. CERC)", "citation": "(1988) 2 SCC 602 and others (omnibus list, paras 36 & 42)", "court": "Supreme Court (mostly)", "docid": "1353689", "proposition": "General canons of statutory interpretation and administrative law (reading a statute as a whole vs. section-by-section; ultra vires/consistency of subordinate legislation with the parent Act; precedential weight of a decision not engaging a specific provision) cited in support of the rival vires arguments.", "how_treated": "Not individually discussed — the Court held the text of Section 42(5)-(7) and Rule 7 to be clear and unambiguous, so canvassing the case law would 'unnecessarily burden' the judgment.", "how_treated_paras": "para 56", "cited_by": "Petitioner", "treatment": "Referred"}
-  ]
+    {
+      "name": "Jindal Poly Films Limited v. U.P. Electricity Regulatory Commission, Lucknow",
+      "citation": "Writ Petition No. 2456 (MB) of 2011, decided 15.4.2011",
+      "court": "Allahabad High Court (DB)",
+      "docid": "93465500",
+      "proposition": "Regulation 8.1(i) of the 2007 Regulations, giving the Distribution Licensee a remedy of representation to the Electricity Ombudsman, is intra vires the Act, 2003, on a 'read as a whole' construction.",
+      "how_treated": "Overruled — did not engage Section 42(5)-(7) specifically; does not lay down the correct law.",
+      "how_treated_paras": "paras 55, 57(ii)",
+      "cited_by": "Court",
+      "treatment": "Overruled"
+    },
+    {
+      "name": "Dakshinanchal Vidyut Vitran Nigam Ltd. v. Vidyut Lokpal, Lucknow",
+      "citation": "Writ Petition No. 4237 (MS) of 2008",
+      "court": "Allahabad High Court (Single Judge)",
+      "docid": "196915098",
+      "proposition": "(One of the two conflicting Single-Judge decisions that prompted the reference; view consistent with confining the Ombudsman remedy to the consumer.)",
+      "how_treated": "Referred as part of the conflict occasioning the Full Bench reference; approach vindicated.",
+      "how_treated_paras": "para 2",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    },
+    {
+      "name": "Pachimanchal Vidyut Vitran Nigam Ltd. v. Electricity Ombudsman & Ors.",
+      "citation": "Writ Petition No. 6411 (MS) of 2012",
+      "court": "Allahabad High Court (Single Judge)",
+      "docid": "95616790",
+      "proposition": "(The other Single-Judge decision consistent with confining the Ombudsman remedy to the consumer.)",
+      "how_treated": "Referred as part of the conflict occasioning the Full Bench reference; approach vindicated.",
+      "how_treated_paras": "para 2",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    },
+    {
+      "name": "A.R. Antulay v. R.S. Nayak and 38 further authorities on statutory interpretation, precedent (sub silentio/per incuriam), vires of delegated legislation, and harmonious construction (incl. Kunj Behari Lal Butail v. State of H.P.; Global Energy Ltd. v. CERC; State of T.N. v. P. Krishnamurthy; J.K. Cotton Spinning & Weaving Mills v. State of U.P.; PTC India v. CERC)",
+      "citation": "(1988) 2 SCC 602 and others (omnibus list, paras 36 & 42)",
+      "court": "Supreme Court (mostly)",
+      "docid": "1353689",
+      "proposition": "General canons of statutory interpretation and administrative law (reading a statute as a whole vs. section-by-section; ultra vires/consistency of subordinate legislation with the parent Act; precedential weight of a decision not engaging a specific provision) cited in support of the rival vires arguments.",
+      "how_treated": "Not individually discussed — the Court held the text of Section 42(5)-(7) and Rule 7 to be clear and unambiguous, so canvassing the case law would 'unnecessarily burden' the judgment.",
+      "how_treated_paras": "para 56",
+      "cited_by": "Petitioner",
+      "treatment": "Referred"
+    }
+  ],
+  "outcome": "pending"
 }

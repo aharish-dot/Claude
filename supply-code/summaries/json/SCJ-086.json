@@ -9,9 +9,7 @@
   "date_display": "18 July 2007",
   "docket": "Writ Petition (unnumbered order)",
   "disposition": "Writ petition dismissed as premature; petitioner relegated to Clause 5.6 meter-testing procedure / Electrical Inspector, without prejudice",
-
   "headnote": "Near-verbatim companion order to SCJ-083 (Mohamdabad Cold Storage Private Ltd. v. Dakshinanchal Vidyut Vitran Nigam Ltd.), decided the same day by the same Bench: a supplementary bill grounded in an admittedly defective transformer is a 'disputed bill' under Clause 6.5(b) of the U.P. Electricity Supply Code, 2005 (the clause's heading does not confine its scope), and the consumer must first invoke the Clause 5.6 meter-testing procedure (and thereafter the Electrical Inspector under s.162 of the Electricity Act, 2003, per Bombay Electric Supply and Transport Undertaking v. Laffans (India) Pvt. Ltd.) before approaching the writ court.",
-
   "holding_units": [
     {
       "provision": "UP-2005::6.5(b)",
@@ -25,7 +23,6 @@
       "flag": "Near-verbatim companion order to SCJ-083; recorded compactly to avoid duplicating the identical reasoning."
     }
   ],
-
   "principle_tags": [
     {
       "tag": "clause-heading-not-a-limit-on-substantive-scope",
@@ -36,7 +33,12 @@
     {
       "tag": "meter-dispute-must-exhaust-clause-5.6-before-writ",
       "application": "Companion application of the same principle as SCJ-083.",
-      "lead_authorities": [{"name": "Bombay Electric Supply and Transport Undertaking v. Laffans (India) Pvt. Ltd.", "docid": "316379"}],
+      "lead_authorities": [
+        {
+          "name": "Bombay Electric Supply and Transport Undertaking v. Laffans (India) Pvt. Ltd.",
+          "docid": "316379"
+        }
+      ],
       "paras": "paras 2-3"
     }
   ],
@@ -52,5 +54,6 @@
       "cited_by": "Petitioner",
       "treatment": "Followed"
     }
-  ]
+  ],
+  "outcome": "alternate_remedy"
 }

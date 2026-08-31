@@ -9,9 +9,7 @@
   "date_display": "18 November 2011",
   "docket": "WRIT - C No. 20679 of 2010",
   "disposition": "Writ petition partly allowed; assessment upheld, appeal remanded to Commissioner solely to consider effect of subsequent criminal acquittal under Clause 8.2(X)(g)/(h)",
-
   "headnote": "The definition of 'consumer' under Section 2(15) of the Electricity Act, 2003 is broad enough to cover an owner of premises where theft of electricity is detected, even if the premises was purportedly let out to a tenant, since the second limb of the definition ('any person whose premises are ... connected ... with the works of a licensee') does not require a contractual/supply relationship — mere connection of the premises' works (transformer, line, apparatus) for receiving electricity suffices; an owner's lack of mens rea may be a defence to a criminal charge under s.135 but does not exempt him from civil assessment liability where his act of leasing to an unscrupulous occupant caused revenue loss. For assessment of theft of electricity under Section 135, Clauses 8.1 and 8.2 of the U.P. Electricity Supply Code, 2005 apply (not Clause 6.8, which governs 'unauthorised use' assessment generally) — the specific provision prevails over the general (following Mohit Paper Mills). Clause 8.1(b)(iii)-(iv) requires 15 working days' show-cause notice (not less) and, if theft is established after hearing, assessment at 1.5 times (not thrice) the applicable tariff. Where an assessing officer's procedural failings (undated/backdated orders, wrong multiplication factor, casual/negligent conduct) are demonstrated but the consumer's only defence was a bare denial of occupancy (never substantiated) with no challenge to the theft allegation or quantum, a writ court exercising equitable jurisdiction under Article 226 will decline to interfere with the ultimate (corrected) assessment, notwithstanding serious departmental irregularities, where the underlying conduct (theft) is clearly established on the record. Clause 8.2(X)(g)/(h) makes a licensee's theft-based assessment subject to adjudication by the criminal court, with a mandatory withdrawal of charges/assessment and restoration of the original meter if the court finds theft not established; where a subsequent criminal acquittal (post-dating the appellate order) was not considered by the appellate authority, the matter is remanded for that authority to independently examine Clause 8.2(X)(g)/(h) in light of the acquittal.",
-
   "holding_units": [
     {
       "provision": "EA2003::2(15)",
@@ -46,7 +44,6 @@
       "paras": "paras 57-60"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "owner-liable-as-consumer-for-theft-regardless-of-tenancy-claim",
@@ -57,7 +54,12 @@
     {
       "tag": "clause-8.1-8.2-govern-theft-assessment-not-6.8",
       "application": "Confirms and applies the specific-over-general canon (from Mohit Paper Mills) that Clauses 8.1/8.2, not Clause 6.8, govern theft-based (s.135) assessment, including the mandatory 15-working-day notice and 1.5x (not 3x) tariff multiplier.",
-      "lead_authorities": [{"name": "M/s Mohit Paper Mills Ltd. & Another v. PVVNL & Others", "docid": "57045694"}],
+      "lead_authorities": [
+        {
+          "name": "M/s Mohit Paper Mills Ltd. & Another v. PVVNL & Others",
+          "docid": "57045694"
+        }
+      ],
       "paras": "paras 36-40"
     },
     {
@@ -67,7 +69,6 @@
       "paras": "paras 57-60"
     }
   ],
-
   "not_decided": [
     {
       "point": "Effect of the petitioner's subsequent criminal acquittal on the theft-based civil assessment under Clause 8.2(X)(g)/(h)",
@@ -76,7 +77,6 @@
       "paras": "para 60"
     }
   ],
-
   "authorities": [
     {
       "name": "M/s Mohit Paper Mills Ltd. & Another v. PVVNL & Others",
@@ -98,5 +98,6 @@
       "cited_by": "Court",
       "treatment": "Followed"
     }
-  ]
+  ],
+  "outcome": "split"
 }

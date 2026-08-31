@@ -9,9 +9,7 @@
   "date_display": "20 April 2012",
   "docket": "WRIT - C No. 14347 of 2012",
   "disposition": "Writ petition allowed; s.126 assessment order and s.127 appellate order quashed; Rs. 10,000 costs awarded against respondents, recoverable from responsible officials personally, with direction for entry of censure in their Annual Character Roll",
-
   "headnote": "Where a theft-of-electricity 'missing meter' checking report and the resultant s.126 assessment order are shown, on the Assessing and Appellate Authorities' own personal affidavits filed under the Court's directions, to be internally contradictory, inconsistent as to dates, and effectively fabricated or backdated, the entire proceeding is vitiated by 'malice in law' — i.e., action taken without just cause or excuse, or founded on non-existent/misrepresented facts, irrespective of any actual personal ill-will towards the consumer. Given the overlap between s.126 (assessment for unauthorised use) and s.135 (theft) — the same 'missing meter' facts routinely underlie both — an assessment under s.126 carries reputational and character consequences comparable to a theft charge, requiring the same rigour of procedural fairness, natural justice, and honest, reasoned recording of facts by the Assessing Officer as would be demanded in a quasi-criminal proceeding. Before finalising an assessment premised on an allegedly missing or non-functional meter, Clause 5.6 of the U.P. Electricity Supply Code, 2005 requires that the meter be sent for testing (to verify the checking report's claims) rather than the Assessing Officer relying solely on a field report riddled with internal contradiction. Structurally, the statutory s.127 Appellate Authority — a Commissioner assisted by a Superintending Engineer 'technical member' — must exercise independent, non-mechanical appellate judgment; an appellate order that reflects the Commissioner having abdicated all technical assessment to the Superintending Engineer, without independent application of mind, fails the requirements of a genuine appeal.",
-
   "holding_units": [
     {
       "provision": "EA2003::126",
@@ -47,16 +45,27 @@
       "paras": "paras critiquing s.127 Appellate Authority's independence"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "malice-in-law-vitiates-s126-assessment-on-fabricated-report",
       "application": "A s.126 assessment founded on a checking report shown (through compelled personal affidavits) to be internally contradictory/fabricated is vitiated by malice in law, applying the doctrine that malice in law requires no proof of personal ill-will, only action without just cause or on a misrepresented factual basis — a significant procedural-fairness precedent in this corpus's s.126/s.135 assessment cluster.",
       "lead_authorities": [
-        {"name": "S.R. Venkatraman v. Union of India", "docid": ""},
-        {"name": "Mukesh Kumar Agrawal v. State of U.P.", "docid": ""},
-        {"name": "Somesh Tiwari v. Union of India", "docid": ""},
-        {"name": "HMT Ltd. v. Mudappa", "docid": ""}
+        {
+          "name": "S.R. Venkatraman v. Union of India",
+          "docid": ""
+        },
+        {
+          "name": "Mukesh Kumar Agrawal v. State of U.P.",
+          "docid": ""
+        },
+        {
+          "name": "Somesh Tiwari v. Union of India",
+          "docid": ""
+        },
+        {
+          "name": "HMT Ltd. v. Mudappa",
+          "docid": ""
+        }
       ],
       "paras": "para 42 and surrounding discussion"
     },
@@ -70,8 +79,14 @@
       "tag": "clause-5.6-meter-testing-required-before-missing-meter-assessment",
       "application": "Reinforces this corpus's Clause 5.6 line (Smt. Amrawati Devi, Modern Rice Mill) requiring meter testing/verification before an assessment premised on a missing or defective meter is finalised.",
       "lead_authorities": [
-        {"name": "Smt. Amrawati Devi v. PuVVNL", "docid": "149862600"},
-        {"name": "M/s Modern Rice Mill v. MVVNL", "docid": "1883604"}
+        {
+          "name": "Smt. Amrawati Devi v. PuVVNL",
+          "docid": "149862600"
+        },
+        {
+          "name": "M/s Modern Rice Mill v. MVVNL",
+          "docid": "1883604"
+        }
       ],
       "paras": "paras on Clause 5.6"
     },
@@ -82,7 +97,6 @@
       "paras": "paras critiquing s.127 Appellate Authority"
     }
   ],
-
   "not_decided": [
     {
       "point": "Whether the petitioner in fact committed theft/unauthorised use",
@@ -91,7 +105,6 @@
       "paras": "throughout"
     }
   ],
-
   "authorities": [
     {
       "name": "S.R. Venkatraman v. Union of India",
@@ -203,5 +216,6 @@
       "cited_by": "Court",
       "treatment": "Followed"
     }
-  ]
+  ],
+  "outcome": "consumer"
 }

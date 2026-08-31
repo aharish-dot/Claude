@@ -9,9 +9,7 @@
   "date_display": "21 August 2019",
   "docket": "Civil Appeal No. 6547 of 2019",
   "disposition": "Appeal allowed; High Court (Division Bench) order set aside — the Section 126 assessment restored",
-
   "headnote": "All instances of unauthorised use of electricity may not amount to theft, but theft under Section 135 falls within the definition of 'unauthorised use of electricity' under Section 126; hence use through a tampered meter is unauthorised use assessable under Section 126, and the authorities are empowered to make a provisional and final assessment under Section 126(1) even in cases of theft. The Section 126(1) assessment power and the Special Court's Section 154(5) power to determine civil liability are not parallel to or mutually exclusive of each other: where unauthorised use amounts to theft, a Section 126(1) assessment AND a Section 135 criminal complaint may both proceed, with the Special Court determining civil liability under Section 154(5) (any excess deposit being refunded). Proof for the Section 126(1) assessment need only meet the civil standard; proof beyond reasonable doubt and mens rea are required only for the Section 135 criminal charge.",
-
   "holding_units": [
     {
       "provision": "EA2003::126",
@@ -43,22 +41,43 @@
       "paras": "para 14"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "126-vs-135-distinct-fields",
       "application": "Theft (s.135) is a subset of unauthorised use (s.126); a s.126 assessment is available even in theft cases, requiring only civil proof (not proof beyond reasonable doubt/mens rea), and does not merge into or get ousted by the Special Court's s.154(5) civil-liability jurisdiction — both may run in parallel. Applies and extends Seetaram Rice Mill.",
       "lead_authorities": [
-        {"name": "Executive Engineer (SOUTHCO) v. Sri Seetaram Rice Mill", "docid": "43074463"}
+        {
+          "name": "Executive Engineer (SOUTHCO) v. Sri Seetaram Rice Mill",
+          "docid": "43074463"
+        }
       ],
       "paras": "paras 12, 14"
     }
   ],
-
   "not_decided": [],
-
   "authorities": [
-    {"name": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (SOUTHCO) v. Sri Seetaram Rice Mill", "citation": "(2012) 2 SCC 108", "court": "Supreme Court (3-Judge)", "docid": "43074463", "proposition": "'Unauthorised use of electricity' is not restricted to the Explanation's clauses but has a wider meaning covering all misuse/malpractice; excess load beyond the sanctioned/contracted load is unauthorised use under Explanation (b)(iv).", "how_treated": "Followed — theft held to be a subset of the wider 'unauthorised use' concept established in Seetaram Rice Mill.", "how_treated_paras": "para 12", "cited_by": "Court", "treatment": "Followed"},
-    {"name": "Hotel Adityaz Ltd. v. M.P. Kshetra Vidyut Vitran Co. Ltd.", "citation": "AIR 2016 (NOC) 39 (M.P.)", "court": "Madhya Pradesh High Court", "docid": "", "proposition": "Theft cases fall only under Section 135, and Section 126 has no application to them.", "how_treated": "Distinguished — the view that Section 126 has no application to theft cases was not accepted.", "how_treated_paras": "para 12", "cited_by": "Respondent", "treatment": "Distinguished"}
-  ]
+    {
+      "name": "Executive Engineer, Southern Electricity Supply Co. of Orissa Ltd. (SOUTHCO) v. Sri Seetaram Rice Mill",
+      "citation": "(2012) 2 SCC 108",
+      "court": "Supreme Court (3-Judge)",
+      "docid": "43074463",
+      "proposition": "'Unauthorised use of electricity' is not restricted to the Explanation's clauses but has a wider meaning covering all misuse/malpractice; excess load beyond the sanctioned/contracted load is unauthorised use under Explanation (b)(iv).",
+      "how_treated": "Followed — theft held to be a subset of the wider 'unauthorised use' concept established in Seetaram Rice Mill.",
+      "how_treated_paras": "para 12",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Hotel Adityaz Ltd. v. M.P. Kshetra Vidyut Vitran Co. Ltd.",
+      "citation": "AIR 2016 (NOC) 39 (M.P.)",
+      "court": "Madhya Pradesh High Court",
+      "docid": "",
+      "proposition": "Theft cases fall only under Section 135, and Section 126 has no application to them.",
+      "how_treated": "Distinguished — the view that Section 126 has no application to theft cases was not accepted.",
+      "how_treated_paras": "para 12",
+      "cited_by": "Respondent",
+      "treatment": "Distinguished"
+    }
+  ],
+  "outcome": "licensee"
 }

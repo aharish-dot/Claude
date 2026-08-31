@@ -39,7 +39,10 @@
       "tag": "section-238-ibc-overrides-supply-code-clause-4.3f",
       "application": "Section 238 IBC overrides Clause 4.3(f) of the U.P. Supply Code where inconsistent; a fresh connection to an auction purchaser cannot be conditioned on clearing the corporate debtor's pre-CIRP dues.",
       "lead_authorities": [
-        {"name": "Paschimanchal Vidyut Vitran Nigam Ltd. v. Raman Ispat Pvt. Ltd. (NCLAT)", "docid": ""}
+        {
+          "name": "Paschimanchal Vidyut Vitran Nigam Ltd. v. Raman Ispat Pvt. Ltd. (NCLAT)",
+          "docid": ""
+        }
       ],
       "paras": "9-11"
     },
@@ -47,8 +50,14 @@
       "tag": "pre-cirp-electricity-dues-recoverable-only-under-section-53-waterfall",
       "application": "The licensee is a secured operational creditor recovering pre-CIRP dues only through the Section 53 waterfall, not from the auction purchaser; on liquidation the right to recover from the premises/purchaser is extinguished.",
       "lead_authorities": [
-        {"name": "Eastern Power Distribution Co. of Andhra Pradesh Ltd. v. Maithan Alloys Ltd. (NCLAT)", "docid": ""},
-        {"name": "West Bengal State Electricity Distribution Co. Ltd. v. Sri Vasavi Industries Ltd.", "docid": ""}
+        {
+          "name": "Eastern Power Distribution Co. of Andhra Pradesh Ltd. v. Maithan Alloys Ltd. (NCLAT)",
+          "docid": ""
+        },
+        {
+          "name": "West Bengal State Electricity Distribution Co. Ltd. v. Sri Vasavi Industries Ltd.",
+          "docid": ""
+        }
       ],
       "paras": "12-15"
     },
@@ -56,7 +65,10 @@
       "tag": "duty-to-supply-survives-extinguishment-of-right-to-recover",
       "application": "On extinguishment of the right to recover, if a duty to supply is cast under the Electricity Act, 2003, the licensee cannot escape performing that duty and must energise the connection.",
       "lead_authorities": [
-        {"name": "West Bengal State Electricity Distribution Co. Ltd. v. Sri Vasavi Industries Ltd.", "docid": ""}
+        {
+          "name": "West Bengal State Electricity Distribution Co. Ltd. v. Sri Vasavi Industries Ltd.",
+          "docid": ""
+        }
       ],
       "paras": "14-15"
     }
@@ -103,5 +115,6 @@
       "cited_by": "Applicant",
       "treatment": "Followed"
     }
-  ]
+  ],
+  "outcome": "consumer"
 }

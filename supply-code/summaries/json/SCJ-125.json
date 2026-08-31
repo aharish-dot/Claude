@@ -9,9 +9,7 @@
   "date_display": "26 May 2011",
   "docket": "Civil Misc. Writ Petition No. 30263 of 2011",
   "disposition": "Writ petition disposed of; recovery from petitioner upheld subject to moulded relief (installments and time-bound connection), with liberty to proceed against the erstwhile occupier separately",
-
   "headnote": "Applying the DVS Steels/Hanuman Rice Mills doctrine (this corpus, SCJ-099) to a novel fact pattern, a subsequent allottee of premises under an Allahabad Development Authority (ADA) EWS-flat allotment stands in no materially different position than a private purchaser of premises: where the erstwhile occupier/owner left electricity dues unpaid, the licensee is entitled to insist on clearance of those arrears (or a portion thereof through equitable moulding) as a condition of releasing a fresh connection to the new allottee, since the liability attaches to the premises/connection rather than merely to the departed consumer personally. The new allottee is not without remedy — she may independently pursue recovery of any amount she is compelled to pay from the erstwhile occupier/owner through appropriate proceedings — but cannot resist the licensee's demand as a precondition to obtaining a fresh connection. Equitable relief moulding (permitting phased/installment payment and mandating a time-bound connection upon initial part-payment) is appropriate to balance the licensee's revenue-recovery interest against the hardship of an incoming allottee with no personal fault.",
-
   "holding_units": [
     {
       "provision": "UP-2005::4.3",
@@ -25,12 +23,16 @@
       "paras": "unnumbered order (full text)"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "arrears-follow-premises-not-person-ada-allotment-context",
       "application": "Extends the DVS Steels/Hanuman Rice Mills arrears-transferee-liability doctrine (SCJ-099) from private-sale/purchase contexts to a statutory development-authority (ADA) EWS-flat allotment, holding the two contexts are not meaningfully distinguishable; part of this corpus's broader arrears/occupant-liability cluster (SCJ-090, SCJ-098, SCJ-124).",
-      "lead_authorities": [{"name": "Paschimanchal Vidyut Vitran Nigam Ltd. v. DVS Steels & Alloys Pvt. Ltd.", "docid": "74832153"}],
+      "lead_authorities": [
+        {
+          "name": "Paschimanchal Vidyut Vitran Nigam Ltd. v. DVS Steels & Alloys Pvt. Ltd.",
+          "docid": "74832153"
+        }
+      ],
       "paras": "unnumbered order"
     }
   ],
@@ -63,5 +65,6 @@
       "cited_by": "Court",
       "treatment": "Followed"
     }
-  ]
+  ],
+  "outcome": "split"
 }

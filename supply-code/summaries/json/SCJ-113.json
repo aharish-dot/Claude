@@ -9,9 +9,7 @@
   "date_display": "22 May 2013",
   "docket": "Misc. Bench No. 9090 of 2012",
   "disposition": "Writ petition allowed; relief moulded — refund directed if overpaid, Corporation directed to sensitise staff on Supply Code duties",
-
   "headnote": "Clause 6.15(1)(b) of the U.P. Electricity Supply Code, 2005 (mirroring s.56(2), Electricity Act, 2003) bars recovery of electricity dues after two years from when the sum first became due, unless continuously shown as recoverable arrears — this bar is not merely directory but casts a positive, ongoing obligation on the licensee: upon non-payment, it is mandatory (not optional) for the licensee to issue notice and proceed to temporary disconnection under Clause 4.36 within the two-year window; a licensee that remains silent for over a decade without sending any demand notice or taking disconnection action cannot thereafter invoke Clause 4.38(c) (permanent disconnection requiring an affidavit clearing all dues) in isolation to justify recovering a stale, undemanded debt — Supply Code provisions must be read as a whole, not piecemeal, and Clause 4.38(c) operates subject to the licensee's own Clause 4.36/6.15 obligations. Where a consumer's electricity connection is dormant and undemanded for years, the burden shifts to the licensee to justify continued recoverability; failure to explain a prolonged silence (here, ~12 years without a single notice) warrants relief moulded in the consumer's favour, including potential refund of amounts paid in excess of a properly-limited two-year recovery.",
-
   "holding_units": [
     {
       "provision": "UP-2005::6.15",
@@ -25,7 +23,6 @@
       "paras": "paras 9-24"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "clause-6.15-two-year-bar-mandatory-licensee-duty-to-act",
@@ -37,13 +34,18 @@
       "tag": "supply-code-read-as-whole-not-piecemeal",
       "application": "Provisions of the Supply Code must be construed together, in context, not in isolation — a specific clause (Clause 4.38(c)) cannot be relied upon divorced from the licensee's parallel obligations (Clause 4.36/6.15).",
       "lead_authorities": [
-        {"name": "Grasim Industries Ltd. v. Collector of Customs", "docid": "1723469"},
-        {"name": "Zameer Ahmed Latifur Rehman Sheikh v. State of Maharashtra", "docid": "37174"}
+        {
+          "name": "Grasim Industries Ltd. v. Collector of Customs",
+          "docid": "1723469"
+        },
+        {
+          "name": "Zameer Ahmed Latifur Rehman Sheikh v. State of Maharashtra",
+          "docid": "37174"
+        }
       ],
       "paras": "para 18"
     }
   ],
-
   "not_decided": [
     {
       "point": "Precise quantum refundable to the petitioner",
@@ -52,7 +54,6 @@
       "paras": "paras 21, 23-24"
     }
   ],
-
   "authorities": [
     {
       "name": "Dr. Devendra Pratap Singh & Others v. Union of India",
@@ -94,5 +95,6 @@
       "cited_by": "Court",
       "treatment": "Followed"
     }
-  ]
+  ],
+  "outcome": "consumer"
 }

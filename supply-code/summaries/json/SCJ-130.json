@@ -9,9 +9,7 @@
   "date_display": "12 April 2018",
   "docket": "Civil Appeal No. 14697 of 2015 (with C.A. No. 13451/2015, T.C.(C) Nos. 137-140/2015, C.A. Nos. 3759-3760/2016, T.P.(C) No. 974/2016)",
   "disposition": "Appeals and transferred cases disposed of per the conclusions below; challenge to Tamil Nadu State Commission appointments and suo motu tariff revision rejected; parties to bear own costs",
-
   "headnote": "Not a Supply Code case — a landmark ruling on the institutional architecture of the Electricity Act, 2003's State Electricity Regulatory Commissions (SERCs): whether s.84(2)'s provision that the State Government 'may' appoint a sitting/former High Court Judge as Chairperson should be read as mandatory ('shall'). Recorded compactly given its scale (~84 printed pages) and its subject (SERC composition/judicial-member architecture), which is distinct from the U.P. Electricity Supply Code's retail billing/assessment/disconnection framework central to this project; not exhaustively digested. Core holding: s.84(2) is merely an enabling provision, not mandatory, so a State Government is not obliged to appoint a Judge as Chairperson. However, because the SERC exercises adjudicatory functions with the 'trappings of a court' under ss.86(1)(f), 94-96 (particularly adjudicating licensee-generator disputes), the Supreme Court held it mandatory that at least one Member possess legal expertise (a person who is, or has been, holding judicial office, or possessing professional legal qualifications and substantial practice experience sufficient to qualify for appointment as a High Court or District Judge), and mandatory that any Bench discharging an adjudicatory function include such a legally-qualified Member. The ruling applies prospectively (not disturbing past Commission orders); the next vacancy in any State Commission lacking such a legal Member must be filled by one.",
-
   "holding_units": [
     {
       "provision": "OFFTOPIC::serc-composition-judicial-member-requirement",
@@ -26,15 +24,23 @@
       "flag": "Recorded compactly given scale (~84 pages) and subject-matter distance from the Supply Code's retail billing/assessment/disconnection framework; the extensive mid-judgment citation discussion (paras ~43-104, not fully read) was not exhaustively catalogued."
     }
   ],
-
   "principle_tags": [
     {
       "tag": "serc-mandatory-legal-member-not-mandatory-judicial-chairperson",
       "application": "Landmark Electricity Act institutional-architecture ruling: s.84(2) enabling (not mandatory) as to a judicial Chairperson, but mandatory legal/judicial Member requirement for any SERC exercising adjudicatory functions — foundational for any future case in this corpus touching SERC composition or the validity of Commission-level adjudicatory orders.",
       "lead_authorities": [
-        {"name": "Union of India v. Madras Bar Association (MJ-I)", "docid": "522930"},
-        {"name": "Madras Bar Association v. Union of India (MJ-II)", "docid": "181443842"},
-        {"name": "Tamil Nadu Generation and Distribution Corporation Ltd. v. PPN Power Generating Company Pvt. Ltd.", "docid": "166466557"}
+        {
+          "name": "Union of India v. Madras Bar Association (MJ-I)",
+          "docid": "522930"
+        },
+        {
+          "name": "Madras Bar Association v. Union of India (MJ-II)",
+          "docid": "181443842"
+        },
+        {
+          "name": "Tamil Nadu Generation and Distribution Corporation Ltd. v. PPN Power Generating Company Pvt. Ltd.",
+          "docid": "166466557"
+        }
       ],
       "paras": "paras 104-114"
     }
@@ -148,5 +154,6 @@
       "cited_by": "Court",
       "treatment": "Referred"
     }
-  ]
+  ],
+  "outcome": "none"
 }

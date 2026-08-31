@@ -9,9 +9,7 @@
   "date_display": "22 September 2011",
   "docket": "Civil Misc. Writ Petition No. 54089 of 2011",
   "disposition": "Writ petition disposed of (relegated to the statutory appeal under Section 127, subject to the amended deposit condition)",
-
   "headnote": "For a theft-based Section 126 final assessment, the law applicable to the appeal's deposit condition (and to the assessment rate under Section 126(6)) is the law prevailing on the date of the FINAL assessment, not the date the provisional assessment/inspection was made or the date the cause of action (the theft) arose; a provisional assessment is not a final assessment and carries no independent right of appeal. Reasonable opportunity of hearing in a theft assessment is governed by Clauses 6.8(b)(i), 6.8(c)(iii) and 8.1(b) of the U.P. Electricity Supply Code, 2005; where an opportunity to represent was in substance afforded (even pursuant to an earlier writ court's direction to consider a representation), any procedural defect in the provisional stage is condoned — procedural law cannot override the substantive law. In a theft matter, the High Court will not relax the statutory pre-deposit for the alternative appellate remedy under Section 127, given the public interest in the essential service of electricity supply.",
-
   "holding_units": [
     {
       "provision": "EA2003::126",
@@ -43,13 +41,15 @@
       "paras": "unnumbered order"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "law-as-of-final-assessment-date",
       "application": "For determining which version of Section 126 (deposit condition, assessment rate) applies, the operative date is the date of the FINAL assessment, not the provisional assessment or the date the cause of action arose.",
       "lead_authorities": [
-        {"name": "Sri Bhagwan Gupta v. Kanpur Electricity Supply Company Ltd.", "docid": "559116"}
+        {
+          "name": "Sri Bhagwan Gupta v. Kanpur Electricity Supply Company Ltd.",
+          "docid": "559116"
+        }
       ],
       "paras": "unnumbered order"
     },
@@ -57,19 +57,64 @@
       "tag": "reasonable-opportunity-theft-assessment",
       "application": "Reasonable opportunity of hearing before a theft-based Section 126 assessment is governed by Clauses 6.8(b)(i)/6.8(c)(iii)/8.1(b) of the Supply Code; substantial compliance (even via a court-directed representation) condones a procedural defect at the provisional stage.",
       "lead_authorities": [
-        {"name": "Khem Chand v. Union of India", "docid": "546415"},
-        {"name": "Transmission Corporation of A.P. Ltd. v. Sri Rama Krishna Rice Mill", "docid": "107041"}
+        {
+          "name": "Khem Chand v. Union of India",
+          "docid": "546415"
+        },
+        {
+          "name": "Transmission Corporation of A.P. Ltd. v. Sri Rama Krishna Rice Mill",
+          "docid": "107041"
+        }
       ],
       "paras": "unnumbered order"
     }
   ],
-
   "not_decided": [],
-
   "authorities": [
-    {"name": "Khem Chand v. Union of India & Ors.", "citation": "AIR 1958 SC 300", "court": "Supreme Court", "docid": "546415", "proposition": "Lays down the content and standard of 'reasonable opportunity' of hearing to be afforded before an adverse order.", "how_treated": "Relied on to define the standard of reasonable opportunity applicable before a theft-based Section 126 assessment.", "how_treated_paras": "unnumbered order", "cited_by": "Court", "treatment": "Relied on"},
-    {"name": "Transmission Corporation of A.P. Ltd. & Ors. v. Sri Rama Krishna Rice Mill", "citation": "(2006) 3 SCC 74", "court": "Supreme Court", "docid": "107041", "proposition": "Explains the standard of reasonable opportunity of hearing in the context of an electricity assessment.", "how_treated": "Relied on to the same effect as Khem Chand.", "how_treated_paras": "unnumbered order", "cited_by": "Court", "treatment": "Relied on"},
-    {"name": "Smt. R.S. Khan v. State of U.P. & Ors.", "citation": "2005 All. C.J. 985", "court": "Allahabad High Court (DB)", "docid": "87831737", "proposition": "Cited by the petitioner regarding the 2004 assessment proceedings and subsequent orders in the connected writ litigation.", "how_treated": "Noted as part of the petitioner's procedural history/background; not determinative.", "how_treated_paras": "unnumbered order", "cited_by": "Petitioner", "treatment": "Referred"},
-    {"name": "Sri Bhagwan Gupta v. Kanpur Electricity Supply Company Ltd. & Ors.", "citation": "2005 All. C.J. 977", "court": "Allahabad High Court (Single Judge)", "docid": "559116", "proposition": "Held (in the petitioner's submission) that the pre-2007 rate of one-and-half times the tariff under Section 126(5)/(6) applies where the cause of action (theft) arose before the amendment.", "how_treated": "Given only persuasive value; not followed — the Court held that the law as of the date of the FINAL assessment (not the date the cause of action arose) governs the applicable rate.", "how_treated_paras": "unnumbered order", "cited_by": "Petitioner", "treatment": "Distinguished"}
-  ]
+    {
+      "name": "Khem Chand v. Union of India & Ors.",
+      "citation": "AIR 1958 SC 300",
+      "court": "Supreme Court",
+      "docid": "546415",
+      "proposition": "Lays down the content and standard of 'reasonable opportunity' of hearing to be afforded before an adverse order.",
+      "how_treated": "Relied on to define the standard of reasonable opportunity applicable before a theft-based Section 126 assessment.",
+      "how_treated_paras": "unnumbered order",
+      "cited_by": "Court",
+      "treatment": "Relied on"
+    },
+    {
+      "name": "Transmission Corporation of A.P. Ltd. & Ors. v. Sri Rama Krishna Rice Mill",
+      "citation": "(2006) 3 SCC 74",
+      "court": "Supreme Court",
+      "docid": "107041",
+      "proposition": "Explains the standard of reasonable opportunity of hearing in the context of an electricity assessment.",
+      "how_treated": "Relied on to the same effect as Khem Chand.",
+      "how_treated_paras": "unnumbered order",
+      "cited_by": "Court",
+      "treatment": "Relied on"
+    },
+    {
+      "name": "Smt. R.S. Khan v. State of U.P. & Ors.",
+      "citation": "2005 All. C.J. 985",
+      "court": "Allahabad High Court (DB)",
+      "docid": "87831737",
+      "proposition": "Cited by the petitioner regarding the 2004 assessment proceedings and subsequent orders in the connected writ litigation.",
+      "how_treated": "Noted as part of the petitioner's procedural history/background; not determinative.",
+      "how_treated_paras": "unnumbered order",
+      "cited_by": "Petitioner",
+      "treatment": "Referred"
+    },
+    {
+      "name": "Sri Bhagwan Gupta v. Kanpur Electricity Supply Company Ltd. & Ors.",
+      "citation": "2005 All. C.J. 977",
+      "court": "Allahabad High Court (Single Judge)",
+      "docid": "559116",
+      "proposition": "Held (in the petitioner's submission) that the pre-2007 rate of one-and-half times the tariff under Section 126(5)/(6) applies where the cause of action (theft) arose before the amendment.",
+      "how_treated": "Given only persuasive value; not followed — the Court held that the law as of the date of the FINAL assessment (not the date the cause of action arose) governs the applicable rate.",
+      "how_treated_paras": "unnumbered order",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished"
+    }
+  ],
+  "outcome": "alternate_remedy"
 }

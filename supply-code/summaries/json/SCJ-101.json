@@ -9,9 +9,7 @@
   "date_display": "12 October 2007",
   "docket": "Writ Petition (unnumbered order)",
   "disposition": "Writ petition allowed; condition requiring an independent feeder connection quashed",
-
   "headnote": "Under Clause 3.4(a) of the U.P. Electricity Supply Code, supply through an independent feeder is mandatory only for the specifically enumerated industries (Arc/Induction furnaces, Rolling Mills, Re-rolling Mills, Mini steel plants) with a load of 1000 KVA and above — this list is not illustrative but specific and restrictive. Clause 3.4(b), by contrast, gives *other* consumers (including those enumerated in 3.4(a) but with a load below 1000 KVA, and townships/institutions/etc. with load above 500 KVA) an *option*, not an obligation, to take supply via an independent feeder; a licensee cannot compel such a consumer to bear independent-feeder costs where supply via a shared/dependent feeder is found technically feasible. A generalized concern about electricity theft does not justify insisting on an independent feeder outside Clause 3.4(a)'s mandatory scope, since the Code separately provides ample anti-theft mechanisms; the Code being statutory, its provisions must be adhered to as written.",
-
   "holding_units": [
     {
       "provision": "UP-2005::3.4",
@@ -25,7 +23,6 @@
       "paras": "paras 10-14"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "clause-3.4a-independent-feeder-list-is-restrictive-not-illustrative",
@@ -35,5 +32,6 @@
     }
   ],
   "not_decided": [],
-  "authorities": []
+  "authorities": [],
+  "outcome": "consumer"
 }

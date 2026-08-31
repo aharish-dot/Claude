@@ -9,9 +9,7 @@
   "date_display": "24 July 2023",
   "docket": "WRIT - C No. 27553 of 2019",
   "disposition": "Writ petition dismissed",
-
   "headnote": "The consumer's right under Clause 5.6(c)(iii) of the U.P. Electricity Supply Code, 2005 to have a meter tested at an independent laboratory of choice applies only where the conclusion of tampering or a fast/slow-running meter is arrived at ON THE BASIS OF a test report — i.e. where the defect/tampering is not obvious on inspection and requires laboratory analysis to establish. Where tampering is patent and visible to the naked eye at the time of inspection itself (e.g. cut phase wires, broken seals, a meter recording nil consumption despite live current on the transformer), the conclusion of theft does not depend on any test report, and Clause 5.6(c)(iii) is simply not attracted; sending the meter for testing thereafter (for record purposes) does not create a new right to independent testing that never existed. Mohd. Sagir and Smt. Amrawati Devi are distinguished as cases where tampering was not obvious on inspection and was established only by subsequent test reports.",
-
   "holding_units": [
     {
       "provision": "UP-2005::5.6",
@@ -25,24 +23,58 @@
       "paras": "paras 20-30"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "independent-lab-testing-only-if-conclusion-rests-on-test-report",
       "application": "Clause 5.6(c)(iii)'s independent-laboratory option is triggered only when the tampering/defect finding is derived from a test report; it has no application where tampering is visibly patent at inspection, distinguishing Mohd. Sagir and Amrawati Devi (ambiguous, test-report-dependent tampering).",
       "lead_authorities": [
-        {"name": "Mohd. Sagir v. Dakshinanchal Vidyut Vitran Nigam Ltd.", "docid": "1795995"},
-        {"name": "K.C. Ninan v. Kerala State Electricity Board & Ors.", "docid": "160269658"}
+        {
+          "name": "Mohd. Sagir v. Dakshinanchal Vidyut Vitran Nigam Ltd.",
+          "docid": "1795995"
+        },
+        {
+          "name": "K.C. Ninan v. Kerala State Electricity Board & Ors.",
+          "docid": "160269658"
+        }
       ],
       "paras": "paras 21-27"
     }
   ],
-
   "not_decided": [],
-
   "authorities": [
-    {"name": "Mohd. Sagir v. Dakshinanchal Vidyut Vitran Nigam Ltd.", "citation": "(DB)", "court": "Allahabad High Court (DB)", "docid": "1795995", "proposition": "A tampered meter is also a 'defective meter' within Clause 5.6 (read with Clause 5.9(a)(ii)); where tampering (a foreign remote-sensing device) was not visible on inspection and was established only by a subsequent committee's opening of the meter, the consumer had a right under Clause 5.6(c)(iii) to independent testing.", "how_treated": "Distinguished — that case involved tampering not obvious at inspection, established only by later test/committee report, unlike the patent tampering here.", "how_treated_paras": "paras 21, 27", "cited_by": "Petitioner", "treatment": "Distinguished"},
-    {"name": "Smt. Amrawati Devi v. Purvanchal Vidyut Vitran Nigam Ltd. & Anr.", "citation": "(DB)", "court": "Allahabad High Court (DB)", "docid": "", "proposition": "Clause 5.6(c) requires the consumer's agreement for testing at the licensee's lab or an independent lab; failure to apprise the consumer of the right to independent testing (where tampering was found only via a subsequent lab test) renders the sealing/assessment proceedings irregular and illegal.", "how_treated": "Distinguished on the same ground as Mohd. Sagir.", "how_treated_paras": "paras 20, 27", "cited_by": "Petitioner", "treatment": "Distinguished"},
-    {"name": "K.C. Ninan v. Kerala State Electricity Board & Ors.", "citation": "2023 SCC OnLine SC 603", "court": "Supreme Court", "docid": "160269658", "proposition": "Electricity constitutes a 'public good', and the courts' interpretation of the law must foster this position.", "how_treated": "Referred to support a purposive interpretation of Clause 5.6 that does not create an artificial independent-testing right in cases of patent, visible meter tampering.", "how_treated_paras": "para 26", "cited_by": "Court", "treatment": "Referred"}
-  ]
+    {
+      "name": "Mohd. Sagir v. Dakshinanchal Vidyut Vitran Nigam Ltd.",
+      "citation": "(DB)",
+      "court": "Allahabad High Court (DB)",
+      "docid": "1795995",
+      "proposition": "A tampered meter is also a 'defective meter' within Clause 5.6 (read with Clause 5.9(a)(ii)); where tampering (a foreign remote-sensing device) was not visible on inspection and was established only by a subsequent committee's opening of the meter, the consumer had a right under Clause 5.6(c)(iii) to independent testing.",
+      "how_treated": "Distinguished — that case involved tampering not obvious at inspection, established only by later test/committee report, unlike the patent tampering here.",
+      "how_treated_paras": "paras 21, 27",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "Smt. Amrawati Devi v. Purvanchal Vidyut Vitran Nigam Ltd. & Anr.",
+      "citation": "(DB)",
+      "court": "Allahabad High Court (DB)",
+      "docid": "",
+      "proposition": "Clause 5.6(c) requires the consumer's agreement for testing at the licensee's lab or an independent lab; failure to apprise the consumer of the right to independent testing (where tampering was found only via a subsequent lab test) renders the sealing/assessment proceedings irregular and illegal.",
+      "how_treated": "Distinguished on the same ground as Mohd. Sagir.",
+      "how_treated_paras": "paras 20, 27",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "K.C. Ninan v. Kerala State Electricity Board & Ors.",
+      "citation": "2023 SCC OnLine SC 603",
+      "court": "Supreme Court",
+      "docid": "160269658",
+      "proposition": "Electricity constitutes a 'public good', and the courts' interpretation of the law must foster this position.",
+      "how_treated": "Referred to support a purposive interpretation of Clause 5.6 that does not create an artificial independent-testing right in cases of patent, visible meter tampering.",
+      "how_treated_paras": "para 26",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    }
+  ],
+  "outcome": "licensee"
 }

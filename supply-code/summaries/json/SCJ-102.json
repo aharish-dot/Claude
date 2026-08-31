@@ -9,9 +9,7 @@
   "date_display": "30 November 2011",
   "docket": "Criminal Misc. Writ Petition (unnumbered order)",
   "disposition": "Writ petition dismissed; FIR not quashed",
-
   "headnote": "An officer of a distribution licensee, authorised by the State Government under Section 135(2) of the Electricity Act, 2003, is competent to lodge an FIR for theft of electricity under Section 135(1); such an officer's power to enter, inspect, search and seize under s.135(2) independently supports the FIR's validity, and an FIR is not liable to be quashed merely because it followed shortly after the petitioner's spouse (co-owner) obtained a notice-stage order in a separate writ petition, absent clear evidence of malafide. Following the well-settled principle (State of Haryana v. Bhajan Lal; Satya Pal; Ajit Singh @ Muraha), courts will not interfere with investigation or FIR unless no cognizable offence is ex-facie discernible from the FIR or a statutory restriction bars investigation.",
-
   "holding_units": [
     {
       "provision": "EA2003::135",
@@ -25,12 +23,16 @@
       "paras": "unnumbered order"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "s135-2-authorised-officer-competent-to-lodge-fir",
       "application": "An officer of a distribution licensee authorised under s.135(2) is competent to lodge an FIR for theft of electricity under s.135(1); this authority is not displaced by unproven allegations of malafide timing.",
-      "lead_authorities": [{"name": "State of Haryana v. Bhajan Lal", "docid": "1033637"}],
+      "lead_authorities": [
+        {
+          "name": "State of Haryana v. Bhajan Lal",
+          "docid": "1033637"
+        }
+      ],
       "paras": "unnumbered order"
     }
   ],
@@ -73,5 +75,6 @@
       "cited_by": "Court",
       "treatment": "Followed"
     }
-  ]
+  ],
+  "outcome": "none"
 }

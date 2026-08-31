@@ -9,9 +9,7 @@
   "date_display": "31 May 2024",
   "docket": "WRIT - A No. 18084 of 2022",
   "disposition": "Writ petition allowed (dismissal quashed; reinstatement; fresh inquiry permitted)",
-
   "headnote": "A disciplinary dismissal of a UPPCL employee, on a charge of irregular revision of consumers' electricity bills 'ignoring the provisions of the Electricity Supply Code, 2005', is vitiated where the Establishment led no evidence — documentary or oral — to prove the charges through a Presenting Officer, the complainants/witnesses were never examined, and further inquiry reports and an I.T.-cell report were considered behind the employee's back. In a major-penalty inquiry the burden is on the Establishment to prove the charges before an impartial inquiry tribunal; failure to do so violates natural justice and vitiates the punishment.",
-
   "holding_units": [
     {
       "provision": "OFFTOPIC::service-law-natural-justice",
@@ -24,20 +22,27 @@
       "flag": "Off-topic for the Supply Code: this is a service/disciplinary matter. The Supply Code, 2005 appears only as the backdrop of the misconduct charge (irregular bill revisions); no Code provision is construed. Retained in the corpus for completeness (and for its authorities)."
     }
   ],
-
   "principle_tags": [
     {
       "tag": "natural-justice-in-departmental-inquiry",
       "application": "The Establishment must prove disciplinary charges by evidence led through a Presenting Officer; charges are not proof of themselves, and material used behind the delinquent's back vitiates the inquiry.",
       "lead_authorities": [
-        {"name": "State of U.P. v. Saroj Kumar Sinha", "docid": "1064026"},
-        {"name": "Roop Singh Negi v. Punjab National Bank", "docid": "1106974"},
-        {"name": "State of Uttaranchal v. Kharak Singh", "docid": "1693089"}
+        {
+          "name": "State of U.P. v. Saroj Kumar Sinha",
+          "docid": "1064026"
+        },
+        {
+          "name": "Roop Singh Negi v. Punjab National Bank",
+          "docid": "1106974"
+        },
+        {
+          "name": "State of Uttaranchal v. Kharak Singh",
+          "docid": "1693089"
+        }
       ],
       "paras": "28-32"
     }
   ],
-
   "not_decided": [
     {
       "point": "Merits of the billing-irregularity charges",
@@ -46,13 +51,73 @@
       "paras": "36-37"
     }
   ],
-
   "authorities": [
-    {"name": "State of U.P. v. Saroj Kumar Sinha", "citation": "(2010) 2 SCC 772", "court": "Supreme Court", "docid": "1064026", "proposition": "In a departmental inquiry the Establishment must prove the charges by leading evidence; an inquiry officer is not to act as a prosecutor, and charges are not self-proving.", "how_treated": "Relied on for the burden-of-proof principle in major-penalty inquiries.", "how_treated_paras": "32", "cited_by": "Court", "treatment": "Relied on"},
-    {"name": "Roop Singh Negi v. Punjab National Bank", "citation": "(2009) 2 SCC 570", "court": "Supreme Court", "docid": "1106974", "proposition": "A finding of misconduct cannot rest on mere allegations/complaints unsupported by legal evidence; the charge must be proved.", "how_treated": "Relied on: mere complaints are not proof of the charges.", "how_treated_paras": "32", "cited_by": "Court", "treatment": "Relied on"},
-    {"name": "State of Uttaranchal v. Kharak Singh", "citation": "(2008) 8 SCC 236", "court": "Supreme Court", "docid": "1693089", "proposition": "Natural justice in disciplinary inquiries requires evidence to be led and the delinquent given opportunity to meet it.", "how_treated": "Relied on within the natural-justice line.", "how_treated_paras": "32", "cited_by": "Court", "treatment": "Relied on"},
-    {"name": "State of U.P. v. Kishori Lal", "citation": "2018 (9) ADJ 397 (DB) (LB)", "court": "Allahabad High Court (DB)", "docid": "", "proposition": "Same principle on the Establishment's burden to prove charges in a departmental inquiry.", "how_treated": "Referred within the catena.", "how_treated_paras": "32", "cited_by": "Court", "treatment": "Referred"},
-    {"name": "Smt. Karuna Jaiswal v. State of U.P.", "citation": "2018 (9) ADJ 107 (DB) (LB)", "court": "Allahabad High Court (DB)", "docid": "", "proposition": "Same principle on natural justice in disciplinary inquiries.", "how_treated": "Referred within the catena.", "how_treated_paras": "32", "cited_by": "Court", "treatment": "Referred"},
-    {"name": "State of U.P. v. Aditya Prasad Srivastava", "citation": "2017 (2) ADJ 554 (DB) (LB)", "court": "Allahabad High Court (DB)", "docid": "", "proposition": "Same principle on proof of charges in a departmental inquiry.", "how_treated": "Referred within the catena.", "how_treated_paras": "32", "cited_by": "Court", "treatment": "Referred"}
-  ]
+    {
+      "name": "State of U.P. v. Saroj Kumar Sinha",
+      "citation": "(2010) 2 SCC 772",
+      "court": "Supreme Court",
+      "docid": "1064026",
+      "proposition": "In a departmental inquiry the Establishment must prove the charges by leading evidence; an inquiry officer is not to act as a prosecutor, and charges are not self-proving.",
+      "how_treated": "Relied on for the burden-of-proof principle in major-penalty inquiries.",
+      "how_treated_paras": "32",
+      "cited_by": "Court",
+      "treatment": "Relied on"
+    },
+    {
+      "name": "Roop Singh Negi v. Punjab National Bank",
+      "citation": "(2009) 2 SCC 570",
+      "court": "Supreme Court",
+      "docid": "1106974",
+      "proposition": "A finding of misconduct cannot rest on mere allegations/complaints unsupported by legal evidence; the charge must be proved.",
+      "how_treated": "Relied on: mere complaints are not proof of the charges.",
+      "how_treated_paras": "32",
+      "cited_by": "Court",
+      "treatment": "Relied on"
+    },
+    {
+      "name": "State of Uttaranchal v. Kharak Singh",
+      "citation": "(2008) 8 SCC 236",
+      "court": "Supreme Court",
+      "docid": "1693089",
+      "proposition": "Natural justice in disciplinary inquiries requires evidence to be led and the delinquent given opportunity to meet it.",
+      "how_treated": "Relied on within the natural-justice line.",
+      "how_treated_paras": "32",
+      "cited_by": "Court",
+      "treatment": "Relied on"
+    },
+    {
+      "name": "State of U.P. v. Kishori Lal",
+      "citation": "2018 (9) ADJ 397 (DB) (LB)",
+      "court": "Allahabad High Court (DB)",
+      "docid": "",
+      "proposition": "Same principle on the Establishment's burden to prove charges in a departmental inquiry.",
+      "how_treated": "Referred within the catena.",
+      "how_treated_paras": "32",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    },
+    {
+      "name": "Smt. Karuna Jaiswal v. State of U.P.",
+      "citation": "2018 (9) ADJ 107 (DB) (LB)",
+      "court": "Allahabad High Court (DB)",
+      "docid": "",
+      "proposition": "Same principle on natural justice in disciplinary inquiries.",
+      "how_treated": "Referred within the catena.",
+      "how_treated_paras": "32",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    },
+    {
+      "name": "State of U.P. v. Aditya Prasad Srivastava",
+      "citation": "2017 (2) ADJ 554 (DB) (LB)",
+      "court": "Allahabad High Court (DB)",
+      "docid": "",
+      "proposition": "Same principle on proof of charges in a departmental inquiry.",
+      "how_treated": "Referred within the catena.",
+      "how_treated_paras": "32",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    }
+  ],
+  "outcome": "none"
 }

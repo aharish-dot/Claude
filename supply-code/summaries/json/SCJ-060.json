@@ -9,9 +9,7 @@
   "date_display": "14 October 2011",
   "docket": "WRIT - C No. 63610 of 2010",
   "disposition": "Writ petition allowed; assessment and appellate orders quashed; refund with 8% interest and Rs. 25,000 costs",
-
   "headnote": "A theft-of-electricity assessment cannot be founded on mere presumption drawn from a difference between the consumer's billing meter and independent check-meters installed outside the premises, where the check-meters themselves (maintained under the licensee's own seal/custody) were never tested, showed no explained defect, and in fact recorded consumption comparable to the billing meter for almost the entire assessment period until the billing meter was destroyed by fire; theft must be established under para 8.1(b)(iv) of the Electricity Supply Code with cogent, disclosed evidence, not inferred from an unexplained late-period spike. As an exceptional principle (applying the maxims lex non cogit ad impossibilia / impotentia excusat legem), where the consumer's own meter is physically incapable of yielding a reading (e.g. destroyed by fire or theft), a licensee-installed independent/check meter outside the premises may exceptionally be relied upon for billing, provided it is shown to have been reliably and authentically maintained with the consumer's knowledge — following Inter College Kusmaul, Gorakhpur v. State of U.P. Where an assessment is quashed and the deposited amount is to be refunded, the Court may award interest (here 8% p.a.) and costs against the licensee.",
-
   "holding_units": [
     {
       "provision": "UP-2005::8.1",
@@ -34,7 +32,6 @@
       "paras": "para 194"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "theft-must-be-established-not-presumed",
@@ -46,12 +43,14 @@
       "tag": "impossibility-exception-outside-meter-billing",
       "application": "Where the consumer's own meter cannot yield a reading due to physical impossibility (fire, theft), a reliably maintained outside/check meter may exceptionally found billing, applying the impossibility maxims.",
       "lead_authorities": [
-        {"name": "Inter College Kusmaul, Gorakhpur & Anr. v. State of U.P. & Ors.", "docid": "840038"}
+        {
+          "name": "Inter College Kusmaul, Gorakhpur & Anr. v. State of U.P. & Ors.",
+          "docid": "840038"
+        }
       ],
       "paras": "para 194"
     }
   ],
-
   "not_decided": [
     {
       "point": "Whether the consumer in fact deliberately set fire to the metering cubicle",
@@ -60,8 +59,18 @@
       "paras": "para 198"
     }
   ],
-
   "authorities": [
-    {"name": "Inter College Kusmaul, Gorakhpur & Anr. v. State of U.P. & Ors.", "citation": "2006 (5) AWC 4436", "court": "Allahabad High Court (DB)", "docid": "840038", "proposition": "Expounds the maxims lex non cogit ad impossibilia, impotentia excusat legem and nemo tenetur ad impossibilia (the law does not compel the impossible).", "how_treated": "Followed to permit exceptional reliance on an outside/check meter for billing where the consumer's own meter cannot yield a reading.", "how_treated_paras": "para 194", "cited_by": "Court", "treatment": "Followed"}
-  ]
+    {
+      "name": "Inter College Kusmaul, Gorakhpur & Anr. v. State of U.P. & Ors.",
+      "citation": "2006 (5) AWC 4436",
+      "court": "Allahabad High Court (DB)",
+      "docid": "840038",
+      "proposition": "Expounds the maxims lex non cogit ad impossibilia, impotentia excusat legem and nemo tenetur ad impossibilia (the law does not compel the impossible).",
+      "how_treated": "Followed to permit exceptional reliance on an outside/check meter for billing where the consumer's own meter cannot yield a reading.",
+      "how_treated_paras": "para 194",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ],
+  "outcome": "consumer"
 }

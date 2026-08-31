@@ -9,9 +9,7 @@
   "date_display": "12 September 2013",
   "docket": "Civil Misc. Writ Petition No. 3467 of 2008 (connected with Nos. 3466, 16216, 44169 of 2008)",
   "disposition": "Writ petitions disposed of variously — bank-guarantee conditions quashed; independent-feeder requirement upheld; Electricity Ombudsman's award quashed",
-
   "headnote": "Clause 3.4(a) of the U.P. Electricity Supply Code, 2005's mandatory independent-feeder requirement for load of 1000 KVA and above to Arc/Induction furnaces, Rolling Mills, Re-rolling Mills and Mini steel plants applies to BOTH new connections AND applications for enhancement of load — whether or not the enhancement results in a change of system or voltage of supply under Clause 4.43(b)/(c) — since Clause 3.4 is a substantive provision using the word 'only', which cannot be rendered otiose by a narrower reading of Clause 4.43 (a purely procedural/time-frame provision); harmonious construction requires reading Clause 4.43 together with, not in isolation from, Clause 3.4. A licensee's mixed feeder (serving multiple unrelated consumers/processes) is not an 'independent feeder' within Clause 2.2(ff), so Clause 3.4(d)'s tapping-permission provision (for independent feeders where separate-feeder construction is infeasible) cannot be invoked to justify tapping a mixed feeder for Clause 3.4(a)-covered industries. An Electricity Ombudsman's award must be consistent with the Act and the Supply Code (Regulation 11, UPERC Consumer Grievance Redressal Forum & Ombudsman Regulations, 2007); an award directing supply via a mixed feeder in derogation of Clause 3.4(a) exceeds the Ombudsman's jurisdiction and is quashed, following Punjab SEB v. Vishwa Calibere Builders (Ombudsman cannot direct regularisation/relief absent statutory/regulatory basis). A prior instance of a licensee mistakenly or inadvertently supplying another Clause 3.4(a) consumer via a mixed feeder cannot found a claim of discriminatory treatment under Article 14, since Article 14 does not guarantee negative equality (following Chandigarh Administration v. Jagjit Singh; State of Orissa v. Mamata Mohanty).",
-
   "holding_units": [
     {
       "provision": "UP-2005::3.4",
@@ -46,7 +44,6 @@
       "paras": "paras 49-53"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "clause-3.4a-covers-enhancement-not-just-new-connections",
@@ -57,17 +54,30 @@
     {
       "tag": "mixed-feeder-not-independent-feeder-ombudsman-cannot-override-code",
       "application": "A mixed feeder serving multiple unrelated consumers is not an 'independent feeder' under Clause 2.2(ff); an Electricity Ombudsman award directing supply via a mixed feeder in derogation of Clause 3.4(a) exceeds Regulation 11 jurisdiction and is quashed.",
-      "lead_authorities": [{"name": "Punjab State Electricity Board v. Vishwa Calibere Builders Pvt. Ltd.", "docid": ""}],
+      "lead_authorities": [
+        {
+          "name": "Punjab State Electricity Board v. Vishwa Calibere Builders Pvt. Ltd.",
+          "docid": ""
+        }
+      ],
       "paras": "paras 29-39"
     },
     {
       "tag": "no-negative-equality-in-electricity-supply-decisions",
       "application": "A licensee's prior mistaken/inadvertent supply of another similarly-situated consumer via a non-compliant route cannot be invoked to compel repetition of that illegality for a different consumer — Article 14 does not guarantee negative equality.",
-      "lead_authorities": [{"name": "Chandigarh Administration v. Jagjit Singh", "docid": "373000"}, {"name": "State of Orissa v. Mamata Mohanty", "docid": ""}],
+      "lead_authorities": [
+        {
+          "name": "Chandigarh Administration v. Jagjit Singh",
+          "docid": "373000"
+        },
+        {
+          "name": "State of Orissa v. Mamata Mohanty",
+          "docid": ""
+        }
+      ],
       "paras": "paras 43-48"
     }
   ],
-
   "not_decided": [
     {
       "point": "Quantum of any post-December-2007 arrears (dishonoured cheques, peak-hour penalties, unpaid current bills) against Sigma Castings",
@@ -76,7 +86,6 @@
       "paras": "para 51"
     }
   ],
-
   "authorities": [
     {
       "name": "Punjab State Electricity Board v. Vishwa Calibere Builders Pvt. Ltd.",
@@ -138,5 +147,6 @@
       "cited_by": "Court",
       "treatment": "Followed"
     }
-  ]
+  ],
+  "outcome": "consumer"
 }

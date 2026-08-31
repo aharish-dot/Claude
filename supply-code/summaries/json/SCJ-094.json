@@ -9,9 +9,7 @@
   "date_display": "18 October 2005",
   "docket": "Appeal under s.36, U.P. Electricity Reforms Act, 1999",
   "disposition": "Appeal partly allowed",
-
   "headnote": "Under the Tariff Order 2000-01 (HV-2 category), a consumer's liability to pay a 15% surcharge for taking power during 'restricted/peak hours' is independent of, and cumulative with, its liability to pay a separate 15% surcharge for being on an 'independent feeder' emanating from a 400/220/132 KV sub-station — a consumer availing both benefits pays a total 30% surcharge. An 'independent feeder' does not cease to be independent merely because other consumers are supplied from other feeders emanating from the same sub-station; it ceases to be independent only where another consumer is tapped onto the same feeder. The definition of 'Independent Feeder' first appeared in the Electricity Supply Code 2002 and was worded differently in the Electricity Supply Code 2005 (feeder for a single consumer or group of consumers with a similar process on the same/contiguous premises); since the Tariff Order 2000-01 predates both Codes and does not itself define the term, its ordinary meaning governs for that tariff period. A licensee cannot alter or vary a Commission-approved tariff order by its own circular/notification (following LML Ltd., Kanpur v. State of U.P.); where the two conflict, the tariff order prevails.",
-
   "holding_units": [
     {
       "provision": "UP-2005::independent-feeder-definition",
@@ -35,7 +33,6 @@
       "paras": "paras 8-13"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "independent-feeder-tapping-not-shared-substation-determines-status",
@@ -46,17 +43,26 @@
     {
       "tag": "licensee-circular-cannot-override-commission-tariff-order",
       "application": "A licensee's own circular/notification cannot alter or vary a tariff duly approved by the Regulatory Commission; in case of inconsistency, the Commission-approved tariff order prevails.",
-      "lead_authorities": [{"name": "LML Ltd., Kanpur v. State of U.P.", "docid": ""}],
+      "lead_authorities": [
+        {
+          "name": "LML Ltd., Kanpur v. State of U.P.",
+          "docid": ""
+        }
+      ],
       "paras": "para 28"
     },
     {
       "tag": "surcharge-vs-theft-penalty-distinction",
       "application": "Where power is taken during restricted hours with (implicit or express) permission/acquiescence of the licensee, only the tariff surcharge applies; taking power surreptitiously/by theft during restricted hours instead attracts penalty under the theft provisions, not merely a surcharge.",
-      "lead_authorities": [{"name": "Prachi Leathers v. UPPCL", "docid": ""}],
+      "lead_authorities": [
+        {
+          "name": "Prachi Leathers v. UPPCL",
+          "docid": ""
+        }
+      ],
       "paras": "para 52"
     }
   ],
-
   "not_decided": [
     {
       "point": "Whether a HV-2 consumer that is a continuous-process industry or on an independent feeder can opt out of restricted/peak-hours power supply altogether so as to avoid the 15% surcharge",
@@ -65,7 +71,6 @@
       "paras": "para 54"
     }
   ],
-
   "authorities": [
     {
       "name": "LML Ltd., Kanpur v. State of U.P.",
@@ -97,5 +102,6 @@
       "cited_by": "Court",
       "treatment": "Followed"
     }
-  ]
+  ],
+  "outcome": "split"
 }

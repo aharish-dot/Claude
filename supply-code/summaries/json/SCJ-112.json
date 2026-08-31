@@ -9,9 +9,7 @@
   "date_display": "20 April 2012",
   "docket": "Civil Misc. Writ Petition No. 67180 of 2008",
   "disposition": "Writ petition disposed of; petitioner relegated to file a representation, with directions for a reasoned decision and appeal rights preserved",
-
   "headnote": "Clause 6.8 of the U.P. Electricity Supply Code, 2005 lays down a detailed, mandatory procedure for assessment of unauthorised use of electricity (UUE): a site inspection report communicated to the consumer, a provisional assessment/show-cause notice inviting objections, a personal hearing, and a speaking final order — before an assessing officer can record even a prima facie conclusion of unauthorised use, some opportunity consistent with natural justice must be afforded, since the allegation can be serious and offence-adjacent. Where the licensee's own procedure contemplates verification of a disputed meter through Meter Reading Instrument (MRI) technology and such verification is neither carried out despite repeated requests and a court direction, nor its unavailability adequately explained before the provisional assessment is finalised, the assessment is impugnable as lacking an authentic evidentiary basis. Availability of the statutory appeal under s.127 read with Clause 6.8(d) is ordinarily a bar to writ entertainment, but the Whirlpool Corporation exceptions (violation of natural justice, want of jurisdiction, enforcement of fundamental rights) may still permit the writ court to examine the process (though the ultimate technical/factual determination is better left to the departmental process).",
-
   "holding_units": [
     {
       "provision": "UP-2005::6.8",
@@ -25,12 +23,16 @@
       "paras": "unnumbered/final paragraphs (procedural narrative)"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "clause-6.8-hearing-procedure-mandatory-before-uue-conclusion",
       "application": "Before an assessing officer concludes that unauthorised use of electricity has occurred, Clause 6.8's inspection-report/show-cause/hearing/speaking-order procedure must be substantially followed, given the seriousness of the allegation; a provisional assessment lacking authentic verification data (e.g. unperformed MRI testing that the licensee's own procedure contemplates) is impugnable.",
-      "lead_authorities": [{"name": "Ashok Kumar & Others v. State of U.P. & Others", "docid": "897981"}],
+      "lead_authorities": [
+        {
+          "name": "Ashok Kumar & Others v. State of U.P. & Others",
+          "docid": "897981"
+        }
+      ],
       "paras": "unnumbered"
     },
     {
@@ -40,7 +42,6 @@
       "paras": "unnumbered"
     }
   ],
-
   "not_decided": [
     {
       "point": "Whether the petitioner in fact committed unauthorised use/theft of electricity, and the correct quantum of under-billed consumption",
@@ -55,7 +56,6 @@
       "paras": "unnumbered"
     }
   ],
-
   "authorities": [
     {
       "name": "Ashok Kumar & Others v. State of U.P. & Others",
@@ -97,5 +97,6 @@
       "cited_by": "Court",
       "treatment": "Followed"
     }
-  ]
+  ],
+  "outcome": "alternate_remedy"
 }

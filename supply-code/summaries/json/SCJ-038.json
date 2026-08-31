@@ -9,9 +9,7 @@
   "date_display": "7 May 2010",
   "docket": "Special Leave Petition (Civil) No. 33984 of 2009",
   "disposition": "Special leave petition dismissed (load-reduction upheld; effective from 1.5.2006)",
-
   "headnote": "Under Clause 4.41 read with the unamended Clause 4.49 of the U.P. Electricity Supply Code, 2005 (as in force when the reduction was decided on 19.4.2006), a consumer with disputed/stayed arrears seeking reduction of contracted load could furnish 'either a Bank Guarantee, or Bonds, or any instruments to the satisfaction of the licensee' of the pending dues; the effective date of reduction is the first day of the month following sanction (Clause 4.41(e)). A licensee that agreed to the reduction and was fully aware of the consumer's status as a Relief Undertaking / Sick Industrial Company (and of the BIFR order to accept instalments and not disconnect) could not defeat the agreed reduction by insisting on a Bank Guarantee and rejecting a Bond, and could not continue billing on the higher load. Annexure 6.5 / Clause 6.16 / Clause 9.5 accord protective treatment to sick/relief undertakings.",
-
   "holding_units": [
     {
       "provision": "UP-2005::4.49",
@@ -34,22 +32,43 @@
       "paras": "13, 20, 27"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "sick-unit-protective-treatment",
       "application": "A licensee must give protective, fair treatment to a Relief Undertaking / Sick Industrial Company (current dues only, arrears in instalments, no coercive disconnection) and cannot defeat an agreed load reduction by legalese; the Supply Code is applied to aid revival.",
       "lead_authorities": [
-        {"name": "Modern Syntax (I) Ltd. v. Debts Recovery Tribunal, Jaipur", "docid": "1921960"}
+        {
+          "name": "Modern Syntax (I) Ltd. v. Debts Recovery Tribunal, Jaipur",
+          "docid": "1921960"
+        }
       ],
       "paras": "24-29"
     }
   ],
-
   "not_decided": [],
-
   "authorities": [
-    {"name": "Modern Syntax (I) Ltd. v. Debts Recovery Tribunal, Jaipur", "citation": "AIR 2001 Raj 170", "court": "Rajasthan High Court", "docid": "1921960", "proposition": "The provisions of a Relief Undertaking Act, being meant to sub-serve public interest and prevent unemployment, are to be given a liberal interpretation.", "how_treated": "Relied on (by the respondent) for a liberal, revival-oriented reading of the relief regime.", "how_treated_paras": "18", "cited_by": "Respondent", "treatment": "Relied on"},
-    {"name": "Doburg Lager Breweries Pvt. Ltd. v. Dhariwal Bottle Trading Co.", "citation": "(1986) 2 SCC 382", "court": "Supreme Court", "docid": "", "proposition": "A Relief Undertaking Act sub-serves the public interest and prevention of unemployment, so its provisions are liberally interpreted.", "how_treated": "Referred (as the basis of Modern Syntax).", "how_treated_paras": "18", "cited_by": "Respondent", "treatment": "Referred"}
-  ]
+    {
+      "name": "Modern Syntax (I) Ltd. v. Debts Recovery Tribunal, Jaipur",
+      "citation": "AIR 2001 Raj 170",
+      "court": "Rajasthan High Court",
+      "docid": "1921960",
+      "proposition": "The provisions of a Relief Undertaking Act, being meant to sub-serve public interest and prevent unemployment, are to be given a liberal interpretation.",
+      "how_treated": "Relied on (by the respondent) for a liberal, revival-oriented reading of the relief regime.",
+      "how_treated_paras": "18",
+      "cited_by": "Respondent",
+      "treatment": "Relied on"
+    },
+    {
+      "name": "Doburg Lager Breweries Pvt. Ltd. v. Dhariwal Bottle Trading Co.",
+      "citation": "(1986) 2 SCC 382",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "A Relief Undertaking Act sub-serves the public interest and prevention of unemployment, so its provisions are liberally interpreted.",
+      "how_treated": "Referred (as the basis of Modern Syntax).",
+      "how_treated_paras": "18",
+      "cited_by": "Respondent",
+      "treatment": "Referred"
+    }
+  ],
+  "outcome": "consumer"
 }

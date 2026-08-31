@@ -9,9 +9,7 @@
   "date_display": "12 April 2017",
   "docket": "WRIT - C No. 15130 of 2017",
   "disposition": "Writ petition allowed; impugned 'final notice' letters quashed, licensee left free to make a proper final assessment",
-
   "headnote": "The condition precedent to a provisional assessment under Section 126(1) of the Electricity Act, 2003 is the assessing officer's recorded conclusion, based on inspection, that the person is indulging in unauthorised use of electricity — such satisfaction cannot rest on mere vagaries without a fair opportunity of hearing. Clause 8.1(b) of the U.P. Electricity Supply Code, 2005 mandates, after a consumer files objections to a provisional assessment/show-cause notice, a personal hearing before any final assessment is made. A licensee cannot, after a consumer has filed timely objections to a provisional assessment (following a prior court order permitting such objections), simply issue a 'final notice' demanding payment of the same provisionally-assessed amount — without any notice of hearing, without considering the objections, and without passing or serving any actual final assessment order — and treat that notice as enforceable; such notices, issued to pressure the consumer into payment while dehors the statutory Section 126/Clause 8.1 procedure, are liable to be quashed, without prejudice to the licensee thereafter conducting a proper final assessment in accordance with law.",
-
   "holding_units": [
     {
       "provision": "UP-2005::8.1",
@@ -25,15 +23,23 @@
       "paras": "paras 7-18"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "clause-8.1b-personal-hearing-mandatory-before-final-assessment",
       "application": "After a consumer files objections to a theft-related provisional assessment, Clause 8.1(b)(iii) requires an actual personal hearing before any final assessment can be made; a bare 'final notice' reiterating the provisional figure, without a hearing or reasoned order, is unenforceable — reinforcing the corpus's cluster of s.126/Clause 8.1 procedural-strictness rulings (SCJ-069, SCJ-087, SCJ-092, SCJ-111).",
       "lead_authorities": [
-        {"name": "Ashok Kumar & Others v. State of U.P. & Others", "docid": "897981"},
-        {"name": "Kamil v. State of U.P. & Others", "docid": ""},
-        {"name": "Hazi Mohd. Yaseen v. Paschimanchal Vidyut Vitran Nigam Ltd.", "docid": ""}
+        {
+          "name": "Ashok Kumar & Others v. State of U.P. & Others",
+          "docid": "897981"
+        },
+        {
+          "name": "Kamil v. State of U.P. & Others",
+          "docid": ""
+        },
+        {
+          "name": "Hazi Mohd. Yaseen v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+          "docid": ""
+        }
       ],
       "paras": "paras 13-15"
     }
@@ -46,7 +52,6 @@
       "paras": "para 18"
     }
   ],
-
   "authorities": [
     {
       "name": "Ashok Kumar & Others v. State of U.P. & Others",
@@ -78,5 +83,6 @@
       "cited_by": "Court",
       "treatment": "Followed"
     }
-  ]
+  ],
+  "outcome": "consumer"
 }

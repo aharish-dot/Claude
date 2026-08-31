@@ -9,9 +9,7 @@
   "date_display": "19 May 2017",
   "docket": "Application U/S 482 No. 31955 of 2008",
   "disposition": "Application allowed; charge-sheet/cognizance order and criminal proceedings under s.135 quashed",
-
   "headnote": "Where the consumer inspection report underlying an FIR under Section 135 of the Electricity Act, 2003 does not itself record theft (the 'theft' column being struck through), and instead the licensee's own subsequent action treats the matter as one of slow metering under Clause 5.6(c)(ii) of the U.P. Electricity Supply Code, 2005 (billed and paid as such), and the appellate authority under Section 127 has already conclusively found — in proceedings that attained finality — that the case was not one of theft, continued criminal prosecution under Section 135 is an abuse of the process of law liable to be quashed under Section 482 Cr.P.C. Clause 5.6(d) of the Supply Code mandates a specific procedure for testing a disputed/defective meter (notice to the consumer of the testing date, an opportunity to be present, and a right to dispute the testing per Clause 5.6(c)); non-compliance (including failure to obtain an MRI report or send the meter to a proper testing laboratory) undermines the evidentiary basis for any theft finding. Once a consumer has paid the full slow-metering assessment under Clause 5.6(c)(ii), and the appellate authority has held Section 135 inapplicable, no separate theft prosecution can be sustained on the same consumer inspection report.",
-
   "holding_units": [
     {
       "provision": "UP-2005::5.6(d)",
@@ -25,14 +23,19 @@
       "paras": "unnumbered (final paragraphs)"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "clause-5.6d-meter-testing-procedure-mandatory-for-theft-finding",
       "application": "A theft finding premised on a defective/tampered meter requires compliance with Clause 5.6(d)'s testing procedure (notice, opportunity to be present, consumer's right to dispute per 5.6(c)); non-compliance (no MRI, no proper laboratory testing) undermines the evidentiary basis for both the assessment and any criminal prosecution.",
       "lead_authorities": [
-        {"name": "M/s Modern Rice Mill v. Madhyanchal Vidyut Vitran Nigam Ltd. & Another", "docid": "1883604"},
-        {"name": "Smt. Amrawati Devi v. Purvanchal Vidyut Vitran Nigam Ltd.", "docid": "149862600"}
+        {
+          "name": "M/s Modern Rice Mill v. Madhyanchal Vidyut Vitran Nigam Ltd. & Another",
+          "docid": "1883604"
+        },
+        {
+          "name": "Smt. Amrawati Devi v. Purvanchal Vidyut Vitran Nigam Ltd.",
+          "docid": "149862600"
+        }
       ],
       "paras": "unnumbered"
     },
@@ -43,9 +46,7 @@
       "paras": "unnumbered"
     }
   ],
-
   "not_decided": [],
-
   "authorities": [
     {
       "name": "M/s Modern Rice Mill v. Madhyanchal Vidyut Vitran Nigam Ltd. & Another",
@@ -77,5 +78,6 @@
       "cited_by": "Court",
       "treatment": "Followed"
     }
-  ]
+  ],
+  "outcome": "consumer"
 }

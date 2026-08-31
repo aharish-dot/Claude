@@ -9,9 +9,7 @@
   "date_display": "10 May 2006",
   "docket": "Writ Petition (unnumbered order)",
   "disposition": "Writ petition dismissed as withdrawn; prayer for interim protection during the interregnum rejected",
-
   "headnote": "Compounding of a theft offence under Section 152(3) of the Electricity Act, 2003 (by payment of a compounding fee) is a penalty for the criminal offence and does not exonerate the consumer from separate civil liability to pay outstanding dues for electricity actually consumed; a recovery notice for such civil dues survives the compounding. A consumer disputing only the quantum of such a recovery notice must approach the authority under the U.P. Electricity Supply Code, 2005, not the writ court. Further, a writ court that declines to decide a matter on merits and relegates the petitioner to another forum (or before whom the petitioner withdraws the petition to approach another forum) has no jurisdiction to grant interim protection for the interregnum period, since Article 226 interim relief is only ancillary to a final relief obtainable on merits in a pending proceeding before that same court (following the Constitution Bench in State of Orissa v. Madan Gopal Rungta).",
-
   "holding_units": [
     {
       "provision": "EA2003::152",
@@ -35,7 +33,6 @@
       "flag": "General writ-jurisdiction/interim-relief principle applied in an electricity-recovery context; not itself a Supply Code holding, but the Supply Code recovery notice was the underlying dispute in which it arose."
     }
   ],
-
   "principle_tags": [
     {
       "tag": "compounding-fee-does-not-extinguish-civil-consumption-dues",
@@ -44,7 +41,6 @@
       "paras": "paras 3-4"
     }
   ],
-
   "not_decided": [
     {
       "point": "Correctness/quantum of the recovery notice (Rs. 2,54,686/-)",
@@ -53,7 +49,6 @@
       "paras": "para 5"
     }
   ],
-
   "authorities": [
     {
       "name": "The State of Orissa v. Madan Gopal Rungta",
@@ -65,5 +60,6 @@
       "cited_by": "Court",
       "treatment": "Followed"
     }
-  ]
+  ],
+  "outcome": "none"
 }

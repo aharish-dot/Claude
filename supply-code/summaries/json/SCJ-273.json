@@ -51,7 +51,10 @@
       "tag": "theft-cannot-rest-on-mere-possibility",
       "application": "Extends the SCJ-070 line from an MRI-pattern 'possibility of theft' to a checking report that itself records that no direct theft was detected and infers possibility only from CT/PT-chamber seals and mixed-feeder line losses: those facts cannot, without reasoned analysis converting possibility into a proved case of theft under s.135, support a Code assessment. A tampered outer/CT-PT seal without a finding that the meter itself was tampered or bypassed is not enough.",
       "lead_authorities": [
-        {"name": "Modern Terry Towels Ltd. v. Gujarat Electricity Board", "docid": ""}
+        {
+          "name": "Modern Terry Towels Ltd. v. Gujarat Electricity Board",
+          "docid": ""
+        }
       ],
       "paras": "7, 12-14, 16-19"
     },
@@ -94,5 +97,6 @@
       "cited_by": "Petitioner",
       "treatment": "Referred"
     }
-  ]
+  ],
+  "outcome": "consumer"
 }

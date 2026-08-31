@@ -9,9 +9,7 @@
   "date_display": "19 July 2022",
   "docket": "WRIT - C No. 10825 of 2022",
   "disposition": "Writ petition allowed with costs of Rs. 1,00,000/-; impugned demand order quashed, fresh assessment directed",
-
   "headnote": "A demand/assessment order that consciously disregards prior directions of the writ court (to confront the consumer with adverse material, permit objections, fix a hearing, and pass a reasoned speaking order) and is instead a pre-printed proforma order with only the name, checking-report number, notice number and demanded amount filled in by hand, violates the audi alteram partem principle of natural justice and is liable to be quashed with costs; where the assessing officer withdraws such an order during the pendency of the writ petition without disclosing the statutory power (under the Electricity Act or the U.P. Electricity Supply Code, 2005) to recall/review it, that too constitutes prima facie misconduct.",
-
   "holding_units": [
     {
       "provision": "EA2003::126",
@@ -25,12 +23,16 @@
       "paras": "paras 3-16"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "audi-alteram-partem-for-demand-assessment-orders",
       "application": "A demand/assessment order must confront the consumer with adverse material, allow objections, and be a reasoned speaking order after a hearing; a pre-printed proforma order passed in disregard of these requirements (and of prior court directions to that effect) is vitiated for breach of natural justice.",
-      "lead_authorities": [{"name": "Uma Nath Pandey & Ors. v. State of U.P. & Anr.", "docid": "1915317"}],
+      "lead_authorities": [
+        {
+          "name": "Uma Nath Pandey & Ors. v. State of U.P. & Anr.",
+          "docid": "1915317"
+        }
+      ],
       "paras": "paras 9-14"
     },
     {
@@ -59,5 +61,6 @@
       "cited_by": "Court",
       "treatment": "Followed"
     }
-  ]
+  ],
+  "outcome": "consumer"
 }

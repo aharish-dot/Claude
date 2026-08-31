@@ -9,9 +9,7 @@
   "date_display": "1 April 2014",
   "docket": "WRIT - C No. 13514 of 2014 (with connected WRIT - C Nos. 17090 and 15122 of 2014)",
   "disposition": "Writ petitions allowed; retrospective application of the tariff notification quashed",
-
   "headnote": "A revised electricity tariff notified by the U.P. Electricity Regulatory Commission and published by the licensee cannot be given retrospective effect. Under Clause 3.8(a) of the U.P. Electricity Supply Code, 2005 (read with Section 24(7) of the U.P. Electricity Reforms Act, 1999 and Regulation 139(2) of the UPERC (Conduct of Business) Regulations, 2004), a tariff takes effect only seven days after the date of its publication in at least two widely-circulating daily newspapers; there is no statutory power to notify a tariff revision applicable from a date preceding its publication. A licensee's notification purporting to apply a revised tariff from a date before the seven-day publication window is quashed, and any amount realised on that retrospective basis must be adjusted in the consumers' future bills.",
-
   "holding_units": [
     {
       "provision": "UP-2005::3.8",
@@ -25,21 +23,32 @@
       "paras": "unnumbered order"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "tariff-no-retrospective-effect",
       "application": "A revised tariff takes effect only from seven days after its publication (Clause 3.8 of the Supply Code / s.24(7) Reforms Act / Regulation 139); it cannot be applied retrospectively to an earlier date, following Binani Zinc's presumption against retrospective statutory/regulatory effect.",
       "lead_authorities": [
-        {"name": "Binani Zinc Ltd. v. Kerala State Electricity Board & Ors.", "docid": "1350255"}
+        {
+          "name": "Binani Zinc Ltd. v. Kerala State Electricity Board & Ors.",
+          "docid": "1350255"
+        }
       ],
       "paras": "unnumbered order"
     }
   ],
-
   "not_decided": [],
-
   "authorities": [
-    {"name": "Binani Zinc Ltd. v. Kerala State Electricity Board & Ors.", "citation": "2009 (11) SCC 244", "court": "Supreme Court", "docid": "1350255", "proposition": "The regulatory commission has not been empowered to frame tariff with retrospective effect covering a period before its own constitution/determination; the rule of law postulates that all laws are prospective, absent an express provision or necessary intendment to the contrary.", "how_treated": "Followed and applied to quash the retrospective tariff notification.", "how_treated_paras": "unnumbered order", "cited_by": "Petitioner", "treatment": "Followed"}
-  ]
+    {
+      "name": "Binani Zinc Ltd. v. Kerala State Electricity Board & Ors.",
+      "citation": "2009 (11) SCC 244",
+      "court": "Supreme Court",
+      "docid": "1350255",
+      "proposition": "The regulatory commission has not been empowered to frame tariff with retrospective effect covering a period before its own constitution/determination; the rule of law postulates that all laws are prospective, absent an express provision or necessary intendment to the contrary.",
+      "how_treated": "Followed and applied to quash the retrospective tariff notification.",
+      "how_treated_paras": "unnumbered order",
+      "cited_by": "Petitioner",
+      "treatment": "Followed"
+    }
+  ],
+  "outcome": "consumer"
 }

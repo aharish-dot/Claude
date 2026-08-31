@@ -9,9 +9,7 @@
   "date_display": "5 September 2014",
   "docket": "WRIT - C No. 12840 of 2012",
   "disposition": "Writ petition allowed; assessment and demand notices quashed (liberty to reassess afresh strictly per Clause 6.8/Ashok Kumar)",
-
   "headnote": "Applying Ashok Kumar v. State of U.P., a theft-based Section 126 assessment must strictly follow Clause 6.8 of the U.P. Electricity Supply Code, 2005 (inspection report, show-cause notice with 15 working days to reply, hearing, speaking final order); a demand notice that misreads the checking report — e.g. attributing tampering to 'all seals' when the report in fact recorded the body-seal defect only for the main meter and the foreign/tampering element only inside a separate double (test) meter installed by the licensee itself — cannot sustain an unauthorised-use assessment, since the consumer is thereby condemned on a mischaracterisation of the very evidence relied upon, without any disclosure of how the assessed quantum was calculated.",
-
   "holding_units": [
     {
       "provision": "UP-2005::6.8",
@@ -25,21 +23,32 @@
       "paras": "paras 14-18 (applying Ashok Kumar paras 56-64, 77-78)"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "clause-8.1b-theft-notice-natural-justice",
       "application": "Extends the Ashok Kumar/Clause 6.8 line: a theft assessment fails not only for skipping the prescribed procedure but also where the notice/final order misreads or mischaracterises the checking report itself (e.g. conflating a test/double meter's findings with the main meter's), since the consumer is thereby condemned on a factual basis the evidence does not support.",
       "lead_authorities": [
-        {"name": "Ashok Kumar & Others v. State of U.P. & Others", "docid": "897981"}
+        {
+          "name": "Ashok Kumar & Others v. State of U.P. & Others",
+          "docid": "897981"
+        }
       ],
       "paras": "paras 14-18"
     }
   ],
-
   "not_decided": [],
-
   "authorities": [
-    {"name": "Ashok Kumar & Others v. State of U.P. & Others", "citation": "2008 (6) ADJ 660 (DB)", "court": "Allahabad High Court (DB)", "docid": "897981", "proposition": "Clause 6.8 of the Supply Code, 2005 prescribes a mandatory procedure (inspection report, show-cause notice, hearing, speaking final order) for a Section 126 unauthorised-use assessment; the consumer must be told the manner of the alleged unauthorised use before condemnation.", "how_treated": "Followed and applied; the impugned orders were quashed for non-compliance and misreading of the underlying checking report.", "how_treated_paras": "paras 14, 18, quoting Ashok Kumar paras 56-64, 77-78", "cited_by": "Court", "treatment": "Followed"}
-  ]
+    {
+      "name": "Ashok Kumar & Others v. State of U.P. & Others",
+      "citation": "2008 (6) ADJ 660 (DB)",
+      "court": "Allahabad High Court (DB)",
+      "docid": "897981",
+      "proposition": "Clause 6.8 of the Supply Code, 2005 prescribes a mandatory procedure (inspection report, show-cause notice, hearing, speaking final order) for a Section 126 unauthorised-use assessment; the consumer must be told the manner of the alleged unauthorised use before condemnation.",
+      "how_treated": "Followed and applied; the impugned orders were quashed for non-compliance and misreading of the underlying checking report.",
+      "how_treated_paras": "paras 14, 18, quoting Ashok Kumar paras 56-64, 77-78",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ],
+  "outcome": "consumer"
 }

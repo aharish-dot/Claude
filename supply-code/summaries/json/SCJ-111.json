@@ -9,9 +9,7 @@
   "date_display": "11 February 2014",
   "docket": "WRIT - C No. 69101 of 2013",
   "disposition": "Writ petition disposed of; recovery citation set aside, fresh objection/final-assessment process directed",
-
   "headnote": "Assessment under Section 126 of the Electricity Act, 2003 must be made even where the same conduct also constitutes theft of electricity under Section 135, and criminal proceedings are pending before the Special Court — 'unauthorised use of electricity' (Explanation (b) to s.126) is the wider genus of which theft under s.135 is a dishonest species; the Special Court's role under s.154(5)/(6) to determine civil liability for theft does not oust or duplicate, but operates alongside, the Executive Engineer's s.126 assessment (the sixth proviso to s.135(1), referencing the 'assessed amount', itself presupposes a s.126 assessment). Recovery of dues becomes barred under s.56(2) only two years from when the sum first became due, which (for assessed dues) is the date of final assessment, not the date of provisional assessment or inspection. Where a provisional assessment notice under s.126(2)/(3) is not followed by a final assessment order for an inordinately long period (here, over two years), natural justice requires a fresh opportunity to object before the final assessment is made; a final order passed after such delay without a fresh opportunity is liable to be set aside, notwithstanding the existence of an appellate remedy under s.127, where the assessing officer's very jurisdiction to assess under s.126 in a theft case is under challenge.",
-
   "holding_units": [
     {
       "provision": "EA2003::126",
@@ -46,14 +44,19 @@
       "paras": "paras 72-76"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "126-vs-135-distinct-fields-but-126-still-applies-to-theft",
       "application": "Confirms and extends this corpus's tracked doctrine (SCJ-069 Trikoot Iron & Steels) that theft-based assessment proceeds under s.126 (never under s.135 alone), clarifying (contra a misreading of Southco v. Seetaram Rice Mill's 'different fields' language) that s.126 assessment remains mandatory even where a s.135 FIR/Special Court trial is simultaneously pending — the two tracks (assessment for the civil dues, prosecution/civil-liability determination by the Special Court) run in parallel, not in the alternative.",
       "lead_authorities": [
-        {"name": "Executive Engineer, Southern Electricity Supply Company of Orissa Ltd. (Southco) v. Sri Seetaram Rice Mill", "docid": "1777029"},
-        {"name": "M/s Paliwal Alloys (Pvt) Ltd. v. U.P. Power Corporation Ltd.", "docid": "1777029"}
+        {
+          "name": "Executive Engineer, Southern Electricity Supply Company of Orissa Ltd. (Southco) v. Sri Seetaram Rice Mill",
+          "docid": "1777029"
+        },
+        {
+          "name": "M/s Paliwal Alloys (Pvt) Ltd. v. U.P. Power Corporation Ltd.",
+          "docid": "1777029"
+        }
       ],
       "paras": "paras 43-68"
     },
@@ -64,7 +67,6 @@
       "paras": "paras 72-73"
     }
   ],
-
   "not_decided": [
     {
       "point": "Correctness/quantum of the theft-based electricity dues (Rs. 8,49,173/-)",
@@ -73,7 +75,6 @@
       "paras": "para 75"
     }
   ],
-
   "authorities": [
     {
       "name": "Executive Engineer, Southern Electricity Supply Company of Orissa Ltd. (Southco) & Anr. v. Sri Seetaram Rice Mill",
@@ -165,5 +166,6 @@
       "cited_by": "Petitioner",
       "treatment": "Distinguished"
     }
-  ]
+  ],
+  "outcome": "consumer"
 }

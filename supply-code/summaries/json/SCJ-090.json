@@ -9,9 +9,7 @@
   "date_display": "12 January 2023",
   "docket": "WRIT - C No. 26355 of 2022",
   "disposition": "Writ petition dismissed; recovery notice against the Director not quashed",
-
   "headnote": "Approval of a resolution plan under Section 31 of the Insolvency and Bankruptcy Code, 2016 and consequent discharge/liquidation of a defaulter consumer-company (the Corporate Debtor) does not ipso facto extinguish the personal liability of its Director who has furnished an independent personal guarantee/undertaking for the company's electricity dues — the moratorium under Section 14 IBC applies only to the Corporate Debtor's own assets and proceedings, not to a personal guarantor, whose liability is co-extensive with the principal debtor's under Section 128 of the Indian Contract Act, 1872 and survives the discharge of the principal debtor by operation of law. Clauses 4.3(f)(v) and 6.15 of the U.P. Electricity Supply Code, 2005 empower the licensee to proceed against a company's Directors for recovery of the company's electricity dues as arrears of land revenue under the U.P. Government Electrical Undertakings (Dues Recovery) Act, 1958; a challenge to the vires of Clause 4.3(f)(v) (on the ground that a Director does not fall within the s.2(15) 'consumer' definition) cannot be entertained where no foundation for the vires challenge was laid in the writ petition itself.",
-
   "holding_units": [
     {
       "provision": "UP-2005::4.3(f)(v)",
@@ -25,15 +23,23 @@
       "paras": "paras 23-49"
     }
   ],
-
   "principle_tags": [
     {
       "tag": "ibc-moratorium-does-not-cover-personal-guarantor-directors",
       "application": "The s.14 IBC moratorium and a resolution plan's discharge of the Corporate Debtor do not extinguish a Director's independent personal-guarantor liability for the company's electricity dues under Clause 4.3(f)(v)/6.15 of the Supply Code — a distinct sub-doctrine within this corpus's IBC/electricity-arrears cluster (cf. SCJ-054 Dharti Agro Industries, where IBC s.238 barred recovery from the licensee itself post-liquidation; SCJ-063's PVVNL v. Raman Ispat line on arrears running with premises/against the Corporate Debtor). Here the qualification cuts the other way: IBC discharge of the Corporate Debtor does not reach a Director's separate, co-extensive personal guarantee.",
       "lead_authorities": [
-        {"name": "State Bank of India v. V. Ramakrishnan", "docid": "163084985"},
-        {"name": "Lalit Kumar Jain v. Union of India", "docid": "33418694"},
-        {"name": "Laxmi Pat Surana v. Union of India", "docid": "12052125"}
+        {
+          "name": "State Bank of India v. V. Ramakrishnan",
+          "docid": "163084985"
+        },
+        {
+          "name": "Lalit Kumar Jain v. Union of India",
+          "docid": "33418694"
+        },
+        {
+          "name": "Laxmi Pat Surana v. Union of India",
+          "docid": "12052125"
+        }
       ],
       "paras": "paras 33-49"
     },
@@ -44,7 +50,6 @@
       "paras": "para 47"
     }
   ],
-
   "not_decided": [
     {
       "point": "Vires of Clause 4.3(f)(v) of the Electricity Supply Code, 2005 (Director liability provision) vis-a-vis s.2(15) Electricity Act, 2003's 'consumer' definition",
@@ -59,7 +64,6 @@
       "paras": "para 46"
     }
   ],
-
   "authorities": [
     {
       "name": "State Bank of India v. V. Ramakrishnan & Anr.",
@@ -121,5 +125,6 @@
       "cited_by": "Petitioner",
       "treatment": "Distinguished"
     }
-  ]
+  ],
+  "outcome": "licensee"
 }

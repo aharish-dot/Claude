@@ -12,7 +12,7 @@ Records without outcome (SCJ-001..300) are counted as unlabeled.
 """
 from __future__ import annotations
 
-import glob, json, os, sys
+import glob, json, os, re, sys
 from collections import Counter
 
 ROOT = os.path.join(os.path.dirname(__file__), "..", "supply-code")
@@ -30,12 +30,14 @@ def load_cases():
 
 
 def matches(c, needle: str) -> bool:
+    """Prefix match that does not treat 4.4 as matching 4.44 / 4.49."""
     if not needle:
         return True
     n = needle.lower()
+    pat = re.compile(re.escape(n) + r"(?!\d)")
     for hu in c.get("holding_units") or []:
         prov = str(hu.get("provision") or hu.get("clause") or "").lower()
-        if n in prov:
+        if pat.search(prov):
             return True
     return False
 
