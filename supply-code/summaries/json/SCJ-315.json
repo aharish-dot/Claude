@@ -1,0 +1,93 @@
+{
+  "case_id": "SCJ-315",
+  "title": "M/s Kamakhya Steels Pvt. Ltd. & Another v. PVVNL & Another",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Ajit Kumar, J. & Swarupama Chaturvedi, J.",
+  "date_of_judgment": "2026-02-13",
+  "date_display": "13 February 2026",
+  "docket": "Writ - C No. 3581 of 2008",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "consumer",
+  "disposition": "Writ petition allowed; Executive Engineer's final assessment dated 23.10.2007 and consequential orders quashed; remitted for a fresh order under the Supply Code within two months after considering objections, recording how a mere possibility of theft can be treated as actual theft so as to charge the check-meter unit difference; amounts already deposited to abide that order",
+  "headnote": "Where a checking report of an industrial consumer records that no direct theft was detected and infers only a 'possibility of theft' from tampered CT/PT-chamber seals and mixed-feeder line losses of 9.17% to 19.75%, and the assessing authority then, after installing a check meter, treats the original meter as slow-running and levies 2,97,779 additional units for the difference, that difference is not theft. Absent a finding of actual theft, mere slow working of a meter with a lesser reading does not amount to theft. The authority ought to have sent the meter for technical assessment to determine whether there was tampering or a manufacturing defect; a hypothetical conclusion of liability for the check-meter difference, without that testing and without considering the consumer's objections, cannot stand. The Executive Engineer's final assessment dated 23.10.2007 and consequential orders are quashed and the matter remitted for a fresh order under the U.P. Electricity Supply Code, 2005 within two months, recording how, if at all, a mere possibility of theft can be treated as actual theft so as to make the consumer liable for the unit difference. Amounts already deposited remain to abide that order. Companion to SCJ-273 (Writ-C No. 20210 of 2012), same Bench and date; the Court did not decide whether theft in fact occurred.",
+  "facts": "M/s Kamakhya Steels Pvt. Ltd., an industrial consumer of Paschimanchal Vidyut Vitran Nigam Ltd., challenged the Executive Engineer's final assessment dated 23 October 2007 and the appellate order under the U.P. Electricity Supply Code, 2005 and the Electricity Act, 2003. Provisional assessment spanned 6 May 2007 to 16 August 2007 and 16 August 2007 to 23 October 2007. Inspection recorded tampered seals of the CT/PT chamber of the main meter and a 9.17%–19.75% difference between energy sent from the 132 kV Bijnor sub-station and the combined receipt of three consumers on the 33 kV feeder (the petitioner, M/s Jain Steel, and 33/11 kV S/S Avas Vikas). The report stated that no direct theft had been detected and inferred only a 'possibility of theft.' After a check meter was installed, the assessing authority treated the original meter as slow-running and assessed 2,97,779 additional units. The petition was connected with Writ-C No. 20210 of 2012 (SCJ-273), decided the same day by the same Bench.",
+  "holding_units": [
+    {
+      "provision": "EA2003::135",
+      "code": "Electricity Act, 2003",
+      "clause": "s.135 (theft) — possibility of theft, or a slow-running meter, is not actual theft",
+      "topic": "A checking-report 'possibility of theft' plus a check-meter finding that the original meter was slow-running cannot, without a finding of actual theft, support an assessment of additional units as theft",
+      "type": "electricity_act",
+      "question": "Can a licensee treat (i) a checking report that itself records that no direct theft was detected and infers only a 'possibility of theft' from tampered CT/PT-chamber seals and mixed-feeder losses, and (ii) a later check-meter difference showing the original meter was slow-running, as a concluded case of theft so as to charge the consumer for the unit difference?",
+      "holding": "No. The checking report concluded only a 'possibility of theft' although no direct theft had been detected. The Court held that unless a finding of electricity theft was returned — the matter not having been found to be a case of tampering with a broken seal in that sense — mere slow working of a meter with a lesser reading would not amount to theft. Liability for 2,97,779 additional units, hypothetically derived from the difference between the check meter and the original meter, could not rest on that footing. On remand the assessing authority must record how and under what circumstances a case of possibility of theft can be taken as actual theft so as to make the consumer liable for that difference.",
+      "flag": "The Court did not cite s.135 by number. Companion to SCJ-273 (Writ-C No. 20210 of 2012), same Bench and date, connected; that order remitted for findings of actual theft under s.135. Keyed accordingly. OCR reads 'tempered' for tampered.",
+      "paras": "4-8"
+    },
+    {
+      "provision": "UP-2005::5.6",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "5.6 (meter testing) — slow-running meter must be sent for technical assessment before it is treated as theft",
+      "topic": "Before treating a slow-running meter as theft, the licensee must send it for technical assessment to distinguish tampering from a manufacturing defect",
+      "type": "supply_code",
+      "question": "May the assessing authority, after installing a check meter and finding the original meter slow, charge the unit difference as theft without sending the meter for technical assessment?",
+      "holding": "No. The authority ought to have sent the meter for technical assessment to find out whether any tampering was done or whether it was a manufacturing defect. That not having been done, the conclusion that the petitioners were liable for additional units equal to the difference between the check meter and the original meter was hypothetical and unsustainable.",
+      "flag": "The Court did not cite Clause 5.6. It directed a 'technical assessment' of the meter to distinguish tampering from a manufacturing defect. Keyed to Clause 5.6 (meter testing) for indexing.",
+      "paras": "6-7"
+    },
+    {
+      "provision": "UP-2005::8.1",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "provisional/final assessment under the Code — objections must be considered; remand",
+      "topic": "A final assessment that does not consider the consumer's objections is quashed and remitted for a fresh order under the Code",
+      "type": "supply_code",
+      "question": "Is a final assessment sustainable where the consumer's objections were not properly considered, and the assessing authority converted a 'possibility of theft' and a check-meter slow-running finding into a theft demand?",
+      "holding": "No. As in the connected Writ-C No. 20210 of 2012, the objections were not accorded due consideration. The petition is allowed. The order of the final assessing authority (Executive Engineer) dated 23.10.2007 and consequential orders are quashed. The matter is remitted to the assessing authority to pass a fresh order after considering the objections and to record how a case of possibility of theft can be taken as actual theft so as to charge the check-meter unit difference. An appropriate order is to be passed under the U.P. Electricity Supply Code, 2005 within two months of production of a certified copy. Amounts already deposited remain with the respondents to abide that order.",
+      "flag": "The Court did not cite a clause number. Remand is for a fresh order 'under the U.P. Electricity Supply Code, 2005'. Keyed to Clause 8.1 (theft-assessment procedure) as in SCJ-273; the demand was styled as theft/possibility of theft. The petition also challenged the appellate order; the operative paragraph quashes the 23.10.2007 assessment and 'consequential orders'.",
+      "paras": "2, 5, 8-9"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "theft-cannot-rest-on-mere-possibility",
+      "application": "Companion to SCJ-273 (connected, same Bench and date): the checking report itself records that no direct theft was detected and infers only a possibility of theft from CT/PT-chamber seals and mixed-feeder losses. That possibility cannot, without a finding of actual theft, support an assessment of additional units. This record adds that a check-meter finding of slow running, with a lesser reading, is not theft.",
+      "lead_authorities": [],
+      "paras": "4-8"
+    },
+    {
+      "tag": "defective-meter-not-per-se-theft-distinct-assessment-regime",
+      "application": "Mere slow working of a meter with a lesser reading does not amount to theft. The assessing authority ought to have sent the meter for technical assessment to determine whether there was tampering or a manufacturing defect, instead of hypothetically charging the check-meter difference as theft units.",
+      "lead_authorities": [],
+      "paras": "6-7"
+    },
+    {
+      "tag": "assessment-must-engage-objections-with-reasons",
+      "application": "As in the connected SCJ-273, the assessing authority did not consider the consumer's objections. The 23.10.2007 assessment and consequential orders were quashed and remitted for a fresh order under the Code after considering the objections.",
+      "lead_authorities": [],
+      "paras": "5, 8"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether theft of electricity was in fact committed, and the correctness of the 2,97,779 additional units",
+      "note": "Expressly remitted. The assessing authority must record how, if at all, a possibility of theft becomes actual theft so as to charge the check-meter difference. Amounts already deposited remain pending that order.",
+      "docid": "",
+      "paras": "8-9"
+    },
+    {
+      "point": "Whether the slow running was tampering or a manufacturing defect",
+      "note": "The Court held that the meter ought to have been sent for technical assessment on that distinction; it did not itself decide the cause of the slow running.",
+      "docid": "",
+      "paras": "7"
+    },
+    {
+      "point": "Whether the demand was a theft assessment (Clause 8.1) or unauthorised-use assessment (Clause 6.8)",
+      "note": "The order speaks of theft / possibility of theft and a fresh order under the Code, without a numbered clause. Keyed to 8.1 for indexing, as in SCJ-273.",
+      "docid": "",
+      "paras": "2, 7-8"
+    }
+  ],
+  "authorities": []
+}
