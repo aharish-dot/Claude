@@ -1,0 +1,59 @@
+{
+  "case_id": "SCJ-302",
+  "title": "Spencer Retail Limited v. State of Uttar Pradesh And 4 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Ajit Kumar, J. & Garima Prashad, J.",
+  "date_of_judgment": "2026-07-20",
+  "date_display": "20 July 2026",
+  "docket": "Writ - C No. 24510 of 2026",
+  "page_count": 3,
+  "significance": "ordinary",
+  "outcome": "licensee",
+  "disposition": "Writ petition dismissed; CGRF refusal of interest waiver left undisturbed",
+  "headnote": "Where a consumer, having assailed an electricity bill, confines a writ to the instalment facility under Clause 6.14 of the U.P. Electricity Supply Code, 2005 and obtains a consent disposal (10% deposit, restoration, and consideration of an instalment application) without a merits decision on the bill, the consumer is treated as having accepted that bill. A later Consumer Grievance Redressal Forum application to waive the interest component of the same demand cannot reopen it; the Forum is not at fault for recording the earlier writ order. Interest waiver, if at all, lies with the Electricity Department. A second writ interfering with the interest would amount to reviewing the earlier consent judgment. Petition dismissed.",
+  "facts": "Spencer Retail Limited petitioned under Article 226 to quash the Consumer Grievance Redressal Forum order dated 14.11.2025, which had rejected its request to waive the interest component of a demand notice. It argued that the Corporation could itself waive that interest, so the Forum was wrong to refuse.\n\nThe same consumer had earlier filed Writ-C No. 18379 of 2025 against the bill dated 07.05.2025. On 11.06.2025 that writ was disposed of without going into merits after the consumer confined the prayer to instalment facility under the U.P. Electricity Supply Code, 2005: a 10% deposit within ten days, restoration of supply within 24 hours, and consideration of an instalment application. Instead of availing instalments, it approached the Forum to reduce the outstanding by waiving interest. Counsel for the Corporation submitted that confinement to instalments waived any challenge to the demand, that the Forum had recorded the earlier writ order, and that four equal instalments had been permitted.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.14",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.14",
+      "topic": "Confining a writ to Clause 6.14 instalments accepts the bill; CGRF cannot later waive interest",
+      "type": "supply_code",
+      "question": "After confining an earlier writ to instalment facility under the Code and obtaining a consent disposal, can the consumer have the CGRF waive interest on the same demand, and will a second writ interfere?",
+      "holding": "No. The order of 11.06.2025 in Writ-C No. 18379 of 2025 recorded that although the bill dated 07.05.2025 was assailed on various grounds, the consumer confined the prayer to instalment benefits; the writ was disposed of without going into merits, on a 10% deposit, restoration within 24 hours, and consideration of an instalment application. The consumer thereby stood satisfied with the bill. Going to the CGRF to reduce the amount by waiving interest, instead of availing instalments, and then seeking a writ against the Forum's refusal, would amount to reviewing that consent judgment. The Forum rightly recorded the earlier order. Interest waiver, if any, is for the Electricity Department, not the Forum or a second writ. Petition dismissed.",
+      "flag": "The extracted 11.06.2025 order cites Clause 6.14 / 'Section 6.14'. Paras 4, 5 and 7 of this order paraphrase the same confinement as 'Clause 6.1(4)'. Catalog has UP-2005::6.14 (instalments) and no 6.1(4). Keyed to 6.14; the 6.1(4) paraphrase is recorded, not silently corrected. The Court also records that CGRF had permitted four equal instalments.",
+      "paras": "4-10"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "installment-payment-clause-6.14",
+      "application": "Confining an earlier writ to Clause 6.14 instalments, and taking a consent disposal (part-deposit, restoration, instalment application to be considered), is treated as acceptance of the bill. A later CGRF bid to waive interest on that demand is not a route to reopen it.",
+      "lead_authorities": [],
+      "paras": "4-10"
+    },
+    {
+      "tag": "approbate-and-reprobate-bars-selective-repudiation",
+      "application": "A consumer who confined the earlier writ to instalments, and stood satisfied with the bill, cannot later attack the interest component of the same demand through the CGRF and a second writ. Interfering with the interest would review the consent judgment.",
+      "lead_authorities": [],
+      "paras": "7-10"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness or quantum of the bill dated 07.05.2025 and of the interest component",
+      "note": "The first writ was disposed of without going into merits. This writ was dismissed on the confinement/review ground; the bill was not examined.",
+      "docid": "",
+      "paras": "6-10"
+    },
+    {
+      "point": "Whether, and on what terms, the licensee should as a matter of discretion waive the interest",
+      "note": "The Court held that interest waiver, if any, is for the Electricity Department, but declined to grant it because that would review the earlier consent judgment.",
+      "docid": "",
+      "paras": "8-9"
+    }
+  ],
+  "authorities": []
+}
