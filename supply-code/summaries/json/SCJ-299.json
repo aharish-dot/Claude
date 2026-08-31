@@ -1,0 +1,63 @@
+{
+  "case_id": "SCJ-299",
+  "title": "Lalit Kumar Tripathi v. State of U.P. and 5 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Ajit Kumar, J. and Siddharth Nandan, J.",
+  "date_of_judgment": "2026-07-23",
+  "date_display": "23 July 2026",
+  "docket": "Writ - C No. 22437 of 2026",
+  "page_count": 2,
+  "significance": "ordinary",
+  "disposition": "Writ disposed of; respondent no. 5 to consider a Clause 4.4 indemnity application within two weeks, if no legal impediment; connection subject to the pending petition",
+  "headnote": "Where a co-possessor, not shown to be a tenant, has had electricity disconnected at the instance of a Sub Divisional Magistrate hearing a petition under Section 145 of the Code of Criminal Procedure, 1973, and possession is not disputed, the High Court will not itself restore the connection. It directs the licensee to consider an application for connection if there is no legal impediment, provided the applicant files the indemnity form under Clause 4.4 of the U.P. Electricity Supply Code, 2005, within two weeks; the connection remains subject to the final outcome of the pending petition. A no-objection from a rival occupant of another floor claiming sole ownership is not required where the applicant is not a tenant.",
+  "facts": "Lalit Kumar Tripathi occupies the ground floor of a house at Tulsi Nagar, Atarra, District Banda, inherited with his cousin from fathers who jointly purchased it. A disputed partition led to s.145 CrPC proceedings. The SDM caused the electricity connection (prayed as the first-floor connection at old no. 184/7084) to be disconnected. He said the SDM accepted his possession and that he is not a tenant. Respondents said an Article 227 challenge to the SDM order had been dismissed, but did not dispute possession or show he was a tenant needing a no-objection from the first-floor occupant. Licensee counsel offered a Clause 4.4 indemnity connection, subject to the pending petition.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.4",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.4",
+      "topic": "Occupier in possession (not a tenant) — connection on Clause 4.4 indemnity; subject to pending s.145 petition; no NOC from rival claimant",
+      "type": "supply_code",
+      "holding": "Respondent no. 5 is directed to consider the petitioner's application for an electricity connection if there is no legal impediment, provided he submits the indemnity form required under Clause 4.4 of the U.P. Electricity Supply Code, 2005, within two weeks. The connection is subject to the final outcome of the pending petition. The Court recorded that possession of the ground floor was not disputed and that the petitioner was not shown to be a tenant so as to require a no-objection from the first-floor occupant claiming to be sole owner. Disconnection had been only upon the SDM's order in the s.145 CrPC matter.",
+      "flag": "The writ prayer is restoration of a disconnected first-floor connection; the operative direction is to consider a fresh application on a Clause 4.4 indemnity. The body discusses ground-floor possession. Section 145 is CrPC 1973 (possession proceedings), not EA2003 s.145; catalog EA2003::145 / 4.44 / 4.49 hits are false positives and were not used.",
+      "paras": ""
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-4.4-occupant-connection-on-indemnity-bond",
+      "application": "A co-possessor whose supply was cut at the instance of an SDM in s.145 CrPC proceedings, and who is not shown to be a tenant, may be considered for connection on the Clause 4.4 indemnity form; a rival occupant claiming sole ownership need not give consent. The connection abides the pending petition.",
+      "lead_authorities": [],
+      "paras": ""
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Title, partition, and the SDM's s.145 CrPC order (including the dismissed Article 227 challenge)",
+      "note": "Respondents said the SDM order had attained finality. The Court did not reopen it. The connection is expressly subject to the final outcome of the pending petition.",
+      "docid": "",
+      "paras": ""
+    },
+    {
+      "point": "Whether Dilip (dead) through LRs. v. Satish and Others governs",
+      "note": "Cited by the petitioner; the Court did not discuss or apply it.",
+      "docid": "",
+      "paras": ""
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Dilip (dead) through LRs. v. Satish and Others",
+      "citation": "Criminal Appeal No. 810 of 2022 (from SLP (Crl.) No. 8917 of 2019), 2022 LiveLaw (SC) 570",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "The order names the decision; it does not extract a proposition.",
+      "how_treated": "Relied on by the petitioner; the Court did not discuss or apply it and disposed of the writ on Clause 4.4 indemnity.",
+      "how_treated_paras": "",
+      "cited_by": "Petitioner",
+      "treatment": "Referred"
+    }
+  ]
+}
