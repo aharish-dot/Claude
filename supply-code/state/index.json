@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 331,
+  "next_seq": 332,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -1984,6 +1984,12 @@
       "case_id": "SCJ-330",
       "source_basename": "WRIC(L)_523_2026.pdf",
       "title": "M/s Abacus India Agencies Pvt. Ltd. v. U.P. Power Corporation Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-331",
+      "source_basename": "WRIC(L)_5879_2026.pdf",
+      "title": "Ram Chandar @ Ram Chandar Pasi v. Executive Engineer, Electricity Supply Division 4th, Pratapgarh",
       "status": "done"
     }
   ]
