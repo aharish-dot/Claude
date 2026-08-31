@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 317,
+  "next_seq": 318,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -1900,6 +1900,12 @@
       "case_id": "SCJ-316",
       "source_basename": "WRIC(A)_36622_2014.pdf",
       "title": "M/s K.K. Duplex and Paper Mills Pvt. Ltd. v. Paschimanchal Vidyut Vitran Nigam Ltd. and others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-317",
+      "source_basename": "WRIC(A)_44625_2025.pdf",
+      "title": "Mohammad Jafar Ali Khan v. Uttar Pradesh Power Corporation and others",
       "status": "done"
     }
   ]
