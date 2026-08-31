@@ -1,0 +1,54 @@
+{
+  "case_id": "SCJ-301",
+  "title": "Mohan Lal v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Saurabh Shyam Shamshery, J.",
+  "date_of_judgment": "2026-07-16",
+  "date_display": "16 July 2026",
+  "docket": "Writ - C No. 24104 of 2026",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "disposition": "Writ disposed of; petitioner relegated to Clause 6.5",
+  "headnote": "A Permanent Lok Adalat order rejecting a complaint for want of compromise is not interfered with where the dispute arises out of Section 135 of the Electricity Act, 2003. Disputed facts of bill recovery are not decided in writ at the first instance. The consumer is left to apply to the Executive Engineer under Clause 6.5 of the U.P. Electricity Supply Code, 2005; an application with supporting documents is to be considered in accordance with law. The writ is disposed of with that liberty.",
+  "facts": "Mohan Lal challenged a Permanent Lok Adalat order that had rejected his complaint because the parties could not compromise, and at the same time challenged recovery of unpaid electricity bills. Counsel for the distribution company told the Court that the petitioner could still approach the Executive Engineer under Clause 6.5 of the U.P. Electricity Supply Code, 2005, with supporting documents. Counsel for the petitioner agreed the writ could be disposed of with that liberty.",
+  "holding_units": [
+    {
+      "provision": "EA2003::135",
+      "code": "Electricity Act, 2003",
+      "clause": "135",
+      "topic": "Permanent Lok Adalat rejection of a s.135-origin complaint — no interference",
+      "type": "electricity_act",
+      "holding": "There is no illegality in a Permanent Lok Adalat order rejecting a complaint for want of compromise where the dispute arises out of Section 135. Disputed facts of that kind cannot be decided in writ at the first instance.",
+      "paras": "3-4"
+    },
+    {
+      "provision": "UP-2005::6.5",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.5",
+      "topic": "Recovery of unpaid bills — relegation to Clause 6.5",
+      "type": "supply_code",
+      "holding": "A writ challenging recovery of unpaid electricity bills is disposed of without examining the bills. The consumer may apply to the Executive Engineer under Clause 6.5 with relevant documents; the grievance is to be considered in accordance with law expeditiously.",
+      "paras": "5-7",
+      "flag": "The Court records that the dispute arises out of Section 135, yet points the consumer to Clause 6.5. Recorded, not silently corrected."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Merits of the unpaid electricity bills and recovery",
+      "note": "Left to the Executive Engineer under Clause 6.5.",
+      "docid": "",
+      "paras": "4-7"
+    },
+    {
+      "point": "Disputed facts of the Section 135-origin dispute",
+      "note": "The Court held they cannot be decided in writ at the first instance.",
+      "docid": "",
+      "paras": "4"
+    }
+  ],
+  "authorities": []
+}
