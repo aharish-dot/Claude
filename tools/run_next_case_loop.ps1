@@ -121,6 +121,7 @@ $ok = 0
 $fail = 0
 $skipped = 0
 $prepFailStreak = 0
+$stencilFailStreak = 0
 
 for ($i = 1; $i -le $Count; $i++) {
   $seqBefore = Get-NextSeq
@@ -186,8 +187,14 @@ for ($i = 1; $i -le $Count; $i++) {
       Write-Log "FAIL case $i stencil write exit=$exit"
       Write-Log "  tail: $tail"
       $fail++
+      $stencilFailStreak++
+      if ($stencilFailStreak -ge 3) {
+        Write-Log "STOP: stencil write failed $stencilFailStreak times in a row on $($ticket.case_id). Fix tools/scj_stencil.py then re-run."
+        break
+      }
       continue
     }
+    $stencilFailStreak = 0
     $finArgs = @($finalizePy, $ticket.case_id, "--source", $ticket.source)
     if ($NoPush) { $finArgs += "--no-push" }
     & $py @finArgs 2>&1 | Tee-Object -FilePath $caseLog -Append

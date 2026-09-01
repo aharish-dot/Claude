@@ -39,6 +39,8 @@ EXPECTED = {
         "SCJ-300": "yes", "SCJ-301": "yes", "SCJ-306": "yes",
         # clones that missed on phrasing (move/make application, para 6.5, demand notice)
         "SCJ-327": "yes", "SCJ-331": "yes", "SCJ-333": "yes", "SCJ-335": "yes",
+        # Allahabad `Petitioner :-` caption (not Lucknow `.....Petitioner`)
+        "SCJ-358": "yes",
         # stay off stencil: no bill/dispose language; withdrawal with 6.5 liberty
         "SCJ-330": "no", "SCJ-332": "no",
     },
@@ -157,14 +159,22 @@ DOCKET_C = re.compile(
 DATE = re.compile(
     r"\b(January|February|March|April|May|June|July|August|September|October|November|December)"
     r"\s+(\d{1,2}),\s+(20\d{2})\b", re.I)
+ORDER_DATE = re.compile(
+    r"Order\s+Date\s*:-\s*(\d{1,2})\.(\d{1,2})\.(20\d{2})\b", re.I)
+NEUTRAL = re.compile(r"Neutral\s+Citation\s+No\.\s*-\s*(\S+)", re.I)
 PET = re.compile(r"(?m)^(.+?)\n\s*\.{3,}\s*Petitioner", re.I)
 APP = re.compile(r"(?m)^(.+?)\n\s*\.{3,}\s*Applicant", re.I)
 RESP = re.compile(r"(?m)^(.+?)\n\s*\.{3,}\s*Respondent", re.I)
 OPP = re.compile(r"(?m)^(.+?)\n\s*\.{3,}\s*Opposite", re.I)
+# Allahabad cause-list captions: "Petitioner :- Sahdeo Singh"
+PET_COLON = re.compile(r"(?im)^(?:Petitioners?|Applicants?)\s*:-\s*(.+)$")
+RESP_COLON = re.compile(
+    r"(?im)^(?:Respondents?|Opposite\s+Part(?:y|ies))\s*:-\s*(.+)$")
 RS = re.compile(r"Rs\.?\s*([\d,]+(?:\.\d+)?)\s*/?-?", re.I)
 CODE_YEAR = re.compile(r"Electricity\s+Supply\s+Code,?\s*(20\d{2})", re.I)
 DAYS = re.compile(
-    r"within\s+(?:a\s+period\s+of\s+)?(\d+|ten|one|two|fifteen)\s+(days?|months?)", re.I)
+    r"within\s+(?:a\s+period\s+of\s+)?(\d+|ten|one|two|fifteen)\s+"
+    r"(days?|months?|weeks?)", re.I)
 STAY = re.compile(
     r"for\s+(?:a\s+period\s+of\s+)?(\d+|ten|one|two)\s+(days?|months?).{0,80}"
     r"(?:not\s+disconnect|no\s+coercive|shall\s+not\s+disconnect)", re.I)
@@ -259,10 +269,26 @@ def parse_caption(txt: str) -> dict:
         month = MONTHS[mon.lower()]
         date_iso = f"{year}-{month:02d}-{int(day):02d}"
         date_display = datetime(int(year), month, int(day)).strftime("%d %B %Y").lstrip("0")
+    else:
+        od = ORDER_DATE.findall(txt)
+        if od:
+            day, month, year = od[-1]
+            month, day = int(month), int(day)
+            if 1 <= month <= 12 and 1 <= day <= 31:
+                date_iso = f"{year}-{month:02d}-{day:02d}"
+                date_display = datetime(int(year), month, day).strftime("%d %B %Y").lstrip("0")
     pet_m = PET.search(txt) or APP.search(txt)
     resp_m = RESP.search(txt) or OPP.search(txt)
     petitioner = title_case_name(pet_m.group(1) if pet_m else "")
     respondent = title_case_name(resp_m.group(1) if resp_m else "")
+    if not petitioner:
+        cm = PET_COLON.search(txt)
+        if cm:
+            petitioner = title_case_name(cm.group(1))
+    if not respondent:
+        cm = RESP_COLON.search(txt)
+        if cm:
+            respondent = title_case_name(cm.group(1))
     petitioner = re.sub(r"^(?:Versus|Counsel.*)$", "", petitioner, flags=re.I).strip()
     docket = ""
     dm2 = DOCKET_C.search(txt) or DOCKET_W.search(txt)
@@ -301,6 +327,7 @@ def parse_caption(txt: str) -> dict:
         jj = [j if j.endswith("J.") else f"{j}, J." for j in judges]
         coram = jj[0] if len(jj) == 1 else ", ".join(jj[:-1]) + " and " + jj[-1]
     title = f"{petitioner} v. {respondent}" if petitioner and respondent else petitioner
+    nm = NEUTRAL.search(txt)
     how = ""
     if re.search(r"\binfructuous\b", txt, re.I):
         how = "infructuous"
@@ -308,6 +335,7 @@ def parse_caption(txt: str) -> dict:
         how = "misconceived"
     return {
         "title": title,
+        "neutral_citation": nm.group(1).strip() if nm else "",
         "petitioner": petitioner,
         "respondent": respondent,
         "court": "Allahabad High Court",
@@ -530,7 +558,7 @@ def fill_65(cid: str, fp: dict, slots: dict) -> dict:
     rec = {
         "case_id": cid,
         "title": slots.get("title") or "",
-        "neutral_citation": "",
+        "neutral_citation": slots.get("neutral_citation") or "",
         "court": "Allahabad High Court",
         "bench": slots.get("bench") or "",
         "coram": slots.get("coram") or "",
@@ -594,7 +622,7 @@ def fill_contempt(cid: str, fp: dict, slots: dict) -> dict:
     return {
         "case_id": cid,
         "title": slots.get("title") or "",
-        "neutral_citation": "",
+        "neutral_citation": slots.get("neutral_citation") or "",
         "court": "Allahabad High Court",
         "bench": slots.get("bench") or "Single Judge",
         "coram": slots.get("coram") or "",
@@ -644,13 +672,22 @@ FILLERS = {
 }
 
 
+def slots_fillable(slots: dict) -> bool:
+    """True when parse_caption produced a title the filler can write."""
+    return bool((slots or {}).get("title"))
+
+
 def fill(cid: str, fp: dict, family: str, slots: dict) -> dict:
     fn = FILLERS.get(family)
     if not fn:
         raise SystemExit(f"FAILED · no filler for family {family!r}")
     rec = fn(cid, fp, slots)
-    if not rec.get("title") or not rec.get("holding_units"):
-        raise SystemExit(f"FAILED · stencil fill incomplete for {cid} ({family})")
+    missing = [k for k in ("title", "holding_units") if not rec.get(k)]
+    if missing:
+        raise SystemExit(
+            f"FAILED · stencil fill incomplete for {cid} ({family}): "
+            f"missing {', '.join(missing)}"
+        )
     return rec
 
 

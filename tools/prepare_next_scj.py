@@ -260,6 +260,7 @@ def main():
     is_stencil = (
         stencil.get("verdict") == "STENCIL"
         and stencil.get("family") in scj_stencil.LIVE
+        and scj_stencil.slots_fillable(stencil.get("slots") or {})
     )
     cites = int(fp.get("citation_count") or 0)
     short = is_short(pages, words, cites)
