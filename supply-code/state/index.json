@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 336,
+  "next_seq": 337,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -2014,6 +2014,12 @@
       "case_id": "SCJ-335",
       "source_basename": "WRIC(L)_7951_2026.pdf",
       "title": "Laxmi Narayan Mishra v. U.P. Power Corporation Ltd. & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-336",
+      "source_basename": "C372D(L)_2_2025.pdf",
+      "title": "Madhyanchal Vidyut Vitran Nigam Ltd. v. Kranti Gupta",
       "status": "done"
     }
   ]
