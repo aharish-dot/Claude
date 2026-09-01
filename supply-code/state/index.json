@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 375,
+  "next_seq": 376,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -2248,6 +2248,12 @@
       "case_id": "SCJ-374",
       "source_basename": "WRIC(A)_14458_2025.pdf",
       "title": "Jyoti Prakash Dubey v. State of Up and 3 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-375",
+      "source_basename": "WRIC(A)_14518_2006.pdf",
+      "title": "M/S Chakradhari Cold Storage Pvt. Ltd. v. Dakshinanchal Vidyut Vitran Nigam Limited And Others",
       "status": "done"
     }
   ]
