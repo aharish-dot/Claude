@@ -1,0 +1,56 @@
+{
+  "case_id": "SCJ-338",
+  "title": "Jayant Singh v. Pradeep Kumar Verma",
+  "neutral_citation": "2025:AHC-LKO:38788",
+  "court": "High Court of Judicature at Allahabad, Lucknow Bench",
+  "bench": "Single Bench",
+  "coram": "Rajeev Singh, J.",
+  "date_of_judgment": "2025-07-08",
+  "date_display": "8 July 2025",
+  "docket": "Contempt Application (Civil) No. 3361 of 2023",
+  "page_count": 9,
+  "significance": "ordinary",
+  "outcome": "none",
+  "disposition": "Contempt disposed of; occupancy certificate under Clause 4.4 still required before connection.",
+  "headnote": "Contempt of a writ directing an electricity connection within two weeks if formalities are completed is not made out where the applicant has furnished an indemnity bond under Clause 4.4 of the U.P. Electricity Supply Code, 2005 but has not produced an occupancy certificate. Clause 4.4 read with Annexure 4.2 requires that occupancy document. The application is disposed of with liberty to furnish the occupancy certificate; if the required formalities are then completed, the opposite party is expected to comply with the writ.",
+  "facts": "Jayant Singh, claiming to reside at the premises in question, sought an electricity connection from the Executive Engineer, Vidyut Vitran Khand 1st, Ayodhya. When the connection was not given he filed Writ-C No. 7126 of 2023 (Jayant Singh v. State of U.P. and others), which the High Court disposed of on 24 August 2023 with a direction to the competent officer to provide the connection within two weeks if the applicant completed the formalities. Alleging wilful defiance of that writ, he filed this civil contempt against Pradeep Kumar Verma, Executive Engineer, stating that he had submitted an indemnity bond under Clause 4.4 of the U.P. Electricity Supply Code, 2005, yet the connection was still not provided. The opposite party, on the affidavit of compliance, said documents relating to occupancy of the premises had not been annexed.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.4",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.4 r/w Annexure 4.2",
+      "topic": "occupancy certificate required in addition to indemnity bond; contempt of conditional connection writ",
+      "type": "supply_code",
+      "question": "Is contempt of a writ directing a connection if formalities are completed made out where the applicant has given an indemnity bond under Clause 4.4 but not an occupancy certificate?",
+      "holding": "No. The 24.08.2023 writ in Writ-C No. 7126 of 2023 directed the competent officer to provide the connection within two weeks if the applicant completed the formalities. An indemnity bond under Clause 4.4 does not by itself complete those formalities. On the affidavit of compliance the Court found that the occupancy certificate had not been provided. The contempt application is disposed of with liberty to furnish the occupancy certificate in accordance with Clause 4.4 read with Annexure 4.2 of the Code, 2005. If the required formalities are completed, the opposite party is expected to ensure compliance with the writ.",
+      "paras": "3-6",
+      "flag": "Contempt disposal. The Court used 'occupancy certificate' without listing the Clause 4.4 occupancy proofs (power of attorney / rent receipt / registered lease). Annexure 4.2 is the indemnity-bond proforma; the Court read it with Clause 4.4 as requiring occupancy proof as well as the bond. The writ was already conditional on completing formalities. No finding of wilful disobedience."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "occupier-needs-proof-of-occupancy-plus-indemnity-bond-clause-4.4",
+      "application": "An indemnity bond under Clause 4.4 is not enough. The occupier must also furnish an occupancy certificate under Clause 4.4 read with Annexure 4.2. Until that is done, non-release of the connection is not contempt of a writ that directed supply only if formalities were completed. Same cluster as SCJ-249.",
+      "lead_authorities": [],
+      "paras": "4-6"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the applicant is in fact in occupation of the premises.",
+      "note": "He claimed to reside at the address; the Court did not find occupancy, and required an occupancy certificate instead.",
+      "paras": "3-6"
+    },
+    {
+      "point": "Whether the 24.08.2023 writ was wilfully disobeyed.",
+      "note": "No finding of contempt; the application was disposed of because the occupancy certificate had not been furnished.",
+      "paras": "6"
+    },
+    {
+      "point": "Whether the connection must now be granted.",
+      "note": "Left to completion of the occupancy-certificate formality; if formalities are completed the opposite party is expected to comply.",
+      "paras": "6"
+    }
+  ],
+  "authorities": []
+}
