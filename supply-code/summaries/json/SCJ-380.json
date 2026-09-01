@@ -1,0 +1,89 @@
+{
+  "case_id": "SCJ-380",
+  "title": "Satyam Shukla v. State of U.P. and 3 Others",
+  "neutral_citation": "2025:AHC:113589-DB",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Arindam Sinha, J. and Dr. Yogendra Kumar Srivastava, J.",
+  "date_of_judgment": "2025-07-15",
+  "date_display": "15 July 2025",
+  "docket": "Writ - C No. 16861 of 2025",
+  "page_count": 10,
+  "significance": "significant",
+  "outcome": "consumer",
+  "disposition": "Writ allowed; provisional assessment dated 27.07.2024 set aside; remanded for fresh Section 126 assessment",
+  "headnote": "A Section 126 provisional assessment passed by the Executive Engineer as assessing officer on an inspection report of a Junior Engineer is liable to be set aside. Executive Engineer v. Sri Seetaram Rice Mill (2012) 2 SCC 108 binds the High Court: the assessing officer is to conduct the inspection and then provisionally assess. The licensee's practice of inspection by an Assistant or Junior Engineer and assessment by the Executive Engineer cannot be acted upon. A writ against such a provisional assessment is maintainable on this infirmity despite delay, unused objections, and the Section 127 appeal, which lies only against a final assessment. The Court does not examine merits or quantum. The concurring opinion remands the matter to the assessing officer to initiate Section 126 proceedings afresh in accordance with law.",
+  "facts": "Satyam Shukla challenged a provisional assessment dated 27 July 2024 passed by the Executive Engineer (respondent no. 3). After an FIR for theft of electricity under Section 135 of the Electricity Act, 2003, a checking report dated 2 July 2024 was prepared. Inspection was by a Junior Engineer — the lead opinion also refers to the Assistant Engineer. On that report the Executive Engineer, as assessing officer, made the provisional assessment, said to be under Clause 6.8/8.1 of the U.P. Electricity Supply Code, 2005. The consumer had not filed objections; no final assessment had been passed. His case was that the assessing officer could not provisionally assess without having himself inspected. The licensee said inspection by the Assistant Engineer and assessment by the Executive Engineer was the usual procedure.",
+  "holding_units": [
+    {
+      "provision": "EA2003::126",
+      "code": "Electricity Act, 2003",
+      "clause": "126",
+      "topic": "Assessing officer must himself inspect before provisionally assessing",
+      "type": "electricity_act",
+      "question": "May the Executive Engineer, as assessing officer under Section 126, pass a provisional assessment on an inspection report prepared by a Junior or Assistant Engineer who is not the assessing officer?",
+      "holding": "No. Seetaram Rice Mill is binding. Section 126 requires the assessing officer to conduct the inspection of the premises and then provisionally assess the charges. The licensee's contention that inspection is done by the Assistant Engineer and the Executive Engineer then assesses cannot be acted upon. The 27 July 2024 provisional assessment is set aside because it rests on an inspection the assessing officer did not make. The supply company may proceed afresh in accordance with law; the concurring opinion remands to respondent no. 3 to initiate Section 126 assessment proceedings afresh.",
+      "qualifier": "Lead opinion (Sinha J.) calls this a jurisdictional error. The concurring opinion (Srivastava J.) says the challenge is of procedural error — the Executive Engineer is the assessing officer — and remands. Both set aside the order because the inspection was not by the assessing officer.",
+      "paras": "lead 4-5; concurring 8-9, 21-22",
+      "flag": "Lead opinion paras 2 and 4 refer to inspection by the Assistant Engineer; para 5 and the concurring opinion refer to the Junior Engineer. The impugned order recited Clause 6.8/8.1 of the Supply Code, 2005; the Court did not decide which clause governed."
+    },
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act, 2003",
+      "clause": "127",
+      "topic": "Writ against a provisional assessment on inspection infirmity; remand, not merits",
+      "type": "electricity_act",
+      "question": "Is a writ against a Section 126 provisional assessment barred by the Section 127 appeal, or by delay, where the consumer has not filed objections and no final assessment has been passed?",
+      "holding": "No, not on this challenge. Following Seetaram Rice Mill, a Section 127 appeal lies only against a final Section 126 assessment; a provisional assessment is not appealable. The High Court may entertain a writ on an infirmity going to the root of the process, then remand; it must not decide the merits of the demand. The Court entertained the writ despite delay and the unused objection, hearing, and Section 127 path, because the sole ground urged was that the assessing officer had not inspected.",
+      "paras": "concurring 10-14, 19-22"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "s126-assessing-officer-must-personally-inspect",
+      "application": "Section 126 requires the assessing officer to conduct the inspection and then provisionally assess. A provisional assessment by the Executive Engineer founded on a Junior/Assistant Engineer's checking report is set aside; the licensee may initiate assessment afresh in accordance with that procedure.",
+      "lead_authorities": [
+        {
+          "name": "Executive Engineer v. M/s Sri Seetaram Rice Mill",
+          "docid": ""
+        }
+      ],
+      "paras": "lead 4-5; concurring 8-9, 22"
+    },
+    {
+      "tag": "whirlpool-exceptions-to-alternative-remedy-bar",
+      "application": "A writ against a Section 126 provisional assessment is entertained on the inspection-competence infirmity despite delay, unused objections, and Section 127. Seetaram Rice Mill: Section 127 lies only against a final assessment; the High Court may decide the jurisdictional/procedural point and must remand merits to the assessing officer.",
+      "lead_authorities": [
+        {
+          "name": "Executive Engineer v. M/s Sri Seetaram Rice Mill",
+          "docid": ""
+        }
+      ],
+      "paras": "concurring 10-14, 19-22"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits, quantum, and sufficiency of the material for the unauthorised-use/theft assessment",
+      "note": "Counsel did not address merits beyond the inspection infirmity. Left to the assessing officer on the fresh Section 126 proceedings.",
+      "paras": "concurring 15-16, 20"
+    },
+    {
+      "point": "Whether the demand was a theft assessment under Clause 8.1 or unauthorised use under Clause 6.8",
+      "note": "The impugned order was said to have been passed under Clause 6.8/8.1 after an FIR under Section 135. The Court did not choose between the clauses.",
+      "paras": "concurring 2, 17"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Executive Engineer v. M/s Sri Seetaram Rice Mill",
+      "citation": "(2012) 2 SCC 108",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Section 126 requires the assessing officer to inspect, form a conclusion of unauthorised use, provisionally assess, serve the order, hear objections, and pass a final assessment; a Section 127 appeal lies only against that final order. The High Court may entertain a writ against a provisional assessment on a jurisdictional issue, but must then remand merits to the assessing officer and not determine the demand.",
+      "how_treated": "Followed as binding. Applied to set aside a provisional assessment not based on the assessing officer's own inspection, and to entertain the writ then remand rather than decide quantum.",
+      "cited_by": "Petitioner",
+      "treatment": "Followed"
+    }
+  ]
+}
