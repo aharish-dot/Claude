@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 386,
+  "next_seq": 387,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -2314,6 +2314,12 @@
       "case_id": "SCJ-385",
       "source_basename": "WRIC(A)_1806_2025.pdf",
       "title": "Swabhiman Breweries Private Limited v. Uttar Pradesh Power Corporation Limited",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-386",
+      "source_basename": "WRIC(A)_18215_2025.pdf",
+      "title": "Satya Prakash Katara v. Junior Engineer, Dakshinanchal Vidyut Vitran Nigam Ltd.",
       "status": "done"
     }
   ]
