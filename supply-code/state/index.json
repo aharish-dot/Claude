@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 337,
+  "next_seq": 338,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -2020,6 +2020,12 @@
       "case_id": "SCJ-336",
       "source_basename": "C372D(L)_2_2025.pdf",
       "title": "Madhyanchal Vidyut Vitran Nigam Ltd. v. Kranti Gupta",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-337",
+      "source_basename": "CAPL(A)_1285_2025.pdf",
+      "title": "M/s S.K. Rice Mill v. Aditya Pandey",
       "status": "done"
     }
   ]
