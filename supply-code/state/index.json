@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 431,
+  "next_seq": 432,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -2584,6 +2584,12 @@
       "case_id": "SCJ-430",
       "source_basename": "WRIC(A)_33604_2025.pdf",
       "title": "Akriti Food Industry LLP v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-431",
+      "source_basename": "WRIC(A)_33704_2025.pdf",
+      "title": "Anshul Varshney v. State of U.P. & Ors.",
       "status": "done"
     }
   ]
