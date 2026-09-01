@@ -4,7 +4,7 @@
   "keyed_by": "supply_code_provision + principle",
   "case_count": 336,
   "provision_count": 164,
-  "authority_count": 447,
+  "authority_count": 448,
   "cases": [
     {
       "case_id": "SCJ-001",
@@ -2590,10 +2590,12 @@
       "case_id": "SCJ-259",
       "title": "Devanshu Bose v. Electricity Ombudsman, Lucknow and 4 Others",
       "neutral_citation": "2026 SCC OnLine All 9193",
-      "court": "Allahabad High Court (Principal Bench, Allahabad)",
-      "date": "28 April 2026",
-      "disposition": "Interim/procedural order; affidavit disclosure directed and matter adjourned (listed 14.5.2026)",
+      "court": "High Court of Judicature at Allahabad",
+      "date": "21 May 2026",
+      "disposition": "Still interlocutory; listed 9 July 2026 at 2:00 p.m. for rejoinder and licensee's no-theft affidavit.",
       "holding_units": 1,
+      "page_count": 2,
+      "significance": "ordinary",
       "outcome": "pending"
     },
     {
@@ -2830,11 +2832,13 @@
       "case_id": "SCJ-283",
       "title": "M/S Om Food Manufacturing Center v. State of U.P. & 2 Others",
       "neutral_citation": "",
-      "court": "Allahabad High Court",
-      "date": "23 April 2026",
-      "disposition": "Interlocutory order; listed 6 May 2026 as fresh. The demand is stayed till the next date of hearing. The licensee is to demonstrate the provision under which it can raise a demand on bills already paid. Merits and Clause 6.5 maintainability not decided.",
+      "court": "High Court of Judicature at Allahabad",
+      "date": "6 May 2026",
+      "disposition": "Writ allowed; licensee to present a proper mistake-calculation for payment; recovery only by civil suit, not disconnection.",
       "holding_units": 1,
-      "outcome": "pending"
+      "page_count": 8,
+      "significance": "significant",
+      "outcome": "consumer"
     },
     {
       "case_id": "SCJ-284",
@@ -2898,13 +2902,13 @@
       "case_id": "SCJ-289",
       "title": "Pradeep Singh v. State of U.P. & 2 Others",
       "neutral_citation": "",
-      "court": "Allahabad High Court",
-      "date": "18 May 2026",
-      "disposition": "Listed 10 July 2026 as fresh; 28 March 2026 demand stayed till next date",
+      "court": "High Court of Judicature at Allahabad",
+      "date": "15 July 2026",
+      "disposition": "Writ disposed; relegated to s.127(1) appeal; no coercive recovery for four months subject to pre-deposit.",
       "holding_units": 1,
-      "page_count": 2,
-      "significance": "procedural",
-      "outcome": "pending"
+      "page_count": 3,
+      "significance": "ordinary",
+      "outcome": "alternate_remedy"
     },
     {
       "case_id": "SCJ-290",
@@ -4375,6 +4379,18 @@
           "outcome": "consumer"
         },
         {
+          "case_id": "SCJ-289",
+          "title": "Pradeep Singh v. State of U.P. & 2 Others",
+          "neutral_citation": "",
+          "court": "High Court of Judicature at Allahabad",
+          "date": "15 July 2026",
+          "type": "electricity_act",
+          "topic": "unmetered-energisation-versus-theft-is-disputed-fact-relegated-to-s.127",
+          "holding": "Whether the connection was energised on 4 September 2024 as the Connection Energisation Certificate states, or only after installation of the meter, is a disputed question of fact that cannot be adjudicated in writ jurisdiction. The petitioner is relegated to the statutory appeal under Section 127(1). If the appeal is filed within one month, the appellate authority shall decide it preferably within two months of filing, without entering into limitation. No coercive steps on the 28 March 2026 demand for four months from this order or until the appeal is decided, whichever is earlier, subject to the pre-deposit under Section 127.",
+          "paras": "4-8",
+          "outcome": "alternate_remedy"
+        },
+        {
           "case_id": "SCJ-305",
           "title": "Saurabh Agarwal v. State of U.P. And 3 Others",
           "neutral_citation": "2026:AHC:137492-DB",
@@ -5235,6 +5251,19 @@
           "holding": "Electricity dues under the Act and the terms and conditions of supply are statutory in character, cannot be waived in view of Section 56, and do not partake of the character of purely contractual dues. A condition that the arrears in respect of the premises be cleared before a fresh connection is granted is neither arbitrary nor unreasonable and will not be interfered with in judicial review; and such dues are recoverable as arrears of land revenue under the U.P. Government Electrical Undertakings (Dues Recovery) Act, 1958 read with Clause 6.15.",
           "paras": "25-26, 41-44",
           "outcome": "licensee"
+        },
+        {
+          "case_id": "SCJ-283",
+          "title": "M/S Om Food Manufacturing Center v. State of U.P. & 2 Others",
+          "neutral_citation": "",
+          "court": "High Court of Judicature at Allahabad",
+          "date": "6 May 2026",
+          "type": "electricity_act",
+          "topic": "supplementary demand after paid bills — no disconnection, no upward revision, civil recovery only",
+          "holding": "A subsequent demand on discovery of a billing mistake can be made under Section 56 as declared in Rahamatullah Khan, but there cannot be recovery to the distress of the consumer. Section 56(1) provides 15 days' written notice including disconnection; sub-section (2) is limitation; Rahamatullah Khan says coercive action cannot be taken, so the licensee must obtain a civil remedy for the principal (and may claim interest in that action). There cannot be upward revision of the demand after it is made. Notices that allege discovery of a mistake without stating a bona fide error, without opportunity to test correctness, and without particulars of charge and rebate, are deficient. The supply company is directed to present the discovery of mistake and a proper calculation with applicable rebate for payment within the prescribed time; on non-payment it must sue. Prem Cottex distinguished Rahamatullah Khan on facts and did not overrule it. Writ allowed and disposed of.",
+          "paras": "4-7",
+          "outcome": "consumer",
+          "flag": "The bound source PDF also contains the 23 April 2026 interlocutory order (demand stayed; listed 6 May 2026). Clause 6.5 was invoked as a maintainability bar on 23 April and was not applied or decided on 6 May."
         }
       ]
     },
@@ -6310,19 +6339,6 @@
           "paras": "unnumbered order (full text)",
           "outcome": "pending",
           "flag": "Bare procedural adjournment order with no substantive content; recorded only for corpus completeness per this project's master-citation-ledger convention."
-        },
-        {
-          "case_id": "SCJ-289",
-          "title": "Pradeep Singh v. State of U.P. & 2 Others",
-          "neutral_citation": "",
-          "court": "Allahabad High Court",
-          "date": "18 May 2026",
-          "type": "interplay",
-          "topic": "Listing; written explanation of unmetered energisation; interim stay of reduced demand",
-          "holding": "Listed 10 July 2026 as fresh. The licensee is to issue a written explanation of why the connection was given without installing a meter, including whether the seal was tampered to join wires or why a live wire was left unsealed with no meter, and why the wire was laid without installing a meter. The impugned demand dated 28 March 2026 remains stayed till the next date of hearing. No clause of the Supply Code was construed.",
-          "paras": "3-4",
-          "outcome": "pending",
-          "flag": "Listing/interlocutory only. The Supply Code was invoked solely as a maintainability objection (dispute under the Code); no clause applied."
         },
         {
           "case_id": "SCJ-290",
@@ -7795,21 +7811,22 @@
       ]
     },
     "UP-2005::4.9": {
-      "code": "U.P. Electricity Supply Code, 2005",
-      "clause": "4.9 Part A, sub-clause (j)",
-      "topic": "Common-facility connection to be applied for by developer/RWA; disclosure directed (interim)",
+      "code": "UP-2005",
+      "clause": "4.9 Part A(j) (Thirteenth Amendment, 2018)",
+      "topic": "gated-colony-prepaid-meters-reference-meter-and-permitted-line-loss",
       "cases": [
         {
           "case_id": "SCJ-259",
           "title": "Devanshu Bose v. Electricity Ombudsman, Lucknow and 4 Others",
           "neutral_citation": "2026 SCC OnLine All 9193",
-          "court": "Allahabad High Court (Principal Bench, Allahabad)",
-          "date": "28 April 2026",
+          "court": "High Court of Judicature at Allahabad",
+          "date": "21 May 2026",
           "type": "supply_code",
-          "topic": "Common-facility connection to be applied for by developer/RWA; disclosure directed (interim)",
-          "holding": "Interim only. The Court observed that Clause 4.9 Part A(j) mandates the developer/Residents' Welfare Association to apply for the connection in respect of common facilities, and directed the supply company to disclose by affidavit the relevant application and the basis on which it can demand and recover common-facility charges from individual residents; the matter was adjourned. No final view was expressed.",
-          "paras": "3-5",
-          "outcome": "pending"
+          "topic": "gated-colony-prepaid-meters-reference-meter-and-permitted-line-loss",
+          "holding": "Under clause (j) of amended Part A (Electricity Supply Code (Thirteenth Amendment), 2018), separate connections to individuals follow a prescribed new-connection application; the licensee may install a reference meter; energy difference up to 4%/5% is allowed for transformation and LT losses; difference beyond that for a billing cycle is added to common-services consumption. A resident alleging that the difference is theft must demonstrate the theft and indicate the point from which it is taking place; the negative cannot be proved. The supply company must inspect and file an affidavit that there is no theft in the residences. Rejoinder and that affidavit to be taken on the adjourned date. Listed 9 July 2026 at 2:00 p.m. The 28 April 2026 direction for disclosure of the developer/RWA common-facility application under Clause 4.9 Part A(j) remains part of the interlocutory record. No final view on recoverability.",
+          "paras": "1, 3-4",
+          "outcome": "pending",
+          "flag": "Interlocutory. The 21 May 2026 order cites the Thirteenth Amendment, 2018, clause (j) under amended Part A (reference meter; 4%/5% loss). The 28 April 2026 order cited Clause 4.9 Part A(j) of the 2005 Code (developer/RWA common-facility application). Keyed to UP-2005::4.9. No final ratio."
         }
       ]
     },
@@ -8473,19 +8490,6 @@
           "paras": "1-4",
           "outcome": "none",
           "flag": "This Court recites the earlier writ's Clause 6.5 relegation and decides only that it has been complied with. Indexed under 6.5 because that is the provision the writ order applied (the underlying writ is not itself in the corpus). No independent construction of the clause."
-        },
-        {
-          "case_id": "SCJ-283",
-          "title": "M/S Om Food Manufacturing Center v. State of U.P. & 2 Others",
-          "neutral_citation": "",
-          "court": "Allahabad High Court",
-          "date": "23 April 2026",
-          "type": "supply_code",
-          "topic": "Licensee's post-payment demand on 'incorrect' bills — Clause 6.5 relegation not applied; demand stayed pending demonstration of the authorizing provision",
-          "holding": "The Court did not relegate to Clause 6.5 and did not decide maintainability. It recorded that the supply company is raising a dispute in respect of bills already paid and due discharge obtained by the petitioner, because (on the licensee's case) there was omission and incorrect bills were raised. On query, licensee's counsel sought adjournment to demonstrate the applicable provision under which the supply company can raise a demand on incorrect bills. Adjournment was granted; the demand remains stayed till the next date of hearing; listed 6 May 2026 as fresh.",
-          "paras": "1-5",
-          "outcome": "pending",
-          "flag": "Interlocutory only — listed 6.5.2026. Clause 6.5 was invoked by the licensee as a maintainability bar (the usual consumer bill-dispute channel: SCJ-013, SCJ-046, SCJ-083); this order does not apply it. Companion contrast: those cases relegate the consumer; here the Court treated the dispute as the licensee's, about already-discharged bills."
         },
         {
           "case_id": "SCJ-284",
@@ -12919,11 +12923,16 @@
           "case_id": "SCJ-283",
           "title": "M/S Om Food Manufacturing Center v. State of U.P. & 2 Others",
           "neutral_citation": "",
-          "court": "Allahabad High Court",
-          "date": "23 April 2026",
-          "application": "Interlocutory. Where the licensee, after due discharge of bills, raises a later demand on the footing that those bills were omitted or incorrect, the writ court stayed the demand and required the licensee to demonstrate the Code/Act provision that authorises it. Clause 6.5 was not applied as a bar.",
-          "lead_authorities": [],
-          "paras": "3-4"
+          "court": "High Court of Judicature at Allahabad",
+          "date": "6 May 2026",
+          "application": "After due discharge of bills, a later demand on alleged licensee mistake is confined to Section 56 as read in Rahamatullah Khan: additional demand may be raised, disconnection may not, and the demand cannot be progressively increased. The licensee must particularise the mistake and calculation, then sue if unpaid.",
+          "lead_authorities": [
+            {
+              "name": "Assistant Engineer, Ajmer Vidyut Vitran Nigam Ltd. v. Rahamatullah Khan alias Rahamjulla",
+              "docid": "SCJ-009"
+            }
+          ],
+          "paras": "4-6"
         },
         {
           "case_id": "SCJ-284",
@@ -16725,6 +16734,14 @@
           "treatment": "Distinguished",
           "how_treated": "Distinguished: it dealt only with Section 56(2) (not Clause 6.15) and with a supplementary bill, whereas here a fresh bill was issued for over two years for the licensee's own error.",
           "paras": "13-15"
+        },
+        {
+          "case_id": "SCJ-283",
+          "title": "M/S Om Food Manufacturing Center v. State of U.P. & 2 Others",
+          "cited_by": "Court",
+          "treatment": "Applied",
+          "how_treated": "",
+          "paras": ""
         }
       ]
     },
@@ -20056,6 +20073,23 @@
           "treatment": "Referred",
           "how_treated": "Referred (through Ashok Kumar) for the three exceptions, held inapplicable here.",
           "paras": "unnumbered order"
+        }
+      ]
+    },
+    "M/s Prem Cottex v. Uttar Haryana Bijli Vitran Nigam Ltd.": {
+      "name": "M/s Prem Cottex v. Uttar Haryana Bijli Vitran Nigam Ltd.",
+      "citation": "(2021) 20 SCC 200",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Rahamatullah Khan was distinguished on facts; the licensee was still prevented from disconnecting and left to other remedies.",
+      "cited_in": [
+        {
+          "case_id": "SCJ-283",
+          "title": "M/S Om Food Manufacturing Center v. State of U.P. & 2 Others",
+          "cited_by": "Respondent",
+          "treatment": "Referred",
+          "how_treated": "",
+          "paras": ""
         }
       ]
     },
@@ -25821,10 +25855,19 @@
       "case_id": "SCJ-259",
       "title": "Devanshu Bose v. Electricity Ombudsman, Lucknow and 4 Others",
       "neutral_citation": "2026 SCC OnLine All 9193",
-      "court": "Allahabad High Court (Principal Bench, Allahabad)",
-      "date": "28 April 2026",
-      "point": "Whether and how common-facility/line-loss charges may be recovered from individual residents",
-      "note": "Left for adjudication after affidavit disclosure by the supply company; matter adjourned to 14.5.2026."
+      "court": "High Court of Judicature at Allahabad",
+      "date": "21 May 2026",
+      "point": "Whether and how common-facility or line-loss charges may be recovered from individual residents",
+      "note": ""
+    },
+    {
+      "case_id": "SCJ-259",
+      "title": "Devanshu Bose v. Electricity Ombudsman, Lucknow and 4 Others",
+      "neutral_citation": "2026 SCC OnLine All 9193",
+      "court": "High Court of Judicature at Allahabad",
+      "date": "21 May 2026",
+      "point": "Whether the billed difference is theft of electricity",
+      "note": ""
     },
     {
       "case_id": "SCJ-260",
@@ -26118,28 +26161,19 @@
       "case_id": "SCJ-283",
       "title": "M/S Om Food Manufacturing Center v. State of U.P. & 2 Others",
       "neutral_citation": "",
-      "court": "Allahabad High Court",
-      "date": "23 April 2026",
-      "point": "Whether the writ is not maintainable and the consumer must raise a Clause 6.5 bill dispute",
-      "note": "Invoked by the licensee; not decided. Adjournment granted instead."
+      "court": "High Court of Judicature at Allahabad",
+      "date": "6 May 2026",
+      "point": "Whether the writ was not maintainable because a bill dispute must be raised under Clause 6.5",
+      "note": ""
     },
     {
       "case_id": "SCJ-283",
       "title": "M/S Om Food Manufacturing Center v. State of U.P. & 2 Others",
       "neutral_citation": "",
-      "court": "Allahabad High Court",
-      "date": "23 April 2026",
-      "point": "Whether, and under which provision, the licensee can raise a demand on bills already paid / said to have been incorrectly raised",
-      "note": "Expressly left for the licensee to demonstrate at the adjourned hearing."
-    },
-    {
-      "case_id": "SCJ-283",
-      "title": "M/S Om Food Manufacturing Center v. State of U.P. & 2 Others",
-      "neutral_citation": "",
-      "court": "Allahabad High Court",
-      "date": "23 April 2026",
-      "point": "Correctness or quantum of the demand (in excess of Rs. 54 lacs) and whether there was a 'mistake in connection'",
-      "note": "Not decided; demand stayed. No theft allegation on the record of this order."
+      "court": "High Court of Judicature at Allahabad",
+      "date": "6 May 2026",
+      "point": "Whether the alleged mistake was bona fide, and the correctness of the Rs. 54 lakh / Rs. 62 lakh figures",
+      "note": ""
     },
     {
       "case_id": "SCJ-284",
@@ -26244,28 +26278,19 @@
       "case_id": "SCJ-289",
       "title": "Pradeep Singh v. State of U.P. & 2 Others",
       "neutral_citation": "",
-      "court": "Allahabad High Court",
-      "date": "18 May 2026",
-      "point": "Whether the writ is maintainable because the consumer can raise a dispute under the U.P. Electricity Supply Code, 2005",
-      "note": "Raised by licensee's counsel; not decided."
+      "court": "High Court of Judicature at Allahabad",
+      "date": "15 July 2026",
+      "point": "Whether the connection was energised on 4 September 2024 without a meter, or the petitioner joined the wires (theft)",
+      "note": ""
     },
     {
       "case_id": "SCJ-289",
       "title": "Pradeep Singh v. State of U.P. & 2 Others",
       "neutral_citation": "",
-      "court": "Allahabad High Court",
-      "date": "18 May 2026",
-      "point": "Whether a connection was given without installing a meter, or the petitioner joined the wires (theft)",
-      "note": "Petitioner says supply was given unmetered after fees and formalities; licensee says no connection was given. Court asked for a written explanation; no finding."
-    },
-    {
-      "case_id": "SCJ-289",
-      "title": "Pradeep Singh v. State of U.P. & 2 Others",
-      "neutral_citation": "",
-      "court": "Allahabad High Court",
-      "date": "18 May 2026",
-      "point": "Whether the reduced demand dated 28 March 2026 should be quashed",
-      "note": "The relief sought; only stayed till the next date."
+      "court": "High Court of Judicature at Allahabad",
+      "date": "15 July 2026",
+      "point": "Whether the reduced demand dated 28 March 2026 should be quashed on the merits",
+      "note": ""
     },
     {
       "case_id": "SCJ-290",

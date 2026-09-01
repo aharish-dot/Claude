@@ -2,36 +2,40 @@
   "case_id": "SCJ-259",
   "title": "Devanshu Bose v. Electricity Ombudsman, Lucknow and 4 Others",
   "neutral_citation": "2026 SCC OnLine All 9193",
-  "court": "Allahabad High Court (Principal Bench, Allahabad)",
+  "court": "High Court of Judicature at Allahabad",
   "bench": "Division Bench",
-  "coram": "Arindam Sinha, J. & Satya Veer Singh, J.",
-  "date_of_judgment": "2026-04-28",
-  "date_display": "28 April 2026",
+  "coram": "Arindam Sinha, J. and Satya Veer Singh, J.",
+  "date_of_judgment": "2026-05-21",
+  "date_display": "21 May 2026",
   "docket": "Writ - C No. 15943 of 2026",
-  "disposition": "Interim/procedural order; affidavit disclosure directed and matter adjourned (listed 14.5.2026)",
-  "headnote": "Interim order (no final adjudication). A resident of a gated housing colony complained that the difference between the electricity billed to the colony and the aggregate consumption recorded by the residents' prepaid house meters - alleged to represent theft, not the residents' own consumption - was being recovered from individual residents as 'common services' charges. The Court noted that under Clause 4.9 Part A, sub-clause (j) of the U.P. Electricity Supply Code, 2005 the developer/Residents' Welfare Association is mandated to apply for the connection in respect of common facilities, and directed the supply company to disclose, by affidavit, that application and the basis on which it can demand and recover common-facility charges from individual residents; the matter was adjourned. Recorded for corpus completeness; carries no final ratio.",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "pending",
+  "disposition": "Still interlocutory; listed 9 July 2026 at 2:00 p.m. for rejoinder and licensee's no-theft affidavit.",
+  "headnote": "In a gated colony with prepaid house meters, the licensee may, under clause (j) of amended Part A of the Electricity Supply Code (Thirteenth Amendment), 2018, give individual connections on application and install a reference meter. Energy difference up to 4%/5% is allowed for transformation and LT losses; any excess is added to common-services consumption. A resident who says that difference is theft must demonstrate the theft (the negative cannot be proved) and indicate the point from which it is taking place. The licensee must inspect and file an affidavit that there is no theft in the residences. An earlier 28 April 2026 order had directed disclosure of the developer/RWA common-facility application under Clause 4.9 Part A(j). No final ratio yet.",
+  "facts": "Devanshu Bose, a resident of a gated housing colony, appeared in person. He says there is a huge difference between electricity billed as supplied to the colony and the aggregate of prepaid house meters, and that this difference is recovered from residents as common-services charges though it is theft, not their consumption. On 28 April 2026 the Court noted Clause 4.9 Part A(j) (developer/RWA to apply for the common-facility connection) and directed the supply company to disclose that application by affidavit; listed 14 May 2026 with Writ-C No. 15954 of 2026. On 21 May 2026 the supply company filed a counter relying on the 2018 Thirteenth Amendment, clause (j) under amended Part A: residents' 29 August 2020 application led to prepaid meters; a reference meter was installed; difference beyond 4%/5% was added to common services.",
   "holding_units": [
     {
       "provision": "UP-2005::4.9",
-      "code": "U.P. Electricity Supply Code, 2005",
-      "clause": "4.9 Part A, sub-clause (j)",
-      "topic": "Common-facility connection to be applied for by developer/RWA; disclosure directed (interim)",
+      "code": "UP-2005",
+      "clause": "4.9 Part A(j) (Thirteenth Amendment, 2018)",
+      "topic": "gated-colony-prepaid-meters-reference-meter-and-permitted-line-loss",
       "type": "supply_code",
-      "question": "On what basis may charges for consumption on common facilities be demanded from individual residents (interim consideration)?",
-      "holding": "Interim only. The Court observed that Clause 4.9 Part A(j) mandates the developer/Residents' Welfare Association to apply for the connection in respect of common facilities, and directed the supply company to disclose by affidavit the relevant application and the basis on which it can demand and recover common-facility charges from individual residents; the matter was adjourned. No final view was expressed.",
-      "limiting_facts": "Gated colony; difference between bulk supply and aggregate prepaid-meter consumption sought from residents as common-services charges, alleged to be recovery of theft; affidavit disclosure directed.",
-      "paras": "3-5"
+      "holding": "Under clause (j) of amended Part A (Electricity Supply Code (Thirteenth Amendment), 2018), separate connections to individuals follow a prescribed new-connection application; the licensee may install a reference meter; energy difference up to 4%/5% is allowed for transformation and LT losses; difference beyond that for a billing cycle is added to common-services consumption. A resident alleging that the difference is theft must demonstrate the theft and indicate the point from which it is taking place; the negative cannot be proved. The supply company must inspect and file an affidavit that there is no theft in the residences. Rejoinder and that affidavit to be taken on the adjourned date. Listed 9 July 2026 at 2:00 p.m. The 28 April 2026 direction for disclosure of the developer/RWA common-facility application under Clause 4.9 Part A(j) remains part of the interlocutory record. No final view on recoverability.",
+      "paras": "1, 3-4",
+      "flag": "Interlocutory. The 21 May 2026 order cites the Thirteenth Amendment, 2018, clause (j) under amended Part A (reference meter; 4%/5% loss). The 28 April 2026 order cited Clause 4.9 Part A(j) of the 2005 Code (developer/RWA common-facility application). Keyed to UP-2005::4.9. No final ratio."
     }
   ],
   "principle_tags": [],
   "not_decided": [
     {
-      "point": "Whether and how common-facility/line-loss charges may be recovered from individual residents",
-      "note": "Left for adjudication after affidavit disclosure by the supply company; matter adjourned to 14.5.2026.",
-      "docid": "",
-      "paras": "4-5"
+      "point": "Whether and how common-facility or line-loss charges may be recovered from individual residents",
+      "paras": "1, 3-4"
+    },
+    {
+      "point": "Whether the billed difference is theft of electricity",
+      "paras": "3"
     }
   ],
-  "authorities": [],
-  "outcome": "pending"
+  "authorities": []
 }

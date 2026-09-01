@@ -2,50 +2,39 @@
   "case_id": "SCJ-289",
   "title": "Pradeep Singh v. State of U.P. & 2 Others",
   "neutral_citation": "",
-  "court": "Allahabad High Court",
+  "court": "High Court of Judicature at Allahabad",
   "bench": "Division Bench",
-  "coram": "Arindam Sinha, J. & Satya Veer Singh, J.",
-  "date_of_judgment": "2026-05-18",
-  "date_display": "18 May 2026",
+  "coram": "Saral Srivastava, J. and Sudhanshu Chauhan, J.",
+  "date_of_judgment": "2026-07-15",
+  "date_display": "15 July 2026",
   "docket": "Writ - C No. 15707 of 2026",
-  "page_count": 2,
-  "significance": "procedural",
-  "disposition": "Listed 10 July 2026 as fresh; 28 March 2026 demand stayed till next date",
-  "headnote": "On a writ to quash a reduced assessment after energisation without a meter and a subsequent theft FIR, the Division Bench listed the petition as fresh for 10 July 2026, directed the licensee to explain in writing why a connection was given without installing a meter (including seal/live-wire and laying wire without a meter), and stayed the Executive Engineer's demand dated 28 March 2026 till the next date. Maintainability under the U.P. Electricity Supply Code, 2005, and the theft versus unmetered-connection controversy were not decided.",
-  "facts": "Pradeep Singh applied for a connection on 4 September 2024, tendered fees and completed formalities. Supply was given without a meter. On 13 September 2024 enforcement alleged theft and an FIR was registered; a meter was installed the next day. The licensee raised a large bill, later reduced after an earlier writ. He now challenges the Executive Engineer's 28 March 2026 order raising that reduced demand. The licensee says no connection was given and the petitioner joined the wires.",
+  "page_count": 3,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "disposition": "Writ disposed; relegated to s.127(1) appeal; no coercive recovery for four months subject to pre-deposit.",
+  "headnote": "Whether a connection was energised on the date of the Connection Energisation Certificate (4 September 2024) or only after a meter was installed (and therefore whether the intervening supply was theft) is a disputed question of fact that cannot be decided under Article 226. The consumer is relegated to an appeal under Section 127(1) of the Electricity Act, 2003, to be filed within one month and decided within two months without a limitation objection. No coercive recovery on the 28 March 2026 demand for four months or until the appeal is decided, whichever is earlier, subject to statutory pre-deposit. An earlier 18 May 2026 order of a different Bench had stayed that demand and required a written explanation of unmetered energisation; this disposal supersedes it.",
+  "facts": "Pradeep Singh applied for a connection on 4 September 2024, tendered fees and completed formalities. He produced a Connection Energisation Certificate showing release that day. On 13 September 2024 enforcement alleged theft and an FIR was registered; a meter was installed the next day. The licensee raised a large bill, later reduced after an earlier writ; he challenged the Executive Engineer's 28 March 2026 reduced demand. On 18 May 2026 (Arindam Sinha and Satya Veer Singh, JJ.) the demand was stayed and the licensee was asked why a connection was given without a meter; the licensee said no connection was given and the petitioner joined the wires. On 15 July 2026 a different Division Bench heard the matter. The licensee said the connection number was allotted on application but energised only after the meter, hence theft. The petitioner relied on the energisation certificate.",
   "holding_units": [
     {
-      "provision": "OFFTOPIC::procedural-listing",
-      "code": "Not applicable",
-      "clause": "procedural-listing",
-      "topic": "Listing; written explanation of unmetered energisation; interim stay of reduced demand",
-      "type": "interplay",
-      "holding": "Listed 10 July 2026 as fresh. The licensee is to issue a written explanation of why the connection was given without installing a meter, including whether the seal was tampered to join wires or why a live wire was left unsealed with no meter, and why the wire was laid without installing a meter. The impugned demand dated 28 March 2026 remains stayed till the next date of hearing. No clause of the Supply Code was construed.",
-      "paras": "3-4",
-      "flag": "Listing/interlocutory only. The Supply Code was invoked solely as a maintainability objection (dispute under the Code); no clause applied."
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127(1)",
+      "topic": "unmetered-energisation-versus-theft-is-disputed-fact-relegated-to-s.127",
+      "type": "electricity_act",
+      "holding": "Whether the connection was energised on 4 September 2024 as the Connection Energisation Certificate states, or only after installation of the meter, is a disputed question of fact that cannot be adjudicated in writ jurisdiction. The petitioner is relegated to the statutory appeal under Section 127(1). If the appeal is filed within one month, the appellate authority shall decide it preferably within two months of filing, without entering into limitation. No coercive steps on the 28 March 2026 demand for four months from this order or until the appeal is decided, whichever is earlier, subject to the pre-deposit under Section 127.",
+      "paras": "4-8"
     }
   ],
   "principle_tags": [],
   "not_decided": [
     {
-      "point": "Whether the writ is maintainable because the consumer can raise a dispute under the U.P. Electricity Supply Code, 2005",
-      "note": "Raised by licensee's counsel; not decided.",
-      "docid": "",
-      "paras": "2"
+      "point": "Whether the connection was energised on 4 September 2024 without a meter, or the petitioner joined the wires (theft)",
+      "paras": "3-5"
     },
     {
-      "point": "Whether a connection was given without installing a meter, or the petitioner joined the wires (theft)",
-      "note": "Petitioner says supply was given unmetered after fees and formalities; licensee says no connection was given. Court asked for a written explanation; no finding.",
-      "docid": "",
-      "paras": "1, 3"
-    },
-    {
-      "point": "Whether the reduced demand dated 28 March 2026 should be quashed",
-      "note": "The relief sought; only stayed till the next date.",
-      "docid": "",
-      "paras": "1, 4"
+      "point": "Whether the reduced demand dated 28 March 2026 should be quashed on the merits",
+      "paras": "6-8"
     }
   ],
-  "authorities": [],
-  "outcome": "pending"
+  "authorities": []
 }
