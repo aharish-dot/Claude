@@ -41,6 +41,10 @@ param(
 )
 
 $ErrorActionPreference = "Stop"
+# Native stderr (Python tracebacks, Chrome) must not become terminating
+# ErrorRecords. Windows PowerShell wraps 2>&1 lines as errors; with Stop
+# the first "Traceback..." line kills the loop and hides the rest.
+$PSNativeCommandUseErrorActionPreference = $false
 
 if (-not $RepoRoot) {
   $RepoRoot = Split-Path -Parent (Split-Path -Parent $MyInvocation.MyCommand.Path)
@@ -76,6 +80,8 @@ New-Item -ItemType Directory -Force -Path $logDir | Out-Null
 $stamp = Get-Date -Format "yyyyMMdd_HHmmss"
 $logFile = Join-Path $logDir "next_case_loop_$stamp.log"
 $py = if (Get-Command python -ErrorAction SilentlyContinue) { "python" } else { "python3" }
+# UTF-8 mode so child Python open() is not cp1252 on this Windows box.
+$env:PYTHONUTF8 = "1"
 
 function Write-Log([string]$msg) {
   $line = "[{0}] {1}" -f (Get-Date -Format "HH:mm:ss"), $msg
@@ -91,6 +97,39 @@ function Get-NextSeq {
 function Get-Ticket {
   if (-not (Test-Path $ticketPath)) { return $null }
   return (Get-Content $ticketPath -Raw -Encoding UTF8 | ConvertFrom-Json)
+}
+
+function Invoke-LoggedNative {
+  param(
+    [Parameter(Mandatory = $true)][string]$File,
+    [Parameter(Mandatory = $true)][string[]]$Arguments,
+    [string]$LogPath = "",
+    [switch]$Append
+  )
+  $prev = $ErrorActionPreference
+  $ErrorActionPreference = "Continue"
+  $code = 1
+  try {
+    # Stringify ErrorRecords so a Python traceback is logged in full instead
+    # of the pipeline dying on the first "Traceback..." line.
+    if ($LogPath) {
+      if ($Append) {
+        & $File @Arguments 2>&1 | ForEach-Object { $_.ToString() } | Tee-Object -FilePath $LogPath -Append | Out-Host
+      } else {
+        & $File @Arguments 2>&1 | ForEach-Object { $_.ToString() } | Tee-Object -FilePath $LogPath | Out-Host
+      }
+    } else {
+      & $File @Arguments 2>&1 | ForEach-Object { Write-Log ($_.ToString()) }
+    }
+    $code = $LASTEXITCODE
+    if ($null -eq $code) { $code = 0 }
+  } catch {
+    Write-Log "ERROR ${File}: $_"
+    $code = 1
+  } finally {
+    $ErrorActionPreference = $prev
+  }
+  return $code
 }
 
 function Write-ReviewMetric {
@@ -172,13 +211,7 @@ for ($i = 1; $i -le $Count; $i++) {
   if ($authoring -eq "stencil") {
     $fam = [string]$ticket.stencil_family
     Write-Log "ticket $($ticket.case_id) authoring=stencil family=$fam source=$($ticket.source) pages=$($ticket.page_count) words=$($ticket.word_count) -- no grok"
-    try {
-      & $py $stencilPy --write 2>&1 | Tee-Object -FilePath $caseLog
-      $exit = $LASTEXITCODE
-    } catch {
-      Write-Log "ERROR stencil write: $_"
-      $exit = 1
-    }
+    $exit = Invoke-LoggedNative -File $py -Arguments @($stencilPy, "--write") -LogPath $caseLog
     if ($exit -ne 0 -or -not (Test-Path $jsonPath)) {
       $sw.Stop()
       if (Test-Path $caseLog) {
@@ -197,10 +230,10 @@ for ($i = 1; $i -le $Count; $i++) {
     $stencilFailStreak = 0
     $finArgs = @($finalizePy, $ticket.case_id, "--source", $ticket.source)
     if ($NoPush) { $finArgs += "--no-push" }
-    & $py @finArgs 2>&1 | Tee-Object -FilePath $caseLog -Append
-    if ($LASTEXITCODE -ne 0) {
+    $exit = Invoke-LoggedNative -File $py -Arguments $finArgs -LogPath $caseLog -Append
+    if ($exit -ne 0) {
       $sw.Stop()
-      Write-Log "FAIL case $i stencil finalize exit=$LASTEXITCODE"
+      Write-Log "FAIL case $i stencil finalize exit=$exit"
       $fail++
       continue
     }
@@ -220,13 +253,7 @@ for ($i = 1; $i -le $Count; $i++) {
       "--output-format", "plain",
       "--no-auto-update"
     )
-    try {
-      & $grokPath @grokArgs 2>&1 | Tee-Object -FilePath $caseLog
-      $exit = $LASTEXITCODE
-    } catch {
-      Write-Log "ERROR invoking grok: $_"
-      $exit = 1
-    }
+    $exit = Invoke-LoggedNative -File $grokPath -Arguments $grokArgs -LogPath $caseLog
   }
   $sw.Stop()
 
@@ -241,9 +268,9 @@ for ($i = 1; $i -le $Count; $i++) {
     Write-Log "JSON unfinalized; running finalize_scj.py"
     $finArgs = @($finalizePy, $ticket.case_id, "--source", $ticket.source)
     if ($NoPush) { $finArgs += "--no-push" }
-    & $py @finArgs
-    if ($LASTEXITCODE -ne 0) {
-      Write-Log "FAIL case $i finalize exit=$LASTEXITCODE"
+    $finExit = Invoke-LoggedNative -File $py -Arguments $finArgs
+    if ($finExit -ne 0) {
+      Write-Log "FAIL case $i finalize exit=$finExit"
       Write-Log "  tail: $tail"
       $fail++
       Write-ReviewMetric @{

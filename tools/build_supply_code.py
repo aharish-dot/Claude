@@ -22,7 +22,9 @@ OUT = os.path.join(ROOT, "jurisprudence", "index.json")
 def load_cases():
     cases = []
     for path in sorted(glob.glob(os.path.join(SUMM, "*.json"))):
-        with open(path) as f:
+        # encoding=utf-8 is required on Windows: locale open() is cp1252 and
+        # dies on curly quotes (U+201D -> byte 0x9d) in the older records.
+        with open(path, encoding="utf-8") as f:
             cases.append(json.load(f))
     return cases
 
@@ -132,7 +134,7 @@ def build(cases):
 if __name__ == "__main__":
     cases = load_cases()
     index = build(cases)
-    with open(OUT, "w") as f:
+    with open(OUT, "w", encoding="utf-8") as f:
         json.dump(index, f, ensure_ascii=False, indent=2)
     print(f"wrote {OUT}: {index['case_count']} cases, "
           f"{index['provision_count']} provisions, "
