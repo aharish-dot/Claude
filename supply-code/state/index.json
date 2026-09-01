@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 359,
+  "next_seq": 360,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -2152,6 +2152,12 @@
       "case_id": "SCJ-358",
       "source_basename": "WRIC(A)_10546_2025.pdf",
       "title": "Sahdeo Singh v. State of Uttar Pradesh and 4 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-359",
+      "source_basename": "WRIC(A)_10678_2025.pdf",
+      "title": "M/S Skmr Healthcare v. Purvanchal Vidyut Vitran Nigam Ltd.",
       "status": "done"
     }
   ]
