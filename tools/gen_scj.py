@@ -117,6 +117,10 @@ def esc(s):
 
 
 def pin(paras):
+    if isinstance(paras, list):
+        paras = ", ".join(str(p).strip() for p in paras if str(p).strip())
+    elif paras is not None and not isinstance(paras, str):
+        paras = str(paras)
     p = (paras or "").strip()
     return f' <span class="pn">&para;&nbsp;{esc(p)}</span>' if p else ""
 

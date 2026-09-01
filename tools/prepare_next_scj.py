@@ -25,6 +25,10 @@ SKIP_NAMES = {"WRIC(A)_20210_2012.pdf"}  # already SCJ-273
 CATALOG = os.path.join(SC, "jurisprudence", "catalog.txt")
 SHORT_PAGES = 2
 SHORT_WORDS = 800
+# Uncited 3-pagers that used to miss the 800-word gate (e.g. SCJ-329 at 804
+# words) go short. A 4-page doctrinal quash (SCJ-328) stays full.
+SHORT_PAGES_UNCITED = 3
+SHORT_WORDS_UNCITED = 1500
 SHORT_TURNS = 15
 FULL_TURNS = 50
 
@@ -165,10 +169,35 @@ def ensure_catalog():
         )
 
 
-def is_short(page_count, word_count):
-    if isinstance(page_count, int) and page_count <= SHORT_PAGES:
+def is_short(page_count, word_count, citation_count=0):
+    """Short path: old page/word gate, or uncited and not long.
+
+    Never stricter than before (pages ≤ 2 or words ≤ 800 still short even
+    with citations). Full stays for cited orders and for uncited work
+    above 3 pages / 1500 words.
+    """
+    pages = page_count if isinstance(page_count, int) else None
+    words = int(word_count or 0)
+    cites = int(citation_count or 0)
+    if pages is not None and pages <= SHORT_PAGES:
         return True
-    return int(word_count or 0) <= SHORT_WORDS
+    if words <= SHORT_WORDS:
+        return True
+    if cites == 0 and words <= SHORT_WORDS_UNCITED:
+        if pages is None or pages <= SHORT_PAGES_UNCITED:
+            return True
+    return False
+
+
+def short_gate(pages, words, citation_count=0):
+    """Why authoring=short (or None if not short)."""
+    if not is_short(pages, words, citation_count):
+        return None
+    if isinstance(pages, int) and pages <= SHORT_PAGES:
+        return "short-pages"
+    if int(words or 0) <= SHORT_WORDS:
+        return "short-words"
+    return "short-uncited"
 
 
 def catalog_hits(txt, limit=40):
@@ -232,7 +261,8 @@ def main():
         stencil.get("verdict") == "STENCIL"
         and stencil.get("family") in scj_stencil.LIVE
     )
-    short = is_short(pages, words)
+    cites = int(fp.get("citation_count") or 0)
+    short = is_short(pages, words, cites)
     ticket = {
         "status": "READY",
         "case_id": cid,
@@ -242,12 +272,13 @@ def main():
         "fp": f"supply-code/extracts/{cid}.fp.json",
         "word_count": words,
         "page_count": pages,
-        "citation_count": fp.get("citation_count", 0),
+        "citation_count": cites,
         "out_json": f"supply-code/summaries/json/{cid}.json",
     }
     if is_stencil:
         ticket["authoring"] = "stencil"
         ticket["stencil_family"] = stencil["family"]
+        ticket["gate"] = "stencil"
         ticket["max_turns"] = 0
         ticket["catalog_hits"] = []
         ticket["prompt"] = "tools/scj_stencil.py"
@@ -257,10 +288,12 @@ def main():
         ticket["catalog_hits"] = hits
         if short:
             ticket["authoring"] = "short"
+            ticket["gate"] = short_gate(pages, words, cites)
             ticket["max_turns"] = SHORT_TURNS
             ticket["prompt"] = "tools/prompts/next_case_short.txt"
         else:
             ticket["authoring"] = "full"
+            ticket["gate"] = "full"
             ticket["max_turns"] = FULL_TURNS
             ticket["catalog"] = "supply-code/jurisprudence/catalog.txt"
             ticket["example"] = "supply-code/summaries/json/SCJ-280.json"
@@ -272,8 +305,10 @@ def main():
     extra = ""
     if is_stencil:
         extra = f" family={ticket['stencil_family']}"
-    print(f"READY {cid} authoring={ticket['authoring']}{extra} source={name} "
-          f"pages={pages} words={words} catalog_hits={len(ticket.get('catalog_hits') or [])} "
+    print(f"READY {cid} authoring={ticket['authoring']}{extra} "
+          f"gate={ticket.get('gate')} source={name} "
+          f"pages={pages} words={words} citations={cites} "
+          f"catalog_hits={len(ticket.get('catalog_hits') or [])} "
           f"→ {TICKET}")
     return 0
 

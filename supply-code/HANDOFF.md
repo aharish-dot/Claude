@@ -4,14 +4,14 @@
 > Mechanical procedure: **`RUNBOOK.md`**. One-command trigger: **`NEXT.md`**.
 > Project rationale: **`README.md`**. Do not duplicate them.
 
-_Last updated: 31 August 2026 — SCJ-001…300 processed. Stencil path live for 6.5 billing relegation and contempt of a 6.5 writ (no grok). Listing-only / 4.4 / 6.5-refusals stay on short/full LLM. PDF+push still every case._
+_Last updated: 1 September 2026 — stencil 6.5 phrasing widened (para/section 6.5, move/make application); withdrawals still off. Short also if uncited and pages ≤ 3 / words ≤ 1500. Finalize coerces `paras` string + `not_decided` objects. **Review after SCJ-387:** `sessions/2026-09-01-pipeline-review.md`. Listing-only / 4.4 / 6.5-refusals stay on short/full LLM._
 
 ---
 
 ## 1. Where the project stands
 
-- **300 judgments fully processed** → `SCJ-001` … `SCJ-300`. Lean JSON + digest PDF + folded into `jurisprudence/index.json`.
-- **`state/index.json`**: `next_seq = 301`.
+- **337 judgments fully processed** → `SCJ-001` … `SCJ-337`. Lean JSON + digest PDF + folded into `jurisprudence/index.json`.
+- **`state/index.json`**: `next_seq = 338`. **Review at SCJ-387** (`sessions/2026-09-01-pipeline-review.md`).
 - **Treatise outline** exists (`jurisprudence/treatise/00-OUTLINE.md`); **all Parts still `todo`**. Treatise remains **ON HOLD** until the input queue is empty.
 - **Branch**: `claude/supply-code-jurisprudence-design-yiwgen` (commit and push each case).
 - **This machine is Windows.** Sources in the live queue are **PDFs in `supply-code/input/`**, not `html_input/`.
@@ -29,7 +29,7 @@ Process remaining judgments **first** (mechanical pipeline → index), **then** 
 | **next batch** | `RUNBOOK.md` default: up to 8, early-stop ~22k words. |
 | Anything about the treatise / booklet Parts | Not yet, unless they explicitly override §2. |
 
-**Immediate next:** run `python tools/prepare_next_scj.py`. Skip `(1)` twins. `next_seq=301`.
+**Immediate next:** `tools\run_next_case_loop.ps1 -Count 50` from repo root (review batch SCJ-338–387). Skip `(1)` twins. `next_seq=338`.
 
 ## 4. Gotchas a fresh session MUST know
 
@@ -48,7 +48,7 @@ Token split:
 1. `python tools/prepare_next_scj.py` — next unique PDF, skip dups, extract text → `tmp/NEXT_TICKET.json` (`authoring`, `catalog_hits`, `page_count`). Classifier may set `authoring=stencil` + `stencil_family`.
 2. JSON:
    - **Stencil** (`authoring=stencil`): `python tools/scj_stencil.py --write` — **no grok**, do not read the judgment. Live families only: `6.5-billing-relegation`, `contempt-6.5-dismissed`. Not stencil: listing-only, 4.4, 6.5 invoked-but-not-applied (SCJ-283/284/288).
-   - **Short path** if pages ≤ 2 **or** words ≤ 800 (`authoring=short`, `tools/prompts/next_case_short.txt`, `catalog_hits` on the ticket, max 15 turns). **Do not** load `catalog.txt` or SCJ-280.
+   - **Short path** if pages ≤ 2 **or** words ≤ 800, **or** uncited with pages ≤ 3 and words ≤ 1500 (`authoring=short`, `tools/prompts/next_case_short.txt`, `catalog_hits` on the ticket, max 15 turns). **Do not** load `catalog.txt`, SCJ-280, RUNBOOK, `finalize_scj.py`, or `gen_scj.py`. Schema is in the prompt. `paras` is a string; `not_decided` is objects.
    - **Full path** otherwise (`tools/prompts/next_case_once.txt` + catalog + SCJ-280).
    - Does not load this HANDOFF or `jurisprudence/index.json`.
 3. `python tools/finalize_scj.py SCJ-NNN --source "<file>"` — schema gates, Chrome PDF (`--user-data-dir` required on Windows), state, spine, catalog, git commit+push. Loop re-runs finalize if JSON exists but `next_seq` did not bump.
@@ -93,7 +93,9 @@ Branch `claude/supply-code-jurisprudence-design-yiwgen`. One commit per case, th
 | `../tools/tally_outcomes.py` | Count records by `outcome`, optional provision filter (`UP-2005::4.4`). |
 | `../tools/finalize_scj.py` | After JSON: PDF, state, index, catalog, git. Do not do this by hand. |
 | `../tools/prompts/next_case_once.txt` | Full authoring prompt. |
-| `../tools/prompts/next_case_short.txt` | Short authoring prompt (pages ≤ 2 or words ≤ 800). |
+| `../tools/prompts/next_case_short.txt` | Short authoring prompt (pages ≤ 2 or words ≤ 800, or uncited pages ≤ 3 / words ≤ 1500). |
+| `../tools/log_scj_review.py` | Metrics for the SCJ-338–387 review. `--summary` after 50. |
+| `sessions/2026-09-01-pipeline-review.md` | **Review after 50 cases.** Checklist + tracked fields. |
 | `jurisprudence/catalog.txt` | Compact provision-key + principle-tag list. Generated. |
 | `HANDOFF.md` | This file. |
 | `RUNBOOK.md` | Lean-schema procedure (batch size, schema). |
@@ -113,4 +115,4 @@ Rebuild index; skim what shifted; revisit the outline; then author the treatise 
 
 ---
 
-**One-line resume:** _300 cases done; treatise on hold; **next** or `tools\run_next_case_loop.ps1 -Count 100` = JSON+PDF+push; stencil (no grok) for 6.5 billing relegation and 6.5-contempt-dismissed; short path if ≤2 pages or ≤800 words; `next_seq=301`._
+**One-line resume:** _337+ cases done; treatise on hold; **next** or `tools\run_next_case_loop.ps1 -Count 50` = JSON+PDF+push; **review at SCJ-387** (`sessions/2026-09-01-pipeline-review.md`); stencil (no grok) for 6.5 billing relegation (para/section 6.5, move/make application; withdrawals off) and 6.5-contempt-dismissed; short if ≤2 pages or ≤800 words or uncited ≤3 pages / ≤1500 words; finalize coerces paras/not_decided; `next_seq` in `state/index.json`._

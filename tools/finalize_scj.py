@@ -88,6 +88,61 @@ def pdf_page_count(path):
         return None
 
 
+def _paras_to_str(p):
+    if p is None:
+        return None, False
+    if isinstance(p, list):
+        return ", ".join(str(x).strip() for x in p if str(x).strip()), True
+    if isinstance(p, str):
+        return p, False
+    return str(p), True
+
+
+def coerce_record_shapes(c):
+    """Normalize known LLM shape drift. Does not invent holdings or citations.
+
+    Returns a list of field paths that changed (empty if the record was already
+    generator-clean). Loop logs this so we can see whether the prompt fix
+    actually stopped the two-retry pattern.
+    """
+    changed = []
+    for i, u in enumerate(c.get("holding_units") or []):
+        if not isinstance(u, dict):
+            continue
+        new, did = _paras_to_str(u.get("paras"))
+        if did:
+            u["paras"] = new
+            changed.append(f"holding_units[{i}].paras")
+    for i, t in enumerate(c.get("principle_tags") or []):
+        if not isinstance(t, dict):
+            continue
+        new, did = _paras_to_str(t.get("paras"))
+        if did:
+            t["paras"] = new
+            changed.append(f"principle_tags[{i}].paras")
+    nd = c.get("not_decided")
+    if isinstance(nd, list):
+        new_nd = []
+        for i, n in enumerate(nd):
+            if isinstance(n, str):
+                new_nd.append({"point": n.strip()} if n.strip() else {"point": n})
+                changed.append(f"not_decided[{i}]")
+            elif isinstance(n, dict):
+                if not n.get("point") and n.get("issue"):
+                    n = dict(n)
+                    n["point"] = n.get("issue") or ""
+                    changed.append(f"not_decided[{i}].issue")
+                new, did = _paras_to_str(n.get("paras")) if isinstance(n, dict) else (None, False)
+                if did:
+                    n["paras"] = new
+                    changed.append(f"not_decided[{i}].paras")
+                new_nd.append(n)
+            else:
+                new_nd.append(n)
+        c["not_decided"] = new_nd
+    return changed
+
+
 def inject_judgment_meta(c, cid, src):
     """Backfill page_count from the source PDF / fingerprint; normalise significance.
 
@@ -289,10 +344,14 @@ def main():
     if not os.path.exists(rec):
         die(f"missing record {rec}")
     c = json.load(open(rec, encoding="utf-8"))
-    if inject_judgment_meta(c, cid, src):
+    coerced = coerce_record_shapes(c)
+    meta = inject_judgment_meta(c, cid, src)
+    if coerced or meta:
         with open(rec, "w", encoding="utf-8") as f:
             json.dump(c, f, indent=2, ensure_ascii=False)
             f.write("\n")
+        if coerced:
+            print("  coerce: " + "; ".join(coerced))
     check_record(c, cid)
     title = c.get("title") or cid
     slug = slug_from_title(title)
@@ -312,6 +371,20 @@ def main():
     )
     if not args.no_git:
         git_commit_push(cid, title, pdf, src, do_push=not args.no_push)
+    try:
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import log_scj_review
+        log_scj_review.append({
+            "event": "finalize",
+            "case_id": cid,
+            "source": src,
+            "coerce": coerced,
+            "outcome": c.get("outcome"),
+            "significance": c.get("significance"),
+            "pages": c.get("page_count"),
+        })
+    except Exception:
+        pass
     print(f"finalized {cid}; next_seq={nxt}")
 
 

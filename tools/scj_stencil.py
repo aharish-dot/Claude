@@ -2,7 +2,12 @@
 """Zero-LLM stencil for proved Supply Code families.
 
 Live families (prepare/loop skip grok):
-  6.5-billing-relegation   — disposed writ, relegated to Clause 6.5, no listing
+  6.5-billing-relegation   — disposed writ, relegated to Clause 6.5, no listing.
+    s.126/135/FIR mention is not a veto when those facts are left open in writ
+    ("cannot be decided" / "without examining" / "at the first instance").
+    Relegation language includes approach EE/JE, liberty to apply/make/move an
+    application, raise dispute. "Clause/para/section 6.5" all count. Withdrawals
+    stay off this family.
   contempt-6.5-dismissed   — contempt of a 6.5 writ, dismissed misconceived/infructuous
 
 Not live (dry-run only): listing-only. Interlocutory orders that look like
@@ -31,7 +36,11 @@ EXPECTED = {
         "SCJ-275": "no", "SCJ-276": "no", "SCJ-281": "no",
         "SCJ-283": "no", "SCJ-284": "no", "SCJ-291": "yes",
         "SCJ-295": "no", "SCJ-297": "no", "SCJ-298": "yes",
-        "SCJ-300": "yes",
+        "SCJ-300": "yes", "SCJ-301": "yes", "SCJ-306": "yes",
+        # clones that missed on phrasing (move/make application, para 6.5, demand notice)
+        "SCJ-327": "yes", "SCJ-331": "yes", "SCJ-333": "yes", "SCJ-335": "yes",
+        # stay off stencil: no bill/dispose language; withdrawal with 6.5 liberty
+        "SCJ-330": "no", "SCJ-332": "no",
     },
     "contempt-6.5-dismissed": {
         "SCJ-275": "yes", "SCJ-276": "yes",
@@ -58,12 +67,22 @@ MONTHS = {
 }
 
 WS = re.compile(r"\s+")
-CLAUSE_65 = re.compile(r"cl[au]{0,2}se[-\s]*6\s*\.\s*5", re.I)
-CLAUSE_65B = re.compile(r"cl[au]{0,2}se[-\s]*6\s*\.\s*5\s*\(\s*b", re.I)
+CLAUSE_65 = re.compile(
+    r"(?:cl[au]{0,2}se|para(?:graph)?s?|section|(?<![A-Za-z])s\.)[-\s]*6\s*\.\s*5",
+    re.I)
+CLAUSE_65B = re.compile(
+    r"(?:cl[au]{0,2}se|para(?:graph)?s?|section|(?<![A-Za-z])s\.)[-\s]*6\s*\.\s*5\s*\(\s*b",
+    re.I)
 CLAUSE_44 = re.compile(r"\b4\s*\.\s*4(?!\d)", re.I)
 CLAUSE_68 = re.compile(r"\b6\s*\.\s*8\b", re.I)
 CONTEMPT = re.compile(r"\bcontempt\s+application\b", re.I)
-DISPOSED = re.compile(r"\bdispos(?:e[d]?|ing)\s+off?\b", re.I)
+DISPOSED = re.compile(r"\b(?:stands\s+)?dispos(?:e[d]?|ing)(?:\s+off?)?\b", re.I)
+WITHDRAW = re.compile(
+    r"\bprays?\s+to\s+withdraw\b"
+    r"|\bwithdraw(?:s|n)?\s+the\s+(?:present\s+)?(?:writ\s+)?petition\b"
+    r"|\bpetition\s+is\s+withdrawn\b",
+    re.I,
+)
 DISMISSED_WRIT = re.compile(
     r"\b(?:writ\s+petition|petition|this\s+writ\s+petition)\s+is\s*\[[^\]]*\]?\s*dismissed\b"
     r"|\bwrit\s+petition\s+is\s+dismissed\b"
@@ -87,9 +106,17 @@ THEFT_NEG = re.compile(
     re.I,
 )
 BILL = re.compile(
-    r"\belectricity\s+bill|\binflated\b|\bexaggerated\b|\bdisputed\s+(?:electricity\s+)?bill"
-    r"|\bcorrect(?:ness|ion)\s+of\s+(?:any\s+|the\s+)?bill|\bbilling\s+dispute"
-    r"|\bbill\s+dispute|\barrears\s+of\s+the\s+electricity",
+    r"\belectricity\s+bills?"
+    r"|\binflated\b|\bexaggerated\b"
+    r"|\bdisputed\s+(?:electricity\s+)?bills?"
+    r"|\bcorrect(?:ness|ion)\s+of\s+(?:any\s+|the\s+)?bill"
+    r"|\bincorrect\s+bill(?:ing|s)?"
+    r"|\bbilling\s+dispute|\bbill\s+dispute"
+    r"|\barrears\s+of\s+the\s+electricity"
+    r"|\bunpaid\s+amount\s+of\s+electricity"
+    r"|\bdemand\s+notice\b"
+    r"|\bexorbitant\s+bills?\b"
+    r"|\belectricity\s+(?:dues|charges|demand)\b",
     re.I,
 )
 RELEGATE = re.compile(
@@ -97,9 +124,27 @@ RELEGATE = re.compile(
     r"|\balternative\s+remedy\b"
     r"|\bhas\s+a\s+remedy\s+to\s+approach\b"
     r"|\bapproach(?:es)?\s+the\s+competent\s+authority\b"
+    r"|\bapproach(?:es)?\s+(?:the\s+)?(?:executive\s+engineer|junior\s+engineer)\b"
+    r"|\bcan\s+still\s+approach\b"
     r"|\bfile\s+a\s+(?:fresh\s+)?representation\b"
+    r"|\bfile\s+an?\s+application\b"
+    r"|\b(?:move|make)\s+(?:an?\s+)?(?:appropriate\s+|fresh\s+)?application\b"
+    r"|\bmove\s+a\s+fresh\s+representation\b"
     r"|\bpermitting\s+the\s+petitioner\s+to\s+file\b"
-    r"|\bfresh\s+representation\b",
+    r"|\bfresh\s+representation\b"
+    r"|\bliberty\s+to\s+(?:file|approach|apply)\b"
+    r"|\bliberty\s+(?:is\s+)?granted\s+to\s+(?:the\s+)?petitioner\s+to\s+"
+    r"(?:move|make|file|approach|apply)\b"
+    r"|\b(?:can\s+)?raise\s+(?:a\s+)?(?:comprehensive\s+)?dispute\b",
+    re.I,
+)
+# s.126/135/FIR/theft mention is not a 6.5 veto when the Court leaves those facts open.
+THEFT_NOT_DECIDED = re.compile(
+    r"cannot\s+be\s+decided"
+    r"|not\s+decided\s+(?:in|under)\s+writ"
+    r"|without\s+adverting"
+    r"|without\s+examining"
+    r"|at\s+the\s+first\s+instance",
     re.I,
 )
 ON_QUERY = re.compile(r"\bon query\b", re.I)
@@ -171,6 +216,13 @@ def _has_theft(txt: str) -> bool:
             continue
         return True
     return False
+
+
+def _theft_blocks_65(txt: str) -> bool:
+    """Hard veto only when theft/126/135/FIR is mentioned and not left open."""
+    if not _has_theft(txt):
+        return False
+    return not THEFT_NOT_DECIDED.search(txt)
 
 
 def load_fp(cid: str) -> dict:
@@ -292,6 +344,8 @@ def classify_65(txt: str, fp: dict) -> dict:
     pages, words, cites = info["pages"], info["words"] or len(txt.split()), info["cites"]
     if CONTEMPT.search(txt):
         r.append("veto: contempt application")
+    if WITHDRAW.search(txt):
+        r.append("veto: withdrawn")
     if CLAUSE_65B.search(txt):
         r.append("veto: clause 6.5(b)")
     if INTERLOC.search(txt):
@@ -299,7 +353,10 @@ def classify_65(txt: str, fp: dict) -> dict:
     if DISMISSED_WRIT.search(txt):
         r.append("veto: writ dismissed")
     if _has_theft(txt):
-        r.append("veto: theft/126/135/FIR")
+        if _theft_blocks_65(txt):
+            r.append("veto: theft/126/135/FIR")
+        else:
+            r.append("note: 126/135/FIR/theft mentioned, not decided")
     if cites:
         r.append(f"veto: citation_count={cites}")
     if isinstance(pages, int) and pages > MAX_PAGES:
@@ -317,11 +374,14 @@ def classify_65(txt: str, fp: dict) -> dict:
     ok = not any(x.startswith("veto:") or x.startswith("no:") for x in r)
     if ok:
         r.append("pass: 6.5 billing relegation")
+    slots = parse_caption(txt) if ok or CLAUSE_65.search(txt) else {}
+    if slots and _has_theft(txt):
+        slots["theft_mentioned"] = True
     return {
         "verdict": "STENCIL" if ok else "NO",
         "family": "6.5-billing-relegation" if ok else None,
         "reasons": r, "pages": pages, "words": words,
-        "slots": parse_caption(txt) if ok or CLAUSE_65.search(txt) else {},
+        "slots": slots,
     }
 
 
@@ -422,6 +482,12 @@ def fill_65(cid: str, fp: dict, slots: dict) -> dict:
             "The Court directed the Clause 6.5 representation to a Junior Engineer. "
             "The ordinary 6.5 channel is the Executive Engineer. Recorded, not silently corrected."
         )
+    if slots.get("theft_mentioned"):
+        flags.append(
+            "The Court mentions Section 126/135 or theft/FIR but does not decide "
+            "those facts; the consumer is pointed to Clause 6.5. Recorded, not "
+            "silently corrected."
+        )
     discom = slots.get("discom")
     discom_bit = f" ({discom})" if discom else ""
     amt_bit = f" of {amount}" if amount else ""
@@ -461,7 +527,7 @@ def fill_65(cid: str, fp: dict, slots: dict) -> dict:
     }
     if flags:
         unit["flag"] = " ".join(flags)
-    return {
+    rec = {
         "case_id": cid,
         "title": slots.get("title") or "",
         "neutral_citation": "",
@@ -492,6 +558,14 @@ def fill_65(cid: str, fp: dict, slots: dict) -> dict:
         ],
         "authorities": [],
     }
+    if slots.get("theft_mentioned"):
+        rec["not_decided"].append({
+            "point": "Section 126/135 or theft/FIR facts mentioned in the order",
+            "note": "Not decided in writ; the billing grievance is left to Clause 6.5.",
+            "docid": "",
+            "paras": "",
+        })
+    return rec
 
 
 def fill_contempt(cid: str, fp: dict, slots: dict) -> dict:
