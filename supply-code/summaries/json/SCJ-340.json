@@ -1,0 +1,82 @@
+{
+  "case_id": "SCJ-340",
+  "title": "Anuradha v. State of U.P. & 4 Others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Siddharth, J. and Santosh Rai, J.",
+  "date_of_judgment": "2025-09-01",
+  "date_display": "1 September 2025",
+  "docket": "Criminal Misc. Writ Petition No. 18525 of 2025",
+  "page_count": 4,
+  "significance": "ordinary",
+  "outcome": "none",
+  "disposition": "Writ disposed of; FIR not quashed; arrest only per Arnesh Kumar / s.35 BNSS.",
+  "headnote": "A criminal writ seeking to quash an FIR under Section 135 of the Electricity Act, 2003, on the plea that it was without evidence as contemplated by sections 126 and 135 of the Act and clause 8.1 of the U.P. Electricity Supply Code, 2005, is disposed of without quashing the FIR. Because the offence is punishable with imprisonment of seven years or less, the investigating officer may summon the accused by notice under Section 35 of the Bharatiya Nagarik Suraksha Sanhita, 2023, and may arrest only if credible material is brought on record, after recording reasons, in accordance with Arnesh Kumar v. State of Bihar and Md. Asfak Alam v. State of Jharkhand. The accused must cooperate; investigation is to be concluded preferably within 60 days with a report under Section 193(3) BNSS. The Court did not decide whether the FIR satisfied sections 126 and 135 or clause 8.1.",
+  "facts": "Anuradha filed a criminal miscellaneous writ petition in the Allahabad High Court under Article 226 challenging FIR dated 7 January 2023, Case Crime No. 0028 of 2023, registered under Section 135 of the Electricity Act, 2003 at Police Station Anti Power Theft, Mirzapur. She alleged that the FIR was lodged without the evidence contemplated by sections 126 and 135 of the Act and clause 8.1 of the Electricity Supply Code, 2005, and that it was the outcome of a dispute between the parties. Counsel submitted that the offences were punishable with seven years or less. After a 23 August 2025 listing for a counter affidavit, the Division Bench heard the State and counsel for respondents 4 and 5 and disposed of the writ on 1 September 2025 without quashing the FIR.",
+  "holding_units": [
+    {
+      "provision": "EA2003::135",
+      "code": "Electricity Act, 2003",
+      "clause": "135",
+      "topic": "s.135 FIR not quashed; arrest only after s.35 BNSS notice and credible material (Arnesh Kumar)",
+      "type": "interplay",
+      "question": "Where a petitioner seeks to quash a Section 135 FIR as lacking evidence under sections 126 and 135 of the Act and clause 8.1 of the Supply Code, 2005, and the offence is punishable with seven years or less, will the writ court quash the FIR?",
+      "holding": "No. The writ is disposed of without quashing the FIR. Taking the offence as punishable with seven years or less, the Court applied Arnesh Kumar and Md. Asfak Alam: the petitioner's liberty is protected if the investigating officer gives notice under Section 35 BNSS; the petitioner must fully cooperate; arrest may be effected only if credible material is brought on record during investigation, after recording reasons, strictly in those guidelines; and the investigation is to be concluded preferably within 60 days with a report under Section 193(3) BNSS.",
+      "paras": "6-8",
+      "flag": "Template Arnesh Kumar disposal. The Court did not examine the FIR, any checking report, or clause 8.1. Petitioner invoked ss.126/135 and clause 8.1; those points are not decided. Compounding was not mentioned. The source PDF also contains a 23.8.2025 listing order; the operative disposal is 1.9.2025. Same cluster as SCJ-004, SCJ-081, SCJ-180–186."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "s135-arrest-safeguards-and-compounding-remedy",
+      "application": "A cognizable Section 135 FIR is left standing. Because the offence is punishable with seven years or less, arrest is not mechanical: notice under Section 35 BNSS, cooperation in investigation, and arrest only on credible material with reasons, following Arnesh Kumar and Md. Asfak Alam. This order applied the arrest-safeguard limb only; it did not mention compounding under the Supply Code.",
+      "lead_authorities": [
+        {"name": "Arnesh Kumar v. State of Bihar", "docid": ""},
+        {"name": "Md. Asfak Alam v. State of Jharkhand", "docid": ""}
+      ],
+      "paras": "6-7"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the FIR was without evidence as contemplated by sections 126 and 135 of the Electricity Act, 2003",
+      "note": "Raised in the writ; the Court applied only Arnesh Kumar arrest guidelines and did not examine the FIR or the evidence.",
+      "paras": "2-3"
+    },
+    {
+      "point": "Whether the FIR violated clause 8.1 of the U.P. Electricity Supply Code, 2005",
+      "note": "Invoked by the petitioner; not construed.",
+      "paras": "2"
+    },
+    {
+      "point": "Whether the FIR was merely the outcome of a dispute between the parties so as to warrant quashing",
+      "note": "Submitted by counsel; not decided.",
+      "paras": "3"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Arnesh Kumar v. State of Bihar",
+      "citation": "(2014) 8 SCC 273",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Police officers are not to arrest accused unnecessarily, nor Magistrates to authorise detention casually, for offences punishable with imprisonment of seven years or less (with or without fine); notice of appearance under Section 41-A Cr.P.C. is to be served, and arrest requires satisfaction of the Section 41 parameters with recorded reasons.",
+      "how_treated": "Quoted at length and applied to this Section 135 FIR: the petitioner's liberty is protected if notice is given under Section 35 BNSS; arrest only on credible material after recording reasons.",
+      "how_treated_paras": "4-7",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Md. Asfak Alam v. State of Jharkhand",
+      "citation": "Criminal Appeal No. (S) 2207 of 2023, decided 31.07.2023",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Reiterates the Arnesh Kumar guidelines on arrest for offences punishable with seven years or less.",
+      "how_treated": "Cited as having reiterated Arnesh Kumar; applied with it to regulate arrest and investigation in this Section 135 case.",
+      "how_treated_paras": "5-7",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}
