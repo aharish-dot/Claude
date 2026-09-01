@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 371,
+  "next_seq": 372,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -2224,6 +2224,12 @@
       "case_id": "SCJ-370",
       "source_basename": "WRIC(A)_13365_2025.pdf",
       "title": "Alakh Prakash Sharma v. State of U.P. and 2 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-371",
+      "source_basename": "WRIC(A)_14152_2025.pdf",
+      "title": "Rajendra Prasad Memorial Trust v. State of U.P. and 3 Others",
       "status": "done"
     }
   ]
