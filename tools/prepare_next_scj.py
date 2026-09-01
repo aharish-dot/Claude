@@ -6,7 +6,8 @@ Exit 0  ticket at supply-code/tmp/NEXT_TICKET.json
 Exit 2  no unique pending input (print NO_INPUT)
 
 Does not bump next_seq (finalize_scj.py does that). Retires filename and
-docket duplicates to processed/ without assigning an id.
+docket duplicates to processed/ (mirroring any input/ subfolder) without
+assigning an id. Nested queues (e.g. input/2025/*.pdf) stay nested.
 """
 import json, os, re, subprocess, sys
 
@@ -30,6 +31,7 @@ FULL_TURNS = 50
 FN_DOCKET = re.compile(r"_(\d+)_(\d{4})\.pdf$", re.I)
 CLAUSE_NUM = re.compile(r"\b\d+\.\d+(?:\([A-Za-z0-9]+\))*")
 SECTION_NUM = re.compile(r"(?i)\b(?:sections?|s\.)\s*(\d+[A-Z]?(?:\(\d+[A-Z]?\))*)")
+TWIN_PDF = re.compile(r" \(1\)\.pdf$", re.I)
 
 
 def load_state():
@@ -37,28 +39,55 @@ def load_state():
         return json.load(f)
 
 
+def posix_rel(path, start):
+    return os.path.relpath(path, start).replace("\\", "/")
+
+
+def under(root, rel):
+    rel = (rel or "").replace("\\", "/").lstrip("/")
+    if not rel or rel == ".":
+        return root
+    return os.path.join(root, *rel.split("/"))
+
+
+def basename_of(rel):
+    return os.path.basename((rel or "").replace("\\", "/"))
+
+
 def processed_names():
+    """Basenames already in processed/ (any subfolder)."""
+    names = set()
     if not os.path.isdir(PROCESSED):
-        return set()
-    return {n for n in os.listdir(PROCESSED) if n != ".gitkeep"}
+        return names
+    for dirpath, _, filenames in os.walk(PROCESSED):
+        for n in filenames:
+            if n != ".gitkeep":
+                names.add(n)
+    return names
 
 
 def pending_files(done):
+    """POSIX paths relative to input/, files at root and in subfolders."""
     if not os.path.isdir(INPUT):
         return []
     out = []
-    for n in sorted(os.listdir(INPUT)):
-        p = os.path.join(INPUT, n)
-        if not os.path.isfile(p) or n == ".gitkeep":
-            continue
-        if n in SKIP_NAMES or n in done or re.search(r" \(1\)\.pdf$", n):
-            continue
-        out.append(n)
+    for dirpath, dirnames, filenames in os.walk(INPUT):
+        dirnames.sort()
+        for n in sorted(filenames):
+            if n == ".gitkeep" or not n.lower().endswith(".pdf"):
+                continue
+            if n in SKIP_NAMES or TWIN_PDF.search(n):
+                continue
+            rel = posix_rel(os.path.join(dirpath, n), INPUT)
+            if n in done:
+                continue
+            out.append(rel)
+    out.sort()
     return out
 
 
 def docket_needles(filename):
-    m = FN_DOCKET.search(filename)
+    m = FN_DOCKET.search(basename_of(filename))
     if not m:
         return []
     num, year = m.group(1), m.group(2)
@@ -96,18 +125,22 @@ def is_docket_dup(filename, docket_blob):
     return None
 
 
-def retire(name, reason):
-    src = os.path.join(INPUT, name)
-    dst = os.path.join(PROCESSED, name)
-    os.makedirs(PROCESSED, exist_ok=True)
+def retire(rel, reason):
+    src = under(INPUT, rel)
+    dst = under(PROCESSED, rel)
+    os.makedirs(os.path.dirname(dst), exist_ok=True)
+    dest_rel = os.path.dirname(rel.replace("\\", "/")) or "."
     if os.path.exists(src):
-        os.replace(src, dst)
-    print(f"retired duplicate {name} ({reason}) → processed/")
+        if os.path.exists(dst) and os.path.abspath(src) != os.path.abspath(dst):
+            os.remove(src)
+        else:
+            os.replace(src, dst)
+    print(f"retired duplicate {rel} ({reason}) → processed/{dest_rel}/")
 
 
-def extract(src_name, cid):
+def extract(src_rel, cid):
     os.makedirs(EXTRACTS, exist_ok=True)
-    src = os.path.join(INPUT, src_name)
+    src = under(INPUT, src_rel)
     r = subprocess.run(
         [sys.executable, os.path.join(ROOT, "tools", "extract_judgment.py"),
          src, EXTRACTS, cid],
@@ -178,10 +211,14 @@ def main():
             print(f"NO_INPUT · next_seq={seq} · stop")
             return 2
         name = pending[0]
-        hit = is_docket_dup(name, docket_blob)
+        base = basename_of(name)
+        if base in done:
+            retire(name, "filename already in processed/")
+            continue
+        hit = is_docket_dup(base, docket_blob)
         if hit:
             retire(name, f"docket already in corpus: {hit}")
-            done.add(name)
+            done.add(base)
             continue
         break
 

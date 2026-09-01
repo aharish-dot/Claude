@@ -105,8 +105,10 @@ def inject_judgment_meta(c, cid, src):
         except (OSError, json.JSONDecodeError):
             pc = None
     if not isinstance(pc, int) or pc < 1:
+        rel = src.replace("\\", "/").lstrip("/")
+        parts = rel.split("/") if rel else []
         for folder in ("input", "processed"):
-            p = os.path.join(SC, folder, src)
+            p = os.path.join(SC, folder, *parts) if parts else os.path.join(SC, folder)
             if os.path.exists(p) and p.lower().endswith(".pdf"):
                 pc = pdf_page_count(p)
                 if isinstance(pc, int) and pc > 0:
@@ -200,15 +202,21 @@ def render_pdf(cid, slug, rec, chrome):
     return out
 
 
+def _src_parts(src):
+    rel = (src or "").replace("\\", "/").lstrip("/")
+    return rel, (rel.split("/") if rel else [])
+
+
 def move_source(src):
-    src_path = os.path.join(SC, "input", src)
-    dst_path = os.path.join(SC, "processed", src)
-    os.makedirs(os.path.join(SC, "processed"), exist_ok=True)
+    rel, parts = _src_parts(src)
+    src_path = os.path.join(SC, "input", *parts) if parts else os.path.join(SC, "input")
+    dst_path = os.path.join(SC, "processed", *parts) if parts else os.path.join(SC, "processed")
+    os.makedirs(os.path.dirname(dst_path), exist_ok=True)
     if os.path.exists(dst_path) and not os.path.exists(src_path):
-        print(f"  source already in processed/{src}")
+        print(f"  source already in processed/{rel}")
         return
     if not os.path.exists(src_path):
-        die(f"missing input source: supply-code/input/{src}")
+        die(f"missing input source: supply-code/input/{rel}")
     os.replace(src_path, dst_path)
 
 
@@ -216,10 +224,11 @@ def update_state(cid, src, title, c):
     path = os.path.join(SC, "state", "index.json")
     state = json.load(open(path, encoding="utf-8"))
     ids = {x["case_id"] for x in state["cases"]}
+    rel, _ = _src_parts(src)
     if cid not in ids:
         state["cases"].append({
             "case_id": cid,
-            "source_basename": src,
+            "source_basename": os.path.basename(rel),
             "title": title,
             "status": "done",
         })
@@ -232,13 +241,14 @@ def update_state(cid, src, title, c):
 
 
 def git_commit_push(cid, title, pdf_rel, src, do_push):
+    rel, _ = _src_parts(src)
     files = [
         f"supply-code/summaries/json/{cid}.json",
         f"supply-code/summaries/pdf/{os.path.basename(pdf_rel)}",
         "supply-code/state/index.json",
         "supply-code/jurisprudence/index.json",
         "supply-code/jurisprudence/catalog.txt",
-        f"supply-code/processed/{src}",
+        f"supply-code/processed/{rel}",
     ]
     subprocess.run(["git", "add", "--"] + files, cwd=ROOT, check=False)
     msg = f"supply-code: process {cid} ({title[:80]})"
@@ -265,7 +275,11 @@ def git_commit_push(cid, title, pdf_rel, src, do_push):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("case_id")
-    ap.add_argument("--source", required=True, help="filename under supply-code/input/")
+    ap.add_argument(
+        "--source",
+        required=True,
+        help="path relative to supply-code/input/ (may include a year subfolder)",
+    )
     ap.add_argument("--no-git", action="store_true")
     ap.add_argument("--no-push", action="store_true")
     args = ap.parse_args()
