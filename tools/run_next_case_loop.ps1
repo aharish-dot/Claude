@@ -9,7 +9,9 @@
     3. python tools/finalize_scj.py     (PDF, state, index, git) if the agent did not
   Fresh grok process each time (no -c / -r), except stencil tickets: proved
   families (Clause 6.5 billing relegation; contempt of a 6.5 writ dismissed)
-  are filled by tools/scj_stencil.py with no grok call. Chrome/git/index
+  are filled by tools/scj_stencil.py with no grok call. If stencil write
+  fails, prepare --demote rewrites the ticket to short/full and grok runs
+  once — do not re-prepare the same PDF as stencil. Chrome/git/index
   still run via finalize_scj.py.
 
 .PARAMETER Count
@@ -154,7 +156,7 @@ Write-Log "Repo: $RepoRoot"
 Write-Log "Grok: $grokPath"
 Write-Log "Count: $Count | MaxTurns: $MaxTurns | NoPush: $NoPush | Log: $logFile"
 Write-Log "Starting next_seq=$(Get-NextSeq)"
-Write-Log "Review batch: SCJ-338 to SCJ-387 (50 cases). Metrics: supply-code/tmp/pipeline_review/metrics.jsonl"
+Write-Log "Review batch: SCJ-488 to SCJ-537 (50 cases). Metrics: supply-code/tmp/pipeline_review/metrics.jsonl"
 
 $ok = 0
 $fail = 0
@@ -168,7 +170,8 @@ for ($i = 1; $i -le $Count; $i++) {
 
   if ($DryRun) {
     Write-Log "DRY-RUN: $py tools/prepare_next_scj.py"
-    Write-Log "DRY-RUN: if ticket.authoring=stencil -> $py tools/scj_stencil.py --write ; else grok --prompt-file <full|short>"
+    Write-Log "DRY-RUN: if ticket.authoring=stencil -> $py tools/scj_stencil.py --write ; on write fail, prepare --demote then grok"
+    Write-Log "DRY-RUN: else grok --prompt-file <full|short>"
     Write-Log "DRY-RUN: $py tools/finalize_scj.py SCJ-NNN --source <file>"
     continue
   }
@@ -207,43 +210,60 @@ for ($i = 1; $i -le $Count; $i++) {
   $exit = 0
   $tail = ""
   $safetyFinalize = 0
+  $demoted = 0
+  $didStencil = 0
+  $fam = [string]$ticket.stencil_family
 
   if ($authoring -eq "stencil") {
-    $fam = [string]$ticket.stencil_family
     Write-Log "ticket $($ticket.case_id) authoring=stencil family=$fam source=$($ticket.source) pages=$($ticket.page_count) words=$($ticket.word_count) -- no grok"
     $exit = Invoke-LoggedNative -File $py -Arguments @($stencilPy, "--write") -LogPath $caseLog
     if ($exit -ne 0 -or -not (Test-Path $jsonPath)) {
-      $sw.Stop()
       if (Test-Path $caseLog) {
         $tail = (Get-Content $caseLog -Tail 8 -ErrorAction SilentlyContinue) -join ' | '
       }
-      Write-Log "FAIL case $i stencil write exit=$exit"
+      Write-Log "DEMOTE $($ticket.case_id) stencil write failed -> short/full (do not retry stencil)"
       Write-Log "  tail: $tail"
-      $fail++
-      $stencilFailStreak++
-      if ($stencilFailStreak -ge 3) {
-        Write-Log "STOP: stencil write failed $stencilFailStreak times in a row on $($ticket.case_id). Fix tools/scj_stencil.py then re-run."
-        break
+      $demoteExit = Invoke-LoggedNative -File $py -Arguments @($preparePy, "--demote")
+      $ticket = Get-Ticket
+      # Trust the rewritten ticket, not $LASTEXITCODE (pipeline can swallow Python's exit).
+      $authoringNow = if ($ticket) { [string]$ticket.authoring } else { "" }
+      if (-not $ticket -or $authoringNow -eq "" -or $authoringNow -eq "stencil") {
+        Write-Log "FAIL case $i demote failed exit=$demoteExit authoring=$authoringNow"
+        $fail++
+        $stencilFailStreak++
+        if ($stencilFailStreak -ge 3) {
+          Write-Log "STOP: stencil write+demote failed $stencilFailStreak times in a row on $($ticket.case_id). Fix tools/scj_stencil.py then re-run."
+          break
+        }
+        continue
       }
-      continue
+      $authoring = $authoringNow
+      $demoted = 1
+      $stencilFailStreak = 0
+      Write-Log "ticket $($ticket.case_id) demoted authoring=$authoring gate=$($ticket.gate) (demote exit=$demoteExit)"
+    } else {
+      $stencilFailStreak = 0
+      $didStencil = 1
+      $finArgs = @($finalizePy, $ticket.case_id, "--source", $ticket.source)
+      if ($NoPush) { $finArgs += "--no-push" }
+      $exit = Invoke-LoggedNative -File $py -Arguments $finArgs -LogPath $caseLog -Append
+      if ($exit -ne 0) {
+        $sw.Stop()
+        Write-Log "FAIL case $i stencil finalize exit=$exit"
+        $fail++
+        continue
+      }
     }
-    $stencilFailStreak = 0
-    $finArgs = @($finalizePy, $ticket.case_id, "--source", $ticket.source)
-    if ($NoPush) { $finArgs += "--no-push" }
-    $exit = Invoke-LoggedNative -File $py -Arguments $finArgs -LogPath $caseLog -Append
-    if ($exit -ne 0) {
-      $sw.Stop()
-      Write-Log "FAIL case $i stencil finalize exit=$exit"
-      $fail++
-      continue
-    }
-  } else {
+  }
+
+  if (-not $didStencil) {
     $casePrompt = if ($authoring -eq "short") { $promptShort } else { $promptFile }
     $caseTurns = $MaxTurns
     if (-not $maxTurnsUserSet -and $ticket.max_turns) {
       $caseTurns = [int]$ticket.max_turns
     }
-    Write-Log "ticket $($ticket.case_id) authoring=$authoring source=$($ticket.source) pages=$($ticket.page_count) words=$($ticket.word_count) turns=$caseTurns"
+    $demoteNote = if ($demoted) { " (demoted from stencil)" } else { "" }
+    Write-Log "ticket $($ticket.case_id) authoring=$authoring$demoteNote source=$($ticket.source) pages=$($ticket.page_count) words=$($ticket.word_count) turns=$caseTurns"
     $grokArgs = @(
       "--cwd", $RepoRoot,
       "--prompt-file", $casePrompt,
@@ -280,7 +300,11 @@ for ($i = 1; $i -le $Count; $i++) {
         citations = [string]$ticket.citation_count; gate = [string]$ticket.gate
         elapsed = [string][int]$sw.Elapsed.TotalSeconds; ok = "0"
         safety_finalize = "1"
-        grok = $(if ($authoring -eq "stencil") { "0" } else { "1" })
+        grok = $(if ($didStencil) { "0" } else { "1" })
+        demoted = [string]$demoted
+        ik_citations = [string]$ticket.ik_citation_count
+        text_citations = [string]$ticket.text_citation_count
+        demoted_from = $(if ($demoted) { "stencil" } else { "" })
       }
       continue
     }
@@ -319,7 +343,11 @@ for ($i = 1; $i -le $Count; $i++) {
     citations = [string]$ticket.citation_count; gate = [string]$ticket.gate
     elapsed = [string]$elapsed; ok = [string]$okFlag
     safety_finalize = [string]$safetyFinalize
-    grok = $(if ($authoring -eq "stencil") { "0" } else { "1" })
+    grok = $(if ($didStencil) { "0" } else { "1" })
+    demoted = [string]$demoted
+    ik_citations = [string]$ticket.ik_citation_count
+    text_citations = [string]$ticket.text_citation_count
+    demoted_from = $(if ($demoted) { "stencil" } else { "" })
   }
 }
 

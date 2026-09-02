@@ -6,8 +6,10 @@ Live families (prepare/loop skip grok):
     s.126/135/FIR mention is not a veto when those facts are left open in writ
     ("cannot be decided" / "without examining" / "at the first instance").
     Relegation language includes approach EE/JE, liberty to apply/make/move an
-    application, raise dispute. "Clause/para/section 6.5" all count. Withdrawals
-    stay off this family.
+    application, raise dispute. "Clause/para/section 6.5" all count. Billing cue
+    includes current/impugned bill (SCJ-353). Withdrawals stay off this family.
+    Court-grant veto (SCJ-411): 6.5 only in counsel's mouth, Court grants
+    (we intervene / forthwith comply / petition allowed / mandamus issued).
   contempt-6.5-dismissed   — contempt of a 6.5 writ, dismissed misconceived/infructuous
 
 Not live (dry-run only): listing-only. Interlocutory orders that look like
@@ -41,8 +43,25 @@ EXPECTED = {
         "SCJ-327": "yes", "SCJ-331": "yes", "SCJ-333": "yes", "SCJ-335": "yes",
         # Allahabad `Petitioner :-` caption (not Lucknow `.....Petitioner`)
         "SCJ-358": "yes",
+        # 338–387 review TPs (fill_65; loop metric missing on 358/360)
+        "SCJ-360": "yes",
+        "SCJ-366": "yes", "SCJ-370": "yes", "SCJ-371": "yes",
+        "SCJ-374": "yes", "SCJ-378": "yes",
         # stay off stencil: no bill/dispose language; withdrawal with 6.5 liberty
         "SCJ-330": "no", "SCJ-332": "no",
+        # 338–387 review: 6.5 order quashed (not a clone)
+        "SCJ-379": "no",
+        # BILL cue widened: "impugned current bill" (was a clone miss)
+        "SCJ-353": "yes",
+        # 388–437 review TPs
+        "SCJ-405": "yes", "SCJ-419": "yes", "SCJ-420": "yes",
+        "SCJ-421": "yes", "SCJ-422": "yes",
+        # 388–437 FP: counsel raised 6.5; Court granted Lok Adalat compliance
+        "SCJ-411": "no",
+        # 388–437 clones correctly off (no BILL / no bill in the order)
+        "SCJ-408": "no", "SCJ-418": "no",
+        # 438–487 stencil TPs (batch ran before the 388–437 review)
+        "SCJ-474": "yes", "SCJ-484": "yes", "SCJ-485": "yes", "SCJ-486": "yes",
     },
     "contempt-6.5-dismissed": {
         "SCJ-275": "yes", "SCJ-276": "yes",
@@ -100,6 +119,14 @@ INTERLOC = re.compile(
     r"|\btill\s+(?:the\s+)?next\s+date\b|\bon\s+adjourned\s+date\b",
     re.I,
 )
+# 6.5 mentioned (often by counsel) but the Court granted relief. SCJ-411.
+GRANT_NOT_RELEGATE = re.compile(
+    r"\bwe intervene\b"
+    r"|\bforthwith comply\b"
+    r"|\b(?:writ\s+)?petition is allowed\b"
+    r"|\bmandamus is issued\b",
+    re.I,
+)
 STAT_THEFT = re.compile(r"(?:section|s\.)\s*12[65]\b|(?:section|s\.)\s*135\b|\bFIR\b", re.I)
 THEFT_WORD = re.compile(r"\btheft\b", re.I)
 THEFT_NEG = re.compile(
@@ -118,7 +145,9 @@ BILL = re.compile(
     r"|\bunpaid\s+amount\s+of\s+electricity"
     r"|\bdemand\s+notice\b"
     r"|\bexorbitant\s+bills?\b"
-    r"|\belectricity\s+(?:dues|charges|demand)\b",
+    r"|\belectricity\s+(?:dues|charges|demand)\b"
+    r"|\bimpugned\s+(?:current\s+|revised\s+|electricity\s+)?bills?"
+    r"|\bcurrent\s+(?:electricity\s+)?bills?",
     re.I,
 )
 RELEGATE = re.compile(
@@ -380,6 +409,8 @@ def classify_65(txt: str, fp: dict) -> dict:
         r.append("veto: interlocutory listing/adjournment")
     if DISMISSED_WRIT.search(txt):
         r.append("veto: writ dismissed")
+    if GRANT_NOT_RELEGATE.search(txt):
+        r.append("veto: court granted relief (not a 6.5 relegation)")
     if _has_theft(txt):
         if _theft_blocks_65(txt):
             r.append("veto: theft/126/135/FIR")

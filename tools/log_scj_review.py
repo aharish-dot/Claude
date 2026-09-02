@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Append-only metrics for the SCJ-338–387 pipeline review.
+"""Append-only metrics for the SCJ-488–537 pipeline review.
 
 After 50 finalized cases, read:
-  supply-code/sessions/2026-09-01-pipeline-review.md
+  supply-code/sessions/2026-09-02-review-488-537.md
   python tools/log_scj_review.py --summary
 """
 from __future__ import annotations
@@ -16,10 +16,12 @@ DIR = os.path.join(SC, "tmp", "pipeline_review")
 CONFIG = os.path.join(DIR, "config.json")
 METRICS = os.path.join(DIR, "metrics.jsonl")
 STATE = os.path.join(SC, "state", "index.json")
+SESSION = "supply-code/sessions/2026-09-02-review-488-537.md"
 
-REVIEW_FROM = 338
+REVIEW_FROM = 488
 REVIEW_N = 50
-REVIEW_UNTIL = REVIEW_FROM + REVIEW_N - 1  # SCJ-387
+REVIEW_UNTIL = REVIEW_FROM + REVIEW_N - 1  # SCJ-537
+REVIEW_ID = "2026-09-02-grant-veto"
 
 
 def _seq(cid: str) -> int:
@@ -36,15 +38,29 @@ def in_batch(cid: str) -> bool:
 
 def ensure_dir():
     os.makedirs(DIR, exist_ok=True)
-    if not os.path.exists(CONFIG):
-        cfg = {
-            "review_id": "2026-09-01-gate-coerce-65regex",
-            "from_seq": REVIEW_FROM,
-            "until_seq": REVIEW_UNTIL,
-            "target_n": REVIEW_N,
-            "note": "supply-code/sessions/2026-09-01-pipeline-review.md",
-            "status": "in_progress",
-        }
+    cfg = {
+        "review_id": REVIEW_ID,
+        "from_seq": REVIEW_FROM,
+        "until_seq": REVIEW_UNTIL,
+        "target_n": REVIEW_N,
+        "note": SESSION,
+        "status": "in_progress",
+        "changes": [
+            "GRANT veto: we intervene / forthwith comply / petition allowed (SCJ-411)",
+            "stencil write fail demotes to short/full (no retry)",
+            "BILL cue: current/impugned bill",
+            "citation_count = max(ik, text) so PDFs can leave short-uncited",
+        ],
+    }
+    # Refresh if missing or still on the previous batch id.
+    old = {}
+    if os.path.exists(CONFIG):
+        try:
+            with open(CONFIG, encoding="utf-8") as f:
+                old = json.load(f)
+        except (OSError, json.JSONDecodeError):
+            old = {}
+    if old.get("review_id") != REVIEW_ID:
         with open(CONFIG, "w", encoding="utf-8") as f:
             json.dump(cfg, f, indent=2)
             f.write("\n")
@@ -73,9 +89,11 @@ def load_events():
             if not line:
                 continue
             try:
-                out.append(json.loads(line))
+                e = json.loads(line)
             except json.JSONDecodeError:
                 continue
+            if in_batch(e.get("case_id") or ""):
+                out.append(e)
     return out
 
 
@@ -102,21 +120,30 @@ def merge_cases(events=None):
     return merged
 
 
+def _truthy(v) -> bool:
+    return v in (True, 1, "1", "true", "True")
+
+
 def summarize() -> int:
     merged = merge_cases()
     rows = [merged[k] for k in sorted(merged, key=_seq)]
     n = len(rows)
-    ok = [r for r in rows if r.get("ok") in (True, 1, "1", "true", "True")]
+    ok = [r for r in rows if _truthy(r.get("ok"))]
     fail = [r for r in rows if r.get("ok") in (False, 0, "0", "false", "False")]
     by = {}
     for r in rows:
         by.setdefault(r.get("authoring") or "?", []).append(r)
     coerce_n = sum(1 for r in rows if r.get("coerce"))
-    safety_n = sum(1 for r in rows if r.get("safety_finalize") in (True, 1, "1"))
+    safety_n = sum(1 for r in rows if _truthy(r.get("safety_finalize")))
+    demote_n = sum(1 for r in rows if _truthy(r.get("demoted")))
+    cites_n = sum(1 for r in rows if int(r.get("citations") or 0) > 0)
+    text_n = sum(1 for r in rows if int(r.get("text_citations") or 0) > 0)
+    ik_n = sum(1 for r in rows if int(r.get("ik_citations") or 0) > 0)
     print(f"pipeline review  SCJ-{REVIEW_FROM:03d}–SCJ-{REVIEW_UNTIL:03d}  "
           f"logged={n}/{REVIEW_N}")
     print(f"  ok={len(ok)} fail={len(fail)} coerce_any={coerce_n} "
-          f"safety_finalize={safety_n}")
+          f"safety_finalize={safety_n} demoted={demote_n}")
+    print(f"  citations>0={cites_n}  ik>0={ik_n}  text>0={text_n}")
     for auth in ("stencil", "short", "full", "?"):
         grp = by.get(auth) or []
         if not grp:
@@ -130,7 +157,7 @@ def summarize() -> int:
                 gates[g] = gates.get(g, 0) + 1
         print(f"  {auth:8} n={len(grp):2}  avg_s={avg}  gates={gates or '-'}")
     if n >= REVIEW_N:
-        print("REVIEW DUE — see supply-code/sessions/2026-09-01-pipeline-review.md")
+        print(f"REVIEW DUE — see {SESSION}")
         print(f"  metrics: {METRICS}")
         print("  python tools/log_scj_review.py --summary")
     return 0
@@ -156,6 +183,10 @@ def main(argv=None):
     ap.add_argument("--outcome", default="")
     ap.add_argument("--significance", default="")
     ap.add_argument("--grok", default="")
+    ap.add_argument("--demoted", default="")
+    ap.add_argument("--ik_citations", default="")
+    ap.add_argument("--text_citations", default="")
+    ap.add_argument("--demoted_from", default="")
     args = ap.parse_args(argv)
     if args.summary:
         return summarize()
@@ -181,16 +212,19 @@ def main(argv=None):
         "outcome": args.outcome or None,
         "significance": args.significance or None,
         "grok": args.grok if args.grok != "" else None,
+        "demoted": args.demoted if args.demoted != "" else None,
+        "ik_citations": int(args.ik_citations) if str(args.ik_citations).isdigit() else args.ik_citations or None,
+        "text_citations": int(args.text_citations) if str(args.text_citations).isdigit() else args.text_citations or None,
+        "demoted_from": args.demoted_from or None,
     }
     event = {k: v for k, v in event.items() if v is not None and v != []}
     append(event)
     if args.event == "loop" and args.ok in ("1", "true", "True"):
-        n = sum(1 for r in merge_cases().values()
-                if r.get("ok") in (True, 1, "1", "true", "True"))
+        n = sum(1 for r in merge_cases().values() if _truthy(r.get("ok")))
         if n == REVIEW_N:
             print(f"REVIEW DUE after {n} cases "
                   f"(SCJ-{REVIEW_FROM:03d}–SCJ-{REVIEW_UNTIL:03d}). "
-                  "See supply-code/sessions/2026-09-01-pipeline-review.md")
+                  f"See {SESSION}")
     return 0
 
 

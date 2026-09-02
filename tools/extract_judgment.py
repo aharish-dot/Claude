@@ -55,6 +55,73 @@ def extract_cites(s):
     return cites
 
 
+# Prose citations (Allahabad PDFs have no IK doc-ids). Used for the
+# short-uncited gate and the 6.5 stencil citation veto. Caption "X v. Y"
+# and this judgment's own Neutral Citation No. must not count.
+_OWN_NEUTRAL = re.compile(r"Neutral\s+Citation\s+No\.\s*[-:]\s*\S+", re.I)
+_REPORTER = re.compile(
+    r"\(\s*\d{4}\s*\)\s+\d+\s+SCC\s+\d+"
+    r"|\bAIR\s+\d{4}\s+[A-Z]{2,}(?:\s+[A-Z]+)?\s+\d+"
+    r"|\b\d{4}\s*\(\s*\d+\s*\)\s+(?:ADJ|ALD|ALR|SCALE|SCR|All\.?\s*L\.?J\.?)\s+\d+"
+    r"|\b\d{4}\s+\d+\s+SCC\s+\d+",
+    re.I,
+)
+_NEUTRAL_CITE = re.compile(
+    r"\b(?:19|20)\d{2}:(?:INSC|AHC(?:-LKO)?|[A-Z]{2,8}):\d+",
+    re.I,
+)
+_CASE_V = re.compile(
+    r"\b([A-Z][A-Za-z.'()]+(?:\s+[A-Z][A-Za-z.'()]+){0,6})\s+"
+    r"v(?:ersus|s)?\.?\s+"
+    r"([A-Z][A-Za-z.'()]+(?:\s+[A-Z][A-Za-z.'()]+){0,8})\b"
+)
+_GENERIC_LEFT = re.compile(
+    r"^(?:the\s+)?(?:petitioner|applicant|revisionist|appellant)s?\b", re.I)
+_GENERIC_RIGHT = re.compile(
+    r"^(?:the\s+)?(?:respondents?|opposite\s+part(?:y|ies)|ors?\.?|others)\b", re.I)
+_BODY_START = re.compile(
+    r"(?m)^(?:Heard\b|\s*1\.\s|This is a writ\b|The present (?:petition|application)\b)",
+    re.I,
+)
+
+
+def _body_for_cites(txt):
+    t = _OWN_NEUTRAL.sub(" ", txt or "", count=4)
+    m = _BODY_START.search(t)
+    if m:
+        return t[m.start():]
+    return t
+
+
+def extract_text_cites(txt):
+    """Return (count, sample_strings) of authorities discussed in the order.
+
+    High precision over recall: a false positive blocks the 6.5 stencil and
+    sends a 3-page order to full. Caption parties and this case's own
+    neutral citation are excluded.
+    """
+    body = _body_for_cites(txt)
+    found = []
+    for rx in (_REPORTER, _NEUTRAL_CITE):
+        found.extend(m.group(0).strip() for m in rx.finditer(body))
+    for m in _CASE_V.finditer(body):
+        left, right = m.group(1).strip(), m.group(2).strip()
+        if _GENERIC_LEFT.match(left) or _GENERIC_RIGHT.match(right):
+            continue
+        if len(left.split()) == 1 and left.lower() in ("the", "this", "said", "hon"):
+            continue
+        found.append(m.group(0).strip())
+    # de-dupe preserving order
+    seen, uniq = set(), []
+    for s in found:
+        key = re.sub(r"\s+", " ", s).lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        uniq.append(s)
+    return len(uniq), uniq[:12]
+
+
 def from_html(s):
     cites = extract_cites(s)
     title = first(s, [r'<h2 class="doc_title"[^>]*>(.*?)</h2>',
@@ -175,21 +242,30 @@ def main():
         txt, cites, title, court, coram = clean_text(raw.decode('utf-8', 'replace')), {}, "", "", ""
         fmt = 'text'
     os.makedirs(outdir, exist_ok=True)
-    with open(os.path.join(outdir, cid + '.txt'), 'w') as f:
+    with open(os.path.join(outdir, cid + '.txt'), 'w', encoding='utf-8') as f:
         f.write(txt)
     secs = sorted(set(re.findall(r'[Ss]ections?\s+(\d+[A-Z]?)', txt)), key=lambda x: (len(x), x))[:60]
+    ik_n = len(cites)
+    text_n, text_samples = extract_text_cites(txt)
+    # IK hyperlinks win when present (HTML). PDFs have none — use prose.
+    cite_n = max(ik_n, text_n)
     fp = {
         "case_id": cid, "source_file": os.path.basename(inp), "format": fmt,
         "char_count": len(txt), "word_count": len(txt.split()),
         "para_count": txt.count('\n\n') + 1,
         "cause_title": title, "court": court, "coram": coram,
-        "sections_cited": secs, "citation_count": len(cites),
+        "sections_cited": secs,
+        "ik_citation_count": ik_n,
+        "text_citation_count": text_n,
+        "text_citation_samples": text_samples,
+        "citation_count": cite_n,
         "citations": sorted(cites.values(), key=lambda c: -c["count"]),
         "page_count": page_count,
     }
-    with open(os.path.join(outdir, cid + '.fp.json'), 'w') as f:
+    with open(os.path.join(outdir, cid + '.fp.json'), 'w', encoding='utf-8') as f:
         json.dump(fp, f, indent=1, ensure_ascii=False)
-    print(f"{cid}: fmt={fmt} words={fp['word_count']} pages={page_count} citations={len(cites)} "
+    print(f"{cid}: fmt={fmt} words={fp['word_count']} pages={page_count} "
+          f"citations={cite_n} (ik={ik_n} text={text_n}) "
           f"sections={secs[:8]} title={title[:60]!r}")
 
 

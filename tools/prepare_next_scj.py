@@ -2,14 +2,19 @@
 """Pick the next unique pending PDF, extract text, write a work ticket.
 
 Usage:  python tools/prepare_next_scj.py
+        python tools/prepare_next_scj.py --demote
 Exit 0  ticket at supply-code/tmp/NEXT_TICKET.json
 Exit 2  no unique pending input (print NO_INPUT)
+
+--demote  rewrite a READY stencil ticket to short/full (no re-extract).
+          Used when stencil write fails (empty caption, fill incomplete).
+          Does not bump next_seq.
 
 Does not bump next_seq (finalize_scj.py does that). Retires filename and
 docket duplicates to processed/ (mirroring any input/ subfolder) without
 assigning an id. Nested queues (e.g. input/2025/*.pdf) stay nested.
 """
-import json, os, re, subprocess, sys
+import argparse, json, os, re, subprocess, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -263,7 +268,8 @@ def main():
         and scj_stencil.slots_fillable(stencil.get("slots") or {})
     )
     cites = int(fp.get("citation_count") or 0)
-    short = is_short(pages, words, cites)
+    ik_cites = int(fp.get("ik_citation_count") or 0)
+    text_cites = int(fp.get("text_citation_count") or 0)
     ticket = {
         "status": "READY",
         "case_id": cid,
@@ -274,7 +280,10 @@ def main():
         "word_count": words,
         "page_count": pages,
         "citation_count": cites,
+        "ik_citation_count": ik_cites,
+        "text_citation_count": text_cites,
         "out_json": f"supply-code/summaries/json/{cid}.json",
+        "demoted": False,
     }
     if is_stencil:
         ticket["authoring"] = "stencil"
@@ -284,21 +293,7 @@ def main():
         ticket["catalog_hits"] = []
         ticket["prompt"] = "tools/scj_stencil.py"
     else:
-        ensure_catalog()
-        hits = catalog_hits(txt)
-        ticket["catalog_hits"] = hits
-        if short:
-            ticket["authoring"] = "short"
-            ticket["gate"] = short_gate(pages, words, cites)
-            ticket["max_turns"] = SHORT_TURNS
-            ticket["prompt"] = "tools/prompts/next_case_short.txt"
-        else:
-            ticket["authoring"] = "full"
-            ticket["gate"] = "full"
-            ticket["max_turns"] = FULL_TURNS
-            ticket["catalog"] = "supply-code/jurisprudence/catalog.txt"
-            ticket["example"] = "supply-code/summaries/json/SCJ-280.json"
-            ticket["prompt"] = "tools/prompts/next_case_once.txt"
+        apply_llm_authoring(ticket, txt, fp)
     os.makedirs(os.path.dirname(TICKET), exist_ok=True)
     with open(TICKET, "w", encoding="utf-8") as f:
         json.dump(ticket, f, indent=2)
@@ -309,10 +304,83 @@ def main():
     print(f"READY {cid} authoring={ticket['authoring']}{extra} "
           f"gate={ticket.get('gate')} source={name} "
           f"pages={pages} words={words} citations={cites} "
+          f"(ik={ik_cites} text={text_cites}) "
           f"catalog_hits={len(ticket.get('catalog_hits') or [])} "
           f"→ {TICKET}")
     return 0
 
 
+def apply_llm_authoring(ticket, txt, fp):
+    """Fill short/full fields. Never stencil. Mutates ticket."""
+    words = int(ticket.get("word_count") or fp.get("word_count") or 0)
+    pages = ticket.get("page_count")
+    if pages is None:
+        pages = fp.get("page_count")
+    cites = int(fp.get("citation_count") or ticket.get("citation_count") or 0)
+    ensure_catalog()
+    hits = catalog_hits(txt)
+    ticket["catalog_hits"] = hits
+    ticket["citation_count"] = cites
+    ticket["ik_citation_count"] = int(fp.get("ik_citation_count") or 0)
+    ticket["text_citation_count"] = int(fp.get("text_citation_count") or 0)
+    if is_short(pages, words, cites):
+        ticket["authoring"] = "short"
+        ticket["gate"] = short_gate(pages, words, cites)
+        ticket["max_turns"] = SHORT_TURNS
+        ticket["prompt"] = "tools/prompts/next_case_short.txt"
+        ticket.pop("catalog", None)
+        ticket.pop("example", None)
+    else:
+        ticket["authoring"] = "full"
+        ticket["gate"] = "full"
+        ticket["max_turns"] = FULL_TURNS
+        ticket["prompt"] = "tools/prompts/next_case_once.txt"
+        ticket["catalog"] = "supply-code/jurisprudence/catalog.txt"
+        ticket["example"] = "supply-code/summaries/json/SCJ-280.json"
+    return ticket
+
+
+def demote_ticket():
+    """Stencil write failed: same extract, author with short/full. No grok skip."""
+    if not os.path.exists(TICKET):
+        print("FAILED · no ticket to demote", file=sys.stderr)
+        return 1
+    with open(TICKET, encoding="utf-8") as f:
+        ticket = json.load(f)
+    if ticket.get("status") != "READY" or not ticket.get("case_id"):
+        print("FAILED · ticket not READY", file=sys.stderr)
+        return 1
+    cid = ticket["case_id"]
+    txt_path = os.path.join(EXTRACTS, cid + ".txt")
+    txt = ""
+    if os.path.exists(txt_path):
+        txt = open(txt_path, encoding="utf-8", errors="replace").read()
+    fp_path = os.path.join(EXTRACTS, cid + ".fp.json")
+    fp = {}
+    if os.path.exists(fp_path):
+        with open(fp_path, encoding="utf-8") as f:
+            fp = json.load(f)
+    prev = ticket.get("authoring") or "stencil"
+    fam = ticket.get("stencil_family") or ""
+    apply_llm_authoring(ticket, txt, fp)
+    ticket["demoted"] = True
+    ticket["demoted_from"] = prev
+    ticket["stencil_family"] = fam
+    with open(TICKET, "w", encoding="utf-8") as f:
+        json.dump(ticket, f, indent=2)
+        f.write("\n")
+    print(f"DEMOTED {cid} {prev} -> {ticket['authoring']} "
+          f"gate={ticket.get('gate')} family={fam or '-'} "
+          f"pages={ticket.get('page_count')} words={ticket.get('word_count')} "
+          f"citations={ticket.get('citation_count')}")
+    return 0
+
+
 if __name__ == "__main__":
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--demote", action="store_true",
+                    help="rewrite current stencil ticket to short/full")
+    args = ap.parse_args()
+    if args.demote:
+        sys.exit(demote_ticket())
     sys.exit(main())
