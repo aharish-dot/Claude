@@ -1,0 +1,46 @@
+{
+  "case_id": "SCJ-464",
+  "title": "Anil Suhala v. Purvanchal Vidhut Vitrana Nigam Ltd., Varanasi",
+  "neutral_citation": "2025:AHC:21936-DB",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Ashwani Kumar Mishra, J.; Vipin Chandra Dixit, J.",
+  "date_of_judgment": "2025-02-14",
+  "date_display": "14 February 2025",
+  "docket": "Writ-C No. 4343 of 2025",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "licensee",
+  "disposition": "Petition consigned to records; mandamus to restore connection refused.",
+  "headnote": "Clause 8.1(VII) of the U.P. Electricity Supply Code applies only to theft by tampering of the meter and the like, not to drawing supply by a separate unauthorized line tapped to the mains so as to bypass metering. Where action under Section 135 of the Electricity Act, 2003 has been taken, mandamus to restore the connection will not issue; the consumer must challenge those proceedings in the appropriate forum.",
+  "facts": "Anil Suhala sought immediate restoration of connection No. 704025220593, invoking Clause 8.1(VII) of the U.P. Electricity Supply Code on the ground that theft procedure had not been followed. Purvanchal Vidhut Vitrana Nigam Ltd., Varanasi, replied that this was not routine meter tampering: the petitioner had tapped a separate cable to the main line so as to bypass the meter. A provisional bill had been issued and action under Section 135 of the Electricity Act, 2003 taken.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1(VII)",
+      "code": "UP-2005",
+      "clause": "8.1(VII)",
+      "topic": "8.1(VII) limited to meter-tampering theft, not unauthorized line",
+      "type": "supply_code",
+      "holding": "Clause 8.1(VII) applies only where theft of electricity is on account of tampering of meter etc. It has no applicability where a separate unauthorized line is laid to obtain supply so that consumption is not metered.",
+      "paras": "1"
+    },
+    {
+      "provision": "EA2003::135",
+      "code": "EA2003",
+      "clause": "135",
+      "topic": "no mandamus to restore while s.135 action is taken",
+      "type": "electricity_act",
+      "holding": "Where the consumer was found drawing supply by a separate cable to the main line, bypassing the meter, and action under Section 135 has been taken, no mandamus can issue to restore the connection. The remedy is to challenge those proceedings in the appropriate forum.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "merits of the s.135 proceedings and the provisional bill",
+      "note": "petitioner left to challenge them in the appropriate forum",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
