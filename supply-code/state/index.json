@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 506,
+  "next_seq": 507,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -3034,6 +3034,12 @@
       "case_id": "SCJ-505",
       "source_basename": "WRIC(L)_2447_2025.pdf",
       "title": "Mohd. Afaq v. U.P. Power Corporation Limited",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-506",
+      "source_basename": "WRIC(L)_2457_2025.pdf",
+      "title": "Tasneem Kazmi v. Madhyanchal Vidyut Vitran Nigam Ltd.",
       "status": "done"
     }
   ]
