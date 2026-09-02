@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 481,
+  "next_seq": 482,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -2884,6 +2884,12 @@
       "case_id": "SCJ-480",
       "source_basename": "WRIC(A)_6517_2025.pdf",
       "title": "Smt. Usha Shukla v. State of U.P. And 3 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-481",
+      "source_basename": "WRIC(A)_704_2025.pdf",
+      "title": "Wali Mohd. @ Wali Ahmad v. Managing Director, Paschimanchal Vidyut Vitran Nigam Ltd.",
       "status": "done"
     }
   ]
