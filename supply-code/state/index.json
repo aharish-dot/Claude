@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 442,
+  "next_seq": 443,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -2650,6 +2650,12 @@
       "case_id": "SCJ-441",
       "source_basename": "WRIC(A)_3662_2025.pdf",
       "title": "Pinki Singh v. State of U.P. And 3 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-442",
+      "source_basename": "WRIC(A)_36817_2025.pdf",
+      "title": "Atiya Begum v. Chairman, U.P. Power Corporation Ltd.",
       "status": "done"
     }
   ]
