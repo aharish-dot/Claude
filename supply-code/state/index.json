@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 477,
+  "next_seq": 478,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -2860,6 +2860,12 @@
       "case_id": "SCJ-476",
       "source_basename": "WRIC(A)_6101_2025.pdf",
       "title": "Rishikesh Madi Tripathi v. State of U.P. and Another",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-477",
+      "source_basename": "WRIC(A)_61368_2013.pdf",
+      "title": "Executive Engineer, Dakshinanchal Vidyut Vitran Nigam Ltd. v. The Electricity Consumer Grievances Redressal Forum & Anr.",
       "status": "done"
     }
   ]

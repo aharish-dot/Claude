@@ -1,0 +1,78 @@
+{
+  "case_id": "SCJ-477",
+  "title": "Executive Engineer, Dakshinanchal Vidyut Vitran Nigam Ltd. v. The Electricity Consumer Grievances Redressal Forum & Anr.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Saral Srivastava, J.; Sudhanshu Chauhan, J.",
+  "date_of_judgment": "2025-11-20",
+  "date_display": "20 November 2025",
+  "docket": "WRIT - C No. - 61368 of 2013",
+  "page_count": 5,
+  "significance": "significant",
+  "outcome": "consumer",
+  "disposition": "Writ petition dismissed; CGRF order dated 14.08.2013 affirmed",
+  "headnote": "A 51-month overload demand of Rs.1,83,516, raised under paragraph 6.9 of the U.P. Electricity Supply Code, 2005 on a ten-day check meter, cannot stand. Section 56(2) of the Electricity Act, 2003 and the explanation to Clause 6.15(b) bar recovery after two years from when the sum first became due and require an inspection-based bill to be given not later than two billing cycles; the licensee's own Chief Engineer directed that the Code permits revenue assessment for at most one year. The check meter was admitted defective. The Consumer Grievance Redressal Forum's order setting aside the demand is affirmed and the licensee's writ is dismissed.",
+  "facts": "The Executive Engineer, Dakshinanchal Vidyut Vitran Nigam Ltd., challenged the 14 August 2013 order of the Electricity Consumer Grievances Redressal Forum, Aligarh, which set aside a 7 September 2012 overload bill of Rs.1,83,516 against respondent no. 2 and directed the Chief Engineer (Distribution), Aligarh, to determine the amount payable.\n\nRespondent no. 2's father had a 5 kW LMV-2 connection and died on 29 January 2012. On the consumer's request a check meter ran from 2 to 12 September 2012. After an inspection on 5 September 2012 the licensee demanded overload for 51 months under paragraph 6.9 of the U.P. Electricity Supply Code, 2005, on an average overload of 15.43 kW. The consumer said a ten-day check meter could not support 51 months, that the Code allowed assessment for at most one year (Chief Engineer letter of 2 March 2013), and that the check meter was defective (main meter 9.8 kW (UC) versus 6.1 kW), as the Chief Engineer admitted on 9 March 2013.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.9",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.9",
+      "topic": "Paragraph 6.9 overload assessment cannot be projected over 51 months from a short check-meter spell",
+      "type": "supply_code",
+      "question": "May a licensee, under paragraph 6.9, raise a 51-month overload assessment of Rs.1,83,516 on a check meter that ran only from 2 to 12 September 2012?",
+      "holding": "No. The licensee invoked paragraph 6.9 to demand overload for 51 months. The Forum held that an average-overload assessment for 51 months (15.43 kW) was not in consonance with the rules, consumption varying month to month, and that excess load ought to have been billed in the monthly bills at the Commission tariff. The High Court, after also considering the Chief Engineer's 2 March 2013 letter reciting the Managing Director's direction that under the Supply Code, 2005, revenue assessment can be made for a maximum of one year, held it was not open to raise the overload demand for 51 months. Independently, the Chief Engineer's 9 March 2013 letter admitted the check meter was defective. There was no infirmity in the Forum's order setting aside the demand.",
+      "qualifier": "The Court did not quote the text of paragraph 6.9; the licensee cited it as the source of the 51-month demand.",
+      "paras": "3-6, 10-13",
+      "flag": "Source PDF page 1 is an 8.11.2013 listing order (V.K. Shukla and Suneet Kumar, JJ.). The operative disposal is 20.11.2025. The judgment labels the quoted provision 'Section 5.6 of the Electricity Act, 2003' but the extract is Section 56(2). The Forum's reference to the demand letter as dated 07.09.2022 is a slip for 07.09.2012 (para 1). Inspection figures '787 Kw' / '255 kw' are interrupted by a cause-title overlay; the Forum proceeded on an average overload of 15.43 kW."
+    },
+    {
+      "provision": "UP-2005::6.15",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.15(b)",
+      "topic": "Explanation to Clause 6.15(b): inspection-based charges first due on the bill, to be issued within two billing cycles",
+      "type": "interplay",
+      "question": "Does the explanation to Clause 6.15(b) permit recovery of an inspection-based overload charge going back 51 months?",
+      "holding": "No. The explanation to Clause 6.15(b) provides that charges or penalties levied as a result of meter reading or inspection of the consumer's installation become first due from the due date of payment of such a bill, and that bill shall be provided to the consumer not later than two billing cycles for that category. The Forum, relying on Clause 6.15 and Section 56, held the consumer could not be made liable for 51 months of overload arrears. The High Court found no infirmity in that order.",
+      "paras": "4, 9-13"
+    },
+    {
+      "provision": "EA2003::56(2)",
+      "code": "Electricity Act, 2003",
+      "clause": "56(2)",
+      "topic": "Two-year bar on recovery of overload arrears",
+      "type": "electricity_act",
+      "question": "Can overload arrears be recovered for 51 months in the face of Section 56(2)?",
+      "holding": "Section 56(2) provides that no sum due from a consumer under that section shall be recoverable after two years from the date when such sum became first due unless it has been shown continuously as recoverable as arrears of charges for electricity supplied. A 51-month overload demand is not open.",
+      "paras": "4, 8, 11-13"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.15-two-year-bar-mandatory-licensee-duty-to-act",
+      "application": "A 51-month overload assessment under paragraph 6.9 is not recoverable. The Forum applied Section 56 and Clause 6.15; the High Court held it was not open to raise the demand for 51 months. Same cluster as SCJ-113, SCJ-218, SCJ-406.",
+      "lead_authorities": [],
+      "paras": "4, 8-13"
+    },
+    {
+      "tag": "first-due-on-billing-not-consumption",
+      "application": "The explanation to Clause 6.15(b) was applied: inspection-based charges become first due from the due date of the bill, which must be given within two billing cycles, so a 51-month back-assessment of overload cannot stand.",
+      "lead_authorities": [],
+      "paras": "9-11"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Quantum of any amount still payable against the connection after the 51-month demand was set aside",
+      "note": "The Forum set aside the demand and directed the Chief Engineer (Distribution), Aligarh, to determine the amount payable. The High Court did not quantify remaining dues.",
+      "paras": "1, 4, 12-13"
+    },
+    {
+      "point": "Departmental inquiry into officers who failed to raise timely excess-load bills",
+      "note": "The Forum directed the Chief Engineer to take appropriate action on the failure to raise timely revenue demands for excess load. The High Court did not supervise that inquiry.",
+      "paras": "4"
+    }
+  ],
+  "authorities": []
+}
