@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 486,
+  "next_seq": 487,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -2914,6 +2914,12 @@
       "case_id": "SCJ-485",
       "source_basename": "WRIC(A)_8151_2025.pdf",
       "title": "Imami v. the Managing Director, Paschimanchal Vidyut",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-486",
+      "source_basename": "WRIC(A)_8769_2025.pdf",
+      "title": "Rashid v. State of U.P. and 4 Others",
       "status": "done"
     }
   ]
