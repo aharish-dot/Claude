@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 444,
+  "next_seq": 445,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -2662,6 +2662,12 @@
       "case_id": "SCJ-443",
       "source_basename": "WRIC(A)_37262_2024.pdf",
       "title": "Ram Narayan v. Managing Director, Purvanchal Vidyut Vitran Nigam Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-444",
+      "source_basename": "WRIC(A)_37278_2025.pdf",
+      "title": "Kirti Kushwaha v. State of U.P. and Others",
       "status": "done"
     }
   ]
