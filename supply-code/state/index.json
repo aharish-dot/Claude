@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 504,
+  "next_seq": 505,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -3022,6 +3022,12 @@
       "case_id": "SCJ-503",
       "source_basename": "WRIC(L)_203_2025.pdf",
       "title": "Sandeep Kumar @ Sandeep Gupta v. State of U.P. Thru. Prin. Secy. Energy Deptt.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-504",
+      "source_basename": "WRIC(L)_2062_2025.pdf",
+      "title": "Smt. Vinita Verma v. State of U.P. & Ors.",
       "status": "done"
     }
   ]
