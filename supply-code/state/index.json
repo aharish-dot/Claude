@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 447,
+  "next_seq": 448,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -2680,6 +2680,12 @@
       "case_id": "SCJ-446",
       "source_basename": "WRIC(A)_38386_2025.pdf",
       "title": "M/S Skmr Healthcare v. Purvanchal Vidhut Vitrana Nigam Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-447",
+      "source_basename": "WRIC(A)_38566_2025.pdf",
+      "title": "Petitioner v. Purvanchal Vidyut Vitran Nigam Ltd. and Another",
       "status": "done"
     }
   ]
