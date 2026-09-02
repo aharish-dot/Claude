@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 521,
+  "next_seq": 522,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -3124,6 +3124,12 @@
       "case_id": "SCJ-520",
       "source_basename": "WRIC(L)_4366_2025.pdf",
       "title": "Ram Magan Chauhan @ Ram Magan v. State of U.P. & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-521",
+      "source_basename": "WRIC(L)_525_2025.pdf",
+      "title": "Mohd. Nooruz Zaman v. Madhyanchal Vidyut Vitaran Nigam Ltd.",
       "status": "done"
     }
   ]
