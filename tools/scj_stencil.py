@@ -6,15 +6,19 @@ Live families (prepare/loop skip grok):
     s.126/135/FIR mention is not a veto when those facts are left open in writ
     ("cannot be decided" / "without examining" / "at the first instance").
     Relegation language includes approach EE/JE, liberty to apply/make/move an
-    application, raise dispute. "Clause/para/section 6.5" all count. Billing cue
-    includes current/impugned bill (SCJ-353). Withdrawals stay off this family.
+    application, raise dispute, "should file a challenge", "can get the bill
+    corrected", "if the petitioner approaches". "Clause/para/section 6.5" all
+    count. Billing cue includes current/impugned bill (SCJ-353), wrong bill,
+    electricity amount due, unpaid electrical dues, recovery citation (SCJ-408).
+    Withdrawals stay off this family.
     Court-grant veto (SCJ-411): 6.5 only in counsel's mouth, Court grants
     (we intervene / forthwith comply / petition allowed / mandamus issued).
+  6.8-assessment-hearing   — recovery citation, no hearing, deposit, Assessing
+    Officer under 6.8, disposed, pages ≤ 2. Quash / s.135 / listing stay off.
   contempt-6.5-dismissed   — contempt of a 6.5 writ, dismissed misconceived/infructuous
 
-Not live (dry-run only): listing-only; 6.8-assessment-hearing (recovery
-citation, no hearing, deposit, Assessing Officer under 6.8). Interlocutory
-orders that look like listings often carry the real node (SCJ-283/284/288/289/290).
+Not live (dry-run only): listing-only. Interlocutory orders that look like
+listings often carry the real node (SCJ-283/284/288/289/290).
 
 Usage:
   python tools/scj_stencil.py --dry-run
@@ -32,7 +36,11 @@ EXTRACTS = os.path.join(SC, "extracts")
 SUMM = os.path.join(SC, "summaries", "json")
 TICKET = os.path.join(SC, "tmp", "NEXT_TICKET.json")
 
-LIVE = ("6.5-billing-relegation", "contempt-6.5-dismissed")
+LIVE = (
+    "6.5-billing-relegation",
+    "6.8-assessment-hearing",
+    "contempt-6.5-dismissed",
+)
 
 EXPECTED = {
     "6.5-billing-relegation": {
@@ -59,8 +67,10 @@ EXPECTED = {
         "SCJ-421": "yes", "SCJ-422": "yes",
         # 388–437 FP: counsel raised 6.5; Court granted Lok Adalat compliance
         "SCJ-411": "no",
-        # 388–437 clones correctly off (no BILL / no bill in the order)
-        "SCJ-408": "no", "SCJ-418": "no",
+        # BILL + RELEGATE cues (408-class / 399 / 468 / 487)
+        "SCJ-399": "yes", "SCJ-408": "yes", "SCJ-468": "yes", "SCJ-487": "yes",
+        # 6.5 with no bill/demand in the order — stay off
+        "SCJ-418": "no",
         # 438–487 stencil TPs (batch ran before the 388–437 review)
         "SCJ-474": "yes", "SCJ-484": "yes", "SCJ-485": "yes", "SCJ-486": "yes",
     },
@@ -76,7 +86,7 @@ EXPECTED = {
         "SCJ-291": "no", "SCJ-298": "no", "SCJ-300": "no",
         "SCJ-275": "no", "SCJ-276": "no",
     },
-    # Dry-run only. 2-page SDS/Shukla recovery-citation → 6.8 hearing clones.
+    # Live. 2-page SDS/Shukla recovery-citation → 6.8 hearing clones.
     "6.8-assessment-hearing": {
         "SCJ-424": "yes", "SCJ-425": "yes", "SCJ-428": "yes",
         "SCJ-429": "yes", "SCJ-431": "yes", "SCJ-432": "yes",
@@ -164,12 +174,8 @@ BILL = re.compile(
     r"|\bexorbitant\s+bills?\b"
     r"|\belectricity\s+(?:dues|charges|demand)\b"
     r"|\bimpugned\s+(?:current\s+|revised\s+|electricity\s+)?bills?"
-    r"|\bcurrent\s+(?:electricity\s+)?bills?",
-    re.I,
-)
-# Proposed BILL widen (dry-run only). Not OR'd into live BILL.
-BILL_PROPOSED = re.compile(
-    r"\bwrong\s+bills?"
+    r"|\bcurrent\s+(?:electricity\s+)?bills?"
+    r"|\bwrong\s+bills?"
     r"|\bincorrect\s+(?:imposition\s+of\s+)?bills?"
     r"|\belectricity\s+amount\s+due"
     r"|\bunpaid\s+(?:electrical|electricity)\s+dues"
@@ -192,12 +198,8 @@ RELEGATE = re.compile(
     r"|\bliberty\s+to\s+(?:file|approach|apply)\b"
     r"|\bliberty\s+(?:is\s+)?granted\s+to\s+(?:the\s+)?petitioner\s+to\s+"
     r"(?:move|make|file|approach|apply)\b"
-    r"|\b(?:can\s+)?raise\s+(?:a\s+)?(?:comprehensive\s+)?dispute\b",
-    re.I,
-)
-# Proposed RELEGATE widen (dry-run only). Not OR'd into live RELEGATE.
-RELEGATE_PROPOSED = re.compile(
-    r"\bshould\s+file\s+a\s+challenge"
+    r"|\b(?:can\s+)?raise\s+(?:a\s+)?(?:comprehensive\s+)?dispute\b"
+    r"|\bshould\s+file\s+a\s+challenge"
     r"|\bcan\s+get\s+the\s+bill\s+corrected"
     r"|\bmore\s+appropriately\s+(?:be\s+)?examined"
     r"|\bif\s+the\s+petitioner\s+approaches"
@@ -271,7 +273,8 @@ STAY = re.compile(
     r"for\s+(?:a\s+period\s+of\s+)?(\d+|ten|one|two)\s+(days?|months?).{0,80}"
     r"(?:not\s+disconnect|no\s+coercive|shall\s+not\s+disconnect)", re.I)
 OFFICER = re.compile(
-    r"(Junior\s+Engineer|Executive\s+Engineer|competent\s+authority)", re.I)
+    r"(Assessing\s+Officer|Junior\s+Engineer|Executive\s+Engineer|"
+    r"competent\s+authority)", re.I)
 DISCOM = re.compile(
     r"(Purvanchal\s+Vidyut\s+Vitran\s+Nigam(?:\s+Ltd\.?)?"
     r"|Pashchimanchal\s+Vidyut\s+Vitran\s+Nigam(?:\s+Limited)?"
@@ -538,8 +541,41 @@ def classify_contempt(txt: str, fp: dict) -> dict:
     }
 
 
+def _fmt_rs(raw: str) -> str:
+    raw = (raw or "").replace(",", "").strip()
+    if not raw:
+        return ""
+    out = "Rs." + raw
+    if "." not in raw:
+        out += "/-"
+    return out
+
+
+def _enrich_68_slots(txt: str, slots: dict) -> dict:
+    slots = dict(slots or {})
+    amounts = RS.findall(txt)
+    if amounts and not slots.get("recovery_amount"):
+        slots["recovery_amount"] = _fmt_rs(amounts[0])
+    dm = re.search(r"depositing\s+Rs\.?\s*([\d,]+(?:\.\d+)?)", txt, re.I)
+    if dm:
+        slots["deposit_amount"] = _fmt_rs(dm.group(1))
+    if re.search(r"\bassessing\s+officer\b", txt, re.I):
+        slots["officer"] = "Assessing Officer"
+    elif not slots.get("officer") or slots.get("officer") == "competent authority":
+        slots["officer"] = "Assessing Officer"
+    days = DAYS.findall(txt)
+    for n, unit in reversed(days or []):
+        if "month" in unit.lower():
+            n = WORD_NUM.get(str(n).lower(), n)
+            slots["decide_within"] = f"{n} {unit.lower()}"
+            break
+    if re.search(r"recovery shall revive", txt, re.I):
+        slots["recovery_revives"] = True
+    return slots
+
+
 def classify_68(txt: str, fp: dict) -> dict:
-    """Dry-run only. Recovery-citation / no-hearing / deposit / 6.8 AO clones."""
+    """Recovery-citation / no-hearing / deposit / 6.8 AO clones."""
     info = _base(fp, [])
     r = info["reasons"]
     pages, words, cites = info["pages"], info["words"] or len(txt.split()), info["cites"]
@@ -581,11 +617,14 @@ def classify_68(txt: str, fp: dict) -> dict:
     ok = not any(x.startswith("veto:") or x.startswith("no:") for x in r)
     if ok:
         r.append("pass: 6.8 assessment-hearing relegation")
+    slots = {}
+    if ok or CLAUSE_68_NAMED.search(txt):
+        slots = _enrich_68_slots(txt, parse_caption(txt))
     return {
         "verdict": "STENCIL" if ok else "NO",
         "family": "6.8-assessment-hearing" if ok else None,
         "reasons": r, "pages": pages, "words": words,
-        "slots": parse_caption(txt) if ok or CLAUSE_68_NAMED.search(txt) else {},
+        "slots": slots,
     }
 
 
@@ -623,7 +662,7 @@ def classify_listing(txt: str, fp: dict) -> dict:
 
 def classify(txt: str, fp: dict, live_only: bool = True) -> dict:
     """First live-family match wins. listing-only is never returned if live_only."""
-    for fn in (classify_65, classify_contempt):
+    for fn in (classify_65, classify_68, classify_contempt):
         hit = fn(txt, fp)
         if hit["verdict"] == "STENCIL":
             return hit
@@ -743,6 +782,96 @@ def fill_65(cid: str, fp: dict, slots: dict) -> dict:
     return rec
 
 
+def fill_68(cid: str, fp: dict, slots: dict) -> dict:
+    recovery = slots.get("recovery_amount") or slots.get("bill_amount") or ""
+    deposit = slots.get("deposit_amount") or ""
+    officer = slots.get("officer") or "Assessing Officer"
+    decide = slots.get("decide_within") or "two months"
+    rec_bit = f" of {recovery}" if recovery else ""
+    dep_bit = f" of {deposit}" if deposit else ""
+    revive = slots.get("recovery_revives")
+    revive_bit = (
+        " If the deposit or application is not made in time, the recovery revives."
+        if revive else ""
+    )
+    headnote = (
+        "Where a recovery citation for electricity dues is challenged and it is "
+        "not clear that Clause 6.8 assessment procedure was followed or that a "
+        "hearing was given, the writ is disposed of without deciding the demand. "
+        f"Subject to deposit{dep_bit} towards the disputed demand, the consumer "
+        f"may apply to the {officer}, who shall decide the objection by a reasoned "
+        f"order after personal hearing, preferably within {decide}."
+        f"{revive_bit}"
+    )
+    petitioner = slots.get("petitioner") or "The petitioner"
+    facts = (
+        f"{petitioner} challenged a recovery citation{rec_bit} towards electricity "
+        "dues, alleging that no opportunity of hearing was given before the demand. "
+        "The Court did not decide whether assessment procedure under Clause 6.8 "
+        "had been complied with."
+    )
+    holding = (
+        "A writ challenging a recovery citation for electricity dues is disposed "
+        "of without examining whether Clause 6.8 assessment procedure was followed "
+        "or the demand's validity. Subject to deposit"
+        f"{dep_bit} towards the disputed demand, the consumer may file an "
+        f"objection before the {officer} under Clause 6.8 of the U.P. Electricity "
+        "Supply Code, 2005. The officer shall decide by a reasoned and speaking "
+        f"order after confronting the consumer with adverse material and granting "
+        f"personal hearing, preferably within {decide}."
+        f"{revive_bit}"
+    )
+    unit = {
+        "provision": "UP-2005::6.8",
+        "code": "U.P. Electricity Supply Code, 2005",
+        "clause": "6.8",
+        "topic": "Assessment objection — relegation to Clause 6.8 after deposit",
+        "type": "supply_code",
+        "holding": holding,
+        "paras": "",
+    }
+    flags = []
+    if slots.get("code_year") and slots["code_year"] != "2005":
+        flags.append(
+            f"The order cites 'Clause 6.8 of the UP Electricity Supply Code, "
+            f"{slots['code_year']}'. The Code in force is the 2005 Code. "
+            "Recorded, not silently corrected."
+        )
+    if flags:
+        unit["flag"] = " ".join(flags)
+    disp = "Writ disposed of; petitioner relegated to Clause 6.8"
+    if deposit:
+        disp += f" after deposit of {deposit}"
+    return {
+        "case_id": cid,
+        "title": slots.get("title") or "",
+        "neutral_citation": slots.get("neutral_citation") or "",
+        "court": "Allahabad High Court",
+        "bench": slots.get("bench") or "",
+        "coram": slots.get("coram") or "",
+        "date_of_judgment": slots.get("date_of_judgment") or "",
+        "date_display": slots.get("date_display") or "",
+        "docket": slots.get("docket") or "",
+        "page_count": fp.get("page_count"),
+        "significance": "ordinary",
+        "outcome": "alternate_remedy",
+        "disposition": disp,
+        "headnote": headnote,
+        "facts": facts,
+        "holding_units": [unit],
+        "principle_tags": [],
+        "not_decided": [
+            {
+                "point": "Whether Clause 6.8 assessment procedure was followed, and the merits of the demand",
+                "note": "Left to the Assessing Officer after deposit and hearing.",
+                "docid": "",
+                "paras": "",
+            }
+        ],
+        "authorities": [],
+    }
+
+
 def fill_contempt(cid: str, fp: dict, slots: dict) -> dict:
     how = slots.get("contempt_how") or "dismissed"
     how_disp = {
@@ -815,6 +944,7 @@ def fill_contempt(cid: str, fp: dict, slots: dict) -> dict:
 
 FILLERS = {
     "6.5-billing-relegation": fill_65,
+    "6.8-assessment-hearing": fill_68,
     "contempt-6.5-dismissed": fill_contempt,
 }
 
@@ -847,46 +977,6 @@ def classify_family(txt: str, fp: dict, family: str) -> dict:
     }[family](txt, fp)
 
 
-def _or_rx(*rxs):
-    return re.compile("|".join("(?:%s)" % r.pattern for r in rxs), re.I)
-
-
-def _proposal_delta(only, bill_rx, relegate_rx, label):
-    """Cases that live 6.5 misses and the proposed regexes would catch."""
-    gained, veto_hits = [], []
-    veto_ids = {
-        "SCJ-283", "SCJ-284", "SCJ-288", "SCJ-379", "SCJ-385", "SCJ-411",
-        "SCJ-367", "SCJ-375", "SCJ-376", "SCJ-418",
-    }
-    live_yes = set()
-    for cid, txt, fp in iter_extracts(only):
-        live = classify_65(txt, fp)
-        prop = classify_65(txt, fp, bill_rx=bill_rx, relegate_rx=relegate_rx)
-        if live["verdict"] == "STENCIL":
-            live_yes.add(cid)
-            continue
-        if prop["verdict"] != "STENCIL":
-            continue
-        row = (cid, live.get("reasons"), prop.get("reasons"),
-               fp.get("page_count"), fp.get("word_count"))
-        if cid in veto_ids:
-            veto_hits.append(row)
-        else:
-            gained.append(row)
-    print()
-    print(f"=== 6.5 proposal  [{label}]  gained={len(gained)}  "
-          f"veto_set_hit={len(veto_hits)}  live_already={len(live_yes)} ===")
-    for cid, live_r, prop_r, pages, words in gained:
-        why_live = "; ".join(x for x in (live_r or []) if x.startswith("no:") or x.startswith("veto:"))
-        print(f"  GAIN {cid} pp={pages} w={words}  was: {why_live}")
-    for cid, live_r, prop_r, pages, words in veto_hits:
-        print(f"  VETO-HIT {cid} pp={pages} w={words}  "
-              f"{'; '.join((prop_r or [])[:3])}")
-    if not gained and not veto_hits:
-        print("  (no change)")
-    return gained, veto_hits
-
-
 def pending_scan():
     """Classify unprocessed input PDFs. Read-only."""
     inp = os.path.join(SC, "input")
@@ -905,11 +995,9 @@ def pending_scan():
     if not pdfs:
         print("\n=== pending queue === empty")
         return
-    bill_w = _or_rx(BILL, BILL_PROPOSED)
-    rel_w = _or_rx(RELEGATE, RELEGATE_PROPOSED)
     print()
     print(f"=== pending queue  n={len(pdfs)} PDFs in input/ ===")
-    n68 = n65 = n65w = 0
+    n68 = n65 = 0
     for path in sorted(pdfs):
         try:
             d = fitz.open(path)
@@ -920,21 +1008,15 @@ def pending_scan():
             print(f"  SKIP {os.path.basename(path)}: {e}")
             continue
         fp = {"page_count": pages, "word_count": len(txt.split()), "citation_count": 0}
-        hit68 = classify_68(txt, fp)
-        hit65 = classify_65(txt, fp)
-        hit65w = classify_65(txt, fp, bill_rx=bill_w, relegate_rx=rel_w)
+        hit = classify(txt, fp, live_only=True)
         rel = os.path.relpath(path, inp)
-        if hit68["verdict"] == "STENCIL":
+        if hit.get("family") == "6.8-assessment-hearing":
             n68 += 1
             print(f"  6.8  {rel}  pp={pages} w={fp['word_count']}")
-        if hit65["verdict"] == "STENCIL":
+        elif hit.get("family") == "6.5-billing-relegation":
             n65 += 1
-        elif hit65w["verdict"] == "STENCIL":
-            n65w += 1
-            why = "; ".join(x for x in (hit65.get("reasons") or [])
-                            if x.startswith("no:") or x.startswith("veto:"))
-            print(f"  6.5+ {rel}  pp={pages} w={fp['word_count']}  live-miss: {why}")
-    print(f"  pending would-be  6.8={n68}  live-6.5={n65}  6.5-with-proposals={n65w}")
+            print(f"  6.5  {rel}  pp={pages} w={fp['word_count']}")
+    print(f"  pending would-be  6.8={n68}  live-6.5={n65}")
 
 
 def iter_extracts(only: str | None):
@@ -983,7 +1065,11 @@ def score_family(family: str, only: str | None):
 def dry_run(only: str | None) -> int:
     rc = 0
     print("SCJ stencil dry-run  (extracts only; no JSON written to summaries/)")
-    dry_families = LIVE + ("6.8-assessment-hearing", "listing-only")
+    seen, dry_families = [], []
+    for f in LIVE + ("listing-only",):
+        if f not in seen:
+            seen.append(f)
+            dry_families.append(f)
     for family in dry_families:
         live = family in LIVE
         tag = "LIVE" if live else "NOT LIVE"
@@ -992,7 +1078,7 @@ def dry_run(only: str | None) -> int:
         print(f"=== {family}  [{tag}]  TP={s['tp']} TN={s['tn']} FP={s['fp']} FN={s['fn']} ===")
         print(f"{'id':8} {'got':8} {'expect':8} {'sc':3} reasons")
         for cid, got, expected, sc, hit in s["rows"]:
-            if sc == "TN" and not only and family in ("listing-only", "6.8-assessment-hearing") and got == "no":
+            if sc == "TN" and not only and family == "listing-only" and got == "no":
                 if cid not in (EXPECTED.get(family) or {}):
                     continue
             why = "; ".join((hit.get("reasons") or [])[:4])
@@ -1001,19 +1087,8 @@ def dry_run(only: str | None) -> int:
             rc = 1
         if family == "listing-only" and s["tp"]:
             print("NOTE: listing-only had TPs — still not wired (see module docstring).")
-        if family == "6.8-assessment-hearing":
-            if s["fp"] or s["fn"]:
-                print("NOTE: 6.8-assessment-hearing is NOT LIVE. FP/FN must be clean before wiring.")
-            elif s["tp"]:
-                print("NOTE: 6.8-assessment-hearing scored clean on EXPECTED — still NOT LIVE.")
         if live and s["fp"] == 0 and s["fn"] == 0:
             print("ok to wire")
-
-    bill_w = _or_rx(BILL, BILL_PROPOSED)
-    rel_w = _or_rx(RELEGATE, RELEGATE_PROPOSED)
-    _proposal_delta(only, bill_w, RELEGATE, "BILL cues only")
-    _proposal_delta(only, BILL, rel_w, "RELEGATE cues only")
-    _proposal_delta(only, bill_w, rel_w, "BILL + RELEGATE cues")
     if not only:
         pending_scan()
 

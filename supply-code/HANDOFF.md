@@ -4,7 +4,7 @@
 > Mechanical procedure: **`RUNBOOK.md`**. One-command trigger: **`NEXT.md`**.
 > Project rationale: **`README.md`**. Do not duplicate them.
 
-_Last updated: 2 September 2026 — pipeline after the 388–437 review: (1) **GRANT veto** on 6.5 stencil (`we intervene` / `forthwith comply` / petition allowed — SCJ-411); (2) stencil write fail still **demotes**; (3) BILL cue includes `current`/`impugned` bill; (4) `citation_count` is IK **or** prose. **Review at SCJ-537** (`sessions/2026-09-02-review-488-537.md`). Listing-only still off. Words ≤ 800 still short even with citations._
+_Last updated: 2 September 2026 — pipeline after wiring 6.8 + BILL/RELEGATE cues: (1) **6.8-assessment-hearing** stencil live; (2) BILL includes wrong bill / electricity amount due / unpaid dues / recovery citation; RELEGATE includes “should file a challenge” / “can get the bill corrected” / “if the petitioner approaches”; (3) **GRANT veto** (SCJ-411); (4) stencil write fail **demotes**; (5) `citation_count` is IK **or** prose. **Review at SCJ-537** (`sessions/2026-09-02-review-488-537.md`). Listing-only still off._
 
 ---
 
@@ -29,7 +29,7 @@ Process remaining judgments **first** (mechanical pipeline → index), **then** 
 | **next batch** | `RUNBOOK.md` default: up to 8, early-stop ~22k words. |
 | Anything about the treatise / booklet Parts | Not yet, unless they explicitly override §2. |
 
-**Immediate next:** `tools\run_next_case_loop.ps1 -Count 50` from repo root (review batch SCJ-488–537). Skip `(1)` twins. `next_seq=488`. Do not start that 50 until the 388–437 review is the resume point (it is, as of 2 Sep).
+**Immediate next:** `tools\run_next_case_loop.ps1 -Count 50` from repo root (review batch SCJ-488–537). Skip `(1)` twins. `next_seq=488`.
 
 ## 4. Gotchas a fresh session MUST know
 
@@ -47,7 +47,7 @@ Token split:
 
 1. `python tools/prepare_next_scj.py` — next unique PDF, skip dups, extract text → `tmp/NEXT_TICKET.json` (`authoring`, `catalog_hits`, `page_count`). Classifier may set `authoring=stencil` + `stencil_family`.
 2. JSON:
-   - **Stencil** (`authoring=stencil`): `python tools/scj_stencil.py --write` — **no grok**, do not read the judgment. Live families only: `6.5-billing-relegation`, `contempt-6.5-dismissed`. BILL cue includes `current bill` / `impugned … bill` (SCJ-353). GRANT veto: `we intervene` / `forthwith comply` / petition allowed / mandamus issued (SCJ-411 — counsel raised 6.5, Court enforced a Lok Adalat award). Not stencil: listing-only, 4.4, 6.5 invoked-but-not-applied (SCJ-283/284/288), 6.5 order quashed (SCJ-379), court-grants.
+   - **Stencil** (`authoring=stencil`): `python tools/scj_stencil.py --write` — **no grok**, do not read the judgment. Live families: `6.5-billing-relegation`, `6.8-assessment-hearing`, `contempt-6.5-dismissed`. BILL cue includes `current`/`impugned` bill (SCJ-353), `wrong bill`, `electricity amount due`, unpaid electrical dues, recovery citation (SCJ-408). RELEGATE includes “should file a challenge” / “can get the bill corrected” / “if the petitioner approaches” (SCJ-399/468/487). GRANT veto: `we intervene` / `forthwith comply` / petition allowed / mandamus issued (SCJ-411). 6.8 is recovery citation + no hearing + deposit + Assessing Officer, pages ≤ 2; quash / s.135 stay off. Not stencil: listing-only, 4.4, 6.5 invoked-but-not-applied (SCJ-283/284/288), 6.5 order quashed (SCJ-379), 6.8 quashes (SCJ-367/375), court-grants.
    - **If stencil write fails:** `python tools/prepare_next_scj.py --demote` then follow the new `authoring` (short/full). **Do not** re-run prepare as stencil on the same id (358 burned 30 retries). Loop does this itself. Track `demoted`.
    - **Short path** if pages ≤ 2 **or** words ≤ 800, **or** uncited with pages ≤ 3 and words ≤ 1500 (`authoring=short`, `tools/prompts/next_case_short.txt`, `catalog_hits` on the ticket, max 15 turns). **Do not** load `catalog.txt`, SCJ-280, RUNBOOK, `finalize_scj.py`, or `gen_scj.py`. Schema is in the prompt. `paras` is a string; `not_decided` is objects. Uncited = fingerprint `citation_count` (IK hyperlinks **or** prose reporters / body `X v. Y`; not the caption or this case’s Neutral Citation No.).
    - **Full path** otherwise (`tools/prompts/next_case_once.txt` + catalog + SCJ-280).
@@ -99,7 +99,7 @@ Branch `claude/supply-code-jurisprudence-design-yiwgen`. One commit per case, th
 | `../tools/prompts/next_case_once.txt` | Full authoring prompt. |
 | `../tools/prompts/next_case_short.txt` | Short authoring prompt (pages ≤ 2 or words ≤ 800, or uncited pages ≤ 3 / words ≤ 1500). |
 | `../tools/log_scj_review.py` | Metrics for the SCJ-488–537 review. `--summary` after 50. |
-| `sessions/2026-09-02-review-488-537.md` | **Review after this 50.** GRANT veto / BILL / text-cites checklist. |
+| `sessions/2026-09-02-review-488-537.md` | **Review after this 50.** 6.8 stencil / BILL+RELEGATE cues / GRANT veto. |
 | `sessions/2026-09-01-review-388-437.md` | Prior 50 (SCJ-388–437). GRANT veto came from here. |
 | `sessions/2026-09-01-pipeline-review.md` | Prior 50 (SCJ-338–387). |
 | `jurisprudence/catalog.txt` | Compact provision-key + principle-tag list. Generated. |
@@ -121,4 +121,4 @@ Rebuild index; skim what shifted; revisit the outline; then author the treatise 
 
 ---
 
-**One-line resume:** _487 cases done; treatise on hold; **next** or `tools\run_next_case_loop.ps1 -Count 50` = JSON+PDF+push; **review at SCJ-537**; 6.5 stencil GRANT veto (SCJ-411); stencil write fail **demotes**; BILL includes current/impugned bill; `citation_count` = max(IK, prose); short if ≤2 pages or ≤800 words or uncited ≤3 pages / ≤1500 words; listing-only off; `next_seq=488`._
+**One-line resume:** _487 cases done; treatise on hold; **next** or `tools\run_next_case_loop.ps1 -Count 50` = JSON+PDF+push; **review at SCJ-537**; live stencil: 6.5 + **6.8-assessment-hearing** + contempt-6.5; BILL+RELEGATE cues (408/399/468/487); GRANT veto (SCJ-411); demote on stencil write fail; `citation_count` = max(IK, prose); listing-only off; `next_seq=488`._

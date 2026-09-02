@@ -21,7 +21,7 @@ SESSION = "supply-code/sessions/2026-09-02-review-488-537.md"
 REVIEW_FROM = 488
 REVIEW_N = 50
 REVIEW_UNTIL = REVIEW_FROM + REVIEW_N - 1  # SCJ-537
-REVIEW_ID = "2026-09-02-grant-veto"
+REVIEW_ID = "2026-09-02-68-bill-relegate"
 
 
 def _seq(cid: str) -> int:
@@ -46,9 +46,10 @@ def ensure_dir():
         "note": SESSION,
         "status": "in_progress",
         "changes": [
+            "6.8-assessment-hearing stencil LIVE (recovery citation, no hearing, deposit)",
+            "BILL+RELEGATE cues: wrong bill, electricity amount due, unpaid dues, recovery citation; should file a challenge / can get the bill corrected / if the petitioner approaches",
             "GRANT veto: we intervene / forthwith comply / petition allowed (SCJ-411)",
             "stencil write fail demotes to short/full (no retry)",
-            "BILL cue: current/impugned bill",
             "citation_count = max(ik, text) so PDFs can leave short-uncited",
         ],
     }
@@ -156,6 +157,20 @@ def summarize() -> int:
             if g:
                 gates[g] = gates.get(g, 0) + 1
         print(f"  {auth:8} n={len(grp):2}  avg_s={avg}  gates={gates or '-'}")
+        if auth == "stencil":
+            fam = {}
+            oc, sig = {}, {}
+            for r in grp:
+                f = r.get("family") or "?"
+                fam[f] = fam.get(f, 0) + 1
+                o = r.get("outcome") or ""
+                s = r.get("significance") or ""
+                if o:
+                    oc[o] = oc.get(o, 0) + 1
+                if s:
+                    sig[s] = sig.get(s, 0) + 1
+            print(f"           families={fam or '-'}")
+            print(f"           outcome={oc or '-'}  significance={sig or '-'}")
     if n >= REVIEW_N:
         print(f"REVIEW DUE — see {SESSION}")
         print(f"  metrics: {METRICS}")

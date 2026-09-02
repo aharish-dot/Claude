@@ -8,7 +8,8 @@
     2. grok -p                          (author lean JSON only -- quality-critical)
     3. python tools/finalize_scj.py     (PDF, state, index, git) if the agent did not
   Fresh grok process each time (no -c / -r), except stencil tickets: proved
-  families (Clause 6.5 billing relegation; contempt of a 6.5 writ dismissed)
+  families (Clause 6.5 billing relegation; Clause 6.8 assessment-hearing;
+  contempt of a 6.5 writ dismissed)
   are filled by tools/scj_stencil.py with no grok call. If stencil write
   fails, prepare --demote rewrites the ticket to short/full and grok runs
   once — do not re-prepare the same PDF as stencil. Chrome/git/index
