@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 472,
+  "next_seq": 473,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -2830,6 +2830,12 @@
       "case_id": "SCJ-471",
       "source_basename": "WRIC(A)_5195_2025.pdf",
       "title": "Faiju Uddin v. Purvanchal Vidhut Vitrana Nigam Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-472",
+      "source_basename": "WRIC(A)_5666_2025.pdf",
+      "title": "Ritu Verma v. State of U.P. And 4 Others",
       "status": "done"
     }
   ]
