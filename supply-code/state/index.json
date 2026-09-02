@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 528,
+  "next_seq": 529,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -3166,6 +3166,12 @@
       "case_id": "SCJ-527",
       "source_basename": "WRIC(L)_8177_2025.pdf",
       "title": "Gyan Prakash Gupta v. Madhyanchal Vidyut Vitran Nigam Ltd. & 4 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-528",
+      "source_basename": "WRIC(L)_8645_2025.pdf",
+      "title": "Petitioner v. Managing Director, Madhyanchal Vidyut Vitran Nigam Ltd. & Ors.",
       "status": "done"
     }
   ]
