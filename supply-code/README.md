@@ -1,10 +1,33 @@
 # Supply Code Jurisprudence
 
-Goal: turn ~300 High Court judgments **on the electricity Supply Code** into a single,
-navigable body of jurisprudence — not just 300 isolated case notes, but a spine organised
+Goal: turn High Court judgments **on the electricity Supply Code** into a single,
+navigable body of jurisprudence — not just isolated case notes, but a spine organised
 by *Supply Code provision* and by *legal principle*, so a reader can ask "what have the
 courts held about Clause 4.26(e)?" or "how has the 'no advantage of one's own wrong' maxim
 been applied to licensees?" and get every case, with its holding and paragraph pins.
+
+**GitHub landing page** (Windows + Ubuntu loop): [`../README.md`](../README.md).
+
+## Run the unattended loop (Windows or Ubuntu)
+
+Same Python orchestrator on both PCs. GitHub is the queue. **One machine at a time.**
+
+**Windows** (from repo root):
+
+```
+git pull
+powershell -ExecutionPolicy Bypass -File tools\run_next_case_loop.ps1 -Count 50 -Workers 2
+```
+
+**Ubuntu** (fresh clone of this branch, not a copy of the Windows folder):
+
+```
+git pull
+./tools/run_next_case_loop.sh --count 50 --workers 2
+```
+
+First Ubuntu run: Python 3, `pip install pymupdf`, Grok CLI on `PATH`, Chromium/Chrome
+(or `CHROME=...`). Check with `--dry-run --count 1`. Full recipe in the root README.
 
 This project reuses the existing digest pipeline (`../tools/`, `../high-court/`) and adds one
 new layer on top: a **provision-keyed jurisprudence index**.
@@ -94,6 +117,6 @@ Case ids are `SCJ-0NN` (Supply Code Jurisprudence), sequential and stable.
 
 ## Status
 
-`SCJ-001` (Indian Oil Corp. v. State of U.P., 2024:AHC:8729-DB) is drafted end-to-end as the
-reference sample. The remaining ~299 judgments are processed in fresh sessions, in batches,
-against this schema once it is signed off.
+**SCJ-001 … SCJ-536** are processed (lean JSON + digest PDF + folded into
+`jurisprudence/index.json`). Treatise Parts stay on hold until `input/` is empty.
+Trigger card: [`NEXT.md`](NEXT.md). Resume: [`HANDOFF.md`](HANDOFF.md).

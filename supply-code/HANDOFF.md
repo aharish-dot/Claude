@@ -14,7 +14,7 @@ _Last updated: 2 September 2026 — pipeline after wiring 6.8 + BILL/RELEGATE cu
 - **`state/index.json`**: `next_seq = 488`. **Review at SCJ-537** (`sessions/2026-09-02-review-488-537.md`). 388–437 notes: `sessions/2026-09-01-review-388-437.md`. 338–387 notes: `sessions/2026-09-01-pipeline-review.md`. SCJ-438–487 ran before the 388–437 review was filled; metrics for that batch were dropped.
 - **Treatise outline** exists (`jurisprudence/treatise/00-OUTLINE.md`); **all Parts still `todo`**. Treatise remains **ON HOLD** until the input queue is empty.
 - **Branch**: `claude/supply-code-jurisprudence-design-yiwgen` (commit and push each case).
-- **This machine is Windows.** Sources in the live queue are **PDFs in `supply-code/input/`**, not `html_input/`.
+- **Two working copies are allowed:** this Windows folder, and a separate Ubuntu clone of the same branch. Sources in the live queue are **PDFs in `supply-code/input/`**, not `html_input/`. Run the loop on **one machine at a time**; GitHub is the shared queue.
 
 ## 2. Governing decision (unchanged)
 
@@ -25,11 +25,11 @@ Process remaining judgments **first** (mechanical pipeline → index), **then** 
 | User says | Do |
 |---|---|
 | **next** / **next case** / **now next one** | Process **exactly one** unique pending file. See **`NEXT.md`**. Do not ask. Stencil tickets: write+finalize only, do not read the judgment. |
-| *(unattended)* | `powershell -ExecutionPolicy Bypass -File tools\run_next_case_loop.ps1 -Count 50 -Workers 2` from repo root. Default **2** authoring workers (max 4). Claim + finalize stay serial under `tmp/queue.lock`. Each grok is a fresh `grok -p` **unless** `authoring=stencil` (no grok). `-Workers 1` = old serial loop. |
+| *(unattended)* | Windows: `powershell -ExecutionPolicy Bypass -File tools\run_next_case_loop.ps1 -Count 50 -Workers 2`. Ubuntu: `./tools/run_next_case_loop.sh --count 50 --workers 2`. Default **2** authoring workers (max 4). Claim + finalize stay serial under `tmp/queue.lock` (local to that PC). Each grok is a fresh `grok -p` **unless** `authoring=stencil` (no grok). `-Workers 1` / `--workers 1` = old serial loop. Never run both PCs at once. |
 | **next batch** | `RUNBOOK.md` default: up to 8, early-stop ~22k words. |
 | Anything about the treatise / booklet Parts | Not yet, unless they explicitly override §2. |
 
-**Immediate next:** input queue is empty (`next_seq=537`, last done **SCJ-536**). When new PDFs land in `input/`: `tools\run_next_case_loop.ps1 -Count 50 -Workers 2` from repo root. Skip `(1)` twins.
+**Immediate next:** input queue is empty (`next_seq=537`, last done **SCJ-536**). When new PDFs land in `input/`: Windows `tools\run_next_case_loop.ps1 -Count 50 -Workers 2` or Ubuntu `./tools/run_next_case_loop.sh --count 50 --workers 2` from repo root (`git pull` first). Skip `(1)` twins.
 
 ## 4. Gotchas a fresh session MUST know
 
@@ -39,9 +39,11 @@ Process remaining judgments **first** (mechanical pipeline → index), **then** 
 - Files named `… (1).pdf` are Chrome/re-upload twins. Skip; move to `processed/` when the un-suffixed twin is processed (done for 11370). Remaining `(1)` twins: `15707_2026`, `15943_2026`, `21747_2026`.
 - **Docket duplicate:** `WRIC(A)_10937_2026.pdf` = **SCJ-169** (Abhimanyu Singh, 9 Apr 2026). Retired to `processed/` without a new id. **Always grep docket + parties before assigning `SCJ-NNN`.**
 
-### Windows pipeline (this checkout)
+### Pipeline (Windows or Ubuntu)
 
-**User does nothing after starting it.** Chat **next** or the loop command both end in JSON + digest PDF + commit + **push** per case. Source PDFs are tracked in `supply-code/input/` on this branch; finalize moves each one to `processed/` **in git** (not only on disk). Drop new year folders into `input/` on GitHub, `git pull` on any machine, run the loop. Extracts stay local (`supply-code/extracts/` is gitignored).
+**User does nothing after starting it.** Chat **next** or the loop command both end in JSON + digest PDF + commit + **push** per case. Source PDFs are tracked in `supply-code/input/` on this branch; finalize moves each one to `processed/` **in git** (not only on disk). Drop new year folders into `input/` on GitHub, `git pull` on any machine, run the loop. Extracts stay local (`supply-code/extracts/` is gitignored) — they are rebuilt on whichever PC claims the case.
+
+Windows stays in this folder. Ubuntu is a **fresh clone**, not a copy of the Windows tree (`tmp/` tickets and `queue.lock` must not travel). Switch PCs only when the loop is stopped and the working tree is clean; then `git pull` on the other machine. Do not run both loops at once — `tmp/queue.lock` is per-disk, not a GitHub lock.
 
 Token split:
 
@@ -52,11 +54,11 @@ Token split:
    - **Short path** if pages ≤ 2 **or** words ≤ 800, **or** uncited with pages ≤ 3 and words ≤ 1500 (`authoring=short`, `tools/prompts/next_case_short.txt`, `catalog_hits` on the ticket, max 15 turns). **Do not** load `catalog.txt`, SCJ-280, RUNBOOK, `finalize_scj.py`, or `gen_scj.py`. Schema is in the prompt. `paras` is a string; `not_decided` is objects. Uncited = fingerprint `citation_count` (IK hyperlinks **or** prose reporters / body `X v. Y`; not the caption or this case’s Neutral Citation No.).
    - **Full path** otherwise (`tools/prompts/next_case_once.txt` + catalog + SCJ-280).
    - Does not load this HANDOFF or `jurisprudence/index.json`.
-3. `python tools/finalize_scj.py SCJ-NNN --source "<file>"` — schema gates, Chrome PDF (`--user-data-dir` required on Windows), state, spine, catalog, git commit+push. Takes the same queue lock as prepare. Never rewinds `next_seq` (inflight reservations stay reserved). Parallel workers do **not** run this; the orchestrator does, one case at a time.
+3. `python tools/finalize_scj.py SCJ-NNN --source "<file>"` — schema gates, Chrome/Chromium PDF (`--user-data-dir` always; Windows Google Chrome or Linux `chromium` / `google-chrome` / Playwright cache / `$CHROME`), state, spine, catalog, git commit+push. Takes the same queue lock as prepare. Never rewinds `next_seq` (inflight reservations stay reserved). Parallel workers do **not** run this; the orchestrator does, one case at a time.
 
 - PDF name: `SCJ-<NNN>_<slug>.pdf` — **no `_Digest`**.
 - Do not commit `extracts/SCJ-*.txt` / `.fp.json` (gitignored). Input PDFs **are** committed; the case commit also stages `input/<file>` deleted + `processed/<file>` added.
-- Linux Chromium path (`/opt/pw-browsers/…`) does **not** apply here.
+- Chrome lookup: Windows `chrome.exe`; Linux PATH (`chromium`, `google-chrome`), `/opt/pw-browsers/…`, `~/.cache/ms-playwright/…`, or env `CHROME`.
 
 ### Schema (still breaks `build_supply_code.py` if wrong)
 - `cited_by` = string (`"Court"` / `"Petitioner"` / `"Respondent"`), never a list.
@@ -91,7 +93,9 @@ Branch `claude/supply-code-jurisprudence-design-yiwgen`. One commit per case, th
 | Path | What |
 |---|---|
 | `NEXT.md` | **Trigger card.** User said “next” → follow this. |
-| `../tools/run_next_case_loop.ps1` | Unattended loop: `-Count N -Workers 2`. Wrapper around `run_next_case_workers.py`. |
+| `../tools/run_next_case_loop.ps1` | Windows unattended loop: `-Count N -Workers 2`. Wrapper around `run_next_case_workers.py`. |
+| `../tools/run_next_case_loop.sh` | Ubuntu unattended loop: `--count N --workers 2`. Same Python orchestrator. |
+| `../grok_chats/` | Archived Grok CLI transcripts for this working copy. |
 | `../tools/run_next_case_workers.py` | Parallel orchestrator: N grok workers, serial claim + finalize. |
 | `../tools/scj_queue.py` / `scj_lock.py` | Per-case tickets + directory lock. |
 | `../tools/prepare_next_scj.py` | Pick next unique PDF, reserve id, skip dups, extract, set `authoring` (`stencil`/`short`/`full`). |
@@ -123,4 +127,4 @@ Rebuild index; skim what shifted; revisit the outline; then author the treatise 
 
 ---
 
-**One-line resume:** _536 cases done; input empty; treatise on hold; **next** or `tools\run_next_case_loop.ps1 -Count 50 -Workers 2` = parallel JSON + serial PDF/git; live stencil: 6.5 + **6.8-assessment-hearing** + contempt-6.5; BILL+RELEGATE cues (408/399/468/487); GRANT veto (SCJ-411); demote on stencil write fail; `citation_count` = max(IK, prose); listing-only off; `next_seq=537`._
+**One-line resume:** _536 cases done; input empty; treatise on hold; **next** or Windows `tools\run_next_case_loop.ps1 -Count 50 -Workers 2` / Ubuntu `./tools/run_next_case_loop.sh --count 50 --workers 2` = parallel JSON + serial PDF/git; one PC at a time; live stencil: 6.5 + **6.8-assessment-hearing** + contempt-6.5; BILL+RELEGATE cues (408/399/468/487); GRANT veto (SCJ-411); demote on stencil write fail; `citation_count` = max(IK, prose); listing-only off; `next_seq=537`._

@@ -30,6 +30,9 @@
 .EXAMPLE
   cd C:\Users\HP\Downloads\Grok\Claude
   powershell -ExecutionPolicy Bypass -File tools\run_next_case_loop.ps1 -Count 50 -Workers 2
+
+  Ubuntu (same orchestrator):
+  ./tools/run_next_case_loop.sh --count 50 --workers 2
 #>
 [CmdletBinding()]
 param(

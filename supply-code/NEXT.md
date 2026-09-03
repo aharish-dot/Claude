@@ -2,16 +2,29 @@
 
 Do **exactly one** unique pending judgment. Do not wait for confirmation. Do not start the treatise.
 
-Unattended (user runs this; they do not babysit). Judgment PDFs live **in the GitHub repo** under `supply-code/input/<year>/`. Clone or `git pull` any working copy of this branch, then from that repo root:
+Unattended (user runs this; they do not babysit). Judgment PDFs live **in the GitHub repo** under `supply-code/input/<year>/`. Clone or `git pull` any working copy of this branch, then from that repo root.
+
+**Windows** (this folder):
 
 ```
 git pull
 powershell -ExecutionPolicy Bypass -File tools\run_next_case_loop.ps1 -Count 50 -Workers 2
 ```
 
-`-Workers 2` (default) authors two cases at once. Claim (id + PDF) and finalize (Chrome/git/index) stay serial under a lock, so two windows of this command cannot share an SCJ id. `-Workers 1` is the old one-at-a-time loop. Max 4. Do not run the old pre-queue script against the same `input/` while this is going.
+**Ubuntu** (a separate clone of the same branch — do not copy this Windows folder):
 
-Each case still produces **JSON + digest PDF + commit + push**. `finalize_scj.py` does PDF/git, one at a time. If the ticket is **`authoring=stencil`**, Grok is **not** called — `tools/scj_stencil.py --write` fills the JSON. `-NoPush` is opt-out. `-DryRun` prints the plan. Logs: `supply-code/tmp/loop_logs/`. Crash recovery: `tmp/tickets/SCJ-NNN.json` is resumed on the next start.
+```
+git pull
+./tools/run_next_case_loop.sh --count 50 --workers 2
+```
+
+Both launchers call the same `tools/run_next_case_workers.py`. `--workers 2` (PowerShell `-Workers 2`) authors two cases at once. Claim (id + PDF) and finalize (Chrome/git/index) stay serial under a lock, so two windows of this command cannot share an SCJ id. `-Workers 1` / `--workers 1` is the old one-at-a-time loop. Max 4. Do not run the old pre-queue script against the same `input/` while this is going.
+
+**One machine at a time.** GitHub is the queue (`input/`) and the archive (`processed/` + JSON + digest PDFs). The directory lock in `tmp/` is local and does not protect two PCs. Never start the loop on Ubuntu while it is still running on Windows (or the reverse). Switch only after the loop has stopped and `git status` is clean except gitignored `tmp/` / `extracts/`. Then `git pull` on the other machine. If you abort mid-case, finish or delete `supply-code/tmp/tickets/` on **that** machine and restore uncommitted `state/index.json` before switching — a reserved `next_seq` is not pushed until finalize.
+
+First time on Ubuntu: clone branch `claude/supply-code-jurisprudence-design-yiwgen`, install Python 3, `pip install pymupdf`, Grok CLI (`~/.grok/bin` on PATH, logged in), Chromium or Chrome (`chromium` / `google-chrome` on PATH, or set `CHROME`). Verify with `./tools/run_next_case_loop.sh --dry-run --count 1` — it must print Grok and Chrome paths.
+
+Each case still produces **JSON + digest PDF + commit + push**. `finalize_scj.py` does PDF/git, one at a time. If the ticket is **`authoring=stencil`**, Grok is **not** called — `tools/scj_stencil.py --write` fills the JSON. `-NoPush` / `--no-push` is opt-out. `-DryRun` / `--dry-run` prints the plan and checks Grok + Chrome. Logs: `supply-code/tmp/loop_logs/`. Crash recovery: `tmp/tickets/SCJ-NNN.json` is resumed on the next start.
 
 ## Chat path (same artifacts)
 

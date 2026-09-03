@@ -3,6 +3,8 @@
 
 Usage:
   python tools/run_next_case_workers.py --count 50 --workers 2
+  ./tools/run_next_case_loop.sh --count 50 --workers 2
+  powershell -File tools/run_next_case_loop.ps1 -Count 50 -Workers 2
 
 Claim and finalize take the queue lock (unique SCJ ids, one git writer).
 Authoring (stencil or grok -p) runs in a thread pool and writes JSON only.
@@ -52,7 +54,10 @@ def find_grok() -> str:
     cand2 = os.path.join(os.path.expanduser("~"), ".grok", "bin", "grok")
     if os.path.exists(cand2):
         return cand2
-    raise SystemExit("grok not found on PATH. Install Grok CLI or add %USERPROFILE%\\.grok\\bin to PATH.")
+    raise SystemExit(
+        "grok not found on PATH. Install Grok CLI and add ~/.grok/bin "
+        "(Windows: %USERPROFILE%\\.grok\\bin) to PATH."
+    )
 
 
 def run_logged(args: list[str], case_log: str, cwd: str = ROOT) -> int:
@@ -259,12 +264,13 @@ def main(argv=None) -> int:
     def L(msg: str) -> None:
         log(msg, log_file)
 
-    grok = "grok"
-    if not args.dry_run:
-        grok = find_grok()
+    grok = find_grok()
+    from finalize_scj import find_chrome
+    chrome = find_chrome()
 
     L(f"Repo: {repo}")
     L(f"Grok: {grok}")
+    L(f"Chrome: {chrome}")
     L(f"Count: {args.count} | Workers: {workers} | MaxTurns: "
       f"{args.max_turns if args.max_turns is not None else 'ticket'} | "
       f"NoPush: {args.no_push} | Log: {log_file}")

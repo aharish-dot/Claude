@@ -10,7 +10,7 @@ Does: schema-gotcha check → gen_scj.py → Chrome PDF → move input→process
 → append state → bump next_seq → build_supply_code.py → catalog → git commit
 (and push unless --no-push). Idempotent if re-run on an already-finalized case.
 """
-import argparse, json, os, re, subprocess, sys, tempfile
+import argparse, glob, json, os, re, subprocess, sys, tempfile
 from shutil import which
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -58,8 +58,10 @@ def slug_from_title(title):
 
 
 def find_chrome():
-    if os.environ.get("CHROME") and os.path.exists(os.environ["CHROME"]):
-        return os.environ["CHROME"]
+    """Resolve a headless Chrome/Chromium binary on Windows or Linux."""
+    env = os.environ.get("CHROME")
+    if env and os.path.exists(env):
+        return env
     for p in (
         r"C:\Program Files\Google\Chrome\Application\chrome.exe",
         r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe",
@@ -67,11 +69,36 @@ def find_chrome():
     ):
         if p and os.path.exists(p):
             return p
-    for c in ("chromium", "google-chrome", "chrome", "msedge"):
+    for c in (
+        "chromium", "chromium-browser", "google-chrome",
+        "google-chrome-stable", "chrome", "msedge",
+    ):
         w = which(c)
         if w:
             return w
-    die("Chrome/Chromium not found — set CHROME")
+    home = os.path.expanduser("~")
+    globs = (
+        os.path.join(home, ".cache", "ms-playwright", "chromium-*",
+                     "chrome-linux", "chrome"),
+        "/opt/pw-browsers/chromium-*/chrome-linux/chrome",
+        os.path.join(home, ".cache", "ms-playwright",
+                     "chromium_headless_shell-*",
+                     "chrome-headless-shell-linux64", "chrome-headless-shell"),
+    )
+    fixed = (
+        "/usr/bin/chromium",
+        "/usr/bin/chromium-browser",
+        "/usr/bin/google-chrome",
+        "/usr/bin/google-chrome-stable",
+        "/snap/bin/chromium",
+    )
+    candidates = list(fixed)
+    for pattern in globs:
+        candidates.extend(sorted(glob.glob(pattern), reverse=True))
+    for p in candidates:
+        if os.path.isfile(p) and os.access(p, os.X_OK):
+            return p
+    die("Chrome/Chromium not found — install Chromium or set CHROME to the binary")
 
 
 def file_uri(path):
@@ -252,8 +279,8 @@ def render_pdf(cid, slug, rec, chrome):
     ud = tempfile.mkdtemp(prefix="scj_chrome_")
     subprocess.run(
         [chrome, "--headless=new", "--disable-gpu", "--no-sandbox",
-         f"--user-data-dir={ud}", "--no-pdf-header-footer",
-         f"--print-to-pdf={out}", file_uri(html)],
+         "--disable-dev-shm-usage", f"--user-data-dir={ud}",
+         "--no-pdf-header-footer", f"--print-to-pdf={out}", file_uri(html)],
         check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
     )
     if not os.path.exists(out) or os.path.getsize(out) < 1000:
