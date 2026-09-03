@@ -1,0 +1,134 @@
+{
+  "case_id": "SCJ-644",
+  "title": "M/S Mahavir Iron Foundry And Another v. Dakshinanchal Vidyut Vitran Nigam Ltd. And Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Siddhartha Varma, J. and Rajendra Kumar-IV, J.",
+  "date_of_judgment": "2023-04-28",
+  "date_display": "28 April 2023",
+  "docket": "Writ - C No. 68976 of 2005",
+  "page_count": 11,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; 2005 assessments cannot stand; licensee may proceed afresh after opportunity",
+  "headnote": "A Section 126 assessment founded on a 12 September 2005 surprise inspection cannot stand where no assessing officer had been designated by the State Government until Notification No. 173/2006-XXIV/P-3–27P/98,T.C dated 27 June 2006, and where no show-cause notice preceded the provisional assessment. Following Ashok Kumar v. State of U.P., 2008 (6) ADJ 660 (para 58), and A.K. Kraipak v. Union of India, AIR 1970 SC 150, opportunity is required at two stages: before concluding unauthorised use (which confers jurisdiction to issue the provisional notice) and again before final assessment on quantum. Absent independent witnesses, and given the licensee's own minimum-consumption bills up to the inspection, illegal use could not be presumed. Extreme violation of natural justice makes the writ maintainable; the consumer is not to be relegated to a Section 127 appeal. The writ is allowed. No action is taken against the department because of the age of the matter. The licensee is not precluded from further action after giving an opportunity.",
+  "facts": "M/s Mahavir Iron Foundry held a 41.3 HP connection from Dakshinanchal Vidyut Vitran Nigam Ltd. After its foundry shut in 2000 when the area entered the Taj Trapezium Zone, it kept the connection and paid minimum consumption charges. On 2 September 2005 it licensed a PVC-granule unit. On 12 September 2005 a surprise check alleged illegal use; a bill of Rs. 17,28,183.60 was raised on 41.03 KW for 20 hours over 180 days and supply was disconnected. A provisional assessment of 24 September 2005 was replied to; a final assessment of Rs. 17,41,477 followed. The consumer challenged both, alleging no designated assessing officer under Section 126, no show-cause before the provisional bill, and non-compliance with Clauses 8.1 and 8.2 of the U.P. Electricity Supply Code, 2005. The licensee's counter called it theft by cutting the incoming cable before the meter and said the remedy was a Section 127 appeal.",
+  "holding_units": [
+    {
+      "provision": "EA2003::126",
+      "code": "Electricity Act, 2003",
+      "clause": "126(1)",
+      "topic": "No designated assessing officer until the 27.6.2006 notification; 2005 inspection and assessment bad",
+      "type": "electricity_act",
+      "question": "Can a Section 126 inspection and assessment of 12 September 2005 stand when the State Government first designated an assessing officer only by notification dated 27 June 2006?",
+      "holding": "No. Section 126(1) requires the assessing officer to be designated by the State Government. Paragraph 14 of the writ alleged that no such notification had issued; the counter did not show any designation and instead denied that no appellate authority had been constituted. The Court held that the assessing authority required to inspect had not been designated until Notification No. 173/2006-XXIV/P-3–27P/98,T.C dated 27 June 2006. The 12 September 2005 inspection and the assessments that followed could not stand.",
+      "paras": "unnumbered",
+      "flag": "Source PDF concatenates listing orders of 21.9.2022, 18.10.2022, 2.12.2022 and 9.12.2022 (judgment reserved) with the operative judgment of 28.4.2023 (Siddhartha Varma and Rajendra Kumar-IV, JJ.). Facts recite both 41.3 HP and 41.03 KW. Judgment OCR: 'Taz Trapezium Zone'."
+    },
+    {
+      "provision": "EA2003::126",
+      "code": "Electricity Act, 2003",
+      "clause": "126",
+      "topic": "Show-cause before provisional assessment; two-stage hearing (UUE conclusion, then quantum)",
+      "type": "electricity_act",
+      "question": "Is a provisional assessment illegal if no show-cause notice or hearing was given before it was issued?",
+      "holding": "Yes. Following Ashok Kumar para 58, the assessing officer must, before making a provisional assessment, afford an opportunity on the allegation of unauthorised use and record a conclusion of unauthorised use, which confers jurisdiction to issue the provisional notice; a distinct opportunity is then required before final assessment on quantum. Kraipak is applied for the rule that natural justice supplements the statute. No show-cause was issued before the provisional assessment of 24 September 2005; that assessment was per se illegal. Independent witnesses were not present at the 12 September 2005 inspection, and the licensee had itself been raising minimum-consumption bills, so illegal use could not be presumed. The writ is allowed. The Court takes no action against the department because the matter is old. Allowing the writ does not preclude further action after giving an opportunity.",
+      "qualifier": "The petitioner had replied to the provisional assessment and objected again to the final bill of Rs. 17,41,477; the Court still treated want of a pre-provisional show-cause as fatal.",
+      "paras": "unnumbered",
+      "flag": "Petitioner invoked Clauses 8.1 and 8.2 of the 2005 Code; the Court did not cite a numbered Code clause and applied s.126 through Ashok Kumar and Kraipak. Not keyed to UP-2005::8.1."
+    },
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act, 2003",
+      "clause": "127",
+      "topic": "Writ maintainable despite s.127 where natural justice is extremely violated",
+      "type": "electricity_act",
+      "question": "Must a consumer who has not appealed a final Section 126 assessment under Section 127 be relegated to that appeal when the provisional assessment was issued without a hearing?",
+      "holding": "No. The licensee argued that the High Court need not interfere because the consumer had not appealed under Section 127. Because there was an extreme violation of natural justice, the writ was maintainable and the petitioner was not to be relegated to the alternative remedy.",
+      "paras": "unnumbered"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "s126-two-stage-hearing-uue-conclusion-then-quantum",
+      "application": "Ashok Kumar para 58 applied: opportunity before concluding unauthorised use (which confers jurisdiction to issue the provisional notice) and a distinct opportunity before final assessment on quantum. No show-cause before the 24.9.2005 provisional assessment; assessment illegal.",
+      "lead_authorities": [
+        {
+          "name": "Ashok Kumar v. State of U.P.",
+          "docid": ""
+        }
+      ],
+      "paras": "unnumbered"
+    },
+    {
+      "tag": "s126-procedural-strictness-notice-and-hearing",
+      "application": "Provisional assessment without a prior show-cause is per se illegal. Combined with absence of a designated assessing officer until 27.6.2006, the 12.9.2005 inspection assessments cannot stand. Licensee may proceed afresh after opportunity.",
+      "lead_authorities": [
+        {
+          "name": "Ashok Kumar v. State of U.P.",
+          "docid": ""
+        },
+        {
+          "name": "A.K. Kraipak v. Union of India",
+          "docid": ""
+        }
+      ],
+      "paras": "unnumbered"
+    },
+    {
+      "tag": "whirlpool-exceptions-to-alternative-remedy-bar",
+      "application": "Extreme violation of natural justice (no show-cause before the provisional assessment) makes the writ maintainable; the consumer is not relegated to a Section 127 appeal.",
+      "lead_authorities": [],
+      "paras": "unnumbered"
+    },
+    {
+      "tag": "theft-must-be-established-not-presumed",
+      "application": "Independent witnesses were not present at the inspection, and the licensee had been issuing minimum-consumption bills, so it could not be presumed that electricity was being used illegally. The 180-day formula assessment could not rest on that presumption.",
+      "lead_authorities": [],
+      "paras": "unnumbered"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether Clauses 8.1 and 8.2 of the U.P. Electricity Supply Code, 2005 were adhered to",
+      "note": "Raised by the petitioner as a complete procedure that had not been followed. The Court did not cite or apply a numbered Code clause.",
+      "paras": "unnumbered"
+    },
+    {
+      "point": "Whether the 12.9.2005 inspection had to comply with the CrPC search-and-seizure procedure",
+      "note": "Raised by the petitioner; the Court decided only that independent witnesses were absent and illegal use could not be presumed.",
+      "paras": "unnumbered"
+    },
+    {
+      "point": "Whether theft or unauthorised use in fact occurred, and the correctness of the 180-day/20-hour formula and of Rs. 17,41,477",
+      "note": "Assessment cannot stand on the procedural and designation grounds. Licensee may take further action after giving an opportunity. Merits and quantum not decided.",
+      "paras": "unnumbered"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar and Others v. State of U.P. and others",
+      "citation": "2008 (6) ADJ 660 (DB)",
+      "court": "Allahabad High Court (DB)",
+      "docid": "",
+      "proposition": "Before making a provisional assessment the assessing officer must afford an opportunity on the allegation of unauthorised use and record a conclusion of unauthorised use, which confers jurisdiction to issue the provisional notice; a distinct opportunity is required before final assessment on quantum (para 58, as quoted).",
+      "how_treated": "Followed. Quoted at para 58; held that natural justice was not observed and that no show-cause was issued before the provisional assessment.",
+      "how_treated_paras": "unnumbered",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "A.K. Kraipak & Ors. v. Union of India and others",
+      "citation": "AIR 1970 SC 150",
+      "court": "Supreme Court of India",
+      "docid": "",
+      "proposition": "Principles of natural justice supplement the statute; an opportunity of hearing is required even where the statute is silent.",
+      "how_treated": "Applied with Ashok Kumar for the holding that no show-cause before the provisional assessment violated natural justice.",
+      "how_treated_paras": "unnumbered",
+      "cited_by": "Court",
+      "treatment": "Applied"
+    }
+  ]
+}
