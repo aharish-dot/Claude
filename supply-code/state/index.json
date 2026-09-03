@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 660,
+  "next_seq": 661,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -3946,6 +3946,12 @@
       "case_id": "SCJ-658",
       "source_basename": "WRIC(A)_3425_2006.pdf",
       "title": "Akhalak Ahmad v. Dakshinanchal Vidyut Vitaran Nigam Ltd. Thru' G.M. & Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-655",
+      "source_basename": "WRIC(A)_23877_2006.pdf",
+      "title": "Lakshmi Oil And Vanaspati Pvt. Ltd. v. State of U.P. and Others",
       "status": "done"
     }
   ]
