@@ -1,0 +1,146 @@
+{
+  "case_id": "SCJ-665",
+  "title": "Ashok Garg v. State of U.P. and Another",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Anil Kumar Srivastava-II, J.",
+  "date_of_judgment": "2017-04-12",
+  "date_display": "12 April 2017",
+  "docket": "Criminal Misc. Case No. 438 of 2007 (U/s 482 Cr.P.C.)",
+  "page_count": 22,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Section 482 Cr.P.C. petition dismissed; s.135 charge-sheet and summoning order not quashed",
+  "headnote": "A section 482 Cr.P.C. petition to quash a charge-sheet and summoning order for theft of electricity under section 135 of the Electricity Act, 2003 is dismissed. Unamended section 151, which speaks of cognizance upon a complaint in writing, does not shut out an FIR or a police report: following Vishal Agrawal v. Chhattisgarh State Electricity Board, (2014) 3 SCC 696, offences under the Act are tried by the Code of Criminal Procedure, so a charge-sheet for section 135 is competent. The plea that the petitioner had resigned as director in 1997 and that the company had been taken over in 1998 does not require quashing. Clause 4.44 of the U.P. Electricity Supply Code, 2005 required an application to mutate or transfer the connection; none was made, and the connection remained in his name. He was also treated as the owner who absconded at the raid. Director-vicarious-liability authorities under section 141 of the Negotiable Instruments Act, 1881 and in company prosecutions are distinguished: section 135 contains no such mandatory averment in the police report, and the facts of resignation, takeover and presence are for the trial court or a discharge application.",
+  "facts": "Ashok Garg of Nayaganj, Kanpur, applied under section 482 Cr.P.C. to quash charge-sheet no. 349 of 2005 dated 30.10.2005 arising out of Case Crime No. 1474 of 2005 under section 135 of the Electricity Act, 2003, P.S. Kotwali, Unnao, and the 30.10.2006 summoning order of the Special Judge (E.C. Act), Unnao in Special Trial No. 06 of 2006. Opposite party no. 2 is Avinash Chandra Pandey, Incharge Inspector, Enforcement Cell, Lucknow Zone, U.P. Power Corporation Limited.\n\nOn 29.8.2005 enforcement officers found meter tampering at Radhey Solvent premises; Garg, described as owner of M/s Radhey Solvent Factory, is said to have absconded. The connection of M/s Indo Prosoya Food Private Limited, Unit no. 1, Akarampur, Unnao was also checked and tampering recorded, and an FIR lodged as Case Crime No. 1475 of 2005. Garg said he had resigned as director of M/s Garg India Limited from 4.11.1997, that company having been taken over by Indo Prosoya on 24.9.1998, so he was neither director of the new company nor present at the spot, and that unamended section 151 required a complaint, not a charge-sheet. Trial had remained stayed since 23.2.2007.",
+  "holding_units": [
+    {
+      "provision": "EA2003::151",
+      "code": "Electricity Act, 2003",
+      "clause": "151",
+      "topic": "Unamended s.151 does not bar FIR or charge-sheet cognizance of a s.135 offence",
+      "type": "electricity_act",
+      "question": "Does unamended section 151, which contemplates cognizance upon a complaint in writing, make a police charge-sheet for section 135 incompetent?",
+      "holding": "No. Following Vishal Agrawal, section 4 of the Code of Criminal Procedure applies to offences under the Electricity Act; the Act does not prescribe a special exclusive machinery that shuts out Chapter XII. Section 151 enables specified persons to file a complaint on which the court may take cognizance straightway, but that does not exclude an FIR, investigation, or a police report. It is therefore trite that a charge-sheet can be filed for an offence punishable under section 135. The petition on this ground fails.",
+      "paras": "8-10",
+      "flag": "The Court quotes unamended s.151, Rule 12 of the Electricity Rules, 2005, the 2007 provisos to s.151 (cognizance on a s.173 Cr.P.C. report; Special Court under s.153), and s.151-A. A 14.2.2017 listing note had reserved the transition period after the 15.6.2007 amendment; the reserved judgment does not decide retrospectivity of that amendment, because Vishal Agrawal already holds FIR and charge-sheet competent under the unamended scheme. Rule 12 is quoted but not independently construed."
+    },
+    {
+      "provision": "UP-2005::4.44",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.44",
+      "topic": "Failure to apply for mutation or transfer leaves the recorded consumer in the s.135 frame",
+      "type": "supply_code",
+      "question": "Where the accused says the company and occupancy passed to a successor years before the raid, can a section 135 prosecution be quashed if no Clause 4.44 mutation or transfer of the connection was effected?",
+      "holding": "No. Clause 4.44 requires an application, with documents and clearance of arrears, before a connection is transferred on change of ownership or occupancy. Admittedly no such mutation or transfer proceedings took place. The petitioner's name continued in U.P. Power Corporation Ltd. records. Combined with the case that he was the director and the owner of the factory who absconded when the meter was checked, and that he had not informed the department of any change of ownership, he cannot escape liability at the section 482 stage. Factual pleas may be raised at trial or on a discharge application.",
+      "paras": "7, 11-12, 14, 16-17"
+    },
+    {
+      "provision": "EA2003::135",
+      "code": "Electricity Act, 2003",
+      "clause": "135",
+      "topic": "Section 135 charge-sheet needs no s.141 NI Act-style 'in charge of business' averment; director-vicarious-liability cases distinguished",
+      "type": "electricity_act",
+      "question": "Must a section 135 police report specifically aver that the accused was in charge of and responsible for the company's business, as section 141 of the Negotiable Instruments Act requires, failing which the prosecution is to be quashed?",
+      "holding": "No. S.M.S. Pharmaceuticals is distinguished: the mandatory s.141 complaint averment has no counterpart in section 135 fastening any such duty on the prosecution in the report. Sunil Bharti Mittal (no vicarious liability unless the statute so provides) and Datar Switchgear (no presumption that a chairman is responsible for all company acts) are distinguished because the petitioner was the director and the owner who absconded at checking and did not inform change of ownership. M.A.A. Annamalai, where the accused had ceased to be a director before the offences and the FIR contained no allegation against him, could not help. Disputed facts of resignation, takeover and presence are not for section 482. There is no material illegality in the summoning order. The petition is dismissed.",
+      "paras": "12-19"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "s151-does-not-exclude-fir-and-charge-sheet",
+      "application": "Unamended section 151's complaint route does not exclude FIR, investigation or a police charge-sheet for section 135. Following Vishal Agrawal, Cr.P.C. procedure governs; a charge-sheet for theft of electricity is competent.",
+      "lead_authorities": [
+        {"name": "Vishal Agrawal v. Chhattisgarh State Electricity Board", "docid": ""}
+      ],
+      "paras": "8-10"
+    },
+    {
+      "tag": "clause-4.44-failure-to-mutate-keeps-recorded-consumer-liable",
+      "application": "Where no Clause 4.44 application for transfer or mutation was ever made, the connection remains in the recorded name. That recorded consumer cannot, at the section 482 stage, shed s.135 liability by asserting a prior resignation or corporate takeover; those facts go to trial or discharge.",
+      "lead_authorities": [],
+      "paras": "16-17"
+    },
+    {
+      "tag": "section-482-sparingly-at-pre-trial-stage",
+      "application": "Resignation as director, takeover of the company, and absence from the raid are factual pleas. They are for the trial court or a discharge application, not for quashing a s.135 charge-sheet and summoning order under section 482. Same cluster as SCJ-173, SCJ-343, SCJ-539.",
+      "lead_authorities": [],
+      "paras": "7, 17-19"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether Garg had resigned as director, whether Garg India was taken over by Indo Prosoya, and whether he was present at the 29.8.2005 raid",
+      "note": "Left to the trial court or a discharge application at the appropriate stage. The Court would not examine those controversies under section 482.",
+      "paras": "5, 11, 17"
+    },
+    {
+      "point": "Guilt under section 135 and whether the meters were tampered",
+      "note": "Not tried. The Court found no illegality in cognizance on the material produced and dismissed the petition.",
+      "paras": "17-19"
+    },
+    {
+      "point": "Whether the 2007 provisos to section 151 applied to this 2005 FIR / 2006 summoning",
+      "note": "Raised at the 14.2.2017 listing as a transition-period question. The reserved judgment quotes the amendment but decides competence of the charge-sheet under Vishal Agrawal on the unamended scheme, without ruling on retrospectivity.",
+      "paras": "8-10"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Vishal Agrawal v. Chhattisgarh State Electricity Board",
+      "citation": "(2014) 3 SCC 696",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Section 151's complaint route does not exclude FIR and police investigation; offences under the Electricity Act are tried by the Cr.P.C., so a charge-sheet for section 135 is competent (paras 20, 21 and 23 as extracted).",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Sunil Bharti Mittal v. Central Bureau of Investigation",
+      "citation": "(2015) 4 SCC 609",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "There is no vicarious criminal liability unless the statute specifically provides so (para 42 as extracted).",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "S.M.S. Pharmaceuticals Ltd. v. Neeta Bhalla",
+      "citation": "(2005) 8 SCC 89",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "A complaint under section 141 of the Negotiable Instruments Act must specifically aver that the accused was in charge of and responsible for the conduct of the company's business.",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "M.A.A. Annamalai v. State of Karnataka",
+      "citation": "(2010) 8 SCC 524",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "A person who had ceased to be a director before the alleged offences, and against whom the FIR contained no allegation, could not be compelled to face trial (para 37 as extracted).",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "Maharashtra State Electricity Distribution Co. Ltd. v. Datar Switchgear Ltd.",
+      "citation": "(2010) 10 SCC 479",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "One cannot presume that a chairman of a company is responsible for all acts committed by or on behalf of the company.",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "Sharad Kumar Sanghi v. Sangita Rane",
+      "citation": "(2015) 12 SCC 781",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Cited by the petitioner with the other director-liability authorities; the Court did not extract or discuss it.",
+      "cited_by": "Petitioner",
+      "treatment": "Relied on"
+    }
+  ]
+}
