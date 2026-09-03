@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 550,
+  "next_seq": 551,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -3292,6 +3292,12 @@
       "case_id": "SCJ-548",
       "source_basename": "WRIA(A)_17877_2023.pdf",
       "title": "Umesh Chandra Verma v. U.P. Power Corporation Ltd. and 3 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-550",
+      "source_basename": "WRIC(A)_1046_2024.pdf",
+      "title": "Nagesh Pati Tripathi v. State of U.P.",
       "status": "done"
     }
   ]
