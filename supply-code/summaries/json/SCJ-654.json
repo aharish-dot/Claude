@@ -1,0 +1,53 @@
+{
+  "case_id": "SCJ-654",
+  "title": "Abdul Shakoor v. Uttar Pradesh Power Corporation Ltd. And Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Abhinava Upadhya, J.",
+  "date_of_judgment": "2013-07-11",
+  "date_display": "11 July 2013",
+  "docket": "Civil Misc. Review Application No. 330582 of 2011 in Writ - C No. 18065 of 2006",
+  "page_count": 11,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Review dismissed; petitioner relegated to Commissioner appeal, delay not a bar, to be decided within two months",
+  "headnote": "A review of a writ dismissed for an alternative statutory appeal will not be granted merely because the consumer now relies on Clause 8.2(h) of the U.P. Electricity Supply Code, 2005 — withdrawal of a theft assessment and restoration through the original meter if a court finds theft not established. The review court recorded that the 27 September 2011 writ had not been dismissed on the acquittal/assessment point but on the availability of an appeal to the appellate authority. No good ground for review was made out. The petitioner still has the remedy of approaching the Commissioner; if an appeal is filed it shall not be rejected for delay, the petitioner having earlier approached a wrong forum, and it may be decided within two months of filing. The review was dismissed. The Court did not decide whether Clause 8.2(h) required withdrawal of the assessment after acquittal.",
+  "facts": "Abdul Shakoor filed Writ-C No. 18065 of 2006 against Uttar Pradesh Power Corporation Ltd. and others. The writ was dismissed on 27 September 2011. He then filed Civil Misc. Review Application No. 330582 of 2011, arguing that the Single Judge had held a theft assessment could still be made even after a criminal-court acquittal on theft charges, whereas Clause 8.2(h) of the U.P. Electricity Supply Code, 2005 required the licensee to withdraw the charges and assessment in writing and restore the connection through the original meter if the court found theft not established. The review court recorded that the writ had not been dismissed on that ground but for an alternative remedy of approaching the appellate authority. The source file concatenates earlier expedite, listing, and notice-service orders on the same writ from 2010 to 2013 with this review.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act, 2003",
+      "clause": "127",
+      "topic": "Review of a writ dismissed for alternative remedy does not reopen Clause 8.2(h); appeal to the Commissioner remains, delay not a bar",
+      "type": "electricity_act",
+      "question": "Can a consumer obtain review of a writ dismissed for an alternative appeal by invoking Clause 8.2(h) (withdrawal of theft assessment after acquittal), or must he still go to the Commissioner?",
+      "holding": "Review refused. The 27.9.2011 writ was not dismissed on the petitioner's Clause 8.2(h) / acquittal point but because an appeal to the appellate authority was available. That is not a good ground for review. The petitioner still has the remedy of approaching the Commissioner. If an appeal is filed it shall not be rejected for delay, the petitioner having earlier approached a wrong forum, and it may be decided within two months of filing. The review petition was dismissed.",
+      "qualifier": "The 27.9.2011 writ judgment is not in this extract; the review recites it as an alternative-remedy dismissal. The order names the Commissioner / appellate authority, not section 127.",
+      "paras": "unnumbered order",
+      "flag": "Source PDF concatenates expedite, listing, and review-notice orders (30.7.2010–10.5.2013) with the operative review of 11.7.2013. Petitioner cited 'Section 8.2(h)'; other corpus cases treat this as Clause 8.2(X)(h). Recorded as stated. Catalog key EA2003::127 for the Commissioner appeal; Clause 8.2(h) was raised but not decided."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternative-remedy-relegation",
+      "application": "Review of a writ dismissed for an alternative appeal will not reopen a Clause 8.2(h) acquittal argument. The consumer remains relegated to the Commissioner; delay is not to bar the appeal where a wrong forum was first approached.",
+      "lead_authorities": [],
+      "paras": "unnumbered order"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether Clause 8.2(h) requires withdrawal of the theft assessment and restoration after criminal acquittal",
+      "note": "Raised as the ground of review; the Court held the 27.9.2011 writ was dismissed on alternative remedy, not on that point, and did not decide it.",
+      "paras": "unnumbered order"
+    },
+    {
+      "point": "Merits of the theft assessment and whether assessment can stand after acquittal",
+      "note": "Left to the Commissioner if appeal is filed.",
+      "paras": "unnumbered order"
+    }
+  ],
+  "authorities": []
+}

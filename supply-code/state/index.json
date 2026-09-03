@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 656,
+  "next_seq": 657,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -3922,6 +3922,12 @@
       "case_id": "SCJ-653",
       "source_basename": "WRIC(A)_17416_2006.pdf",
       "title": "Awadhesh Pratap v. State of U.P. and Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-654",
+      "source_basename": "WRIC(A)_18065_2006.pdf",
+      "title": "Abdul Shakoor v. Uttar Pradesh Power Corporation Ltd. And Others",
       "status": "done"
     }
   ]
