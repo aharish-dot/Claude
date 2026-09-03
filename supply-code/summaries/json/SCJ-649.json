@@ -1,0 +1,41 @@
+{
+  "case_id": "SCJ-649",
+  "title": "M/s L. Kant Paper Mills Ltd. v. Dakshinanchal Vidyut Vitran Nigam Ltd.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sudhir Agarwal and Prabhat Chandra Tripathi, JJ.",
+  "date_of_judgment": "2016-05-31",
+  "date_display": "31 May 2016",
+  "docket": "Writ-C No. 74540 of 2005",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; clause 4.20 and additional security challenge fail.",
+  "headnote": "A Division Bench of the Allahabad High Court dismissed a consumer's writ challenging an additional security demand of Rs. 16,30,647, the vires of clause 4.20 of the U.P. Electricity Supply Code, 2005 vis-à-vis Section 47 of the Electricity Act, 2003, and claims for a pre-payment meter and refund of existing security with interest. After perusing the record in the petitioner's absence, the Court found no ground for any of the reliefs and vacated any interim order.",
+  "facts": "M/s L. Kant Paper Mills Ltd., a consumer of Dakshinanchal Vidyut Vitran Nigam Ltd., challenged a 29 September 2005 demand for additional security of Rs. 16,30,647. The mill also attacked a Ministry of Power clarificatory letter dated 11 February 2005 and clause 4.20 of the U.P. Electricity Supply Code, 2005 as inconsistent with Section 47 of the Electricity Act, 2003, seeking a pre-payment meter under Section 47(5) and refund of Rs. 43,52,247 already deposited as security with 12% interest under Section 47(4). None appeared at the revised call.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.20",
+      "code": "UP-2005",
+      "clause": "4.20",
+      "topic": "security-exemption-prepayment-meter",
+      "type": "interplay",
+      "holding": "The Court refused to declare clause 4.20 of the U.P. Electricity Supply Code, 2005 ultra vires the Electricity Act, 2003, including the words postponing exemption from security until the licensee provided a pre-payment meter.",
+      "paras": "3-4"
+    },
+    {
+      "provision": "EA2003::47",
+      "code": "EA2003",
+      "clause": "47",
+      "topic": "security-deposit",
+      "type": "electricity_act",
+      "holding": "The Court refused to quash the additional security demand of Rs. 16,30,647, to compel installation of a pre-payment meter under Section 47(5), or to refund, credit or adjust Rs. 43,52,247 already deposited as security with 12% interest under Section 47(4).",
+      "paras": "3-4"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [],
+  "authorities": []
+}
