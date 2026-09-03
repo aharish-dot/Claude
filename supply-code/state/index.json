@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 664,
+  "next_seq": 665,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -3970,6 +3970,12 @@
       "case_id": "SCJ-662",
       "source_basename": "WRIC(A)_57596_2006.pdf",
       "title": "Rana Concat Limited v. U.P. Power Corporation Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-661",
+      "source_basename": "WRIC(A)_54432_2006.pdf",
+      "title": "Uco Bank v. State of U.P. and Others",
       "status": "done"
     }
   ]
