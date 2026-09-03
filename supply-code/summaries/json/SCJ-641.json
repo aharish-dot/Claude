@@ -1,0 +1,49 @@
+{
+  "case_id": "SCJ-641",
+  "title": "M/s Tej International Pvt. Ltd. v. U.P. Power Corporation",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Single Judge",
+  "coram": "Shishir Kumar, J.",
+  "date_of_judgment": "2009-11-03",
+  "date_display": "3 November 2009",
+  "docket": "Civil Misc. Writ Petition No. 56999 of 2005",
+  "page_count": 2,
+  "significance": "procedural",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Unreasoned appellate order quashed; assessment appeal remanded for reasons.",
+  "headnote": "An appeal against an unauthorized-use assessment dismissed without reasons is unsustainable as non-application of mind. Administrative authorities must record reasons. The order dated 26 March 2004 is quashed and the appeal is remanded for a reasoned decision on merits within three months.",
+  "facts": "The petitioner ran Tej International from premises shared with Tej Shoes Factory. A 125 KVA load for Tej Shoes (May 2002) was not released separately; the Executive Engineer treated both concerns as one unit and demanded the company's arrears. After inspection alleging 20 KVA used for shoe manufacture next door, supply was disconnected and unauthorized-use assessment of Rs.5,71,770 was raised under the 2002 Supply Code. The petitioner deposited Rs.3 lakh, supply was restored, and a demand of Rs.5,75,658 was upheld in appeal without reasons.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.7",
+      "code": "UP-2005",
+      "clause": "6.7",
+      "topic": "assessment-appeal-reasons",
+      "type": "interplay",
+      "holding": "The appellate order dated 26.3.2004 dismissing the petitioner's challenge to the unauthorized-use assessment without assigning any reason is an order of non-application of mind. Administrative authorities are duty bound to record reasons; without them the consumer cannot assail the illegality in further proceedings. The writ is allowed, that order is quashed, and the appeal is remanded to the appellate authority to decide on merits after full opportunity and detailed reasons within three months of production of a certified copy.",
+      "paras": "2",
+      "flag": "Court applied Electricity Supply Code, 2002 cl. 6.20 to the assessment, not 2005 numbering."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Validity of the unauthorized-use assessment and demand of Rs.5,75,658 on merits.",
+      "note": "Remanded to the appellate authority for a reasoned decision.",
+      "paras": "2"
+    },
+    {
+      "point": "Whether two concerns in the same premises could have only one connection, and whether Tej International arrears could be demanded as a condition of supply to Tej Shoes.",
+      "paras": "1"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "S.N. Mukherji v. Union of India",
+      "citation": "AIR 1990 SC 1984",
+      "cited_by": "Shishir Kumar, J."
+    }
+  ]
+}
