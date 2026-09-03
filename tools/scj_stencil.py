@@ -959,6 +959,7 @@ def fill(cid: str, fp: dict, family: str, slots: dict) -> dict:
     if not fn:
         raise SystemExit(f"FAILED · no filler for family {family!r}")
     rec = fn(cid, fp, slots)
+    rec["model"] = "stencil"
     missing = [k for k in ("title", "holding_units") if not rec.get(k)]
     if missing:
         raise SystemExit(

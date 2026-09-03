@@ -11,7 +11,8 @@ After the ticket:
 1. Read the ticket's txt and fp.json together (one turn). That is the last read before writing JSON.
 2. Reuse provision keys and principle tags from ticket.catalog_hits only. If a hit fits, use it. If none fit, key CODE::clause from the order itself (UP-2005::… / EA2003::…). Listing-only → OFFTOPIC::procedural-listing. Do not invent a synonym for a hit that already fits.
 3. Write ONLY supply-code/summaries/json/<case_id>.json immediately. Same fields as the full schema, kept compact:
-   case_id, title, neutral_citation, court, bench, coram, date_of_judgment (ISO), date_display, docket, page_count (from ticket), significance, outcome, disposition, headnote, facts, holding_units[], principle_tags[], not_decided[], authorities[].
+   case_id, title, neutral_citation, court, bench, coram, date_of_judgment (ISO), date_display, docket, page_count (from ticket), significance, outcome, model, disposition, headnote, facts, holding_units[], principle_tags[], not_decided[], authorities[].
+   model: the literal string "Grok 4.6".
    significance: "significant" | "ordinary" | "procedural" ("normal" = ordinary). Short does not mean skip the label — a 2-page doctrinal quash is still "significant".
    outcome: who succeeded on the electricity dispute, not CPC party role. Required. "consumer" (relief granted: connection directed, bill quashed, restoration ordered) | "licensee" (writ dismissed / mandamus refused / licensee's challenge allowed) | "alternate_remedy" (relegated to 6.5/6.8/s.127 or "apply/consider in accordance with law" without a merits grant or refusal) | "pending" (listed, interlocutory) | "none" (infructuous, not-pressed, withdrawn, contempt dismissed without deciding the bill) | "split". Aliases: petitioner=consumer, discom=licensee. A 4.4 "consider the indemnity application" is alternate_remedy; "connection shall be granted" is consumer.
    facts: one short paragraph (~60–90 words), the story not the holding.

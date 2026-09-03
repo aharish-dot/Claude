@@ -56,7 +56,8 @@ Token split:
    - Does not load this HANDOFF or `jurisprudence/index.json`.
 3. `python tools/finalize_scj.py SCJ-NNN --source "<file>"` — schema gates, Chrome/Chromium PDF (`--user-data-dir` always; Windows Google Chrome or Linux `chromium` / `google-chrome` / Playwright cache / `$CHROME`), state, spine, catalog, git commit+push. Takes the same queue lock as prepare. Never rewinds `next_seq` (inflight reservations stay reserved). Parallel workers do **not** run this; the orchestrator does, one case at a time.
 
-- PDF name: `SCJ-<NNN>_<slug>.pdf` — **no `_Digest`**.
+- PDF name: `SCJ-<NNN>_S_<slug>.pdf` if `significance` is significant, else `SCJ-<NNN>_<slug>.pdf`. No `_Digest`.
+- `model`: `"Grok 4.6"` on grok-authored JSON; `"stencil"` on stencil JSON. `finalize_scj.py` writes it from the ticket.
 - Do not commit `extracts/SCJ-*.txt` / `.fp.json` (gitignored). Input PDFs **are** committed; the case commit also stages `input/<file>` deleted + `processed/<file>` added.
 - Chrome lookup: Windows `chrome.exe`; Linux PATH (`chromium`, `google-chrome`), `/opt/pw-browsers/…`, `~/.cache/ms-playwright/…`, or env `CHROME`.
 
@@ -66,7 +67,8 @@ Token split:
 - `provision` = `CODE::clause` (never merge a Code clause into an Act section).
 - `type`: `"supply_code"` | `"interplay"` | `"electricity_act"`.
 - `page_count` = integer pages of the **source judgment** (fingerprint / input PDF). Digest PDF page 1 eyebrow: `SUPPLY CODE JURISPRUDENCE · SCJ-NNN · N PAGES · SIGNIFICANT`.
-- `significance`: `"significant"` | `"ordinary"` | `"procedural"` (`normal` aliases ordinary). Required on new records; old records without it still render.
+- `significance`: `"significant"` | `"ordinary"` | `"procedural"` (`normal` aliases ordinary). Required on new records; old records without it still render. Significant digest PDF: `SCJ-NNN_S_<slug>.pdf`.
+- `model`: `"Grok 4.6"` | `"stencil"`.
 - `outcome`: `"consumer"` | `"licensee"` | `"alternate_remedy"` | `"pending"` | `"none"` | `"split"`. Who succeeded on the **electricity dispute**, not the CPC petitioner label (a discom that files and wins is `licensee`). `alternate_remedy` = relegated to 6.5/6.8/s.127 or “apply/consider in accordance with law” without a merits grant. `pending` = listed. `none` = infructuous / not-pressed / contempt dismissed without deciding the bill. Required from **SCJ-301**. Aliases: petitioner→consumer, discom→licensee. Tally: `python tools/tally_outcomes.py UP-2005::4.4`.
 - `facts`: 1–2 short paragraphs of the story. Digest PDF: cream **FACTUAL SUMMARY** box under the headnote. Labels print as ordinary words (`HEADNOTE` / `FACTUAL SUMMARY`), not letter-spaced. Old records without `facts` still render.
 - Do **not** write `limiting_facts` on holding-units (dropped from the digest from SCJ-287 on). Generator ignores the field even if present on old JSON.

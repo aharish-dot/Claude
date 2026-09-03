@@ -57,6 +57,36 @@ def slug_from_title(title):
     return s or "untitled"
 
 
+def digest_pdf_basename(cid, slug, significance=None):
+    """SCJ-NNN_S_<slug>.pdf when significant, else SCJ-NNN_<slug>.pdf."""
+    raw = str(significance or "").strip().lower()
+    if SIG_ALIASES.get(raw) == "significant":
+        return f"{cid}_S_{slug}.pdf"
+    return f"{cid}_{slug}.pdf"
+
+
+def retire_other_digests(cid, keep_name):
+    """Remove leftover digest PDFs for this id (old slug or missing _S_)."""
+    out_dir = os.path.join(SC, "summaries", "pdf")
+    retired = []
+    if not os.path.isdir(out_dir):
+        return retired
+    for n in os.listdir(out_dir):
+        if not n.endswith(".pdf"):
+            continue
+        if not n.startswith(cid + "_"):
+            continue
+        if n == keep_name:
+            continue
+        path = os.path.join(out_dir, n)
+        try:
+            os.remove(path)
+            retired.append("supply-code/summaries/pdf/" + n)
+        except OSError:
+            pass
+    return retired
+
+
 def find_chrome():
     """Resolve a headless Chrome/Chromium binary on Windows or Linux."""
     env = os.environ.get("CHROME")
@@ -223,6 +253,12 @@ def inject_judgment_meta(c, cid, src):
         if c.get("outcome") != mapped:
             c["outcome"] = mapped
             changed = True
+    ticket = scj_queue.load_ticket(scj_queue.ticket_path(cid))
+    if ticket:
+        model = "stencil" if (ticket.get("authoring") or "") == "stencil" else "Grok 4.6"
+        if c.get("model") != model:
+            c["model"] = model
+            changed = True
     return changed
 
 
@@ -266,7 +302,7 @@ def check_record(c, cid):
                 die(f"principle_tags[{i}].lead_authorities[{j}] must be {{name, docid}}")
 
 
-def render_pdf(cid, slug, rec, chrome):
+def render_pdf(cid, slug, rec, chrome, significance=None):
     work = tempfile.mkdtemp(prefix="scj_html_")
     html = os.path.join(work, cid + ".html")
     subprocess.run(
@@ -275,7 +311,8 @@ def render_pdf(cid, slug, rec, chrome):
     )
     out_dir = os.path.join(SC, "summaries", "pdf")
     os.makedirs(out_dir, exist_ok=True)
-    out = os.path.join(out_dir, f"{cid}_{slug}.pdf")
+    keep = digest_pdf_basename(cid, slug, significance)
+    out = os.path.join(out_dir, keep)
     ud = tempfile.mkdtemp(prefix="scj_chrome_")
     subprocess.run(
         [chrome, "--headless=new", "--disable-gpu", "--no-sandbox",
@@ -285,6 +322,7 @@ def render_pdf(cid, slug, rec, chrome):
     )
     if not os.path.exists(out) or os.path.getsize(out) < 1000:
         die(f"digest PDF missing or too small: {out}")
+    retire_other_digests(cid, keep)
     return out
 
 
@@ -334,6 +372,10 @@ def git_commit_push(cid, title, pdf_rel, src, do_push):
         f"supply-code/processed/{rel}",
     ]
     subprocess.run(["git", "add", "--"] + files, cwd=ROOT, check=False)
+    subprocess.run(
+        ["git", "add", "-u", "--", "supply-code/summaries/pdf"],
+        cwd=ROOT, check=False,
+    )
     # Source PDFs now live on GitHub in input/. Stage the deletion so the
     # blob moves to processed/ instead of remaining in both trees.
     subprocess.run(
@@ -391,7 +433,7 @@ def main():
     slug = slug_from_title(title)
 
     chrome = find_chrome()
-    pdf = render_pdf(cid, slug, rec, chrome)
+    pdf = render_pdf(cid, slug, rec, chrome, c.get("significance"))
     print(f"  digest: {pdf}")
     move_source(src)
     nxt = update_state(cid, src, title, c)
