@@ -52,7 +52,10 @@ def die(msg):
 
 
 def slug_from_title(title):
-    s = re.sub(r"[^A-Za-z0-9]+", "_", title or "")
+    s = title or ""
+    # M/S (Messrs) must not become M_S — that looks like the significant marker.
+    s = re.sub(r"\bM\s*[./]\s*[Ss]\.?\b", "MS", s)
+    s = re.sub(r"[^A-Za-z0-9]+", "_", s)
     s = re.sub(r"_+", "_", s).strip("_")[:60].rstrip("_")
     return s or "untitled"
 
