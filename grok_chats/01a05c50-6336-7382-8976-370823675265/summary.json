@@ -1,0 +1,29 @@
+{
+  "info": {
+    "id": "01a05c50-6336-7382-8976-370823675265",
+    "cwd": "C:\\Users\\HP\\Downloads\\Grok\\Claude"
+  },
+  "session_summary": "Supply-code error.txt debugging",
+  "created_at": "2026-09-01T09:32:47.296515800Z",
+  "updated_at": "2026-09-01T09:39:44.985828Z",
+  "num_messages": 212,
+  "num_chat_messages": 111,
+  "current_model_id": "grok-4.6",
+  "next_trace_turn": 1,
+  "chat_format_version": 1,
+  "git_root_dir": "C:/Users/HP/Downloads/Grok/Claude/",
+  "git_remotes": [
+    "https://github.com/aharish-dot/Claude"
+  ],
+  "head_commit": "762385a10f5727b6fb6c86c59133216f613c147f",
+  "head_branch": "claude/supply-code-jurisprudence-design-yiwgen",
+  "request_id": "a1932860-90c7-4d29-b044-0dc9a0673114",
+  "grok_home": "C:\\Users\\HP\\.grok",
+  "last_active_at": "2026-09-01T09:39:40.155572700Z",
+  "generated_title": "Supply-code error.txt debugging",
+  "agent_name": "grok-build-plan",
+  "sandbox_profile": "off",
+  "reasoning_effort": "high",
+  "last_turn_summary": "SCJ-358 unblocked; stencil parses Allahabad captions now",
+  "last_turn_summary_prompt_id": "a1932860-90c7-4d29-b044-0dc9a0673114"
+}

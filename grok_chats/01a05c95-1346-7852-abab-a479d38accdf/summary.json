@@ -1,0 +1,30 @@
+{
+  "info": {
+    "id": "01a05c95-1346-7852-abab-a479d38accdf",
+    "cwd": "C:\\Users\\HP\\Downloads\\Grok\\Claude"
+  },
+  "session_summary": "SCJ-338–387 pipeline review and next changes",
+  "created_at": "2026-09-01T10:47:48.819925900Z",
+  "updated_at": "2026-09-01T11:15:40.535776600Z",
+  "num_messages": 473,
+  "num_chat_messages": 218,
+  "current_model_id": "grok-4.6",
+  "next_trace_turn": 3,
+  "chat_format_version": 1,
+  "git_root_dir": "C:/Users/HP/Downloads/Grok/Claude/",
+  "git_remotes": [
+    "https://github.com/aharish-dot/Claude"
+  ],
+  "head_commit": "6313abbce6dce6da8d86aece1ac49e314641d19a",
+  "head_branch": "claude/supply-code-jurisprudence-design-yiwgen",
+  "request_id": "8ff8bf83-d299-433a-8aa5-ec0a1f8eb697",
+  "grok_home": "C:\\Users\\HP\\.grok",
+  "last_active_at": "2026-09-01T11:15:37.714049100Z",
+  "generated_title": "SCJ-338–387 pipeline review and next changes",
+  "agent_name": "grok-build-plan",
+  "sandbox_profile": "off",
+  "reasoning_effort": "high",
+  "last_turn_summary": "Demote, BILL cue, text cites; review at SCJ-437",
+  "last_turn_summary_prompt_id": "8ff8bf83-d299-433a-8aa5-ec0a1f8eb697",
+  "last_recap": "We reviewed the SCJ-338–387 pipeline batch and you asked for the top three follow-ups only: demote a failed stencil instead of retrying it, a narrow BILL cue for “current bill,” and count citations from judgment text rather than Indian Kano"
+}

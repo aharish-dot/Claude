@@ -1,0 +1,29 @@
+{
+  "info": {
+    "id": "01a0433b-4a80-7550-9e3c-12271d56e86e",
+    "cwd": "C:\\Users\\HP\\Downloads\\Grok\\Claude"
+  },
+  "session_summary": "SCJ-291 Extract Crash: Windows cp1252 Encoding",
+  "created_at": "2026-08-27T12:39:14.322263200Z",
+  "updated_at": "2026-08-27T12:43:44.156354200Z",
+  "num_messages": 152,
+  "num_chat_messages": 72,
+  "current_model_id": "grok-4.6",
+  "next_trace_turn": 2,
+  "chat_format_version": 1,
+  "git_root_dir": "C:/Users/HP/Downloads/Grok/Claude/",
+  "git_remotes": [
+    "https://github.com/aharish-dot/Claude"
+  ],
+  "head_commit": "c60b1478b6e5338dc5a959b04b12f83f56c17cf8",
+  "head_branch": "claude/supply-code-jurisprudence-design-yiwgen",
+  "request_id": "6b693164-1959-4800-94ff-ea47404e43a8",
+  "grok_home": "C:\\Users\\HP\\.grok",
+  "last_active_at": "2026-08-27T12:43:38.621516900Z",
+  "generated_title": "SCJ-291 Extract Crash: Windows cp1252 Encoding",
+  "agent_name": "grok-build-plan",
+  "sandbox_profile": "off",
+  "reasoning_effort": "high",
+  "last_turn_summary": "SCJ-291 extract: cp1252 vs Cyrillic о; UTF-8 writes fixed",
+  "last_turn_summary_prompt_id": "6b693164-1959-4800-94ff-ea47404e43a8"
+}

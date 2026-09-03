@@ -1,0 +1,30 @@
+{
+  "info": {
+    "id": "01a0619f-fe94-7a92-8190-00bd40ecbf77",
+    "cwd": "C:\\Users\\HP\\Downloads\\Grok\\Claude"
+  },
+  "session_summary": "Parallel SCJ workers and GitHub input queue",
+  "created_at": "2026-09-02T10:17:50.495367200Z",
+  "updated_at": "2026-09-03T07:45:16.103481100Z",
+  "num_messages": 517,
+  "num_chat_messages": 268,
+  "current_model_id": "grok-4.6",
+  "next_trace_turn": 5,
+  "chat_format_version": 1,
+  "git_root_dir": "C:/Users/HP/Downloads/Grok/Claude/",
+  "git_remotes": [
+    "https://github.com/aharish-dot/Claude"
+  ],
+  "head_commit": "76fa38385f5c4bfe2a6cad200a10133a676afe8b",
+  "head_branch": "claude/supply-code-jurisprudence-design-yiwgen",
+  "request_id": "7b7f6490-d8a4-476a-86f8-beb656b5a2ee",
+  "grok_home": "C:\\Users\\HP\\.grok",
+  "last_active_at": "2026-09-03T07:44:42.966887200Z",
+  "generated_title": "Parallel SCJ workers and GitHub input queue",
+  "agent_name": "grok-build-plan",
+  "sandbox_profile": "off",
+  "reasoning_effort": "high",
+  "last_turn_summary": "2024 PDFs on GitHub; grok tokens unchanged",
+  "last_turn_summary_prompt_id": "7b7f6490-d8a4-476a-86f8-beb656b5a2ee",
+  "last_recap": "We wired a parallel SCJ loop: claim and finalize stay serial under `tmp/queue.lock`, authoring runs with `-Workers 2` via `run_next_case_workers.py`, and each grok writes JSON only so git and case ids cannot collide."
+}

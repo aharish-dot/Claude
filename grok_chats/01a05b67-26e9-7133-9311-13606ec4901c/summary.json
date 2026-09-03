@@ -1,0 +1,29 @@
+{
+  "info": {
+    "id": "01a05b67-26e9-7133-9311-13606ec4901c",
+    "cwd": "C:\\Users\\HP\\Downloads\\Grok\\Claude"
+  },
+  "session_summary": "Nested input folders; SCJ-336 after empty queue",
+  "created_at": "2026-09-01T05:18:01.971766700Z",
+  "updated_at": "2026-09-01T07:38:47.044378500Z",
+  "num_messages": 365,
+  "num_chat_messages": 192,
+  "current_model_id": "grok-4.6",
+  "next_trace_turn": 4,
+  "chat_format_version": 1,
+  "git_root_dir": "C:/Users/HP/Downloads/Grok/Claude/",
+  "git_remotes": [
+    "https://github.com/aharish-dot/Claude"
+  ],
+  "head_commit": "2301e0b88d6ef584f6930cdb196135acff2e5d47",
+  "head_branch": "claude/supply-code-jurisprudence-design-yiwgen",
+  "request_id": "7f89a356-2873-41fc-8ca2-7475d37eab5f",
+  "grok_home": "C:\\Users\\HP\\.grok",
+  "last_active_at": "2026-09-01T07:38:36.319159800Z",
+  "generated_title": "Nested input folders; SCJ-336 after empty queue",
+  "agent_name": "grok-build-plan",
+  "sandbox_profile": "off",
+  "reasoning_effort": "high",
+  "last_turn_summary": "SCJ-259/283/289 updated from later same-writ PDFs",
+  "last_turn_summary_prompt_id": "7f89a356-2873-41fc-8ca2-7475d37eab5f"
+}

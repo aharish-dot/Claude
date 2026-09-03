@@ -1,0 +1,27 @@
+{
+  "info": {
+    "id": "01a05c61-1277-76e1-89f6-3dd5177e296b",
+    "cwd": "C:\\Users\\HP\\Downloads\\Grok\\Claude"
+  },
+  "session_summary": "Fix Python traceback in SCJ-360 case loop",
+  "created_at": "2026-09-01T09:51:00.738781100Z",
+  "updated_at": "2026-09-01T09:57:31.608775900Z",
+  "num_messages": 210,
+  "num_chat_messages": 105,
+  "current_model_id": "grok-4.6",
+  "next_trace_turn": 1,
+  "chat_format_version": 1,
+  "git_root_dir": "C:/Users/HP/Downloads/Grok/Claude/",
+  "git_remotes": [
+    "https://github.com/aharish-dot/Claude"
+  ],
+  "head_commit": "4ff0e249953c87ef8c16b13936625130895ad01b",
+  "head_branch": "claude/supply-code-jurisprudence-design-yiwgen",
+  "request_id": "f4626a9f-d957-4fc7-b313-60738c1111bd",
+  "grok_home": "C:\\Users\\HP\\.grok",
+  "last_active_at": "2026-09-01T09:57:31.608775900Z",
+  "generated_title": "Fix Python traceback in SCJ-360 case loop",
+  "agent_name": "grok-build-plan",
+  "sandbox_profile": "off",
+  "reasoning_effort": "high"
+}

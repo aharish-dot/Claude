@@ -1,0 +1,30 @@
+{
+  "info": {
+    "id": "01a042a2-7241-7842-b5b2-410a533bcade",
+    "cwd": "C:\\Users\\HP\\Downloads\\Grok\\Claude"
+  },
+  "session_summary": "Supply Code pipeline: process SCJ-273–275",
+  "created_at": "2026-08-27T09:52:17.494589Z",
+  "updated_at": "2026-08-27T11:24:00.191737Z",
+  "num_messages": 1058,
+  "num_chat_messages": 584,
+  "current_model_id": "grok-4.6",
+  "next_trace_turn": 21,
+  "chat_format_version": 1,
+  "git_root_dir": "C:/Users/HP/Downloads/Grok/Claude/",
+  "git_remotes": [
+    "https://github.com/aharish-dot/Claude"
+  ],
+  "head_commit": "b92340910375ac5d45fb110eba26ec224a333c21",
+  "head_branch": "claude/supply-code-jurisprudence-design-yiwgen",
+  "request_id": "a8a8b805-c044-4b25-81bf-6e253d48f809",
+  "grok_home": "C:\\Users\\HP\\.grok",
+  "last_active_at": "2026-08-27T11:24:00.191737Z",
+  "generated_title": "Supply Code pipeline: process SCJ-273–275",
+  "agent_name": "grok-build-plan",
+  "sandbox_profile": "off",
+  "reasoning_effort": "high",
+  "last_turn_summary": "Next or the loop: JSON, PDF, commit, push — unattended.",
+  "last_turn_summary_prompt_id": "3c5f288a-e601-4dc8-9f91-3466ee15dd72",
+  "last_recap": "We processed SCJ-273 through SCJ-282 through the Supply Code pipeline and saved `NEXT.md` plus an updated `HANDOFF.md` so a later session can treat “next” as one unique case (`WRIC(A)_12303_2026.pdf` → SCJ-283)."
+}

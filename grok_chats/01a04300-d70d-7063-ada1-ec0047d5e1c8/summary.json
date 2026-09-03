@@ -1,0 +1,30 @@
+{
+  "info": {
+    "id": "01a04300-d70d-7063-ada1-ec0047d5e1c8",
+    "cwd": "C:\\Users\\HP\\Downloads\\Grok\\Claude"
+  },
+  "session_summary": "SCJ digest fields, facts box, token savings",
+  "created_at": "2026-08-27T11:35:23.682849200Z",
+  "updated_at": "2026-08-27T12:31:49.842144100Z",
+  "num_messages": 706,
+  "num_chat_messages": 350,
+  "current_model_id": "grok-4.6",
+  "next_trace_turn": 7,
+  "chat_format_version": 1,
+  "git_root_dir": "C:/Users/HP/Downloads/Grok/Claude/",
+  "git_remotes": [
+    "https://github.com/aharish-dot/Claude"
+  ],
+  "head_commit": "0052a8ee7fd52ef2c4d68d1d8f8df6bc6c4e6e49",
+  "head_branch": "claude/supply-code-jurisprudence-design-yiwgen",
+  "request_id": "c09004a7-89c4-48ce-bb58-c6d508f96726",
+  "grok_home": "C:\\Users\\HP\\.grok",
+  "last_active_at": "2026-08-27T12:31:49.842144100Z",
+  "generated_title": "SCJ digest fields, facts box, token savings",
+  "agent_name": "grok-build-plan",
+  "sandbox_profile": "off",
+  "reasoning_effort": "high",
+  "last_turn_summary": "Short path live; SCJ-288 processed, next_seq=289",
+  "last_turn_summary_prompt_id": "7e4ef9b5-3b94-4e22-95f1-88f44f051a7f",
+  "last_recap": "We wired the digest pipeline for page count, significance, a FACTUAL SUMMARY under the headnote, no limiting facts, and a short authoring path (≤2 pages or ≤800 words), then processed SCJ-285 through SCJ-288."
+}
