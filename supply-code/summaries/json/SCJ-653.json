@@ -1,0 +1,80 @@
+{
+  "case_id": "SCJ-653",
+  "title": "Awadhesh Pratap v. State of U.P. and Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sudhir Agarwal, J. and Rajeev Misra, J.",
+  "date_of_judgment": "2019-12-05",
+  "date_display": "5 December 2019",
+  "docket": "Writ - C No. 17416 of 2006",
+  "page_count": 15,
+  "significance": "ordinary",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; recovery certificates and attachment left undisturbed; interim vacated",
+  "headnote": "Where a consumer challenges recovery certificates and attachment of factory plant for electricity arrears, and part of the same accounting dispute is already pending in a civil suit, the writ court will not try the ledger. What was consumed, billed and paid is a question of fact; Article 226 is not the forum to investigate accounts, particularly when the consumer's own payments over years of monthly billing show irregular default. A later recovery certificate is treated as a continuation of the earlier disputed demand. The consumer may take the entire cause of action in the pending civil suit. The writ is dismissed and any interim order vacated. The Court did not determine the outstanding quantum, the defective-meter average bill, or whether Clause 6.5 of the 2005 Code (invoked by an earlier bench) governed the 2002 recoveries.",
+  "facts": "Awadhesh Pratap owned M/s Sri Ram Ice Factory at Mohalla Tahipura, District Mau, on connection SC No. 1361/003860. The Executive Engineer on 6 September 2001 put outstanding dues at Rs. 2,98,915, including average billing for a defective meter from August 1991 to May 1993. A demand notice under Section 3 of the U.P. Government Electrical Undertaking (Dues Recovery) Act, 1958 issued on 13 March 2001 for Rs. 3,38,127. Supply was disconnected in November 2000. Recovery certificates followed on 8 January 2002 (Rs. 3,38,167) and 10 January 2002 (Rs. 1,87,348). Original Suit No. 255 of 2001 challenged the earlier demand. Machines were attached on 20 March 2006.\n\nThis writ sought to quash the 10 January 2002 certificate and the 9 March 2006 attachment order. The licensee pleaded permanent disconnection from 10 January 2002 and dues of Rs. 5,35,490; the petitioner claimed Rs. 2,30,890 paid and a nil balance. On 17 April 2017 a Division Bench directed a Clause 6.5 settlement; the Executive Engineer, Mau, on 24 August 2017 adjusted ten receipts and still demanded Rs. 5,35,490.",
+  "holding_units": [
+    {
+      "provision": "UPGEU-1958::5",
+      "code": "U.P. Government Electrical Undertaking (Dues Recovery) Act, 1958",
+      "clause": "5",
+      "topic": "recovery certificates and attachment — writ will not try a disputed electricity account already partly in a civil suit",
+      "type": "interplay",
+      "question": "Will the High Court, in a writ challenging recovery certificates and attachment under the 1958 Act, adjudicate a disputed electricity account when part of the same cause of action is already pending in a civil suit?",
+      "holding": "No. Counsel could not dispute that dues up to July 2001 were already the subject of Original Suit No. 255 of 2001. The 10.1.2002 certificate was a continuation of that cause of action. What was actually outstanding required investigation of payments, consumption and bills. The petitioner's own figures showed only ten payments totalling Rs. 2,30,890 over about 50 months of monthly billing, against a plausible range of Rs. 5–7.5 lakh, so he was in default. Having already gone to the civil court for part of the claim, he could take the entire accounting dispute there. The writ was dismissed and any interim order vacated.",
+      "paras": "7-15",
+      "flag": "Source PDF concatenates listing, pass-over, restoration and interlocutory orders from 27.2.2017 to 19.11.2019; the operative judgment is 5.12.2019 (Sudhir Agarwal and Rajeev Misra JJ., numbered paras 1–15). Caption is Awadhesh Pratap; para 2 of the 2019 order names him Awadhesh Prasad. Attachment was stayed on 12.4.2006. The Act is cited in the singular ('Undertaking'). Demand notice under s.3 (13.3.2001) and recovery certificates under s.5 (8.1.2002 for Rs. 3,38,167; 10.1.2002 for Rs. 1,87,348) are recited; the Court did not independently construe those sections."
+    },
+    {
+      "provision": "UP-2005::6.5",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.5",
+      "topic": "interlocutory direction to settle old ice-factory bills under Clause 6.5; overtaken by later dismissal",
+      "type": "supply_code",
+      "question": "Where an ice factory has been permanently disconnected and old bills remain disputed, may the writ court send the consumer to settle the bills under Clause 6.5?",
+      "holding": "Yes, as an interlocutory measure. On 17.4.2017 a Division Bench (Bharati Sapru and Shashi Kant JJ.) recorded that the ice factory had remained shut from 2002 when the connection was permanently disconnected, and directed the petitioner to appear before the concerned authority within two weeks to settle his bills as provided in Clause 6.5, with a decision within one month and a proper hearing. The Executive Engineer, Electricity Distribution Division I, Mau, then passed an order dated 24.8.2017 adjusting ten receipts and quantifying Rs. 5,35,490 still recoverable. The 5.12.2019 judgment recited that order but dismissed the writ on disputed facts and the pending civil suit, without applying Clause 6.5 as the disposing forum.",
+      "qualifier": "The 2002 recoveries predate the 2005 Code; the 17.4.2017 bench applied Clause 6.5 as the then forum.",
+      "paras": "17.4.2017; 12.12.2017",
+      "flag": "Unnumbered interlocutory order of 17.4.2017; the 12.12.2017 order recites the 24.8.2017 Executive Engineer quantification. Overtaken by the 5.12.2019 dismissal."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "disputed-questions-of-fact-not-adjudicable-under-article-226",
+      "application": "Whether the ledger correctly reflected payments and consumption, and what sum remained outstanding, required investigation of facts. The writ court declined to try that accounting dispute, noting that part of the cause of action was already in Original Suit No. 255 of 2001, and dismissed the petition.",
+      "lead_authorities": [],
+      "paras": "11-14"
+    },
+    {
+      "tag": "writ-will-not-adjudicate-bill-if-undisputed-part-unpaid",
+      "application": "On the petitioner's own showing, only Rs. 2,30,890 was paid over about 50 months of monthly ice-factory billing whose range the Court put at more than Rs. 8,000–12,000 a month (about Rs. 5–7.5 lakh). That default was treated as a reason not to enter the accounting controversy in writ.",
+      "lead_authorities": [],
+      "paras": "8, 11-12"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Actual amount outstanding and correctness of the licensee's ledger against the petitioner's receipts",
+      "note": "Left as a disputed question of fact; the Court said the petitioner could take the entire cause of action in the pending civil suit.",
+      "paras": "11-13"
+    },
+    {
+      "point": "Lawfulness of the Rs. 2,13,000 average billing for a defective meter (August 1991 to May 1993)",
+      "note": "Recited from the 6.9.2001 Executive Engineer letter; not examined.",
+      "paras": "3"
+    },
+    {
+      "point": "Merits of Original Suit No. 255 of 2001, including the 13.3.2001 Section 3 demand",
+      "note": "The Court treated that suit as already covering dues up to July 2001 and did not decide it.",
+      "paras": "4, 7, 11, 13"
+    },
+    {
+      "point": "Whether Clause 6.5 of the 2005 Code was the disposing forum for the 2002 recoveries",
+      "note": "An earlier bench had directed a Clause 6.5 settlement (17.4.2017) and the Executive Engineer quantified Rs. 5,35,490 on 24.8.2017; the 5.12.2019 judgment recited that order but dismissed the writ without applying Clause 6.5.",
+      "paras": "17.4.2017; 11-14"
+    }
+  ],
+  "authorities": []
+}
