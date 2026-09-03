@@ -1,14 +1,17 @@
 # grok_chats
 
-Archive of Grok CLI chat histories for this repository working copy
-(`C:\Users\HP\Downloads\Grok\Claude`).
+Grok CLI transcripts for this working copy. Each session is a folder named
+**local date and time** when it started: `YYYY-MM-DD_HH-MM-SS`.
 
 | File | What |
 |---|---|
-| INDEX.md | All sessions, newest not first — chronological. |
-| <session-id>/summary.json | Title, timestamps, message counts. |
-| <session-id>/chat_history.jsonl | Raw messages sent to the model. |
-| prompt_history.jsonl | Prompts typed in this working copy. |
+| `INDEX.md` | Chronological list |
+| `<date-time>/summary.json` | Title, timestamps, message counts |
+| `<date-time>/chat_history.jsonl` | Raw messages |
+| `prompt_history.jsonl` | Prompts typed in this working copy |
 
-These are snapshots. Live sessions still live under ~/.grok/sessions/.
-The unattended loop also writes per-case grok -p sessions here (short/full authoring).
+New sessions are copied here when a Grok session in this folder ends
+(`tools/sync_grok_chats.py`, hooked on `SessionEnd`). If the case loop is not
+holding git, that copy is committed and pushed to GitHub in the background.
+
+On a new clone, trust project hooks once: `/hooks-trust` inside Grok.

@@ -95,7 +95,8 @@ Branch `claude/supply-code-jurisprudence-design-yiwgen`. One commit per case, th
 | `NEXT.md` | **Trigger card.** User said “next” → follow this. |
 | `../tools/run_next_case_loop.ps1` | Windows unattended loop: `-Count N -Workers 2`. Wrapper around `run_next_case_workers.py`. |
 | `../tools/run_next_case_loop.sh` | Ubuntu unattended loop: `--count N --workers 2`. Same Python orchestrator. |
-| `../grok_chats/` | Archived Grok CLI transcripts for this working copy. |
+| `../grok_chats/` | Grok transcripts, folders named `YYYY-MM-DD_HH-MM-SS`. Synced on SessionEnd. |
+| `../tools/sync_grok_chats.py` | Copy live Grok sessions into `grok_chats/` and optionally `git push`. |
 | `../tools/run_next_case_workers.py` | Parallel orchestrator: N grok workers, serial claim + finalize. |
 | `../tools/scj_queue.py` / `scj_lock.py` | Per-case tickets + directory lock. |
 | `../tools/prepare_next_scj.py` | Pick next unique PDF, reserve id, skip dups, extract, set `authoring` (`stencil`/`short`/`full`). |

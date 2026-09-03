@@ -84,5 +84,10 @@ Details: [`supply-code/NEXT.md`](supply-code/NEXT.md) (trigger card),
 
 ## Grok chats
 
-[`grok_chats/`](grok_chats/) is an archive of Grok CLI chat histories from this working
-copy. See [`grok_chats/INDEX.md`](grok_chats/INDEX.md).
+[`grok_chats/`](grok_chats/) archives every Grok CLI session for this working copy.
+Folders are named `YYYY-MM-DD_HH-MM-SS` (local time). Index: [`grok_chats/INDEX.md`](grok_chats/INDEX.md).
+
+A `SessionEnd` hook runs `python tools/sync_grok_chats.py --hook`: it copies the
+new transcript into `grok_chats/` and, if the case loop is not using git, commits
+and pushes only that folder. First time in a clone, run `/hooks-trust` in Grok so
+the project hook is allowed. Manual: `python tools/sync_grok_chats.py --push`.
