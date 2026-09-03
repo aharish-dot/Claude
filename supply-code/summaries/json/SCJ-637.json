@@ -1,0 +1,87 @@
+{
+  "case_id": "SCJ-637",
+  "title": "Joginder Singh v. State of U.P. and Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Ashok Srivastava, J.",
+  "date_of_judgment": "2010-12-03",
+  "date_display": "3 December 2010",
+  "docket": "Criminal Revision No. 956 of 2005",
+  "page_count": 4,
+  "significance": "significant",
+  "outcome": "split",
+  "model": "Grok 4.6",
+  "disposition": "Revision partly allowed; summoning under ss.135/138 upheld; non-bailable warrant set aside; revisionist to appear 3.1.2011 to stand trial",
+  "headnote": "The U.P. Electricity Supply Code, 2002, including the definition of theft in Clause 2.2(av), has no application to a criminal revision against summoning for offences under Sections 135/138 of the Electricity Act, 2003. The Code details licensee-consumer obligations so that the licensee may provide efficient, cost-effective and consumer-friendly service; it is not a source of criminal ingredients. Section 39 of the Indian Electricity Act, 1910, and Ram Chandra Prasad Sharma v. State of Bihar, AIR 1967 SC 349, are inapplicable: the 1910 Act stands repealed by Section 185 of the 2003 Act, and even if it were in force, dishonest intention is not to be examined at the Section 204 CrPC summoning stage. A summoning order under Section 204 need not give detailed reasons; the order under challenge was legal. Issuing a non-bailable warrant at the first instance, however, was not proper; summons ought to have been issued. The revision is partly allowed: the non-bailable-warrant direction is set aside; the revisionist is to appear before the trial court on 3 January 2011 to stand trial.",
+  "facts": "Joginder Singh preferred a criminal revision against the summoning order dated 5 January 2005 passed by the Additional District and Sessions Judge, Court No. 7, Aligarh, in Criminal Case No. 4 of 2005. Opposite party no. 2, A.K. Gupta, had that day filed a complaint alleging offences under Sections 135/138 of the Electricity Act, 2003 read with Section 379 IPC. Treating the complaint as one by a public servant in official duty under Section 200 CrPC, the Judge took cognizance without examining the complainant and issued a non-bailable warrant.\n\nThe revisionist argued that the summoning was perverse, that the Judge had not examined whether the act was dishonest as required by Section 39 of the Indian Electricity Act, 1910 (citing Ram Chandra Prasad Sharma, AIR 1967 SC 349), and invoked the theft definition in Clause 2.2(av) of the U.P. Electricity Supply Code, 2002. Opposite party no. 2 was unrepresented on 1 December 2010; the AGA opposed. A 24 November 2010 listing had been passed over on counsel's illness slip, with stay vacated.",
+  "holding_units": [
+    {
+      "provision": "UP-2002::(unspecified)",
+      "code": "U.P. Electricity Supply Code, 2002",
+      "clause": "2.2(av)",
+      "topic": "Code theft definition is irrelevant to criminal prosecution under ss.135/138",
+      "type": "supply_code",
+      "question": "Can the definition of theft in Clause 2.2(av) of the U.P. Electricity Supply Code, 2002, be used to test a summoning order under Sections 135/138 of the Electricity Act, 2003?",
+      "holding": "No. Clause 2.2(av) was quoted from the 2002 Code. That Code has no relevance to a criminal revision against summoning. It details the obligations of the licensee and consumers towards each other so that the licensee may provide efficient, cost-effective and consumer-friendly service. The Division Bench decision in 2009 (2) AWC 1189 is likewise of no relevance on these facts.",
+      "paras": "unnumbered",
+      "flag": "The Court did not quote the text of Clause 2.2(av). Catalog has no UP-2002::2.2(av); keyed as UP-2002::(unspecified) with clause 2.2(av), matching SCJ-632's identification of that definition. Source PDF also contains a 24.11.2010 pass-over and stay-vacation of Ashok Kumar Roopanwal, J.; the reserved judgment is 3.12.2010 of Ashok Srivastava, J."
+    },
+    {
+      "provision": "EA2003::135",
+      "code": "Electricity Act, 2003",
+      "clause": "135/138 (summoning; 1910 Act repealed by s.185)",
+      "topic": "Summoning under ss.135/138 is not tested by s.39 IEA 1910 or mens rea at the s.204 stage",
+      "type": "electricity_act",
+      "question": "Must a court, before summoning an accused under Sections 135/138 of the Electricity Act, 2003, examine whether the act was dishonest as required by Section 39 of the Indian Electricity Act, 1910?",
+      "holding": "No. Ram Chandra Prasad Sharma is inapplicable on these facts. The Indian Electricity Act, 1910 has been repealed by Section 185 of the Electricity Act, 2003. Even if the 1910 Act were still in force, at the stage of summoning under Section 204 CrPC intention is not to be looked into; intention is locked in the heart of the accused and is disclosed, if at all, by his actions in the course of trial. Neither Section 39 nor that precedent has any relevance. A Section 204 summoning order need not give detailed reasons; the reasons given were sufficient and the summoning was legal. Issuing a non-bailable warrant at the first instance was not proper; summons should have been issued. The non-bailable-warrant portion is set aside; the revisionist is directed to appear on 3.1.2011 to stand trial, with liberty to the trial court to secure presence if he does not, and to consider bail in accordance with law.",
+      "qualifier": "Opposite party no. 2 was unrepresented; the AGA opposed the revision.",
+      "paras": "unnumbered"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "code-confined-to-licensee-consumer-service-obligations",
+      "application": "Clause 2.2(av) of the 2002 Code, and a Division Bench citation of 2009 (2) AWC 1189, cannot be used to defeat summoning under ss.135/138. The Code details licensee-consumer service obligations and has no relevance to the criminal prosecution.",
+      "lead_authorities": [],
+      "paras": "unnumbered"
+    },
+    {
+      "tag": "s135-summoning-need-not-examine-mens-rea",
+      "application": "At the Section 204 CrPC stage, a court summoning under ss.135/138 need not examine whether the act was dishonest. Section 39 of the repealed 1910 Act and Ram Chandra Prasad Sharma do not apply. Intention, if it emerges, is for trial.",
+      "lead_authorities": [],
+      "paras": "unnumbered"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the revisionist in fact committed theft or other offences under ss.135/138 of the Electricity Act, 2003 read with s.379 IPC",
+      "note": "The revision court held only that the summoning was legal and sent the case to trial; it did not examine the complaint's allegations on merits.",
+      "paras": "unnumbered"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ram Chandra Prasad Sharma and others v. State of Bihar and another",
+      "citation": "AIR 1967 SC 349",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Invoked by the revisionist for the proposition that the summoning court had to examine whether the accused's act was dishonest under Section 39 of the Indian Electricity Act, 1910.",
+      "how_treated": "Distinguished as totally inapplicable. The 1910 Act stands repealed by Section 185 of the 2003 Act; even if it were in force, intention is not examined at the Section 204 CrPC summoning stage.",
+      "how_treated_paras": "unnumbered",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "2009 (2) AWC 1189 (DB)",
+      "citation": "2009 (2) AWC 1189",
+      "court": "Allahabad High Court (DB)",
+      "docid": "",
+      "proposition": "Not stated in this judgment; cited with the 2002 Code theft definition.",
+      "how_treated": "Held to have no relevance once the Supply Code itself was held irrelevant to the criminal revision.",
+      "how_treated_paras": "unnumbered",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished"
+    }
+  ]
+}
