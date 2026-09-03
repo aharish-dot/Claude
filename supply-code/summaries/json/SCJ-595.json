@@ -1,0 +1,62 @@
+{
+  "case_id": "SCJ-595",
+  "title": "Satish Kumar @ Yatish Sharma v. State of U.P. & 2 Others",
+  "neutral_citation": "2024:AHC:142296-DB",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta, J. & Kshitij Shailendra, J.",
+  "date_of_judgment": "2024-09-03",
+  "date_display": "3 September 2024",
+  "docket": "Writ - C No. 22231 of 2024",
+  "page_count": 7,
+  "significance": "ordinary",
+  "outcome": "split",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of by consent; OTS sum of Rs. 1,52,261 in six monthly installments; default lapses the order; fresh connection application after dues, in accordance with law",
+  "headnote": "Where a consumer of an unmetered tubewell connection alleged that supply had been disconnected in April 2016 and challenged later bills, but conceded he had no evidence of that disconnection, and the licensee showed a temporary disconnection only in September 2022 with billing confined to the following six months on the footing of deemed permanent disconnection, the writ court recorded the licensee's admission that under the U.P. Electricity Supply Code, 2005 consecutive default in payment requires temporary disconnection followed by permanent disconnection within six months. It did not quash the dues. By consent the petition was disposed of directing payment of the One-Time Settlement figure of Rs. 1,52,261 (surcharge waived) in six equal monthly installments, the first due on 30 September 2024; default would lapse the order and leave the department free to proceed in accordance with law. If the entire dues were cleared, the petitioner could apply afresh for a connection, to be considered in accordance with law. The Court numbered no Code clause and did not decide whether electricity was consumed after April 2016.",
+  "facts": "Satish Kumar @ Yatish Sharma held an unmetered tubewell connection billed at a fixed, periodically revised amount. He sought a mandamus to decide his representation of 19 January 2024 and reminder of 6 March 2024, and to resolve electricity bills from April 2016 or disconnect the tubewell. His case was that the Electricity Department had disconnected supply in April 2016 and that he had not consumed electricity since, yet bills continued.\n\nAbhinav Tiwari, Executive Engineer, Electricity Distribution Division-II, Hathras, produced records. Counsel for the department submitted that there was no evidence of a 2016 disconnection; temporary disconnection was in September 2022, after which the petitioner was billed only for six months because of deemed permanent disconnection. Outstanding dues were Rs. 1,52,261 plus surcharge of Rs. 99,723.82 (total Rs. 2,51,984.82); under the One-Time Settlement scheme (to be availed by 16 August 2024) the payable sum was Rs. 1,52,261. Petitioner's counsel conceded he had no evidence of the 2016 disconnection and offered to pay that figure if given time. The department agreed to six monthly installments.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.38",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.37 r/w 4.38 (temporary disconnection for default; deemed permanent disconnection after six months)",
+      "topic": "Consecutive default requires TDC then PDC within six months; post-TDC billing is limited to that period; 2016-disconnection claim not proved",
+      "type": "supply_code",
+      "question": "Where the consumer alleges a 2016 disconnection and later bills, but cannot prove it, and the licensee shows TDC only in September 2022 with six months' billing for deemed PDC, will the writ court quash the later dues?",
+      "holding": "No. Licensee's counsel admitted that under the 2005 Code the licensee ought to carry out temporary disconnection on consecutive default in payment, followed by permanent disconnection within six months. On the records, TDC was in September 2022 and billing was only for the subsequent six months because of deemed PDC. The petitioner conceded he had no evidence of a 2016 disconnection. Outstanding dues of Rs. 1,52,261 plus surcharge Rs. 99,723.82 were reduced under OTS to Rs. 1,52,261. By consent the petitioner is to pay that sum in six equal monthly installments, the first due on 30 September 2024 and the rest by the end of each succeeding month; default lapses the order and the department may proceed in accordance with law.",
+      "qualifier": "Consent of counsel; default lapses the order.",
+      "paras": "4-7",
+      "flag": "The Court did not number the clause. Listing orders of 1.8.2024 and 14.8.2024 recorded the licensee's admission of the TDC-then-PDC-within-six-months duty; the 3.9.2024 order applies that admission to the September 2022 TDC and six-month billing. Keyed to Clauses 4.37/4.38 as the pattern that matches; Clause 4.36 (TDC for non-payment) is not a catalog key."
+    },
+    {
+      "provision": "UP-2005::procedure-for-restoration",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "fresh application for connection after deemed permanent disconnection and clearance of dues",
+      "topic": "After deemed PDC, reconnection is by a fresh application considered in accordance with law, not by restoring the old connection",
+      "type": "supply_code",
+      "holding": "If the entire dues are cleared, it is open to the petitioner to apply afresh for an electricity connection; any such application is to be considered in accordance with law. The Court did not restore the disconnected tubewell.",
+      "paras": "8"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-4.37-4.38-licensee-empowered-to-permanently-disconnect",
+      "application": "Counsel admitted, and the Court recorded, that consecutive default in payment requires temporary disconnection followed by permanent disconnection within six months; the licensee billed only six months after the September 2022 TDC on the footing of deemed PDC.",
+      "lead_authorities": [],
+      "paras": "4"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether supply was disconnected in April 2016 and whether the petitioner consumed electricity thereafter",
+      "note": "The petitioner conceded he had no evidence of a 2016 disconnection; the Court did not independently find consumption or non-consumption after that date.",
+      "paras": "5"
+    },
+    {
+      "point": "Whether the calculation sheet was assumptive for want of meter readings after April 2016",
+      "note": "Raised on 14.8.2024 when instructions showed no meter reading; overtaken by the concession and consent settlement.",
+      "paras": "4"
+    }
+  ],
+  "authorities": []
+}
