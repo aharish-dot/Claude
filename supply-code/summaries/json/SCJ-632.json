@@ -1,0 +1,63 @@
+{
+  "case_id": "SCJ-632",
+  "title": "Mohan Dairy & Cold Storage Bulandshahar v. U.P. Power Corporation Ltd. & Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Bala Krishna Narayana, J.",
+  "date_of_judgment": "2011-08-12",
+  "date_display": "12 August 2011",
+  "docket": "Writ - C No. 8130 of 2003",
+  "page_count": 5,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; 6.17 theft assessment, 18.1.2003 appellate order and 7.10.2002 bill quashed",
+  "headnote": "A theft assessment under para 6.17 of the U.P. Electricity Supply Code, 2002 cannot rest on the inference that a higher-capacity transformer and cable at the premises prove theft. Para 2.2(av) defines theft as abstraction by bypassing the meter, tampering so that it records less energy than actually passing, or illegal tapping from the licensee's network. Where the inspection report records no such fact, the Maximum Demand Indicator is in order, and there is no evidence of excess-load abstraction by tapping, the only sustainable inference is consumption of load beyond the sanctioned limit, which is to be assessed under para 6.18, not as theft under para 6.17. An Appellate Committee order under para 7.20 that finds theft on that inference, without a finding of actual higher-load abstraction, is based on surmises and conjectures and cannot stand. The 18.1.2003 appellate order, the 8.7.2002 inspection order, and the 7.10.2002 final assessment bill are quashed.",
+  "facts": "Mohan Dairy & Cold Storage, Bulandshahr, petitioned the Allahabad High Court in 2003 against U.P. Power Corporation Ltd. after an 8 July 2002 inspection. The Corporation assessed the dairy for theft of electricity under para 6.17 of the U.P. Electricity Supply Code, 2002, inferring theft from a higher-capacity transformer and cable at the premises. A Maximum Demand Indicator was installed and found in order. The inspection report recorded neither meter or equipment tampering nor illegal tapping. A final assessment bill dated 7 October 2002 followed. By order dated 18 January 2003, communicated with a covering letter dated 6 February 2003, the Appellate Committee under para 7.20 of the Code upheld the theft finding.\n\nThe dairy challenged those orders and the bill, and sought refund of amounts paid on the assessment. Under an interim order dated 19 February 2003 the Corporation raised a para 6.18 demand, which was paid, and the 6.17 amounts were adjusted. The refund prayer was not pressed. Respondents' counsel did not appear when the list was revised.",
+  "holding_units": [
+    {
+      "provision": "UP-2002::6.17",
+      "code": "U.P. Electricity Supply Code, 2002",
+      "clause": "6.17 (theft assessment) r/w para 2.2(av) (definition of theft) and para 7.20 (Appellate Committee)",
+      "topic": "Theft under para 6.17 requires bypass, meter-tampering, or illegal tapping; it cannot be inferred from higher-capacity equipment",
+      "type": "supply_code",
+      "question": "Can a para 6.17 theft assessment, and an Appellate Committee confirmation under para 7.20, stand where a higher-capacity transformer and cable were found but there is no evidence of meter-tampering, bypass, or illegal tapping, and the Maximum Demand Indicator is in order?",
+      "holding": "No. Theft as defined in para 2.2(av) means abstraction by bypassing the meter, tampering with it so that it records less energy than actually passing, or illegal tapping from the licensee's network. The inspection of 8.7.2002 showed no such fact. The Corporation's inference of theft from a higher-capacity transformer and cable, and the Appellate Committee's confirmation of theft without a finding that the dairy was actually abstracting energy of a higher load, rest on surmises and conjectures rather than tangible evidence and cannot be sustained. The 18.1.2003 appellate order, the 8.7.2002 inspection order, and the 7.10.2002 final assessment bill are quashed.",
+      "paras": "unnumbered order",
+      "flag": "Source PDF also contains listing orders of 29.7.2011 and 5.8.2011; the operative judgment is 12.8.2011. The prayer challenged orders dated 18.1.2003 and 27.9.2002 and a bill dated 7.10.2002 (Annexures 12, 9 and 9-A). The Court quashed 18.1.2003 (Annexure-12), the inspection dated 8.7.2002 (Annexure-1), and the 7.10.2002 bill (called Annexure-9 in the operative paragraph). Recorded as the judgment states them. Catalog hits UP-2005::6.2 / 7.10 do not fit; keyed from the 2002 Code clauses the Court applied."
+    },
+    {
+      "provision": "UP-2002::6.18",
+      "code": "U.P. Electricity Supply Code, 2002",
+      "clause": "6.18 (assessment for load in excess of the sanctioned limit)",
+      "topic": "Consumption beyond sanctioned load is assessable under para 6.18, not as theft under para 6.17",
+      "type": "supply_code",
+      "question": "Where the only sustainable inference is that the consumer was taking load in excess of the sanctioned limit, is the case to be assessed under para 6.18 rather than as theft under para 6.17?",
+      "holding": "Yes. From the totality of the circumstances the only inference that can be drawn is that the dairy was consuming load in excess of the sanctioned limit, and it is liable to be assessed in accordance with para 6.18, not para 6.17. Under the interim order of 19.2.2003 the Corporation had already raised a para 6.18 demand, which the dairy paid, and amounts paid on the 6.17 assessment had been adjusted.",
+      "qualifier": "The third prayer, for refund of amounts paid on the impugned 6.17 assessment, was not pressed.",
+      "paras": "unnumbered order"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "theft-must-be-established-not-presumed",
+      "application": "A 2002-Code para 6.17 theft finding cannot be presumed from a higher-capacity transformer and cable. Para 2.2(av) requires bypass, meter-tampering, or illegal tapping; absent those facts, and with the MDI in order, the case is excess sanctioned load under para 6.18. Same cluster as SCJ-060.",
+      "lead_authorities": [],
+      "paras": "unnumbered order"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Refund of amounts paid on the 6.17 assessment (third prayer)",
+      "note": "Not pressed. Counsel stated that, under the 19.2.2003 interim order, a para 6.18 demand had been raised and paid and the 6.17 amounts already adjusted.",
+      "paras": "unnumbered order"
+    },
+    {
+      "point": "The order dated 27.9.2002 (Annexure-9 in the prayer)",
+      "note": "Challenged in the prayer; not named in the operative quash. The Court instead quashed the 8.7.2002 inspection (Annexure-1) and treated the 7.10.2002 bill as Annexure-9.",
+      "paras": "unnumbered order"
+    }
+  ],
+  "authorities": []
+}
