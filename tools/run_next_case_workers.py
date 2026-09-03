@@ -6,8 +6,10 @@ Usage:
   ./tools/run_next_case_loop.sh --count 50 --workers 2
   powershell -File tools/run_next_case_loop.ps1 -Count 50 -Workers 2
 
-Claim and finalize take the queue lock (unique SCJ ids, one git writer).
-Authoring (stencil or grok -p) runs in a thread pool and writes JSON only.
+Claim (id + PDF) and finalize (Chrome/git) take the queue lock so SCJ ids
+and git never collide. Authoring (stencil or grok -p) runs in a thread pool
+and writes JSON only. A worker that finishes authoring is replaced immediately
+with the next case; Chrome/git of the finished case run on the side.
 """
 from __future__ import annotations
 
@@ -278,7 +280,8 @@ def main(argv=None) -> int:
 
     if args.dry_run:
         L("DRY-RUN: claim under lock -> stencil or grok (JSON only) x workers")
-        L("DRY-RUN: serial finalize_scj.py (Chrome/git/index)")
+        L("DRY-RUN: next case is claimed as soon as an author slot frees")
+        L("DRY-RUN: serial finalize_scj.py (Chrome/git/index) does not block claiming")
         return 0
 
     ok = 0
@@ -359,81 +362,12 @@ def main(argv=None) -> int:
                 L(f"RESUME-FINALIZE {t['case_id']} (JSON already present)")
             else:
                 submit_ticket(ex, t)
-        while len(inflight) < workers and claimed < args.count and not no_input:
-            before = claimed
-            try_claim(ex)
-            if claimed == before:
-                break
 
-        while inflight or pending_finalize:
-            while pending_finalize:
-                item = pending_finalize.pop(0)
-                ticket = item["ticket"]
-                cid = ticket["case_id"]
-                author = item.get("author") or {}
-                elapsed = int(time.time() - item["t0"])
-                fin_ok = False
-                safety = 0
-                if author.get("ok") and json_exists(cid):
-                    if not case_done(cid):
-                        safety = 1
-                        L(f"JSON unfinalized; running finalize_scj.py {cid}")
-                        fin_code = finalize_one(
-                            ticket, py, item["case_log"], args.no_push
-                        )
-                        if fin_code != 0:
-                            L(f"FAIL case {item['i']} {cid} finalize exit={fin_code}")
-                            L(f"  tail: {tail(item['case_log'])}")
-                            fail += 1
-                            author_fail_streak += 1
-                        else:
-                            fin_ok = case_done(cid)
-                    else:
-                        fin_ok = True
-                        scj_queue.delete_ticket(cid)
-                if fin_ok:
-                    L(f"OK case {item['i']} {cid} done -> next_seq={next_seq()} "
-                      f"elapsed={elapsed}s")
-                    L(f"  tail: {tail(item['case_log'])}")
-                    ok += 1
-                    author_fail_streak = 0
-                elif not author.get("ok"):
-                    L(f"FAIL case {item['i']} {cid} author json missing "
-                      f"elapsed={elapsed}s")
-                    L(f"  tail: {tail(item['case_log'])}")
-                    fail += 1
-                    author_fail_streak += 1
-                try:
-                    log_scj_review.append({
-                        "event": "loop",
-                        "case_id": cid,
-                        "authoring": author.get("authoring") or ticket.get("authoring"),
-                        "family": ticket.get("stencil_family") or "",
-                        "source": ticket.get("source") or "",
-                        "pages": ticket.get("page_count"),
-                        "words": ticket.get("word_count"),
-                        "citations": ticket.get("citation_count"),
-                        "gate": ticket.get("gate") or "",
-                        "elapsed": elapsed,
-                        "ok": "1" if fin_ok else "0",
-                        "safety_finalize": "1" if safety else "0",
-                        "grok": str(author.get("grok") or 0),
-                        "demoted": str(author.get("demoted") or 0),
-                        "ik_citations": ticket.get("ik_citation_count"),
-                        "text_citations": ticket.get("text_citation_count"),
-                        "demoted_from": "stencil" if author.get("demoted") else "",
-                    })
-                except Exception:
-                    pass
-                if author_fail_streak >= 3:
-                    L("STOP: 3 consecutive author/finalize failures")
-                    no_input = True
-                if not no_input:
-                    try_claim(ex)
-
+        def harvest_done(timeout=0):
             if not inflight:
-                continue
-            done, _ = wait(list(inflight.keys()), return_when=FIRST_COMPLETED)
+                return
+            done, _ = wait(list(inflight.keys()), timeout=timeout,
+                           return_when=FIRST_COMPLETED)
             for fut in done:
                 item = inflight.pop(fut)
                 try:
@@ -442,7 +376,94 @@ def main(argv=None) -> int:
                     author = {"ok": False, "exit": 1}
                     L(f"FAIL case {item['i']} {item['ticket']['case_id']} {e}")
                 item["author"] = author
+                cid = item["ticket"]["case_id"]
+                L(f"AUTHOR done {cid} ok={1 if author.get('ok') else 0}; "
+                  f"inflight={len(inflight)} pending_finalize="
+                  f"{len(pending_finalize) + 1}")
                 pending_finalize.append(item)
+
+        def fill_authors() -> None:
+            while len(inflight) < workers and claimed < args.count and not no_input:
+                before = claimed
+                try_claim(ex)
+                if claimed == before:
+                    break
+
+        def finalize_item(item: dict) -> None:
+            nonlocal ok, fail, author_fail_streak, no_input
+            ticket = item["ticket"]
+            cid = ticket["case_id"]
+            author = item.get("author") or {}
+            elapsed = int(time.time() - item["t0"])
+            fin_ok = False
+            safety = 0
+            if author.get("ok") and json_exists(cid):
+                if not case_done(cid):
+                    safety = 1
+                    L(f"JSON unfinalized; running finalize_scj.py {cid}")
+                    fin_code = finalize_one(
+                        ticket, py, item["case_log"], args.no_push
+                    )
+                    if fin_code != 0:
+                        L(f"FAIL case {item['i']} {cid} finalize exit={fin_code}")
+                        L(f"  tail: {tail(item['case_log'])}")
+                        fail += 1
+                        author_fail_streak += 1
+                    else:
+                        fin_ok = case_done(cid)
+                else:
+                    fin_ok = True
+                    scj_queue.delete_ticket(cid)
+            if fin_ok:
+                L(f"OK case {item['i']} {cid} done -> next_seq={next_seq()} "
+                  f"elapsed={elapsed}s")
+                L(f"  tail: {tail(item['case_log'])}")
+                ok += 1
+                author_fail_streak = 0
+            elif not author.get("ok"):
+                L(f"FAIL case {item['i']} {cid} author json missing "
+                  f"elapsed={elapsed}s")
+                L(f"  tail: {tail(item['case_log'])}")
+                fail += 1
+                author_fail_streak += 1
+            try:
+                log_scj_review.append({
+                    "event": "loop",
+                    "case_id": cid,
+                    "authoring": author.get("authoring") or ticket.get("authoring"),
+                    "family": ticket.get("stencil_family") or "",
+                    "source": ticket.get("source") or "",
+                    "pages": ticket.get("page_count"),
+                    "words": ticket.get("word_count"),
+                    "citations": ticket.get("citation_count"),
+                    "gate": ticket.get("gate") or "",
+                    "elapsed": elapsed,
+                    "ok": "1" if fin_ok else "0",
+                    "safety_finalize": "1" if safety else "0",
+                    "grok": str(author.get("grok") or 0),
+                    "demoted": str(author.get("demoted") or 0),
+                    "ik_citations": ticket.get("ik_citation_count"),
+                    "text_citations": ticket.get("text_citation_count"),
+                    "demoted_from": "stencil" if author.get("demoted") else "",
+                })
+            except Exception:
+                pass
+            if author_fail_streak >= 3:
+                L("STOP: 3 consecutive author/finalize failures")
+                no_input = True
+
+        fill_authors()
+        while inflight or pending_finalize:
+            harvest_done(timeout=0)
+            fill_authors()
+            if pending_finalize:
+                finalize_item(pending_finalize.pop(0))
+                continue
+            if inflight:
+                harvest_done(timeout=None)
+                fill_authors()
+                continue
+            break
 
     skipped = max(0, args.count - claimed)
     L(f"===== DONE ok={ok} fail={fail} skipped_remaining~{skipped} "

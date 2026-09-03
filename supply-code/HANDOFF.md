@@ -25,7 +25,7 @@ Process remaining judgments **first** (mechanical pipeline → index), **then** 
 | User says | Do |
 |---|---|
 | **next** / **next case** / **now next one** | Process **exactly one** unique pending file. See **`NEXT.md`**. Do not ask. Stencil tickets: write+finalize only, do not read the judgment. |
-| *(unattended)* | Windows: `powershell -ExecutionPolicy Bypass -File tools\run_next_case_loop.ps1 -Count 50 -Workers 2`. Ubuntu: `./tools/run_next_case_loop.sh --count 50 --workers 2`. Default **2** authoring workers (max 4). Claim + finalize stay serial under `tmp/queue.lock` (local to that PC). Each grok is a fresh `grok -p` **unless** `authoring=stencil` (no grok). `-Workers 1` / `--workers 1` = old serial loop. Never run both PCs at once. |
+| *(unattended)* | Windows: `powershell -ExecutionPolicy Bypass -File tools\run_next_case_loop.ps1 -Count 50 -Workers 2`. Ubuntu: `./tools/run_next_case_loop.sh --count 50 --workers 2`. Default **2** authoring workers (max 4). Claim + finalize stay serial under `tmp/queue.lock` (local to that PC). A worker that finishes JSON is replaced with the next case immediately; Chrome/git of the finished case run on the side. Each grok is a fresh `grok -p` **unless** `authoring=stencil` (no grok). `-Workers 1` / `--workers 1` = old serial loop. Never run both PCs at once. |
 | **next batch** | `RUNBOOK.md` default: up to 8, early-stop ~22k words. |
 | Anything about the treatise / booklet Parts | Not yet, unless they explicitly override §2. |
 
