@@ -1,0 +1,73 @@
+{
+  "case_id": "SCJ-546",
+  "title": "Pramod Kumar v. State of U.P. and 3 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Ajay Bhanot, J. & Divesh Chandra Samant, J.",
+  "date_of_judgment": "2026-07-16",
+  "date_display": "16 July 2026",
+  "docket": "Criminal Misc. Writ Petition No. 2340 of 2024",
+  "page_count": 5,
+  "significance": "procedural",
+  "outcome": "none",
+  "disposition": "Writ petition dismissed for non-prosecution; interim order vacated",
+  "headnote": "Where a consumer seeks quashing of an FIR under Section 135 of the Electricity Act, 2003 on the footing that the licensee's officials had bypassed a burnt meter (Clause 5.8 of the U.P. Electricity Supply Code, 2005) and that Clause 5.9(c) therefore barred booking a case of direct theft, and the licensee later concedes that the offence is compoundable under Section 152 and that it is inclined to withdraw the FIR, the High Court does not decide those points if the petitioner thereafter fails to appear. The criminal miscellaneous writ petition was dismissed for non-prosecution and the interim order staying coercive measures was vacated. The Court did not construe Clauses 5.8 or 5.9(c), did not quash the FIR, and did not record a compounding or withdrawal.",
+  "facts": "Pramod Kumar sought quashing of FIR dated 10.12.2022 in Case Crime No. 4681 of 2022 under Section 135 of the Electricity Act, Police Station Anti Power Theft, District Jalaun. He said a three-phase meter at his flour-mill premises had burnt; after intimation on 10.11.2022 and an application of 05.12.2022, Dakshinanchal Vidyut Vitran Nigam Ltd. certified that a new meter was installed on 08.12.2022. Counsel said the FIR, lodged the next day by the Executive Engineer, Madhogarh, alleged theft by unmetered direct supply even though that supply had been given by the licensee's officials pending replacement, and that Clauses 5.8 and 5.9(c) of the U.P. Electricity Supply Code, 2005 barred booking a direct-theft case.\n\nOn 21.02.2024 the Court called for the Executive Engineer's affidavit and issued a show-cause for costs of Rs. 1 lakh. On 21.03.2024 the department conceded that the FIR was compoundable under Section 152 and said it was inclined to withdraw it. Coercive measures were stayed on 22.03.2024. On 16.07.2026 none appeared for the petitioner.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::5.9(c)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "5.9(c) (direct theft not to be booked where an official gave a direct connection pending burnt-meter replacement); Clause 5.8 also invoked",
+      "topic": "Burnt-meter bypass and Clause 5.9(c) bar on booking direct theft — raised; not decided",
+      "type": "supply_code",
+      "holding": "No construction. Counsel submitted that Clause 5.8 required the licensee to restore supply immediately by bypassing a burnt meter (providing a 'direct light'), and that Clause 5.9(c) provided that if the meter is found burnt and there is reason to believe an official of the licensee gave a direct connection pending replacement, a case of direct theft shall not be booked. The Court recorded those submissions on 21.02.2024, called for an affidavit from the Executive Engineer who lodged the FIR, and later stayed coercive measures. It never applied or interpreted either clause. On 16.07.2026 the writ was dismissed for non-prosecution.",
+      "paras": "8",
+      "flag": "Clauses 5.8 and 5.9(c) are not catalog keys; 5.9(c) is keyed as the theft-booking bar counsel invoked, with 5.8 recorded in the clause field. The 21.02.2024 order cites 'Electricity Act, 2023' (read 2003) and 'floor will' (read flour mill). Counsel dated the FIR as 09.12.2022; the petition describes it as 10.12.2022. Source PDF also contains orders of 21.02.2024 (Arvind Singh Sangwan and Shiv Shanker Prasad JJ.) and 21.03.2024 and 22.03.2024 (Mahesh Chandra Tripathi and Gajendra Kumar JJ.); the operative disposal is 16.07.2026 (Ajay Bhanot and Divesh Chandra Samant JJ.). Paragraph 8 is of the 21.02.2024 order."
+    },
+    {
+      "provision": "EA2003::135",
+      "code": "Electricity Act, 2003",
+      "clause": "135",
+      "topic": "FIR under s.135 — quashing not decided; petition dismissed for non-prosecution",
+      "type": "electricity_act",
+      "holding": "The writ sought quashing of the FIR in Case Crime No. 4681 of 2022 under Section 135 of the Electricity Act, Police Station Anti Power Theft, Jalaun. The Court did not quash the FIR. After interim directions (an affidavit from the Executive Engineer, a show-cause for costs of Rs. 1 lakh, and a stay of coercive measures), none appeared for the petitioner on the revised call of 16.07.2026. The petition was dismissed for non-prosecution and the interim order, if any, was vacated.",
+      "paras": "1",
+      "flag": "The 16.07.2026 order is unnumbered; treated as a single paragraph. Dismissal for non-prosecution is not a finding that theft was committed."
+    },
+    {
+      "provision": "EA2003::152",
+      "code": "Electricity Act, 2003",
+      "clause": "152",
+      "topic": "Department conceded s.135 FIR is compoundable under s.152 and inclined to withdraw — not given effect",
+      "type": "electricity_act",
+      "holding": "On 21.03.2024 senior counsel for the electricity department fairly conceded that the FIR under Section 135 is compoundable under Section 152 and that the Department was inclined to withdraw it, and sought time to file an affidavit. The Court passed the matter over. No compounding order was recorded and the FIR was not withdrawn on the writ. The petition was later dismissed for non-prosecution.",
+      "paras": "3",
+      "flag": "Paragraph 3 of the 21.03.2024 order. Compounding was conceded, not applied."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether Clauses 5.8 and 5.9(c) of the U.P. Electricity Supply Code, 2005 barred booking the petitioner for direct theft",
+      "note": "Raised on 21.02.2024 from the burnt-meter bypass and official direct connection; never construed.",
+      "paras": "8"
+    },
+    {
+      "point": "Whether the FIR should be quashed as registered without verifying the record or with a mala fide motive",
+      "note": "The petition's prayer. An affidavit and show-cause were called for; the FIR was not quashed.",
+      "paras": "2-3, 10"
+    },
+    {
+      "point": "Compounding under Section 152 of the Electricity Act, 2003, and withdrawal of the FIR",
+      "note": "Conceded by the department on 21.03.2024; no compounding or withdrawal was recorded.",
+      "paras": "3"
+    },
+    {
+      "point": "Whether costs of Rs. 1 lakh should be imposed on the Executive Engineer who lodged the FIR",
+      "note": "Show-cause issued on 21.02.2024; not decided.",
+      "paras": "11"
+    }
+  ],
+  "authorities": []
+}
