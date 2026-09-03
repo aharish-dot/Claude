@@ -1,0 +1,48 @@
+{
+  "case_id": "SCJ-601",
+  "title": "Harish Agrawal v. State of U.P.",
+  "neutral_citation": "2024:AHC:135084-DB",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Shekhar B. Saraf, J.; Manjive Shukla, J.",
+  "date_of_judgment": "2024-08-22",
+  "date_display": "22 August 2024",
+  "docket": "WRIT - C No. 23748 of 2024",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; occupier reconnection on indemnity upheld.",
+  "headnote": "Regulation 4.39(b) of the U.P. Electricity Supply Code, 2005 is an enabling clause for the person whose supply was temporarily disconnected, not a bar on the licensee restoring supply by another mechanism if it is protected as to bills. Restoration to an occupier on an Annexure 4.2 indemnity bond, despite the owner's complaint and a pending partition suit without injunction, is not illegal.",
+  "facts": "The petitioner and his son were locked in a pending partition suit in which no injunction had been passed against the son. The son, occupying a portion of the premises and running a restaurant there, obtained an electricity connection from the licensee. On the petitioner's complaint that his permission had not been taken, the connection was temporarily disconnected. The son then furnished an indemnity bond and the licensee restored supply. The petitioner challenged that restoration under Article 226.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.39(b)",
+      "code": "UP-2005",
+      "clause": "4.39(b)",
+      "topic": "reconnection after temporary disconnection",
+      "type": "supply_code",
+      "holding": "Regulation 4.39(b), which provides that supply shall be reconnected after the cause of disconnection has been removed, is an enabling clause for the benefit of the person whose supply was temporarily disconnected. It does not bar the licensee from restoring supply by another mechanism if the licensee is protected in relation to payment of the bills.",
+      "paras": "6-7"
+    },
+    {
+      "provision": "UP-2005::Annexure 4.2",
+      "code": "UP-2005",
+      "clause": "Annexure 4.2",
+      "topic": "occupier indemnity bond",
+      "type": "supply_code",
+      "holding": "Where the licensee has accepted an indemnity bond from the occupier of a portion of the premises and restored supply, there is no illegality and no impediment to granting connection to a person in occupation on an Annexure 4.2 indemnity bond.",
+      "paras": "8",
+      "flag": "Para 8 cites the Supply Code as 2006; the Code is 2005."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Title as between the petitioner and his son",
+      "note": "A partition suit was pending and no injunction bound the son; the Court did not adjudicate ownership.",
+      "paras": "3"
+    }
+  ],
+  "authorities": []
+}
