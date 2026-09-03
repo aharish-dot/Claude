@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 545,
+  "next_seq": 546,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -3262,6 +3262,12 @@
       "case_id": "SCJ-543",
       "source_basename": "BAIL(A)_25083_2024.pdf",
       "title": "Avinash Kumar Gautam v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-544",
+      "source_basename": "CAPL(A)_9494_2023.pdf",
+      "title": "Vijay Shukla v. Shri Shadab Ahmad, Executive Engineer, Dakshinanchal Vidyut Vitran Nigam Ltd. and Another",
       "status": "done"
     }
   ]
