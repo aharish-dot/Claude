@@ -2,22 +2,27 @@
 """Pick the next unique pending PDF, extract text, write a work ticket.
 
 Usage:  python tools/prepare_next_scj.py
-        python tools/prepare_next_scj.py --demote
-Exit 0  ticket at supply-code/tmp/NEXT_TICKET.json
+        python tools/prepare_next_scj.py --claim-new
+        python tools/prepare_next_scj.py --demote [--ticket PATH]
+Exit 0  ticket at supply-code/tmp/tickets/SCJ-NNN.json
+        (legacy copy at tmp/NEXT_TICKET.json)
 Exit 2  no unique pending input (print NO_INPUT)
 
 --demote  rewrite a READY stencil ticket to short/full (no re-extract).
           Used when stencil write fails (empty caption, fill incomplete).
           Does not bump next_seq.
 
-Does not bump next_seq (finalize_scj.py does that). Retires filename and
-docket duplicates to processed/ (mirroring any input/ subfolder) without
-assigning an id. Nested queues (e.g. input/2025/*.pdf) stay nested.
+Reserves SCJ-NNN at claim time (bumps next_seq under the queue lock) so
+parallel workers cannot share an id. finalize_scj.py never rewinds it.
+Retires filename and docket duplicates to processed/ (mirroring any input/
+subfolder) without assigning an id. Nested queues stay nested.
 """
 import argparse, json, os, re, subprocess, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import scj_lock
+import scj_queue
 import scj_stencil
 SC = os.path.join(ROOT, "supply-code")
 INPUT = os.path.join(SC, "input")
@@ -75,8 +80,10 @@ def processed_names():
     return names
 
 
-def pending_files(done):
+def pending_files(done, skip_rels=None):
     """POSIX paths relative to input/, files at root and in subfolders."""
+    skip = {s.replace("\\", "/").lstrip("/") for s in (skip_rels or [])}
+    skip_base = {basename_of(s) for s in skip}
     if not os.path.isdir(INPUT):
         return []
     out = []
@@ -88,7 +95,7 @@ def pending_files(done):
             if n in SKIP_NAMES or TWIN_PDF.search(n):
                 continue
             rel = posix_rel(os.path.join(dirpath, n), INPUT)
-            if n in done:
+            if n in done or rel in skip or n in skip_base:
                 continue
             out.append(rel)
     out.sort()
@@ -144,12 +151,21 @@ def retire(rel, reason):
             os.remove(src)
         else:
             os.replace(src, dst)
+    # Keep GitHub in sync when input/ is tracked: stage processed copy + input deletion.
+    subprocess.run(
+        ["git", "add", "--", posix_rel(dst, ROOT)],
+        cwd=ROOT, check=False,
+    )
+    subprocess.run(
+        ["git", "add", "-u", "--", posix_rel(src, ROOT)],
+        cwd=ROOT, check=False,
+    )
     print(f"retired duplicate {rel} ({reason}) → processed/{dest_rel}/")
 
 
 def extract(src_rel, cid):
     os.makedirs(EXTRACTS, exist_ok=True)
-    src = under(INPUT, src_rel)
+    src = src_rel if os.path.isabs(src_rel) else under(INPUT, src_rel)
     r = subprocess.run(
         [sys.executable, os.path.join(ROOT, "tools", "extract_judgment.py"),
          src, EXTRACTS, cid],
@@ -230,15 +246,55 @@ def catalog_hits(txt, limit=40):
     return hits
 
 
-def main():
+def _print_ready(ticket):
+    extra = ""
+    if ticket.get("authoring") == "stencil":
+        extra = f" family={ticket.get('stencil_family')}"
+    dest = scj_queue.ticket_path(ticket["case_id"])
+    print(f"READY {ticket['case_id']} authoring={ticket.get('authoring')}{extra} "
+          f"gate={ticket.get('gate')} source={ticket.get('source')} "
+          f"pages={ticket.get('page_count')} words={ticket.get('word_count')} "
+          f"citations={ticket.get('citation_count')} "
+          f"(ik={ticket.get('ik_citation_count')} "
+          f"text={ticket.get('text_citation_count')}) "
+          f"catalog_hits={len(ticket.get('catalog_hits') or [])} "
+          f"→ {dest}")
+
+
+def resume_open_ticket():
+    """Reuse the oldest unfinalized ticket instead of assigning a new id."""
     state = load_state()
-    seq = int(state["next_seq"])
-    cid = f"SCJ-{seq:03d}"
+    for ticket in scj_queue.open_tickets():
+        cid = ticket.get("case_id")
+        if not cid:
+            continue
+        if scj_queue.case_is_done(state, cid):
+            scj_queue.delete_ticket(cid)
+            continue
+        if ticket.get("status") == "CLAIMING":
+            scj_queue.delete_ticket(cid)
+            continue
+        if not scj_queue.ticket_takeable(ticket):
+            continue
+        ticket["status"] = "AUTHORING"
+        ticket["owner_pid"] = os.getpid()
+        scj_queue.save_ticket(ticket)
+        _print_ready(ticket)
+        print(f"RESUME {cid} (id already reserved; not claiming a new PDF)")
+        return 0
+    return None
+
+
+def claim_new():
+    state = load_state()
+    seq = scj_queue.next_free_seq(state)
+    cid = scj_queue.case_id_for(seq)
     done = processed_names()
     docket_blob = existing_dockets()
+    skip = scj_queue.open_sources()
 
     while True:
-        pending = pending_files(done)
+        pending = pending_files(done, skip)
         if not pending:
             os.makedirs(os.path.dirname(TICKET), exist_ok=True)
             json.dump({"status": "NO_INPUT", "next_seq": seq}, open(TICKET, "w"))
@@ -256,7 +312,21 @@ def main():
             continue
         break
 
-    fp = extract(name, cid)
+    placeholder = {
+        "status": "CLAIMING",
+        "case_id": cid,
+        "next_seq": seq,
+        "source": name,
+    }
+    scj_queue.save_ticket(placeholder, legacy=False)
+
+    try:
+        fp = extract(name, cid)
+    except SystemExit:
+        scj_queue.delete_ticket(cid)
+        raise
+    if not isinstance(fp, dict):
+        fp = {}
     words = int(fp.get("word_count") or 0)
     pages = fp.get("page_count")
     txt_path = os.path.join(EXTRACTS, cid + ".txt")
@@ -294,20 +364,19 @@ def main():
         ticket["prompt"] = "tools/scj_stencil.py"
     else:
         apply_llm_authoring(ticket, txt, fp)
-    os.makedirs(os.path.dirname(TICKET), exist_ok=True)
-    with open(TICKET, "w", encoding="utf-8") as f:
-        json.dump(ticket, f, indent=2)
-        f.write("\n")
-    extra = ""
-    if is_stencil:
-        extra = f" family={ticket['stencil_family']}"
-    print(f"READY {cid} authoring={ticket['authoring']}{extra} "
-          f"gate={ticket.get('gate')} source={name} "
-          f"pages={pages} words={words} citations={cites} "
-          f"(ik={ik_cites} text={text_cites}) "
-          f"catalog_hits={len(ticket.get('catalog_hits') or [])} "
-          f"→ {TICKET}")
+    scj_queue.bump_next_seq(state, seq)
+    scj_queue.save_state(state)
+    scj_queue.save_ticket(ticket)
+    _print_ready(ticket)
     return 0
+
+
+def main(claim_new_only=False):
+    if not claim_new_only:
+        resumed = resume_open_ticket()
+        if resumed is not None:
+            return resumed
+    return claim_new()
 
 
 def apply_llm_authoring(ticket, txt, fp):
@@ -340,14 +409,15 @@ def apply_llm_authoring(ticket, txt, fp):
     return ticket
 
 
-def demote_ticket():
+def demote_ticket(ticket_file=None):
     """Stencil write failed: same extract, author with short/full. No grok skip."""
-    if not os.path.exists(TICKET):
+    path = ticket_file or TICKET
+    if not os.path.exists(path):
         print("FAILED · no ticket to demote", file=sys.stderr)
         return 1
-    with open(TICKET, encoding="utf-8") as f:
+    with open(path, encoding="utf-8") as f:
         ticket = json.load(f)
-    if ticket.get("status") != "READY" or not ticket.get("case_id"):
+    if ticket.get("status") not in ("READY", "AUTHORING", "CLAIMING") or not ticket.get("case_id"):
         print("FAILED · ticket not READY", file=sys.stderr)
         return 1
     cid = ticket["case_id"]
@@ -366,9 +436,7 @@ def demote_ticket():
     ticket["demoted"] = True
     ticket["demoted_from"] = prev
     ticket["stencil_family"] = fam
-    with open(TICKET, "w", encoding="utf-8") as f:
-        json.dump(ticket, f, indent=2)
-        f.write("\n")
+    scj_queue.save_ticket(ticket)
     print(f"DEMOTED {cid} {prev} -> {ticket['authoring']} "
           f"gate={ticket.get('gate')} family={fam or '-'} "
           f"pages={ticket.get('page_count')} words={ticket.get('word_count')} "
@@ -376,11 +444,23 @@ def demote_ticket():
     return 0
 
 
+def _run(args):
+    if args.demote:
+        return demote_ticket(args.ticket)
+    return main(claim_new_only=args.claim_new)
+
+
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--demote", action="store_true",
                     help="rewrite current stencil ticket to short/full")
+    ap.add_argument("--ticket", help="ticket JSON path (demote / resume)")
+    ap.add_argument("--claim-new", action="store_true",
+                    help="do not resume an open ticket; claim the next PDF")
+    ap.add_argument("--no-lock", action="store_true",
+                    help="skip the queue lock (tests only)")
     args = ap.parse_args()
-    if args.demote:
-        sys.exit(demote_ticket())
-    sys.exit(main())
+    if args.no_lock:
+        sys.exit(_run(args))
+    with scj_lock.DirLock(scj_queue.LOCK_DIR):
+        sys.exit(_run(args))

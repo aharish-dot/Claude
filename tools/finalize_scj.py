@@ -13,6 +13,10 @@ Does: schema-gotcha check → gen_scj.py → Chrome PDF → move input→process
 import argparse, json, os, re, subprocess, sys, tempfile
 from shutil import which
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import scj_lock
+import scj_queue
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SC = os.path.join(ROOT, "supply-code")
 BRANCH = "claude/supply-code-jurisprudence-design-yiwgen"
@@ -287,11 +291,8 @@ def update_state(cid, src, title, c):
             "title": title,
             "status": "done",
         })
-    maxseq = max(int(x["case_id"].split("-")[1]) for x in state["cases"])
-    state["next_seq"] = maxseq + 1
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(state, f, indent=2, ensure_ascii=False)
-        f.write("\n")
+    state["next_seq"] = scj_queue.next_seq_after_finalize(state)
+    scj_queue.save_state(state, path)
     return state["next_seq"]
 
 
@@ -306,6 +307,12 @@ def git_commit_push(cid, title, pdf_rel, src, do_push):
         f"supply-code/processed/{rel}",
     ]
     subprocess.run(["git", "add", "--"] + files, cwd=ROOT, check=False)
+    # Source PDFs now live on GitHub in input/. Stage the deletion so the
+    # blob moves to processed/ instead of remaining in both trees.
+    subprocess.run(
+        ["git", "add", "-u", "--", f"supply-code/input/{rel}"],
+        cwd=ROOT, check=False,
+    )
     msg = f"supply-code: process {cid} ({title[:80]})"
     r = subprocess.run(
         ["git", "commit", "-m", msg], cwd=ROOT,
@@ -385,8 +392,14 @@ def main():
         })
     except Exception:
         pass
+    scj_queue.delete_ticket(cid)
     print(f"finalized {cid}; next_seq={nxt}")
 
 
-if __name__ == "__main__":
+def _main():
     main()
+
+
+if __name__ == "__main__":
+    with scj_lock.DirLock(scj_queue.LOCK_DIR):
+        _main()

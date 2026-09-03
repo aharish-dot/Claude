@@ -7,7 +7,10 @@ Writes  supply-code/jurisprudence/catalog.txt
 Grok reads this (~a few KB) instead of grepping 280 JSON files. Rebuild after
 each finalized case. Not a substitute for reading the judgment.
 """
-import json, glob, os
+import json, glob, os, sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import scj_queue
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "supply-code")
 SUMM = os.path.join(ROOT, "summaries", "json")
@@ -38,8 +41,7 @@ def main():
     lines += ["", f"TAGS ({len(tags)})"]
     lines.extend(sorted(tags, key=str.lower))
     lines.append("")
-    with open(OUT, "w", encoding="utf-8") as f:
-        f.write("\n".join(lines))
+    scj_queue.atomic_write_text(OUT, "\n".join(lines))
     print(f"wrote {OUT}: {len(provisions)} provisions, {len(tags)} tags")
 
 

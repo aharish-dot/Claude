@@ -1112,10 +1112,12 @@ def dry_run(only: str | None) -> int:
     return rc
 
 
-def write_record(cid: str | None, out: str | None, force: bool) -> int:
+def write_record(cid: str | None, out: str | None, force: bool,
+                 ticket_path: str | None = None) -> int:
     ticket = None
-    if os.path.exists(TICKET):
-        with open(TICKET, encoding="utf-8") as f:
+    tpath = ticket_path or TICKET
+    if os.path.exists(tpath):
+        with open(tpath, encoding="utf-8") as f:
             ticket = json.load(f)
     from_ticket = not cid
     if not cid:
@@ -1157,10 +1159,11 @@ def main(argv=None):
                     help="write lean JSON for a stencil ticket / case_id")
     ap.add_argument("--out", help="write JSON to this path instead of summaries/json")
     ap.add_argument("--force", action="store_true")
+    ap.add_argument("--ticket", help="ticket JSON (default tmp/NEXT_TICKET.json)")
     ap.add_argument("case_id", nargs="?", help="SCJ-NNN")
     args = ap.parse_args(argv)
     if args.write:
-        return write_record(args.case_id, args.out, args.force)
+        return write_record(args.case_id, args.out, args.force, args.ticket)
     return dry_run(args.case_id)
 
 

@@ -12,7 +12,10 @@ The spine is keyed two ways:
 Plus a not-decided register and a flat case list. Deterministic: safe to re-run
 after each batch. No hand-editing of index.json.
 """
-import json, glob, os
+import json, glob, os, sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import scj_queue
 
 ROOT = os.path.join(os.path.dirname(__file__), "..", "supply-code")
 SUMM = os.path.join(ROOT, "summaries", "json")
@@ -134,8 +137,7 @@ def build(cases):
 if __name__ == "__main__":
     cases = load_cases()
     index = build(cases)
-    with open(OUT, "w", encoding="utf-8") as f:
-        json.dump(index, f, ensure_ascii=False, indent=2)
+    scj_queue.atomic_write_json(OUT, index)
     print(f"wrote {OUT}: {index['case_count']} cases, "
           f"{index['provision_count']} provisions, "
           f"{len(index['principles'])} principles, "

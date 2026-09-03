@@ -25,11 +25,11 @@ Process remaining judgments **first** (mechanical pipeline → index), **then** 
 | User says | Do |
 |---|---|
 | **next** / **next case** / **now next one** | Process **exactly one** unique pending file. See **`NEXT.md`**. Do not ask. Stencil tickets: write+finalize only, do not read the judgment. |
-| *(unattended)* | `powershell -ExecutionPolicy Bypass -File tools\run_next_case_loop.ps1 -Count 100` from repo root. Each iteration is a fresh `grok -p` **unless** `authoring=stencil` (no grok). |
+| *(unattended)* | `powershell -ExecutionPolicy Bypass -File tools\run_next_case_loop.ps1 -Count 50 -Workers 2` from repo root. Default **2** authoring workers (max 4). Claim + finalize stay serial under `tmp/queue.lock`. Each grok is a fresh `grok -p` **unless** `authoring=stencil` (no grok). `-Workers 1` = old serial loop. |
 | **next batch** | `RUNBOOK.md` default: up to 8, early-stop ~22k words. |
 | Anything about the treatise / booklet Parts | Not yet, unless they explicitly override §2. |
 
-**Immediate next:** `tools\run_next_case_loop.ps1 -Count 50` from repo root (review batch SCJ-488–537). Skip `(1)` twins. `next_seq=488`.
+**Immediate next:** input queue is empty (`next_seq=537`, last done **SCJ-536**). When new PDFs land in `input/`: `tools\run_next_case_loop.ps1 -Count 50 -Workers 2` from repo root. Skip `(1)` twins.
 
 ## 4. Gotchas a fresh session MUST know
 
@@ -41,21 +41,21 @@ Process remaining judgments **first** (mechanical pipeline → index), **then** 
 
 ### Windows pipeline (this checkout)
 
-**User does nothing after starting it.** Chat **next** or the loop command both end in JSON + PDF + commit + **push** per case.
+**User does nothing after starting it.** Chat **next** or the loop command both end in JSON + digest PDF + commit + **push** per case. Source PDFs are tracked in `supply-code/input/` on this branch; finalize moves each one to `processed/` **in git** (not only on disk). Drop new year folders into `input/` on GitHub, `git pull` on any machine, run the loop. Extracts stay local (`supply-code/extracts/` is gitignored).
 
 Token split:
 
-1. `python tools/prepare_next_scj.py` — next unique PDF, skip dups, extract text → `tmp/NEXT_TICKET.json` (`authoring`, `catalog_hits`, `page_count`). Classifier may set `authoring=stencil` + `stencil_family`.
+1. `python tools/prepare_next_scj.py` — next unique PDF, skip dups, extract text, **reserve `SCJ-NNN`** (bumps `next_seq` under the queue lock). Per-case ticket at `tmp/tickets/SCJ-NNN.json`; legacy copy at `tmp/NEXT_TICKET.json`. Classifier may set `authoring=stencil` + `stencil_family`. Open tickets are skipped so two workers cannot take the same PDF. `--claim-new` skips resume (the parallel loop uses this).
 2. JSON:
    - **Stencil** (`authoring=stencil`): `python tools/scj_stencil.py --write` — **no grok**, do not read the judgment. Live families: `6.5-billing-relegation`, `6.8-assessment-hearing`, `contempt-6.5-dismissed`. BILL cue includes `current`/`impugned` bill (SCJ-353), `wrong bill`, `electricity amount due`, unpaid electrical dues, recovery citation (SCJ-408). RELEGATE includes “should file a challenge” / “can get the bill corrected” / “if the petitioner approaches” (SCJ-399/468/487). GRANT veto: `we intervene` / `forthwith comply` / petition allowed / mandamus issued (SCJ-411). 6.8 is recovery citation + no hearing + deposit + Assessing Officer, pages ≤ 2; quash / s.135 stay off. Not stencil: listing-only, 4.4, 6.5 invoked-but-not-applied (SCJ-283/284/288), 6.5 order quashed (SCJ-379), 6.8 quashes (SCJ-367/375), court-grants.
    - **If stencil write fails:** `python tools/prepare_next_scj.py --demote` then follow the new `authoring` (short/full). **Do not** re-run prepare as stencil on the same id (358 burned 30 retries). Loop does this itself. Track `demoted`.
    - **Short path** if pages ≤ 2 **or** words ≤ 800, **or** uncited with pages ≤ 3 and words ≤ 1500 (`authoring=short`, `tools/prompts/next_case_short.txt`, `catalog_hits` on the ticket, max 15 turns). **Do not** load `catalog.txt`, SCJ-280, RUNBOOK, `finalize_scj.py`, or `gen_scj.py`. Schema is in the prompt. `paras` is a string; `not_decided` is objects. Uncited = fingerprint `citation_count` (IK hyperlinks **or** prose reporters / body `X v. Y`; not the caption or this case’s Neutral Citation No.).
    - **Full path** otherwise (`tools/prompts/next_case_once.txt` + catalog + SCJ-280).
    - Does not load this HANDOFF or `jurisprudence/index.json`.
-3. `python tools/finalize_scj.py SCJ-NNN --source "<file>"` — schema gates, Chrome PDF (`--user-data-dir` required on Windows), state, spine, catalog, git commit+push. Loop re-runs finalize if JSON exists but `next_seq` did not bump.
+3. `python tools/finalize_scj.py SCJ-NNN --source "<file>"` — schema gates, Chrome PDF (`--user-data-dir` required on Windows), state, spine, catalog, git commit+push. Takes the same queue lock as prepare. Never rewinds `next_seq` (inflight reservations stay reserved). Parallel workers do **not** run this; the orchestrator does, one case at a time.
 
 - PDF name: `SCJ-<NNN>_<slug>.pdf` — **no `_Digest`**.
-- Do not commit `extracts/SCJ-*.txt` / `.fp.json`.
+- Do not commit `extracts/SCJ-*.txt` / `.fp.json` (gitignored). Input PDFs **are** committed; the case commit also stages `input/<file>` deleted + `processed/<file>` added.
 - Linux Chromium path (`/opt/pw-browsers/…`) does **not** apply here.
 
 ### Schema (still breaks `build_supply_code.py` if wrong)
@@ -84,15 +84,17 @@ Token split:
 
 ## 5. Git
 
-Branch `claude/supply-code-jurisprudence-design-yiwgen`. One commit per case, then push. Pipeline/docs commits are separate. No PR unless asked.
+Branch `claude/supply-code-jurisprudence-design-yiwgen`. One commit per case, then push. Pipeline/docs commits are separate. No PR unless asked. Working copy can be any folder: `git pull` then run the loop; GitHub is the queue (`input/`) and the archive (`processed/` + JSON + digest PDFs).
 
 ## 6. File map
 
 | Path | What |
 |---|---|
 | `NEXT.md` | **Trigger card.** User said “next” → follow this. |
-| `../tools/run_next_case_loop.ps1` | Unattended loop: `-Count N`. Stencil tickets skip grok; else a fresh `grok -p`. |
-| `../tools/prepare_next_scj.py` | Pick next unique PDF, skip dups, extract, set `authoring` (`stencil`/`short`/`full`). |
+| `../tools/run_next_case_loop.ps1` | Unattended loop: `-Count N -Workers 2`. Wrapper around `run_next_case_workers.py`. |
+| `../tools/run_next_case_workers.py` | Parallel orchestrator: N grok workers, serial claim + finalize. |
+| `../tools/scj_queue.py` / `scj_lock.py` | Per-case tickets + directory lock. |
+| `../tools/prepare_next_scj.py` | Pick next unique PDF, reserve id, skip dups, extract, set `authoring` (`stencil`/`short`/`full`). |
 | `../tools/scj_stencil.py` | Zero-LLM JSON for proved families. `--dry-run` scores extracts. `--write` fills JSON. |
 | `../tools/tally_outcomes.py` | Count records by `outcome`, optional provision filter (`UP-2005::4.4`). |
 | `../tools/finalize_scj.py` | After JSON: PDF, state, index, catalog, git. Do not do this by hand. |
@@ -121,4 +123,4 @@ Rebuild index; skim what shifted; revisit the outline; then author the treatise 
 
 ---
 
-**One-line resume:** _487 cases done; treatise on hold; **next** or `tools\run_next_case_loop.ps1 -Count 50` = JSON+PDF+push; **review at SCJ-537**; live stencil: 6.5 + **6.8-assessment-hearing** + contempt-6.5; BILL+RELEGATE cues (408/399/468/487); GRANT veto (SCJ-411); demote on stencil write fail; `citation_count` = max(IK, prose); listing-only off; `next_seq=488`._
+**One-line resume:** _536 cases done; input empty; treatise on hold; **next** or `tools\run_next_case_loop.ps1 -Count 50 -Workers 2` = parallel JSON + serial PDF/git; live stencil: 6.5 + **6.8-assessment-hearing** + contempt-6.5; BILL+RELEGATE cues (408/399/468/487); GRANT veto (SCJ-411); demote on stencil write fail; `citation_count` = max(IK, prose); listing-only off; `next_seq=537`._

@@ -2,20 +2,22 @@
 
 Do **exactly one** unique pending judgment. Do not wait for confirmation. Do not start the treatise.
 
-Unattended (user runs this; they do not babysit):
+Unattended (user runs this; they do not babysit). Judgment PDFs live **in the GitHub repo** under `supply-code/input/<year>/`. Clone or `git pull` any working copy of this branch, then from that repo root:
 
 ```
-cd C:\Users\HP\Downloads\Grok\Claude
-powershell -ExecutionPolicy Bypass -File tools\run_next_case_loop.ps1 -Count 100
+git pull
+powershell -ExecutionPolicy Bypass -File tools\run_next_case_loop.ps1 -Count 50 -Workers 2
 ```
 
-Each iteration still produces **JSON + digest PDF + commit + push**. `finalize_scj.py` does PDF/git. If the ticket is **`authoring=stencil`**, Grok is **not** called — `tools/scj_stencil.py --write` fills the JSON. `-NoPush` is opt-out. `-DryRun` prints commands. Logs: `supply-code/tmp/loop_logs/`.
+`-Workers 2` (default) authors two cases at once. Claim (id + PDF) and finalize (Chrome/git/index) stay serial under a lock, so two windows of this command cannot share an SCJ id. `-Workers 1` is the old one-at-a-time loop. Max 4. Do not run the old pre-queue script against the same `input/` while this is going.
+
+Each case still produces **JSON + digest PDF + commit + push**. `finalize_scj.py` does PDF/git, one at a time. If the ticket is **`authoring=stencil`**, Grok is **not** called — `tools/scj_stencil.py --write` fills the JSON. `-NoPush` is opt-out. `-DryRun` prints the plan. Logs: `supply-code/tmp/loop_logs/`. Crash recovery: `tmp/tickets/SCJ-NNN.json` is resumed on the next start.
 
 ## Chat path (same artifacts)
 
 1. `python tools/prepare_next_scj.py`  
-   Exit 2 / ticket `status: NO_INPUT` → stop. Docket/filename duplicates are retired to `processed/` with no new id.
-2. Read `supply-code/tmp/NEXT_TICKET.json`.
+   Exit 2 / ticket `status: NO_INPUT` → stop. Docket/filename duplicates are retired to `processed/` with no new id. Reserves `SCJ-NNN` (queue lock). Per-case ticket: `tmp/tickets/SCJ-NNN.json`. Do not run this while an unattended loop is already claiming.
+2. Read `supply-code/tmp/NEXT_TICKET.json` (copy of the reserved ticket).
    - **`authoring=stencil`** (proved clone: 6.5 billing relegation, 6.8 assessment-hearing, or contempt of a 6.5 writ dismissed): run `python tools/scj_stencil.py --write` then step 4. **Do not** read the judgment or write JSON by hand. If write fails: `python tools/prepare_next_scj.py --demote` then follow short/full — **do not** re-prepare the same PDF as stencil. Listing-only / 4.4 / 6.5-*refusals* / 6.8 quashes / court-grants (SCJ-411 Lok Adalat compliance) are **not** stencil.
    - **`authoring=short`** (pages ≤ 2 or words ≤ 800, or uncited with pages ≤ 3 and words ≤ 1500): follow `tools/prompts/next_case_short.txt`: ticket `.txt` + `.fp.json` + `catalog_hits` only — **do not** load `catalog.txt`, `SCJ-280.json`, RUNBOOK, or the generator. Schema is in the prompt. `paras` is a string; `not_decided` is `[{point, …}]`. Uncited = `citation_count` on the fingerprint (IK **or** prose reporters / `X v. Y` in the body, not the caption).
    - Else follow `tools/prompts/next_case_once.txt` (full catalog + SCJ-280).

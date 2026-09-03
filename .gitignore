@@ -3,5 +3,7 @@
 __pycache__/
 *.pyc
 
-# Unattended loop logs
+# Unattended loop logs and local extract cache (judgment PDFs live in
+# input/ and processed/; do not push extracts).
 supply-code/tmp/
+supply-code/extracts/
