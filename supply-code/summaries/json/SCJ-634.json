@@ -1,0 +1,70 @@
+{
+  "case_id": "SCJ-634",
+  "title": "Roop Narayan Tripathi v. Kanpur Electric Supply Company, Kanpur Nagar Thru' Its M.D.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sunil Ambwani, J. and Kashi Nath Pandey, J.",
+  "date_of_judgment": "2011-07-04",
+  "date_display": "4 July 2011",
+  "docket": "Writ - C No. 12702 of 2004",
+  "page_count": 9,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of; petitioner relegated to a Clause 6.5 representation before the Executive Engineer; coercive recovery stayed if filed within 15 days",
+  "headnote": "Where a vendor of premises, who sold the house without an electricity connection, is later billed as the consumer of a connection released in his name after the sale, the writ court will not decide whether the purchasers obtained that connection by a false declaration. The dispute as to incorrect billing is to be raised before the Executive Engineer under Clause 6.5 of the U.P. Electricity Supply Code, 2005. Section 4 of the U.P. Government Electrical Undertaking (Dues Recovery) Act, 1958 — deposit of the disputed amount under protest, then a suit — is not directly applicable where recovery has already been stayed. The writ is disposed of with a direction that if the petitioner represents to the Executive Engineer, KESCO, within 15 days, the representation shall be decided within six weeks; until then no coercive steps on the recovery certificate. Failure to file the representation within 15 days ends that protection.",
+  "facts": "Roop Narayan Tripathi petitioned the Allahabad High Court against Kanpur Electric Supply Company (KESCO) and the purchasers of his former house. By a registered sale deed dated 29 July 1988 he sold House No. 127/727, W Block, Juhi Gaushala, Kanpur Nagar, without an electricity connection, to Smt. Saroj Shukla and Sri Naresh Chandra Shukla. He said he had not occupied the house since 1988. In November 1991 connection No. 002519 was released in his name at those premises. A demand of Rs.3,74,677 for 31 December 2000 to 31 May 2003, with arrears, was raised against him and a recovery certificate issued.\n\nMunicipal mutation stood in the purchasers' names from 20 February 1999. A representation to KESCO's Managing Director dated 28 July 2003 remained pending. Recovery had been stayed on 31 March 2004. KESCO's counter affidavit treated him as the consumer and invoked Section 4 of the U.P. Government Electrical Undertaking (Dues Recovery) Act, 1958. After listing through 2010–2011, a Division Bench disposed of the writ on 4 July 2011.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.5",
+      "topic": "Incorrect-billing / wrong-person demand — relegation to the Executive Engineer; coercive recovery stayed pending a timely representation",
+      "type": "supply_code",
+      "question": "Where a vendor is billed for a connection released in his name after he sold the premises, should the writ court decide liability, or is the dispute to go to the Executive Engineer under Clause 6.5?",
+      "holding": "The writ court will not decide whether the purchasers obtained the connection by a false declaration. Prima facie the 29.7.1988 sale deed supports the petitioner's contention, but it is not prudent to decide that issue in writ jurisdiction. A dispute as to incorrect billing can be raised before the Executive Engineer under Clause 6.5 of the Electricity Supply Code, 2005. If the petitioner represents to the Executive Engineer, KESCO, within 15 days, the representation is to be decided within six weeks of production of a certified copy and supporting documents. Until that decision, no coercive steps are to be taken on the recovery certificate; if the representation is not filed within 15 days, that protection lapses.",
+      "qualifier": "Recovery had already been stayed since 31.3.2004 (later recited as 31.4.2004). The 28.7.2003 representation to the Managing Director was still pending; the Court directed a representation to the Executive Engineer, not the Managing Director.",
+      "paras": "9-11",
+      "flag": "Source PDF also contains listing, pass-over and service orders from 28.9.2010 to 15.2.2011; the operative judgment is 4.7.2011 (unnumbered; paras are of that order's logical paragraphs). Connection (November 1991) and the billed period (31.12.2000–31.5.2003) predate the 2005 Code; the Court applied Clause 6.5 as the 2011 forum."
+    },
+    {
+      "provision": "UPGEU1958::4",
+      "code": "U.P. Government Electrical Undertakings (Dues Recovery) Act, 1958",
+      "clause": "4",
+      "topic": "Deposit-under-protest and suit not directly applicable where recovery is already stayed",
+      "type": "interplay",
+      "question": "Does Section 4 of the 1958 Act require the consumer to deposit the disputed dues under protest and sue, where the High Court has already stayed recovery?",
+      "holding": "No, not directly. Section 4 provides that where a dispute has been raised as to electricity dues, the disputed amount may be deposited under protest and a suit then filed for recovery of the amount so deposited. Recovery here had already been stayed on 31.3.2004, so Section 4 was not directly applicable.",
+      "paras": "7-8",
+      "flag": "The judgment cites the Act as 'U.P. Government Electrical Undertaking (Dues Recovery) Act, 1958' (singular). Stay date is 31.3.2004 in this passage and 31.4.2004 in the operative direction."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "billing-objection-to-executive-engineer-under-6.5",
+      "application": "A vendor billed for a connection released in his name after sale, and a dispute as to incorrect billing, must go to the Executive Engineer under Clause 6.5. The writ is disposed of with a timed representation, a six-week decision, and a stay of coercive recovery only if the representation is filed within 15 days.",
+      "lead_authorities": [],
+      "paras": "9-11"
+    },
+    {
+      "tag": "disputed-questions-of-fact-not-adjudicable-under-article-226",
+      "application": "Whether the purchasers obtained the connection by a false declaration in the vendor's name is a disputed question of fact. Prima facie the sale deed supported the vendor, but the Court held it not prudent to decide the issue in writ jurisdiction.",
+      "lead_authorities": [],
+      "paras": "9"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether respondents 4 and 5 obtained the connection by a false declaration in the petitioner's name, and whether the petitioner is the consumer liable for the dues",
+      "note": "Prima facie the sale deed supported the petitioner, but the issue was left to the Executive Engineer under Clause 6.5.",
+      "paras": "9-10"
+    },
+    {
+      "point": "Correctness and quantum of the Rs.3,74,677 demand (31.12.2000–31.5.2003 and arrears)",
+      "note": "Left to the Executive Engineer on the Clause 6.5 representation.",
+      "paras": "9-10"
+    }
+  ],
+  "authorities": []
+}
