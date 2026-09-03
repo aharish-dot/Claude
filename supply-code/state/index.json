@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 593,
+  "next_seq": 594,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -3544,6 +3544,12 @@
       "case_id": "SCJ-590",
       "source_basename": "WRIC(A)_20800_2024.pdf",
       "title": "Jiyauddin v. State of U.P. — s.126 recovery withdrawn; fresh Clause 6.8 order",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-591",
+      "source_basename": "WRIC(A)_21149_2024.pdf",
+      "title": "Ram Prasad Vishwakarma v. State of U.P.",
       "status": "done"
     }
   ]
