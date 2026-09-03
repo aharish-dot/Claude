@@ -1,0 +1,53 @@
+{
+  "case_id": "SCJ-638",
+  "title": "Tejinder Singh v. U.P. Power Corporation Ltd. & Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sudhir Agarwal, J. & Om Prakash-VII, J.",
+  "date_of_judgment": "2018-11-19",
+  "date_display": "19 November 2018",
+  "docket": "Writ - C No. 44593 of 2005",
+  "page_count": 7,
+  "significance": "ordinary",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; 13.12.2004 and 12.05.2005 assessments set aside; fresh s.126 assessment at 1.5 times tariff, payable within one month",
+  "headnote": "A Section 126 assessment must be made at one-and-a-half times the applicable tariff under Section 126(6) of the Electricity Act, 2003 (as it stood before the 15.6.2007 amendment). Where vigilance checking on 24.11.2004 recorded excess load and tampered meter seals, and the Executive Engineer imposed a penalty of Rs. 9.28 lacs under Section 126 read with paragraph 6.17.1 of the U.P. Electricity Supply Code, 2002 at thrice the tariff on the units assessed, the assessment cannot stand. Counsel for the licensee admitted the overcharge. The orders dated 13.12.2004 and 12.05.2005 are set aside; the competent assessing authority must pass a fresh assessment applying the statutory 1.5-times rate to the units assessed, payable by the petitioner within one month. The Court did not decide the checking report, whether unauthorised use or theft was established, or the units assessed.",
+  "facts": "Tejinder Singh petitioned the Allahabad High Court in 2005 against U.P. Power Corporation Ltd. to quash assessment orders dated 13.12.2004 and 12.05.2005 of the Executive Engineer, Electricity Urban Distribution Division-IV, Dakshinanchal Vidyut Vitran Nigam Limited, Agra Fort Power House, Agra, imposing a penalty of Rs. 9.28 lacs, and to quash a vigilance checking report dated 24.11.2004. The checking team had recorded excess load and tampered meter seals at his premises. The 13.12.2004 bill was passed under Section 126 of the Electricity Act, 2003 read with paragraph 6.17.1 of the U.P. Electricity Supply Code, 2002.\n\nThe petitioner died while the writ was pending; delay was condoned and substitution allowed on 7.7.2017. At the 19.11.2018 hearing he argued that the assessment was non-speaking, that the Rs. 9.28 lacs was unexplained, and that the tariff multiple was contrary to Section 126(6). The licensee's counsel pointed to calculation details in the Executive Engineer's file, which showed the penalty computed on the excess load at thrice the applicable tariff.",
+  "holding_units": [
+    {
+      "provision": "EA2003::126",
+      "code": "Electricity Act, 2003",
+      "clause": "126(6)",
+      "topic": "s.126 assessment must be at 1.5 times the applicable tariff, not thrice",
+      "type": "electricity_act",
+      "question": "May a Section 126 assessment be charged at thrice the applicable tariff when Section 126(6) requires one-and-a-half times?",
+      "holding": "No. Section 126(6), as quoted, requires assessment at a rate equal to one-and-half times the tariff applicable for the relevant category of services specified in subsection (5). The Executive Engineer's file showed the Rs. 9.28 lacs penalty computed on excess load at thrice that tariff. Counsel for the licensee admitted the overcharge. The orders dated 13.12.2004 and 12.05.2005 are set aside. The competent assessing authority must pass a fresh assessment applying the 1.5-times rate to the units assessed, and the petitioner is to pay that amount within one month.",
+      "qualifier": "The Court applied the unamended (pre-15.6.2007) 1.5-times text of s.126(6), which governed these 2004–05 assessments.",
+      "paras": "5-7",
+      "flag": "Source PDF concatenates listing, substitution and adjournment orders (12.3.2013–13.11.2018); the operative judgment is 19.11.2018 (paras 1–7). Petitioner died; substitution allowed 7.7.2017. The assessment was said to be under s.126 r/w para 6.17.1 of the 2002 Code; the Court did not construe 6.17.1. Catalog hit UP-2002::6.17 is the Code vehicle pleaded, not a holding. Checking report of 24.11.2004 was challenged but not separately quashed. Keyed to catalog EA2003::126; the clause applied is 126(6)."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "uue-assessment-at-1.5x-tariff-not-thrice",
+      "application": "Section 126(6) (unamended) fixes assessment at 1.5 times the applicable tariff. Computing a s.126 penalty on excess load at thrice that tariff is illegal; the assessment is set aside and a fresh order at the statutory 1.5-times rate is directed. Same cluster as SCJ-059, SCJ-188, SCJ-227.",
+      "lead_authorities": [],
+      "paras": "5-7"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Validity of the 24.11.2004 checking report and whether excess load or tampered seals established unauthorised use or theft",
+      "note": "Challenged as Annexure-4; not separately quashed. Fresh assessment is to apply the 1.5-times rate to the units already assessed.",
+      "paras": "2-3, 7"
+    },
+    {
+      "point": "Whether the assessment was independently unsustainable as non-speaking",
+      "note": "The Court found calculation details in the Executive Engineer's file and decided only the tariff multiple.",
+      "paras": "3-5"
+    }
+  ],
+  "authorities": []
+}
