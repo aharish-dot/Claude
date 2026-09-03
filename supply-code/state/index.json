@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 641,
+  "next_seq": 642,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -3832,6 +3832,12 @@
       "case_id": "SCJ-637",
       "source_basename": "CRLR(A)_956_2005.pdf",
       "title": "Joginder Singh v. State of U.P. and Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-639",
+      "source_basename": "WRIC(A)_55784_2005.pdf",
+      "title": "M/S Prem Steels (Pvt.) Limited v. U.P. Power Corporation Ltd. & Others",
       "status": "done"
     }
   ]

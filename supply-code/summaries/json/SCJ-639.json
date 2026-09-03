@@ -1,0 +1,69 @@
+{
+  "case_id": "SCJ-639",
+  "title": "M/S Prem Steels (Pvt.) Limited v. U.P. Power Corporation Ltd. & Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Siddhartha Varma, J. and Ajit Singh, J.",
+  "date_of_judgment": "2022-12-02",
+  "date_display": "2 December 2022",
+  "docket": "Writ - C No. 55784 of 2005",
+  "page_count": 22,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; RBI bank-rate interest on security from 10.6.2003",
+  "headnote": "Section 47(4) of the Electricity Act, 2003, in force from 10.6.2003, obliges the distribution licensee to pay interest on the consumer's security deposit at the bank rate. Want of a State Commission notification, and the fact that the deposit was made before the 14.6.2008 insertion of Clause 4.20(i) of the U.P. Electricity Supply Code, 2005, do not freeze the 2002-Code rate. Clause 4.20(i) supplies the rate: the RBI bank rate as on 1 April of the applicable financial year, credited in the April–June billing cycle; none if the deposit is not cash, cheque or bank draft. Respondents nos. 2 and 3 are directed to pay interest at the RBI bank rates notified from time to time from 10.6.2003. The writ is allowed. The 2014 prayer to declare Clause 4.20(i) arbitrary, and whether a non-Chief-Justice Bench could hear a vires challenge to the Supply Code as delegated legislation, were not decided.",
+  "facts": "M/s Prem Steels (Pvt.) Limited petitioned the Allahabad High Court in 2005 against U.P. Power Corporation Ltd. and other respondents over interest on the security deposit held by the distribution licensee. It said Section 47(4) of the Electricity Act, 2003 required interest at not less than the bank rate, but an impugned order paid a much lower rate. The Corporation's 2005 counter-affidavit (paragraph 14) said that, no State Commission notification having issued, interest continued at the 2003 rate under the Electricity Supply Code, 2002.\n\nThe petitioner later relied on a 14.6.2008 amendment inserting Clause 4.20(i) of the U.P. Electricity Supply Code, 2005, which credits interest at the RBI bank rate as on 1 April of the financial year. The respondents argued that when the deposit was made there was no provision for bank-rate interest. After years of listing, a 2012 dismissal as infructuous (recalled in 2013), and a 2014 roster query on a prayer to declare Clause 4.20(i) arbitrary, a Division Bench allowed the writ on 2 December 2022.",
+  "holding_units": [
+    {
+      "provision": "EA2003::47",
+      "code": "Electricity Act, 2003",
+      "clause": "47(4)",
+      "topic": "Interest on security deposit at bank rate from 10.6.2003",
+      "type": "electricity_act",
+      "question": "Where the licensee has paid interest on security at the 2002-Code rate because no State Commission notification had issued, and the deposit predated Clause 4.20(i), is the consumer entitled to bank-rate interest from the date Section 47(4) came into force?",
+      "holding": "Yes. The consumer is to be given interest at the bank rate from 10.6.2003, when Section 47(4) enacted the obligation to pay interest on security. Respondents nos. 2 and 3 were directed to pay interest at the RBI bank rates notified from time to time from that date. Want of a Commission notification, and continued use of the 2002-Code rate, did not displace s.47(4). The writ was allowed.",
+      "qualifier": "The Court did not identify the impugned order by date or compute the quantum of interest.",
+      "paras": "7-8",
+      "flag": "Source PDF concatenates listing, adjournment, an 18.4.2012 dismissal as infructuous (recalled 4.1.2013), a 7.4.2014 roster/vires referral, and other interlocutory orders from 24.11.2011 to 18.10.2022; the operative judgment is 2.12.2022 (Siddhartha Varma and Ajit Singh JJ.). That order is unnumbered; paragraph numbers are of its recitals and directions. Catalog key is EA2003::47 (no EA2003::47(4) key). Catalog false-positives (BIHAR-2007, CPC::47, UP-2005::4.4/4.44/4.49 and allied occupancy/arrears tags) are not used."
+    },
+    {
+      "provision": "UP-2005::4.20",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.20(i)",
+      "topic": "Interest on security at the RBI bank rate",
+      "type": "supply_code",
+      "question": "Does Clause 4.20(i) fix the rate of interest on security as the RBI bank rate, and can the licensee refuse that rate because the deposit was made before the clause was inserted?",
+      "holding": "Clause 4.20(i), inserted on 14.6.2008, requires the licensee to credit interest on security deposited by cash, cheque or bank draft at the bank rate as on 1 April of the applicable financial year — meaning the rate notified by the Reserve Bank of India — in the April, May or June billing cycle; no interest if the deposit is not so made. The Court applied that RBI bank rate, together with s.47(4), from 10.6.2003, rejecting the plea that absence of a contemporaneous Code clause when the deposit was made confined the consumer to the 2002-Code rate.",
+      "paras": "4-8",
+      "flag": "The quoted clause is printed '4.20 (i).)' in the source. The Court reproduced 4.20(i) and its Explanation because the petitioner relied on them; the start date of interest is s.47(4) (10.6.2003), not the 14.6.2008 amendment itself."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "s47-4-interest-on-security-at-bank-rate-from-enactment",
+      "application": "s.47(4) (in force 10.6.2003) requires interest on security at bank rate. The licensee cannot keep paying the 2002-Code rate for want of a SERC notification or because the deposit predated the 14.6.2008 insertion of Clause 4.20(i). The Code clause supplies the RBI bank rate; the start date is the Act.",
+      "lead_authorities": [],
+      "paras": "7-8"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether Clause 4.20(i) of the U.P. Electricity Supply Code, 2005 is arbitrary or ultra vires",
+      "note": "The 7.4.2014 order recorded a prayer for mandamus declaring the clause arbitrary. The 2.12.2022 disposal granted bank-rate interest without deciding vires.",
+      "paras": "7.4.2014 order; 2.12.2022 recitals 7-9"
+    },
+    {
+      "point": "Whether a Division Bench without the Chief Justice roster has jurisdiction to hear a vires challenge to the Supply Code as delegated legislation",
+      "note": "The 7.4.2014 Bench (Ashok Bhushan and Ranjana Pandya JJ.) referred that roster question to the Chief Justice. The 2022 disposal proceeded on the interest claim and did not answer it.",
+      "paras": "7.4.2014 order"
+    },
+    {
+      "point": "Quantum of interest due and identity of the impugned order that paid a lesser rate",
+      "note": "The Court directed payment at RBI bank rates from 10.6.2003 without computing the sum or dating the impugned order.",
+      "paras": "2, 7-8"
+    }
+  ],
+  "authorities": []
+}
