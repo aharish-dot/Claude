@@ -1,0 +1,80 @@
+{
+  "case_id": "SCJ-645",
+  "title": "Chandra Bhan Singh v. State of U.P. & Ors.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Ashok Bhushan, J. and Sunita Agarwal, J. (delivered by Sunita Agarwal, J.)",
+  "date_of_judgment": "2013-05-30",
+  "date_display": "30 May 2013",
+  "docket": "Writ - C No. 69948 of 2005 (with Writ - C No. 12933 of 2003)",
+  "page_count": 8,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Both writ petitions dismissed as devoid of merit.",
+  "headnote": "Clauses 3.7 and 3.8 of the U.P. Electricity Supply Code, 2005 — classification of consumers and announcement of different tariffs with the Commission's approval, taking effect seven days after newspaper publication — are not discriminatory and are not inconsistent with Sections 62 and 64 of the Electricity Act, 2003. Rate Schedule LMV-5 notified on 22.11.2004 was a tariff fixed by the U.P. Electricity Regulatory Commission under Section 24 of the U.P. Electricity Reforms Act, 1999, not a rate the licensee had set on its own. A Bundelkhand private tubewell on a rural feeder in an area exempted from schedule rostering is charged under LMV-5 clause 4(b). The consumer's challenge to those Code clauses and the 2004 schedule, and a connected refund claim for an alleged excess 2001 connection estimate, both fail.",
+  "facts": "Chandra Bhan Singh, a private tubewell consumer under the Executive Engineer, Electricity Division, Banda, first sought refund of Rs.49,328 deposited on 18.10.2001 for a connection on plot no. 1856, alleging the estimate used a pole distance of 776 metres against a surveyed 610 metres (Writ-C No. 12933 of 2003).\n\nWhile that petition was pending he filed Writ-C No. 69948 of 2005 to quash Clauses 3.7 and 3.8 of the U.P. Electricity Supply Code, 2005 and Rate Schedule LMV-5 dated 22.11.2004/20.12.2004, which he said raised the private-tubewell rate from Rs.60 to Rs.130 per BHP per month from 1.1.2005. He alleged urban rates without meter reading, that the licensee had fixed the higher Bundelkhand tariff itself, and sought billing at the 2.12.2002 schedule with readjustment under Section 62(4) of the Electricity Act, 2003. The licensee pleaded that although supply was on a rural feeder, Bundelkhand was exempted from schedule rostering, so LMV-5 clause 4(b) applied.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::3.8",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "3.7 and 3.8",
+      "topic": "Classification and differential charges with Commission approval are not discriminatory and not inconsistent with ss.62 and 64",
+      "type": "interplay",
+      "question": "Are Clauses 3.7 and 3.8 of the Supply Code, 2005 discriminatory, or inconsistent with Sections 62 and 64 of the Electricity Act, 2003, so as to be quashed?",
+      "holding": "No. Clause 3.7 permits the licensee to classify or reclassify consumers and to fix different tariffs for different categories with the Commission's approval. Clause 3.8(a) provides that tariff and other charges are announced by the licensee with that approval, in accordance with Section 24 of the U.P. Electricity Reforms Act, 1999 to the extent consistent with the 2003 Act, and take effect only seven days after publication in at least two daily newspapers having wide circulation in the area of supply. LMV-5 rates are charges for consumers classified under Clause 3.7. The classification and different charges cannot be said to be discriminatory or unreasonable. Consumers are reasonably classified and the tariff is fixed by the Appropriate Commission under Sections 62 and 64; the prayer to quash Regulations 3.7 and 3.8 is devoid of merit.",
+      "paras": "9,11-14",
+      "flag": "PDF page 1 is a 5.4.2013 listing (judgment reserved); operative disposal is 30.5.2013. The Court paraphrases 3.7 as approval of the 'Commissioner'. The closing paragraph refers to the 'U.P. Electricity Act, 2003'. Clause 3.7 is not a catalog key; it is keyed with 3.8 as jointly challenged. Dates of the impugned schedule appear as 20.12.2004, 22.11.2004, 1.12.2004 and 1.1.2005 as the judgment states them."
+    },
+    {
+      "provision": "EA2003::64",
+      "code": "Electricity Act, 2003",
+      "clause": "64 (with s.62)",
+      "topic": "Commission determines tariff; LMV-5 of 22.11.2004 was not a licensee-made rate",
+      "type": "electricity_act",
+      "question": "Was the LMV-5 notification of 22.11.2004 a charge fixed by the licensee on its own, and therefore inconsistent with Sections 62 and 64?",
+      "holding": "No. Under Section 64, on a licensee's application and after considering public objections and suggestions, the Appropriate Commission issues a tariff order. Section 62(3) permits differentiation by load factor, power factor, voltage, consumption, time of supply, geographical position, nature and purpose of supply. The 22.11.2004 Rate Schedule LMV-5, notified for 2004-05 and effective from 1.12.2004 for four distribution companies, was fixed by the U.P. Electricity Regulatory Commission. Newspaper publication (Annexure 8) was on the record and unchallenged. There is no inconsistency with Sections 62 and 64. The contention that urban rates were being charged is incorrect: the area being exempted from schedule rostering, LMV-5 clause 4(b) applies.",
+      "paras": "5-7,10-14",
+      "flag": "EA2003::62 is not a catalog key; it is folded here because the Court quoted ss.62 and 64 together. Petitioner sought readjustment under s.62(4); the Court quoted 62(4) and 62(6) but did not apply either. Catalog hit OFFTOPIC::s62-6-interest-generation-tariff is not used."
+    },
+    {
+      "provision": "EA1999(UP)::24",
+      "code": "U.P. Electricity Reforms Act, 1999",
+      "clause": "24",
+      "topic": "Licensee publishes Commission-determined tariff; it takes effect seven days after newspaper publication",
+      "type": "interplay",
+      "question": "Did Section 24 of the Reforms Act, 1999 govern the 2004 LMV-5 notification, and was that procedure followed?",
+      "holding": "Yes. Section 24 requires the licensee to follow the prescribed procedure in calculating expected revenue and determining tariffs; the Commission considers objections and may require modification. Sub-section (7) requires each supply licensee to publish the tariff in at least two daily newspapers widely circulating in the area of supply; the tariff comes into force after seven days from the last date of such publication. Clause 3.8(a) of the Code incorporates that publication rule to the extent consistent with the 2003 Act. The 22.11.2004 schedule was fixed by the Commission in accordance with Section 24(7) and published; the tariff as so notified is in accordance with the 2003 Act and the Code, 2005.",
+      "paras": "8-9,11,13-14",
+      "flag": "Catalog hit EA1999(UP)::24-tariff-fact-forum is a false positive; the Court did not relegate a factual tariff dispute to another forum."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "commission-alone-determines-tariff-overrides-contract",
+      "application": "The 22.11.2004 LMV-5 schedule was held to be a tariff fixed by UPERC under Section 24 of the Reforms Act, 1999 and Sections 62 and 64 of the 2003 Act. The consumer's case that the licensee had enhanced Bundelkhand private-tubewell rates on its own was rejected.",
+      "lead_authorities": [],
+      "paras": "11-14"
+    },
+    {
+      "tag": "licensee-cannot-alter-commission-determined-tariff",
+      "application": "Clauses 3.7 and 3.8 do not authorise the licensee to fix tariff without Commission approval. The published Commission schedule bound the consumer; the writ to restore the 2.12.2002 rates was dismissed.",
+      "lead_authorities": [],
+      "paras": "9,11-14"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the November 2004 tariff violated Section 62(4) (ordinarily not more than one amendment per financial year) or entitled the consumer to excess recovery under Section 62(6)",
+      "note": "The petitioner prayed for readjustment under Section 62(4). The Court quoted Sections 62 and 64 in full but decided only consistency, Commission determination, and non-discrimination; it did not apply 62(4) or 62(6).",
+      "paras": "2,6,13-14"
+    },
+    {
+      "point": "Whether the 2001 tubewell estimate overstated pole distance (610 m vs 776 m) so that Rs.49,328 was excess",
+      "note": "Writ-C No. 12933 of 2003 was not pressed in argument. The Court also recorded that nothing on record substantiated excess charges at the time of connection, and dismissed that petition as well.",
+      "paras": "15-16"
+    }
+  ],
+  "authorities": []
+}
