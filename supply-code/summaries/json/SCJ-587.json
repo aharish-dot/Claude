@@ -1,0 +1,55 @@
+{
+  "case_id": "SCJ-587",
+  "title": "Bipin Kumar Tripathi v. Purvanchal Vidyut Vitran Nigam Limited & Another",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Ajit Kumar, J. & Indrajeet Shukla, J.",
+  "date_of_judgment": "2026-05-14",
+  "date_display": "14 May 2026",
+  "docket": "Writ - C No. 19953 of 2024",
+  "page_count": 13,
+  "significance": "ordinary",
+  "outcome": "split",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of; deposit Rs. 50,000 of Rs. 1,19,850 by 30.05.2026; no-dues certificate after deposit; special case, not a precedent",
+  "headnote": "Where a consumer challenges a bill-cum-notice and a representation-rejection order on the footing that the licensee was bound under Clauses 4.36 and 4.38 of the U.P. Electricity Supply Code, 2005 to disconnect after unpaid bills from 2016, and that s.56 of the Electricity Act, 2003 barred recovery of sums more than two years old, the writ court does not decide those grounds. On the consumer offering to pay under a one-time settlement and the licensee stating that 50% of the dues could be waived, the Court, taking a sympathetic view as a special case because the consumer's father had died in 2018 and the premises were unoccupied, directed deposit of Rs. 50,000 out of outstanding bills of Rs. 1,19,850 on or before 30 May 2026. After that deposit the licensee is to settle the excess, pass an order within two weeks, and issue a no-dues certificate. The direction is a special case and is not a binding precedent.",
+  "facts": "Bipin Kumar Tripathi petitioned the Allahabad High Court against Purvanchal Vidyut Vitran Nigam Limited challenging an order dated 2 April 2024 and a bill-cum-notice dated 18 March 2023 for alleged electricity dues on a connection standing in his late father's name. He said his father had applied in 2016 to cancel the connection after clearing dues, that the father died in 2018, that nobody thereafter resided in the house, and that the department had failed under the U.P. Electricity Supply Code, 2005 to disconnect the supply or remove the meter. An earlier writ (Writ-C No. 2771 of 2024) had been disposed of on 12 February 2024 directing a representation; he made one on 28 February 2024, which was rejected.\n\nThe licensee denied any disconnection application, said a raid found the connection and meter intact, and billed from October 2016 to 7 April 2024. Outstanding bills stood at Rs. 1,19,850. At the hearing the petitioner, a senior advocate, offered to pay some amount if given a one-time settlement; the department said 50% of the amount could be waived.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.38",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.38 (permanent disconnection) — invoked; not construed",
+      "topic": "Special sympathetic reduction of arrears with no-dues certificate; not a construction of Clauses 4.36/4.38 or s.56",
+      "type": "supply_code",
+      "question": "Where the consumer alleges a 2016 cancellation request and licensee failure to disconnect under Clauses 4.36 and 4.38, and invokes s.56, will the writ court quash later bills, or may it dispose of the dues challenge by a reduced lump-sum deposit as a special case?",
+      "holding": "The Court did not decide the disconnection-duty or s.56 grounds. On the petitioner offering to pay some amount under a one-time settlement and the licensee stating that 50% could be waived, it directed deposit of Rs. 50,000 of outstanding bills of Rs. 1,19,850 on or before 30.05.2026. After deposit the concerned officer is to pass an order within two weeks, settle the excess after accepting Rs. 50,000 as a genuine amount, and issue a no-dues certificate. The Court took a sympathetic view because the father had died in 2018 and the premises were not in occupation; if anyone used electricity without authorisation, the petitioner should not in this case be saddled with the entire dues.",
+      "qualifier": "Special case; shall not be a binding precedent.",
+      "paras": "6-8",
+      "flag": "Petitioner cited Clauses 4.36 and 4.38 (order dated 6.6.2024) and s.56 of the Electricity Act, 2003. Clause 4.36 is not a catalog key (catalog has 4.37 and 4.38). The operative order of 14.05.2026 cites no clause number."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the father applied in 2016 for cancellation / permanent disconnection and whether Clauses 4.36 and 4.38 obliged the licensee to disconnect and remove the meter",
+      "note": "Parties joined issue on whether any such application existed; the Court moulded a special settlement instead of deciding the Code duty.",
+      "paras": "3-5, 7"
+    },
+    {
+      "point": "Whether s.56 of the Electricity Act, 2003 barred recovery of bills more than two years old",
+      "note": "Raised in the order dated 6.6.2024; not decided in the final order of 14.05.2026."
+    },
+    {
+      "point": "Whether electricity was consumed after 2016 and whether a raid finding an intact connection and meter established liability from October 2016 to 7 April 2024",
+      "note": "Licensee's case on the raid and continued consumption was recorded; not adjudicated.",
+      "paras": "5, 7"
+    },
+    {
+      "point": "Validity on the merits of the representation-rejection order dated 2 April 2024 and of the bill-cum-notice dated 18 March 2023",
+      "note": "Neither was quashed; the petition was disposed of by the special deposit-and-NDC direction.",
+      "paras": "2, 7-8"
+    }
+  ],
+  "authorities": []
+}
