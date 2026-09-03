@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 629,
+  "next_seq": 630,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -3760,6 +3760,12 @@
       "case_id": "SCJ-625",
       "source_basename": "WRIC(A)_43936_2002.pdf",
       "title": "Hind Industries Ltd. v. U.P. Electricity Power Corpn. Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-627",
+      "source_basename": "WRIC(A)_13149_2003.pdf",
+      "title": "M/S Awadh Steels & Alloys (P) Ltd. v. U.P. Power Corporation",
       "status": "done"
     }
   ]
