@@ -1,0 +1,63 @@
+{
+  "case_id": "SCJ-636",
+  "title": "Maula Bux v. State of U.P. & Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sudhir Agarwal, J. & Dr. Kaushal Jayendra Thaker, J.",
+  "date_of_judgment": "2016-11-29",
+  "date_display": "29 November 2016",
+  "docket": "Writ - C No. 16659 of 2004",
+  "page_count": 8,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition dismissed on the ground of alternative remedy",
+  "headnote": "A consumer who disputes billed arrears, including a demand notice under Section 3 of the U.P. Government Electrical Undertakings (Dues Recovery) Act, 1958, must first use Clause 6.5 of the U.P. Electricity Supply Code, 2005 before the supplier's competent authority. If that authority fails to rectify the bill or the consumer remains aggrieved, a further statutory complaint lies to the consumer grievance forum and then to the Ombudsman. Those forums can try the factual dispute. Article 226 will not be used to examine the correctness of the bill when those remedies have not been availed. The writ was dismissed on alternative remedy.",
+  "facts": "Maula Bux petitioned the Allahabad High Court against the State of U.P. and others, including U.P. Power Corporation, to quash a demand notice dated 28 September 2003 issued under Section 3 of the U.P. Government Electrical Undertakings (Dues Recovery) Act, 1958, for Rs.18,12,690 plus notice charges. He had held an electricity connection disconnected on 15 December 1995; the bill he received was for a later period and, he said, contained a huge and patently erroneous amount. The 2004 writ was dismissed as infructuous on 21 September 2010 when none appeared, restored on 20 March 2012, and after several illness adjournments was heard on 29 November 2016.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.5",
+      "topic": "Bill and arrears dispute must go first to the supplier under Clause 6.5",
+      "type": "supply_code",
+      "question": "May a writ court decide the correctness of an electricity bill and a Section 3 recovery demand when Clause 6.5 has not been used?",
+      "holding": "No. Where the dispute is about bills and the arrears shown in them, Clause 6.5 gives the consumer a remedy before the supplier's competent authority. That remedy had not been availed. The Court declined extra-ordinary jurisdiction under Article 226 and dismissed the writ on alternative remedy, without deciding whether the post-disconnection bill was erroneous.",
+      "paras": "3, 5",
+      "flag": "The operative order numbers paragraphs 1, 2, 3 then 5 (no paragraph 4). The Court applied Clause 6.5 of the 2005 Code to a 28.9.2003 demand without discussing the Code's temporal application."
+    },
+    {
+      "provision": "EA2003::42",
+      "code": "Electricity Act, 2003",
+      "clause": "42 (CGRF and Ombudsman)",
+      "topic": "After Clause 6.5, the factual bill dispute goes to the CGRF and then the Ombudsman",
+      "type": "interplay",
+      "holding": "If the supplier's competent authority fails to rectify the bill or the consumer remains aggrieved, a further statutory complaint lies to the consumer grievance forum and then to the Ombudsman. Those authorities can look into the factual dispute, so the writ court will not short-circuit them.",
+      "paras": "3, 5",
+      "flag": "The Court did not cite section 42. It styled the forum as the 'Electricity District Redressal Grievance Authority'; that is the CGRF under s.42(5), with the Ombudsman under s.42(6)."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "billing-objection-to-executive-engineer-under-6.5",
+      "application": "A dispute over billed arrears sought by a Section 3 recovery notice is for the supplier's competent authority under Clause 6.5, not a first-instance writ.",
+      "lead_authorities": [],
+      "paras": "3"
+    },
+    {
+      "tag": "alternative-remedy-relegation",
+      "application": "Where Clause 6.5, the consumer grievance forum and the Ombudsman can try the factual bill dispute and have not been used, Article 226 is declined and the writ is dismissed.",
+      "lead_authorities": [],
+      "paras": "3, 5"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness of the Rs.18,12,690 demand and whether charges for the period after the 15.12.1995 disconnection were due",
+      "note": "The Court said 'be that as it may' and left the factual bill dispute to Clause 6.5 and the statutory grievance forums.",
+      "paras": "2-3"
+    }
+  ],
+  "authorities": []
+}
