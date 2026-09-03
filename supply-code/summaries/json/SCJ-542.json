@@ -1,0 +1,77 @@
+{
+  "case_id": "SCJ-542",
+  "title": "Abhishek Chand Kaushik v. State of U.P.",
+  "neutral_citation": "2024:AHC:113876",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Rajeev Misra, J.",
+  "date_of_judgment": "2024-07-16",
+  "date_display": "16 July 2024",
+  "docket": "Criminal Misc. Bail Application No. 22586 of 2024",
+  "page_count": 6,
+  "significance": "ordinary",
+  "outcome": "none",
+  "disposition": "Bail allowed; applicant released on personal bond and two sureties with conditions",
+  "headnote": "A PVVNL Class III Executive Assistant, prosecuted under sections 7, 13(1)(B) and 13(2) of the Prevention of Corruption Act, 1988 for an alleged Rs. 5,000 demand to correct a consumer's electricity bill, was enlarged on bail without comments on the merits. Chapter 6 of the U.P. Electricity Supply Code, 2005 provides a detailed mechanism for correction of bills; the AGA could not show the applicant was authorised to correct the bill. The complainant's load had been enhanced from 5 kW to 13 kW, beyond the applicant's competence (upto 9 kW), so no demand of alleged bribery could have been raised. Applying Neeraj Datta, mere recovery did not prima facie attract the PC Act offences. The charge-sheet had been filed; the applicant had clean antecedents and had been in jail since 30.04.2024; no circumstance necessitating custodial arrest during trial was shown.",
+  "facts": "Abhishek Chand Kaushik, a Class III Executive Assistant in Paschimanchal Vidyut Vitaran Nigam, sought bail in Case Crime No. 05 of 2024 under sections 7, 13(1)(B) and 13(2) of the Prevention of Corruption Act, 1988, Police Station Anti Corruption, Meerut. A delayed FIR dated 1 May 2024, lodged by Inspector Durgesh Kumar (Trap Team In-charge) for an alleged 20 April 2024 incident, named him and Avinash Kumar Gautam. Complainant Neeraj Singh of Noida had a residential electricity connection with some billing irregularity. The prosecution case was that the applicant demanded Rs. 5,000 to get that bill corrected; a trap on 30 April 2024 recovered Rs. 5,000 in Rs. 500 notes from him, and the chemical test was against him.\n\nHe had been in jail since 30 April 2024. He said the complainant's load had been enhanced from 5 kW to 13 kW, whereas he could deal only with loads up to 9 kW, so there was no legal basis for the alleged demand. The police report under section 173(2) Cr.P.C. was recorded as already submitted.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "Chapter 6 (bill correction)",
+      "topic": "Chapter 6 bill-correction is a Code mechanism; a junior employee not shown authorised to correct bills — PC Act bail",
+      "type": "interplay",
+      "question": "Where a PVVNL Class III Executive Assistant is trapped for an alleged demand to correct a consumer's bill, and Chapter 6 of the Supply Code provides a detailed bill-correction mechanism, does want of shown authority to correct the bill support bail in the PC Act case?",
+      "holding": "Yes, at the bail stage and without comments on the merits. Chapter 6 of the U.P. Electricity Supply Code, 2005 is a detailed mechanism for correction of bills; the AGA could not show the applicant was authorised to correct the bill. Combined with a load enhancement from 5 kW to 13 kW (beyond the applicant's competence upto 9 kW), the Court held that no demand of alleged bribery could have been raised, that Neeraj Datta was squarely attracted, and that prima facie no offence under sections 7, 13(1)(B) and 13(2) of the Prevention of Corruption Act, 1988 was made out. Charge-sheet already filed; clean antecedents; incarceration since 30.04.2024; no circumstance shown necessitating custodial arrest. Bail allowed on conditions.",
+      "paras": "9-11",
+      "flag": "The Court cited 'Chapter 6' without a clause number; keyed to clause 6.5 as the Code's bill-correction complaint procedure. Source PDF also contains a 10.06.2024 listing order of Samit Gopal J. (AGA given two weeks for instructions; listed 16.07.2024); the operative bail grant is 16.07.2024 (2024:AHC:113876). The charge-sheet is recorded as submitted on 26.04.2024 though the trap is 30.04.2024 and the FIR 01.05.2024 — recorded as the order states it. Counsel's citation 'Neeraj Datta' 2022 Online SC 1724 is the Constitution Bench in Neeraj Dutta. Bail is not an adjudication of the bill or of guilt."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "billing-objection-to-executive-engineer-under-6.5",
+      "application": "The Court treated Chapter 6 as a detailed statutory mechanism for correction of bills and held that the AGA could not show a Class III PVVNL Executive Assistant was authorised to correct the complainant's bill. That want of authority, with load beyond his 9 kW competence, went only to whether a PC Act demand could be raised at the bail stage; the bill itself was not decided.",
+      "lead_authorities": [
+        {"name": "Neeraj Datta v. State (NCT of Delhi)", "docid": ""}
+      ],
+      "paras": "9"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Guilt under sections 7, 13(1)(B) and 13(2) of the Prevention of Corruption Act, 1988",
+      "note": "Expressly no comments on the merits; left to trial. Bail is not an adjudication of the offence.",
+      "paras": "9-10"
+    },
+    {
+      "point": "Whether the complainant's electricity bill required correction, and the merits of the alleged billing irregularity",
+      "note": "Chapter 6 is invoked only as the authorised bill-correction mechanism; the bill is not examined.",
+      "paras": "5, 9"
+    },
+    {
+      "point": "Whether the applicant was in fact authorised to deal with a connection whose load had been enhanced to 13 kW",
+      "note": "Taken from the applicant's supplementary affidavit (page 20, dated 16.07.2024) and not contradicted by the AGA at this stage; not tried.",
+      "paras": "6, 9"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Neeraj Datta v. State (NCT of Delhi)",
+      "citation": "2022 Online SC 1724",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Counsel relied on the Constitution Bench for the proposition that mere recovery of money does not automatically attract the Prevention of Corruption Act; the Court held that ratio squarely attracted in the applicant's favour at the bail stage.",
+      "cited_by": "Court",
+      "treatment": "Applied"
+    },
+    {
+      "name": "Sumit Subhashchandra Gangwal v. State of Maharashtra",
+      "citation": "2023 LiveLaw (SC) 373",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Cited at paragraph 5 in the same sentence as Chapter 6 of the Supply Code; this Court did not extract a separate holding.",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    }
+  ]
+}
