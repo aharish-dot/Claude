@@ -1,0 +1,70 @@
+{
+  "case_id": "SCJ-630",
+  "title": "M/S I.G. Shoes Pvt. Ltd. v. U.P. Electricity Corporation Ltd. & Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sudhir Agarwal, J. and Dr. Kaushal Jayendra Thaker, J.",
+  "date_of_judgment": "2016-11-29",
+  "date_display": "29 November 2016",
+  "docket": "Writ - C No. 19857 of 2003",
+  "page_count": 11,
+  "significance": "ordinary",
+  "outcome": "split",
+  "model": "Grok 4.6",
+  "disposition": "Writ partly allowed; theft assessment and appellate order set aside and remitted",
+  "headnote": "A 2002-Code theft assessment and the Appellate Committee's confirmation cannot stand where it is not disputed that the Executive Engineer (Assessing Authority) neither served a proper notice nor passed a speaking order, and that the Appellate Committee merely reiterated the Uttar Pradesh Electricity Supply Code, 2002 without discussing the consumer's grounds. Following Ashok Kumar v. State of U.P., 2008(6) ADJ 660, the consumer must be given proper notice, the Assessing Authority must pass a speaking and reasoned order, and the Appellate Committee must likewise pass a reasoned order. The writ is partly allowed; the impugned orders are set aside; the matter is remitted to the Assessing Authority to proceed afresh after a proper show-cause notice and opportunity of hearing. Whether theft was committed, and the quantum of Rs.18,61,585, were not decided.",
+  "facts": "M/s I.G. Shoes Pvt. Ltd. petitioned the Allahabad High Court in 2003 against U.P. Electricity Corporation Ltd., challenging a bill dated 24.10.2002 and an order dated 24.3.2003. At the final hearing, counsel confined the challenge to an assessment of Rs.18,61,585 demanded as theft of electricity after a raid on 28.8.2002.\n\nThe consumer's case was that no notice had been given before the assessment, the Executive Engineer had passed no speaking order, and the Appellate Committee had merely said the assessment was correct without considering the grounds of appeal. Counsel for the Corporation did not dispute that both the assessment and the appellate order were virtually non-speaking. The writ had been listed, adjourned, and amended on several dates in 2012–2014 before a Division Bench decided it on 29 November 2016.",
+  "holding_units": [
+    {
+      "provision": "UP-2002::(unspecified)",
+      "code": "U.P. Electricity Supply Code, 2002",
+      "clause": "(unspecified)",
+      "topic": "Theft assessment — notice, speaking order by the Executive Engineer, and a reasoned Appellate Committee order",
+      "type": "supply_code",
+      "question": "Can a theft assessment and the Appellate Committee's confirmation stand where the Executive Engineer neither served a proper notice nor passed a speaking order, and the Appellate Committee merely reiterated the 2002 Code without discussing the consumer's grounds?",
+      "holding": "No. Ashok Kumar holds that proper notice must be given to the consumer, that the Assessing Authority (Executive Engineer) must then pass a speaking and reasoned order, and that if the consumer appeals, the Appellate Committee must also pass a reasoned order. Here the Executive Engineer neither served a proper notice nor made a speaking assessment, and the Appellate Committee simply reiterated provisions of the Uttar Pradesh Electricity Supply Code, 2002 without discussing the grounds taken by the appellant. Neither order is sustainable. The writ is partly allowed; the impugned orders are set aside; the matter is remitted to the Assessing Authority to proceed afresh after a proper show-cause notice and opportunity of hearing.",
+      "qualifier": "Counsel confined the challenge to the Rs.18,61,585 theft assessment; the remainder of the 24.10.2002 bill and 24.3.2003 order was not pressed.",
+      "paras": "5-7",
+      "flag": "Source PDF also contains listing, pass-over, impleadment and amendment orders from 6.1.2012 to 17.11.2014; the operative judgment is 29.11.2016 (paras 1-7). No numbered 2002 Code clause is cited. The raid (28.8.2002), bill (24.10.2002) and assessment (24.3.2003) predate the 2005 Code; the Appellate Committee referred to the 2002 Code. Ashok Kumar is applied for notice and speaking/reasoned orders. Not keyed to UP-2002::8.1 (used elsewhere for 2002-Code interest) or to 2005 Clauses 6.8/8.1."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "opportunity-before-final-assessment",
+      "application": "Ashok Kumar's requirement of notice and a speaking assessment, and a reasoned appellate order, applied to a 2002-Code theft assessment. Absence of notice, a non-speaking Executive Engineer order, and an Appellate Committee order that only reiterated the 2002 Code without discussing the grounds, vitiated both; remitted for fresh assessment after show-cause and hearing. Same cluster as SCJ-014, SCJ-048, SCJ-280.",
+      "lead_authorities": [
+        {
+          "name": "Ashok Kumar v. State of U.P.",
+          "docid": ""
+        }
+      ],
+      "paras": "5-7"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether theft was committed and the correctness/quantum of the Rs.18,61,585 assessment",
+      "note": "Left to a fresh assessment after show-cause notice and hearing.",
+      "paras": "7"
+    },
+    {
+      "point": "Remainder of the 24.10.2002 bill and 24.3.2003 order beyond the theft assessment",
+      "note": "Not pressed; counsel confined the argument to the Rs.18,61,585 theft demand.",
+      "paras": "2"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008(6) ADJ 660",
+      "court": "Allahabad High Court (DB)",
+      "docid": "",
+      "proposition": "Proper notice must be given to the consumer; the Assessing Authority (Executive Engineer) must then pass a speaking and reasoned order; if the consumer appeals, the Appellate Committee must also pass a reasoned order.",
+      "how_treated": "Followed. The Court held that the Executive Engineer had neither served a proper notice nor made a speaking assessment as required by Ashok Kumar, and that the Appellate Committee's order was likewise non-speaking; both orders were set aside.",
+      "how_treated_paras": "5-7",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}
