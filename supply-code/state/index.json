@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 552,
+  "next_seq": 553,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -3304,6 +3304,12 @@
       "case_id": "SCJ-549",
       "source_basename": "WRIA(A)_6909_2023.pdf",
       "title": "Tarun Kumar Pathak v. State of U.P. and others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-551",
+      "source_basename": "WRIC(A)_10727_2024.pdf",
+      "title": "M/s Hotel Pride Inn v. Purvanchal Vidhut Vitrana Nigam Ltd. and Another",
       "status": "done"
     }
   ]
