@@ -1,0 +1,47 @@
+{
+  "case_id": "SCJ-628",
+  "title": "M/s R.A. Castings (Pvt.) Ltd. v. U.P. Power Corporation Ltd.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sunil Ambwani, J.; Aditya Nath Mittal, J.",
+  "date_of_judgment": "2012-05-30",
+  "date_display": "30 May 2012",
+  "docket": "WRIT - C No. - 13163 of 2003",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "none",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed as infructuous after the 2002 Distribution Code was repealed.",
+  "headnote": "A challenge to Clause 4.55 of the U.P. Electricity Distribution Code, 2002 — which confined the bank-guarantee option for security to consumers with contracted load above 10 MW — became infructuous once that Code was repealed. Section 47 of the Electricity Act, 2003 leaves reasonable security to the regulations. Clause 4.20 of the 2005 Supply Code makes security common for all heavy consumers, without a load-based distinction.",
+  "facts": "The petitioners challenged Clause 4.55 of the U.P. Electricity Distribution Code, 2002 insofar as it allowed only consumers with contracted load exceeding 10 MW to furnish security by bank guarantee, denying that option to other large and heavy industrial consumers below 10 MW. An interim order dated 27 March 2003 permitted them to submit a bank guarantee for the demanded security. By hearing, the 2002 Code had been repealed and replaced by the U.P. Electricity Supply Code, 2005.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.20",
+      "code": "UP-2005",
+      "clause": "4.20",
+      "topic": "security deposit — no load-based distinction",
+      "type": "supply_code",
+      "holding": "Clause 4.20 of the Electricity Supply Code, 2005 does not distinguish between consumers of different load capacities; security is now common for all categories of heavy consumers. The challenge to Clause 4.55 of the repealed 2002 Distribution Code therefore became infructuous, and the writ was dismissed as such.",
+      "paras": "5-7"
+    },
+    {
+      "provision": "EA2003::47",
+      "code": "EA2003",
+      "clause": "47",
+      "topic": "reasonable security determined by regulation",
+      "type": "electricity_act",
+      "holding": "Section 47 of the Electricity Act, 2003 provides for reasonable security to be determined by the regulation.",
+      "paras": "4"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether Clause 4.55 of the 2002 Distribution Code unlawfully discriminated against consumers with contracted load below 10 MW by denying a bank-guarantee option for security",
+      "note": "Not decided on merits; petition dismissed as infructuous after repeal of the 2002 Code.",
+      "paras": "6-7"
+    }
+  ],
+  "authorities": []
+}
