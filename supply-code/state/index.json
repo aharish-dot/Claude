@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 614,
+  "next_seq": 615,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -3670,6 +3670,12 @@
       "case_id": "SCJ-609",
       "source_basename": "WRIC(A)_26503_2023.pdf",
       "title": "Manoj Kumar v. State of U.P. — permanent disconnection bars reconnection",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-612",
+      "source_basename": "WRIC(A)_26761_2024.pdf",
+      "title": "Barsatu Yadav v. State of U.P.",
       "status": "done"
     }
   ]
