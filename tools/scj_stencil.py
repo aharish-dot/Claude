@@ -1121,8 +1121,12 @@ def write_record(cid: str | None, out: str | None, force: bool,
             ticket = json.load(f)
     from_ticket = not cid
     if not cid:
-        if not ticket or ticket.get("status") != "READY":
+        if not ticket or not ticket.get("case_id"):
             print("FAILED · no ticket and no case_id", file=sys.stderr)
+            return 1
+        if ticket.get("status") not in ("READY", "AUTHORING", "CLAIMING"):
+            print(f"FAILED · ticket.status={ticket.get('status')!r}",
+                  file=sys.stderr)
             return 1
         cid = ticket["case_id"]
     if from_ticket and ticket.get("authoring") != "stencil":

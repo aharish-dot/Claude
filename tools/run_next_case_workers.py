@@ -146,7 +146,7 @@ def author_one(ticket: dict, grok: str, py: str, case_log: str,
 
     if authoring == "stencil":
         code = run_logged(
-            [py, STENCIL, "--write", "--ticket", tpath, "--force"],
+            [py, STENCIL, "--write", cid, "--ticket", tpath, "--force"],
             case_log,
         )
         if code == 0 and json_exists(cid):
