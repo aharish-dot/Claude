@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 631,
+  "next_seq": 632,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -3772,6 +3772,12 @@
       "case_id": "SCJ-628",
       "source_basename": "WRIC(A)_13163_2003.pdf",
       "title": "M/s R.A. Castings (Pvt.) Ltd. v. U.P. Power Corporation Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-629",
+      "source_basename": "WRIC(A)_13168_2003.pdf",
+      "title": "M/S Barnala Steel Industries Ltd. v. U.P. Power Corporation Ltd.",
       "status": "done"
     }
   ]

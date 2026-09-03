@@ -1,0 +1,38 @@
+{
+  "case_id": "SCJ-629",
+  "title": "M/S Barnala Steel Industries Ltd. v. U.P. Power Corporation Ltd.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sunil Ambwani, J.; Aditya Nath Mittal, J.",
+  "date_of_judgment": "2012-05-30",
+  "date_display": "30 May 2012",
+  "docket": "WRIT - C No. 13168 of 2003",
+  "page_count": 2,
+  "significance": "procedural",
+  "outcome": "none",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed as infructuous after 2002 Code repeal.",
+  "headnote": "A challenge to Clause 4.55 of the U.P. Electricity Distribution Code, 2002 — which allowed bank-guarantee security only to consumers with contracted load exceeding 10 MW — became infructuous once that Code was repealed. Clause 4.20 of the Electricity Supply Code, 2005 makes security common for all heavy consumers without a load-capacity distinction. The writ was dismissed as infructuous.",
+  "facts": "M/s Barnala Steel Industries Ltd. and another petitioned the High Court in 2003 against U.P. Power Corporation Ltd., challenging Clause 4.55 of the Electricity Distribution Code, 2002. They alleged discrimination among large and heavy industrial consumers, because only those with contracted load exceeding 10 MW could furnish security by bank guarantee. An interim order dated 27 March 2003 allowed the petitioners to give a bank guarantee for the demanded security. The 2002 Code was later repealed and replaced by the U.P. Electricity Supply Code, 2005.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.20",
+      "code": "UP-2005",
+      "clause": "4.20",
+      "topic": "security deposit — no load-based distinction",
+      "type": "supply_code",
+      "holding": "Section 47 of the Electricity Act, 2003 provides for reasonable security to be determined by the Regulation. After repeal of the U.P. Electricity Distribution Code, 2002, Clause 4.20 of the Electricity Supply Code, 2005 does not distinguish consumers by load capacity and security is now common for all categories of heavy consumers. Counsel conceded that the challenge to Clause 4.55 of the 2002 Code had become infructuous; the writ was dismissed accordingly.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether Clause 4.55 of the 2002 Distribution Code unlawfully discriminated against consumers with contracted load below 10 MW by denying bank-guarantee security",
+      "note": "Not decided on merits; petition dismissed as infructuous after repeal of the 2002 Code.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
