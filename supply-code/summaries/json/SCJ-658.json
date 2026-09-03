@@ -1,0 +1,81 @@
+{
+  "case_id": "SCJ-658",
+  "title": "Akhalak Ahmad v. Dakshinanchal Vidyut Vitaran Nigam Ltd. Thru' G.M. & Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Pankaj Bhatia, J.",
+  "date_of_judgment": "2020-01-22",
+  "date_display": "22 January 2020",
+  "docket": "Writ - C No. 3425 of 2006",
+  "page_count": 4,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of; appellate order quashed; survey to be supplied; objections and police final report to be considered in the spirit of Clause 8.2(X)(h); provisional assessment to abide that decision",
+  "headnote": "Where a consumer challenges a theft-related provisional assessment (31.12.2003) and an appellate order that dismissed his appeal solely on an unserved 16.12.2003 checking/survey report, and the U.P. Electricity Supply Code, 2005 was not yet in force at the date of checking, the writ court decides the matter on the narrow question of natural justice. Because the 2005 Code was not in vogue and it makes a specific provision for supply of the survey, the licensee is directed to furnish a copy of the survey report; the consumer has three weeks thereafter to object to the provisional assessment and may place the police final report filed in the theft FIR; the assessing officer must then pass an order in the spirit of Clause 8.2(X)(h) after considering those objections. The appellate order (15.2.2005, served by letter dated 22.6.2005) is quashed; the provisional assessment remains subject to that fresh decision. The Court did not decide whether a section 127 appeal against a provisional assessment was maintainable, whether theft was established, or whether a police final report mandatorily requires withdrawal of the assessment.",
+  "facts": "Akhalak Ahmad petitioned the Allahabad High Court against Dakshinanchal Vidyut Vitran Nigam Ltd. He challenged a provisional assessment notice dated 31.12.2003 and an Appellate Committee decision (described as dated 22.6.2005, and later as an order dated 15.2.2005 served by letter dated 22.6.2005). The demand followed a checking of his premises on 16.12.2003. He said a copy of the checking or survey report was never served; he nonetheless appealed, and the Committee dismissed the appeal solely on that report. He argued that section 126 of the Electricity Act, 2003 required service of the provisional assessment and an opportunity of reply before a final assessment, that a section 127 appeal lay only against a final assessment (his appeal having been filed on wrong legal advice), and that between the Act coming into force on 10.6.2003 and the 2005 Supply Code there were no applicable theft-assessment rules. In the rejoinder he stated on oath that a police final report had been filed in the FIR alleging unauthorised theft of electricity, and he invoked Clause 8.2(X)(h) of the 2005 Code.",
+  "holding_units": [
+    {
+      "provision": "EA2003::126",
+      "code": "Electricity Act, 2003",
+      "clause": "126 — service of checking/survey report and opportunity to object to a provisional assessment",
+      "topic": "Non-supply of the 16.12.2003 survey vitiates proceeding on the provisional assessment; the report must be supplied and objections heard",
+      "type": "electricity_act",
+      "question": "Where the 2005 Code was not in force at the date of checking, does natural justice require supply of the survey report before the consumer is held to a provisional theft assessment?",
+      "holding": "Yes, on the narrow compass of natural justice. The checking was on 16.12.2003; the 2005 Code was not then in vogue. The petitioner's case was that the checking/survey report was never served, yet the Appellate Committee dismissed his appeal solely on that report. The Court directed the licensee to supply a copy of the survey report; the petitioner has three weeks thereafter to object to the provisional assessment. The appellate order (15.2.2005, served 22.6.2005) is quashed. The provisional assessment remains subject to the fresh decision.",
+      "qualifier": "The Court applied natural justice rather than a numbered sub-section of s.126. Petitioner had also argued s.126's two-stage process (provisional, reply, then final) and that a s.127 appeal against a provisional assessment was not maintainable.",
+      "paras": "7-9",
+      "flag": "Source PDF concatenates a 6.9.2014 listing order (Sunita Agarwal, J.) with this 22.1.2020 disposal. The challenge is first described as Appellate Committee dated 22.6.2005 and later as Appellate Order dated 15.2.2005 served through letter dated 22.6.2005; recorded as the judgment states it."
+    },
+    {
+      "provision": "UP-2005::8.2",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "8.2(X)(h) — withdrawal of theft charges/assessment if theft is not established",
+      "topic": "Assessing officer must pass a fresh order in the spirit of Clause 8.2(X)(h) after considering objections and the police final report",
+      "type": "supply_code",
+      "question": "Must the assessing officer consider a police final report in the theft FIR, in the spirit of Clause 8.2(X)(h), when deciding objections to a pre-Code 2005 provisional assessment?",
+      "holding": "Yes, as a direction, not a merits withdrawal. The petitioner is at liberty to file the police final report said to have been filed in the FIR alleging unauthorised theft. The Assessment Authority is directed to pass an order in view of the spirit of Clause 8.2(X)(h) after considering the petitioner's objections. The Court did not itself withdraw the assessment or restore the connection.",
+      "qualifier": "Clause 8.2(X)(h) speaks of a court finding that theft is not established. The material here is a police final report, not an acquittal. The Court required consideration 'in spirit of' the clause.",
+      "paras": "5-8",
+      "flag": "Cited as 'Rule 8.2 (X) (h)'; treated as Clause 8.2(X)(h). The 2005 Code was not in force on 16.12.2003; applied in spirit to the remanded decision."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "opportunity-before-final-assessment",
+      "application": "Where the 2005 Code was not yet in force at the date of checking, natural justice still required supply of the survey/checking report so the consumer could object to the provisional assessment. An appellate order that dismissed the appeal solely on the unserved report is quashed; the provisional assessment is left to a fresh decision after objections. Same cluster as SCJ-014, SCJ-022, SCJ-028, SCJ-117, SCJ-280.",
+      "lead_authorities": [],
+      "paras": "7-9"
+    },
+    {
+      "tag": "clause-8.2x-acquittal-requires-withdrawal-of-theft-assessment",
+      "application": "The assessing officer was directed to pass a fresh order in the spirit of Clause 8.2(X)(h) after considering objections and a police final report in the theft FIR. That is consideration in spirit, not a holding that a closure report mandatorily withdraws the assessment as a court acquittal would.",
+      "lead_authorities": [],
+      "paras": "6-8"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether a section 127 appeal against a provisional assessment was maintainable",
+      "note": "Petitioner said the appeal was filed on wrong advice and was not maintainable. The Court quashed the appellate order on natural-justice grounds without deciding maintainability.",
+      "paras": "4"
+    },
+    {
+      "point": "Whether theft was established and the quantum of the provisional assessment",
+      "note": "Left to the assessing officer after objections and consideration of the police final report.",
+      "paras": "8-9"
+    },
+    {
+      "point": "Whether a police final report (as distinct from a court acquittal) mandatorily requires withdrawal of the theft assessment under Clause 8.2(X)(h)",
+      "note": "The Court directed an order 'in view of spirit of' the clause; it did not itself withdraw the charges or restore the connection.",
+      "paras": "6-8"
+    },
+    {
+      "point": "Whether the absence of theft-assessment rules between 10.6.2003 and the 2005 Code (repeal saving only rules under sections 67 and 69) independently vitiated the assessment",
+      "note": "Raised by the petitioner; the Court used the gap only to apply natural justice and then the 2005 Code in spirit.",
+      "paras": "5,8"
+    }
+  ],
+  "authorities": []
+}
