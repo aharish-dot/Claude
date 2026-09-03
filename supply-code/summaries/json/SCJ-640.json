@@ -1,0 +1,108 @@
+{
+  "case_id": "SCJ-640",
+  "title": "M/S Venus Stone Crushing Co. Thru' Partner & Another v. The U.P. Power Corpn. Ltd. Thru' Chairman & Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Bala Krishna Narayana, J.",
+  "date_of_judgment": "2010-02-23",
+  "date_display": "23 February 2010",
+  "docket": "Writ - C No. 56260 of 2005",
+  "page_count": 13,
+  "significance": "ordinary",
+  "outcome": "split",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed in part; 7.7.2005 appellate order quashed and appeal restored (later to Divisional Commissioner, Jhansi); recovery stayed pending decision",
+  "headnote": "A 2002-Code theft assessment at thrice the units under paragraphs 6.17.1 and 6.17.2 is illegal: Section 126(6) of the Electricity Act, 2003 (as it then stood) requires one-and-a-half times the applicable tariff and prevails over paragraph 6.17.2, following Sri Bhagwan Gupta v. Kanpur Electricity Supply Company Ltd., 2005 (2) AWC 1269. Where the period of alleged theft is not ascertainable, paragraph 6.17.1 treats it as 180 days; an assessment for 450 days without material is not tenable. An appellate order that only recites facts and the assessing officer's findings, without discussing a single ground of appeal, is not an order in the eye of law. The writ is allowed in part: the 7.7.2005 appellate order is quashed and the appeal restored to be decided afresh in the light of those observations, with recovery stayed meanwhile. The Court did not decide the merits of the 24.12.2003 assessment. By modification dated 20.8.2010 the restored appeal is to be decided by the Divisional Commissioner, Jhansi, under a 14.7.2006 State notification (the modification recites 'Section 197').",
+  "facts": "M/s Venus Stone Crushing Company, Jhansi, held a 99 HP connection from U.P. Power Corporation. Meter No. UPP 04500 was recording incorrectly; on the consumer's request it was removed and replaced. Departmental laboratory testing at Jhansi and an MRI report concluded the meter had been tampered. An ex parte assessment dated 16 October 2003 produced a demand of Rs. 21,26,630, computed at thrice the units assessed for 450 days under paragraphs 6.17.1 and 6.17.2 of the U.P. Electricity Supply Code, 2002. Objections were decided by order dated 24 December 2003. Writ Petition No. 10148 of 2004 was dismissed on 3 May 2005 for an alternative appeal under paragraphs 17 and 19 of the 2002 Code. That appeal was dismissed on 7 July 2005. This writ challenged the 24 December 2003 and 7 July 2005 orders.",
+  "holding_units": [
+    {
+      "provision": "EA2003::126",
+      "code": "Electricity Act, 2003",
+      "clause": "126(6)",
+      "topic": "s.126(6) 1.5-times tariff prevails over 2002-Code para 6.17.2 (thrice the units)",
+      "type": "electricity_act",
+      "question": "May a theft assessment be made at thrice the units under paragraphs 6.17.1 and 6.17.2 of the 2002 Code when Section 126(6) requires one-and-a-half times the tariff?",
+      "holding": "No. Following Sri Bhagwan Gupta, assessment in a theft case is to be at one-and-a-half times the tariff applicable under Section 126(6), not under paragraph 6.17.2 of the 2002 Code; Section 126(6) prevails over 6.17.2. Assessment here under 6.17.1 and 6.17.2 was held absolutely illegal. Those observations bind the restored appeal; the 24.12.2003 assessment itself was not quashed.",
+      "qualifier": "Unamended (pre-15.6.2007) 1.5-times text of s.126(6). The Court recited Bhagwan Gupta as also displacing paragraph 6.16.2 of the 2002 Code.",
+      "paras": "unnumbered order",
+      "flag": "The judgment styles the statute 'U.P. Electricity Supply Act 2003'; recorded as stated. Catalog key EA2003::126; the clause applied is 126(6). Code vehicle is UP-2002::6.17 (6.17.2), not merged into the Act key. Catalog hits UP-2005::6.16 / 7.7 do not fit this 2002-Code assessment."
+    },
+    {
+      "provision": "UP-2002::6.17",
+      "code": "U.P. Electricity Supply Code, 2002",
+      "clause": "6.17.1",
+      "topic": "When the period of theft is not ascertainable, para 6.17.1 treats it as 180 days",
+      "type": "supply_code",
+      "question": "If the period of alleged theft is not ascertainable, may the licensee assess 450 days instead of the 180 days in paragraph 6.17.1?",
+      "holding": "No. The period was not ascertainable, so it should have been treated as 180 days under paragraph 6.17.1. Assessment for 450 days, illegally and without material on record, is not tenable. That observation is for the restored appeal.",
+      "paras": "unnumbered order"
+    },
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act, 2003",
+      "clause": "127",
+      "topic": "Non-speaking statutory appeal is not an order in the eye of law; restored for a reasoned decision",
+      "type": "electricity_act",
+      "question": "Can an appellate order stand if it only narrates facts and the assessing officer's findings and does not discuss any ground of appeal?",
+      "holding": "No. The appellate authority performs judicial functions; after noting the arguments it must give reasons for accepting or rejecting them. The 7.7.2005 order (Annexure 14) contained neither discussion nor analysis of the grounds in the memorandum of appeal (Annexure 12) and is not an order in the eye of law. It is quashed. The appeal is restored to be decided afresh in accordance with law and in the light of the Court's observations, within two months of production of a certified copy. Recovery of the disputed dues remains stayed until that decision. The Court did not decide the merits of the 24.12.2003 order. On 20.8.2010 the direction was modified, without objection, so that the Divisional Commissioner, Jhansi, decides the restored appeal under the State notification dated 14.7.2006; records are to be transmitted within three weeks and the appeal decided within four weeks thereafter.",
+      "paras": "unnumbered order",
+      "flag": "Source PDF concatenates listing/adjournment orders (18.8.2009–29.1.2010), the operative judgment of 23.2.2010, a modification of 20.8.2010, and a correction of 26.10.2010. The first writ (No. 10148 of 2004) was dismissed on 3.5.2005 for an appeal under paragraphs 17 and 19 of the 2002 Code. The 20.8.2010 modification recites a notification 'for the purpose of appeal under Section 197'; there is no s.197 in the 2003 Act — recorded as stated, not corrected. Keyed to catalog EA2003::127 as the statutory appeal later assigned to the Divisional Commissioner."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "uue-assessment-at-1.5x-tariff-not-thrice",
+      "application": "Sri Bhagwan Gupta applied: s.126(6) (unamended) fixes theft assessment at 1.5 times the tariff; computing thrice the units under 2002-Code paras 6.17.1 and 6.17.2 is illegal. Observation for the restored appeal; the assessment was not itself quashed. Same cluster as SCJ-059, SCJ-227, SCJ-638.",
+      "lead_authorities": [
+        {
+          "name": "Sri Bhagwan Gupta v. Kanpur Electricity Supply Company Ltd.",
+          "docid": ""
+        }
+      ],
+      "paras": "unnumbered order"
+    },
+    {
+      "tag": "statute-prevails-over-supply-code",
+      "application": "Section 126(6) prevails over paragraph 6.17.2 of the 2002 Code on the assessment rate. Followed from Sri Bhagwan Gupta.",
+      "lead_authorities": [
+        {
+          "name": "Sri Bhagwan Gupta v. Kanpur Electricity Supply Company Ltd.",
+          "docid": ""
+        }
+      ],
+      "paras": "unnumbered order"
+    },
+    {
+      "tag": "s127-appellate-authority-must-exercise-independent-judgment",
+      "application": "An appellate order that recites facts and the assessing officer's findings without discussing any ground of appeal is not an order in the eye of law. Quashed and restored for a reasoned decision (later by the Divisional Commissioner, Jhansi).",
+      "lead_authorities": [],
+      "paras": "unnumbered order"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits of the 24.12.2003 assessment, including whether the consumer unauthorisedly consumed electricity and the correct quantum",
+      "note": "Expressly left to the appellate authority. The Court recorded that the laboratory test was without intimation of date or choice of laboratory, that the MRI was done in the petitioner's absence, and that respondent no. 3 did not consider the objections to the Rs. 21,26,630 demand, but declined to decide those points.",
+      "paras": "unnumbered order"
+    },
+    {
+      "point": "Admissibility of the departmental laboratory report and MRI as proof of meter-tampering",
+      "note": "Raised as a ground that testing and MRI were behind the consumer's back; recorded as a gap in the record, not adjudicated.",
+      "paras": "unnumbered order"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Sri Bhagwan Gupta v. Kanpur Electricity Supply Company Ltd. & others",
+      "citation": "2005 (2) AWC 1269",
+      "court": "Allahabad High Court",
+      "docid": "",
+      "proposition": "In a theft billing, assessment is at one-and-a-half times the tariff under Section 126(6), not under paragraph 6.16.2 of the 2002 Code; Section 126(6) prevails over paragraph 6.17.2.",
+      "how_treated": "Followed. Assessment under paras 6.17.1 and 6.17.2 was held absolutely illegal in view of this decision.",
+      "how_treated_paras": "unnumbered order",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}
