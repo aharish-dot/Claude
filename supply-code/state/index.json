@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 645,
+  "next_seq": 646,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -3856,6 +3856,12 @@
       "case_id": "SCJ-641",
       "source_basename": "WRIC(A)_56999_2005.pdf",
       "title": "M/s Tej International Pvt. Ltd. v. U.P. Power Corporation",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-643",
+      "source_basename": "WRIC(A)_62121_2005.pdf",
+      "title": "M/S Laxmi Oil Expeller v. Paschimanchal Vidyut Vitran Nigam Ltd.",
       "status": "done"
     }
   ]
