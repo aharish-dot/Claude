@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 625,
+  "next_seq": 628,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -3748,6 +3748,12 @@
       "case_id": "SCJ-623",
       "source_basename": "WRIC(A)_29212_2024.pdf",
       "title": "Arun Kumar Kashyap v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-626",
+      "source_basename": "WRIC(A)_13145_2003.pdf",
+      "title": "Challenge to 2002 Code cl. 4.55 security distinction dismissed as infructuous after Supply Code 2005",
       "status": "done"
     }
   ]
