@@ -1,0 +1,84 @@
+{
+  "case_id": "SCJ-633",
+  "title": "Anil Shastri v. State of U.P. Thru. Principal Secy. Power & Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sunil Ambwani, J. and Kashi Nath Pandey, J.",
+  "date_of_judgment": "2011-07-04",
+  "date_display": "4 July 2011",
+  "docket": "Writ - C No. 10681 of 2004",
+  "page_count": 9,
+  "significance": "ordinary",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition dismissed; society's Secretary held liable for the theft assessment as occupier",
+  "headnote": "A registered society is a 'person' under Section 2(49) of the Electricity Act, 2003. 'Consumer' in Section 2(15), followed in the U.P. Electricity Supply Code, 2005, includes a person whose premises are connected for receiving electricity. 'Occupier' in Clause 2.2(oo) of the 2005 Code means the owner or authorised person in occupation of the premises where energy is used. The Secretary of the society, representing it and occupying the premises of the connection from which electricity was drawn by a cable placed directly on the licensee's distribution line, is liable to pay the theft assessment. A writ that concealed the inspection and checking report is dismissed.",
+  "facts": "Anil Shastri, Secretary of Gurjar Chhatra Sahayak Samiti (a society registered under the Societies Registration Act), filed Writ-C No. 10681 of 2004 against the State of Uttar Pradesh (Power) and U.P. Power Corporation. He said a bill of Rs.2,26,888 had been sent to the Society, it was disputed as not payable by the Society, and a corrected bill dated 15.6.2002 was paid on 18.9.2002 (Rs.51,296). He claimed to have been paying the Society's electricity dues regularly. On 8.2.2004 an Amin came to his house demanding Rs.48,780.\n\nThe Corporation's case, accepted by the Court, was that inspection of the institution found theft by putting a cable directly on the distribution line (LMV-2) and a checking report was prepared at site. A provisional theft assessment of Rs.48,735 followed, of which Rs.39,064.20 was first demanded. Audit revised the assessment on the 2002 Code structural formula; a further Rs.9,716 was demanded on 7.8.2003, and a recovery certificate for Rs.48,760 issued on 29.11.2003 under the U.P. Government Electrical Undertaking (Dues Recovery) Act, 1958. After listing through 2010–2011, the writ was dismissed on 4 July 2011.",
+  "holding_units": [
+    {
+      "provision": "EA2003::2(15)",
+      "code": "Electricity Act, 2003",
+      "clause": "2(15) (consumer; followed in the U.P. Electricity Supply Code, 2005)",
+      "topic": "Secretary occupying the premises of a society's connection is a consumer liable for the theft assessment",
+      "type": "interplay",
+      "question": "Is the Secretary of a registered society, occupying the premises of the society's electricity connection, a 'consumer' liable for a theft assessment?",
+      "holding": "Yes. Section 2(15), followed in the U.P. Electricity Supply Code, 2005, defines 'consumer' as any person supplied with electricity for his own use by a licensee, the Government, or any other person engaged in supplying electricity to the public, and includes any person whose premises are for the time being connected for receiving electricity with the works of a licensee. The petitioner, representing the society as Secretary and occupying the premises of the connection from which electricity was drawn, falls within that definition and is liable to pay the amount to the Power Corporation. The writ is dismissed.",
+      "paras": "7-10",
+      "flag": "Source PDF also contains listing, notice, pass-over and time-grant orders from 6.7.2010 to 22.2.2011; the operative judgment is 4.7.2011 (paras 1-11 of that order). Inspection, provisional assessment and recovery (2002–2004) predate the 2005 Code; the counter affidavit invoked the 2002 Code structural formula; the Court applied s.2(15) as followed in the 2005 Code without discussing retrospectivity. Amounts are as the judgment states them (difference Rs.9,716 in the counter-affidavit recital and Rs.9,738 later; Amin demand Rs.48,780 against recovery certificate Rs.48,760)."
+    },
+    {
+      "provision": "UP-2005::2(oo)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "2.2(oo) (occupier)",
+      "topic": "Occupier of the premises where energy is used is liable for the theft assessment",
+      "type": "supply_code",
+      "question": "Does Clause 2.2(oo) make the Secretary, as occupier of the society's connection premises, liable to pay the theft assessment?",
+      "holding": "Yes. Occupier in Clause 2.2(oo) means the owner or authorised person in occupation of the premises where energy is used or proposed to be used. The petitioner, Secretary of the registered society and occupier of the premises of the electrical connection from which electricity was drawn by a cable put directly on the distribution line, is liable to pay the amount to the Power Corporation.",
+      "paras": "9-10",
+      "flag": "The Court cites 'clause 2.2. (oo)'; keyed to catalog UP-2005::2(oo) (SCJ-021). Not keyed to UP-2005::2.2, which is the general definitions heading."
+    },
+    {
+      "provision": "EA2003::2(49)",
+      "code": "Electricity Act, 2003",
+      "clause": "2(49) (person)",
+      "topic": "A registered society is a person; its Secretary representing it is liable",
+      "type": "electricity_act",
+      "holding": "A registered society is a 'person' within Section 2(49) of the Electricity Act, 2003 — any company or body corporate or association or body of individuals, whether incorporated or not, or artificial juridical person. The petitioner representing the society as Secretary is liable to pay the theft assessment.",
+      "paras": "8, 10",
+      "flag": "The Court first defines 'person' under 'Section 2 (4)' and then holds the society is a person within 'Section 2 (49)'. Section 2(4) of the Electricity Act, 2003 is 'Appropriate Commission'; 'person' is s.2(49). Keyed to the later, correct citation; the s.2(4) recital is a mis-cite, not a holding on the Commission."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "owner-of-premises-is-consumer-liable-for-theft-assessment",
+      "application": "Applied to the Secretary of a registered society who occupied the premises of the society's connection. Consumer (s.2(15), followed in the 2005 Code) plus occupier (Clause 2.2(oo)) plus person (s.2(49)) made him liable for the theft assessment on a direct cable to the distribution line. Same cluster as SCJ-121 / SCJ-179 (owner as consumer), here occupier-secretary rather than owner.",
+      "lead_authorities": [],
+      "paras": "7-10"
+    },
+    {
+      "tag": "clean-hands-required-material-concealment-bars-writ",
+      "application": "The Court found substance in the licensee's contention that the writ concealed the inspection at which the petitioner was found taking supply by a cable on the distribution line, with a site checking report and a provisional theft assessment. The petition was dismissed. Same cluster as SCJ-171.",
+      "lead_authorities": [],
+      "paras": "6"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Quantum and correctness of the theft assessment and of the 2002 Code structural-formula revision",
+      "note": "The Court upheld liability and dismissed the writ; it did not independently examine the Rs.48,735 / Rs.9,716 (or Rs.9,738) figures.",
+      "paras": "3, 6, 10-11"
+    },
+    {
+      "point": "Whether the 2005 Code, rather than the 2002 Code, governed the 2002–2003 assessment",
+      "note": "The counter affidavit invoked the 2002 Code structural formula; the Court applied 2005 Code definitions without deciding which Code governed the assessment.",
+      "paras": "3, 7-9"
+    },
+    {
+      "point": "Whether a final assessment had been passed before the s.3 demand and s.5 recovery certificate under the 1958 Dues Recovery Act",
+      "note": "The Court recited a provisional theft assessment, a revised demand, and a s.5 recovery certificate; it did not test the 1958 Act sequence.",
+      "paras": "3, 6"
+    }
+  ],
+  "authorities": []
+}
