@@ -1,0 +1,58 @@
+{
+  "case_id": "SCJ-667",
+  "title": "M/S Devi Charan Cold Storage Tirwa v. Executive Engineer & Others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sudhir Agarwal, J.; Rajeev Misra, J.",
+  "date_of_judgment": "2019-08-08",
+  "date_display": "8 August 2019",
+  "docket": "Writ - C No. 22650 of 2007",
+  "page_count": 10,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed on alternative remedy under Clause 7.10; interim vacated.",
+  "headnote": "A writ challenging an Executive Engineer's rejection of a representation against arrears demanded because cheques given towards electricity dues were dishonoured, with the consumer asserting that payment had already been made, raises accounting and disputed questions of payment. Those questions are for the District Consumer Grievance Redressal Forum under Clause 7.10 of the U.P. Electricity Supply Code, 2005, and thereafter the Electricity Ombudsman under the same provision, not the writ court. The petition is dismissed on the ground of alternative remedy and any interim order stands vacated. The Court did not decide whether the dues had been paid or whether the 20 March 2007 order was correct.",
+  "facts": "M/S Devi Charan Cold Storage Tirwa petitioned the Allahabad High Court against the Executive Engineer, Vidhyut Vitran Khand, Dakshinanchal Vidyut Vitran Nigam Limited, Kannauj, and others. The licensee demanded arrears of electricity charges on the ground that cheques the petitioner had given towards electricity dues were dishonoured. The petitioner's representation challenging that demand was rejected by the Executive Engineer on 20 March 2007. The writ challenged that order and sought a mandamus that no demand be raised on it. The petitioner-company said the dues had already been paid; the record showed the earlier cheques had been dishonoured. The 2007 petition was listed several times in 2018–2019 before being heard on 8 August 2019.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::7.10",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "7.10",
+      "topic": "accounting/payment dispute over dishonoured-cheque arrears is for the Clause 7.10 Forum/Ombudsman, not the writ court",
+      "type": "supply_code",
+      "question": "Does a writ lie to challenge an Executive Engineer's rejection of a representation against arrears demanded on dishonoured cheques, when the consumer asserts that payment has already been made?",
+      "holding": "No. The issue involves accounting and disputed questions regarding payment of electricity dues. The petitioner has a statutory alternative remedy before the District Consumer Grievance Redressal Forum as per Clause 7.10 of the Electricity Supply Code, 2005, and if still aggrieved may approach the Electricity Ombudsman under the same provision. The writ is dismissed on the ground of alternative remedy and any interim order stands vacated.",
+      "paras": "4-6",
+      "flag": "Source PDF concatenates listing orders of 13.11.2018, 29.11.2018, 6.12.2018, 8.1.2019, 28.1.2019, 22.2.2019, 11.3.2019 and 25.3.2019; the operative disposal is 8.8.2019."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-7.10-forum-ombudsman-route-for-billing-grievances",
+      "application": "A dispute over whether electricity arrears remain unpaid after cheques given towards dues were dishonoured, and over the Executive Engineer's rejection of a representation asserting that payment has already been made, is a billing/accounting grievance for the Clause 7.10 CGRF and then the Ombudsman, not the writ court.",
+      "lead_authorities": [],
+      "paras": "4-5"
+    },
+    {
+      "tag": "disputed-questions-of-fact-not-adjudicable-under-article-226",
+      "application": "Whether the consumer had already paid the electricity dues, against a record of dishonoured cheques, is an accounting dispute of fact; the writ is dismissed without examining those questions.",
+      "lead_authorities": [],
+      "paras": "3-4"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the electricity dues had in fact been paid, and whether the cheques were dishonoured as alleged",
+      "note": "Treated as accounting and disputed questions of payment; left to the Clause 7.10 Forum/Ombudsman.",
+      "paras": "3-5"
+    },
+    {
+      "point": "Correctness of the Executive Engineer's order dated 20.03.2007 and of the arrears demand",
+      "note": "Writ dismissed on alternative remedy without examining the demand on merits.",
+      "paras": "2-5"
+    }
+  ],
+  "authorities": []
+}

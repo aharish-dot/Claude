@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 669,
+  "next_seq": 670,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -4000,6 +4000,12 @@
       "case_id": "SCJ-665",
       "source_basename": "A482(L)_438_2007.pdf",
       "title": "Ashok Garg v. State of U.P. and Another",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-667",
+      "source_basename": "WRIC(A)_22650_2007.pdf",
+      "title": "M/S Devi Charan Cold Storage Tirwa v. Executive Engineer & Others",
       "status": "done"
     }
   ]
