@@ -1,0 +1,49 @@
+{
+  "case_id": "SCJ-1254",
+  "title": "Veerendra Singh v. State of U.P. and others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J.; Ashwani Kumar Mishra, J.",
+  "date_of_judgment": "2014-09-22",
+  "date_display": "22 September 2014",
+  "docket": "WRIT - C No. 51181 of 2014",
+  "page_count": 1,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; recovery certificate dated 2.9.2014 quashed; fresh provisional assessment directed.",
+  "headnote": "A recovery certificate cannot stand where the licensee fails to show that the provisional assessment was served. Para 6.8(b) of the U.P. Electricity Supply Code, 2005 requires an opportunity to object to that assessment; a later demand notice by registered post is not a substitute. The certificate is quashed and a fresh provisional assessment must be served, with a reasoned final order after considering objections, following Ashok Kumar.",
+  "facts": "Veerendra Singh petitioned the Allahabad High Court to quash a recovery certificate dated 2 September 2014, saying he had been given no opportunity before the amount being realized was determined. Counsel for the distribution licensee stated that a provisional assessment had been issued on 29 November 2013, but produced no document showing it was actually served. Instructions suggested only a demand notice had gone by registered post; no postal receipt for the provisional assessment was on record.",
+  "reusable_constructions": [
+    {
+      "construction": "Para 6.8(b) of the U.P. Electricity Supply Code, 2005 requires service of the provisional assessment itself so the consumer can object; a later demand notice by registered post, without proof that the provisional assessment was served, is not adequate opportunity.",
+      "paras": "1"
+    },
+    {
+      "construction": "Where service of the provisional assessment is not established, the recovery certificate and consequential proceedings are liable to be quashed; a fresh provisional assessment must be served and the final order must give reasons meeting the consumer's objections.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "UP-2005",
+      "clause": "6.8(b)",
+      "topic": "provisional assessment — service and opportunity to object",
+      "type": "supply_code",
+      "holding": "Absent positive material that the provisional assessment was served, the consumer is denied the opportunity under para 6.8(b) of the U.P. Electricity Supply Code, 2005 to reply and object. A demand notice by registered post, without proof of service of the provisional assessment itself, does not cure that defect. The recovery certificate dated 2.9.2014 and consequential proceedings are quashed. Respondents must prepare and serve a fresh provisional assessment; the final assessment is to be made after considering objections, giving reasons to meet them, in light of Ashok Kumar.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008(6) ADJ 660 (DB)",
+      "cited_by": "1",
+      "pinpoint": "paras 56-64"
+    }
+  ]
+}
