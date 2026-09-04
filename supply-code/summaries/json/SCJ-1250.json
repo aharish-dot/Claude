@@ -1,0 +1,54 @@
+{
+  "case_id": "SCJ-1250",
+  "title": "Rakesh Sharma v. State of U.P.",
+  "neutral_citation": "Writ-C No. 48456 of 2014",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J.; Ashwani Kumar Mishra, J.",
+  "date_of_judgment": "2014-09-10",
+  "date_display": "10 September 2014",
+  "docket": "Writ-C No. 48456 of 2014",
+  "page_count": 1,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Demand notice quashed; fresh provisional assessment with hearing directed",
+  "headnote": "After a theft raid and compounding, the licensee treated an unserved provisional assessment as final and issued a Section 3 recovery demand. The Division Bench held that want of service deprived the consumer of the right to object. Following Ashok Kumar on Electricity Supply Code, 2005 theft-assessment procedure, it quashed the demand and directed a fresh served provisional assessment, time to object, a hearing, and a reasoned final order.",
+  "facts": "A surprise raid at the petitioner's premises found theft of electricity by connecting a cable bypassing the meter. He paid Rs.10,000 as compounding charges. The licensee made a provisional assessment dated 26 May 2014 and sent it by speed post; it returned unserved with an endorsement that the residence was locked. No objection was filed. The assessment was treated as final, and a demand notice dated 21 July 2014 under Section 3 of the U.P. Government Electrical Undertakings (Dues Recovery) Act, 1958, seeking Rs.36,630, was issued. He challenged that notice.",
+  "reusable_constructions": [
+    {
+      "construction": "An unserved provisional assessment in a theft case cannot be treated as final; the consumer must be served and given time to object and a hearing before a reasoned final assessment under the Electricity Supply Code, 2005.",
+      "paras": "4-6"
+    },
+    {
+      "construction": "A recovery demand under Section 3 of the U.P. Government Electrical Undertakings (Dues Recovery) Act, 1958, founded on such an unserved assessment is liable to be quashed, with the assessment redone after service, objection and hearing.",
+      "paras": "4-6"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::theft-assessment",
+      "code": "UP-2005",
+      "clause": "theft-assessment",
+      "topic": "theft assessment — service of provisional assessment",
+      "type": "supply_code",
+      "holding": "Where the provisional assessment for theft of electricity is not served, treating it as final and issuing a Section 3 Dues Recovery demand is unsustainable. The licensee must issue a fresh provisional assessment, serve it, allow fifteen days to object, fix a date for hearing, and then pass a reasoned final assessment after considering any objection, in light of the Electricity Supply Code, 2005 as explained in Ashok Kumar.",
+      "paras": "4-6"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Merits and quantum of the theft assessment",
+      "note": "Remitted for fresh provisional assessment, service, objection, hearing and reasoned final order.",
+      "paras": "6"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008 (6) ADJ 660 (DB)",
+      "cited_by": "5-6"
+    }
+  ]
+}
