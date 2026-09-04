@@ -1,0 +1,55 @@
+{
+  "case_id": "SCJ-801",
+  "title": "Ramji Lal v. Dakshinanchal Vidyut Vitran Nigam Ltd.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "R.K. Agrawal, J. and Rajesh Chandra, J.",
+  "date_of_judgment": "2010-08-23",
+  "date_display": "23 August 2010",
+  "docket": "WRIT - C No. 46692 of 2010",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; UPC service of provisional assessment held invalid under 9.3.",
+  "headnote": "Service of a checking report and provisional assessment under certificate of posting does not satisfy regulation 9.3 of the U.P. Electricity Supply Code, 2005, which requires registered post, courier, or newspaper publication. The Court directed re-service by registered post, two weeks for objections, decision of those objections in accordance with law, and stay of recovery under the 22.09.2009 citation until final assessment. Writ allowed.",
+  "facts": "Ramji Lal, a consumer, filed Writ-C No. 46692 of 2010 against Dakshinanchal Vidyut Vitran Nigam Ltd. and others, challenging recovery pursuant to a citation dated 22 September 2009. The matter was twice listed as fresh so the distribution company could obtain instructions. On the third date, counsel for respondent no. 2 stated that the checking report and provisional assessment had been sent to the petitioner under certificate of posting. The writ attacked that service and the recovery founded on it.",
+  "reusable_constructions": [
+    {
+      "construction": "Regulation 9.3 of the U.P. Electricity Supply Code, 2005 prescribes service of notice by registered post, courier post, or publication in a daily newspaper commonly read in the locality; service under certificate of posting is not a valid mode.",
+      "paras": "3"
+    },
+    {
+      "construction": "A provisional assessment served only under certificate of posting is not justified in law; the licensee must re-serve by registered post, and recovery on that assessment stays until final assessment after proper service.",
+      "paras": "3"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::9.3",
+      "code": "UP-2005",
+      "clause": "9.3",
+      "topic": "service of provisional assessment",
+      "type": "supply_code",
+      "holding": "Service of the checking report and provisional assessment under certificate of posting is not proper under regulation 9.3, which prescribes registered post, courier post, or newspaper publication. Respondent no. 2 was directed to serve the provisional assessment by registered post; after receipt the petitioner has two weeks to object; objections are to be decided in accordance with law; recovery under the citation dated 22.09.2009 stays until final assessment. Writ allowed.",
+      "paras": "3"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-9.3-service-mode-prerequisite-to-treating-assessment-final",
+      "application": "Because the checking report and provisional assessment were sent only under certificate of posting, they were not treated as duly served under 9.3; recovery under the citation was stayed until final assessment after registered-post service.",
+      "lead_authorities": [],
+      "paras": "3"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits of the provisional assessment and the consumer's objections",
+      "note": "The Court directed re-service and decision of objections in accordance with law; it did not examine the assessment on merits.",
+      "paras": "3"
+    }
+  ],
+  "authorities": []
+}
