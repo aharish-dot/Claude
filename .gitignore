@@ -7,3 +7,4 @@ __pycache__/
 # input/ and processed/; do not push extracts).
 supply-code/tmp/
 supply-code/extracts/
+supply-code/extracts/*.lean.txt
