@@ -1,0 +1,401 @@
+#!/usr/bin/env python3
+"""Richer Supply Code Jurisprudence digest generator — Claude's fork.
+
+Forked from tools/gen_scj.py (Grok-owned; left untouched). Kept in claude_tools/
+so Claude and Grok never edit the same program. Used by claude_tools/finalize_claude.py
+for the >10-page cases Claude authors; Grok's small cases keep using tools/gen_scj.py.
+
+Adds, on top of the base generator, four things (all backward compatible — a record
+without these fields renders exactly like the base output):
+  1. REUSABLE CONSTRUCTIONS  — a numbered box of the portable propositions the case
+     establishes/applies (c["reusable_constructions"] = [{construction, paras?}, ...]).
+  2. EVIDENCE per holding     — a verbatim grounding quote + pin on each holding_unit
+     (holding_units[].evidence = [{quote, paras?}, ...]).
+  3. RELATED CASES            — cross-refs to prior SCJ cases sharing a provision/tag
+     (c["related_cases"] = [{case_id, note?}, ...]).
+  4. RATIO / OBITER + PIN-BASIS — holding_units[].nature = "ratio"|"obiter" shown as a
+     badge; c["pin_basis"] = "paragraph"(default)|"page" switches every pin between
+     "¶ N" and "p. N" (for judgments that are not paragraph-numbered).
+
+Usage:  python claude_tools/gen_scj.py <record.json> <out.html>
+"""
+import sys, json, html
+
+TREAT_CLASS = {
+    "followed": "t-foll", "approved": "t-foll", "applied": "t-foll", "affirmed": "t-foll",
+    "distinguished": "t-dist", "doubted": "t-dist", "overruled": "t-dist",
+    "referred": "t-ref", "referred to": "t-ref", "noted": "t-ref", "considered": "t-ref",
+    "relied on": "t-rel", "relied-on": "t-rel", "relied upon": "t-rel",
+}
+
+CITEDBY_CLASS = {
+    "petitioner": "cb-pet", "appellant": "cb-pet",
+    "respondent": "cb-resp", "respondents": "cb-resp",
+    "court": "cb-court", "suo motu": "cb-court", "bench": "cb-court",
+}
+
+# Pin marker, switched by c["pin_basis"] at build() time.
+_PIN = "&para;&nbsp;"
+
+STYLE = """<style>
+  @page{ size:A4; margin:0; }
+  body{ font-family:Georgia,'Liberation Serif',serif; font-size:9.8pt; line-height:1.5;
+        color:#1d2430; margin:0; padding:16mm 17mm; }
+  .eyebrow{ font-family:Arial,'Liberation Sans',sans-serif; font-size:7.4pt; letter-spacing:.18em;
+        text-transform:uppercase; color:#6b7787; margin-bottom:4pt; }
+  h1{ font-size:15pt; margin:0 0 3pt; font-weight:700; }
+  .idline{ background:#eef1f5; border-left:3px solid #64748b; padding:6pt 11pt; margin:0 0 11pt;
+        font-size:9pt; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .headnote{ background:#f4f6f9; border:1pt solid #c9d3df; border-radius:3pt;
+        padding:8pt 12pt; margin:0 0 10pt; font-size:9.4pt; line-height:1.5; text-align:justify;
+        -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .headnote .hn{ display:block; font-family:Arial,'Liberation Sans',sans-serif; font-size:8pt;
+        letter-spacing:.12em; text-transform:uppercase; font-weight:700; color:#14324f; margin-bottom:4pt; }
+  .facts{ background:#fbf6ee; border:1pt solid #e2d2b3; border-radius:3pt;
+        padding:8pt 12pt; margin:0 0 12pt; font-size:9.3pt; line-height:1.5; text-align:justify;
+        -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .facts .hn{ display:block; font-family:Arial,'Liberation Sans',sans-serif; font-size:8pt;
+        letter-spacing:.12em; text-transform:uppercase; font-weight:700; color:#6b4e16; margin-bottom:4pt; }
+  .facts p{ margin:0 0 6pt; } .facts p:last-child{ margin-bottom:0; }
+  .seclabel{ font-family:Arial,'Liberation Sans',sans-serif; font-size:7.4pt; letter-spacing:.13em;
+        text-transform:uppercase; font-weight:700; color:#64748b; margin:14pt 0 6pt; }
+
+  /* Reusable Constructions — the portable-law headline (indigo accent). */
+  .rc{ background:#eef0fb; border:1pt solid #c3c9ef; border-left:4px solid #4f5bd5; border-radius:3pt;
+        padding:7pt 12pt 8pt; margin:0 0 12pt; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .rc .hn{ display:block; font-family:Arial,'Liberation Sans',sans-serif; font-size:8pt;
+        letter-spacing:.12em; text-transform:uppercase; font-weight:700; color:#2f339a; margin-bottom:5pt; }
+  .rc ol{ margin:0; padding-left:16pt; } .rc li{ margin:0 0 5pt; text-align:justify; }
+  .rc li:last-child{ margin-bottom:0; }
+
+  .hu{ border:1pt solid #a9d6ba; border-left:4px solid #2f8f57; border-radius:3pt;
+        margin:0 0 11pt; overflow:hidden; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .hu-head{ background:#e3f3e8; padding:5pt 11pt; font-family:Arial,'Liberation Sans',sans-serif; }
+  .hu-key{ font-size:9.4pt; font-weight:700; color:#14532d; }
+  .hu-topic{ font-size:8pt; color:#2f6b46; }
+  .hu-body{ padding:7pt 11pt 8pt; }
+  .fld{ margin:0 0 6pt; } .fld:last-child{ margin-bottom:0; }
+  .fl{ font-family:Arial,'Liberation Sans',sans-serif; font-size:7.2pt; letter-spacing:.13em;
+        text-transform:uppercase; font-weight:700; color:#2f8f57; display:block; margin-bottom:1pt; }
+  .fld p{ margin:0; text-align:justify; }
+  .pn{ font-family:Arial,'Liberation Sans',sans-serif; font-size:7.8pt; font-weight:700;
+        color:#8a94a3; white-space:nowrap; }
+  /* ratio/obiter badge in the holding head */
+  .nat{ float:right; font-size:7pt; letter-spacing:.08em; font-weight:700; padding:1pt 6pt;
+        border-radius:8pt; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .nat-ratio{ color:#14532d; background:#d7efdf; border:.5pt solid #a9d6ba; }
+  .nat-obiter{ color:#5f5010; background:#fbf3d6; border:.5pt solid #e6d69a; }
+  /* verbatim grounding quote under a holding */
+  .evi{ margin:6pt 0 0; padding:4pt 9pt; background:#f4f6f9; border-left:2pt solid #9aa7b8;
+        font-size:8.6pt; color:#3a4657; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .evi .fl{ color:#6b7787; display:inline; margin-right:5pt; }
+  .evi q{ font-style:italic; quotes:'\\201C' '\\201D'; }
+
+  .aux{ border:1pt solid #c7d0db; border-left:4px solid #64748b; }
+  .aux .hu-head{ background:#eef1f5; }
+  .aux .hu-key{ color:#334155; } .aux .fl{ color:#64748b; }
+  .flagbox{ background:#fbf3d6; border:.5pt solid #e6d69a; border-radius:2pt; padding:3pt 8pt;
+        font-size:8.6pt; color:#5b5010; margin-top:5pt; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .flagbox .fl{ color:#8a6d1a; display:inline; margin-right:5pt; }
+
+  .tag{ font-family:Arial,'Liberation Sans',sans-serif; font-size:7.6pt; font-weight:700;
+        color:#5b3a04; background:#fbf3d6; border:.5pt solid #e6d69a; padding:1.5pt 7pt;
+        border-radius:8pt; white-space:nowrap; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .ptag{ margin:0 0 6pt; }
+  .docid{ font-family:Arial,'Liberation Sans',sans-serif; font-size:7.4pt; color:#8a94a3; }
+  .cn{ font-style:italic; }
+
+  /* Related cases */
+  .rel{ background:#eef1f5; border:.5pt solid #c7d0db; border-radius:3pt; padding:6pt 11pt;
+        font-size:8.8pt; color:#334155; margin:0 0 8pt; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .rel .cid{ font-family:Arial,'Liberation Sans',sans-serif; font-weight:700; color:#1e3a5f; }
+  .rel-item{ margin:0 0 3pt; } .rel-item:last-child{ margin-bottom:0; }
+
+  .nd{ background:#fbe9e0; border:.5pt solid #e8b79c; border-radius:3pt; padding:6pt 11pt;
+        font-size:9pt; color:#7a2e0e; margin:0 0 8pt; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .nd .fl{ color:#b05a2a; }
+
+  table.cit{ width:100%; border-collapse:collapse; margin:3pt 0 8pt; font-size:8.4pt; line-height:1.42; }
+  table.cit th{ font-family:Arial,'Liberation Sans',sans-serif; font-size:7pt; letter-spacing:.12em;
+        text-transform:uppercase; color:#fff; background:#334155; text-align:left; padding:4pt 7pt;
+        -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  table.cit td{ border-bottom:.5pt solid #dbe2ea; padding:4.5pt 7pt; vertical-align:top; }
+  table.cit tr:nth-child(even) td{ background:#f8fafc; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .trt{ font-size:7.4pt; padding:1pt 6pt; border-radius:8pt; white-space:nowrap; display:inline-block;
+        font-family:Arial,'Liberation Sans',sans-serif; font-weight:700;
+        -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .t-foll{ color:#14532d; background:#e3f3e8; border:.5pt solid #a9d6ba; }
+  .t-dist{ color:#7a2e0e; background:#fbe9e0; border:.5pt solid #e8b79c; }
+  .t-ref { color:#334155; background:#eef1f5; border:.5pt solid #c7d0db; }
+  .t-rel { color:#5f5010; background:#fbf3d6; border:.5pt solid #e6d69a; }
+  .cb{ font-size:7.4pt; padding:1pt 6pt; border-radius:8pt; white-space:nowrap; display:inline-block;
+       font-family:Arial,'Liberation Sans',sans-serif; font-weight:700;
+       -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .cb-pet{ color:#1e3a5f; background:#e6eefb; border:.5pt solid #b3ccef; }
+  .cb-resp{ color:#5b2c46; background:#fbe6f1; border:.5pt solid #e8b3d2; }
+  .cb-court{ color:#334155; background:#e9edf2; border:.5pt solid #c2ccd8; }
+
+  .foot{ font-family:Arial,'Liberation Sans',sans-serif; font-size:7.6pt; color:#8a94a3;
+        border-top:.5pt solid #c9d3df; margin-top:14pt; padding-top:5pt; }
+  .disclaimer{ font-size:7.8pt; color:#8a94a3; font-style:italic; margin-top:3pt; }
+</style>"""
+
+
+def esc(s):
+    return html.escape(str(s or ""), quote=False)
+
+
+def pin(paras):
+    if isinstance(paras, list):
+        paras = ", ".join(str(p).strip() for p in paras if str(p).strip())
+    elif paras is not None and not isinstance(paras, str):
+        paras = str(paras)
+    p = (paras or "").strip()
+    return f' <span class="pn">{_PIN}{esc(p)}</span>' if p else ""
+
+
+def field(label, value, pn_str=""):
+    if not value:
+        return ""
+    return (f'      <div class="fld"><span class="fl">{esc(label)}</span>'
+            f'<p>{esc(value)}{pin(pn_str)}</p></div>\n')
+
+
+def evidence_block(u):
+    """Verbatim grounding quotes for a holding: [{quote, paras}] or a single {quote,paras}."""
+    ev = u.get("evidence")
+    if not ev:
+        return ""
+    if isinstance(ev, dict):
+        ev = [ev]
+    out = ""
+    for e in ev:
+        if isinstance(e, str):
+            q, pn = e, ""
+        elif isinstance(e, dict):
+            q, pn = e.get("quote", ""), e.get("paras", "")
+        else:
+            continue
+        if not q:
+            continue
+        out += (f'      <div class="evi"><span class="fl">Evidence</span>'
+                f'<q>{esc(q)}</q>{pin(pn)}</div>\n')
+    return out
+
+
+def nature_badge(u):
+    nat = (u.get("nature") or "").strip().lower()
+    if nat == "ratio":
+        return '<span class="nat nat-ratio">RATIO</span>'
+    if nat == "obiter":
+        return '<span class="nat nat-obiter">OBITER</span>'
+    return ""
+
+
+def holding_unit(u):
+    interplay = (u.get("type") == "interplay")
+    cls = "hu aux" if interplay else "hu"
+    kind = "INTERPLAY" if interplay else "HOLDING-UNIT"
+    key = u.get("provision") or u.get("clause") or ""
+    head = (f'    <div class="hu-head">{nature_badge(u)}'
+            f'<span class="hu-key">{esc(kind)} &middot; {esc(key)}</span>'
+            f'<br><span class="hu-topic">{esc(u.get("topic",""))}</span></div>\n')
+    body = '    <div class="hu-body">\n'
+    body += field("Question", u.get("question"))
+    body += field("Holding", u.get("holding"), u.get("paras", ""))
+    body += field("Qualifier", u.get("qualifier"))
+    body += evidence_block(u)
+    if u.get("flag"):
+        body += (f'      <div class="flagbox"><span class="fl">Flag</span>{esc(u["flag"])}</div>\n')
+    body += '    </div>\n'
+    return f'  <div class="{cls}">\n{head}{body}  </div>\n'
+
+
+def reusable_constructions_box(c):
+    rc = c.get("reusable_constructions")
+    if not rc:
+        return ""
+    items = ""
+    for r in rc:
+        if isinstance(r, str):
+            text, pn = r, ""
+        elif isinstance(r, dict):
+            text, pn = r.get("construction", ""), r.get("paras", "")
+        else:
+            continue
+        if not text:
+            continue
+        items += f'    <li>{esc(text)}{pin(pn)}</li>\n'
+    if not items:
+        return ""
+    return (f'  <div class="rc"><span class="hn">Reusable Constructions</span>\n'
+            f'    <ol>\n{items}    </ol>\n  </div>\n')
+
+
+def related_cases_box(c):
+    rel = c.get("related_cases")
+    if not rel:
+        return ""
+    items = ""
+    for r in rel:
+        if isinstance(r, str):
+            cid, note = r, ""
+        elif isinstance(r, dict):
+            cid, note = r.get("case_id", ""), r.get("note", "")
+        else:
+            continue
+        if not cid:
+            continue
+        sep = " &mdash; " if note else ""
+        items += f'    <div class="rel-item"><span class="cid">{esc(cid)}</span>{sep}{esc(note)}</div>\n'
+    if not items:
+        return ""
+    return (f'  <div class="seclabel">Related cases &mdash; see also</div>\n'
+            f'  <div class="rel">\n{items}  </div>\n')
+
+
+def principle_tag(t):
+    auths = ""
+    la = t.get("lead_authorities") or []
+    if la:
+        parts = []
+        for a in la:
+            d = f' <span class="docid">[{esc(a["docid"])}]</span>' if a.get("docid") else ""
+            parts.append(f'<span class="cn">{esc(a["name"])}</span>{d}')
+        auths = " Lead authorities: " + ", ".join(parts) + "."
+    return (f'  <p class="ptag"><span class="tag">{esc(t.get("tag",""))}</span>&nbsp; '
+            f'{esc(t.get("application",""))}{auths}{pin(t.get("paras",""))}</p>\n')
+
+
+def not_decided(n):
+    d = f' <span class="docid">[{esc(n["docid"])}]</span>' if n.get("docid") else ""
+    return (f'  <div class="nd"><span class="fl">Not decided &mdash; {esc(n.get("point",""))}</span>'
+            f'{esc(n.get("note",""))}{d}{pin(n.get("paras",""))}</div>\n')
+
+
+def auth_row(a):
+    cls = TREAT_CLASS.get((a.get("treatment") or "").strip().lower(), "t-ref")
+    meta = []
+    if a.get("citation"):
+        meta.append(esc(a["citation"]))
+    if a.get("docid"):
+        meta.append(f'<span class="docid">[{esc(a["docid"])}]</span>')
+    if a.get("court"):
+        meta.append(f'<span class="docid">{esc(a["court"])}</span>')
+    metahtml = "<br>".join(meta)
+    ht = esc(a.get("how_treated", "")) + pin(a.get("how_treated_paras", ""))
+    cb = a.get("cited_by", "")
+    cb_cell = ""
+    if cb:
+        cbcls = CITEDBY_CLASS.get(cb.strip().lower(), "cb-court")
+        cb_cell = f'<span class="cb {cbcls}">{esc(cb)}</span>'
+    return (f'      <tr>\n'
+            f'        <td><span class="cn">{esc(a["name"])}</span><br>{metahtml}</td>\n'
+            f'        <td>{esc(a.get("proposition",""))}</td>\n'
+            f'        <td>{ht}</td>\n'
+            f'        <td>{cb_cell}</td>\n'
+            f'        <td><span class="trt {cls}">{esc(a.get("treatment","Referred"))}</span></td>\n'
+            f'      </tr>\n')
+
+
+def facts_box(c):
+    raw = c.get("facts")
+    if not raw:
+        return ""
+    if isinstance(raw, list):
+        paras = [str(p).strip() for p in raw if str(p).strip()]
+    else:
+        paras = [p.strip() for p in str(raw).replace("\r\n", "\n").split("\n\n") if p.strip()]
+    if not paras:
+        return ""
+    body = "\n".join(f"    <p>{esc(p)}</p>" for p in paras)
+    return (
+        f'  <div class="facts"><span class="hn">Factual Summary</span>\n'
+        f"{body}\n  </div>\n"
+    )
+
+
+OUTCOME_LABEL = {
+    "consumer": "consumer",
+    "licensee": "licensee",
+    "alternate_remedy": "alternate remedy",
+    "pending": "pending",
+    "none": "no merits result",
+    "split": "split",
+}
+
+
+def eyebrow_line(c):
+    parts = ["Supply Code Jurisprudence", c.get("case_id", "")]
+    pc = c.get("page_count")
+    if isinstance(pc, int) and pc > 0:
+        parts.append("1 page" if pc == 1 else f"{pc} pages")
+    sig = (c.get("significance") or "").strip()
+    if sig:
+        parts.append(sig)
+    oc = OUTCOME_LABEL.get((c.get("outcome") or "").strip().lower())
+    if oc:
+        parts.append(oc)
+    return " &middot; ".join(esc(p) for p in parts if p)
+
+
+def build(c):
+    global _PIN
+    _PIN = "p.&nbsp;" if (c.get("pin_basis") or "").strip().lower() == "page" else "&para;&nbsp;"
+
+    ident = " &middot; ".join(x for x in [
+        esc(c.get("court", "")), esc(c.get("bench", "")),
+        esc(c.get("date_display") or c.get("date_of_judgment", "")),
+        esc(c.get("neutral_citation", "")), esc(c.get("docket", "")),
+        f'<strong>{esc(c.get("disposition",""))}</strong>' if c.get("disposition") else "",
+    ] if x)
+
+    rc_box = reusable_constructions_box(c)
+    hus = "".join(holding_unit(u) for u in c.get("holding_units", []))
+    tags = "".join(principle_tag(t) for t in c.get("principle_tags", []))
+    nds = "".join(not_decided(n) for n in c.get("not_decided", []))
+    rel_box = related_cases_box(c)
+    rows = "".join(auth_row(a) for a in c.get("authorities", []))
+
+    tags_sec = f'  <div class="seclabel">Principle tags</div>\n{tags}' if tags else ""
+    nd_sec = f'  <div class="seclabel">Not decided &mdash; negative authority</div>\n{nds}' if nds else ""
+    auth_sec = ""
+    if rows:
+        auth_sec = (
+            '  <div class="seclabel">Table of Authorities</div>\n'
+            '  <table class="cit"><thead><tr>'
+            '<th style="width:21%">Authority</th><th style="width:28%">Proposition</th>'
+            '<th style="width:27%">How Treated</th><th style="width:11%">Cited By</th>'
+            '<th style="width:13%">Treatment</th>'
+            f'</tr></thead>\n    <tbody>\n{rows}    </tbody>\n  </table>\n')
+
+    return f"""<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8">
+{STYLE}
+</head>
+<body>
+  <div class="eyebrow">{eyebrow_line(c)}</div>
+  <h1>{esc(c.get("title",""))}</h1>
+  <div class="idline">{ident}</div>
+
+  <div class="headnote"><span class="hn">Headnote</span>{esc(c.get("headnote",""))}</div>
+{facts_box(c)}{rc_box}  <div class="seclabel">Holding-units</div>
+{hus}
+{tags_sec}{nd_sec}{rel_box}{auth_sec}
+  <div class="foot">{esc(c.get("case_id",""))} &middot; {esc(c.get("title",""))} &middot; {esc(c.get("neutral_citation",""))} &middot; Supply Code Jurisprudence
+    <div class="disclaimer">A jurisprudence extract prepared from the text of the judgment; not a substitute for the judgment, and to be verified against the original before use.</div>
+  </div>
+</body>
+</html>
+"""
+
+
+if __name__ == "__main__":
+    src, out = sys.argv[1], sys.argv[2]
+    c = json.load(open(src, encoding="utf-8"))
+    open(out, "w", encoding="utf-8").write(build(c))
+    print(f"wrote {out} from {src} "
+          f"({len(c.get('holding_units', []))} holding-units, "
+          f"{len(c.get('reusable_constructions', []))} reusable-constructions, "
+          f"{len(c.get('authorities', []))} authorities)")

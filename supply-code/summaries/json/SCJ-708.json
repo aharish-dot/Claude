@@ -9,12 +9,20 @@
   "date_display": "9 October 2009",
   "docket": "Civil Misc. Writ Petition No. 2309 of 2009 (connected with Writ Petition No. 32927 of 2003)",
   "page_count": 15,
+  "pin_basis": "page",
   "significance": "significant",
   "outcome": "consumer",
   "model": "Claude Opus 4.8",
   "disposition": "Writ Petition No. 2309 of 2009 allowed and the order dated 20/12/2008 directing connection of respondent no.4 to the independent feeder set aside; connected Writ Petition No. 32927 of 2003 (M/s Shiv Flour and Rice Mills) dismissed; parties to bear their own costs.",
   "headnote": "The tapping conditions in Clause 3.4(d) of the U.P. Electricity Supply Code, 2005 are not confined to Arc/Induction furnaces, rolling, re-rolling and mini steel plants: on a conjoint reading Clause 3.4(d) governs supply through an independent feeder in both the category of Clause 3.4(a) and that of Clause 3.4(b), so that the consent of the original consumer, cost-sharing and technical feasibility must be satisfied before any fresh consumer is tapped into an independent feeder. A feeder emanating from a 132 KV sub-station for 11 KV supply to a group of consumers of a similar process on contiguous premises answers the definition of 'independent feeder' in Clause 2.2(ff) of the 2005 Code — which governs an order passed after the 2005 Code came into force, displacing the narrower 2002 definition — and a licensee that has throughout treated the feeder as independent (and levied the 15% independent-feeder charge) cannot resile from that position. Para 4.29 (use of a service line to supply other consumers) and Clause 3.4 (independent feeders) are distinct concepts to be read harmoniously; para 4.29 cannot be invoked to bypass the conditions of Clause 3.4, which would otherwise be rendered redundant. Where the original consumers had objected and never consented, a direction to connect a fresh consumer to their independent feeder — passed mechanically on a Minister's endorsement without application of mind and contrary to Clause 3.4 — is unsustainable.",
   "facts": "An 11 KV feeder emanating from the 132 KV Jhunsi sub-station was originally built to supply M/s Phoolpur Sahkari Cold Storage. In 1979-80 the petitioners (M/s Kesarwani Sheetalaya and two others) were connected to that feeder with the cold storage's consent and on proportionate payment of its cost. Respondent no.4, M/s Shiv Flour and Rice Mills — already supplied through a rural feeder — sought connection to the same independent feeder, and the petitioners objected. The Executive Engineer first refused respondent no.4 (04/12/2008) citing Clause 3.4(d), but after respondent no.4 obtained an endorsement from the Energy Minister (17/12/2008) the Superintending Engineer directed the connection on 20/12/2008. The petitioners challenged that order and sought to restrain the tapping; respondent no.4's own writ petition of 2003 seeking the connection was heard and decided along with it.",
+  "reusable_constructions": [
+    {"construction": "Clause 3.4(d)'s tapping conditions are not confined to Arc/Induction furnaces, rolling, re-rolling and mini steel plants; on a conjoint reading Clause 3.4(d) governs supply through an independent feeder in both the 3.4(a) and the 3.4(b) categories.", "paras": "7-8"},
+    {"construction": "Tapping an independent feeder requires the consent of the original consumer(s) who bore its cost; where they have objected and not consented, a direction to connect a fresh consumer is in breach of Clause 3.4(d).", "paras": "8"},
+    {"construction": "A feeder emanating from a 33 KV or higher sub-station that supplies a group of consumers of a similar process on contiguous premises is an 'independent feeder' under Clause 2.2(ff); the 2005 definition governs an order passed after the 2005 Code's commencement, displacing the 2002 single-consumer definition, and a licensee that treated the feeder as independent (levying the 15% independent-feeder charge) cannot resile.", "paras": "9-10"},
+    {"construction": "'Service line' (Clause 2.2(vv)) and 'independent feeder' (Clause 3.4) are distinct concepts to be read harmoniously; para 4.29 cannot be invoked to supply other consumers through an independent feeder while bypassing the Clause 3.4 conditions, which would otherwise be rendered redundant.", "paras": "11"},
+    {"construction": "A licensee that mechanically implements a Minister's endorsement, without application of mind and contrary to the Code, acts unsustainably; the Corporation must carry out only lawful ministerial directions not contrary to a statutory provision.", "paras": "11"}
+  ],
   "holding_units": [
     {
       "provision": "UP-2005::3.4(d)",
@@ -22,9 +30,13 @@
       "clause": "3.4(d) — tapping of an independent feeder; scope and conditions",
       "topic": "Clause 3.4(d) governs tapping of an independent feeder in both the 3.4(a) and 3.4(b) categories, not only steel/furnace plants, and requires the original consumer's consent",
       "type": "supply_code",
+      "nature": "ratio",
       "question": "Are the tapping conditions of Clause 3.4(d) confined to Arc/Induction furnaces, rolling, re-rolling and mini steel plants, or do they govern the tapping of any independent feeder including the Clause 3.4(b) category?",
       "holding": "On a conjoint reading of Clause 3.4, sub-clause (d) governs supply through an independent feeder for both category (a) (Arc/Induction furnaces, rolling, re-rolling and mini steel plants of 1000 KVA and above) and category (b) (other cases, including townships/complexes and domestic, non-domestic or institutional loads above 500 KVA); its applicability cannot be restricted to steel/furnace plants. The conditions in sub-clause (d) — including the consent of the original consumer, cost-sharing and technical feasibility — must therefore be fulfilled before a fresh consumer is tapped in. Here the petitioners had never consented and had objected, so the direction to connect respondent no.4 was in breach of Clause 3.4(d); the order was also unsustainable because it was passed mechanically on the Energy Minister's endorsement, without application of mind and contrary to Clause 3.4.",
       "qualifier": "The Corporation is bound to carry out a Minister's directions only where they are lawful and not contrary to a statutory provision; a direction contrary to Clause 3.4 need not be obeyed.",
+      "evidence": [
+        {"quote": "A conjoint reading of the entire clause indicates that sub-clause (d) refers to supply through independent feeder regarding both the categories as mentioned in sub-clauses (a) and (b). Sub-clause (d) of clause 3.4 governs both clauses (a) and (b).", "paras": "7-8"}
+      ],
       "paras": "6-12",
       "flag": "Source judgment is not paragraph-numbered; pins reference the page breaks of the source order. Clause 3.4 is reproduced at pp.6-7."
     },
@@ -34,8 +46,12 @@
       "clause": "2.2(ff) — definition of 'independent feeder'",
       "topic": "A feeder supplying a group of similar-process consumers on contiguous premises is an 'independent feeder' under the 2005 definition, which governs, not the narrower 2002 definition",
       "type": "supply_code",
+      "nature": "ratio",
       "question": "Does a feeder to which more than one consumer is connected qualify as an 'independent feeder', and which definition applies to an order passed in 2008?",
       "holding": "Yes. Clause 2.2(ff) of the 2005 Code defines an independent feeder (for 11 KV supply) as one emanating from a 33 KV or higher sub-station for supplying a single consumer or a group of consumers having a similar process on the same or contiguous premises; a feeder shared by such a group therefore remains an independent feeder. As the impugned order was passed on 20/12/2008, after the 2005 Code came into force, the 2005 definition governs, and the narrower 2002 definition (2.2(aa) — single consumer) relied on by the respondents does not apply. The Corporation, having throughout treated the cold-storage feeder as independent — in its 1979 letters and by levying the 15% independent-feeder charge in the bills — could not take a contrary stand.",
+      "evidence": [
+        {"quote": "The definition of Electricity Supply Code, 2005 in para 22(ff) clearly provides independent feeder in case of 11 KVA Supply Voltage shall be a feeder for supplying electricity to a single consumer or group of consumers having similar process at the same or contiguous premise. Thus, according to Supply Code, 2005, the feeder in question is fully covered by definition of independent feeder.", "paras": "9-10"}
+      ],
       "paras": "9-11"
     },
     {
@@ -44,8 +60,12 @@
       "clause": "4.29 — use of a service line/apparatus to supply other consumers, read harmoniously with Clause 3.4",
       "topic": "Para 4.29 (service line) cannot be invoked to bypass the independent-feeder tapping conditions of Clause 3.4",
       "type": "supply_code",
+      "nature": "ratio",
       "question": "Can the licensee rely on para 4.29 (a service line owned by the Corporation may be used to supply other consumers) to connect a fresh consumer to an independent feeder without satisfying Clause 3.4?",
       "holding": "No. 'Service line' (Clause 2.2(vv)) and 'independent feeder' are distinct concepts, and paras 4.29 and 3.4 must be given a harmonious construction so that both survive. If para 4.29 were read to allow the licensee to use a consumer's service line/independent feeder to supply others in disregard of Clause 3.4, the conditions of Clause 3.4 would be rendered redundant. Para 4.29 therefore in no manner dilutes the conditions required for supply through an independent feeder under Clause 3.4.",
+      "evidence": [
+        {"quote": "both paras 4.29 and 3.4 of Supply Code 2005 has to be given harmonious construction so that both the provisions can survive and be implemented ... Thus para 4.29 in no manner affect the conditions as required to be fulfilled for supply through independent feeder as laid down in para 3.4.", "paras": "11"}
+      ],
       "paras": "11",
       "flag": "The judgment refers to 'para 4.29' without a sub-clause; keyed to 4.29(b), the corpus's existing key for the service-line-usable-for-other-consumers proposition."
     }
@@ -77,6 +97,13 @@
       "docid": "",
       "paras": "11"
     }
+  ],
+  "related_cases": [
+    {"case_id": "SCJ-067", "note": "Parasnath Alloys (2013) distinguishes this case; independent-feeder / service-line tapping under Clause 3.4."},
+    {"case_id": "SCJ-123", "note": "Sigma Castings (2013) — Clause 2.2(ff) independent-feeder definition read with Clause 3.4."},
+    {"case_id": "SCJ-260", "note": "PVVNL v. Vidyut Lokpal (2008) — Clause 3.4(d) tapping of an independent feeder."},
+    {"case_id": "SCJ-244", "note": "Raj Narayan Singh (2013) — Clause 3.4 independent feeder; original-consumer consent."},
+    {"case_id": "SCJ-101", "note": "Pawan Kumar Agarwal (2007) — scope of Clause 3.4 supply through an independent feeder."}
   ],
   "authorities": [
     {
