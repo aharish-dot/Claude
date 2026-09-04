@@ -1,0 +1,42 @@
+{
+  "case_id": "SCJ-908",
+  "title": "Triloki Mishra v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sunil Ambwani, J.; Aditya Nath Mittal, J.",
+  "date_of_judgment": "2012-05-14",
+  "date_display": "14 May 2012",
+  "docket": "Writ-C No. 22079 of 2012",
+  "page_count": 4,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; recovery of unserved provisional theft assessment and compounding quashed.",
+  "headnote": "A theft-case demand recovered as land-revenue arrears, including compounding, cannot stand where the licensee has not proved service of the provisional assessment and has not passed a final assessment under section 126(3) of the Electricity Act, 2003. Compounding charges are payable only if the consumer admits the offence and cannot be recovered as arrears of land revenue. The High Court allowed the writ, treated the provisional order as served in Court, directed objections within 15 days, and left the licensee free to make a final assessment appealable under section 127.",
+  "facts": "Triloki Mishra challenged recovery of Rs.1,40,859 as electricity dues in a theft case, based on a 14 March 2011 provisional assessment. He pleaded that the order was never served, so no objections were filed, and that no final assessment under section 126(3) of the Electricity Act, 2003 preceded citation, arrest, detention and attachment. The distribution company's counsel produced a courier-sent provisional assessment of Rs.1,28,054 plus Rs.1 lakh compounding. The petitioner, on interim bail in a connected criminal writ, had not deposited compounding charges.",
+  "reusable_constructions": [
+    {
+      "construction": "Citation recovery of a theft assessment cannot proceed unless the licensee proves service of the provisional assessment and has made a final assessment under section 126(3) of the Electricity Act, 2003.",
+      "paras": "5-7"
+    },
+    {
+      "construction": "Compounding charges are to be deposited only if the consumer admits the offence; they cannot be recovered as arrears of land revenue.",
+      "paras": "6-7"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::126(3)",
+      "code": "EA2003",
+      "clause": "126(3)",
+      "topic": "final assessment before recovery of theft dues",
+      "type": "electricity_act",
+      "holding": "Demand and citation to recover theft-assessment dues, including recovery charges and compounding, cannot proceed where the licensee has not shown service of the provisional assessment and has not made a final assessment under section 126(3). Compounding charges are payable only if the consumer admits the offence and cannot be recovered as arrears of land revenue. Treating the provisional order as served in Court, the consumer may file objections within 15 days, after which the licensee may pass a final assessment under section 126(3) subject to appeal under section 127.",
+      "paras": "2-7"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [],
+  "authorities": []
+}
