@@ -1,0 +1,59 @@
+{
+  "case_id": "SCJ-1227",
+  "title": "Theft citation quashed for want of 6.8(b) opportunity",
+  "neutral_citation": "Writ-C No. 43745 of 2014",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J.; Ashwani Kumar Mishra, J.",
+  "date_of_judgment": "2014-09-03",
+  "date_display": "3 September 2014",
+  "docket": "Writ-C No. 43745 of 2014",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; citation and consequential recovery quashed; fresh assessment directed.",
+  "headnote": "A citation for alleged electricity-theft dues cannot stand unless the licensee shows that the provisional assessment was served and that the consumer had the opportunity under para 6.8(b) of the U.P. Electricity Supply Code, 2005 to object. The assessment must also record satisfaction that theft was committed and disclose the basis of the quantified demand. Citation dated 2 May 2014 quashed; fresh provisional assessment to be prepared, served, and finalised after reasoned consideration of objections, following Ashok Kumar (2008 (6) ADJ 660).",
+  "facts": "Rajendra Kumar challenged a citation notice dated 2 May 2014 seeking recovery of alleged electricity dues of Rs.4,75,778. He contended that recovery had been issued without any opportunity to object to the provisional assessment. Counsel for the distribution licensee submitted on instructions that the provisional assessment had been sent by ordinary post; the petitioner disputed service. The instructions on record did not show actual service of the provisional assessment, any opportunity to object, the basis of the quantified demand, or a recorded satisfaction that theft of electricity had been committed.",
+  "reusable_constructions": [
+    {
+      "construction": "Where the licensee's instructions do not show how a provisional assessment was served, the consumer is treated as not having been afforded the opportunity under para 6.8(b) of the U.P. Electricity Supply Code, 2005 to object to that assessment.",
+      "paras": "1"
+    },
+    {
+      "construction": "A provisional assessment for alleged theft cannot sustain recovery unless it records the assessing authority's satisfaction that theft was committed and discloses the basis of the quantified demand.",
+      "paras": "1"
+    },
+    {
+      "construction": "Quashing a citation issued without 6.8(b) opportunity requires a fresh provisional assessment, actual service, and a reasoned final assessment after considering the consumer's objections (Ashok Kumar applied).",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "UP-2005",
+      "clause": "6.8(b)",
+      "topic": "theft — provisional assessment — opportunity to object",
+      "type": "supply_code",
+      "holding": "A citation notice for alleged electricity dues cannot stand where the licensee does not show that the provisional assessment was served or that the consumer was afforded the opportunity under para 6.8(b) of the U.P. Electricity Supply Code, 2005 to object. The provisional assessment must also record the assessing authority's satisfaction that theft was committed and give the basis of the quantified demand. Failure on these counts warrants quashing of the citation and all consequential proceedings, with a direction to issue and serve a fresh provisional assessment and to pass a reasoned final assessment after considering objections, in the light of Ashok Kumar v. State of U.P., 2008 (6) ADJ 660 (DB).",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "whether the petitioner committed theft of electricity, and the correctness of the demand of Rs.4,75,778",
+      "note": "Citation quashed for want of 6.8(b) opportunity and absence of recorded satisfaction/basis; merits of theft and quantum left to fresh assessment.",
+      "paras": "1"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008 (6) ADJ 660 (DB)",
+      "cited_by": "1",
+      "pinpoint": "paras 56-64"
+    }
+  ]
+}
