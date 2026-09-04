@@ -1,0 +1,38 @@
+{
+  "case_id": "SCJ-1120",
+  "title": "Munna Lal v. State of U.P. & Ors.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "V.K. Shukla, J.; Shashi Kant, J.",
+  "date_of_judgment": "2014-09-03",
+  "date_display": "3 September 2014",
+  "docket": "Criminal Misc. Writ Petition No. 15129 of 2014",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "s.135 FIR not quashed; arrest only under CrPC 41/41-A; compounding left to Supply Code 2005",
+  "headnote": "A writ to quash an FIR under s.135 of the Electricity Act, 2003 was refused because the FIR disclosed a cognizable offence. Arrest not having been made, the Court directed that if arrest is contemplated and the offence cannot attract more than seven years, police must follow CrPC s.41(1)(b) read with s.41-A. Compounding, if available, was left to the Electricity Supply Code, 2005.",
+  "facts": "Munna Lal sought quashing of FIR dated 22 January 2014 (Case Crime No. 42 of 2014) registered under s.135 of the Electricity Act, 2003 at Police Station Kotwali, District Jhansi. He had not been arrested. Counsel argued that even if the charge were proved a sentence of more than seven years could not be awarded, so arrest should not be mechanical, and that the alleged offence was compoundable. The State appeared through the Government Advocate.",
+  "holding_units": [
+    {
+      "provision": "EA2003::135",
+      "code": "EA2003",
+      "clause": "135",
+      "topic": "quash of s.135 FIR; CrPC 41 arrest; compounding under Supply Code",
+      "type": "electricity_act",
+      "holding": "An FIR under s.135 of the Electricity Act, 2003 that discloses a cognizable offence will not be quashed in writ. Where arrest has not been made and the alleged offence cannot attract more than seven years, police must observe CrPC s.41(1)(b) read with s.41-A; breach may be complained of to the Magistrate. If the offence is compoundable, the accused may seek compounding under the Electricity Supply Code, 2005.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "whether the alleged s.135 offence is in fact compoundable under the Supply Code, 2005",
+      "note": "Court left compounding to the petitioner if available; did not decide eligibility.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
