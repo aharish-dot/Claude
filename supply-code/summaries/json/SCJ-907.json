@@ -1,0 +1,44 @@
+{
+  "case_id": "SCJ-907",
+  "title": "Manoj Kumar v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sunil Ambwani, J.; Aditya Nath Mittal, J.",
+  "date_of_judgment": "2012-05-04",
+  "date_display": "4 May 2012",
+  "docket": "WRIT - C No. 21892 of 2012",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition dismissed; copy to be sent to the Chairman, State Consumer Commission.",
+  "headnote": "Writ challenging recovery of assessed electricity dues of Rs. 7,02,518 dismissed. The petitioner had not pursued departmental remedies under the U.P. Electricity Supply Code, 2005, was already before the District Consumer Forum, Auraiya, and had a right of appeal against the assessment (the Court citing Section 27 of the Electricity Act). The Court strongly deprecated the Forum's unreasoned interim mandatory injunction to reconnect supply and its summons to the Executive Engineer, holding that the Consumer Protection Act confers no such power.",
+  "facts": "Manoj Kumar had earlier filed Writ Petition No. 18633 of 2006 for bill correction. Instead of pursuing departmental remedies under the U.P. Electricity Supply Code, 2005, he obtained from the District Consumer Forum, Auraiya (Case No. 43 of 2008) an interim mandatory injunction to reconnect supply. He reconnected; a theft case under Section 138-B of the Electricity Act was registered on 5 April 2011, and arrest was stayed in Criminal Misc. Writ Petition No. 7282 of 2011. The department then assessed dues of Rs. 7,02,518 and initiated recovery.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "writ against assessed dues; statutory appeal and pending Forum",
+      "type": "electricity_act",
+      "holding": "A consumer who bypassed departmental remedies under the U.P. Electricity Supply Code, 2005, and is already before the District Consumer Forum, cannot maintain a writ against recovery of assessed electricity dues; he also has a right of appeal against the assessment under the Electricity Act (cited as Section 27). The Consumer Protection Act does not empower a District Forum to pass an unreasoned interim mandatory injunction to reconnect supply or to summon the Executive Engineer for non-compliance.",
+      "paras": "1",
+      "flag": "Court cited 'Section 27 of the Electricity Act' for appeal against assessment of electricity dues; catalog key is EA2003::127. Theft case recited as 'Section 138-B'."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Merits and quantum of the assessed dues of Rs. 7,02,518",
+      "note": "Writ dismissed without examining the assessment; statutory appeal left open.",
+      "paras": "1"
+    },
+    {
+      "point": "Whether the Section 138-B offence was compounded or established",
+      "note": "Court only recorded that nothing showed compounding.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
