@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 789,
+  "next_seq": 790,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -4720,6 +4720,12 @@
       "case_id": "SCJ-786",
       "source_basename": "WRIC(A)_30451_2010.pdf",
       "title": "Bhikari Lal Pal v. U.P. Power Corporation",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-787",
+      "source_basename": "WRIC(A)_30800_2010.pdf",
+      "title": "M/s Maya Cold Storage & Food Products (Pvt.) Ltd. v. Dakshinanchal Vidyut Vitran Nigam & Ors.",
       "status": "done"
     }
   ]
