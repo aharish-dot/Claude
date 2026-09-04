@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 674,
+  "next_seq": 675,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -4030,6 +4030,12 @@
       "case_id": "SCJ-671",
       "source_basename": "WRIC(A)_44093_2007.pdf",
       "title": "Ashok Kumar v. U.P. Power Corporation Ltd. & Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-672",
+      "source_basename": "WRIC(A)_46844_2007.pdf",
+      "title": "Murari Lal v. Regional Appellate Committee/Supdt. Engg./D.G.M. & Others",
       "status": "done"
     }
   ]
