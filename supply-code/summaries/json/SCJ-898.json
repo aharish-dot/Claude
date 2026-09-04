@@ -1,0 +1,60 @@
+{
+  "case_id": "SCJ-898",
+  "title": "Final s.126(3) assessment mandatory before recovery; notice-footer insufficient",
+  "neutral_citation": "Writ-C No. 15954 of 2012",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sunil Ambwani, J.; Pankaj Naqvi, J.",
+  "date_of_judgment": "2012-04-12",
+  "date_display": "12 April 2012",
+  "docket": "Writ-C No. 15954 of 2012",
+  "page_count": 4,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; final s.126 order directed after objections; recovery stayed till then",
+  "headnote": "A footer on a Section 126(3) notice that unanswered notice shall be treated as the final assessment does not meet Section 126(3). The assessing officer must record whether the notice was served, consider objections if filed, and in either event pass a final assessment order before recovery under the U.P. Electricity Supply Code, 2005. Writ disposed with a direction to pass that final order after considering the consumer's objections dated 7.6.2011; recovery only thereafter, subject to appeal.",
+  "facts": "Jaipal Singh, a PVVNL consumer at Noida, challenged recovery of a Section 126 assessment. He had objected on 7.6.2011 to the provisional assessment, claimed he was paying regular bills including a 14.12.2011 bill for 389 units, and said a Section 138 reconnection charge was unsupported by the FIR. The department produced a Section 126(3) notice with a footer that unanswered notice would be treated as the final assessment. No final assessment order had been passed and no Electricity Dues Recovery Act demand had issued.",
+  "reusable_constructions": [
+    {
+      "construction": "A printed note on a s.126(3) provisional-assessment notice that the notice will stand as the final assessment if unanswered does not satisfy s.126(3); a speaking final order is still required.",
+      "paras": "1"
+    },
+    {
+      "construction": "Recovery of a s.126 assessment under the U.P. Electricity Supply Code, 2005 cannot be initiated until a final assessment order has been passed, whether or not the consumer filed objections.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::126(3)",
+      "code": "EA2003",
+      "clause": "126(3)",
+      "topic": "final assessment before recovery; deemed-final notice",
+      "type": "electricity_act",
+      "holding": "A note appended to a s.126(3) notice that if no reply is received the notice shall be treated as the final assessment does not serve s.126(3). The Executive Engineer must record whether the notice was served and, if objections have been filed, consider them; in either case a final assessment order must be passed before recovery of the assessed amount under the U.P. Electricity Supply Code, 2005. Where no final assessment had been made, the writ was disposed with a direction to pass a final order after considering the petitioner's objections dated 7.6.2011; recovery only after that order, which remains appealable.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "final-s126-assessment-mandatory-precondition-to-recovery-citation",
+      "application": "A footer treating unanswered s.126(3) notice as the final assessment does not satisfy the statute; recovery under the Supply Code awaits a speaking final order after findings on service and, if filed, objections.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the s.138 reconnection charge was supported by the FIR",
+      "note": "Raised at the 2.4.2012 listing; the 12.4.2012 disposal did not decide the reconnection allegation.",
+      "paras": "1"
+    },
+    {
+      "point": "Merits of the provisional assessment and whether unauthorised use was made out",
+      "note": "Left to the Executive Engineer on a speaking final assessment, appealable at the consumer's option.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
