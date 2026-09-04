@@ -1,0 +1,168 @@
+{
+  "case_id": "SCJ-706",
+  "title": "M/S Mayur Sheetgrah Pvt. Ltd. v. U.P. Power Corporation Ltd. And Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Ashok Bhushan, J.; Mrs. Ranjana Pandya, J.",
+  "date_of_judgment": "2014-04-09",
+  "date_display": "9 April 2014",
+  "docket": "Writ - C No. 12545 of 2009",
+  "page_count": 35,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of; 24.02.2009 theft assessment set aside and remitted for a fresh order after objections to the MRI report",
+  "headnote": "A theft assessment under clause 8.1 of the U.P. Electricity Supply Code, 2005 cannot stand where the MRI report is supplied only along with the final order. Clause 8.1(a)(vii) requires that the MRI report be supplied where there is evidence of tampering. Where the assessing officer's own order recites that the MRI is now to be supplied and that clause 8.2(i) has not been complied with, yet finalises the demand in the same breath, the order violates natural justice. Following Whirlpool Corporation v. Registrar of Trade Marks, the statutory appeal is then no bar to the writ. The assessment dated 24 February 2009 is set aside and remitted for a fresh order after the consumer files objections to the MRI of 27 November 2008.",
+  "facts": "M/s Mayur Sheetgrah Pvt. Ltd., a cold storage, held a sanctioned load from U.P. Power Corporation Ltd. Premises were checked on 23 and 27 November 2008; an FIR under Section 135 of the Electricity Act, 2003 was lodged against the Director. A provisional assessment of Rs. 47,19,834 on 1 December 2008 was revised to Rs. 28,19,340 on 23 January 2009. Writ Petition No. 6130 of 2009 was disposed of on 4 February 2009, directing that objections be decided by an officer other than respondent no. 3, with no coercive action meantime.\n\nThe Executive Engineer then passed the assessment dated 24 February 2009 for Rs. 26,86,316, challenged here. The petitioner said the MRI report had never been supplied before that order and that the same Executive Engineer had decided the matter contrary to the 4 February 2009 direction. An interim order of 4 March 2009 stayed the assessment on deposit of Rs. 50,000 and directed restoration within 24 hours. Supply had already been restored by the final hearing.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1(VII)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "8.1(a)(vii)",
+      "topic": "MRI report must be supplied before a theft assessment is finalised, not along with the final order",
+      "type": "supply_code",
+      "question": "Can a theft assessment be finalised when the MRI report is supplied to the consumer only along with that final order?",
+      "holding": "No. Clause 8.1(a)(vii) imposes a statutory requirement that the MRI report be supplied where there is evidence of tampering. The supplementary counter affidavit and the 24.02.2009 order itself showed that the MRI downloaded on 27.11.2008 was supplied only with that order, which also directed the Executive Engineer to supply it. The Court held it could not see how the assessment was finalised by the same order, and that the order therefore violated natural justice. The 24.02.2009 assessment of Rs. 26,86,316 is set aside. The petitioner may file objections to the MRI within two weeks; respondent no. 3 is to consider those objections together with the replies already on record and pass a fresh assessment.",
+      "qualifier": "The Court did not decide whether theft or the assessed quantum was made out.",
+      "paras": "15-18, 21-24",
+      "flag": "Cited as para 8.1 (a) (vii); catalog key UP-2005::8.1(VII). The quoted text also refers to clause 5.6 testing on LT meter removal; this case turns on MRI supply, not a 5.6 laboratory test. Source PDF concatenates 2011–2014 listing and adjournment orders with the 9.4.2014 disposal (Ashok Bhushan and Ranjana Pandya, JJ.). That disposal is unnumbered; paras are sequential blocks of the 9.4.2014 order from 'Heard Shri Pramod Kumar Jain'."
+    },
+    {
+      "provision": "UP-2005::8.2",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "8.2(i)",
+      "topic": "An assessment cannot be finalised in the same order that records clause 8.2(i) as still uncomplied",
+      "type": "supply_code",
+      "question": "Can a theft assessment stand as final when the assessing officer's own order records that clause 8.2(i) has not been complied with and that further proceedings remain?",
+      "holding": "No. The 24.02.2009 order itself stated that paragraph 8.2(i) had not been complied with and that the Executive Engineer might now take further proceedings, yet it finalised the assessment at Rs. 26,86,316. That contradiction, with the simultaneous direction to supply the MRI report, vitiated the order.",
+      "paras": "18",
+      "flag": "The Court did not quote clause 8.2(i). Catalog key is UP-2005::8.2."
+    },
+    {
+      "provision": "EA2003::126",
+      "code": "Electricity Act, 2003",
+      "clause": "126",
+      "topic": "Statutory appeal is no bar where the theft assessment is in breach of natural justice",
+      "type": "electricity_act",
+      "question": "Must the consumer be relegated to the statutory appeal against a final theft assessment when the MRI report was not supplied before that assessment was finalised?",
+      "holding": "No. The licensee pressed a statutory appeal. The Court held it well established that, on a violation of natural justice, the petitioner cannot be compelled to avail the statutory remedy, and applied Whirlpool Corporation v. Registrar of Trade Marks (the three contingencies: fundamental rights, natural justice, want of jurisdiction or vires).",
+      "paras": "13-14, 19",
+      "flag": "The Court described the appeal as 'under section 126 of the Act of filing appeal'. The appeal against a section 126 assessment is section 127; not silently corrected. The 4.2.2009 order in WP 6130 of 2009 had treated the then-pending objections as under section 126(3)."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "opportunity-before-final-assessment",
+      "application": "A theft assessment is vitiated if the MRI report, which clause 8.1(a)(vii) requires to be supplied where tampering is alleged, is furnished only along with the final order. Same MRI/testing-before-assessment cluster as SCJ-682.",
+      "lead_authorities": [],
+      "paras": "15-18, 21-24"
+    },
+    {
+      "tag": "reasonable-opportunity-theft-assessment",
+      "application": "Supplying the MRI with the final order, while the order itself says clause 8.2(i) remains uncomplied and further proceedings are to be taken, is not a reasonable opportunity before a theft assessment is finalised.",
+      "lead_authorities": [],
+      "paras": "18"
+    },
+    {
+      "tag": "s126-procedural-strictness-notice-and-hearing",
+      "application": "Where the MRI was not supplied before the assessment was finalised, the writ is maintainable despite the statutory appeal. Whirlpool: alternative remedy is no bar on a breach of natural justice.",
+      "lead_authorities": [
+        {
+          "name": "Whirlpool Corporation v. Registrar of Trade Marks",
+          "docid": ""
+        }
+      ],
+      "paras": "19"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the 24.02.2009 order was void because the same Executive Engineer decided it contrary to the 4.02.2009 direction",
+      "note": "The 4.02.2009 order in WP 6130 of 2009 required an officer other than respondent no. 3 to decide the objections. The Court recorded the licensee's submission that the incumbent Executive Engineer had changed, said it was not necessary to enter into the other issues, and remitted to respondent no. 3 for a fresh order.",
+      "paras": "20-21"
+    },
+    {
+      "point": "Merits of the theft allegation and the quantum of Rs. 26,86,316",
+      "note": "Left to the fresh assessment after objections to the MRI of 27.11.2008.",
+      "paras": "21-24"
+    },
+    {
+      "point": "The Section 135 FIR against the Director",
+      "note": "Recited as a fact of the 2008 checking. No order on the criminal case.",
+      "paras": "9"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008 (5) ALJ 383",
+      "court": "Allahabad High Court",
+      "docid": "",
+      "proposition": "Relied on by the petitioner for the proposition that, where the MRI was not served, the assessment is in violation of natural justice and the consumer cannot be insisted upon to take the statutory remedy.",
+      "how_treated": "Cited by the petitioner in rejoinder; the Court decided the maintainability point on Whirlpool rather than by applying this decision in terms.",
+      "cited_by": "Petitioner",
+      "treatment": "Relied on"
+    },
+    {
+      "name": "Whirlpool Corporation v. Registrar of Trade Marks",
+      "citation": "1998 (8) SCC 1",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Alternative statutory remedy does not bar a writ under Article 226 where there has been a violation of natural justice (or enforcement of fundamental rights, or want of jurisdiction / vires). Exhaustion is a rule of policy, convenience and discretion, not of law.",
+      "how_treated": "Quoted (paras 14–20 of the report) and applied to entertain the writ despite the statutory appeal, the 24.02.2009 assessment having been passed in breach of natural justice.",
+      "cited_by": "Court",
+      "treatment": "Applied"
+    },
+    {
+      "name": "Rashid Ahmed v. Municipal Board, Kairana",
+      "citation": "",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Existence of an adequate legal remedy is a factor in the grant of writs, not an absolute bar.",
+      "how_treated": "Noticed within the quoted Whirlpool extract.",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    },
+    {
+      "name": "K.S. Rashid & Son v. Income Tax Investigation Commission",
+      "citation": "",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Where an alternative remedy exists it is ordinarily a sound exercise of discretion to refuse a writ, unless there are good grounds to the contrary.",
+      "how_treated": "Noticed within the quoted Whirlpool extract.",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    },
+    {
+      "name": "State of U.P. v. Mohd. Nooh",
+      "citation": "",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "The rule requiring exhaustion of statutory remedies before a writ is one of policy, convenience and discretion, not of law; certiorari has issued despite other adequate legal remedies.",
+      "how_treated": "Noticed within the quoted Whirlpool extract.",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    },
+    {
+      "name": "A.V. Venkateswaran, Collector of Customs v. Ramchand Sobhraj Wadhwani",
+      "citation": "",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "The exceptions to the alternative-remedy rule are not exhaustive; a discretion vests in the High Court to entertain a petition notwithstanding an adequate alternative remedy.",
+      "how_treated": "Noticed within the quoted Whirlpool extract.",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    },
+    {
+      "name": "Calcutta Discount Co. Ltd v. ITO, Companies Distt.",
+      "citation": "",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Where an executive authority acts without jurisdiction and thereby subjects a person to lengthy proceedings and harassment, the High Court may issue prohibition or certiorari.",
+      "how_treated": "Noticed within the quoted Whirlpool extract.",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    }
+  ]
+}
