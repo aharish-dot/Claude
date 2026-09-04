@@ -1,0 +1,53 @@
+{
+  "case_id": "SCJ-1002",
+  "title": "Kamlesh Sisodiya v. State of U.P. & Ors.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sunil Ambwani and Bharat Bhushan, JJ.",
+  "date_of_judgment": "2013-02-28",
+  "date_display": "28 February 2013",
+  "docket": "Writ-C No. 3476 of 2013",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of; PD to be considered after deposit of theft dues.",
+  "headnote": "Permanent disconnection under the U.P. Electricity Supply Code, 2005 may be considered only after deposit of electricity dues, including an unchallenged theft assessment. If the consumer objects to or appeals that assessment, disconnection awaits the result; regular bills remain payable in the meantime. The order cites cl. 4.1.4(g); that numbering is flagged against catalogued cl. 4.14(g).",
+  "facts": "The petitioner sought a writ directing Dakshinanchal Vidyut Vitran Nigam Ltd. officers to consider his 17.06.2011 application for permanent disconnection of a 7.5 kW LMV-6 supply at village Guthara, Hathras. Counsel for the licensee informed the Court that a theft assessment had been made, left unchallenged, and only partly paid (Rs.30,550 on 30.09.2012). He submitted that clause 4.1.4(g) of the U.P. Electricity Supply Code, 2005 permits disconnection only after deposit of dues, treating the unchallenged assessment as such.",
+  "reusable_constructions": [
+    {
+      "construction": "An unchallenged theft assessment is treated as electricity dues for considering a consumer's request for permanent disconnection.",
+      "paras": "2"
+    },
+    {
+      "construction": "Permanent disconnection may be considered only after those dues are deposited; if the consumer instead objects to or appeals the assessment, disconnection awaits that result.",
+      "paras": "2"
+    },
+    {
+      "construction": "While a permanent-disconnection request is pending a challenge to a theft assessment, the consumer remains liable to pay regular bills.",
+      "paras": "2"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.14(g)",
+      "code": "UP-2005",
+      "clause": "4.14(g)",
+      "topic": "permanent disconnection after theft-assessment dues",
+      "type": "supply_code",
+      "holding": "A writ seeking consideration of an application for permanent disconnection, where an unchallenged theft assessment remains outstanding, is disposed of by directing that if the consumer deposits electricity dues including that assessment, the licensee shall consider and decide the application; if the consumer objects to or appeals the assessment, permanent disconnection awaits the result, and regular bills must be paid in the meantime.",
+      "paras": "2",
+      "flag": "cited as 4.1.4(g)"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "validity of the theft assessment",
+      "note": "The Court did not examine the assessment on merits; if the petitioner objects to or appeals it, permanent disconnection awaits that result.",
+      "paras": "2"
+    }
+  ],
+  "authorities": []
+}
