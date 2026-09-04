@@ -1,0 +1,50 @@
+{
+  "case_id": "SCJ-1131",
+  "title": "Avdhesh v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "V.K. Shukla, J.; Shashi Kant, J.",
+  "date_of_judgment": "2014-09-22",
+  "date_display": "22 September 2014",
+  "docket": "Criminal Misc. Writ Petition No. 16610 of 2014",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "s.135 FIR not quashed; CrPC arrest; compounding under Code",
+  "headnote": "An FIR under s.135 of the Electricity Act that discloses a cognizable offence is not quashed in a criminal writ. Arrest, if made for an offence not carrying more than seven years, must follow CrPC ss.41(1)(b) and 41-A. Compounding, if available, is to be sought under the Electricity Supply Code, 2005.",
+  "facts": "Avdhesh filed a criminal miscellaneous writ seeking to quash the FIR dated 24 August 2014 registered as Case Crime No. 532 of 2014 under Section 135 of the Electricity Act at Police Station Bisauli, District Budaun. He had not been arrested. Counsel argued that the alleged offence could not attract a sentence of more than seven years, that arrest should not be mechanical, and that the offence was compoundable. The State was represented by the Government Advocate. The Division Bench heard the petition on 22 September 2014.",
+  "holding_units": [
+    {
+      "provision": "EA2003::135",
+      "code": "EA2003",
+      "clause": "135",
+      "topic": "s.135 FIR — quash, arrest, compounding",
+      "type": "electricity_act",
+      "holding": "An FIR under s.135 that discloses a cognizable offence will not be quashed. Where arrest has not been made and the offence cannot carry more than seven years, police must follow CrPC ss.41(1)(b) and 41-A. If the offence is compoundable, the accused may seek compounding under the Electricity Supply Code, 2005.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "s135-arrest-safeguards-and-compounding-remedy",
+      "application": "Quash of the s.135 FIR refused; arrest, if at all, under CrPC 41(1)(b)/41-A; compounding left to the Supply Code 2005 if the offence is compoundable.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits of the s.135 allegation",
+      "note": "FIR left to investigation; quash refused only because a cognizable offence was disclosed.",
+      "paras": "1"
+    },
+    {
+      "point": "Compounding on merits",
+      "note": "Court did not grant or refuse compounding; petitioner may apply under the Supply Code if the offence is compoundable.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
