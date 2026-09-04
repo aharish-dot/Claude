@@ -1,0 +1,44 @@
+{
+  "case_id": "SCJ-710",
+  "title": "Satish Kumar Sharma v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Sudhir Agarwal, J.",
+  "date_of_judgment": "2014-08-01",
+  "date_display": "1 August 2014",
+  "docket": "WRIT - C No. 30219 of 2009",
+  "page_count": 5,
+  "significance": "ordinary",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; assessment and s.127 orders quashed; remanded.",
+  "headnote": "Writ allowed. Final theft assessment dated 25.2.2008 and the Commissioner's Section 127 order dated 18.5.2009 were quashed as not consistent with Ashok Kumar v. State of U.P. 2008 (6) ADJ 660 (DB) and the procedure under the Electricity Supply Code, 2005. Matter remanded to the Assessing Authority for a fresh order in accordance with law.",
+  "facts": "Vigilance checking at the petitioner's premises on 3 January 2008 allegedly found theft by direct connection of a 7.5 HP submersible pump. An FIR was lodged and Rs 16,000 taken as compounding. A provisional assessment of Rs 2,20,554 dated 18 January 2008 was made final on 25 February 2008 after treating the petitioner's objection as unsatisfactory. After credit of sums already realised, a 1958 Act recovery certificate issued for the balance. The Commissioner's Section 127 appeal was rejected on 18 May 2009.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "s.127 appeal against theft assessment",
+      "type": "interplay",
+      "holding": "A final theft assessment and the Section 127 appellate order dismissing the consumer's appeal, if not consistent with the procedure required by Ashok Kumar and the Electricity Supply Code, 2005 (adequate show-cause and a speaking assessment), are liable to be quashed on writ, with remand to the Assessing Authority for a fresh order in accordance with law.",
+      "paras": "3-5"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Merits of the alleged theft and quantum of assessment",
+      "note": "Remanded to the Assessing Authority for a fresh order in accordance with law and Ashok Kumar.",
+      "paras": "5"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008 (6) ADJ 660",
+      "cited_by": "3-5"
+    }
+  ]
+}
