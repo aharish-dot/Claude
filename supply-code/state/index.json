@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 945,
+  "next_seq": 946,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -5650,6 +5650,12 @@
       "case_id": "SCJ-941",
       "source_basename": "WRIC(A)_39505_2012.pdf",
       "title": "Babu Khan v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-942",
+      "source_basename": "WRIC(A)_4260_2012.pdf",
+      "title": "Kanpur Electricity Supply Co. v. U.P. Electricity Regulatory Commission",
       "status": "done"
     }
   ]
