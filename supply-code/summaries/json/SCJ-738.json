@@ -1,0 +1,60 @@
+{
+  "case_id": "SCJ-738",
+  "title": "Rajesh Kumar v. U.P. Power Corporation Ltd.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sunil Ambwani, J.; Virendra Singh, J.",
+  "date_of_judgment": "2009-10-13",
+  "date_display": "13 October 2009",
+  "docket": "Civil Misc. Writ Petition No. 53288 of 2009",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; recovery stayed until final assessment under clause 8.1(b).",
+  "headnote": "FIR under s.135 and a provisional theft assessment were followed by recovery of Rs 40,856 without a final assessment. Clause 8.1(b) of the U.P. Electricity Supply Code, 2005 requires a final assessment before recovery, even if no objection is filed. Recovery under the 4 September 2009 notice stayed until that assessment is made.",
+  "facts": "An FIR under Section 135 of the Electricity Act, 2003 was lodged against the petitioner and others for using a domestic connection in shops for commercial purposes. A provisional assessment was made. The petitioner said he filed objections; the licensee's counsel said none were filed and the provisional bill was sent for recovery. Without making a final assessment, the respondents initiated recovery of Rs 40,856 plus recovery charges under a notice dated 4 September 2009. The petitioner sought a writ staying that recovery.",
+  "reusable_constructions": [
+    {
+      "construction": "A licensee cannot recover a theft assessment on a provisional bill; clause 8.1(b) of the U.P. Electricity Supply Code, 2005 requires a final assessment first, even where the consumer files no objection.",
+      "paras": "2"
+    },
+    {
+      "construction": "Service of a provisional theft assessment and an opportunity to reply do not authorise recovery; the assessing officer must record findings and make a final assessment under clause 8.1(b) before demand.",
+      "paras": "2"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1(b)",
+      "code": "UP-2005",
+      "clause": "8.1(b)",
+      "topic": "final assessment before recovery of theft assessment",
+      "type": "supply_code",
+      "holding": "Clause 8.1(b) of the U.P. Electricity Supply Code, 2005 requires a final assessment of theft, recording that the provisional assessment was served, before recovery can be initiated, even if the consumer has not filed objections. Recovering the amount without that final assessment violates the Code. Recovery of Rs 40,856 under the notice dated 4 September 2009 shall remain in abeyance until final assessment is made.",
+      "paras": "2"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "no-recovery-without-final-assessment-clause-8.1(b)",
+      "application": "Provisional theft assessment had been served and recovery of Rs 40,856 begun without a final assessment; recovery stayed until that step is completed, whether or not objections were filed.",
+      "lead_authorities": [],
+      "paras": "2"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner filed objections to the provisional assessment",
+      "note": "The petitioner asserted objections were filed; the licensee's counsel said none were. Final assessment is required either way.",
+      "paras": "2"
+    },
+    {
+      "point": "Merits of the Section 135 theft allegation and quantum of the assessment",
+      "note": "Recovery stayed until final assessment; theft and amount were not decided.",
+      "paras": "2"
+    }
+  ],
+  "authorities": []
+}
