@@ -1,0 +1,3 @@
+{"ts": 1788537488.013, "case_id": "SCJ-246", "step": "read_extract", "kind": "in", "label": "extract", "chars": 42697, "words": 6816, "est_tokens": 10674, "method": "chars/4"}
+{"ts": 1788537488.039, "case_id": "SCJ-246", "step": "author_json", "kind": "out", "label": "digest_json", "chars": 17786, "words": 2466, "est_tokens": 4446, "method": "chars/4"}
+{"ts": 1788537574.023, "case_id": "SCJ-246", "step": "finalize", "kind": "out", "label": "finalize_stdout", "chars": 3339, "words": 406, "est_tokens": 835, "method": "chars/4"}
