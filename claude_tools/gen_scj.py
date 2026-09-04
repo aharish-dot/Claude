@@ -138,6 +138,9 @@ STYLE = """<style>
   .foot{ font-family:Arial,'Liberation Sans',sans-serif; font-size:7.6pt; color:#8a94a3;
         border-top:.5pt solid #c9d3df; margin-top:14pt; padding-top:5pt; }
   .disclaimer{ font-size:7.8pt; color:#8a94a3; font-style:italic; margin-top:3pt; }
+  .prov{ font-family:Arial,'Liberation Sans',sans-serif; font-size:7.6pt; color:#6b7787;
+        margin:-6pt 0 11pt; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .prov b{ color:#4a5563; }
 </style>"""
 
 
@@ -341,7 +344,10 @@ def eyebrow_line(c):
 
 def build(c):
     global _PIN
-    _PIN = "p.&nbsp;" if (c.get("pin_basis") or "").strip().lower() == "page" else "&para;&nbsp;"
+    pb = (c.get("pin_basis") or "").strip().lower()
+    # "date"/"none": render the pin text as-is (e.g. an order-sheet's order date),
+    # with no paragraph/page marker prefix.
+    _PIN = {"page": "p.&nbsp;", "date": "", "none": ""}.get(pb, "&para;&nbsp;")
 
     ident = " &middot; ".join(x for x in [
         esc(c.get("court", "")), esc(c.get("bench", "")),
@@ -356,6 +362,8 @@ def build(c):
     nds = "".join(not_decided(n) for n in c.get("not_decided", []))
     rel_box = related_cases_box(c)
     rows = "".join(auth_row(a) for a in c.get("authorities", []))
+    sf = esc(c.get("source_file", ""))
+    prov = f'  <div class="prov"><b>Source file:</b> {sf}</div>\n' if sf else ""
 
     tags_sec = f'  <div class="seclabel">Principle tags</div>\n{tags}' if tags else ""
     nd_sec = f'  <div class="seclabel">Not decided &mdash; negative authority</div>\n{nds}' if nds else ""
@@ -378,7 +386,7 @@ def build(c):
   <div class="eyebrow">{eyebrow_line(c)}</div>
   <h1>{esc(c.get("title",""))}</h1>
   <div class="idline">{ident}</div>
-
+{prov}
   <div class="headnote"><span class="hn">Headnote</span>{esc(c.get("headnote",""))}</div>
 {facts_box(c)}{rc_box}  <div class="seclabel">Holding-units</div>
 {hus}
