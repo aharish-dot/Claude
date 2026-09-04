@@ -1,3 +1,10 @@
 {"ts": 1788537488.013, "case_id": "SCJ-246", "step": "read_extract", "kind": "in", "label": "extract", "chars": 42697, "words": 6816, "est_tokens": 10674, "method": "chars/4"}
 {"ts": 1788537488.039, "case_id": "SCJ-246", "step": "author_json", "kind": "out", "label": "digest_json", "chars": 17786, "words": 2466, "est_tokens": 4446, "method": "chars/4"}
 {"ts": 1788537574.023, "case_id": "SCJ-246", "step": "finalize", "kind": "out", "label": "finalize_stdout", "chars": 3339, "words": 406, "est_tokens": 835, "method": "chars/4"}
+{"ts": 1788538165.143, "case_id": "SCJ-1059", "step": "claim", "kind": "out", "label": "claim_stdout", "chars": 436, "words": 47, "est_tokens": 109, "method": "chars/4"}
+{"ts": 1788538248.78, "case_id": "SCJ-1059", "step": "read_extract", "kind": "in", "label": "extract", "chars": 28199, "words": 4596, "est_tokens": 7050, "method": "chars/4"}
+{"ts": 1788538248.803, "case_id": "SCJ-1059", "step": "read_refs", "kind": "in", "label": "handoff", "chars": 9703, "words": 1249, "est_tokens": 2426, "method": "chars/4"}
+{"ts": 1788538248.825, "case_id": "SCJ-1059", "step": "read_refs", "kind": "in", "label": "exemplar", "chars": 14193, "words": 1972, "est_tokens": 3548, "method": "chars/4"}
+{"ts": 1788538591.675, "case_id": "SCJ-1059", "step": "author_json", "kind": "out", "label": "digest_json", "chars": 21646, "words": 3104, "est_tokens": 5412, "method": "chars/4"}
+{"ts": 1788538630.189, "case_id": "SCJ-1059", "step": "self_check", "kind": "out", "label": "selfcheck", "chars": 302, "words": 23, "est_tokens": 76, "method": "chars/4"}
+{"ts": 1788538658.811, "case_id": "SCJ-1059", "step": "finalize", "kind": "out", "label": "finalize_stdout", "chars": 1039, "words": 73, "est_tokens": 260, "method": "chars/4"}
