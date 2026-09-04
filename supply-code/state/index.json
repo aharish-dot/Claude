@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1231,
+  "next_seq": 1232,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -7366,6 +7366,12 @@
       "case_id": "SCJ-1227",
       "source_basename": "WRIC(A)_43745_2014.pdf",
       "title": "Theft citation quashed for want of 6.8(b) opportunity",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1228",
+      "source_basename": "WRIC(A)_43757_2014.pdf",
+      "title": "M/S Prime Pulp & Paper Pvt. Ltd. v. Paschimanchal Vidyut Vitaran Nigam Ltd.",
       "status": "done"
     }
   ]
