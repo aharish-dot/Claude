@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 890,
+  "next_seq": 891,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -5320,6 +5320,12 @@
       "case_id": "SCJ-886",
       "source_basename": "WRIC(A)_73618_2011.pdf",
       "title": "New connection refused for want of landlord NOC — fresh consideration on indemnity bond",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-885",
+      "source_basename": "WRIC(A)_67480_2011.pdf",
+      "title": "M/S Modinagar Paper Mills Pvt. Ltd. v. Pashchimanchal Vidyut Vitran Nigam Ltd.",
       "status": "done"
     }
   ]
