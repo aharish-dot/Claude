@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 997,
+  "next_seq": 998,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -5962,6 +5962,12 @@
       "case_id": "SCJ-993",
       "source_basename": "WRIC(A)_29077_2013.pdf",
       "title": "M/S. Shyam Forging (P) Ltd. v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-994",
+      "source_basename": "WRIC(A)_29082_2013.pdf",
+      "title": "M/s The Mahabir Jute Mills Ltd. v. Purvanchal Vidyut Vitran Nigam Ltd.",
       "status": "done"
     }
   ]
