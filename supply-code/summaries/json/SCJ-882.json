@@ -1,0 +1,48 @@
+{
+  "case_id": "SCJ-882",
+  "title": "Unreasoned theft assessment set aside despite s.127 appeal",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Ashok Bhushan, J.; Vinay Kumar Mathur, J.",
+  "date_of_judgment": "2011-12-01",
+  "date_display": "1 December 2011",
+  "docket": "Writ-C No. 65731 of 2011",
+  "page_count": 5,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Assessment set aside; fresh order after considering reply.",
+  "headnote": "Division Bench set aside a Rs.83.31 lakh theft assessment under the U.P. Electricity Supply Code, 2005. An order that only refers to the consumer's reply without considering any ground is not a reasoned order. Availability of appeal under section 127 of the Electricity Act, 2003 did not bar writ interference on those facts. Licensee given liberty to pass a fresh order within four weeks after considering the reply; consumer to keep paying regular bills.",
+  "facts": "M/s S.S. Ice and Cold Storage sought quashing of an Executive Engineer's 21 October 2011 assessment of Rs.83,31,462 after a 25 September 2011 checking of its cold storage. The unit had been inspected on 18 September 2011 and an MRI taken on 22 September 2011. A 29 September 2011 provisional notice assessed theft for 365 days under the U.P. Electricity Supply Code, 2005. The petitioner filed a 43-page reply on 10 October 2011. The final order referred to that reply but considered none of its grounds.",
+  "reusable_constructions": [
+    {
+      "construction": "Writ is not barred by section 127 of the Electricity Act, 2003 where the assessment is not a reasoned order because the assessing officer failed to consider any ground in the consumer's reply.",
+      "paras": "1"
+    },
+    {
+      "construction": "An assessment that merely recites that a reply was filed, without dealing with any of the grounds taken, is not a reasoned order and is liable to be set aside, with liberty to pass a fresh order after considering the reply.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "writ despite s.127 — unreasoned assessment",
+      "type": "interplay",
+      "holding": "Although an appeal under section 127 of the Electricity Act, 2003 lay against the theft assessment, the Court set aside the 21 October 2011 order because it was not a reasoned order: the assessing officer referred to the petitioner's 10 October 2011 reply but considered none of the grounds. The licensee was given liberty to pass a fresh order after considering the reply within four weeks of production of a certified copy. The petitioner was directed to continue paying regular bills as they fell due.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Merits of the theft assessment, including the 365-day period and the MRI and regular-checking grounds",
+      "note": "Left to the assessing officer on a fresh order after considering the reply.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
