@@ -1,0 +1,45 @@
+{
+  "case_id": "SCJ-1072",
+  "title": "Theft-dues recovery without prior provisional assessment",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sunil Ambwani, J.; Surya Prakash Kesarwani, J.",
+  "date_of_judgment": "2013-12-02",
+  "date_display": "2 December 2013",
+  "docket": "Writ-C No. 63527 of 2013",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Recovery citation quashed; licensee may assess afresh after provisional notice",
+  "headnote": "A recovery citation for alleged electricity-theft dues cannot stand where the licensee admits that no provisional assessment preceded the final assessment and recovery. The Court barred recovery of Rs 55,078 under the citation dated 19 August 2013, while leaving the licensee free to make and serve a provisional assessment, invite objections, and then pass a final assessment, which the consumer may appeal.",
+  "facts": "The petitioner challenged a recovery citation dated 19 August 2013 for Rs 55,078 of alleged theft dues after purported assessment under the U.P. Electricity Supply Code, 2005. He denied theft and said the provisional assessment was never served and no final assessment followed objections. The Executive Engineer, Electricity Urban Distribution Division, Naini, Allahabad, stated that by letter dated 21 November 2013 the final recovery had been withdrawn in view of an order dated 30 June 2013.",
+  "reusable_constructions": [
+    {
+      "construction": "Recovery of electricity dues cannot proceed on a final assessment unless a provisional assessment has first been made, served, and objections invited and decided.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1",
+      "code": "UP-2005",
+      "clause": "8.1",
+      "topic": "provisional assessment before recovery",
+      "type": "supply_code",
+      "holding": "Where a licensee recovered alleged theft dues without first making a provisional assessment, serving it, and inviting and deciding objections before final assessment, the recovery citation is unsustainable. The licensee may still issue a provisional assessment, serve it, invite objections, and then make a final assessment, against which the consumer may appeal.",
+      "paras": "1",
+      "flag": "Order cites a theft case under Supply Code 2005 and the Electricity Act with no clause number; 8.1 keyed from the provisional-assessment, objections, final-assessment and appeal sequence directed."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner committed theft of electricity",
+      "note": "The Court did not decide the theft allegation on merits; it quashed recovery for want of provisional assessment and left a fresh assessment open.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
