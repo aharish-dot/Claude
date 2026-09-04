@@ -1,0 +1,87 @@
+{
+  "case_id": "SCJ-681",
+  "title": "Trinmurti Buildwell Pvt Ltd v. Paschimanchal Vidyut Vitran Nigam Ltd And Another",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Prakash Chandra Verma, J. and Ram Autar Singh, J.",
+  "date_of_judgment": "2010-09-24",
+  "date_display": "24 September 2010",
+  "docket": "Writ - C No. 24156 of 2008",
+  "page_count": 4,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; 10.4.2008 order quashed; connection directed within one month",
+  "headnote": "Where a factory is purchased in an auction sale for recovery of Union Bank of India's dues on the previous owner, and the sale certificate transfers the factory and premises free from all encumbrances, that certificate is itself a no-dues certificate for Clause 4.3(f) of the U.P. Electricity Supply Code, 2005. The last proviso to Clause 4.1, which withholds a new connection from a new owner until a Clause 4.3(f) no-dues certificate is produced, is therefore satisfied. Following Isha Marbles v. Bihar State Electricity Board (1995) 2 SCC 648 — applied by analogy to purchasers under section 29(1) of the State Financial Corporations Act — an auction purchaser who had no prior connection and no contract with the licensee is not a consumer or occupier under the Electricity Act and cannot be treated as a defaulter on the previous owner's arrears. The licensee's Clause 4.1 obligation to supply is not displaced. The writ is allowed; the order dated 10.4.2008 is quashed; the U.P. Power Corporation is directed to provide a connection within one month of production of a certified copy. If electricity dues exist against the previous owner, the Corporation may recover them from that owner in accordance with law.",
+  "facts": "Trinmurti Buildwell Pvt. Ltd. filed Writ-C No. 24156 of 2008 seeking a mandamus that the Power Corporation give an electricity connection to run its factory. Connection had been refused because of electricity dues on the previous owner. The petitioner had purchased the factory in an auction sale held to recover dues of Union Bank of India; the sale certificate transferred the factory and premises free from all encumbrances. Counsel for the respondents relied on the last proviso to Clause 4.1 and Clause 4.3(f) of the U.P. Electricity Supply Code, 2005. The order under challenge was dated 10.4.2008. The source PDF concatenates an 11.3.2010 pass-over (R.K. Agrawal and Jayashree Tiwari JJ.) with the operative Division Bench judgment of 24.9.2010.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.3(f)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.3(f)",
+      "topic": "Bank-recovery auction sale certificate free from encumbrances is a Clause 4.3(f) no-dues certificate",
+      "type": "supply_code",
+      "question": "Does an auction sale certificate transferring the premises free from all encumbrances, on a sale for recovery of a bank's dues, satisfy Clause 4.3(f) so that a new connection cannot be refused for the previous owner's arrears?",
+      "holding": "Yes. Clause 4.3(f) requires a purchaser of existing property to verify that the old owner has paid all dues and obtained a no-dues certificate, and the last proviso to Clause 4.1 withholds a new connection until that certificate is produced. The petitioner bought the factory in an auction sale for recovery of Union Bank of India dues; the sale certificate transferred the factory and premises free from all encumbrances. That certificate is itself a no-dues certificate so far as the petitioner is concerned, and the authorities ought to have treated it as no objection towards electricity dues on the petitioner.",
+      "paras": "unnumbered",
+      "flag": "The Court quotes Clause 4.3(f) as a single paragraph (purchaser's duty to verify dues and obtain no-dues). Later numbered sub-clauses 4.3(f)(i)–(viii) are not cited. Source PDF concatenates an 11.3.2010 pass-over (R.K. Agrawal and Jayashree Tiwari JJ.) with the operative 24.9.2010 judgment of Prakash Chandra Verma and Ram Autar Singh JJ., which is unnumbered. Same construction as SCJ-655 (SFC auction)."
+    },
+    {
+      "provision": "UP-2005::4.1",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.1",
+      "topic": "Auction purchaser without prior contract is not a defaulter; Clause 4.1 duty to supply remains",
+      "type": "supply_code",
+      "question": "Can the licensee refuse a new connection to a bank-recovery auction purchaser, who had no prior contract or connection, on the ground of the previous owner's arrears?",
+      "holding": "No. Following Isha Marbles, the new purchaser cannot be said to be a consumer or occupier under the Electricity Act, there having been no contract with the licensee before purchase. The Court treated the facts as the same as an SFC section 29(1) auction purchaser: the petitioner was not previously connected, cannot be said to be a defaulter, and it cannot be said that there are dues against him. The Power Corporation cannot be exempted from the Clause 4.1 obligation to supply. The writ is allowed; the order dated 10.4.2008 is quashed; connection is to be given within one month of production of a certified copy. If dues exist against the previous owner, the Corporation may recover them from that owner in accordance with law.",
+      "qualifier": "The Court did not quantify the previous owner's dues or decide a recovery proceeding against that owner.",
+      "paras": "unnumbered",
+      "flag": "Isha Marbles was decided under the Indian Electricity Act, 1910, on an SFC s.29 sale; this Court applies it to Clauses 4.1 and 4.3(f) of the 2005 Code on a Union Bank recovery auction. The quoted last proviso to Clause 4.1 also recites the associate/relative/control bar (Companies Act, 1956 ss. 2 and 6); those limbs were not applied."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "electricity-arrears-not-a-charge-transferee-liable-only-under-statutory-rules",
+      "application": "Following Isha Marbles, a bank-recovery auction purchaser who had no prior connection or contract with the licensee is not a consumer or occupier and cannot be treated as a defaulter on the previous owner's arrears. A sale certificate transferring the premises free from all encumbrances is treated as the Clause 4.3(f) no-dues certificate. Same cluster as SCJ-655.",
+      "lead_authorities": [
+        {
+          "name": "Isha Marbles v. Bihar State Electricity Board",
+          "docid": ""
+        }
+      ],
+      "paras": "unnumbered"
+    },
+    {
+      "tag": "duty-to-supply-survives-extinguishment-of-right-to-recover",
+      "application": "The Clause 4.1 obligation to supply is not displaced by the previous owner's arrears where the auction sale certificate is free from encumbrances and Isha Marbles applies. Those arrears, if any, may be recovered from the previous owner in accordance with law.",
+      "lead_authorities": [
+        {
+          "name": "Isha Marbles v. Bihar State Electricity Board",
+          "docid": ""
+        }
+      ],
+      "paras": "unnumbered"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Existence and quantum of electricity dues against the previous owner",
+      "note": "Left open. If such dues exist, the U.P. Power Corporation may recover them from the previous owner in accordance with law.",
+      "paras": "unnumbered"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Isha Marbles v. Bihar State Electricity Board",
+      "citation": "(1995) 2 SCC 648",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "A new purchaser who had no contract with the electricity supplier before purchase cannot be said to be a consumer or occupier under the Electricity Act and, for a new connection, cannot be treated as a defaulter on the previous owner's dues.",
+      "how_treated": "Followed as covering the same facts: an auction purchaser without a prior connection is not a consumer or occupier and cannot be said to have dues against him. The Court analogised the Union Bank recovery auction to a sale under section 29(1) of the State Financial Corporations Act.",
+      "how_treated_paras": "unnumbered",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}
