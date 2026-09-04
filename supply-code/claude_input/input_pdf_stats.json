@@ -1,0 +1,2896 @@
+{
+  "generated_at": "2026-09-04T10:13:43+00:00",
+  "root": "supply-code/claude_input",
+  "method": "PyMuPDF; page_count=doc.page_count; word_count=len(text.split()) over all pages",
+  "count": 412,
+  "ok": 412,
+  "errors": 0,
+  "total_pages": 4228,
+  "total_words": 878506,
+  "files": [
+    {
+      "path": "2009/WRIC(A)_24900_2009.pdf",
+      "page_count": 23,
+      "word_count": 6816,
+      "char_count": 42697,
+      "size_bytes": 202521
+    },
+    {
+      "path": "2009/WRIC(A)_32562_2009.pdf",
+      "page_count": 33,
+      "word_count": 10119,
+      "char_count": 62349,
+      "size_bytes": 352040
+    },
+    {
+      "path": "2009/WRIC(A)_35248_2009.pdf",
+      "page_count": 30,
+      "word_count": 10751,
+      "char_count": 65872,
+      "size_bytes": 206106
+    },
+    {
+      "path": "2009/WRIC(A)_38_2009.pdf",
+      "page_count": 23,
+      "word_count": 6859,
+      "char_count": 42045,
+      "size_bytes": 250762
+    },
+    {
+      "path": "2009/WRIC(A)_40232_2009.pdf",
+      "page_count": 4,
+      "word_count": 1078,
+      "char_count": 6631,
+      "size_bytes": 99280
+    },
+    {
+      "path": "2009/WRIC(A)_40419_2009.pdf",
+      "page_count": 7,
+      "word_count": 791,
+      "char_count": 4972,
+      "size_bytes": 222044
+    },
+    {
+      "path": "2009/WRIC(A)_4222_2009.pdf",
+      "page_count": 15,
+      "word_count": 4596,
+      "char_count": 28199,
+      "size_bytes": 214066
+    },
+    {
+      "path": "2009/WRIC(A)_45723_2009.pdf",
+      "page_count": 8,
+      "word_count": 1128,
+      "char_count": 6918,
+      "size_bytes": 219209
+    },
+    {
+      "path": "2009/WRIC(A)_45969_2009.pdf",
+      "page_count": 7,
+      "word_count": 1040,
+      "char_count": 6405,
+      "size_bytes": 186377
+    },
+    {
+      "path": "2009/WRIC(A)_49896_2009.pdf",
+      "page_count": 10,
+      "word_count": 1637,
+      "char_count": 10100,
+      "size_bytes": 259715
+    },
+    {
+      "path": "2009/WRIC(A)_51581_2009.pdf",
+      "page_count": 6,
+      "word_count": 823,
+      "char_count": 5005,
+      "size_bytes": 154450
+    },
+    {
+      "path": "2009/WRIC(A)_55365_2009.pdf",
+      "page_count": 34,
+      "word_count": 4148,
+      "char_count": 26195,
+      "size_bytes": 785188
+    },
+    {
+      "path": "2009/WRIC(A)_55384_2009.pdf",
+      "page_count": 32,
+      "word_count": 8622,
+      "char_count": 52142,
+      "size_bytes": 501802
+    },
+    {
+      "path": "2009/WRIC(A)_59178_2009.pdf",
+      "page_count": 5,
+      "word_count": 804,
+      "char_count": 5067,
+      "size_bytes": 212709
+    },
+    {
+      "path": "2009/WRIC(A)_64260_2009.pdf",
+      "page_count": 6,
+      "word_count": 829,
+      "char_count": 5076,
+      "size_bytes": 155675
+    },
+    {
+      "path": "2009/WRIC(A)_64452_2009.pdf",
+      "page_count": 10,
+      "word_count": 911,
+      "char_count": 5651,
+      "size_bytes": 282869
+    },
+    {
+      "path": "2009/WRIC(A)_65760_2009.pdf",
+      "page_count": 4,
+      "word_count": 937,
+      "char_count": 5953,
+      "size_bytes": 43448
+    },
+    {
+      "path": "2009/WRIC(A)_66903_2009.pdf",
+      "page_count": 9,
+      "word_count": 1624,
+      "char_count": 10101,
+      "size_bytes": 230116
+    },
+    {
+      "path": "2009/WRIC(A)_67360_2009.pdf",
+      "page_count": 5,
+      "word_count": 1078,
+      "char_count": 6644,
+      "size_bytes": 96941
+    },
+    {
+      "path": "2009/WRIC(A)_69735_2009.pdf",
+      "page_count": 10,
+      "word_count": 1326,
+      "char_count": 7921,
+      "size_bytes": 305426
+    },
+    {
+      "path": "2009/WRIC(A)_70447_2009.pdf",
+      "page_count": 17,
+      "word_count": 3688,
+      "char_count": 22055,
+      "size_bytes": 355981
+    },
+    {
+      "path": "2009/WRIC(A)_8167_2009.pdf",
+      "page_count": 13,
+      "word_count": 3184,
+      "char_count": 19318,
+      "size_bytes": 226674
+    },
+    {
+      "path": "2010/A482(A)_6191_2010.pdf",
+      "page_count": 10,
+      "word_count": 1282,
+      "char_count": 8064,
+      "size_bytes": 413762
+    },
+    {
+      "path": "2010/A482(A)_6194_2010.pdf",
+      "page_count": 7,
+      "word_count": 900,
+      "char_count": 5634,
+      "size_bytes": 541149
+    },
+    {
+      "path": "2010/CAPL(A)_1070_2010.pdf",
+      "page_count": 11,
+      "word_count": 2788,
+      "char_count": 17473,
+      "size_bytes": 242713
+    },
+    {
+      "path": "2010/SPLAD(L)_547_2010.pdf",
+      "page_count": 26,
+      "word_count": 5899,
+      "char_count": 36271,
+      "size_bytes": 251711
+    },
+    {
+      "path": "2010/WRIC(A)_10188_2010.pdf",
+      "page_count": 31,
+      "word_count": 4649,
+      "char_count": 28268,
+      "size_bytes": 712991
+    },
+    {
+      "path": "2010/WRIC(A)_20679_2010.pdf",
+      "page_count": 31,
+      "word_count": 8828,
+      "char_count": 54206,
+      "size_bytes": 287029
+    },
+    {
+      "path": "2010/WRIC(A)_23408_2010.pdf",
+      "page_count": 4,
+      "word_count": 828,
+      "char_count": 5158,
+      "size_bytes": 96287
+    },
+    {
+      "path": "2010/WRIC(A)_33297_2010.pdf",
+      "page_count": 13,
+      "word_count": 1725,
+      "char_count": 10770,
+      "size_bytes": 808869
+    },
+    {
+      "path": "2010/WRIC(A)_47592_2010.pdf",
+      "page_count": 17,
+      "word_count": 6260,
+      "char_count": 39996,
+      "size_bytes": 204484
+    },
+    {
+      "path": "2010/WRIC(A)_49567_2010.pdf",
+      "page_count": 9,
+      "word_count": 1245,
+      "char_count": 7719,
+      "size_bytes": 321020
+    },
+    {
+      "path": "2010/WRIC(A)_51085_2010.pdf",
+      "page_count": 5,
+      "word_count": 893,
+      "char_count": 5461,
+      "size_bytes": 64204
+    },
+    {
+      "path": "2010/WRIC(A)_52054_2010.pdf",
+      "page_count": 69,
+      "word_count": 14880,
+      "char_count": 90378,
+      "size_bytes": 1083129
+    },
+    {
+      "path": "2010/WRIC(A)_52598_2010.pdf",
+      "page_count": 5,
+      "word_count": 1004,
+      "char_count": 6154,
+      "size_bytes": 98648
+    },
+    {
+      "path": "2010/WRIC(A)_58335_2010.pdf",
+      "page_count": 9,
+      "word_count": 1604,
+      "char_count": 9825,
+      "size_bytes": 209338
+    },
+    {
+      "path": "2010/WRIC(A)_59924_2010.pdf",
+      "page_count": 12,
+      "word_count": 1241,
+      "char_count": 7810,
+      "size_bytes": 415996
+    },
+    {
+      "path": "2010/WRIC(A)_62046_2010.pdf",
+      "page_count": 8,
+      "word_count": 1320,
+      "char_count": 8057,
+      "size_bytes": 208482
+    },
+    {
+      "path": "2010/WRIC(A)_63610_2010.pdf",
+      "page_count": 144,
+      "word_count": 40553,
+      "char_count": 250135,
+      "size_bytes": 1273792
+    },
+    {
+      "path": "2010/WRIC(A)_68647_2010.pdf",
+      "page_count": 4,
+      "word_count": 1153,
+      "char_count": 7040,
+      "size_bytes": 100485
+    },
+    {
+      "path": "2010/WRIC(A)_70238_2010.pdf",
+      "page_count": 11,
+      "word_count": 2033,
+      "char_count": 13035,
+      "size_bytes": 214200
+    },
+    {
+      "path": "2010/WRIC(A)_73220_2010.pdf",
+      "page_count": 6,
+      "word_count": 857,
+      "char_count": 5181,
+      "size_bytes": 98111
+    },
+    {
+      "path": "2010/WRIC(A)_74250_2010.pdf",
+      "page_count": 4,
+      "word_count": 804,
+      "char_count": 5019,
+      "size_bytes": 166858
+    },
+    {
+      "path": "2011/CAPL(A)_3954_2011.pdf",
+      "page_count": 8,
+      "word_count": 1496,
+      "char_count": 8866,
+      "size_bytes": 169528
+    },
+    {
+      "path": "2011/CRLP(A)_22912_2011.pdf",
+      "page_count": 4,
+      "word_count": 897,
+      "char_count": 5658,
+      "size_bytes": 104526
+    },
+    {
+      "path": "2011/SPLA(A)_2362_2011.pdf",
+      "page_count": 38,
+      "word_count": 4349,
+      "char_count": 27109,
+      "size_bytes": 915104
+    },
+    {
+      "path": "2011/WRIC(A)_10575_2011.pdf",
+      "page_count": 8,
+      "word_count": 1110,
+      "char_count": 6931,
+      "size_bytes": 182253
+    },
+    {
+      "path": "2011/WRIC(A)_11641_2011.pdf",
+      "page_count": 7,
+      "word_count": 869,
+      "char_count": 5367,
+      "size_bytes": 167315
+    },
+    {
+      "path": "2011/WRIC(A)_12591_2011.pdf",
+      "page_count": 5,
+      "word_count": 793,
+      "char_count": 4963,
+      "size_bytes": 90413
+    },
+    {
+      "path": "2011/WRIC(A)_12946_2011.pdf",
+      "page_count": 9,
+      "word_count": 1157,
+      "char_count": 7316,
+      "size_bytes": 252368
+    },
+    {
+      "path": "2011/WRIC(A)_13395_2011.pdf",
+      "page_count": 7,
+      "word_count": 1010,
+      "char_count": 6278,
+      "size_bytes": 187088
+    },
+    {
+      "path": "2011/WRIC(A)_15384_2011.pdf",
+      "page_count": 9,
+      "word_count": 1209,
+      "char_count": 7632,
+      "size_bytes": 191367
+    },
+    {
+      "path": "2011/WRIC(A)_15690_2011.pdf",
+      "page_count": 9,
+      "word_count": 1308,
+      "char_count": 8342,
+      "size_bytes": 231666
+    },
+    {
+      "path": "2011/WRIC(A)_15892_2011.pdf",
+      "page_count": 7,
+      "word_count": 1074,
+      "char_count": 6770,
+      "size_bytes": 139620
+    },
+    {
+      "path": "2011/WRIC(A)_19027_2011.pdf",
+      "page_count": 7,
+      "word_count": 808,
+      "char_count": 4975,
+      "size_bytes": 148123
+    },
+    {
+      "path": "2011/WRIC(A)_19028_2011.pdf",
+      "page_count": 7,
+      "word_count": 842,
+      "char_count": 5200,
+      "size_bytes": 190351
+    },
+    {
+      "path": "2011/WRIC(A)_19159_2011.pdf",
+      "page_count": 12,
+      "word_count": 1555,
+      "char_count": 9425,
+      "size_bytes": 583441
+    },
+    {
+      "path": "2011/WRIC(A)_19217_2011.pdf",
+      "page_count": 6,
+      "word_count": 1039,
+      "char_count": 6588,
+      "size_bytes": 149705
+    },
+    {
+      "path": "2011/WRIC(A)_19946_2011.pdf",
+      "page_count": 6,
+      "word_count": 932,
+      "char_count": 5743,
+      "size_bytes": 202543
+    },
+    {
+      "path": "2011/WRIC(A)_20563_2011.pdf",
+      "page_count": 14,
+      "word_count": 1636,
+      "char_count": 10135,
+      "size_bytes": 383105
+    },
+    {
+      "path": "2011/WRIC(A)_20739_2011.pdf",
+      "page_count": 8,
+      "word_count": 1029,
+      "char_count": 6412,
+      "size_bytes": 220569
+    },
+    {
+      "path": "2011/WRIC(A)_22700_2011.pdf",
+      "page_count": 4,
+      "word_count": 1094,
+      "char_count": 6780,
+      "size_bytes": 98073
+    },
+    {
+      "path": "2011/WRIC(A)_23080_2011.pdf",
+      "page_count": 15,
+      "word_count": 3503,
+      "char_count": 22021,
+      "size_bytes": 262351
+    },
+    {
+      "path": "2011/WRIC(A)_23524_2011.pdf",
+      "page_count": 7,
+      "word_count": 837,
+      "char_count": 5071,
+      "size_bytes": 190986
+    },
+    {
+      "path": "2011/WRIC(A)_23988_2011.pdf",
+      "page_count": 25,
+      "word_count": 2595,
+      "char_count": 16721,
+      "size_bytes": 706089
+    },
+    {
+      "path": "2011/WRIC(A)_25812_2011.pdf",
+      "page_count": 8,
+      "word_count": 790,
+      "char_count": 4896,
+      "size_bytes": 199809
+    },
+    {
+      "path": "2011/WRIC(A)_27196_2011.pdf",
+      "page_count": 15,
+      "word_count": 4455,
+      "char_count": 27384,
+      "size_bytes": 126204
+    },
+    {
+      "path": "2011/WRIC(A)_31602_2011.pdf",
+      "page_count": 35,
+      "word_count": 8878,
+      "char_count": 54139,
+      "size_bytes": 373811
+    },
+    {
+      "path": "2011/WRIC(A)_32705_2011.pdf",
+      "page_count": 12,
+      "word_count": 1242,
+      "char_count": 7773,
+      "size_bytes": 291924
+    },
+    {
+      "path": "2011/WRIC(A)_34855_2011.pdf",
+      "page_count": 14,
+      "word_count": 2666,
+      "char_count": 16043,
+      "size_bytes": 350453
+    },
+    {
+      "path": "2011/WRIC(A)_43080_2011.pdf",
+      "page_count": 6,
+      "word_count": 871,
+      "char_count": 5522,
+      "size_bytes": 1170693
+    },
+    {
+      "path": "2011/WRIC(A)_5998_2011.pdf",
+      "page_count": 9,
+      "word_count": 1493,
+      "char_count": 9246,
+      "size_bytes": 252802
+    },
+    {
+      "path": "2011/WRIC(A)_64725_2011.pdf",
+      "page_count": 19,
+      "word_count": 5042,
+      "char_count": 31035,
+      "size_bytes": 230665
+    },
+    {
+      "path": "2011/WRIC(A)_66871_2011.pdf",
+      "page_count": 7,
+      "word_count": 1344,
+      "char_count": 8075,
+      "size_bytes": 132948
+    },
+    {
+      "path": "2011/WRIC(A)_76008_2011.pdf",
+      "page_count": 11,
+      "word_count": 1499,
+      "char_count": 9431,
+      "size_bytes": 693299
+    },
+    {
+      "path": "2011/WRIC(A)_7764_2011.pdf",
+      "page_count": 10,
+      "word_count": 1793,
+      "char_count": 10928,
+      "size_bytes": 112856
+    },
+    {
+      "path": "2011/WRIC(A)_9318_2011.pdf",
+      "page_count": 24,
+      "word_count": 6223,
+      "char_count": 38553,
+      "size_bytes": 445648
+    },
+    {
+      "path": "2011/WRIC(A)_9487_2011.pdf",
+      "page_count": 8,
+      "word_count": 907,
+      "char_count": 5582,
+      "size_bytes": 178903
+    },
+    {
+      "path": "2012/CAPL(A)_2457_2012.pdf",
+      "page_count": 8,
+      "word_count": 1735,
+      "char_count": 10830,
+      "size_bytes": 348349
+    },
+    {
+      "path": "2012/WRIC(A)_10431_2012.pdf",
+      "page_count": 5,
+      "word_count": 1205,
+      "char_count": 7462,
+      "size_bytes": 91899
+    },
+    {
+      "path": "2012/WRIC(A)_12840_2012.pdf",
+      "page_count": 31,
+      "word_count": 7050,
+      "char_count": 45209,
+      "size_bytes": 584306
+    },
+    {
+      "path": "2012/WRIC(A)_14347_2012.pdf",
+      "page_count": 31,
+      "word_count": 7865,
+      "char_count": 49020,
+      "size_bytes": 255136
+    },
+    {
+      "path": "2012/WRIC(A)_15220_2012.pdf",
+      "page_count": 7,
+      "word_count": 930,
+      "char_count": 5615,
+      "size_bytes": 207954
+    },
+    {
+      "path": "2012/WRIC(A)_15507_2012.pdf",
+      "page_count": 5,
+      "word_count": 1203,
+      "char_count": 7526,
+      "size_bytes": 122152
+    },
+    {
+      "path": "2012/WRIC(A)_16208_2012.pdf",
+      "page_count": 5,
+      "word_count": 1203,
+      "char_count": 7522,
+      "size_bytes": 122150
+    },
+    {
+      "path": "2012/WRIC(A)_16378_2012.pdf",
+      "page_count": 11,
+      "word_count": 1322,
+      "char_count": 8156,
+      "size_bytes": 261758
+    },
+    {
+      "path": "2012/WRIC(A)_16385_2012.pdf",
+      "page_count": 5,
+      "word_count": 1203,
+      "char_count": 7540,
+      "size_bytes": 122180
+    },
+    {
+      "path": "2012/WRIC(A)_16617_2012.pdf",
+      "page_count": 5,
+      "word_count": 1215,
+      "char_count": 7594,
+      "size_bytes": 122288
+    },
+    {
+      "path": "2012/WRIC(A)_16618_2012.pdf",
+      "page_count": 5,
+      "word_count": 1216,
+      "char_count": 7605,
+      "size_bytes": 122279
+    },
+    {
+      "path": "2012/WRIC(A)_16620_2012.pdf",
+      "page_count": 5,
+      "word_count": 1212,
+      "char_count": 7583,
+      "size_bytes": 122234
+    },
+    {
+      "path": "2012/WRIC(A)_16621_2012.pdf",
+      "page_count": 5,
+      "word_count": 1212,
+      "char_count": 7580,
+      "size_bytes": 122242
+    },
+    {
+      "path": "2012/WRIC(A)_16623_2012.pdf",
+      "page_count": 5,
+      "word_count": 1215,
+      "char_count": 7611,
+      "size_bytes": 122325
+    },
+    {
+      "path": "2012/WRIC(A)_17944_2012.pdf",
+      "page_count": 7,
+      "word_count": 1305,
+      "char_count": 8276,
+      "size_bytes": 105783
+    },
+    {
+      "path": "2012/WRIC(A)_18742_2012.pdf",
+      "page_count": 4,
+      "word_count": 949,
+      "char_count": 5783,
+      "size_bytes": 71439
+    },
+    {
+      "path": "2012/WRIC(A)_24091_2012.pdf",
+      "page_count": 6,
+      "word_count": 1314,
+      "char_count": 8168,
+      "size_bytes": 131861
+    },
+    {
+      "path": "2012/WRIC(A)_30233_2012.pdf",
+      "page_count": 11,
+      "word_count": 3052,
+      "char_count": 19359,
+      "size_bytes": 157099
+    },
+    {
+      "path": "2012/WRIC(A)_33308_2012.pdf",
+      "page_count": 16,
+      "word_count": 3039,
+      "char_count": 18927,
+      "size_bytes": 209035
+    },
+    {
+      "path": "2012/WRIC(A)_34472_2012.pdf",
+      "page_count": 4,
+      "word_count": 919,
+      "char_count": 5962,
+      "size_bytes": 97442
+    },
+    {
+      "path": "2012/WRIC(A)_34559_2012.pdf",
+      "page_count": 4,
+      "word_count": 948,
+      "char_count": 5981,
+      "size_bytes": 104970
+    },
+    {
+      "path": "2012/WRIC(A)_36061_2012.pdf",
+      "page_count": 5,
+      "word_count": 853,
+      "char_count": 5481,
+      "size_bytes": 130721
+    },
+    {
+      "path": "2012/WRIC(A)_3773_2012.pdf",
+      "page_count": 16,
+      "word_count": 1486,
+      "char_count": 8976,
+      "size_bytes": 426474
+    },
+    {
+      "path": "2012/WRIC(A)_43614_2012.pdf",
+      "page_count": 4,
+      "word_count": 953,
+      "char_count": 5867,
+      "size_bytes": 82007
+    },
+    {
+      "path": "2012/WRIC(A)_45990_2012.pdf",
+      "page_count": 11,
+      "word_count": 1032,
+      "char_count": 6350,
+      "size_bytes": 283495
+    },
+    {
+      "path": "2012/WRIC(A)_53740_2012.pdf",
+      "page_count": 14,
+      "word_count": 1527,
+      "char_count": 9439,
+      "size_bytes": 423736
+    },
+    {
+      "path": "2012/WRIC(A)_54022_2012.pdf",
+      "page_count": 21,
+      "word_count": 2352,
+      "char_count": 14457,
+      "size_bytes": 568097
+    },
+    {
+      "path": "2012/WRIC(A)_55072_2012.pdf",
+      "page_count": 9,
+      "word_count": 959,
+      "char_count": 6047,
+      "size_bytes": 266534
+    },
+    {
+      "path": "2012/WRIC(A)_57550_2012.pdf",
+      "page_count": 6,
+      "word_count": 910,
+      "char_count": 5666,
+      "size_bytes": 161857
+    },
+    {
+      "path": "2012/WRIC(A)_58652_2012.pdf",
+      "page_count": 25,
+      "word_count": 6743,
+      "char_count": 41812,
+      "size_bytes": 409717
+    },
+    {
+      "path": "2012/WRIC(A)_59235_2012.pdf",
+      "page_count": 6,
+      "word_count": 1246,
+      "char_count": 7644,
+      "size_bytes": 129911
+    },
+    {
+      "path": "2012/WRIC(A)_59370_2012.pdf",
+      "page_count": 5,
+      "word_count": 1119,
+      "char_count": 6881,
+      "size_bytes": 93898
+    },
+    {
+      "path": "2012/WRIC(A)_59372_2012.pdf",
+      "page_count": 5,
+      "word_count": 1145,
+      "char_count": 7061,
+      "size_bytes": 93190
+    },
+    {
+      "path": "2012/WRIC(A)_59493_2012.pdf",
+      "page_count": 5,
+      "word_count": 1158,
+      "char_count": 7136,
+      "size_bytes": 93819
+    },
+    {
+      "path": "2012/WRIC(A)_59551_2012.pdf",
+      "page_count": 5,
+      "word_count": 1184,
+      "char_count": 7302,
+      "size_bytes": 95308
+    },
+    {
+      "path": "2012/WRIC(A)_60196_2012.pdf",
+      "page_count": 5,
+      "word_count": 1121,
+      "char_count": 6918,
+      "size_bytes": 102841
+    },
+    {
+      "path": "2012/WRIC(A)_60198_2012.pdf",
+      "page_count": 5,
+      "word_count": 1121,
+      "char_count": 6927,
+      "size_bytes": 100831
+    },
+    {
+      "path": "2012/WRIC(A)_61172_2012.pdf",
+      "page_count": 147,
+      "word_count": 38471,
+      "char_count": 227550,
+      "size_bytes": 955972
+    },
+    {
+      "path": "2012/WRIC(A)_61598_2012.pdf",
+      "page_count": 4,
+      "word_count": 981,
+      "char_count": 5936,
+      "size_bytes": 69584
+    },
+    {
+      "path": "2012/WRIC(A)_61599_2012.pdf",
+      "page_count": 4,
+      "word_count": 975,
+      "char_count": 5907,
+      "size_bytes": 68705
+    },
+    {
+      "path": "2012/WRIC(A)_61601_2012.pdf",
+      "page_count": 4,
+      "word_count": 977,
+      "char_count": 5917,
+      "size_bytes": 68410
+    },
+    {
+      "path": "2012/WRIC(A)_62109_2012.pdf",
+      "page_count": 4,
+      "word_count": 1001,
+      "char_count": 6085,
+      "size_bytes": 65523
+    },
+    {
+      "path": "2012/WRIC(A)_62180_2012.pdf",
+      "page_count": 11,
+      "word_count": 1522,
+      "char_count": 9322,
+      "size_bytes": 625135
+    },
+    {
+      "path": "2012/WRIC(A)_62234_2012.pdf",
+      "page_count": 8,
+      "word_count": 1135,
+      "char_count": 6861,
+      "size_bytes": 191537
+    },
+    {
+      "path": "2012/WRIC(A)_62466_2012.pdf",
+      "page_count": 6,
+      "word_count": 1109,
+      "char_count": 6771,
+      "size_bytes": 89481
+    },
+    {
+      "path": "2012/WRIC(A)_66463_2012.pdf",
+      "page_count": 29,
+      "word_count": 4510,
+      "char_count": 28550,
+      "size_bytes": 762516
+    },
+    {
+      "path": "2012/WRIC(A)_7010_2012.pdf",
+      "page_count": 11,
+      "word_count": 1383,
+      "char_count": 8509,
+      "size_bytes": 301561
+    },
+    {
+      "path": "2012/WRIC(A)_8303_2012.pdf",
+      "page_count": 11,
+      "word_count": 1278,
+      "char_count": 7788,
+      "size_bytes": 654063
+    },
+    {
+      "path": "2012/WRIC(A)_9886_2012.pdf",
+      "page_count": 9,
+      "word_count": 2042,
+      "char_count": 12693,
+      "size_bytes": 107675
+    },
+    {
+      "path": "2013/WRIC(A)_16566_2013.pdf",
+      "page_count": 4,
+      "word_count": 898,
+      "char_count": 5410,
+      "size_bytes": 97800
+    },
+    {
+      "path": "2013/WRIC(A)_27352_2013.pdf",
+      "page_count": 8,
+      "word_count": 2704,
+      "char_count": 16430,
+      "size_bytes": 148583
+    },
+    {
+      "path": "2013/WRIC(A)_2788_2013.pdf",
+      "page_count": 5,
+      "word_count": 1127,
+      "char_count": 7006,
+      "size_bytes": 70627
+    },
+    {
+      "path": "2013/WRIC(A)_36217_2013.pdf",
+      "page_count": 12,
+      "word_count": 1126,
+      "char_count": 6928,
+      "size_bytes": 457427
+    },
+    {
+      "path": "2013/WRIC(A)_44425_2013.pdf",
+      "page_count": 5,
+      "word_count": 805,
+      "char_count": 4921,
+      "size_bytes": 142477
+    },
+    {
+      "path": "2013/WRIC(A)_4870_2013.pdf",
+      "page_count": 8,
+      "word_count": 1853,
+      "char_count": 11227,
+      "size_bytes": 160974
+    },
+    {
+      "path": "2013/WRIC(A)_50372_2013.pdf",
+      "page_count": 5,
+      "word_count": 816,
+      "char_count": 5057,
+      "size_bytes": 394273
+    },
+    {
+      "path": "2013/WRIC(A)_61548_2013.pdf",
+      "page_count": 10,
+      "word_count": 960,
+      "char_count": 6068,
+      "size_bytes": 300452
+    },
+    {
+      "path": "2013/WRIC(A)_64376_2013.pdf",
+      "page_count": 11,
+      "word_count": 2126,
+      "char_count": 13411,
+      "size_bytes": 190805
+    },
+    {
+      "path": "2013/WRIC(A)_69101_2013.pdf",
+      "page_count": 35,
+      "word_count": 12001,
+      "char_count": 72872,
+      "size_bytes": 172145
+    },
+    {
+      "path": "2013/WRIC(A)_841_2013.pdf",
+      "page_count": 4,
+      "word_count": 849,
+      "char_count": 5289,
+      "size_bytes": 71129
+    },
+    {
+      "path": "2014/CAPL(A)_5636_2014.pdf",
+      "page_count": 4,
+      "word_count": 881,
+      "char_count": 5451,
+      "size_bytes": 98838
+    },
+    {
+      "path": "2014/WRIC(A)_11502_2014.pdf",
+      "page_count": 4,
+      "word_count": 872,
+      "char_count": 5495,
+      "size_bytes": 102316
+    },
+    {
+      "path": "2014/WRIC(A)_13514_2014.pdf",
+      "page_count": 12,
+      "word_count": 1898,
+      "char_count": 11851,
+      "size_bytes": 149941
+    },
+    {
+      "path": "2014/WRIC(A)_1361_2014.pdf",
+      "page_count": 32,
+      "word_count": 7472,
+      "char_count": 49420,
+      "size_bytes": 346116
+    },
+    {
+      "path": "2014/WRIC(A)_23606_2014.pdf",
+      "page_count": 14,
+      "word_count": 4772,
+      "char_count": 28956,
+      "size_bytes": 166240
+    },
+    {
+      "path": "2014/WRIC(A)_33119_2014.pdf",
+      "page_count": 13,
+      "word_count": 3013,
+      "char_count": 20114,
+      "size_bytes": 215883
+    },
+    {
+      "path": "2014/WRIC(A)_36136_2014.pdf",
+      "page_count": 7,
+      "word_count": 1108,
+      "char_count": 6886,
+      "size_bytes": 214101
+    },
+    {
+      "path": "2014/WRIC(A)_36355_2014.pdf",
+      "page_count": 6,
+      "word_count": 953,
+      "char_count": 5967,
+      "size_bytes": 153978
+    },
+    {
+      "path": "2014/WRIC(A)_37044_2014.pdf",
+      "page_count": 6,
+      "word_count": 867,
+      "char_count": 5418,
+      "size_bytes": 168368
+    },
+    {
+      "path": "2014/WRIC(A)_37906_2014.pdf",
+      "page_count": 6,
+      "word_count": 1346,
+      "char_count": 9089,
+      "size_bytes": 156034
+    },
+    {
+      "path": "2014/WRIC(A)_38462_2014.pdf",
+      "page_count": 5,
+      "word_count": 804,
+      "char_count": 5069,
+      "size_bytes": 128492
+    },
+    {
+      "path": "2014/WRIC(A)_41686_2014.pdf",
+      "page_count": 4,
+      "word_count": 1289,
+      "char_count": 8134,
+      "size_bytes": 91579
+    },
+    {
+      "path": "2014/WRIC(A)_44456_2014.pdf",
+      "page_count": 9,
+      "word_count": 933,
+      "char_count": 5738,
+      "size_bytes": 334219
+    },
+    {
+      "path": "2014/WRIC(A)_47315_2014.pdf",
+      "page_count": 10,
+      "word_count": 1415,
+      "char_count": 8992,
+      "size_bytes": 333638
+    },
+    {
+      "path": "2014/WRIC(A)_7223_2014.pdf",
+      "page_count": 5,
+      "word_count": 1094,
+      "char_count": 6621,
+      "size_bytes": 130438
+    },
+    {
+      "path": "2014/WRIC(A)_9148_2014.pdf",
+      "page_count": 22,
+      "word_count": 3407,
+      "char_count": 20802,
+      "size_bytes": 513100
+    },
+    {
+      "path": "2014/WRIC(A)_9267_2014.pdf",
+      "page_count": 11,
+      "word_count": 2154,
+      "char_count": 13559,
+      "size_bytes": 232871
+    },
+    {
+      "path": "2015/CRLP(A)_15159_2015.pdf",
+      "page_count": 10,
+      "word_count": 1655,
+      "char_count": 10159,
+      "size_bytes": 176840
+    },
+    {
+      "path": "2015/WRIC(A)_11612_2015.pdf",
+      "page_count": 26,
+      "word_count": 4310,
+      "char_count": 26594,
+      "size_bytes": 563790
+    },
+    {
+      "path": "2015/WRIC(A)_14673_2015.pdf",
+      "page_count": 4,
+      "word_count": 817,
+      "char_count": 4983,
+      "size_bytes": 103708
+    },
+    {
+      "path": "2015/WRIC(A)_14676_2015.pdf",
+      "page_count": 4,
+      "word_count": 817,
+      "char_count": 4987,
+      "size_bytes": 103549
+    },
+    {
+      "path": "2015/WRIC(A)_15180_2015.pdf",
+      "page_count": 40,
+      "word_count": 6027,
+      "char_count": 38177,
+      "size_bytes": 896920
+    },
+    {
+      "path": "2015/WRIC(A)_17588_2015.pdf",
+      "page_count": 5,
+      "word_count": 1321,
+      "char_count": 8020,
+      "size_bytes": 136095
+    },
+    {
+      "path": "2015/WRIC(A)_20356_2015.pdf",
+      "page_count": 8,
+      "word_count": 875,
+      "char_count": 5462,
+      "size_bytes": 244171
+    },
+    {
+      "path": "2015/WRIC(A)_21042_2015.pdf",
+      "page_count": 5,
+      "word_count": 1207,
+      "char_count": 7361,
+      "size_bytes": 190280
+    },
+    {
+      "path": "2015/WRIC(A)_22694_2015.pdf",
+      "page_count": 6,
+      "word_count": 821,
+      "char_count": 5077,
+      "size_bytes": 140444
+    },
+    {
+      "path": "2015/WRIC(A)_22710_2015.pdf",
+      "page_count": 8,
+      "word_count": 983,
+      "char_count": 6246,
+      "size_bytes": 262682
+    },
+    {
+      "path": "2015/WRIC(A)_23044_2015.pdf",
+      "page_count": 10,
+      "word_count": 1029,
+      "char_count": 6458,
+      "size_bytes": 315008
+    },
+    {
+      "path": "2015/WRIC(A)_24588_2015.pdf",
+      "page_count": 8,
+      "word_count": 1635,
+      "char_count": 10125,
+      "size_bytes": 220903
+    },
+    {
+      "path": "2015/WRIC(A)_26191_2015.pdf",
+      "page_count": 12,
+      "word_count": 1051,
+      "char_count": 6398,
+      "size_bytes": 306159
+    },
+    {
+      "path": "2015/WRIC(A)_43194_2015.pdf",
+      "page_count": 13,
+      "word_count": 2636,
+      "char_count": 16610,
+      "size_bytes": 320627
+    },
+    {
+      "path": "2015/WRIC(A)_47449_2015.pdf",
+      "page_count": 15,
+      "word_count": 1578,
+      "char_count": 9693,
+      "size_bytes": 484094
+    },
+    {
+      "path": "2015/WRIC(A)_55505_2015.pdf",
+      "page_count": 18,
+      "word_count": 4654,
+      "char_count": 28448,
+      "size_bytes": 260102
+    },
+    {
+      "path": "2015/WRIC(A)_61204_2015.pdf",
+      "page_count": 33,
+      "word_count": 11108,
+      "char_count": 67040,
+      "size_bytes": 466847
+    },
+    {
+      "path": "2015/WRIC(A)_62777_2015.pdf",
+      "page_count": 9,
+      "word_count": 812,
+      "char_count": 5009,
+      "size_bytes": 246441
+    },
+    {
+      "path": "2015/WRIC(A)_62779_2015.pdf",
+      "page_count": 10,
+      "word_count": 868,
+      "char_count": 5281,
+      "size_bytes": 289617
+    },
+    {
+      "path": "2016/CAPL(A)_955_2016.pdf",
+      "page_count": 5,
+      "word_count": 795,
+      "char_count": 4864,
+      "size_bytes": 143017
+    },
+    {
+      "path": "2016/SPLA(L)_20_2016.pdf",
+      "page_count": 68,
+      "word_count": 19150,
+      "char_count": 117347,
+      "size_bytes": 983775
+    },
+    {
+      "path": "2016/WRIC(A)_10980_2016.pdf",
+      "page_count": 8,
+      "word_count": 847,
+      "char_count": 5136,
+      "size_bytes": 162581
+    },
+    {
+      "path": "2016/WRIC(A)_13811_2016.pdf",
+      "page_count": 5,
+      "word_count": 1437,
+      "char_count": 9033,
+      "size_bytes": 62197
+    },
+    {
+      "path": "2016/WRIC(A)_16801_2016.pdf",
+      "page_count": 12,
+      "word_count": 1690,
+      "char_count": 10789,
+      "size_bytes": 307900
+    },
+    {
+      "path": "2016/WRIC(A)_24151_2016.pdf",
+      "page_count": 14,
+      "word_count": 1285,
+      "char_count": 7614,
+      "size_bytes": 393367
+    },
+    {
+      "path": "2016/WRIC(A)_25512_2016.pdf",
+      "page_count": 22,
+      "word_count": 5555,
+      "char_count": 33889,
+      "size_bytes": 314775
+    },
+    {
+      "path": "2016/WRIC(A)_26512_2016.pdf",
+      "page_count": 18,
+      "word_count": 2748,
+      "char_count": 16651,
+      "size_bytes": 576036
+    },
+    {
+      "path": "2016/WRIC(A)_30898_2016.pdf",
+      "page_count": 60,
+      "word_count": 14457,
+      "char_count": 87112,
+      "size_bytes": 439347
+    },
+    {
+      "path": "2016/WRIC(A)_35151_2016.pdf",
+      "page_count": 11,
+      "word_count": 1440,
+      "char_count": 8866,
+      "size_bytes": 257675
+    },
+    {
+      "path": "2016/WRIC(A)_35477_2016.pdf",
+      "page_count": 16,
+      "word_count": 3172,
+      "char_count": 18709,
+      "size_bytes": 260535
+    },
+    {
+      "path": "2016/WRIC(A)_36336_2016.pdf",
+      "page_count": 13,
+      "word_count": 1273,
+      "char_count": 7991,
+      "size_bytes": 403815
+    },
+    {
+      "path": "2016/WRIC(A)_37153_2016.pdf",
+      "page_count": 8,
+      "word_count": 792,
+      "char_count": 4944,
+      "size_bytes": 225419
+    },
+    {
+      "path": "2016/WRIC(A)_39477_2016.pdf",
+      "page_count": 11,
+      "word_count": 2027,
+      "char_count": 12615,
+      "size_bytes": 172756
+    },
+    {
+      "path": "2016/WRIC(A)_40167_2016.pdf",
+      "page_count": 10,
+      "word_count": 1115,
+      "char_count": 6867,
+      "size_bytes": 255359
+    },
+    {
+      "path": "2016/WRIC(A)_41405_2016.pdf",
+      "page_count": 11,
+      "word_count": 1218,
+      "char_count": 7543,
+      "size_bytes": 260380
+    },
+    {
+      "path": "2016/WRIC(A)_4999_2016.pdf",
+      "page_count": 16,
+      "word_count": 2058,
+      "char_count": 13178,
+      "size_bytes": 437817
+    },
+    {
+      "path": "2016/WRIC(A)_54461_2016.pdf",
+      "page_count": 6,
+      "word_count": 1743,
+      "char_count": 10201,
+      "size_bytes": 48674
+    },
+    {
+      "path": "2016/WRIC(A)_56723_2016.pdf",
+      "page_count": 3,
+      "word_count": 792,
+      "char_count": 4945,
+      "size_bytes": 42561
+    },
+    {
+      "path": "2016/WRIC(A)_6072_2016.pdf",
+      "page_count": 51,
+      "word_count": 10838,
+      "char_count": 67619,
+      "size_bytes": 815097
+    },
+    {
+      "path": "2017/A227(A)_4140_2017.pdf",
+      "page_count": 17,
+      "word_count": 2093,
+      "char_count": 12829,
+      "size_bytes": 359064
+    },
+    {
+      "path": "2017/A227(A)_4445_2017.pdf",
+      "page_count": 5,
+      "word_count": 947,
+      "char_count": 5746,
+      "size_bytes": 107434
+    },
+    {
+      "path": "2017/CAPL(A)_280_2017.pdf",
+      "page_count": 9,
+      "word_count": 1361,
+      "char_count": 8246,
+      "size_bytes": 259090
+    },
+    {
+      "path": "2017/WRIC(A)_15163_2017.pdf",
+      "page_count": 6,
+      "word_count": 1018,
+      "char_count": 6140,
+      "size_bytes": 164255
+    },
+    {
+      "path": "2017/WRIC(A)_17231_2017.pdf",
+      "page_count": 8,
+      "word_count": 1441,
+      "char_count": 8723,
+      "size_bytes": 173314
+    },
+    {
+      "path": "2017/WRIC(A)_17548_2017.pdf",
+      "page_count": 22,
+      "word_count": 2564,
+      "char_count": 15470,
+      "size_bytes": 739691
+    },
+    {
+      "path": "2017/WRIC(A)_19275_2017.pdf",
+      "page_count": 4,
+      "word_count": 887,
+      "char_count": 5363,
+      "size_bytes": 84198
+    },
+    {
+      "path": "2017/WRIC(A)_2579_2017.pdf",
+      "page_count": 7,
+      "word_count": 1419,
+      "char_count": 8872,
+      "size_bytes": 166665
+    },
+    {
+      "path": "2017/WRIC(A)_26590_2017.pdf",
+      "page_count": 3,
+      "word_count": 1630,
+      "char_count": 9308,
+      "size_bytes": 98320
+    },
+    {
+      "path": "2017/WRIC(A)_39313_2017.pdf",
+      "page_count": 14,
+      "word_count": 3087,
+      "char_count": 18747,
+      "size_bytes": 296239
+    },
+    {
+      "path": "2017/WRIC(A)_41428_2017.pdf",
+      "page_count": 4,
+      "word_count": 1072,
+      "char_count": 6444,
+      "size_bytes": 73691
+    },
+    {
+      "path": "2017/WRIC(A)_4417_2017.pdf",
+      "page_count": 8,
+      "word_count": 1228,
+      "char_count": 7581,
+      "size_bytes": 173934
+    },
+    {
+      "path": "2017/WRIC(A)_47523_2017.pdf",
+      "page_count": 4,
+      "word_count": 995,
+      "char_count": 6070,
+      "size_bytes": 92766
+    },
+    {
+      "path": "2017/WRIC(A)_48874_2017.pdf",
+      "page_count": 6,
+      "word_count": 789,
+      "char_count": 4737,
+      "size_bytes": 143950
+    },
+    {
+      "path": "2017/WRIC(A)_49296_2017.pdf",
+      "page_count": 10,
+      "word_count": 1989,
+      "char_count": 11916,
+      "size_bytes": 149498
+    },
+    {
+      "path": "2017/WRIC(A)_54627_2017.pdf",
+      "page_count": 23,
+      "word_count": 2623,
+      "char_count": 16072,
+      "size_bytes": 661448
+    },
+    {
+      "path": "2017/WRIC(A)_5519_2017.pdf",
+      "page_count": 7,
+      "word_count": 1753,
+      "char_count": 10410,
+      "size_bytes": 78346
+    },
+    {
+      "path": "2017/WRIC(A)_57042_2017.pdf",
+      "page_count": 9,
+      "word_count": 1241,
+      "char_count": 7705,
+      "size_bytes": 208265
+    },
+    {
+      "path": "2017/WRIC(A)_59452_2017.pdf",
+      "page_count": 9,
+      "word_count": 1155,
+      "char_count": 7024,
+      "size_bytes": 354711
+    },
+    {
+      "path": "2017/WRIC(A)_6189_2017.pdf",
+      "page_count": 11,
+      "word_count": 1297,
+      "char_count": 8043,
+      "size_bytes": 314705
+    },
+    {
+      "path": "2017/WRIC(A)_8168_2017.pdf",
+      "page_count": 11,
+      "word_count": 1996,
+      "char_count": 12012,
+      "size_bytes": 182583
+    },
+    {
+      "path": "2018/CRLR(A)_2144_2018.pdf",
+      "page_count": 3,
+      "word_count": 1017,
+      "char_count": 6374,
+      "size_bytes": 45414
+    },
+    {
+      "path": "2018/WRIC(A)_11573_2018.pdf",
+      "page_count": 5,
+      "word_count": 995,
+      "char_count": 6047,
+      "size_bytes": 77296
+    },
+    {
+      "path": "2018/WRIC(A)_14201_2018.pdf",
+      "page_count": 6,
+      "word_count": 967,
+      "char_count": 5870,
+      "size_bytes": 130455
+    },
+    {
+      "path": "2018/WRIC(A)_23262_2018.pdf",
+      "page_count": 5,
+      "word_count": 973,
+      "char_count": 6076,
+      "size_bytes": 85407
+    },
+    {
+      "path": "2018/WRIC(A)_24449_2018.pdf",
+      "page_count": 6,
+      "word_count": 852,
+      "char_count": 5403,
+      "size_bytes": 73052
+    },
+    {
+      "path": "2018/WRIC(A)_25310_2018.pdf",
+      "page_count": 4,
+      "word_count": 834,
+      "char_count": 5020,
+      "size_bytes": 81620
+    },
+    {
+      "path": "2018/WRIC(A)_25325_2018.pdf",
+      "page_count": 6,
+      "word_count": 1575,
+      "char_count": 9881,
+      "size_bytes": 53733
+    },
+    {
+      "path": "2018/WRIC(A)_25532_2018.pdf",
+      "page_count": 15,
+      "word_count": 4871,
+      "char_count": 29087,
+      "size_bytes": 218694
+    },
+    {
+      "path": "2018/WRIC(A)_2592_2018.pdf",
+      "page_count": 4,
+      "word_count": 928,
+      "char_count": 5656,
+      "size_bytes": 93210
+    },
+    {
+      "path": "2018/WRIC(A)_26575_2018.pdf",
+      "page_count": 3,
+      "word_count": 819,
+      "char_count": 4964,
+      "size_bytes": 37608
+    },
+    {
+      "path": "2018/WRIC(A)_31212_2018.pdf",
+      "page_count": 5,
+      "word_count": 1009,
+      "char_count": 6151,
+      "size_bytes": 149193
+    },
+    {
+      "path": "2018/WRIC(A)_31970_2018.pdf",
+      "page_count": 8,
+      "word_count": 1051,
+      "char_count": 6700,
+      "size_bytes": 242211
+    },
+    {
+      "path": "2018/WRIC(A)_33147_2018.pdf",
+      "page_count": 6,
+      "word_count": 1259,
+      "char_count": 7668,
+      "size_bytes": 159902
+    },
+    {
+      "path": "2018/WRIC(A)_34812_2018.pdf",
+      "page_count": 3,
+      "word_count": 809,
+      "char_count": 5026,
+      "size_bytes": 35129
+    },
+    {
+      "path": "2018/WRIC(A)_35071_2018.pdf",
+      "page_count": 9,
+      "word_count": 1638,
+      "char_count": 10207,
+      "size_bytes": 162341
+    },
+    {
+      "path": "2018/WRIC(A)_4109_2018.pdf",
+      "page_count": 6,
+      "word_count": 1001,
+      "char_count": 5953,
+      "size_bytes": 173041
+    },
+    {
+      "path": "2018/WRIC(A)_5220_2018.pdf",
+      "page_count": 9,
+      "word_count": 1221,
+      "char_count": 7455,
+      "size_bytes": 218778
+    },
+    {
+      "path": "2018/WRIC(A)_8396_2018.pdf",
+      "page_count": 22,
+      "word_count": 4813,
+      "char_count": 29010,
+      "size_bytes": 296108
+    },
+    {
+      "path": "2018/WRIC(A)_8432_2018.pdf",
+      "page_count": 11,
+      "word_count": 1205,
+      "char_count": 7204,
+      "size_bytes": 292258
+    },
+    {
+      "path": "2018/WRIC(A)_9041_2018.pdf",
+      "page_count": 15,
+      "word_count": 1802,
+      "char_count": 11166,
+      "size_bytes": 513454
+    },
+    {
+      "path": "2018/WRIC(A)_9275_2018.pdf",
+      "page_count": 6,
+      "word_count": 850,
+      "char_count": 5027,
+      "size_bytes": 143834
+    },
+    {
+      "path": "2018/WRIC(A)_9808_2018.pdf",
+      "page_count": 3,
+      "word_count": 1034,
+      "char_count": 6214,
+      "size_bytes": 44649
+    },
+    {
+      "path": "2019/BAIL(L)_9874_2019.pdf",
+      "page_count": 6,
+      "word_count": 1000,
+      "char_count": 5988,
+      "size_bytes": 115218
+    },
+    {
+      "path": "2019/CAPL(A)_2896_2019.pdf",
+      "page_count": 4,
+      "word_count": 966,
+      "char_count": 5951,
+      "size_bytes": 102431
+    },
+    {
+      "path": "2019/CRLP(A)_16864_2019.pdf",
+      "page_count": 5,
+      "word_count": 822,
+      "char_count": 5069,
+      "size_bytes": 121164
+    },
+    {
+      "path": "2019/WRIC(A)_10180_2019.pdf",
+      "page_count": 3,
+      "word_count": 940,
+      "char_count": 5841,
+      "size_bytes": 47548
+    },
+    {
+      "path": "2019/WRIC(A)_13068_2019.pdf",
+      "page_count": 5,
+      "word_count": 952,
+      "char_count": 6256,
+      "size_bytes": 111254
+    },
+    {
+      "path": "2019/WRIC(A)_14156_2019.pdf",
+      "page_count": 5,
+      "word_count": 828,
+      "char_count": 5252,
+      "size_bytes": 141196
+    },
+    {
+      "path": "2019/WRIC(A)_14563_2019.pdf",
+      "page_count": 16,
+      "word_count": 4578,
+      "char_count": 29312,
+      "size_bytes": 129497
+    },
+    {
+      "path": "2019/WRIC(A)_1472_2019.pdf",
+      "page_count": 3,
+      "word_count": 816,
+      "char_count": 4940,
+      "size_bytes": 55542
+    },
+    {
+      "path": "2019/WRIC(A)_1493_2019.pdf",
+      "page_count": 5,
+      "word_count": 861,
+      "char_count": 5314,
+      "size_bytes": 109314
+    },
+    {
+      "path": "2019/WRIC(A)_16764_2019.pdf",
+      "page_count": 4,
+      "word_count": 845,
+      "char_count": 5202,
+      "size_bytes": 57757
+    },
+    {
+      "path": "2019/WRIC(A)_23649_2019.pdf",
+      "page_count": 6,
+      "word_count": 1389,
+      "char_count": 8295,
+      "size_bytes": 124727
+    },
+    {
+      "path": "2019/WRIC(A)_26583_2019.pdf",
+      "page_count": 11,
+      "word_count": 1471,
+      "char_count": 9420,
+      "size_bytes": 316211
+    },
+    {
+      "path": "2019/WRIC(A)_27553_2019.pdf",
+      "page_count": 27,
+      "word_count": 5766,
+      "char_count": 34687,
+      "size_bytes": 372475
+    },
+    {
+      "path": "2019/WRIC(A)_3235_2019.pdf",
+      "page_count": 9,
+      "word_count": 944,
+      "char_count": 6275,
+      "size_bytes": 236581
+    },
+    {
+      "path": "2019/WRIC(A)_34972_2019.pdf",
+      "page_count": 4,
+      "word_count": 964,
+      "char_count": 5928,
+      "size_bytes": 46338
+    },
+    {
+      "path": "2019/WRIC(A)_37751_2019.pdf",
+      "page_count": 5,
+      "word_count": 855,
+      "char_count": 5374,
+      "size_bytes": 70212
+    },
+    {
+      "path": "2019/WRIC(A)_41064_2019.pdf",
+      "page_count": 3,
+      "word_count": 844,
+      "char_count": 5149,
+      "size_bytes": 45996
+    },
+    {
+      "path": "2019/WRIC(A)_707_2019.pdf",
+      "page_count": 3,
+      "word_count": 792,
+      "char_count": 4628,
+      "size_bytes": 50789
+    },
+    {
+      "path": "2020/WRIC(A)_12870_2020.pdf",
+      "page_count": 6,
+      "word_count": 1951,
+      "char_count": 11643,
+      "size_bytes": 137658
+    },
+    {
+      "path": "2020/WRIC(A)_13671_2020.pdf",
+      "page_count": 8,
+      "word_count": 902,
+      "char_count": 5661,
+      "size_bytes": 192873
+    },
+    {
+      "path": "2020/WRIC(A)_14132_2020.pdf",
+      "page_count": 6,
+      "word_count": 807,
+      "char_count": 4943,
+      "size_bytes": 179155
+    },
+    {
+      "path": "2020/WRIC(A)_14322_2020.pdf",
+      "page_count": 6,
+      "word_count": 801,
+      "char_count": 4917,
+      "size_bytes": 144052
+    },
+    {
+      "path": "2020/WRIC(A)_15849_2020.pdf",
+      "page_count": 6,
+      "word_count": 802,
+      "char_count": 4847,
+      "size_bytes": 200140
+    },
+    {
+      "path": "2020/WRIC(A)_17304_2020.pdf",
+      "page_count": 3,
+      "word_count": 856,
+      "char_count": 5157,
+      "size_bytes": 48053
+    },
+    {
+      "path": "2020/WRIC(A)_17861_2020.pdf",
+      "page_count": 5,
+      "word_count": 1058,
+      "char_count": 6655,
+      "size_bytes": 110837
+    },
+    {
+      "path": "2020/WRIC(A)_19589_2020.pdf",
+      "page_count": 4,
+      "word_count": 911,
+      "char_count": 5694,
+      "size_bytes": 72119
+    },
+    {
+      "path": "2020/WRIC(A)_19955_2020.pdf",
+      "page_count": 5,
+      "word_count": 932,
+      "char_count": 5774,
+      "size_bytes": 128542
+    },
+    {
+      "path": "2020/WRIC(A)_20306_2020.pdf",
+      "page_count": 3,
+      "word_count": 849,
+      "char_count": 5204,
+      "size_bytes": 49176
+    },
+    {
+      "path": "2020/WRIC(A)_21458_2020.pdf",
+      "page_count": 9,
+      "word_count": 1205,
+      "char_count": 7626,
+      "size_bytes": 614106
+    },
+    {
+      "path": "2020/WRIC(A)_24155_2020.pdf",
+      "page_count": 3,
+      "word_count": 827,
+      "char_count": 5215,
+      "size_bytes": 52700
+    },
+    {
+      "path": "2020/WRIC(A)_26380_2020.pdf",
+      "page_count": 3,
+      "word_count": 1051,
+      "char_count": 6465,
+      "size_bytes": 56268
+    },
+    {
+      "path": "2020/WRIC(A)_26825_2020.pdf",
+      "page_count": 3,
+      "word_count": 968,
+      "char_count": 5927,
+      "size_bytes": 48053
+    },
+    {
+      "path": "2020/WRIC(A)_27089_2020.pdf",
+      "page_count": 3,
+      "word_count": 964,
+      "char_count": 5903,
+      "size_bytes": 48187
+    },
+    {
+      "path": "2020/WRIC(A)_27193_2020.pdf",
+      "page_count": 3,
+      "word_count": 947,
+      "char_count": 5851,
+      "size_bytes": 47852
+    },
+    {
+      "path": "2020/WRIC(A)_27519_2020.pdf",
+      "page_count": 3,
+      "word_count": 858,
+      "char_count": 5422,
+      "size_bytes": 73575
+    },
+    {
+      "path": "2020/WRIC(A)_27543_2020.pdf",
+      "page_count": 4,
+      "word_count": 1152,
+      "char_count": 7087,
+      "size_bytes": 84760
+    },
+    {
+      "path": "2020/WRIC(A)_27665_2020.pdf",
+      "page_count": 3,
+      "word_count": 934,
+      "char_count": 5770,
+      "size_bytes": 57704
+    },
+    {
+      "path": "2020/WRIC(A)_4765_2020.pdf",
+      "page_count": 7,
+      "word_count": 937,
+      "char_count": 5819,
+      "size_bytes": 160095
+    },
+    {
+      "path": "2020/WRIC(A)_5743_2020.pdf",
+      "page_count": 4,
+      "word_count": 845,
+      "char_count": 5195,
+      "size_bytes": 106120
+    },
+    {
+      "path": "2020/WRIC(A)_9534_2020.pdf",
+      "page_count": 3,
+      "word_count": 851,
+      "char_count": 5287,
+      "size_bytes": 46265
+    },
+    {
+      "path": "2020/WRIC(L)_13152_2020.pdf",
+      "page_count": 11,
+      "word_count": 1187,
+      "char_count": 7655,
+      "size_bytes": 513700
+    },
+    {
+      "path": "2021/CAPL(A)_3996_2021.pdf",
+      "page_count": 8,
+      "word_count": 1968,
+      "char_count": 11761,
+      "size_bytes": 153940
+    },
+    {
+      "path": "2021/WRIC(A)_10123_2021.pdf",
+      "page_count": 85,
+      "word_count": 28168,
+      "char_count": 170285,
+      "size_bytes": 682669
+    },
+    {
+      "path": "2021/WRIC(A)_10772_2021.pdf",
+      "page_count": 8,
+      "word_count": 1836,
+      "char_count": 11466,
+      "size_bytes": 129018
+    },
+    {
+      "path": "2021/WRIC(A)_10822_2021.pdf",
+      "page_count": 25,
+      "word_count": 4463,
+      "char_count": 28996,
+      "size_bytes": 681097
+    },
+    {
+      "path": "2021/WRIC(A)_1088_2021.pdf",
+      "page_count": 2,
+      "word_count": 951,
+      "char_count": 5869,
+      "size_bytes": 46297
+    },
+    {
+      "path": "2021/WRIC(A)_13262_2021.pdf",
+      "page_count": 3,
+      "word_count": 1504,
+      "char_count": 8967,
+      "size_bytes": 85850
+    },
+    {
+      "path": "2021/WRIC(A)_1376_2021.pdf",
+      "page_count": 3,
+      "word_count": 818,
+      "char_count": 5183,
+      "size_bytes": 47057
+    },
+    {
+      "path": "2021/WRIC(A)_14254_2021.pdf",
+      "page_count": 5,
+      "word_count": 847,
+      "char_count": 5185,
+      "size_bytes": 122494
+    },
+    {
+      "path": "2021/WRIC(A)_15712_2021.pdf",
+      "page_count": 11,
+      "word_count": 1481,
+      "char_count": 9234,
+      "size_bytes": 378768
+    },
+    {
+      "path": "2021/WRIC(A)_15882_2021.pdf",
+      "page_count": 7,
+      "word_count": 1465,
+      "char_count": 8952,
+      "size_bytes": 108904
+    },
+    {
+      "path": "2021/WRIC(A)_20446_2021.pdf",
+      "page_count": 4,
+      "word_count": 1275,
+      "char_count": 7597,
+      "size_bytes": 42893
+    },
+    {
+      "path": "2021/WRIC(A)_21346_2021.pdf",
+      "page_count": 3,
+      "word_count": 876,
+      "char_count": 5512,
+      "size_bytes": 129728
+    },
+    {
+      "path": "2021/WRIC(A)_21650_2021.pdf",
+      "page_count": 7,
+      "word_count": 991,
+      "char_count": 6379,
+      "size_bytes": 201880
+    },
+    {
+      "path": "2021/WRIC(A)_21944_2021.pdf",
+      "page_count": 4,
+      "word_count": 928,
+      "char_count": 5615,
+      "size_bytes": 37047
+    },
+    {
+      "path": "2021/WRIC(A)_22273_2021.pdf",
+      "page_count": 20,
+      "word_count": 2172,
+      "char_count": 13776,
+      "size_bytes": 1770804
+    },
+    {
+      "path": "2021/WRIC(A)_2385_2021.pdf",
+      "page_count": 4,
+      "word_count": 813,
+      "char_count": 5156,
+      "size_bytes": 111388
+    },
+    {
+      "path": "2021/WRIC(A)_24083_2021.pdf",
+      "page_count": 3,
+      "word_count": 888,
+      "char_count": 5500,
+      "size_bytes": 33356
+    },
+    {
+      "path": "2021/WRIC(A)_26589_2021.pdf",
+      "page_count": 4,
+      "word_count": 1218,
+      "char_count": 7421,
+      "size_bytes": 48672
+    },
+    {
+      "path": "2021/WRIC(A)_2936_2021.pdf",
+      "page_count": 3,
+      "word_count": 908,
+      "char_count": 5574,
+      "size_bytes": 55762
+    },
+    {
+      "path": "2021/WRIC(A)_29932_2021.pdf",
+      "page_count": 4,
+      "word_count": 891,
+      "char_count": 5547,
+      "size_bytes": 101233
+    },
+    {
+      "path": "2021/WRIC(A)_30385_2021.pdf",
+      "page_count": 4,
+      "word_count": 813,
+      "char_count": 4959,
+      "size_bytes": 135424
+    },
+    {
+      "path": "2021/WRIC(A)_30578_2021.pdf",
+      "page_count": 7,
+      "word_count": 900,
+      "char_count": 5471,
+      "size_bytes": 183823
+    },
+    {
+      "path": "2021/WRIC(A)_3091_2021.pdf",
+      "page_count": 3,
+      "word_count": 929,
+      "char_count": 5687,
+      "size_bytes": 55920
+    },
+    {
+      "path": "2021/WRIC(A)_34450_2021.pdf",
+      "page_count": 5,
+      "word_count": 875,
+      "char_count": 5423,
+      "size_bytes": 174220
+    },
+    {
+      "path": "2021/WRIC(A)_4192_2021.pdf",
+      "page_count": 3,
+      "word_count": 844,
+      "char_count": 5295,
+      "size_bytes": 47309
+    },
+    {
+      "path": "2021/WRIC(A)_4355_2021.pdf",
+      "page_count": 3,
+      "word_count": 967,
+      "char_count": 6304,
+      "size_bytes": 81067
+    },
+    {
+      "path": "2021/WRIC(A)_5762_2021.pdf",
+      "page_count": 12,
+      "word_count": 1816,
+      "char_count": 11365,
+      "size_bytes": 1354456
+    },
+    {
+      "path": "2021/WRIC(A)_8462_2021.pdf",
+      "page_count": 5,
+      "word_count": 825,
+      "char_count": 5243,
+      "size_bytes": 128974
+    },
+    {
+      "path": "2021/WRIC(A)_8994_2021.pdf",
+      "page_count": 5,
+      "word_count": 1185,
+      "char_count": 7199,
+      "size_bytes": 380178
+    },
+    {
+      "path": "2022/A482(L)_904_2022.pdf",
+      "page_count": 3,
+      "word_count": 1036,
+      "char_count": 6572,
+      "size_bytes": 64322
+    },
+    {
+      "path": "2022/CAPL(A)_4248_2022.pdf",
+      "page_count": 9,
+      "word_count": 1969,
+      "char_count": 12023,
+      "size_bytes": 244869
+    },
+    {
+      "path": "2022/CAPL(L)_669_2022.pdf",
+      "page_count": 3,
+      "word_count": 916,
+      "char_count": 5770,
+      "size_bytes": 95178
+    },
+    {
+      "path": "2022/SPLAD(A)_395_2022.pdf",
+      "page_count": 21,
+      "word_count": 4457,
+      "char_count": 27435,
+      "size_bytes": 563110
+    },
+    {
+      "path": "2022/WRIA(A)_15140_2022.pdf",
+      "page_count": 3,
+      "word_count": 901,
+      "char_count": 5526,
+      "size_bytes": 77039
+    },
+    {
+      "path": "2022/WRIC(A)_10522_2022.pdf",
+      "page_count": 4,
+      "word_count": 1296,
+      "char_count": 8080,
+      "size_bytes": 67789
+    },
+    {
+      "path": "2022/WRIC(A)_11562_2022.pdf",
+      "page_count": 11,
+      "word_count": 2080,
+      "char_count": 13213,
+      "size_bytes": 435779
+    },
+    {
+      "path": "2022/WRIC(A)_12580_2022.pdf",
+      "page_count": 3,
+      "word_count": 797,
+      "char_count": 5357,
+      "size_bytes": 133381
+    },
+    {
+      "path": "2022/WRIC(A)_12723_2022.pdf",
+      "page_count": 2,
+      "word_count": 1046,
+      "char_count": 6548,
+      "size_bytes": 67199
+    },
+    {
+      "path": "2022/WRIC(A)_13176_2022.pdf",
+      "page_count": 11,
+      "word_count": 2572,
+      "char_count": 16211,
+      "size_bytes": 389113
+    },
+    {
+      "path": "2022/WRIC(A)_15139_2022.pdf",
+      "page_count": 5,
+      "word_count": 1188,
+      "char_count": 7299,
+      "size_bytes": 206478
+    },
+    {
+      "path": "2022/WRIC(A)_15897_2022.pdf",
+      "page_count": 8,
+      "word_count": 2701,
+      "char_count": 16378,
+      "size_bytes": 114998
+    },
+    {
+      "path": "2022/WRIC(A)_16953_2022.pdf",
+      "page_count": 5,
+      "word_count": 1531,
+      "char_count": 9216,
+      "size_bytes": 111939
+    },
+    {
+      "path": "2022/WRIC(A)_17275_2022.pdf",
+      "page_count": 3,
+      "word_count": 896,
+      "char_count": 5533,
+      "size_bytes": 52080
+    },
+    {
+      "path": "2022/WRIC(A)_17652_2022.pdf",
+      "page_count": 6,
+      "word_count": 925,
+      "char_count": 5770,
+      "size_bytes": 263006
+    },
+    {
+      "path": "2022/WRIC(A)_1872_2022.pdf",
+      "page_count": 5,
+      "word_count": 805,
+      "char_count": 5017,
+      "size_bytes": 180223
+    },
+    {
+      "path": "2022/WRIC(A)_19481_2022.pdf",
+      "page_count": 9,
+      "word_count": 1555,
+      "char_count": 9566,
+      "size_bytes": 398542
+    },
+    {
+      "path": "2022/WRIC(A)_21244_2022.pdf",
+      "page_count": 8,
+      "word_count": 2537,
+      "char_count": 15541,
+      "size_bytes": 92479
+    },
+    {
+      "path": "2022/WRIC(A)_21256_2022.pdf",
+      "page_count": 4,
+      "word_count": 879,
+      "char_count": 5248,
+      "size_bytes": 135872
+    },
+    {
+      "path": "2022/WRIC(A)_22925_2022.pdf",
+      "page_count": 5,
+      "word_count": 819,
+      "char_count": 5022,
+      "size_bytes": 147039
+    },
+    {
+      "path": "2022/WRIC(A)_24584_2022.pdf",
+      "page_count": 4,
+      "word_count": 1091,
+      "char_count": 6504,
+      "size_bytes": 136320
+    },
+    {
+      "path": "2022/WRIC(A)_26355_2022.pdf",
+      "page_count": 27,
+      "word_count": 7793,
+      "char_count": 47527,
+      "size_bytes": 330146
+    },
+    {
+      "path": "2022/WRIC(A)_27820_2022.pdf",
+      "page_count": 7,
+      "word_count": 998,
+      "char_count": 6129,
+      "size_bytes": 289379
+    },
+    {
+      "path": "2022/WRIC(A)_27829_2022.pdf",
+      "page_count": 6,
+      "word_count": 1043,
+      "char_count": 6399,
+      "size_bytes": 264019
+    },
+    {
+      "path": "2022/WRIC(A)_3040_2022.pdf",
+      "page_count": 7,
+      "word_count": 1645,
+      "char_count": 9991,
+      "size_bytes": 278325
+    },
+    {
+      "path": "2022/WRIC(A)_31472_2022.pdf",
+      "page_count": 4,
+      "word_count": 885,
+      "char_count": 5551,
+      "size_bytes": 156304
+    },
+    {
+      "path": "2022/WRIC(A)_3164_2022.pdf",
+      "page_count": 3,
+      "word_count": 843,
+      "char_count": 5726,
+      "size_bytes": 81131
+    },
+    {
+      "path": "2022/WRIC(A)_33073_2022.pdf",
+      "page_count": 23,
+      "word_count": 2865,
+      "char_count": 17561,
+      "size_bytes": 984951
+    },
+    {
+      "path": "2022/WRIC(A)_34030_2022.pdf",
+      "page_count": 17,
+      "word_count": 2657,
+      "char_count": 16581,
+      "size_bytes": 696733
+    },
+    {
+      "path": "2022/WRIC(A)_34085_2022.pdf",
+      "page_count": 24,
+      "word_count": 2531,
+      "char_count": 15310,
+      "size_bytes": 1727285
+    },
+    {
+      "path": "2022/WRIC(A)_35257_2022.pdf",
+      "page_count": 7,
+      "word_count": 1833,
+      "char_count": 11263,
+      "size_bytes": 204398
+    },
+    {
+      "path": "2022/WRIC(A)_35571_2022.pdf",
+      "page_count": 5,
+      "word_count": 1078,
+      "char_count": 6540,
+      "size_bytes": 215343
+    },
+    {
+      "path": "2022/WRIC(A)_37137_2022.pdf",
+      "page_count": 6,
+      "word_count": 2079,
+      "char_count": 13358,
+      "size_bytes": 171927
+    },
+    {
+      "path": "2022/WRIC(A)_37313_2022.pdf",
+      "page_count": 7,
+      "word_count": 1113,
+      "char_count": 6990,
+      "size_bytes": 240148
+    },
+    {
+      "path": "2022/WRIC(A)_38315_2022.pdf",
+      "page_count": 5,
+      "word_count": 1015,
+      "char_count": 6345,
+      "size_bytes": 204799
+    },
+    {
+      "path": "2022/WRIC(A)_38921_2022.pdf",
+      "page_count": 9,
+      "word_count": 1910,
+      "char_count": 11910,
+      "size_bytes": 281502
+    },
+    {
+      "path": "2022/WRIC(A)_6811_2022.pdf",
+      "page_count": 6,
+      "word_count": 1999,
+      "char_count": 12353,
+      "size_bytes": 86062
+    },
+    {
+      "path": "2022/WRIC(L)_1049_2022.pdf",
+      "page_count": 10,
+      "word_count": 1582,
+      "char_count": 10114,
+      "size_bytes": 380932
+    },
+    {
+      "path": "2022/WRIC(L)_1753_2022.pdf",
+      "page_count": 8,
+      "word_count": 1317,
+      "char_count": 8114,
+      "size_bytes": 347962
+    },
+    {
+      "path": "2022/WRIC(L)_3291_2022.pdf",
+      "page_count": 6,
+      "word_count": 885,
+      "char_count": 5547,
+      "size_bytes": 239836
+    },
+    {
+      "path": "2022/WRIC(L)_3944_2022.pdf",
+      "page_count": 4,
+      "word_count": 1166,
+      "char_count": 7566,
+      "size_bytes": 97723
+    },
+    {
+      "path": "2022/WRIC(L)_4123_2022.pdf",
+      "page_count": 3,
+      "word_count": 1031,
+      "char_count": 6013,
+      "size_bytes": 71993
+    },
+    {
+      "path": "2022/WRIC(L)_8737_2022.pdf",
+      "page_count": 16,
+      "word_count": 1549,
+      "char_count": 9448,
+      "size_bytes": 721836
+    },
+    {
+      "path": "2022/WRIC(L)_8747_2022.pdf",
+      "page_count": 3,
+      "word_count": 1059,
+      "char_count": 6671,
+      "size_bytes": 56542
+    },
+    {
+      "path": "2023/BAIL(A)_23436_2023.pdf",
+      "page_count": 5,
+      "word_count": 1436,
+      "char_count": 8653,
+      "size_bytes": 99614
+    },
+    {
+      "path": "2023/CAPL(A)_4476_2023.pdf",
+      "page_count": 7,
+      "word_count": 1851,
+      "char_count": 11674,
+      "size_bytes": 250394
+    },
+    {
+      "path": "2023/CMRA(A)_129_2023.pdf",
+      "page_count": 29,
+      "word_count": 7361,
+      "char_count": 45066,
+      "size_bytes": 540071
+    },
+    {
+      "path": "2023/WRIC(A)_10906_2023.pdf",
+      "page_count": 8,
+      "word_count": 1779,
+      "char_count": 11235,
+      "size_bytes": 171585
+    },
+    {
+      "path": "2023/WRIC(A)_11320_2023.pdf",
+      "page_count": 5,
+      "word_count": 1271,
+      "char_count": 7707,
+      "size_bytes": 133739
+    },
+    {
+      "path": "2023/WRIC(A)_11525_2023.pdf",
+      "page_count": 6,
+      "word_count": 858,
+      "char_count": 5477,
+      "size_bytes": 242838
+    },
+    {
+      "path": "2023/WRIC(A)_11590_2023.pdf",
+      "page_count": 4,
+      "word_count": 1082,
+      "char_count": 6843,
+      "size_bytes": 145500
+    },
+    {
+      "path": "2023/WRIC(A)_13570_2023.pdf",
+      "page_count": 6,
+      "word_count": 1303,
+      "char_count": 8123,
+      "size_bytes": 155669
+    },
+    {
+      "path": "2023/WRIC(A)_15079_2023.pdf",
+      "page_count": 6,
+      "word_count": 1355,
+      "char_count": 8304,
+      "size_bytes": 169504
+    },
+    {
+      "path": "2023/WRIC(A)_15278_2023.pdf",
+      "page_count": 6,
+      "word_count": 803,
+      "char_count": 5072,
+      "size_bytes": 223269
+    },
+    {
+      "path": "2023/WRIC(A)_15283_2023.pdf",
+      "page_count": 8,
+      "word_count": 2517,
+      "char_count": 16578,
+      "size_bytes": 233990
+    },
+    {
+      "path": "2023/WRIC(A)_16169_2023.pdf",
+      "page_count": 8,
+      "word_count": 939,
+      "char_count": 5884,
+      "size_bytes": 346704
+    },
+    {
+      "path": "2023/WRIC(A)_16176_2023.pdf",
+      "page_count": 5,
+      "word_count": 859,
+      "char_count": 5303,
+      "size_bytes": 194901
+    },
+    {
+      "path": "2023/WRIC(A)_16687_2023.pdf",
+      "page_count": 5,
+      "word_count": 1025,
+      "char_count": 6233,
+      "size_bytes": 193184
+    },
+    {
+      "path": "2023/WRIC(A)_17587_2023.pdf",
+      "page_count": 10,
+      "word_count": 1626,
+      "char_count": 10633,
+      "size_bytes": 1013409
+    },
+    {
+      "path": "2023/WRIC(A)_17888_2023.pdf",
+      "page_count": 11,
+      "word_count": 1699,
+      "char_count": 10726,
+      "size_bytes": 449095
+    },
+    {
+      "path": "2023/WRIC(A)_18768_2023.pdf",
+      "page_count": 4,
+      "word_count": 1372,
+      "char_count": 8173,
+      "size_bytes": 56893
+    },
+    {
+      "path": "2023/WRIC(A)_18900_2023.pdf",
+      "page_count": 4,
+      "word_count": 830,
+      "char_count": 5274,
+      "size_bytes": 162552
+    },
+    {
+      "path": "2023/WRIC(A)_22278_2023.pdf",
+      "page_count": 8,
+      "word_count": 1401,
+      "char_count": 8696,
+      "size_bytes": 327474
+    },
+    {
+      "path": "2023/WRIC(A)_2360_2023.pdf",
+      "page_count": 5,
+      "word_count": 845,
+      "char_count": 5149,
+      "size_bytes": 224392
+    },
+    {
+      "path": "2023/WRIC(A)_24628_2023.pdf",
+      "page_count": 6,
+      "word_count": 858,
+      "char_count": 5400,
+      "size_bytes": 237150
+    },
+    {
+      "path": "2023/WRIC(A)_24799_2023.pdf",
+      "page_count": 5,
+      "word_count": 1183,
+      "char_count": 7257,
+      "size_bytes": 137716
+    },
+    {
+      "path": "2023/WRIC(A)_2637_2023.pdf",
+      "page_count": 24,
+      "word_count": 9236,
+      "char_count": 61561,
+      "size_bytes": 564643
+    },
+    {
+      "path": "2023/WRIC(A)_27328_2023.pdf",
+      "page_count": 8,
+      "word_count": 1490,
+      "char_count": 9237,
+      "size_bytes": 293227
+    },
+    {
+      "path": "2023/WRIC(A)_27838_2023.pdf",
+      "page_count": 6,
+      "word_count": 1404,
+      "char_count": 8663,
+      "size_bytes": 182026
+    },
+    {
+      "path": "2023/WRIC(A)_28103_2023.pdf",
+      "page_count": 9,
+      "word_count": 1043,
+      "char_count": 6522,
+      "size_bytes": 661862
+    },
+    {
+      "path": "2023/WRIC(A)_30315_2023.pdf",
+      "page_count": 6,
+      "word_count": 921,
+      "char_count": 5749,
+      "size_bytes": 282764
+    },
+    {
+      "path": "2023/WRIC(A)_31109_2023.pdf",
+      "page_count": 4,
+      "word_count": 876,
+      "char_count": 5483,
+      "size_bytes": 95173
+    },
+    {
+      "path": "2023/WRIC(A)_31133_2023.pdf",
+      "page_count": 6,
+      "word_count": 797,
+      "char_count": 4967,
+      "size_bytes": 282231
+    },
+    {
+      "path": "2023/WRIC(A)_31136_2023.pdf",
+      "page_count": 6,
+      "word_count": 799,
+      "char_count": 4998,
+      "size_bytes": 283729
+    },
+    {
+      "path": "2023/WRIC(A)_31951_2023.pdf",
+      "page_count": 5,
+      "word_count": 970,
+      "char_count": 6034,
+      "size_bytes": 188642
+    },
+    {
+      "path": "2023/WRIC(A)_3279_2023.pdf",
+      "page_count": 4,
+      "word_count": 1035,
+      "char_count": 6387,
+      "size_bytes": 117913
+    },
+    {
+      "path": "2023/WRIC(A)_33565_2023.pdf",
+      "page_count": 5,
+      "word_count": 929,
+      "char_count": 5810,
+      "size_bytes": 157533
+    },
+    {
+      "path": "2023/WRIC(A)_34323_2023.pdf",
+      "page_count": 6,
+      "word_count": 948,
+      "char_count": 5821,
+      "size_bytes": 224633
+    },
+    {
+      "path": "2023/WRIC(A)_35093_2023.pdf",
+      "page_count": 6,
+      "word_count": 1712,
+      "char_count": 10783,
+      "size_bytes": 188813
+    },
+    {
+      "path": "2023/WRIC(A)_39816_2023.pdf",
+      "page_count": 5,
+      "word_count": 1118,
+      "char_count": 6758,
+      "size_bytes": 112989
+    },
+    {
+      "path": "2023/WRIC(A)_4594_2023.pdf",
+      "page_count": 7,
+      "word_count": 1419,
+      "char_count": 8927,
+      "size_bytes": 107295
+    },
+    {
+      "path": "2023/WRIC(A)_6407_2023.pdf",
+      "page_count": 4,
+      "word_count": 993,
+      "char_count": 5978,
+      "size_bytes": 54399
+    },
+    {
+      "path": "2023/WRIC(A)_8486_2023.pdf",
+      "page_count": 10,
+      "word_count": 1600,
+      "char_count": 9805,
+      "size_bytes": 338715
+    },
+    {
+      "path": "2023/WRIC(A)_8882_2023.pdf",
+      "page_count": 5,
+      "word_count": 906,
+      "char_count": 5668,
+      "size_bytes": 191368
+    },
+    {
+      "path": "2023/WRIC(A)_9405_2023.pdf",
+      "page_count": 7,
+      "word_count": 1919,
+      "char_count": 11933,
+      "size_bytes": 176385
+    },
+    {
+      "path": "2023/WRIC(L)_2609_2023.pdf",
+      "page_count": 3,
+      "word_count": 1156,
+      "char_count": 7076,
+      "size_bytes": 112885
+    },
+    {
+      "path": "2023/WRIC(L)_4856_2023.pdf",
+      "page_count": 4,
+      "word_count": 888,
+      "char_count": 5368,
+      "size_bytes": 95363
+    },
+    {
+      "path": "2023/WRIC(L)_6402_2023.pdf",
+      "page_count": 5,
+      "word_count": 799,
+      "char_count": 4945,
+      "size_bytes": 226079
+    },
+    {
+      "path": "2023/WRIC(L)_8801_2023.pdf",
+      "page_count": 10,
+      "word_count": 1607,
+      "char_count": 9895,
+      "size_bytes": 366088
+    },
+    {
+      "path": "2023/WRIC(L)_9399_2023.pdf",
+      "page_count": 3,
+      "word_count": 828,
+      "char_count": 5091,
+      "size_bytes": 51712
+    },
+    {
+      "path": "2024/WRIC(A)_29622_2023.pdf",
+      "page_count": 11,
+      "word_count": 1644,
+      "char_count": 10086,
+      "size_bytes": 455060
+    },
+    {
+      "path": "2024/WRIC(A)_30596_2023.pdf",
+      "page_count": 8,
+      "word_count": 1048,
+      "char_count": 6505,
+      "size_bytes": 330089
+    },
+    {
+      "path": "2024/WRIC(A)_31835_2024.pdf",
+      "page_count": 6,
+      "word_count": 999,
+      "char_count": 6255,
+      "size_bytes": 199728
+    },
+    {
+      "path": "2024/WRIC(A)_33865_2024.pdf",
+      "page_count": 8,
+      "word_count": 1173,
+      "char_count": 7254,
+      "size_bytes": 299430
+    },
+    {
+      "path": "2024/WRIC(A)_3458_2024.pdf",
+      "page_count": 9,
+      "word_count": 2592,
+      "char_count": 15967,
+      "size_bytes": 200118
+    },
+    {
+      "path": "2024/WRIC(A)_3620_2024.pdf",
+      "page_count": 6,
+      "word_count": 1358,
+      "char_count": 8524,
+      "size_bytes": 230068
+    },
+    {
+      "path": "2024/WRIC(A)_37208_2023.pdf",
+      "page_count": 7,
+      "word_count": 1161,
+      "char_count": 7026,
+      "size_bytes": 285493
+    },
+    {
+      "path": "2024/WRIC(A)_39057_2023.pdf",
+      "page_count": 8,
+      "word_count": 1081,
+      "char_count": 6721,
+      "size_bytes": 326932
+    },
+    {
+      "path": "2024/WRIC(A)_6079_2024.pdf",
+      "page_count": 5,
+      "word_count": 846,
+      "char_count": 5132,
+      "size_bytes": 189427
+    },
+    {
+      "path": "2024/WRIC(A)_7929_2024.pdf",
+      "page_count": 4,
+      "word_count": 860,
+      "char_count": 5502,
+      "size_bytes": 182191
+    },
+    {
+      "path": "2024/WRIC(A)_7975_2024.pdf",
+      "page_count": 9,
+      "word_count": 1822,
+      "char_count": 11412,
+      "size_bytes": 378704
+    },
+    {
+      "path": "2024/WRIC(A)_806_2024.pdf",
+      "page_count": 5,
+      "word_count": 858,
+      "char_count": 5350,
+      "size_bytes": 177159
+    },
+    {
+      "path": "2024/WRIC(A)_8903_2024.pdf",
+      "page_count": 3,
+      "word_count": 868,
+      "char_count": 5403,
+      "size_bytes": 136911
+    },
+    {
+      "path": "2024/WRIC(A)_9426_2024.pdf",
+      "page_count": 4,
+      "word_count": 967,
+      "char_count": 5866,
+      "size_bytes": 148210
+    },
+    {
+      "path": "2024/WRIC(L)_6440_2024.pdf",
+      "page_count": 3,
+      "word_count": 1095,
+      "char_count": 6709,
+      "size_bytes": 68176
+    }
+  ]
+}

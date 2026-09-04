@@ -138,6 +138,15 @@ def is_docket_dup(filename, docket_blob):
     for needle in docket_needles(filename):
         if needle.lower() in docket_blob:
             return needle
+    # Robust catch-all (Claude patch, authorised): match "<num> of <year>" with
+    # digit boundaries so connected petitions written "Nos. 16147 of 2009 and
+    # 16149 of 2009" (plural / multi-docket) are caught even though the singular
+    # needle "No. 16147 of 2009" is not a substring. (Missed dup -> SCJ-707/225.)
+    m = FN_DOCKET.search(basename_of(filename))
+    if m:
+        num, year = m.group(1), m.group(2)
+        if re.search(rf"(?<!\d){num}\s+of\s+{year}(?!\d)", docket_blob):
+            return f"{num} of {year}"
     return None
 
 

@@ -1,0 +1,2119 @@
+{
+  "generated_from": "dup_scan_report.json + input_pdf_stats.json",
+  "rule": ">10pp -> Claude rich author; dup>10pp -> upgrade existing; plus top 10% by word count of the <=10pp genuine queue -> Claude new",
+  "new": [
+    {
+      "path": "2009/WRIC(A)_4222_2009.pdf",
+      "pages": 15,
+      "words": 4596
+    },
+    {
+      "path": "2009/WRIC(A)_55365_2009.pdf",
+      "pages": 34,
+      "words": 4148
+    },
+    {
+      "path": "2009/WRIC(A)_8167_2009.pdf",
+      "pages": 13,
+      "words": 3184
+    },
+    {
+      "path": "2010/CAPL(A)_1070_2010.pdf",
+      "pages": 11,
+      "words": 2788
+    },
+    {
+      "path": "2010/WRIC(A)_10188_2010.pdf",
+      "pages": 31,
+      "words": 4649
+    },
+    {
+      "path": "2010/WRIC(A)_33297_2010.pdf",
+      "pages": 13,
+      "words": 1725
+    },
+    {
+      "path": "2010/WRIC(A)_59924_2010.pdf",
+      "pages": 12,
+      "words": 1241
+    },
+    {
+      "path": "2010/WRIC(A)_70238_2010.pdf",
+      "pages": 11,
+      "words": 2033
+    },
+    {
+      "path": "2011/SPLA(A)_2362_2011.pdf",
+      "pages": 38,
+      "words": 4349
+    },
+    {
+      "path": "2011/WRIC(A)_19159_2011.pdf",
+      "pages": 12,
+      "words": 1555
+    },
+    {
+      "path": "2011/WRIC(A)_20563_2011.pdf",
+      "pages": 14,
+      "words": 1636
+    },
+    {
+      "path": "2011/WRIC(A)_23988_2011.pdf",
+      "pages": 25,
+      "words": 2595
+    },
+    {
+      "path": "2011/WRIC(A)_32705_2011.pdf",
+      "pages": 12,
+      "words": 1242
+    },
+    {
+      "path": "2011/WRIC(A)_76008_2011.pdf",
+      "pages": 11,
+      "words": 1499
+    },
+    {
+      "path": "2011/WRIC(A)_9318_2011.pdf",
+      "pages": 24,
+      "words": 6223
+    },
+    {
+      "path": "2012/WRIC(A)_16378_2012.pdf",
+      "pages": 11,
+      "words": 1322
+    },
+    {
+      "path": "2012/WRIC(A)_3773_2012.pdf",
+      "pages": 16,
+      "words": 1486
+    },
+    {
+      "path": "2012/WRIC(A)_45990_2012.pdf",
+      "pages": 11,
+      "words": 1032
+    },
+    {
+      "path": "2012/WRIC(A)_53740_2012.pdf",
+      "pages": 14,
+      "words": 1527
+    },
+    {
+      "path": "2012/WRIC(A)_54022_2012.pdf",
+      "pages": 21,
+      "words": 2352
+    },
+    {
+      "path": "2012/WRIC(A)_62180_2012.pdf",
+      "pages": 11,
+      "words": 1522
+    },
+    {
+      "path": "2012/WRIC(A)_66463_2012.pdf",
+      "pages": 29,
+      "words": 4510
+    },
+    {
+      "path": "2012/WRIC(A)_7010_2012.pdf",
+      "pages": 11,
+      "words": 1383
+    },
+    {
+      "path": "2012/WRIC(A)_8303_2012.pdf",
+      "pages": 11,
+      "words": 1278
+    },
+    {
+      "path": "2013/WRIC(A)_36217_2013.pdf",
+      "pages": 12,
+      "words": 1126
+    },
+    {
+      "path": "2014/WRIC(A)_9148_2014.pdf",
+      "pages": 22,
+      "words": 3407
+    },
+    {
+      "path": "2014/WRIC(A)_9267_2014.pdf",
+      "pages": 11,
+      "words": 2154
+    },
+    {
+      "path": "2015/WRIC(A)_15180_2015.pdf",
+      "pages": 40,
+      "words": 6027
+    },
+    {
+      "path": "2015/WRIC(A)_26191_2015.pdf",
+      "pages": 12,
+      "words": 1051
+    },
+    {
+      "path": "2015/WRIC(A)_47449_2015.pdf",
+      "pages": 15,
+      "words": 1578
+    },
+    {
+      "path": "2016/WRIC(A)_24151_2016.pdf",
+      "pages": 14,
+      "words": 1285
+    },
+    {
+      "path": "2016/WRIC(A)_25512_2016.pdf",
+      "pages": 22,
+      "words": 5555
+    },
+    {
+      "path": "2016/WRIC(A)_26512_2016.pdf",
+      "pages": 18,
+      "words": 2748
+    },
+    {
+      "path": "2016/WRIC(A)_35151_2016.pdf",
+      "pages": 11,
+      "words": 1440
+    },
+    {
+      "path": "2016/WRIC(A)_36336_2016.pdf",
+      "pages": 13,
+      "words": 1273
+    },
+    {
+      "path": "2016/WRIC(A)_41405_2016.pdf",
+      "pages": 11,
+      "words": 1218
+    },
+    {
+      "path": "2016/WRIC(A)_4999_2016.pdf",
+      "pages": 16,
+      "words": 2058
+    },
+    {
+      "path": "2017/A227(A)_4140_2017.pdf",
+      "pages": 17,
+      "words": 2093
+    },
+    {
+      "path": "2017/WRIC(A)_17548_2017.pdf",
+      "pages": 22,
+      "words": 2564
+    },
+    {
+      "path": "2017/WRIC(A)_39313_2017.pdf",
+      "pages": 14,
+      "words": 3087
+    },
+    {
+      "path": "2017/WRIC(A)_54627_2017.pdf",
+      "pages": 23,
+      "words": 2623
+    },
+    {
+      "path": "2017/WRIC(A)_6189_2017.pdf",
+      "pages": 11,
+      "words": 1297
+    },
+    {
+      "path": "2017/WRIC(A)_8168_2017.pdf",
+      "pages": 11,
+      "words": 1996
+    },
+    {
+      "path": "2018/WRIC(A)_8432_2018.pdf",
+      "pages": 11,
+      "words": 1205
+    },
+    {
+      "path": "2018/WRIC(A)_9041_2018.pdf",
+      "pages": 15,
+      "words": 1802
+    },
+    {
+      "path": "2019/WRIC(A)_14563_2019.pdf",
+      "pages": 16,
+      "words": 4578
+    },
+    {
+      "path": "2019/WRIC(A)_26583_2019.pdf",
+      "pages": 11,
+      "words": 1471
+    },
+    {
+      "path": "2020/WRIC(L)_13152_2020.pdf",
+      "pages": 11,
+      "words": 1187
+    },
+    {
+      "path": "2021/WRIC(A)_15712_2021.pdf",
+      "pages": 11,
+      "words": 1481
+    },
+    {
+      "path": "2021/WRIC(A)_22273_2021.pdf",
+      "pages": 20,
+      "words": 2172
+    },
+    {
+      "path": "2022/WRIC(A)_11562_2022.pdf",
+      "pages": 11,
+      "words": 2080
+    },
+    {
+      "path": "2022/WRIC(A)_33073_2022.pdf",
+      "pages": 23,
+      "words": 2865
+    },
+    {
+      "path": "2022/WRIC(A)_34030_2022.pdf",
+      "pages": 17,
+      "words": 2657
+    },
+    {
+      "path": "2022/WRIC(A)_34085_2022.pdf",
+      "pages": 24,
+      "words": 2531
+    },
+    {
+      "path": "2022/WRIC(L)_8737_2022.pdf",
+      "pages": 16,
+      "words": 1549
+    },
+    {
+      "path": "2023/WRIC(A)_17888_2023.pdf",
+      "pages": 11,
+      "words": 1699
+    },
+    {
+      "path": "2024/WRIC(A)_29622_2023.pdf",
+      "pages": 11,
+      "words": 1644
+    }
+  ],
+  "upgrade": [
+    {
+      "path": "2009/WRIC(A)_24900_2009.pdf",
+      "pages": 23,
+      "words": 6816,
+      "existing_case_id": "SCJ-246"
+    },
+    {
+      "path": "2009/WRIC(A)_32562_2009.pdf",
+      "pages": 33,
+      "words": 10119,
+      "existing_case_id": "SCJ-255"
+    },
+    {
+      "path": "2009/WRIC(A)_35248_2009.pdf",
+      "pages": 30,
+      "words": 10751,
+      "existing_case_id": "SCJ-218"
+    },
+    {
+      "path": "2009/WRIC(A)_38_2009.pdf",
+      "pages": 23,
+      "words": 6859,
+      "existing_case_id": "SCJ-252"
+    },
+    {
+      "path": "2009/WRIC(A)_55384_2009.pdf",
+      "pages": 32,
+      "words": 8622,
+      "existing_case_id": "SCJ-153"
+    },
+    {
+      "path": "2009/WRIC(A)_70447_2009.pdf",
+      "pages": 17,
+      "words": 3688,
+      "existing_case_id": "SCJ-072"
+    },
+    {
+      "path": "2010/SPLAD(L)_547_2010.pdf",
+      "pages": 26,
+      "words": 5899,
+      "existing_case_id": "SCJ-138"
+    },
+    {
+      "path": "2010/WRIC(A)_20679_2010.pdf",
+      "pages": 31,
+      "words": 8828,
+      "existing_case_id": "SCJ-121"
+    },
+    {
+      "path": "2010/WRIC(A)_47592_2010.pdf",
+      "pages": 17,
+      "words": 6260,
+      "existing_case_id": "SCJ-258"
+    },
+    {
+      "path": "2010/WRIC(A)_52054_2010.pdf",
+      "pages": 69,
+      "words": 14880,
+      "existing_case_id": "SCJ-059"
+    },
+    {
+      "path": "2010/WRIC(A)_63610_2010.pdf",
+      "pages": 144,
+      "words": 40553,
+      "existing_case_id": "SCJ-060"
+    },
+    {
+      "path": "2011/WRIC(A)_23080_2011.pdf",
+      "pages": 15,
+      "words": 3503,
+      "existing_case_id": "SCJ-261"
+    },
+    {
+      "path": "2011/WRIC(A)_27196_2011.pdf",
+      "pages": 15,
+      "words": 4455,
+      "existing_case_id": "SCJ-032"
+    },
+    {
+      "path": "2011/WRIC(A)_31602_2011.pdf",
+      "pages": 35,
+      "words": 8878,
+      "existing_case_id": "SCJ-008"
+    },
+    {
+      "path": "2011/WRIC(A)_34855_2011.pdf",
+      "pages": 14,
+      "words": 2666,
+      "existing_case_id": "SCJ-263"
+    },
+    {
+      "path": "2011/WRIC(A)_64725_2011.pdf",
+      "pages": 19,
+      "words": 5042,
+      "existing_case_id": "SCJ-071"
+    },
+    {
+      "path": "2012/WRIC(A)_12840_2012.pdf",
+      "pages": 31,
+      "words": 7050,
+      "existing_case_id": "SCJ-057"
+    },
+    {
+      "path": "2012/WRIC(A)_14347_2012.pdf",
+      "pages": 31,
+      "words": 7865,
+      "existing_case_id": "SCJ-126"
+    },
+    {
+      "path": "2012/WRIC(A)_30233_2012.pdf",
+      "pages": 11,
+      "words": 3052,
+      "existing_case_id": "SCJ-051"
+    },
+    {
+      "path": "2012/WRIC(A)_33308_2012.pdf",
+      "pages": 16,
+      "words": 3039,
+      "existing_case_id": "SCJ-052"
+    },
+    {
+      "path": "2012/WRIC(A)_58652_2012.pdf",
+      "pages": 25,
+      "words": 6743,
+      "existing_case_id": "SCJ-067"
+    },
+    {
+      "path": "2012/WRIC(A)_61172_2012.pdf",
+      "pages": 147,
+      "words": 38471,
+      "existing_case_id": "SCJ-062"
+    },
+    {
+      "path": "2013/WRIC(A)_64376_2013.pdf",
+      "pages": 11,
+      "words": 2126,
+      "existing_case_id": "SCJ-204"
+    },
+    {
+      "path": "2013/WRIC(A)_69101_2013.pdf",
+      "pages": 35,
+      "words": 12001,
+      "existing_case_id": "SCJ-111"
+    },
+    {
+      "path": "2014/WRIC(A)_13514_2014.pdf",
+      "pages": 12,
+      "words": 1898,
+      "existing_case_id": "SCJ-066"
+    },
+    {
+      "path": "2014/WRIC(A)_1361_2014.pdf",
+      "pages": 32,
+      "words": 7472,
+      "existing_case_id": "SCJ-026"
+    },
+    {
+      "path": "2014/WRIC(A)_23606_2014.pdf",
+      "pages": 14,
+      "words": 4772,
+      "existing_case_id": "SCJ-061"
+    },
+    {
+      "path": "2014/WRIC(A)_33119_2014.pdf",
+      "pages": 13,
+      "words": 3013,
+      "existing_case_id": "SCJ-154"
+    },
+    {
+      "path": "2015/WRIC(A)_11612_2015.pdf",
+      "pages": 26,
+      "words": 4310,
+      "existing_case_id": "SCJ-249"
+    },
+    {
+      "path": "2015/WRIC(A)_43194_2015.pdf",
+      "pages": 13,
+      "words": 2636,
+      "existing_case_id": "SCJ-068"
+    },
+    {
+      "path": "2015/WRIC(A)_55505_2015.pdf",
+      "pages": 18,
+      "words": 4654,
+      "existing_case_id": "SCJ-065"
+    },
+    {
+      "path": "2015/WRIC(A)_61204_2015.pdf",
+      "pages": 33,
+      "words": 11108,
+      "existing_case_id": "SCJ-122"
+    },
+    {
+      "path": "2016/SPLA(L)_20_2016.pdf",
+      "pages": 68,
+      "words": 19150,
+      "existing_case_id": "SCJ-043"
+    },
+    {
+      "path": "2016/WRIC(A)_16801_2016.pdf",
+      "pages": 12,
+      "words": 1690,
+      "existing_case_id": "SCJ-050"
+    },
+    {
+      "path": "2016/WRIC(A)_30898_2016.pdf",
+      "pages": 60,
+      "words": 14457,
+      "existing_case_id": "SCJ-053"
+    },
+    {
+      "path": "2016/WRIC(A)_35477_2016.pdf",
+      "pages": 16,
+      "words": 3172,
+      "existing_case_id": "SCJ-161"
+    },
+    {
+      "path": "2016/WRIC(A)_39477_2016.pdf",
+      "pages": 11,
+      "words": 2027,
+      "existing_case_id": "SCJ-211"
+    },
+    {
+      "path": "2016/WRIC(A)_6072_2016.pdf",
+      "pages": 51,
+      "words": 10838,
+      "existing_case_id": "SCJ-002"
+    },
+    {
+      "path": "2018/WRIC(A)_25532_2018.pdf",
+      "pages": 15,
+      "words": 4871,
+      "existing_case_id": "SCJ-025"
+    },
+    {
+      "path": "2018/WRIC(A)_8396_2018.pdf",
+      "pages": 22,
+      "words": 4813,
+      "existing_case_id": "SCJ-027"
+    },
+    {
+      "path": "2019/WRIC(A)_27553_2019.pdf",
+      "pages": 27,
+      "words": 5766,
+      "existing_case_id": "SCJ-064"
+    },
+    {
+      "path": "2021/WRIC(A)_10123_2021.pdf",
+      "pages": 85,
+      "words": 28168,
+      "existing_case_id": "SCJ-098"
+    },
+    {
+      "path": "2021/WRIC(A)_10822_2021.pdf",
+      "pages": 25,
+      "words": 4463,
+      "existing_case_id": "SCJ-552"
+    },
+    {
+      "path": "2021/WRIC(A)_5762_2021.pdf",
+      "pages": 12,
+      "words": 1816,
+      "existing_case_id": "SCJ-473"
+    },
+    {
+      "path": "2022/SPLAD(A)_395_2022.pdf",
+      "pages": 21,
+      "words": 4457,
+      "existing_case_id": "SCJ-222"
+    },
+    {
+      "path": "2022/WRIC(A)_13176_2022.pdf",
+      "pages": 11,
+      "words": 2572,
+      "existing_case_id": "SCJ-230"
+    },
+    {
+      "path": "2022/WRIC(A)_26355_2022.pdf",
+      "pages": 27,
+      "words": 7793,
+      "existing_case_id": "SCJ-090"
+    },
+    {
+      "path": "2023/CMRA(A)_129_2023.pdf",
+      "pages": 29,
+      "words": 7361,
+      "existing_case_id": "SCJ-271"
+    },
+    {
+      "path": "2023/WRIC(A)_2637_2023.pdf",
+      "pages": 24,
+      "words": 9236,
+      "existing_case_id": "SCJ-133"
+    }
+  ],
+  "new_from_grok_top10pct": [
+    {
+      "path": "2013/WRIC(A)_27352_2013.pdf",
+      "pages": 8,
+      "words": 2704
+    },
+    {
+      "path": "2022/WRIC(A)_15897_2022.pdf",
+      "pages": 8,
+      "words": 2701
+    },
+    {
+      "path": "2024/WRIC(A)_3458_2024.pdf",
+      "pages": 9,
+      "words": 2592
+    },
+    {
+      "path": "2022/WRIC(A)_21244_2022.pdf",
+      "pages": 8,
+      "words": 2537
+    },
+    {
+      "path": "2023/WRIC(A)_15283_2023.pdf",
+      "pages": 8,
+      "words": 2517
+    },
+    {
+      "path": "2022/WRIC(A)_37137_2022.pdf",
+      "pages": 6,
+      "words": 2079
+    },
+    {
+      "path": "2012/WRIC(A)_9886_2012.pdf",
+      "pages": 9,
+      "words": 2042
+    },
+    {
+      "path": "2022/WRIC(A)_6811_2022.pdf",
+      "pages": 6,
+      "words": 1999
+    },
+    {
+      "path": "2017/WRIC(A)_49296_2017.pdf",
+      "pages": 10,
+      "words": 1989
+    },
+    {
+      "path": "2022/CAPL(A)_4248_2022.pdf",
+      "pages": 9,
+      "words": 1969
+    },
+    {
+      "path": "2021/CAPL(A)_3996_2021.pdf",
+      "pages": 8,
+      "words": 1968
+    },
+    {
+      "path": "2020/WRIC(A)_12870_2020.pdf",
+      "pages": 6,
+      "words": 1951
+    },
+    {
+      "path": "2023/WRIC(A)_9405_2023.pdf",
+      "pages": 7,
+      "words": 1919
+    },
+    {
+      "path": "2022/WRIC(A)_38921_2022.pdf",
+      "pages": 9,
+      "words": 1910
+    },
+    {
+      "path": "2013/WRIC(A)_4870_2013.pdf",
+      "pages": 8,
+      "words": 1853
+    },
+    {
+      "path": "2023/CAPL(A)_4476_2023.pdf",
+      "pages": 7,
+      "words": 1851
+    },
+    {
+      "path": "2021/WRIC(A)_10772_2021.pdf",
+      "pages": 8,
+      "words": 1836
+    },
+    {
+      "path": "2022/WRIC(A)_35257_2022.pdf",
+      "pages": 7,
+      "words": 1833
+    },
+    {
+      "path": "2024/WRIC(A)_7975_2024.pdf",
+      "pages": 9,
+      "words": 1822
+    },
+    {
+      "path": "2011/WRIC(A)_7764_2011.pdf",
+      "pages": 10,
+      "words": 1793
+    },
+    {
+      "path": "2023/WRIC(A)_10906_2023.pdf",
+      "pages": 8,
+      "words": 1779
+    },
+    {
+      "path": "2017/WRIC(A)_5519_2017.pdf",
+      "pages": 7,
+      "words": 1753
+    },
+    {
+      "path": "2016/WRIC(A)_54461_2016.pdf",
+      "pages": 6,
+      "words": 1743
+    },
+    {
+      "path": "2012/CAPL(A)_2457_2012.pdf",
+      "pages": 8,
+      "words": 1735
+    },
+    {
+      "path": "2023/WRIC(A)_35093_2023.pdf",
+      "pages": 6,
+      "words": 1712
+    },
+    {
+      "path": "2015/CRLP(A)_15159_2015.pdf",
+      "pages": 10,
+      "words": 1655
+    },
+    {
+      "path": "2022/WRIC(A)_3040_2022.pdf",
+      "pages": 7,
+      "words": 1645
+    },
+    {
+      "path": "2018/WRIC(A)_35071_2018.pdf",
+      "pages": 9,
+      "words": 1638
+    },
+    {
+      "path": "2009/WRIC(A)_49896_2009.pdf",
+      "pages": 10,
+      "words": 1637
+    },
+    {
+      "path": "2015/WRIC(A)_24588_2015.pdf",
+      "pages": 8,
+      "words": 1635
+    },
+    {
+      "path": "2017/WRIC(A)_26590_2017.pdf",
+      "pages": 3,
+      "words": 1630
+    },
+    {
+      "path": "2023/WRIC(A)_17587_2023.pdf",
+      "pages": 10,
+      "words": 1626
+    },
+    {
+      "path": "2009/WRIC(A)_66903_2009.pdf",
+      "pages": 9,
+      "words": 1624
+    },
+    {
+      "path": "2023/WRIC(L)_8801_2023.pdf",
+      "pages": 10,
+      "words": 1607
+    },
+    {
+      "path": "2010/WRIC(A)_58335_2010.pdf",
+      "pages": 9,
+      "words": 1604
+    },
+    {
+      "path": "2023/WRIC(A)_8486_2023.pdf",
+      "pages": 10,
+      "words": 1600
+    },
+    {
+      "path": "2022/WRIC(L)_1049_2022.pdf",
+      "pages": 10,
+      "words": 1582
+    },
+    {
+      "path": "2018/WRIC(A)_25325_2018.pdf",
+      "pages": 6,
+      "words": 1575
+    },
+    {
+      "path": "2022/WRIC(A)_19481_2022.pdf",
+      "pages": 9,
+      "words": 1555
+    },
+    {
+      "path": "2022/WRIC(A)_16953_2022.pdf",
+      "pages": 5,
+      "words": 1531
+    },
+    {
+      "path": "2021/WRIC(A)_13262_2021.pdf",
+      "pages": 3,
+      "words": 1504
+    },
+    {
+      "path": "2011/CAPL(A)_3954_2011.pdf",
+      "pages": 8,
+      "words": 1496
+    },
+    {
+      "path": "2011/WRIC(A)_5998_2011.pdf",
+      "pages": 9,
+      "words": 1493
+    },
+    {
+      "path": "2023/WRIC(A)_27328_2023.pdf",
+      "pages": 8,
+      "words": 1490
+    },
+    {
+      "path": "2021/WRIC(A)_15882_2021.pdf",
+      "pages": 7,
+      "words": 1465
+    },
+    {
+      "path": "2017/WRIC(A)_17231_2017.pdf",
+      "pages": 8,
+      "words": 1441
+    },
+    {
+      "path": "2016/WRIC(A)_13811_2016.pdf",
+      "pages": 5,
+      "words": 1437
+    },
+    {
+      "path": "2023/BAIL(A)_23436_2023.pdf",
+      "pages": 5,
+      "words": 1436
+    },
+    {
+      "path": "2023/WRIC(A)_4594_2023.pdf",
+      "pages": 7,
+      "words": 1419
+    },
+    {
+      "path": "2017/WRIC(A)_2579_2017.pdf",
+      "pages": 7,
+      "words": 1419
+    },
+    {
+      "path": "2014/WRIC(A)_47315_2014.pdf",
+      "pages": 10,
+      "words": 1415
+    },
+    {
+      "path": "2023/WRIC(A)_27838_2023.pdf",
+      "pages": 6,
+      "words": 1404
+    },
+    {
+      "path": "2023/WRIC(A)_22278_2023.pdf",
+      "pages": 8,
+      "words": 1401
+    },
+    {
+      "path": "2019/WRIC(A)_23649_2019.pdf",
+      "pages": 6,
+      "words": 1389
+    },
+    {
+      "path": "2023/WRIC(A)_18768_2023.pdf",
+      "pages": 4,
+      "words": 1372
+    },
+    {
+      "path": "2017/CAPL(A)_280_2017.pdf",
+      "pages": 9,
+      "words": 1361
+    },
+    {
+      "path": "2024/WRIC(A)_3620_2024.pdf",
+      "pages": 6,
+      "words": 1358
+    },
+    {
+      "path": "2023/WRIC(A)_15079_2023.pdf",
+      "pages": 6,
+      "words": 1355
+    },
+    {
+      "path": "2014/WRIC(A)_37906_2014.pdf",
+      "pages": 6,
+      "words": 1346
+    },
+    {
+      "path": "2011/WRIC(A)_66871_2011.pdf",
+      "pages": 7,
+      "words": 1344
+    },
+    {
+      "path": "2009/WRIC(A)_69735_2009.pdf",
+      "pages": 10,
+      "words": 1326
+    },
+    {
+      "path": "2015/WRIC(A)_17588_2015.pdf",
+      "pages": 5,
+      "words": 1321
+    },
+    {
+      "path": "2010/WRIC(A)_62046_2010.pdf",
+      "pages": 8,
+      "words": 1320
+    },
+    {
+      "path": "2022/WRIC(L)_1753_2022.pdf",
+      "pages": 8,
+      "words": 1317
+    },
+    {
+      "path": "2012/WRIC(A)_24091_2012.pdf",
+      "pages": 6,
+      "words": 1314
+    },
+    {
+      "path": "2011/WRIC(A)_15690_2011.pdf",
+      "pages": 9,
+      "words": 1308
+    },
+    {
+      "path": "2012/WRIC(A)_17944_2012.pdf",
+      "pages": 7,
+      "words": 1305
+    },
+    {
+      "path": "2023/WRIC(A)_13570_2023.pdf",
+      "pages": 6,
+      "words": 1303
+    },
+    {
+      "path": "2022/WRIC(A)_10522_2022.pdf",
+      "pages": 4,
+      "words": 1296
+    },
+    {
+      "path": "2014/WRIC(A)_41686_2014.pdf",
+      "pages": 4,
+      "words": 1289
+    },
+    {
+      "path": "2010/A482(A)_6191_2010.pdf",
+      "pages": 10,
+      "words": 1282
+    },
+    {
+      "path": "2021/WRIC(A)_20446_2021.pdf",
+      "pages": 4,
+      "words": 1275
+    },
+    {
+      "path": "2023/WRIC(A)_11320_2023.pdf",
+      "pages": 5,
+      "words": 1271
+    },
+    {
+      "path": "2018/WRIC(A)_33147_2018.pdf",
+      "pages": 6,
+      "words": 1259
+    },
+    {
+      "path": "2012/WRIC(A)_59235_2012.pdf",
+      "pages": 6,
+      "words": 1246
+    },
+    {
+      "path": "2010/WRIC(A)_49567_2010.pdf",
+      "pages": 9,
+      "words": 1245
+    },
+    {
+      "path": "2017/WRIC(A)_57042_2017.pdf",
+      "pages": 9,
+      "words": 1241
+    },
+    {
+      "path": "2017/WRIC(A)_4417_2017.pdf",
+      "pages": 8,
+      "words": 1228
+    },
+    {
+      "path": "2018/WRIC(A)_5220_2018.pdf",
+      "pages": 9,
+      "words": 1221
+    },
+    {
+      "path": "2021/WRIC(A)_26589_2021.pdf",
+      "pages": 4,
+      "words": 1218
+    },
+    {
+      "path": "2012/WRIC(A)_16618_2012.pdf",
+      "pages": 5,
+      "words": 1216
+    },
+    {
+      "path": "2012/WRIC(A)_16623_2012.pdf",
+      "pages": 5,
+      "words": 1215
+    },
+    {
+      "path": "2012/WRIC(A)_16617_2012.pdf",
+      "pages": 5,
+      "words": 1215
+    },
+    {
+      "path": "2012/WRIC(A)_16621_2012.pdf",
+      "pages": 5,
+      "words": 1212
+    },
+    {
+      "path": "2012/WRIC(A)_16620_2012.pdf",
+      "pages": 5,
+      "words": 1212
+    },
+    {
+      "path": "2011/WRIC(A)_15384_2011.pdf",
+      "pages": 9,
+      "words": 1209
+    },
+    {
+      "path": "2015/WRIC(A)_21042_2015.pdf",
+      "pages": 5,
+      "words": 1207
+    },
+    {
+      "path": "2020/WRIC(A)_21458_2020.pdf",
+      "pages": 9,
+      "words": 1205
+    },
+    {
+      "path": "2012/WRIC(A)_10431_2012.pdf",
+      "pages": 5,
+      "words": 1205
+    },
+    {
+      "path": "2012/WRIC(A)_16385_2012.pdf",
+      "pages": 5,
+      "words": 1203
+    },
+    {
+      "path": "2012/WRIC(A)_16208_2012.pdf",
+      "pages": 5,
+      "words": 1203
+    },
+    {
+      "path": "2012/WRIC(A)_15507_2012.pdf",
+      "pages": 5,
+      "words": 1203
+    },
+    {
+      "path": "2022/WRIC(A)_15139_2022.pdf",
+      "pages": 5,
+      "words": 1188
+    },
+    {
+      "path": "2021/WRIC(A)_8994_2021.pdf",
+      "pages": 5,
+      "words": 1185
+    },
+    {
+      "path": "2012/WRIC(A)_59551_2012.pdf",
+      "pages": 5,
+      "words": 1184
+    },
+    {
+      "path": "2023/WRIC(A)_24799_2023.pdf",
+      "pages": 5,
+      "words": 1183
+    },
+    {
+      "path": "2024/WRIC(A)_33865_2024.pdf",
+      "pages": 8,
+      "words": 1173
+    },
+    {
+      "path": "2022/WRIC(L)_3944_2022.pdf",
+      "pages": 4,
+      "words": 1166
+    },
+    {
+      "path": "2024/WRIC(A)_37208_2023.pdf",
+      "pages": 7,
+      "words": 1161
+    },
+    {
+      "path": "2012/WRIC(A)_59493_2012.pdf",
+      "pages": 5,
+      "words": 1158
+    },
+    {
+      "path": "2011/WRIC(A)_12946_2011.pdf",
+      "pages": 9,
+      "words": 1157
+    },
+    {
+      "path": "2023/WRIC(L)_2609_2023.pdf",
+      "pages": 3,
+      "words": 1156
+    },
+    {
+      "path": "2017/WRIC(A)_59452_2017.pdf",
+      "pages": 9,
+      "words": 1155
+    },
+    {
+      "path": "2010/WRIC(A)_68647_2010.pdf",
+      "pages": 4,
+      "words": 1153
+    },
+    {
+      "path": "2020/WRIC(A)_27543_2020.pdf",
+      "pages": 4,
+      "words": 1152
+    },
+    {
+      "path": "2012/WRIC(A)_59372_2012.pdf",
+      "pages": 5,
+      "words": 1145
+    },
+    {
+      "path": "2012/WRIC(A)_62234_2012.pdf",
+      "pages": 8,
+      "words": 1135
+    },
+    {
+      "path": "2009/WRIC(A)_45723_2009.pdf",
+      "pages": 8,
+      "words": 1128
+    },
+    {
+      "path": "2013/WRIC(A)_2788_2013.pdf",
+      "pages": 5,
+      "words": 1127
+    },
+    {
+      "path": "2012/WRIC(A)_60198_2012.pdf",
+      "pages": 5,
+      "words": 1121
+    },
+    {
+      "path": "2012/WRIC(A)_60196_2012.pdf",
+      "pages": 5,
+      "words": 1121
+    },
+    {
+      "path": "2012/WRIC(A)_59370_2012.pdf",
+      "pages": 5,
+      "words": 1119
+    },
+    {
+      "path": "2023/WRIC(A)_39816_2023.pdf",
+      "pages": 5,
+      "words": 1118
+    },
+    {
+      "path": "2016/WRIC(A)_40167_2016.pdf",
+      "pages": 10,
+      "words": 1115
+    },
+    {
+      "path": "2022/WRIC(A)_37313_2022.pdf",
+      "pages": 7,
+      "words": 1113
+    },
+    {
+      "path": "2011/WRIC(A)_10575_2011.pdf",
+      "pages": 8,
+      "words": 1110
+    },
+    {
+      "path": "2012/WRIC(A)_62466_2012.pdf",
+      "pages": 6,
+      "words": 1109
+    },
+    {
+      "path": "2014/WRIC(A)_36136_2014.pdf",
+      "pages": 7,
+      "words": 1108
+    },
+    {
+      "path": "2024/WRIC(L)_6440_2024.pdf",
+      "pages": 3,
+      "words": 1095
+    },
+    {
+      "path": "2014/WRIC(A)_7223_2014.pdf",
+      "pages": 5,
+      "words": 1094
+    },
+    {
+      "path": "2011/WRIC(A)_22700_2011.pdf",
+      "pages": 4,
+      "words": 1094
+    },
+    {
+      "path": "2022/WRIC(A)_24584_2022.pdf",
+      "pages": 4,
+      "words": 1091
+    },
+    {
+      "path": "2023/WRIC(A)_11590_2023.pdf",
+      "pages": 4,
+      "words": 1082
+    },
+    {
+      "path": "2024/WRIC(A)_39057_2023.pdf",
+      "pages": 8,
+      "words": 1081
+    },
+    {
+      "path": "2022/WRIC(A)_35571_2022.pdf",
+      "pages": 5,
+      "words": 1078
+    },
+    {
+      "path": "2009/WRIC(A)_67360_2009.pdf",
+      "pages": 5,
+      "words": 1078
+    },
+    {
+      "path": "2009/WRIC(A)_40232_2009.pdf",
+      "pages": 4,
+      "words": 1078
+    },
+    {
+      "path": "2011/WRIC(A)_15892_2011.pdf",
+      "pages": 7,
+      "words": 1074
+    },
+    {
+      "path": "2017/WRIC(A)_41428_2017.pdf",
+      "pages": 4,
+      "words": 1072
+    },
+    {
+      "path": "2022/WRIC(L)_8747_2022.pdf",
+      "pages": 3,
+      "words": 1059
+    },
+    {
+      "path": "2020/WRIC(A)_17861_2020.pdf",
+      "pages": 5,
+      "words": 1058
+    },
+    {
+      "path": "2018/WRIC(A)_31970_2018.pdf",
+      "pages": 8,
+      "words": 1051
+    },
+    {
+      "path": "2020/WRIC(A)_26380_2020.pdf",
+      "pages": 3,
+      "words": 1051
+    },
+    {
+      "path": "2024/WRIC(A)_30596_2023.pdf",
+      "pages": 8,
+      "words": 1048
+    },
+    {
+      "path": "2022/WRIC(A)_12723_2022.pdf",
+      "pages": 2,
+      "words": 1046
+    },
+    {
+      "path": "2023/WRIC(A)_28103_2023.pdf",
+      "pages": 9,
+      "words": 1043
+    },
+    {
+      "path": "2022/WRIC(A)_27829_2022.pdf",
+      "pages": 6,
+      "words": 1043
+    },
+    {
+      "path": "2009/WRIC(A)_45969_2009.pdf",
+      "pages": 7,
+      "words": 1040
+    },
+    {
+      "path": "2011/WRIC(A)_19217_2011.pdf",
+      "pages": 6,
+      "words": 1039
+    },
+    {
+      "path": "2022/A482(L)_904_2022.pdf",
+      "pages": 3,
+      "words": 1036
+    },
+    {
+      "path": "2023/WRIC(A)_3279_2023.pdf",
+      "pages": 4,
+      "words": 1035
+    },
+    {
+      "path": "2018/WRIC(A)_9808_2018.pdf",
+      "pages": 3,
+      "words": 1034
+    },
+    {
+      "path": "2022/WRIC(L)_4123_2022.pdf",
+      "pages": 3,
+      "words": 1031
+    },
+    {
+      "path": "2015/WRIC(A)_23044_2015.pdf",
+      "pages": 10,
+      "words": 1029
+    },
+    {
+      "path": "2011/WRIC(A)_20739_2011.pdf",
+      "pages": 8,
+      "words": 1029
+    },
+    {
+      "path": "2023/WRIC(A)_16687_2023.pdf",
+      "pages": 5,
+      "words": 1025
+    },
+    {
+      "path": "2017/WRIC(A)_15163_2017.pdf",
+      "pages": 6,
+      "words": 1018
+    },
+    {
+      "path": "2018/CRLR(A)_2144_2018.pdf",
+      "pages": 3,
+      "words": 1017
+    },
+    {
+      "path": "2022/WRIC(A)_38315_2022.pdf",
+      "pages": 5,
+      "words": 1015
+    },
+    {
+      "path": "2011/WRIC(A)_13395_2011.pdf",
+      "pages": 7,
+      "words": 1010
+    },
+    {
+      "path": "2018/WRIC(A)_31212_2018.pdf",
+      "pages": 5,
+      "words": 1009
+    },
+    {
+      "path": "2010/WRIC(A)_52598_2010.pdf",
+      "pages": 5,
+      "words": 1004
+    },
+    {
+      "path": "2018/WRIC(A)_4109_2018.pdf",
+      "pages": 6,
+      "words": 1001
+    },
+    {
+      "path": "2012/WRIC(A)_62109_2012.pdf",
+      "pages": 4,
+      "words": 1001
+    },
+    {
+      "path": "2019/BAIL(L)_9874_2019.pdf",
+      "pages": 6,
+      "words": 1000
+    },
+    {
+      "path": "2024/WRIC(A)_31835_2024.pdf",
+      "pages": 6,
+      "words": 999
+    },
+    {
+      "path": "2022/WRIC(A)_27820_2022.pdf",
+      "pages": 7,
+      "words": 998
+    },
+    {
+      "path": "2018/WRIC(A)_11573_2018.pdf",
+      "pages": 5,
+      "words": 995
+    },
+    {
+      "path": "2017/WRIC(A)_47523_2017.pdf",
+      "pages": 4,
+      "words": 995
+    },
+    {
+      "path": "2023/WRIC(A)_6407_2023.pdf",
+      "pages": 4,
+      "words": 993
+    },
+    {
+      "path": "2021/WRIC(A)_21650_2021.pdf",
+      "pages": 7,
+      "words": 991
+    },
+    {
+      "path": "2015/WRIC(A)_22710_2015.pdf",
+      "pages": 8,
+      "words": 983
+    },
+    {
+      "path": "2012/WRIC(A)_61598_2012.pdf",
+      "pages": 4,
+      "words": 981
+    },
+    {
+      "path": "2012/WRIC(A)_61601_2012.pdf",
+      "pages": 4,
+      "words": 977
+    },
+    {
+      "path": "2012/WRIC(A)_61599_2012.pdf",
+      "pages": 4,
+      "words": 975
+    },
+    {
+      "path": "2018/WRIC(A)_23262_2018.pdf",
+      "pages": 5,
+      "words": 973
+    },
+    {
+      "path": "2023/WRIC(A)_31951_2023.pdf",
+      "pages": 5,
+      "words": 970
+    },
+    {
+      "path": "2020/WRIC(A)_26825_2020.pdf",
+      "pages": 3,
+      "words": 968
+    },
+    {
+      "path": "2018/WRIC(A)_14201_2018.pdf",
+      "pages": 6,
+      "words": 967
+    },
+    {
+      "path": "2024/WRIC(A)_9426_2024.pdf",
+      "pages": 4,
+      "words": 967
+    },
+    {
+      "path": "2021/WRIC(A)_4355_2021.pdf",
+      "pages": 3,
+      "words": 967
+    },
+    {
+      "path": "2019/CAPL(A)_2896_2019.pdf",
+      "pages": 4,
+      "words": 966
+    },
+    {
+      "path": "2019/WRIC(A)_34972_2019.pdf",
+      "pages": 4,
+      "words": 964
+    },
+    {
+      "path": "2020/WRIC(A)_27089_2020.pdf",
+      "pages": 3,
+      "words": 964
+    },
+    {
+      "path": "2013/WRIC(A)_61548_2013.pdf",
+      "pages": 10,
+      "words": 960
+    },
+    {
+      "path": "2012/WRIC(A)_55072_2012.pdf",
+      "pages": 9,
+      "words": 959
+    },
+    {
+      "path": "2014/WRIC(A)_36355_2014.pdf",
+      "pages": 6,
+      "words": 953
+    },
+    {
+      "path": "2012/WRIC(A)_43614_2012.pdf",
+      "pages": 4,
+      "words": 953
+    },
+    {
+      "path": "2019/WRIC(A)_13068_2019.pdf",
+      "pages": 5,
+      "words": 952
+    },
+    {
+      "path": "2021/WRIC(A)_1088_2021.pdf",
+      "pages": 2,
+      "words": 951
+    },
+    {
+      "path": "2012/WRIC(A)_18742_2012.pdf",
+      "pages": 4,
+      "words": 949
+    },
+    {
+      "path": "2023/WRIC(A)_34323_2023.pdf",
+      "pages": 6,
+      "words": 948
+    },
+    {
+      "path": "2012/WRIC(A)_34559_2012.pdf",
+      "pages": 4,
+      "words": 948
+    },
+    {
+      "path": "2017/A227(A)_4445_2017.pdf",
+      "pages": 5,
+      "words": 947
+    },
+    {
+      "path": "2020/WRIC(A)_27193_2020.pdf",
+      "pages": 3,
+      "words": 947
+    },
+    {
+      "path": "2019/WRIC(A)_3235_2019.pdf",
+      "pages": 9,
+      "words": 944
+    },
+    {
+      "path": "2019/WRIC(A)_10180_2019.pdf",
+      "pages": 3,
+      "words": 940
+    },
+    {
+      "path": "2023/WRIC(A)_16169_2023.pdf",
+      "pages": 8,
+      "words": 939
+    },
+    {
+      "path": "2020/WRIC(A)_4765_2020.pdf",
+      "pages": 7,
+      "words": 937
+    },
+    {
+      "path": "2009/WRIC(A)_65760_2009.pdf",
+      "pages": 4,
+      "words": 937
+    },
+    {
+      "path": "2020/WRIC(A)_27665_2020.pdf",
+      "pages": 3,
+      "words": 934
+    },
+    {
+      "path": "2014/WRIC(A)_44456_2014.pdf",
+      "pages": 9,
+      "words": 933
+    },
+    {
+      "path": "2011/WRIC(A)_19946_2011.pdf",
+      "pages": 6,
+      "words": 932
+    },
+    {
+      "path": "2020/WRIC(A)_19955_2020.pdf",
+      "pages": 5,
+      "words": 932
+    },
+    {
+      "path": "2012/WRIC(A)_15220_2012.pdf",
+      "pages": 7,
+      "words": 930
+    },
+    {
+      "path": "2023/WRIC(A)_33565_2023.pdf",
+      "pages": 5,
+      "words": 929
+    },
+    {
+      "path": "2021/WRIC(A)_3091_2021.pdf",
+      "pages": 3,
+      "words": 929
+    },
+    {
+      "path": "2021/WRIC(A)_21944_2021.pdf",
+      "pages": 4,
+      "words": 928
+    },
+    {
+      "path": "2018/WRIC(A)_2592_2018.pdf",
+      "pages": 4,
+      "words": 928
+    },
+    {
+      "path": "2022/WRIC(A)_17652_2022.pdf",
+      "pages": 6,
+      "words": 925
+    },
+    {
+      "path": "2023/WRIC(A)_30315_2023.pdf",
+      "pages": 6,
+      "words": 921
+    },
+    {
+      "path": "2012/WRIC(A)_34472_2012.pdf",
+      "pages": 4,
+      "words": 919
+    },
+    {
+      "path": "2022/CAPL(L)_669_2022.pdf",
+      "pages": 3,
+      "words": 916
+    },
+    {
+      "path": "2009/WRIC(A)_64452_2009.pdf",
+      "pages": 10,
+      "words": 911
+    },
+    {
+      "path": "2020/WRIC(A)_19589_2020.pdf",
+      "pages": 4,
+      "words": 911
+    },
+    {
+      "path": "2012/WRIC(A)_57550_2012.pdf",
+      "pages": 6,
+      "words": 910
+    },
+    {
+      "path": "2021/WRIC(A)_2936_2021.pdf",
+      "pages": 3,
+      "words": 908
+    },
+    {
+      "path": "2011/WRIC(A)_9487_2011.pdf",
+      "pages": 8,
+      "words": 907
+    },
+    {
+      "path": "2023/WRIC(A)_8882_2023.pdf",
+      "pages": 5,
+      "words": 906
+    },
+    {
+      "path": "2020/WRIC(A)_13671_2020.pdf",
+      "pages": 8,
+      "words": 902
+    },
+    {
+      "path": "2022/WRIA(A)_15140_2022.pdf",
+      "pages": 3,
+      "words": 901
+    },
+    {
+      "path": "2021/WRIC(A)_30578_2021.pdf",
+      "pages": 7,
+      "words": 900
+    },
+    {
+      "path": "2010/A482(A)_6194_2010.pdf",
+      "pages": 7,
+      "words": 900
+    },
+    {
+      "path": "2013/WRIC(A)_16566_2013.pdf",
+      "pages": 4,
+      "words": 898
+    },
+    {
+      "path": "2011/CRLP(A)_22912_2011.pdf",
+      "pages": 4,
+      "words": 897
+    },
+    {
+      "path": "2022/WRIC(A)_17275_2022.pdf",
+      "pages": 3,
+      "words": 896
+    },
+    {
+      "path": "2010/WRIC(A)_51085_2010.pdf",
+      "pages": 5,
+      "words": 893
+    },
+    {
+      "path": "2021/WRIC(A)_29932_2021.pdf",
+      "pages": 4,
+      "words": 891
+    },
+    {
+      "path": "2023/WRIC(L)_4856_2023.pdf",
+      "pages": 4,
+      "words": 888
+    },
+    {
+      "path": "2021/WRIC(A)_24083_2021.pdf",
+      "pages": 3,
+      "words": 888
+    },
+    {
+      "path": "2017/WRIC(A)_19275_2017.pdf",
+      "pages": 4,
+      "words": 887
+    },
+    {
+      "path": "2022/WRIC(L)_3291_2022.pdf",
+      "pages": 6,
+      "words": 885
+    },
+    {
+      "path": "2022/WRIC(A)_31472_2022.pdf",
+      "pages": 4,
+      "words": 885
+    },
+    {
+      "path": "2014/CAPL(A)_5636_2014.pdf",
+      "pages": 4,
+      "words": 881
+    },
+    {
+      "path": "2022/WRIC(A)_21256_2022.pdf",
+      "pages": 4,
+      "words": 879
+    },
+    {
+      "path": "2023/WRIC(A)_31109_2023.pdf",
+      "pages": 4,
+      "words": 876
+    },
+    {
+      "path": "2021/WRIC(A)_21346_2021.pdf",
+      "pages": 3,
+      "words": 876
+    },
+    {
+      "path": "2015/WRIC(A)_20356_2015.pdf",
+      "pages": 8,
+      "words": 875
+    },
+    {
+      "path": "2021/WRIC(A)_34450_2021.pdf",
+      "pages": 5,
+      "words": 875
+    },
+    {
+      "path": "2014/WRIC(A)_11502_2014.pdf",
+      "pages": 4,
+      "words": 872
+    },
+    {
+      "path": "2011/WRIC(A)_43080_2011.pdf",
+      "pages": 6,
+      "words": 871
+    },
+    {
+      "path": "2011/WRIC(A)_11641_2011.pdf",
+      "pages": 7,
+      "words": 869
+    },
+    {
+      "path": "2015/WRIC(A)_62779_2015.pdf",
+      "pages": 10,
+      "words": 868
+    },
+    {
+      "path": "2024/WRIC(A)_8903_2024.pdf",
+      "pages": 3,
+      "words": 868
+    },
+    {
+      "path": "2014/WRIC(A)_37044_2014.pdf",
+      "pages": 6,
+      "words": 867
+    },
+    {
+      "path": "2019/WRIC(A)_1493_2019.pdf",
+      "pages": 5,
+      "words": 861
+    },
+    {
+      "path": "2024/WRIC(A)_7929_2024.pdf",
+      "pages": 4,
+      "words": 860
+    },
+    {
+      "path": "2023/WRIC(A)_16176_2023.pdf",
+      "pages": 5,
+      "words": 859
+    },
+    {
+      "path": "2023/WRIC(A)_24628_2023.pdf",
+      "pages": 6,
+      "words": 858
+    },
+    {
+      "path": "2023/WRIC(A)_11525_2023.pdf",
+      "pages": 6,
+      "words": 858
+    },
+    {
+      "path": "2024/WRIC(A)_806_2024.pdf",
+      "pages": 5,
+      "words": 858
+    },
+    {
+      "path": "2020/WRIC(A)_27519_2020.pdf",
+      "pages": 3,
+      "words": 858
+    },
+    {
+      "path": "2010/WRIC(A)_73220_2010.pdf",
+      "pages": 6,
+      "words": 857
+    },
+    {
+      "path": "2020/WRIC(A)_17304_2020.pdf",
+      "pages": 3,
+      "words": 856
+    },
+    {
+      "path": "2019/WRIC(A)_37751_2019.pdf",
+      "pages": 5,
+      "words": 855
+    },
+    {
+      "path": "2012/WRIC(A)_36061_2012.pdf",
+      "pages": 5,
+      "words": 853
+    },
+    {
+      "path": "2018/WRIC(A)_24449_2018.pdf",
+      "pages": 6,
+      "words": 852
+    },
+    {
+      "path": "2020/WRIC(A)_9534_2020.pdf",
+      "pages": 3,
+      "words": 851
+    },
+    {
+      "path": "2018/WRIC(A)_9275_2018.pdf",
+      "pages": 6,
+      "words": 850
+    },
+    {
+      "path": "2013/WRIC(A)_841_2013.pdf",
+      "pages": 4,
+      "words": 849
+    },
+    {
+      "path": "2020/WRIC(A)_20306_2020.pdf",
+      "pages": 3,
+      "words": 849
+    },
+    {
+      "path": "2016/WRIC(A)_10980_2016.pdf",
+      "pages": 8,
+      "words": 847
+    },
+    {
+      "path": "2021/WRIC(A)_14254_2021.pdf",
+      "pages": 5,
+      "words": 847
+    },
+    {
+      "path": "2024/WRIC(A)_6079_2024.pdf",
+      "pages": 5,
+      "words": 846
+    },
+    {
+      "path": "2023/WRIC(A)_2360_2023.pdf",
+      "pages": 5,
+      "words": 845
+    },
+    {
+      "path": "2020/WRIC(A)_5743_2020.pdf",
+      "pages": 4,
+      "words": 845
+    },
+    {
+      "path": "2019/WRIC(A)_16764_2019.pdf",
+      "pages": 4,
+      "words": 845
+    },
+    {
+      "path": "2021/WRIC(A)_4192_2021.pdf",
+      "pages": 3,
+      "words": 844
+    },
+    {
+      "path": "2019/WRIC(A)_41064_2019.pdf",
+      "pages": 3,
+      "words": 844
+    },
+    {
+      "path": "2022/WRIC(A)_3164_2022.pdf",
+      "pages": 3,
+      "words": 843
+    },
+    {
+      "path": "2011/WRIC(A)_19028_2011.pdf",
+      "pages": 7,
+      "words": 842
+    },
+    {
+      "path": "2011/WRIC(A)_23524_2011.pdf",
+      "pages": 7,
+      "words": 837
+    },
+    {
+      "path": "2018/WRIC(A)_25310_2018.pdf",
+      "pages": 4,
+      "words": 834
+    },
+    {
+      "path": "2023/WRIC(A)_18900_2023.pdf",
+      "pages": 4,
+      "words": 830
+    },
+    {
+      "path": "2009/WRIC(A)_64260_2009.pdf",
+      "pages": 6,
+      "words": 829
+    },
+    {
+      "path": "2019/WRIC(A)_14156_2019.pdf",
+      "pages": 5,
+      "words": 828
+    },
+    {
+      "path": "2010/WRIC(A)_23408_2010.pdf",
+      "pages": 4,
+      "words": 828
+    },
+    {
+      "path": "2023/WRIC(L)_9399_2023.pdf",
+      "pages": 3,
+      "words": 828
+    },
+    {
+      "path": "2020/WRIC(A)_24155_2020.pdf",
+      "pages": 3,
+      "words": 827
+    },
+    {
+      "path": "2021/WRIC(A)_8462_2021.pdf",
+      "pages": 5,
+      "words": 825
+    },
+    {
+      "path": "2009/WRIC(A)_51581_2009.pdf",
+      "pages": 6,
+      "words": 823
+    },
+    {
+      "path": "2019/CRLP(A)_16864_2019.pdf",
+      "pages": 5,
+      "words": 822
+    },
+    {
+      "path": "2015/WRIC(A)_22694_2015.pdf",
+      "pages": 6,
+      "words": 821
+    },
+    {
+      "path": "2022/WRIC(A)_22925_2022.pdf",
+      "pages": 5,
+      "words": 819
+    },
+    {
+      "path": "2018/WRIC(A)_26575_2018.pdf",
+      "pages": 3,
+      "words": 819
+    },
+    {
+      "path": "2021/WRIC(A)_1376_2021.pdf",
+      "pages": 3,
+      "words": 818
+    },
+    {
+      "path": "2015/WRIC(A)_14676_2015.pdf",
+      "pages": 4,
+      "words": 817
+    },
+    {
+      "path": "2015/WRIC(A)_14673_2015.pdf",
+      "pages": 4,
+      "words": 817
+    },
+    {
+      "path": "2013/WRIC(A)_50372_2013.pdf",
+      "pages": 5,
+      "words": 816
+    },
+    {
+      "path": "2019/WRIC(A)_1472_2019.pdf",
+      "pages": 3,
+      "words": 816
+    },
+    {
+      "path": "2021/WRIC(A)_30385_2021.pdf",
+      "pages": 4,
+      "words": 813
+    },
+    {
+      "path": "2021/WRIC(A)_2385_2021.pdf",
+      "pages": 4,
+      "words": 813
+    },
+    {
+      "path": "2015/WRIC(A)_62777_2015.pdf",
+      "pages": 9,
+      "words": 812
+    },
+    {
+      "path": "2018/WRIC(A)_34812_2018.pdf",
+      "pages": 3,
+      "words": 809
+    },
+    {
+      "path": "2011/WRIC(A)_19027_2011.pdf",
+      "pages": 7,
+      "words": 808
+    },
+    {
+      "path": "2020/WRIC(A)_14132_2020.pdf",
+      "pages": 6,
+      "words": 807
+    },
+    {
+      "path": "2022/WRIC(A)_1872_2022.pdf",
+      "pages": 5,
+      "words": 805
+    },
+    {
+      "path": "2013/WRIC(A)_44425_2013.pdf",
+      "pages": 5,
+      "words": 805
+    },
+    {
+      "path": "2014/WRIC(A)_38462_2014.pdf",
+      "pages": 5,
+      "words": 804
+    },
+    {
+      "path": "2009/WRIC(A)_59178_2009.pdf",
+      "pages": 5,
+      "words": 804
+    },
+    {
+      "path": "2010/WRIC(A)_74250_2010.pdf",
+      "pages": 4,
+      "words": 804
+    },
+    {
+      "path": "2023/WRIC(A)_15278_2023.pdf",
+      "pages": 6,
+      "words": 803
+    },
+    {
+      "path": "2020/WRIC(A)_15849_2020.pdf",
+      "pages": 6,
+      "words": 802
+    },
+    {
+      "path": "2020/WRIC(A)_14322_2020.pdf",
+      "pages": 6,
+      "words": 801
+    },
+    {
+      "path": "2023/WRIC(A)_31136_2023.pdf",
+      "pages": 6,
+      "words": 799
+    },
+    {
+      "path": "2023/WRIC(L)_6402_2023.pdf",
+      "pages": 5,
+      "words": 799
+    },
+    {
+      "path": "2023/WRIC(A)_31133_2023.pdf",
+      "pages": 6,
+      "words": 797
+    },
+    {
+      "path": "2022/WRIC(A)_12580_2022.pdf",
+      "pages": 3,
+      "words": 797
+    },
+    {
+      "path": "2016/CAPL(A)_955_2016.pdf",
+      "pages": 5,
+      "words": 795
+    },
+    {
+      "path": "2011/WRIC(A)_12591_2011.pdf",
+      "pages": 5,
+      "words": 793
+    },
+    {
+      "path": "2016/WRIC(A)_37153_2016.pdf",
+      "pages": 8,
+      "words": 792
+    },
+    {
+      "path": "2019/WRIC(A)_707_2019.pdf",
+      "pages": 3,
+      "words": 792
+    },
+    {
+      "path": "2016/WRIC(A)_56723_2016.pdf",
+      "pages": 3,
+      "words": 792
+    },
+    {
+      "path": "2009/WRIC(A)_40419_2009.pdf",
+      "pages": 7,
+      "words": 791
+    },
+    {
+      "path": "2011/WRIC(A)_25812_2011.pdf",
+      "pages": 8,
+      "words": 790
+    },
+    {
+      "path": "2017/WRIC(A)_48874_2017.pdf",
+      "pages": 6,
+      "words": 789
+    }
+  ]
+}
