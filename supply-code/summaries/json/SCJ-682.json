@@ -1,0 +1,69 @@
+{
+  "case_id": "SCJ-682",
+  "title": "Shamsul Qamar v. PVVNL and Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "B. Amit Sthalekar, J.; Piyush Agrawal, J.",
+  "date_of_judgment": "2018-12-14",
+  "date_display": "14 December 2018",
+  "docket": "Writ - C No. 25431 of 2008",
+  "page_count": 6,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; 28.11.2007 provisional assessment quashed; liberty to supply lab report and issue fresh bill",
+  "headnote": "A provisional theft assessment cannot stand where the licensee has removed the meter for laboratory testing under clause 8.1(vii) of the U.P. Electricity Supply Code, 2005 (testing to follow clause 5.6) but has not supplied the laboratory report. The inspection report itself made that report binding on the parties; the bill did not disclose or even mention it; and uncontroverted pleadings were that no testing date was fixed and no result given. Pointing the consumer to objections under section 126(3) of the Electricity Act, 2003 does not save the bill, because those objections cannot be filed without the report. The 28 November 2007 provisional assessment is quashed as illegal and in violation of clause 8.1(vii), with liberty to supply the laboratory report and then issue a fresh provisional bill, to which the consumer may object.",
+  "facts": "Shamsul Qamar ran an ice factory, M/s Amna Mini Cold Storage, at village Mustafabad, Rampur Road, Moradabad, on an LMV-6 LT connection from PVVNL. On 19 November 2007 department officers inspected the premises, recorded that the meter was displaying magnetic tamper, removed it and sent it for laboratory testing. Condition (4) of the inspection report stated that the old meter was being sent for laboratory testing and that the report would bind the parties. A provisional assessment bill dated 28 November 2007 was then raised and challenged in this writ.\n\nThe petitioner pleaded that neither had the meter been tested as clause 8.1(vii) of the U.P. Electricity Supply Code, 2005, read with clause 5.6, requires, nor had he been given a testing date or any laboratory result. Those averments (writ paragraphs 15 and 16) were not denied in the counter affidavit, which said only that he might file objections under section 126(3) of the Electricity Act, 2003. The bill itself did not disclose or even mention a laboratory report of the old meter.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1(VII)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "8.1(vii)",
+      "topic": "Laboratory report of a meter removed for testing must be supplied before a provisional theft assessment can stand",
+      "type": "supply_code",
+      "question": "Can a licensee issue a provisional theft assessment after removing a meter that displayed magnetic tamper, without testing it as clause 8.1(vii) (read with clause 5.6) requires and without supplying the laboratory report?",
+      "holding": "No. Clause 8.1(vii) requires that, on prima facie evidence of theft by tampering, the meter be removed, sealed and tested in accordance with clause 5.6. The 19.11.2007 inspection itself recorded that the old meter was sent for laboratory testing and that the report would bind the parties. The petitioner's uncontroverted case was that the meter was not so tested, no testing date was given, and no laboratory result was supplied. The 28.11.2007 bill did not disclose or even mention a laboratory report. The bill is illegal, arbitrary and in violation of clause 8.1(vii), and is quashed. The department may supply the laboratory report and then issue a fresh provisional assessment, to which the petitioner may object.",
+      "qualifier": "The Court did not decide whether magnetic tamper or theft was established, nor the quantum of any assessment.",
+      "paras": "3-7",
+      "flag": "Source PDF concatenates listing orders of 11.11.2011, 14.11.2018, 27.11.2018 and 5.12.2018 with this 14.12.2018 disposal. Cited as clause 8.1(vii); catalog key UP-2005::8.1(VII). The 14.12.2018 order is unnumbered; paras 3-7 are the petitioner's submission, the quoted clause, the uncontroverted pleadings, the quashing and the liberty."
+    },
+    {
+      "provision": "EA2003::126(3)",
+      "code": "Electricity Act, 2003",
+      "clause": "126(3)",
+      "topic": "Section 126(3) objections cannot be insisted on until the laboratory testing report is supplied",
+      "type": "interplay",
+      "question": "Does an invitation to file objections under section 126(3) save a provisional theft bill issued without supplying the laboratory report of the removed meter?",
+      "holding": "No. The counter affidavit did not deny the non-testing and non-supply of the report, and said only that the petitioner might object under section 126(3). Unless the meter-testing report is provided, the consumer cannot file those objections. Relegation to section 126(3) therefore does not sustain the bill.",
+      "paras": "5"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-5.6d-meter-testing-procedure-mandatory-for-theft-finding",
+      "application": "Clause 8.1(vii) incorporates clause 5.6 testing. A provisional theft bill raised after the meter is removed for laboratory testing, without a testing date and without supplying the laboratory report that the inspection itself made binding, is illegal. Same 5.6 testing-before-theft-finding cluster as SCJ-114 and SCJ-161.",
+      "lead_authorities": [],
+      "paras": "3-7"
+    },
+    {
+      "tag": "s126-procedural-strictness-notice-and-hearing",
+      "application": "A licensee cannot meet a challenge to a provisional theft bill merely by pointing the consumer to section 126(3) objections when the laboratory report of the removed meter has not been supplied. Those objections cannot then be filed.",
+      "lead_authorities": [],
+      "paras": "5"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether magnetic tamper or theft was in fact established, and the quantum of any assessment",
+      "note": "Left open. Liberty to supply the laboratory report and issue a fresh provisional bill, to which the petitioner may object.",
+      "paras": "6-7"
+    },
+    {
+      "point": "Independent breach of numbered sub-clauses of clause 5.6 (including 5.6(c)(iii) venue option and 5.6(d) testing-date notice)",
+      "note": "Petitioner invoked clause 8.1(vii) read with clause 5.6 generally, including that no testing date was fixed. The Court keyed the quashing to clause 8.1(vii) and non-supply of the laboratory report; it did not parse 5.6 sub-clauses.",
+      "paras": "3-5"
+    }
+  ],
+  "authorities": []
+}
