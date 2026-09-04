@@ -1,0 +1,64 @@
+{
+  "case_id": "SCJ-904",
+  "title": "Abdul Waheed v. Smt. Fatima Begum And Others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Single Judge",
+  "coram": "Sudhir Agarwal, J.",
+  "date_of_judgment": "2012-04-24",
+  "date_display": "24 April 2012",
+  "docket": "WRIT - C No. 19823 of 2012",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; PLA order granting occupier connection stands.",
+  "headnote": "The Electricity Supply (Consumers) Regulations, 1984 have no application after the Electricity Act, 2003 and the Electricity Supply Code, 2005. Ownership is not required for supply: a person in lawful occupation may obtain a connection, and even the old Regulation 3(i)(b) allowed indemnity where the owner withheld NOC. A writ attacking a Permanent Lok Adalat direction to connect an occupier was dismissed.",
+  "facts": "Abdul Waheed filed a writ petition against a Permanent Lok Adalat order allowing Smt. Fatima Begum's application for an electric connection from respondents 2 and 3. He contended that she was not the valid owner of the house and, invoking Regulation 3 of the Electricity Supply (Consumers) Regulations, 1984, that a connection could not be granted without the owner's no-objection. The Lok Adalat had found her in lawful possession on a ration card, an electric connection card, children's educational papers and a Nagar Palika water-tax receipt.",
+  "reusable_constructions": [
+    {
+      "construction": "Electricity Supply (Consumers) Regulations, 1984 ceased to apply on enforcement of the Electricity Act, 2003 and the Electricity Supply Code, 2005 framed under ss. 50 and 181 read with ss. 43–48, 50 and 55–59.",
+      "paras": "3"
+    },
+    {
+      "construction": "Lawful occupation, not title, is the predicate for an electric connection; where the owner withholds a no-objection certificate the occupier may execute an indemnity and obtain supply.",
+      "paras": "4-5"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::50",
+      "code": "EA2003",
+      "clause": "50",
+      "topic": "1984 Regulations superseded by 2003 Act and 2005 Supply Code",
+      "type": "interplay",
+      "holding": "Electricity Supply (Consumers) Regulations, 1984 have no application after enforcement of the Electricity Act, 2003 and the Electricity Supply Code, 2005, framed in exercise of powers under sections 50 and 181 read with sections 43 to 48, 50 and 55 to 59 of the Act.",
+      "paras": "3"
+    },
+    {
+      "provision": "EA2003::43",
+      "code": "EA2003",
+      "clause": "43",
+      "topic": "connection to lawful occupier without owner's title or NOC",
+      "type": "electricity_act",
+      "holding": "Ownership of the premises is not a condition for grant of electric connection. Even Regulation 3(i)(b) of the superseded 1984 Regulations required only lawful occupation, and where the owner declined a no-objection certificate the occupier could execute an indemnity and obtain supply. Nothing showed respondent 1 was not in lawful occupation; the Permanent Lok Adalat's finding of possession on ration card, electric connection card, children's educational documents and Nagar Palika water-tax receipt called for no interference.",
+      "paras": "4-6"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "landlord-consent-not-required-for-tenant-connection-s43",
+      "application": "The alleged owner's writ failed: lawful occupation, not title or an owner's NOC, is the predicate for supply; indemnity stood available even under old Regulation 3(i)(b).",
+      "lead_authorities": [],
+      "paras": "4-5"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Title or ownership of the premises",
+      "note": "The Court did not decide whether respondent 1 was a valid owner; it rested on lawful occupation as found by the Permanent Lok Adalat.",
+      "paras": "2,5"
+    }
+  ],
+  "authorities": []
+}
