@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 709,
+  "next_seq": 712,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -4252,6 +4252,12 @@
       "case_id": "SCJ-707",
       "source_basename": "CAPL(A)_1070_2010.pdf",
       "title": "M/s Baba Ice and Cold Storage Pvt. Ltd. v. Ram Chandar, Tehsildar, Kirawali, Agra",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-709",
+      "source_basename": "WRIC(A)_24039_2009.pdf",
+      "title": "M/s Babu Jagadish Singh Cold Storage Pvt. Ltd. v. State of U.P.",
       "status": "done"
     }
   ]
