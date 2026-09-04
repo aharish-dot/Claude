@@ -1,0 +1,45 @@
+{
+  "case_id": "SCJ-844",
+  "title": "Shamshul Qamar v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Amitava Lala, J.; Sanjay Misra, J.",
+  "date_of_judgment": "2011-05-20",
+  "date_display": "20 May 2011",
+  "docket": "WRIT - C No. 26979 of 2011",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; load-enhancement grievance relegated to CGRF",
+  "headnote": "A grievance against a licensee's communication enhancing load, demanding payment and increased consumption is a billing dispute under Clause 7.7.4 of the U.P. Electricity Supply Code, 2005, and can be adjudicated only by the Consumer Grievance Redressal Forum under Clause 7.10. The High Court disposed of the writ by directing the consumer to apply to the Forum within a week (to be decided within a month), refused to enlarge the petition to theft-FIR and disconnection-without-notice issues, and declined reconnection because a final assessment with a right of appeal had been made.",
+  "facts": "The petitioner challenged a 31 March 2011 communication of Paschimanchal Vidyut Vitran Nigam Limited concerning enhancement of load, payment thereof and increased consumption. By a supplementary affidavit he sought to enlarge the writ to an FIR alleging theft, action of the Executive Engineer on the Managing Director's alleged direction, and disconnection without notice, and he asked for reconnection. The licensee submitted that a final assessment had been made, against which an appeal lay.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::7.7.4",
+      "code": "UP-2005",
+      "clause": "7.7.4",
+      "topic": "load enhancement as billing; CGRF exclusive under 7.10",
+      "type": "supply_code",
+      "holding": "Reduction or enhancement of load falls under billing in Clause 7.7.4 of the U.P. Electricity Supply Code, 2005. A grievance about a licensee's load-enhancement communication, payment and increased consumption can be adjudicated only by the Consumer Grievance Redressal Forum under Clause 7.10. The Court declined to decide the writ on merits and directed the petitioner to apply to the Forum within one week of receiving a certified copy, to be heard and disposed of within one month thereafter.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-7.10-forum-ombudsman-route-for-billing-grievances",
+      "application": "Because Clause 7.7.4 treats reduction or enhancement of load as billing, the writ court will not decide a load-enhancement communication and relegates the consumer to CGRF under Clause 7.10.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Theft FIR, disconnection without notice, and reconnection after final assessment",
+      "note": "The Court refused to enlarge the writ beyond the 31.3.2011 load-enhancement communication (different subject-matter) and left those issues to appropriate steps. On reconnection it noted a final assessment with a right of appeal, passed no order, and said the petitioner may proceed in accordance with law if the assessment is served.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
