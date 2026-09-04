@@ -1,0 +1,45 @@
+{
+  "case_id": "SCJ-1102",
+  "title": "s.135 FIR not quashed; CrPC 41/41-A and Supply Code compounding",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "V.K. Shukla and Shashi Kant, JJ.",
+  "date_of_judgment": "2014-08-05",
+  "date_display": "5 August 2014",
+  "docket": "Criminal Misc. Writ Petition No. 13170 of 2014",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "FIR under s.135 not quashed; arrest under CrPC 41/41-A; compounding via Supply Code.",
+  "headnote": "Division Bench refused to quash an FIR under s.135 of the Electricity Act, 2003 because it disclosed a cognizable offence. If arrest is contemplated for an offence not entailing more than seven years, police must follow CrPC ss.41(1)(b) and 41-A. Compounding, if available, is to be sought under the Electricity Supply Code, 2005.",
+  "facts": "Surendra Singh sought quashing of FIR dated 19 July 2014, Case Crime No. 445 of 2014 under Section 135 of the Electricity Act, 2003, registered at Police Station Kankar Khera, District Meerut. Arrest had not been made. Counsel submitted that the alleged offence could not attract a sentence exceeding seven years, so arrest should not be mechanical, and that the offence was compoundable under the Supply Code.",
+  "holding_units": [
+    {
+      "provision": "EA2003::135",
+      "code": "EA2003",
+      "clause": "135",
+      "topic": "s.135 FIR — quashing, arrest, compounding",
+      "type": "electricity_act",
+      "holding": "An FIR under s.135 that discloses a cognizable offence will not be quashed. Arrest, if contemplated and the offence will not entail a sentence of more than seven years, must comply with CrPC s.41(1)(b) read with s.41-A. If the offence is compoundable, the accused may seek compounding under the Electricity Supply Code, 2005.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "s135-arrest-safeguards-and-compounding-remedy",
+      "application": "Quash refused on a s.135 FIR; arrest, if at all, under CrPC 41(1)(b)/41-A; compounding to be sought under the 2005 Supply Code.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the alleged s.135 offence was in fact compoundable",
+      "note": "Left to the petitioner to seek compounding under the Supply Code if available.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}

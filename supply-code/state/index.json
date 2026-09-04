@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1105,
+  "next_seq": 1106,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -6610,6 +6610,12 @@
       "case_id": "SCJ-1101",
       "source_basename": "CRLP(A)_13083_2014.pdf",
       "title": "Mahboob v. State of U.P. — s.135 FIR disclosing cognizable offence not quashed",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1102",
+      "source_basename": "CRLP(A)_13170_2014.pdf",
+      "title": "s.135 FIR not quashed; CrPC 41/41-A and Supply Code compounding",
       "status": "done"
     }
   ]
