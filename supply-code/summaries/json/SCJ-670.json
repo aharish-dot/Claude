@@ -1,0 +1,47 @@
+{
+  "case_id": "SCJ-670",
+  "title": "M/S Atul Industrial Corporation And Another v. Dakshinanchal Vidyut Vitran Nigam Limited And Others",
+  "neutral_citation": "2023:AHC:111847-DB",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Salil Kumar Rai, J.; Arun Kumar Singh Deshwal, J.",
+  "date_of_judgment": "2023-05-22",
+  "date_display": "22 May 2023",
+  "docket": "Writ - C No. 38268 of 2007",
+  "page_count": 20,
+  "significance": "ordinary",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition dismissed; Executive Engineer's 21.07.2007 metering-cubicle access directions upheld.",
+  "headnote": "An Executive Engineer may direct an HT/EHT consumer to construct a metering cubicle near the main gate and give independent access to the main meter. Clause 4.15(b) of the U.P. Electricity Supply Code, 2005 (cited in the order as Clause 4.1.5(b)) requires all EHT and HT consumers/applicants to provide independent entry to the meter or metering cubicle, and Clause 4.15(a) requires the licensee to determine the point of supply so that meters and other equipment are always accessible without obstruction for inspection. Such a direction is intra vires and is not a jurisdictional error. A consumer's assertion that the meter is already independently accessible is to be taken to the Executive Engineer, who shall act in accordance with law; it is not a ground to quash the order. The writ is dismissed.",
+  "facts": "M/S Atul Industrial Corporation and another, consumers of Dakshinanchal Vidyut Vitran Nigam Limited at Etawah, challenged the Executive Engineer's order dated 21 July 2007 directing them to construct a metering cubicle near the main gate and to give independent access to the main meter. The 2007 writ (Writ-C No. 38268 of 2007) remained pending for years with a stay in the petitioners' favour. It was listed repeatedly from 2010 through 2019, mostly passed over on illness slips of petitioners' counsel, and was finally heard by a Division Bench on 22 May 2023. The petitioners' case was that the meter had already been installed at a point independently accessible for inspection without obstruction.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.15",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.15(a)–(b)",
+      "topic": "HT/EHT consumer must provide independent entry to meter/metering cubicle; licensee fixes accessible point of supply",
+      "type": "supply_code",
+      "question": "Is an Executive Engineer's direction to an HT/EHT consumer to construct a metering cubicle near the main gate and give independent access to the main meter illegal or without jurisdiction?",
+      "holding": "No. Clause 4.15(b) (cited as Clause 4.1.5(b)) requires all EHT and HT consumers/applicants to provide independent entry to the meter or metering cubicle, and Clause 4.15(a) requires the licensee to determine the point of supply so that meters and other equipment are always accessible without obstruction for inspection. There is no jurisdictional error in the 21.07.2007 order. If the meter is already independently accessible, the consumer may bring that fact to the Executive Engineer, who shall take appropriate action in accordance with law; in any case the impugned order is not illegal. The writ is dismissed.",
+      "paras": "1",
+      "flag": "Source PDF concatenates listing orders from 18.11.2010 to 29.1.2019; the operative disposal is 22.5.2023 (unnumbered). The Court wrote 'Clause 4.1.5 (b)' for the independent-entry duty whose text is Clause 4.15(b); Clause 4.15(a) was cited correctly. Keyed to UP-2005::4.15, not UP-2005::4.1 or BIHAR-2007::4.15."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-4.15-ht-eht-independent-entry-to-meter",
+      "application": "Clause 4.15(b) obliges HT/EHT consumers to provide independent entry to the meter or metering cubicle; Clause 4.15(a) lets the licensee fix the point of supply so meters remain unobstructed. An EE order to build a cubicle near the main gate with independent access is intra vires; a plea that access already exists goes to the EE, not the writ court.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the existing meter was in fact independently accessible without obstruction",
+      "note": "Petitioners' contention; left to the Executive Engineer if brought to his notice. Writ dismissed without a finding on that fact.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}

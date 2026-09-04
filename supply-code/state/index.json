@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 672,
+  "next_seq": 673,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -4018,6 +4018,12 @@
       "case_id": "SCJ-669",
       "source_basename": "WRIC(A)_30350_2007.pdf",
       "title": "M/S. Mohan Electrocasting Pvt. Ltd. And Another v. Paschimanchal Vidyut Vitran Nigam Ltd. And Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-670",
+      "source_basename": "WRIC(A)_38268_2007.pdf",
+      "title": "M/S Atul Industrial Corporation And Another v. Dakshinanchal Vidyut Vitran Nigam Limited And Others",
       "status": "done"
     }
   ]
