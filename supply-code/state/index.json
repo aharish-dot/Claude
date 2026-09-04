@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 713,
+  "next_seq": 714,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -4264,6 +4264,12 @@
       "case_id": "SCJ-710",
       "source_basename": "WRIC(A)_30219_2009.pdf",
       "title": "Satish Kumar Sharma v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-711",
+      "source_basename": "WRIC(A)_33464_2009.pdf",
+      "title": "M/s Gogi Ice & Cold Storage v. Dakshinanchal Vidyut Vitran Nigam Ltd. & Ors.",
       "status": "done"
     }
   ]
