@@ -1,0 +1,48 @@
+{
+  "case_id": "SCJ-1226",
+  "title": "Unserved theft provisional assessment: recovery quashed for want of 6.8(b) opportunity",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J.; Ashwani Kumar Mishra, J.",
+  "date_of_judgment": "2014-09-03",
+  "date_display": "3 September 2014",
+  "docket": "WRIT - C No. - 43719 of 2014",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; recovery quashed; fresh provisional assessment directed",
+  "headnote": "A theft-based recovery certificate founded on a provisional assessment sent by ordinary post, with no proof of service, does not satisfy para 6.8(b) of the U.P. Electricity Supply Code, 2005. The assessment also failed to disclose the basis of Rs.2,32,643/- or record the assessing officer's satisfaction that theft was committed. Following Ashok Kumar, the recovery was quashed and a fresh served provisional assessment, with reasoned consideration of objections, was directed.",
+  "facts": "Asis Kumar petitioned the Allahabad High Court against Dakshinanchal Vidyut Vitran Nigam Ltd. challenging a recovery certificate for Rs.2,32,643/- raised on alleged theft of electricity. The Corporation stated that a provisional assessment inviting objections had been sent by ordinary post. There was no material showing service. The petitioner denied receiving any provisional assessment bill. The Court examined whether he had been given an opportunity to object under the U.P. Electricity Supply Code, 2005, and whether the assessment recorded any basis or satisfaction of theft.",
+  "reusable_constructions": [
+    {
+      "construction": "A provisional assessment inviting objections, sent by ordinary post without proof of service, does not afford the consumer the opportunity required by para 6.8(b) of the U.P. Electricity Supply Code, 2005; recovery founded on such assessment cannot stand.",
+      "paras": "2-6"
+    },
+    {
+      "construction": "A theft-based provisional assessment must disclose the basis of the amount assessed and record the assessing officer's satisfaction that the consumer committed theft; absence of both vitiates the assessment.",
+      "paras": "5"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "UP-2005",
+      "clause": "6.8(b)",
+      "topic": "opportunity to object to provisional assessment (theft)",
+      "type": "supply_code",
+      "holding": "Where a theft-based recovery is founded on a provisional assessment sent by ordinary post, and the record does not show service or any opportunity to object, the consumer has not been afforded the opportunity required by para 6.8(b) of the U.P. Electricity Supply Code, 2005. The assessment is further vitiated if it does not disclose the basis of the amount demanded or record the assessing officer's satisfaction that theft was committed. The recovery and consequential proceedings are liable to be quashed, with a direction to issue a fresh provisional assessment, serve it, and pass a reasoned final assessment after considering objections, in the light of Ashok Kumar.",
+      "paras": "2-7"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "Ashok Kumar and others v. State of U.P. and others",
+      "citation": "2008(6) ADJ 660 (DB)",
+      "cited_by": "4, 7"
+    }
+  ]
+}
