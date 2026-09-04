@@ -1,0 +1,38 @@
+{
+  "case_id": "SCJ-1093",
+  "title": "Prayag Prakash v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "V.K. Shukla, J.; Shashi Kant, J.",
+  "date_of_judgment": "2014-07-22",
+  "date_display": "22 July 2014",
+  "docket": "Criminal Misc. Writ Petition No. 12203 of 2014",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Quash of s.138(B) FIR refused; CrPC 41-A if arrest.",
+  "headnote": "The Allahabad High Court refused to quash an FIR under Section 138(B) of the Electricity Act, 2003, holding that it disclosed a cognizable offence. Arrest, if made for an offence not entailing more than seven years, must follow Section 41(1)(b) read with Section 41-A CrPC. If the offence is compoundable, the accused may seek compounding under the Electricity Supply Code, 2005.",
+  "facts": "Prayag Prakash filed a criminal miscellaneous writ petition seeking quashing of FIR dated 25.03.2014 registered as Case Crime No. 390 of 2014 under Section 138(B) of the Electricity Act at Police Station Puranpur, District Pilibhit. He had not been arrested. Counsel submitted that the alleged offence could not attract a sentence exceeding seven years, that arrest should not be mechanical, and that the offence was compoundable. The State and the complainant were heard.",
+  "holding_units": [
+    {
+      "provision": "EA2003::138",
+      "code": "EA2003",
+      "clause": "138",
+      "topic": "quashing FIR for unauthorised reconnection",
+      "type": "electricity_act",
+      "holding": "An FIR under Section 138(B) of the Electricity Act, 2003 that discloses a cognizable offence is not liable to be quashed. Arrest, if effectuated for an offence not entailing more than seven years' imprisonment, must comply with Section 41(1)(b) read with Section 41-A CrPC. If the offence is compoundable, the accused may seek compounding under the Electricity Supply Code, 2005.",
+      "paras": "3-6"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the alleged Section 138(B) offence is in fact compoundable under the Electricity Supply Code, 2005",
+      "note": "The Court only observed that if the offence is compoundable the petitioner may seek the Supply Code remedy; it did not decide compounding.",
+      "paras": "5"
+    }
+  ],
+  "authorities": []
+}
