@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 755,
+  "next_seq": 756,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -4516,6 +4516,12 @@
       "case_id": "SCJ-752",
       "source_basename": "WRIC(A)_64782_2009.pdf",
       "title": "Mangla Plywood (Pvt.) Ltd. v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-753",
+      "source_basename": "WRIC(A)_64797_2009.pdf",
+      "title": "Shailendra Kumar v. State of U.P.",
       "status": "done"
     }
   ]
