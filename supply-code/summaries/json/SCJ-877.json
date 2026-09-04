@@ -1,0 +1,54 @@
+{
+  "case_id": "SCJ-877",
+  "title": "Consumer forum has no jurisdiction over EA assessment",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Arun Tandon, J.; Harsh Kumar, J.",
+  "date_of_judgment": "2016-03-01",
+  "date_display": "1 March 2016",
+  "docket": "Writ-C No. 58998 of 2011",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; consumer-forum orders on assessment set aside.",
+  "headnote": "Following UPPCL v. Anis Ahmad, a Consumer Grievance Redressal Forum has no power to redress a dispute that is not a “service” or “complaint” under ss. 2(1)(o) and 2(1)(c) of the Consumer Protection Act, 1986. A District Consumer Forum complaint over an assessment under the Electricity Act, 2003, and the Executive Engineer’s appeal from that forum, were both not maintainable. Both orders were set aside. Parties may proceed under the Electricity Act, 2003 and the Electricity Supply Code, 2005. The licensee’s writ was allowed.",
+  "facts": "The Executive Engineer of Vidyut Nagriya Vitran Khand petitioned the Allahabad High Court against consumer-forum proceedings arising from an assessment under the Electricity Act, 2003. A complaint had been pursued before the District Consumer Forum and the Executive Engineer had appealed that order. After a 2011 notice order, a Division Bench heard the writ in 2016. The live issue was forum competence, not the merits of the assessment.",
+  "reusable_constructions": [
+    {
+      "construction": "CGRF (and a District Consumer Forum) cannot redress a dispute over an assessment under the Electricity Act, 2003; such a matter is not a “complaint” or “service” under CPA 1986 ss. 2(1)(c) and 2(1)(o) (Anis Ahmad).",
+      "paras": "1"
+    },
+    {
+      "construction": "Where consumer-forum proceedings on an electricity assessment are without jurisdiction, both the original complaint and the licensee’s appeal are not maintainable; both orders are liable to be set aside and parties left to the Electricity Act, 2003 and the Electricity Supply Code, 2005.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::assessment",
+      "code": "EA2003",
+      "clause": "assessment",
+      "topic": "consumer-forum jurisdiction over assessment",
+      "type": "interplay",
+      "holding": "Applying UPPCL v. Anis Ahmad, the Consumer Grievance Redressal Forum has no power to redress a dispute that is not a “service” or “complaint” under CPA 1986 ss. 2(1)(o) and 2(1)(c). A complaint before the District Consumer Forum over an assessment under the Electricity Act, 2003, and the Executive Engineer’s appeal from that forum, were both not maintainable. Both orders were set aside. Parties may seek their remedy under the Electricity Act, 2003 and the Electricity Supply Code, 2005. Writ allowed.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "merits of the assessment under the Electricity Act, 2003",
+      "note": "Parties left to remedy under the Electricity Act, 2003 and the Electricity Supply Code, 2005.",
+      "paras": "1"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Uttar Pradesh Power Corporation Limited v. Anis Ahmad",
+      "citation": "(2013) 8 SCC 491",
+      "cited_by": "1"
+    }
+  ]
+}

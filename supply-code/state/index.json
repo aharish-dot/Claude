@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 880,
+  "next_seq": 881,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -5260,6 +5260,12 @@
       "case_id": "SCJ-876",
       "source_basename": "WRIC(A)_58757_2011.pdf",
       "title": "M/s Kisan Chilling Plant v. Appellate Authority/Divisional Commissioner",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-877",
+      "source_basename": "WRIC(A)_58998_2011.pdf",
+      "title": "Consumer forum has no jurisdiction over EA assessment",
       "status": "done"
     }
   ]
