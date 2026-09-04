@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1179,
+  "next_seq": 1180,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -7054,6 +7054,12 @@
       "case_id": "SCJ-1175",
       "source_basename": "WRIC(A)_28910_2014.pdf",
       "title": "M/s Chandrayan Cold Storage v. U.P. Power Corporation Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1176",
+      "source_basename": "WRIC(A)_29265_2014.pdf",
+      "title": "M/s Silverton Pulp & Papers Pvt. Ltd. v. Paschimanchal Vidyut Vitran Nigam Ltd.",
       "status": "done"
     }
   ]
