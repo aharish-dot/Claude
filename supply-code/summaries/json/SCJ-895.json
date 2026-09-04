@@ -1,0 +1,55 @@
+{
+  "case_id": "SCJ-895",
+  "title": "Devi Lal @ Tutti Lal v. State of U.P. & Ors.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sunil Ambwani and Pankaj Naqvi, JJ.",
+  "date_of_judgment": "2012-03-28",
+  "date_display": "28 March 2012",
+  "docket": "Writ-C No. 14013 of 2012",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Recovery citation kept in abeyance; no recovery without a final s.126 assessment.",
+  "headnote": "A Section 126(1) provisional assessment does not authorise recovery. The assessing officer must pass a final order after service—whether or not objections are filed—and only that final order founds recovery and a Section 127 appeal. Where the department produced no final assessment, the recovery citation was stayed and the consumer was given a week to object.",
+  "facts": "A Section 135 theft report spawned Case Crime Nos. 22–26 of 2011 at P.S. Kaundhiyara, Allahabad. The petitioner did not compound on inspection and, in Criminal Misc. Writ Petition No. 4584 of 2010, deposited Rs. 20,000 as directed for stay of arrest. He later challenged recovery of Rs. 82,802 as unauthorised-consumption dues calculated under the U.P. Electricity Supply Code, 2005, on an Executive Engineer’s order dated 29 April 2010 and a citation dated 1 March 2012, alleging the demand was only provisional and that no final assessment had been passed.",
+  "reusable_constructions": [
+    {
+      "construction": "A provisional assessment under Section 126(1) does not itself authorise recovery; a final assessment order is a mandatory precondition.",
+      "paras": "1"
+    },
+    {
+      "construction": "Even if the consumer files no objection to a Section 126 provisional assessment, the assessing officer must still pass a final order after satisfying himself from the record that the provisional assessment was served.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::126",
+      "code": "EA2003",
+      "clause": "126",
+      "topic": "final assessment as precondition to recovery",
+      "type": "electricity_act",
+      "holding": "A demand under Section 126(1) is a provisional assessment and must be served on the person found to have unauthorisedly consumed electricity. Section 126 confers a right to object; if objections are filed, the Executive Engineer must pass a final order, appealable under Section 127. Even if no objections are filed, a final assessment is still required after the officer satisfies himself from the record that the provisional assessment was served. Recovery cannot proceed on a provisional assessment alone. The 29 April 2010 Executive Engineer order did not show itself to be a final assessment and none was produced, so the citation dated 1 March 2012 was kept in abeyance, with a week to object and a Section 127 appeal if the objection is rejected.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "final-s126-assessment-mandatory-precondition-to-recovery-citation",
+      "application": "Applied to stay the 1 March 2012 recovery citation because the 29 April 2010 demand was only a provisional s.126(1) assessment and the department produced no final order.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Quantum and merits of the Rs. 82,802 unauthorised-use demand",
+      "note": "Left to objection before the assessing officer and, if rejected, to appeal under Section 127.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
