@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 984,
+  "next_seq": 985,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -5884,6 +5884,12 @@
       "case_id": "SCJ-980",
       "source_basename": "WRIC(A)_15360_2013.pdf",
       "title": "Smt. Shailesh Mittal v. State of U.P. & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-982",
+      "source_basename": "WRIC(A)_16143_2013.pdf",
+      "title": "Writ against Clause 6.9 load-increase direction premature pending s.126(3) objection",
       "status": "done"
     }
   ]
