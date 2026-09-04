@@ -1,0 +1,45 @@
+{
+  "case_id": "SCJ-743",
+  "title": "Sunder Lal Chaubey v. State of U.P.",
+  "neutral_citation": "W.P. (C) No. 59584 of 2009",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sunil Ambwani, J.; Virendra Singh, J.",
+  "date_of_judgment": "2009-11-09",
+  "date_display": "9 November 2009",
+  "docket": "Writ - C No. 59584 of 2009",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of; petitioner relegated to a s.127 appeal to be decided on merits if filed within 15 days.",
+  "headnote": "After the Executive Engineer decided objections to a theft-case assessment and a recovery citation issued, the High Court did not examine the assessment in writ. It held that the consumer’s remedy was an appeal under Section 127 of the Electricity Act, 2003, and directed that an appeal filed within 15 days be decided on merits expeditiously.",
+  "facts": "On 3 January 2008 a surprise inspection found the petitioner unauthorisedly drawing 1 kV from an L.T. line cut. A provisional assessment issued; he objected on 1 February 2008. The Executive Engineer rejected the objections on 31 March 2008, finding he had only alleged against the inspecting party. A 3 July 2009 citation sought Rs. 53,187 as theft-case dues under the U.P. Electricity (Supply) Code, 2005. His brother had earlier obtained a six-week stay in another writ without disclosing that the objections had already been decided.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "s.127 appeal after EE decides theft-assessment objections",
+      "type": "electricity_act",
+      "holding": "Once the Executive Engineer has decided objections to a theft-case assessment, the consumer’s remedy is an appeal under Section 127 of the Electricity Act, 2003; a writ will be disposed of on that footing, with a direction that an appeal filed within 15 days shall be decided on merits expeditiously.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "theft-assessment-is-under-s126-appealable-s127",
+      "application": "Unauthorised L.T. line cut treated as a theft-case assessment (calculation under the Supply Code); after the Executive Engineer decided objections, the Court pointed the consumer to a Section 127 appeal rather than writ merits.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits of the theft assessment and recoverability of Rs. 53,187",
+      "note": "Writ disposed without examining the assessment or the recovery citation.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
