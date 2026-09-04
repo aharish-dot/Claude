@@ -1,0 +1,51 @@
+{
+  "case_id": "SCJ-1110",
+  "title": "Suresh v. State of U.P. and others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "V.K. Shukla, J.; Arvind Kumar Mishra-I, J.",
+  "date_of_judgment": "2014-08-14",
+  "date_display": "14 August 2014",
+  "docket": "Criminal Misc. Writ Petition No. 13838 of 2014",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "FIR quash refused; arrest per CrPC 41/41-A; compounding under Supply Code.",
+  "headnote": "An FIR registered as Section 138 B of the Indian Electricity Act that discloses a cognizable offence will not be quashed. If arrest is to be made for an offence not entailing more than seven years' sentence, police must follow CrPC s.41(1)(b) read with s.41-A. If the offence is compoundable, the accused may seek compounding under the Electricity Supply Code, 2005.",
+  "facts": "Suresh invoked the Allahabad High Court's criminal writ jurisdiction to quash FIR Case Crime No. 527 of 2014 dated 10 July 2014, registered at Police Station Neuria, District Pilibhit, under Section 138 B of the Indian Electricity Act. He had not been arrested. Counsel argued that the alleged offence was in substance under s.135 of the Electricity Act, 2003, that sentence could not exceed seven years so arrest should not be mechanical, and that the offence was compoundable.",
+  "holding_units": [
+    {
+      "provision": "EA2003::138",
+      "code": "EA2003",
+      "clause": "138 B",
+      "topic": "fir-quash-cognizable-offence",
+      "type": "electricity_act",
+      "holding": "Where the FIR under Section 138 B of the Indian Electricity Act discloses a cognizable offence, the High Court will not quash it. Arrest, if effectuated and the offence will not entail sentence of more than seven years, must comply with CrPC s.41(1)(b) read with s.41-A; violation may be complained of before the Magistrate. If the offence is compoundable, the accused may seek his remedy under the Electricity Supply Code, 2005.",
+      "paras": "1",
+      "flag": "FIR registered as 'Section 138 B of Indian Electricity Act'; counsel argued EA 2003 s.135. Court did not resolve the section or the statute's title."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "s135-arrest-safeguards-and-compounding-remedy",
+      "application": "Quash of a cognizable electricity FIR refused, but arrest (if any, for an offence not exceeding seven years) directed to follow CrPC s.41(1)(b)/41-A, with compounding left to the Electricity Supply Code, 2005 if the offence is compoundable.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the alleged offence is under EA 2003 s.135 or s.138(b)",
+      "note": "FIR cited s.138 B of the Indian Electricity Act; counsel treated it as s.135. Court held only that a cognizable offence was disclosed.",
+      "paras": "1"
+    },
+    {
+      "point": "Whether the offence is in fact compoundable",
+      "note": "Left conditional: if compoundable, remedy lies under the Electricity Supply Code, 2005.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
