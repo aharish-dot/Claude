@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 878,
+  "next_seq": 879,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -5248,6 +5248,12 @@
       "case_id": "SCJ-874",
       "source_basename": "WRIC(A)_56821_2011.pdf",
       "title": "Birendra Kumar Arya v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-875",
+      "source_basename": "WRIC(A)_56852_2011.pdf",
+      "title": "Tej Ram Singh v. Paschimanchal Vidyut Vitran Nigam Ltd.",
       "status": "done"
     }
   ]
