@@ -33,7 +33,8 @@ Any session (fresh or resumed) can execute this from repo state alone. Branch:
 
 ## Lean schema (per case) — the ONLY thing we keep
 Top-level: `case_id, title, neutral_citation, court, bench, coram, date_of_judgment (ISO),
-date_display, docket, page_count, significance, outcome, disposition, headnote, facts, holding_units[],
+date_display, docket, page_count, significance, outcome, disposition, headnote, facts,
+reusable_constructions[] (significant only), holding_units[],
 principle_tags[], not_decided[], authorities[]`.
 
 - **page_count**: integer pages of the **source judgment** (the input PDF), not the digest.
@@ -58,6 +59,12 @@ principle_tags[], not_decided[], authorities[]`.
   what happened, what was challenged. Enough to follow the case; not the holding and not a
   dump of docket trivia. Rendered on the digest under the headnote as **FACTUAL SUMMARY**
   (cream box). Labels print as ordinary words (Headnote / Factual Summary), not letter-spaced.
+- **reusable_constructions[]**: `{construction, paras}` — required when
+  `significance` is `"significant"`; **omit** on ordinary and procedural records.
+  A numbered list of the portable propositions the case establishes (the "what to
+  cite this for" headline). Distill the ratio into standalone rules; do not copy
+  the holding paragraph. `paras` is a string. Rendered on the digest as an indigo
+  **REUSABLE CONSTRUCTIONS** box under the facts. Shape: SCJ-225.
 - **holding_units[]**: `{provision, code, clause, topic, type, question?, holding,
   qualifier?, paras, flag?}`. Do **not** write `limiting_facts` (dropped from the digest;
   the story belongs in `facts`). `provision` is the key, e.g. `UP-2005::4.3(f)`, `EA2003::56(2)`,

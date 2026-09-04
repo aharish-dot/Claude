@@ -14,6 +14,20 @@
   "disposition": "Criminal revision allowed; discharge-rejection dated 14.11.2022 and the entire Section 420 complaint quashed",
   "headnote": "A tenant in possession under a rent agreement that itself provides for payment of electricity tax on an additional meter is entitled to a connection in the tenanted premises under Clause 4.4 and Annexure 4.2 of the U.P. Electricity Supply Code, 2005. Following Seema Mansoor, the occupier has a legal right to obtain supply and the licensee cannot refuse solely for want of the owner's consent; installation of an additional meter by the electricity department is not cheating under Section 420 IPC. The Supply Code is a self-sufficient code. Where the landlady has initiated no Code proceeding for disconnection or removal of that meter, and in the ejectment suit she pleads non-payment of bills on the additional meter while the criminal complaint alleges fraudulent installation, the Section 420 prosecution is a civil dispute dragged into criminal litigation and an abuse of process. The order refusing discharge under Section 245(2) Cr.P.C. and the entire complaint are quashed.",
   "facts": "Smt. Uma Chauhan entered a registered agreement to sell dated 8 July 2016 with Smt. Priya Goel for a house at Rs 38,50,000 and paid Rs 5,00,000 as earnest money. A rent agreement was also executed making her a tenant; the Court recorded that clause 4 required the tenant to pay water and electricity tax as per the additional meter. An ejectment suit (SCC Suit No. 1 of 2017) for default of rent remained pending.\n\nYogesh Kumar Goel, who is not the owner, lodged a complaint (originally under Section 156(3) Cr.P.C.) alleging that the tenant had forcibly occupied a third floor and, by fraud and forgery, got an additional electricity meter installed in her name. She was summoned under Section 420 IPC on 22 December 2018. After a Section 482 application was disposed of on 10 August 2022 with liberty to seek discharge, her Section 245(2) discharge application was rejected on 14 November 2022 in Complaint Case No. 5385 of 2021. She challenged that order and the complaint.",
+  "reusable_constructions": [
+    {
+      "construction": "A tenant/occupier is entitled to an electricity connection under Clause 4.4 and Annexure 4.2 on occupancy proof and an indemnity bond where the owner's consent is unavailable; the licensee cannot refuse solely for want of that consent (following Seema Mansoor).",
+      "paras": "17, 19-20, 24"
+    },
+    {
+      "construction": "Installation of an additional meter in tenanted premises by the electricity department is not cheating under Section 420 IPC; dishonest intention from the inception is not made out where the occupier entered under a rent deed and was entitled to the connection.",
+      "paras": "17, 19-20, 24"
+    },
+    {
+      "construction": "The Supply Code is a self-sufficient code; a Section 420 complaint for a tenant's additional meter is an abuse of process where no Code proceeding for removal has been taken and the civil plea of unpaid bills contradicts the criminal plea of fraudulent installation.",
+      "paras": "17-18, 20-27"
+    }
+  ],
   "holding_units": [
     {
       "provision": "UP-2005::4.4",
@@ -43,7 +57,10 @@
       "tag": "occupier-entitled-to-connection-on-indemnity-bond",
       "application": "Applied in a criminal-revision setting: a tenant in occupation is entitled to an electricity connection under Clause 4.4 and Annexure 4.2; getting an additional meter in the tenanted premises through the electricity department is not Section 420 fraud. Same cluster as SCJ-115 (Seema Mansoor), SCJ-006, SCJ-212, SCJ-265.",
       "lead_authorities": [
-        {"name": "Seema Mansoor v. U.P. Power Corporation Ltd.", "docid": "80741415"}
+        {
+          "name": "Seema Mansoor v. U.P. Power Corporation Ltd.",
+          "docid": "80741415"
+        }
       ],
       "paras": "17, 19-20, 24"
     },
@@ -51,7 +68,10 @@
       "tag": "clause-4.4-occupant-connection-on-indemnity-bond",
       "application": "Clause 4.4 and Annexure 4.2 are quoted in full. Occupancy proof (rent receipt/lease) plus the indemnity-bond route where owner's consent is unavailable support a tenant's additional meter. The Code is treated as the self-sufficient forum for any landlady challenge to that connection; a parallel Section 420 complaint is quashed.",
       "lead_authorities": [
-        {"name": "Seema Mansoor v. U.P. Power Corporation Ltd.", "docid": "80741415"}
+        {
+          "name": "Seema Mansoor v. U.P. Power Corporation Ltd.",
+          "docid": "80741415"
+        }
       ],
       "paras": "17, 20"
     }

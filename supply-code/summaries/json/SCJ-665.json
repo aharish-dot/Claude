@@ -15,6 +15,24 @@
   "disposition": "Section 482 Cr.P.C. petition dismissed; s.135 charge-sheet and summoning order not quashed",
   "headnote": "A section 482 Cr.P.C. petition to quash a charge-sheet and summoning order for theft of electricity under section 135 of the Electricity Act, 2003 is dismissed. Unamended section 151, which speaks of cognizance upon a complaint in writing, does not shut out an FIR or a police report: following Vishal Agrawal v. Chhattisgarh State Electricity Board, (2014) 3 SCC 696, offences under the Act are tried by the Code of Criminal Procedure, so a charge-sheet for section 135 is competent. The plea that the petitioner had resigned as director in 1997 and that the company had been taken over in 1998 does not require quashing. Clause 4.44 of the U.P. Electricity Supply Code, 2005 required an application to mutate or transfer the connection; none was made, and the connection remained in his name. He was also treated as the owner who absconded at the raid. Director-vicarious-liability authorities under section 141 of the Negotiable Instruments Act, 1881 and in company prosecutions are distinguished: section 135 contains no such mandatory averment in the police report, and the facts of resignation, takeover and presence are for the trial court or a discharge application.",
   "facts": "Ashok Garg of Nayaganj, Kanpur, applied under section 482 Cr.P.C. to quash charge-sheet no. 349 of 2005 dated 30.10.2005 arising out of Case Crime No. 1474 of 2005 under section 135 of the Electricity Act, 2003, P.S. Kotwali, Unnao, and the 30.10.2006 summoning order of the Special Judge (E.C. Act), Unnao in Special Trial No. 06 of 2006. Opposite party no. 2 is Avinash Chandra Pandey, Incharge Inspector, Enforcement Cell, Lucknow Zone, U.P. Power Corporation Limited.\n\nOn 29.8.2005 enforcement officers found meter tampering at Radhey Solvent premises; Garg, described as owner of M/s Radhey Solvent Factory, is said to have absconded. The connection of M/s Indo Prosoya Food Private Limited, Unit no. 1, Akarampur, Unnao was also checked and tampering recorded, and an FIR lodged as Case Crime No. 1475 of 2005. Garg said he had resigned as director of M/s Garg India Limited from 4.11.1997, that company having been taken over by Indo Prosoya on 24.9.1998, so he was neither director of the new company nor present at the spot, and that unamended section 151 required a complaint, not a charge-sheet. Trial had remained stayed since 23.2.2007.",
+  "reusable_constructions": [
+    {
+      "construction": "Unamended section 151 does not shut out an FIR or a police charge-sheet for a section 135 offence; Cr.P.C. procedure governs (following Vishal Agrawal).",
+      "paras": "8-10"
+    },
+    {
+      "construction": "Failure to apply under Clause 4.44 for mutation or transfer leaves the recorded consumer in the section 135 frame; a prior resignation or corporate takeover cannot quash the prosecution at the section 482 stage.",
+      "paras": "7, 11-12, 14, 16-17"
+    },
+    {
+      "construction": "A section 135 police report need not aver that the accused was in charge of and responsible for the company's business; section 141 NI Act-style mandatory averments have no counterpart in section 135.",
+      "paras": "12-19"
+    },
+    {
+      "construction": "Disputed facts of resignation, takeover and presence at the raid are for the trial court or a discharge application, not for quashing under section 482.",
+      "paras": "7, 17-19"
+    }
+  ],
   "holding_units": [
     {
       "provision": "EA2003::151",
@@ -53,7 +71,10 @@
       "tag": "s151-does-not-exclude-fir-and-charge-sheet",
       "application": "Unamended section 151's complaint route does not exclude FIR, investigation or a police charge-sheet for section 135. Following Vishal Agrawal, Cr.P.C. procedure governs; a charge-sheet for theft of electricity is competent.",
       "lead_authorities": [
-        {"name": "Vishal Agrawal v. Chhattisgarh State Electricity Board", "docid": ""}
+        {
+          "name": "Vishal Agrawal v. Chhattisgarh State Electricity Board",
+          "docid": ""
+        }
       ],
       "paras": "8-10"
     },

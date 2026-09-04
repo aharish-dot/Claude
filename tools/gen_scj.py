@@ -9,8 +9,12 @@ Then render to PDF (Chromium, headless):
 The lean schema is the SINGLE source of truth (supply-code/summaries/json/<id>.json).
 Unlike the older tools/gen_hc.py (which renders the bulky per-case digest), this
 generator renders only what the jurisprudence keeps: identity, headnote,
-factual summary, holding-units (supply_code = green, interplay = grey),
-principle tags, not-decided register, and the 4-column table of authorities.
+factual summary, reusable constructions (significant cases only), holding-units
+(supply_code = green, interplay = grey), principle tags, not-decided register,
+and the 4-column table of authorities.
+A record without reusable_constructions renders as before. Shape:
+c["reusable_constructions"] = [{construction, paras?}, ...] — portable
+propositions the case is cited for (see SCJ-225).
 HTML is fully self-contained (styles inlined) so the PDF renders with no
 external assets.
 Strings are treated as PLAIN TEXT and HTML-escaped; only the "smart" punctuation
@@ -54,6 +58,14 @@ STYLE = """<style>
   .facts p{ margin:0 0 6pt; } .facts p:last-child{ margin-bottom:0; }
   .seclabel{ font-family:Arial,'Liberation Sans',sans-serif; font-size:7.4pt; letter-spacing:.13em;
         text-transform:uppercase; font-weight:700; color:#64748b; margin:14pt 0 6pt; }
+
+  /* Reusable Constructions — portable-law headline (indigo). Significant cases only. */
+  .rc{ background:#eef0fb; border:1pt solid #c3c9ef; border-left:4px solid #4f5bd5; border-radius:3pt;
+        padding:7pt 12pt 8pt; margin:0 0 12pt; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .rc .hn{ display:block; font-family:Arial,'Liberation Sans',sans-serif; font-size:8pt;
+        letter-spacing:.12em; text-transform:uppercase; font-weight:700; color:#2f339a; margin-bottom:5pt; }
+  .rc ol{ margin:0; padding-left:16pt; } .rc li{ margin:0 0 5pt; text-align:justify; }
+  .rc li:last-child{ margin-bottom:0; }
 
   .hu{ border:1pt solid #a9d6ba; border-left:4px solid #2f8f57; border-radius:3pt;
         margin:0 0 11pt; overflow:hidden; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
@@ -193,6 +205,32 @@ def auth_row(a):
             f'      </tr>\n')
 
 
+def reusable_constructions_box(c):
+    """Numbered indigo box: portable propositions the case is cited for.
+
+    Present only when c["reusable_constructions"] is a non-empty list of
+    {construction, paras?} (or bare strings). Significant cases only.
+    """
+    rc = c.get("reusable_constructions")
+    if not rc:
+        return ""
+    items = ""
+    for r in rc:
+        if isinstance(r, str):
+            text, pn = r, ""
+        elif isinstance(r, dict):
+            text, pn = r.get("construction", ""), r.get("paras", "")
+        else:
+            continue
+        if not text:
+            continue
+        items += f'    <li>{esc(text)}{pin(pn)}</li>\n'
+    if not items:
+        return ""
+    return (f'  <div class="rc"><span class="hn">Reusable Constructions</span>\n'
+            f'    <ol>\n{items}    </ol>\n  </div>\n')
+
+
 def facts_box(c):
     """Cream box under the headnote: brief narrative facts, not the legal rule."""
     raw = c.get("facts")
@@ -244,6 +282,7 @@ def build(c):
         f'<strong>{esc(c.get("disposition",""))}</strong>' if c.get("disposition") else "",
     ] if x)
 
+    rc_box = reusable_constructions_box(c)
     hus = "".join(holding_unit(u) for u in c.get("holding_units", []))
     tags = "".join(principle_tag(t) for t in c.get("principle_tags", []))
     nds = "".join(not_decided(n) for n in c.get("not_decided", []))
@@ -272,8 +311,7 @@ def build(c):
   <div class="idline">{ident}</div>
 
   <div class="headnote"><span class="hn">Headnote</span>{esc(c.get("headnote",""))}</div>
-{facts_box(c)}
-  <div class="seclabel">Holding-units</div>
+{facts_box(c)}{rc_box}  <div class="seclabel">Holding-units</div>
 {hus}
 {tags_sec}{nd_sec}{auth_sec}
   <div class="foot">{esc(c.get("case_id",""))} &middot; {esc(c.get("title",""))} &middot; {esc(c.get("neutral_citation",""))} &middot; Supply Code Jurisprudence
@@ -289,4 +327,6 @@ if __name__ == "__main__":
     c = json.load(open(src, encoding="utf-8"))
     open(out, "w", encoding="utf-8").write(build(c))
     print(f"wrote {out} from {src} "
-          f"({len(c.get('holding_units', []))} holding-units, {len(c.get('authorities', []))} authorities)")
+          f"({len(c.get('holding_units', []))} holding-units, "
+          f"{len(c.get('reusable_constructions', []))} reusable-constructions, "
+          f"{len(c.get('authorities', []))} authorities)")

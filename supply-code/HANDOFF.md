@@ -71,6 +71,7 @@ Token split:
 - `model`: `"Grok 4.6"` | `"stencil"`.
 - `outcome`: `"consumer"` | `"licensee"` | `"alternate_remedy"` | `"pending"` | `"none"` | `"split"`. Who succeeded on the **electricity dispute**, not the CPC petitioner label (a discom that files and wins is `licensee`). `alternate_remedy` = relegated to 6.5/6.8/s.127 or “apply/consider in accordance with law” without a merits grant. `pending` = listed. `none` = infructuous / not-pressed / contempt dismissed without deciding the bill. Required from **SCJ-301**. Aliases: petitioner→consumer, discom→licensee. Tally: `python tools/tally_outcomes.py UP-2005::4.4`.
 - `facts`: 1–2 short paragraphs of the story. Digest PDF: cream **FACTUAL SUMMARY** box under the headnote. Labels print as ordinary words (`HEADNOTE` / `FACTUAL SUMMARY`), not letter-spaced. Old records without `facts` still render.
+- `reusable_constructions`: `[{construction, paras}, …]` — **required on `significance: "significant"` only**; omit on ordinary/procedural. Portable "cite this for" propositions (not a copy of the holding). Digest PDF: indigo **REUSABLE CONSTRUCTIONS** box. Shape: SCJ-225. Extra field is ignored by `build_supply_code.py`.
 - Do **not** write `limiting_facts` on holding-units (dropped from the digest from SCJ-287 on). Generator ignores the field even if present on old JSON.
 - OFFTOPIC / thin orders still recorded, compactly, with a `flag`. Listing-only → `OFFTOPIC::procedural-listing`.
 - Validate JSON + the two gotcha checks before `gen_scj.py`.

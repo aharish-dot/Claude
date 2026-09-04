@@ -303,6 +303,22 @@ def check_record(c, cid):
         for j, x in enumerate(la):
             if not isinstance(x, dict) or "name" not in x:
                 die(f"principle_tags[{i}].lead_authorities[{j}] must be {{name, docid}}")
+    rc = c.get("reusable_constructions")
+    sig = SIG_ALIASES.get(str(c.get("significance") or "").strip().lower())
+    if sig == "significant":
+        if not isinstance(rc, list) or not rc:
+            die("significant records require reusable_constructions[] "
+                "([{construction, paras}, …])")
+    if rc is not None:
+        if not isinstance(rc, list):
+            die("reusable_constructions must be a list")
+        for i, r in enumerate(rc):
+            if not isinstance(r, dict) or not str(r.get("construction") or "").strip():
+                die(f"reusable_constructions[{i}] must be {{construction, paras}}")
+            p = r.get("paras")
+            if p is not None and not isinstance(p, str):
+                die(f"reusable_constructions[{i}].paras must be a string, "
+                    f"not {type(p).__name__}")
 
 
 def render_pdf(cid, slug, rec, chrome, significance=None):
