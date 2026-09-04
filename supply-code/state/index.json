@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 747,
+  "next_seq": 748,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -4468,6 +4468,12 @@
       "case_id": "SCJ-744",
       "source_basename": "WRIC(A)_59634_2009.pdf",
       "title": "Consumption bill challenge dismissed for alternative remedy under clause 6.5",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-745",
+      "source_basename": "WRIC(A)_59691_2009.pdf",
+      "title": "Nazrul Islam v. U.P. Power Corporation",
       "status": "done"
     }
   ]
