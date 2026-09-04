@@ -1,0 +1,107 @@
+{
+  "case_id": "SCJ-674",
+  "title": "Smt. Kalpana Agarwal v. Managing Director, Western Electricity & Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sudhir Agarwal, J. & Rajeev Misra, J.",
+  "date_of_judgment": "2019-11-22",
+  "date_display": "22 November 2019",
+  "docket": "Writ - C No. 58875 of 2007",
+  "page_count": 14,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition allowed; assessment dated 02.11.2007 set aside with costs of Rs. 10,000; licensee not precluded from a fresh order in accordance with law",
+  "headnote": "An assessment for alleged theft or unauthorised use of electricity cannot be issued without following Section 126 of the Electricity Act, 2003 and Clause 6.8 of the U.P. Electricity Supply Code, 2005. Following Ashok Kumar v. State of U.P., 2008 (6) ADJ 660 (paras 56–64), the assessing officer must inspect and serve a site report (6.8(a)), issue a provisional assessment with a show-cause giving 15 working days and a hearing date (6.8(b)), and after personal hearing pass a speaking order recording whether unauthorised use is established and, if so, the quantum (6.8(c)). Opportunity is required at two stages: before concluding unauthorised use, which confers jurisdiction to assess, and before determining quantum. Where the Executive Engineer issued a demand of Rs. 15,20,828 straightaway, and licensee's counsel could not dispute that this procedure was not followed, the assessment dated 02.11.2007 is set aside with costs of Rs. 10,000, without prejudice to a fresh order in accordance with law.",
+  "facts": "Smt. Kalpana Agarwal held a domestic connection No. 209069 with a contracted load of 5 KV at Hapur. Her husband, K.K. Agarwal, a Class III employee in the Superintending Engineer's office, was dismissed on 08.10.2004. After he obtained FIR Case Crime No. 585 of 16.09.2007 against electricity officials for alleged embezzlement, a Purvanchal Vidyut Vitaran Nigam Ltd. team inspected her house on 20.09.2007, reported a burnt meter and excess load, alleged theft and unauthorised use under Sections 135 and 138 of the Electricity Act, 2003, seized the meter and disconnected supply, and lodged FIR Case Crime No. 611 of 24.09.2007.\n\nThe Executive Engineer (Revenue), Electricity Division, Hapur, Ghaziabad, on 02.11.2007 issued a direction annexing an assessment of Rs. 15,20,828. She sought certiorari, a mandamus against recovery, and reconnection. An interim order dated 29.11.2007 stayed recovery and restored the connection, rendering the reconnection prayer infructuous. The Court confined the writ to the assessment and recovery.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.8(a)–(c)",
+      "topic": "Inspection, provisional assessment, hearing and speaking final order are mandatory before a theft or UUE assessment can stand",
+      "type": "supply_code",
+      "question": "Can an Executive Engineer issue a theft or unauthorised-use assessment bill without following Clause 6.8 of the Supply Code, 2005?",
+      "holding": "No. Assessment on an allegation of theft or unauthorised use must follow Clause 6.8: a site inspection report disclosing the irregularity, handed to the consumer or pasted/posted if refused (6.8(a)); a provisional assessment with show-cause giving 15 working days and a hearing date (6.8(b)); and after personal hearing a speaking order recording whether unauthorised use is established and the assessed amount (6.8(c)). The Executive Engineer issued the Rs. 15,20,828 demand straightaway. Licensee's counsel could not dispute that this procedure was not followed. The 02.11.2007 order is set aside, with liberty to proceed afresh in accordance with law, and costs of Rs. 10,000.",
+      "qualifier": "The reconnection prayer had already become infructuous by the 29.11.2007 interim restoration; the Court decided only the assessment and recovery.",
+      "paras": "9-14",
+      "flag": "The checking report alleged theft under ss.135/138. The Court applied Clause 6.8 (UUE procedure) to that theft allegation, treating 6.8 as governing assessment of theft or UUE alike. Catalog distinguishes Clauses 8.1–8.2 as the theft-assessment procedure; the Court did not cite 8.1/8.2. Judgment states contracted load as '5 KV'."
+    },
+    {
+      "provision": "EA2003::126",
+      "code": "Electricity Act, 2003",
+      "clause": "126(1), 126(3)",
+      "topic": "Two-stage hearing: UUE conclusion then quantum, before a valid s.126 assessment",
+      "type": "electricity_act",
+      "question": "Must the assessing officer hear the consumer before concluding unauthorised use and issuing a provisional assessment under Section 126?",
+      "holding": "Yes. Following Ashok Kumar paras 56–64, a conclusion of unauthorised use under Section 126(1) is the condition precedent to a provisional assessment. Natural justice is not excluded; opportunity is required first on whether the consumer used electricity unauthorisedly (which confers jurisdiction to assess) and again on quantum before the final assessment under Section 126(3). A suo motu conclusion without that opportunity is arbitrary and would infringe Article 14. The 02.11.2007 demand, issued without that procedure, cannot sustain.",
+      "paras": "11-13"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.8-hearing-procedure-mandatory-before-uue-conclusion",
+      "application": "Clause 6.8 inspection–notice–hearing–speaking-order sequence is mandatory before an assessment for theft or unauthorised use can stand. An EE demand issued straightaway, without that sequence, is set aside; the licensee may proceed afresh. Same cluster as SCJ-048.",
+      "lead_authorities": [
+        {
+          "name": "Ashok Kumar & Others v. State of U.P. & Others",
+          "docid": ""
+        }
+      ],
+      "paras": "9-14"
+    },
+    {
+      "tag": "s126-two-stage-hearing-uue-conclusion-then-quantum",
+      "application": "Ashok Kumar paras 56–64 applied: opportunity before concluding unauthorised use (which confers jurisdiction to issue the provisional notice) and a distinct opportunity before final assessment on quantum. Straightaway demand of Rs. 15,20,828 without either stage cannot sustain.",
+      "lead_authorities": [
+        {
+          "name": "Ashok Kumar & Others v. State of U.P. & Others",
+          "docid": ""
+        }
+      ],
+      "paras": "11-13"
+    },
+    {
+      "tag": "s126-procedural-strictness-notice-and-hearing",
+      "application": "Section 126 read with Clause 6.8 requires inspection report, provisional assessment with show-cause, personal hearing and a speaking final order. Non-compliance, which licensee's counsel did not dispute, vitiated the 02.11.2007 assessment.",
+      "lead_authorities": [
+        {
+          "name": "Ashok Kumar & Others v. State of U.P. & Others",
+          "docid": ""
+        }
+      ],
+      "paras": "9-13"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether theft or unauthorised use in fact occurred, and the correctness of Rs. 15,20,828",
+      "note": "Petitioner did not admit theft. Assessment quashed for want of Clause 6.8/s.126 procedure. Licensee may pass a fresh order in accordance with law; merits and quantum not decided.",
+      "paras": "10, 13-14"
+    },
+    {
+      "point": "Whether the 20.09.2007 inspection was malicious or revengeful",
+      "note": "Recited as the petitioner's case (inspection four days after the husband's FIR against officials). The Court quashed only on procedure; it made no finding of malice.",
+      "paras": "5, 12-14"
+    },
+    {
+      "point": "The Section 135/138 FIR (Case Crime No. 611 of 2007) and the criminal writ",
+      "note": "Arrest had been stayed in Criminal Misc. Writ Petition No. 16277 of 2007. This writ decided only the civil assessment; the prosecution was not adjudicated.",
+      "paras": "5-6, 13-14"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar & Others v. State of U.P. & Others",
+      "citation": "2008 (6) ADJ 660 (DB)",
+      "court": "Allahabad High Court (DB)",
+      "docid": "",
+      "proposition": "Before a valid Section 126 assessment the assessing officer must afford an opportunity on the allegation of unauthorised use and record a conclusion of unauthorised use, which confers jurisdiction to issue the provisional notice; a distinct opportunity is required before final assessment on quantum. Clause 6.8 of the Supply Code, 2005 prescribes the inspection-report, show-cause, personal-hearing and speaking-order sequence (paras 56–64, as quoted).",
+      "how_treated": "Followed. Quoted at paras 56–64. Licensee's counsel could not dispute that the impugned demand was in conflict with Ashok Kumar; the 02.11.2007 assessment was set aside.",
+      "how_treated_paras": "11-13",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}
