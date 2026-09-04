@@ -1,0 +1,43 @@
+{
+  "case_id": "SCJ-1117",
+  "title": "Kishan Lal v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "V.K. Shukla, J.; Shashi Kant, J.",
+  "date_of_judgment": "2014-08-26",
+  "date_display": "26 August 2014",
+  "docket": "Criminal Misc. Writ Petition No. 14439 of 2014",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "FIR quash refused; arrest to follow CrPC 41/41-A; compounding via Supply Code",
+  "headnote": "An FIR under Section 135 of the Electricity Act, 2003 that discloses a cognizable offence will not be quashed. Where the alleged offence cannot entail a sentence of more than seven years, any arrest must comply with Section 41(1)(b) read with Section 41-A CrPC. If the offence is compoundable, the accused may seek compounding under the Electricity Supply Code, 2005.",
+  "facts": "Five petitioners sought quashing of an FIR dated 15 July 2014, registered as Case Crime Nos. 92 to 101 of 2014 under Section 135 of the Electricity Act, 2003 at Police Station Nagla Singhi, District Firozabad. Arrest had not been made. They apprehended mechanical arrest contrary to Sections 41(1)(b) and 41-A CrPC, and submitted that the alleged offence carried a maximum sentence not exceeding seven years and was compoundable. Counsel for the State and opposite party no. 3 were heard.",
+  "holding_units": [
+    {
+      "provision": "EA2003::135",
+      "code": "EA2003",
+      "clause": "135",
+      "topic": "s.135 FIR — quash, arrest, compounding",
+      "type": "electricity_act",
+      "holding": "A first information report under Section 135 of the Electricity Act, 2003 that discloses a cognizable offence is not to be quashed. Where the alleged offence cannot entail a sentence of more than seven years and arrest has not yet been made, police must, if arrest is to be effectuated, comply with Section 41(1)(b) read with Section 41-A CrPC; a complaint to the Magistrate lies for breach. If the offence is compoundable, the accused may seek compounding under the Electricity Supply Code, 2005.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Compounding on merits",
+      "note": "The Court only observed that if the offence is compoundable, petitioners may seek the remedy under the Electricity Supply Code, 2005.",
+      "paras": "1"
+    },
+    {
+      "point": "Guilt on the s.135 FIR",
+      "note": "Quash was refused because the FIR discloses a cognizable offence; the allegations were not tried.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
