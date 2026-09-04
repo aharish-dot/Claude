@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 751,
+  "next_seq": 752,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -4492,6 +4492,12 @@
       "case_id": "SCJ-748",
       "source_basename": "WRIC(A)_61611_2009.pdf",
       "title": "Dakshinanchal Vidyut Vitran Nigam Ltd. v. District Consumer Forum, Mainpuri",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-749",
+      "source_basename": "WRIC(A)_63253_2009.pdf",
+      "title": "Kishan Bahadur v. Electricity Distribution Division, P.V.V.N.L.",
       "status": "done"
     }
   ]
