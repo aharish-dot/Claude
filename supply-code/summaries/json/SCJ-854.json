@@ -1,0 +1,51 @@
+{
+  "case_id": "SCJ-854",
+  "title": "Satya Narain Gupta v. State of U.P. and others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sunil Ambwani, J.; Pankaj Mithal, J.",
+  "date_of_judgment": "2011-07-14",
+  "date_display": "14 July 2011",
+  "docket": "WRIT - C No. - 35749 of 2011",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; para 6.5 representation to be decided in one month",
+  "headnote": "A writ challenging electricity bills and a recovery certificate, including arrears of a previous owner, was disposed of on the alternative of a statutory representation to the Executive Engineer under para 6.5 of the U.P. Electricity Supply Code, 2005, to be decided within one month. The Court also treated approaching the Executive Engineer under para 6.4 as the alternative remedy.",
+  "facts": "Satya Narain Gupta invoked the writ jurisdiction of the Allahabad High Court against the State of U.P. and others, challenging the correctness of electricity bills and a recovery certificate said to have been issued in respect of different connections. He had purchased the property in 2003. Arrears standing against the previous owner were also sought to be recovered from him. On 5 July 2011 the matter was listed as fresh so that counsel for the distribution-licensee respondents could obtain instructions; it was heard on 14 July 2011.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.4",
+      "code": "UP-2005",
+      "clause": "6.4",
+      "topic": "alternative remedy to Executive Engineer",
+      "type": "supply_code",
+      "holding": "A writ challenging electricity bills and a recovery certificate, including previous-owner arrears, was held to have an alternative remedy of approaching the concerned Executive Engineer under para 6.4 of the U.P. Electricity Supply Code, 2005.",
+      "paras": "3",
+      "flag": "ambiguous"
+    },
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "statutory billing representation",
+      "type": "supply_code",
+      "holding": "The writ was disposed of with a direction that if the petitioner makes a statutory representation under para 6.5 of the U.P. Electricity Supply Code, 2005, the Executive Engineer shall decide it within one month.",
+      "paras": "4"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether arrears of the previous owner are recoverable from the purchaser of the property",
+      "paras": "2"
+    },
+    {
+      "point": "Correctness of the bills and validity of the recovery certificate",
+      "paras": "2"
+    }
+  ],
+  "authorities": []
+}
