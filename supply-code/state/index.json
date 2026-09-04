@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 758,
+  "next_seq": 759,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -4534,6 +4534,12 @@
       "case_id": "SCJ-754",
       "source_basename": "WRIC(A)_64967_2009.pdf",
       "title": "Independent feeder under clause 3D(8) — dismissed for want of prosecution",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-756",
+      "source_basename": "WRIC(A)_65338_2009.pdf",
+      "title": "Dinesh Chandra v. State of U.P. & Ors.",
       "status": "done"
     }
   ]
