@@ -1,0 +1,58 @@
+{
+  "case_id": "SCJ-1086",
+  "title": "Mohd. Rashid v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "V.K. Shukla, J.; Shashi Kant, J.",
+  "date_of_judgment": "2014-07-07",
+  "date_display": "7 July 2014",
+  "docket": "Criminal Misc. Writ Petition No. 11126 of 2014",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "FIR quash refused; arrest per CrPC 41/41-A; compounding via Supply Code",
+  "headnote": "An FIR under s.135 of the Electricity Act, 2003 that discloses a cognizable offence is not to be quashed. Where the alleged offence will not entail a sentence of more than seven years, any arrest must comply with CrPC s.41(1)(b) read with s.41-A; breach is to be complained of before the Magistrate. If the offence is compoundable, the accused may seek compounding under the Electricity Supply Code, 2005.",
+  "facts": "Mohd. Rashid and two others approached the Allahabad High Court to quash FIRs dated 21 May 2014, registered as Case Crime Nos. 342 and 343 of 2014 under Section 135 of the Electricity Act, 2003 at Police Station Deoband, District Saharanpur. Counsel argued that the alleged offence could not attract a sentence of more than seven years, so arrest should not be mechanical, and that the offence was compoundable. Arrest had not been made. The State appeared through the Government Advocate.",
+  "holding_units": [
+    {
+      "provision": "EA2003::135",
+      "code": "EA2003",
+      "clause": "135",
+      "topic": "FIR quash and arrest safeguards",
+      "type": "electricity_act",
+      "holding": "Where the s.135 FIR discloses a cognizable offence, the High Court will not quash it. Arrest had not been made; if it is to be effectuated and the offence will not entail a sentence of more than seven years, police must comply with CrPC s.41(1)(b) read with s.41-A, and a Magistrate complaint is the remedy for breach.",
+      "paras": "1"
+    },
+    {
+      "provision": "UP-2005::7.7",
+      "code": "UP-2005",
+      "clause": "7.7",
+      "topic": "compounding of s.135 offence",
+      "type": "supply_code",
+      "holding": "If the alleged s.135 offence is compoundable, the accused may seek compounding under the Electricity Supply Code, 2005; the writ court does not itself compound or stay the FIR on that score.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "s135-arrest-safeguards-and-compounding-remedy",
+      "application": "s.135 FIR left standing; arrest, if at all, under CrPC 41/41-A; compounding pointed to the Supply Code rather than granted.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the alleged s.135 offences were in fact compoundable",
+      "note": "Court proceeded on an if-compoundable basis and did not examine eligibility or the Supply Code compounding procedure.",
+      "paras": "1"
+    },
+    {
+      "point": "Merits of the theft allegations in Crime Nos. 342 and 343 of 2014",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
