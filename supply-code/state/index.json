@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 956,
+  "next_seq": 957,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -5716,6 +5716,12 @@
       "case_id": "SCJ-953",
       "source_basename": "WRIC(A)_58399_2012.pdf",
       "title": "Vimla Devi v. Purvanchal Vidyut Bitaran Nigam Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-952",
+      "source_basename": "WRIC(A)_57073_2012.pdf",
+      "title": "Shri Ramchander Straw Products Ltd. v. State of U.P.",
       "status": "done"
     }
   ]
