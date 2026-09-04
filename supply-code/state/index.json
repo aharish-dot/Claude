@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1186,
+  "next_seq": 1187,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -7096,6 +7096,12 @@
       "case_id": "SCJ-1182",
       "source_basename": "WRIC(A)_30363_2014.pdf",
       "title": "M/s Galaxy Papers Pvt. Ltd. v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1183",
+      "source_basename": "WRIC(A)_30374_2014.pdf",
+      "title": "M/s Bijnore Chemicals Pvt. Ltd. v. Paschimanchal Vidyut Vitran Nigam Ltd.",
       "status": "done"
     }
   ]
