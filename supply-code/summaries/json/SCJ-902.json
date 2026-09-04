@@ -1,0 +1,38 @@
+{
+  "case_id": "SCJ-902",
+  "title": "Writ against post-checking assessment dismissed for s.127 appeal",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sunil Ambwani and Pankaj Naqvi, JJ.",
+  "date_of_judgment": "2012-04-05",
+  "date_display": "5 April 2012",
+  "docket": "Writ-C No. 17087 of 2012",
+  "page_count": 1,
+  "significance": "procedural",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; relegated to s.127 appeal against assessment.",
+  "headnote": "After a checking that found unauthorised use, an FIR under Section 135, and a Supply Code assessment and demand, the High Court dismissed the writ because Section 127 of the Electricity Act, 2003 supplies an appeal against the assessment and demand order.",
+  "facts": "Checking on 5 May 2011 found the petitioner unauthorisedly drawing electricity to run a 3 HP motor for a flour mill. An FIR under Section 135 of the Electricity Act, 2003 was lodged and a provisional assessment of Rs. 60,831 was proposed under the U.P. Electricity Supply Code, 2005. He objected that the mill ran on a 10 HP generator and the 3 HP residential motor was used sparingly. The Executive Engineer re-inspected, confirmed the earlier report, and rejected the objections on 28 January 2012. He then filed this writ.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "writ against assessment barred by s.127 appeal",
+      "type": "electricity_act",
+      "holding": "Where an assessment and demand follow a checking that found unauthorised use and an FIR under Section 135, the consumer’s remedy against that assessment and demand is an appeal under Section 127 of the Electricity Act, 2003; a writ petition is dismissed on the ground of that alternative remedy.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Merits of the unauthorised-use finding and the quantum of assessment",
+      "note": "Objections that the mill ran on a generator were not decided; the Court noted there were no objections to method or quantum and left the assessment to the s.127 appeal.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
