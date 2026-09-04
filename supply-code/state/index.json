@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 744,
+  "next_seq": 745,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -4450,6 +4450,12 @@
       "case_id": "SCJ-741",
       "source_basename": "WRIC(A)_56967_2009.pdf",
       "title": "M/s Tayal Steels (Pvt.) Ltd. v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-742",
+      "source_basename": "WRIC(A)_58168_2009.pdf",
+      "title": "Nitin Ispat Pvt. Ltd. v. Purvanchal Vidyut Vitran Nigam Ltd.",
       "status": "done"
     }
   ]
