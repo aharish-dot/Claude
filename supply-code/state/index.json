@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 739,
+  "next_seq": 740,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -4420,6 +4420,12 @@
       "case_id": "SCJ-736",
       "source_basename": "WRIC(A)_51844_2009.pdf",
       "title": "M/s Supreme Ceramics Limited v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-737",
+      "source_basename": "WRIC(A)_53287_2009.pdf",
+      "title": "Rajendra Prasad v. U.P. Power Corporation Ltd.",
       "status": "done"
     }
   ]
