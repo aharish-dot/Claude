@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1100,
+  "next_seq": 1101,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -6580,6 +6580,12 @@
       "case_id": "SCJ-1096",
       "source_basename": "CRLP(A)_12546_2014.pdf",
       "title": "Hari Om Shukla v. State of U.P. — s.135 FIR not quashed",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1097",
+      "source_basename": "CRLP(A)_12579_2014.pdf",
+      "title": "Ikram v. State of U.P.",
       "status": "done"
     }
   ]
