@@ -1,0 +1,44 @@
+{
+  "case_id": "SCJ-1046",
+  "title": "Kanpur Electricity Supply Co. Ltd. v. Permanent Lok Adalat",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Single Judge",
+  "coram": "Pradeep Kumar Singh Baghel, J.; Tarun Agarwala, J.",
+  "date_of_judgment": "2013-10-21",
+  "date_display": "21 October 2013",
+  "docket": "Writ - C No. 49629 of 2013",
+  "page_count": 3,
+  "significance": "procedural",
+  "outcome": "none",
+  "model": "Grok 4.6",
+  "disposition": "Stay of 6.9(B)(i) bill direction; writ dismissed for want of prosecution",
+  "headnote": "KESCo challenged a Permanent Lok Adalat order setting aside an inspection report and directing a bill under clause 6.9(B)(i) of the U.P. Electricity Supply Code, 2005, arguing the Lok Adalat had no jurisdiction to adjudicate a complaint without offering settlement. The High Court stayed that billing direction till the next listing. The writ was later dismissed for want of prosecution.",
+  "facts": "Kanpur Electricity Supply Company Ltd. challenged a Permanent Lok Adalat order dated 12 June 2013 which set aside an inspection report of 11 October 2012 and directed preparation of a bill under clause 6.9(B)(i) of the U.P. Electricity Supply Code, 2005. The licensee argued that the Lok Adalat had no jurisdiction to adjudicate a complaint and that no settlement had been offered, relying on LIC of India v. Suresh Kumar. After an interim stay of the billing direction, the writ was dismissed for want of prosecution.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.9",
+      "code": "UP-2005",
+      "clause": "6.9(B)(i)",
+      "topic": "lok-adalat-bill-under-6.9",
+      "type": "supply_code",
+      "holding": "The High Court stayed, till the next listing, the Permanent Lok Adalat's direction to prepare a bill in terms of clause 6.9(B)(i) of the U.P. Electricity Supply Code, 2005. The licensee's plea that the Lok Adalat lacked jurisdiction to adjudicate a complaint without offering a settlement was not decided. The writ was later dismissed for want of prosecution.",
+      "paras": "4"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the Permanent Lok Adalat had jurisdiction to adjudicate a billing complaint and recast the bill under clause 6.9(B)(i) without offering a settlement",
+      "note": "Stay granted on the 6.9(B)(i) direction; writ later dismissed for want of prosecution",
+      "paras": "2-4"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "LIC of India v. Suresh Kumar",
+      "citation": "(2011) 7 SCC 491",
+      "cited_by": "3"
+    }
+  ]
+}
