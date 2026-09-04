@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 801,
+  "next_seq": 802,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -4792,6 +4792,12 @@
       "case_id": "SCJ-798",
       "source_basename": "WRIC(A)_45364_2010.pdf",
       "title": "New connection to be processed on landlord NOC and other formalities",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-799",
+      "source_basename": "WRIC(A)_45578_2010.pdf",
+      "title": "S. R. Traders v. Kanpur Electricity Supply Company",
       "status": "done"
     }
   ]

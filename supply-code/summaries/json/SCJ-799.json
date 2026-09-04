@@ -1,0 +1,45 @@
+{
+  "case_id": "SCJ-799",
+  "title": "S. R. Traders v. Kanpur Electricity Supply Company",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Ashok Bhushan and Virendra Kumar Dixit, JJ.",
+  "date_of_judgment": "2010-08-27",
+  "date_display": "27 August 2010",
+  "docket": "Writ-C No. 45578 of 2010",
+  "page_count": 6,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Inspection report not quashed; EE to decide representation in four weeks.",
+  "headnote": "Declining to quash a checking report that preceded disconnection of connections running in the same premises, the Court held that para 4.15 of the U.P. Electricity Supply Code, 2005 leaves permission for more than one connection in one premises to the discretion of the concerned authority. The writ was disposed of with liberty to represent to the Executive Engineer, KESCO, for a decision in accordance with law within four weeks.",
+  "facts": "The petitioners, S.R. Traders through proprietor Amita Shukla and another, sought certiorari to quash a 11 May 2010 checking report and mandamus to restore electricity connection No. 26/25714 at 534, Mona Nagar, Jajmau, Kanpur. They submitted that their connections and a connection of the first petitioner's husband were running in the same premises and were disconnected on that date. They argued that the U.P. Electricity Supply Code, 2005 permits two connections in one premises.",
+  "reusable_constructions": [
+    {
+      "construction": "Under para 4.15 of the U.P. Electricity Supply Code, 2005, whether more than one electricity connection may be given in the same premises is a matter of discretion of the concerned authority, not a consumer entitlement.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.15",
+      "code": "UP-2005",
+      "clause": "4.15",
+      "topic": "more than one connection in one premises",
+      "type": "supply_code",
+      "holding": "Para 4.15 of the U.P. Electricity Supply Code, 2005 indicates that it is the discretion of the concerned authority to permit more than one connection in one premises. The Court saw no ground to quash the 11.05.2010 inspection report and directed the Executive Engineer, Electricity Urban Distribution Division, Jajmau, KESCO, to decide any representation of the petitioners in accordance with law within four weeks.",
+      "paras": "1",
+      "flag": "Court attributed the multiple-connection discretion to 'para 4.15' of the 2005 Code; clause number taken as stated."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether two connections in the same premises were permissible on these facts, and whether the petitioners' connection should be restored",
+      "note": "Remitted to the Executive Engineer, KESCO, to decide a representation in accordance with law.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
