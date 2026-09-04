@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 833,
+  "next_seq": 834,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -4984,6 +4984,12 @@
       "case_id": "SCJ-831",
       "source_basename": "WRIC(A)_20901_2011.pdf",
       "title": "Raj Kumar v. Kanpur Electricity Supply Co. (Kesco) and",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-830",
+      "source_basename": "WRIC(A)_20752_2011.pdf",
+      "title": "Mohit Singh v. U.P. Power Corporation Ltd.",
       "status": "done"
     }
   ]
