@@ -1,0 +1,42 @@
+{
+  "case_id": "SCJ-1206",
+  "title": "Smt. Chandra Kala Singh v. U.P. Power Corporation Ltd.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sunil Ambwani, J.; Dinesh Maheshwari, J.",
+  "date_of_judgment": "2014-07-21",
+  "date_display": "21 July 2014",
+  "docket": "WRIT - C No. - 36983 of 2014",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; provisional occupier connection directed on indemnity bond.",
+  "headnote": "Pending civil litigation between tenant and landlord is not a ground to refuse a new electricity connection. Clause 4.4 of the U.P. Electricity Supply Code, 2005 provides for a provisional connection to a non-owner occupier on an indemnity bond (Annexure 4.2) with proof of occupancy. The SDO was directed to inspect and, if the petitioner was the occupier, sanction the connection provisionally within two weeks.",
+  "facts": "The petitioner applied for an electricity connection at House No. 295, Madhawapur, Bairahana, Allahabad. The Sub Divisional Officer rejected the application solely because a civil dispute (Misc. Case No. 537 of 1997) was pending between the petitioner's husband and the landlord, who had refused rent; the petitioner was depositing rent in court. The licensee contended that a new connection is not ordinarily given during pendency of court proceedings.",
+  "reusable_constructions": [
+    {
+      "construction": "A pending civil dispute between occupier and landlord is not, by itself, a ground to refuse a new electricity connection.",
+      "paras": "6-7"
+    },
+    {
+      "construction": "Clause 4.4 of the U.P. Electricity Supply Code, 2005 entitles a non-owner occupier to a provisional connection on executing an indemnity bond in Annexure 4.2 and producing proof of occupancy (power of attorney, latest rent receipt, or registered lease).",
+      "paras": "5,7"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.4",
+      "code": "UP-2005",
+      "clause": "4.4",
+      "topic": "occupier connection on indemnity bond",
+      "type": "supply_code",
+      "holding": "Clause 4.4 of the U.P. Electricity Supply Code, 2005 provides for a provisional connection to an intending consumer who is not the owner, on execution of an indemnity bond as per Annexure 4.2, with proof of occupancy (valid power of attorney, latest rent-paid receipt, or registered lease deed) where landlord consent cannot be obtained. Denial of a new connection solely because a civil case is pending between tenant and landlord is not warranted. The SDO was directed to inspect and, if the petitioner is the occupier, sanction the connection provisionally on the indemnity bond within two weeks.",
+      "paras": "5-7"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [],
+  "authorities": []
+}
