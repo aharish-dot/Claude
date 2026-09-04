@@ -1,0 +1,53 @@
+{
+  "case_id": "SCJ-1207",
+  "title": "Siddharth Rai v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J.; Ashwani Kumar Mishra, J.",
+  "date_of_judgment": "2014-08-14",
+  "date_display": "14 August 2014",
+  "docket": "Writ-C No. 37482 of 2014",
+  "page_count": 4,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Citation quashed; fresh provisional assessment after valid service directed.",
+  "headnote": "A provisional-assessment notice posted to a wrong address and returned unserved is not valid service, so the consumer is not given the opportunity under para 6.8(b) of the U.P. Electricity Supply Code, 2005 to object. A theft assessment that neither records the assessing officer’s satisfaction nor states the basis of the demand cannot stand. Recovery citation quashed; licensee to serve a fresh provisional assessment and pass a reasoned final order after considering objections, following Ashok Kumar.",
+  "facts": "Siddharth Rai, resident of 6/40B/1, P.D. Tandan Road, Civil Lines, Allahabad, challenged a recovery citation dated 28 May 2014 for Rs.1,07,153/- after alleged theft assessment. On 23 July 2014 the High Court stayed coercive action and called for the original provisional and final assessment records. Those records showed that notice of provisional assessment had been posted to 6/40B/1, Kanpur Road and returned with the remark that the addressee could not be found.",
+  "reusable_constructions": [
+    {
+      "construction": "A provisional-assessment notice posted to an incorrect address and returned unserved is not valid service; the consumer has not been given the opportunity under para 6.8(b) of the U.P. Electricity Supply Code, 2005 to object.",
+      "paras": "4"
+    },
+    {
+      "construction": "A provisional assessment for alleged theft must record the assessing officer’s satisfaction that theft was committed and must disclose the basis of the amount assessed.",
+      "paras": "4"
+    },
+    {
+      "construction": "A recovery citation founded on an invalidly served provisional assessment is liable to be quashed, with a direction to serve a fresh provisional assessment and to pass a reasoned final order after considering objections.",
+      "paras": "4"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "UP-2005",
+      "clause": "6.8(b)",
+      "topic": "service of provisional assessment and opportunity to object",
+      "type": "supply_code",
+      "holding": "Notice of provisional assessment sent to an incorrect address and returned unserved is not valid service, so the consumer was not afforded the opportunity under para 6.8(b) of the U.P. Electricity Supply Code, 2005 to reply and object. The provisional assessment also did not disclose the basis of the demand of Rs.1,07,153/- and the assessing authority had not recorded satisfaction that the petitioner committed theft of electricity. The recovery citation dated 28 May 2014 and consequential proceedings are quashed. The licensee must prepare a fresh provisional assessment, serve it on the petitioner, and pass a reasoned final assessment after considering objections, in the light of Ashok Kumar v. State of U.P.",
+      "paras": "4",
+      "flag": "ambiguous: court applies 6.8(b) to a theft assessment"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008 (6) ADJ 660 (DB)",
+      "cited_by": "4"
+    }
+  ]
+}
