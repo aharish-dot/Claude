@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1081,
+  "next_seq": 1082,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -6466,6 +6466,12 @@
       "case_id": "SCJ-1077",
       "source_basename": "WRIC(A)_6954_2013.pdf",
       "title": "New connection withheld for predecessor's old dues",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1078",
+      "source_basename": "WRIC(A)_7298_2013.pdf",
+      "title": "Smt. Tasneem Ahmad v. State of U.P.",
       "status": "done"
     }
   ]
