@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1023,
+  "next_seq": 1024,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -6118,6 +6118,12 @@
       "case_id": "SCJ-1019",
       "source_basename": "WRIC(A)_35399_2013.pdf",
       "title": "S.B. Ice & Cold Storage v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1021",
+      "source_basename": "WRIC(A)_36045_2013.pdf",
+      "title": "Indra Dutt Pandey v. M.D., Purvanchal Vidyut Vitran Nigam Ltd.",
       "status": "done"
     }
   ]
