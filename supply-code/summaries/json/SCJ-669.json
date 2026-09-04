@@ -1,0 +1,69 @@
+{
+  "case_id": "SCJ-669",
+  "title": "M/S. Mohan Electrocasting Pvt. Ltd. And Another v. Paschimanchal Vidyut Vitran Nigam Ltd. And Others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta, J.; Prashant Kumar, J.",
+  "date_of_judgment": "2023-04-12",
+  "date_display": "12 April 2023",
+  "docket": "Writ - C No. 30350 of 2007",
+  "page_count": 7,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of; petitioners permitted to file a Clause 6.5 objection within two weeks; respondent no. 2 to decide by speaking order within four weeks; no further recovery until then.",
+  "headnote": "Where a consumer challenges a recovery bill founded on check-meter readings after the main meter was allegedly removed as defective, and contends that the U.P. Electricity Supply Code required independent laboratory testing of the removed meter and that the meter was taken away in the consumer's absence, the writ court will not decide those questions. Disputing the correctness of the electricity bill is an objection under Clause 6.5 of the Supply Code, 2005. The consumer is permitted to file that objection before the designated officer, who is to decide it by a speaking order; the bill abides that decision; and no further amount is to be recovered until then. The Court did not examine whether the check-meter comparison or the removal procedure was lawful.",
+  "facts": "M/S Mohan Electrocasting Pvt. Ltd. and another filed Writ-C No. 30350 of 2007 in the Allahabad High Court against Paschimanchal Vidyut Vitran Nigam Ltd. and others, seeking to quash a recovery notice/bill dated 28 June 2007 to the extent of Rs. 5,91,700. The demand was raised on readings taken from a check meter installed at the petitioners' premises, compared with readings of the alleged defective main meter. The petitioners said the Supply Code required the removed defective meter to be tested at an independent laboratory of their choice, and that the main meter had been removed in their absence, so the check-meter comparison could not support the bill. They relied on unnamed decisions of the High Court. The 2007 petition was listed several times in 2021–2023 for notice to new panel counsel, adjournment, and illness slips, before being heard on 12 April 2023.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.5",
+      "topic": "check-meter billing dispute is a Clause 6.5 objection, not for the writ court",
+      "type": "supply_code",
+      "question": "Where a consumer challenges a check-meter recovery bill and contends that the removed defective meter had to be independently tested and was taken away in the consumer's absence, will the writ court decide those points?",
+      "holding": "No. Counsel for the licensee submitted that because the petitioners were disputing the correctness of the electricity bill, they have the remedy of filing an objection under Clause 6.5 of the Electricity Supply Code, 2005, to be decided by respondent no. 2. The Court permitted the petitioners to file that objection within two weeks, directed respondent no. 2 to decide it by a speaking order within the next four weeks, and held that the impugned bill will abide that decision. No further amount is to be recovered on the bill until the objections are decided. The petition is disposed of accordingly.",
+      "qualifier": "The Court cited Clause 6.5 generally, not 6.5(a) or 6.5(b).",
+      "paras": "1",
+      "flag": "Source PDF concatenates listing orders of 9.11.2021, 27.1.2023, 17.2.2023, 13.3.2023 and 21.3.2023; the operative disposal is 12.4.2023 (unnumbered). Petitioner relied on unnamed 'various decisions of this Court'; none are identified."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "billing-objection-to-executive-engineer-under-6.5",
+      "application": "A challenge to a check-meter recovery bill is treated as a dispute as to the correctness of the electricity bill. The writ is disposed of by permitting a Clause 6.5 objection before respondent no. 2, to be decided by a speaking order, with recovery stayed until that decision.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "meter-reading-dispute-clause-6.5",
+      "application": "A bill based on check-meter readings compared with an alleged defective main meter is a meter-reading/billing-correctness dispute for Clause 6.5, not a writ determination of whether independent laboratory testing or presence at meter removal was required.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the defective main meter had to be tested at an independent laboratory of the petitioners' choice",
+      "note": "Raised as a Supply Code requirement; left to the Clause 6.5 objection.",
+      "paras": "1"
+    },
+    {
+      "point": "Whether removal of the alleged defective main meter in the petitioners' absence vitiates the bill",
+      "note": "Raised by the petitioners; not examined.",
+      "paras": "1"
+    },
+    {
+      "point": "Whether check-meter readings compared with the alleged defective meter can support the 28.06.2007 bill of Rs. 5,91,700",
+      "note": "The bill is to abide the decision on the Clause 6.5 objection.",
+      "paras": "1"
+    },
+    {
+      "point": "The High Court decisions relied on by the petitioners",
+      "note": "Counsel placed reliance on unnamed 'various decisions of this Court'; none were identified or applied.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
