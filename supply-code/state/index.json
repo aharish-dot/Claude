@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1083,
+  "next_seq": 1084,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -6478,6 +6478,12 @@
       "case_id": "SCJ-1079",
       "source_basename": "WRIC(A)_7737_2013.pdf",
       "title": "Ranveer Singh v. Powergrid Corporation of India Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1080",
+      "source_basename": "WRIC(A)_7964_2013.pdf",
+      "title": "Wings Food Industries v. Paschimanchal Vidyut Vitran Nigam Ltd.",
       "status": "done"
     }
   ]
