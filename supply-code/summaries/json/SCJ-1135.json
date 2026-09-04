@@ -1,0 +1,44 @@
+{
+  "case_id": "SCJ-1135",
+  "title": "Maukeen @ Saukeen v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "V.K. Shukla and Shashi Kant, JJ.",
+  "date_of_judgment": "2014-09-26",
+  "date_display": "26 September 2014",
+  "docket": "Criminal Misc. Writ Petition No. 17187 of 2014",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "FIR under s.138-B not quashed; CrPC 41/41-A arrest direction; compounding left open",
+  "headnote": "Division Bench refused to quash an FIR under Section 138-B of the Electricity Act, 2003, holding that it disclosed a cognizable offence. Arrest not having been made, the Court directed that if arrest were effectuated for an offence not entailing more than seven years' imprisonment, police must comply with Section 41(1)(b) read with Section 41-A CrPC. Petitioners were left to seek compounding, if available, under the Electricity Supply Code, 2005 and Section 152 of the 2003 Act. Petition disposed of.",
+  "facts": "Maukeen alias Saukeen and another petitioned the Allahabad High Court to quash an FIR dated 9 September 2014 (Case Crime Nos. 555 and 556 of 2014) under Section 138-B of the Electricity Act at P.S. Majhola, Moradabad. They had not been arrested and feared mechanical arrest for an offence they said could not attract more than seven years' imprisonment. After a 25 September adjournment, a Division Bench heard the petitioners, the State, and private counsel the next day.",
+  "holding_units": [
+    {
+      "provision": "EA2003::138",
+      "code": "EA2003",
+      "clause": "138-B",
+      "topic": "FIR quashing for interference with meters or unauthorised reconnection",
+      "type": "electricity_act",
+      "holding": "An FIR registered under Section 138-B of the Electricity Act that discloses a cognizable offence will not be quashed. If the alleged offence would not entail a sentence of more than seven years and arrest is to be effectuated, police must comply with Section 41(1)(b) read with Section 41-A CrPC. If the offence is compoundable, the accused may seek compounding under the Electricity Supply Code, 2005 and Section 152 of the Electricity Act, 2003.",
+      "paras": "1",
+      "flag": "Order and FIR cite 'Section 138-B' of the Electricity Act; EA 2003 s.138 uses clauses (a)–(d) of sub-section (1), not a separate section 138-B."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the alleged s.138-B offence is compoundable on these facts",
+      "note": "Court only said petitioners may seek compounding if the offence is compoundable, under the Supply Code, 2005 and EA 2003 s.152.",
+      "paras": "1"
+    },
+    {
+      "point": "Whether police had violated or would violate CrPC 41/41-A",
+      "note": "Arrest had not been effectuated; the Court treated the plea as mere apprehension.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
