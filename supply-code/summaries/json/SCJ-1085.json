@@ -1,0 +1,38 @@
+{
+  "case_id": "SCJ-1085",
+  "title": "Dinesh Kumar Gupta v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "V.K. Shukla and Shashi Kant, JJ.",
+  "date_of_judgment": "2014-07-03",
+  "date_display": "3 July 2014",
+  "docket": "Criminal Misc. Writ Petition No. 10977 of 2014",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "s.135 FIR not quashed; Supply Code 2005 remedy left open",
+  "headnote": "On a criminal writ to quash an FIR under Section 135 of the Electricity Act, 2003, the Allahabad High Court held that where the FIR discloses a cognizable offence it will not be quashed. The petitioner was left free to invoke whatever remedy is available under the Electricity Supply Code, 2005, the offence having been described as compoundable.",
+  "facts": "Dinesh Kumar Gupta filed a criminal miscellaneous writ petition in the Allahabad High Court seeking quashing of an FIR dated 18 June 2014, registered as Case Crime No. 194 of 2014 at Police Station Bhelupur, District Varanasi, under Section 135 of the Electricity Act, 2003. The State and the complainant were heard. After the Court found that the FIR disclosed a cognizable offence, counsel submitted that the offence was compoundable.",
+  "holding_units": [
+    {
+      "provision": "EA2003::135",
+      "code": "EA2003",
+      "clause": "135",
+      "topic": "FIR quashing and compounding liberty",
+      "type": "electricity_act",
+      "holding": "An FIR that discloses a cognizable offence under Section 135 of the Electricity Act, 2003 will not be quashed. The accused may still invoke whatever compounding or other remedy is available under the Electricity Supply Code, 2005.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the s.135 offence should actually be compounded under the Supply Code, 2005",
+      "note": "The Court only left the petitioner free to invoke whatever Supply Code remedy is available.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
