@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 694,
+  "next_seq": 695,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -4150,6 +4150,12 @@
       "case_id": "SCJ-691",
       "source_basename": "WRIC(A)_48192_2008.pdf",
       "title": "Durga Ispat Pvt. Ltd. v. M.D. Paschimanchal Vidyut Vitran Nigam Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-692",
+      "source_basename": "WRIC(A)_48194_2008.pdf",
+      "title": "Amba Steels v. M.D. Paschimanchal Vidyut Vitran Nigam Ltd.",
       "status": "done"
     }
   ]
