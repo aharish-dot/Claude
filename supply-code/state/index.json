@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 942,
+  "next_seq": 943,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -5632,6 +5632,12 @@
       "case_id": "SCJ-938",
       "source_basename": "WRIC(A)_37741_2012.pdf",
       "title": "M/S Malhotra Ice Factory v. State of U.P. and Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-939",
+      "source_basename": "WRIC(A)_38772_2012.pdf",
+      "title": "Panna Lal Vishwakarma v. State of U.P. And Others",
       "status": "done"
     }
   ]
