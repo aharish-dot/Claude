@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1108,
+  "next_seq": 1109,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -6628,6 +6628,12 @@
       "case_id": "SCJ-1105",
       "source_basename": "CRLP(A)_13301_2014.pdf",
       "title": "Brij Mohan v. State of U.P. — s.135 FIR not quashed; arrest safeguards and compounding",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1104",
+      "source_basename": "CRLP(A)_13184_2014.pdf",
+      "title": "Niranjan v. State of U.P. — s.138-B electricity FIR not quashed",
       "status": "done"
     }
   ]
