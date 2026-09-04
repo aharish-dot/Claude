@@ -57,17 +57,21 @@ def load_manifest():
 
 
 def manifest_lookup(man):
-    """rel-path -> {'mode','existing_case_id'?}. Order: upgrades, big-new, wordy-new."""
+    """rel-path -> {'mode','existing_case_id'?}. Order: big-new, wordy-new, upgrades LAST.
+
+    User directive (2026-09): author the NEW cases first; drain the 'upgrade'
+    bucket (rich rewrites of existing lean Grok records) at the end of the queue.
+    """
     order, info = [], {}
+    for e in man.get("new", []):
+        p = e["path"]; order.append(p); info[p] = {"mode": "new"}
+    for e in man.get("new_from_grok_top10pct", []):
+        p = e["path"]; order.append(p); info[p] = {"mode": "new"}
     for e in man.get("upgrade", []):
         p = e["path"]; order.append(p)
         info[p] = {"mode": "upgrade", "existing_case_id":
                    e["existing_case_id"] if isinstance(e["existing_case_id"], str)
                    else e["existing_case_id"][0]}
-    for e in man.get("new", []):
-        p = e["path"]; order.append(p); info[p] = {"mode": "new"}
-    for e in man.get("new_from_grok_top10pct", []):
-        p = e["path"]; order.append(p); info[p] = {"mode": "new"}
     return order, info
 
 
@@ -232,7 +236,7 @@ def do_finalize(args):
     msg = (f"supply-code: {verb} {cid} ({title})\n\n"
            f"Claude rich digest (mode={mode}, source {tk.get('source_file')}).\n\n"
            f"Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>\n"
-           f"Claude-Session: https://claude.ai/code/session_012FWu4bdNAkRTHBiCoKB1kz")
+           f"Claude-Session: https://claude.ai/code/session_011t8CKvMGHwszG3pZEexUw5")
     r = subprocess.run(["git", "commit", "-m", msg], cwd=ROOT, capture_output=True, text=True)
     if r.returncode != 0 and "nothing to commit" not in (r.stdout + r.stderr).lower():
         print(r.stdout + r.stderr); die("git commit failed")
