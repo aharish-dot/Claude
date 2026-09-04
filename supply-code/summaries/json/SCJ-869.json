@@ -1,0 +1,48 @@
+{
+  "case_id": "SCJ-869",
+  "title": "M/S Prem Steel (Pvt.) Ltd. v. U.P. Power Corporation Ltd.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Ashok Bhushan, J.; Sudhir Kumar Saxena, J.",
+  "date_of_judgment": "2011-09-05",
+  "date_display": "5 September 2011",
+  "docket": "Writ-C No. 50309 of 2011",
+  "page_count": 3,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of; petitioner relegated to section 127 appeal.",
+  "headnote": "A consumer’s writ against a final assessment and disconnection, alleging clause 6.8 non-compliance and absence of theft material, was not decided on merits. The High Court held that those issues are for the appellate authority under section 127 of the Electricity Act, 2003, permitted a time-bound appeal, directed expedition, and ordered adjustment of amounts already deposited towards the appellate deposit.",
+  "facts": "Prem Steel challenged a 3 August 2011 final assessment by the Executive Engineer, Electricity Distribution Division, Muzaffarnagar. It alleged that meter checking disclosed no theft, the checking report contained no material proving theft, and the licensee had acted contrary to clause 6.8 of the U.P. Electricity Supply Code, 2005. Supply was disconnected before the thirty-day appeal period expired, causing hardship to its mill. The Corporation objected that section 127 of the Electricity Act, 2003 was an adequate remedy and that the assessment was a detailed order.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "writ relegation to s.127 against final assessment",
+      "type": "electricity_act",
+      "holding": "A writ challenging a final assessment, including alleged non-compliance with clause 6.8 of the Supply Code and want of theft material in the checking report, is to be left to the appellate authority under section 127 of the Electricity Act, 2003, which shall examine those issues; the petition may be disposed of by permitting a short time to appeal, directing an expeditious decision, and adjusting amounts already deposited towards the deposit required in the appeal.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the checking and final assessment complied with clause 6.8 of the Supply Code, 2005, and whether theft was established",
+      "note": "Petitioner alleged no theft at checking and no supporting material in the checking report; the Court left those issues to the s.127 authority.",
+      "paras": "1"
+    },
+    {
+      "point": "Whether disconnection before expiry of the thirty-day appeal period was lawful",
+      "paras": "1"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008 (6) ADJ 660 (DB)",
+      "cited_by": "petitioner"
+    }
+  ]
+}
