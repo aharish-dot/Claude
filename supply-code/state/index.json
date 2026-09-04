@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1009,
+  "next_seq": 1010,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -6034,6 +6034,12 @@
       "case_id": "SCJ-1005",
       "source_basename": "WRIC(A)_34994_2013.pdf",
       "title": "M/s Sumiti Alloys Pvt. Ltd. v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1006",
+      "source_basename": "WRIC(A)_34999_2013.pdf",
+      "title": "M/s J.G. Sponge & Power (P) Ltd. v. Paschimanchal Vidyut Vitran Nigam Ltd.",
       "status": "done"
     }
   ]
