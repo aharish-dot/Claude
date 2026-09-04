@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 939,
+  "next_seq": 940,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -5614,6 +5614,12 @@
       "case_id": "SCJ-935",
       "source_basename": "WRIC(A)_36948_2012.pdf",
       "title": "Rahulpuri v. General Manager, Kanpur Electricity Supply Co. Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-936",
+      "source_basename": "WRIC(A)_37297_2012.pdf",
+      "title": "Ram Kumar v. U.P. Power Corporation Ltd.",
       "status": "done"
     }
   ]

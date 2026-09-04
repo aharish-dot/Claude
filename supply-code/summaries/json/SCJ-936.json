@@ -1,0 +1,49 @@
+{
+  "case_id": "SCJ-936",
+  "title": "Ram Kumar v. U.P. Power Corporation Ltd.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Ashok Bhushan, J.; Abhinava Upadhya, J.",
+  "date_of_judgment": "2012-08-09",
+  "date_display": "9 August 2012",
+  "docket": "WRIT - C No. 37297 of 2012",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; relegated to Section 127 statutory appeal",
+  "headnote": "Mandamus to correct a theft-assessment bill and to decide a representation refused. A representation is not a statutory appeal under Section 127 of the Electricity Act, 2003. The consumer was relegated to the appeal under the Act and the U.P. Electricity Supply Code, 2005.",
+  "facts": "Ram Kumar sought mandamus to correct an electricity bill of Rs. 2,40,550 and to decide his representation dated 20 June 2012. A theft assessment had been made against him on 24 May 2008 on a checking report; an FIR followed, and he was acquitted on 2 December 2011. The licensee submitted that against the final assessment the only remedy was a statutory appeal under Section 127 of the Electricity Act, 2003, and that no representation could be entertained.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "s127-appeal-against-theft-assessment",
+      "type": "electricity_act",
+      "holding": "Against a theft/final assessment, a consumer's representation seeking correction of the electricity bill is not a statutory appeal under Section 127 of the Electricity Act, 2003. The High Court will not mandamus the licensee to correct the bill or decide that representation; the Act and the U.P. Electricity Supply Code, 2005 supply the appeal, which the consumer may pursue.",
+      "paras": "1-2"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "theft-assessment-is-under-s126-appealable-s127",
+      "application": "The 24 May 2008 theft assessment was treated as a final assessment for which the only remedy was a Section 127 appeal; criminal acquittal did not convert the dispute into a writ for bill correction.",
+      "lead_authorities": [],
+      "paras": "1-2"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness of the theft assessment and bill of Rs. 2,40,550",
+      "note": "No merits examination; consumer remitted to the statutory appeal.",
+      "paras": "1-2"
+    },
+    {
+      "point": "Effect of criminal acquittal dated 2 December 2011 on the assessment",
+      "paras": "1-2"
+    }
+  ],
+  "authorities": []
+}
