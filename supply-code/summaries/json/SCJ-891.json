@@ -1,0 +1,42 @@
+{
+  "case_id": "SCJ-891",
+  "title": "Dr. Vinay Kumar Goyal v. Purvanchal Vidyut Vitran Nigam Ltd.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Yatindra Singh, J.; B. Amit Sthalekar, J.",
+  "date_of_judgment": "2012-04-09",
+  "date_display": "9 April 2012",
+  "docket": "Writ-C No. 10194 of 2012",
+  "page_count": 5,
+  "significance": "procedural",
+  "outcome": "none",
+  "model": "Grok 4.6",
+  "disposition": "Writ and amendment dismissed; liberty to challenge original and later orders.",
+  "headnote": "A consumer who applied for 24 KW commercial load and was sanctioned 109 KW without inspection challenged the sanction and, after an interlocutory inspection direction, the Chief Engineer's later rejection of a 24 KW request. The High Court dismissed the writ and the amendment application, leaving him free to challenge both the original memorandum/TC letter and the subsequent rejection. Clause 4.9 was not construed.",
+  "facts": "The petitioner applied to Purvanchal Vidyut Vitran Nigam Ltd. for a 24 KW commercial load (LMV-4(B)). Without inspecting the premises the licensee sanctioned 109 KW. He challenged the 19 January 2012 memorandum and 8 February 2012 TC letter, seeking calculation under Clause 4.9 of the Supply Code, 2005. An interlocutory order directed inspection and allowed him to apply for 24 KW pending that report. The Chief Engineer rejected that application on 17 March 2012; he then sought to amend the writ.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.9",
+      "code": "UP-2005",
+      "clause": "4.9",
+      "topic": "load calculation for new commercial connection",
+      "type": "supply_code",
+      "holding": "After the Chief Engineer rejected, during pendency, the petitioner's application for release of 24 KW load, the Court dismissed the writ (which had challenged a 109 KW sanction against a 24 KW application, invoking Clause 4.9) and the amendment application. Liberty was reserved to challenge both that subsequent rejection and the originally impugned 19.1.2012 memorandum and 8.2.2012 TC letter. The Clause 4.9 load-calculation dispute was not decided.",
+      "paras": "1-6"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the 109 KW sanction versus the 24 KW application was correctly calculated under Clause 4.9",
+      "paras": "6"
+    },
+    {
+      "point": "Validity of the 19.1.2012 memorandum, 8.2.2012 TC letter, and 17.3.2012 Chief Engineer rejection",
+      "note": "Fresh challenge to the original and subsequent orders expressly left open",
+      "paras": "6"
+    }
+  ],
+  "authorities": []
+}
