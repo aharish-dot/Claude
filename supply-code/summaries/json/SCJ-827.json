@@ -1,0 +1,57 @@
+{
+  "case_id": "SCJ-827",
+  "title": "Kirti Sheet Grah Pvt. Ltd. v. U.P. Power Corp. Ltd.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Amitava Lala, J. and Sanjay Misra, J.",
+  "date_of_judgment": "2011-04-11",
+  "date_display": "11 April 2011",
+  "docket": "Writ - C No. 19336 of 2011",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; non-independent feeder may supply other consumers.",
+  "headnote": "A 150 kVA cold-storage consumer cannot restrain the discom from using its non-independent feeder to supply neighbouring cold storages. Independent feeder under clauses 3.4(a) and (b) is confined to 1000 kVA and 500 kVA loads. Clause 4.29(a) allows the licensee to use the service line for other consumers if the original consumer's supply is not affected. Contractual claims left to arbitration.",
+  "facts": "Kirti Sheet Grah, a cold storage taking 150 kVA supply, challenged the 23 March 2011 order of the Managing Director, Dakshinanchal Vidyut Vitran Nigam Ltd., Agra, which authorised drawing distribution lines from the petitioner's feeder to two neighbouring cold storages (respondents 5 and 6). The petitioner had deposited Rs 12 lakh three years earlier; the new consumers had deposited Rs 8.90 lakh. It alleged that tapping would impair its supply and that the alignment was discriminatory. The feeder was admittedly not an independent feeder and belonged to the Corporation.",
+  "reusable_constructions": [
+    {
+      "construction": "Under clause 4.29(a), the licensee may use a consumer's service line and apparatus to give supply to other consumers, provided the supply of the consumer who paid for them is not affected.",
+      "paras": "1"
+    },
+    {
+      "construction": "Independent feeder under clauses 3.4(a) and (b) is available only at the 1000 kVA and 500 kVA load thresholds (subject to charges and technical feasibility); a 150 kVA supply on a non-independent feeder remains the licensee's property and may be used to supply others.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.29(a)",
+      "code": "UP-2005",
+      "clause": "4.29(a)",
+      "topic": "service-line sharing with other consumers",
+      "type": "supply_code",
+      "holding": "Clause 4.29(a) permits the licensee to use the petitioner's service line and apparatus to give supply to neighbouring cold storages so long as the petitioner's supply is not affected; the Court refused to quash the Managing Director's 23.03.2011 tapping order and found no discriminatory or arbitrary alignment.",
+      "paras": "1"
+    },
+    {
+      "provision": "UP-2005::3.4",
+      "code": "UP-2005",
+      "clause": "3.4",
+      "topic": "independent-feeder load thresholds",
+      "type": "supply_code",
+      "holding": "Independent feeder under clauses 3.4(a) and (b) can be given only at 1000 kVA and 500 kVA (with applicable charges and technical feasibility). The petitioner's 150 kVA feeder was not independent, was Corporation property, and the Corporation was entitled to supply others through it.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Claims and counter-claims under the supply agreement dated 23.01.2009",
+      "note": "Left to arbitration under clause 16 of the agreement; the Chairman and Managing Director, as the appropriate authority under that clause, may decide those issues.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
