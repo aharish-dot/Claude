@@ -1,0 +1,50 @@
+{
+  "case_id": "SCJ-1111",
+  "title": "Awadhraj v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "V.K. Shukla and Arvind Kumar Mishra-I, JJ.",
+  "date_of_judgment": "2014-08-14",
+  "date_display": "14 August 2014",
+  "docket": "Criminal Misc. Writ Petition No. 13906 of 2014",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "FIR quash refused; arrest per CrPC 41/41-A; compounding via Supply Code 2005.",
+  "headnote": "An FIR under Section 135 of the Electricity Act, 2003 that discloses a cognizable offence will not be quashed. Mere apprehension of arrest does not justify interference where arrest has not been made. If arrest is to be effectuated for an offence not entailing a sentence of more than seven years, the police must comply with Section 41(1)(b) read with Section 41-A CrPC. If the offence is compoundable, the accused may seek compounding under the Electricity Supply Code, 2005.",
+  "facts": "Awadhraj invoked the Allahabad High Court's criminal writ jurisdiction to quash an FIR dated 26 July 2014, registered as Case Crime Nos. 1115 of 2014 and 1120 of 2014 under Section 135 of the Electricity Act, 2003 at Police Station Dudhara, District Sant Kabir Nagar. He had not been arrested. Counsel submitted that a proved Section 135 offence could not attract a sentence exceeding seven years, so arrest should not be mechanical, and that the offence was compoundable under the electricity law.",
+  "holding_units": [
+    {
+      "provision": "EA2003::135",
+      "code": "EA2003",
+      "clause": "135",
+      "topic": "s.135 FIR quash, arrest safeguards and compounding",
+      "type": "electricity_act",
+      "holding": "An FIR registered under Section 135 of the Electricity Act, 2003 that discloses a cognizable offence will not be quashed. Where arrest has not been made, a mere apprehension of illegal arrest is not a ground to quash; if arrest is to be effectuated and the offence will not entail a sentence of more than seven years, the police must comply with Section 41(1)(b) read with Section 41-A CrPC, with any breach remediable before the Magistrate. If the offence is compoundable, the petitioner may seek that remedy under the Electricity Supply Code, 2005.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "s135-arrest-safeguards-and-compounding-remedy",
+      "application": "Quash of the s.135 FIR was refused because it disclosed a cognizable offence; the Court directed CrPC 41(1)(b)/41-A compliance if arrest were made (sentence not exceeding seven years) and pointed the petitioner to compounding under the Electricity Supply Code, 2005 if the offence is compoundable.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the alleged Section 135 offence is compoundable on these facts",
+      "note": "The Court only said that if the offence is compoundable, the petitioner may seek the Supply Code, 2005 remedy.",
+      "paras": "1"
+    },
+    {
+      "point": "Merits of the theft allegation and legality of any future arrest",
+      "note": "Arrest had not been made; any breach of Sections 41(1)(b)/41-A CrPC was left to a complaint before the Magistrate.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
