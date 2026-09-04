@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 851,
+  "next_seq": 852,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -5092,6 +5092,12 @@
       "case_id": "SCJ-848",
       "source_basename": "WRIC(A)_30393_2011.pdf",
       "title": "Sita Ram v. State of U.P. and others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-849",
+      "source_basename": "WRIC(A)_30816_2011.pdf",
+      "title": "M/S Silverton Papers Limited v. Paschimanchal Vidyut Vitran Nigam Ltd. And Others",
       "status": "done"
     }
   ]
