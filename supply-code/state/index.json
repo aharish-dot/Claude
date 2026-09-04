@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 808,
+  "next_seq": 809,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -4834,6 +4834,12 @@
       "case_id": "SCJ-806",
       "source_basename": "WRIC(A)_5812_2010.pdf",
       "title": "Ashok Kumar Gupta v. State of U.P. Thru Sec. M.D. U.P. Elec. Power and Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-805",
+      "source_basename": "WRIC(A)_57869_2010.pdf",
+      "title": "Gaurav Gupta v. UPERC",
       "status": "done"
     }
   ]
