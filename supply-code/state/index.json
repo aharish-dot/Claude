@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 824,
+  "next_seq": 825,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -4930,6 +4930,12 @@
       "case_id": "SCJ-822",
       "source_basename": "WRIC(A)_13970_2011.pdf",
       "title": "Irshad Hussain v. Executive Engineer, Vidyut Nagariya Vitaran Khand",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-821",
+      "source_basename": "WRIC(A)_11442_2011.pdf",
+      "title": "Shri Balajee Laboratories v. Executive Engineer",
       "status": "done"
     }
   ]

@@ -1,0 +1,49 @@
+{
+  "case_id": "SCJ-821",
+  "title": "Shri Balajee Laboratories v. Executive Engineer",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Amitava Lala and Ashok Srivastava, JJ.",
+  "date_of_judgment": "2011-03-15",
+  "date_display": "15 March 2011",
+  "docket": "Writ-C No. 11442 of 2011",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition dismissed; no costs.",
+  "headnote": "A transferee of premises cannot resist previous-owner electricity arrears as a condition of new connection where clause 4.3(h) of the U.P. Electricity Supply Code, 2005 requires payment of the share of outstanding dues attributed to the sub-divided premises. Hanuman Rice Mills does not assist, because the Code is the statutory authorisation for such recovery. The writ against the U.P. Power Corporation was dismissed.",
+  "facts": "The petitioner, Shri Balajee Laboratories, approached the Allahabad High Court as transferee of the premises, seeking to prevent the Executive Engineer of the U.P. Power Corporation from insisting on the previous owner's electricity arrears as a condition of supply. It relied on Haryana State Electricity Board v. Hanuman Rice Mills. On 24 February 2011 a Division Bench directed the petitioner to appear before the Executive Engineer, District Jalaun. On 15 March 2011 another Division Bench heard and dismissed the writ.",
+  "reusable_constructions": [
+    {
+      "construction": "Clause 4.3(h) of the U.P. Electricity Supply Code, 2005 empowers the licensee to refuse a new connection to sub-divided premises until the applicant pays the share of outstanding dues attributed to those premises.",
+      "paras": "1"
+    },
+    {
+      "construction": "Hanuman Rice Mills does not bar recovery of a previous occupier's electricity dues from a subsequent occupier where the Supply Code itself authorises that recovery as a condition of new connection.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.3(h)",
+      "code": "UP-2005",
+      "clause": "4.3(h)",
+      "topic": "new-connection-sub-divided-premises-outstanding-dues",
+      "type": "supply_code",
+      "holding": "Quoting clause 4.3(h) (new connection to sub-divided premises only after the applicant pays the share of outstanding dues attributed to those premises), the Court held the U.P. Power Corporation was not without power to recover such amount from the transferee-petitioner; there was no inconsistency with Hanuman Rice Mills; the Corporation's claim suffered from no infirmity; the writ was dismissed without costs.",
+      "paras": "1",
+      "flag": "Court applied 4.3(h) (sub-divided premises) to a transferee/previous-owner dues challenge; 4.3(f) is the usual analogue and was not cited."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "Haryana State Electricity Board Vs. Hanuman Rice Mills and others",
+      "citation": "2011 (1) AWC 298 (SC)",
+      "cited_by": "1"
+    }
+  ]
+}
