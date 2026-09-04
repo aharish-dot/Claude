@@ -1,0 +1,51 @@
+{
+  "case_id": "SCJ-803",
+  "title": "Rajendra Kumar Gupta v. Dakshinanchal Vidyut Vitran Nigam Ltd. & Ors.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Vineet Saran, J.; Abhinava Upadhya, J.",
+  "date_of_judgment": "2010-09-29",
+  "date_display": "29 September 2010",
+  "docket": "Writ-C No. 54476 of 2010",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Assessment bill of 16.8.2010 quashed; fresh assessment under the Supply Code directed.",
+  "headnote": "A final theft-assessment bill issued after inspection, without following Clause 8.1(b) of the U.P. Electricity Supply Code, 2005 — a provisional bill, notice and consideration of objections before final assessment — cannot stand. On the licensee's concession that those steps were skipped, the High Court quashed the 16.8.2010 bill and directed a fresh assessment in accordance with the Code.",
+  "facts": "After an inspection on 12 August 2010, Dakshinanchal Vidyut Vitran Nigam Limited treated Rajendra Kumar Gupta as a theft case and issued a final assessment bill dated 16 August 2010 for Rs. 2,71,476.34. He challenged the bill on the ground that Clause 8.1(b) of the U.P. Electricity Supply Code, 2005 had not been followed and no notice had been given. Counsel for the Nigam admitted that the Code procedure had been skipped. Both sides consented to disposal without a counter-affidavit.",
+  "reusable_constructions": [
+    {
+      "construction": "A final assessment bill for alleged theft, issued without first serving a provisional bill and inviting objections as Clause 8.1(b) of the U.P. Electricity Supply Code, 2005 requires, is liable to be quashed.",
+      "paras": "5-7"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1(b)",
+      "code": "UP-2005",
+      "clause": "8.1(b)",
+      "topic": "theft assessment — provisional bill and objections before final bill",
+      "type": "supply_code",
+      "holding": "Where the licensee treats the consumer as a theft case and issues a final assessment bill without complying with Clause 8.1(b) of the U.P. Electricity Supply Code, 2005 and without notice, the bill cannot be sustained. On the licensee's concession that a fresh provisional bill would be issued, objections invited and a final assessment then passed, the High Court quashed the bill dated 16.8.2010 and directed the licensee to proceed afresh in accordance with the Code.",
+      "paras": "5-7"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "no-recovery-without-final-assessment-clause-8.1(b)",
+      "application": "The 16.8.2010 bill was treated as a final theft assessment issued without a Clause 8.1(b) provisional bill, notice or objections; it was quashed, leaving the licensee to pass a proper final assessment after that process.",
+      "lead_authorities": [],
+      "paras": "6-7"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the 12.8.2010 inspection established theft, and the quantum of any assessment",
+      "note": "Left to a fresh assessment after a provisional bill and consideration of objections.",
+      "paras": "6-7"
+    }
+  ],
+  "authorities": []
+}
