@@ -1,0 +1,48 @@
+{
+  "case_id": "SCJ-766",
+  "title": "Dinesh Sharma v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Single Judge",
+  "coram": "Vinod Prasad, J.",
+  "date_of_judgment": "2010-09-28",
+  "date_display": "28 September 2010",
+  "docket": "APPLICATION U/S 482 No. 30837 of 2010",
+  "page_count": 1,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Section 482 CrPC application dismissed; s.135 prosecution not quashed.",
+  "headnote": "Payment of electricity dues does not obliterate an offence under s.135 of the Electricity Act, 2003. Compounding is at the department's instance; the accused cannot compel it. A High Court order on recovery under Electricity Supply Code, 2005 clause 8.1 has no application in a criminal matter. The 482 challenge to the sessions court's 30.7.2010 order in Special Case No. 514 of 2008 was dismissed.",
+  "facts": "Dinesh Sharma faced Special Case No. 514 of 2008 (State versus Dinesh) before the Additional Sessions Judge-Ist, Gautam Budh Nagar, arising from Crime No. 396 of 2008 under section 135 of the Electricity Act, 2003 at P.S. Sector-58, Noida. Challenging the sessions court's order dated 30 July 2010, he moved the High Court under section 482 CrPC, relying on payment of electricity dues and a photocopy of an Allahabad High Court order in Misc. Petition No. 31705 of 2009, a recovery matter under clause 8.1 of the Electricity Supply Code, 2005.",
+  "reusable_constructions": [
+    {
+      "construction": "Payment of electricity dues, even in full with charges, does not obliterate an offence under s.135 of the Electricity Act, 2003; criminal prosecution is independent of civil recovery.",
+      "paras": "1"
+    },
+    {
+      "construction": "Compounding of an Electricity Act offence is at the department's instance; the accused cannot compel the licensee to compound.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::135",
+      "code": "EA2003",
+      "clause": "135",
+      "topic": "payment of dues does not obliterate theft prosecution",
+      "type": "electricity_act",
+      "holding": "Prosecution of a crime is a different matter from payment of electricity dues. Mere payment of dues does not obliterate an offence under s.135 of the Electricity Act, 2003: crime is against society. Compounding can be done only by the department if it so desires; the accused cannot compel compounding. Even payment of the entire dues with electricity charges leaves the accused liable to prosecution under s.135. A judgment in Misc. Petition No. 31705 of 2009 on recovery under Electricity Supply Code, 2005 clause 8.1 has no application in a criminal matter. The 482 application to quash the order dated 30.7.2010 in Special Case No. 514 of 2008 was dismissed as bereft of merit.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "Misc. Petition No. 31705 of 2009 (Allahabad High Court)",
+      "citation": "",
+      "cited_by": "1"
+    }
+  ]
+}
