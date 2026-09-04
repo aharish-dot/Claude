@@ -1,0 +1,45 @@
+{
+  "case_id": "SCJ-1249",
+  "title": "Vikramaditya Sharma v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J. and Ashwani Kumar Mishra, J.",
+  "date_of_judgment": "2014-09-10",
+  "date_display": "10 September 2014",
+  "docket": "WRIT - C No. - 48454 of 2014",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Demand notice quashed; fresh provisional assessment with hearing directed",
+  "headnote": "Unserved provisional assessment in a theft case deprives the consumer of the right to object; a recovery demand under Section 3 of the U.P. Government Electrical Undertakings (Dues Recovery) Act, 1958 is quashed. The licensee must issue a fresh provisional assessment, serve it, allow fifteen days to object, fix a hearing, and pass a reasoned final assessment following Electricity Supply Code 2005 as considered in Ashok Kumar.",
+  "facts": "A surprise raid at the petitioner's premises found electricity used for domestic purposes and a poultry farm, and alleged theft by connecting a cable bypassing the meter. He paid Rs 20,000 as compounding charges. A provisional assessment dated 26 May 2014 was sent by speed post but returned unserved because the residence was locked. No objection was filed; the assessment was treated as final. A demand notice dated 21 July 2014 under Section 3 of the U.P. Government Electrical Undertakings (Dues Recovery) Act, 1958 then required payment of Rs 1,12,874.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::theft-assessment",
+      "code": "UP-2005",
+      "clause": "theft-assessment",
+      "topic": "theft assessment — service of provisional assessment before recovery",
+      "type": "supply_code",
+      "holding": "Where the provisional assessment in a theft case is not served, the consumer is deprived of the opportunity to object; treating it as final and issuing a Section 3 recovery demand is unsustainable. The demand is quashed. The licensee must issue a fresh provisional assessment, serve it, give fifteen days to object, fix a date for hearing, and pass a reasoned final assessment after considering any objection, in light of the Electricity Supply Code 2005 theft-assessment procedure considered in Ashok Kumar (paras 56–64).",
+      "paras": "1",
+      "flag": "clause number not stated; court referred to ESC 2005 theft-assessment provisions as considered in Ashok Kumar paras 56–64"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Merits and quantum of the theft assessment, including alleged poultry-farm use",
+      "note": "Left to a fresh provisional assessment, objection, hearing and reasoned final order.",
+      "paras": "1"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008 (6) ADJ 660 (DB)",
+      "cited_by": "1"
+    }
+  ]
+}
