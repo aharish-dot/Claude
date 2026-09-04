@@ -1,0 +1,38 @@
+{
+  "case_id": "SCJ-1050",
+  "title": "Hukum Singh v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Ashok Bhushan, J.; Vipin Sinha, J.",
+  "date_of_judgment": "2013-09-19",
+  "date_display": "19 September 2013",
+  "docket": "WRIT - C No. - 51144 of 2013",
+  "page_count": 1,
+  "significance": "procedural",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of; bill challenge relegated to clause 6.5.",
+  "headnote": "A writ seeking to quash an electricity bill is not decided on merits where the statutory complaint under paragraph 6.5 of the U.P. Electricity Supply Code, 2005, is available. The Division Bench disposed of the petition with the observation that if the consumer files a complaint before the concerned Executive Engineer, it shall be considered and decided accordingly.",
+  "facts": "Hukum Singh filed a writ petition seeking to quash an electricity bill dated 16 July 2013. He asserted that his electricity connection had never been energised. After receiving the bill he had already complained to the Managing Director of the Corporation and other authorities. Counsel for the distribution licensee submitted that a grievance against an electricity bill had to be pursued by complaint under paragraph 6.5 of the U.P. Electricity Supply Code, 2005.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "billing-objection-to-executive-engineer",
+      "type": "supply_code",
+      "holding": "Where the writ petitioner's grievance is against an electricity bill, the remedy is a complaint under paragraph 6.5 of the U.P. Electricity Supply Code, 2005, before the concerned Executive Engineer. The Court did not quash the bill and disposed of the petition observing that if such a complaint is filed, it shall be considered and decided accordingly.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner's connection was never energised and whether the bill dated 16 July 2013 was liable to be quashed",
+      "note": "Writ disposed of without examining the merits of the bill or the energisation assertion.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
