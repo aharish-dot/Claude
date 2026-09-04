@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 702,
+  "next_seq": 703,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -4198,6 +4198,12 @@
       "case_id": "SCJ-699",
       "source_basename": "WRIC(L)_1002386_2008.pdf",
       "title": "Dakshinanchal Vidyut Vitran Nigam Ltd. Through Its Executive v. Electricity Ombudsman, U.P., Lucknow and Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-700",
+      "source_basename": "WRIC(L)_1003603_2008.pdf",
+      "title": "U.P. Power Corp. Ltd. Through Executive Engineer v. Ombudsmen and 2 Others",
       "status": "done"
     }
   ]
