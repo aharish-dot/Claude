@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1250,
+  "next_seq": 1251,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -7480,6 +7480,12 @@
       "case_id": "SCJ-1246",
       "source_basename": "WRIC(A)_48178_2014.pdf",
       "title": "M/s Three Star Paper Mills Pvt. Ltd. v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1247",
+      "source_basename": "WRIC(A)_48226_2014.pdf",
+      "title": "Mukul Kumar v. General Manager, U.P.P.C. Ltd.",
       "status": "done"
     }
   ]
