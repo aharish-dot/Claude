@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 770,
+  "next_seq": 771,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -4606,6 +4606,12 @@
       "case_id": "SCJ-767",
       "source_basename": "A482(A)_39741_2010.pdf",
       "title": "Smt. Kalpna Khanna v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-768",
+      "source_basename": "WRIC(A)_11144_2010.pdf",
+      "title": "Kannu Lal v. State of U.P. & Ors.",
       "status": "done"
     }
   ]
