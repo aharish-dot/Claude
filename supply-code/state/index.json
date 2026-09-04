@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1073,
+  "next_seq": 1074,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -6418,6 +6418,12 @@
       "case_id": "SCJ-1070",
       "source_basename": "WRIC(A)_62531_2013.pdf",
       "title": "Smt. Rajeshwari Pandey v. Kanpur Electric Supply Co. Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1069",
+      "source_basename": "WRIC(A)_61181_2013.pdf",
+      "title": "Amit Kumar Samaiya v. President (Prabandhak Nideshak) Discom Committee KESCO",
       "status": "done"
     }
   ]
