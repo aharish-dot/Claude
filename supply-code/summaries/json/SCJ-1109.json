@@ -1,0 +1,38 @@
+{
+  "case_id": "SCJ-1109",
+  "title": "Yogesh Kumar v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "V.K. Shukla, J.; Arvind Kumar Mishra-I, J.",
+  "date_of_judgment": "2014-08-12",
+  "date_display": "12 August 2014",
+  "docket": "Criminal Misc. Writ Petition No. 13629 of 2014",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "FIR quash refused; arrest under CrPC 41/41-A; compounding under Supply Code 2005.",
+  "headnote": "Division Bench refused to quash s.135 Electricity Act FIRs that disclosed a cognizable offence. Arrest, if effected for an offence not entailing more than seven years, must follow s.41(1)(b) read with s.41-A CrPC. If the offence is compoundable, the accused may pursue the remedy under the Electricity Supply Code, 2005.",
+  "facts": "Yogesh Kumar and three others sought quashing of FIRs dated 22 July 2014, registered as Case Crime Nos. 295 to 298 of 2014 under s.135 of the Electricity Act, 2003 at Police Station Jasrana, District Firozabad. They had not been arrested. Counsel argued that the alleged offence could not attract a sentence exceeding seven years, so arrest should not be mechanical, and that the offence was compoundable.",
+  "holding_units": [
+    {
+      "provision": "EA2003::135",
+      "code": "EA2003",
+      "clause": "135",
+      "topic": "s.135 FIR quash, arrest and compounding",
+      "type": "electricity_act",
+      "holding": "An FIR under s.135 of the Electricity Act, 2003 that discloses a cognizable offence will not be quashed. Arrest, if to be effectuated for an offence not entailing sentence of more than seven years, must comply with s.41(1)(b) read with s.41-A CrPC; a breach may be complained of before the Magistrate. If the offence is compoundable, the accused may seek the remedy provided under the Electricity Supply Code, 2005.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the alleged s.135 offence is compoundable on these facts",
+      "note": "Compounding left to the Supply Code 2005 if the offence is compoundable; eligibility and amount not decided.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
