@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 955,
+  "next_seq": 956,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -5710,6 +5710,12 @@
       "case_id": "SCJ-951",
       "source_basename": "WRIC(A)_565_2012.pdf",
       "title": "Ram Prakash Gupta v. State of U.P. & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-953",
+      "source_basename": "WRIC(A)_58399_2012.pdf",
+      "title": "Vimla Devi v. Purvanchal Vidyut Bitaran Nigam Ltd.",
       "status": "done"
     }
   ]
