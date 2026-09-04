@@ -1,0 +1,48 @@
+{
+  "case_id": "SCJ-976",
+  "title": "M/s Shree Gopala Iron India Pvt. Ltd. v. Pashchimanchal Vidyut Vitran Nigam Ltd.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Laxmi Kanta Mohapatra and Sunita Agarwal, JJ.",
+  "date_of_judgment": "2013-03-14",
+  "date_display": "14 March 2013",
+  "docket": "Writ-C No. 10031 of 2013",
+  "page_count": 5,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Rejection of load reduction set aside; fresh order directed in accordance with clause 4.49.",
+  "headnote": "Where recovery of dues is stayed, clause 4.49 of the Electricity Supply Code, 2005, requires the licensee to process an application for reduction or enhancement of load against a bank guarantee of the pending dues, an agreement on invocation, and surcharge, and not to keep it pending. A refusal of load reduction solely because arrears remain unpaid and other writs are pending is not in terms of clause 4.49.",
+  "facts": "The petitioner, an industrial consumer, held a contract demand of 5250 kVA with Pashchimanchal Vidyut Vitran Nigam Ltd. Claiming that actual consumption did not exceed 4250 kVA, it applied for reduction of contract load. The licensee rejected the application on 30 January 2012 because arrear dues remained unpaid and other writ petitions were pending before the High Court. The petitioner challenged that rejection. The licensee relied on clause 4.49 of the Electricity Supply Code, 2005, to contend that load reduction could not be allowed until the arrears were paid.",
+  "reusable_constructions": [
+    {
+      "construction": "Where recovery of electricity dues is stayed, clause 4.49 does not permit the licensee to refuse reduction of contract load merely because arrears remain unpaid; the application must be processed against a bank guarantee of the pending amount, an agreement on invocation, and surcharge.",
+      "paras": "2-3"
+    },
+    {
+      "construction": "An order refusing load reduction that only recites unpaid arrears and pending High Court litigation, without applying the bank-guarantee mechanism of clause 4.49, is not in consonance with that clause.",
+      "paras": "2-3"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.49",
+      "code": "UP-2005",
+      "clause": "4.49",
+      "topic": "reduction of load where arrears stayed",
+      "type": "supply_code",
+      "holding": "Rejection of an application to reduce contract load solely because arrear dues had not been paid and other writ petitions were pending is not in consonance with clause 4.49 of the Electricity Supply Code, 2005. Where recovery of dues is stayed, the licensee shall permit reduction or enhancement of load (and release new connection, reconnection or permanent disconnection) subject to a bank guarantee of the pending dues, an agreement on extension or invocation of the guarantee, and levy of surcharge, and shall not keep the application pending. The rejection was set aside and a fresh order directed in accordance with law.",
+      "paras": "2-3"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner is entitled on the facts to reduction of contract load from 5250 kVA to 4250 kVA",
+      "note": "The Court remitted the application for a fresh order in accordance with clause 4.49 and did not itself grant or refuse the reduction.",
+      "paras": "3"
+    }
+  ],
+  "authorities": []
+}
