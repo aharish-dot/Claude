@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 682,
+  "next_seq": 683,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -4078,6 +4078,12 @@
       "case_id": "SCJ-679",
       "source_basename": "WRIC(A)_22449_2008.pdf",
       "title": "Paijat Paper Mills Ltd. v. PVVNL",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-680",
+      "source_basename": "WRIC(A)_2357_2008.pdf",
+      "title": "Vijay Kumar Kesarwani v. State of U.P.",
       "status": "done"
     }
   ]
