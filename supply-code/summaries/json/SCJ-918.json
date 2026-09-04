@@ -1,0 +1,42 @@
+{
+  "case_id": "SCJ-918",
+  "title": "Deepak Mishra v. M.D. Kanpur Electricity Supply Co. Ltd.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Sudhir Agarwal, J.",
+  "date_of_judgment": "2012-05-29",
+  "date_display": "29 May 2012",
+  "docket": "Writ-C No. 27215 of 2012",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; CGRF/Ombudsman 180-unit bill upheld.",
+  "headnote": "A KESCO consumer challenged the Ombudsman's confirmation of a CGRF direction to bill him at 180 units per month for 1991–2010, relying on a check meter that found the existing meter 7.6% fast and on para 5.6(e) of the Electricity Supply Code, 2005. Held, para 5.6(e) does not authorise billing on check-meter consumption; it requires adjustment of the previous three months' bills as per the test results. That three-month window, if anchored to the 1999 bill, fell when the 2005 Code was not in force, and successive meter replacements broke any continuous consumption pattern. The 180-unit assessment was just and equitable. Petition dismissed.",
+  "facts": "Deepak Mishra challenged the Electricity Ombudsman's 12.04.2012 order confirming CGRF, KESCO's direction to bill him at 180 units per month from 30.07.1991 to 26.01.2010. He had underpaid a 30.07.1999 bill of Rs 26,496 (paying Rs 14,000 without dispute) and had meters replaced on 22.09.2007, 31.05.2009 and 26.01.2010. Check-meter testing of meter No. 16506483 found it 7.6% fast; he said about 20 days' check-meter consumption of 85.04 units implied 128–130 units a month, not 180.",
+  "reusable_constructions": [
+    {
+      "construction": "Para 5.6(e) of the Electricity Supply Code, 2005 does not authorise issuing bills on the basis of check-meter consumption; it requires adjustment of bills for the previous three months prior to the month in which the dispute arose, as per the test results.",
+      "paras": "2-5"
+    },
+    {
+      "construction": "Para 5.6(e) cannot be applied to a period when the 2005 Code was not in force, nor where successive meter replacements prevent treating consumption as a continuous pattern.",
+      "paras": "5"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::5.6(e)",
+      "code": "UP-2005",
+      "clause": "5.6(e)",
+      "topic": "check-meter billing adjustment",
+      "type": "supply_code",
+      "holding": "Para 5.6(e) does not authorise billing on check-meter consumption. Where a check meter shows the existing meter fast or slow beyond permissible limits, bills of the previous three months prior to the month in which the dispute arose are to be adjusted as per the test results. Applying that window to the petitioner's 1999 bill would fall before the 2005 Code was in force, and successive meter replacements broke any continuous consumption pattern. The CGRF/Ombudsman assessment at 180 units per month for 1991–2010 was just and equitable and was not interfered with.",
+      "paras": "2-7"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [],
+  "authorities": []
+}

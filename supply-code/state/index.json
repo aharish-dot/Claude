@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 921,
+  "next_seq": 922,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -5506,6 +5506,12 @@
       "case_id": "SCJ-917",
       "source_basename": "WRIC(A)_26514_2012.pdf",
       "title": "Mohd. Azahar v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-918",
+      "source_basename": "WRIC(A)_27215_2012.pdf",
+      "title": "Deepak Mishra v. M.D. Kanpur Electricity Supply Co. Ltd.",
       "status": "done"
     }
   ]
