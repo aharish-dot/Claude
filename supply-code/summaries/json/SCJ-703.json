@@ -1,0 +1,38 @@
+{
+  "case_id": "SCJ-703",
+  "title": "Kailash Chandra Sharma v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Single Judge",
+  "coram": "B.N. Shukla, J.",
+  "date_of_judgment": "2009-08-26",
+  "date_display": "26 August 2009",
+  "docket": "Criminal Misc. Bail Application No. 22381 of 2009",
+  "page_count": 1,
+  "significance": "procedural",
+  "outcome": "pending",
+  "model": "Grok 4.6",
+  "disposition": "Bail granted in s.135/138 case; merits not decided",
+  "headnote": "Bail granted in a prosecution under sections 135 and 138 of the Electricity Act, 2003. The applicant relied on clause 8.4 of the U.P. Electricity Supply Code, 2005 (no FIR where a consumer voluntarily declares a tampered meter and pays the charges). The Court expressed no opinion on the merits.",
+  "facts": "The applicant sought bail in Case Crime No. 116 of 2009 at P.S. Narora, District Bulandshahr, under sections 135 and 138 of the Electricity Act, 2003. He had been in jail since 9 August 2009. Counsel said he had himself informed the SDO of a tampered meter seal, the MRI report showed no variation in reading, and clause 8.4 of the U.P. Electricity Supply Code, 2005 bars an FIR where a consumer voluntarily declares a tampered meter and pays the charges. The State alleged theft by meter tampering.",
+  "holding_units": [
+    {
+      "provision": "EA2003::135",
+      "code": "EA2003",
+      "clause": "135",
+      "topic": "bail in s.135/138 theft prosecution",
+      "type": "electricity_act",
+      "holding": "The applicant in Case Crime No. 116 of 2009 under sections 135 and 138 of the Electricity Act, 2003 was held entitled to bail, without any opinion on the merits of the alleged meter tampering or of the clause 8.4 contention that no FIR shall be lodged where a consumer voluntarily declares a tampered meter and pays the requisite charges in time.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether clause 8.4 of the U.P. Electricity Supply Code, 2005 barred lodging of the FIR on a voluntary declaration of a tampered meter, and whether theft under s.135 was made out",
+      "note": "Raised on the bail application; the Court expressly declined to opine on the merits.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
