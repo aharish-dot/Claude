@@ -1,0 +1,42 @@
+{
+  "case_id": "SCJ-909",
+  "title": "Shiv Baboo Yadav @ Ashok Kumar v. State of U.P. & Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sunil Ambwani and Aditya Nath Mittal, JJ.",
+  "date_of_judgment": "2012-05-14",
+  "date_display": "14 May 2012",
+  "docket": "WRIT - C No. 22088 of 2012",
+  "page_count": 4,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; recovery of unserved provisional assessment and compounding quashed",
+  "headnote": "Recovery of a theft-case electricity demand cannot rest on an unserved provisional assessment, nor proceed without a final assessment under section 126(3) of the Electricity Act, 2003 after objections, which then attracts an appeal under section 127. Compounding charges are payable only if the consumer admits the offence and cannot be recovered as arrears of land revenue.",
+  "facts": "The petitioner challenged recovery of Rs.1,28,076 as theft-case electricity dues on a 16 March 2011 provisional assessment of Rs.1,28,054 (Supply Code, 2005 formula) plus Rs.1 lakh compounding. He said the provisional order was never served, so he could not object, and that no final assessment under section 126(3) of the Electricity Act, 2003 preceded coercive recovery under the U.P. Electricity Undertaking (Recovery of Dues) Act, 1958. Compounding charges had not been paid; he had obtained interim bail in an earlier writ.",
+  "reusable_constructions": [
+    {
+      "construction": "Coercive recovery of a theft-case electricity demand cannot proceed on an unserved provisional assessment; a final order under section 126(3) after objections is a mandatory precondition, with appeal under section 127.",
+      "paras": "5,7"
+    },
+    {
+      "construction": "Compounding charges are payable only if the consumer admits the offence and cannot be recovered as arrears of land revenue.",
+      "paras": "6"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::126(3)",
+      "code": "EA2003",
+      "clause": "126(3)",
+      "topic": "final assessment as precondition to recovery",
+      "type": "electricity_act",
+      "holding": "A licensee cannot recover a theft-case electricity demand, including by citation under the U.P. Electricity Undertaking (Recovery of Dues) Act, 1958, unless the provisional assessment has been served and a final assessment has been made under section 126(3) after objections, which then carries a right of appeal under section 127. Compounding charges are to be deposited only if the consumer admits the offence and cannot be recovered as arrears of land revenue. The Court quashed the recovery, treated the provisional order as served in Court, and directed objections within 15 days, leaving the respondents free to pass a final assessment.",
+      "paras": "5-7"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [],
+  "authorities": []
+}
