@@ -1,0 +1,111 @@
+{
+  "case_id": "SCJ-702",
+  "title": "U.P. Power Corp. Ltd. Through Executive Engineer v. Ombudsmen and 2 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court (Lucknow Bench)",
+  "bench": "Single Judge",
+  "coram": "Sangeeta Chandra, J.",
+  "date_of_judgment": "2023-03-21",
+  "date_display": "21 March 2023",
+  "docket": "Writ - C No. 1003605 of 2008",
+  "page_count": 9,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition allowed; Ombudsman order dated 23.05.2008 set aside",
+  "headnote": "The Electricity Ombudsman cannot waive a consumer's minimum monthly/fixed charges because no energy was consumed while a saw mill was shut under a Supreme Court order. Paragraphs 3.8 and 3.9 of the U.P. Electricity Supply Code, 2005, with the Tariff Order and Section 24 of the U.P. Electricity Reforms Act, 1999, make those charges a Commission-notified tariff component binding on the licensee; the licensee cannot waive them on request, and a challenge to the Tariff Order lies before the appropriate forum. Section 57 of the Electricity Act, 2003 and paragraph 7.7 of the Code (standards of performance; no licensee compensation for interruption beyond its control) do not yield a converse consumer exemption. A consumer prevented from using supply must seek permanent disconnection; failing that, minimum monthly charges remain payable. Following Narinder Chand Hem Raj (AIR 1971 SC 2399), the Ombudsman cannot direct contrary to the Act and the Code. The order dated 23.05.2008 is set aside and the licensee's writ is allowed.",
+  "facts": "U.P. Power Corporation Ltd. challenged an Ombudsman order dated 23 May 2008. Respondent no. 3, Dipak Agrawal of M/s Dipak Lamination, Gari Road, Lakhimpur Kheri, held a sanctioned-load saw-mill connection. After Supreme Court orders of 4.3.1997, 1.9.2006 and 15.5.2007 on unlicensed saw mills, the mill was shut from 22.9.2006; the Divisional Forest Officer on 23.6.2007 allowed it to run on conditions. Seeking re-energising, the consumer was met with an Executive Engineer letter dated 18.6.2007 demanding Rs. 3,32,676 as minimum charges for the closed period.\n\nHe first challenged the demand in a writ; the High Court treated it as a billing dispute under paragraph 6 of the Supply Code and directed him to the competent authority. Instead of the Consumer Grievance Redressal Forum he went to the Ombudsman, who registered Appeal No. 96 of 2008 without a Forum order and waived the charges, analogising from Section 57 of the Electricity Act, 2003 and paragraph 7.7 of the Code.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::3.8",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "3.8 (with paragraph 3.9)",
+      "topic": "Minimum monthly/fixed charges cannot be waived; a consumer who does not seek permanent disconnection remains liable",
+      "type": "supply_code",
+      "question": "May the Electricity Ombudsman relieve a consumer of minimum monthly/fixed charges because no energy was consumed for reasons beyond the consumer's control, without the consumer having sought permanent disconnection?",
+      "holding": "No. The Ombudsman's logic — that a consumer need not pay charges if no electricity is consumed for reasons beyond his control, mirroring the licensee's freedom from compensation for interruption beyond its control — is beyond the Electricity Act, 2003 and the Supply Code, 2005. Paragraphs 3.8 and 3.9, with the Tariff Orders, provide that minimum monthly/fixed charges are announced by the Commission; the licensee may decide other charges mentioned in paragraph 3.8, and may realise charges not in the Tariff Orders only with the Commission's prior approval. The published tariff schedule is to be paid. If the consumer was prevented from running the saw mill, the remedy was to approach the Executive Engineer for permanent disconnection as soon as the Supreme Court suspension was communicated by the Divisional Forest Officer. He did not. Minimum monthly charges therefore had to be paid. Because those charges are part of the notified Tariff Order, the licensee could not waive them on a consumer request, and the Ombudsman could not ask the licensee to ignore the Tariff Order. The order dated 23.05.2008 is set aside and the writ is allowed.",
+      "qualifier": "Paragraph 3.9 is not a catalog key; it is keyed with 3.8 as jointly applied. The Court paraphrases 3.8/3.9 and the Tariff Order; it does not quote their text.",
+      "paras": "9, 12-17",
+      "flag": "Source PDF concatenates listing orders of 12.4.2022 (Shree Prakash Singh, J.) and 19.12.2022, 27.1.2023 and 21.2.2023 (Rajan Roy, J.; the last listing this matter with Writ-C No. 1003603 of 2008); the operative judgment is 21.3.2023 (paras 1–17, Sangeeta Chandra, J.). Counsel for respondent no. 3 did not appear; the Court proceeded because the matter is of 2008. The EE letter of 18.6.2007 is recited as preceding the DFO permission of 23.6.2007. Catalog false-positives (CA1956::457; EA1999(UP)::24-tariff-fact-forum; s135-1A-24-hour-FIR-is-mandatory) are not used. Sister of SCJ-700 (Writ-C No. 1003603 of 2008)."
+    },
+    {
+      "provision": "UP-2005::7.7",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "7.7",
+      "topic": "Licensee's force-majeure freedom from SOP compensation does not waive the consumer's minimum charges",
+      "type": "supply_code",
+      "question": "Does paragraph 7.7 — that a licensee need not compensate consumers for interruption of supply for reasons beyond its control — entitle a consumer to exemption from electricity charges when the unit consumes no energy for reasons beyond his control?",
+      "holding": "No. Paragraph 7.7 concerns standards of customer service (supply, new connections, disconnections, re-connections, metering, billing, transfer of ownership and conversion). A licensee must ensure uninterrupted supply, but is not liable to pay compensation if it fails to do so for reasons beyond its control because of an act of God. That does not support the converse: that a consumer need not pay electricity charges when he consumes none for reasons beyond his control. Applying that analogy in Appeal No. 96 of 2008 was beyond the Act and the Code.",
+      "qualifier": "The Court paraphrases paragraph 7.7; it does not quote the clause text or a sub-clause number.",
+      "paras": "10-12"
+    },
+    {
+      "provision": "EA2003::57",
+      "code": "Electricity Act, 2003",
+      "clause": "57",
+      "topic": "Standards of performance of the licensee are irrelevant to waiver of consumer minimum charges",
+      "type": "electricity_act",
+      "question": "Does Section 57 (standards of performance of the licensee and compensation for failure) authorise the Ombudsman to waive a consumer's minimum monthly charges for a period of non-consumption?",
+      "holding": "No. The Ombudsman sidestepped the licensee's 3.8/3.9 and Tariff Order argument by referring to Section 57, which the Court held was irrelevant for the purpose. Section 57 concerns Commission-specified standards of performance of the licensee and compensation to the person affected if those standards are not met. It does not support waiving the consumer's tariff liability.",
+      "paras": "10-12"
+    },
+    {
+      "provision": "EA1999(UP)::24",
+      "code": "U.P. Electricity Reforms Act, 1999",
+      "clause": "24",
+      "topic": "Commission-notified tariff, including minimum monthly/fixed charges, binds the licensee; Ombudsman cannot direct contrary to the Act and Code",
+      "type": "interplay",
+      "question": "Can the Electricity Ombudsman direct a distribution licensee not to recover Commission-notified minimum monthly/fixed charges, or require the licensee to ignore the Tariff Order?",
+      "holding": "No. Minimum monthly/fixed charges are announced by the Commission in accordance with Section 24 of the U.P. Electricity Reforms Act, 1999, consistent with the Electricity Act, 2003. A Tariff Order so notified is binding on the licensee. The licensee cannot waive it on a consumer's request; the consumer's remedy against the Tariff Order is before the appropriate forum. The impugned order contained no consideration of the Tariff Order or of the relevant provisions of the Act or the Code. Following Narinder Chand Hem Raj (AIR 1971 SC 2399), no direction could have been issued against the provisions of the Act and the Code by the Ombudsman.",
+      "paras": "12-16"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "licensee-cannot-alter-commission-determined-tariff",
+      "application": "Minimum monthly/fixed charges form part of the Commission-notified Tariff Order under Section 24 of the Reforms Act, 1999 and paragraphs 3.8/3.9 of the Code. The licensee cannot waive them on a consumer request, and the Ombudsman cannot direct the licensee to ignore the Tariff Order. Co-lead with SCJ-700 (Writ-C No. 1003603 of 2008, same date and bench); one of the 21.03.2023 Coordinate Bench trio later followed in SCJ-490 to SCJ-494.",
+      "lead_authorities": [],
+      "paras": "12-16"
+    },
+    {
+      "tag": "ombudsman-cannot-direct-contrary-to-act-and-code",
+      "application": "An Electricity Ombudsman award that waives tariff charges, or otherwise directs the licensee to act against the Electricity Act, 2003 and the Supply Code, 2005, is without authority and is set aside. Applied via Narinder Chand Hem Raj: no direction against the provisions of the Act and the Code.",
+      "lead_authorities": [
+        {
+          "name": "Narinder Chand Hem Raj v. Lt. Governor, Himachal Pradesh",
+          "docid": ""
+        }
+      ],
+      "paras": "14-16"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the Ombudsman had jurisdiction to entertain Appeal No. 96 of 2008 without a CGRF order",
+      "note": "The petitioner pleaded that the 2007 CGRF and Ombudsman Regulations do not permit a direct approach to the Ombudsman. The Court said the Ombudsman ought first to have satisfied himself on jurisdiction, then turned to paragraphs 3.8 and 3.9; the order is set aside on the tariff/minimum-charges merits, not for want of jurisdiction.",
+      "paras": "8, 12"
+    },
+    {
+      "point": "Validity of the Tariff Order and of minimum monthly/fixed charges as notified",
+      "note": "The Court said the consumer could have challenged the Tariff Order before the appropriate forum; it did not examine the lawfulness of the charges themselves.",
+      "paras": "13"
+    },
+    {
+      "point": "Quantum of the Rs. 3,32,676 minimum-charge demand",
+      "note": "The demand is recited from the Executive Engineer's letter dated 18.6.2007. The Court did not recompute the amount.",
+      "paras": "8, 16-17"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Narinder Chand Hem Raj & Others v. Lieutenant Governor, Administrator, Union Territory, Himachal Pradesh",
+      "citation": "1971 AIR 2399",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "No direction could have been issued against the provisions of the Act and the Code by the Ombudsman.",
+      "how_treated": "Applied to set aside the Ombudsman order of 23.05.2008.",
+      "cited_by": "Court",
+      "treatment": "Applied"
+    }
+  ]
+}
