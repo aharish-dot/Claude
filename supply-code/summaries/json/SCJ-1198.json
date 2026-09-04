@@ -1,0 +1,47 @@
+{
+  "case_id": "SCJ-1198",
+  "title": "M/s Raja Ram Ispat Pvt. Ltd. v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Amreshwar Pratap Sahi, J.; Vivek Kumar Birla, J.",
+  "date_of_judgment": "2014-07-08",
+  "date_display": "8 July 2014",
+  "docket": "WRIT - C No. 34453 of 2014",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; relegated to CGRF under 7.10 and instalments under 6.14",
+  "headnote": "A writ challenging a penalty demand was not entertained. A consumer disputing the factual imposition of penalty must approach the Consumer Grievance Redressal Forum under clause 7.10 of the Electricity Supply Code, 2005. Instalment facility is available on an offer under paragraph 6.14; the competent authority and the Forum are to decide such applications and complaints expeditiously.",
+  "facts": "M/s Raja Ram Ispat Private Limited challenged a penalty demand raised after an earlier writ (W.P. No. 31760 of 2014) was disposed of on 2 June 2014 directing the Executive Engineer to pass orders. The company was willing to pay the amount found due but denied any fault justifying penalty. The power corporation said instalments were available under paragraph 6.14 of the Electricity Supply Code, 2005, and that the penalty dispute lay before the statutory forum.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::7.10",
+      "code": "UP-2005",
+      "clause": "7.10",
+      "topic": "penalty dispute — CGRF",
+      "type": "supply_code",
+      "holding": "If the consumer disputes the factual imposition of penalty, the remedy is to approach the Consumer Grievance Redressal Forum under clause 7.10 of the Electricity Supply Code, 2005; the High Court will not entertain a writ for that cause of action. A complaint so filed is to be decided expeditiously.",
+      "paras": "1"
+    },
+    {
+      "provision": "UP-2005::6.14",
+      "code": "UP-2005",
+      "clause": "6.14",
+      "topic": "instalment facility",
+      "type": "supply_code",
+      "holding": "Instalment facility to deposit the amount sought to be realised is available if the consumer tenders an offer under paragraph 6.14 of the Electricity Supply Code, 2005. If such an application is made, the competent authority shall pass appropriate orders on it.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "whether penalty was rightly imposed on the petitioner",
+      "note": "Merits of the penalty demand were left to the Consumer Grievance Redressal Forum.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
