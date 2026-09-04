@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 688,
+  "next_seq": 689,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -4114,6 +4114,12 @@
       "case_id": "SCJ-685",
       "source_basename": "WRIC(A)_29036_2008.pdf",
       "title": "M/S Silverton Papers Ltd. v. Pashchimanchal Vidyut Vitram Nigam Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-686",
+      "source_basename": "WRIC(A)_38427_2008.pdf",
+      "title": "Krishan Kumar v. State of U.P. and others",
       "status": "done"
     }
   ]
