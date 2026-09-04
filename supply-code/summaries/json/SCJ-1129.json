@@ -1,0 +1,41 @@
+{
+  "case_id": "SCJ-1129",
+  "title": "Vijay Bahadur Maurya v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "V.K. Shukla, J.; Shashi Kant, J.",
+  "date_of_judgment": "2014-09-17",
+  "date_display": "17 September 2014",
+  "docket": "Criminal Misc. Writ Petition No. 16295 of 2014",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "FIR quash refused; CrPC 41-A directed; compounding left to s.152/Code",
+  "headnote": "An FIR under s.135 of the Electricity Act, 2003 that discloses a cognizable offence will not be quashed. If arrest is contemplated and the offence will not entail a sentence of more than seven years, police must follow CrPC s.41(1)(b) read with s.41-A. Compounding may be sought under the Electricity Supply Code, 2005 and s.152 of the Act.",
+  "facts": "Vijay Bahadur Maurya and another filed a criminal writ petition in the Allahabad High Court seeking quashing of FIR dated 21 July 2014, Case Crime No. 439 of 2014, registered under Section 135 of the Electricity Act, 2003 at Police Station Nawabganj, District Allahabad. They had not been arrested. Counsel argued that the alleged offence could not attract a sentence of more than seven years, so arrest should not be mechanical, and that the offence was compoundable.",
+  "holding_units": [
+    {
+      "provision": "EA2003::135",
+      "code": "EA2003",
+      "clause": "135",
+      "topic": "quashing of s.135 FIR and arrest safeguards",
+      "type": "electricity_act",
+      "holding": "An FIR registered under Section 135 of the Electricity Act, 2003 that discloses a cognizable offence is not liable to be quashed in writ jurisdiction. Where arrest has not yet been made and the offence will not entail a sentence of more than seven years, police must deal with the matter in compliance with Section 41(1)(b) read with Section 41-A Cr.P.C.; breach may be complained of before the Magistrate.",
+      "paras": "1"
+    },
+    {
+      "provision": "EA2003::152",
+      "code": "EA2003",
+      "clause": "152",
+      "topic": "compounding of s.135 offence",
+      "type": "electricity_act",
+      "holding": "If the alleged Section 135 offence is compoundable, the accused may seek compounding under the Electricity Supply Code, 2005 and Section 152 of the Electricity Act, 2003.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [],
+  "authorities": []
+}
