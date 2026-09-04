@@ -1,0 +1,43 @@
+{
+  "case_id": "SCJ-725",
+  "title": "GTL Infrastructures Ltd. v. State of U.P. and Others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sunil Ambwani and Ran Vijai Singh, JJ.",
+  "date_of_judgment": "2009-08-31",
+  "date_display": "31 August 2009",
+  "docket": "WRIT - C No. 45793 of 2009",
+  "page_count": 3,
+  "significance": "procedural",
+  "outcome": "pending",
+  "model": "Grok 4.6",
+  "disposition": "Provisional connections on owners' consent; writ remains listed",
+  "headnote": "On a telecom infrastructure company's writ against refusal to accept connection applications without registered lease deeds, the Court, as an interim measure and without construing clause 4.4 of the U.P. Electricity Supply Code, 2005, directed provisional supply if the petitioner produced owners' consent letters, affidavits and other conditions. It noted that earlier High Court judgments had not considered a 3 December 2008 Government Order. The writ stayed pending and was later listed for instructions.",
+  "facts": "GTL Infrastructures Ltd., a telecom infrastructure provider, applied for electricity connections at sites with telecommunication towers. The licensees would not accept the applications without registered lease deeds of the premises. The company said paragraph 4.4 of the U.P. Electricity Supply Code, 2005 made owners' consent letters sufficient. The State and licensees pointed to occupancy-proof language in clause 4.4 and a Government Order dated 3 December 2008 barring unregistered sale or rent deeds for connections.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.4",
+      "code": "UP-2005",
+      "clause": "4.4",
+      "topic": "occupancy documents for new connection to leased telecom-tower sites",
+      "type": "supply_code",
+      "holding": "Without deciding whether paragraph 4.4 of the 2005 Supply Code requires a registered lease deed, as opposed to owners' consent letters, for a new connection, the Court directed as an interim measure that if the petitioner produces owners' consent letters, requisite affidavits and complies with other conditions, electricity connection shall be provided provisionally, subject to the result of the writ.",
+      "paras": "1",
+      "flag": "Petitioner cited para 4.4(i); Standing Counsel para 4.4(1); sub-clause not identified or settled."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether paragraph 4.4 of the 2005 Supply Code requires a registered lease deed, or whether owners' consent letters suffice, for a new connection on leased telecom-tower sites.",
+      "paras": "1"
+    },
+    {
+      "point": "Whether the Government Order dated 3 December 2008, directing that unregistered sale or rent deeds not be accepted for electricity connections, binds the licensees.",
+      "note": "The GO was not annexed; the Court observed that earlier judgments had not considered it or the State's stand.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
