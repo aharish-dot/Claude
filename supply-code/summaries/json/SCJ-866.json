@@ -1,0 +1,43 @@
+{
+  "case_id": "SCJ-866",
+  "title": "M/s Avadh Alloys (Pvt.) Ltd. v. U.P. Power Corporation Ltd.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Ashok Bhushan, J. and Bharati Sapru, J.",
+  "date_of_judgment": "2011-08-23",
+  "date_display": "23 August 2011",
+  "docket": "Writ - C No. 47760 of 2011",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ against final assessment disposed; relegated to s.127 appeal.",
+  "headnote": "A writ challenging a licensee's final assessment will not be entertained on merits where a statutory appeal under section 127 of the Electricity Act, 2003 is available. Pleas that checking reports showed nothing adverse, that documents for the reply were withheld, or that the proceedings ought to have been dropped under paragraph 8.1.(G) of the U.P. Electricity Supply Code, 2005, are for that appeal. Documents required to file the appeal are to be supplied within one week.",
+  "facts": "The petitioner, an industrial consumer, sought certiorari to quash U.P. Power Corporation Ltd.'s final assessment dated 4 August 2011. It said checking and police reports found nothing adverse, documents needed for its reply were withheld, and the proceedings ought to have been dropped under paragraph 8.1.(G) of the U.P. Electricity Supply Code, 2005. The licensee objected that section 127 of the Electricity Act, 2003 provided a statutory appeal. The parties also disputed whether reconnection had been allowed on a lesser deposit.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "statutory appeal bars writ against final assessment",
+      "type": "electricity_act",
+      "holding": "Where the consumer has a statutory appeal under section 127 of the Electricity Act, 2003, the High Court will not entertain a writ against a final assessment on merits, including alleged want of adverse findings in checking and police reports, non-supply of documents for the reply, or a plea that the proceedings ought to have been dropped under paragraph 8.1.(G) of the U.P. Electricity Supply Code, 2005. Those issues require entering into facts and belong in the appeal. Documents needed to file the appeal shall be given within one week; no direction is issued on reconnection against a lesser deposit.",
+      "paras": "7-10"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the assessment was unsustainable on the checking, police and meter reports, or ought to have been dropped under paragraph 8.1.(G) of the U.P. Electricity Supply Code, 2005",
+      "note": "Merits declined because of the section 127 appeal. Clause 8.1.(G) is as cited in the order.",
+      "paras": "5,7-8"
+    },
+    {
+      "point": "Whether reconnection had been allowed on a lesser deposit and whether a similar concession should be directed",
+      "note": "No direction or opinion; the petitioner may request the competent authority.",
+      "paras": "9"
+    }
+  ],
+  "authorities": []
+}
