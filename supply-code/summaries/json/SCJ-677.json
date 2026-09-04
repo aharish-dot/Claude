@@ -1,0 +1,91 @@
+{
+  "case_id": "SCJ-677",
+  "title": "Smt. Amna Khatoon v. PVVNL & Another",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "D.S.R. Varma, J.; Abhinava Upadhya, J.",
+  "date_of_judgment": "2010-12-06",
+  "date_display": "6 December 2010",
+  "docket": "WRIT - C No. - 16007 of 2008",
+  "page_count": 6,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; objections to the 7.3.2008 provisional assessment within 15 days; respondents to proceed in accordance with law; no interim remaining after SLP vacation",
+  "headnote": "A writ court will not examine the validity of a Section 126(4) provisional assessment, including alleged non-compliance with Clause 8.1 of the U.P. Electricity Supply Code, 2005 or whether the assessment period is 407 days instead of 180 days. Those objections are for the assessing officer. Following an earlier Division Bench order in Writ Petition No. 43872 of 2007, which had quashed an unreasoned demand of 1.6.2007 and directed a reasoned provisional assessment, objections, a final order, and then a Section 127 appeal, the petition is disposed of with liberty to file objections within 15 days; the respondents are to proceed in accordance with law. A 27.3.2008 stay of the provisional assessment had already been vacated by the Supreme Court in a Special Leave Petition, so no interim remained in force. Quantum and Code-procedure points were not decided.",
+  "facts": "Smt. Amna Khatoon petitioned the Allahabad High Court against PVVNL and another, challenging a provisional assessment dated 7.3.2008. An earlier Division Bench in Writ Petition No. 43872 of 2007 had quashed a demand notice dated 1.6.2007 because it contained no reasons, and had directed a fresh provisional assessment under Section 126(4) of the Electricity Act, 2003, two weeks to object, a final order, and then an appeal under Section 127. The 7.3.2008 order was issued pursuant to those directions.\n\nThe sole petitioner died on 25.4.2008; her heirs were substituted on 9.4.2010. A stay of the 7.3.2008 order granted on 27.3.2008 was vacated by the Supreme Court in a Special Leave Petition. At the hearing on 6.12.2010, counsel challenged the provisional assessment as not following Clause 8.1 of the U.P. Electricity Supply Code, 2005, and as assessing 407 days instead of 180 days.",
+  "holding_units": [
+    {
+      "provision": "EA2003::126",
+      "code": "Electricity Act, 2003",
+      "clause": "126(4)",
+      "topic": "Writ court will not examine the validity of a Section 126(4) provisional assessment",
+      "type": "electricity_act",
+      "question": "Can a writ court examine the validity of a Section 126(4) provisional assessment, including the period of assessment?",
+      "holding": "No. Once a provisional assessment has been issued (here dated 7.3.2008, pursuant to an earlier Division Bench direction in W.P. No. 43872 of 2007), its validity cannot be gone into in writ. The consumer may file objections within 15 days; the respondents must then proceed in accordance with law to a final order. The 407-versus-180-day period is a question of calculation the writ court cannot go into.",
+      "paras": "5-9",
+      "flag": "Source PDF concatenates listing and substitution orders of 2.4.2010, 9.4.2010 and 4.8.2010 with the 6.12.2010 disposal. Paragraph numbers are of the disposing order. The Supreme Court SLP that vacated the 27.3.2008 stay is unnamed."
+    },
+    {
+      "provision": "UP-2005::8.1",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "8.1",
+      "topic": "Alleged Clause 8.1 defects in a provisional assessment are for objections, not writ",
+      "type": "supply_code",
+      "question": "Will the writ court decide whether a Section 126 provisional assessment followed Clause 8.1 of the Supply Code, 2005?",
+      "holding": "No. Counsel challenged the 7.3.2008 provisional assessment on the ground that the procedure to invoke Section 126(4) was not as per Clause 8.1 of the U.P. Electricity Supply Code, 2005, and that the assessment was for 407 days instead of 180 days as contemplated under those provisions. The Court held that those objections, among others, can be raised by filing objections as called for by the respondents, and did not decide whether Clause 8.1 was followed.",
+      "qualifier": "The Court did not construe Clause 8.1 or hold that it applied; petitioner invoked it.",
+      "paras": "5-8",
+      "flag": "Counsel's contention is recorded as 'Clauses and 8.1' (OCR). Treated as Clause 8.1."
+    },
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act, 2003",
+      "clause": "127",
+      "topic": "After the final assessment, the consumer's remedy is a Section 127 appeal",
+      "type": "electricity_act",
+      "question": "Once a provisional assessment has been issued pursuant to an earlier direction to follow Section 126(4), what is the consumer's remedy against the eventual final order?",
+      "holding": "The earlier Division Bench in W.P. No. 43872 of 2007 had directed a provisional assessment under Section 126(4), objections, a final order, and then an appeal under Section 127 if aggrieved. This Court followed that path: it would not examine the provisional assessment in writ; after objections and the final order, the statutory appeal under Section 127 is the remedy.",
+      "paras": "2,7-9"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "relegate-to-statutory-remedy",
+      "application": "A writ challenging a Section 126(4) provisional assessment is disposed of with liberty to file objections within 15 days; the assessing officer proceeds in accordance with law to a final order, after which Section 127 is the appeal. The Court did not quash or uphold the 7.3.2008 order.",
+      "lead_authorities": [],
+      "paras": "7-9"
+    },
+    {
+      "tag": "disputed-questions-of-fact-not-adjudicable-under-article-226",
+      "application": "Whether the assessment was for 407 days instead of 180 days as contemplated under Clause 8.1 is a question of calculation the writ court cannot go into; it is left to objections before the assessing officer.",
+      "lead_authorities": [],
+      "paras": "5-6"
+    },
+    {
+      "tag": "opportunity-before-final-assessment",
+      "application": "The consumer is left to file objections to the 7.3.2008 provisional assessment within 15 days; the respondents then proceed to a final order in accordance with law. The writ court does not short-circuit that two-stage process.",
+      "lead_authorities": [],
+      "paras": "8-9"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the 7.3.2008 provisional assessment followed Clause 8.1 of the Supply Code, 2005",
+      "note": "Raised by the petitioner; left to objections before the assessing officer.",
+      "paras": "5-8"
+    },
+    {
+      "point": "Whether the assessment period of 407 days instead of 180 days was correct",
+      "note": "Treated as a question of calculation the writ court cannot go into.",
+      "paras": "5-6"
+    },
+    {
+      "point": "Validity and quantum of the 7.3.2008 provisional assessment, and the underlying alleged unauthorised use or theft",
+      "note": "Writ disposed without examining the assessment on merits; final order and Section 127 left open.",
+      "paras": "7-9"
+    }
+  ],
+  "authorities": []
+}
