@@ -1,0 +1,38 @@
+{
+  "case_id": "SCJ-975",
+  "title": "Sri Mandir v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "V.K. Shukla, J.; Virendra Vikram Singh, J.",
+  "date_of_judgment": "2014-11-12",
+  "date_display": "12 November 2014",
+  "docket": "Criminal Misc. Writ Petition No. 13864 of 2013",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "s.135 FIR not quashed; arrest under CrPC 41/41-A; compounding via Supply Code.",
+  "headnote": "An FIR under Section 135 of the Electricity Act, 2003 that discloses a cognizable offence will not be quashed. Where the alleged offence cannot attract a sentence of more than seven years, arrest must comply with Section 41(1)(b) read with Section 41-A CrPC. If the offence is compoundable, compounding is to be sought under the Electricity Supply Code, 2005.",
+  "facts": "Sri Mandir sought quashing of an FIR dated 20 June 2013 in Case Crime Nos. 194 to 198 of 2013 under Section 135 of the Electricity Act, 2003 at Police Station Mansoorpur, District Muzaffarnagar. U.P. Power Corporation claimed Rs 25,000 as compounding charges. An earlier Division Bench on 11 July 2013 had stayed his arrest subject to depositing that sum, without affecting recovery of electricity dues. At final hearing he pressed quashing, arguing the offence carried a maximum sentence of not more than seven years and was compoundable.",
+  "holding_units": [
+    {
+      "provision": "EA2003::135",
+      "code": "EA2003",
+      "clause": "135",
+      "topic": "s.135 FIR — quash refused; arrest safeguards; compounding",
+      "type": "electricity_act",
+      "holding": "An FIR under Section 135 of the Electricity Act, 2003 that discloses a cognizable offence is not liable to be quashed in a criminal miscellaneous writ petition. Because the alleged offence cannot attract a sentence of more than seven years, any arrest must comply with Section 41(1)(b) read with Section 41-A CrPC. If the offence is compoundable, the petitioner may seek compounding under the Electricity Supply Code, 2005. The writ petition was disposed of; the quash prayer was refused.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the alleged s.135 offence was in fact compoundable, and on what terms",
+      "note": "The Court left compounding to a Supply Code application if the offence is compoundable; it did not order compounding or fix charges.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
