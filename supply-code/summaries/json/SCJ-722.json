@@ -1,0 +1,52 @@
+{
+  "case_id": "SCJ-722",
+  "title": "Vijaybir Singh v. State of U.P. and Others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sunil Ambwani, J.; Ran Vijai Singh, J.",
+  "date_of_judgment": "2009-09-01",
+  "date_display": "1 September 2009",
+  "docket": "WRIT - C No. 42834 of 2009",
+  "page_count": 5,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; citation set aside; fresh assessment after hearing.",
+  "headnote": "A Division Bench quashed a theft-based recovery citation of Rs.4,60,000 because the licensee had not given notice or hearing before the final assessment. Clause 8.1(b) of the U.P. Electricity Supply Code, 2005 requires a provisional assessment, an opportunity of hearing, and then a final order. Liberty was reserved to make a fresh final assessment only after hearing the consumer.",
+  "facts": "The petitioner challenged assessment and recovery of electricity dues. He had not objected to a 31 December 2008 provisional assessment under Clauses 8.1 and 6.8 of the Supply Code, 2005, and deposited Rs.19,495 the same day. After an SDM enquiry the licensee treated theft as established, assessed Rs.4,60,000 and issued a citation dated 28 July 2009. He said police had filed a final report in the Section 135 case and that reassessment was without notice or presence at inspection. The counter affidavit asserted neither notice nor hearing.",
+  "reusable_constructions": [
+    {
+      "construction": "Clause 8.1(b) of the U.P. Electricity Supply Code, 2005 requires a sequence of provisional assessment, opportunity of hearing, and then a final order; a theft assessment made without that hearing is contrary to the Code.",
+      "paras": "1"
+    },
+    {
+      "construction": "A recovery citation founded on a final theft assessment made without notice or opportunity of hearing is liable to be set aside, with liberty to the licensee to reassess only after hearing the consumer.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1(b)",
+      "code": "UP-2005",
+      "clause": "8.1(b)",
+      "topic": "theft assessment — hearing before final order",
+      "type": "supply_code",
+      "holding": "A final theft assessment and a recovery citation founded on it cannot stand where the licensee has not followed Clause 8.1(b) of the U.P. Electricity Supply Code, 2005 — preparation of a provisional assessment, opportunity of hearing, and then a final order. The citation dated 28.7.2009 based on the Rs.4,60,000 assessment, made without notice or hearing, was set aside, with liberty to make a fresh final assessment only after giving the consumer an opportunity of hearing in accordance with the Supply Code, 2005.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner committed electricity theft, and the effect of the police final report under Section 135",
+      "paras": "1"
+    },
+    {
+      "point": "Quantum of the fresh assessment",
+      "note": "Left to a fresh final assessment after hearing.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
