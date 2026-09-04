@@ -1,0 +1,64 @@
+{
+  "case_id": "SCJ-699",
+  "title": "Dakshinanchal Vidyut Vitran Nigam Ltd. Through Its Executive v. Electricity Ombudsman, U.P., Lucknow and Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court (Lucknow Bench)",
+  "bench": "Single Judge",
+  "coram": "Manish Kumar, J.",
+  "date_of_judgment": "2022-12-12",
+  "date_display": "12 December 2022",
+  "docket": "Writ - C No. 1002386 of 2008",
+  "page_count": 8,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; Electricity Ombudsman order dated 25.01.2008 in Appeal No. 52 of 2007 quashed",
+  "headnote": "Where the Consumer Grievance Redressal Forum has waived energy charges for periods of non-supply but directed the consumer to pay Minimum Consumption Guarantee (MCG), the Electricity Ombudsman cannot, on a Section 42(6) appeal, waive that MCG if electricity dues were pending against the consumer. Paragraph 11 of the Commercial and Revenue Manual provides that MCG charges for a disconnection period will not be charged provided there are no pending dues; waiver is otherwise not permissible except in circumstances under Clause 9.1 of the U.P. Electricity Supply Code, 2005. The Ombudsman having found that bill dues were pending, and the consumer not having disputed that in the writ, there was no occasion to waive MCG. The Ombudsman order dated 25.01.2008 is quashed and the licensee's writ is allowed. The Court did not quote Clause 9.1, and did not decide whether MCG was otherwise leviable when supply failed by transformer fault or theft of poles and wires.",
+  "facts": "Dakshinanchal Vidyut Vitran Nigam Ltd. challenged before the Lucknow Bench an order of the Electricity Ombudsman, U.P., dated 25 January 2008 in Appeal No. 52 of 2007 under Section 42(6) of the Electricity Act, 2003. Respondent no. 2 held a valid 10 kW commercial connection for a flour mill. Supply was not given from 30 October 2005 to 3 January 2006 because of a transformer fault, and from 21 May 2006 to 29 October 2006 because electricity poles and wires were stolen. The licensee billed the consumer for those periods.\n\nThe consumer approached the Consumer Grievance Redressal Forum under Section 42(5). By order dated 17 March 2007 the Forum waived energy charges but directed payment of Minimum Consumption Guarantee (MCG). On the consumer's appeal under Section 42(6), the Ombudsman by the impugned order of 25 January 2008 waived MCG. The licensee sought quashing of that order, relying on paragraph 11 of the Commercial and Revenue Manual and Clause 9.1 of the U.P. Electricity Supply Code, 2005.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::9.1",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "9.1 (MCG waiver; read with para 11 of the Commercial and Revenue Manual)",
+      "topic": "MCG for a disconnection period cannot be waived if electricity dues are pending",
+      "type": "supply_code",
+      "question": "May the Electricity Ombudsman waive Minimum Consumption Guarantee for a period of non-supply when electricity dues were pending against the consumer?",
+      "holding": "No. The Forum had waived energy charges but directed payment of MCG. The Ombudsman waived MCG. The licensee pleaded that paragraph 11 of the Commercial and Revenue Manual does not permit waiver of MCG except in circumstances under Clause 9.1 of the Code, and that MCG cannot be waived if dues are pending. Paragraphs 12 and 13 of the writ petition pleaded that, under paragraph 11 of the Manual, MCG for the disconnection period is not charged provided there are no pending dues. The consumer's counter-affidavit did not dispute that dues were pending. The Ombudsman had itself found pending bill dues. Once dues were pending, there was no occasion to waive MCG; the waiver was against paragraph 11 of the Manual. The writ is allowed and the 25.01.2008 Ombudsman order is quashed.",
+      "qualifier": "The Court applied paragraph 11 of the Manual as the operative text. It did not quote Clause 9.1. The interruptions (transformer fault; theft of poles and wires) are recited; the Court did not decide whether those causes independently barred MCG.",
+      "paras": "7-11",
+      "flag": "Source PDF concatenates listing/adjournment orders of 8.4.2022 and 20.4.2022 (Shree Prakash Singh, J.) and 19.7.2022, 30.8.2022, 10.10.2022 and 22.11.2022 (Manish Kumar, J.); the operative judgment is 12.12.2022 (paras 1–11, Manish Kumar, J.). Caption spells the licensee 'Vidut'; the mill is styled 'Floor Mill'. Respondent no. 2 is unnamed. Catalog hits EA2003::42, EA2003::42(6) and individual-grievance-via-s42-not-commission mark the CGRF/Ombudsman path, not a construction of s.42. UP-2005::9.1 is not a catalog key; keyed as the Code clause the petitioner invoked. No precedent is cited."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "mcg-waiver-barred-if-dues-pending",
+      "application": "Paragraph 11 of the Commercial and Revenue Manual (the petitioner linked the exception to Clause 9.1 of the 2005 Code) withholds MCG for a disconnection period only if no dues are pending. An Ombudsman finding of pending bill dues leaves no occasion to waive MCG; the waiver is quashed. Distinct from SCJ-030 / SCJ-059 (fault for the interruption) and SCJ-490–494 (tariff-order non-waivability of minimum monthly charges).",
+      "lead_authorities": [],
+      "paras": "9-11"
+    },
+    {
+      "tag": "ombudsman-cannot-direct-contrary-to-act-and-code",
+      "application": "An Electricity Ombudsman award under s.42(6) that waives MCG contrary to paragraph 11 of the Commercial and Revenue Manual (and the Clause 9.1 exception the licensee invoked) cannot stand. Same cluster as SCJ-490–494, on a pending-dues rather than tariff-order footing.",
+      "lead_authorities": [],
+      "paras": "10-11"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether MCG was otherwise leviable when supply failed by transformer fault (30.10.2005–03.01.2006) or theft of poles and wires (21.05.2006–29.10.2006)",
+      "note": "Those causes are recited. The Court decided only the pending-dues bar under paragraph 11 of the Manual, not whether licensee-side interruption independently excused MCG (the SCJ-030 / SCJ-059 line).",
+      "paras": "4, 9-11"
+    },
+    {
+      "point": "Text and scope of Clause 9.1 of the U.P. Electricity Supply Code, 2005",
+      "note": "Invoked by the licensee as the Code vehicle for circumstances in which MCG may be waived; not quoted or independently construed.",
+      "paras": "7"
+    },
+    {
+      "point": "Validity and quantum of the CGRF order dated 17.03.2007 (energy charges waived; MCG directed)",
+      "note": "Only the Ombudsman order of 25.01.2008 was challenged and quashed. Quantum of MCG is not determined.",
+      "paras": "6, 11"
+    }
+  ],
+  "authorities": []
+}
