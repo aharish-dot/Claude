@@ -1,0 +1,39 @@
+{
+  "case_id": "SCJ-1090",
+  "title": "Latoori Singh v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "V.K. Shukla and Shashi Kant, JJ.",
+  "date_of_judgment": "2014-07-15",
+  "date_display": "15 July 2014",
+  "docket": "Criminal Misc. Writ Petition No. 11720 of 2014",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "FIR quash refused; CrPC 41/41-A arrest; compounding under Supply Code",
+  "headnote": "An FIR under Section 135 of the Electricity Act, 2003 that discloses a cognizable offence is not to be quashed in writ jurisdiction. Where arrest has not been effected and the offence cannot attract a sentence of more than seven years, police must comply with Section 41(1)(b) read with Section 41-A CrPC; if the offence is compoundable, the accused may seek compounding under the Electricity Supply Code, 2005.",
+  "facts": "The petitioner, Latoori Singh, approached the Allahabad High Court to quash an FIR dated 6 June 2014 registered as Case Crime Nos. 159-160 of 2014 under Section 135 of the Electricity Act, 2003 at Police Station Dauki, District Agra. He had not been arrested. His counsel submitted that the alleged offence could not carry a sentence of more than seven years, so arrest should not be mechanical, and that the offence was compoundable.",
+  "holding_units": [
+    {
+      "provision": "EA2003::135",
+      "code": "EA2003",
+      "clause": "135",
+      "topic": "s.135 FIR — quash, arrest safeguards, compounding",
+      "type": "electricity_act",
+      "holding": "The FIR under Section 135 of the Electricity Act, 2003 disclosed a cognizable offence, so the prayer to quash it was refused. Arrest, if effectuated, for an offence not entailing a sentence of more than seven years must comply with Section 41(1)(b) read with Section 41-A CrPC. If the offence is compoundable, the accused may seek compounding under the Electricity Supply Code, 2005.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "s135-arrest-safeguards-and-compounding-remedy",
+      "application": "Applied to a s.135 FIR writ: quash refused because the FIR disclosed a cognizable offence; arrest, if made, directed under CrPC 41(1)(b)/41-A; compounding left to the Supply Code, 2005.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [],
+  "authorities": []
+}

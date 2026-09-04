@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1093,
+  "next_seq": 1094,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -6538,6 +6538,12 @@
       "case_id": "SCJ-1089",
       "source_basename": "CRLP(A)_11701_2014.pdf",
       "title": "Alok Kumar Mishra v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1090",
+      "source_basename": "CRLP(A)_11720_2014.pdf",
+      "title": "Latoori Singh v. State of U.P.",
       "status": "done"
     }
   ]
