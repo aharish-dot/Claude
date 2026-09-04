@@ -1,0 +1,43 @@
+{
+  "case_id": "SCJ-1224",
+  "title": "Ram Surat v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Amreshwar Pratap Sahi, J.; Vivek Kumar Birla, J.",
+  "date_of_judgment": "2014-08-21",
+  "date_display": "21 August 2014",
+  "docket": "WRIT - C No. - 43397 of 2014",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; seek civil/revenue permission, then department to consider temporary or indemnity supply.",
+  "headnote": "Where a tube-well supply is permanently disconnected and title to the irrigated land is sub judice in a civil suit and a pending partition, the High Court will not mandamus restoration. The consumer may seek interim permission from the court seised of the dispute; if that court grants permission, the licensee shall consider a temporary or indemnity-bond connection under the Electricity Supply Code, 2005 until the dispute is decided.",
+  "facts": "Ram Surat’s tube-well supply, used to irrigate agricultural land, stood permanently disconnected. He challenged the Executive Engineer’s rejection of his restoration representation. Title was already contested in Civil Suit No. 478 of 2009 and in a pending partition under section 176 of the U.P. Zamindari Abolition and Land Reforms Act before the SDO, Shahganj, Jaunpur. Because of those disputes the Engineer refused to restore supply unless both parties executed an indemnity bond under the Electricity Supply Code, 2005.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.4",
+      "code": "UP-2005",
+      "clause": "4.4",
+      "topic": "indemnity bond; disputed title; tube-well restoration",
+      "type": "supply_code",
+      "holding": "Pending a civil title suit and a revenue partition, the High Court will not direct restoration of a permanently disconnected tube-well supply. If the consumer obtains interim permission from the court seised of the dispute, the Electricity Department shall consider a temporary or indemnity-bond connection under the Electricity Supply Code, 2005 so the tube well can run until the dispute is decided.",
+      "paras": "1",
+      "flag": "Order cites only ‘relevant clauses’ of the Electricity Supply Code, 2005 for the indemnity-bond path; it does not number 4.4."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Title to the agricultural land and who is entitled to the tube-well connection",
+      "note": "Left to Civil Suit No. 478 of 2009 and the pending s.176 UPZA&LR partition.",
+      "paras": "1"
+    },
+    {
+      "point": "Whether the Executive Engineer’s rejection of the restoration representation was erroneous on the merits",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
