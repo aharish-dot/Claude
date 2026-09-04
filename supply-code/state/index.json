@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 842,
+  "next_seq": 843,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -5038,6 +5038,12 @@
       "case_id": "SCJ-839",
       "source_basename": "WRIC(A)_24090_2011.pdf",
       "title": "Rakesh Kumar v. State of U.P. Thru The Ministry Of Energy And Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-841",
+      "source_basename": "WRIC(A)_24542_2011.pdf",
+      "title": "Rajiv Kumar v. U.P. Power Corporation Ltd. and Others",
       "status": "done"
     }
   ]
