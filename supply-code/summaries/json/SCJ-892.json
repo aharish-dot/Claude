@@ -1,0 +1,53 @@
+{
+  "case_id": "SCJ-892",
+  "title": "Pawan Kumar v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sunil Ambwani, J.; Pankaj Naqvi, J.",
+  "date_of_judgment": "2012-03-19",
+  "date_display": "19 March 2012",
+  "docket": "Writ - C No. 11741 of 2012",
+  "page_count": 4,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; relegated to CGRF under clause 7.10",
+  "headnote": "Clause 6.5 of the U.P. Electricity Supply Code, 2005 is not attracted where the consumer does not dispute consumption or the bill. There is no provision under the U.P. Electricity Act or the regulations to bifurcate bills among legal heirs. A writ challenging a recovery certificate of Rs.85,834 was dismissed; the petitioner was relegated to the Consumer Grievance Redressal Forum under clause 7.10.",
+  "facts": "Pawan Kumar challenged a Purvanchal Vidyut Vitran Nigam Ltd. recovery certificate dated 21 February 2012 demanding Rs.85,834. He said he was a BPL labourer in a thatched house, his father had died in 2001, and supply was disconnected after 2007. The licensee said the death was never reported, the house was pucca with several rooms, and no paid bills were produced. He also argued that a brother who inherited should share the bill and offered to pay his share.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "billing objection inapplicable where consumption and bill not disputed",
+      "type": "supply_code",
+      "holding": "Clause 6.5 of the Supply Code is not attracted where the consumer does not dispute consumption of electricity or the bill. A plea that the bill should be shared with a co-heir after the consumer's death would require a fact-finding enquiry, which a writ court will not undertake. There is no provision under the U.P. Electricity Act or the regulations made thereunder to bifurcate bills among legal heirs.",
+      "paras": "7-8",
+      "flag": "The order refers to the 'U.P. Electricity Act'; the governing statute is the Electricity Act, 2003."
+    },
+    {
+      "provision": "UP-2005::7.10",
+      "code": "UP-2005",
+      "clause": "7.10",
+      "topic": "CGRF as alternative remedy for billing grievances",
+      "type": "supply_code",
+      "holding": "Where clause 6.5 is not attracted, the consumer's remedy is to approach the Consumer Grievance Redressal Forum under clause 7.10 of the Supply Code. The writ petition challenging the recovery certificate was dismissed on the ground of alternative remedy.",
+      "paras": "9-10"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether electricity was consumed after the father's death by the petitioner or others, and whether any part of the bill relates to the period before or after the death",
+      "note": "The Court said a fact-finding enquiry would be required and did not undertake it.",
+      "paras": "7"
+    },
+    {
+      "point": "Merits of the Rs.85,834 demand and whether the bill should be shared with the petitioner's brother",
+      "note": "Writ dismissed on alternative remedy without deciding the bill.",
+      "paras": "7-10"
+    }
+  ],
+  "authorities": []
+}
