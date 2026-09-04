@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1098,
+  "next_seq": 1099,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -6568,6 +6568,12 @@
       "case_id": "SCJ-1093",
       "source_basename": "CRLP(A)_12203_2014.pdf",
       "title": "Prayag Prakash v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1095",
+      "source_basename": "CRLP(A)_12408_2014.pdf",
+      "title": "s.135 FIR disclosing cognizable offence not quashed; CrPC arrest and Supply Code compounding",
       "status": "done"
     }
   ]
