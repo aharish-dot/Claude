@@ -1,0 +1,39 @@
+{
+  "case_id": "SCJ-1026",
+  "title": "Ashwani Kumar v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Vineet Saran, J. and B. Amit Sthalekar, J.",
+  "date_of_judgment": "2013-07-16",
+  "date_display": "16 July 2013",
+  "docket": "Writ-C No. 37652 of 2013",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; no tenant connection without considering landlord objection.",
+  "headnote": "A landlord alleged that occupants claiming tenancy were seeking a new connection without his no-objection. Disposing of the writ at the threshold, and recording the licensee's statement that a tenanted-premises connection requires the landlord's no-objection under the Supply Code, the Court directed the Executive Engineer not to grant supply to those occupants without first considering the landlord's pending objection.",
+  "facts": "The petitioner, owner of the property, alleged that respondents 4 and 5 were seeking a new electricity connection from the Urban Distribution Division at Moradabad as his tenants, without his no-objection. He contended that the Supply Code did not permit a tenant connection without the landlord's consent, and had objected to the Executive Engineer, Vidyut Nagariya Vitran Khand (First), Moradabad, on 28 June 2013. Counsel for the corporation stated that a connection in tenanted premises could be granted only after the landlord's no-objection. Private respondents were not noticed.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.4",
+      "code": "UP-2005",
+      "clause": "4.4",
+      "topic": "landlord-objection-before-tenant-connection",
+      "type": "supply_code",
+      "holding": "The distribution licensee shall not grant an electricity connection to persons claiming tenancy of the petitioner's premises without first considering the landlord's objection already filed before the Executive Engineer.",
+      "paras": "1",
+      "flag": "Order cites the Electricity Supply Code generally for landlord no-objection on tenanted premises; no clause number is given."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Merits of the landlord's objection and whether the occupants were entitled to a connection",
+      "note": "The Court did not decide whether a landlord's no-objection is a mandatory condition under the Supply Code, nor whether respondents 4 and 5 could be given supply; that was left to the Executive Engineer.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
