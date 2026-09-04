@@ -1,0 +1,52 @@
+{
+  "case_id": "SCJ-896",
+  "title": "M/S Chandpur Enterprises Ltd. v. Executive Engineer, Electricity Distribution Division",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sunil Ambwani and Pankaj Naqvi, JJ.",
+  "date_of_judgment": "2012-03-27",
+  "date_display": "27 March 2012",
+  "docket": "WRIT - C No. 14279 of 2012",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; no direction to hurry CGRF stay.",
+  "headnote": "A 2000 KVA industrial consumer, already relegated to the CGRF on a dispute over billable demand (current-month versus cumulative previous-month maximum demand), sought a writ that the Forum decide its stay application within days under para 6.10 of the UPERC (CGRF & Electricity Ombudsman) Regulations, 2007. Held, the prayer is misconceived. Time in the third proviso to para 6.10(1) is not mandatory and runs only on the second-proviso deposit (calculated amount or 50% of the impugned demand); that proviso bars interim relief without deposit. No inordinate delay; writ dismissed.",
+  "facts": "The petitioner, a 2000 KVA steel consumer at Chandpur, Bijnor, sought billing on current-month maximum demand rather than cumulative previous-month demand. An earlier writ had relegated it to the CGRF under Supply Code clause 7. After complaints on 13 and 16 March 2012 and a deposit of Rs 8 lakh, it returned asking the High Court to direct the Forum to decide its stay application within days under CGRF Regulation 6.10; the Forum had listed the matter for 31 March 2012.",
+  "reusable_constructions": [
+    {
+      "construction": "The time in the third proviso to para 6.10(1) of the UPERC (CGRF & Electricity Ombudsman) Regulations, 2007 is not mandatory and starts running only on deposit under the second proviso of the amount calculated as provided or 50% of the impugned demand.",
+      "paras": "2-3"
+    },
+    {
+      "construction": "The second proviso to para 6.10(1) of those Regulations bars CGRF interim relief unless that deposit is made.",
+      "paras": "2"
+    },
+    {
+      "construction": "A writ will not issue to compel the CGRF to decide a stay application on a compressed timetable where the Forum has already listed the matter and no inordinate delay is shown.",
+      "paras": "2-3"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "CGRF-2007::6.10",
+      "code": "CGRF-2007",
+      "clause": "6.10",
+      "topic": "CGRF stay application — deposit and non-mandatory timeline",
+      "type": "interplay",
+      "holding": "A writ directing the CGRF to consider a stay application within a few days under para 6.10 of the UPERC (CGRF & Electricity Ombudsman) Regulations, 2007 is misconceived. The Forum may grant interim orders on regular billing and method of billing. The time in the third proviso to para 6.10(1) is not mandatory and starts running on deposit under the second proviso of the amount calculated as provided or 50% of the impugned demand; the second proviso bars interim relief unless that amount is deposited. Absent inordinate delay, the High Court will not direct the Forum to decide the stay hurriedly. Writ dismissed.",
+      "paras": "2-3"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether billable demand should be current-month maximum demand rather than cumulative previous-month maximum demand",
+      "note": "Already before the CGRF pursuant to the order dated 2.3.2012 in C.M.W.P. No. 11595 of 2012; not decided on merits here.",
+      "paras": "1-2"
+    }
+  ],
+  "authorities": []
+}
