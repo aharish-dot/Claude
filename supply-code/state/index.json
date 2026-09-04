@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1149,
+  "next_seq": 1150,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -6874,6 +6874,12 @@
       "case_id": "SCJ-1145",
       "source_basename": "WRIC(A)_15950_2014.pdf",
       "title": "Kisan Sahkari Chini Mills Ltd. v. Madhyanchal Vidyut Vitran Nigam Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1144",
+      "source_basename": "WRIC(A)_15571_2014.pdf",
+      "title": "M/s Threads India Limited v. Dakshinanchal Vidyut Vitran Nigam Ltd.",
       "status": "done"
     }
   ]
