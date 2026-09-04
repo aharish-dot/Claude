@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 697,
+  "next_seq": 698,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -4168,6 +4168,12 @@
       "case_id": "SCJ-694",
       "source_basename": "WRIC(A)_49978_2008.pdf",
       "title": "Tehri Girders Ltd. v. M.D., P.V.V.N.L.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-695",
+      "source_basename": "WRIC(A)_52113_2008.pdf",
+      "title": "M/S Rana Steels v. M.D. P.V.V.N.L. And Another",
       "status": "done"
     }
   ]
