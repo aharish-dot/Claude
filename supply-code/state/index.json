@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 923,
+  "next_seq": 924,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -5518,6 +5518,12 @@
       "case_id": "SCJ-919",
       "source_basename": "WRIC(A)_27664_2012.pdf",
       "title": "Smt. Kusum Dubey v. U.P. Power Corporation Ltd. And Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-921",
+      "source_basename": "WRIC(A)_29467_2012.pdf",
+      "title": "Sriram Dang v. State of U.P. And Others",
       "status": "done"
     }
   ]
