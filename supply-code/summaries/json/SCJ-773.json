@@ -1,0 +1,39 @@
+{
+  "case_id": "SCJ-773",
+  "title": "M/s Silverton Paper Ltd. v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+  "neutral_citation": "Writ-C No. 18939 of 2010",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sunil Ambwani, J.; Kashi Nath Pandey, J.",
+  "date_of_judgment": "2010-05-11",
+  "date_display": "11 May 2010",
+  "docket": "WRIT - C No. - 18939 of 2010",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition dismissed; no directions on administrative line-shifting.",
+  "headnote": "A 130 KVA independent-feeder consumer sought writ directions because, after road widening, the licensee was relocating the feeding line so that conductors would pass through dense tree foliage, allegedly without supervision under para 4.6(e) and (ii) of the U.P. Electricity Supply Code, 2005. The Division Bench held that shifting of lines as a consequence of road widening, and assurance of quality of work for uninterrupted supply, is a purely administrative matter. Without shown delay, negligence, or a genuine and apparent apprehension, there is no cause of action to issue directions at that stage. Writ dismissed.",
+  "facts": "M/s Silverton Paper Ltd. held a 130 KVA independent feeder from Sub Centre Bhopa Road, Muzaffarnagar. Road widening required the feeding lines to be moved from the centre of the road to the sides. The petitioners alleged that poles were being placed so conductors would pass through dense tree foliage, that the new line was not supervised under para 4.6(e) and (ii) of the Electricity Supply Code, 2005, and that PWD had deposited Rs 20 lakh with the Corporation. Relaying was still in progress.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.6",
+      "code": "UP-2005",
+      "clause": "4.6",
+      "topic": "supervision of line shifting after road widening",
+      "type": "supply_code",
+      "holding": "A consumer of an independent feeder cannot, while lines are still being relocated for road widening, invoke writ jurisdiction to supervise pole placement or quality of work under para 4.6 of the Supply Code. Shifting of the line and assurance of uninterrupted supply is a purely administrative matter. Directions will not issue unless delay, negligence, or a genuine and apparent apprehension is shown.",
+      "paras": "1",
+      "flag": "Order cites 'Para 4.6 (e) and (ii)' of the Electricity Supply Code 2005 (mixed lettered and roman sub-clauses); keyed to catalog hit UP-2005::4.6 without resolving sub-clause numbering."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the relocated line breached para 4.6(e)/(ii) or would interrupt supply",
+      "note": "Dismissed as premature; no finding on Code compliance or foliage routing.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}

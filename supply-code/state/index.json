@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 775,
+  "next_seq": 776,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -4636,6 +4636,12 @@
       "case_id": "SCJ-772",
       "source_basename": "WRIC(A)_15771_2010.pdf",
       "title": "Smt. Chandrawati v. Dakshinanchal Electricity Supply Nigam Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-773",
+      "source_basename": "WRIC(A)_18939_2010.pdf",
+      "title": "M/s Silverton Paper Ltd. v. Paschimanchal Vidyut Vitran Nigam Ltd.",
       "status": "done"
     }
   ]
