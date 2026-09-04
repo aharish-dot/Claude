@@ -1,0 +1,53 @@
+{
+  "case_id": "SCJ-668",
+  "title": "M/S Radha Krishna v. M.D., D.V.V.N. and Another",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "D.S.R. Varma, J.; Abhinava Upadhya, J.",
+  "date_of_judgment": "2011-04-13",
+  "date_display": "13 April 2011",
+  "docket": "Writ - C No. 28435 of 2007",
+  "page_count": 5,
+  "significance": "ordinary",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of; Rs.10 lakh restoration deposit to be refunded against security (other than cash or bank guarantee) within two months.",
+  "headnote": "Where a consumer deposited a large sum as a condition of restoration after a section 135 theft FIR, and the special court later held the theft charge not made out, a pending criminal revision against that acquittal means the criminal proceedings have not attained finality. That does not bar refund of the deposit under Clause 8.2(x)(f) and (h) of the U.P. Electricity Supply Code, 2005, but the refund is to be made against security other than cash or bank guarantee, to the satisfaction of the Executive Engineer, within two months of the security being furnished. The writ is disposed of on that direction and on the consent of counsel.",
+  "facts": "M/S Radha Krishna had a cold-storage electricity connection. On 22 June 2007 the distribution licensee raided the premises, alleged theft because the meter seal was broken, and lodged an FIR the same day under section 135 of the Electricity Act, 2003. The writ sought restoration; on 29 June 2007 the Court directed restoration on deposit of Rs.10 lakhs. The Special Judge (Essential Commodities Act), Etah, by order dated 13 August 2009 held the theft charge not made out. The petitioner then sought refund of that deposit under Clause 8.2(x)(f) and (h) of the U.P. Electricity Supply Code, 2005. The licensee had filed Criminal Revision No. 4697 of 2009 against the acquittal; notices had issued, but no interim protection had been granted.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.2(x)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "8.2(x)",
+      "topic": "refund of restoration deposit after s.135 theft charge not made out, against security while revision pending",
+      "type": "supply_code",
+      "holding": "The petitioner, having had the theft charge held not made out, sought refund of the Rs.10 lakh restoration deposit under Clause 8.2(x)(f) and (h). Because a criminal revision against the acquittal is pending, the proceedings have not attained finality, but there is no impediment to refund if the petitioner furnishes security other than cash or bank guarantee to the satisfaction of the concerned Executive Engineer. The amount shall be refunded within two months after that security is furnished. The writ is disposed of finally on that direction and on the consent of counsel.",
+      "paras": "1",
+      "flag": "Source PDF concatenates listing orders of 14.12.2010, 22.12.2010 and 20.1.2011; the operative disposal is 13.4.2011 (unnumbered). Petitioner invoked Clause 8.2(x)(f) and (h); the Court directed refund against security rather than construing those sub-clauses as an unconditional cash refund."
+    },
+    {
+      "provision": "EA2003::135",
+      "code": "Electricity Act, 2003",
+      "clause": "135",
+      "topic": "pending revision against acquittal means s.135 proceedings have not attained finality",
+      "type": "electricity_act",
+      "holding": "An FIR under section 135 was lodged the same day as the 22 June 2007 raid. The Special Judge later held the theft charge not made out. A criminal revision against that order having been filed and notices issued, the proceedings have not attained finality; that fact is the reason the refund is against security rather than unconditional.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Merits of Criminal Revision No. 4697 of 2009 against the 13.8.2009 acquittal",
+      "note": "Noticed as pending with no interim protection; not decided.",
+      "paras": "1"
+    },
+    {
+      "point": "Whether Clause 8.2(x)(f) and (h) require an unconditional cash refund once theft is not proved",
+      "note": "Refund directed against non-cash, non-bank-guarantee security because the revision had not attained finality; sub-clauses not construed as an automatic cash refund.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
