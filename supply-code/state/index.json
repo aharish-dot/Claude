@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 681,
+  "next_seq": 682,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -4072,6 +4072,12 @@
       "case_id": "SCJ-678",
       "source_basename": "WRIC(A)_19592_2008.pdf",
       "title": "M/S Sri Dauji Cold Storage Pvt Ltd And Another v. Dakshinanchal Vidyut Vitran Nigam Ltd And Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-679",
+      "source_basename": "WRIC(A)_22449_2008.pdf",
+      "title": "Paijat Paper Mills Ltd. v. PVVNL",
       "status": "done"
     }
   ]
