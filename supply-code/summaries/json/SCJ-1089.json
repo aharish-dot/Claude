@@ -1,0 +1,45 @@
+{
+  "case_id": "SCJ-1089",
+  "title": "Alok Kumar Mishra v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "V.K. Shukla, J.; Shashi Kant, J.",
+  "date_of_judgment": "2014-07-14",
+  "date_display": "14 July 2014",
+  "docket": "Criminal Misc. Writ Petition No. 11701 of 2014",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "s.135 FIR not quashed; CrPC 41-A arrest; compounding under Supply Code 2005",
+  "headnote": "Criminal writ to quash an FIR under s.135 of the Electricity Act, 2003. The Court refused quashing because the FIR disclosed a cognizable offence, directed that any arrest comply with Cr.P.C. ss. 41(1)(b) and 41-A where the sentence cannot exceed seven years, and left compounding, if available, to be sought under the Electricity Supply Code, 2005.",
+  "facts": "Alok Kumar Mishra sought quashing of FIR dated 26 June 2014 (Case Crime No. 315 of 2014) registered under Section 135 of the Electricity Act, 2003 at Police Station Wazeerganj, District Budaun. The State and opposite party no. 3, the electricity licensee, were represented. Arrest had not been effectuated. The petitioner feared mechanical arrest, contending the alleged offence could not attract a sentence exceeding seven years and was compoundable.",
+  "holding_units": [
+    {
+      "provision": "EA2003::135",
+      "code": "EA2003",
+      "clause": "135",
+      "topic": "quashing of s.135 FIR; arrest safeguards; compounding",
+      "type": "electricity_act",
+      "holding": "The FIR dated 26.06.2014 under Section 135 of the Electricity Act disclosed a cognizable offence, so the prayer to quash it was refused. Arrest not having been made, any future arrest for an offence not entailing sentence of more than seven years must comply with Section 41(1)(b) read with Section 41-A Cr.P.C. If the offence is compoundable, the petitioner may seek that remedy under the Electricity Supply Code, 2005. The writ petition was disposed of with those directions.",
+      "paras": "1-2"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "s135-arrest-safeguards-and-compounding-remedy",
+      "application": "Applied to refuse quashing of a s.135 FIR that disclosed a cognizable offence, while directing that any arrest comply with Cr.P.C. 41(1)(b) and 41-A and leaving compounding to the Electricity Supply Code, 2005.",
+      "lead_authorities": [],
+      "paras": "1-2"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the alleged s.135 offence is compoundable on these facts",
+      "note": "The Court left the petitioner to seek compounding under the Electricity Supply Code, 2005 if the offence is compoundable.",
+      "paras": "2"
+    }
+  ],
+  "authorities": []
+}
