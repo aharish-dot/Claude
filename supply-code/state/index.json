@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 900,
+  "next_seq": 901,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -5380,6 +5380,12 @@
       "case_id": "SCJ-896",
       "source_basename": "WRIC(A)_14279_2012.pdf",
       "title": "M/S Chandpur Enterprises Ltd. v. Executive Engineer, Electricity Distribution Division",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-897",
+      "source_basename": "WRIC(A)_15488_2012.pdf",
+      "title": "Budhram v. State of U.P. — tubewell dues recovery",
       "status": "done"
     }
   ]
