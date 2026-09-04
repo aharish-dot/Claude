@@ -1,0 +1,47 @@
+{
+  "case_id": "SCJ-1240",
+  "title": "Shiv Kumar v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Amreshwar Pratap Sahi and Vivek Kumar Birla, JJ.",
+  "date_of_judgment": "2014-09-01",
+  "date_display": "1 September 2014",
+  "docket": "Writ-C No. 46235 of 2014",
+  "page_count": 1,
+  "significance": "procedural",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of; petitioner relegated to EE under cl. 6.5/ss. 126-127.",
+  "headnote": "A writ disputing the correctness of electricity bills is not decided on merits. The consumer may object under Clause 6.5 of the U.P. Electricity Supply Code, 2005 or before the grievance redressal forum; assessment grievances lie to the Executive Engineer under section 126 of the Electricity Act, 2003, with appeal under section 127. Liberty was granted to approach the Executive Engineer, to be decided within three months if entertainable.",
+  "facts": "Shiv Kumar petitioned the Allahabad High Court against the State of Uttar Pradesh and others, including the Executive Engineer, Vidyut Vitaran Khand, Siddharth Nagar, disputing the correctness of electricity bills raised against him. Counsel for both sides were heard. The Division Bench did not inquire into how the bills were computed or whether any assessment under the Electricity Act had been completed. The record was a writ challenging those bills, with the Executive Engineer of the distribution division impleaded as a respondent.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "billing dispute; writ relegated to statutory objection",
+      "type": "supply_code",
+      "holding": "A consumer disputing the correctness of electricity bills may raise the dispute under Clause 6.5 of the U.P. Electricity Supply Code, 2005 or before the consumer grievance redressal forum. The High Court will not examine the bills on a writ petition.",
+      "paras": "1"
+    },
+    {
+      "provision": "EA2003::126",
+      "code": "EA2003",
+      "clause": "126",
+      "topic": "assessment grievance; appeal under s.127",
+      "type": "electricity_act",
+      "holding": "If the consumer is aggrieved by assessment proceedings, the grievance lies to the Executive Engineer under section 126 of the Electricity Act, 2003, and any grievance against the order of assessment is appealable under section 127. The writ was disposed of with liberty to approach the Executive Engineer, Vidyut Vitaran Khand, Siddharth Nagar, for redressal under the applicable provision, to be decided within three months if entertainable.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "correctness of the electricity bills raised against the petitioner",
+      "note": "Not examined; petitioner relegated to Clause 6.5, the redressal forum, or sections 126/127 as applicable.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
