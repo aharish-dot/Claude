@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 980,
+  "next_seq": 981,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -5860,6 +5860,12 @@
       "case_id": "SCJ-976",
       "source_basename": "WRIC(A)_10031_2013.pdf",
       "title": "M/s Shree Gopala Iron India Pvt. Ltd. v. Pashchimanchal Vidyut Vitran Nigam Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-977",
+      "source_basename": "WRIC(A)_11018_2013.pdf",
+      "title": "M/S Rathi Super Steel Ltd. v. Paschimanchal Vidyut Vitran Nigam Ltd.",
       "status": "done"
     }
   ]
