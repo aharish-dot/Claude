@@ -1,0 +1,38 @@
+{
+  "case_id": "SCJ-893",
+  "title": "Jaipal Singh v. State of U.P. & Ors.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sunil Ambwani and Pankaj Naqvi, JJ.",
+  "date_of_judgment": "2012-03-14",
+  "date_display": "14 March 2012",
+  "docket": "Writ-C No. 11997 of 2012",
+  "page_count": 3,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; objections to provisional assessment directed; recovery stayed two months.",
+  "headnote": "A writ does not lie to test a recovery certificate founded on a provisional assessment for unauthorised drawing under Annexure 6.3 of the U.P. Electricity Supply Code, 2005. The consumer must object to that assessment and then appeal under Section 127 of the Electricity Act, 2003. Recovery was stayed for two months to enable that course. A police final report closing the FIR does not, without a proper investigation of occupancy, displace the assessment.",
+  "facts": "Jaipal Singh was found, on inspection near Ambedkar School at Auraiya, drawing electricity unauthorisedly by putting cables on the main line. An FIR was lodged and a provisional assessment of Rs.80,863 was made under Annexure 6.3 of the U.P. Electricity Supply Code, 2005; he filed no objection. The Executive Engineer issued a recovery certificate to the Collector, Auraiya. Police later submitted a final report dated 1 February 2011 that bills had been paid and Singh's name was wrongly recorded, the house belonging to someone else.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "objections to provisional assessment and s.127 appeal",
+      "type": "electricity_act",
+      "holding": "A consumer assessed for unauthorised drawing under Annexure 6.3 of the U.P. Electricity Supply Code, 2005 must object to the provisional assessment and, on a final order, appeal under Section 127 of the Electricity Act, 2003; the writ court will not decide the recovery on merits. If objections are filed within fifteen days they shall be decided within a month, recovery remaining stayed for two months. A police final report closing the criminal case, without a detailed investigation of who occupied the premises, does not displace that assessment machinery.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Correctness of the Rs.80,863 unauthorised-use assessment and whether the petitioner occupied the inspected premises",
+      "note": "Left to objections on the provisional assessment and thereafter to appeal under Section 127.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
