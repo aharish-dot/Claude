@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1189,
+  "next_seq": 1190,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -7114,6 +7114,12 @@
       "case_id": "SCJ-1186",
       "source_basename": "WRIC(A)_31760_2014.pdf",
       "title": "M/s Raja Ram Ispat Private Ltd. v. State of U.P. and others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1185",
+      "source_basename": "WRIC(A)_30987_2014.pdf",
+      "title": "Omar Cold Storage Pvt. Ltd. v. Madhyanchal Vidut Vitran Nigam Ltd.",
       "status": "done"
     }
   ]
