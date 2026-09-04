@@ -95,7 +95,7 @@ A precision rule the worked example already exercises: **State Supply Codes diff
 | `processed/` | Sources moved here once the digest is committed (the move *is* the progress marker). |
 | `extracts/` | Per-case cleaned text (`.txt`) + fingerprint (`.fp.json`) + structured extract (`.extract.json`). |
 | `summaries/json/` | Per-case clean digest JSON (the leaves). |
-| `summaries/pdf/` | Per-case digest PDFs (deliverables). |
+| `summaries/pdf/` | Per-case digest PDFs (`significant/`, then `001-1000/`, `1001-2000/`, …). |
 | `summaries/merged/` | Cross-case compilations (table of authorities, comparative facts, …). |
 | `jurisprudence/` | **The spine:** `index.json` (provision- & principle-keyed) + `provisions/`. |
 | `state/` | `index.json` (filename → case id), `authorities-ledger.json`. |

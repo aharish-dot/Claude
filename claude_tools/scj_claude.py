@@ -148,10 +148,9 @@ def do_claim(args):
 
 def render_pdf(cid, rec_path, c):
     slug = F.slug_from_title(c.get("title") or cid)
-    name = F.digest_pdf_basename(cid, slug, c.get("significance"))
-    out_dir = os.path.join(SC, "summaries", "pdf")
-    os.makedirs(out_dir, exist_ok=True)
-    out = os.path.join(out_dir, name)
+    rel = F.digest_pdf_relpath(cid, slug, c.get("significance"))
+    out = os.path.join(SC, "summaries", "pdf", *rel.split("/"))
+    os.makedirs(os.path.dirname(out), exist_ok=True)
     work = tempfile.mkdtemp(prefix="scjc_")
     html = os.path.join(work, cid + ".html")
     subprocess.run([sys.executable, os.path.join(CLAUDE_TOOLS, "gen_scj.py"), rec_path, html],
@@ -164,8 +163,8 @@ def render_pdf(cid, rec_path, c):
                    check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     if not os.path.exists(out) or os.path.getsize(out) < 1000:
         die(f"digest PDF missing/too small: {out}")
-    F.retire_other_digests(cid, name)
-    return out, name
+    F.retire_other_digests(cid, out)
+    return out, rel
 
 
 def move_source_cq(rel):

@@ -68,25 +68,51 @@ def digest_pdf_basename(cid, slug, significance=None):
     return f"{cid}_{slug}.pdf"
 
 
-def retire_other_digests(cid, keep_name):
-    """Remove leftover digest PDFs for this id (old slug or missing _S_)."""
-    out_dir = os.path.join(SC, "summaries", "pdf")
+def digest_pdf_subdir(cid, significance=None):
+    """Folder under summaries/pdf/. Significant → significant/; else 001-1000, 1001-2000, …"""
+    raw = str(significance or "").strip().lower()
+    if SIG_ALIASES.get(raw) == "significant":
+        return "significant"
+    try:
+        seq = int(str(cid).split("-")[1])
+    except (IndexError, ValueError):
+        seq = 1
+    if seq < 1:
+        seq = 1
+    lo = ((seq - 1) // 1000) * 1000 + 1
+    hi = lo + 999
+    return f"{lo:03d}-{hi}"
+
+
+def digest_pdf_relpath(cid, slug, significance=None):
+    """Path relative to summaries/pdf/, e.g. significant/SCJ-401_S_….pdf."""
+    return digest_pdf_subdir(cid, significance) + "/" + digest_pdf_basename(
+        cid, slug, significance
+    )
+
+
+def retire_other_digests(cid, keep_path):
+    """Remove leftover digest PDFs for this id (old slug, missing _S_, or old folder)."""
+    root = os.path.join(SC, "summaries", "pdf")
     retired = []
-    if not os.path.isdir(out_dir):
+    if not os.path.isdir(root):
         return retired
-    for n in os.listdir(out_dir):
-        if not n.endswith(".pdf"):
-            continue
-        if not n.startswith(cid + "_"):
-            continue
-        if n == keep_name:
-            continue
-        path = os.path.join(out_dir, n)
-        try:
-            os.remove(path)
-            retired.append("supply-code/summaries/pdf/" + n)
-        except OSError:
-            pass
+    keep_path = os.path.normpath(os.path.abspath(keep_path))
+    prefix = cid + "_"
+    for dirpath, _dirs, filenames in os.walk(root):
+        for n in filenames:
+            if not n.endswith(".pdf") or not n.startswith(prefix):
+                continue
+            path = os.path.normpath(os.path.abspath(os.path.join(dirpath, n)))
+            if path == keep_path:
+                continue
+            try:
+                os.remove(path)
+                retired.append(
+                    os.path.relpath(path, ROOT).replace("\\", "/")
+                )
+            except OSError:
+                pass
     return retired
 
 
@@ -328,10 +354,9 @@ def render_pdf(cid, slug, rec, chrome, significance=None):
         [sys.executable, os.path.join(ROOT, "tools", "gen_scj.py"), rec, html],
         cwd=ROOT, check=True,
     )
-    out_dir = os.path.join(SC, "summaries", "pdf")
-    os.makedirs(out_dir, exist_ok=True)
-    keep = digest_pdf_basename(cid, slug, significance)
-    out = os.path.join(out_dir, keep)
+    rel = digest_pdf_relpath(cid, slug, significance)
+    out = os.path.join(SC, "summaries", "pdf", *rel.split("/"))
+    os.makedirs(os.path.dirname(out), exist_ok=True)
     ud = tempfile.mkdtemp(prefix="scj_chrome_")
     subprocess.run(
         [chrome, "--headless=new", "--disable-gpu", "--no-sandbox",
@@ -341,7 +366,7 @@ def render_pdf(cid, slug, rec, chrome, significance=None):
     )
     if not os.path.exists(out) or os.path.getsize(out) < 1000:
         die(f"digest PDF missing or too small: {out}")
-    retire_other_digests(cid, keep)
+    retire_other_digests(cid, out)
     return out
 
 
@@ -384,7 +409,7 @@ def git_commit_push(cid, title, pdf_rel, src, do_push):
     rel, _ = _src_parts(src)
     files = [
         f"supply-code/summaries/json/{cid}.json",
-        f"supply-code/summaries/pdf/{os.path.basename(pdf_rel)}",
+        os.path.relpath(pdf_rel, ROOT).replace("\\", "/"),
         "supply-code/state/index.json",
         "supply-code/jurisprudence/index.json",
         "supply-code/jurisprudence/catalog.txt",

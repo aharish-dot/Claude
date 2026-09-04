@@ -76,7 +76,7 @@ Details: [`supply-code/NEXT.md`](supply-code/NEXT.md) (trigger card),
 | `supply-code/input/` | Live PDF queue (on GitHub) |
 | `supply-code/processed/` | Sources after a case is finalized |
 | `supply-code/summaries/json/` | Lean digest JSON |
-| `supply-code/summaries/pdf/` | Digest PDFs |
+| `supply-code/summaries/pdf/` | Digest PDFs (`significant/`, `001-1000/`, `1001-2000/`, …) |
 | `supply-code/jurisprudence/` | Provision- and principle-keyed spine |
 | `tools/run_next_case_loop.ps1` | Windows launcher |
 | `tools/run_next_case_loop.sh` | Ubuntu launcher |
