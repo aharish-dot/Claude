@@ -1,0 +1,1309 @@
+{
+  "corpus_cases": 708,
+  "queue_files": 3270,
+  "internal_duplicate_groups": [
+    {
+      "case_ids": [
+        "SCJ-225",
+        "SCJ-707"
+      ],
+      "shared_dockets": [
+        "16147 of 2009",
+        "16149 of 2009",
+        "27290 of 2008"
+      ],
+      "titles": {
+        "SCJ-225": "Raman Ispat (Pvt.) Ltd. & Anr. v. Pashchimanchal Vidyut Vitran Nigam Ltd. & Ors.",
+        "SCJ-707": "M/s Raman Ispat (Pvt.) Ltd. v. Pashchimanchal Vidyut Vitran Nigam Ltd."
+      }
+    }
+  ],
+  "internal_duplicate_group_count": 1,
+  "soft_duplicate_candidates": [
+    {
+      "date": "2010-03-29",
+      "coram": "vijay manohar sahai, j. & raj mani chauhan, j.",
+      "party": "vijay",
+      "case_ids": [
+        "SCJ-227",
+        "SCJ-228"
+      ],
+      "titles": {
+        "SCJ-227": "Vijay Pal Singh & Another v. Dakshinanchal Vidyut Vitran Nigam Ltd. and Others",
+        "SCJ-228": "Vijay Pal Singh v. Dakshinanchal Vidyut Vitran Nigam Ltd. and Others"
+      }
+    },
+    {
+      "date": "2026-02-13",
+      "coram": "ajit kumar, j. & swarupama chaturvedi, j.",
+      "party": "kamakhya",
+      "case_ids": [
+        "SCJ-273",
+        "SCJ-315"
+      ],
+      "titles": {
+        "SCJ-273": "M/S Kamakhya Steels Pvt. Ltd. v. State of U.P. & Others",
+        "SCJ-315": "M/s Kamakhya Steels Pvt. Ltd. & Another v. PVVNL & Another"
+      }
+    },
+    {
+      "date": "2025-10-07",
+      "coram": "saumitra dayal singh, j. and indrajeet shukla, j.",
+      "party": "petitioner",
+      "case_ids": [
+        "SCJ-428",
+        "SCJ-438"
+      ],
+      "titles": {
+        "SCJ-428": "Petitioner v. State of Uttar Pradesh",
+        "SCJ-438": "Petitioner v. State of U.P. and Others"
+      }
+    },
+    {
+      "date": "2025-10-31",
+      "coram": "jaspreet singh, j.",
+      "party": "power",
+      "case_ids": [
+        "SCJ-490",
+        "SCJ-491",
+        "SCJ-492",
+        "SCJ-493",
+        "SCJ-494"
+      ],
+      "titles": {
+        "SCJ-490": "U.P. Power Corp. Ltd. Through Executive Engineer v. Ombudsmen and 2 Others",
+        "SCJ-491": "U.P. Power Corp. Ltd. Through Executive Engineer v. Ombudsmen and 2 Others",
+        "SCJ-492": "U.P. Power Corp. Ltd. Through Executive Engineer v. Ombudsmen and 2 Others",
+        "SCJ-493": "U.P. Power Corp. Ltd. Through Executive Engineer v. Ombudsmen and 2 Others",
+        "SCJ-494": "U.P. Power Corp. Ltd. Through Executive Engineer v. Ombudsmen and 2 Others"
+      }
+    },
+    {
+      "date": "2023-03-21",
+      "coram": "sangeeta chandra, j.",
+      "party": "power",
+      "case_ids": [
+        "SCJ-700",
+        "SCJ-701",
+        "SCJ-702"
+      ],
+      "titles": {
+        "SCJ-700": "U.P. Power Corp. Ltd. Through Executive Engineer v. Ombudsmen and 2 Others",
+        "SCJ-701": "U.P. Power Corp. Ltd. Through Executive Engineer v. Ombudsmen and 2 Others",
+        "SCJ-702": "U.P. Power Corp. Ltd. Through Executive Engineer v. Ombudsmen and 2 Others"
+      }
+    }
+  ],
+  "soft_duplicate_candidate_count": 5,
+  "queue_files_already_in_corpus": [
+    {
+      "file": "2009/WRIC(A)_24900_2009.pdf",
+      "docket": "24900 of 2009",
+      "pages": 23,
+      "covered_by": [
+        "SCJ-246"
+      ]
+    },
+    {
+      "file": "2009/WRIC(A)_32562_2009.pdf",
+      "docket": "32562 of 2009",
+      "pages": 33,
+      "covered_by": [
+        "SCJ-255"
+      ]
+    },
+    {
+      "file": "2009/WRIC(A)_35248_2009.pdf",
+      "docket": "35248 of 2009",
+      "pages": 30,
+      "covered_by": [
+        "SCJ-218"
+      ]
+    },
+    {
+      "file": "2009/WRIC(A)_38_2009.pdf",
+      "docket": "38 of 2009",
+      "pages": 23,
+      "covered_by": [
+        "SCJ-252"
+      ]
+    },
+    {
+      "file": "2009/WRIC(A)_55384_2009.pdf",
+      "docket": "55384 of 2009",
+      "pages": 32,
+      "covered_by": [
+        "SCJ-153"
+      ]
+    },
+    {
+      "file": "2009/WRIC(A)_70447_2009.pdf",
+      "docket": "70447 of 2009",
+      "pages": 17,
+      "covered_by": [
+        "SCJ-072"
+      ]
+    },
+    {
+      "file": "2010/SPLAD(L)_547_2010.pdf",
+      "docket": "547 of 2010",
+      "pages": 26,
+      "covered_by": [
+        "SCJ-138"
+      ]
+    },
+    {
+      "file": "2010/WRIC(A)_20679_2010.pdf",
+      "docket": "20679 of 2010",
+      "pages": 31,
+      "covered_by": [
+        "SCJ-121"
+      ]
+    },
+    {
+      "file": "2010/WRIC(A)_47592_2010.pdf",
+      "docket": "47592 of 2010",
+      "pages": 17,
+      "covered_by": [
+        "SCJ-258"
+      ]
+    },
+    {
+      "file": "2010/WRIC(A)_52054_2010.pdf",
+      "docket": "52054 of 2010",
+      "pages": 69,
+      "covered_by": [
+        "SCJ-059"
+      ]
+    },
+    {
+      "file": "2010/WRIC(A)_63610_2010.pdf",
+      "docket": "63610 of 2010",
+      "pages": 144,
+      "covered_by": [
+        "SCJ-060"
+      ]
+    },
+    {
+      "file": "2010/WRIC(A)_70240_2010.pdf",
+      "docket": "70240 of 2010",
+      "pages": 7,
+      "covered_by": [
+        "SCJ-039"
+      ]
+    },
+    {
+      "file": "2010/WRIC(A)_8747_2010.pdf",
+      "docket": "8747 of 2010",
+      "pages": 7,
+      "covered_by": [
+        "SCJ-003"
+      ]
+    },
+    {
+      "file": "2011/WRIC(A)_10592_2011.pdf",
+      "docket": "10592 of 2011",
+      "pages": 8,
+      "covered_by": [
+        "SCJ-177"
+      ]
+    },
+    {
+      "file": "2011/WRIC(A)_13859_2011.pdf",
+      "docket": "13859 of 2011",
+      "pages": 6,
+      "covered_by": [
+        "SCJ-023"
+      ]
+    },
+    {
+      "file": "2011/WRIC(A)_15059_2011.pdf",
+      "docket": "15059 of 2011",
+      "pages": 5,
+      "covered_by": [
+        "SCJ-235"
+      ]
+    },
+    {
+      "file": "2011/WRIC(A)_15788_2011.pdf",
+      "docket": "15788 of 2011",
+      "pages": 7,
+      "covered_by": [
+        "SCJ-172"
+      ]
+    },
+    {
+      "file": "2011/WRIC(A)_20059_2011.pdf",
+      "docket": "20059 of 2011",
+      "pages": 3,
+      "covered_by": [
+        "SCJ-294"
+      ]
+    },
+    {
+      "file": "2011/WRIC(A)_21243_2011.pdf",
+      "docket": "21243 of 2011",
+      "pages": 8,
+      "covered_by": [
+        "SCJ-022"
+      ]
+    },
+    {
+      "file": "2011/WRIC(A)_23080_2011.pdf",
+      "docket": "23080 of 2011",
+      "pages": 15,
+      "covered_by": [
+        "SCJ-261"
+      ]
+    },
+    {
+      "file": "2011/WRIC(A)_25037_2011.pdf",
+      "docket": "25037 of 2011",
+      "pages": 6,
+      "covered_by": [
+        "SCJ-119"
+      ]
+    },
+    {
+      "file": "2011/WRIC(A)_27196_2011.pdf",
+      "docket": "27196 of 2011",
+      "pages": 15,
+      "covered_by": [
+        "SCJ-032"
+      ]
+    },
+    {
+      "file": "2011/WRIC(A)_281_2011.pdf",
+      "docket": "281 of 2011",
+      "pages": 2,
+      "covered_by": [
+        "SCJ-217"
+      ]
+    },
+    {
+      "file": "2011/WRIC(A)_30263_2011.pdf",
+      "docket": "30263 of 2011",
+      "pages": 5,
+      "covered_by": [
+        "SCJ-125"
+      ]
+    },
+    {
+      "file": "2011/WRIC(A)_31602_2011.pdf",
+      "docket": "31602 of 2011",
+      "pages": 35,
+      "covered_by": [
+        "SCJ-008"
+      ]
+    },
+    {
+      "file": "2011/WRIC(A)_34855_2011.pdf",
+      "docket": "34855 of 2011",
+      "pages": 14,
+      "covered_by": [
+        "SCJ-263"
+      ]
+    },
+    {
+      "file": "2011/WRIC(A)_38285_2011.pdf",
+      "docket": "38285 of 2011",
+      "pages": 4,
+      "covered_by": [
+        "SCJ-016"
+      ]
+    },
+    {
+      "file": "2011/WRIC(A)_54089_2011.pdf",
+      "docket": "54089 of 2011",
+      "pages": 6,
+      "covered_by": [
+        "SCJ-047"
+      ]
+    },
+    {
+      "file": "2011/WRIC(A)_58434_2011.pdf",
+      "docket": "58434 of 2011",
+      "pages": 9,
+      "covered_by": [
+        "SCJ-055"
+      ]
+    },
+    {
+      "file": "2011/WRIC(A)_59470_2011.pdf",
+      "docket": "59470 of 2011",
+      "pages": 7,
+      "covered_by": [
+        "SCJ-058"
+      ]
+    },
+    {
+      "file": "2011/WRIC(A)_64725_2011.pdf",
+      "docket": "64725 of 2011",
+      "pages": 19,
+      "covered_by": [
+        "SCJ-071"
+      ]
+    },
+    {
+      "file": "2011/WRIC(A)_9637_2011.pdf",
+      "docket": "9637 of 2011",
+      "pages": 3,
+      "covered_by": [
+        "SCJ-096"
+      ]
+    },
+    {
+      "file": "2012/WRIC(A)_12840_2012.pdf",
+      "docket": "12840 of 2012",
+      "pages": 31,
+      "covered_by": [
+        "SCJ-057"
+      ]
+    },
+    {
+      "file": "2012/WRIC(A)_14347_2012.pdf",
+      "docket": "14347 of 2012",
+      "pages": 31,
+      "covered_by": [
+        "SCJ-126"
+      ]
+    },
+    {
+      "file": "2012/WRIC(A)_15209_2012.pdf",
+      "docket": "15209 of 2012",
+      "pages": 5,
+      "covered_by": [
+        "SCJ-069"
+      ]
+    },
+    {
+      "file": "2012/WRIC(A)_24772_2012.pdf",
+      "docket": "24772 of 2012",
+      "pages": 9,
+      "covered_by": [
+        "SCJ-145"
+      ]
+    },
+    {
+      "file": "2012/WRIC(A)_24848_2012.pdf",
+      "docket": "24848 of 2012",
+      "pages": 9,
+      "covered_by": [
+        "SCJ-015"
+      ]
+    },
+    {
+      "file": "2012/WRIC(A)_30233_2012.pdf",
+      "docket": "30233 of 2012",
+      "pages": 11,
+      "covered_by": [
+        "SCJ-051"
+      ]
+    },
+    {
+      "file": "2012/WRIC(A)_33308_2012.pdf",
+      "docket": "33308 of 2012",
+      "pages": 16,
+      "covered_by": [
+        "SCJ-052"
+      ]
+    },
+    {
+      "file": "2012/WRIC(A)_53332_2012.pdf",
+      "docket": "53332 of 2012",
+      "pages": 5,
+      "covered_by": [
+        "SCJ-182"
+      ]
+    },
+    {
+      "file": "2012/WRIC(A)_58528_2012.pdf",
+      "docket": "58528 of 2012",
+      "pages": 2,
+      "covered_by": [
+        "SCJ-242"
+      ]
+    },
+    {
+      "file": "2012/WRIC(A)_58652_2012.pdf",
+      "docket": "58652 of 2012",
+      "pages": 25,
+      "covered_by": [
+        "SCJ-067"
+      ]
+    },
+    {
+      "file": "2012/WRIC(A)_61172_2012.pdf",
+      "docket": "61172 of 2012",
+      "pages": 147,
+      "covered_by": [
+        "SCJ-062"
+      ]
+    },
+    {
+      "file": "2012/WRIC(A)_64566_2012.pdf",
+      "docket": "64566 of 2012",
+      "pages": 2,
+      "covered_by": [
+        "SCJ-046"
+      ]
+    },
+    {
+      "file": "2012/WRIC(A)_67919_2012.pdf",
+      "docket": "67919 of 2012",
+      "pages": 2,
+      "covered_by": [
+        "SCJ-224"
+      ]
+    },
+    {
+      "file": "2013/WRIC(A)_10253_2013.pdf",
+      "docket": "10253 of 2013",
+      "pages": 5,
+      "covered_by": [
+        "SCJ-244"
+      ]
+    },
+    {
+      "file": "2013/WRIC(A)_33773_2013.pdf",
+      "docket": "33773 of 2013",
+      "pages": 4,
+      "covered_by": [
+        "SCJ-034"
+      ]
+    },
+    {
+      "file": "2013/WRIC(A)_3765_2013.pdf",
+      "docket": "3765 of 2013",
+      "pages": 5,
+      "covered_by": [
+        "SCJ-178"
+      ]
+    },
+    {
+      "file": "2013/WRIC(A)_524_2013.pdf",
+      "docket": "524 of 2013",
+      "pages": 2,
+      "covered_by": [
+        "SCJ-013"
+      ]
+    },
+    {
+      "file": "2013/WRIC(A)_54208_2013.pdf",
+      "docket": "54208 of 2013",
+      "pages": 4,
+      "covered_by": [
+        "SCJ-219"
+      ]
+    },
+    {
+      "file": "2013/WRIC(A)_57502_2013.pdf",
+      "docket": "57502 of 2013",
+      "pages": 2,
+      "covered_by": [
+        "SCJ-241"
+      ]
+    },
+    {
+      "file": "2013/WRIC(A)_58746_2013.pdf",
+      "docket": "58746 of 2013",
+      "pages": 8,
+      "covered_by": [
+        "SCJ-163"
+      ]
+    },
+    {
+      "file": "2013/WRIC(A)_58763_2013.pdf",
+      "docket": "58763 of 2013",
+      "pages": 5,
+      "covered_by": [
+        "SCJ-250"
+      ]
+    },
+    {
+      "file": "2013/WRIC(A)_64376_2013.pdf",
+      "docket": "64376 of 2013",
+      "pages": 11,
+      "covered_by": [
+        "SCJ-204"
+      ]
+    },
+    {
+      "file": "2013/WRIC(A)_66748_2013.pdf",
+      "docket": "66748 of 2013",
+      "pages": 2,
+      "covered_by": [
+        "SCJ-168"
+      ]
+    },
+    {
+      "file": "2013/WRIC(A)_69101_2013.pdf",
+      "docket": "69101 of 2013",
+      "pages": 35,
+      "covered_by": [
+        "SCJ-111"
+      ]
+    },
+    {
+      "file": "2013/WRIC(A)_70396_2013.pdf",
+      "docket": "70396 of 2013",
+      "pages": 2,
+      "covered_by": [
+        "SCJ-197"
+      ]
+    },
+    {
+      "file": "2013/WRIC(A)_71425_2013.pdf",
+      "docket": "71425 of 2013",
+      "pages": 2,
+      "covered_by": [
+        "SCJ-236"
+      ]
+    },
+    {
+      "file": "2014/CRLP(A)_11642_2014.pdf",
+      "docket": "11642 of 2014",
+      "pages": 2,
+      "covered_by": [
+        "SCJ-183"
+      ]
+    },
+    {
+      "file": "2014/CRLP(A)_11824_2014.pdf",
+      "docket": "11824 of 2014",
+      "pages": 2,
+      "covered_by": [
+        "SCJ-186"
+      ]
+    },
+    {
+      "file": "2014/CRLP(A)_11826_2014.pdf",
+      "docket": "11826 of 2014",
+      "pages": 2,
+      "covered_by": [
+        "SCJ-180"
+      ]
+    },
+    {
+      "file": "2014/CRLP(A)_11850_2014.pdf",
+      "docket": "11850 of 2014",
+      "pages": 2,
+      "covered_by": [
+        "SCJ-185"
+      ]
+    },
+    {
+      "file": "2014/CRLP(A)_13288_2014.pdf",
+      "docket": "13288 of 2014",
+      "pages": 3,
+      "covered_by": [
+        "SCJ-184"
+      ]
+    },
+    {
+      "file": "2014/WRIC(A)_11083_2014.pdf",
+      "docket": "11083 of 2014",
+      "pages": 3,
+      "covered_by": [
+        "SCJ-175"
+      ]
+    },
+    {
+      "file": "2014/WRIC(A)_13514_2014.pdf",
+      "docket": "13514 of 2014",
+      "pages": 12,
+      "covered_by": [
+        "SCJ-066"
+      ]
+    },
+    {
+      "file": "2014/WRIC(A)_13585_2014.pdf",
+      "docket": "13585 of 2014",
+      "pages": 4,
+      "covered_by": [
+        "SCJ-198"
+      ]
+    },
+    {
+      "file": "2014/WRIC(A)_1361_2014.pdf",
+      "docket": "1361 of 2014",
+      "pages": 32,
+      "covered_by": [
+        "SCJ-026"
+      ]
+    },
+    {
+      "file": "2014/WRIC(A)_17521_2014.pdf",
+      "docket": "17521 of 2014",
+      "pages": 4,
+      "covered_by": [
+        "SCJ-014"
+      ]
+    },
+    {
+      "file": "2014/WRIC(A)_17816_2014.pdf",
+      "docket": "17816 of 2014",
+      "pages": 8,
+      "covered_by": [
+        "SCJ-206"
+      ]
+    },
+    {
+      "file": "2014/WRIC(A)_22075_2014.pdf",
+      "docket": "22075 of 2014",
+      "pages": 4,
+      "covered_by": [
+        "SCJ-254"
+      ]
+    },
+    {
+      "file": "2014/WRIC(A)_23606_2014.pdf",
+      "docket": "23606 of 2014",
+      "pages": 14,
+      "covered_by": [
+        "SCJ-061"
+      ]
+    },
+    {
+      "file": "2014/WRIC(A)_26100_2014.pdf",
+      "docket": "26100 of 2014",
+      "pages": 2,
+      "covered_by": [
+        "SCJ-196"
+      ]
+    },
+    {
+      "file": "2014/WRIC(A)_26105_2014.pdf",
+      "docket": "26105 of 2014",
+      "pages": 3,
+      "covered_by": [
+        "SCJ-223"
+      ]
+    },
+    {
+      "file": "2014/WRIC(A)_28295_2014.pdf",
+      "docket": "28295 of 2014",
+      "pages": 8,
+      "covered_by": [
+        "SCJ-115"
+      ]
+    },
+    {
+      "file": "2014/WRIC(A)_30266_2014.pdf",
+      "docket": "30266 of 2014",
+      "pages": 2,
+      "covered_by": [
+        "SCJ-210"
+      ]
+    },
+    {
+      "file": "2014/WRIC(A)_31023_2014.pdf",
+      "docket": "31023 of 2014",
+      "pages": 10,
+      "covered_by": [
+        "SCJ-040"
+      ]
+    },
+    {
+      "file": "2014/WRIC(A)_33119_2014.pdf",
+      "docket": "33119 of 2014",
+      "pages": 13,
+      "covered_by": [
+        "SCJ-154"
+      ]
+    },
+    {
+      "file": "2014/WRIC(A)_33401_2014.pdf",
+      "docket": "33401 of 2014",
+      "pages": 4,
+      "covered_by": [
+        "SCJ-189"
+      ]
+    },
+    {
+      "file": "2014/WRIC(A)_33847_2014.pdf",
+      "docket": "33847 of 2014",
+      "pages": 2,
+      "covered_by": [
+        "SCJ-187"
+      ]
+    },
+    {
+      "file": "2014/WRIC(A)_34063_2014.pdf",
+      "docket": "34063 of 2014",
+      "pages": 3,
+      "covered_by": [
+        "SCJ-251"
+      ]
+    },
+    {
+      "file": "2014/WRIC(A)_35878_2014.pdf",
+      "docket": "35878 of 2014",
+      "pages": 5,
+      "covered_by": [
+        "SCJ-174"
+      ]
+    },
+    {
+      "file": "2014/WRIC(A)_36167_2014.pdf",
+      "docket": "36167 of 2014",
+      "pages": 2,
+      "covered_by": [
+        "SCJ-220"
+      ]
+    },
+    {
+      "file": "2014/WRIC(A)_36622_2014.pdf",
+      "docket": "36622 of 2014",
+      "pages": 7,
+      "covered_by": [
+        "SCJ-316"
+      ]
+    },
+    {
+      "file": "2014/WRIC(A)_37041_2014.pdf",
+      "docket": "37041 of 2014",
+      "pages": 2,
+      "covered_by": [
+        "SCJ-253"
+      ]
+    },
+    {
+      "file": "2014/WRIC(A)_37237_2014.pdf",
+      "docket": "37237 of 2014",
+      "pages": 3,
+      "covered_by": [
+        "SCJ-192"
+      ]
+    },
+    {
+      "file": "2014/WRIC(A)_39011_2014.pdf",
+      "docket": "39011 of 2014",
+      "pages": 3,
+      "covered_by": [
+        "SCJ-193"
+      ]
+    },
+    {
+      "file": "2014/WRIC(A)_4141_2014.pdf",
+      "docket": "4141 of 2014",
+      "pages": 7,
+      "covered_by": [
+        "SCJ-231"
+      ]
+    },
+    {
+      "file": "2014/WRIC(A)_44867_2014.pdf",
+      "docket": "44867 of 2014",
+      "pages": 5,
+      "covered_by": [
+        "SCJ-007"
+      ]
+    },
+    {
+      "file": "2014/WRIC(A)_4606_2014.pdf",
+      "docket": "4606 of 2014",
+      "pages": 2,
+      "covered_by": [
+        "SCJ-012"
+      ]
+    },
+    {
+      "file": "2014/WRIC(A)_526_2014.pdf",
+      "docket": "526 of 2014",
+      "pages": 2,
+      "covered_by": [
+        "SCJ-201"
+      ]
+    },
+    {
+      "file": "2015/CRLP(A)_2714_2015.pdf",
+      "docket": "2714 of 2015",
+      "pages": 2,
+      "covered_by": [
+        "SCJ-004"
+      ]
+    },
+    {
+      "file": "2015/CRLP(A)_3002_2015.pdf",
+      "docket": "3002 of 2015",
+      "pages": 1,
+      "covered_by": [
+        "SCJ-082"
+      ]
+    },
+    {
+      "file": "2015/CRLP(A)_3004_2015.pdf",
+      "docket": "3004 of 2015",
+      "pages": 1,
+      "covered_by": [
+        "SCJ-081"
+      ]
+    },
+    {
+      "file": "2015/WRIC(A)_11612_2015.pdf",
+      "docket": "11612 of 2015",
+      "pages": 26,
+      "covered_by": [
+        "SCJ-249"
+      ]
+    },
+    {
+      "file": "2015/WRIC(A)_40058_2015.pdf",
+      "docket": "40058 of 2015",
+      "pages": 3,
+      "covered_by": [
+        "SCJ-240"
+      ]
+    },
+    {
+      "file": "2015/WRIC(A)_43194_2015.pdf",
+      "docket": "43194 of 2015",
+      "pages": 13,
+      "covered_by": [
+        "SCJ-068"
+      ]
+    },
+    {
+      "file": "2015/WRIC(A)_55505_2015.pdf",
+      "docket": "55505 of 2015",
+      "pages": 18,
+      "covered_by": [
+        "SCJ-065"
+      ]
+    },
+    {
+      "file": "2015/WRIC(A)_61204_2015.pdf",
+      "docket": "61204 of 2015",
+      "pages": 33,
+      "covered_by": [
+        "SCJ-122"
+      ]
+    },
+    {
+      "file": "2016/SPLA(L)_20_2016.pdf",
+      "docket": "20 of 2016",
+      "pages": 68,
+      "covered_by": [
+        "SCJ-043"
+      ]
+    },
+    {
+      "file": "2016/WRIC(A)_16801_2016.pdf",
+      "docket": "16801 of 2016",
+      "pages": 12,
+      "covered_by": [
+        "SCJ-050"
+      ]
+    },
+    {
+      "file": "2016/WRIC(A)_19095_2016.pdf",
+      "docket": "19095 of 2016",
+      "pages": 7,
+      "covered_by": [
+        "SCJ-176"
+      ]
+    },
+    {
+      "file": "2016/WRIC(A)_29993_2016.pdf",
+      "docket": "29993 of 2016",
+      "pages": 2,
+      "covered_by": [
+        "SCJ-194"
+      ]
+    },
+    {
+      "file": "2016/WRIC(A)_30898_2016.pdf",
+      "docket": "30898 of 2016",
+      "pages": 60,
+      "covered_by": [
+        "SCJ-053"
+      ]
+    },
+    {
+      "file": "2016/WRIC(A)_32193_2016.pdf",
+      "docket": "32193 of 2016",
+      "pages": 1,
+      "covered_by": [
+        "SCJ-221"
+      ]
+    },
+    {
+      "file": "2016/WRIC(A)_35477_2016.pdf",
+      "docket": "35477 of 2016",
+      "pages": 16,
+      "covered_by": [
+        "SCJ-161"
+      ]
+    },
+    {
+      "file": "2016/WRIC(A)_39477_2016.pdf",
+      "docket": "39477 of 2016",
+      "pages": 11,
+      "covered_by": [
+        "SCJ-211"
+      ]
+    },
+    {
+      "file": "2016/WRIC(A)_6072_2016.pdf",
+      "docket": "6072 of 2016",
+      "pages": 51,
+      "covered_by": [
+        "SCJ-002"
+      ]
+    },
+    {
+      "file": "2016/WRIC(A)_60839_2016.pdf",
+      "docket": "60839 of 2016",
+      "pages": 8,
+      "covered_by": [
+        "SCJ-203"
+      ]
+    },
+    {
+      "file": "2016/WRIC(A)_61372_2016.pdf",
+      "docket": "61372 of 2016",
+      "pages": 3,
+      "covered_by": [
+        "SCJ-245"
+      ]
+    },
+    {
+      "file": "2017/A227(A)_4085_2017.pdf",
+      "docket": "4085 of 2017",
+      "pages": 8,
+      "covered_by": [
+        "SCJ-207"
+      ]
+    },
+    {
+      "file": "2017/WRIC(A)_11271_2017.pdf",
+      "docket": "11271 of 2017",
+      "pages": 2,
+      "covered_by": [
+        "SCJ-238"
+      ]
+    },
+    {
+      "file": "2017/WRIC(A)_15130_2017.pdf",
+      "docket": "15130 of 2017",
+      "pages": 8,
+      "covered_by": [
+        "SCJ-117"
+      ]
+    },
+    {
+      "file": "2017/WRIC(A)_33710_2017.pdf",
+      "docket": "33710 of 2017",
+      "pages": 1,
+      "covered_by": [
+        "SCJ-216"
+      ]
+    },
+    {
+      "file": "2017/WRIC(A)_39224_2017.pdf",
+      "docket": "39224 of 2017",
+      "pages": 4,
+      "covered_by": [
+        "SCJ-205"
+      ]
+    },
+    {
+      "file": "2017/WRIC(A)_40690_2017.pdf",
+      "docket": "40690 of 2017",
+      "pages": 2,
+      "covered_by": [
+        "SCJ-200"
+      ]
+    },
+    {
+      "file": "2017/WRIC(A)_42074_2017.pdf",
+      "docket": "42074 of 2017",
+      "pages": 5,
+      "covered_by": [
+        "SCJ-124"
+      ]
+    },
+    {
+      "file": "2017/WRIC(A)_44193_2017.pdf",
+      "docket": "44193 of 2017",
+      "pages": 2,
+      "covered_by": [
+        "SCJ-143"
+      ]
+    },
+    {
+      "file": "2017/WRIC(A)_9766_2017.pdf",
+      "docket": "9766 of 2017",
+      "pages": 5,
+      "covered_by": [
+        "SCJ-248"
+      ]
+    },
+    {
+      "file": "2018/WRIC(A)_12931_2018.pdf",
+      "docket": "12931 of 2018",
+      "pages": 2,
+      "covered_by": [
+        "SCJ-181"
+      ]
+    },
+    {
+      "file": "2018/WRIC(A)_13938_2018.pdf",
+      "docket": "13938 of 2018",
+      "pages": 7,
+      "covered_by": [
+        "SCJ-191"
+      ]
+    },
+    {
+      "file": "2018/WRIC(A)_21501_2018.pdf",
+      "docket": "21501 of 2018",
+      "pages": 2,
+      "covered_by": [
+        "SCJ-232"
+      ]
+    },
+    {
+      "file": "2018/WRIC(A)_21993_2018.pdf",
+      "docket": "21993 of 2018",
+      "pages": 2,
+      "covered_by": [
+        "SCJ-237"
+      ]
+    },
+    {
+      "file": "2018/WRIC(A)_22326_2018.pdf",
+      "docket": "22326 of 2018",
+      "pages": 3,
+      "covered_by": [
+        "SCJ-195"
+      ]
+    },
+    {
+      "file": "2018/WRIC(A)_22691_2018.pdf",
+      "docket": "22691 of 2018",
+      "pages": 4,
+      "covered_by": [
+        "SCJ-214"
+      ]
+    },
+    {
+      "file": "2018/WRIC(A)_25532_2018.pdf",
+      "docket": "25532 of 2018",
+      "pages": 15,
+      "covered_by": [
+        "SCJ-025"
+      ]
+    },
+    {
+      "file": "2018/WRIC(A)_29001_2018.pdf",
+      "docket": "29001 of 2018",
+      "pages": 10,
+      "covered_by": [
+        "SCJ-019"
+      ]
+    },
+    {
+      "file": "2018/WRIC(A)_39082_2018.pdf",
+      "docket": "39082 of 2018",
+      "pages": 10,
+      "covered_by": [
+        "SCJ-159"
+      ]
+    },
+    {
+      "file": "2018/WRIC(A)_40668_2018.pdf",
+      "docket": "40668 of 2018",
+      "pages": 3,
+      "covered_by": [
+        "SCJ-215"
+      ]
+    },
+    {
+      "file": "2018/WRIC(A)_5263_2018.pdf",
+      "docket": "5263 of 2018",
+      "pages": 3,
+      "covered_by": [
+        "SCJ-226"
+      ]
+    },
+    {
+      "file": "2018/WRIC(A)_8396_2018.pdf",
+      "docket": "8396 of 2018",
+      "pages": 22,
+      "covered_by": [
+        "SCJ-027"
+      ]
+    },
+    {
+      "file": "2019/A482(A)_13903_2019.pdf",
+      "docket": "13903 of 2019",
+      "pages": 7,
+      "covered_by": [
+        "SCJ-173"
+      ]
+    },
+    {
+      "file": "2019/WRIC(A)_26569_2019.pdf",
+      "docket": "26569 of 2019",
+      "pages": 6,
+      "covered_by": [
+        "SCJ-033"
+      ]
+    },
+    {
+      "file": "2019/WRIC(A)_27553_2019.pdf",
+      "docket": "27553 of 2019",
+      "pages": 27,
+      "covered_by": [
+        "SCJ-064"
+      ]
+    },
+    {
+      "file": "2019/WRIC(A)_43164_2019.pdf",
+      "docket": "43164 of 2019",
+      "pages": 5,
+      "covered_by": [
+        "SCJ-144"
+      ]
+    },
+    {
+      "file": "2020/WRIC(A)_5708_2020.pdf",
+      "docket": "5708 of 2020",
+      "pages": 4,
+      "covered_by": [
+        "SCJ-209"
+      ]
+    },
+    {
+      "file": "2021/WRIC(A)_10123_2021.pdf",
+      "docket": "10123 of 2021",
+      "pages": 85,
+      "covered_by": [
+        "SCJ-098"
+      ]
+    },
+    {
+      "file": "2021/WRIC(A)_10390_2021.pdf",
+      "docket": "10390 of 2021",
+      "pages": 1,
+      "covered_by": [
+        "SCJ-103"
+      ]
+    },
+    {
+      "file": "2021/WRIC(A)_10822_2021.pdf",
+      "docket": "10822 of 2021",
+      "pages": 25,
+      "covered_by": [
+        "SCJ-552"
+      ]
+    },
+    {
+      "file": "2021/WRIC(A)_2008_2021.pdf",
+      "docket": "2008 of 2021",
+      "pages": 7,
+      "covered_by": [
+        "SCJ-020"
+      ]
+    },
+    {
+      "file": "2021/WRIC(A)_5762_2021.pdf",
+      "docket": "5762 of 2021",
+      "pages": 12,
+      "covered_by": [
+        "SCJ-473"
+      ]
+    },
+    {
+      "file": "2021/WRIC(A)_9000_2021.pdf",
+      "docket": "9000 of 2021",
+      "pages": 6,
+      "covered_by": [
+        "SCJ-028"
+      ]
+    },
+    {
+      "file": "2022/SPLAD(A)_395_2022.pdf",
+      "docket": "395 of 2022",
+      "pages": 21,
+      "covered_by": [
+        "SCJ-222"
+      ]
+    },
+    {
+      "file": "2022/WRIC(A)_10825_2022.pdf",
+      "docket": "10825 of 2022",
+      "pages": 8,
+      "covered_by": [
+        "SCJ-092"
+      ]
+    },
+    {
+      "file": "2022/WRIC(A)_13176_2022.pdf",
+      "docket": "13176 of 2022",
+      "pages": 11,
+      "covered_by": [
+        "SCJ-230"
+      ]
+    },
+    {
+      "file": "2022/WRIC(A)_26355_2022.pdf",
+      "docket": "26355 of 2022",
+      "pages": 27,
+      "covered_by": [
+        "SCJ-090"
+      ]
+    },
+    {
+      "file": "2022/WRIC(A)_32847_2022.pdf",
+      "docket": "32847 of 2022",
+      "pages": 9,
+      "covered_by": [
+        "SCJ-006"
+      ]
+    },
+    {
+      "file": "2023/CMRA(A)_129_2023.pdf",
+      "docket": "129 of 2023",
+      "pages": 29,
+      "covered_by": [
+        "SCJ-271"
+      ]
+    },
+    {
+      "file": "2023/WRIC(A)_19594_2023.pdf",
+      "docket": "19594 of 2023",
+      "pages": 5,
+      "covered_by": [
+        "SCJ-234"
+      ]
+    },
+    {
+      "file": "2023/WRIC(A)_24689_2023.pdf",
+      "docket": "24689 of 2023",
+      "pages": 3,
+      "covered_by": [
+        "SCJ-212"
+      ]
+    },
+    {
+      "file": "2023/WRIC(A)_2637_2023.pdf",
+      "docket": "2637 of 2023",
+      "pages": 24,
+      "covered_by": [
+        "SCJ-133"
+      ]
+    },
+    {
+      "file": "2023/WRIC(A)_27499_2023.pdf",
+      "docket": "27499 of 2023",
+      "pages": 1,
+      "covered_by": [
+        "SCJ-075"
+      ]
+    }
+  ],
+  "queue_covered_count": 151
+}
