@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 684,
+  "next_seq": 685,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -4090,6 +4090,12 @@
       "case_id": "SCJ-681",
       "source_basename": "WRIC(A)_24156_2008.pdf",
       "title": "Trinmurti Buildwell Pvt Ltd v. Paschimanchal Vidyut Vitran Nigam Ltd And Another",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-683",
+      "source_basename": "WRIC(A)_27724_2008.pdf",
+      "title": "Ram Lautan v. U.P. Power Corporation Ltd.",
       "status": "done"
     }
   ]

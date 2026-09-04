@@ -1,0 +1,38 @@
+{
+  "case_id": "SCJ-683",
+  "title": "Ram Lautan v. U.P. Power Corporation Ltd.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Arun Tandon and Harsh Kumar, JJ.",
+  "date_of_judgment": "2016-02-15",
+  "date_display": "15 February 2016",
+  "docket": "WRIT - C No. 27724 of 2008",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; liberty to challenge bills under clause 6.5",
+  "headnote": "A writ petition is not the proper remedy to challenge electricity bills. The consumer must first resort to clause 6.5 of the Electricity Supply Code, 2005. The High Court dismissed the petition with liberty to challenge the bills under that clause and discharged any interim order.",
+  "facts": "Ram Lautan filed a writ against U.P. Power Corporation Ltd. after being served a bill dated 5 September 2013 for Rs 5,71,877 and another dated 4 April 2014 for about Rs 6,14,779. A recovery certificate had issued on 20 December 2007 for about Rs 2 lakh. He said he had applied for supply and deposited the fee, but no connection was given, so he had not consumed electricity and recovery could not be enforced. The bills enclosed with the petition carried a connection number.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "writ-not-proper-remedy-for-electricity-bills",
+      "type": "supply_code",
+      "holding": "A writ petition is not the proper remedy to challenge electricity bills. Factual issues as to whether electrical energy was supplied, where the bills carry a connection number, are to be raised first under clause 6.5 of the Electricity Supply Code, 2005. The petition was dismissed with liberty to challenge the bills; any interim order stood discharged.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether electrical energy was actually supplied to the petitioner and whether the bills and recovery certificate were payable",
+      "note": "The Court treated those as purely factual issues because the bills carried a connection number, and left them to clause 6.5.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
