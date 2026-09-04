@@ -1,0 +1,48 @@
+{
+  "case_id": "SCJ-1073",
+  "title": "Jay Prakash Yadav v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sunil Ambwani, J.; Surya Prakash Kesarwani, J.",
+  "date_of_judgment": "2013-11-28",
+  "date_display": "28 November 2013",
+  "docket": "Writ-C No. 65124 of 2013",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; new connection only after full theft deposit",
+  "headnote": "Writ for a new connection after admitted theft, with a plea to pay the Rs. 40,000 assessment in instalments, dismissed. The Supply Code, 2005 restricts a new connection while a theft case and its unpaid dues subsist. Quantum of the s.135 assessment was not challenged; the petitioner may represent and then appeal, or deposit the entire amount before applying for a new connection, and may apply to compound if an FIR has been lodged.",
+  "facts": "The petitioner unauthorisedly drew electricity while constructing a new house. An inspection found him committing theft of electricity, and an assessment of Rs. 40,000 was raised as a theft case. Admitting the theft, he approached the High Court seeking a direction to the respondents to grant a new connection in accordance with law, offering to pay the assessed amount in instalments. He had not contended that the assessment was excessive, nor challenged it before the Executive Engineer or by appeal under the Electricity Act.",
+  "holding_units": [
+    {
+      "provision": "UP-2005",
+      "code": "UP-2005",
+      "clause": "unnumbered",
+      "topic": "new connection barred while theft dues unpaid",
+      "type": "supply_code",
+      "holding": "The U.P. Electricity Supply Code, 2005 restricts grant of a new connection where there is a theft case and unpaid dues of that theft case. Mandamus for a new connection on an offer to pay the assessment in instalments was refused; if the petitioner does not dispute the assessment and wants a new connection, he must deposit the entire amount before applying.",
+      "paras": "4-6",
+      "flag": "order cites the Supply Code 2005 restriction on new connection for theft and unpaid theft dues without numbering the clause"
+    },
+    {
+      "provision": "EA2003::135",
+      "code": "EA2003",
+      "clause": "135",
+      "topic": "theft assessment challenge and compounding",
+      "type": "electricity_act",
+      "holding": "The petitioner having neither contended that the s.135 theft assessment was on the higher side nor challenged it before the Executive Engineer or by appeal, the writ was dismissed. If aggrieved by quantum he may file a representation and thereafter an appeal under the Electricity Act. It remains open to apply for compounding of the theft offence if an FIR has been lodged under s.135.",
+      "paras": "5-7"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "whether the Rs. 40,000 theft assessment was excessive",
+      "note": "not raised in the writ; relegated to representation and then appeal under the Electricity Act",
+      "paras": "5-6"
+    }
+  ],
+  "authorities": []
+}
