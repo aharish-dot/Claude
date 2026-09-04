@@ -1,0 +1,38 @@
+{
+  "case_id": "SCJ-1082",
+  "title": "Javed Ali v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "V.K. Shukla and Vivek Kumar Birla, JJ.",
+  "date_of_judgment": "2014-06-17",
+  "date_display": "17 June 2014",
+  "docket": "Criminal Misc. Writ Petition No. 10236 of 2014",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "FIR under s.135 not quashed; compounding left to Supply Code 2005.",
+  "headnote": "A writ to quash an FIR under s.135 of the Electricity Act, 2003 fails where the FIR prima facie discloses a cognizable offence. Compounding, if any, is governed by the U.P. Electricity Supply Code, 2005, which the accused may pursue.",
+  "facts": "Javed Ali approached the Allahabad High Court to quash an FIR dated 27 May 2014, Case Crime No. 264 of 2014, under s.135 of the Electricity Act, 2003, registered at Police Station Amroha Nagar, District Amroha (J.P. Nagar). He contended that no s.135 offence was made out and that the matter was compoundable. The State and the third respondent opposed, arguing that an offence had been committed and that compounding, if any, was governed by the U.P. Electricity Supply Code, 2005.",
+  "holding_units": [
+    {
+      "provision": "EA2003::135",
+      "code": "EA2003",
+      "clause": "135",
+      "topic": "s.135 FIR quash and compounding",
+      "type": "interplay",
+      "holding": "Where an FIR under s.135 of the Electricity Act, 2003 prima facie discloses a cognizable offence, the High Court will not quash it in writ jurisdiction. Compounding, if any, is governed by the U.P. Electricity Supply Code, 2005, and the accused may pursue that statutory remedy.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether compounding should be granted on these facts",
+      "note": "The Court only recorded that the petitioner may seek the Supply Code 2005 remedy; it did not decide compounding.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
