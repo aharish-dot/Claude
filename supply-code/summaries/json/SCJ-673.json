@@ -1,0 +1,76 @@
+{
+  "case_id": "SCJ-673",
+  "title": "M/S Sijaria Ice Gramodhyog Sultanpura & Others v. State Of U.P. & Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Bala Krishna Narayana, J.",
+  "date_of_judgment": "2010-03-18",
+  "date_display": "18 March 2010",
+  "docket": "Writ - C No. 58738 of 2007",
+  "page_count": 4,
+  "significance": "ordinary",
+  "outcome": "split",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed in part; 05.10.2007 appellate order quashed and Appeal No. 03/2006-07 restored to the Commissioner, Jhansi; recovery stayed pending decision",
+  "headnote": "A Section 127 appellate order that dismisses the appeal by reciting the inspection team's finding of unauthorised use, without considering the grounds of appeal — including that the inspection report was never supplied and that no hearing under paragraph 6.8(c)(i) of the U.P. Electricity Supply Code, 2005 was given before objections to a provisional bill of Rs. 9,40,633 were rejected — is not an order in the eye of law. A statutory appellate authority performs judicial functions and must note the arguments and give reasons for accepting or rejecting them. The 5 October 2007 order is quashed; Appeal No. 03/2006-07 is restored to the Commissioner, Jhansi Division, to be decided afresh after hearing, within six weeks of production of a certified copy; recovery remains stayed until that decision. The Court did not decide the merits of the 23 February 2007 assessment.",
+  "facts": "M/s Sijaoria Ice Gramodhyog, a proprietorship manufacturing ice (cause title: M/s Sijaria Ice Gramodhyog Sultanpura), held a 4 H.P. connection No. 061924 from Dakshinanchal Vidyut Nigam Limited. It alleged that dues were paid regularly, and that after it refused illegal gratification an ex parte inspection on 26 June 2006 found unauthorised consumption. An FIR under Section 135 of the Electricity Act, 2003 was lodged on 27 June 2006. A provisional bill served on 30 June 2006 demanded Rs. 9,40,633 as electricity dues and penalty. The consumer said the 26 June 2006 spot inspection report was not given, and replied on 15 July 2006 denying the allegations. The assessing authority (respondent no. 3) rejected the objections on 23 February 2007. Appeal No. 03/2006-07 under Section 127 was dismissed on 5 October 2007 by the Commissioner, Jhansi Division. This writ sought quashing of both orders.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act, 2003",
+      "clause": "127",
+      "topic": "Non-speaking s.127 appeal is not an order in the eye of law; restored for a reasoned decision",
+      "type": "electricity_act",
+      "question": "Can a Section 127 appellate order stand if it recites the inspection team's finding of unauthorised use and does not consider the grounds of appeal?",
+      "holding": "No. The appellate authority, conferred appellate powers under a statute, performs judicial functions. After noting the arguments it must give reasons for accepting or rejecting them; an order with no process of reasoning is not an order in the eye of law. The 5.10.2007 order (Annexure-7) merely referred to the facts, reiterated the assessing authority's recitals, and dismissed Appeal No. 03/2006-07 because the inspection team had found unauthorised consumption. It did not advert to any of the thirteen grounds, including non-supply of the inspection report and denial of hearing. It is quashed. The appeal is restored to the Commissioner, Jhansi Division, to be decided afresh in accordance with law after hearing all concerned, within six weeks of production of a certified copy. Recovery of electricity dues remains stayed until that decision. The Court declined to decide the merits of the 23.02.2007 assessment.",
+      "paras": "unnumbered",
+      "flag": "The reasoning block is OCR-truncated at two sentence starts ('t is clear…'; 's the orders…'); recorded as the extract states them. Same judge and remand pattern as SCJ-640."
+    },
+    {
+      "provision": "UP-2005::6.8",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.8(a)(v) and 6.8(c)(i)",
+      "topic": "Inspection report must be supplied and a 6.8(c)(i) hearing given before rejecting objections to a provisional bill",
+      "type": "supply_code",
+      "question": "Can objections to a provisional bill of Rs. 9,40,633 be rejected where the inspection report is not shown to have been supplied and no hearing under paragraph 6.8(c)(i) was given?",
+      "holding": "The Court found no material showing that a copy of the 26.06.2006 inspection report was made available, so an effective reply to the 30.06.2006 show-cause was not possible, and that no opportunity of hearing under paragraph 6.8(c)(i) was afforded before respondent no. 3 rejected the 15.07.2006 objections. Those were among the thirteen grounds of the Section 127 appeal. They were not used to quash the 23.02.2007 assessment; that order is left to the restored appeal.",
+      "qualifier": "The 23.02.2007 assessment was not set aside.",
+      "paras": "unnumbered",
+      "flag": "Counsel invoked paragraphs 6.8(a)(v) and 6.8(c)(i). The Court named 6.8(c)(i) for the hearing and treated non-supply of the inspection report as a record finding (6.8(a)(v) is the Code clause for handing over the site report). An FIR under s.135 was lodged the day after inspection and the Court itself described the demand as for the period of 'theft of the electricity', yet applied Clause 6.8 (UUE) as argued, not Clauses 8.1–8.2. Keyed to catalog UP-2005::6.8; there is no 6.8(a) or 6.8(c) key. Cause title spells the firm Sijaria; the body spells Sijaoria. Licensee styled Dakshinanchal Vidhut Nigam Limited."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "s127-appellate-authority-must-exercise-independent-judgment",
+      "application": "An appellate order that recites facts and the inspection team's finding of unauthorised use, without considering any ground of appeal, is not an order in the eye of law. Quashed and restored to the Commissioner, Jhansi Division, for a reasoned decision after hearing. Same cluster as SCJ-640.",
+      "lead_authorities": [],
+      "paras": "unnumbered"
+    },
+    {
+      "tag": "clause-6.8-hearing-procedure-mandatory-before-uue-conclusion",
+      "application": "No material showed supply of the 26.06.2006 inspection report, and no paragraph 6.8(c)(i) hearing was given before objections to the provisional bill were rejected. Recorded as live grounds of the restored s.127 appeal; the 23.02.2007 assessment was not quashed on those defects.",
+      "lead_authorities": [],
+      "paras": "unnumbered"
+    },
+    {
+      "tag": "recovery-of-assessment-stayed-pending-s127-appeal",
+      "application": "Until the restored Appeal No. 03/2006-07 is decided afresh, recovery of electricity dues from the petitioner remains stayed.",
+      "lead_authorities": [],
+      "paras": "unnumbered"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits of the 23.02.2007 assessment, including whether unauthorised use or theft occurred and the quantum of Rs. 9,40,633",
+      "note": "Expressly left to the appellate authority. The Court recorded the 6.8(c)(i) and inspection-report gaps but declined to set aside the assessing order on those submissions.",
+      "paras": "unnumbered"
+    },
+    {
+      "point": "Whether Clauses 8.1–8.2 (theft assessment) rather than Clause 6.8 (UUE) governed, given the s.135 FIR",
+      "note": "An FIR under s.135 was lodged on 27.06.2006 and the Court recited 'theft of the electricity', but applied paragraph 6.8 as argued. The criminal case was not before the Court.",
+      "paras": "unnumbered"
+    }
+  ],
+  "authorities": []
+}
