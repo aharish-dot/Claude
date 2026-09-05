@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1660,
+  "next_seq": 1661,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -9940,6 +9940,12 @@
       "case_id": "SCJ-1654",
       "source_basename": "WRIC(A)_39577_2017.pdf",
       "title": "Ram Lal v. Southern Electricity Distribution Corp. Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1657",
+      "source_basename": "WRIC(A)_40986_2017.pdf",
+      "title": "Gulzar Ahmad v. Electricity Ombudsman",
       "status": "done"
     }
   ]
