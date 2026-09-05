@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1638,
+  "next_seq": 1639,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -9808,6 +9808,12 @@
       "case_id": "SCJ-1633",
       "source_basename": "WRIC(A)_31324_2017.pdf",
       "title": "Ishwari Prasad v. U.P. Power Corporation Lucknow",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1634",
+      "source_basename": "WRIC(A)_31829_2017.pdf",
+      "title": "M/S U.S. Foods Private Limited And Another v. State of U.P. And Others",
       "status": "done"
     }
   ]
