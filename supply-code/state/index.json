@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1624,
+  "next_seq": 1625,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -9724,6 +9724,12 @@
       "case_id": "SCJ-1621",
       "source_basename": "WRIC(A)_2556_2017.pdf",
       "title": "Bechan Lal v. State of U.P. — demand-notice writ declined for alternative remedy",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1623",
+      "source_basename": "WRIC(A)_25899_2017.pdf",
+      "title": "Vrindavan & Another v. State of U.P. & 2 Others",
       "status": "done"
     }
   ]
