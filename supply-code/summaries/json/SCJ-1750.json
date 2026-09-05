@@ -1,0 +1,42 @@
+{
+  "case_id": "SCJ-1750",
+  "title": "Udayvir Singh v. State of U.P. — writ against Consumer Forum bill order dismissed",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Govind Mathur, J.; Jayant Banerji, J.",
+  "date_of_judgment": "2018-04-03",
+  "date_display": "3 April 2018",
+  "docket": "Writ-C No. 12209 of 2018",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; petitioner left to CPA appeal and clause 6.5.",
+  "headnote": "A writ questioning a District Consumer Forum order on an electricity complaint is not maintainable when the Consumer Protection Act, 1986 itself provides an appeal and Paragraph 6.5 of the Electricity Supply Code, 2005 independently provides a remedy for disputes over bills and arrears. The petition was dismissed with liberty to pursue those remedies.",
+  "facts": "The petitioner, Udayvir Singh, filed a writ petition in the Allahabad High Court questioning a judgment dated 6 February 2018 of the District Consumer Forum, Firozabad, in Complaint Case No. 141 of 2015. The State of Uttar Pradesh and two others were respondents. The order does not narrate the underlying supply facts, but the Court treated the controversy as a consumer dispute over electricity bills and arrears already determined.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "bill and arrears dispute — alternative remedy",
+      "type": "supply_code",
+      "holding": "Where a consumer disputes electricity bills and the arrears determined, Paragraph 6.5 of the Electricity Supply Code, 2005 itself prescribes a remedy. Together with the statutory appeal under the Consumer Protection Act, 1986 against a District Consumer Forum order, a writ petition questioning that Forum judgment is not the proper course; the petitioner remains at liberty to avail those remedies.",
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness of the District Consumer Forum, Firozabad judgment dated 06.02.2018 in Complaint Case No. 141 of 2015",
+      "note": "Writ not entertained; appeal under the Consumer Protection Act, 1986 left open.",
+      "paras": "1"
+    },
+    {
+      "point": "Merits of the bill and arrears dispute",
+      "note": "Clause 6.5 not availed; petitioner left to that Supply Code remedy.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
