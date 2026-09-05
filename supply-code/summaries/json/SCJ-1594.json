@@ -1,0 +1,45 @@
+{
+  "case_id": "SCJ-1594",
+  "title": "Obedue Rahaman Khan v. Dakshinanchal Vidyut Vitran Nigam Ltd.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J.; Ravindra Nath Kakkar, J.",
+  "date_of_judgment": "2017-04-24",
+  "date_display": "24 April 2017",
+  "docket": "Writ - C No. 16817 of 2017",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; relegated to CGRF; recovery stayed three months.",
+  "headnote": "A writ challenging a demand-cum-disconnection notice for assessed-unit arrears, where monthly bills are said already to have been paid, raises disputed questions of fact for the Consumer Grievance Redressal Forum under the UPERC (CGRF & Electricity Ombudsman) Regulations, 2007 (Electricity Act, 2003, s.181 read with s.42(5)–(8)), not for the High Court. The petition was disposed with liberty to complain to the Forum within three weeks, a direction for reasoned disposal preferably within three months, and a stay of recovery for three months or until the Forum's order, whichever earlier. The clause 6.2 Supply Code argument was not decided.",
+  "facts": "The petitioner challenged Dakshinanchal Vidyut Vitran Nigam Ltd.'s demand-cum-disconnection notice dated 21/23 February 2017 for Rs.3,60,017 as arrears from March 2014 to January 2017. He said monthly bills for that period had been paid as raised and showed no arrears, and that the demand was built on assessed units. Relying on clause 6.2 of the U.P. Electricity Supply Code, 2005, he argued that provisional billing cannot run beyond two billing cycles, so a three-year assessed demand was illegal. He had deposited Rs.1 lakh to avoid disconnection.",
+  "holding_units": [
+    {
+      "provision": "EA2003::42(5)",
+      "code": "EA2003",
+      "clause": "42(5)",
+      "topic": "CGRF as forum for disputed billing demand",
+      "type": "electricity_act",
+      "holding": "Where a consumer challenges a demand-cum-disconnection notice for assessed-unit arrears and the dispute turns on disputed questions of fact, the High Court will not decide the bill in writ. The statutory forum is the Consumer Grievance Redressal Forum under the UPERC (CGRF & Electricity Ombudsman) Regulations, 2007, framed under s.181 read with s.42(5)–(8) of the Electricity Act, 2003. The petitioner was given liberty to complain to the Forum within three weeks; the Forum was directed to dispose of the complaint expeditiously, preferably within three months, by a reasoned speaking order after hearing all concerned. Recovery under the impugned notice dated 21/23.02.2017 was to remain in abeyance for three months or until disposal of the complaint, whichever was earlier.",
+      "paras": "5-8"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "individual-grievance-via-s42-not-commission",
+      "application": "An individual billing grievance over a DISCOM demand-cum-disconnection notice was sent to the s.42(5) CGRF rather than being decided on the writ side.",
+      "lead_authorities": [],
+      "paras": "5-7"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether a demand for assessed-unit arrears from March 2014 to January 2017 violates clause 6.2 of the U.P. Electricity Supply Code, 2005, which confines provisional billing to two billing cycles.",
+      "note": "The Court recorded the clause 6.2 argument but did not decide it, relegating the billing dispute to the CGRF.",
+      "paras": "4, 6"
+    }
+  ],
+  "authorities": []
+}
