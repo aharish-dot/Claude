@@ -46,3 +46,26 @@ against Claude and Grok running at the same time from different checkouts. There
 
 See `supply-code/NEXT.md` (trigger), `supply-code/HANDOFF.md` (strategy),
 `supply-code/RUNBOOK.md` (schema), `tools/PLAYBOOK.md` (attribution/verify).
+
+## Batch economics & token notes (2026-09)
+- PDF→text extraction is done by `tools/extract_judgment.py` (pymupdf) during `claim`
+  — pure code, ZERO model tokens. Pre-converting PDFs saves nothing; the token cost is
+  the model INGESTING the judgment text to author, which is unavoidable.
+- Ledger step names (`claude_tools/token_ledger.jsonl`):
+  read_extract = model reading the judgment text (the compacted `.lean.txt`) into
+  context, the largest per-case input (~2.7k–7k tok, scales with page count);
+  read_refs = reading guidance (now the one-time lean `AUTHORING_CARD.md` ~2.2k/batch,
+  not the old 16k handoff+exemplar); author_json = the authored digest output
+  (~2.4k–5.4k tok); claim/finalize = tool stdout (~100–260 tok, negligible).
+- Cost levers applied WITHOUT quality loss: batch (amortize cold start), lean card
+  (replace handoff+exemplar), fewer turns (combined gate+finalize), read the compacted
+  `.lean.txt`, prompt caching (harness, automatic). Deferred: model tiering (Sonnet
+  reads / Opus authors) — safe for the wordy ≤10pp bucket, risky for >10pp.
+- Optimum batch size: default 6, range 5–8. Below ~4 wastes per-spawn cold start;
+  above ~8 the accumulating in-context extracts + context-window/quality risk outweigh
+  it (caching softens, does not remove, the accumulation). Tune from the per-case token
+  trend in the ledger.
+- Measured: single spawn w/ full handoff ~127k tok/case; batched(4)+lean card+fewer
+  turns ~59k tok/case (~54% less), quality held (gate ALL PASS first try).
+- Resume a batch in any fresh session on this branch: `/next-batch [N]` (skill) — syncs,
+  then spawns the Opus worker from `claude_tools/batch_worker_prompt.md`.
