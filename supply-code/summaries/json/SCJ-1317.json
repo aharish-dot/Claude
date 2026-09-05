@@ -1,0 +1,60 @@
+{
+  "case_id": "SCJ-1317",
+  "title": "Anoop Goyal v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Narayan Shukla, J.",
+  "date_of_judgment": "2015-02-24",
+  "date_display": "24 February 2015",
+  "docket": "Writ-C No. 11006 of 2015",
+  "page_count": 1,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; auction purchaser must clear predecessor arrears for connection.",
+  "headnote": "An auction purchaser of an industrial plot who applies for a fresh electricity connection cannot obtain supply while predecessor arrears stand on the same premises. Clause 4.3(f) of the U.P. Electricity Supply Code, 2005, requires the incoming occupier to search out that liability; silence in the sale deed does not displace it. Following Chandra Prakash Gupta, the Court found no error in the Permanent Lok Adalat's dismissal of the complaint and dismissed the writ.",
+  "facts": "Anoop Goyal purchased plot No. K-50 at UPSIDC Panki Industrial Area, Site No. III, Kanpur Nagar, by auction; the sale deed was registered on 13 June 2012. He applied for a fresh electricity connection on 16 January 2013. Inspection disclosed arrears of Rs. 12,51,660 on the same plot, and the licensee refused a connection until those dues were paid. The Permanent Lok Adalat dismissed his complaint (No. 21 of 2014) on 26 December 2014. He challenged that order, arguing the sale deed had neither disclosed nor imposed such liability.",
+  "reusable_constructions": [
+    {
+      "construction": "Under clause 4.3(f), a purchaser seeking a fresh connection must search out predecessor electricity dues on the premises; non-disclosure in the sale deed does not extinguish that liability.",
+      "paras": "1"
+    },
+    {
+      "construction": "Liability to pay electricity arrears on purchased premises is fastened on the person who applies for a fresh connection, including an auction purchaser.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.3(f)",
+      "code": "UP-2005",
+      "clause": "4.3(f)",
+      "topic": "auction-purchaser-fresh-connection-predecessor-arrears",
+      "type": "supply_code",
+      "holding": "A purchaser of premises by auction who seeks a fresh electricity connection is bound under clause 4.3(f) of the U.P. Electricity Supply Code, 2005, to search out and clear predecessor electricity dues on the same plot. Non-disclosure of that liability in the sale deed does not entitle the purchaser to a connection without payment. The Permanent Lok Adalat's dismissal of the complaint was without error, and the writ petition was dismissed.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-4.3f-co-extensive-liability-not-confined-to-private-sale",
+      "application": "Auction purchase of an industrial plot still attracts clause 4.3(f) successor liability; the incoming occupier must search out and clear predecessor arrears before a fresh connection.",
+      "lead_authorities": [
+        {
+          "name": "Chandra Prakash Gupta v. State of U.P.",
+          "docid": "Writ-C No. 4606 of 2014"
+        }
+      ],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "Chandra Prakash Gupta v. State of U.P.",
+      "citation": "Writ-C No. 4606 of 2014",
+      "cited_by": "1"
+    }
+  ]
+}
