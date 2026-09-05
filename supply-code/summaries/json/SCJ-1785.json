@@ -1,0 +1,54 @@
+{
+  "case_id": "SCJ-1785",
+  "title": "Ganga Sharan v. State of U.P.",
+  "neutral_citation": null,
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Amreshwar Pratap Sahi and Shashi Kant",
+  "date_of_judgment": "2018-05-29",
+  "date_display": "29 May 2018",
+  "docket": "WRIT - C No. - 19634 of 2018",
+  "page_count": 1,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; recovery citation against deceased consumer quashed; successor to mutate under clause 4.44.",
+  "headnote": "A Division Bench of the Allahabad High Court quashed a recovery citation for electricity dues issued in the name of a consumer who had died about ten years earlier. Recovery against a dead person is impermissible. The successor who inherited the flour-mill connection was directed to apply for mutation under clause 4.44 of the U.P. Electricity Supply Code, 2005; after the record is corrected the licensee may raise demand against him in accordance with law, considering objections, within six weeks. Further statutory remedies were left open if liability is imposed.",
+  "facts": "Ganga Sharan, son of late Tara Chandra, inherited an electricity connection that had served a flour mill established by his father. Tara Chandra had died about ten years earlier. The Electricity Department issued a recovery citation dated 5 May 2018 in the father's name for the mill's consumption dues. The petitioner did not dispute succession but challenged the citation as having been issued against a dead person.",
+  "reusable_constructions": [
+    {
+      "construction": "A recovery citation for electricity dues issued in the name of a deceased consumer is impermissible and is liable to be quashed.",
+      "paras": "1"
+    },
+    {
+      "construction": "Where the recorded consumer has died, the successor who has inherited the connection must apply for mutation under clause 4.44 of the U.P. Electricity Supply Code, 2005; after the record is corrected the licensee may raise demand against the successor in accordance with law, considering objections.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.44",
+      "code": "UP-2005",
+      "clause": "4.44",
+      "topic": "mutation of successor after death of recorded consumer",
+      "type": "supply_code",
+      "holding": "The recovery certificate dated 5 May 2018, issued in the name of a dead person, is quashed. Recovery of electricity dues against a deceased consumer is impermissible. The petitioner, who has inherited the connection, shall apply for mutation of his name under clause 4.44 of the U.P. Electricity Supply Code, 2005, with the requisite documents and an affidavit. After correcting the record, the licensee shall raise demand from the petitioner in accordance with law after considering objections, and conclude those proceedings within six weeks. If thereafter aggrieved by any imposition of liability, the petitioner may pursue remedies under the Electricity Act, 2003 read with the Supply Code. Writ petition allowed subject to those directions.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner is liable for the flour-mill dues, and in what amount",
+      "note": "Demand is to be raised only after mutation; objections are to be considered; statutory remedies remain if liability is imposed.",
+      "paras": "1"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Gopal Swarup Chaturvedi v. State of U.P.",
+      "citation": "1999 AWC (4) 3349",
+      "cited_by": "1"
+    }
+  ]
+}
