@@ -1,0 +1,114 @@
+{
+  "case_id": "SCJ-1264",
+  "title": "Joginder Singh v. D.V.V.N. Ltd. thru' its Managing Director & Others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta, J.; Prashant Kumar, J.",
+  "date_of_judgment": "2023-05-02",
+  "date_display": "2 May 2023 (order-sheet, 29.9.2010 to 2.5.2023)",
+  "docket": "WRIT - C No. - 59924 of 2010",
+  "page_count": 12,
+  "source_file": "WRIC(A)_59924_2010.pdf",
+  "pin_basis": "date",
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "disposition": "Petition disposed of as withdrawn (2.5.2023) with liberty to challenge final assessment in independent proceedings",
+  "headnote": "Order-sheet in a writ challenging recovery of Rs.4,20,288 raised on a theft/meter-tampering assessment under the U.P. Government Electrical Undertaking (Recovery of Dues) Act, 1958. On 29 September 2010 a Division Bench (Sunil Ambwani and Kashi Nath Pandey, JJ.) recorded prima facie observations rejecting the consumer's limitation defences: Section 56(2) of the Electricity Act, 2003 governs default in payment of a charge for electricity (or any other sum due to a licensee or generating company in respect of supply, transmission, distribution or wheeling) and is not applicable to theft cases; and Para 6.15(b) of the U.P. Electricity Supply Code, 2005 must be read in the context of Section 56(1) and cannot be read in isolation to fix a two-year limitation, even in a theft case. The Bench found prima facie material that the checking report and provisional assessment order were furnished and that the consumer, though holding them, filed no reply, and observed that it was required to consider whether any final assessment had been made. After repeated adjournments across benches, the petition was disposed of as withdrawn on 2 May 2023 with liberty to the petitioner to challenge the order of final assessment in independent proceedings.",
+  "facts": "The electricity meter of Joginder Singh was alleged to have been tampered, and a provisional assessment for theft of electricity was made against him. It was admitted, in paragraph 13(b) of his complaint before the District Consumer Forum, that a checking report was available with him, and he did not file a reply to the provisional assessment. A criminal complaint under Section 135 of the Electricity Act, 2003 was also lodged against him. He filed WRIT-C No. 59924 of 2010 before the Allahabad High Court challenging the recovery of Rs.4,20,288 under the U.P. Government Electrical Undertaking (Recovery of Dues) Act, 1958, on the grounds that no checking was made, the checking report was not given to him, no final assessment was made, and that in any case recovery of dues beyond two years was barred by Section 56(2) of the Electricity Act, 2003 and Para 6.15(b) of the U.P. Electricity Supply Code, 2005. On 29 September 2010 the Division Bench of Sunil Ambwani and Kashi Nath Pandey, JJ. recorded prima facie observations against those limitation defences and directed the respondent's counsel to seek instructions. The matter was thereafter listed before several Division Benches and repeatedly adjourned between 2010 and 2023 (counsel illness slips, exchange of affidavits, and requests for time). On 2 May 2023, after brief submissions, the petitioner's counsel prayed to withdraw the petition with liberty to challenge the order of final assessment in independent proceedings; the respondent-Electricity Department had no objection, and the Bench of Manoj Kumar Gupta and Prashant Kumar, JJ. disposed of the petition as withdrawn with that liberty.",
+  "reusable_constructions": [
+    {
+      "construction": "Section 56(2) of the Electricity Act, 2003 governs default in payment of a charge for electricity, or any sum other than such a charge, due to a licensee or generating company in respect of supply, transmission, distribution or wheeling of electricity; its two-year bar on recovery does not extend to theft cases.",
+      "paras": "order of 29.9.2010"
+    },
+    {
+      "construction": "Para 6.15(b) of the U.P. Electricity Supply Code, 2005 must be read in the context of Section 56(1) of the Electricity Act, 2003; it cannot be read in isolation to fix a two-year period of limitation on recovery, even where the demand arises from theft of electricity.",
+      "paras": "order of 29.9.2010"
+    },
+    {
+      "construction": "Where the consumer held the checking report and the provisional assessment order but filed no reply, a prima facie case that those documents were furnished is made out, and the limitation objections under Section 56(2) and Para 6.15(b) do not, prima facie, bar recovery of a theft/tampering assessment.",
+      "paras": "order of 29.9.2010"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::56(2)",
+      "code": "Electricity Act, 2003",
+      "clause": "56(2) r/w 56(1)",
+      "topic": "Section 56(2)'s two-year bar on recovery applies to default in payment of charges, not to theft cases",
+      "type": "electricity_act",
+      "nature": "obiter",
+      "question": "Does the two-year limitation on recovery under Section 56(2) of the Electricity Act, 2003 apply to a demand raised on a theft/meter-tampering assessment?",
+      "holding": "Prima facie, no. Section 56(2) is applicable to default in payment where a person neglects to pay any charge for electricity, or any sum other than a charge for electricity, due to a licensee or the generating company in respect of supply, transmission, distribution or wheeling of electricity; it is not applicable to theft cases. The petitioner's contention that recovery of the tampering/theft assessment beyond two years was barred therefore could not be sustained at the prima facie stage.",
+      "evidence": [
+        {
+          "quote": "Section 56 (2) is applicable to default in payment where any person neglects to pay any charge for electricity or any sum other than a charge for electricity due from him to a licensee or the generating company in respect of supply, transmission or distribution or wheeling of electricity to him. It is not applicable to theft cases.",
+          "paras": "order of 29.9.2010"
+        }
+      ],
+      "paras": "order of 29.9.2010",
+      "qualifier": "A prima facie observation in an interim listing order; the petition was ultimately disposed of as withdrawn on 2.5.2023 without any final finding.",
+      "flag": "Order-sheet with no printed page numbers or numbered paragraphs; pins are order dates. The substantive observations are in the 29.9.2010 order (Sunil Ambwani and Kashi Nath Pandey, JJ.), while coram/date reflect the 2.5.2023 disposal (Manoj Kumar Gupta and Prashant Kumar, JJ.)."
+    },
+    {
+      "provision": "UP-2005::6.15",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.15(b) r/w Section 56(1), Electricity Act, 2003",
+      "topic": "Para 6.15(b) is read with Section 56(1); it does not independently fix a two-year limitation, even in theft cases",
+      "type": "interplay",
+      "nature": "obiter",
+      "question": "Can Para 6.15(b) of the U.P. Electricity Supply Code, 2005 be read in isolation to fix a two-year period of limitation barring recovery, even in a theft case?",
+      "holding": "Prima facie, no. Para 6.15(b) of the Electricity Supply Code, 2005 has to be read in the context of sub-clause (1) of Section 56 and cannot be read in isolation to fix the period of limitation for two years, even in a theft case. The petitioner's reliance on Para 6.15(b) to defeat the recovery as time-barred accordingly failed at the prima facie stage.",
+      "evidence": [
+        {
+          "quote": "Similarly Para 6.15 (b) of the Electricity Supply Code, 2005 has to be read in the context of sub clause (1) of Section 56. It cannot be read in isolation to fix the period of limitation for two years, even in a theft case.",
+          "paras": "order of 29.9.2010"
+        }
+      ],
+      "paras": "order of 29.9.2010",
+      "qualifier": "A prima facie observation in an interim listing order; the petition was ultimately disposed of as withdrawn on 2.5.2023 with liberty to challenge the final assessment separately."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "section-56-2-two-year-bar-inapplicable-to-theft",
+      "application": "The consumer's plea that recovery beyond two years was barred by Section 56(2) was rejected prima facie: the sub-section addresses default in payment of charges, not theft. Same Section 56(2) cluster as SCJ-001, SCJ-406, SCJ-477.",
+      "lead_authorities": [],
+      "paras": "order of 29.9.2010"
+    },
+    {
+      "tag": "clause-6-15b-read-with-section-56-not-independent-limitation",
+      "application": "Para 6.15(b) of the U.P. Electricity Supply Code, 2005 was held to take colour from Section 56(1) and not to impose a stand-alone two-year limitation, even in a theft case. Same Clause 6.15 cluster as SCJ-113, SCJ-477.",
+      "lead_authorities": [],
+      "paras": "order of 29.9.2010"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether a valid final assessment was made against the petitioner",
+      "note": "The Court recorded that it was required to consider whether any final assessment had been made, and that even on the petitioner's own admission no reply had been given in the absence of the checking report; the question was never decided because the petition was disposed of as withdrawn on 2.5.2023 with liberty to challenge the final assessment in independent proceedings.",
+      "docid": "",
+      "paras": "order of 29.9.2010; order of 2.5.2023"
+    }
+  ],
+  "related_cases": [
+    {
+      "case_id": "SCJ-477",
+      "note": "Applies Section 56(2) and the explanation to Clause 6.15(b) to bar a multi-year back-assessment - the same two provisions invoked here as a limitation defence."
+    },
+    {
+      "case_id": "SCJ-406",
+      "note": "DVVNL matter in the Section 56(2) cluster on the two-year bar to recovery of electricity dues."
+    },
+    {
+      "case_id": "SCJ-001",
+      "note": "Section 56(2) two-year limitation on recovery of electricity dues."
+    },
+    {
+      "case_id": "SCJ-113",
+      "note": "Clause 6.15 of the U.P. Electricity Supply Code, 2005 cluster on when charges first become due and recoverable."
+    }
+  ],
+  "authorities": [],
+  "model": "Claude Opus 4.8"
+}

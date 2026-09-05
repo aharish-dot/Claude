@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1264,
+  "next_seq": 1265,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -7582,6 +7582,12 @@
       "case_id": "SCJ-1263",
       "source_basename": "WRIC(A)_54216_2014.pdf",
       "title": "M/s Matrumal Dhannalal Oil Mill v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1264",
+      "source_basename": "WRIC(A)_59924_2010.pdf",
+      "title": "Joginder Singh v. D.V.V.N. Ltd. thru' its Managing Director & Others",
       "status": "done"
     }
   ]
