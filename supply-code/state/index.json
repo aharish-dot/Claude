@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1855,
+  "next_seq": 1856,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -11110,6 +11110,12 @@
       "case_id": "SCJ-1850",
       "source_basename": "WRIC(A)_32925_2018.pdf",
       "title": "Umesh Nath Pandey v. Purvanchal Vidyut Vitran Nigam Ltd. & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1852",
+      "source_basename": "WRIC(A)_33405_2018.pdf",
+      "title": "Pancham Singh v. Chairman, U.P. Power Corporation Ltd.",
       "status": "done"
     }
   ]

@@ -1,0 +1,43 @@
+{
+  "case_id": "SCJ-1852",
+  "title": "Pancham Singh v. Chairman, U.P. Power Corporation Ltd.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "B. Amit Sthalekar, J.; Surya Prakash Kesarwani, J.",
+  "date_of_judgment": "2018-10-03",
+  "date_display": "3 October 2018",
+  "docket": "Writ-C No. 33405 of 2018",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Disposed; represent under clause 6.5; coercive action stayed pending decision.",
+  "headnote": "A writ challenging a Rs.44,398 recovery notice, after a paid theft penalty and a later metered connection, was disposed without deciding whether the demand could issue against the petitioner because the plot stood in his wife's name. The Division Bench directed a representation under clause 6.5 of the U.P. Electricity Supply Code, 2005 to the Executive Engineer, Purvanchal Vidyut Vitran Nigam Limited, Mirzapur, to be decided in accordance with law, and stayed coercive action on the notice until then.",
+  "facts": "Pancham Singh purchased a residential plot in his wife's name and installed a submersible pump for construction. On 19 February 2015 a vigilance team caught him stealing electricity from a pole and imposed a Rs.10,000 penalty, which he says he paid. A metered connection was then granted on 24 February 2015 and installed on 2 March 2015. Recovery notice dated 9 August 2018 demanded Rs.44,398. He contended the property stood in his wife's name, so the demand could not issue against him.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "billing-objection-to-executive-engineer-under-6.5",
+      "type": "supply_code",
+      "holding": "A consumer disputing a recovery/demand notice must first represent under clause 6.5 of the U.P. Electricity Supply Code, 2005 before the Executive Engineer; the High Court will dispose the writ with a time-bound direction to consider and decide that representation in accordance with law, staying coercive action on the notice meanwhile.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Validity of the recovery notice dated 09.08.2018 demanding Rs.44,398",
+      "note": "Merits of the demand left to the clause 6.5 representation.",
+      "paras": "1"
+    },
+    {
+      "point": "Whether a demand can issue against the petitioner when the plot stands in his wife's name",
+      "note": "The ownership objection was not examined.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
