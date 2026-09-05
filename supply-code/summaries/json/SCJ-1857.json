@@ -1,0 +1,48 @@
+{
+  "case_id": "SCJ-1857",
+  "title": "Tariq v. Pashimanchal Vidyut Vitran Nigam Ltd.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Pankaj Mithal and Rajiv Joshi, JJ.",
+  "date_of_judgment": "2018-10-11",
+  "date_display": "11 October 2018",
+  "docket": "Writ-C No. 34172 of 2018",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; restore supply on one-time tariff if no Special Court complaint within 30 days.",
+  "headnote": "On an alleged theft, the licensee assessed the consumer six times the tariff and, after a one-time deposit, demanded the balance. The Division Bench held that Clause 8.2 of the U.P. Electricity Supply Code, 2005 does not permit that demand where no theft complaint has been filed before the Special Court within 30 days of disconnection: the consumer may obtain restoration on deposit of one time of the existing tariff. The Executive Engineer was directed to consider a restoration representation accordingly and to restore without insisting on the balance if those conditions were met.",
+  "facts": "On an allegation of theft of electricity, the petitioner was assessed six times the tariff, amounting to Rs. 7,43,172. He deposited Rs. 1,23,862, being one time of the existing tariff, but the Executive Engineer, Electricity Urban Distribution Division-I, Ghantaghar, Meerut, by order dated 6 September 2018, demanded the balance of Rs. 6,19,310 within fifteen days. He sought a writ, asserting that no theft complaint had been lodged before the Special Court within thirty days of disconnection.",
+  "reusable_constructions": [
+    {
+      "construction": "Where a complaint of theft is not filed before the Special Court within 30 days of disconnection, Clause 8.2 entitles the consumer to restoration of supply on deposit of one time of the existing tariff; a demand of six times is not legally permissible.",
+      "paras": "2"
+    },
+    {
+      "construction": "If the consumer has already deposited one time of the existing tariff and no theft complaint was lodged with the Special Court within 30 days, the authorised officer must restore the connection without insisting on the balance of a six-times assessment.",
+      "paras": "3"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.2",
+      "code": "UP-2005",
+      "clause": "8.2",
+      "topic": "restoration after theft assessment where no Special Court complaint within 30 days",
+      "type": "supply_code",
+      "holding": "Clause 8.2 of the U.P. Electricity Supply Code, 2005 provides that if a complaint of theft is not filed before the Special Court within 30 days of disconnection, the consumer may approach the authorised officer for restoration of supply on deposit of one time of the existing tariff. A demand of six times the tariff in that situation is not legally permissible. The Executive Engineer shall consider a restoration representation in accordance with Clause 8.2 and, if the one-time tariff has already been deposited and no such complaint was lodged within 30 days, restore the connection without insisting on the balance.",
+      "paras": "2-3"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether a complaint of theft was in fact lodged with the Special Court within 30 days of disconnection",
+      "note": "Restoration without the six-times balance is conditioned on that fact, which the Executive Engineer is to verify.",
+      "paras": "3"
+    }
+  ],
+  "authorities": []
+}
