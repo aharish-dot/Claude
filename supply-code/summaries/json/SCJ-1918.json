@@ -1,0 +1,49 @@
+{
+  "case_id": "SCJ-1918",
+  "title": "Brijesh Singh v. Purvanchal Vidyut Vitran Nigam Ltd.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J.; Ajay Bhanot, J.",
+  "date_of_judgment": "2018-01-08",
+  "date_display": "8 January 2018",
+  "docket": "Writ-C No. 662 of 2018",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Demand notice and recovery citation quashed; fresh provisional assessment permitted.",
+  "headnote": "A licensee cannot jump to a final assessment and recover it as arrears of land revenue without first following Clause 6.8 of the U.P. Electricity Supply Code, 2005 — a provisional assessment notice and a fixed date, time and place for objections and personal hearing. Where those steps are not shown, the final assessment and the consequential recovery are illegal. The demand and citation are quashed, with liberty to serve a fresh provisional assessment and pass a reasoned final order after considering objections, as required by Ashok Kumar (2008 (6) ADJ 660).",
+  "facts": "Brijesh Singh challenged a 25 April 2017 demand of Purvanchal Vidyut Vitran Nigam and a citation to recover the amount as arrears of land revenue. He said no Clause 6.8 notice or provisional assessment had been issued, no date, time or place had been fixed for objections or personal hearing, and a final assessment had been made at once. Licensee's counsel produced the inspection report, final assessment and recovery certificate but, on the Court's query, could not show that Clause 6.8 had been followed.",
+  "reusable_constructions": [
+    {
+      "construction": "A final electricity assessment and the recovery that follows it are illegal if the licensee never issued a provisional assessment notice or afforded an opportunity to object and be heard under Clause 6.8 of the U.P. Electricity Supply Code, 2005.",
+      "paras": "1"
+    },
+    {
+      "construction": "Where Clause 6.8 procedure is skipped, the demand and recovery citation may be quashed while leaving the licensee free to serve a fresh provisional assessment and pass a reasoned final order after considering objections.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8",
+      "code": "UP-2005",
+      "clause": "6.8",
+      "topic": "provisional assessment, hearing and recovery",
+      "type": "supply_code",
+      "holding": "Clause 6.8 of the U.P. Electricity Supply Code requires a provisional assessment notice and a fixed date, time and place for filing objections and personal hearing before a final assessment. Where the licensee produces only the inspection report, final assessment and recovery certificate and cannot show that this procedure was followed, the final assessment and consequential recovery as arrears of land revenue are illegal and must be quashed, without prejudice to a fresh provisional assessment served on the consumer and a reasoned final order after considering objections, following Ashok Kumar v. State of U.P., 2008 (6) ADJ 660 (DB).",
+      "paras": "1",
+      "flag": "The order applies Clause 6.8 (UUE assessment procedure) while citing Ashok Kumar for theft-of-electricity assessment under the 2005 Code. Catalog hit clause-8.1-8.2-govern-theft-assessment-not-6.8; the Court did not itself invoke Clause 8.1."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "Ashok Kumar and others v. State of U.P. and others",
+      "citation": "2008 (6) ADJ 660 (DB)",
+      "cited_by": "1"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1921,
+  "next_seq": 1922,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -11506,6 +11506,12 @@
       "case_id": "SCJ-1916",
       "source_basename": "WRIC(A)_6092_2018.pdf",
       "title": "Anmol Laghu Udyog v. Dakshinanchal Vidyut Vitran Nigam Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1918",
+      "source_basename": "WRIC(A)_662_2018.pdf",
+      "title": "Brijesh Singh v. Purvanchal Vidyut Vitran Nigam Ltd.",
       "status": "done"
     }
   ]
