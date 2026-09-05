@@ -1,0 +1,58 @@
+{
+  "case_id": "SCJ-1924",
+  "title": "Ram Mohan v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J.; Ajay Bhanot, J.",
+  "date_of_judgment": "2018-02-28",
+  "date_display": "28 February 2018",
+  "docket": "Writ-C No. 7990 of 2018",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Assessment notice quashed; fresh provisional assessment and hearing directed",
+  "headnote": "A provisional assessment notice under Clause 6.8(b) of the U.P. Electricity Supply Code, 2005 must state the basis of the assessed amount and specify a date and time for hearing. A notice that does neither is not in accordance with law; the assessment is quashed and a fresh provisional assessment must be served, with final assessment only after objections, hearing, and reasoned consideration.",
+  "facts": "Ram Mohan challenged an electricity assessment of Rs. 2,25,688 and the recovery that followed. He said he never received the 27 December 2017 provisional assessment notice and learned of it only after a recovery certificate issued, so he could not reply and the licensee treated the assessment as final. Counsel relied on Clause 6.8(b)(1) of the U.P. Electricity Supply Code, 2005, arguing the notice had to fix a date and time for hearing.",
+  "reusable_constructions": [
+    {
+      "construction": "Clause 6.8(b) requires the provisional assessment notice itself to specify a date and time for hearing; omission of that particular means the notice is not in accordance with law and the consumer was not afforded the opportunity the Code requires.",
+      "paras": "3-7"
+    },
+    {
+      "construction": "A provisional assessment notice must also disclose the basis on which the consumer was assessed to a stated sum; a demand that states only a lump-sum figure, without basis or a hearing date, is defective.",
+      "paras": "6"
+    },
+    {
+      "construction": "Where the provisional assessment notice is legally defective, the assessment is quashed and the licensee must issue a fresh provisional assessment, make the final order only after considering objections and giving a hearing, and record reasons meeting those objections in the light of Ashok Kumar.",
+      "paras": "8"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "UP-2005",
+      "clause": "6.8(b)",
+      "topic": "provisional assessment notice — hearing date and basis",
+      "type": "supply_code",
+      "holding": "A provisional assessment notice that neither states the basis of the assessed amount nor specifies a date and time for hearing, as required by Clause 6.8(b) of the U.P. Electricity Supply Code, 2005, does not afford the consumer adequate opportunity. Such a notice is not in accordance with law. The consequent assessment is quashed; the licensee must prepare and serve a fresh provisional assessment, and the final order may be made only after considering the consumer's objections, granting a hearing, and recording reasons meeting those objections, in the light of Ashok Kumar.",
+      "paras": "3-8"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Merits of the Rs. 2,25,688 assessment and whether the petitioner in fact received the notice",
+      "note": "Quash rested on the face of the notice (no basis; no date and time for hearing). Fresh assessment, objections and hearing were directed.",
+      "paras": "6-8"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008 (6) ADJ 660 (DB)",
+      "cited_by": "5, 8"
+    }
+  ]
+}
