@@ -1,0 +1,48 @@
+{
+  "case_id": "SCJ-1610",
+  "title": "Bachhan Pandey v. State of U.P. and others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari and Ravindra Nath Kakkar, JJ.",
+  "date_of_judgment": "2017-05-19",
+  "date_display": "19 May 2017",
+  "docket": "WRIT - C No. 21748 of 2017",
+  "page_count": 1,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; recovery certificate quashed; liberty to reassess after due procedure.",
+  "headnote": "A recovery certificate issued without provisional assessment cannot stand. Clause 6.8(b) of the U.P. Electricity Supply Code, 2005 is mandatory. On the licensee's concession that no provisional assessment had been made, the High Court quashed the certificate dated 15.12.2015/20.2.2016, while leaving the respondents free to make a fresh assessment after following the prescribed procedure.",
+  "facts": "Bachhan Pandey petitioned the Allahabad High Court to quash a recovery certificate dated 15 December 2015 / 20 February 2016 issued by respondent no. 3, an electricity authority. He alleged that the certificate was issued without notice, without an opportunity of hearing, and without any provisional assessment of dues. Counsel for the distribution-licensee respondents, on instructions, fairly admitted that no provisional assessment had been made. A copy of those instructions was taken on record.",
+  "reusable_constructions": [
+    {
+      "construction": "Clause 6.8(b) of the U.P. Electricity Supply Code, 2005 is mandatory; a recovery certificate issued without a prior provisional assessment is unsustainable and liable to be quashed.",
+      "paras": "5"
+    },
+    {
+      "construction": "Quashing a recovery for non-compliance with clause 6.8(b) does not bar the licensee from making a fresh assessment after following the prescribed procedure.",
+      "paras": "7"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "UP-2005",
+      "clause": "6.8(b)",
+      "topic": "provisional assessment before recovery",
+      "type": "supply_code",
+      "holding": "In the absence of provisional assessment in compliance with clause 6.8(b) of the U.P. Electricity Supply Code, 2005, which is mandatory, a recovery certificate is not liable to be sustained and is quashed. It remains open to the licensee to make a fresh assessment after following the prescribed procedure.",
+      "paras": "5-7"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Existence or quantum of the alleged electricity dues",
+      "note": "The Court decided only the validity of the recovery certificate for want of provisional assessment and reserved liberty to reassess; it made no finding on the underlying demand.",
+      "paras": "7"
+    }
+  ],
+  "authorities": []
+}
