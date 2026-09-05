@@ -1,0 +1,38 @@
+{
+  "case_id": "SCJ-1967",
+  "title": "Islamudin v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Pankaj Mithal, J.; Prakash Padia, J.",
+  "date_of_judgment": "2019-04-22",
+  "date_display": "22 April 2019",
+  "docket": "Writ-C No. 13870 of 2019",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; bill dispute to clause 6.5; restore on deposit",
+  "headnote": "A consumer disputing an electricity bill must take the objection under clause 6.5 of the U.P. Electricity Supply Code, 2005. If the disputed amount is deposited, the licensee is to restore supply immediately, and the clause 6.5 objection may still be decided notwithstanding that payment.",
+  "facts": "Islamudin filed a writ petition in the Allahabad High Court disputing an electricity bill. He had submitted a representation dated 21 December 2018 and sought a decision on that representation together with restoration of his electricity connection. At the hearing his counsel stated that he was ready and willing to deposit the disputed bill amount if supply was restored. The State and the distribution licensee appeared. The Court did not examine whether the bill was correct.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "billing-objection-to-executive-engineer-under-6.5",
+      "type": "supply_code",
+      "holding": "The proper remedy for a consumer disputing an electricity bill is an objection under clause 6.5 of the U.P. Electricity Supply Code, 2005. If the consumer deposits the disputed amount, the licensee must restore supply immediately, and the clause 6.5 dispute may still be decided notwithstanding that payment.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "correctness of the disputed electricity bill",
+      "note": "Left to determination under clause 6.5 notwithstanding deposit of the disputed amount.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
