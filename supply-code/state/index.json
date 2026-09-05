@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1665,
+  "next_seq": 1666,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -9970,6 +9970,12 @@
       "case_id": "SCJ-1661",
       "source_basename": "WRIC(A)_4203_2017.pdf",
       "title": "Purshotam Dass v. D.V.V.N.L. — installment writ dismissed where settlement already provided post-dated cheques",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1662",
+      "source_basename": "WRIC(A)_42073_2017.pdf",
+      "title": "Arun Kumar Shilpkar v. State of U.P.",
       "status": "done"
     }
   ]
