@@ -1,0 +1,48 @@
+{
+  "case_id": "SCJ-1298",
+  "title": "Santosh Kumar Singh v. State of U.P. and others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "V.K. Shukla, J.; Huluvadi Gangadharappa Ramesh, J.",
+  "date_of_judgment": "2015-02-18",
+  "date_display": "18 February 2015",
+  "docket": "Criminal Misc. Writ Petition No. 1387 of 2015",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "FIR quash refused; compounding left to s.152 and Supply Code.",
+  "headnote": "The Allahabad High Court refused to quash FIRs under Sections 135E and 135 of the Electricity Act, 2003 because the FIR disclosed a cognizable offence. It added that if the offence is compoundable the accused may seek compounding under the Electricity Supply Code, 2005 and Section 152 of the Act, and that any arrest for an offence not punishable beyond seven years must follow Section 41(1)(b) read with Section 41-A CrPC.",
+  "facts": "Santosh Kumar Singh petitioned the Allahabad High Court to quash two FIRs dated 2 November 2014, Case Crime Nos. 1336 and 1337 of 2014, registered at Police Station Kantt, District Shahjahanpur, under Sections 135E and 135 of the Electricity Act, 2003. He had not been arrested. He argued that the alleged offences carried a maximum sentence not exceeding seven years, so arrest should not be mechanical, and that they were compoundable. Counsel for the Power Corporation was on notice.",
+  "holding_units": [
+    {
+      "provision": "EA2003::135",
+      "code": "EA2003",
+      "clause": "135",
+      "topic": "quashing of theft FIR",
+      "type": "electricity_act",
+      "holding": "An FIR under Sections 135E and 135 of the Electricity Act, 2003 that discloses a cognizable offence will not be quashed. If arrest is to be effectuated and the offence will not entail a sentence of more than seven years, the police must comply with Section 41(1)(b) read with Section 41-A CrPC.",
+      "paras": "3-6",
+      "flag": "FIR described as under 'Sections 135E and 135'; 135E is not identified as a separate numbered section of the 2003 Act."
+    },
+    {
+      "provision": "EA2003::152",
+      "code": "EA2003",
+      "clause": "152",
+      "topic": "compounding of electricity offences",
+      "type": "interplay",
+      "holding": "If the alleged Electricity Act offence is compoundable, the accused may seek compounding under the Electricity Supply Code, 2005 and Section 152 of the Electricity Act, 2003; the High Court does not itself compound or decide eligibility in a quashing petition once the FIR discloses a cognizable offence.",
+      "paras": "5"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the alleged ss.135/135E offences are in fact compoundable",
+      "note": "Court left compounding to the accused if the offence is compoundable, without deciding eligibility under the Code or s.152.",
+      "paras": "5"
+    }
+  ],
+  "authorities": []
+}
