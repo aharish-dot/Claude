@@ -1,0 +1,37 @@
+{
+  "case_id": "SCJ-1622",
+  "title": "Chandra Pal v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "V.K. Shukla and Sangeeta Chandra, JJ.",
+  "date_of_judgment": "2017-01-19",
+  "date_display": "19 January 2017",
+  "docket": "WRIT - C No. 2574 of 2017",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; billing dispute relegated to clause 6.5(b).",
+  "headnote": "A consumer who disputes the correctness of an electricity bill, including an alleged mis-statement of sanctioned load, has a statutory complaint under paragraph 6.5(b) of the U.P. Electricity Supply Code, 2005. The High Court will not decide the billing dispute on merits and will relegate the writ petitioner to that forum.",
+  "facts": "Chandra Pal and another petitioned the Allahabad High Court alleging that the electricity bill for their private tube-well motor treated the approved 5 H.P. load as 10 H.P. When the matter was taken up, counsel for the distribution licensee submitted that paragraph 6.5(b) of the U.P. Electricity Supply Code, 2005 lets a consumer who disputes bill accuracy pay under protest the lesser of the claimed sum or six months' average charges and complain to the competent authority before the due date. The Court did not try the load figure.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5(b)",
+      "code": "UP-2005",
+      "clause": "6.5(b)",
+      "topic": "bill-accuracy complaint; statutory remedy",
+      "type": "supply_code",
+      "holding": "A consumer disputing the accuracy of any bill has a statutory remedy under paragraph 6.5(b): pay under protest the lesser of the amount claimed or charges calculated on the average of the preceding six months' bills, and file a complaint with the competent authority before the due date. Where that remedy is available, the writ court will not decide the billing dispute (here, whether a private tube-well motor's approved 5 H.P. load was wrongly billed as 10 H.P.) and will relegate the consumer to opposite party no. 3, directing a complaint within two weeks for disposal in accordance with law within four weeks.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the approved load of the private tube-well motor was 5 H.P. or 10 H.P., and whether the bill was therefore incorrect.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
