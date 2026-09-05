@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1551,
+  "next_seq": 1552,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -9286,6 +9286,12 @@
       "case_id": "SCJ-1548",
       "source_basename": "WRIC(A)_60017_2016.pdf",
       "title": "Smt. Sharda Tripathi v. U.P. Power Corporation Limited",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1547",
+      "source_basename": "WRIC(A)_59704_2016.pdf",
+      "title": "M/s S.R. Preservation Pvt. Ltd. v. State of U.P.",
       "status": "done"
     }
   ]
