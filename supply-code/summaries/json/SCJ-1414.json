@@ -1,0 +1,55 @@
+{
+  "case_id": "SCJ-1414",
+  "title": "Rakesh Khandelwal v. Dakshinanchal Vidyut Vitran Nigam Ltd.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari and Vinod Kumar Misra, JJ.",
+  "date_of_judgment": "2016-04-04",
+  "date_display": "4 April 2016",
+  "docket": "WRIT - C No. 11601 of 2016",
+  "page_count": 4,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Demand and recovery quashed; fresh assessment after hearing directed",
+  "headnote": "A theft-based demand and recovery cannot stand where the consumer was not heard under Clause 6.8(1)(b) of the U.P. Electricity Supply Code, 2005, and the final assessment does not record satisfaction that the provisional assessment notice was served. The Court quashed the 19 July 2014 demand for Rs. 2,29,802 and consequential recovery, and directed a fresh provisional assessment, service, and a reasoned final order after objections, following Ashok Kumar (2008).",
+  "facts": "Rakesh Khandelwal petitioned the Allahabad High Court against Dakshinanchal Vidyut Vitran Nigam Ltd.'s demand notice dated 19 July 2014 for Rs. 2,29,802. The licensee said he had been caught stealing electricity; a provisional assessment was made; no objection was filed; a final assessment and demand followed; and recovery was started when he did not pay. The Court had earlier given the licensee time to produce the final assessment, warning that the Managing Director might be summoned.",
+  "reusable_constructions": [
+    {
+      "construction": "Recovery founded on a theft assessment cannot be sustained if the consumer was not given the mandatory hearing under Clause 6.8(b).",
+      "paras": "5"
+    },
+    {
+      "construction": "A final assessment that does not record the assessing authority's satisfaction that the provisional assessment notice was served will not support demand or recovery.",
+      "paras": "5"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "UP-2005",
+      "clause": "6.8(1)(b)",
+      "topic": "hearing and service before final theft assessment",
+      "type": "supply_code",
+      "holding": "Where recovery of alleged theft dues rests on a final assessment made without affording the consumer a hearing under Clause 6.8(1)(b) and without recording satisfaction that the provisional assessment notice was served, the demand and consequential recovery are unsustainable. A fresh provisional assessment must be prepared and served, and the final order made after considering objections with reasons, in the light of Ashok Kumar.",
+      "paras": "5-6",
+      "flag": "Order cites Clause 6.8(1)(b); catalog key is 6.8(b). Applied to theft assessment; catalog also tags 8.1–8.2 as the theft pathway rather than 6.8."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "whether theft was committed and the amount payable on a valid assessment",
+      "note": "Court quashed for want of hearing and recorded satisfaction of service; directed a fresh provisional assessment and a reasoned final assessment after objections.",
+      "paras": "6"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008 (6) ADJ 660 (DB)",
+      "cited_by": "4"
+    }
+  ]
+}
