@@ -1,0 +1,39 @@
+{
+  "case_id": "SCJ-1897",
+  "title": "Ajay Singh v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta, J.; Manju Rani Chauhan, J.",
+  "date_of_judgment": "2018-12-17",
+  "date_display": "17 December 2018",
+  "docket": "Writ-C No. 41406 of 2018",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed without merits; Electrical Inspector to report under s.161, Executive Engineer to decide compensation representation.",
+  "headnote": "On a writ seeking compensation for three deaths alleged to have been caused by electric short-circuit, the Allahabad High Court, without examining merits, disposed of the petition by directing a fresh representation to the Electrical Inspector and the Executive Engineer. The Inspector was to submit a report as provided under Section 161 (cited by the Court as of the Electricity Supply Code, 2005) within 15 days; the Executive Engineer was then to decide the representation by a speaking order after hearing, within 30 days of that report. Delay was not to be a ground for dismissal.",
+  "facts": "Ajay Singh and another filed a writ after three family members died in an alleged electricity short-circuit. They sought mandamus for compensation and for decision of their 18 May 2018 representation, which they said the electricity department had ignored. The Court allowed impleadment of the Electrical Inspector as respondent no. 4. Department counsel stated the petitioners had not approached that Inspector under Section 161, who was to inquire and report to the Executive Engineer.",
+  "holding_units": [
+    {
+      "provision": "EA2003::161",
+      "code": "EA2003",
+      "clause": "161",
+      "topic": "electrical-accident-inquiry-compensation",
+      "type": "electricity_act",
+      "holding": "Without expressing opinion on the merits of a compensation claim for deaths alleged to have been caused by electric short-circuit, the Court disposed of the writ by directing the petitioners to make a fresh representation to the Electrical Inspector and the Executive Engineer within ten days. The Electrical Inspector was to submit a report as provided under Section 161 within 15 days; the Executive Engineer was then to consider and decide the representation by a speaking order after hearing, in accordance with law, within 30 days of receiving that report. Delay was not to be a ground for dismissal.",
+      "paras": "1",
+      "flag": "Court cited 'Section 161 of the Electricity Supply Code, 2005'; accident-inquiry jurisdiction is Electricity Act 2003 s.161 (Electrical Inspector)."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Merits of the compensation claim for the alleged electrocution deaths",
+      "note": "Court expressly declined to express any opinion on merits.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
