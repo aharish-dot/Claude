@@ -1,0 +1,59 @@
+{
+  "case_id": "SCJ-1447",
+  "title": "Sudha Kashmiri v. Executive Engineer, Electricity Distribution Centre",
+  "neutral_citation": "Writ-C No. 19444 of 2016",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari and Vinod Kumar Misra, JJ.",
+  "date_of_judgment": "2016-04-29",
+  "date_display": "29 April 2016",
+  "docket": "Writ-C No. 19444 of 2016",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Notices quashed; fresh final assessment after objections.",
+  "headnote": "A provisional assessment notice under Clause 6.8(b) of the U.P. Electricity Supply Code, 2005 that neither specifies a date for hearing nor discloses the basis of the assessed amount is not in accordance with law. The consumer is not afforded the opportunity the clause requires; such notices are liable to be quashed and a fresh final assessment made after considering objections, with reasons.",
+  "facts": "Smt. Sudha Kashmiri challenged notices dated 2 November 2015 and 31 March 2016 issued by the distribution licensee. She said she never received the provisional assessment notice, could not reply, and the licensee treated the assessment as final and issued a recovery certificate for Rs.36,448. Counsel undertook to file objections within two weeks and argued that Clause 6.8(b)(1) of the U.P. Electricity Supply Code, 2005 required the notice itself to fix a date for hearing.",
+  "reusable_constructions": [
+    {
+      "construction": "A Clause 6.8(b) provisional assessment notice must itself specify a date for hearing so that the consumer can appear on that date.",
+      "paras": "4, 6"
+    },
+    {
+      "construction": "The provisional assessment notice must disclose the basis on which the consumer has been assessed.",
+      "paras": "6"
+    },
+    {
+      "construction": "A notice that omits the hearing date or the basis of assessment does not afford the opportunity required by Clause 6.8(b) and is liable to be quashed.",
+      "paras": "7-8"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "UP-2005",
+      "clause": "6.8(b)",
+      "topic": "provisional assessment notice — hearing date and basis",
+      "type": "supply_code",
+      "holding": "Where the provisional assessment notice does not indicate a date for hearing as required by Clause 6.8(b) and does not give the basis on which the consumer was assessed, the notice is not in accordance with law and the consumer is not afforded the opportunity Clause 6.8(b) provides. The notices are quashed; a final assessment is to be made after considering the consumer's objections, with reasons, in the light of Ashok Kumar.",
+      "paras": "4, 6-8"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Correctness of the assessed amount of Rs.36,448",
+      "note": "Left to a fresh final assessment after considering the petitioner's objections.",
+      "paras": "8"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008(6) ADJ 660 (DB)",
+      "cited_by": "5",
+      "pinpoint": "paras 56-64"
+    }
+  ]
+}
