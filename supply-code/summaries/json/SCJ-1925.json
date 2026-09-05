@@ -1,0 +1,49 @@
+{
+  "case_id": "SCJ-1925",
+  "title": "M/s R.Ratansheet Grah Private Limited v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J.; Ajay Bhanot, J.",
+  "date_of_judgment": "2018-02-28",
+  "date_display": "28 February 2018",
+  "docket": "Writ-C No. 8015 of 2018",
+  "page_count": 1,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; assessment notice quashed; fresh provisional assessment directed",
+  "headnote": "A provisional assessment notice under Clause 6.8(b) of the U.P. Electricity Supply Code, 2005 must specify a date and time for hearing and disclose the basis of the assessed demand. Notice dated 25 August 2017 demanding Rs 2,06,20,064 did neither. The Division Bench quashed it and directed a fresh provisional assessment, objections, hearing and a reasoned order, following Ashok Kumar v. State of U.P., 2008 (6) ADJ 660 (DB).",
+  "facts": "M/s R.Ratansheet Grah Private Limited challenged a Rs 2,06,20,064 assessment and the recovery certificate that followed. It said it never received the notice dated 25 August 2017 and learnt of the demand only after recovery issued, so it could not reply. Counsel argued that Clause 6.8(b)(1) of the U.P. Electricity Supply Code, 2005 required the notice itself to fix a date and time for hearing, and that the notice also failed to state the basis of the assessment. The licensee contested the writ.",
+  "reusable_constructions": [
+    {
+      "construction": "A Clause 6.8(b) provisional assessment notice must itself specify the date and time for hearing; omission of that specification means the notice is not in accordance with the Code.",
+      "paras": "1"
+    },
+    {
+      "construction": "The notice must also disclose the basis of the assessed amount; a lump-sum demand without that basis, and without a hearing date, does not afford the opportunity Clause 6.8(b) requires.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "UP-2005",
+      "clause": "6.8(b)",
+      "topic": "provisional assessment notice — hearing date and basis",
+      "type": "supply_code",
+      "holding": "Where a provisional assessment notice does not indicate a date and time for hearing as Clause 6.8(b) requires, and does not give the basis on which the consumer was assessed, the notice is not in accordance with law and the consumer is not afforded the opportunity provided in Clause 6.8(b). The assessment is liable to be quashed, with a direction to issue a fresh provisional assessment, consider objections, grant hearing, and give reasons meeting those objections in the light of Ashok Kumar v. State of U.P.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008 (6) ADJ 660 (DB)",
+      "cited_by": "1",
+      "paras_cited": "56-64"
+    }
+  ]
+}
