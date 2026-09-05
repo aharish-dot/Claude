@@ -1,0 +1,55 @@
+{
+  "case_id": "SCJ-1613",
+  "title": "Awadhesh Kumar Upadhyay v. U.P. Power Corporation Ltd.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J.; Ravindra Nath Kakkar, J.",
+  "date_of_judgment": "2017-05-23",
+  "date_display": "23 May 2017",
+  "docket": "Writ-C No. 22657 of 2017",
+  "page_count": 1,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Recovery certificate quashed; licensee may proceed afresh in three months",
+  "headnote": "Recovery certificate for Rs.1,85,043 quashed where it did not disclose the basis of assessment and was issued without a provisional notice inviting objections and fixing a date and time of hearing, in gross violation of clause 6.8(b) of the U.P. Electricity Supply Code, 2005. Licensee left free to proceed afresh in accordance with law within three months.",
+  "facts": "Awadhesh Kumar Upadhyay challenged a recovery certificate dated 8 November 2016 for Rs.1,85,043 issued in his name by the Executive Engineer, Purvanchal Vidyut Vitran Division-II, Mughalsarai, Chandauli of U.P. Power Corporation Limited. He had represented against the certificate, but recovery issued without deciding that representation or passing a final order of assessment. He alleged non-compliance with section 126(3) of the Electricity Act, 2003. The licensee justified the certificate. The record did not disclose the basis of the assessed amount.",
+  "reusable_constructions": [
+    {
+      "construction": "A recovery certificate that does not state the basis of the assessed amount, and is issued without a provisional notice inviting objections and fixing a date and time of hearing, is de hors clause 6.8(b) of the U.P. Electricity Supply Code, 2005 and cannot be sustained.",
+      "paras": "1"
+    },
+    {
+      "construction": "Provisional assessment under the Supply Code requires that the notice invite objections and indicate a date and time for hearing of the consumer.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "UP-2005",
+      "clause": "6.8(b)",
+      "topic": "provisional-assessment-notice-and-hearing",
+      "type": "supply_code",
+      "holding": "A recovery certificate that does not disclose the basis of assessment, and is issued without a provisional notice inviting objections and indicating a date and time of hearing, is de hors the U.P. Electricity Supply Code, 2005 and in gross violation of clause 6.8(b); it cannot be sustained and is quashed, without prejudice to the licensee proceeding afresh in accordance with law within three months.",
+      "paras": "1",
+      "flag": "Court applied cl. 6.8(b) (UUE assessment) while invoking Ashok Kumar, a theft-assessment precedent."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Merits of the underlying assessment or alleged unauthorized use",
+      "note": "Certificate quashed only for procedural breach of cl. 6.8(b); licensee left free to proceed in accordance with law within three months.",
+      "paras": "1"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008 (6) ADJ 660 (DB)",
+      "cited_by": "1"
+    }
+  ]
+}
