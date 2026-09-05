@@ -1,0 +1,39 @@
+{
+  "case_id": "SCJ-1318",
+  "title": "Santosh Kumar Yadav v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Dilip Gupta, J. and Vinod Kumar Misra, J.",
+  "date_of_judgment": "2015-02-25",
+  "date_display": "25 February 2015",
+  "docket": "WRIT - C No. 11335 of 2015",
+  "page_count": 1,
+  "significance": "procedural",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; petitioner relegated to Section 127 appeal.",
+  "headnote": "A writ challenging a final assessment order of the Executive Engineer (Distribution & Trade), Urban Electric Distribution Khand, Kanpur, was not entertained. The Division Bench accepted the respondents' preliminary objection that a statutory appeal under Section 127 was available and dismissed the petition. The order attributes Section 127 to the Electricity Supply Code, 2003.",
+  "facts": "Santosh Kumar Yadav filed a writ petition in the Allahabad High Court challenging a final assessment order of the Executive Engineer (Distribution & Trade), Urban Electric Distribution Khand, Kanpur. The State and the distribution respondents appeared through standing counsel and Dr. S.K. Yadav and opposed maintainability on the ground that a statutory appeal lay against that final assessment. The Division Bench heard the matter on 25 February 2015. The order does not record the assessment period, alleged irregularity, or demand amount.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "writ maintainability against final assessment",
+      "type": "electricity_act",
+      "holding": "A writ petition challenging a final assessment order of the Executive Engineer will not be entertained when a statutory appeal under Section 127 is available; the petition is dismissed on that preliminary objection.",
+      "paras": "1",
+      "flag": "The Bench attributed Section 127 to the 'Electricity Supply Code, 2003'; the appeal lies under Section 127 of the Electricity Act, 2003."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "merits of the final assessment order",
+      "note": "Writ dismissed on the alternative-remedy objection without examining the assessment.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
