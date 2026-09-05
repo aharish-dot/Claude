@@ -1,0 +1,43 @@
+{
+  "case_id": "SCJ-1347",
+  "title": "Smt. Babita v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Dilip Gupta and Vinod Kumar Misra, JJ.",
+  "date_of_judgment": "2015-07-10",
+  "date_display": "10 July 2015",
+  "docket": "WRIT - C No. 37155 of 2015",
+  "page_count": 1,
+  "significance": "procedural",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; Assessing Authority to decide pending objections then issue a Supply Code-compliant bill, subject to 50% deposit; if already decided, petitioner to appeal under Clause 6.8(d).",
+  "headnote": "On a challenge to a defective-meter demand and threatened disconnection, where the consumer alleged that Clause 5.6(d) of the U.P. Electricity Supply Code, 2005 was not followed and that objections before the Assessing Authority remained undecided, the Allahabad High Court did not examine the demand on merits. It directed the Assessing Authority to decide the objections and then issue a bill after complying with the Supply Code, subject to deposit of 50% of the noticed amount; if the objections had already been decided, the petitioner was to be informed so she could appeal under Clause 6.8(d).",
+  "facts": "Smt. Babita challenged a 26 March 2015 notice of Electricity Supply Division 5th, Ghaziabad demanding Rs 47,574 and threatening disconnection. The meter at her premises had been found defective and replaced. She alleged that Clause 5.6(d) of the U.P. Electricity Supply Code, 2005 was not followed because the meter was not checked in her presence, and that she had filed objections before the Assessing Authority which remained undecided when the demand notice issued.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(d)",
+      "code": "UP-2005",
+      "clause": "6.8(d)",
+      "topic": "assessment-objections-and-appeal",
+      "type": "supply_code",
+      "holding": "If objections to a defective-meter demand remain pending, the Assessing Authority shall decide them and then issue a bill after complying with the U.P. Electricity Supply Code, 2005, subject to deposit of 50% of the demanded amount; if the objections have already been decided, the consumer is to be informed so that an appeal may be filed under Clause 6.8(d).",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether Clause 5.6(d) was breached because the defective meter was not checked in the petitioner's presence",
+      "note": "Pleaded but not decided; the Court directed Supply Code compliance without examining the meter-check procedure.",
+      "paras": "1"
+    },
+    {
+      "point": "Validity of the Rs 47,574 demand and the threatened disconnection",
+      "note": "Merits left to the Assessing Authority or to a Clause 6.8(d) appeal.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
