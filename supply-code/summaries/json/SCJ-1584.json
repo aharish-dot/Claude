@@ -1,0 +1,48 @@
+{
+  "case_id": "SCJ-1584",
+  "title": "Ram Sumer Singh v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J.; Ravindra Nath Kakkar, J.",
+  "date_of_judgment": "2017-04-12",
+  "date_display": "12 April 2017",
+  "docket": "Writ - C No. 12748 of 2017",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Demand notice quashed; fresh provisional assessment directed.",
+  "headnote": "A Division Bench quashed a theft-related demand notice because the licensee's clause 6.8(b) provisional assessment was not shown to have been served and specified no date and time for hearing. Non-filing of objections could not make that assessment final. Fresh provisional assessment must be prepared, served, and finalised on objections with reasons, following Ashok Kumar v. State of U.P.",
+  "facts": "Ram Sumer Singh challenged a 21 April 2015 demand notice on the ground that recovery had begun without a provisional assessment bill, notice, or hearing. Licensee's counsel later produced a provisional assessment of Rs.69,297 and a 15 July 2014 notice. Those papers showed neither the mode of dispatch nor a date for hearing. The licensee treated the assessment as final because no objection was filed; the petitioner said he never received the notice.",
+  "reusable_constructions": [
+    {
+      "construction": "If the record does not show the mode or manner of dispatch of a clause 6.8(b) provisional assessment notice, it may be presumed that the notice was never sent to the consumer.",
+      "paras": "unnumbered"
+    },
+    {
+      "construction": "Clause 6.8(b) requires the provisional notice to invite objections and to specify a date and time for hearing; a notice that was not served and that fixes no hearing date cannot be treated as final merely because no objection was filed, and recovery on that basis cannot stand.",
+      "paras": "unnumbered"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "UP-2005",
+      "clause": "6.8(b)",
+      "topic": "provisional assessment notice (theft)",
+      "type": "supply_code",
+      "holding": "Provisional assessment and recovery under clause 6.8(b) of the U.P. Electricity Supply Code, 2005 are invalid where the notice is not shown to have been sent to the consumer and does not specify a date and time for hearing. The 21 April 2015 demand notice is quashed. The licensee must prepare a fresh provisional assessment, serve it, and pass a reasoned final order after considering the consumer's objections, in the light of Ashok Kumar v. State of U.P.",
+      "paras": "unnumbered"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008 (6) ADJ 660 (DB)",
+      "cited_by": "unnumbered"
+    }
+  ]
+}
