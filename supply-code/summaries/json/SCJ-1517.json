@@ -1,0 +1,38 @@
+{
+  "case_id": "SCJ-1517",
+  "title": "Bill challenge dismissed with liberty under clause 6.5 ESC",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Arun Tandon, J. and Sunita Agarwal, J.",
+  "date_of_judgment": "2016-10-03",
+  "date_display": "3 October 2016",
+  "docket": "WRIT - C No. 47875 of 2016",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed with liberty to invoke clause 6.5 ESC.",
+  "headnote": "A Division Bench of the Allahabad High Court dismissed a writ petition over electricity bills. Counsel could not show any pleading that an application under clause 6.5 of the Electricity Supply Code, 2005 was competent. The Court held that a consumer dissatisfied with the correctness of bills must pursue the statutory remedy under clause 6.5, and reserved liberty to do so.",
+  "facts": "Shambhu Nath Verma approached the Allahabad High Court in a writ petition against the State of Uttar Pradesh and three others, apparently over electricity bills. At the hearing, counsel could not identify any paragraph of the petition demonstrating that the petitioner's application was competent under clause 6.5 of the Electricity Supply Code, 2005. The Division Bench treated the grievance as a challenge to the correctness of the bills and declined to examine it on the writ side.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "billing-dispute-forum",
+      "type": "supply_code",
+      "holding": "Where a consumer is dissatisfied with the correctness of electricity bills, the remedy is under clause 6.5 of the Electricity Supply Code, 2005; a writ will not be entertained when counsel cannot even show that an application under that clause is competent.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "correctness of the electricity bills",
+      "note": "Merits of the bills were not examined; petitioner was left to clause 6.5 ESC.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
