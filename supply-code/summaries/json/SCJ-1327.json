@@ -1,0 +1,53 @@
+{
+  "case_id": "SCJ-1327",
+  "title": "Gopal Babu v. State of U.P.",
+  "neutral_citation": "Writ-C No. 17382 of 2015",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Tarun Agarwala, J.; Amar Singh Chauhan, J.",
+  "date_of_judgment": "2015-04-01",
+  "date_display": "1 April 2015",
+  "docket": "WRIT - C No. 17382 of 2015",
+  "page_count": 1,
+  "significance": "procedural",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; authority to decide 6.5 billing and 4.4 mutation applications in four weeks.",
+  "headnote": "The connection stood in the petitioner's father's name. He had applied for mutation in his own name and for correction of electricity bills; both applications were pending. The Court disposed of the writ by directing the competent authority to treat the billing application as filed under paragraph 6.5 of the Electricity Supply Code, 2005 and the mutation application under paragraph 4.4, and to decide both by a reasoned and speaking order after hearing, within four weeks of production of a certified copy. The corrected amount was to be paid by the petitioner. Mutation and bill correctness were not decided on merits.",
+  "facts": "The electricity connection stood in the name of the petitioner's father. The petitioner applied to have the connection mutated in his own name and separately sought correction of electricity bills. Those applications remained pending. He filed a writ petition in the Allahabad High Court seeking directions on the mutation and the disputed bills. After hearing counsel for the petitioner and the standing counsel, the Court disposed of the petition without adjudicating either dispute.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "billing-objection",
+      "type": "supply_code",
+      "holding": "A pending application for correction of electricity bills is to be treated as an objection under paragraph 6.5 of the Electricity Supply Code, 2005 and decided by a reasoned and speaking order after opportunity of hearing; the consumer shall pay the corrected amount.",
+      "paras": "1"
+    },
+    {
+      "provision": "UP-2005::4.4",
+      "code": "UP-2005",
+      "clause": "4.4",
+      "topic": "mutation",
+      "type": "supply_code",
+      "holding": "The Court directed the competent authority to treat the petitioner's application to mutate a connection standing in his father's name as an application under paragraph 4.4 of the Electricity Supply Code, 2005 and to decide it by a reasoned and speaking order after hearing, within four weeks. The Court did not grant mutation or a connection on merits.",
+      "paras": "1",
+      "flag": "ambiguous_clause"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Entitlement to mutation of the connection standing in the father's name",
+      "note": "Left to the competent authority under paragraph 4.4",
+      "paras": "1"
+    },
+    {
+      "point": "Correctness of the electricity bills and the amount payable",
+      "note": "Left to decision under paragraph 6.5; petitioner to pay the corrected amount",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
