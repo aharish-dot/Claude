@@ -1,0 +1,38 @@
+{
+  "case_id": "SCJ-1324",
+  "title": "Kunwar Pal Singh v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Tarun Agarwala and Dr. Satish Chandra, JJ.",
+  "date_of_judgment": "2015-03-10",
+  "date_display": "10 March 2015",
+  "docket": "Writ-C No. 13000 of 2015",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; clause 6.5 authority to correct bill if required.",
+  "headnote": "A consumer's objection to a bill for a period of disconnection is not decided on the writ. The competent authority under clause 6.5 of the U.P. Electricity Supply Code, 2005 is to pass appropriate orders and correct the bill, if required, within four weeks of a certified copy.",
+  "facts": "Kunwar Pal Singh's electricity connection was disconnected on 31 May 2013 for non-payment of dues. After payment, the connection was restored on 24 July 2014. The department then issued a bill for the disconnected interval from 31 May 2013 to 24 July 2014. He approached the Allahabad High Court, contending that because the department itself had disconnected supply he was not liable for that period. The Court treated the petition as raising an objection to the correctness of the bill.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "billing-objection-disconnected-period",
+      "type": "supply_code",
+      "holding": "Where the consumer objects to the correctness of a bill covering a period of disconnection, the writ court will not itself decide liability; the competent authority under clause 6.5 of the U.P. Electricity Supply Code, 2005 is to pass appropriate orders and correct the bill, if required.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner is liable to pay for the disconnected period 31 May 2013 to 24 July 2014",
+      "note": "Left to the competent authority under clause 6.5, which may correct the bill if required.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
