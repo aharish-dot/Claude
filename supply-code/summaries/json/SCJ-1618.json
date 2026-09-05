@@ -1,0 +1,55 @@
+{
+  "case_id": "SCJ-1618",
+  "title": "Raju Jaiswal (Rajiv Jaiswal) v. State of U.P.",
+  "neutral_citation": "Writ-C No. 24884 of 2017",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": ["Krishna Murari, J.", "Ravindra Nath Kakkar, J."],
+  "date_of_judgment": "2017-05-30",
+  "date_display": "30 May 2017",
+  "docket": "WRIT - C No. - 24884 of 2017",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Demand notice and recovery citation quashed; licensee free to proceed afresh.",
+  "headnote": "A demand notice and recovery citation issued without proof that the provisional assessment was served, and without a date of hearing on that assessment, cannot stand. Clause 6.8(b) of the U.P. Electricity Supply Code, 2005 requires the provisional notice to invite objections and to indicate a date and time for hearing. Silence on the record as to the mode of sending the provisional assessment raises a presumption of non-service. The licensee may proceed afresh in accordance with the prescribed procedure.",
+  "facts": "Raju Jaiswal challenged a demand notice dated 7 March 2017 and a recovery citation dated 4 May 2017. The distribution licensee argued that he had not objected to the provisional assessment, which was treated as final, and recovery followed. He said the provisional assessment notice never reached him, so he could not reply. The writ record did not disclose the mode or manner of sending the provisional assessment, and the assessment itself fixed no date for hearing.",
+  "reusable_constructions": [
+    {
+      "construction": "Under clause 6.8(b), a provisional assessment notice must invite objections and indicate a date and time for hearing; a demand issued without that procedure is unsustainable.",
+      "paras": "1"
+    },
+    {
+      "construction": "Where the record does not show the mode and manner of sending the provisional assessment, non-service on the consumer is to be presumed.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "UP-2005",
+      "clause": "6.8(b)",
+      "topic": "provisional assessment — service and hearing date",
+      "type": "supply_code",
+      "holding": "A demand notice and recovery citation cannot stand where the provisional assessment is not shown to have been served and does not indicate a date for hearing. Clause 6.8(b) requires the provisional notice to invite objections and to indicate a date and time for hearing of the consumer. Silence on the record as to the mode and manner of sending the provisional assessment yields a presumption that it was not sent. Following Ashok Kumar v. State of U.P., the demand dated 7 March 2017 and recovery citation dated 4 May 2017 were quashed, with liberty to proceed afresh in accordance with the prescribed procedure.",
+      "paras": "1",
+      "flag": "Court applied clause 6.8(b) while describing the assessment, via Ashok Kumar, as theft of electricity; theft assessment is governed by clauses 8.1–8.2, not 6.8."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Merits and quantum of the assessment",
+      "note": "Quash was confined to non-service of the provisional assessment and want of a hearing date; respondents left free to proceed afresh.",
+      "paras": "1"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008 (6) ADJ 660 (DB)",
+      "cited_by": "1"
+    }
+  ]
+}
