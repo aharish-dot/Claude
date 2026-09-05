@@ -1,0 +1,55 @@
+{
+  "case_id": "SCJ-1907",
+  "title": "Akhlak Ahmad @ Sundar v. State of U.P.",
+  "neutral_citation": "Writ-C No. 5272 of 2018",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari and Ajay Bhanot, JJ.",
+  "date_of_judgment": "2018-02-08",
+  "date_display": "8 February 2018",
+  "docket": "Writ-C No. 5272 of 2018",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; recovery citation quashed; fresh provisional assessment directed.",
+  "headnote": "Recovery of Rs.7.32 lakh on a theft-of-electricity allegation was quashed because the provisional assessment notice dated 7 September 2016 indicated no date for hearing. Clause 6.8(b) of the U.P. Electricity Supply Code, 2005 requires adequate opportunity; a notice without a hearing date is not in accordance with law. The licensee must issue a fresh provisional assessment, serve it, and pass a reasoned final assessment after considering the consumer's objection, following Ashok Kumar v. State of U.P.",
+  "facts": "Akhlak Ahmad challenged recovery of Rs.7,32,296 initiated against him on allegations of theft of electricity. He contended that neither a provisional assessment nor a final bill had been raised, that recovery was started directly, and that the assessment notice had not been served, so he could not object. Counsel for the corporation produced a provisional assessment order dated 7 September 2016. On perusal the High Court found that the notice indicated no date for hearing the consumer.",
+  "reusable_constructions": [
+    {
+      "construction": "A provisional assessment notice that does not indicate a date for hearing fails to afford the opportunity required by clause 6.8(b) of the U.P. Electricity Supply Code, 2005.",
+      "paras": "6-8"
+    },
+    {
+      "construction": "Where the provisional assessment is not in accordance with law, the recovery citation is liable to be quashed and the licensee directed to issue a fresh provisional assessment, consider the consumer's objection, and pass a reasoned final assessment.",
+      "paras": "9"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "UP-2005",
+      "clause": "6.8(b)",
+      "topic": "provisional assessment notice must indicate a hearing date",
+      "type": "supply_code",
+      "holding": "A provisional assessment notice in a theft-of-electricity matter that does not indicate a date for hearing does not afford the opportunity required by clause 6.8(b) of the U.P. Electricity Supply Code, 2005. The recovery citation is quashed. The licensee must prepare and serve a fresh provisional assessment; the final assessment shall be made after considering the consumer's objection, with reasons meeting the objection, in the light of Ashok Kumar v. State of U.P.",
+      "paras": "6-9",
+      "flag": "Court applied clause 6.8(b) to a theft assessment; clauses 8.1–8.2 ordinarily govern theft (s.135) assessment."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "whether the petitioner committed theft of electricity, and the quantum of assessment",
+      "note": "left to a fresh provisional assessment, objection, and reasoned final assessment",
+      "paras": "9"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008 (6) ADJ (DB)",
+      "cited_by": "7-9"
+    }
+  ]
+}
