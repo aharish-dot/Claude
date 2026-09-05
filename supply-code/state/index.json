@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1976,
+  "next_seq": 1977,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -11854,6 +11854,12 @@
       "case_id": "SCJ-1975",
       "source_basename": "WRIC(A)_62180_2012.pdf",
       "title": "M/S Sisco Industries Ltd. v. State of U.P. & Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1976",
+      "source_basename": "WRIC(A)_66463_2012.pdf",
+      "title": "M/S Capital Polymers Industries (P) Ltd. v. Executive Engineer, Electricity Distribution Division & Ors.",
       "status": "done"
     }
   ]
