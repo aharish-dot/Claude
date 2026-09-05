@@ -1,0 +1,54 @@
+{
+  "case_id": "SCJ-1938",
+  "title": "Hari Nath Yadav v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J.; Ajay Bhanot, J.",
+  "date_of_judgment": "2018-03-14",
+  "date_display": "14 March 2018",
+  "docket": "Writ-C No. 9385 of 2018",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; demand notice quashed; fresh reasoned assessment directed.",
+  "headnote": "A provisional assessment notice that neither discloses the basis of the assessed sum nor specifies a date and time for hearing fails Clause 6.8(b) of the U.P. Electricity Supply Code, 2005. The consumer is not afforded the opportunity the clause requires. The demand founded on such a notice is quashed, and a reasoned final assessment must follow after considering the consumer's objections.",
+  "facts": "Hari Nath Yadav challenged a demand notice dated 26 April 2017 for Rs 4,56,912. The petitioner said the provisional assessment notice was never received, no reply could be filed, and the corporation treated the assessment as final and issued a recovery certificate. Counsel undertook to object within two weeks and argued that Clause 6.8(b)(1) required the notice itself to fix a hearing date. The notice specified neither a date and time for hearing nor the basis of the assessed sum.",
+  "reusable_constructions": [
+    {
+      "construction": "A Clause 6.8(b) provisional assessment notice must itself specify the date and time for hearing and disclose the basis of the assessed amount; omission of either renders the notice not in accordance with the Code.",
+      "paras": "1-2"
+    },
+    {
+      "construction": "Where the provisional assessment notice fails Clause 6.8(b), the demand founded on it is liable to be quashed and a reasoned final assessment must be made after considering the consumer's objections.",
+      "paras": "2"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "UP-2005",
+      "clause": "6.8(b)",
+      "topic": "provisional assessment notice — hearing date and basis of assessment",
+      "type": "supply_code",
+      "holding": "A provisional assessment notice that does not specify the date and time for hearing, and does not disclose the basis of the assessed amount, is not in accordance with Clause 6.8(b). The consumer is not afforded the opportunity the clause requires. The demand notice dated 26.04.2017 is quashed; the licensee shall make a reasoned final assessment within six weeks after considering the petitioner's objections, in the light of Ashok Kumar.",
+      "paras": "1-2"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Merits and quantum of the Rs 4,56,912 assessment",
+      "note": "Demand quashed for a defective 6.8(b) notice; fresh reasoned final assessment directed after considering objections.",
+      "paras": "2"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008(6) ADJ 660 (DB)",
+      "cited_by": "Court"
+    }
+  ]
+}
