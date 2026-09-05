@@ -1,0 +1,54 @@
+{
+  "case_id": "SCJ-1855",
+  "title": "Sushmita Raghav v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Pankaj Mithal and Rajiv Joshi, JJ.",
+  "date_of_judgment": "2018-10-09",
+  "date_display": "9 October 2018",
+  "docket": "Writ-C No. 33762 of 2018",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Disconnection order quashed; remanded for independent Supply Code decision; prepaid recharge protected for one month.",
+  "headnote": "The Allahabad High Court quashed an Executive Engineer's order disconnecting a tenant's prepaid electricity connection where the order rested solely on a direction of the Additional City Magistrate and showed no independent application of mind. The competent authority was directed to reconsider the matter on its own merits under the Electricity Supply Code, 2005, after hearing the occupier and the landlord, and not to refuse prepaid recharge for one month or until a fresh decision, whichever is earlier.",
+  "facts": "The petitioner, a tenant, alleged that her prepaid electricity connection in the flat had been disconnected amid a dispute with the landlord. The Additional City Magistrate (IInd), Allahabad, on 25 June 2018 directed disconnection of that prepaid connection. On that basis the Executive Engineer, on 31 July 2018, ordered disconnection, stating there was no tenancy agreement and that the connection could not be recharged. She challenged both the Magistrate's intervention and the Engineer's order as passed without independent application of mind.",
+  "reusable_constructions": [
+    {
+      "construction": "An Executive Engineer's disconnection order passed solely on a magistrate's direction, without independent application of mind, cannot be sustained.",
+      "paras": "1"
+    },
+    {
+      "construction": "Reconsideration of disconnection must be on the licensee's own merits under the Electricity Supply Code, 2005, independent of any magistrate's direction, after hearing the occupier and the landlord.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005",
+      "code": "UP-2005",
+      "clause": "",
+      "topic": "disconnection-independent-application-of-mind",
+      "type": "supply_code",
+      "holding": "The Executive Engineer, as the competent authority to grant or disconnect electricity, did not apply his own mind in the order dated 31 July 2018, which rested solely on the Additional City Magistrate (IInd), Allahabad's order dated 25 June 2018. That order cannot be sustained and is quashed. The matter is remanded to the Executive Engineer (Distribution), Purvanchal Vidyut Vitran Nigam Ltd., to reconsider on its own merits independent of the Magistrate's order, in accordance with law and especially the Electricity Supply Code, 2005, after hearing the petitioner and the landlord, expeditiously and if possible within one month. For one month from the date of the judgment or until a final decision, whichever is earlier, the authorities shall not refuse to recharge the petitioner's prepaid connection.",
+      "paras": "1",
+      "flag": "Court invoked the Electricity Supply Code, 2005 generally without citing a clause."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the Additional City Magistrate had authority of law to direct disconnection of the electricity connection.",
+      "note": "Recorded as the petitioner's submission; the writ was allowed on non-application of mind by the Executive Engineer.",
+      "paras": "1"
+    },
+    {
+      "point": "Whether, on the merits under the Supply Code, the tenant without a tenancy agreement was entitled to retain or recharge the prepaid connection.",
+      "note": "Remanded to the Executive Engineer for independent reconsideration after hearing both sides.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
