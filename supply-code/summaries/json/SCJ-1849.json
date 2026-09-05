@@ -1,0 +1,54 @@
+{
+  "case_id": "SCJ-1849",
+  "title": "Ram Prakash @ Pappu Singh v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari and Ajay Bhanot, JJ.",
+  "date_of_judgment": "2018-01-24",
+  "date_display": "24 January 2018",
+  "docket": "Writ-C No. 3273 of 2018",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; recovery citation quashed; fresh provisional assessment directed.",
+  "headnote": "A Division Bench allowed a writ against a theft-related recovery citation because the provisional assessment notice did not fix a date of hearing. Applying para 6.8(b) of the U.P. Electricity Supply Code, 2005 and Ashok Kumar, the Court held the consumer had not been afforded adequate opportunity, quashed the citation, and directed a fresh provisional assessment, with final assessment only after considering objections with reasons.",
+  "facts": "After a vigilance check, an FIR under Section 135A of the Electricity Act was lodged against the petitioner for running an atta chakki. A provisional assessment of about Rs 3.19 lakh dated 17 May 2016 was issued; he objected on 22 May 2016. Without a final assessment, a demand notice of 28 April 2017 and a recovery citation of 5 October 2017 followed. He sought quashing of the citation, saying the objection was still pending and the provisional notice specified no date of hearing.",
+  "reusable_constructions": [
+    {
+      "construction": "A provisional assessment notice that does not itself fix a date of hearing is not in accordance with para 6.8(b) of the U.P. Electricity Supply Code, 2005, and does not afford the consumer adequate opportunity.",
+      "paras": "1"
+    },
+    {
+      "construction": "A recovery citation founded on a defective provisional assessment, issued without a final assessment after considering the consumer's objections, is liable to be quashed; a fresh provisional assessment must be served and the final order must meet the objections with reasons.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "UP-2005",
+      "clause": "6.8(b)",
+      "topic": "theft provisional assessment — hearing date in notice",
+      "type": "supply_code",
+      "holding": "Where the provisional assessment notice in a theft case does not indicate a date for hearing, it is not in accordance with para 6.8(b) of the U.P. Electricity Supply Code, 2005, and the consumer is not afforded adequate opportunity. A recovery citation issued on that process, without a final assessment after considering the pending objection, is liable to be quashed. The licensee must prepare and serve a fresh provisional assessment; the final assessment shall be made after considering the objection, giving reasons, in the light of Ashok Kumar.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether theft was committed or the assessed amount was correct",
+      "note": "The writ succeeded only for defective notice and want of opportunity under 6.8(b); a fresh provisional assessment was directed.",
+      "paras": "1"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008(6) ADJ 660",
+      "cited_by": "1"
+    }
+  ]
+}
