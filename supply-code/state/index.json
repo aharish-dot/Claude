@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1515,
+  "next_seq": 1516,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -9070,6 +9070,12 @@
       "case_id": "SCJ-1511",
       "source_basename": "WRIC(A)_43368_2016.pdf",
       "title": "Smt. Suresh Kumari @ Saroj Devi v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1512",
+      "source_basename": "WRIC(A)_43622_2016.pdf",
+      "title": "Ajay Gupta v. M.D., Paschimanchal Vidyut Vitaran Nigam Ltd.",
       "status": "done"
     }
   ]
