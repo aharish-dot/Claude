@@ -1,0 +1,47 @@
+{
+  "case_id": "SCJ-1294",
+  "title": "Bail pending s.135 conviction appeal; 50% fine deposit",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Single Judge",
+  "coram": "Naheed Ara Moonis, J.",
+  "date_of_judgment": "2015-02-11",
+  "date_display": "11 February 2015",
+  "docket": "Criminal Appeal No. 496 of 2015",
+  "page_count": 4,
+  "significance": "procedural",
+  "outcome": "pending",
+  "model": "Grok 4.6",
+  "disposition": "Appeal admitted; bail granted on 50% fine deposit.",
+  "headnote": "In a criminal appeal against conviction under Section 135 of the Electricity Act, 2003 for running motors at a brick factory without a valid connection, the High Court admitted the appeal, summoned the trial record, and granted bail on deposit of 50% of the fine. The plea that clause 8.1 of the U.P. Electricity Supply Code, 2005 (search and seizure) was not followed was noted but not decided. A later order only adjourned listing.",
+  "facts": "Vishal Gupta was convicted by the Special Judge (E.C. Act), Etawah in Special Case No. 13 of 2010 (Crime No. 200 of 2010, P.S. Usarhar) under Section 135 of the Electricity Act, 2003, and sentenced to one year simple imprisonment and a fine of Rs. 7,78,305. The prosecution alleged he supervised a cement-brick factory running two 3.75 HP motors without a valid connection from an adjacent tubewell of owner Dinesh Chand Yadav. He appealed, alleging clause 8.1 search-and-seizure procedure was not followed, he was not in-charge, and the fine was excessive.",
+  "holding_units": [
+    {
+      "provision": "EA2003::135",
+      "code": "EA2003",
+      "clause": "135",
+      "topic": "bail pending conviction appeal",
+      "type": "electricity_act",
+      "holding": "The High Court admitted the criminal appeal against conviction under Section 135 of the Electricity Act, 2003, summoned the lower court record, and released the appellant on bail on a personal bond with two sureties, directing deposit of 50% of the fine within 45 days, without deciding the merits or the clause 8.1 search-and-seizure challenge. The appeal was listed for hearing in due course.",
+      "paras": "1",
+      "flag": "Conviction recorded as s.135(B) and also s.135(1); EA 2003 has no s.135(B) (likely s.135(1)(b))."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether clause 8.1 search-and-seizure procedure of the U.P. Electricity Supply Code, 2005 was followed",
+      "paras": "1"
+    },
+    {
+      "point": "Merits of conviction, whether the appellant was in-charge, and quantum of fine",
+      "paras": "1"
+    },
+    {
+      "point": "Final disposal of the criminal appeal",
+      "note": "Appeal admitted and listed for hearing; the 12.2.2020 order only adjourned listing.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
