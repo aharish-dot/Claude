@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1400,
+  "next_seq": 1401,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -8380,6 +8380,12 @@
       "case_id": "SCJ-1396",
       "source_basename": "WRIC(A)_6793_2015.pdf",
       "title": "Rajendra Singh Baghel v. U.P. Power Corporation Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1397",
+      "source_basename": "WRIC(A)_68225_2015.pdf",
+      "title": "Suraj Pal v. Dakshinachal Vidyut Vitran Nigam Ltd.",
       "status": "done"
     }
   ]
