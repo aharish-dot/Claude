@@ -1,0 +1,53 @@
+{
+  "case_id": "SCJ-1644",
+  "title": "Kaluwa v. State of U.P. and others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Amreshwar Pratap Sahi, J.; Rajiv Lochan Mehrotra, J.",
+  "date_of_judgment": "2017-08-22",
+  "date_display": "22 August 2017",
+  "docket": "Writ - C No. 37483 of 2017",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; EE to examine grievances and extend 6.14 instalments if liable.",
+  "headnote": "On a challenge to recovery of assessed electricity charges after an FIR under Section 135, the Court declined to decide whether consumption without a proper connection was theft. It disposed of the writ with liberty to approach the Executive Engineer, who shall examine the grievances and, if the petitioner is found liable, pass orders extending the instalment facility under Clause 6.14 of the U.P. Electricity Supply Code, 2005.",
+  "facts": "Kaluwa filed a writ in the Allahabad High Court challenging recovery of electricity charges for consumption alleged to have been made without a proper connection. An FIR had been lodged against him under Section 135 of the Electricity Act, 2003, and recovery of the assessed amount, which he disputed, was underway. Counsel submitted it was not theft because the connection stood in his grandfather's name. The Electricity Department appeared through counsel.",
+  "holding_units": [
+    {
+      "provision": "EA2003::135",
+      "code": "EA2003",
+      "clause": "135",
+      "topic": "writ non-interference with s.135 FIR characterisation",
+      "type": "electricity_act",
+      "holding": "The Court declined to decide whether consumption without a proper connection was theft, the connection standing in the petitioner's grandfather's name, because an FIR had been lodged under Section 135 of the Electricity Act, 2003.",
+      "paras": "1",
+      "flag": "Order refers to s.135 as of the 'U.P. Electricity Act, 2003'."
+    },
+    {
+      "provision": "UP-2005::6.14",
+      "code": "UP-2005",
+      "clause": "6.14",
+      "topic": "instalment facility for assessed dues",
+      "type": "supply_code",
+      "holding": "The writ was disposed with liberty to approach the second respondent, who shall look into the petitioner's grievances; if the petitioner is found liable to pay the assessed dues, the Executive Engineer shall pass an appropriate order keeping in view Clause 6.14 of the U.P. Electricity Supply Code, 2005, extending the benefit of instalments.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the consumption was theft because the connection stood in the petitioner's grandfather's name",
+      "note": "Court declined to enter into the issue in view of the s.135 FIR",
+      "paras": "1"
+    },
+    {
+      "point": "Whether the petitioner is liable for the assessed consumption charges",
+      "note": "Left to the second respondent / Executive Engineer",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
