@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1454,
+  "next_seq": 1455,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -8704,6 +8704,12 @@
       "case_id": "SCJ-1450",
       "source_basename": "WRIC(A)_20050_2016.pdf",
       "title": "Virendra Kumar v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1451",
+      "source_basename": "WRIC(A)_20718_2016.pdf",
+      "title": "Deep Mohan Agarwal v. District Magistrate, G.B. Nagar",
       "status": "done"
     }
   ]
