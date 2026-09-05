@@ -1,0 +1,38 @@
+{
+  "case_id": "SCJ-1729",
+  "title": "M/s Bansal Agro Farm v. Pradeep Kumar Agrawal",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Manoj Kumar Gupta, J.",
+  "date_of_judgment": "2018-08-30",
+  "date_display": "30 August 2018",
+  "docket": "Contempt Application (Civil) No. 3860 of 2018",
+  "page_count": 3,
+  "significance": "procedural",
+  "outcome": "none",
+  "model": "Grok 4.6",
+  "disposition": "Contempt disposed of; writ-directed Clause 6.5 decision already taken; challenge left open.",
+  "headnote": "Civil contempt of a writ order that had required a lump-sum deposit and a Clause 6.5 U.P. Electricity Supply Code, 2005 adjudication of a billing dispute. After the Executive Engineer decided the representation, the High Court closed the contempt without examining whether that decision was adequate, leaving the consumer to challenge it in appropriate proceedings.",
+  "facts": "M/s Bansal Agro Farm alleged civil contempt of the High Court's 22 March 2018 order in Writ-C No. 9161 of 2018. That writ required a Rs 5 lakh deposit, a Clause 6.5 Supply Code, 2005 dispute to be decided by the competent authority within three weeks, and stayed recovery of the balance. Opposite parties produced an Executive Engineer order of 10 August 2018 deciding the 26 March 2018 representation; the applicants said issues they had raised were not dealt with.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "contempt after clause 6.5 decision",
+      "type": "supply_code",
+      "holding": "Where the writ court directed the consumer to raise a dispute under Clause 6.5 of the U.P. Electricity Supply Code, 2005 and the competent authority to decide it, and the Executive Engineer has thereafter passed an order deciding that claim, civil contempt will not continue merely because the consumer says the decision did not deal with all issues raised; the contempt stands disposed of, leaving the consumer free to challenge that decision in appropriate proceedings.",
+      "paras": "3"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Correctness or completeness of the Executive Engineer's 10.08.2018 Clause 6.5 decision",
+      "note": "Left open for challenge in appropriate proceedings; the billing dispute was not decided on merits.",
+      "paras": "3"
+    }
+  ],
+  "authorities": []
+}

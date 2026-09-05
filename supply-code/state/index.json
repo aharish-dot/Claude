@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1732,
+  "next_seq": 1733,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -10372,6 +10372,12 @@
       "case_id": "SCJ-1728",
       "source_basename": "CAPL(A)_320_2018.pdf",
       "title": "Salik Ram v. Jhabbu Lal (Exe. Engineer South Division)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1729",
+      "source_basename": "CAPL(A)_3860_2018.pdf",
+      "title": "M/s Bansal Agro Farm v. Pradeep Kumar Agrawal",
       "status": "done"
     }
   ]
