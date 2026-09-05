@@ -1,0 +1,131 @@
+{
+  "case_id": "SCJ-1267",
+  "title": "Abdul Gaffar @ G. Hussian v. State of U.P. & Others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Ran Vijai Singh, J.; Vinod Kumar Srivastava-III, J.",
+  "date_of_judgment": "2017-02-02",
+  "date_display": "2 February 2017 (order-sheet, 4.4.2011 to 2.2.2017)",
+  "docket": "WRIT - C No. - 19159 of 2011",
+  "page_count": 12,
+  "source_file": "WRIC(A)_19159_2011.pdf",
+  "pin_basis": "date",
+  "significance": "ordinary",
+  "outcome": "none",
+  "disposition": "Writ dismissed as infructuous (2.2.2017) by efflux of time; interim recovery stay (on Rs.15,000 deposit) vacated",
+  "headnote": "Order-sheet in a writ challenging a Recovery Certificate dated 23.6.2010 issued for electricity dues on a theft assessment. On 26 April 2011 a Division Bench (Satya Poot Mehrotra and Rajesh Chandra, JJ.) recorded, on the respondents' instructions, that after a checking on 24.10.2009 a Provisional Assessment dated 29.10.2009 was sent to the petitioner by registered post, and, no objections having been received, a Demand Notice dated 3.2.2010 was issued, but that no Final Assessment Order was passed - the Provisional Assessment itself being treated as the Final Assessment without any specific order. Noting that sub-section (3) of Section 126 of the Electricity Act, 2003 contemplates the passing of a Final Order of Assessment after a Provisional Assessment, and that Section 127 provides an appeal against the Final Order under Section 126, the Court found arguable the petitioner's contention that, no Final Assessment Order having been passed, he was deprived of his right of appeal under Section 127; it held the matter required consideration, issued notice, and stayed recovery on a deposit of Rs.15,000. The petition was never decided on the merits: on 2 February 2017, on the petitioner's own submission that it had become infructuous by efflux of time, it was dismissed as infructuous and the interim order vacated.",
+  "facts": "Abdul Gaffar @ G. Hussian filed Writ-C No.19159 of 2011 before the Allahabad High Court challenging a Recovery Certificate dated 23.6.2010, sent by respondent no.5 to the Collector, Moradabad, for recovery of electricity dues assessed against him on an alleged theft of electricity, contending that it had been issued without complying with the mandatory requirements of the U.P. Electricity Supply Code, 2005. By order dated 4.4.2011 the Court required the respondents to obtain instructions on seven questions concerning the provisional assessment, objections and final assessment. On 26.4.2011 the respondents' counsel stated that a checking of the petitioner's premises was done on 24.10.2009, a Provisional Assessment dated 29.10.2009 was sent to him by registered post, and, no objections having been received, a Demand Notice dated 3.2.2010 was issued; but that no Final Assessment Order was passed, the Provisional Assessment itself being treated as the Final Assessment without any specific order. The Court noted the requirement of a Final Order under Section 126(3) and the appeal under Section 127 of the Electricity Act, 2003, recorded the petitioner's contention that the absence of a Final Assessment Order deprived him of his Section 127 appeal, found that the matter required consideration, issued notice and stayed recovery subject to a deposit of Rs.15,000 within four weeks. After a series of adjournments (largely on counsel's illness slips), the petition was, on 2.2.2017, dismissed as infructuous on the petitioner's own submission that it had become infructuous by efflux of time, and the interim order was vacated.",
+  "reusable_constructions": [
+    {
+      "construction": "Sub-section (3) of Section 126 of the Electricity Act, 2003 contemplates the passing of a Final Order of Assessment after a Provisional Assessment; a Provisional Assessment cannot simply be treated as the Final Assessment merely because no objections were filed, without a specific Final Assessment Order being passed.",
+      "paras": "order of 26.4.2011"
+    },
+    {
+      "construction": "Section 127 of the Electricity Act, 2003 provides an appeal against the Final Order made under Section 126; where no Final Assessment Order is passed, the assessee is, prima facie, deprived of the right of appeal under Section 127 - a matter warranting consideration and interim protection against recovery.",
+      "paras": "order of 26.4.2011"
+    },
+    {
+      "construction": "A Recovery Certificate for a theft-assessment demand may be stayed on a nominal deposit where the assessee raises an arguable challenge that the mandatory assessment procedure (a Provisional Assessment followed by a Final Order under Section 126) was not followed.",
+      "paras": "order of 26.4.2011"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::126",
+      "code": "Electricity Act, 2003",
+      "clause": "126(3)",
+      "topic": "Section 126(3) contemplates a Final Order of Assessment after Provisional Assessment; treating the Provisional as Final without a specific order is questionable",
+      "type": "electricity_act",
+      "nature": "obiter",
+      "question": "Where a Provisional Assessment is made under Section 126 but no Final Assessment Order is passed, can the Provisional Assessment be treated as the Final Assessment merely because no objections were filed?",
+      "holding": "Prima facie, no. The respondents admitted that no Final Assessment Order was passed, the Provisional Assessment itself being treated as the Final Assessment without any specific order, because no objections had been received. The Court observed that sub-section (3) of Section 126 of the Electricity Act, 2003 contemplates the passing of a Final Order of Assessment after a Provisional Assessment, found that the matter required consideration, and stayed recovery on a nominal deposit. The point was not finally decided, the petition being later dismissed as infructuous.",
+      "evidence": [
+        {
+          "quote": "no Final Assessment Order was passed in the present case because no Objections were submitted by the petitioner against the Provisional Assessment and as such, the Provisional Assessment itself was treated to be Final Assessment but no specific order in this regard was passed.",
+          "paras": "order of 26.4.2011"
+        },
+        {
+          "quote": "Sub-section (3 ) of Section 126 of the Electricity Act, 2003 contemplates passing of a Final Order of Assessment, after Provisional Assessment is made in respect of the electricity charges.",
+          "paras": "order of 26.4.2011"
+        }
+      ],
+      "paras": "order of 26.4.2011",
+      "flag": "Order-sheet: no printed page numbers or numbered paragraphs; pins are order dates. The substantive prima facie observations are in the 26.4.2011 order (Satya Poot Mehrotra and Rajesh Chandra, JJ.); coram/date reflect the 2.2.2017 disposal (Ran Vijai Singh and Vinod Kumar Srivastava-III, JJ.)."
+    },
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act, 2003",
+      "clause": "127 r/w 126(3)",
+      "topic": "Absent a Final Assessment Order under Section 126, the assessee is prima facie deprived of the Section 127 appeal",
+      "type": "electricity_act",
+      "nature": "obiter",
+      "question": "Is the assessee deprived of the appeal under Section 127 of the Electricity Act, 2003 where no Final Assessment Order is passed under Section 126?",
+      "holding": "The Court treated the point as arguable. Section 127 provides for an appeal against the Final Order made under Section 126, and the petitioner contended that, no Final Assessment Order having been passed, he was deprived of his right of filing an appeal under Section 127. The Court held the matter required consideration, issued notice and granted interim protection against recovery, but did not finally decide the question, the petition being dismissed as infructuous on 2.2.2017.",
+      "evidence": [
+        {
+          "quote": "Section 127 of the Electricity Act, 2003 provides for Appeal against the Final Order made under Section 126 of the said Act.",
+          "paras": "order of 26.4.2011"
+        },
+        {
+          "quote": "as no Final Assessment Order in respect of the petitioner was passed, the petitioner was deprived of his right of filing Appeal under Section 127 of the Electricity Act, 2003.",
+          "paras": "order of 26.4.2011"
+        },
+        {
+          "quote": "The matter requires consideration.",
+          "paras": "order of 26.4.2011"
+        }
+      ],
+      "paras": "order of 26.4.2011",
+      "qualifier": "A prima facie observation supporting interim relief; the petition was ultimately dismissed as infructuous on 2.2.2017 without a decision on the merits."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "final-assessment-order-mandatory-under-section-126-3",
+      "application": "Section 126(3) contemplates a Final Order of Assessment after a Provisional Assessment; a Provisional Assessment treated as Final without a specific order, on the footing that no objections were filed, is prima facie improper. Same Section 126 cluster as SCJ-047 and SCJ-034.",
+      "lead_authorities": [],
+      "paras": "order of 26.4.2011"
+    },
+    {
+      "tag": "no-final-order-defeats-section-127-appeal",
+      "application": "Where no Final Assessment Order under Section 126 is passed, the assessee is prima facie deprived of the Section 127 appeal, warranting interim protection against recovery. Related to the Section 127 remedy considered in SCJ-1266.",
+      "lead_authorities": [],
+      "paras": "order of 26.4.2011"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the absence of a Final Assessment Order under Section 126(3) vitiated the Recovery Certificate and deprived the petitioner of the Section 127 appeal",
+      "note": "The Court held that the matter required consideration and granted interim protection, but the writ petition was ultimately dismissed as infructuous on 2.2.2017 by efflux of time, without any decision on the merits of this contention.",
+      "docid": "",
+      "paras": "order of 26.4.2011; order of 2.2.2017"
+    },
+    {
+      "point": "Whether the Recovery Certificate dated 23.6.2010 complied with the mandatory requirements of the U.P. Electricity Supply Code, 2005",
+      "note": "The petitioner's challenge that the Recovery Certificate was issued without complying with the mandatory requirements of the Supply Code, 2005 was never adjudicated; the petition was dismissed as infructuous.",
+      "docid": "",
+      "paras": "order of 26.4.2011; order of 2.2.2017"
+    }
+  ],
+  "related_cases": [
+    {
+      "case_id": "SCJ-1266",
+      "note": "Theft-assessment and the Section 127 appellate remedy; there the assessee failed to avail the Section 127 appeal, here he contended he could not because no Final Assessment Order was passed."
+    },
+    {
+      "case_id": "SCJ-047",
+      "note": "Assessment under Section 126 and appeal under Section 127 of the Electricity Act, 2003 (both provisions engaged)."
+    },
+    {
+      "case_id": "SCJ-040",
+      "note": "Section 126 assessment and Section 127 appeal cluster."
+    },
+    {
+      "case_id": "SCJ-034",
+      "note": "Section 126 provisional/final assessment cluster under the Electricity Act, 2003."
+    }
+  ],
+  "authorities": [],
+  "model": "Claude Opus 4.8"
+}

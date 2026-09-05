@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1267,
+  "next_seq": 1268,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -7600,6 +7600,12 @@
       "case_id": "SCJ-1266",
       "source_basename": "SPLA(A)_2362_2011.pdf",
       "title": "M/s Hind Industries Limited v. State of U.P. & Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1267",
+      "source_basename": "WRIC(A)_19159_2011.pdf",
+      "title": "Abdul Gaffar @ G. Hussian v. State of U.P. & Others",
       "status": "done"
     }
   ]
