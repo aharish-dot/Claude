@@ -1,0 +1,55 @@
+{
+  "case_id": "SCJ-1651",
+  "title": "Ajay Prakash Srivastava v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Amreshwar Pratap Sahi, J.; Rajiv Lochan Mehrotra, J.",
+  "date_of_judgment": "2017-08-30",
+  "date_display": "30 August 2017",
+  "docket": "Writ-C No. 38785 of 2017",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of; recovery stayed pending fresh s.126 assessment.",
+  "headnote": "A recovery citation cannot rest on a purported section 126 final assessment that does not consider the consumer's objections to the provisional assessment. Theft compounding and the assessment proceeding are distinct; treating a compounding affidavit as the assessment request does not dispose of those objections. Final assessment must be made under section 126 of the Electricity Act, 2003 read with the U.P. Electricity Supply Code, 2005. Recovery stayed; Executive Engineer directed to pass a fresh final assessment after considering the objections.",
+  "facts": "The petitioners challenged a 30 June 2017 recovery citation for electricity dues, founded on a 9 February 2016 provisional assessment said to have been finalized on 29 March 2016. An FIR for theft had also been lodged; after an earlier writ they compounded the offence and deposited Rs 60,000. On the assessment track they objected to the provisional assessment on 24 February 2016. The department treated their compounding affidavit as a request in the final assessment and applied a reduced multiplier, without disposing of those objections.",
+  "reusable_constructions": [
+    {
+      "construction": "Recovery of section 126 dues cannot proceed on a purported final assessment that does not show consideration of the consumer's objections to the provisional assessment; a fresh final assessment must be made under section 126 read with the U.P. Electricity Supply Code, 2005.",
+      "paras": "8-9"
+    },
+    {
+      "construction": "Compounding of a theft offence, and an affidavit filed for that compounding, is not a substitute for deciding objections in the parallel section 126 assessment; the assessing officer cannot treat that affidavit as the assessment request (Aavedan).",
+      "paras": "4-8"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::126",
+      "code": "EA2003",
+      "clause": "126",
+      "topic": "final assessment; objections; recovery",
+      "type": "interplay",
+      "holding": "The 29 March 2016 final assessment did not consider the petitioners' 24 February 2016 objections to the provisional assessment; the department instead proceeded on a theft-compounding affidavit treated as an Aavedan and reduced the demand by applying a multiplier. Recovery of the assessed amount depends on a final assessment made in accordance with the rules, namely section 126 of the Electricity Act, 2003 read with the U.P. Electricity Supply Code, 2005. The Executive Engineer must consider the objections and pass a fresh final assessment; recovery remains in abeyance until then and is dependent on that outcome.",
+      "paras": "8-9"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "126-vs-135-distinct-fields",
+      "application": "Theft compounding on the FIR, and the affidavit filed for that compounding, do not dispose of objections on the parallel section 126 assessment; the department cannot treat the compounding request as the assessment Aavedan.",
+      "lead_authorities": [],
+      "paras": "4-8"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Quantum of the section 126 assessment and whether unauthorized use was established",
+      "note": "Left to the Executive Engineer on fresh consideration of the 24 February 2016 objections.",
+      "paras": "8-9"
+    }
+  ],
+  "authorities": []
+}
