@@ -1,0 +1,50 @@
+{
+  "case_id": "SCJ-1576",
+  "title": "Ram Raji v. State of U.P. — tubewell not energised due to private obstruction",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "V.K. Shukla, J.; Ashok Kumar, J.",
+  "date_of_judgment": "2017-03-10",
+  "date_display": "10 March 2017",
+  "docket": "Writ - C No. 11527 of 2017",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; Executive Engineer to finalise tubewell energisation in accordance with law within three months, applying Chandu Khamaru if private incumbents obstruct.",
+  "headnote": "The Allahabad High Court disposed of a writ seeking energisation of a tubewell kept on hold because of obstruction by private incumbents. Without granting or refusing the connection on merits, it directed the Executive Engineer to finalise the proceedings in accordance with law preferably within three months and, if the petitioner had fulfilled the prerequisite formalities and private persons raised a dispute, to resolve that dispute as indicated in Chandu Khamaru v. Nayan Malik.",
+  "facts": "Ram Raji sought a writ complaining that the distribution licensee had not energised her tubewell and had kept the application on hold because private incumbents were creating obstructions on the spot. She said she had fulfilled all prerequisite formalities. She relied on Chandu Khamaru v. Nayan Malik for the licensee's statutory duty to energise and to invoke the Electricity Supply Code, 2005 and the Electricity Act, 2003. Counsel for the Electricity Distribution Division submitted that remedial measures would be taken as those statutes provide.",
+  "holding_units": [
+    {
+      "provision": "EA2003::43",
+      "code": "EA2003",
+      "clause": "43",
+      "topic": "energisation of supply despite third-party obstruction",
+      "type": "interplay",
+      "holding": "Where a tubewell has not been energised because private incumbents are causing obstruction, the Court will not itself mandamus a connection. It will direct the Executive Engineer to finalise the proceedings in accordance with law within a stated time and, if the applicant has fulfilled the prerequisite formalities and private incumbents raise a dispute, to resolve that dispute as directed in Chandu Khamaru v. Nayan Malik.",
+      "paras": "1",
+      "flag": "The order cites the Electricity Act, 2003 and the Electricity Supply Code, 2005 without a numbered clause; s.43 is identified from Chandu Khamaru as applied."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner had in fact fulfilled all prerequisite formalities for energising the tubewell",
+      "note": "Left to the Executive Engineer to verify before supply is given.",
+      "paras": "1"
+    },
+    {
+      "point": "Merits of the private incumbents' objections to energisation",
+      "note": "If raised, to be resolved as per Chandu Khamaru; not decided on the writ.",
+      "paras": "1"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Chandu Khamaru v. Nayan Malik",
+      "citation": "2011 (12) SCC 314",
+      "cited_by": "petitioner; Court"
+    }
+  ]
+}
