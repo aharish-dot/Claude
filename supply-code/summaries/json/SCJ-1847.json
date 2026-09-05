@@ -1,0 +1,75 @@
+{
+  "case_id": "SCJ-1847",
+  "title": "Mohd. Asif v. Uttar Pradesh Power Corporation Ltd.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Pankaj Mithal and Rajiv Joshi, JJ.",
+  "date_of_judgment": "2018-10-04",
+  "date_display": "4 October 2018",
+  "docket": "WRIT - C No. - 32582 of 2018",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Petition disposed of; apply under clause 4.39 for reconnection.",
+  "headnote": "Permanent disconnection of an existing residential connection on a dispute as to ownership of the premises is not authorised by clause 4.38 of the U.P. Electricity Supply Code, 2005. The Court did not quash the disconnection or restore supply. It directed the consumer to apply for reconnection under clause 4.39, to be considered by the Executive Engineer in accordance with law after hearing the parties, including the consumer's father.",
+  "facts": "Mohd. Asif had a residential electricity connection that Uttar Pradesh Power Corporation Ltd. permanently disconnected. He petitioned the High Court to quash the disconnection and to reinstall the connection. Counsel for the licensee submitted that there was a dispute over ownership of the house and that the petitioner's father had produced documents to show that the petitioner was not the owner, which was the reason for the permanent disconnection.",
+  "reusable_constructions": [
+    {
+      "construction": "Clause 4.38 of the U.P. Electricity Supply Code, 2005 exhausts the grounds on which a connection already granted may be permanently disconnected; a dispute as to ownership of the premises is not such a ground.",
+      "paras": "1"
+    },
+    {
+      "construction": "Where permanent disconnection is not supported by clause 4.38, the consumer may be required to apply for reconnection under clause 4.39 rather than the Court itself restoring supply, the Executive Engineer deciding after hearing the concerned parties.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.38",
+      "code": "UP-2005",
+      "clause": "4.38",
+      "topic": "permanent disconnection grounds",
+      "type": "supply_code",
+      "holding": "A connection once granted may be disconnected only in accordance with clause 4.38. That clause does not contemplate disconnection for a property-ownership dispute, and none of its grounds were attracted on the licensee's case that the consumer's father had produced documents denying the consumer's title.",
+      "paras": "1"
+    },
+    {
+      "provision": "UP-2005::4.39",
+      "code": "UP-2005",
+      "clause": "4.39",
+      "topic": "reconnection after permanent disconnection",
+      "type": "supply_code",
+      "holding": "The consumer was directed to apply to the Executive Engineer for reconnection under clause 4.39 or any other relevant provision. The Executive Engineer shall consider that application in accordance with law, preferably within six weeks of filing, after hearing the concerned parties including the consumer's father.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-4.37-4.38-licensee-empowered-to-permanently-disconnect",
+      "application": "The licensee's power to permanently disconnect an existing connection is confined to the grounds in clause 4.38; a property-ownership dispute is not among them.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "reconnection-available-after-permanent-disconnection-clause-4.39",
+      "application": "Having held that clause 4.38 did not authorise disconnection for a title dispute, the Court directed the consumer to apply for reconnection under clause 4.39 rather than restoring supply itself.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether reconnection should actually be granted",
+      "note": "Left to the Executive Engineer to consider a clause 4.39 application in accordance with law after hearing the parties, including the petitioner's father.",
+      "paras": "1"
+    },
+    {
+      "point": "Ownership of the premises",
+      "note": "The Court did not decide title and required the Executive Engineer to hear the father on the reconnection application.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
