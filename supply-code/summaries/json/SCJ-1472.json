@@ -1,0 +1,48 @@
+{
+  "case_id": "SCJ-1472",
+  "title": "Ajay Kasana v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J.; Arvind Kumar Mishra-I, J.",
+  "date_of_judgment": "2016-07-15",
+  "date_display": "15 July 2016",
+  "docket": "WRIT - C No. - 27264 of 2016",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Recovery quashed; 6.8(b) notice and hearing mandatory",
+  "headnote": "A recovery certificate founded on a provisional assessment drawn without notice and without fixing a date of hearing cannot stand. Clause 6.8(b) of the U.P. Electricity Supply Code, 2005 is mandatory. The Division Bench quashed the 2 May 2016 recovery and left the licensee free to assess afresh after following the prescribed procedure.",
+  "facts": "The petitioner challenged a recovery certificate dated 2 May 2016 issued by the electricity licensee. On 31 May 2016 the Division Bench directed the licensee to obtain instructions on the provisional assessment and stayed disconnection and coercive steps till the next date. When the matter was heard on 15 July 2016, counsel for the licensee placed the provisional assessment on record. It showed that the assessment had been drawn without fixing a date of hearing and without issuing any notice to the consumer.",
+  "reusable_constructions": [
+    {
+      "construction": "Clause 6.8(b) of the U.P. Electricity Supply Code, 2005 is mandatory: a provisional assessment made without notice and without fixing a date of hearing cannot sustain a recovery certificate.",
+      "paras": "2"
+    },
+    {
+      "construction": "Quashing a recovery for want of 6.8(b) notice and hearing does not bar a fresh assessment after the prescribed procedure is followed.",
+      "paras": "2"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "UP-2005",
+      "clause": "6.8(b)",
+      "topic": "provisional assessment — notice and hearing",
+      "type": "supply_code",
+      "holding": "Clause 6.8(b) of the U.P. Electricity Supply Code, 2005 is mandatory. A provisional assessment made without fixing a date of hearing and without issuing notice cannot support a recovery certificate, which is liable to be quashed, with liberty to the licensee to make a fresh assessment after following the prescribed procedure.",
+      "paras": "2"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Merits and quantum of the provisional assessment",
+      "note": "The Court did not examine whether unauthorized use or the assessed amount was correct; the licensee was left free to make a fresh assessment after following the prescribed procedure.",
+      "paras": "2"
+    }
+  ],
+  "authorities": []
+}
