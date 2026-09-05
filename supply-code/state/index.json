@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1362,
+  "next_seq": 1366,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -8170,6 +8170,12 @@
       "case_id": "SCJ-1361",
       "source_basename": "WRIC(A)_49700_2015.pdf",
       "title": "Smt. Shakuntla Devi v. State of U.P. — bill dispute relegated to Clause 5.6",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1362",
+      "source_basename": "WRIC(A)_49846_2015.pdf",
+      "title": "Jaydev Singh v. State of U.P.",
       "status": "done"
     }
   ]
