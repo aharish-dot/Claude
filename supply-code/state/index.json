@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1950,
+  "next_seq": 1951,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -11680,6 +11680,12 @@
       "case_id": "SCJ-1946",
       "source_basename": "CAPL(A)_7550_2019.pdf",
       "title": "Bablu @ Ramakant v. Jhabbu Lal, Executive Engineer, Dakshinanchal Vidyut Vitran Nigam Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1948",
+      "source_basename": "WRIC(A)_10010_2019.pdf",
+      "title": "Vidya Devi v. State of U.P.",
       "status": "done"
     }
   ]
