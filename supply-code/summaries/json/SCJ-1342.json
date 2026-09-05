@@ -1,0 +1,42 @@
+{
+  "case_id": "SCJ-1342",
+  "title": "Hemant Kumar v. U.P. Electricity Regulatory Commission",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J.; Pratyush Kumar, J.",
+  "date_of_judgment": "2015-05-28",
+  "date_display": "28 May 2015",
+  "docket": "Writ-C No. 32685 of 2015",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; UPERC waiver of CGRF delay-penalty under cl. 4.4(e) upheld.",
+  "headnote": "Delay in laying a line and granting an industrial-feeder connection, caused by villager obstruction to pole erection and late police aid, is delay on account of right of way under cl. 4.4(e) of the Electricity Supply Code, 2005. The licensee is not responsible. UPERC’s waiver of a CGRF per-day penalty, based on an Electricity Ombudsman report to that effect, was not illegal.",
+  "facts": "The petitioner had a 150 kVA rural-feeder supply and applied for industrial-feeder connection. Delay produced CGRF Kanpur complaint no. 25 of 2012. On 18 May 2013 the Forum directed the A-side feeder line and connection, with Rs 100 per day from 7 January 2013 until grant. A s.142 application followed non-compliance. UPERC obtained an Ombudsman report that villagers obstructed pole erection and line-laying, police aid was late, and the penalty could be waived, then waived it. After police arrived, the connection was completed on 8 December 2013.",
+  "reusable_constructions": [
+    {
+      "construction": "Clause 4.4(e) relieves the licensee of delay in providing connection where the cause is right of way, including villager obstruction to pole erection and line laying, over which the licensee has no reasonable control.",
+      "paras": "1"
+    },
+    {
+      "construction": "UPERC may waive a CGRF per-day delay penalty where the Electricity Ombudsman finds that failure to lay a directed line was due to right-of-way obstruction requiring police aid.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.4(e)",
+      "code": "UP-2005",
+      "clause": "4.4(e)",
+      "topic": "delay in connection — right of way",
+      "type": "supply_code",
+      "holding": "Clause 4.4(e) provides that the licensee shall not be responsible if delay is on account of right of way, land acquisition, technical feasibility, or lack of transmission capacity, over which the licensee has no reasonable control. Villager interference with pole erection and line-laying, requiring police force that was not provided in time, is delay on account of right of way beyond the licensee’s control. UPERC’s waiver of the CGRF’s Rs 100 per day penalty, founded on the Electricity Ombudsman’s report to that effect, was therefore not illegal.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [],
+  "authorities": []
+}
