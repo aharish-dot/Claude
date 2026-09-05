@@ -1,0 +1,64 @@
+{
+  "case_id": "SCJ-1888",
+  "title": "Raj Bahadur v. State of U.P.",
+  "neutral_citation": "Writ-C No. 4006 of 2018",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari and Ajay Bhanot, JJ.",
+  "date_of_judgment": "2018-01-30",
+  "date_display": "30 January 2018",
+  "docket": "Writ-C No. 4006 of 2018",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; notice and recovery citation quashed.",
+  "headnote": "A provisional assessment notice under Clause 6.8(b) of the U.P. Electricity Supply Code, 2005 must specify a date of hearing in the notice itself and disclose the basis of the demand. The 4 July 2016 notice assessing Rs.7,07,405 did neither. The Division Bench quashed that notice and the 28 June 2017 recovery citation, directed a fresh provisional assessment to be served, and required a reasoned final order after considering objections and granting hearing, in the light of Ashok Kumar v. State of U.P.",
+  "facts": "Raj Bahadur challenged a provisional assessment dated 4 July 2016 of Rs.7,07,405 and a recovery citation dated 28 June 2017. He said he never received the notice and learnt of it only after the recovery certificate, so he could not reply and the licensee treated the assessment as final. Counsel showed that the 4 July 2016 notice fixed no date for hearing, contrary to Clause 6.8(b)(1) of the U.P. Electricity Supply Code, 2005.",
+  "reusable_constructions": [
+    {
+      "construction": "A Clause 6.8(b) provisional assessment notice must itself fix a date for hearing; a notice silent on that date is not in accordance with law.",
+      "paras": "3-4"
+    },
+    {
+      "construction": "A 6.8(b) notice that neither states the basis of the assessed amount nor specifies a hearing date fails to afford the opportunity the Code requires and vitiates the notice and any recovery citation founded on it.",
+      "paras": "6-7"
+    },
+    {
+      "construction": "On quashing a defective 6.8(b) notice, the licensee must serve a fresh provisional assessment and pass a reasoned final order after considering objections and granting hearing.",
+      "paras": "8"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "UP-2005",
+      "clause": "6.8(b)",
+      "topic": "provisional assessment notice — hearing date and basis of demand",
+      "type": "supply_code",
+      "holding": "Clause 6.8(b) requires the licensee to afford the consumer an opportunity on a date specified in the provisional assessment notice itself and to disclose the basis of the assessed amount. A notice that indicates no hearing date and gives no basis for a demand of Rs.7,07,405 is not in accordance with law, so the consumer is not afforded the opportunity 6.8(b) contemplates. Such a notice and a recovery citation founded on it are liable to be quashed; a fresh provisional assessment must be served and a reasoned final order passed after considering objections and granting hearing.",
+      "paras": "4-8"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner in fact received the 4 July 2016 notice",
+      "note": "Decided on the face of the notice; actual service was not independently determined.",
+      "paras": "2,4"
+    },
+    {
+      "point": "Merits of the Rs.7,07,405 assessment",
+      "note": "Fresh provisional assessment directed; quantum and underlying allegation not examined.",
+      "paras": "8"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008 (6) ADJ 660 (DB)",
+      "cited_by": "5,8",
+      "pins": "56-64"
+    }
+  ]
+}
