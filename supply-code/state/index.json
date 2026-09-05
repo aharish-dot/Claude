@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1784,
+  "next_seq": 1785,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -10684,6 +10684,12 @@
       "case_id": "SCJ-1780",
       "source_basename": "WRIC(A)_18857_2018.pdf",
       "title": "Sunil Yadav v. State of U.P. (Clause 6.8 assessment — objections directed)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1781",
+      "source_basename": "WRIC(A)_18868_2018.pdf",
+      "title": "Smt. Vijay Kumari Srivastava v. Purvanchal Electricity Distribution Corporation Ltd.",
       "status": "done"
     }
   ]
