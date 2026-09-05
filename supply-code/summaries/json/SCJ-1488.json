@@ -1,0 +1,39 @@
+{
+  "case_id": "SCJ-1488",
+  "title": "Abhisek Sharma v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Dilip Babasaheb Bhosale, C.J. and Yashwant Varma, J.",
+  "date_of_judgment": "2016-08-01",
+  "date_display": "1 August 2016",
+  "docket": "WRIT - C No. 35179 of 2016",
+  "page_count": 2,
+  "significance": "procedural",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "New connection to be decided after indemnity; speaking order if refused",
+  "headnote": "Writ for a new domestic connection disposed of without deciding entitlement. If the petitioner completes Supply Code, 2005 formalities, including an indemnity bond, within two weeks, the licensee shall consider and decide the application within two weeks thereafter; any rejection must be by speaking order communicated within one further week.",
+  "facts": "Abhisek Sharma petitioned the Allahabad High Court for a direction that the State and distribution-licensee respondents grant a new electricity connection to his house. The Court recorded that he had not completed the formalities needed for consideration of that application. Counsel sought two weeks to complete those steps, including an indemnity bond under the Electricity Supply Code, 2005, and a time-bound decision thereafter. The licensee's counsel stated that orders would be passed within two weeks once the formalities were completed.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.4",
+      "code": "UP-2005",
+      "clause": "4.4",
+      "topic": "new connection — indemnity bond and time-bound consideration",
+      "type": "supply_code",
+      "holding": "A writ seeking a new electricity connection will not itself grant supply where Supply Code formalities, including the indemnity bond under the Electricity Supply Code, 2005, remain incomplete. If the applicant completes those formalities within two weeks, the licensee shall consider and decide the application within two weeks thereafter; any rejection must be by speaking order communicated within one further week.",
+      "paras": "1",
+      "flag": "Order requires an indemnity bond under the Supply Code, 2005 but does not number the clause."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner is entitled on the merits to a new electricity connection",
+      "note": "Left to the licensee to consider after Supply Code formalities, including the indemnity bond, are completed.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
