@@ -1,0 +1,47 @@
+{
+  "case_id": "SCJ-1706",
+  "title": "Meenu Gupta v. State of U.P.",
+  "neutral_citation": "Writ - C No. 61902 of 2017",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Govind Mathur, J.; Ashok Kumar, J.",
+  "date_of_judgment": "2017-12-21",
+  "date_display": "21 December 2017",
+  "docket": "Writ - C No. 61902 of 2017",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; liberty to avail Supply Code 2005 remedies.",
+  "headnote": "A writ questioning disputed recovery of electricity consumption charges was not entertained. Paragraph 6.5 of the Electricity Supply Code, 2005 supplies a remedy for such a billing grievance, and paragraph 6.14 authorises the licensee to grant instalments; the consumer was left at liberty to pursue those Code remedies.",
+  "facts": "Smt. Meenu Gupta petitioned the Allahabad High Court to question recovery of electricity consumption charges. She contended that the claim was highly disputed and that no statement showing how the amount had been determined had been given. Counsel for the petitioner stated at the Bar that she was ready and willing to deposit the entire amount if easy instalments were settled. Counsel for the electricity company and the State were heard.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "billing dispute; alternative remedy",
+      "type": "supply_code",
+      "holding": "A consumer who disputes recovery of electricity consumption charges, including where no statement of how the amount was determined has been given, has a remedy under paragraph 6.5 of the Electricity Supply Code, 2005.",
+      "paras": "1"
+    },
+    {
+      "provision": "UP-2005::6.14",
+      "code": "UP-2005",
+      "clause": "6.14",
+      "topic": "instalment facility; writ not entertained",
+      "type": "supply_code",
+      "holding": "Paragraph 6.14 of the Electricity Supply Code, 2005 authorises the licensee to grant instalments having regard to relevant facts; where the consumer is willing to pay in easy instalments, the High Court will not entertain a writ and will leave the consumer to that Code remedy.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "correctness of the electricity consumption recovery and the basis on which the amount was determined",
+      "note": "Left to Electricity Supply Code, 2005 remedies under paragraphs 6.5 and 6.14.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
