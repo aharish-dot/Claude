@@ -1,0 +1,47 @@
+{
+  "case_id": "SCJ-1494",
+  "title": "Shyam Kumar Awasthi v. U.P.P.C.L.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Tarun Agarwala, J.; Vipin Sinha, J.",
+  "date_of_judgment": "2016-08-03",
+  "date_display": "3 August 2016",
+  "docket": "Writ - C No. 35843 of 2016",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; Executive Engineer to consider objection and pass assessment.",
+  "headnote": "Provisional bill on a checking report of theft — consumer’s remedy is a reply under s.126 of the Electricity Act, 2003 and clause 8.5 of the Electricity Supply Code, 2005 — objection already served as a notice to be considered by the Executive Engineer, who shall pass an assessment order — writ disposed without examining the theft finding or quantum.",
+  "facts": "Following a checking report that recorded theft of electricity, U.P.P.C.L. issued a provisional bill of Rs. 82,451 to Shyam Kumar Awasthi. He filed a civil writ in the Allahabad High Court, having already served a notice of objection (annexure 3). Counsel for both sides were heard. The Division Bench did not try whether theft was made out or whether the billed amount was correct.",
+  "holding_units": [
+    {
+      "provision": "EA2003::126",
+      "code": "EA2003",
+      "clause": "126",
+      "topic": "objection-to-provisional-assessment",
+      "type": "electricity_act",
+      "holding": "A consumer objecting to a provisional bill raised on a checking report of theft must file a reply under Section 126 of the Electricity Act, 2003 and clause 8.5 of the Electricity Supply Code, 2005. Where that objection has already been served as a notice, the concerned Executive Engineer shall consider it and pass an appropriate assessment order; the writ court will not itself decide the assessment.",
+      "paras": "1"
+    },
+    {
+      "provision": "UP-2005::8.5",
+      "code": "UP-2005",
+      "clause": "8.5",
+      "topic": "objection-to-provisional-assessment",
+      "type": "supply_code",
+      "holding": "Clause 8.5 of the Electricity Supply Code, 2005, with Section 126 of the Electricity Act, 2003, is the path for a reply to a provisional theft bill; the Executive Engineer must consider the objection and pass an assessment order.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether theft was established and whether the provisional assessment of Rs. 82,451 was correct",
+      "note": "Left to the Executive Engineer on the pending objection.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
