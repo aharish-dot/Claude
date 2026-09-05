@@ -1,0 +1,60 @@
+{
+  "case_id": "SCJ-1443",
+  "title": "Smt. Geeta Maurya v. Poorvanchal Vidyut Vitran Khand-2",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J.; Vinod Kumar Misra, J.",
+  "date_of_judgment": "2016-05-04",
+  "date_display": "4 May 2016",
+  "docket": "Writ-C No. 18882 of 2016",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; provisional assessment notice and recovery citation quashed.",
+  "headnote": "Clause 6.8(b) of the U.P. Electricity Supply Code, 2005 requires a provisional assessment notice to specify a date of hearing in the notice itself and to disclose the basis of the assessed amount. A notice assessing Rs.4,19,379 that did neither, and the recovery citation that followed, were quashed. The licensee was directed to issue a fresh provisional assessment and to pass a reasoned final order after considering objections, in the light of Ashok Kumar v. State of U.P.",
+  "facts": "Smt. Geeta Maurya challenged a final assessment of Rs.4,19,379 and a recovery citation dated 23 July 2015 of Poorvanchal Vidyut Vitran Nigam. She said no provisional assessment bill had been served and no hearing date fixed. The licensee produced instructions that a notice dated 6 November 2013 had gone by ordinary post. She denied receipt and relied on Clause 6.8(b)(1) of the U.P. Electricity Supply Code, 2005, requiring the notice itself to specify a date of hearing.",
+  "reusable_constructions": [
+    {
+      "construction": "A provisional assessment notice under Clause 6.8(b) of the U.P. Electricity Supply Code, 2005 is not in accordance with law unless it specifies a date of hearing in the notice itself so that the consumer can appear.",
+      "paras": "3-7"
+    },
+    {
+      "construction": "The provisional assessment notice must also state the basis on which the consumer is assessed; a notice silent on hearing date and on the basis of the demand vitiates the final assessment and recovery that follow.",
+      "paras": "6-8"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "UP-2005",
+      "clause": "6.8(b)",
+      "topic": "provisional-assessment-notice",
+      "type": "supply_code",
+      "holding": "A provisional assessment notice under Clause 6.8(b) must specify a date of hearing in the notice itself and must disclose the basis of the assessed amount. The notice dated 6 November 2013 assessing Rs.4,19,379 specified neither, so the consumer was not afforded the opportunity required by Clause 6.8(b). The notice and the recovery citation dated 23 July 2015 were quashed, with a direction to prepare and serve a fresh provisional assessment and to make the final assessment only after considering objections, with reasons, in the light of Ashok Kumar v. State of U.P.",
+      "paras": "4-8",
+      "flag": "Order cites Clause 6.8(b)(1) for the hearing-date-in-notice requirement; the operative finding is under para 6.8(b)."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Merits and quantum of the assessment",
+      "note": "The quash was for a defective notice; respondents were directed to issue a fresh provisional assessment and decide objections.",
+      "paras": "8"
+    },
+    {
+      "point": "Whether the 6 November 2013 notice was in fact received",
+      "note": "The Court held the notice facially non-compliant and did not rule on service by ordinary post.",
+      "paras": "2-4"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008(6) ADJ 660 (DB)",
+      "cited_by": "5"
+    }
+  ]
+}

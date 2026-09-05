@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1446,
+  "next_seq": 1447,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -8656,6 +8656,12 @@
       "case_id": "SCJ-1442",
       "source_basename": "WRIC(A)_18337_2016.pdf",
       "title": "Chhotu @ Arun Kumar Singh v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1443",
+      "source_basename": "WRIC(A)_18882_2016.pdf",
+      "title": "Smt. Geeta Maurya v. Poorvanchal Vidyut Vitran Khand-2",
       "status": "done"
     }
   ]
