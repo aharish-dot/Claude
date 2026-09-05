@@ -1,0 +1,38 @@
+{
+  "case_id": "SCJ-1755",
+  "title": "Clause 6.14 installment facility — recovery citation not quashed",
+  "neutral_citation": "Writ-C No. 13274 of 2018",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Amreshwar Pratap Sahi, J.; Shashi Kant, J.",
+  "date_of_judgment": "2018-04-12",
+  "date_display": "12 April 2018",
+  "docket": "WRIT - C No. 13274 of 2018",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Recovery citation not quashed; EE to consider clause 6.14 installments.",
+  "headnote": "A consumer who admits electricity arrears cannot have a recovery citation quashed merely to obtain easy installments. The High Court relegated him to the Executive Engineer under clause 6.14 of the Uttar Pradesh Electricity Supply Code, 2005, directing that officer to pass an order within three weeks extending the maximum installment relief admissible; recovery to abide that order.",
+  "facts": "The petitioner held an electricity connection and admitted default in payment of dues after a recovery citation issued. He petitioned the High Court to quash the citation, offering to deposit the arrears in easy installments. Counsel for the respondents pointed to clause 6.14 of the Electricity Supply Code, 2005, which permits the licensee to grant a limited installment facility, without surcharge waiver, to consumers in financial distress.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.14",
+      "code": "UP-2005",
+      "clause": "6.14",
+      "topic": "installment facility for arrears",
+      "type": "supply_code",
+      "holding": "Admission of electricity arrears and a request for easy installments is no ground to quash a recovery citation. The consumer may apply to the Executive Engineer under clause 6.14 of the Supply Code, 2005 (installments only for consumers in financial distress; no surcharge waiver; first installment not less than 40% of the total; grant limited by the rank of the officer). The Executive Engineer shall, within three weeks of presentation of a certified copy, pass an appropriate order extending the maximum relief admissible; recovery proceedings abide that order.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner was in financial distress and how many installments were admissible under clause 6.14",
+      "note": "Left to the Executive Engineer on the petitioner's application.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
