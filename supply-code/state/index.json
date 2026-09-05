@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1570,
+  "next_seq": 1571,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -9418,6 +9418,12 @@
       "case_id": "SCJ-1569",
       "source_basename": "CAPL(A)_3576_2017.pdf",
       "title": "Yogesh Kumar Jain v. Krishna Pal Puri, Executive Engineer",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1570",
+      "source_basename": "CAPL(L)_2214_2017.pdf",
+      "title": "M/S Tulsi Castle v. Ashutosh Kumar Srivastava, G.M., Lucknow Electric Supply",
       "status": "done"
     }
   ]
