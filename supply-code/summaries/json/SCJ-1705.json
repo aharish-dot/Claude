@@ -1,0 +1,39 @@
+{
+  "case_id": "SCJ-1705",
+  "title": "Shashi Kant Srivastava v. State of U.P. (billing dispute; clause 6.5)",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "V.K. Shukla, J.; Sangeeta Chandra, J.",
+  "date_of_judgment": "2017-02-09",
+  "date_display": "9 February 2017",
+  "docket": "Writ - C No. 6163 of 2017",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; clause 6.5 authority to decide billing dispute in three months",
+  "headnote": "A writ raising a billing dispute is disposed of with a direction that the competent authority under Chapter 6.5 of the U.P. Electricity Supply Code, 2005 shall decide the pending grievance in accordance with law on the records, preferably within three months. The High Court does not examine the bill on merits.",
+  "facts": "Petitioner Shashi Kant Srivastava approached the Allahabad High Court in a writ petition raising, in pith and substance, a billing dispute against the State of Uttar Pradesh and two others. Counsel for the respondents submitted that billing disputes under the Electricity Act, 2003 and the U.P. Electricity Supply Code, 2005 fall to be settled by the competent authority under Chapter 6.5 of the 2005 Code. The petitioner replied that he had already approached that authority but no decision had been taken.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "billing-dispute-under-clause-6.5",
+      "type": "supply_code",
+      "holding": "Billing disputes under the Electricity Act, 2003 read with the U.P. Electricity Supply Code, 2005 are to be settled by the competent authority under Chapter 6.5 of the 2005 Code. Where the consumer has already approached that authority and the grievance remains pending, the writ court will not decide the bill on merits and will instead direct the competent authority to decide the matter in accordance with law on the available records, preferably within three months.",
+      "paras": "1",
+      "flag": "Court refers to 'Chapter 6.5' of the 2005 Code; the Supply Code numbers 6.5 as a clause, not a chapter. The Act is cited as the 'Indian Electricity Act, 2003'."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "correctness of the petitioner's electricity bill",
+      "note": "Writ court did not examine the billing dispute on merits; the competent authority under clause 6.5 is to decide on the records.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
