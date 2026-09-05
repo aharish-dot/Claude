@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1806,
+  "next_seq": 1807,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -10816,6 +10816,12 @@
       "case_id": "SCJ-1802",
       "source_basename": "WRIC(A)_23917_2018.pdf",
       "title": "Merino Industries Ltd. v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1804",
+      "source_basename": "WRIC(A)_24460_2018.pdf",
+      "title": "Shahina Parveen v. U.P. Electricity Regulatory Commission",
       "status": "done"
     }
   ]
