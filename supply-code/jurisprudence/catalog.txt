@@ -1,7 +1,7 @@
 # Reuse these keys when they fit. Do not invent a synonym for an existing tag.
 # New kebab-case tags are allowed only when none of these capture the holding.
 
-PROVISIONS (255)
+PROVISIONS (256)
 additional-security
 ARREARS::transferee-liability
 BIHAR-2007::4.1
@@ -242,6 +242,7 @@ UP-2005::increase-decrease-load
 UP-2005::independent-agency-meter-check
 UP-2005::independent-feeder-definition
 UP-2005::new-connection
+UP-2005::permanent-disconnection
 UP-2005::procedure-for-restoration
 UP-2005::supervision-charges
 UP-2005::supply-quality-no-imbalance
