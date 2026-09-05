@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1398,
+  "next_seq": 1400,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -8368,6 +8368,12 @@
       "case_id": "SCJ-1394",
       "source_basename": "WRIC(A)_66607_2015.pdf",
       "title": "Brij Kishore v. Uttar Pradesh Power Corporation Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1395",
+      "source_basename": "WRIC(A)_67443_2015.pdf",
+      "title": "Ashu Rathi v. State of U.P.",
       "status": "done"
     }
   ]
