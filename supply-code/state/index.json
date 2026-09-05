@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1885,
+  "next_seq": 1886,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -11290,6 +11290,12 @@
       "case_id": "SCJ-1882",
       "source_basename": "WRIC(A)_39533_2018.pdf",
       "title": "Kanpur Logistics Park Pvt. Ltd. v. Executive Engineer, Electricity Urban Distribution Division, KESCO",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1880",
+      "source_basename": "WRIC(A)_39243_2018.pdf",
+      "title": "Vipin Kalanamak Factory Pvt. Ltd. v. State of U.P. (demand notice / cl. 7.10 CGRF)",
       "status": "done"
     }
   ]
