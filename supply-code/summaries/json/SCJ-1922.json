@@ -1,0 +1,56 @@
+{
+  "case_id": "SCJ-1922",
+  "title": "Dharnidhar v. State of U.P. & Anr.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J.; Ajay Bhanot, J.",
+  "date_of_judgment": "2018-02-28",
+  "date_display": "28 February 2018",
+  "docket": "WRIT - C No. - 7983 of 2018",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; assessment notice quashed; fresh provisional assessment directed",
+  "headnote": "A provisional assessment notice under Clause 6.8(b) of the U.P. Electricity Supply Code, 2005 must itself fix a date and time for hearing and must disclose the basis of the assessed amount. A Division Bench quashed the 27.12.2017 notice assessing Dharnidhar Rs.39,371 because it did neither, so the consumer was not afforded the opportunity Clause 6.8(b) requires. Fresh provisional assessment was directed; the final order must follow objections, hearing, and reasons in light of Ashok Kumar v. State of U.P., 2008 (6) ADJ 660 (DB).",
+  "facts": "Dharnidhar challenged a Uttar Pradesh Power Corporation assessment of Rs.39,371 and the recovery that followed. He said he never received the provisional assessment notice dated 27 December 2017 and learned of it only after the recovery certificate issued, so he could not reply. Counsel argued the notice neither disclosed the basis of the assessment nor fixed a date and time for hearing as Clause 6.8(b)(1) of the U.P. Electricity Supply Code, 2005 requires. The Division Bench examined that notice against Clause 6.8(b) and Ashok Kumar.",
+  "reusable_constructions": [
+    {
+      "construction": "A provisional assessment notice under Clause 6.8(b) of the U.P. Electricity Supply Code, 2005 must itself specify the date and time for hearing; omission of that particular vitiates the notice.",
+      "paras": "4, 6-7"
+    },
+    {
+      "construction": "A provisional assessment notice that does not disclose the basis of the assessed amount does not afford the opportunity Clause 6.8(b) contemplates.",
+      "paras": "6-7"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "UP-2005",
+      "clause": "6.8(b)",
+      "topic": "provisional assessment notice — date, time and basis",
+      "type": "supply_code",
+      "holding": "A provisional assessment notice under Clause 6.8(b) of the U.P. Electricity Supply Code, 2005 must specify in the notice itself a date and time for hearing and must disclose the basis of the assessed amount. The notice dated 27.12.2017 did neither, so the consumer was not afforded the opportunity Clause 6.8(b) requires. The assessment is quashed. The licensee must prepare and serve a fresh provisional assessment, consider objections, grant hearing, and pass a reasoned final assessment in light of Ashok Kumar v. State of U.P., 2008 (6) ADJ 660 (DB).",
+      "paras": "4, 6-8",
+      "flag": "Argument invoked Clause 6.8(b)(1); the holding is under para 6.8(b). The order also calls the 27.12.2017 instrument both a provisional assessment notice and the impugned final assessment notice."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Merits of the Rs.39,371 assessment",
+      "note": "Quashed for notice defects; fresh provisional assessment and a reasoned final order after objections and hearing were directed.",
+      "paras": "8"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008 (6) ADJ 660 (DB)",
+      "pinpoint": "paras 56-64",
+      "cited_by": "5"
+    }
+  ]
+}
