@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1296,
+  "next_seq": 1297,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -7756,6 +7756,12 @@
       "case_id": "SCJ-1292",
       "source_basename": "WRIC(A)_9934_2014.pdf",
       "title": "M/s Super Tannery Ltd. v. Madhyanchal Vidyut Vitran Nigam Ltd. — additional security under clause 4.20",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1293",
+      "source_basename": "A227(A)_4194_2015.pdf",
+      "title": "Paschimanchal Vidyut Vitran Nigam Ltd. v. Mohammad Khalid",
       "status": "done"
     }
   ]
