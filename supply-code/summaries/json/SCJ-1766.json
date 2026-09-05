@@ -1,0 +1,45 @@
+{
+  "case_id": "SCJ-1766",
+  "title": "Smt. Rajkumari v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Amreshwar Pratap Sahi, J.; Shashi Kant, J.",
+  "date_of_judgment": "2018-05-07",
+  "date_display": "7 May 2018",
+  "docket": "Writ-C No. 16387 of 2018",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; petitioner relegated to Executive Engineer under clause 6.5.",
+  "headnote": "Recovery of electricity arrears, even where the consumer attributes non-use to a pending pole-shifting dispute and relies on a civil court order about shifting of poles, is a billing dispute for the Executive Engineer under clause 6.5 of the U.P. Electricity Supply Code, 2005. The writ was disposed with liberty to approach that authority; recovery to abide the decision.",
+  "facts": "Smt. Rajkumari challenged recovery of long-pending electricity arrears on a tube-well connection originally granted to her husband. She contended that after a 2013 application to shift the pole she had not used any electricity, and that an appellate civil court order in her late husband's suit favoured her. The civil litigation concerned shifting of double poles. The Electricity Department had set recovery of the alleged arrears in motion.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "billing dispute; recovery of arrears",
+      "type": "supply_code",
+      "holding": "A challenge to recovery of alleged electricity arrears, including a claim of no consumption after a pole-shifting application, is a billing dispute. The Executive Engineer under clause 6.5 of the U.P. Electricity Supply Code, 2005 is the competent authority to decide such a dispute even if it arises out of any assessment. The writ court declined to interfere and relegated the petitioner to that forum, directing that recovery proceedings abide the Engineer's decision. A civil court order on shifting of double poles does not decide consumption.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "billing-objection-to-executive-engineer-under-6.5",
+      "application": "A consumer who disputes recovery of arrears on the ground of non-use after a pole-shifting application, and who relies on a civil court order about shifting of poles, must still take the billing objection to the Executive Engineer under clause 6.5.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness of the alleged arrears and whether any electricity was consumed after 2013",
+      "note": "Left to the Executive Engineer under clause 6.5; recovery to abide that decision.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
