@@ -1,0 +1,48 @@
+{
+  "case_id": "SCJ-1596",
+  "title": "Smt. Rajesh Kumari v. Secretary, Electricity Board",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari and Ravindra Nath Kakkar, JJ.",
+  "date_of_judgment": "2017-05-05",
+  "date_display": "5 May 2017",
+  "docket": "Writ-C No. 17205 of 2017",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Bill dated 5.10.2016 quashed for want of mandatory 6.8(b) notice and hearing; fresh assessment permitted.",
+  "headnote": "Clause 6.8(b) of the U.P. Electricity Supply Code, 2005 is mandatory. A provisional assessment made without notice and without fixing a date of hearing vitiates the consequential electricity bill, which is liable to be quashed, leaving the licensee free to reassess after following the prescribed procedure.",
+  "facts": "Smt. Rajesh Kumari sought quashing of an electricity bill dated 5 October 2016 issued by the distribution licensee. On 25 April 2017 the Division Bench noted that the final assessment appeared to have been issued without a provisional assessment, notice or opportunity to object, which if correct would render recovery illegal, but the pleadings were unclear. Licensee's counsel was directed to take instructions. Those instructions, produced on 5 May 2017, showed the provisional assessment had been made without fixing a date of hearing and without issuing notice.",
+  "reusable_constructions": [
+    {
+      "construction": "Clause 6.8(b) of the U.P. Electricity Supply Code, 2005 is mandatory: notice and a date of hearing must precede a provisional assessment.",
+      "paras": "1"
+    },
+    {
+      "construction": "Want of notice and opportunity of hearing before a 6.8(b) provisional assessment vitiates the consequential electricity bill, which is liable to be quashed, without prejudice to a fresh assessment after following the prescribed procedure.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "UP-2005",
+      "clause": "6.8(b)",
+      "topic": "notice and hearing before provisional assessment",
+      "type": "supply_code",
+      "holding": "In the absence of notice and opportunity of hearing before making the provisional assessment, clause 6.8(b) of the U.P. Electricity Supply Code, 2005 being mandatory, the electricity bill dated 5.10.2016 cannot be sustained and is quashed; the licensee may make a fresh assessment after following the prescribed procedure.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Merits of the assessment and whether unauthorized use occurred",
+      "note": "Licensee left free to make a fresh assessment after following the prescribed procedure.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
