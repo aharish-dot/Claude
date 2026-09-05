@@ -1,0 +1,47 @@
+{
+  "case_id": "SCJ-1311",
+  "title": "Shamimul Hasan Rizvi v. State of U.P.",
+  "neutral_citation": "Criminal Misc. Writ Petition No. 3473 of 2015",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "V.K. Shukla, J.; Mohd. Tahir, J.",
+  "date_of_judgment": "2015-02-09",
+  "date_display": "9 February 2015",
+  "docket": "Criminal Misc. Writ Petition No. 3473 of 2015",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "s.135 FIR not quashed; CrPC 41/41-A directed; compounding left to Code 2005 and s.152.",
+  "headnote": "A criminal writ will not quash an FIR under s.135 of the Electricity Act, 2003 that discloses a cognizable offence. Where arrest is only apprehended and a proved s.135 offence cannot attract more than seven years, police must follow CrPC 41(1)(b) read with 41-A. If the offence is compoundable, the accused may seek compounding under the Electricity Supply Code, 2005 and s.152 EA 2003.",
+  "facts": "The petitioner sought quashing of an FIR dated 10 January 2015 registered as Case Crime Nos. 14 to 16 of 2015 under Section 135 of the Electricity Act, 2003 at Police Station Pipri, District Kaushambi. Arrest had not been made. He apprehended mechanical arrest despite the alleged offence carrying a maximum sentence not exceeding seven years, and submitted that the offence was compoundable. Counsel for the power corporation and the State were heard.",
+  "holding_units": [
+    {
+      "provision": "EA2003::135",
+      "code": "EA2003",
+      "clause": "135",
+      "topic": "s.135 FIR quash and arrest",
+      "type": "electricity_act",
+      "holding": "An FIR under Section 135 of the Electricity Act, 2003 that discloses a cognizable offence will not be quashed in a criminal writ. Where arrest has not been made and a proved s.135 offence cannot attract more than seven years' imprisonment, any arrest must comply with Section 41(1)(b) read with Section 41-A Cr.P.C.; breach is to be remedied by complaint to the Magistrate.",
+      "paras": "1"
+    },
+    {
+      "provision": "EA2003::152",
+      "code": "EA2003",
+      "clause": "152",
+      "topic": "compounding",
+      "type": "interplay",
+      "holding": "If the alleged s.135 offence is compoundable, the accused may seek compounding under the Electricity Supply Code, 2005 and Section 152 of the Electricity Act, 2003. The Court did not itself compound the offence or stay the FIR.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the alleged s.135 offence is compoundable on these facts",
+      "note": "Compounding was left to be pursued, if available, under the Supply Code, 2005 and s.152 EA 2003.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
