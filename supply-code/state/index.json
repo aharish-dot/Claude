@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1747,
+  "next_seq": 1748,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -10462,6 +10462,12 @@
       "case_id": "SCJ-1745",
       "source_basename": "WRIC(A)_11877_2018.pdf",
       "title": "Kriti Scanning Center Pvt. Ltd. v. State of U.P. and 3 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1742",
+      "source_basename": "WRIC(A)_11501_2018.pdf",
+      "title": "Fixed charges remain payable during temporary disconnection",
       "status": "done"
     }
   ]

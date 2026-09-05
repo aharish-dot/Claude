@@ -1,0 +1,44 @@
+{
+  "case_id": "SCJ-1742",
+  "title": "Fixed charges remain payable during temporary disconnection",
+  "neutral_citation": "WRIT - C No. 11501 of 2018",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Bharati Sapru, J.; Saral Srivastava, J.",
+  "date_of_judgment": "2018-04-11",
+  "date_display": "11 April 2018",
+  "docket": "WRIT - C No. 11501 of 2018",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of. Challenge to fixed charges during temporary disconnection rejected; residual billing dispute relegated to clause 6.5 with 15-day protection from coercive action.",
+  "headnote": "A consumer remains liable to pay fixed charges while supply is only temporarily disconnected; that liability ends only on permanent disconnection. Om Prakash Pandey did not dispute the corrected bill in principle but objected to fixed charges for a period of temporary disconnection. The Division Bench rejected that contention as contrary to law, disposed of the writ, and left residual disputes to a clause 6.5 objection to be filed within 15 days, with no coercive action in the meantime.",
+  "facts": "Om Prakash Pandey filed a writ petition in the Allahabad High Court challenging an electricity demand. On 3 April 2018 the licensee's counsel supplied a corrected bill in court. When the matter was taken up on 11 April 2018, the petitioner did not dispute that the amount shown as due was correct in principle, but objected to fixed charges included in that bill on the ground that his supply had been temporarily disconnected for a period and that he was therefore not liable to pay those charges.",
+  "reusable_constructions": [
+    {
+      "construction": "Fixed charges remain payable during a temporary disconnection of supply; only a permanent disconnection relieves the consumer of that liability.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "fixed-charges-during-temporary-disconnection",
+      "type": "supply_code",
+      "holding": "Unless supply has been permanently disconnected, the consumer must pay fixed charges even for a period of temporary disconnection; a contrary objection is not tenable. Residual billing disputes may be raised under clause 6.5 of the Electricity Supply Code, 2005 within 15 days, during which no coercive action is to be taken, and the objection is to be decided in accordance with law.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Quantification of the corrected bill and residual billing objections other than liability for fixed charges during temporary disconnection",
+      "note": "Left to a clause 6.5 objection to be decided in accordance with law if filed within 15 days",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
