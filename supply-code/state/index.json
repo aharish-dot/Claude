@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1884,
+  "next_seq": 1885,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -11284,6 +11284,12 @@
       "case_id": "SCJ-1879",
       "source_basename": "WRIC(A)_3896_2018.pdf",
       "title": "Mukul Pandey v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1882",
+      "source_basename": "WRIC(A)_39533_2018.pdf",
+      "title": "Kanpur Logistics Park Pvt. Ltd. v. Executive Engineer, Electricity Urban Distribution Division, KESCO",
       "status": "done"
     }
   ]
