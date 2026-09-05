@@ -1,0 +1,39 @@
+{
+  "case_id": "SCJ-1319",
+  "title": "Rajendra Prasad Yadav v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Dilip Gupta, J.; Vinod Kumar Misra, J.",
+  "date_of_judgment": "2015-02-25",
+  "date_display": "25 February 2015",
+  "docket": "Writ-C No. 11573 of 2015",
+  "page_count": 1,
+  "significance": "procedural",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; relegated to Section 127 appeal.",
+  "headnote": "A writ challenging a final assessment order of the Executive Engineer is not entertained where a statutory appeal under Section 127 is available. Petition dismissed on that alternative remedy.",
+  "facts": "Rajendra Prasad Yadav filed a writ petition in the Allahabad High Court challenging the final assessment order issued by the Executive Engineer (Distribution & Trade), Urban Electric Distribution Khand, Kanpur. Counsel for the respondents raised a preliminary objection that a statutory appeal lay under Section 127 of what the order records as the Electricity Supply Code, 2003. The Court recorded that such an alternative remedy existed and, on that footing, declined to entertain the writ.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "writ barred by section 127 appeal against final assessment",
+      "type": "electricity_act",
+      "holding": "A writ petition challenging a final assessment order of the Executive Engineer will not be entertained when a statutory appeal under Section 127 is available; the petition is dismissed on that alternative remedy.",
+      "paras": "1",
+      "flag": "Order attributes s.127 to the Electricity Supply Code, 2003; the provision is Electricity Act, 2003 s.127."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Merits of the final assessment order",
+      "note": "Not examined; writ declined solely on the existence of a statutory appeal.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
