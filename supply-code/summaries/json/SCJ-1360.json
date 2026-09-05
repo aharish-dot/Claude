@@ -1,0 +1,57 @@
+{
+  "case_id": "SCJ-1360",
+  "title": "M/s Vimla Gramodyog Sansthan v. Dakshinanchal Vidyut Vitran Nigam Ltd.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Dr Dhananjaya Yeshwant Chandrachud, CJ and Yashwant Varma, J.",
+  "date_of_judgment": "2015-09-14",
+  "date_display": "14 September 2015",
+  "docket": "Writ - C No. 49548 of 2015",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of; petitioner relegated to clause 6.5.",
+  "headnote": "A Division Bench disposed of a writ against an underbilling demand of Rs 11.87 lakh by relegating the consumer to clause 6.5 of the Uttar Pradesh Electricity Supply Code, 2005. The demand dated 24 June 2015 recovered billing at half the payable rate, not 'various charges' under clause 6.1(g), so a vires challenge to that clause vis-à-vis section 55 of the Electricity Act, 2003 did not arise. Whether any part of the claim was barred by section 56(2) was left to the competent authority. No opinion was expressed on merits. If an objection was moved within two weeks, the authority was to endeavour to decide it within one month; restoration could be sought on prescribed terms.",
+  "facts": "The petitioner, a proprietary concern of Smt. Meera Devi, challenged a demand of Rs 11,87,896 dated 24 June 2015 issued by the Executive Engineer of Dakshinanchal Vidyut Vitran Nigam Ltd. The demand treated billing from August 2011 as having been at half the applicable rate. The writ also attacked clause 6.1(g) of the Supply Code, 2005 as ultra vires section 55 of the Electricity Act, 2003, and invoked the two-year bar in section 56(2). Restoration of supply was among the reliefs sought.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "billing-objection-to-executive-engineer",
+      "type": "supply_code",
+      "holding": "A consumer aggrieved by a demand issued on the ground of past underbilling (billing at half the applicable rate) has a remedy under clause 6.5 of the Supply Code, 2005. The writ court will relegate the party to that forum without expressing any opinion on the merits. Restoration of supply may be sought from the competent authority subject to the prescribed terms.",
+      "paras": "1,3"
+    },
+    {
+      "provision": "UP-2005::6.1(g)",
+      "code": "UP-2005",
+      "clause": "6.1(g)",
+      "topic": "various-charges-not-underbilling-demand",
+      "type": "supply_code",
+      "holding": "A demand recovering the difference because the consumer was billed at half the applicable rate is a demand for wrongful billing, not recovery of 'various charges' within clause 6.1(g). A vires challenge to clause 6.1(g) vis-à-vis section 55 of the Electricity Act, 2003 therefore does not arise on such a demand.",
+      "paras": "2"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether any part of the demand is barred by section 56(2) of the Electricity Act, 2003",
+      "note": "Left to be urged and decided by the competent authority under clause 6.5.",
+      "paras": "2"
+    },
+    {
+      "point": "Whether clause 6.1(g) of the Supply Code, 2005 is ultra vires section 55 of the Electricity Act, 2003",
+      "note": "The Court did not enter the vires challenge because the demand was not for 'various charges' under clause 6.1.",
+      "paras": "2"
+    },
+    {
+      "point": "Merits of the underbilling demand and of restoration",
+      "note": "Expressly no opinion on the merits of the grievance.",
+      "paras": "3"
+    }
+  ],
+  "authorities": []
+}
