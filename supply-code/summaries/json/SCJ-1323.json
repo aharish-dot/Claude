@@ -1,0 +1,43 @@
+{
+  "case_id": "SCJ-1323",
+  "title": "Lala Ram v. State of U.P.",
+  "neutral_citation": "Writ-C No. 12925 of 2015",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Tarun Agarwala and Dr. Satish Chandra, JJ.",
+  "date_of_judgment": "2015-03-10",
+  "date_display": "10 March 2015",
+  "docket": "Writ-C No. 12925 of 2015",
+  "page_count": 1,
+  "significance": "procedural",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Relegated to clause 6.5; EE to decide in two weeks",
+  "headnote": "Recovery citation for electricity dues on a connection not in the petitioners' names, with an objection pending before the Collector, was not decided on merits. The High Court directed the petitioners to apply to the Executive Engineer under clause 6.5 of the U.P. Electricity Supply Code, 2005, and that authority to consider and decide the application within two weeks of production of a certified copy of the order.",
+  "facts": "A recovery citation was issued for electricity dues on a connection that was not in the petitioners' names. Lala Ram and another approached the Allahabad High Court after they had filed an objection before the Collector, which remained pending, while the respondents continued with recovery. They sought a writ against that recovery on the footing that the dues did not relate to a connection standing in their names.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "billing-objection-to-executive-engineer-under-6.5",
+      "type": "supply_code",
+      "holding": "Where a recovery citation is issued for electricity dues on a connection not standing in the petitioner's name and an objection before the Collector remains pending, the High Court will not decide the dispute on merits and will relegate the consumer to an application before the Executive Engineer under clause 6.5 of the Electricity Supply Code, 2005, with a direction to consider and decide that application within two weeks of production of a certified copy of the order.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the recovery citation related to a connection standing in the petitioners' names",
+      "note": "Asserted by the petitioners; not examined on merits",
+      "paras": "1"
+    },
+    {
+      "point": "Merits of the pending Collector objection and whether recovery should be stayed or quashed",
+      "note": "Court neither decided the Collector objection nor stayed recovery",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
