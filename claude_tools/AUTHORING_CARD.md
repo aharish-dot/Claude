@@ -132,5 +132,5 @@ principle_tag: `{"tag":"load-reduction-stands-approved-on-licensee-decision","ap
 ## Provenance (every commit you make)
 ```
 Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>
-Claude-Session: https://claude.ai/code/session_011t8CKvMGHwszG3pZEexUw5
+Claude-Session: https://claude.ai/code/session_01FPhAi1amQo6vBtPTXVG2Zt
 ```
