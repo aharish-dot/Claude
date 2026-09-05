@@ -1,0 +1,38 @@
+{
+  "case_id": "SCJ-1316",
+  "title": "Stay of PLA independent-feeder direction; rural-line connection if requested",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Shri Narayan Shukla, J.",
+  "date_of_judgment": "2015-02-23",
+  "date_display": "23 February 2015",
+  "docket": "Writ-C No. 10475 of 2015",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "pending",
+  "model": "Grok 4.6",
+  "disposition": "Stay of PLA independent-feeder order; rural-line connection if requested",
+  "headnote": "On the discom's challenge to a Permanent Lok Adalat direction to release an independent-feeder connection, the High Court stayed that order on the contention that Supply Code clause 3.4(a) and (b) confines independent feeders to plant load of 1000 kVA or more. If the consumer is willing to take supply on the rural line, he may request it and the department is free to grant that connection. The writ remains pending.",
+  "facts": "Madhyanchal Vidyut Vitran Nigam Ltd. challenged a Permanent Lok Adalat order of 31 October 2014 directing an independent-feeder electricity connection for the consumer. The discom submitted that clause 3.4(a) and (b) of the U.P. Electricity Supply Code, 2005 allows an independent feeder only for plant load of 1000 kVA or more, the consumer's load being below 500 kVA, and that it was ready to supply on the normal rural line. The writ remained pending; in 2017 a last opportunity was given to file a rejoinder.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::3.4",
+      "code": "UP-2005",
+      "clause": "3.4(a)-(b)",
+      "topic": "independent feeder",
+      "type": "supply_code",
+      "holding": "Operation of the Permanent Lok Adalat's direction requiring the discom to give the consumer an independent-feeder connection is stayed. If the consumer is ready to take supply through the rural electricity line, he may request it and the department shall be free to grant that connection. Notice issued; writ listed.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether clause 3.4(a) and (b) of the Supply Code precludes an independent feeder where the consumer's load is below 500 kVA",
+      "note": "Stay granted on the discom's prima facie submission; merits of the writ remain open.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
