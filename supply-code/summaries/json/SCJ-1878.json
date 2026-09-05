@@ -1,0 +1,52 @@
+{
+  "case_id": "SCJ-1878",
+  "title": "Meenu Gupta v. State of U.P.",
+  "neutral_citation": "WRIT - C No. 3872 of 2018",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J.; Shailendra Kumar Agrawal, J.",
+  "date_of_judgment": "2018-01-31",
+  "date_display": "31 January 2018",
+  "docket": "WRIT - C No. 3872 of 2018",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; recovery citation quashed; fresh provisional assessment directed.",
+  "headnote": "A theft-case provisional assessment notice that neither fixes a date of hearing nor discloses the basis of the assessed amount does not afford the opportunity required by para 6.8(b) of the U.P. Electricity Supply Code, 2005. A recovery citation issued on such a notice, without a final assessment considering the consumer's pending objection, is quashed. The licensee must serve a fresh provisional assessment and pass a reasoned final assessment after considering objections, following Ashok Kumar.",
+  "facts": "After a vigilance inspection, an FIR dated 28 October 2017 was lodged against the petitioner under Section 135A of the Electricity Act for running a guest house. A provisional assessment of Rs.21,73,733 dated 28 October 2017 followed. The petitioner objected on 25 November 2017. Without a final assessment, a demand dated 7 December 2017 for Rs.14,89,071 and a recovery citation dated 12/15 January 2018 were issued. The petitioner sought quashing of the citation, saying the objection remained pending and the provisional notice fixed no hearing date.",
+  "reusable_constructions": [
+    {
+      "construction": "A provisional assessment notice in a theft case must specify a date of hearing so the consumer can appear; a notice that does not is not in accordance with para 6.8(b) of the U.P. Electricity Supply Code, 2005.",
+      "paras": "1"
+    },
+    {
+      "construction": "A provisional assessment notice must also disclose the basis on which the assessed amount was computed; silence on the basis, together with no hearing date, denies the adequate opportunity para 6.8(b) requires.",
+      "paras": "1"
+    },
+    {
+      "construction": "Where the provisional assessment itself is unlawful, a recovery citation founded on a later demand issued without a final assessment considering the consumer's pending objection is liable to be quashed, with a direction to issue a fresh provisional assessment and a reasoned final assessment after considering objections.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "UP-2005",
+      "clause": "6.8(b)",
+      "topic": "theft provisional assessment — hearing date and basis of demand",
+      "type": "supply_code",
+      "holding": "A provisional assessment notice in a theft case that does not specify a date of hearing and does not disclose the basis of the assessed amount is not in accordance with para 6.8(b) of the U.P. Electricity Supply Code, 2005, and does not afford adequate opportunity. Recovery citation issued on such a notice, without a final assessment considering the consumer's pending objection, is quashed. The licensee must prepare and serve a fresh provisional assessment; the final assessment shall be made after considering the objection and giving reasons, in the light of Ashok Kumar.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008(6) ADJ 660 (DB)",
+      "cited_by": "1"
+    }
+  ]
+}
