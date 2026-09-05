@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1945,
+  "next_seq": 1946,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -11650,6 +11650,12 @@
       "case_id": "SCJ-1942",
       "source_basename": "CAPL(A)_4331_2019.pdf",
       "title": "Bhagwant Saran v. Mudit Tiwari, Executive Engineer",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1941",
+      "source_basename": "CAPL(A)_4103_2019.pdf",
+      "title": "Smt. Santosh Kumari v. Sri Avaneesh Pratap Singh",
       "status": "done"
     }
   ]
