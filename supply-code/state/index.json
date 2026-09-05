@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1284,
+  "next_seq": 1285,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -7684,6 +7684,12 @@
       "case_id": "SCJ-1280",
       "source_basename": "WRIC(A)_63216_2014.pdf",
       "title": "Chandra Shekhar Tiwari v. U.P. Power Corporation",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1282",
+      "source_basename": "WRIC(A)_63542_2014.pdf",
+      "title": "Sudesh Mishra v. State of U.P. & Ors.",
       "status": "done"
     }
   ]
