@@ -1,0 +1,58 @@
+{
+  "case_id": "SCJ-1446",
+  "title": "Arjun Kumar v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J.; Prashant Kumar, J.",
+  "date_of_judgment": "2016-05-23",
+  "date_display": "23 May 2016",
+  "docket": "Writ-C No. 19417 of 2016",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; notice and recovery citation quashed.",
+  "headnote": "A provisional assessment notice under clause 6.8(b) of the U.P. Electricity Supply Code, 2005 must itself fix a date for hearing and disclose the basis of the amount demanded. A notice that does neither is not in accordance with law and does not afford the consumer adequate opportunity. The High Court quashed the 24 February 2016 notice and the 11 January 2016 recovery citation, and directed a fresh provisional assessment and a reasoned final order after considering the consumer's objections.",
+  "facts": "Arjun Kumar challenged recovery of alleged electricity arrears after a recovery citation dated 11 January 2016 and a provisional assessment notice dated 24 February 2016 demanding Rs. 79,542. He said he never received the notice, could not file a reply, and the licensee treated the assessment as final. After a short stay of coercive process, the Division Bench examined the notice against clause 6.8(b) of the U.P. Electricity Supply Code, 2005. Counsel argued that the notice had to fix a hearing date and state the basis of assessment; neither appeared.",
+  "reusable_constructions": [
+    {
+      "construction": "Clause 6.8(b) requires the provisional assessment notice itself to specify a date of hearing; a notice that omits that date is not in accordance with the Code.",
+      "paras": "1"
+    },
+    {
+      "construction": "A provisional assessment notice must disclose the basis of the amount demanded; a bare demand without that basis is defective under the Code.",
+      "paras": "1"
+    },
+    {
+      "construction": "Where the 6.8(b) notice is itself unlawful, the consumer has not been afforded adequate opportunity; the notice and any recovery citation founded on it are liable to be quashed, with a direction to issue a fresh provisional assessment and a reasoned final order after objections.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "UP-2005",
+      "clause": "6.8(b)",
+      "topic": "provisional assessment notice — hearing date and basis",
+      "type": "supply_code",
+      "holding": "A provisional assessment notice under clause 6.8(b) of the U.P. Electricity Supply Code, 2005 must indicate a date for hearing and the basis of the assessment. The Court found that the notice specified neither a hearing date nor the basis of the demand of Rs. 79,542, so it was not in accordance with law and the consumer was not afforded adequate opportunity under para 6.8(b). The notice dated 24 February 2016 and the recovery citation dated 11 January 2016 were quashed. The licensee was directed to prepare and serve a fresh provisional assessment within 15 days and to pass a reasoned final assessment after considering the consumer's objections, in the light of Ashok Kumar.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Merits of the alleged assessment and the quantum of Rs. 79,542",
+      "note": "Quashed for defective notice; licensee directed to issue a fresh provisional assessment and a reasoned final order after objections.",
+      "paras": "1"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008 (6) ADJ 660 (DB)",
+      "cited_by": "1"
+    }
+  ]
+}
