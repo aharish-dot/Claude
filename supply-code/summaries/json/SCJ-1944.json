@@ -1,0 +1,62 @@
+{
+  "case_id": "SCJ-1944",
+  "title": "Smt. Saroj Devi v. Sri Gaurav Kumar, Executive Engineer, KESKO",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": ["Mahesh Chandra Tripathi, J."],
+  "date_of_judgment": "2019-10-18",
+  "date_display": "18 October 2019",
+  "docket": "Contempt Application (Civil) No. 6782 of 2019",
+  "page_count": 2,
+  "significance": "procedural",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Prima facie contempt of the 12.09.2018 clause 6.5 consideration order; one more opportunity to comply within three weeks; application disposed with liberty to move afresh.",
+  "headnote": "Civil contempt of a writ direction relegating a Kutir Jyoti non-connection and recovery-citation dispute to the Executive Engineer under clause 6.5 of the U.P. Electricity Supply Code, 2005. Prima facie contempt was found, but one further opportunity of three weeks was given to comply, and the application was disposed of with liberty to revive if the 6.5 consideration remained undone.",
+  "facts": "The applicant claimed Kutir Jyoti Yojna eligibility (1997) for a BPL/SC/ST connection up to 2 kW, with charges borne by the State. Cards were issued but, she said, no connection was given; a 2003 bill of Rs. 5,461 and later a recovery citation of Rs. 68,243 followed. The writ court on 12.09.2018 sent her to the Executive Engineer under clause 6.5 of the U.P. Electricity Supply Code, 2005 and stayed coercive action for a month. She brought this civil contempt alleging the Executive Engineer, KESKO, had not complied.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "billing-objection-to-executive-engineer-under-6.5",
+      "type": "supply_code",
+      "holding": "Non-compliance with a writ direction that the Executive Engineer consider a consumer's application under clause 6.5 and pass orders in accordance with law can found a prima facie case of civil contempt. The Court nonetheless granted three further weeks to comply and to intimate the applicant, and disposed of the contempt with liberty to move afresh if the clause 6.5 consideration remained undone. The merits of the Kutir Jyoti connection and Rs. 68,243 recovery citation stay with that 6.5 determination; the 12.09.2018 writ had already declined to try those facts.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "billing-objection-to-executive-engineer-under-6.5",
+      "application": "The 12.09.2018 writ order enforced in this contempt sent the Kutir Jyoti non-connection and recovery-citation dispute to the Executive Engineer under clause 6.5 rather than deciding those facts in writ.",
+      "lead_authorities": [
+        {
+          "name": "Smt. Saroj Devi v. State of U.P. (Writ Petition No. 30908 of 2018, 12.09.2018)",
+          "docid": null
+        }
+      ],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether a Kutir Jyoti connection was given and whether the 2003 bill and Rs. 68,243 recovery citation are payable",
+      "note": "Left to the Executive Engineer under clause 6.5; this contempt order does not decide the bill.",
+      "paras": "1"
+    },
+    {
+      "point": "Punishment for civil contempt",
+      "note": "Prima facie case recorded, but the application was disposed of with a further three-week opportunity to comply and liberty to move afresh.",
+      "paras": "1"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Smt. Saroj Devi v. State of U.P.",
+      "citation": "Writ Petition No. 30908 of 2018, order dated 12.09.2018",
+      "cited_by": "1",
+      "proposition": "Questions of fact on the Kutir Jyoti connection and bills are for the Executive Engineer under paragraph 6.5 of the U.P. Electricity Supply Code, 2005; coercive action on the recovery citation stayed for one month."
+    }
+  ]
+}
