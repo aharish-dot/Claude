@@ -1,0 +1,43 @@
+{
+  "case_id": "SCJ-1797",
+  "title": "Matloob v. Managing Director, Paschimanchal Vidyut Vitran Nigam Ltd.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Abhinava Upadhya and Saral Srivastava, JJ.",
+  "date_of_judgment": "2018-06-26",
+  "date_display": "26 June 2018",
+  "docket": "WRIT - C No. - 22089 of 2018",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; assessment appeal under cl. 6.5.14 is the remedy",
+  "headnote": "On a finding of meter tampering, PVVNL assessed the petitioner Rs. 10,92,515. He accepted the demand and sought only instalments in writ. Held, the remedy against the assessment is an appeal under Clause 6.5.14 of the Electricity Supply Code, 2005 (cited as Clause 651.14). No interference.",
+  "facts": "Paschimanchal Vidyut Vitran Nigam assessed Matloob Rs. 10,92,515 after finding that his electricity meter had been tampered. He did not dispute the finding or the quantum. He accepted the liability and was ready to pay, but approached the High Court in a writ petition only so that the demand might be recovered in instalments.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5.14",
+      "code": "UP-2005",
+      "clause": "6.5.14",
+      "topic": "appeal against assessment; alternate remedy",
+      "type": "supply_code",
+      "holding": "Where an assessment is raised on a finding that the electricity meter was tampered, a consumer who accepts the liability and seeks only to pay in instalments still has a statutory appeal against the assessment under Clause 6.5.14 of the Electricity Supply Code, 2005; the writ court will not interfere.",
+      "paras": "1",
+      "flag": "Court cited 'Clause 651.14' of the Electricity Supply Code, 2005; read as 6.5.14 (assessment appeal). Meter tampering may engage cl. 6.8 (theft) rather than cl. 6.5 (unauthorized use); not classified. The writ (Writ-C 22089/2018) is dismissed in terms calling it 'the appeal'."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the accepted assessment could be directed to be paid in instalments",
+      "paras": "1"
+    },
+    {
+      "point": "Whether meter tampering is unauthorized use (cl. 6.5) or theft (cl. 6.8)",
+      "note": "Court cited cl. 651.14 without classifying the assessment.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
