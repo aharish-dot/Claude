@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1319,
+  "next_seq": 1320,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -7894,6 +7894,12 @@
       "case_id": "SCJ-1316",
       "source_basename": "WRIC(A)_10475_2015.pdf",
       "title": "Stay of PLA independent-feeder direction; rural-line connection if requested",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1315",
+      "source_basename": "CRLP(A)_8552_2015.pdf",
+      "title": "Vijay v. State of U.P. (s.135 FIR; compounding and arrest)",
       "status": "done"
     }
   ]
