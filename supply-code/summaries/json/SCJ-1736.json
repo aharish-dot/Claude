@@ -1,0 +1,55 @@
+{
+  "case_id": "SCJ-1736",
+  "title": "Ravi Prakash Tiwari v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J.; Ajay Bhanot, J.",
+  "date_of_judgment": "2018-03-28",
+  "date_display": "28 March 2018",
+  "docket": "WRIT - C No. 10789 of 2018",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Demand notice quashed; final assessment after objections within six weeks.",
+  "headnote": "A provisional assessment notice under Clause 6.8(b) of the U.P. Electricity Supply Code, 2005 must specify a date and time for hearing and disclose the basis of the assessed amount. Where the notice does neither, the consumer is not afforded the opportunity the Code requires. Demand of Rs.6,17,752 dated 15.03.2018 quashed; a reasoned final assessment to follow within six weeks after considering objections, applying Ashok Kumar (2008 (6) ADJ 660).",
+  "facts": "Ravi Prakash Tiwari challenged a demand notice dated 15 March 2018 for Rs.6,17,752 issued after a provisional assessment was treated as final and a recovery certificate drawn. He said he never received the provisional assessment notice and so could not reply, and undertook to file objections within two weeks. The High Court examined the provisional assessment itself and found that it neither disclosed the basis of the assessed amount nor specified any date and time for hearing.",
+  "reusable_constructions": [
+    {
+      "construction": "A provisional assessment notice under Clause 6.8(b) of the U.P. Electricity Supply Code, 2005 must itself fix a date and time for hearing; omission of that fixture is not in accordance with law.",
+      "paras": "4-8"
+    },
+    {
+      "construction": "A theft-assessment demand is liable to be quashed where the provisional notice neither states the basis of the assessed sum nor affords the Clause 6.8(b) hearing opportunity, with a reasoned final assessment to follow after objections.",
+      "paras": "7-9"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "UP-2005",
+      "clause": "6.8(b)",
+      "topic": "provisional assessment notice — date, time and basis",
+      "type": "supply_code",
+      "holding": "The provisional assessment notice did not indicate a date and time for hearing, as Clause 6.8(b)(1) of the U.P. Electricity Supply Code, 2005 requires, and did not give the basis on which the petitioner was assessed at Rs.6,17,752. The consumer was not afforded the adequate opportunity provided in para 6.8(b). The demand notice dated 15.03.2018 is quashed. Final assessment shall be made within six weeks after considering the petitioner's objections, giving reasons to meet those objections in the light of Ashok Kumar.",
+      "paras": "4-9",
+      "flag": "Court cited Clause 6.8(b)(1) for the date-and-time requirement and para 6.8(b) for opportunity of hearing."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Merits of the Rs.6,17,752 theft assessment",
+      "note": "Demand quashed for a defective provisional notice; assessing officer to make a reasoned final assessment after considering objections.",
+      "paras": "9"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008(6) ADJ 660 (DB)",
+      "cited_by": "6, 9"
+    }
+  ]
+}
