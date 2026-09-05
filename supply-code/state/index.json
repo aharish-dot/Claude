@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1282,
+  "next_seq": 1283,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -7672,6 +7672,12 @@
       "case_id": "SCJ-1278",
       "source_basename": "WRIC(A)_62272_2014.pdf",
       "title": "Om Prakash v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1279",
+      "source_basename": "WRIC(A)_62485_2014.pdf",
+      "title": "Ved Prakash v. State of U.P. — second writ against recovery citation dismissed after Clause 7.10 Ombudsman direction",
       "status": "done"
     }
   ]
