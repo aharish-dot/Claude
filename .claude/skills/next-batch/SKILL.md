@@ -1,6 +1,6 @@
 ---
 name: next-batch
-description: Process the next batch of Supply Code jurisprudence cases on branch claude/supply-code-jurisprudence-design-yiwgen. Use when the user says "next batch", "process the next batch", "run a batch", "continue the SCJ queue", or invokes /next-batch. Syncs the branch, then spawns a background Opus worker that authors, validates, and pushes N cases and reports back only the token ledger. Default batch size 6; the user may pass a number (e.g. /next-batch 8).
+description: Process the next batch of Supply Code jurisprudence cases on branch claude/supply-code-jurisprudence-design-yiwgen. Use when the user says "next batch", "process the next batch", "run a batch", "continue the SCJ queue", or invokes /next-batch. Syncs the branch, then spawns a background Opus worker that authors, validates, and pushes cases sized by a cumulative page budget (default ~75 source pages, cap 10 cases) and reports back only the token ledger. The user may pass a page budget (e.g. /next-batch 90) or a case cap (e.g. /next-batch cases=8).
 ---
 
 # next-batch — run one batch of the SCJ rich-authoring pipeline
@@ -9,10 +9,17 @@ Turns "next batch" into a running batch on this branch, with no case content in 
 chat. Read `claude_tools/AUTHORING_CARD.md` and `claude_tools/batch_worker_prompt.md`
 for the full mechanics; this skill is the launcher.
 
-## Batch size
-Use the number the user passed (e.g. `/next-batch 8`), else **default 6** (optimum
-range 5–8 — see the analysis in `claude_tools/README.md` / the handoff). Never exceed
-~10 (context-window + quality risk).
+## Batch size — PAGE BUDGET, not a fixed case count
+Cases vary 8→38pp, so a fixed case count swings token cost wildly. Size batches by a
+**cumulative source-page budget** with a case-count guardrail:
+- **Default: `{PAGE_BUDGET}` = 75 pages, `{MAX_CASES}` = 10** (min 1; the worker keeps
+  claiming until cumulative pages hit the budget or the case cap, always finishing the
+  case it started). With mostly <10pp cases this yields ~8–10 small cases; with big
+  order-sheets it stops after 2–3. This normalizes cost/batch and amortizes the fixed
+  one-time card read (~4.4k tok) over more cases.
+- **User overrides:** a bare number is a *page* budget now (`/next-batch 90` → 90pp);
+  `/next-batch cases=8` sets a hard case cap with the default page budget; the user may
+  also give both. Keep `{MAX_CASES}` ≤ ~12 (context-window + quality risk).
 
 ## Steps for the session
 1. **Sync & verify** (one bash call), and STOP if anything is wrong:
@@ -30,10 +37,10 @@ range 5–8 — see the analysis in `claude_tools/README.md` / the handoff). Nev
    cases remain → tell the user the NEW queue is drained and ask before touching the
    `upgrade` bucket (upgrades are deferred to the end by user directive).
 2. **Spawn ONE background Opus worker.** Read `claude_tools/batch_worker_prompt.md`,
-   substitute `{N}` with the batch size and `{SESSION_URL}` with THIS session's
-   `Claude-Session` URL (from the current attribution guidance — not a hardcoded one),
-   and launch a `general-purpose` agent with `model: opus`, run in background. Do not
-   author cases in the main window.
+   substitute `{PAGE_BUDGET}` and `{MAX_CASES}` (see Batch size above) and `{SESSION_URL}`
+   with THIS session's `Claude-Session` URL (from the current attribution guidance — not a
+   hardcoded one), and launch a `general-purpose` agent with `model: opus`, run in
+   background. Do not author cases in the main window.
 3. **Wait for the completion notification.** Then relay to the user ONLY: the per-case
    status table (CID · pages · gate · push · ≤120-char disposition) and the tok_meter
    ledger for the batch. No extract/JSON/headnote text. Surface any blocker the worker
