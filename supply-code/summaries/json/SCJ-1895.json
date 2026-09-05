@@ -1,0 +1,39 @@
+{
+  "case_id": "SCJ-1895",
+  "title": "Jhanni v. State of U.P. & Ors.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta, J.; Manju Rani Chauhan, J.",
+  "date_of_judgment": "2018-12-13",
+  "date_display": "13 December 2018",
+  "docket": "WRIT - C No. 41093 of 2018",
+  "page_count": 2,
+  "significance": "procedural",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; fresh representation to be decided after s.161 report.",
+  "headnote": "Widow sought mandamus for compensation after her husband died of electrocution and her 2016 application was not decided. Without examining merits, the Division Bench disposed of the writ by permitting a fresh representation: the concerned authority is to send a Section 161 report with the papers to the Executive Engineer, who must decide by a speaking order after hearing, in accordance with law.",
+  "facts": "The petitioner's husband, Sampat Ram, died on 16 May 2016 of electrical injuries from a high-voltage wire alleged to have been hanging very low. The incident was recorded in the police general diary and a post-mortem was conducted. The widow applied to the electricity authority on 12 September 2016 for compensation, enclosing the required documents. Neither compensation nor a decision followed. She sought a mandamus for payment and for disposal of that application; counsel later confined the prayer to a time-bound fresh representation.",
+  "holding_units": [
+    {
+      "provision": "EA2003::161",
+      "code": "EA2003",
+      "clause": "161",
+      "topic": "electrical accident inquiry and compensation representation",
+      "type": "electricity_act",
+      "holding": "Without expressing any opinion on merits, a writ seeking compensation for electrocution death is disposed of by directing a fresh representation; the concerned authority shall submit a report as provided under Section 161, together with the representation, to the Executive Engineer, who shall decide the claim by a speaking order after hearing, in accordance with law.",
+      "paras": "1",
+      "flag": "Order cites 'Section 161 of the Electricity Supply Code, 2005'; Section 161 is of the Electricity Act, 2003 (notice of accidents and inquiries), not the Supply Code."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Entitlement to compensation for the electrocution death of Sampat Ram",
+      "note": "Court expressly declined to examine merits.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
