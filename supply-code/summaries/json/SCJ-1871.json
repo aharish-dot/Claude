@@ -1,0 +1,39 @@
+{
+  "case_id": "SCJ-1871",
+  "title": "Gyani Singh v. State of U.P. and Another",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "B. Amit Sthalekar, J.; Rajiv Joshi, J.",
+  "date_of_judgment": "2018-10-30",
+  "date_display": "30 October 2018",
+  "docket": "WRIT - C No. 35997 of 2018",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; petitioner relegated to objection under Part 6.8.",
+  "headnote": "A writ seeking a direction to decide a representation against a theft-of-electricity notice, and raising a discrepancy between the inspection dates in the notice and the FIR, was dismissed. The discrepancy is for the Executive Engineer to decide; the consumer’s remedy is to file an objection under Part 6.8 of the U.P. Electricity Supply Code, 2005.",
+  "facts": "Gyani Singh, a consumer at Aligarh, filed a writ seeking a direction to the Executive Engineer, Electricity Distribution Division-I, Southern Electricity Distribution Corporation Limited, Aligarh, to decide his representation dated 27 June 2017 against a 17 October 2016 notice alleging theft of electricity. He contended that the notice recorded the inspection date as 19 September 2016, whereas the FIR recorded 17 September 2016. The Division Bench heard counsel for the petitioner, the distribution licensee, and the State.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8",
+      "code": "UP-2005",
+      "clause": "6.8",
+      "topic": "theft-notice-alternate-remedy-objection",
+      "type": "supply_code",
+      "holding": "A discrepancy between the inspection date in a theft-of-electricity notice and that in the FIR is for the Executive Engineer to decide. The petitioner’s remedy is to file an objection under Part 6.8 of the U.P. Electricity Supply Code, 2005; a writ to compel decision of a representation is not entertained when that objection is available.",
+      "paras": "1",
+      "flag": "Court applied Part 6.8 (UUE objection procedure) to a theft-of-electricity notice; catalog hit clause-8.1-8.2-govern-theft-assessment-not-6.8. Clause number not silently corrected."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Merits of the theft allegation and which inspection date (17.09.2016 or 19.09.2016) is correct",
+      "note": "Left to the Executive Engineer on an objection under Part 6.8.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
