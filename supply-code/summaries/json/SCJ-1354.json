@@ -1,0 +1,60 @@
+{
+  "case_id": "SCJ-1354",
+  "title": "Bahabuddin @ Raju v. Pashchimanchal Vidyut Vitran Nigam Ltd.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J.; Amar Singh Chauhan, J.",
+  "date_of_judgment": "2015-08-18",
+  "date_display": "18 August 2015",
+  "docket": "Writ-C No. 41326 of 2015",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; notice and recovery citation quashed",
+  "headnote": "A provisional assessment notice under Clause 6.8(b) of the U.P. Electricity Supply Code, 2005 must itself fix a date for hearing and disclose the basis of the assessed amount. A notice that does neither, and a recovery citation treated as final in the consumer's absence, are not in accordance with law. Notice dated 7.6.2014 assessing Rs 6,22,106 and recovery citation dated 15.6.2015 quashed; licensee directed to issue a fresh provisional assessment and a reasoned final order after considering objections (Ashok Kumar, 2008(6) ADJ 660 (DB) followed).",
+  "facts": "The petitioners challenged a provisional assessment notice dated 7 June 2014 demanding Rs 6,22,106 and a recovery citation dated 15 June 2015 issued by Pashchimanchal Vidyut Vitran Nigam Ltd. Licensee's counsel produced instructions showing the notice had been sent by ordinary post. The petitioners said they never received it, could not reply, and the assessment was treated as final. They relied on Clause 6.8(b)(1) of the U.P. Electricity Supply Code, 2005, under which the notice itself must fix a date for hearing.",
+  "reusable_constructions": [
+    {
+      "construction": "Clause 6.8(b) of the U.P. Electricity Supply Code, 2005 requires the provisional assessment notice itself to fix a date on which the consumer may appear for hearing; a notice that omits that date is not in accordance with law.",
+      "paras": "3-4,6-7"
+    },
+    {
+      "construction": "A provisional assessment notice that does not disclose the basis of the sum demanded, together with omission of a hearing date, fails to afford the opportunity required by Clause 6.8(b); the notice and any recovery citation founded on it are liable to be quashed, with a direction to issue a fresh provisional assessment and a reasoned final order after considering objections.",
+      "paras": "6-7"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "UP-2005",
+      "clause": "6.8(b)",
+      "topic": "provisional assessment notice — hearing date and basis of demand",
+      "type": "supply_code",
+      "holding": "Where the provisional assessment notice neither indicates a date for hearing as required by Clause 6.8(b)(1) nor gives the basis on which the consumer was assessed, the consumer is not afforded the opportunity provided in Clause 6.8(b). The notice and the recovery citation issued on it are liable to be quashed, and the licensee must prepare a fresh provisional assessment, serve it, and pass a reasoned final assessment after considering the consumer's objections.",
+      "paras": "4-7"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.8-hearing-procedure-mandatory-before-uue-conclusion",
+      "application": "A UUE provisional assessment notice that specified no hearing date, and a recovery citation treated as final without a reply, were quashed for want of the Clause 6.8(b) opportunity.",
+      "lead_authorities": [
+        {
+          "name": "Ashok Kumar v. State of U.P.",
+          "docid": "2008(6) ADJ 660"
+        }
+      ],
+      "paras": "5-7"
+    }
+  ],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008(6) ADJ 660 (DB)",
+      "cited_by": "5,7"
+    }
+  ]
+}
