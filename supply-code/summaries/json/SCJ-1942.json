@@ -1,0 +1,38 @@
+{
+  "case_id": "SCJ-1942",
+  "title": "Bhagwant Saran v. Mudit Tiwari, Executive Engineer",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Mahesh Chandra Tripathi, J.",
+  "date_of_judgment": "2019-09-12",
+  "date_display": "12 September 2019",
+  "docket": "Contempt Application (Civil) No. 4331 of 2019",
+  "page_count": 3,
+  "significance": "procedural",
+  "outcome": "none",
+  "model": "Grok 4.6",
+  "disposition": "Contempt disposed of after reported 6.5 compliance.",
+  "headnote": "Civil contempt of a writ order that had required the consumer to apply under clause 6.5 of the Electricity Supply Code, 2005 for correction of the electricity bill. On the licensee’s statement that the writ order had been complied with and a rectified bill issued, the High Court held that nothing further survived and disposed of the contempt application, leaving the consumer to the appropriate forum if still aggrieved of the bill.",
+  "facts": "Bhagwant Saran filed a civil contempt application alleging that the Executive Engineer had flouted the High Court’s order dated 6 May 2019 in Writ-C No. 15536 of 2019. That order had asked him to apply for correction of his electricity bill under clause 6.5 of the Electricity Supply Code, 2005. Counsel said the order was never complied with and a current bill was issued adding the previous amount. The opposite party later reported that the writ order had been complied with and a rectified bill issued.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "bill-correction",
+      "type": "supply_code",
+      "holding": "A civil contempt application alleging non-compliance with a writ order that required the consumer to apply under clause 6.5 of the Electricity Supply Code, 2005 for correction of the electricity bill does not survive once the licensee reports that the writ order has been complied with and a rectified bill issued. If the consumer remains aggrieved of the bill, the remedy is the appropriate forum, not continued contempt.",
+      "paras": "3"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Correctness of the rectified bill under clause 6.5",
+      "note": "The Court accepted the licensee’s statement of compliance without examining the bill; the consumer was left to the appropriate forum if still aggrieved.",
+      "paras": "3"
+    }
+  ],
+  "authorities": []
+}
