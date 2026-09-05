@@ -1,0 +1,52 @@
+{
+  "case_id": "SCJ-1356",
+  "title": "Surya Narayan v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Rakesh Tiwari, J.; Vivek Kumar Birla, J.",
+  "date_of_judgment": "2015-08-13",
+  "date_display": "13 August 2015",
+  "docket": "Writ - C No. 45328 of 2015",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Petition disposed; EE to decide representation in 15 days, then CGRF if aggrieved.",
+  "headnote": "Domestic consumer challenged unadjusted deposit against a later bill and an unverified load enhancement; representation pending. Licensee pleaded CGRF under clause 7.10 and bill-accuracy under clause 6.5. Held: clause 7.10(ii)–(iii) require the licensee to decide the complaint first; CGRF lies only thereafter. A licensee that has not decided a pending representation cannot plead CGRF. Deposit-adjustment is not a clause 6.5 inaccuracy dispute. Executive Engineer directed to decide the 6.7.2015 representation within 15 days; CGRF if still aggrieved.",
+  "facts": "Surya Narayan held a 1 kW domestic connection at Pipri, Sonbhadra. Purvanchal Vidyut Vitran Nigam enhanced the load to 2 kW without verification. A citation dated 25 May 2015 sought recovery of Rs 25,027 plus charges; he deposited Rs 27,530 on 2 June 2015. Without adjusting that deposit, a bill dated 3 July 2015 for Rs 53,835 covering 31 March to 31 May 2015 followed. His representation of 6 July 2015 was still pending. The licensee pleaded clause 7.10 (CGRF) and clause 6.5 (bill accuracy).",
+  "reusable_constructions": [
+    {
+      "construction": "Clause 7.10 is sequential: the licensee must first decide the consumer's complaint; CGRF lies only if the licensee fails to settle within the Code time limits or the consumer is dissatisfied with that decision.",
+      "paras": "1"
+    },
+    {
+      "construction": "A licensee that has not decided a pending consumer representation cannot plead the Consumer Grievance Redressal Forum under clause 7.10 as an alternative remedy.",
+      "paras": "1"
+    },
+    {
+      "construction": "Non-adjustment of an amount already deposited against a subsequent electricity bill is not a clause 6.5 dispute as to accuracy of the bill.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::7.10",
+      "code": "UP-2005",
+      "clause": "7.10",
+      "topic": "CGRF sequential after licensee decides complaint",
+      "type": "supply_code",
+      "holding": "Clause 7.10(ii)–(iii) require the licensee to decide a consumer's complaint first. Only if the licensee fails to settle within the Code time limits, or the consumer is dissatisfied with that decision, may the consumer approach CGRF. Where no order has been passed on a pending representation, the licensee cannot plead CGRF as an alternative remedy. Non-adjustment of Rs 27,530 already deposited against a later bill is not a clause 6.5 inaccuracy dispute. Executive Engineer, PuVVNL, Pipri directed to decide the representation dated 6.7.2015 within 15 days; if still aggrieved, the petitioner may then move CGRF under clause 7.10.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Validity of load enhancement from 1 kW to 2 kW, and correctness of the Rs 53,835 bill after the Rs 27,530 deposit",
+      "note": "Left to the Executive Engineer on the pending representation; CGRF available thereafter if still aggrieved",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
