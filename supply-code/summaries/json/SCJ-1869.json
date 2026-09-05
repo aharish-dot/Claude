@@ -1,0 +1,58 @@
+{
+  "case_id": "SCJ-1869",
+  "title": "Sahabuddin v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J.; Ajay Bhanot, J.",
+  "date_of_judgment": "2018-01-29",
+  "date_display": "29 January 2018",
+  "docket": "WRIT - C No. 3594 of 2018",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; provisional assessment notice and recovery citation quashed; fresh assessment directed.",
+  "headnote": "A Division Bench of the Allahabad High Court quashed a provisional assessment notice and the ensuing recovery citation because the notice neither specified date, time and place of hearing as required by Clause 6.8(b) of the U.P. Electricity Supply Code, 2005, nor disclosed the basis of the assessed sum of Rs.1,13,624. The licensee was directed to issue a fresh provisional assessment, consider the consumer's objections after hearing, and pass a reasoned final order in light of Ashok Kumar.",
+  "facts": "Sahabuddin challenged a provisional assessment notice dated 22 September 2017 and a recovery citation dated 13 November 2017 for Rs.1,13,624. The petitioner said the notice was never received and came to light only on recovery, so no reply could be filed and the assessment was treated as final. Counsel relied on Clause 6.8(b)(1) of the U.P. Electricity Supply Code, 2005, arguing the notice had to fix a date of hearing. On its face the notice specified neither date, time or place of hearing nor the basis of the assessed amount.",
+  "reusable_constructions": [
+    {
+      "construction": "A provisional assessment notice under Clause 6.8(b) of the U.P. Electricity Supply Code, 2005 must itself indicate the date, time and place of hearing; omission of those particulars means the notice is not in accordance with law and the consumer has not been afforded the opportunity the clause requires.",
+      "paras": "3-4,7"
+    },
+    {
+      "construction": "A provisional assessment notice that does not disclose the basis on which the consumer was assessed is defective; the notice and any recovery citation founded on it are liable to be quashed, with a fresh provisional assessment to follow.",
+      "paras": "6-8"
+    },
+    {
+      "construction": "After a defective provisional assessment is set aside, final assessment may be made only after serving a fresh provisional order, considering the consumer's objections, granting a hearing, and giving reasons that meet those objections, as explained in Ashok Kumar.",
+      "paras": "5,8"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "UP-2005",
+      "clause": "6.8(b)",
+      "topic": "provisional assessment notice — hearing particulars and basis of demand",
+      "type": "supply_code",
+      "holding": "Clause 6.8(b) of the U.P. Electricity Supply Code, 2005 requires the licensee, when issuing a provisional assessment notice, to fix in the notice itself a date, time and place of hearing and to disclose the basis of the assessed amount. A notice dated 22.9.2017 that indicated neither hearing particulars nor the basis of a demand of Rs.1,13,624 was not in accordance with law, so the consumer was not afforded the opportunity Clause 6.8(b) provides. The notice and the recovery citation dated 13.11.2017 were quashed. The respondents were directed to prepare and serve a fresh provisional assessment and to pass a reasoned final order after considering objections and granting a hearing, in the light of Ashok Kumar (paras 56–64) on Supply Code, 2005 assessment procedure in theft cases.",
+      "paras": "3-8"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Correctness of the assessed sum of Rs.1,13,624 and whether unauthorized use or theft was made out on the facts",
+      "note": "The Court quashed the notice for procedural defect and remitted for a fresh provisional assessment; it did not examine the merits of the demand.",
+      "paras": "6-8"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar & Ors. v. State of U.P. & Ors.",
+      "citation": "2008 (6) ADJ 660 (DB)",
+      "cited_by": "5,8"
+    }
+  ]
+}
