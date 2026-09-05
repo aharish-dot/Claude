@@ -1,0 +1,53 @@
+{
+  "case_id": "SCJ-1329",
+  "title": "Swati Kakkar v. Paschimanchal Vidyut Vitran Nigam Limited And Another",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sudhir Agarwal, J.; Shashi Kant, J.",
+  "date_of_judgment": "2018-02-26",
+  "date_display": "26 February 2018",
+  "docket": "Writ-C No. 18103 of 2015",
+  "page_count": 5,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition dismissed for non-exhaustion of Clauses 6.5 and 6.8 and CGRF/Ombudsman remedies.",
+  "headnote": "A consumer who has received an assessment bill cannot maintain a writ without first disputing the bill under Clause 6.5 of the U.P. Electricity Supply Code, 2005, or, if the grievance is a wrong assessment, under Clause 6.8, and thereafter the statutory appeal, District Consumer Grievance Redressal Forum and Ombudsman. The petition was dismissed as misconceived on the ground of alternative remedy.",
+  "facts": "Swati Kakkar petitioned the Allahabad High Court against an assessment bill raised by Paschimanchal Vidyut Vitran Nigam Limited. On 2 April 2015 a Division Bench directed restoration of her electricity connection within twenty-four hours; the licensee later reported compliance. She contended that the bill had been issued without a show-cause notice, citing Ashok Kumar v. State of U.P. 2008 (6) ADJ 660. On final hearing the Court found she had not disputed the bill before the Code authorities.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "alternative remedy for assessment bill",
+      "type": "supply_code",
+      "holding": "A writ challenging an assessment bill is not maintainable where the consumer has not first disputed the bill under Clause 6.5 of the U.P. Electricity Supply Code, 2005, and has also not availed the further remedies before the District Consumer Grievance Redressal Forum and the Ombudsman.",
+      "paras": "2-4"
+    },
+    {
+      "provision": "UP-2005::6.8",
+      "code": "UP-2005",
+      "clause": "6.8",
+      "topic": "wrong-assessment alternative remedy",
+      "type": "supply_code",
+      "holding": "If the grievance is a wrong assessment, Clause 6.8 of the Code and the appeal provided in assessment matters must be exhausted before a writ is entertained.",
+      "paras": "2-3"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the assessment bill was issued without show-cause notice in violation of natural justice",
+      "note": "Petition dismissed on alternative remedy without examining the Ashok Kumar contention or the merits of the assessment.",
+      "paras": "2-4"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008 (6) ADJ 660",
+      "cited_by": "order dated 27.10.2017 para 1"
+    }
+  ]
+}
