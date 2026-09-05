@@ -1,0 +1,59 @@
+{
+  "case_id": "SCJ-1438",
+  "title": "Om Pal Singh v. Chairman/Managing Director, U.P.P.C.L.",
+  "neutral_citation": "WRIT-C No. 17453 of 2016",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J.; Vinod Kumar Misra, J.",
+  "date_of_judgment": "2016-04-25",
+  "date_display": "25 April 2016",
+  "docket": "WRIT - C No. 17453 of 2016",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; recovery citation quashed; fresh final assessment after objections.",
+  "headnote": "A recovery citation founded on a provisional assessment notice under Clause 6.8(b) of the U.P. Electricity Supply Code, 2005 that neither specifies a date for hearing nor discloses the basis of the assessed amount is not in accordance with law. The consumer is not afforded the opportunity the clause requires. The Allahabad High Court quashed the citation and directed a reasoned final assessment within six weeks after considering the petitioner's objections, following Ashok Kumar.",
+  "facts": "Om Pal Singh challenged a recovery citation dated 1 December 2015 for Rs. 6,92,161 issued by U.P. Power Corporation Ltd., though the connection stood in his father's name. He said no proper provisional assessment or hearing had preceded recovery. The Corporation produced a provisional assessment notice. Counsel submitted that the notice specified no hearing date, so no reply was filed and the demand was treated as final. He undertook to object within two weeks and invoked Clause 6.8(b)(1) of the 2005 Supply Code.",
+  "reusable_constructions": [
+    {
+      "construction": "A provisional assessment notice under Clause 6.8(b) of the U.P. Electricity Supply Code, 2005 must itself specify a date for hearing so that the consumer can appear; a notice without a hearing date is not in accordance with law.",
+      "paras": "1"
+    },
+    {
+      "construction": "The same notice must also disclose the basis of the assessed amount. Absence of both a hearing date and the assessment basis means the consumer was not afforded the opportunity Clause 6.8(b) requires, and a recovery citation issued on that notice cannot stand.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "UP-2005",
+      "clause": "6.8(b)",
+      "topic": "provisional assessment notice — hearing date and basis",
+      "type": "supply_code",
+      "holding": "A provisional assessment notice under Clause 6.8(b) that neither specifies a date for hearing nor gives the basis of the assessed amount is not in accordance with law and does not afford the opportunity that clause requires. Recovery founded on such a notice is quashed; final assessment must follow after considering the consumer's objections with reasons. Counsel had invoked Clause 6.8(b)(1); the Court applied para 6.8(b).",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether dues on a connection standing in the father's name can be recovered from the petitioner",
+      "note": "Raised at the 20 April 2016 listing; not addressed in the disposing order.",
+      "paras": "1"
+    },
+    {
+      "point": "Correctness of the Rs. 6,92,161 assessment on the merits",
+      "note": "Remitted for a reasoned final assessment after considering objections.",
+      "paras": "1"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008 (6) ADJ 660 (DB)",
+      "cited_by": "1"
+    }
+  ]
+}
