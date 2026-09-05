@@ -1,0 +1,54 @@
+{
+  "case_id": "SCJ-1301",
+  "title": "Smt. Meena Verma v. State of U.P.",
+  "neutral_citation": "Crl. Misc. Writ Petition No. 15715 of 2015",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "V.K. Shukla and Vijay Prakash Pathak, JJ.",
+  "date_of_judgment": "2015-07-07",
+  "date_display": "7 July 2015",
+  "docket": "Crl. Misc. Writ Petition No. 15715 of 2015",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "s.135 FIR not quashed; CrPC 41-A on arrest; compounding via Code/s.152",
+  "headnote": "Writ to quash an FIR under Section 135 of the Electricity Act, 2003 refused: the FIR disclosed a cognizable offence. Arrest, if effected for an offence not entailing more than seven years' imprisonment, must comply with Section 41(1)(b) read with Section 41-A CrPC. Compounding, if available, is to be sought under the Electricity Supply Code, 2005 and Section 152 of the Act.",
+  "facts": "Smt. Meena Verma approached the Allahabad High Court to quash an FIR dated 15 May 2015, registered as Case Crime No. 491 of 2015 under Section 135 of the Electricity Act, 2003 at Police Station Kalyanpur, District Kanpur Nagar. She had not been arrested. Counsel argued that even if the charge were proved the sentence could not exceed seven years, so arrest should not be mechanical, and that the alleged offence was compoundable.",
+  "holding_units": [
+    {
+      "provision": "EA2003::135",
+      "code": "EA2003",
+      "clause": "135",
+      "topic": "FIR quash of theft prosecution",
+      "type": "electricity_act",
+      "holding": "An FIR under Section 135 of the Electricity Act, 2003 that discloses a cognizable offence will not be quashed in writ jurisdiction. Where arrest is contemplated and the offence will not entail a sentence of more than seven years, the police must comply with Section 41(1)(b) read with Section 41-A CrPC.",
+      "paras": "1"
+    },
+    {
+      "provision": "EA2003::152",
+      "code": "EA2003",
+      "clause": "152",
+      "topic": "compounding of s.135 offence",
+      "type": "interplay",
+      "holding": "If the alleged Section 135 offence is compoundable, the accused may seek compounding under the Electricity Supply Code, 2005 and Section 152 of the Electricity Act, 2003; the writ court does not itself compound the offence.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "s135-arrest-safeguards-and-compounding-remedy",
+      "application": "FIR quash refused on the cognizable-offence test; arrest, if at all, tied to CrPC 41(1)(b)/41-A because the s.135 sentence cannot exceed seven years; compounding left to the Supply Code, 2005 and s.152.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether compounding should be granted under the Supply Code, 2005 and s.152",
+      "note": "Court only pointed the petitioner to those remedies without examining eligibility or directing compounding.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
