@@ -1,0 +1,43 @@
+{
+  "case_id": "SCJ-1870",
+  "title": "Jamshed Ali v. State of U.P. and others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "B. Amit Sthalekar and Rajiv Joshi, JJ.",
+  "date_of_judgment": "2018-10-30",
+  "date_display": "30 October 2018",
+  "docket": "Writ-C No. 35996 of 2018",
+  "page_count": 1,
+  "significance": "procedural",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; objection under clause 6.8 directed; coercive recovery stayed pending decision.",
+  "headnote": "On a challenge to a recovery citation for electricity dues after permanent disconnection and a theft FIR, the Division Bench disposed of the writ by directing the consumer to file an objection under clause 6.8 of the U.P. Electricity Supply Code, 2005 before the Executive Engineer, to be decided within one month, and stayed coercive recovery in the meantime.",
+  "facts": "Jamshed Ali challenged a recovery citation dated 21 August 2018 seeking Rs 6,66,803 as electricity dues. A permanent disconnection had already been ordered, and an FIR alleging theft of electricity had been lodged against him on 20 March 2010. On 10 September 2018 the Executive Engineer, Electricity Urban Distribution Division, Saharanpur, wrote to the Sub-Divisional Officer asking that the permanent-disconnection report be forwarded so a decision could be taken on the consumer's complaint.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8",
+      "code": "UP-2005",
+      "clause": "6.8",
+      "topic": "objection before Executive Engineer against electricity dues recovery",
+      "type": "supply_code",
+      "holding": "A consumer facing recovery of electricity dues has a remedy of filing an objection before the Executive Engineer under clause 6.8 of the U.P. Electricity Supply Code, 2005. The writ was disposed of with a direction that if such objection is filed within three weeks, the Executive Engineer shall consider and decide it in accordance with law within one month, and that no coercive step shall be taken on the recovery citation until that decision.",
+      "paras": "5-7"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Validity of the recovery citation dated 21.08.2018 and the underlying dues of Rs 6,66,803",
+      "note": "The writ was disposed of without examining the merits of the assessment or recovery.",
+      "paras": "2,6"
+    },
+    {
+      "point": "Whether alleged theft of electricity is governed by clause 6.8 or by clauses 8.1–8.2",
+      "note": "An FIR for theft had been lodged; the Court nonetheless directed an objection under clause 6.8 without deciding the applicable chapter.",
+      "paras": "3,5-6"
+    }
+  ],
+  "authorities": []
+}
