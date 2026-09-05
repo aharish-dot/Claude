@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1522,
+  "next_seq": 1523,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -9112,6 +9112,12 @@
       "case_id": "SCJ-1520",
       "source_basename": "WRIC(A)_50348_2016.pdf",
       "title": "M/S Vinay Foods and Another v. Purvanchal Vidyut Vitran Nigam Limited and",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1518",
+      "source_basename": "WRIC(A)_47918_2016.pdf",
+      "title": "M/s Sanjeevani Cold Storage v. State of U.P.",
       "status": "done"
     }
   ]
