@@ -1,0 +1,47 @@
+{
+  "case_id": "SCJ-1671",
+  "title": "Jainullah v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Amreshwar Pratap Sahi, J.; Rajiv Lochan Mehrotra, J.",
+  "date_of_judgment": "2017-09-19",
+  "date_display": "19 September 2017",
+  "docket": "WRIT - C No. 43858 of 2017",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ consigned; relegated to clause 6.5 or section 127 appeal.",
+  "headnote": "A writ seeking correction of an amount realized either as a theft assessment or as a billing dispute is not entertained. A billing dispute is to be taken to the Executive Engineer under clause 6.5 of the U.P. Electricity Supply Code, 2005; a challenge to an assessment already made lies in appeal under section 127 of the Electricity Act, 2003. Either remedy, if availed, is to be dealt with in accordance with law.",
+  "facts": "Jainullah sought a mandamus to correct a demand realized either as a theft assessment or a billing dispute. A recovery citation of 3 January 2014 for Rs 4,02,459 was not challenged. After an FIR under section 138(b) of the Electricity Act, 2003 and High Court bail, the Executive Engineer reduced a Rs 2 lakh compounding amount and required the citation balance. The petitioner alleged the demand treated a 10 HP motor as the load though he had a 7.5 HP motor, and that consumption during disconnection could not be recovered.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "billing-objection-to-executive-engineer",
+      "type": "supply_code",
+      "holding": "Where the consumer essentially raises a billing dispute over a demand, the remedy is to approach the Executive Engineer under clause 6.5 of the U.P. Electricity Supply Code, 2005; the writ court will not correct the bill.",
+      "paras": "1"
+    },
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "assessment-appeal-bars-writ",
+      "type": "electricity_act",
+      "holding": "If the consumer questions an assessment already made after an allegation of theft, the remedy is an appeal under section 127 of the Electricity Act, 2003; a writ seeking correction of that amount will not be entertained, without prejudice to that appeal being dealt with in accordance with law.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the demand is a billing dispute or a theft assessment, and whether the 10 HP versus 7.5 HP load and disconnection-period consumption are correctly charged",
+      "note": "The Court left both forums open and did not examine the unchallenged recovery citation of 3 January 2014 on merits.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
