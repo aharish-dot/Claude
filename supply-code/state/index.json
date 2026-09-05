@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1900,
+  "next_seq": 1902,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -11380,6 +11380,12 @@
       "case_id": "SCJ-1895",
       "source_basename": "WRIC(A)_41093_2018.pdf",
       "title": "Jhanni v. State of U.P. & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1899",
+      "source_basename": "WRIC(A)_41977_2018.pdf",
+      "title": "Ishwar Dayal v. Dakshinanchal Vidyut Vitran Nigam Ltd.",
       "status": "done"
     }
   ]
