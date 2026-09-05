@@ -1,0 +1,59 @@
+{
+  "case_id": "SCJ-1715",
+  "title": "Munna Lal v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari and Ravindra Nath Kakkar, JJ.",
+  "date_of_judgment": "2017-04-03",
+  "date_display": "3 April 2017",
+  "docket": "Writ-C No. 7305 of 2017",
+  "page_count": 4,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; recovery citation quashed; fresh assessment directed.",
+  "headnote": "A recovery citation of Rs. 57,044 for alleged theft of electricity was quashed because the consumer was not given the mandatory opportunity to object to the provisional assessment under Clause 6.8(1)(b) of the U.P. Electricity Supply Code, 2005, and the final assessment did not record satisfaction that that notice had been served. The licensee was directed to issue a fresh provisional assessment, serve it, and pass a reasoned final order after considering objections, following Ashok Kumar v. State of U.P., 2008 (6) ADJ 660.",
+  "facts": "Munna Lal challenged a recovery citation dated 25 October 2016 for electricity dues of Rs. 57,044. The distribution licensee said he had been caught committing theft of electricity, a provisional assessment was made, and, as no objection was filed, a final assessment and demand followed. At earlier listings the licensee produced no assessment papers. On instructions it was accepted that no notice or opportunity to object to the provisional assessment had been given.",
+  "reusable_constructions": [
+    {
+      "construction": "A recovery citation founded on an electricity assessment cannot stand where the consumer was not afforded the mandatory opportunity to object to the provisional assessment under Clause 6.8(1)(b) of the U.P. Electricity Supply Code, 2005.",
+      "paras": "4"
+    },
+    {
+      "construction": "A final assessment that does not record the assessing authority's satisfaction that the provisional assessment notice was served cannot support a demand or recovery citation.",
+      "paras": "4"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "UP-2005",
+      "clause": "6.8(b)",
+      "topic": "provisional assessment — mandatory hearing and proof of service",
+      "type": "supply_code",
+      "holding": "Where the consumer was not given an opportunity of hearing as mandatorily required by Clause 6.8(1)(b), and the final assessment does not record satisfaction that the provisional assessment notice was served, a recovery citation for alleged theft of electricity cannot be sustained. The demand of Rs. 57,044 dated 25 October 2016 and consequential proceedings were quashed; the licensee must prepare a fresh provisional assessment, serve it, and pass a reasoned final assessment after considering objections, in the light of Ashok Kumar (paras 56–64).",
+      "paras": "4",
+      "flag": "Court numbered the clause 6.8(1)(b) (catalog 6.8(b)) and applied it to theft; 8.1–8.2 ordinarily govern theft assessment."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner in fact committed theft of electricity",
+      "note": "The licensee's allegation was recorded but not examined on merits; a fresh assessment was directed.",
+      "paras": "4"
+    },
+    {
+      "point": "Correctness of the assessed amount of Rs. 57,044",
+      "paras": "4"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008 (6) ADJ 660",
+      "cited_by": "4"
+    }
+  ]
+}
