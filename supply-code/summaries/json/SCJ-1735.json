@@ -1,0 +1,54 @@
+{
+  "case_id": "SCJ-1735",
+  "title": "Mahendra Singh v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J.; Ajay Bhanot, J.",
+  "date_of_judgment": "2018-03-20",
+  "date_display": "20 March 2018",
+  "docket": "Writ-C No. 10146 of 2018",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Demand notice quashed; fresh final assessment after objections.",
+  "headnote": "A provisional assessment notice that neither states the basis of the assessed sum nor specifies a date and time for hearing fails Clause 6.8(b) of the U.P. Electricity Supply Code, 2005. The consumer is not given the opportunity the Code requires. The resulting demand is quashed, and final assessment is to follow after objections, with reasons.",
+  "facts": "Mahendra Singh challenged a demand notice dated 8 January 2018 for Rs.25,687 issued in his name by the distribution licensee. He said he never received the provisional assessment notice, could not reply, and the licensee treated the assessment as final and issued a recovery certificate. Counsel undertook to file objections within two weeks and argued that Clause 6.8(b)(1) required the notice itself to fix a date for hearing. The Court inspected that notice on those complaints.",
+  "reusable_constructions": [
+    {
+      "construction": "Clause 6.8(b) requires the provisional assessment notice itself to specify a date and time for hearing; omission of that fixture means the notice is not in accordance with law.",
+      "paras": "4-5, 7-8"
+    },
+    {
+      "construction": "A provisional assessment notice that does not disclose the basis of the assessed amount does not afford the opportunity Clause 6.8(b) requires.",
+      "paras": "7-8"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "UP-2005",
+      "clause": "6.8(b)",
+      "topic": "provisional assessment notice — hearing date and basis",
+      "type": "supply_code",
+      "holding": "The provisional assessment notice did not indicate a date and time for hearing as Clause 6.8(b)(1) requires, and did not give the basis of the assessment of Rs.25,687. The petitioner was therefore not afforded the opportunity provided in Clause 6.8(b). The demand notice dated 8 January 2018 was quashed. Final assessment is to be made within six weeks after considering the petitioner's objections, with reasons meeting those objections in the light of Ashok Kumar.",
+      "paras": "5, 7-9"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Merits and quantum of the Rs.25,687 assessment",
+      "note": "Demand quashed only for a defective notice; fresh final assessment directed after objections.",
+      "paras": "9"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008 (6) ADJ 660 (DB)",
+      "cited_by": "court"
+    }
+  ]
+}
