@@ -1,0 +1,44 @@
+{
+  "case_id": "SCJ-1332",
+  "title": "Mohammad Zaheer v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Bharati Sapru, J.; Mahboob Ali, J.",
+  "date_of_judgment": "2017-07-28",
+  "date_display": "28 July 2017",
+  "docket": "WRIT - C No. 19919 of 2015",
+  "page_count": 2,
+  "significance": "procedural",
+  "outcome": "none",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed in default; 2015 stay of recovery citation discharged.",
+  "headnote": "A writ alleging that recovery of electricity dues as arrears of land revenue twelve years after a 2002 disconnection was barred by paragraph 6.15 of the Electricity Supply Code, 2005, was dismissed in default when the petitioner did not appear. The 2015 conditional stay of the recovery citation was discharged without any ruling on the two-year bar.",
+  "facts": "The petitioner's supply was disconnected in January 2002 for unpaid bills of Rs.10,301. In 2015 a recovery certificate issued for Rs.1,42,639 as arrears of land revenue. He argued that recovery after twelve years was barred by paragraph 6.15 of the Electricity Supply Code, 2005, citing Satya Narayan v. U.P. Power Corporation Ltd. On 9 April 2015 the Court called for a counter affidavit and stayed further recovery under the 16 March 2015 citation on deposit of Rs.45,000. On 28 July 2017 the petitioner was not represented.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.15",
+      "code": "UP-2005",
+      "clause": "6.15",
+      "topic": "delayed recovery as arrears of land revenue",
+      "type": "supply_code",
+      "holding": "After a 2015 interlocutory order directing a counter affidavit and staying further recovery under the 16 March 2015 citation on deposit of Rs.45,000, the writ challenging that recovery as barred by paragraph 6.15 of the Electricity Supply Code, 2005 was dismissed in default for non-appearance of the petitioner, and the interim order was discharged.",
+      "paras": "1-2"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether recovery of electricity dues as arrears of land revenue after twelve years is barred by paragraph 6.15 of the Electricity Supply Code, 2005",
+      "note": "Raised at the 9 April 2015 hearing with reliance on Satya Narayan; the 2017 Division Bench dismissed the writ in default without a merits ruling.",
+      "paras": "1"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Satya Narayan v. U.P. Power Corporation Ltd.",
+      "citation": "2013 (5) ADJ 648",
+      "cited_by": "petitioner"
+    }
+  ]
+}
