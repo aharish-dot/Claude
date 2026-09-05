@@ -1,0 +1,39 @@
+{
+  "case_id": "SCJ-1394",
+  "title": "Brij Kishore v. Uttar Pradesh Power Corporation Ltd.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Arun Tandon, J.; Harsh Kumar, J.",
+  "date_of_judgment": "2016-01-14",
+  "date_display": "14 January 2016",
+  "docket": "Writ-C No. 66607 of 2015",
+  "page_count": 1,
+  "significance": "procedural",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; liberty to pursue Clause 16.5 alternative remedy.",
+  "headnote": "A consumer’s writ against a bill of demand dated 16.10.2015 is not entertained on merits. The High Court holds that Clause 16.5 of the Electricity Supply Code, 2005 supplies a statutory alternative remedy and dismisses the petition with liberty to pursue that remedy.",
+  "facts": "Brij Kishore filed Writ-C No. 66607 of 2015 in the Allahabad High Court against Uttar Pradesh Power Corporation Ltd. and two others, challenging a bill of demand dated 16 October 2015. Counsel for the petitioner and for the respondents, including Ms. Anamika Singh, appeared before a Division Bench of Arun Tandon and Harsh Kumar, JJ. The order does not record the amount of the demand, the tariff category, or whether the bill arose from unauthorized use or an ordinary billing dispute.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::16.5",
+      "code": "UP-2005",
+      "clause": "16.5",
+      "topic": "alternative-remedy",
+      "type": "supply_code",
+      "holding": "A writ challenging a bill of demand will be dismissed where Clause 16.5 of the Electricity Supply Code, 2005 furnishes a statutory alternative remedy, with liberty to the petitioner to pursue that remedy.",
+      "paras": "1",
+      "flag": "Order cites cl. 16.5; Supply Code 2005 has no such clause (likely 6.5 or 6.8)."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Correctness of the bill of demand dated 16.10.2015",
+      "note": "Petition dismissed solely on alternative remedy; merits of the demand not examined.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
