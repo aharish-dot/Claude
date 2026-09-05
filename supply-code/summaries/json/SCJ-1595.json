@@ -1,0 +1,48 @@
+{
+  "case_id": "SCJ-1595",
+  "title": "Harminder Singh v. State of U.P. & Ors.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J.; Ravindra Nath Kakkar, J.",
+  "date_of_judgment": "2017-05-05",
+  "date_display": "5 May 2017",
+  "docket": "WRIT - C No. - 17181 of 2017",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; bill dated 10.05.2016 quashed; fresh assessment after due procedure permitted.",
+  "headnote": "A Division Bench of the Allahabad High Court quashed an electricity bill founded on a provisional assessment made without notice or a fixed date of hearing. Clause 6.8(b) of the U.P. Electricity Supply Code, 2005 is mandatory: the licensee must issue notice and afford opportunity of hearing before making a provisional assessment. The distribution licensee remains free to assess afresh after following the prescribed procedure.",
+  "facts": "Harminder Singh petitioned under Article 226 to quash an electricity bill dated 10.05.2016 issued by respondent no. 3. He alleged that recovery was being pressed on a final assessment even though, after he objected to the provisional assessment, the assessing authority never fixed a date and time for hearing. On 25 April 2017 the Court stayed coercive steps and called for instructions. Counsel for the licensee placed instructions showing that the provisional assessment had been made without issuing notice and without fixing any date of hearing.",
+  "reusable_constructions": [
+    {
+      "construction": "Clause 6.8(b) of the U.P. Electricity Supply Code, 2005 mandatorily requires notice and a fixed date of hearing before a provisional assessment is made; a bill founded on an assessment made without that notice and hearing cannot stand.",
+      "paras": "5-6"
+    },
+    {
+      "construction": "Quashing of a bill for non-compliance with clause 6.8(b) does not bar the licensee from making a fresh assessment after following the prescribed procedure.",
+      "paras": "7"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "UP-2005",
+      "clause": "6.8(b)",
+      "topic": "provisional assessment — notice and hearing",
+      "type": "supply_code",
+      "holding": "Provisional assessment without notice and without fixing a date of hearing violates the mandatory requirement of clause 6.8(b) of the U.P. Electricity Supply Code, 2005. The electricity bill dated 10.05.2016 was therefore quashed, with liberty to the licensee to make a fresh assessment after following the prescribed procedure.",
+      "paras": "5-7"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "Ashok Kumar & Ors. v. State of U.P. & Ors.",
+      "citation": "2008 (6) ADJ 660 (DB)",
+      "cited_by": "3"
+    }
+  ]
+}
