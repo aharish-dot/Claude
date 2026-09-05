@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1810,
+  "next_seq": 1811,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -10840,6 +10840,12 @@
       "case_id": "SCJ-1807",
       "source_basename": "WRIC(A)_25869_2018.pdf",
       "title": "Kunwar Singh v. State of U.P. (recovery citation; cl. 6.14 instalments)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1806",
+      "source_basename": "WRIC(A)_25861_2018.pdf",
+      "title": "Phool Singh v. State of U.P. — recovery citation relegated to Code 6.14",
       "status": "done"
     }
   ]
