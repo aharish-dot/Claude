@@ -1,0 +1,54 @@
+{
+  "case_id": "SCJ-1769",
+  "title": "Bhure Khan @ Mohd. Jahangeer v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Amreshwar Pratap Sahi, J.; Shashi Kant, J.",
+  "date_of_judgment": "2018-05-17",
+  "date_display": "17 May 2018",
+  "docket": "WRIT - C No. - 17226 of 2018",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; citation dated 01.05.2018 quashed; objections to be filed and decided.",
+  "headnote": "A theft recovery citation cannot stand where the sum demanded differs from the provisional assessment treated as final, and where no final assessment order has been passed as required by Clause 8.2(b) of the U.P. Electricity Supply Code, 2005. The citation was quashed; the consumer was directed to file objections and the assessing officer to pass a fresh order.",
+  "facts": "On 6 December 2017 a raid booked Bhure Khan for theft for charging an E-rickshaw from his mother's connection. An FIR under Section 135 of the Electricity Act, 2003 followed. The licensee assessed Rs 7,64,643 provisionally and issued a 1 May 2018 citation recovering Rs 5,35,275. Khan had not compounded. He challenged the citation as recovery without a final assessment. The licensee said that, no representation having been filed, the proposed assessment was treated as final, though the citation demanded only part of that sum.",
+  "reusable_constructions": [
+    {
+      "construction": "A theft recovery citation is unsustainable if it demands a sum different from the assessment treated as final, with no explanation for the reduction.",
+      "paras": "2"
+    },
+    {
+      "construction": "Even where the consumer files no objection to a proposed theft assessment, Clause 8.2(b) of the U.P. Electricity Supply Code, 2005 still requires a final assessment order before recovery can proceed; treating the proposal as final without such an order will not support a citation.",
+      "paras": "2"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.2",
+      "code": "UP-2005",
+      "clause": "8.2(b)",
+      "topic": "theft-final-assessment-before-recovery",
+      "type": "supply_code",
+      "holding": "Recovery of a theft assessment cannot be made on a citation where the demanded amount is reduced from the assessment treated as final without explanation of the discrepancy, and where no final assessment order appears to have been passed as required under Clause 8.2(b) of the U.P. Electricity Supply Code, 2005 even though no objection was received. The citation dated 01.05.2018 is quashed; the petitioner shall file objections before respondent no.4 within two weeks, who shall pass an appropriate order within six weeks.",
+      "paras": "2",
+      "flag": "Court cites Clause 8.2(b); catalog 8.2 sub-clauses are roman (8.2(vii), 8.2(x)). Not silently rekeyed."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Merits of the theft allegation and the Section 135 FIR",
+      "note": "FIR and non-compounding noted only as background; criminal and theft merits not examined.",
+      "paras": "2"
+    },
+    {
+      "point": "Correct quantum of the theft assessment",
+      "note": "Left to the assessing officer after the petitioner files objections.",
+      "paras": "2"
+    }
+  ],
+  "authorities": []
+}
