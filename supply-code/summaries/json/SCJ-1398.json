@@ -1,0 +1,39 @@
+{
+  "case_id": "SCJ-1398",
+  "title": "Mukesh Chand Agarwal v. State of U.P.",
+  "neutral_citation": "Writ-C No. 68592 of 2015 (Allahabad)",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "V.K. Shukla, J.; Mahesh Chandra Tripathi, J.",
+  "date_of_judgment": "2016-01-14",
+  "date_display": "14 January 2016",
+  "docket": "Writ-C No. 68592 of 2015",
+  "page_count": 3,
+  "significance": "ordinary",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; restoration refused after s.126 assessment shown.",
+  "headnote": "Mandamus to reconnect a shop supply refused where the licensee had undertaken assessment under section 126 of the Electricity Act, 2003, sent notice by speed post, and produced the assessment order. The Court held it could not direct resumption of supply at that stage. The petitioner was left to the remedy available under the U.P. Electricity Supply Code, 2003 (so described).",
+  "facts": "Mukesh Chand Agarwal sought a mandamus to resume supply and reconnect connection no. 5045178 at his shop, alleging disconnection without any assessment. On 6 January 2016 the Court asked respondents 3 and 4 whether any section 126 assessment had been undertaken. Counsel for the Corporation then produced instructions that theft-assessment proceedings under section 126 had been undertaken, a notice had been sent by speed post, and the postal receipt and assessment order were placed on record. The provisional assessment was treated as presumed final.",
+  "holding_units": [
+    {
+      "provision": "EA2003::126",
+      "code": "EA2003",
+      "clause": "126",
+      "topic": "restoration of supply after s.126 assessment",
+      "type": "electricity_act",
+      "holding": "Where assessment proceedings under section 126 of the Electricity Act, 2003 have been undertaken, notice has been sent, and an assessment order is produced, the High Court will not mandamus resumption of supply. The petitioner is left to the remedy available under the U.P. Electricity Supply Code, 2003 (as described by the Court). The writ petition is dismissed.",
+      "paras": "3",
+      "flag": "Court referred to the residual remedy as under the 'U.P. Electricity Supply Code, 2003'; the operative U.P. Supply Code is 2005. No clause of that Code was identified."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Validity and quantum of the section 126 assessment, and which Supply Code remedy applies",
+      "note": "Court expressly left the petitioner to pursue the remedy available under the U.P. Electricity Supply Code, 2003, without examining the assessment on merits or naming a clause.",
+      "paras": "3"
+    }
+  ],
+  "authorities": []
+}
