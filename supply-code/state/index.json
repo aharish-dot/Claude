@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1300,
+  "next_seq": 1301,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -7780,6 +7780,12 @@
       "case_id": "SCJ-1296",
       "source_basename": "CRLP(A)_11034_2015.pdf",
       "title": "Mohammad Salim Samani v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1297",
+      "source_basename": "CRLP(A)_11298_2015.pdf",
+      "title": "Niyaj v. State of U.P.",
       "status": "done"
     }
   ]
