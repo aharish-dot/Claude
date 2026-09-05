@@ -1,0 +1,54 @@
+{
+  "case_id": "SCJ-1454",
+  "title": "Smt. Afifa Fatima v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J.; Prashant Kumar, J.",
+  "date_of_judgment": "2016-05-27",
+  "date_display": "27 May 2016",
+  "docket": "Writ-C No. 21804 of 2016",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; recovery citation quashed; fresh 6.8(b) assessment left open.",
+  "headnote": "The petitioner challenged a recovery citation dated 25.2.2016 on the ground that recovery had been started without a provisional assessment bill, notice, or hearing. The licensee produced a provisional assessment of Rs. 2,61,780 and a notice dated 5.12.2015, but showed neither dispatch nor a date and time for hearing, and treated silence as making the assessment final. Applying Ashok Kumar, the Court held that clause 6.8(b) of the U.P. Electricity Supply Code, 2005 requires a provisional notice that invites objections and specifies a hearing date and time. Procedure de hors the Code. Citation quashed; liberty to assess afresh after proper notice.",
+  "facts": "Smt. Afifa Fatima challenged a recovery citation dated 25 February 2016, alleging that recovery had begun without a provisional assessment bill, notice, or opportunity to contest. On 12 May 2016 the Court called for instructions and stayed coercive steps. At the next hearing the licensee produced a provisional assessment of Rs. 2,61,780 and a notice dated 5 December 2015, saying the assessment was treated as final because no objection was filed. The petitioner denied receiving the notice. The papers showed neither dispatch particulars nor a date for hearing.",
+  "reusable_constructions": [
+    {
+      "construction": "A provisional assessment notice under clause 6.8(b) must invite objections and specify a date and time for hearing; a notice that does neither cannot support treating the assessment as final or issuing recovery.",
+      "paras": "8"
+    },
+    {
+      "construction": "Where the licensee's record does not show the mode and manner of sending the provisional assessment, the notice cannot be treated as served so as to convert an unobjected provisional demand into a recoverable final assessment.",
+      "paras": "7-8"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "UP-2005",
+      "clause": "6.8(b)",
+      "topic": "provisional assessment notice and recovery",
+      "type": "supply_code",
+      "holding": "Provisional assessment and issuance of a recovery certificate without a notice shown to have been sent to the consumer and without specifying a date and time for hearing is de hors the U.P. Electricity Supply Code, 2005 and in gross violation of clause 6.8(b). The recovery citation cannot be sustained. The licensee may assess afresh after issuing a provisional notice, considering objections, and fixing a date for hearing with reasons.",
+      "paras": "8-9"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Merits and quantum of the Rs. 2,61,780 provisional assessment",
+      "note": "Respondents may proceed afresh after a proper 6.8(b) notice, objections, and a dated hearing.",
+      "paras": "9"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008(6) ADJ, 660 (DB)",
+      "cited_by": "8"
+    }
+  ]
+}
