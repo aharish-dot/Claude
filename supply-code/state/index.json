@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1709,
+  "next_seq": 1710,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -10234,6 +10234,12 @@
       "case_id": "SCJ-1705",
       "source_basename": "WRIC(A)_6163_2017.pdf",
       "title": "Shashi Kant Srivastava v. State of U.P. (billing dispute; clause 6.5)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1708",
+      "source_basename": "WRIC(A)_6253_2017.pdf",
+      "title": "Mashooq Ahmad v. State of U.P. and 3 Others",
       "status": "done"
     }
   ]
