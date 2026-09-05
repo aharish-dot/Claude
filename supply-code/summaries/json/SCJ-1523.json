@@ -1,0 +1,38 @@
+{
+  "case_id": "SCJ-1523",
+  "title": "Mohd. Moobin @ Mohd. Muein v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "V.K. Shukla, J.; Mahesh Chandra Tripathi, J.",
+  "date_of_judgment": "2016-11-05",
+  "date_display": "5 November 2016",
+  "docket": "WRIT - C No. 52731 of 2016",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; liberty to pursue Section 127 and Supply Code remedies.",
+  "headnote": "After a final assessment of electricity dues remains unpaid and no appeal under Section 127 of the Electricity Act, 2003 has been filed, a writ seeking restoration of supply and decision of pending applications is dismissed. Dismissal does not bar the consumer from pursuing the statutory remedies under the Act read with the U.P. Electricity Supply Code, 2005.",
+  "facts": "The petitioner, a factory consumer at Mohalla Haziganj, Kannauj (connection No. 000037), sought a writ directing the respondents to decide his applications dated 30 July 2016 and 22 October 2016 and to restore supply. Counsel for the respondents stated that a provisional assessment had been followed by a final assessment, the assessed amount remained unpaid, and no appeal under Section 127 of the Electricity Act, 2003 had been preferred.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "writ-bar-after-final-assessment",
+      "type": "electricity_act",
+      "holding": "Where a final assessment has been made, the assessed amount remains unpaid, and the consumer has not preferred an appeal under Section 127 of the Electricity Act, 2003, the High Court will not restore supply or decide pending applications in writ. The petition is dismissed without prejudice to remedies under the Act read with the U.P. Electricity Supply Code, 2005.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Correctness of the final assessment and entitlement to restoration on the applications dated 30.07.2016 and 22.10.2016",
+      "note": "Statutory appeal under Section 127 expressly saved.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
