@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1334,
+  "next_seq": 1335,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -7984,6 +7984,12 @@
       "case_id": "SCJ-1330",
       "source_basename": "WRIC(A)_19716_2015.pdf",
       "title": "Gulajar Ahmad v. Executive Engineer, KESCO, Kanpur Nagar",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1331",
+      "source_basename": "WRIC(A)_1988_2015.pdf",
+      "title": "Karuna Nidhi Tiwari v. U.P. Power Corporation Ltd.",
       "status": "done"
     }
   ]
