@@ -1,0 +1,44 @@
+{
+  "case_id": "SCJ-1763",
+  "title": "Munni Lal Patel v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Bharati Sapru, J.; Saral Srivastava, J.",
+  "date_of_judgment": "2018-04-30",
+  "date_display": "30 April 2018",
+  "docket": "WRIT - C No. 15506 of 2018",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; petitioner relegated to Clause 4.6(f) remedy.",
+  "headnote": "A writ seeking correction of a subsidy bill will not be entertained when Clause 4.6(f) of the U.P. Electricity Supply Code, 2005 already provides a hierarchical remedy (authority one level above the sanctioning authority, then CGRF). Following Authorised Officer, State Bank of Travancore v. Mathew K.C., the Division Bench disposed of the petition and left any such application to be heard in accordance with law without delay.",
+  "facts": "Munni Lal Patel petitioned the Allahabad High Court for correction of a bill issued towards his subsidy. The distribution licensee pointed to Clause 4.6(f) of the U.P. Electricity Supply Code, 2005: disputes on the estimate go to the authority one level above the sanctioning authority and, if still aggrieved, to the Consumer Grievance Redressal Forum. He invoked Article 226 rather than that internal Code path.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.6(f)",
+      "code": "UP-2005",
+      "clause": "4.6(f)",
+      "topic": "estimate-bill-dispute-alternative-remedy",
+      "type": "supply_code",
+      "holding": "Where the consumer doubts the correctness of a bill or estimate, Clause 4.6(f) supplies the remedy: refer the dispute to the authority one level higher than the sanctioning authority, and if still aggrieved, to the Consumer Grievance Redressal Forum. A writ under Article 226 for bill correction is not to be entertained unless an exceptional circumstance is shown; the consumer is relegated to that Code path, and any application so made is to be heard and disposed of in accordance with law without delay.",
+      "paras": "5-7"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "correctness of the subsidy bill",
+      "note": "Merits of the bill left to the Clause 4.6(f) hierarchy and CGRF.",
+      "paras": "5-6"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Authorised Officer, State Bank of Travancore v. Mathew K.C.",
+      "citation": "Civil Appeal No. 1282 of 2018 dated 30.01.2018",
+      "cited_by": "7"
+    }
+  ]
+}
