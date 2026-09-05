@@ -1,0 +1,43 @@
+{
+  "case_id": "SCJ-1306",
+  "title": "Tuljaram v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "V.K. Shukla and Mohd. Tahir, JJ.",
+  "date_of_judgment": "2015-02-03",
+  "date_display": "3 February 2015",
+  "docket": "Criminal Misc. Writ Petition No. 2692 of 2015",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "s.135 FIR not quashed; arrest to follow CrPC 41/41-A; compounding under Supply Code.",
+  "headnote": "A writ to quash a Section 135 Electricity Act FIR was refused because the FIR disclosed a cognizable offence. Any arrest for an offence not entailing more than seven years’ sentence must comply with CrPC ss. 41(1)(b) and 41-A. If the offence is compoundable, the accused may seek the remedy under the Electricity Supply Code, 2005.",
+  "facts": "Tuljaram approached the Allahabad High Court seeking to quash an FIR dated 21 January 2015, registered as Case Crime No. 08 of 2015 under Section 135 of the Electricity Act, 2003 at Police Station Barnahal, District Mainpuri. Counsel argued that even if proved the offence could not attract a sentence of more than seven years, so arrest should not be mechanical, and that the offence was compoundable. Arrest had not been effected. The U.P. Power Corporation was represented.",
+  "holding_units": [
+    {
+      "provision": "EA2003::135",
+      "code": "EA2003",
+      "clause": "135",
+      "topic": "s.135 FIR quashing, arrest safeguards and compounding",
+      "type": "interplay",
+      "holding": "A Section 135 Electricity Act FIR that discloses a cognizable offence will not be quashed. Where arrest has not been effected and the alleged offence cannot attract a sentence exceeding seven years, the police must comply with CrPC ss. 41(1)(b) and 41-A; violation may be complained of before the Magistrate. If the offence is compoundable, the accused may seek compounding under the Electricity Supply Code, 2005.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner in fact committed the s.135 offence",
+      "note": "The Court only held that the FIR disclosed a cognizable offence; it did not try the allegation.",
+      "paras": "1"
+    },
+    {
+      "point": "Whether the alleged offence is in fact compoundable",
+      "note": "Compounding was left to the petitioner to pursue under the Supply Code if the offence is compoundable.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
