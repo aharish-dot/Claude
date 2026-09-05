@@ -1,0 +1,56 @@
+{
+  "case_id": "SCJ-1350",
+  "title": "Girish Kumar Agarwal v. State of U.P. — electricity recovery certificate",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sudhir Agarwal and Ajit Kumar, JJ.",
+  "date_of_judgment": "2017-11-29",
+  "date_display": "29 November 2017",
+  "docket": "Writ-C No. 38946 of 2015",
+  "page_count": 5,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; consumer relegated to DGRF and, if theft/UUE, s.127 appeal.",
+  "headnote": "A writ seeking to quash a recovery certificate for electricity charges and to restrain coercive recovery is not entertained. Against a demand of electricity dues the consumer has an efficacious statutory remedy before the District Grievance Redressal Forum under the U.P. Electricity Supply Code, 2005; if the demand is an assessment for theft or unauthorised use, the remedy is an appeal under Section 127 of the Electricity Act, 2003. Recovery proceedings are left undisturbed.",
+  "facts": "Girish Kumar Agarwal, former occupant of a shop, sought certiorari to quash a recovery certificate dated 27 January 2015 issued on the Executive Engineer's demand for electricity charges, a restraint on coercive recovery, and disposal of his 4 July 2015 representation-cum-objections. He claimed he had paid the shop's bills while in possession, then vacated and handed the premises to the landlord, who rented them to a subsequent tenant. The Court had stayed the recovery certificate on 29 July 2015 and continued that stay through later listings.",
+  "holding_units": [
+    {
+      "provision": "UP-2005",
+      "code": "UP-2005",
+      "clause": "District Grievance Redressal Forum",
+      "topic": "writ — alternative remedy for electricity dues",
+      "type": "supply_code",
+      "holding": "A recovery certificate issued on the Executive Engineer's demand of electricity charges is challengeable before the District Grievance Redressal Forum under the U.P. Electricity Supply Code, 2005. That forum is an efficacious statutory alternative remedy, so a writ to quash the certificate and restrain coercive recovery will not be entertained and recovery is not interfered with.",
+      "paras": "2-3",
+      "flag": "The order names the District Grievance Redressal Forum under the 2005 Code but cites no clause number."
+    },
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "writ — alternative remedy if theft or unauthorised use",
+      "type": "electricity_act",
+      "holding": "If the demand is an assessment on account of theft or unauthorised use of electricity, the statutory remedy is an appeal under Section 127 of the Electricity Act, 2003; the writ is dismissed on the ground of that alternative remedy as well.",
+      "paras": "2-3"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Merits of the electricity demand and the 27 January 2015 recovery certificate",
+      "paras": "2-3"
+    },
+    {
+      "point": "Whether the demand was ordinary dues or an assessment for theft or unauthorised use",
+      "note": "Both the Supply Code forum and a Section 127 appeal were mentioned hypothetically; the character of the demand was not found.",
+      "paras": "2"
+    },
+    {
+      "point": "Disposal of the petitioner's representation-cum-objections dated 4 July 2015",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
