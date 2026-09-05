@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1978,
+  "next_seq": 1979,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -11866,6 +11866,12 @@
       "case_id": "SCJ-1977",
       "source_basename": "WRIC(A)_7010_2012.pdf",
       "title": "Marsood Khan @ Maqsood Khan v. U.P. Power Corporation Ltd. & Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1978",
+      "source_basename": "WRIC(A)_8303_2012.pdf",
+      "title": "Kumar Audogic Vikas Pvt. Ltd. v. Mukhya Abhiyanta, Varanasi & Another",
       "status": "done"
     }
   ]
