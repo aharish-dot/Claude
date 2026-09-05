@@ -1,0 +1,38 @@
+{
+  "case_id": "SCJ-1455",
+  "title": "Shri Bholu v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari and Arvind Kumar Mishra-I, JJ.",
+  "date_of_judgment": "2016-07-15",
+  "date_display": "15 July 2016",
+  "docket": "Writ-C No. 21927 of 2016",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; demand notice and recovery certificate quashed.",
+  "headnote": "Clause 6.8(b) of the U.P. Electricity Supply Code, 2005 is mandatory. A provisional assessment made without notice and without fixing a date of hearing cannot sustain a demand notice or recovery certificate, which are liable to be quashed, without prejudice to a fresh assessment after following the prescribed procedure.",
+  "facts": "The petitioner, a consumer, sought quashing of a demand notice dated 13 March 2015 and a recovery certificate dated 29 December 2015 issued by the distribution licensee. He alleged that assessment had been completed without serving a provisional assessment bill, without opportunity to object, and without fixing a date of hearing. After the Court called for instructions, counsel for the licensee fairly stated that the provisional assessment had been made without issuing notice and without fixing a date of hearing.",
+  "reusable_constructions": [
+    {
+      "construction": "Clause 6.8(b) of the U.P. Electricity Supply Code, 2005 is mandatory; a provisional assessment made without notice and without fixing a date of hearing cannot support a subsequent demand notice or recovery certificate.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "UP-2005",
+      "clause": "6.8(b)",
+      "topic": "provisional assessment — notice and hearing",
+      "type": "supply_code",
+      "holding": "In the absence of notice and opportunity of hearing before making a provisional assessment, clause 6.8(b) being mandatory, the demand notice dated 13.03.2015 and recovery certificate dated 29.12.2015 cannot be sustained and stand quashed. The licensee remains free to make a fresh assessment after following the prescribed procedure.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [],
+  "authorities": []
+}
