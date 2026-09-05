@@ -1,0 +1,45 @@
+{
+  "case_id": "SCJ-1665",
+  "title": "Sanjay Kumar Sharma v. State of U.P.",
+  "neutral_citation": "Writ-C No. 42971 of 2017 (All)",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Amreshwar Pratap Sahi, J.; Rajiv Lochan Mehrotra, J.",
+  "date_of_judgment": "2017-09-14",
+  "date_display": "14 September 2017",
+  "docket": "WRIT - C No. - 42971 of 2017",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; consumer relegated to Executive Engineer under s.126 read with cl.6.5.",
+  "headnote": "A writ against a demand notice alleging unauthorized use of electricity for construction is not decided on merits. The consumer may approach the Executive Engineer, who shall adjudicate the billing issue arising out of the assessment under s.126 of the Electricity Act, 2003 read with cl.6.5 of the U.P. Electricity Supply Code, 2005, and pass an appropriate order within two weeks of a certified copy being filed within a week.",
+  "facts": "Sanjay Kumar Sharma petitioned the Allahabad High Court against a demand notice from the Executive Engineer of the electricity department. The notice alleged unauthorized use: electricity supplied on his connection had been consumed for construction. After hearing his counsel and the department, the Division Bench treated the communication as a demand notice only and did not decide on the writ side whether unauthorized use had occurred.",
+  "holding_units": [
+    {
+      "provision": "EA2003::126",
+      "code": "EA2003",
+      "clause": "126",
+      "topic": "demand notice for alleged unauthorized use",
+      "type": "interplay",
+      "holding": "A demand notice alleging unauthorized use of electricity (consumption for construction contrary to the sanctioned connection) is a billing issue arising out of assessment to be adjudicated by the Executive Engineer under s.126 of the Electricity Act, 2003 read with cl.6.5 of the U.P. Electricity Supply Code, 2005. The High Court will not decide that dispute in writ; the consumer may approach the Executive Engineer, who shall pass an appropriate order within two weeks if a certified copy of the order is filed within a week.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "billing-objection-to-executive-engineer-under-6.5",
+      "application": "The alleged unauthorized construction-use demand was treated as a billing issue arising out of assessment and sent to the Executive Engineer under cl.6.5 read with s.126, rather than being decided in writ.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner unauthorizedly used electricity for construction, and the correctness of the demand",
+      "note": "Merits left to the Executive Engineer under s.126 read with cl.6.5.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
