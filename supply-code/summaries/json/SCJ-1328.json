@@ -1,0 +1,57 @@
+{
+  "case_id": "SCJ-1328",
+  "title": "Beni Madhav v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sudhir Agarwal, J. and Ajit Kumar, J.",
+  "date_of_judgment": "2017-10-11",
+  "date_display": "11 October 2017",
+  "docket": "WRIT - C No. 18089 of 2015",
+  "page_count": 7,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; District Consumer Forum had no jurisdiction over theft/UUE demand.",
+  "headnote": "A District Consumer Forum has no jurisdiction over a demand for unauthorised use or theft of electrical energy. Such an assessment is not a 'service' under the Consumer Protection Act, 1986; it is governed by ss. 126 and 127 of the Electricity Act, 2003 read with the Electricity Supply Code (earlier, regulations under s. 79 of the Electricity (Supply) Act, 1948). A recovery citation is only a consequential act. A writ that neither produces nor challenges the underlying assessment order is ill-drafted and misconceived and is liable to be dismissed.",
+  "facts": "Beni Madhav filed a writ petition challenging a recovery citation dated 3 March 2015 for Rs 1,10,039 and seeking a mandamus that the respondents issue an amended electricity bill without surcharge, in terms of a District Consumer Forum order dated 3 February 1994. The Forum order related to a demand for unauthorised use or theft of electrical energy. The underlying assessment order was not produced and was not under challenge. After several listings in 2015, the Division Bench heard and disposed of the petition on 11 October 2017.",
+  "reusable_constructions": [
+    {
+      "construction": "A District Consumer Forum has no jurisdiction over an assessment for unauthorised use or theft of electricity, which is not a 'service' under the Consumer Protection Act, 1986 and falls under ss. 126 and 127 of the Electricity Act, 2003 read with the Supply Code.",
+      "paras": "3"
+    },
+    {
+      "construction": "A recovery citation is only a consequential act; a writ that neither produces nor challenges the underlying assessment order is misconceived.",
+      "paras": "4"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::126",
+      "code": "EA2003",
+      "clause": "126",
+      "topic": "consumer-forum-jurisdiction-over-uue-theft",
+      "type": "interplay",
+      "holding": "District Consumer Forum has no jurisdiction over a demand for unauthorised use or theft of electrical energy. Such assessment is not a service rendered to the person committing the unauthorised use or theft and is therefore beyond the Consumer Protection Act, 1986. The field is governed by ss. 126 and 127 of the Electricity Act, 2003 read with the Electricity Supply Code (earlier, regulations under s. 79 of the Electricity (Supply) Act, 1948).",
+      "paras": "3"
+    },
+    {
+      "provision": "EA2003::126",
+      "code": "EA2003",
+      "clause": "126",
+      "topic": "recovery-citation-consequential-to-assessment",
+      "type": "electricity_act",
+      "holding": "A recovery citation is only a consequential act. Where the main assessment order is neither produced nor challenged, a writ attacking only the citation is ill-drafted and misconceived and is liable to be dismissed.",
+      "paras": "4"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Correctness of the underlying assessment or the quantum of Rs 1,10,039",
+      "note": "The assessment order was not before the Court and was not under challenge.",
+      "paras": "4"
+    }
+  ],
+  "authorities": []
+}
