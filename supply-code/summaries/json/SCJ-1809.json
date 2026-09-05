@@ -1,0 +1,52 @@
+{
+  "case_id": "SCJ-1809",
+  "title": "Mahadev Singh v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta, J. and Ajit Kumar, J.",
+  "date_of_judgment": "2018-08-06",
+  "date_display": "6 August 2018",
+  "docket": "WRIT - C No. - 25879 of 2018",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; assessment dated 7.2.2017 and recovery certificate dated 24.3.2017 quashed for want of 15-working-day notice and a fixed hearing date; fresh speaking order directed.",
+  "headnote": "A Division Bench quashed an electricity assessment and the recovery certificate founded on it where the assessment granted only seven days to object and fixed no date or time for hearing. Clause 6.1(b) of the Electricity Supply Code, 2005 requires a provisional assessment with show-cause giving 15 working days to reply and fixing a date and time. The consumer was directed to appear with objections; the Executive Engineer was to pass a speaking order within 15 days.",
+  "facts": "Mahadev Singh challenged a recovery certificate dated 24 March 2017 issued by the Executive Engineer, Vidhut Vitran Khand, Karvi, District Chitrakoot, demanding an assessed sum of Rs 3,99,217. After time was granted for instructions, counsel for the Electricity Department produced the assessment order dated 7 February 2017. That order allowed only seven days to file an objection and did not fix any date or time for the petitioner's appearance or hearing.",
+  "reusable_constructions": [
+    {
+      "construction": "Provisional assessment with show-cause is vitiated unless the consumer is given 15 working days to reply and a date and time for hearing are fixed; seven days with no hearing date will not suffice.",
+      "paras": "unnumbered"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.1",
+      "code": "UP-2005",
+      "clause": "6.1(b)",
+      "topic": "provisional-assessment-show-cause-notice-and-hearing-date",
+      "type": "supply_code",
+      "holding": "Clause 6.1(b) of the Electricity Supply Code, 2005 requires that a provisional assessment be issued with a show-cause notice giving 15 working days for reply and fixing a date and time. An assessment that grants only seven days and fixes no date or time for appearance is contrary to the Code and is liable to be quashed together with the consequent demand or recovery certificate, with a direction to hear the consumer and pass a speaking order.",
+      "paras": "unnumbered",
+      "flag": "Court cited Clause 6.1(b) for 15 working days' notice and a fixed hearing date on provisional assessment/show-cause. That machinery is Clause 6.8 of the 2005 Code (catalog UP-2005::6.8 / 6.8(b)); 6.1(b) is recorded as cited, not silently corrected. One sentence also refers to the assessment as dated 7.2.2012; the rest of the order treats it as 7.2.2017."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.8-hearing-procedure-mandatory-before-uue-conclusion",
+      "application": "The assessment was quashed because no hearing date was fixed and only seven days were given, contrary to the Code's 15-working-day notice-and-hearing requirement, though the Court named Clause 6.1(b) rather than 6.8.",
+      "lead_authorities": [],
+      "paras": "unnumbered"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits of the Rs 3,99,217 assessment",
+      "note": "Assessment and recovery were quashed for notice and hearing defects. The Executive Engineer was directed to consider objections and pass a fresh speaking order; liability on the assessment was not decided.",
+      "paras": "unnumbered"
+    }
+  ],
+  "authorities": []
+}
