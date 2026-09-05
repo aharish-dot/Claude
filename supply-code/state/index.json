@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1368,
+  "next_seq": 1369,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -8188,6 +8188,12 @@
       "case_id": "SCJ-1364",
       "source_basename": "WRIC(A)_53178_2015.pdf",
       "title": "Compounding fee under Clause 152 not refundable as double deposit",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1365",
+      "source_basename": "WRIC(A)_54247_2015.pdf",
+      "title": "Lekhraj Gambhir v. State of U.P.",
       "status": "done"
     }
   ]
