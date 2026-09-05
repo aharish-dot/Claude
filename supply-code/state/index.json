@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1959,
+  "next_seq": 1960,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -11734,6 +11734,12 @@
       "case_id": "SCJ-1955",
       "source_basename": "WRIC(A)_11087_2019.pdf",
       "title": "Mahesh Verma Agro Food Corporation Pvt. Ltd. v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1956",
+      "source_basename": "WRIC(A)_1109_2019.pdf",
+      "title": "Preetmesh Pal v. State of U.P.",
       "status": "done"
     }
   ]
