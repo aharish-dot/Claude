@@ -1,0 +1,55 @@
+{
+  "case_id": "SCJ-1744",
+  "title": "Shyam Kumar v. Madhyanchal Vidyut Vitaran Nigam Ltd.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J.; Ajay Bhanot, J.",
+  "date_of_judgment": "2018-03-30",
+  "date_display": "30 March 2018",
+  "docket": "WRIT - C No. 11598 of 2018",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; demand and final assessment quashed; fresh assessment directed.",
+  "headnote": "A Division Bench quashed a demand of Rs.53,37,347 and the ensuing final assessment because the provisional assessment notice under clause 6.8(b) of the U.P. Electricity Supply Code, 2005 specified neither a hearing date and time nor the basis of the demand. Following Ashok Kumar v. State of U.P., the Court held that the consumer had not been afforded the opportunity required by para 6.8(b), and directed a fresh assessment in accordance with that procedure within three weeks.",
+  "facts": "Shyam Kumar, a consumer of Madhyanchal Vidyut Vitaran Nigam Ltd., challenged a demand notice dated 24 November 2017 for Rs.53,37,347 issued in his name and a final assessment order dated 9 March 2018. He relied on clause 6.8(b)(1) of the U.P. Electricity Supply Code, 2005, contending that the provisional assessment notice fixed no date, time or place for hearing, stated no basis for the sum demanded, and that the licensee then completed the final assessment without any notice or opportunity of hearing.",
+  "reusable_constructions": [
+    {
+      "construction": "A provisional assessment notice under clause 6.8(b) of the U.P. Electricity Supply Code, 2005 must itself specify the date and time for hearing; omission of that fixture vitiates the subsequent final assessment.",
+      "paras": "1"
+    },
+    {
+      "construction": "A provisional assessment notice that does not disclose the basis of the sum assessed, followed by a final assessment without any further notice, does not afford the opportunity required by clause 6.8(b).",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "UP-2005",
+      "clause": "6.8(b)",
+      "topic": "provisional assessment notice — hearing fixture and basis",
+      "type": "supply_code",
+      "holding": "A provisional assessment notice that neither specifies the date and time for hearing nor states the basis of the sum assessed is not in accordance with clause 6.8(b) of the U.P. Electricity Supply Code, 2005. Where the licensee then proceeds to a final assessment without any notice or opportunity of hearing, the consumer has not been afforded the opportunity required by para 6.8(b). The demand notice dated 24.11.2017 and the final assessment order dated 09.03.2018 are quashed; fresh assessment is to be carried out in the light of Ashok Kumar v. State of U.P., 2008 (6) ADJ 660 (DB) and the prescribed procedure within three weeks of production of a certified copy.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "merits and quantum of the assessment of Rs.53,37,347",
+      "note": "Demand and final assessment were quashed solely for a defective provisional notice; a fresh assessment was directed.",
+      "paras": "1"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008 (6) ADJ 660 (DB)",
+      "cited_by": "Court",
+      "pin": "paras 56-64"
+    }
+  ]
+}
