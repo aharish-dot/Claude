@@ -1,0 +1,54 @@
+{
+  "case_id": "SCJ-1449",
+  "title": "Mohar Singh v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari and Vinod Kumar Misra, JJ.",
+  "date_of_judgment": "2016-05-03",
+  "date_display": "3 May 2016",
+  "docket": "WRIT - C No. 19832 of 2016",
+  "page_count": 1,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; recovery citation quashed for defective 6.8(b) notice.",
+  "headnote": "A provisional assessment notice under clause 6.8(b) of the U.P. Electricity Supply Code, 2005 must specify a date of hearing and disclose the basis of the assessed amount. Absence of either vitiates the notice and the recovery founded on it. Recovery citation dated 25 February 2016 quashed; final assessment to be completed within six weeks after considering the consumer's objections, with reasons, in light of Ashok Kumar v. State of U.P.",
+  "facts": "Mohar Singh challenged a recovery citation dated 25 February 2016 issued after a provisional assessment of Rs 1,18,201. He said he never received that notice, could not reply, and the licensee treated the assessment as final. Counsel relied on clause 6.8(b)(1) of the U.P. Electricity Supply Code, 2005, which requires the notice itself to fix a date for hearing, and undertook to file objections within two weeks. The Court examined the provisional assessment notice on the record.",
+  "reusable_constructions": [
+    {
+      "construction": "A provisional assessment notice under clause 6.8(b) of the U.P. Electricity Supply Code, 2005 must itself specify a date for hearing; omission of that date vitiates the notice and any recovery founded on it.",
+      "paras": "4,6-7"
+    },
+    {
+      "construction": "The notice must also disclose the basis of the assessed amount; a demand that does not show how the figure was arrived at does not afford the opportunity clause 6.8(b) requires.",
+      "paras": "6-7"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "UP-2005",
+      "clause": "6.8(b)",
+      "topic": "provisional assessment notice — date of hearing and basis of demand",
+      "type": "supply_code",
+      "holding": "Because the provisional assessment notice neither specified a date of hearing as required by clause 6.8(b) nor gave the basis on which the petitioner was assessed at Rs 1,18,201, it was not in accordance with law and did not afford the opportunity clause 6.8(b) requires. The recovery citation dated 25 February 2016 was quashed. Final assessment is to be made within six weeks after considering the petitioner's objections, with reasons meeting those objections, in the light of Ashok Kumar v. State of U.P.",
+      "paras": "4,6-8"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Merits of the Rs 1,18,201 assessment",
+      "note": "Final assessment remitted to the licensee to be completed within six weeks after considering the petitioner's objections, with reasons, in light of Ashok Kumar.",
+      "paras": "8"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008 (6) ADJ 660 (DB)",
+      "cited_by": "5,8"
+    }
+  ]
+}
