@@ -1,0 +1,45 @@
+{
+  "case_id": "SCJ-1912",
+  "title": "S.N. Singh v. State of U.P. — recovery of disputed energy dues kept in abeyance pending CGRF stay application",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari and Ajay Bhanot, JJ.",
+  "date_of_judgment": "2018-02-12",
+  "date_display": "12 February 2018",
+  "docket": "Writ-C No. 5565 of 2018",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; CGRF to consider stay; recovery stayed six weeks",
+  "headnote": "A consumer already relegated to the Consumer Grievances Redressal Forum under Clause 7.10 of the U.P. Electricity Supply Code, 2005, and whose billing complaint is pending there, cannot have the High Court decide outstanding energy dues on a further writ merely because the licensee has issued a recovery citation. Regulation 6.10 of the Consumer Grievances Redressal Forum and Electricity Ombudsman Regulations, 2007 empowers the Forum to pass interim orders pending disposal of the complaint. The Court directed the petitioner to apply to the Forum for stay of recovery within two weeks, required the Forum to decide that application by a reasoned speaking order after hearing within four weeks, and kept the recovery in abeyance for six weeks or until disposal of the complaint, with the protection to lapse if the stay application was not filed in time.",
+  "facts": "The petitioner challenged a recovery citation issued by the electricity corporation for alleged outstanding energy charges. Two earlier writs on the same dues had been filed: one was disposed of and the other dismissed because Clause 7.10 of the U.P. Electricity Supply Code, 2005 required the dispute to go to the Consumer Grievances Redressal Forum and Ombudsman. The petitioner then filed a Forum complaint, still pending. The corporation nonetheless issued a citation to recover the disputed amount as arrears of land revenue, while allegedly not appearing before the Forum.",
+  "holding_units": [
+    {
+      "provision": "CGRF-2007::6.10",
+      "code": "CGRF-2007",
+      "clause": "6.10",
+      "topic": "interim-stay-of-recovery-pending-forum-complaint",
+      "type": "supply_code",
+      "holding": "Where a billing complaint against outstanding electricity charges is already pending before the Consumer Grievances Redressal Forum, the High Court will not decide the dues or quash the recovery citation on writ. Regulation 6.10 of the 2007 Forum Regulations empowers the Forum to pass such interim orders as it considers necessary pending final disposal. The consumer may apply to the Forum for stay of recovery; the Forum shall decide that application in accordance with law by a reasoned speaking order after hearing all concerned. Recovery of the disputed amount may be kept in abeyance for a limited period to enable that application, and the protection stands vacated if the stay application is not filed in time.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-7.10-forum-ombudsman-route-for-billing-grievances",
+      "application": "A prior writ on the same outstanding energy charges had already been dismissed because Clause 7.10 of the Supply Code required the consumer to approach the Forum and Ombudsman. With that complaint still pending, the Court again refused to decide the billing dispute on writ and sent the petitioner to the Forum for interim relief.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits of the outstanding electricity charges and validity of the recovery citation",
+      "note": "The Court did not examine whether the dues were payable; it only enabled a stay application before the pending Forum complaint.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
