@@ -1,0 +1,77 @@
+{
+  "case_id": "SCJ-1765",
+  "title": "Munna Lal v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Amreshwar Pratap Sahi, J.; Shashi Kant, J.",
+  "date_of_judgment": "2018-05-04",
+  "date_display": "4 May 2018",
+  "docket": "WRIT - C No. 16025 of 2018",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ consigned; relegated to s.127; recovery abides appeal.",
+  "headnote": "Where a final assessment has been made after registered-post service of the provisional assessment notice, the consumer’s remedy is an appeal under section 127 of the Electricity Act, 2003. The High Court will not interfere with consequential recovery; if an appeal is filed, recovery shall abide the appellate order.",
+  "facts": "Munna Lal challenged recovery after a provisional and then a final assessment for consumption and alleged unauthorised use, following action under ss. 138/139 of the Electricity Act, 2003. He had twice obtained earlier writ relief: WP 45089 of 2016 quashed recovery with liberty for a fresh notice, and WP 7305 of 2017 was allowed following Ashok Kumar. The licensee treated this demand as a separate assessment and produced registered-post receipts for the 2017 notices and the final order of 6 November 2017.",
+  "reusable_constructions": [
+    {
+      "construction": "Registered-post dispatch of the provisional assessment notice, the final assessment order, and the recovery notice, evidenced by post-office receipts, can satisfy the court that Clause 6.8 steps were taken before final assessment.",
+      "paras": "1"
+    },
+    {
+      "construction": "Once a final assessment stands, the writ court will not interfere with consequential recovery. The consumer’s remedy is a section 127 appeal; if an appeal is filed, recovery shall abide the appellate order.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "UP-2005",
+      "clause": "6.8(b)",
+      "topic": "service of provisional and final assessment notices",
+      "type": "supply_code",
+      "holding": "On the licensee’s post-office dispatch receipts, the Court was satisfied that appropriate steps had been taken before the final assessment dated 6 November 2017: registered-post dispatch of the provisional assessment notice, of that final order (17 November 2017), and of the recovery notice dated 8 December 2017.",
+      "paras": "1",
+      "flag": "The 3 May 2018 listing order asked about Clause 6.8 (1) (b)(i). The 4 May disposal does not restate a numbered sub-clause. Catalog key 6.8(b) is the nearest hit; the court’s (1)(b)(i) numbering is not silently recast."
+    },
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "appeal against final assessment; writ and recovery",
+      "type": "electricity_act",
+      "holding": "The final assessment may be assailed by appeal under section 127 of the Electricity Act, 2003 (styled in the order as the U.P. Electricity Act, 2003). The Court declined to interfere with consequential recovery. If an appeal is filed or any orders are passed, recovery shall abide the appellate order. The writ petition was consigned to records.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Merits or quantum of the final assessment dated 6 November 2017",
+      "paras": "1"
+    },
+    {
+      "point": "Limitation for a section 127 appeal",
+      "paras": "1"
+    },
+    {
+      "point": "Whether the present assessment is the same demand as in WP 45089 of 2016 or WP 7305 of 2017",
+      "note": "The licensee said those petitions concerned a different assessment; the Court recorded the contention without deciding identity.",
+      "paras": "1"
+    },
+    {
+      "point": "Criminal action under ss. 138/139",
+      "note": "Recited as the originating action; not adjudicated.",
+      "paras": "1"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008 (6) ADJ 660",
+      "cited_by": "1"
+    }
+  ]
+}
