@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1414,
+  "next_seq": 1415,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -8464,6 +8464,12 @@
       "case_id": "SCJ-1410",
       "source_basename": "WRIC(A)_1104_2016.pdf",
       "title": "Maa Kaila Foundries Pvt. Ltd. v. Dakhsinanchal Vidyut Vitran Nigam Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1411",
+      "source_basename": "WRIC(A)_11201_2016.pdf",
+      "title": "Manoj Singh v. Purvanchal Vidyut Vitran Nigam Ltd.",
       "status": "done"
     }
   ]
