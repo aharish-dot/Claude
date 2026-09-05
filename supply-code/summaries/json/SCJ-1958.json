@@ -1,0 +1,43 @@
+{
+  "case_id": "SCJ-1958",
+  "title": "Azijurrahman v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Pankaj Mithal, J. and Prakash Padia, J.",
+  "date_of_judgment": "2019-04-08",
+  "date_display": "8 April 2019",
+  "docket": "WRIT - C No. 11494 of 2019",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; consumer relegated to Executive Engineer under clause 6.5.",
+  "headnote": "On a challenge to electricity arrears of Rs 3,60,000 after alleged permanent disconnection, the High Court did not decide the merits. It disposed of the writ by relegating the consumer to a comprehensive representation before the Executive Engineer under clause 6.5 of the U.P. Electricity Supply Code, 2005, and stayed coercive recovery of the disputed amount pending that decision, with recovery to proceed if no representation was filed in time.",
+  "facts": "The petitioner, Azijurrahman, approached the Allahabad High Court against a demand of Rs 3,60,000 as arrears of electricity dues. He contended that his supply had been permanently disconnected on 21 November 2017, yet the demand was still raised. Counsel for the distribution licensee submitted that although there was a report of permanent disconnection, no certificate had been issued, so the connection remained in existence, and that several electricity bills were in dispute, which the Executive Engineer could resolve.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "billing-objection-to-executive-engineer-under-6.5",
+      "type": "supply_code",
+      "holding": "Clause 6.5 of the U.P. Electricity Supply Code, 2005 provides for settlement of disputes regarding bills and arrears of electricity dues. A writ challenging such a demand may be disposed of by relegating the consumer to a comprehensive representation before the concerned Executive Engineer, to be decided by a speaking order in accordance with law; coercive recovery of the disputed amount is to remain in abeyance until that decision, but recovery may proceed if no representation is filed within the time allowed.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the 21.11.2017 permanent disconnection was effective in the absence of a certificate, and whether the connection therefore remained in existence.",
+      "note": "Left to the Executive Engineer on the consumer's representation.",
+      "paras": "1"
+    },
+    {
+      "point": "Correctness of the Rs 3,60,000 arrears demand and the several disputed electricity bills.",
+      "note": "No merits determination; relegated under clause 6.5.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
