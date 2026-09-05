@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1827,
+  "next_seq": 1828,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -10942,6 +10942,12 @@
       "case_id": "SCJ-1823",
       "source_basename": "WRIC(A)_28615_2018.pdf",
       "title": "Stay of Permanent Lok Adalat refund of electricity-arrears deposits; Clause 6.5 noted",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1825",
+      "source_basename": "WRIC(A)_28822_2018.pdf",
+      "title": "Ikbal Hussain v. Managing Director, Madhyanchal Vidyut Vitaran Nigam Ltd.",
       "status": "done"
     }
   ]
