@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1640,
+  "next_seq": 1641,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -9820,6 +9820,12 @@
       "case_id": "SCJ-1636",
       "source_basename": "WRIC(A)_33311_2017.pdf",
       "title": "Madhu Tiwari v. State of U.P. — liberty to appeal final electricity assessment",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1637",
+      "source_basename": "WRIC(A)_34211_2017.pdf",
+      "title": "Mulayam Singh v. U.P. Power Corporation, Lucknow",
       "status": "done"
     }
   ]
