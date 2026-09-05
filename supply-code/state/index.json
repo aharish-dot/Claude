@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1609,
+  "next_seq": 1610,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -9634,6 +9634,12 @@
       "case_id": "SCJ-1605",
       "source_basename": "WRIC(A)_20029_2017.pdf",
       "title": "Santosh Stationary (P) Ltd. v. PuVVNL — CGRF order, Ombudsman under 7.10(iv)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1606",
+      "source_basename": "WRIC(A)_20054_2017.pdf",
+      "title": "Shiv Shankar v. U.P. Power Corporation",
       "status": "done"
     }
   ]
