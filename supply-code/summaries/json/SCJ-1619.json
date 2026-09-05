@@ -1,0 +1,43 @@
+{
+  "case_id": "SCJ-1619",
+  "title": "Ram Chandar v. Dakshinanchal Vidyut Vitran Nigam Ltd.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Dilip Gupta, J. and Siddhartha Varma, J.",
+  "date_of_judgment": "2017-03-21",
+  "date_display": "21 March 2017",
+  "docket": "WRIT - C No. 2544 of 2017",
+  "page_count": 4,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; electricity bill dispute relegated to Clause 6.5.",
+  "headnote": "A writ raising an electricity-bill dispute is not to be entertained where Clause 6.5 of the Electricity Supply Code, 2005 furnishes the forum for resolution; the petition is dismissed.",
+  "facts": "Ram Chandar petitioned the Allahabad High Court against Dakshinanchal Vidyut Vitran Nigam Ltd. and two others over electricity billing. On 19 January 2017 the Court granted the licensee a week to enquire whether any provisional assessment had been made before a recovery citation issued. After an illness-slip adjournment and a further listing, the petition was heard on 21 March 2017, when counsel for the respondents submitted that the bill dispute could be resolved under Clause 6.5 of the Electricity Supply Code, 2005.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "bill-dispute-writ-not-maintainable",
+      "type": "supply_code",
+      "holding": "A writ petition whose dispute is about electricity bills is not to be entertained, because such a dispute can be resolved under Clause 6.5 of the Electricity Supply Code, 2005; the petition is dismissed.",
+      "paras": "4"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "correctness of the electricity bills",
+      "note": "Merits left to Clause 6.5; writ not entertained.",
+      "paras": "4"
+    },
+    {
+      "point": "whether provisional assessment preceded the recovery citation",
+      "note": "Enquiry directed on 19 January 2017 was never answered on the record.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
