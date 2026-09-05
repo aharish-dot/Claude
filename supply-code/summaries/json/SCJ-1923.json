@@ -1,0 +1,59 @@
+{
+  "case_id": "SCJ-1923",
+  "title": "Gabboo Singh v. State of U.P. and Anr.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J.; Ajay Bhanot, J.",
+  "date_of_judgment": "2018-02-28",
+  "date_display": "28 February 2018",
+  "docket": "Writ-C No. 7986 of 2018",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; assessment notice quashed; fresh assessment directed",
+  "headnote": "A provisional assessment notice that neither states the basis of the assessed sum nor specifies a date and time for hearing fails para 6.8(b) of the U.P. Electricity Supply Code, 2005, and does not afford the consumer the opportunity the Code requires. The Division Bench quashed the 27 December 2017 assessment notice and directed a fresh provisional assessment, consideration of objections, and a reasoned final order after hearing, following Ashok Kumar v. State of U.P., 2008 (6) ADJ 660 (DB).",
+  "facts": "Gabboo Singh challenged recovery of a Rs.2,08,579 electricity assessment after the licensee issued a recovery certificate. He said he never received the provisional assessment notice dated 27 December 2017 and learned of it only on recovery, so he could not file a reply. On its face the notice did not state the basis of the assessed sum or fix a date and time for hearing. He sought quashing of the assessment and a fresh opportunity under the U.P. Electricity Supply Code, 2005.",
+  "reusable_constructions": [
+    {
+      "construction": "Para 6.8(b) of the U.P. Electricity Supply Code, 2005 requires the licensee to fix a date and time for hearing in the provisional assessment notice itself; a notice that omits both is not in accordance with law and denies adequate opportunity.",
+      "paras": "unnumbered"
+    },
+    {
+      "construction": "A provisional assessment notice must disclose the basis on which the consumer is assessed to a stated sum; a notice silent on that basis is legally inadequate.",
+      "paras": "unnumbered"
+    },
+    {
+      "construction": "Where the provisional assessment notice is bad, the assessment is quashed and the licensee must issue a fresh provisional assessment, consider objections, and pass a reasoned final order after hearing.",
+      "paras": "unnumbered"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "UP-2005",
+      "clause": "6.8(b)",
+      "topic": "provisional assessment notice — hearing date and basis of assessment",
+      "type": "supply_code",
+      "holding": "Para 6.8(b) of the U.P. Electricity Supply Code, 2005 requires the licensee, when issuing a provisional assessment notice, to fix a date and time in the notice itself for hearing. The 27 December 2017 notice assessed the petitioner at Rs.2,08,579 without stating the basis of that figure and without specifying any date or time for hearing. The notice was therefore not in accordance with law and the petitioner was not afforded the opportunity 6.8(b) requires. The writ is allowed; the impugned assessment notice dated 27 December 2017 is quashed; the respondents must prepare and serve a fresh provisional assessment and make the final assessment after considering objections, granting a hearing, and giving reasons, in the light of Ashok Kumar v. State of U.P., 2008 (6) ADJ 660 (DB).",
+      "paras": "unnumbered",
+      "flag": "Counsel invoked Clause 6.8(b)(1); the Court held under para 6.8(b)."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner in fact received the notice, and the merits or quantum of the Rs.2,08,579 assessment",
+      "note": "The Court quashed on the face of the notice and remitted a fresh provisional assessment with hearing; it did not decide receipt or underlying liability.",
+      "paras": "unnumbered"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar & Ors. v. State of U.P. & Ors.",
+      "citation": "2008 (6) ADJ 660 (DB)",
+      "cited_by": "unnumbered"
+    }
+  ]
+}
