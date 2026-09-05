@@ -1,0 +1,41 @@
+{
+  "case_id": "SCJ-1728",
+  "title": "Salik Ram v. Jhabbu Lal (Exe. Engineer South Division)",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Single Judge",
+  "coram": "Yashwant Varma, J.",
+  "date_of_judgment": "2018-01-24",
+  "date_display": "24 January 2018",
+  "docket": "Contempt Application (Civil) No. 320 of 2018",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "none",
+  "model": "Grok 4.6",
+  "disposition": "Contempt petition dismissed for want of proof of Clause 6.5/6.7 pre-deposit.",
+  "headnote": "A contempt petition alleging non-compliance of a 22 May 2017 direction that a billing representation be decided under Clause 6.5 of the U.P. Electricity Supply Code, 2005, cannot be entertained where the applicants produce no evidence of the pre-deposit under Clause 6.5 read with Clause 6.7, or of an application for its waiver. Those provisions require such deposit or waiver before the representation can be decided. Petition dismissed.",
+  "facts": "The applicants instituted a civil contempt petition alleging non-compliance of this Court's directions dated 22 May 2017. Those directions had arisen from an electricity-bill dispute: the earlier writ was disposed of by directing the competent authority to proceed in accordance with Clause 6.5 of the U.P. Electricity Supply Code, 2005. On the contempt listing, counsel could not say whether the applicants had made the pre-deposit contemplated under Clause 6.5 read with Clause 6.7, or applied for its waiver.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "pre-deposit for Clause 6.5 billing representation",
+      "type": "supply_code",
+      "holding": "A representation under Clause 6.5 of the U.P. Electricity Supply Code, 2005, cannot be decided unless the consumer has made the pre-deposit contemplated by Clause 6.5 read with Clause 6.7, or has applied for waiver of that deposit. A contempt petition alleging non-decision of such a representation is not entertainable without evidence that this mandated procedure was followed.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the applicants had made the Clause 6.5/6.7 pre-deposit or applied for its waiver",
+      "paras": "1"
+    },
+    {
+      "point": "Whether the 22 May 2017 directions were disobeyed, or the correctness of the disputed electricity bill",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
