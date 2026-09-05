@@ -1,0 +1,43 @@
+{
+  "case_id": "SCJ-1366",
+  "title": "Rajesh Kumar v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Arun Tandon, J. and Ashwani Kumar Mishra, J.",
+  "date_of_judgment": "2015-09-23",
+  "date_display": "23 September 2015",
+  "docket": "WRIT - C No. 54525 of 2015",
+  "page_count": 1,
+  "significance": "procedural",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; liberty to s.127 appeal or clause 6.5.",
+  "headnote": "A consumer dissatisfied with the quantum of an electricity bill must pursue Section 127 of the Electricity Act, 2003 or Clause 6.5 of the Electricity Supply Code, 2005; the writ is dismissed with liberty to those remedies.",
+  "facts": "Rajesh Kumar filed Writ-C No. 54525 of 2015 in the Allahabad High Court against the State of Uttar Pradesh and four others. He was aggrieved by the quantum of a bill issued by the respondent Electricity Department. Counsel for the parties were heard by a Division Bench. The petition did not record the sanctioned load, billing period, whether the demand was a regular energy bill or a section 126 assessment, or any prior objection before the licensee.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "bill-quantum-alternate-remedy",
+      "type": "interplay",
+      "holding": "Where the petitioner is not satisfied with the quantum of a bill issued by the electricity department, the remedies are an appeal under Section 127 of the Electricity Act, 2003 or an objection under Clause 6.5 of the Electricity Supply Code, 2005; the writ petition is dismissed with liberty to pursue those remedies.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Correctness of the billed quantum",
+      "note": "The Court did not examine the bill on merits.",
+      "paras": "1"
+    },
+    {
+      "point": "Which of Section 127 or Clause 6.5 applies",
+      "note": "Both remedies are named in the alternative without deciding whether the demand was a final assessment appealable under Section 127 or a billing dispute under Clause 6.5.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
