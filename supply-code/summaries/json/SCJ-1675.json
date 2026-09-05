@@ -1,0 +1,39 @@
+{
+  "case_id": "SCJ-1675",
+  "title": "Smt. Archana Prahladika v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Dilip B. Bhosale, C.J.; Yashwant Varma, J.",
+  "date_of_judgment": "2017-09-21",
+  "date_display": "21 September 2017",
+  "docket": "WRIT - C No. 44198 of 2017",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; deposit 50% then restoration considered under Code",
+  "headnote": "A consumer provisionally assessed for unauthorised extraction of electricity cannot have that assessment examined on merits in a writ petition when the U.P. Electricity Supply Code, 2005 supplies a detailed adjudicatory mechanism, which must be followed. By consent the petition was disposed of with a direction to deposit 50% of the claimed amount within two weeks, after which the licensee may consider restoration in accordance with law.",
+  "facts": "Smt. Archana Prahladika, a consumer of the distribution licensee, was provisionally assessed for unauthorised extraction of electricity and a demand was raised. She petitioned the Allahabad High Court to quash the assessment and restore supply. After an earlier listing, a Division Bench of the Chief Justice and Yashwant Varma, J. heard the matter. Licensee's counsel submitted that if 50% of the claimed amount were deposited within a reasonable time, restoration and reconnection would be considered.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8",
+      "code": "UP-2005",
+      "clause": "6.8",
+      "topic": "unauthorised use — writ not to try merits; restoration on 50% deposit",
+      "type": "supply_code",
+      "holding": "The U.P. Electricity Supply Code, 2005 puts in place a detailed mechanism for adjudication of disputes over provisional assessment for unauthorised extraction of electricity, and that procedure must be followed if the consumer wishes to challenge the assessment on merits. A writ against such a demand was disposed of by consent directing deposit of 50% of the amount claimed within two weeks, after which the licensee may consider restoration of supply in accordance with law.",
+      "paras": "1",
+      "flag": "Order invokes the Code generally, without a clause number; keyed as 6.8 (unauthorised use / provisional assessment / 50% deposit for restoration)."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Merits of the provisional assessment for unauthorised extraction",
+      "note": "Consumer relegated to the Supply Code mechanism; the Court did not examine whether the assessment was correct.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
