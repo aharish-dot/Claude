@@ -1,0 +1,48 @@
+{
+  "case_id": "SCJ-1436",
+  "title": "Pavan Kumar v. Dakshinanchal Vidut Vitran Nigam Ltd.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J.; Vinod Kumar Misra, J.",
+  "date_of_judgment": "2016-04-13",
+  "date_display": "13 April 2016",
+  "docket": "WRIT - C No. - 16761 of 2016",
+  "page_count": 1,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; recovery citation quashed; reasoned final assessment directed.",
+  "headnote": "A Division Bench quashed a recovery citation founded on a provisional assessment notice that neither fixed a hearing date nor disclosed the basis of an Rs 85,904 demand. Clause 6.8(b) of the U.P. Electricity Supply Code, 2005 requires that opportunity. The licensee must pass a reasoned final assessment within six weeks after considering the consumer's objections, following Ashok Kumar v. State of U.P.",
+  "facts": "Pavan Kumar petitioned the Allahabad High Court against a recovery citation dated 21 May 2015 issued by Dakshinanchal Vidut Vitran Nigam Ltd. after a provisional assessment of Rs 85,904 was treated as final. He said he had not received the provisional assessment notice and could not reply, and that Clause 6.8(b)(1) of the U.P. Electricity Supply Code, 2005 required the notice itself to fix a date for hearing. Counsel undertook to file objections to the provisional assessment within two weeks.",
+  "reusable_constructions": [
+    {
+      "construction": "Clause 6.8(b) of the U.P. Electricity Supply Code, 2005 requires the provisional assessment notice itself to specify a date for hearing; a notice that omits that date does not afford the opportunity the Code requires, and a recovery citation founded on it is liable to be quashed.",
+      "paras": "1"
+    },
+    {
+      "construction": "A provisional assessment notice that does not disclose the basis of the amount demanded is not in accordance with the Supply Code; the final assessment that follows must consider the consumer's objections and give reasons meeting those objections.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "UP-2005",
+      "clause": "6.8(b)",
+      "topic": "provisional assessment notice — hearing date and basis",
+      "type": "supply_code",
+      "holding": "A provisional assessment notice that neither indicates a date for hearing nor discloses the basis of the assessed amount does not afford the opportunity required by Clause 6.8(b) of the U.P. Electricity Supply Code, 2005. The recovery citation dated 21.05.2015 is quashed. Final assessment shall be made within six weeks after considering the petitioner's objections, with reasons meeting those objections, in light of Ashok Kumar v. State of U.P.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008 (6) ADJ 660",
+      "cited_by": "1"
+    }
+  ]
+}
