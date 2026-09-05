@@ -1,0 +1,38 @@
+{
+  "case_id": "SCJ-1326",
+  "title": "Arun Kumar v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Tarun Agarwala and Amar Singh Chauhan, JJ.",
+  "date_of_judgment": "2015-03-27",
+  "date_display": "27 March 2015",
+  "docket": "Writ - C No. 16333 of 2015",
+  "page_count": 1,
+  "significance": "procedural",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; petitioner relegated to clause 6.5 bill objection",
+  "headnote": "On a writ seeking deletion of electricity arrears of Rs.17,300 as incorrectly billed, the Allahabad High Court held that the consumer has a remedy of applying under paragraph 6.5 of the Electricity Supply Code, 2005, and disposed of the petition directing that if such an application is made, the competent authority shall decide it by a reasoned speaking order after hearing, within three weeks of production of a certified copy.",
+  "facts": "Arun Kumar alias Arun Kumar Tiwari filed Writ-C No. 16333 of 2015 in the Allahabad High Court against the State of Uttar Pradesh and three others, seeking correction of his electricity bill. He contended that arrears of Rs.17,300 shown in the bill were incorrect and ought to be deleted. Counsel for both sides were heard. The order records no particulars of the connection, billing period, meter, or how the arrears were assessed.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "billing objection — writ relegated to Supply Code remedy",
+      "type": "supply_code",
+      "holding": "A consumer who disputes the correctness of electricity arrears shown in a bill and seeks their deletion has a remedy of filing an application under paragraph 6.5 of the Electricity Supply Code, 2005. The writ is disposed of with a direction that if such an application is made, the competent authority shall consider and decide the matter by a reasoned speaking order after due opportunity of hearing, within three weeks of production of a certified copy of the order.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the arrears of Rs.17,300 shown in the petitioner’s electricity bill were incorrect and liable to be deleted",
+      "note": "Left to the competent authority on a clause 6.5 application",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
