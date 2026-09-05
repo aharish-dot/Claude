@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1804,
+  "next_seq": 1805,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -10804,6 +10804,12 @@
       "case_id": "SCJ-1800",
       "source_basename": "WRIC(A)_23332_2018.pdf",
       "title": "Prahlad Singh v. Dashchianchal Vidyut Vitran Nigam Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1801",
+      "source_basename": "WRIC(A)_23840_2018.pdf",
+      "title": "Mohd. Yameen v. U.P. Power Corporation / Paschimanchal Electricity Distribution Corporation Ltd.",
       "status": "done"
     }
   ]
