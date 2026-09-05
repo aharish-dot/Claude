@@ -1,0 +1,38 @@
+{
+  "case_id": "SCJ-1432",
+  "title": "Shashank Gupta v. State of U.P.",
+  "neutral_citation": "Writ-C No. 16400 of 2016",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J.; Vinod Kumar Misra, J.",
+  "date_of_judgment": "2016-04-12",
+  "date_display": "12 April 2016",
+  "docket": "Writ-C No. 16400 of 2016",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; bill-accuracy dispute relegated to cl. 6.5(b); recovery stayed pending representation.",
+  "headnote": "A consumer disputing bill accuracy, even after a recovery certificate has issued, must proceed under clause 6.5(b) of the U.P. Electricity Supply Code 2005: deposit six-month average charges and complain to the Executive Engineer as competent authority, to be decided within seven days. Recovery stays until that decision if the representation is made within 15 days.",
+  "facts": "Shashank Gupta held a 49 kV connection for a mini flour mill. He alleged the mill had ceased running and that he had applied for disconnection, yet the Executive Engineer still raised a bill he said was incorrect. Instead of correcting it, the Engineer issued a recovery certificate dated 10 February 2016 for Rs.4,54,461. The writ challenged that certificate. Counsel for the respondents stated that the Executive Engineer is the competent authority to decide a bill-accuracy complaint under the Supply Code.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5(b)",
+      "code": "UP-2005",
+      "clause": "6.5(b)",
+      "topic": "bill-accuracy dispute; deposit of six-month average and complaint to competent authority",
+      "type": "supply_code",
+      "holding": "Clause 6.5(b) of the U.P. Electricity Supply Code 2005 is the statutory remedy where a consumer disputes the accuracy of a bill. The consumer may deposit charges calculated on the average of the preceding six months' bills and file a complaint with the competent authority (here, the Executive Engineer), who shall decide it within seven days. This writ against a recovery certificate of Rs.4,54,461 is disposed of on those directions; recovery remains stayed until disposal of a representation made within 15 days, failing which the order will not benefit the petitioner.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "whether the disputed bill was inaccurate or the recovery certificate dated 10.2.2016 was valid on merits",
+      "note": "Writ disposed by relegating the consumer to clause 6.5(b) without examining the bill or the recovery certificate.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
