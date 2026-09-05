@@ -47,6 +47,16 @@ Cases vary 8→38pp, so a fixed case count swings token cost wildly. Size batche
    reports.
 4. Do not schedule follow-ups or process a second batch unless the user asks.
 
+## Provenance — airtight (never skip)
+- **Every case authored by this pipeline is stamped `model: "Claude Opus 4.8"`** by
+  `scj_claude.py finalize` (unconditional; `MODEL` constant → `c["model"] = MODEL`).
+  The `model` field records *who authored the digest* — that is its whole purpose — so
+  Claude cases read `"Claude Opus 4.8"`, Grok cases `"Grok 4.6"`. Never blank it, never
+  set it to the other engine, and never author a case through Grok's `tools/` (that
+  stamps `"Grok 4.6"`). Every commit also carries the `Co-Authored-By: Claude Opus 4.8`
+  + `Claude-Session:` trailer. If you ever author a case by hand as a fallback, set
+  `model: "Claude Opus 4.8"` yourself before finalize.
+
 ## Notes
 - The pipeline is resumable by construction: `claim --next` advances through the
   manifest (skipping finalized cases), so "next batch" always continues where the
