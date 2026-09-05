@@ -1,0 +1,49 @@
+{
+  "case_id": "SCJ-1357",
+  "title": "Silverton Pulp — cl. 4.49 cannot block additional load for stayed arrears",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Dilip Gupta, J. and Vinod Kumar Misra, J.",
+  "date_of_judgment": "2015-08-17",
+  "date_display": "17 August 2015",
+  "docket": "Writ-C No. 45438 of 2015",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Additional 500 KVA directed; writ later dismissed by reference",
+  "headnote": "On a statement that the controversy matched Writ Petition No. 18855 of 2008, the Court connected this petition with that writ and directed Paschimanchal Vidyut Vitran Nigam Ltd. to release an additional 500 KVA load without a bank guarantee for arrears already stayed in Writ Petition No. 25603 of 2007. Clause 4.49 of the U.P. Electricity Supply Code, 2005 could not, on that ground alone, justify withholding additional load while those dues remained stayed and sub judice; other charges remained payable. A later Division Bench (Dilip B. Bhosale, C.J. and Yashwant Varma, J.) dismissed the petition on 21 March 2017, referring to the order of that date in Writ-C No. 30898 of 2016.",
+  "facts": "M/s Silverton Pulp and Papers applied to Paschimanchal Vidyut Vitran Nigam Ltd. for an additional 500 KVA load. The licensee demanded a bank guarantee equal to arrears stayed in Writ Petition No. 25603 of 2007, refusing the load under clause 4.49 of the U.P. Electricity Supply Code, 2005. The consumer said the dispute matched Writ Petition No. 18855 of 2008, where like interim relief had been granted. On 21 March 2017 a later Bench dismissed this petition by reference to Writ-C No. 30898 of 2016.",
+  "reusable_constructions": [
+    {
+      "construction": "A licensee cannot refuse additional load under clause 4.49 of the U.P. Electricity Supply Code, 2005 by insisting on a bank guarantee equal to arrears that the High Court has already stayed in a pending writ; other lawful charges remain payable.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.49",
+      "code": "UP-2005",
+      "clause": "4.49",
+      "topic": "additional load refused for stayed arrears",
+      "type": "supply_code",
+      "holding": "While alleged arrears remain stayed and the related writ is sub judice, the licensee cannot, under clause 4.49, refuse additional load by demanding a bank guarantee equivalent to those stayed dues, or refuse the load on that ground alone; other charges shall still be paid.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the arrears in Writ Petition No. 25603 of 2007 were in fact payable",
+      "note": "The 2015 order treated those dues as stayed and sub judice and did not examine the bill.",
+      "paras": "1"
+    },
+    {
+      "point": "Reasons for the 21 March 2017 dismissal",
+      "note": "The later Bench dismissed this petition by referring to the order of that date in Writ-C No. 30898 of 2016; that lead order is not in this extract.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
