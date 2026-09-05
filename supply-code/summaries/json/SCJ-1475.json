@@ -1,0 +1,46 @@
+{
+  "case_id": "SCJ-1475",
+  "title": "Krishna Gopal v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "V.K. Shukla, ACJ; Yashwant Varma, J.",
+  "date_of_judgment": "2016-06-06",
+  "date_display": "6 June 2016",
+  "docket": "Writ-C No. 27845 of 2016",
+  "page_count": 1,
+  "significance": "procedural",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; objections to provisional assessment, then statutory forum.",
+  "headnote": "Consumer sought a writ for reconnection. The licensee treated the case as theft, with a provisional assessment dated 18 April 2016 against which no statutory objections had been filed; the consumer said that order had not been supplied. A copy was handed over in court. The Division Bench did not decide reconnection. It gave ten days to file objections, three weeks for a final decision after receipt, and liberty thereafter to invoke the further remedial forum under the Electricity Act 2003 read with the U.P. Electricity Supply Code 2005.",
+  "facts": "Krishna Gopal petitioned the Allahabad High Court for reconnection of his electricity supply. When the writ was taken up, counsel for the distribution licensee stated that the case was one of theft of electricity, that a provisional assessment had been made on 18 April 2016, and that the petitioner had not filed statutory objections in time. The petitioner said the provisional assessment order had never been supplied to him. Counsel for the electricity department then handed over a copy of that assessment in court.",
+  "holding_units": [
+    {
+      "provision": "EA2003::126",
+      "code": "EA2003",
+      "clause": "126",
+      "topic": "provisional assessment — objections and further forum",
+      "type": "electricity_act",
+      "holding": "Where reconnection is sought in a matter the licensee treats as theft and a provisional assessment has been made, the writ court will not decide reconnection once a copy of that assessment is supplied in court. The consumer may file statutory objections within a short time; the authority must then take a final decision; further remedies lie under the Electricity Act 2003 read with the U.P. Electricity Supply Code 2005.",
+      "paras": "1",
+      "flag": "No section numbered. Keyed to s.126 from provisional assessment and statutory objections. Residual forum stated only as EA 2003 read with UP Supply Code 2005."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether reconnection was due on the merits",
+      "paras": "1"
+    },
+    {
+      "point": "Whether the disconnection was in fact for theft of electricity",
+      "paras": "1"
+    },
+    {
+      "point": "Whether the provisional assessment of 18.4.2016 had been served before the hearing",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
