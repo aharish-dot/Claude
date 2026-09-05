@@ -1,0 +1,48 @@
+{
+  "case_id": "SCJ-1590",
+  "title": "Uma Shankar Yadav v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J.; Sangeeta Chandra, J.",
+  "date_of_judgment": "2017-04-10",
+  "date_display": "10 April 2017",
+  "docket": "Writ - C No. 14527 of 2017",
+  "page_count": 1,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; demand notice dated 24.09.2016 quashed, with liberty to proceed afresh.",
+  "headnote": "A demand notice issued after a provisional assessment that neither disclosed the basis of the assessed sums nor invited objections with a date and time for hearing is de hors the U.P. Electricity Supply Code, 2005 and in gross violation of clause 6.8(b). Such a notice cannot be sustained and is liable to be quashed, without prejudice to the licensee proceeding in accordance with the prescribed procedure.",
+  "facts": "Uma Shankar Yadav challenged a demand notice dated 24 September 2016 for Rs.23,280 and Rs.2,56,959 issued in his name and that of his late mother by the Executive Engineer, Dakshinanchal Vidyut Vitran Nigam Ltd., Hathras. He had objected to the provisional assessment, but the licensee issued the demand without deciding the objection or passing a final assessment order. He alleged non-compliance with section 126(3) of the Electricity Act, 2003. The licensee sought to sustain the demand.",
+  "reusable_constructions": [
+    {
+      "construction": "A provisional assessment notice under the U.P. Electricity Supply Code, 2005 must invite objections and indicate a date and time for hearing of the consumer; a demand issued without that procedure is de hors clause 6.8(b) and cannot stand.",
+      "paras": "1"
+    },
+    {
+      "construction": "A provisional assessment notice that does not disclose the basis on which the consumer was assessed is unsustainable.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "UP-2005",
+      "clause": "6.8(b)",
+      "topic": "provisional assessment notice — objections and hearing",
+      "type": "supply_code",
+      "holding": "Where the provisional assessment notice does not state the basis of the assessed amounts and does not invite objections with a date and time for hearing, a subsequent demand notice is de hors the Supply Code and in gross violation of clause 6.8(b), and must be quashed, leaving the licensee free to proceed in accordance with law.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008 (6) ADJ 660 (DB)",
+      "cited_by": "Court"
+    }
+  ]
+}
