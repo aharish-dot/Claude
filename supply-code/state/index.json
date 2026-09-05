@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1736,
+  "next_seq": 1737,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -10396,6 +10396,12 @@
       "case_id": "SCJ-1731",
       "source_basename": "CAPL(L)_603_2018.pdf",
       "title": "Jai Vaishno Rice Mill v. Ram Sanehi Yadav",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1733",
+      "source_basename": "WRIC(A)_10135_2018.pdf",
+      "title": "Virendra Singh v. State of U.P.",
       "status": "done"
     }
   ]

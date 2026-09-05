@@ -1,0 +1,54 @@
+{
+  "case_id": "SCJ-1733",
+  "title": "Virendra Singh v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J.; Ajay Bhanot, J.",
+  "date_of_judgment": "2018-03-20",
+  "date_display": "20 March 2018",
+  "docket": "WRIT - C No. - 10135 of 2018",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; demand notice quashed; fresh assessment after objections.",
+  "headnote": "A provisional assessment notice under Clause 6.8(b) of the U.P. Electricity Supply Code, 2005 that neither specifies a date and time for hearing nor discloses the basis of the assessed amount does not afford the opportunity the Code requires. Demand of Rs.55,633 quashed; final assessment to be completed within six weeks after considering objections, with reasons, in the light of Ashok Kumar, 2008(6) ADJ 660 (DB).",
+  "facts": "Virendra Singh challenged a demand notice dated 8 January 2018 for Rs.55,633 issued in his name. He contended that he never received the provisional assessment notice, could not file a reply, and that the distribution licensee treated the assessment as final and issued a recovery certificate. Counsel undertook to submit objections within two weeks and argued that Clause 6.8(b)(1) of the U.P. Electricity Supply Code, 2005 required the notice itself to fix a date for hearing so that the consumer could appear.",
+  "reusable_constructions": [
+    {
+      "construction": "Clause 6.8(b) requires the provisional assessment notice itself to specify the date and time for hearing; a notice that omits that date does not afford the opportunity the Code provides.",
+      "paras": "4-8"
+    },
+    {
+      "construction": "A provisional assessment notice that does not disclose the basis of the amount assessed is not in accordance with the Supply Code and will not sustain the subsequent demand.",
+      "paras": "7-9"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "UP-2005",
+      "clause": "6.8(b)",
+      "topic": "provisional assessment notice — hearing date and basis",
+      "type": "supply_code",
+      "holding": "A provisional assessment notice under Clause 6.8(b) must specify the date and time for hearing and disclose the basis of the assessed amount. A notice that does neither does not afford the opportunity contemplated by Clause 6.8(b). The demand dated 08.01.2018 is quashed; final assessment shall be made within six weeks after considering the consumer's objections, with reasons meeting those objections, in the light of Ashok Kumar v. State of U.P., 2008(6) ADJ 660 (DB).",
+      "paras": "5-9"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Quantum and merits of the Rs.55,633 assessment",
+      "note": "Demand quashed for a defective provisional assessment notice; final assessment remitted to be made after considering objections.",
+      "paras": "9"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008(6) ADJ 660 (DB)",
+      "cited_by": "6"
+    }
+  ]
+}
