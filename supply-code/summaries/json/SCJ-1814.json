@@ -1,0 +1,39 @@
+{
+  "case_id": "SCJ-1814",
+  "title": "Tariq v. Pashimanchal Vidyut Vitran Nigam Ltd.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta, J.; Ajit Kumar, J.",
+  "date_of_judgment": "2018-08-09",
+  "date_display": "9 August 2018",
+  "docket": "WRIT - C No. 26992 of 2018",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; petitioner directed to appear before the Executive Engineer on 27.8.2018 with objections; speaking final order in accordance with law; reconnection not granted.",
+  "headnote": "After an alleged theft inspection, the licensee issued a provisional-assessment notice giving 15 days to object but fixing no date or time of hearing, and disconnected supply. Applying Clause 6.8(b) of the U.P. Electricity Supply Code, 2005, the Division Bench held that the assessing officer must appoint a date and time of hearing. Without restoring supply or deciding the theft, it directed the consumer to appear on 27 August 2018 with objections and the Executive Engineer to pass a speaking final order in accordance with law.",
+  "facts": "An inspection of the petitioner Tariq's house by officers of Pashimanchal Vidyut Vitran Nigam Ltd. allegedly found theft of electricity. The licensee then made a provisional assessment and issued a notice dated 1 August 2018 requiring objections within 15 days, without fixing any date or time of hearing. Electricity supply at the premises was disconnected. Tariq filed this writ petition seeking a mandamus to reconnect supply to the house.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "UP-2005",
+      "clause": "6.8(b)",
+      "topic": "date and time of hearing on provisional assessment",
+      "type": "supply_code",
+      "holding": "Clause 6.8(b) of the Electricity Supply Code, 2005 requires the assessing officer to fix a date and time of hearing on a provisional assessment. A notice that merely allows 15 days to object, without appointing a hearing, is non-compliant. The Court did not restore supply or quash the assessment; it fixed 27.8.2018 at 11 a.m. for the consumer to appear with objections and directed the Executive Engineer to pass a speaking final order after considering those objections in accordance with law.",
+      "paras": "1",
+      "flag": "Court applied Clause 6.8(b) to an alleged theft assessment without addressing Clauses 8.1–8.2."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "merits of alleged theft, validity of the provisional assessment, and reconnection of supply",
+      "note": "Court expressly declined to opine on merits; reconnection not granted; Executive Engineer to decide objections by speaking order in accordance with law.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
