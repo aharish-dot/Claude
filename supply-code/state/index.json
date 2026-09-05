@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1316,
+  "next_seq": 1317,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -7876,6 +7876,12 @@
       "case_id": "SCJ-1313",
       "source_basename": "CRLP(A)_3954_2015.pdf",
       "title": "Husain Ameer @ Bade Miyan v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1312",
+      "source_basename": "CRLP(A)_3938_2015.pdf",
+      "title": "Section 135 FIR not quashed; Cr.P.C. arrest safeguards and Supply Code compounding",
       "status": "done"
     }
   ]
