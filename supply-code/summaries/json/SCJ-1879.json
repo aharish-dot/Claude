@@ -1,0 +1,66 @@
+{
+  "case_id": "SCJ-1879",
+  "title": "Mukul Pandey v. State of U.P.",
+  "neutral_citation": "Writ-C No. 3896 of 2018",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J.; Ajay Bhanot, J.",
+  "date_of_judgment": "2018-01-30",
+  "date_display": "30 January 2018",
+  "docket": "WRIT - C No. 3896 of 2018",
+  "page_count": 1,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; 15.11.2017 demand quashed; fresh 6.8 assessment permitted.",
+  "headnote": "A consumer challenged a demand notice and recovery initiated without a Clause 6.8 provisional assessment notice, opportunity to object, or hearing. The Division Bench held that the U.P. Electricity Supply Code, 2005 must be strictly followed for assessment, including in theft cases (Ashok Kumar). Where no provisional assessment notice is shown and no hearing is afforded, the final assessment and consequential recovery are illegal. Demand dated 15.11.2017 quashed; licensee may issue a fresh provisional assessment, consider objections with reasons, and then pass a final order.",
+  "facts": "Mukul Pandey challenged a demand notice dated 15 November 2017 and recovery initiated by the electricity licensee. He alleged that the licensee skipped the Clause 6.8 Supply Code procedure: no provisional assessment notice, no date, place or time for objections or personal hearing, and a final assessment with a recovery certificate issued at once. Counsel for the licensee produced the inspection report, final assessment order and recovery certificate, but could not show that a provisional-assessment notice fixing hearing particulars had been served.",
+  "reusable_constructions": [
+    {
+      "construction": "A final assessment and consequential recovery issued without a Clause 6.8 provisional assessment notice, opportunity to object, and hearing are not in accordance with law and are illegal.",
+      "paras": "5-6"
+    },
+    {
+      "construction": "The Electricity Supply Code, 2005 must be strictly followed when making an assessment in a case of theft of electricity; after a procedural quash the licensee may issue a fresh provisional assessment, consider objections with reasons, and then pass a final order.",
+      "paras": "4, 8"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8",
+      "code": "UP-2005",
+      "clause": "6.8",
+      "topic": "mandatory provisional assessment notice and hearing before final assessment and recovery",
+      "type": "supply_code",
+      "holding": "Clause 6.8 of the U.P. Electricity Supply Code, 2005 must be strictly followed for making an assessment, including in a case of theft of electricity. Where nothing on record shows that a provisional assessment notice was issued or that the consumer was given an opportunity to object and to be heard, the final assessment and the consequential recovery are illegal. The demand is quashed; the licensee may prepare a fresh provisional assessment, serve it, consider objections with reasons, and then pass a final assessment in light of Ashok Kumar.",
+      "paras": "4-8"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.8-hearing-procedure-mandatory-before-uue-conclusion",
+      "application": "Quashed a final assessment and recovery certificate where the licensee produced the inspection report and final order but could not show any Clause 6.8 provisional-assessment notice fixing date, time and place for objections or hearing.",
+      "lead_authorities": [
+        {
+          "name": "Ashok Kumar v. State of U.P.",
+          "docid": "2008 (6) ADJ 660"
+        }
+      ],
+      "paras": "3-6"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner had committed unauthorized use or theft of electricity",
+      "note": "Writ decided only on Clause 6.8 procedure; the licensee was left free to make a fresh provisional assessment on the merits.",
+      "paras": "8"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008 (6) ADJ 660 (DB)",
+      "cited_by": "4"
+    }
+  ]
+}
