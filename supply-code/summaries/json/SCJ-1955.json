@@ -1,0 +1,61 @@
+{
+  "case_id": "SCJ-1955",
+  "title": "Mahesh Verma Agro Food Corporation Pvt. Ltd. v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Pankaj Mithal, J.; Prakash Padia, J.",
+  "date_of_judgment": "2019-04-08",
+  "date_display": "8 April 2019",
+  "docket": "Writ-C No. 11087 of 2019",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; subsequent owner must produce No-Dues Certificate.",
+  "headnote": "An auction purchaser sought a new electricity connection without a No-Dues Certificate for the previous owner's arrears. Distinguishing Southern Power Distribution Co. of Telangana Ltd. v. Gopal Agarwal, the Court held that insisting on that certificate is not recovery of those arrears from the purchaser. Under clauses 4.1 and 4.3(f) of the U.P. Electricity Supply Code, 2005, a new connection after change of ownership is released only on production of a No-Dues Certificate; seller and purchaser are jointly and severally liable to clear outstanding dues. The writ was dismissed.",
+  "facts": "The petitioner, Mahesh Verma Agro Food Corporation Pvt. Ltd., purchased in auction the premises of Sasni Agro Cold Pvt. Ltd. at Nagla Vijahari, Sasni, District Hathras, and sought a new electricity connection there as owner in possession. Respondents 2 and 3, by order dated 28 February 2019, refused to sanction the connection for want of a No-Dues Certificate covering the previous owner's electricity arrears. The petitioner relied on Southern Power Distribution Company of Telangana Ltd. v. Gopal Agarwal to contend that those arrears could not be realised from it.",
+  "reusable_constructions": [
+    {
+      "construction": "A licensee's demand for a No-Dues Certificate as a condition for sanctioning a new connection to a subsequent owner is not realisation of the previous owner's electricity arrears from that purchaser, and Gopal Agarwal does not disable that condition.",
+      "paras": "1"
+    },
+    {
+      "construction": "Where ownership of premises has changed, clause 4.1 of the U.P. Electricity Supply Code, 2005 permits release of a new connection to the subsequent owner only after submission of a No-Dues Certificate.",
+      "paras": "1"
+    },
+    {
+      "construction": "Clause 4.3(f) obliges both seller and purchaser to ascertain outstanding electricity dues up to the date of sale and makes them jointly and severally liable to pay those dues or obtain a No-Dues Certificate.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.1",
+      "code": "UP-2005",
+      "clause": "4.1",
+      "topic": "new-connection-after-ownership-change",
+      "type": "supply_code",
+      "holding": "Where electricity arrears exist in respect of an old consumer or premises and ownership has changed, clause 4.1 requires that a new connection be released to the subsequent owner only after submission of a No-Dues Certificate. An auction purchaser must produce that certificate or clear the previous owner's dues; refusal of sanction for want of it is lawful.",
+      "paras": "1"
+    },
+    {
+      "provision": "UP-2005::4.3(f)",
+      "code": "UP-2005",
+      "clause": "4.3(f)",
+      "topic": "seller-purchaser-joint-liability-for-arrears",
+      "type": "supply_code",
+      "holding": "Clause 4.3(f) makes it the duty of both seller and purchaser to find out outstanding electricity dues up to the date of sale, and renders them jointly and severally liable to pay those dues or obtain a No-Dues Certificate. A subsequent owner cannot obtain a fresh connection without discharging that obligation.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "Southern Power Distribution Company of Telangana Ltd. v. Gopal Agarwal",
+      "citation": "2018 (12) SCC 644",
+      "cited_by": "petitioner"
+    }
+  ]
+}
