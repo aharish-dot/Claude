@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1687,
+  "next_seq": 1688,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -10102,6 +10102,12 @@
       "case_id": "SCJ-1682",
       "source_basename": "WRIC(A)_47340_2017.pdf",
       "title": "M/s Nutek Overseas Pvt. Ltd. v. Pachimanchal Vidyut Vitran Nigam Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1684",
+      "source_basename": "WRIC(A)_49231_2017.pdf",
+      "title": "Renu Aggarwal v. State of U.P.",
       "status": "done"
     }
   ]
