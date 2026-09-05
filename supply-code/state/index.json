@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1706,
+  "next_seq": 1707,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -10216,6 +10216,12 @@
       "case_id": "SCJ-1702",
       "source_basename": "WRIC(A)_609_2017.pdf",
       "title": "Dhirendra Singh v. State of U.P. — writ for bill correction declined for clause 6.5",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1703",
+      "source_basename": "WRIC(A)_61103_2017.pdf",
+      "title": "Vijay Kumar v. State of U.P.",
       "status": "done"
     }
   ]
