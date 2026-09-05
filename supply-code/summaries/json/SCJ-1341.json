@@ -1,0 +1,43 @@
+{
+  "case_id": "SCJ-1341",
+  "title": "Maruti Papers Ltd. v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Vikram Nath and Dinesh Gupta, JJ.",
+  "date_of_judgment": "2015-05-21",
+  "date_display": "21 May 2015",
+  "docket": "Writ-C No. 29954 of 2015",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Additional 2000 KVA load directed without BG for stayed dues",
+  "headnote": "Where amounts claimed as due stand stayed in a pending writ, the licensee cannot refuse additional load under clause 4.49 of the U.P. Electricity Supply Code, 2005, or insist on a bank guarantee equivalent to those stayed amounts. Additional load of 2000 KVA directed; other charges payable.",
+  "facts": "M/s Maruti Papers Limited applied to Paschimanchal Vidyut Vitran Nigam Ltd. for sanction of an additional load of 2000 KVA. The licensee made release of that load conditional on a bank guarantee equal to amounts claimed as due, already stayed in Writ Petition No. 25603 of 2007, invoking paragraph 4.49 of the U.P. Electricity Supply Code, 2005. The petitioner pointed to similar protection in Writ Petition No. 18855 of 2008. A Division Bench directed release of the additional load without that bank guarantee. The writ was later dismissed as infructuous.",
+  "reusable_constructions": [
+    {
+      "construction": "A licensee cannot, under clause 4.49 of the U.P. Electricity Supply Code, 2005, refuse additional load or insist on a bank guarantee equivalent to amounts that stand stayed in a pending writ.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.49",
+      "code": "UP-2005",
+      "clause": "4.49",
+      "topic": "additional load—stayed dues",
+      "type": "supply_code",
+      "holding": "The amounts claimed as due having been stayed in Writ Petition No. 25603 of 2007, which remained pending, the respondents cannot insist on a bank guarantee equivalent to those amounts and cannot on that ground refuse additional load under paragraph 4.49 of the U.P. Electricity Supply Code, 2005. Additional load of 2000 KVA directed to be released without that bank guarantee; other charges payable by the petitioner.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "Writ Petition No. 18855 of 2008",
+      "cited_by": "1"
+    }
+  ]
+}
