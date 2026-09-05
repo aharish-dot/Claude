@@ -1,0 +1,55 @@
+{
+  "case_id": "SCJ-1420",
+  "title": "Sm. Neelima Tiwari v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Arun Tandon, J.; Amar Singh Chauhan, J.",
+  "date_of_judgment": "2016-03-31",
+  "date_display": "31 March 2016",
+  "docket": "WRIT - C No. - 13624 of 2016",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Recovery notice not quashed; Clause 6.5 objections to be decided on deposit",
+  "headnote": "A writ attacking only a recovery notice under Section 3 of the U.P. Government Electrical Undertakings (Dues Recovery) Act, 1958, without challenging the underlying assessment or consumption bill, does not warrant interference. The consumer’s remedy is Clause 6.5 of the Electricity Supply Code, 2005; an objection is competent only after that clause’s conditions, including deposit of the requisite amount, are met. A compliant objection is to be decided by reasoned order, preferably within four weeks.",
+  "facts": "Smt. Neelima Tiwari sought quashing of Recovery Notice No. 613 dated 2 February 2016, issued by the electricity authority under Section 3 of the U.P. Government Electrical Undertakings (Dues Recovery) Act, 1958. She said an incorrect consumption bill of 11 May 2013 had been issued and that objections to it had not been considered. She did not challenge the underlying assessment or bill. After a recusal on 29 March 2016, a Division Bench heard the petition on 31 March 2016.",
+  "reusable_constructions": [
+    {
+      "construction": "Consequential recovery cannot be questioned in writ without challenging the main assessment or electricity consumption bill.",
+      "paras": "3"
+    },
+    {
+      "construction": "An objection to an electricity bill under Clause 6.5 is competent only after the conditions of that clause, including deposit of the requisite amount, are satisfied.",
+      "paras": "5-6"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "Clause 6.5 billing-objection conditions and deposit",
+      "type": "supply_code",
+      "holding": "Interference was refused because the recovery notice was challenged without attacking the main assessment or consumption bill. The consumer may dispute a bill only under Clause 6.5, and only after complying with that clause’s conditions, including deposit of the requisite money; unless those conditions are satisfied the objection is not competent. If a compliant objection is filed, the authority shall consider and decide it by a reasoned order, preferably within four weeks.",
+      "paras": "3,5-6"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-objection-must-be-in-proper-form",
+      "application": "A Clause 6.5 challenge is competent only after the clause’s conditions, including deposit of the requisite amount, are satisfied.",
+      "lead_authorities": [],
+      "paras": "5-6"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness of the 11 May 2013 bill and Recovery Notice No. 613 dated 2 February 2016",
+      "note": "Merits of the bill and recovery were not decided; the consumer was relegated to a Clause 6.5 objection after deposit.",
+      "paras": "3,5-6"
+    }
+  ],
+  "authorities": []
+}
