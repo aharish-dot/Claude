@@ -1,0 +1,36 @@
+{
+  "case_id": "SCJ-1866",
+  "title": "Ram Pat Ram v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "B. Amit Sthalekar, J.; Rajiv Joshi, J.",
+  "date_of_judgment": "2018-10-29",
+  "date_display": "29 October 2018",
+  "docket": "WRIT - C No. - 35825 of 2018",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; clause 6.5 objection to be decided in one month.",
+  "headnote": "A consumer seeking to quash a theft-related provisional assessment bill and demand notice was relegated to an objection before the Executive Engineer under clause 6.5 of the Electricity Supply Code, 2005. The writ was dismissed, with a direction that any objection filed within a week be decided in accordance with law within one month.",
+  "facts": "The petitioner, a consumer in Ghazipur, filed a writ seeking quashing of a provisional assessment electricity bill of Rs 35,288 dated 5 December 2017 and a demand notice dated 16 March 2018 for Rs 35,313. The distribution licensee alleged theft of electricity, and a first information report had already been lodged against him. The writ named the State and the Executive Engineer, Electricity Distribution Division-1, U.P. Power Corporation, Ghazipur, among the respondents.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "billing-objection-to-executive-engineer",
+      "type": "supply_code",
+      "holding": "A consumer challenging a provisional assessment electricity bill and demand notice, even where theft of electricity is alleged and an FIR has been lodged, has an alternative remedy of filing an objection before the Executive Engineer under clause 6.5 of the Electricity Supply Code, 2005. The writ is dismissed; if the objection is filed within one week with a certified copy of the order, the Executive Engineer shall consider and decide it in accordance with law within a further one month."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Merits of the provisional assessment, demand notice, and theft allegation",
+      "note": "Left to the Executive Engineer if an objection is filed under clause 6.5."
+    }
+  ],
+  "authorities": []
+}
