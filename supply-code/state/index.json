@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1531,
+  "next_seq": 1532,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -9166,6 +9166,12 @@
       "case_id": "SCJ-1528",
       "source_basename": "WRIC(A)_54279_2016.pdf",
       "title": "Kuldip Dubey v. U.P. Power Corporation — pending representation treated as Clause 6.5 bill-correction application",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1529",
+      "source_basename": "WRIC(A)_5483_2016.pdf",
+      "title": "M/S Vinay Foods v. Purvanchal Vidyut Vitran Nigam Ltd.",
       "status": "done"
     }
   ]
