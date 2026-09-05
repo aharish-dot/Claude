@@ -1,0 +1,47 @@
+{
+  "case_id": "SCJ-1663",
+  "title": "Surendra v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Amreshwar Pratap Sahi, J.; Rajiv Lochan Mehrotra, J.",
+  "date_of_judgment": "2017-09-11",
+  "date_display": "11 September 2017",
+  "docket": "Writ-C No. 42092 of 2017",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; petitioner relegated to s.152 compounding and clause 6.14 installments.",
+  "headnote": "A consumer facing contemplated Section 135 theft proceedings and an assessment liability cannot obtain compounding or installments by writ. The alleged offence is compoundable under Section 152 of the Electricity Act, 2003; assessment of actual consumption is a separate proceeding. Compounding and any Clause 6.14 installment request must be made to the concerned authorities.",
+  "facts": "Surendra was alleged to have committed theft of electricity. Proceedings under Section 135 of the Electricity Act, 2003 were contemplated, though their stage was not known to the Court. He invoked the writ jurisdiction of the Allahabad High Court seeking compounding of the alleged offence and an installment facility for the assessment of electricity actually consumed. The State of Uttar Pradesh and others were represented by standing counsel.",
+  "holding_units": [
+    {
+      "provision": "EA2003::152",
+      "code": "EA2003",
+      "clause": "152",
+      "topic": "compounding of s.135 theft offence",
+      "type": "electricity_act",
+      "holding": "An alleged theft of electricity under Section 135 of the Electricity Act, 2003 is compoundable under Section 152. The writ court will not grant compounding; the consumer may approach the concerned compounding authority.",
+      "paras": "1"
+    },
+    {
+      "provision": "UP-2005::6.14",
+      "code": "UP-2005",
+      "clause": "6.14",
+      "topic": "installments of assessment liability",
+      "type": "supply_code",
+      "holding": "Assessment of electricity actually consumed is a proceeding separate from the Section 135 offence. A request for installments of that liability is to be made to the Executive Engineer of the area under Clause 6.14 of the U.P. Electricity Supply Code, 2005.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Merits of the theft allegation, compounding, and installment entitlement",
+      "note": "The stage of the Section 135 proceedings was unknown; both compounding and the installment request were left to the concerned authorities.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
