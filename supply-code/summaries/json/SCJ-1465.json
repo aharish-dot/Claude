@@ -1,0 +1,38 @@
+{
+  "case_id": "SCJ-1465",
+  "title": "Dakshinanchal Vidyut Vitran Nigam Ltd. v. Permanent Lok Adalat",
+  "neutral_citation": "Writ-C No. 23246 of 2016",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Single Judge",
+  "coram": "Pankaj Mithal, J.",
+  "date_of_judgment": "2016-05-19",
+  "date_display": "19 May 2016",
+  "docket": "Writ-C No. 23246 of 2016",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "pending",
+  "model": "Grok 4.6",
+  "disposition": "PLA award stayed pending admission; clause 4.2 not triggered.",
+  "headnote": "Clause 4.2 of the U.P. Electricity Supply Code, 2005 obliges the licensee to extend transformer capacity only if load reaches 80% of installed capacity. On a 100 kVA transformer carrying about 54 kVA, the Permanent Lok Adalat’s direction to install an additional 25 kVA transformer for one consumer’s tubewell was, prima facie, illegal. The High Court stayed the award and listed the writ for admission.",
+  "facts": "A 100 kVA transformer of Dakshinanchal Vidyut Vitran Nigam Ltd. supplied several consumers, including respondent no. 2, who ran a 7.5 kVA tubewell. Aggregate load on the transformer was 77.5 HP, about 54 kVA. By award dated 12 December 2015 the Permanent Lok Adalat directed the licensee to install an additional 25 kVA transformer for that tubewell. The distribution company filed this writ challenging that direction.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.2",
+      "code": "UP-2005",
+      "clause": "4.2",
+      "topic": "transformer capacity extension at 80% load",
+      "type": "supply_code",
+      "holding": "Clause 4.2 obliges the licensee to extend, strengthen or replace a transformer only when load on it increases to 80% of installed capacity. Load of about 54 kVA on a 100 kVA transformer is within capacity, so a Permanent Lok Adalat cannot, prima facie, direct installation of an additional transformer for one consumer.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "final validity of the Permanent Lok Adalat award",
+      "note": "Stay granted pending counter and rejoinder; listed for admission/final disposal.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
