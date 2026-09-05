@@ -1,0 +1,45 @@
+{
+  "case_id": "SCJ-1561",
+  "title": "M/S Radhey Ice Factory v. Dakshinanchal Vidhut Vitran Nigam Ltd.",
+  "neutral_citation": "WRIT - C No. 8164 of 2016",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Vikram Nath, J.; Amar Singh Chauhan, J.",
+  "date_of_judgment": "2016-02-23",
+  "date_display": "23 February 2016",
+  "docket": "WRIT - C No. 8164 of 2016",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; liberty to pursue clause 6.5 for disputed bills.",
+  "headnote": "Writ to quash a recovery citation and to have an electricity-bill claim decided in light of a Permanent Lok Adalat award dismissed. Applying Anis Ahmad, the Division Bench held that PLA proceedings on such disputes are without jurisdiction and that a consumer dissatisfied with bill correctness must proceed under clause 6.5 of the U.P. Electricity Supply Code, 2005. Interim order discharged. Review later withdrawn so the consumer could take the departmental statutory remedy.",
+  "facts": "M/S Radhey Ice Factory, a consumer of Dakshinanchal Vidhut Vitran Nigam Ltd., sought quashing of a recovery citation dated 13 January 2016 issued by the Executive Engineer and a direction that its claim on the quantum of the electricity consumption bill be decided in light of an Isthai Lok Adalat order dated 13 March 2014 in P.L.A. Case No. 183 of 2013. A later review of the dismissal was withdrawn in 2017 so the petitioner could pursue the departmental statutory remedy.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "bill-correctness-alternate-remedy",
+      "type": "supply_code",
+      "holding": "A consumer not satisfied with the correctness of electricity bills must seek remedy under clause 6.5 of the Electricity Supply Code, 2005; a writ to quash a recovery citation or to enforce a Permanent Lok Adalat award on bill quantum is not maintainable. Following Anis Ahmad, PLA proceedings in such matters are without jurisdiction.",
+      "paras": "2-4",
+      "flag": "Court referred to the 'Electricity Act, 2005'; the statute is the Electricity Act, 2003."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "correctness of the consumption bills and validity of the recovery citation dated 13.01.2016",
+      "note": "No merits finding; petitioner relegated to clause 6.5.",
+      "paras": "3-4"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "U.P. Power Corporation Ltd. v. Anis Ahmad",
+      "citation": "(2013) 8 SCC 491",
+      "cited_by": "2"
+    }
+  ]
+}
