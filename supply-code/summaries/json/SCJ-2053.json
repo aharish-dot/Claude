@@ -1,0 +1,45 @@
+{
+  "case_id": "SCJ-2053",
+  "title": "M/S Tenguria Cold Storage v. State of U.P. and Another",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Pankaj Mithal, J.; Saral Srivastava, J.",
+  "date_of_judgment": "2019-08-22",
+  "date_display": "22 August 2019",
+  "docket": "Writ-C No. 25905 of 2019",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; remaining electricity arrears payable in court-fixed instalments.",
+  "headnote": "Disposing a writ against recovery of electricity arrears, the Court noted that clause 6.14 of the U.P. Electricity Supply Code, 2005 authorises the Executive Engineer to grant instalments, and itself directed payment of the admitted outstanding of Rs.5,89,000 (Rs.89,000 within a month and Rs.5,00,000 in five monthly instalments of Rs.1,00,000). Default restores recovery in accordance with law; current monthly bills remain payable.",
+  "facts": "M/S Tenguria Cold Storage was served a recovery citation of Rs.13,69,598 towards electricity dues. After the citation it deposited a substantial amount, leaving Rs.5,89,000 outstanding. Disconnected supply had already been restored on that part payment. The petitioner asked for reasonable time or instalments to pay the remainder. Counsel for respondent no. 2 (the licensee) appeared; the Division Bench disposed of the writ by consent without calling for a counter-affidavit.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.14",
+      "code": "UP-2005",
+      "clause": "6.14",
+      "topic": "instalment of electricity arrears",
+      "type": "supply_code",
+      "holding": "Clause 6.14 of the U.P. Electricity Supply Code, 2005 authorises grant of instalments for electricity arrears. Where supply had been restored after part payment of a recovery citation and a balance remained, the Court disposed of the writ by fixing a down payment and five equal monthly instalments for that balance, with default restoring recovery in accordance with law and current monthly bills remaining payable independently.",
+      "paras": "6-8"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "installment-payment-clause-6.14",
+      "application": "The Court treated clause 6.14 as authorising instalments of electricity arrears and itself scheduled the admitted outstanding rather than remanding the request to the Executive Engineer.",
+      "lead_authorities": [],
+      "paras": "6-7"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness of the original recovery citation and computation of arrears",
+      "note": "The Court proceeded on the petitioner's figure of Rs.5,89,000 remaining after part payment, without adjudicating the citation of Rs.13,69,598.",
+      "paras": "2-3"
+    }
+  ],
+  "authorities": []
+}
