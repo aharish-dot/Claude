@@ -1,0 +1,38 @@
+{
+  "case_id": "SCJ-2080",
+  "title": "Pooranveer Singh v. State of U.P. and others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "B. Amit Sthalekar, J.; Manju Rani Chauhan, J.",
+  "date_of_judgment": "2019-01-25",
+  "date_display": "25 January 2019",
+  "docket": "Writ-C No. 2891 of 2019",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; Clause 6.5 objection to EE; recovery stayed pending decision.",
+  "headnote": "A mismatch between the 10 HP tube-well load recorded in a checking report and the 15 HP load shown in an electricity bill-cum-disconnection notice is a disputed bill. The High Court declined to quash the recovery/demand notice on merits and relegated the consumer to an objection under Clause 6.5 of the Electricity Supply Code, 2005 before the Executive Engineer, keeping recovery in abeyance pending that decision.",
+  "facts": "Pooranveer Singh sought quashing of a recovery and demand notice dated 1 December 2018 for Rs.7,11,118 towards electricity arrears. He alleged that the motor at his tube well was of 10 HP, as recorded at item 14 of a checking report dated 24 December 2018, but the electricity bill-cum-disconnection notice showed the load as 15 HP. The third respondent was the Executive Engineer, Electricity Supply Division (II), Dakshinachal Vidyut Vitran Nigam Ltd., Etmadpur, District Agra.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP Electricity Supply Code, 2005",
+      "clause": "6.5",
+      "topic": "disputed bill — load mismatch — objection to Executive Engineer",
+      "type": "supply_code",
+      "holding": "Where the consumer disputes the load shown in an electricity bill-cum-disconnection notice as against the load recorded in a checking report, the controversy is a disputed bill for which the statutory remedy is an objection under Clause 6.5 of the Electricity Supply Code, 2005 before the Executive Engineer. The writ court will not adjudicate the claim on merits and may keep recovery in abeyance pending decision of that objection in accordance with law.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "correctness of the demand and the actual connected load (10 HP versus 15 HP)",
+      "note": "The Court expressly did not adjudicate the claim on merits; the Executive Engineer is to decide the Clause 6.5 objection.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
