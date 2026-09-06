@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2184,
+  "next_seq": 2185,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -13084,6 +13084,12 @@
       "case_id": "SCJ-2179",
       "source_basename": "WRIC(A)_3921_2019.pdf",
       "title": "Dr. Anoop Awasthi v. State of U.P. — theft-related recovery relegated to clause 6.8",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2180",
+      "source_basename": "WRIC(A)_39253_2019.pdf",
+      "title": "Nawab Hasan v. State of U.P.",
       "status": "done"
     }
   ]
