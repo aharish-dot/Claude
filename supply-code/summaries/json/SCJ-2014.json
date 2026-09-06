@@ -1,0 +1,54 @@
+{
+  "case_id": "SCJ-2014",
+  "title": "Ram Chandra v. State of U.P.",
+  "neutral_citation": "WRIT-C No. 19813 of 2019",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Ramesh Sinha, J.; Vivek Varma, J.",
+  "date_of_judgment": "2019-06-10",
+  "date_display": "10 June 2019",
+  "docket": "WRIT - C No. 19813 of 2019",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; petitioner relegated to s.127 appeal.",
+  "headnote": "Once a final electricity assessment is produced, a writ seeking to quash it is not entertained. The consumer is relegated to the statutory appeal under Section 127; the appellate authority may decide the appeal in accordance with law. The Court described that appeal as lying under Section 127 of the Electricity Supply Code, 2005.",
+  "facts": "Ram Chandra sought quashing of an electricity assessment of Rs.10,25,150 plus Rs.22 other charges. After an adjournment for production of the final order, the licensee's counsel produced a final assessment dated 13 May 2019, said to have been sent by registered post on 15 May 2019, and supplied a copy in court. The petitioner denied receipt, alleged that his 28 March 2019 objection had not been considered, and relied on Meenu Gupta and Ashok Kumar.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "alternative remedy — appeal against final assessment",
+      "type": "electricity_act",
+      "holding": "A writ petition challenging a final electricity assessment will not be entertained when a statutory appeal under Section 127 is available. The petition is dismissed on the ground of alternative remedy; the consumer may approach the appellate authority, who may decide the appeal in accordance with law.",
+      "paras": "1",
+      "flag": "Court attributed Section 127 to the Electricity Supply Code, 2005; the statutory appeal is under EA 2003 s.127."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the final assessment suffered from non-application of mind for not considering the petitioner's objection dated 28.03.2019",
+      "note": "Left to the s.127 appellate authority",
+      "paras": "1"
+    },
+    {
+      "point": "Whether the controversy was covered by Meenu Gupta or Ashok Kumar",
+      "paras": "1"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Meenu Gupta v. State of U.P.",
+      "citation": "Writ-C No. 3872 of 2018, decided on 31.1.2018",
+      "cited_by": "petitioner"
+    },
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008 (6) ADJ 660 (DB)",
+      "cited_by": "petitioner"
+    }
+  ]
+}
