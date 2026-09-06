@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2031,
+  "next_seq": 2032,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -12166,6 +12166,12 @@
       "case_id": "SCJ-2029",
       "source_basename": "WRIC(A)_22651_2019.pdf",
       "title": "Abdul Kalam v. State of U.P. and others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2027",
+      "source_basename": "WRIC(A)_22453_2019.pdf",
+      "title": "Hur Bano v. State of U.P. — new connection to be considered on indemnity bond under clause 4.4",
       "status": "done"
     }
   ]
