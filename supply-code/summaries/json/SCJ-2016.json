@@ -1,0 +1,52 @@
+{
+  "case_id": "SCJ-2016",
+  "title": "Vijay Kumar v. State of U.P. — demand notice and recovery citation: writ dismissed for s.127 appeal",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Ramesh Sinha, J.; Vivek Varma, J.",
+  "date_of_judgment": "2019-06-10",
+  "date_display": "10 June 2019",
+  "docket": "Writ-C No. 19984 of 2019",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; relegated to Section 127 statutory appeal",
+  "headnote": "Writ to quash a demand notice dated 01.02.2019 and a recovery citation dated 19.04.2019 dismissed for statutory alternative remedy. A plea that the demand violated natural justice did not make the petition maintainable. The consumer was left to the appeal under Section 127, to be decided in accordance with law if filed.",
+  "facts": "Vijay Kumar petitioned the Allahabad High Court to quash a demand notice dated 1 February 2019 issued by respondent no. 2 and a recovery citation dated 19 April 2019 issued by respondent no. 4. He contended that the demand had been raised in breach of natural justice and that the writ petition was therefore maintainable. Counsel for the respondents pointed out that an appeal lay under Section 127 of the Electricity Supply Code, 2005. The Division Bench heard both sides and disposed of the petition on that footing.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "writ-maintainability-alternative-remedy",
+      "type": "electricity_act",
+      "holding": "A writ seeking quash of a demand notice and recovery citation is not entertained when a statutory appeal under Section 127 is available; a plea that the demand violated natural justice does not make the writ maintainable. The petition is dismissed and the consumer is left to that appeal, which if filed is to be decided in accordance with law.",
+      "paras": "1",
+      "flag": "Order attributes Section 127 to the Electricity Supply Code, 2005; Section 127 is of the Electricity Act, 2003."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternate-remedy-section-127-appeal-bars-writ",
+      "application": "Division Bench refused to quash the demand notice and recovery citation in writ because an appeal under Section 127 was available; the natural-justice plea did not displace that bar.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "relegation-to-section-127-appeal-on-merits-limitation-not-examined",
+      "application": "Merits of the demand and recovery citation were not examined; the petitioner was left to file the statutory appeal, to be decided in accordance with law.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Validity of the demand notice dated 01.02.2019 and recovery citation dated 19.04.2019, including the natural-justice challenge",
+      "note": "Not examined on merits; petitioner left to the statutory appeal.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
