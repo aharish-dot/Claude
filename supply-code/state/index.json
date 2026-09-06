@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1986,
+  "next_seq": 1987,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -11914,6 +11914,12 @@
       "case_id": "SCJ-1985",
       "source_basename": "WRIC(A)_47449_2015.pdf",
       "title": "Shareef Ahmad v. State of U.P. & Another",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1986",
+      "source_basename": "WRIC(A)_24151_2016.pdf",
+      "title": "Vishun Kumar Agrawal & Anr. v. U.P.P.C.L. & Others",
       "status": "done"
     }
   ]
