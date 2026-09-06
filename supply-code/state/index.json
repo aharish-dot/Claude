@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2127,
+  "next_seq": 2128,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -12742,6 +12742,12 @@
       "case_id": "SCJ-2123",
       "source_basename": "WRIC(A)_36093_2019.pdf",
       "title": "Yogendra Prasad v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2124",
+      "source_basename": "WRIC(A)_36137_2019.pdf",
+      "title": "Smt. Ramvati v. State of U.P. — Tehsildar recovery citation; representation to Executive Engineer",
       "status": "done"
     }
   ]
