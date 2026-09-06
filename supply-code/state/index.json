@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2139,
+  "next_seq": 2140,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -12814,6 +12814,12 @@
       "case_id": "SCJ-2135",
       "source_basename": "WRIC(A)_37230_2019.pdf",
       "title": "Kalam v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2136",
+      "source_basename": "WRIC(A)_37324_2019.pdf",
+      "title": "Ashok Kumar Maurya v. Purvanchal Vidyut Vitran Nigam Ltd.",
       "status": "done"
     }
   ]
