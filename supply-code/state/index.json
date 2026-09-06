@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1988,
+  "next_seq": 1989,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -11926,6 +11926,12 @@
       "case_id": "SCJ-1987",
       "source_basename": "WRIC(A)_25512_2016.pdf",
       "title": "Anmol Laghu Udyog v. D.V.V.N. Agra & Another",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1988",
+      "source_basename": "WRIC(A)_26512_2016.pdf",
+      "title": "M/S Ranjeeta Cold Storage & Ice Plant v. State of U.P. & Others",
       "status": "done"
     }
   ]
