@@ -235,7 +235,7 @@ def do_finalize(args):
     msg = (f"supply-code: {verb} {cid} ({title})\n\n"
            f"Claude rich digest (mode={mode}, source {tk.get('source_file')}).\n\n"
            f"Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>\n"
-           f"Claude-Session: https://claude.ai/code/session_01FPhAi1amQo6vBtPTXVG2Zt")
+           f"Claude-Session: https://claude.ai/code/session_0113xUFnHeYYCXXWLx1hBf6T")
     r = subprocess.run(["git", "commit", "-m", msg], cwd=ROOT, capture_output=True, text=True)
     if r.returncode != 0 and "nothing to commit" not in (r.stdout + r.stderr).lower():
         print(r.stdout + r.stderr); die("git commit failed")
