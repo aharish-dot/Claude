@@ -1,0 +1,38 @@
+{
+  "case_id": "SCJ-2072",
+  "title": "Executive Engineer, Electricity Distribution v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Single Judge",
+  "coram": "Yashwant Varma, J.",
+  "date_of_judgment": "2019-08-22",
+  "date_display": "22 August 2019",
+  "docket": "Writ-C No. 27718 of 2019",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition dismissed; Permanent Lok Adalat cattle-damages award against the distribution division left undisturbed.",
+  "headnote": "An electricity distribution division’s writ against a Permanent Lok Adalat award of Rs 1,70,000 for death and injury to cattle, plus costs, is dismissed. Following Raman Singh, the s.145 Electricity Act 2003 bar on civil-court jurisdiction over consumer electricity disputes does not apply to a member of the public’s damages claim for departmental fault; supply of power is a public utility service under the Legal Services Authorities Act 1987, so the Permanent Lok Adalat had jurisdiction.",
+  "facts": "The Executive Engineer of an electricity distribution division petitioned the Allahabad High Court to quash a Permanent Lok Adalat award of Rs 1,70,000 for loss from death and injury to cattle and Rs 2,000 as costs of the case. The licensee argued that the Legal Services Authorities Act 1987 did not apply and that such a claim did not lie against the distribution division. Counsel for respondent No. 3 appeared.",
+  "holding_units": [
+    {
+      "provision": "EA2003::145",
+      "code": "EA2003",
+      "clause": "145",
+      "topic": "pla-jurisdiction-public-damages",
+      "type": "interplay",
+      "holding": "The distribution division’s challenge to the Permanent Lok Adalat award fails. Section 145 of the Electricity Act 2003 bars civil-court jurisdiction over consumer grievances under that Act and the Supply Code, but that bar does not apply to a member of the public’s claim for damages caused by the electricity department’s fault. Supply of power is a public utility service under the Legal Services Authorities Act 1987, so the Permanent Lok Adalat had jurisdiction to make the award.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "Divisional Engineer, Electricity Distribution Division-I v. Raman Singh",
+      "citation": "2018(6) All WC 5693",
+      "cited_by": "1"
+    }
+  ]
+}
