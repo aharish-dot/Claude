@@ -1,0 +1,52 @@
+{
+  "case_id": "SCJ-2094",
+  "title": "Janardan Singh v. District Magistrate",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Pankaj Mithal, J.; Saral Srivastava, J.",
+  "date_of_judgment": "2019-09-24",
+  "date_display": "24 September 2019",
+  "docket": "WRIT - C No. 29741 of 2019",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; liberty to s.127 appeal; 6.14 instalments to be considered",
+  "headnote": "The High Court declined writ jurisdiction over a demand for electricity dues and compounding charges because the petitioner had already challenged the same notice before the District Consumer Forum. The petition was dismissed with liberty to appeal the final assessment under section 127 of the Electricity Act, 2003. For instalments, the petitioner was left to apply to the Executive Engineer under clause 6.14 of the Uttar Pradesh Electricity Supply Code, 2005, to be considered in accordance with law most expeditiously.",
+  "facts": "The petitioner challenged a demand notice dated 31 May 2019 requiring deposit of Rs 1,38,805 as electricity dues plus compounding charges. He had already instituted Case No. 24 of 2019 before the District Consumer Forum, Kaushambi, against the same demand. Notice was accepted for respondent no. 2. Counsel submitted that the petitioner was ready and willing to pay the dues if instalments were fixed.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "relegation to section 127 appeal",
+      "type": "electricity_act",
+      "holding": "Where the same electricity demand is already pending before the District Consumer Forum, the Court will not exercise discretionary writ jurisdiction. The petition was dismissed with liberty to challenge the final assessment, if advised, by appeal under section 127 of the Electricity Act, 2003.",
+      "paras": "1"
+    },
+    {
+      "provision": "UP-2005::6.14",
+      "code": "UP-2005",
+      "clause": "6.14",
+      "topic": "instalment facility",
+      "type": "supply_code",
+      "holding": "A consumer seeking instalments of demanded electricity dues may approach the Executive Engineer under clause 6.14 of the Uttar Pradesh Electricity Supply Code, 2005. Any such application shall be considered in accordance with law most expeditiously.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Merits of the demand of Rs 1,38,805 towards electricity dues and compounding charges",
+      "note": "The Court declined the writ because the same demand was already before the District Consumer Forum and did not examine the bill.",
+      "paras": "1"
+    },
+    {
+      "point": "Whether a final assessment appealable under section 127 had been made",
+      "note": "Liberty was granted to challenge the final assessment by s.127 appeal if advised; the Court did not find that such an order existed.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
