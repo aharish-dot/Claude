@@ -22,8 +22,16 @@ OUTCOMES = {"consumer", "licensee", "alternate_remedy", "pending", "none", "spli
 SIGS = {"significant", "ordinary", "procedural"}
 
 
+# OCR injects invisible format characters (soft hyphen, zero-width marks, BOM)
+# mid-token — e.g. "Rs.5,34,940/­". They are NOT whitespace, so \s+ never
+# collapses them, and a quote lifted from the .lean.txt (where they render
+# invisibly) then fails to match the untrimmed .txt even though the two are
+# textually identical. Strip them on BOTH sides before comparing.
+_INVISIBLE = dict.fromkeys([0x00AD, 0x200B, 0x200C, 0x200D, 0xFEFF], None)
+
+
 def norm(s):
-    return re.sub(r"\s+", " ", s or "").strip()
+    return re.sub(r"\s+", " ", (s or "").translate(_INVISIBLE)).strip()
 
 
 def main():
