@@ -1,0 +1,38 @@
+{
+  "case_id": "SCJ-2032",
+  "title": "Javed Ahmad Khan v. State of U.P.",
+  "neutral_citation": "WRIT - C No. 22766 of 2019",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Mahesh Chandra Tripathi and Prashant Kumar, JJ.",
+  "date_of_judgment": "2023-07-03",
+  "date_display": "3 July 2023",
+  "docket": "WRIT - C No. 22766 of 2019",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of; liberty to file Clause 6.5 objection.",
+  "headnote": "A writ challenging a recovery citation for disputed electricity dues is not the forum to decide the bill. The Electricity Supply Code, 2005 is a self-contained code; the consumer must object under Clause 6.5 before the Executive Engineer, who shall decide in accordance with law. Amount deposited under an earlier stay may be adjusted towards final settlement.",
+  "facts": "Javed Ahmad Khan challenged a recovery citation dated 15 June 2019 for electricity dues. He claimed a March 2017 bill of Rs. 6,45,058 had already been deposited on 15 November and 6 December 2017. The licensee said the demand arose from a change of current transformer. A coordinate Bench on 22 July 2019 stayed the citation subject to deposit of Rs. 5,00,000 and directed restoration of supply on deposit, which the petitioner made. He sought quashing of the citation and a restraint on coercive action.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "billing-objection-to-executive-engineer-under-6.5",
+      "type": "supply_code",
+      "holding": "Where electricity dues are disputed and a recovery citation is challenged in writ, the Electricity Supply Code, 2005 is a self-contained comprehensive legislation and the consumer's remedy is to file a complaint or objection under Clause 6.5 before the Executive Engineer, who shall hear and decide it in accordance with law. The writ is disposed of with that liberty; a sum deposited under an earlier interim order may be adjusted towards final settlement.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "whether the recovery citation dated 15.06.2019 and the underlying electricity demand were correct",
+      "note": "left to an objection under Clause 6.5 of the Electricity Supply Code, 2005",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
