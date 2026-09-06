@@ -1,0 +1,45 @@
+{
+  "case_id": "SCJ-2131",
+  "title": "4d Mission Charitable Trust v. Dakshinanchal Vidyut Vitaran Nigam Ltd.",
+  "neutral_citation": "Writ-C No. 36739 of 2019",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta, J.; Neeraj Tiwari, J.",
+  "date_of_judgment": "2019-11-26",
+  "date_display": "26 November 2019",
+  "docket": "WRIT - C No. - 36739 of 2019",
+  "page_count": 4,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Speaking final order directed; recovery stayed; s.127 after that order",
+  "headnote": "A recovery certificate issued after a show-cause notice, without a final speaking order on the consumer's objections, will not be left to operate. The Executive Engineer must hear the consumer, consider the objections and evidence, and pass a reasoned final order; coercive recovery is stayed meanwhile. Appeal under Section 127 of the Electricity Act, 2003 lies against that final order. Non-appearance on the date fixed revives the recovery certificate.",
+  "facts": "4d Mission Charitable Trust and another challenged a recovery certificate dated 19 October 2019 issued by Dakshinanchal Vidyut Vitaran Nigam Ltd. A show-cause notice dated 8 March 2018 had been followed by the Trust's objections dated 26 March 2018 before the Executive Engineer, but no final order was passed. Recovery was issued nonetheless. On 14 November 2019 the High Court listed the writ as fresh and directed that no coercive measure be taken until 26 November 2019, when the Division Bench heard the petition.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "recovery without final order; s.127 after speaking assessment",
+      "type": "electricity_act",
+      "holding": "Where a recovery certificate is issued without a final speaking order on pending objections, the consumer is not left to an immediate Section 127 appeal. The Executive Engineer must hear the consumer, consider the objections and evidence, and pass a reasoned final order within the time fixed; coercive action is stayed until then. Section 127 appeal lies against that final order. Failure to appear on the date fixed revives the recovery certificate automatically.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "no-final-order-defeats-section-127-appeal",
+      "application": "Recovery issued while objections to the show-cause notice remained undisposed and no final order had been passed; the Court directed a speaking final order first and left Section 127 appeal only against that order.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits of the recovery certificate and the underlying assessment",
+      "note": "The Court neither quashed nor upheld the demand; it directed a speaking final order and reserved a Section 127 appeal.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
