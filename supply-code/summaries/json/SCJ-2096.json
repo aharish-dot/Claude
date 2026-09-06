@@ -1,0 +1,41 @@
+{
+  "case_id": "SCJ-2096",
+  "title": "Bhopal Singh v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Pankaj Mithal, J.; Saral Srivastava, J.",
+  "date_of_judgment": "2019-09-26",
+  "date_display": "26 September 2019",
+  "docket": "WRIT - C No. 30432 of 2019",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; arrears in installments; supply restored on first deposit.",
+  "headnote": "Where the consumer accepted a demand of Rs.67,740 as electricity dues but pleaded poverty, the High Court applied clause 6.14 read with clause 4.39 of the U.P. Electricity Supply Code, 2005 and disposed of the writ by directing deposit of Rs.17,740 within one month, restoration of supply on that deposit, and payment of the remaining Rs.50,000 in five equal monthly installments of Rs.10,000, the benefit to lapse automatically on default.",
+  "facts": "The petitioner challenged a demand notice dated 27 July 2019 recovering Rs.67,740 as electricity dues, including the cost of the notice. He accepted the liability but pleaded that he was a poor person not in a position to pay immediately and in lump sum, and was willing to pay in easy installments. Counsel for the second respondent accepted notice on behalf of the distribution licensee.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.14",
+      "code": "UP-2005",
+      "clause": "6.14",
+      "topic": "installment payment of electricity dues",
+      "type": "supply_code",
+      "holding": "Clause 6.14 read with clause 4.39 of the U.P. Electricity Supply Code, 2005 makes provision for payment of electricity dues in installments on an application to the Executive Engineer or any other higher officer. On the consumer accepting liability of Rs.67,740 but pleading poverty, the Court directed deposit of Rs.17,740 within one month and the balance Rs.50,000 in five equal monthly installments of Rs.10,000 (November 2019 to March 2020), the benefit of the order to end automatically on default.",
+      "paras": "4-6"
+    },
+    {
+      "provision": "UP-2005::4.39",
+      "code": "UP-2005",
+      "clause": "4.39",
+      "topic": "restoration of supply after disconnection for arrears",
+      "type": "supply_code",
+      "holding": "Read with the installment facility in clause 6.14, the petitioner's electricity shall be restored on deposit of Rs.17,740 of the accepted arrears within one month, the remaining Rs.50,000 to be paid in five subsequent monthly installments.",
+      "paras": "5"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [],
+  "authorities": []
+}
