@@ -109,3 +109,6 @@
 {"ts": 1788675511.607, "case_id": "SCJ-1983", "step": "read_extract", "kind": "in", "label": "lean", "chars": 37721, "words": 6027, "est_tokens": 9430, "method": "chars/4"}
 {"ts": 1788675867.118, "case_id": "SCJ-1983", "step": "author_json", "kind": "out", "label": "digest", "chars": 13639, "words": 1998, "est_tokens": 3410, "method": "chars/4"}
 {"ts": 1788675871.805, "case_id": "SCJ-1983", "step": "finalize", "kind": "out", "label": "finalize_stdout", "chars": 1052, "words": 69, "est_tokens": 263, "method": "chars/4"}
+{"ts": 1788676070.631, "case_id": "CARD", "step": "read_refs", "kind": "in", "label": "card", "chars": 8778, "words": 1109, "est_tokens": 2194, "method": "chars/4"}
+{"ts": 1788676147.143, "case_id": "SCJ-1984", "step": "claim", "kind": "out", "label": "claim_stdout", "chars": 392, "words": 0, "est_tokens": 98, "method": "chars/4"}
+{"ts": 1788676147.165, "case_id": "SCJ-1984", "step": "read_extract", "kind": "in", "label": "lean", "chars": 6345, "words": 1051, "est_tokens": 1586, "method": "chars/4"}
