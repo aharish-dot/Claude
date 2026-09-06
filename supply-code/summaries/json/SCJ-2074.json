@@ -1,0 +1,51 @@
+{
+  "case_id": "SCJ-2074",
+  "title": "Raj Bahadur Yadav v. State of U.P.",
+  "neutral_citation": "WRIT-C No. 28201 of 2019",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Pankaj Mithal, J.; Saral Srivastava, J.",
+  "date_of_judgment": "2019-09-16",
+  "date_display": "16 September 2019",
+  "docket": "WRIT - C No. 28201 of 2019",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of; relegated to s.127 appeal and cl. 6.14 instalments.",
+  "headnote": "A final assessment of electricity dues, treated as final after a registered-post provisional assessment went unobjected, is appealable under Section 127 of the Electricity Act, 2003. A writ challenging the ensuing recovery citation is disposed of in view of that alternate remedy. The consumer may still seek instalments under clause 6.14 of the U.P. Electricity Supply Code, 2005; the Executive Engineer must consider any such application, and conditional release of seized property, in accordance with law.",
+  "facts": "Raj Bahadur Yadav challenged a recovery citation dated 22 June 2019 for Rs 4,53,271 as electricity dues, contending that recovery had issued without service of the provisional assessment. Counsel for the distribution licensee submitted that the provisional assessment based on the checking report had been sent by registered post; no objections were raised and it was treated as final by order dated 15 May 2019, which the petitioner himself had annexed. A tractor of the petitioner had also been taken in the recovery process.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "final assessment appealable; writ disposed for alternate remedy",
+      "type": "electricity_act",
+      "holding": "A final assessment of electricity dues, arrived at after a provisional assessment sent by registered post went unobjected, is appealable under Section 127 of the Electricity Act, 2003. A writ petition challenging the subsequent recovery citation is disposed of in view of that statutory alternate remedy.",
+      "paras": "1"
+    },
+    {
+      "provision": "UP-2005::6.14",
+      "code": "UP-2005",
+      "clause": "6.14",
+      "topic": "instalment facility; conditional release of seized tractor",
+      "type": "supply_code",
+      "holding": "The consumer remains free to offer payment of the dues to the Executive Engineer and to have instalments fixed by invoking clause 6.14 of the U.P. Electricity Supply Code, 2005. If such an application is moved, the Executive Engineer shall consider it in accordance with law and shall also consider conditional release of the petitioner's tractor.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the provisional assessment was in fact served on the petitioner.",
+      "note": "The Court recorded the licensee's assertion of registered-post service and the 15 May 2019 final order annexed by the petitioner, without adjudicating disputed service.",
+      "paras": "1"
+    },
+    {
+      "point": "Merits and quantum of the assessment of Rs 4,53,271.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
