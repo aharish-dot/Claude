@@ -1,0 +1,54 @@
+{
+  "case_id": "SCJ-2015",
+  "title": "Gulab Keshari v. State of U.P.",
+  "neutral_citation": "WRIT - C No. 19814 of 2019",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Ramesh Sinha and Vivek Varma, JJ.",
+  "date_of_judgment": "2019-06-10",
+  "date_display": "10 June 2019",
+  "docket": "WRIT - C No. 19814 of 2019",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; petitioner relegated to Section 127 appeal.",
+  "headnote": "Once a final electricity assessment is on record, a writ to quash the demand is not entertained. The consumer is left to the statutory appeal under Section 127. The Court did not examine alleged non-application of mind or the precedents cited, and said the appellate authority may decide the appeal in accordance with law.",
+  "facts": "Gulab Keshari sought to quash an electricity assessment of Rs.19,93,736 plus Rs.22 other charges, described as dated 17 May 2019. After an earlier listing to produce the final assessment, the licensee's counsel produced an Executive Engineer's final assessment of 13 May 2019, said to have been posted on 15 May 2019. The petitioner denied receipt, alleged that his 28 March 2019 objection was ignored, and relied on Meenu Gupta and Ashok Kumar. A copy of the final order was supplied in court.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "writ-dismissed-for-s127-appeal-against-final-assessment",
+      "type": "electricity_act",
+      "holding": "After the Executive Engineer's final assessment dated 13 May 2019 was produced, the Court declined to interfere with the assessment of Rs.19,93,736 and dismissed the writ on the ground of the statutory alternative remedy of appeal under Section 127. The petitioner may approach the appellate authority, who is to decide the appeal in accordance with law.",
+      "paras": "1",
+      "flag": "Counsel and the order attribute Section 127 to the Electricity Supply Code, 2005; the statutory appeal against final assessment is Section 127 of the Electricity Act, 2003."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Merits of the assessment, including alleged non-consideration of the petitioner's objection dated 28.03.2019",
+      "note": "Left to the Section 127 appellate authority to decide in accordance with law",
+      "paras": "1"
+    },
+    {
+      "point": "Whether the writ was covered by Meenu Gupta and Ashok Kumar",
+      "paras": "1"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Meenu Gupta v. State of U.P.",
+      "citation": "Writ-C No. 3872 of 2018, decided 31.1.2018",
+      "cited_by": "petitioner"
+    },
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008 (6) ADJ 660 (DB)",
+      "cited_by": "petitioner"
+    }
+  ]
+}
