@@ -1,0 +1,50 @@
+{
+  "case_id": "SCJ-2164",
+  "title": "Anil Kumar v. State of U.P.",
+  "neutral_citation": "Writ-C No. 38780 of 2019",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta, J.; Piyush Agrawal, J.",
+  "date_of_judgment": "2019-11-28",
+  "date_display": "28 November 2019",
+  "docket": "Writ - C No. 38780 of 2019",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; EE to pass speaking final order after hearing; s.127 liberty; coercive recovery stayed six weeks.",
+  "headnote": "A writ against a provisional electricity assessment and recovery citation is disposed by directing the consumer to appear before the Executive Engineer with objections and evidence for a speaking final order. Coercive recovery is stayed for a limited period. An appeal under Section 127 of the Electricity Act, 2003 lies against that final order; default in appearance revives the citation.",
+  "facts": "Anil Kumar petitioned the Allahabad High Court to quash a provisional assessment dated 28 January 2019 (order no. 787) and a recovery citation dated 11 November 2019 for Rs. 29,51,014, and to restrain coercive recovery. He alleged that the electricity department was proceeding without a hearing and without following the U.P. Electricity Supply Code, 2005. Counsel for the petitioner and the electricity department were heard. The Court did not examine the assessment on merits.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act, 2003",
+      "clause": "127",
+      "topic": "provisional assessment; final order; section 127 appeal",
+      "type": "electricity_act",
+      "holding": "A writ challenging a provisional assessment and recovery citation is not decided on the quantum. The consumer is directed to appear before the Executive Engineer with objections already filed and evidence; a speaking and reasoned final order must follow within four weeks. Coercive recovery is stayed for six weeks or until disposal of the objection, whichever is earlier. If aggrieved by the final order, the consumer may appeal under Section 127 of the Electricity Act, 2003. Default in appearance on the date fixed revives the recovery citation.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "s127-appeal-lies-only-against-final-order-not-provisional-assessment",
+      "application": "The Court did not quash the provisional assessment on the writ. It required a speaking final order by the Executive Engineer, after which an appeal under Section 127 of the Electricity Act, 2003 would lie.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Validity and quantum of the provisional assessment dated 28 January 2019 and of the recovery of Rs. 29,51,014",
+      "note": "The Court directed a speaking final order after hearing; it neither quashed nor upheld the assessment.",
+      "paras": "1"
+    },
+    {
+      "point": "Whether the respondents failed to follow the U.P. Electricity Supply Code, 2005 before initiating recovery",
+      "note": "Want of hearing and Code non-compliance were recorded as submissions, not decided.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
