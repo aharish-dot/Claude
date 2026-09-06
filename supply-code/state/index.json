@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2022,
+  "next_seq": 2023,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -12112,6 +12112,12 @@
       "case_id": "SCJ-2018",
       "source_basename": "WRIC(A)_20279_2019.pdf",
       "title": "Hanuman Singh v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2020",
+      "source_basename": "WRIC(A)_21318_2019.pdf",
+      "title": "Digvijay Singh v. Purvanchal Vidyut Vitran Nigam Ltd.",
       "status": "done"
     }
   ]
