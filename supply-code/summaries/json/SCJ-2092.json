@@ -1,0 +1,52 @@
+{
+  "case_id": "SCJ-2092",
+  "title": "Vakeel Khan v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Pankaj Mithal and Saral Srivastava, JJ.",
+  "date_of_judgment": "2019-09-23",
+  "date_display": "23 September 2019",
+  "docket": "WRIT - C No. 29677 of 2019",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; relegated to s.127 appeal and cl. 6.14 installments",
+  "headnote": "A recovery citation for electricity dues issued in pursuance of a final assessment for unauthorized use cannot be quashed in writ unless the consumer challenges that final assessment by appeal under Section 127 of the Electricity Act, 2003. A request to pay the assessed amount in installments is to be made to the Executive Engineer under Clause 6.14 of the U.P. Electricity Supply Code, 2005.",
+  "facts": "A recovery citation dated 19 August 2019 sought to realise Rs 3,87,252 as electricity dues from Vakeel Khan. He approached the High Court alleging that he had not used electricity unauthorizedly and that the recovery was illegal. Counsel for the distribution licensee placed a checking report of 3 November 2018 recording unauthorized use, followed by a provisional assessment that was finalized on 15 February 2019. The citation was issued in pursuance of that final assessment. Counsel for the petitioner then sought permission to deposit the amount in installments.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "appeal against final assessment bars writ against recovery",
+      "type": "electricity_act",
+      "holding": "Where the recovery citation is in pursuance of a final assessment for unauthorized use of electricity, the consumer cannot succeed in writ unless he challenges that final assessment, which he may do by filing an appeal under Section 127 of the Electricity Act, 2003.",
+      "paras": "1"
+    },
+    {
+      "provision": "UP-2005::6.14",
+      "code": "UP-2005",
+      "clause": "6.14",
+      "topic": "installment deposit of assessed dues",
+      "type": "supply_code",
+      "holding": "If the consumer wishes to deposit the assessed electricity dues in installments, he may approach the Executive Engineer under Clause 6.14 of the U.P. Electricity Supply Code, 2005.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner used electricity unauthorizedly and whether the final assessment dated 15.2.2019 was correct",
+      "note": "Writ disposed without examining the checking report or assessment on merits; relegated to a Section 127 appeal.",
+      "paras": "1"
+    },
+    {
+      "point": "Whether installment facility under clause 6.14 should be granted",
+      "note": "Left to the Executive Engineer if the petitioner approaches under clause 6.14.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
