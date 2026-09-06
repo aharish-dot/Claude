@@ -1,0 +1,167 @@
+{
+  "case_id": "SCJ-1979",
+  "title": "M/S K.L. Concast Pvt. Ltd. v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Ferdino Inacio Rebello, C.J. and Vineet Saran, J.",
+  "date_of_judgment": "2011-02-24",
+  "date_display": "24 February 2011",
+  "docket": "Writ - C No. 7764 of 2011 (connected with Writ Petition No. 16338 of 2008 and other connected petitions)",
+  "page_count": 10,
+  "significance": "significant",
+  "outcome": "consumer",
+  "source_file": "WRIC(A)_7764_2011.pdf",
+  "pin_basis": "date",
+  "disposition": "Writ petition allowed. Denial of the load factor rebate on the ground of non-furnishing of additional security held illegal; respondents directed to grant the rebate by adjustment against future bills (informing the petitioner within three weeks) or, failing adjustment, to pay the rebate amount within eight weeks.",
+  "headnote": "An HV-2 induction-furnace consumer was denied the load factor rebate available under the UPERC tariff order on the ground that, by not furnishing the additional security demanded for an additional load, it was a consumer 'with arrears' (the rebate Note excluding consumers with arrears), the licensee treating non-deposit of additional security as 'arrears' per a letter dated 6 October 2008. The short question was whether failure to furnish additional security amounts to arrears. Applying the Division Bench in Tehri Girders (which relied on Ferro Alloys Corporation and Mirzapur Electric Supply), the Court held that additional security is in the nature of an advance payment of charges, not money due to the licensee, and cannot be categorised as arrears; the only consequence of default is that the licensee need not release the additional load and the supply could be disconnected. Clause 4.20(l) of the Supply Code (no security where supply is taken through a pre-payment meter) has nothing to do with rebate. The demand denying the rebate, founded on the 6 October 2008 letter, was therefore illegal, and the respondents could not deny the load factor rebate to the petitioner. The writ was allowed with directions to grant the rebate by adjustment or payment.",
+  "facts": "M/S K.L. Concast Pvt. Ltd. runs an induction furnace with a sanctioned load of 5543 KVA and is an HV-2 category consumer of Paschimanchal Vidyut Vitran Nigam Ltd. It claimed to pay its bills regularly, with no arrears and no assessment for theft or malpractice. Having sought and been granted an additional load subject to furnishing additional security by way of bank guarantee, it challenged that additional-security demand in a separate writ and obtained a stay that remained operative. The UPERC tariff orders (promulgated 15 April 2008, effective 28 April 2008, and effective 31 March 2010 for 2009-2010) provided, in Clause 5 of the HV-2 rate schedule (at page 287), a graded load factor rebate on energy charges for excess consumption, with a Note that a consumer 'with arrears' would not be eligible. The rebate was allowed until May 2010; from June 2010 it was denied on the footing that the petitioner was in arrears of the additional security, relying on respondent no.4's letter dated 6 October 2008 which treated non-deposit of the required additional security as falling within 'arrears'.",
+  "reusable_constructions": [
+    {
+      "construction": "Failure to furnish additional security demanded for an additional/enhanced load does not constitute 'arrears'; additional security is in the nature of an advance payment of charges for consumption (estimated for about three months), not a debt or money due to the licensee.",
+      "paras": "24.2.2011"
+    },
+    {
+      "construction": "The only consequence of not furnishing additional security is that the licensee need not release the additional load (and the supply may be disconnected) — it does not convert the amount into a recoverable due or arrears.",
+      "paras": "24.2.2011"
+    },
+    {
+      "construction": "Because such default is not 'arrears', a tariff-order load factor rebate that is barred only to consumers 'with arrears' cannot be denied on the ground of non-furnishing of additional security; a denial on that basis is illegal.",
+      "paras": "24.2.2011"
+    },
+    {
+      "construction": "Clause 4.20(l) of the U.P. Electricity Supply Code, 2005 (no security required where supply is taken through a pre-payment meter) governs only the requirement of security and has no bearing on eligibility for rebate.",
+      "paras": "24.2.2011"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::47",
+      "code": "Electricity Act, 2003",
+      "clause": "47 (security deposit) r/w the HV-2 tariff-order load factor rebate",
+      "topic": "Non-furnishing of additional security is not 'arrears' disentitling a consumer to the load factor rebate",
+      "type": "electricity_act",
+      "nature": "ratio",
+      "question": "Whether a consumer's failure to furnish the additional security demanded for an additional load amounts to being 'in arrears', so as to disentitle it to the load factor rebate under the tariff order?",
+      "holding": "No. Applying Tehri Girders (which relied on Ferro Alloys Corporation and Mirzapur Electric Supply), additional security is in the nature of an advance payment of charges and cannot be held as money due to the licensee or categorised as arrears; the only consequence of not furnishing it is that the licensee need not release the additional load and the supply could be disconnected. Since the default is not 'arrears', the denial of the load factor rebate founded on the letter dated 6 October 2008 is illegal and the respondents cannot deny the rebate to the petitioner.",
+      "evidence": [
+        {
+          "quote": "cannot be held as money due from the person to the licensee and to be categorised as arrears",
+          "paras": "24.2.2011"
+        },
+        {
+          "quote": "all that would follow is that the supply could be disconnected if the additional security is not granted",
+          "paras": "24.2.2011"
+        },
+        {
+          "quote": "the respondents cannot deny to the petitioner the load factor rebate",
+          "paras": "24.2.2011"
+        }
+      ],
+      "paras": "24.2.2011",
+      "flag": "Order-sheet judgment with no printed page numbers or numbered paragraphs; pins are keyed to the reasoned order dated 24.2.2011. Keyed to EA2003::47 to sit with the additional-security cluster (SCJ-252, SCJ-697); the judgment engages security via the supply agreement and the HV-2 tariff order and applies Tehri Girders."
+    },
+    {
+      "provision": "UP-2005::4.20(l)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.20(l)",
+      "topic": "Clause 4.20(l) (pre-payment-meter security) has no bearing on rebate eligibility",
+      "type": "supply_code",
+      "nature": "ratio",
+      "question": "Whether clause 4.20(l) of the Supply Code (no security where supply is taken through a pre-payment meter) bears on the consumer's eligibility for the load factor rebate?",
+      "holding": "No. Clause 4.20(l) only provides that no security is required if the consumer takes supply through a pre-payment meter; it has nothing to do with the rebate, and the respondents' reliance on it was misplaced.",
+      "evidence": [
+        {
+          "quote": "This aspect has nothing to do with rebate",
+          "paras": "24.2.2011"
+        }
+      ],
+      "paras": "24.2.2011"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "security-deposit-is-advance-payment-not-debt",
+      "application": "Additional security demanded for an additional load is an advance payment of charges (estimated for about three months), not money due to the licensee, and so cannot be categorised as arrears.",
+      "lead_authorities": [
+        {
+          "name": "Tehri Girders Ltd. v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+          "docid": ""
+        },
+        {
+          "name": "Ferro Alloys Corporation Ltd. v. A.P. State Electricity Board",
+          "docid": ""
+        }
+      ],
+      "paras": "24.2.2011"
+    },
+    {
+      "tag": "additional-security-is-not-dues-clause-4.49-not-attracted",
+      "application": "Because additional security is not a due or arrear, the machinery for recovery of arrears is not attracted; the consequence of default is only that the additional load need not be released and the supply may be disconnected.",
+      "lead_authorities": [
+        {
+          "name": "Tehri Girders Ltd. v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+          "docid": ""
+        }
+      ],
+      "paras": "24.2.2011"
+    },
+    {
+      "tag": "additional-security-default-does-not-bar-load-factor-rebate",
+      "application": "A tariff-order load factor rebate barred only to consumers 'with arrears' cannot be denied for non-furnishing of additional security, since that default is not arrears; such denial is illegal.",
+      "lead_authorities": [],
+      "paras": "24.2.2011"
+    }
+  ],
+  "not_decided": [],
+  "related_cases": [
+    {
+      "case_id": "SCJ-252",
+      "note": "Tehri Girders — the Division Bench authority applied here; additional security is not dues/arrears (Clause 4.49 not attracted); withdrawn load factor rebate is a recoverable due."
+    },
+    {
+      "case_id": "SCJ-697",
+      "note": "R.A. Castings — sibling in the same additional-security line (a connected matter); security deposit is advance payment, not debt."
+    },
+    {
+      "case_id": "SCJ-250",
+      "note": "Same principle that additional security is not dues (Clause 4.49 not attracted)."
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Tehri Girders Ltd. & Anr. v. Paschimanchal Vidyut Vitran Nigam Ltd. & Ors.",
+      "citation": "Civil Misc. Writ Petition No. 38 of 2009, decided 15 October 2009",
+      "court": "Allahabad High Court",
+      "docid": "",
+      "proposition": "Failure to furnish additional security does not amount to arrears; additional security is an advance payment of charges, not money due, and its non-furnishing entails only possible disconnection.",
+      "how_treated": "Applied to the identical issue; the Court found no reason to take a different view and held the denial of rebate illegal.",
+      "how_treated_paras": "24.2.2011",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Ferro Alloys Corporation Ltd. v. A.P. State Electricity Board & Anr.",
+      "citation": "1993 Supp (4) SCC 136",
+      "court": "Supreme Court of India",
+      "docid": "",
+      "proposition": "The true nature of the transaction is one of advance payment of charges for consumption of electricity estimated for a period of approximately three months, to be kept made good from month to month.",
+      "how_treated": "Relied on (through Tehri Girders) for the character of additional security as advance payment rather than a debt.",
+      "how_treated_paras": "24.2.2011",
+      "cited_by": "Court",
+      "treatment": "Relied on"
+    },
+    {
+      "name": "Mirzapur Electric Supply Company Limited v. State of U.P. & Ors.",
+      "citation": "AIR 1975 All 29",
+      "court": "Allahabad High Court",
+      "docid": "",
+      "proposition": "Nature and consequences of security-deposit requirements under electricity supply law.",
+      "how_treated": "Relied on (through Tehri Girders) in characterising additional security and the consequence of its non-furnishing.",
+      "how_treated_paras": "24.2.2011",
+      "cited_by": "Court",
+      "treatment": "Relied on"
+    }
+  ],
+  "model": "Claude Opus 4.8"
+}
