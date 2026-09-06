@@ -1,0 +1,46 @@
+{
+  "case_id": "SCJ-2026",
+  "title": "Snehlata v. U.P. Power Corporation Ltd.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Pankaj Mithal, J.; Saral Srivastava, J.",
+  "date_of_judgment": "2019-07-16",
+  "date_display": "16 July 2019",
+  "docket": "Writ - C No. 22440 of 2019",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; bill dispute relegated to EE under 6.5, then CGRF/Ombudsman under 7.10.",
+  "headnote": "Correctness of an electricity bill is examinable by the Executive Engineer under Clause 6.5 of the U.P. Electricity Supply Code, 2005. A consumer disputing a bill may raise the objection before the Executive Engineer for consideration and, if needed, rectification; if still dissatisfied, a complaint lies to the Consumer Grievance Redressal Forum and the Ombudsman under Clause 7.10. The High Court will not entertain a writ when those alternative remedies are available.",
+  "facts": "Snehlata holds a tube-well electricity connection. She disputed the July 2018 bill and the Executive Engineer corrected it. She then disputed the October 2018 bill, which was again corrected. She did not deposit the corrected amounts. U.P. Power Corporation Limited issued a May 2019 bill including arrears. She filed a writ petition alleging that although the connection number was correct, the meter number was wrong, so the entire bill was incorrect.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "bill-correctness-executive-engineer",
+      "type": "supply_code",
+      "holding": "The correctness of an electricity bill can always be checked by the Executive Engineer under Clause 6.5 of the U.P. Electricity Supply Code, 2005. A consumer aggrieved by a bill may raise the dispute before the Executive Engineer, who will consider it and rectify the bill if necessary.",
+      "paras": "1"
+    },
+    {
+      "provision": "UP-2005::7.10",
+      "code": "UP-2005",
+      "clause": "7.10",
+      "topic": "cgrf-ombudsman-after-executive-engineer",
+      "type": "supply_code",
+      "holding": "If the consumer is not satisfied with the Executive Engineer's order or the bill as corrected, a complaint may be preferred before the Consumer Grievance Redressal Forum and the Ombudsman in accordance with Clause 7.10 of the U.P. Electricity Supply Code, 2005. The writ petition was dismissed for availability of those alternative remedies.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the May 2019 bill was incorrect because the meter number was wrongly mentioned.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
