@@ -1,7 +1,7 @@
 # Reuse these keys when they fit. Do not invent a synonym for an existing tag.
 # New kebab-case tags are allowed only when none of these capture the holding.
 
-PROVISIONS (274)
+PROVISIONS (275)
 additional-security
 ARREARS::transferee-liability
 BIHAR-2007::4.1
@@ -96,6 +96,7 @@ OFFTOPIC::landlord-tenant-civil
 OFFTOPIC::lps-change-in-law-ppa
 OFFTOPIC::mala-fide-impleadment
 OFFTOPIC::mining-royalty-enhancement-statutory-contract
+OFFTOPIC::non-execution-of-high-court-non-bailable-warrant
 OFFTOPIC::panchayat-raj-act-pradhan-removal-enquiry
 OFFTOPIC::precedent-jindal-poly-films
 OFFTOPIC::procedural-listing
@@ -277,7 +278,7 @@ UPGEUDR1958::4
 URUA1966::4
 WB-2004::5.2
 
-TAGS (344)
+TAGS (348)
 126-vs-135-distinct-fields
 126-vs-135-distinct-fields-but-126-still-applies-to-theft
 acquiescence-cuts-both-ways
@@ -363,6 +364,7 @@ connection-must-be-released-with-a-meter
 connection-transfer-requires-clearance-of-arrears-clause-4.44
 consumer-cannot-blame-licensee-for-consequences-of-own-delay
 consumer-forum-lacks-jurisdiction-over-s126-s135-140-matters
+consumer-must-be-associated-in-inquiry-before-final-assessment
 corporate-debtor-liability-distinct-from-director-guarantor-liability
 cost-on-electricity-department-for-casual-non-compliance
 cost-on-frivolous-state-instrumentality-litigation
@@ -373,6 +375,7 @@ deemed-disconnection-does-not-bar-theft-assessment-in-writ
 defective-meter-not-per-se-theft-distinct-assessment-regime
 delay-laches-bar-similarly-situated-claim
 demand-notice-on-provisional-assessment-is-illegal
+deposit-for-interim-restoration-abides-by-fresh-section-126-assessment
 direction-to-consider-reconnection-subject-to-clearing-dues
 director-liability-for-company-dues-subordinate-to-company-assets
 director-not-personally-liable-for-company-electricity-dues
@@ -401,6 +404,7 @@ fresh-connection-to-auction-purchaser-free-from-encumbrances
 fresh-recovery-arbitrary-while-representation-pending
 government-shareholding-does-not-make-licensee-dues-government-dues
 hazardous-activity-strict-duty
+high-court-non-bailable-warrant-must-be-executed
 ibc-liability-crystallises-at-resolution-plan-effective-date
 ibc-moratorium-does-not-cover-personal-guarantor-directors
 ibc-s238-overrides-electricity-act-recovery-mechanism-in-liquidation
@@ -500,6 +504,7 @@ owner-liable-as-consumer-for-theft-regardless-of-tenancy-claim
 owner-objection-to-supply-requires-dm-permission-rule-3b
 owner-of-premises-is-consumer-liable-for-theft-assessment
 para-4.29-service-line-cannot-bypass-clause-3.4-independent-feeder-conditions
+para-6.8-non-compliance-vitiates-assessment-and-recovery
 part-deposit-stay-of-recovery-without-prejudice
 pending-private-dispute-no-ground-to-deny-supply
 permanent-lok-adalat-jurisdiction-over-public-utility-electricity-grievance

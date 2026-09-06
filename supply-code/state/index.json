@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 1987,
+  "next_seq": 1988,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -11920,6 +11920,12 @@
       "case_id": "SCJ-1986",
       "source_basename": "WRIC(A)_24151_2016.pdf",
       "title": "Vishun Kumar Agrawal & Anr. v. U.P.P.C.L. & Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-1987",
+      "source_basename": "WRIC(A)_25512_2016.pdf",
+      "title": "Anmol Laghu Udyog v. D.V.V.N. Agra & Another",
       "status": "done"
     }
   ]
