@@ -90,6 +90,37 @@ def next_new_id(state):
 def do_claim(args):
     man = load_manifest()
     order, info = manifest_lookup(man)
+
+    # GUARD (idempotent claim): never reserve a NEW id while a claim is already
+    # in-flight. finalize is what removes TICKET and moves the source out of
+    # claude_input/, so a TICKET whose source is still pending means the previous
+    # claim was never finalized. Re-running `claim --next` in that state used to
+    # re-pick the same still-pending source and burn a duplicate id (bumping
+    # next_seq and overwriting the ticket). Instead: re-emit the active ticket for
+    # `--next` (or `--file` naming the same source); a `--file` for a DIFFERENT
+    # source is a real conflict and stops.
+    if os.path.exists(TICKET):
+        try:
+            act = json.load(open(TICKET, encoding="utf-8"))
+        except (OSError, ValueError):
+            act = None
+        if act and act.get("source") and still_pending(act["source"]):
+            act_rel = act["source"]
+            if args.file:
+                req = args.file.replace("\\", "/")
+                if req.startswith("claude_input/"):
+                    req = req[len("claude_input/"):]
+                if req != act_rel:
+                    die(f"active ticket {act.get('case_id')} ({act_rel}) not "
+                        f"finalized; run `finalize {act.get('case_id')}` (or rm "
+                        f"{os.path.relpath(TICKET, ROOT)}) before claiming {req}")
+            print(f"ALREADY_CLAIMED mode={act.get('mode')} {act.get('case_id')} "
+                  f"pages={act.get('page_count')} words={act.get('word_count')} "
+                  f"source={act_rel}")
+            print(f"  -> author {act.get('out_json')} (rich schema), then "
+                  f"`python claude_tools/scj_claude.py finalize {act.get('case_id')}`")
+            return 0
+
     rel = args.file
     if rel:
         rel = rel.replace("\\", "/")
