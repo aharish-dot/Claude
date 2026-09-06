@@ -1,0 +1,39 @@
+{
+  "case_id": "SCJ-2182",
+  "title": "Dharmendra Sharma v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "B. Amit Sthalekar, J.; Manju Rani Chauhan, J.",
+  "date_of_judgment": "2019-02-05",
+  "date_display": "5 February 2019",
+  "docket": "WRIT - C No. 3927 of 2019",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; relegated to clause 6.8; recovery stayed pending EE.",
+  "headnote": "Where a recovery citation followed an inspection finding unauthorized use of electricity without a connection and an FIR for theft, the High Court declined to quash the citation on merits and relegated the petitioner to the Executive Engineer under clause 6.8 of the U.P. Electricity Supply Code, 2005, directing a time-bound hearing and keeping recovery in abeyance pending that order.",
+  "facts": "The Electricity Department inspected Dharmendra Sharma's premises, found him using electricity unauthorizedly without any connection, and lodged an FIR. By a recovery citation dated 10 September 2018, the respondents sought to recover Rs. 9,38,163 from him as electricity dues. Sharma filed a writ petition in the Allahabad High Court seeking quashing of that citation, asserting that the electricity dues were chargeable from M/s Reliance Tower Ltd. and not against him.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8",
+      "code": "UP-2005",
+      "clause": "6.8",
+      "topic": "6.8-remedy-for-theft-recovery",
+      "type": "supply_code",
+      "holding": "Treating the dispute as a matter of theft, the Court held that the petitioner's remedy was under clause 6.8 of the Electricity Supply Code, 2005, by approaching the Executive Engineer. The writ was disposed of with a direction that if the petitioner appeared on the appointed date with a certified copy and his representation or objection, the Executive Engineer would hear and decide it in accordance with law within fifteen days; recovery under the citation dated 10.09.2018 would remain in abeyance subject to that appearance and to the Engineer's final order. The Court did not adjudicate the claim on merits.",
+      "paras": "1",
+      "flag": "wrong_clause"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the electricity dues were chargeable from the petitioner or from M/s Reliance Tower Ltd.",
+      "note": "The Court expressly did not adjudicate the claim on merits.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
