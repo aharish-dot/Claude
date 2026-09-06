@@ -1,0 +1,143 @@
+{
+  "case_id": "SCJ-1983",
+  "title": "Executive Engineer, Electricity Rural Distribution Divn., Mathura v. Chairman & Judicial Member, Electricity Consumer Grievance Redressal Forum & Another",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sudhir Agarwal, J. and Ajit Kumar, J.",
+  "date_of_judgment": "2017-11-15",
+  "date_display": "15 November 2017",
+  "docket": "Writ - C No. 15180 of 2015",
+  "page_count": 40,
+  "significance": "significant",
+  "outcome": "consumer",
+  "source_file": "WRIC(A)_15180_2015.pdf",
+  "pin_basis": "paragraph",
+  "disposition": "Writ petition (by the Executive Engineer/licensee) dismissed with cost of Rs.25,000. The ECGRF's order dated 26.11.2013 - cancelling the kVAh-based arrear bill dated 20.9.2012 (Rs.4,58,152), directing correction of the bill and adjustment of amounts paid, and awarding the consumer damages of Rs.3000 and cost of Rs.500 - was upheld as containing no manifest error, electricity pricing being governed by the Tariff Order (not the Supply Code) and kVAh tariff applying to the LMV-6 consumer only from 1 November 2012.",
+  "headnote": "A distribution licensee (Executive Engineer) challenged an order of the Electricity Consumer Grievance Redressal Forum (ECGRF) which had cancelled a bill dated 20 September 2012 raising an arrear of Rs.4,58,152 on an LMV-6 consumer (contracted load 31 HP/24 kW). The arrear represented the difference between kWh and kVAh billing, which the licensee said it had wrongly been billing on kWh since 2008. Dismissing the writ with Rs.25,000 cost, a Division Bench of the Allahabad High Court held: (1) the price to be charged for electricity supply is governed by the Commission's Tariff Order and Tariff Schedule under Section 45 of the Electricity Act, 2003, and not by the U.P. Electricity Supply Code, 2005 (which, though framed under Section 50 to provide for recovery, billing intervals, disconnection and the like, contains no provision prescribing the manner of charging the price of supply); and (2) kVAh-based tariff applied only to the load threshold and from the effective date fixed by the applicable Tariff Order - under the 2008 and 2010 orders only to consumers of 25 kW and above (Light, Fan & Power) or 25 BHP and above (Motive Power), and to consumers of 10 kW and above only from the order dated 19 October 2012, which for LMV-6 took effect from 1 November 2012. As the consumer's 24 kW connection was not a Motive Power Load, kVAh did not apply to him before 1 November 2012, and the licensee's retrospective re-billing on kVAh 'with effect from 2008' was a manifest error of law and illegal. The ECGRF having rightly so held, and there being no manifest error in its order, the writ was dismissed.",
+  "facts": "Banwari Lal (since deceased and substituted by his legal heirs), the consumer-respondent no.2, held electric connection SC No.3810/034682 with a contracted load of 31 HP/24 kW, to which Tariff Rate Schedule LMV-6 admittedly applied. Bills dated 22 June 2012 (on kWh reading) and 18 July 2012 (on 'No Reading') were issued and paid; no bill was served for August 2012. The bill dated 20 September 2012, again on a 'No Reading' basis, showed a kVAh reading of 206626 and an arrear of Rs.4,58,152 (total Rs.4,76,415), although the previous bill had been paid. On the consumer's complaint he was assured the bill would be corrected and asked to deposit Rs.35,000 (deposited 28 September 2012); a further bill dated 17 December 2012 on kVAh reading maintained the arrear, and he deposited another Rs.50,000 (30 November 2012). The bill was not corrected and the connection was disconnected on 27 December 2012. Complaints to the licensee (28 December 2012) and the Superintending Engineer (21 January 2013) drew no action, and the consumer approached the ECGRF, Agra Region, depositing a further Rs.45,000. Before the ECGRF the licensee explained that, being LMV-6 with contracted load above 25 BHP (18 kW), billing ought to have been on kVAh but had by mistake continued on kWh, producing a difference of 125,780 units (Rs.4,58,152) which the consumer was liable to pay. By order dated 26 November 2013 the ECGRF cancelled the bill dated 20 September 2012, directed correction of the bill and adjustment of the amounts paid, and awarded damages of Rs.3000 and cost of Rs.500. The Executive Engineer, Electricity Rural Distribution Division Ist, Mathura, filed the present writ under Article 226; an interim stay of the ECGRF order operated throughout, and the consumer having died, his legal heirs were substituted.",
+  "reusable_constructions": [
+    {
+      "construction": "The price to be charged by a distribution licensee for electricity supply is governed by the Commission's Tariff Order and the relevant Tariff Schedule (Section 45, Electricity Act, 2003), not by the U.P. Electricity Supply Code, 2005; the Code contains no provision prescribing the manner of charging the price of supply.",
+      "paras": "7, 8, 19"
+    },
+    {
+      "construction": "kVAh-based tariff applies only to the load threshold and from the effective date fixed by the applicable Tariff Order; for LMV-6 consumers the kVAh regime (contracted load 10 kW and above) took effect only from 1 November 2012, whereas the earlier tariff orders confined kVAh to consumers of 25 kW and above (Light, Fan & Power) or 25 BHP and above (Motive Power Loads).",
+      "paras": "20-25"
+    },
+    {
+      "construction": "A licensee cannot retrospectively re-bill a consumer on a kVAh basis for periods before the tariff order extending kVAh to that consumer's category took effect; raising an arrear bill applying kVAh 'with effect from 2008' is a manifest error of law and illegal.",
+      "paras": "25"
+    },
+    {
+      "construction": "Where a Consumer Grievance Redressal Forum has correctly applied the tariff orders in a billing dispute, the High Court will not interfere under Article 226 absent a manifest error in the Forum's order.",
+      "paras": "26, 27"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::45",
+      "code": "Electricity Act, 2003",
+      "clause": "45 (power to recover charges) read with Section 50 (the Electricity Supply Code)",
+      "topic": "Price of electricity supply is governed by the Tariff Order and Tariff Schedule, not by the U.P. Electricity Supply Code, 2005",
+      "type": "interplay",
+      "nature": "ratio",
+      "question": "Whether the price to be charged by a distribution licensee for electricity supply is governed by the U.P. Electricity Supply Code, 2005, or by the Commission's Tariff Order and Tariff Schedule under Section 45 of the Electricity Act, 2003?",
+      "holding": "It is governed by the Tariff Order and the relevant Tariff Schedule, not by the Code. Section 45 provides that the prices to be charged shall be in accordance with tariffs fixed from time to time; the Code, 2005 (framed under Section 50) provides for recovery of charges, billing intervals, disconnection and the like, but contains no provision that the price of supply is to be charged in the manner provided in the Code. The manner of charging the price is therefore to be found in the Tariff Order and Tariff Schedule.",
+      "evidence": [
+        {
+          "quote": "We do not find any provision in the Code-2005 that billing of Consumer for charging price of electricity supply to it by Distribution Licensee has to be made in the manner provided in Code 2005. In fact it has to be governed by rules and terms and conditions provided in Tariff Order and relevant Tariff Schedule.",
+          "paras": "19"
+        }
+      ],
+      "paras": "7, 8, 19",
+      "flag": "Judgment carries numbered paragraphs (1-27); pins are paragraph numbers. Type marked interplay as the holding distinguishes the Electricity Supply Code, 2005 (Section 50) from the Tariff Order regime under Section 45 of the Electricity Act, 2003."
+    },
+    {
+      "provision": "UP-2005::3.8",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "3.8 (Tariff and other Charges for Supply) read with the Commission's Tariff Orders (kVAh clause, para 5)",
+      "topic": "kVAh tariff applies only per the load threshold and effective date fixed by the Tariff Order; no retrospective kVAh re-billing (LMV-6: 10 kW & above from 1.11.2012)",
+      "type": "supply_code",
+      "nature": "ratio",
+      "question": "From what date and to which consumers did kVAh-based tariff apply, and could the licensee re-bill the consumer on a kVAh basis for periods before that date?",
+      "holding": "kVAh tariff applied only to the load threshold and from the effective date fixed by the applicable Tariff Order. Under the orders effective 27.4.2008 and 15.4.2010, kVAh applied only to consumers with contracted load of 25 kW and above (Light, Fan & Power) or 25 BHP and above (Motive Power). kVAh was extended to consumers with contracted load of 10 kW and above only by the order dated 19.10.2012, which for LMV-6 took effect from 1 November 2012. The consumer's contracted load being 24 kW (Light, Fan & Power) and not a Motive Power Load, kVAh did not apply to him before 1.11.2012; the licensee's bill dated 20.9.2012 re-billing on kVAh 'with effect from 2008' and raising an arrear of Rs.4,58,152 was a manifest error of law and illegal, and the ECGRF rightly held bills issued before 1.11.2012 on kVAh basis were not correct.",
+      "evidence": [
+        {
+          "quote": "For the first time, kVAh tariff was extended to consumers having contracted load of 10 kW and above",
+          "paras": "23"
+        },
+        {
+          "quote": "that tariff LMV-6 shall be made effective from 01.11.2012 instead of 01.10.2012",
+          "paras": "24"
+        },
+        {
+          "quote": "petitioner clearly erred in law and committed manifest error and illegality issued bill dated 20.9.2012 as per kVAh reading with effect from 2008 ignoring the fact that kVAh reading was applicable, till that date, in respect of consumers, who have contracted load of 25 kW for Light, Fan and Power connection",
+          "paras": "25"
+        },
+        {
+          "quote": "ECGRF, therefore, has rightly held that bills issued before 01.11.2012, on the basis of kVAh reading, were not correct",
+          "paras": "25"
+        }
+      ],
+      "paras": "20-25",
+      "flag": "Keyed to UP-2005::3.8 (Tariff and other Charges for Supply), the Code clause bridging to the Commission's Tariff Orders under which the kVAh clause (para 5) is fixed; the substantive kVAh threshold and effective date lie in the Tariff Orders themselves."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "pricing-governed-by-tariff-order-not-supply-code",
+      "application": "The manner of charging the price of electricity supply is governed by the Tariff Order and Tariff Schedule under Section 45 of the Electricity Act, 2003; the Supply Code, 2005 prescribes no method of charging the price.",
+      "lead_authorities": [],
+      "paras": "7, 8, 19"
+    },
+    {
+      "tag": "tariff-no-retrospective-effect",
+      "application": "A tariff condition (here kVAh billing) operates only from the effective date fixed by the tariff order; the licensee cannot apply it retrospectively to re-bill a consumer for earlier periods.",
+      "lead_authorities": [],
+      "paras": "23-25"
+    },
+    {
+      "tag": "cgrf-jurisdiction-covers-billing-and-tariff-disputes",
+      "application": "The ECGRF, exercising jurisdiction under Clause 7.10 and the Regulations 2007 over a billing/tariff dispute, correctly applied the tariff orders; the High Court found no manifest error and declined to interfere.",
+      "lead_authorities": [],
+      "paras": "18, 26"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "The exact recomputation and refund/adjustment of the amounts already deposited by the consumer",
+      "note": "Left to be worked out per the ECGRF's directions (correction of the bill and adjustment of amounts paid), which the Court affirmed without itself recomputing.",
+      "docid": "",
+      "paras": "1, 26"
+    }
+  ],
+  "related_cases": [
+    {
+      "case_id": "SCJ-066",
+      "note": "Shokumbhari Pulp & Paper Mills - retrospective application of a tariff notification quashed; the same no-retrospective-tariff principle underlies the invalidation of the kVAh re-billing here."
+    },
+    {
+      "case_id": "SCJ-1061",
+      "note": "UPPCL v. Appellate Authority - a distribution licensee's writ on charges under Section 45 dismissed as devoid of merit; parallel posture where the licensee's challenge fails."
+    },
+    {
+      "case_id": "SCJ-281",
+      "note": "Parvati Devi - a kVAh/kWh billing dispute (there the writ was dismissed on other grounds); sibling on the kVAh-versus-kWh billing question."
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Civil Misc. Writ Petitions No. 13514 of 2014, 17090 of 2014 and 15122 of 2014",
+      "citation": "Allahabad High Court, decided 1 April 2014",
+      "court": "Allahabad High Court",
+      "docid": "",
+      "proposition": "The LMV-6 tariff under the order dated 19.10.2012 was to be made effective from 1 November 2012 (per the UPPCL circular dated 19.5.2014 issued with reference to this judgment), with consumption on the first post-enforcement meter reading to be proportionately distributed as per the old and new tariff.",
+      "how_treated": "Referred (through the UPPCL circular dated 19.5.2014) for the effective date of the kVAh/LMV-6 tariff.",
+      "how_treated_paras": "24",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    }
+  ],
+  "model": "Claude Opus 4.8"
+}
