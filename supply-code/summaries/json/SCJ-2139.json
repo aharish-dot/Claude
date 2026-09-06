@@ -1,0 +1,54 @@
+{
+  "case_id": "SCJ-2139",
+  "title": "Mohd. Mubeen Alias Hazi Mohammad Mubeen v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta, J.; Piyush Agrawal, J.",
+  "date_of_judgment": "2019-11-21",
+  "date_display": "21 November 2019",
+  "docket": "WRIT - C No. - 37469 of 2019",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Final assessment quashed; EE to pass speaking order after hearing; s.127 liberty.",
+  "headnote": "A final assessment passed without considering the consumer's objection to the provisional assessment, already on the record, overlooks the U.P. Electricity Supply Code, 2005, and is quashed. The Executive Engineer must hear the consumer and pass a speaking and reasoned final order; an appeal under Section 127 of the Electricity Act, 2003, will lie against that fresh order. Default in appearance revives the quashed assessment.",
+  "facts": "Mohd. Mubeen filed a writ seeking certiorari against a provisional electricity assessment dated 23 February 2019 and a final assessment dated 8 April 2019. He had objected to the provisional order on 11 March 2019. The assessing officer nevertheless issued the final order twenty-seven days later without considering that objection, which the petitioner said was already on the record and contrary to the U.P. Electricity Supply Code, 2005. Counsel for the Electricity Department was heard.",
+  "reusable_constructions": [
+    {
+      "construction": "A final assessment passed while the consumer's objection to the provisional assessment is already on the record, without considering that objection, is a manifest illegality under the U.P. Electricity Supply Code, 2005, and is liable to be quashed.",
+      "paras": "1"
+    },
+    {
+      "construction": "After such quashing the assessing officer must pass a speaking and reasoned final order after considering the objections and evidence; Section 127 of the Electricity Act, 2003, remains the appeal against that fresh order.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005",
+      "code": "UP Electricity Supply Code 2005",
+      "clause": "unspecified",
+      "topic": "final assessment — consideration of objections",
+      "type": "supply_code",
+      "holding": "Where the consumer's objection to the provisional assessment was already on the record, the final assessment dated 8.4.2019 passed without considering that objection overlooked the U.P. Electricity Supply Code, 2005, and is quashed. The petitioner is to appear before the Executive Engineer with the objection and evidence; the officer shall then pass a speaking and reasoned final order after considering the objections. If still aggrieved, the consumer may appeal under Section 127 of the Electricity Act, 2003. If the petitioner does not appear on the date fixed, the quashed order stands revived automatically.",
+      "paras": "1",
+      "flag": "ambiguous-clause: order cites U.P. Electricity Supply Code 2005 generally; no clause number stated"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "merits and quantum of the assessment",
+      "note": "The Court did not examine unauthorized use or the amount; it quashed only for non-consideration of the objection.",
+      "paras": "1"
+    },
+    {
+      "point": "validity of the provisional assessment dated 23.2.2019",
+      "note": "Certiorari was also sought against the provisional order; only the final assessment dated 8.4.2019 was quashed.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
