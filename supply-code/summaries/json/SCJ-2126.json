@@ -1,0 +1,39 @@
+{
+  "case_id": "SCJ-2126",
+  "title": "Muntshir v. State of U.P.",
+  "neutral_citation": "WRIT - C No. 3631 of 2019",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "B. Amit Sthalekar, J.; Manju Rani Chauhan, J.",
+  "date_of_judgment": "2019-02-01",
+  "date_display": "1 February 2019",
+  "docket": "WRIT - C No. - 3631 of 2019",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; petitioner relegated to Executive Engineer under clause 6.8; recovery stayed pending decision.",
+  "headnote": "A writ seeking quash of a recovery citation for electricity arrears, including where the inquiry records theft, is not decided on merits. The consumer is relegated to the Executive Engineer under clause 6.8 of the Electricity Supply Code, 2005, for a time-bound hearing of the representation; recovery remains in abeyance if the consumer appears as directed, subject to the Engineer's final order.",
+  "facts": "Muntshir challenged a recovery citation dated 11 August 2017 for Rs.53,295 towards arrears of electricity dues. According to him, the Electricity Department inquired on 17 November 2017 and recovered Rs.30,000. The inquiry report of that date treated the matter as theft of electricity. He sought quashing of the citation in a writ against the State of U.P. and Paschimanchal Vidyut Vitran Nigam Ltd., District Hapur.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8",
+      "code": "UP-2005",
+      "clause": "6.8",
+      "topic": "forum for recovery citation after theft inquiry",
+      "type": "supply_code",
+      "holding": "A consumer challenging a recovery citation for electricity arrears, including where the departmental inquiry records theft, is relegated to the Executive Engineer under clause 6.8 of the Electricity Supply Code, 2005; the writ court will not quash the citation on merits. If the consumer appears as directed with a certified copy of the order and a representation, the Engineer shall hear and decide the representation in accordance with law within fifteen days, and recovery under the citation remains in abeyance subject to that final order.",
+      "paras": "1",
+      "flag": "Court recorded theft of electricity yet directed the clause 6.8 (UUE) forum without applying clauses 8.1–8.2."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "validity of the recovery citation dated 11.8.2017 and the underlying theft/arrears assessment",
+      "note": "Writ disposed without examining merits; the Executive Engineer is to decide the representation under clause 6.8.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
