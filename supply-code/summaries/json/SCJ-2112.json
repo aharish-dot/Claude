@@ -1,0 +1,43 @@
+{
+  "case_id": "SCJ-2112",
+  "title": "Executive Engineer (Distribution), Electricity Distribution Division, KESCO v. Presiding Officer, Electricity Consumer Grievance Redressal Forum",
+  "neutral_citation": "Writ - C No. 33426 of 2019",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sudhir Agarwal, J.; Rajeev Misra, J.",
+  "date_of_judgment": "2019-10-19",
+  "date_display": "19 October 2019",
+  "docket": "WRIT - C No. - 33426 of 2019",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition dismissed; Forum order directing actual-consumption billing without penalty stands.",
+  "headnote": "A licensee cannot sustain a twenty-six-month cumulative assessment for a missing current transformer merely because MRI reports later showed the CT absent throughout that period. Where correctness of the meter is in issue, Electricity Supply Code, 2005 requires the meter to be checked in the consumer's presence, an assessment for a defective meter only after opportunity to the consumer, and, if the consumer demands, reference to the Inspector. Failure to follow that procedure, and unexplained inaction despite months of MRI indications, left the licensee's writ against the Forum without merit.",
+  "facts": "KESCO's distribution division at Dadanagar, Kanpur Nagar, challenged a 26 July 2019 order of the Electricity Consumer Grievance Redressal Forum. The Forum had set aside a cumulative bill of Rs 32,93,796 raised after an inspection on 2 February 2018 found the current transformer of the main meter missing. The licensee had assessed twenty-six months because MRI reports showed the CT missing throughout that period. The Forum held the bill contrary to Electricity Supply Code, 2005 paragraph 5.7(g) and directed billing of consumption actually recorded, without penalty or surcharge.",
+  "reusable_constructions": [
+    {
+      "construction": "A licensee who finds a current transformer missing on inspection cannot raise a retrospective multi-month assessment unless it has followed the Supply Code procedure for checking the meter in the consumer's presence and for billing a defective meter after giving the consumer an opportunity.",
+      "paras": "4-5"
+    },
+    {
+      "construction": "Where MRI reports already showed a missing CT over many months, unexplained failure to act on the first such report, and failure to test the CT, disentitles the licensee to sustain the additional demand in a writ against the Forum.",
+      "paras": "4"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::5.7(g)",
+      "code": "UP-2005",
+      "clause": "5.7(g)",
+      "topic": "defective-meter / missing-CT assessment",
+      "type": "supply_code",
+      "holding": "The Division Bench dismissed KESCO's writ against the Forum order that set aside a Rs 32,93,796 assessment for a missing main-meter CT over twenty-six months. Counsel could not explain why the defect, if already visible in MRI reports throughout that period, was not acted on at the first report, nor show that the CT was tested. Correctness of the meter being central, the licensee had to follow the Code 2005 procedure for checking the meter in the consumer's presence (and, if demanded, referring the matter to the Chief Administrative Inspector) and for raising an assessment for a defective meter only after opportunity to the consumer. The additional demand was raised without that procedure. The petition was dismissed.",
+      "paras": "3-6",
+      "flag": "Court attributes the presence-of-consumer check, Inspector-reference, and defective-meter assessment-after-opportunity duties to Code 2005 para 5.7(g), using the title 'Chief Administrative Inspector'."
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [],
+  "authorities": []
+}
