@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2075,
+  "next_seq": 2076,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -12430,6 +12430,12 @@
       "case_id": "SCJ-2073",
       "source_basename": "WRIC(A)_27978_2019.pdf",
       "title": "Baluwa @ Ballu v. U.P. Power Corporation Ltd. and 2 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2071",
+      "source_basename": "WRIC(A)_27395_2019.pdf",
+      "title": "Sahab Singh v. State of U.P. — mutation of tubewell connection to be decided in four weeks",
       "status": "done"
     }
   ]
