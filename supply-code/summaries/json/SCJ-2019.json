@@ -1,0 +1,49 @@
+{
+  "case_id": "SCJ-2019",
+  "title": "Ram Sagar Prajapati v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Pankaj Mithal, J. and Saral Srivastava, J.",
+  "date_of_judgment": "2019-07-11",
+  "date_display": "11 July 2019",
+  "docket": "Writ-C No. 20567 of 2019",
+  "page_count": 4,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; Executive Engineer to consider the tubewell connection after taking a clause 4.4 indemnity bond, expeditiously and if possible within one month of the bond being furnished.",
+  "headnote": "Clause 4.4 of the U.P. Electricity Supply Code, 2005 treats proof of ownership, proof of occupancy, and the prescribed indemnity form as alternative accompaniments to a new-connection application. Where title is disputed, the licensee may require the indemnity bond and must then process the application; it cannot insist on registered title papers if other conditions are met. The writ was disposed of with a direction to the Executive Engineer to consider the petitioner's tubewell application after taking that bond.",
+  "facts": "Ram Sagar Prajapati applied on 25 March 2019 for a tubewell electricity connection under the National Agricultural Development Scheme. He deposited Rs 99,502 and supplied the required cable and poles, but the licensee withheld installation citing a land-title dispute. His son Vijay filed an affidavit undertaking that the petitioner, not the Electricity Department, would be responsible if anyone obstructed the installation. Possession of the site was not disputed. On earlier listings the Court had asked why connection had not been given despite completed formalities.",
+  "reusable_constructions": [
+    {
+      "construction": "Under clause 4.4, a new-connection application may be accompanied by proof of ownership, or proof of occupancy, or the prescribed indemnity form; any one of those documents is sufficient, and the indemnity form alone will do if the remaining conditions are fulfilled.",
+      "paras": "6"
+    },
+    {
+      "construction": "A pending dispute over ownership or title of the premises is not a ground to stall a new connection: the licensee may call for an indemnity bond in lieu of other ownership or occupancy papers and must then process the application.",
+      "paras": "7"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.4",
+      "code": "UP-2005",
+      "clause": "4.4",
+      "topic": "new connection — indemnity in lieu of title documents",
+      "type": "supply_code",
+      "holding": "Clause 4.4 requires a new-connection application to be accompanied by proof of ownership, or proof of occupancy, or an indemnity form — any one of those. Where title is disputed, the distribution licensee may call for the prescribed indemnity bond and must process the application; it cannot insist on other ownership or occupancy papers if remaining conditions are fulfilled. The Executive Engineer was directed to consider the petitioner's tubewell-connection application after taking that bond, in accordance with law, expeditiously and if possible within one month of its being furnished.",
+      "paras": "6-8"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-4.4-occupant-connection-on-indemnity-bond",
+      "application": "Title dispute had delayed a tubewell connection despite deposit and undisputed possession; the Court treated the prescribed indemnity form as a sufficient clause 4.4 accompaniment and directed the Executive Engineer to process the application on that bond.",
+      "lead_authorities": [],
+      "paras": "6-8"
+    }
+  ],
+  "not_decided": [],
+  "authorities": []
+}
