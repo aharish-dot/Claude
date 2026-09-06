@@ -1,0 +1,44 @@
+{
+  "case_id": "SCJ-2006",
+  "title": "Achchaye Lal Yadav v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Pankaj Mithal, J.; Prakash Padia, J.",
+  "date_of_judgment": "2019-05-28",
+  "date_display": "28 May 2019",
+  "docket": "Writ-C No. 18510 of 2019",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; Executive Engineer directed to process the tenant's new-connection application under Clauses 4.3 and 4.4, requiring an Annexure 4.2 indemnity bond if landlord consent cannot be produced.",
+  "headnote": "A tenant seeking a new electricity connection after the landlord disconnected the earlier supply, and who cannot obtain the landlord's consent or no-objection certificate because of a rent dispute, is entitled to have the application processed under Clauses 4.3 and 4.4 of the U.P. Electricity Supply Code, 2005 on proof of occupancy and, where serious litigation with the landlord is shown, on an indemnity bond in the form of Annexure 4.2. The Court did not grant the connection on the merits; it directed the Executive Engineer to complete that process, preferably within six weeks.",
+  "facts": "The petitioner was a tenant of a shop in Indrapuri Shopping Complex. After the landlord caused the earlier electricity connection to be disconnected, he applied for a fresh connection, alleging that all dues on the earlier connection had been settled. The landlord withheld consent and a no-objection certificate because of a rent dispute between them. The distribution licensee did not process the application for want of that consent. The petitioner sought a writ to compel grant of the connection.",
+  "reusable_constructions": [
+    {
+      "construction": "Where a tenant cannot obtain the landlord's consent or no-objection certificate because of a dispute with the landlord, Clause 4.4 still requires the licensee to process the new-connection application on proof of occupancy (such as a rent receipt) together with an indemnity bond in the form of Annexure 4.2, once serious litigation with the landlord is shown; want of the landlord's NOC is not a ground to leave the application unprocessed.",
+      "paras": "5-9"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.4",
+      "code": "UP-2005",
+      "clause": "4.4",
+      "topic": "tenant new connection without landlord consent",
+      "type": "supply_code",
+      "holding": "Applications for a new electricity connection are to be processed under Clauses 4.3 and 4.4 of the 2005 Code. Clause 4.4 requires a complete application in the prescribed form, the registration-cum-processing fee, and proof of ownership or of occupancy (such as a rent receipt). Where there is litigation regarding ownership of the premises, or litigation with the owner and landlord, the application must be accompanied by an indemnity bond as in Annexure 4.2, alternatively to the owner's consent. The Executive Engineer was directed to inform the petitioner of remaining documents and formalities and, if landlord consent or NOC could not be produced and serious litigation with the landlord was established, to require that indemnity bond and then consider the application, as far as possible within six weeks.",
+      "paras": "5-10"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner was entitled to the connection on the merits, including whether earlier dues had been settled",
+      "note": "The Court directed processing and consideration under Clauses 4.3 and 4.4 after formalities; it neither granted nor refused the connection.",
+      "paras": "9-11"
+    }
+  ],
+  "authorities": []
+}

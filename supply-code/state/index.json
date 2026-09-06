@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2012,
+  "next_seq": 2013,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -12052,6 +12052,12 @@
       "case_id": "SCJ-2009",
       "source_basename": "WRIC(A)_18756_2019.pdf",
       "title": "Imran Khan v. State of U.P. — tenant new connection under Clauses 4.2–4.4; indemnity if landlord consent not obtainable",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2006",
+      "source_basename": "WRIC(A)_18510_2019.pdf",
+      "title": "Achchaye Lal Yadav v. State of U.P.",
       "status": "done"
     }
   ]
