@@ -1,0 +1,50 @@
+{
+  "case_id": "SCJ-2130",
+  "title": "Babulal v. State of U.P.",
+  "neutral_citation": "WRIT - C No. 36731 of 2019",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta and Neeraj Tiwari, JJ.",
+  "date_of_judgment": "2019-11-26",
+  "date_display": "26 November 2019",
+  "docket": "WRIT - C No. 36731 of 2019",
+  "page_count": 4,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; EE to hear objections; s.127 if aggrieved",
+  "headnote": "A consumer's writ to quash an undated electricity recovery citation, alleging coercive recovery without hearing and without following the U.P. Electricity Supply Code, 2005, was disposed of without examining the demand. The High Court directed the petitioner to appear before the Executive Engineer with objections, required a speaking final order within four weeks, stayed coercive action for seven weeks or until disposal of the objection, and left an appeal under Section 127 of the Electricity Act, 2003 if the final order went against him. Non-appearance would revive the citation.",
+  "facts": "Babulal petitioned the Allahabad High Court to quash an undated recovery citation issued by the electricity authorities for Rs. 1,16,009 plus Rs. 2. He alleged that the department was taking coercive recovery steps without any opportunity of hearing and without following the U.P. Electricity Supply Code, 2005. The writ was first listed on 14 November 2019 with a short stay of coercive measures. On 26 November 2019 the Division Bench heard the petitioner and counsel for the electricity department and disposed of the petition.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "recovery citation — speaking final order then s.127 appeal",
+      "type": "electricity_act",
+      "holding": "A writ challenging an undated recovery citation for want of hearing and alleged non-compliance with the Supply Code may be disposed of without examining the demand, by directing the consumer to appear before the Executive Engineer with objections, requiring a speaking and reasoned final order, staying coercive recovery in the meantime, and leaving the consumer, if still aggrieved by that final order, to the statutory appeal under Section 127 of the Electricity Act, 2003; default in appearance revives the citation.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "s127-appeal-lies-only-against-final-order-not-provisional-assessment",
+      "application": "The Court required the Executive Engineer to pass a speaking 'final order' and only then reserved a Section 127 appeal, treating the unheard recovery citation as not itself the appealable final assessment.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Validity and quantum of the undated recovery citation for Rs. 1,16,009",
+      "note": "The Court did not examine whether the demand was due.",
+      "paras": "1"
+    },
+    {
+      "point": "Whether the respondents had violated the U.P. Electricity Supply Code, 2005",
+      "note": "The alleged Supply Code breach was recorded as a submission only.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
