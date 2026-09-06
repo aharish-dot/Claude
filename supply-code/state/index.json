@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2067,
+  "next_seq": 2068,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -12382,6 +12382,12 @@
       "case_id": "SCJ-2062",
       "source_basename": "WRIC(A)_26496_2019.pdf",
       "title": "Raghupal Singh Bhadauria v. Dakshinanchal Electricity",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2064",
+      "source_basename": "WRIC(A)_2664_2019.pdf",
+      "title": "Shital Prasad Sahu v. State of U.P. — UUE recovery citation relegated to para 6.8",
       "status": "done"
     }
   ]
