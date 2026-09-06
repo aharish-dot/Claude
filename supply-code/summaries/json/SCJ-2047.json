@@ -1,0 +1,48 @@
+{
+  "case_id": "SCJ-2047",
+  "title": "Summer Singh v. Dakshinanchal Vidyut Vitran Nigam Ltd.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Ramesh Sinha, J. and Ajit Kumar, J.",
+  "date_of_judgment": "2019-08-05",
+  "date_display": "5 August 2019",
+  "docket": "WRIT - C No. - 24961 of 2019",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; consider energisation on Annexure 4.2 indemnity within four weeks.",
+  "headnote": "A co-tenure holder whose already-granted connection the Executive Engineer refused to energize because a partition suit under s.176 of the U.P. Zamindari Abolition and Land Reforms Act, 1952 was pending is not a trespasser. Connection may be given to a tenant or co-sharer, though not to a trespasser. The Supply Code, 2005 provides for an indemnity bond in Annexure 4.2. The writ was disposed of: if that bond is submitted within two weeks, the licensee shall consider the claim and issue a positive direction, with a decision within four weeks of a certified copy.",
+  "facts": "Summer Singh was granted an electricity connection but the Executive Engineer of Dakshinanchal Vidyut Vitran Nigam Ltd. declined to energize it by order dated 25 June 2018, on the ground that a partition suit under Section 176 of the U.P. Zamindari Abolition and Land Reforms Act, 1952 was pending among the parties. The petitioner, a co-tenure holder, sought a writ quashing that refusal and a direction to energize the already-granted connection.",
+  "reusable_constructions": [
+    {
+      "construction": "An electricity connection may be given to a person who is a tenant or co-tenure holder, but not to a trespasser.",
+      "paras": "4"
+    },
+    {
+      "construction": "A pending partition suit among co-tenure holders does not of itself bar energisation of a granted connection; the licensee who wants extra care may require an indemnity bond in the form of Annexure 4.2 of the U.P. Electricity Supply Code, 2005.",
+      "paras": "4-5"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::Annexure 4.2",
+      "code": "UP-2005",
+      "clause": "Annexure 4.2",
+      "topic": "energisation refused for pending partition; indemnity bond",
+      "type": "supply_code",
+      "holding": "An electricity connection can be given to any person who may also be a tenant, but not to a trespasser. The U.P. Electricity Supply Code, 2005 provides for asking an indemnity bond and giving connection by due procedure. A co-tenure holder with a pending partition suit may be required to submit an Annexure 4.2 indemnity if the licensee wants extra care. If that bond is submitted within two weeks, the claim is to be considered and a positive direction issued, with an appropriate decision within four weeks of production of a certified copy.",
+      "paras": "4-8"
+    }
+  ],
+  "principle_tags": [],
+  "not_decided": [
+    {
+      "point": "Shares or exclusive title among co-tenure holders in the pending partition suit under s.176 of the U.P. Zamindari Abolition and Land Reforms Act, 1952",
+      "note": "The Court treated the petitioner as a co-tenure holder, not a trespasser, and did not determine possession or shares.",
+      "paras": "5"
+    }
+  ],
+  "authorities": []
+}
