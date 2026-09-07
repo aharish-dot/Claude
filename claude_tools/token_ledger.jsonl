@@ -154,3 +154,9 @@
 {"ts": 1788714484.885, "case_id": "SCJ-2193", "step": "opus_read_lean", "kind": "in", "label": "lean", "chars": 12787, "words": 2093, "est_tokens": 3197, "method": "chars/4"}
 {"ts": 1788714484.937, "case_id": "SCJ-2193", "step": "author_json", "kind": "out", "label": "digest", "chars": 19408, "words": 2803, "est_tokens": 4852, "method": "chars/4"}
 {"ts": 1788714499.548, "case_id": "SCJ-2193", "step": "finalize", "kind": "out", "label": "finalize_stdout", "chars": 1019, "words": 75, "est_tokens": 255, "method": "chars/4"}
+{"ts": 1788783927.932, "case_id": "SCJ-2194", "step": "sonnet_read", "kind": "in", "label": "lean", "chars": 15404, "words": 2564, "est_tokens": 3851, "method": "chars/4"}
+{"ts": 1788783927.961, "case_id": "SCJ-2194", "step": "sonnet_brief", "kind": "out", "label": "brief", "chars": 20222, "words": 3136, "est_tokens": 5056, "method": "chars/4"}
+{"ts": 1788784048.294, "case_id": "SCJ-2194", "step": "opus_read_brief", "kind": "in", "label": "brief", "chars": 20222, "words": 3136, "est_tokens": 5056, "method": "chars/4"}
+{"ts": 1788784411.553, "case_id": "SCJ-2194", "step": "author_json", "kind": "out", "label": "digest", "chars": 16702, "words": 2295, "est_tokens": 4176, "method": "chars/4"}
+{"ts": 1788784615.492, "case_id": "SCJ-2195", "step": "opus_read_lean", "kind": "in", "label": "lean", "chars": 18720, "words": 3087, "est_tokens": 4680, "method": "chars/4"}
+{"ts": 1788785028.646, "case_id": "SCJ-2195", "step": "author_json", "kind": "out", "label": "digest", "chars": 16969, "words": 2430, "est_tokens": 4242, "method": "chars/4"}
