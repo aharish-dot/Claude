@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2195,
+  "next_seq": 2196,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -13168,6 +13168,12 @@
       "case_id": "SCJ-2194",
       "source_basename": "WRIC(A)_17548_2017.pdf",
       "title": "Gee Cee Cycle Balls Pvt. Ltd. v. State of U.P. and 2 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2195",
+      "source_basename": "WRIC(A)_39313_2017.pdf",
+      "title": "Jag Dev Prasad v. State of U.P. & 4 Others",
       "status": "done"
     }
   ]
