@@ -44,11 +44,16 @@ pending `new`/`new_from_grok_top10pct` → tell the user the NEW queue is draine
 before touching `upgrade` (upgrades deferred by user directive). Confirm Grok's loop is
 NOT running (turn-based: shared id counter + per-machine lock).
 
-**2. SETUP (one bash call):** `TMP=$(mktemp -d)`; init `cum_pages=0 cases_done=0`. Note THIS
-session's `Claude-Session` URL from the current attribution guidance (for the report only;
-finalize stamps commits itself).
+**2. SETUP:** the foreman tracks `cum_pages` and `cases_done` itself across the loop — NOT in
+shell (env vars and `mktemp` dirs do NOT persist between separate Bash tool calls, and the child
+prompts need a literal path). Per-case scratch uses FIXED, git-ignored paths under
+`supply-code/extracts/`: brief = `supply-code/extracts/<CID>.brief.md`, finalize log =
+`supply-code/extracts/<CID>.fin.log`. Note THIS session's `Claude-Session` URL from the current
+attribution guidance (for the report only; finalize stamps commits itself).
 
 **3. PER-CASE LOOP.** Before each case: if `cases_done >= {MAX_CASES}` or `cum_pages >= {PAGE_BUDGET}` → stop & report. Otherwise, for one case:
+
+> **Execution model:** in this harness sub-agents run ASYNC even when you request foreground — you spawn a child and get a *completion notification* a few minutes later, not a blocking return. So the loop spans multiple turns: spawn the reader → (notification) → spawn the author → (notification) → finalize → next case. The claim-guard keeps exactly one case in flight (a second `claim --next` while a ticket is open just re-emits `ALREADY_CLAIMED`), so this stays strictly sequential and safe. Do not try to claim the next case until the current one has finalized.
 
   a. **CLAIM + LEAN (bash, zero-LLM):**
   ```
@@ -60,21 +65,21 @@ finalize stamps commits itself).
   If `$OUT` starts `ALREADY_CLAIMED`, proceed with that CID. Else:
   `python3 claude_tools/lean_extract.py "$CID"`. Read `page_count` from the claim line; `cum_pages += page_count`.
 
-  b. **READER child (Agent tool, `model: sonnet`, run in FOREGROUND).** Prompt: "Read
+  b. **READER child (Agent tool, `model: sonnet`, spawn it; it runs ASYNC).** Prompt: "Read
   `claude_tools/foreman_reader_prompt.md` and follow it with {CID}=`<CID>`,
-  {BRIEF_PATH}=`<TMP>/<CID>.brief.md`." Wait for its one-line `BRIEF …` result. Keep only
+  {BRIEF_PATH}=`supply-code/extracts/<CID>.brief.md`." On its completion notification, take its one-line `BRIEF …` result. Keep only
   that line — do NOT read the brief yourself.
 
-  c. **AUTHOR child (Agent tool, `model: opus`, run in FOREGROUND) — fresh per case.**
+  c. **AUTHOR child (Agent tool, `model: opus`, spawn it; it runs ASYNC) — fresh per case.**
   Prompt: "Read `claude_tools/foreman_author_prompt.md` and follow it with {CID}=`<CID>`,
-  {BRIEF_PATH}=`<TMP>/<CID>.brief.md`." Wait for its one-line `AUTHORED … gate=ALL PASS …`
+  {BRIEF_PATH}=`supply-code/extracts/<CID>.brief.md`." On its completion notification, take its one-line `AUTHORED … gate=ALL PASS …`
   result. If it returns `BLOCKED …`, stop the loop and report the blocker (do NOT finalize).
   Keep only the status line — do NOT read the JSON yourself.
 
   d. **FINALIZE + PUSH (bash, zero-LLM):**
   ```
   export CHROME=/opt/pw-browsers/chromium-1194/chrome-linux/chrome
-  python3 claude_tools/scj_claude.py finalize "$CID" > $TMP/fin_$CID.log 2>&1; echo "exit=$?"; tail -3 $TMP/fin_$CID.log
+  python3 claude_tools/scj_claude.py finalize "$CID" > supply-code/extracts/$CID.fin.log 2>&1; echo "exit=$?"; tail -3 supply-code/extracts/$CID.fin.log
   ```
   If the push was REJECTED (non-fast-forward): `git fetch origin <BR>; git rebase origin/<BR>; python3 tools/build_supply_code.py; python3 tools/build_scj_catalog.py; git add supply-code/jurisprudence supply-code/state; git commit -m "spine: rebuild after integrating concurrent pushes" (with trailer) if diff; git push -u origin <BR>` — retry a few times. Confirm `git rev-parse HEAD == origin/<BR>` before the next case. Then `cases_done += 1`.
 
