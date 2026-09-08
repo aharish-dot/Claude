@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2207,
+  "next_seq": 2208,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -13240,6 +13240,12 @@
       "case_id": "SCJ-2206",
       "source_basename": "WRIC(A)_11562_2022.pdf",
       "title": "Prem Steels Pvt. Limited v. Paschimanchal Vidyut Vitran Nigam Limited & Another",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2207",
+      "source_basename": "WRIC(A)_33073_2022.pdf",
+      "title": "M/S Kanhaiya Beverages Pvt. Ltd. & Another v. State of U.P. & 5 Others",
       "status": "done"
     }
   ]
