@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2202,
+  "next_seq": 2203,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -13210,6 +13210,12 @@
       "case_id": "SCJ-2201",
       "source_basename": "WRIC(A)_14563_2019.pdf",
       "title": "M/s Torrent Power Ltd. v. State of U.P. & 3 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2202",
+      "source_basename": "WRIC(A)_26583_2019.pdf",
+      "title": "Mukesh Kumar Mittal & 3 Others v. State of U.P. & 6 Others",
       "status": "done"
     }
   ]
