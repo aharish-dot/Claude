@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2203,
+  "next_seq": 2204,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -13216,6 +13216,12 @@
       "case_id": "SCJ-2202",
       "source_basename": "WRIC(A)_26583_2019.pdf",
       "title": "Mukesh Kumar Mittal & 3 Others v. State of U.P. & 6 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2203",
+      "source_basename": "WRIC(L)_13152_2020.pdf",
+      "title": "Smt. Sumitra Verma v. Madhyanchal Vidyut Vitran Nigam Ltd., Lucknow & Ors.",
       "status": "done"
     }
   ]
