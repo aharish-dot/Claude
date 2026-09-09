@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2228,
+  "next_seq": 2229,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -13366,6 +13366,12 @@
       "case_id": "SCJ-2227",
       "source_basename": "WRIC(A)_4870_2013.pdf",
       "title": "Shafi Ahmad v. Paschimanchal Vidyut Vitran Nigam Ltd. & Another",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2228",
+      "source_basename": "CAPL(A)_4476_2023.pdf",
+      "title": "Apex Dream Homes Pvt. Ltd. v. Chaitra V, Managing Director, Paschimanchal Vidyut Vitran Nigam & 4 Others",
       "status": "done"
     }
   ]
