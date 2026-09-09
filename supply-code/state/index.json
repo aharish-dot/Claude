@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2229,
+  "next_seq": 2230,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -13372,6 +13372,12 @@
       "case_id": "SCJ-2228",
       "source_basename": "CAPL(A)_4476_2023.pdf",
       "title": "Apex Dream Homes Pvt. Ltd. v. Chaitra V, Managing Director, Paschimanchal Vidyut Vitran Nigam & 4 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2229",
+      "source_basename": "WRIC(A)_10772_2021.pdf",
+      "title": "P & R Infra Project Ltd. v. Purvanchal Vidyut Vitran Nigam Ltd. & 3 Others",
       "status": "done"
     }
   ]
