@@ -267,7 +267,15 @@ def do_finalize(args):
            f"Claude rich digest (mode={mode}, source {tk.get('source_file')}).\n\n"
            f"Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>\n"
            f"Claude-Session: https://claude.ai/code/session_01FMyec2o3Wu6AtEyWKfp9da")
-    r = subprocess.run(["git", "commit", "-m", msg], cwd=ROOT, capture_output=True, text=True)
+    # Commit in UTC so case timestamps stay consistent no matter which machine
+    # runs the pipeline. Without this, git records the committer's local offset
+    # (e.g. +0530 on an IST box vs +0000 in a UTC container), which makes commits
+    # interleave confusingly by wall-clock in `git log` and GitHub views even
+    # though the underlying instants are correct. TZ=UTC only changes the recorded
+    # offset, not the actual commit instant.
+    commit_env = {**os.environ, "TZ": "UTC"}
+    r = subprocess.run(["git", "commit", "-m", msg], cwd=ROOT, capture_output=True,
+                       text=True, env=commit_env)
     if r.returncode != 0 and "nothing to commit" not in (r.stdout + r.stderr).lower():
         print(r.stdout + r.stderr); die("git commit failed")
     if not args.no_push:
