@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2223,
+  "next_seq": 2224,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -13336,6 +13336,12 @@
       "case_id": "SCJ-2222",
       "source_basename": "CAPL(A)_4248_2022.pdf",
       "title": "Amit Kumar v. Dayanand Sharma & 6 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2223",
+      "source_basename": "CAPL(A)_3996_2021.pdf",
+      "title": "Hanuman Singh v. Sri Megh Singh, Executive Engineer",
       "status": "done"
     }
   ]
