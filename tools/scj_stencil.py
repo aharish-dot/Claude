@@ -761,7 +761,17 @@ def fill_65(cid: str, fp: dict, slots: dict) -> dict:
         "headnote": headnote,
         "facts": facts,
         "holding_units": [unit],
-        "principle_tags": [],
+        "principle_tags": [
+            {
+                "tag": "billing-objection-to-executive-engineer-under-6.5",
+                "application": (
+                    "A writ challenging an electricity bill is disposed of without "
+                    "examining the bill; the consumer is pointed to Clause 6.5."
+                ),
+                "lead_authorities": [],
+                "paras": "",
+            }
+        ],
         "not_decided": [
             {
                 "point": "Merits of the disputed electricity bill",
@@ -859,7 +869,18 @@ def fill_68(cid: str, fp: dict, slots: dict) -> dict:
         "headnote": headnote,
         "facts": facts,
         "holding_units": [unit],
-        "principle_tags": [],
+        "principle_tags": [
+            {
+                "tag": "opportunity-before-final-assessment",
+                "application": (
+                    "A writ challenging a recovery citation is disposed of without "
+                    "deciding the demand; the consumer is pointed to Clause 6.8 "
+                    "assessment procedure after deposit and hearing."
+                ),
+                "lead_authorities": [],
+                "paras": "",
+            }
+        ],
         "not_decided": [
             {
                 "point": "Whether Clause 6.8 assessment procedure was followed, and the merits of the demand",
@@ -929,7 +950,18 @@ def fill_contempt(cid: str, fp: dict, slots: dict) -> dict:
                 "paras": "",
             }
         ],
-        "principle_tags": [],
+        "principle_tags": [
+            {
+                "tag": "contempt-of-6.5-writ-does-not-redecide-bill",
+                "application": (
+                    "Civil contempt of a writ that only relegated a billing dispute "
+                    "to Clause 6.5 is dismissed; the contempt court does not "
+                    "re-decide the bill."
+                ),
+                "lead_authorities": [],
+                "paras": "",
+            }
+        ],
         "not_decided": [
             {
                 "point": "Merits of the underlying electricity bill",

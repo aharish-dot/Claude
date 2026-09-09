@@ -22,7 +22,14 @@
       "flag": "No substantive content: a bare pass-over/listing order with no Supply Code (or any) determination. Retained only for queue completeness."
     }
   ],
-  "principle_tags": [],
+  "principle_tags": [
+    {
+      "tag": "procedural-listing-no-construction",
+      "application": "A one-line listing order: at the petitioner's request the case was passed over for the day and directed to be listed in the next cause list. There is no content and nothing was decided.",
+      "lead_authorities": [],
+      "paras": "single-line order"
+    }
+  ],
   "not_decided": [],
   "authorities": [],
   "outcome": "pending"

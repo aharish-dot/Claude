@@ -26,11 +26,24 @@
       "flag": "Order cites 'Paragraph no. 4.3' without a sub-clause."
     }
   ],
-  "principle_tags": [],
+  "principle_tags": [
+    {
+      "tag": "arrears-run-with-the-premises",
+      "application": "Where a new connection is withheld under paragraph 4.3 of the U.P. Electricity Supply Code, 2005 on alleged premises dues, and the applicant contends that the buildings are different, the High Court will not decide identity of the premises on writ..",
+      "lead_authorities": [],
+      "paras": "3-5"
+    }
+  ],
   "not_decided": [
-    {"point": "Whether paragraph 4.3 of the Supply Code bars the fresh connection on these facts."},
-    {"point": "Whether the buildings/premises for which connection is sought are the same as those carrying the assessed dues."},
-    {"point": "Whether the final assessment order attaches to the petitioner's premises."}
+    {
+      "point": "Whether paragraph 4.3 of the Supply Code bars the fresh connection on these facts."
+    },
+    {
+      "point": "Whether the buildings/premises for which connection is sought are the same as those carrying the assessed dues."
+    },
+    {
+      "point": "Whether the final assessment order attaches to the petitioner's premises."
+    }
   ],
   "authorities": []
 }

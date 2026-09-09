@@ -2,7 +2,7 @@
 
 Each folder is named **local date and time** (`YYYY-MM-DD_HH-MM-SS`) from when the session started. Same-second sessions get `_2`, `_3`, …
 
-**242 sessions.** Live Grok sessions are copied here on `SessionEnd` (`tools/sync_grok_chats.py`).
+**376 sessions.** Live Grok sessions are copied here on `SessionEnd` (`tools/sync_grok_chats.py`).
 
 | Started | Messages | Folder | Title |
 |---|---:|---|---|
@@ -247,4 +247,138 @@ Each folder is named **local date and time** (`YYYY-MM-DD_HH-MM-SS`) from when t
 | 2026-09-02 17:11:17 | 19 | [`2026-09-02_17-11-17`](2026-09-02_17-11-17/) | Process one short Supply Code ticket |
 | 2026-09-02 17:13:17 | 19 | [`2026-09-02_17-13-17`](2026-09-02_17-13-17/) | Process one short Supply Code case |
 | 2026-09-02 17:15:47 | 19 | [`2026-09-02_17-15-47`](2026-09-02_17-15-47/) | Process one short Supply Code case |
-| 2026-09-03 13:18:30 | 208 | [`2026-09-03_13-18-30`](2026-09-03_13-18-30/) | Windows Ubuntu loop, README, grok_chats archive |
+| 2026-09-03 13:18:30 | 385 | [`2026-09-03_13-18-30`](2026-09-03_13-18-30/) | Windows-Ubuntu loop and dated grok_chats sync |
+| 2026-09-03 15:27:34 | 16 | [`2026-09-03_15-27-34`](2026-09-03_15-27-34/) | SCJ-537 supply-code case summary JSON |
+| 2026-09-03 15:27:35 | 16 | [`2026-09-03_15-27-35`](2026-09-03_15-27-35/) | SCJ-538 electricity supply-code summary JSON |
+| 2026-09-03 15:29:39 | 47 | [`2026-09-03_15-29-39`](2026-09-03_15-29-39/) | SCJ-539 lean jurisprudence JSON summary |
+| 2026-09-03 15:29:48 | 41 | [`2026-09-03_15-29-48`](2026-09-03_15-29-48/) | SCJ-540 lean JSON case summary |
+| 2026-09-03 15:32:27 | 16 | [`2026-09-03_15-32-27`](2026-09-03_15-32-27/) | SCJ-541 single-case summary JSON |
+| 2026-09-03 15:33:01 | 56 | [`2026-09-03_15-33-01`](2026-09-03_15-33-01/) | SCJ-542 lean JSON jurisprudence record |
+| 2026-09-03 15:35:16 | 65 | [`2026-09-03_15-35-16`](2026-09-03_15-35-16/) | SCJ-543 lean jurisprudence JSON summary |
+| 2026-09-03 15:37:45 | 46 | [`2026-09-03_15-37-45`](2026-09-03_15-37-45/) | SCJ-544 lean JSON jurisprudence summary |
+| 2026-09-03 15:39:50 | 65 | [`2026-09-03_15-39-50`](2026-09-03_15-39-50/) | SCJ-545 lean jurisprudence JSON summary |
+| 2026-09-03 15:41:21 | 57 | [`2026-09-03_15-41-21`](2026-09-03_15-41-21/) | SCJ-546 lean JSON case summary |
+| 2026-09-03 15:43:08 | 16 | [`2026-09-03_15-43-08`](2026-09-03_15-43-08/) | SCJ-547 electricity supply-code summary JSON |
+| 2026-09-03 15:45:21 | 47 | [`2026-09-03_15-45-21`](2026-09-03_15-45-21/) | SCJ-548 lean jurisprudence JSON record |
+| 2026-09-03 15:45:30 | 64 | [`2026-09-03_15-45-30`](2026-09-03_15-45-30/) | SCJ-549 lean jurisprudence JSON record |
+| 2026-09-03 15:48:14 | 16 | [`2026-09-03_15-48-14`](2026-09-03_15-48-14/) | SCJ-550 Supply Code case summary |
+| 2026-09-03 15:49:35 | 38 | [`2026-09-03_15-49-35`](2026-09-03_15-49-35/) | SCJ-551 lean jurisprudence JSON summary |
+| 2026-09-03 15:51:16 | 51 | [`2026-09-03_15-51-16`](2026-09-03_15-51-16/) | SCJ-552 lean jurisprudence JSON summary |
+| 2026-09-03 15:53:22 | 16 | [`2026-09-03_15-53-22`](2026-09-03_15-53-22/) | SCJ-553 supply-code case summary JSON |
+| 2026-09-03 15:55:25 | 16 | [`2026-09-03_15-55-25`](2026-09-03_15-55-25/) | SCJ-554 short Supply Code case summary |
+| 2026-09-03 15:56:59 | 16 | [`2026-09-03_15-56-59`](2026-09-03_15-56-59/) | SCJ-555 supply-code ticket summary JSON |
+| 2026-09-03 15:57:15 | 16 | [`2026-09-03_15-57-15`](2026-09-03_15-57-15/) | SCJ-556 electricity supply-code summary JSON |
+| 2026-09-03 15:58:47 | 16 | [`2026-09-03_15-58-47`](2026-09-03_15-58-47/) | SCJ-557 supply-code case summary JSON |
+| 2026-09-03 15:59:16 | 46 | [`2026-09-03_15-59-16`](2026-09-03_15-59-16/) | SCJ-558 lean jurisprudence JSON summary |
+| 2026-09-03 16:00:39 | 16 | [`2026-09-03_16-00-39`](2026-09-03_16-00-39/) | SCJ-559 short Supply Code summary JSON |
+| 2026-09-03 16:02:03 | 16 | [`2026-09-03_16-02-03`](2026-09-03_16-02-03/) | SCJ-560 Supply Code case summary JSON |
+| 2026-09-03 16:03:46 | 16 | [`2026-09-03_16-03-46`](2026-09-03_16-03-46/) | SCJ-561 short Supply Code case summary |
+| 2026-09-03 16:04:13 | 16 | [`2026-09-03_16-04-13`](2026-09-03_16-04-13/) | SCJ-562 short Supply Code summary JSON |
+| 2026-09-03 16:05:31 | 16 | [`2026-09-03_16-05-31`](2026-09-03_16-05-31/) | SCJ-563 short Supply Code summary JSON |
+| 2026-09-03 16:05:39 | 16 | [`2026-09-03_16-05-39`](2026-09-03_16-05-39/) | SCJ-564 short supply-code case summary |
+| 2026-09-03 16:07:18 | 16 | [`2026-09-03_16-07-18`](2026-09-03_16-07-18/) | SCJ-565 short Supply Code case |
+| 2026-09-03 16:07:41 | 16 | [`2026-09-03_16-07-41`](2026-09-03_16-07-41/) | SCJ-566 supply-code case summary JSON |
+| 2026-09-03 16:08:58 | 16 | [`2026-09-03_16-08-58`](2026-09-03_16-08-58/) | SCJ-567 short Supply Code summary JSON |
+| 2026-09-03 16:09:10 | 16 | [`2026-09-03_16-09-10`](2026-09-03_16-09-10/) | SCJ-568 short Supply Code case JSON |
+| 2026-09-03 16:10:29 | 16 | [`2026-09-03_16-10-29`](2026-09-03_16-10-29/) | SCJ-569 supply-code ticket summary JSON |
+| 2026-09-03 16:10:46 | 16 | [`2026-09-03_16-10-46`](2026-09-03_16-10-46/) | SCJ-570 short Supply Code summary JSON |
+| 2026-09-03 16:12:39 | 16 | [`2026-09-03_16-12-39`](2026-09-03_16-12-39/) | SCJ-571 Supply Code case summary JSON |
+| 2026-09-03 16:12:48 | 16 | [`2026-09-03_16-12-48`](2026-09-03_16-12-48/) | SCJ-572 supply-code case summary JSON |
+| 2026-09-03 16:13:52 | 16 | [`2026-09-03_16-13-52`](2026-09-03_16-13-52/) | SCJ-573 Supply Code case JSON summary |
+| 2026-09-03 16:14:09 | 16 | [`2026-09-03_16-14-09`](2026-09-03_16-14-09/) | SCJ-574 electricity supply-code summary JSON |
+| 2026-09-03 16:47:54 | 16 | [`2026-09-03_16-47-54`](2026-09-03_16-47-54/) | SCJ-576 Supply Code ticket summary JSON |
+| 2026-09-03 16:47:55 | 16 | [`2026-09-03_16-47-55`](2026-09-03_16-47-55/) | SCJ-577 short Supply Code case JSON |
+| 2026-09-03 16:49:04 | 16 | [`2026-09-03_16-49-04`](2026-09-03_16-49-04/) | SCJ-578 electricity supply code summary |
+| 2026-09-03 16:49:29 | 16 | [`2026-09-03_16-49-29`](2026-09-03_16-49-29/) | SCJ-579 Supply Code case summary JSON |
+| 2026-09-03 16:50:54 | 16 | [`2026-09-03_16-50-54`](2026-09-03_16-50-54/) | SCJ-580 short Supply Code summary JSON |
+| 2026-09-03 16:51:03 | 16 | [`2026-09-03_16-51-03`](2026-09-03_16-51-03/) | SCJ-581 electricity judgment summary JSON |
+| 2026-09-03 16:52:19 | 16 | [`2026-09-03_16-52-19`](2026-09-03_16-52-19/) | SCJ-582 electricity supply-code summary JSON |
+| 2026-09-03 16:52:29 | 16 | [`2026-09-03_16-52-29`](2026-09-03_16-52-29/) | SCJ-583 Supply Code case summary JSON |
+| 2026-09-03 16:53:35 | 16 | [`2026-09-03_16-53-35`](2026-09-03_16-53-35/) | SCJ-584 supply-code case summary JSON |
+| 2026-09-03 16:54:01 | 16 | [`2026-09-03_16-54-01`](2026-09-03_16-54-01/) | SCJ-585 short Supply Code case JSON |
+| 2026-09-03 16:55:50 | 16 | [`2026-09-03_16-55-50`](2026-09-03_16-55-50/) | SCJ-586 electricity supply-code case summary |
+| 2026-09-03 16:56:11 | 63 | [`2026-09-03_16-56-11`](2026-09-03_16-56-11/) | SCJ-587 lean jurisprudence JSON summary |
+| 2026-09-03 16:57:23 | 16 | [`2026-09-03_16-57-23`](2026-09-03_16-57-23/) | SCJ-588 electricity supply-code case summary |
+| 2026-09-03 16:59:05 | 16 | [`2026-09-03_16-59-05`](2026-09-03_16-59-05/) | SCJ-589 Supply Code summary JSON |
+| 2026-09-03 17:00:22 | 16 | [`2026-09-03_17-00-22`](2026-09-03_17-00-22/) | SCJ-590 supply-code case summary JSON |
+| 2026-09-03 17:00:55 | 16 | [`2026-09-03_17-00-55`](2026-09-03_17-00-55/) | SCJ-591 electricity judgment summary JSON |
+| 2026-09-03 17:02:35 | 16 | [`2026-09-03_17-02-35`](2026-09-03_17-02-35/) | SCJ-592 electricity supply-code case summary |
+| 2026-09-03 17:02:45 | 16 | [`2026-09-03_17-02-45`](2026-09-03_17-02-45/) | SCJ-593 supply-code case summary JSON |
+| 2026-09-03 17:04:21 | 16 | [`2026-09-03_17-04-21`](2026-09-03_17-04-21/) | SCJ-594 short Supply Code summary JSON |
+| 2026-09-03 17:04:31 | 55 | [`2026-09-03_17-04-31`](2026-09-03_17-04-31/) | SCJ-595 lean jurisprudence JSON summary |
+| 2026-09-03 17:05:55 | 43 | [`2026-09-03_17-05-55`](2026-09-03_17-05-55/) | SCJ-596 lean jurisprudence JSON record |
+| 2026-09-03 17:07:57 | 16 | [`2026-09-03_17-07-57`](2026-09-03_17-07-57/) | SCJ-597 short Supply Code case JSON |
+| 2026-09-03 17:08:22 | 53 | [`2026-09-03_17-08-22`](2026-09-03_17-08-22/) | SCJ-598 lean jurisprudence JSON summary |
+| 2026-09-03 17:09:26 | 16 | [`2026-09-03_17-09-26`](2026-09-03_17-09-26/) | SCJ-599 electricity supply-code summary JSON |
+| 2026-09-03 17:10:32 | 16 | [`2026-09-03_17-10-32`](2026-09-03_17-10-32/) | SCJ-600 short Supply Code case JSON |
+| 2026-09-03 17:11:35 | 16 | [`2026-09-03_17-11-35`](2026-09-03_17-11-35/) | SCJ-601 Supply Code case summary |
+| 2026-09-03 17:14:10 | 16 | [`2026-09-03_17-14-10`](2026-09-03_17-14-10/) | SCJ-602 Supply Code case summary JSON |
+| 2026-09-03 17:14:33 | 16 | [`2026-09-03_17-14-33`](2026-09-03_17-14-33/) | SCJ-603 electricity supply-code summary JSON |
+| 2026-09-03 17:15:44 | 16 | [`2026-09-03_17-15-44`](2026-09-03_17-15-44/) | SCJ-604 short electricity judgment summary JSON |
+| 2026-09-03 17:16:17 | 16 | [`2026-09-03_17-16-17`](2026-09-03_17-16-17/) | SCJ-605 supply-code case summary JSON |
+| 2026-09-03 17:17:31 | 16 | [`2026-09-03_17-17-31`](2026-09-03_17-17-31/) | SCJ-606 electricity supply-code summary JSON |
+| 2026-09-03 17:17:49 | 16 | [`2026-09-03_17-17-49`](2026-09-03_17-17-49/) | SCJ-608 electricity supply-code summary JSON |
+| 2026-09-03 17:18:50 | 16 | [`2026-09-03_17-18-50`](2026-09-03_17-18-50/) | SCJ-609 supply-code case summary JSON |
+| 2026-09-03 17:19:00 | 16 | [`2026-09-03_17-19-00`](2026-09-03_17-19-00/) | SCJ-610 electricity supply-code summary |
+| 2026-09-03 17:20:33 | 16 | [`2026-09-03_17-20-33`](2026-09-03_17-20-33/) | SCJ-612 electricity judgment summary JSON |
+| 2026-09-03 17:20:52 | 16 | [`2026-09-03_17-20-52`](2026-09-03_17-20-52/) | SCJ-613 Supply Code case summary JSON |
+| 2026-09-03 17:21:33 | 16 | [`2026-09-03_17-21-33`](2026-09-03_17-21-33/) | SCJ-614 electricity supply-code summary JSON |
+| 2026-09-03 17:22:07 | 16 | [`2026-09-03_17-22-07`](2026-09-03_17-22-07/) | SCJ-615 Supply Code case summary JSON |
+| 2026-09-03 17:22:43 | 16 | [`2026-09-03_17-22-43`](2026-09-03_17-22-43/) | SCJ-616 electricity supply-code summary JSON |
+| 2026-09-03 17:24:04 | 16 | [`2026-09-03_17-24-04`](2026-09-03_17-24-04/) | SCJ-617 Supply Code case summary JSON |
+| 2026-09-03 17:24:32 | 16 | [`2026-09-03_17-24-32`](2026-09-03_17-24-32/) | SCJ-619 supply-code case summary JSON |
+| 2026-09-03 17:25:49 | 16 | [`2026-09-03_17-25-49`](2026-09-03_17-25-49/) | SCJ-620 electricity supply-code summary JSON |
+| 2026-09-03 17:26:29 | 16 | [`2026-09-03_17-26-29`](2026-09-03_17-26-29/) | SCJ-621 ticket to compact JSON summary |
+| 2026-09-03 17:28:01 | 16 | [`2026-09-03_17-28-01`](2026-09-03_17-28-01/) | SCJ-623 supply-code case summary JSON |
+| 2026-09-03 17:28:16 | 16 | [`2026-09-03_17-28-16`](2026-09-03_17-28-16/) | SCJ-624 electricity supply-code summary JSON |
+| 2026-09-03 17:37:48 | 54 | [`2026-09-03_17-37-48`](2026-09-03_17-37-48/) | Push input folders to GitHub same branch |
+| 2026-09-03 17:45:18 | 16 | [`2026-09-03_17-45-18`](2026-09-03_17-45-18/) | SCJ-625 electricity supply-code summary JSON |
+| 2026-09-03 17:45:19 | 16 | [`2026-09-03_17-45-19`](2026-09-03_17-45-19/) | SCJ-626 compact supply-code JSON summary |
+| 2026-09-03 17:46:57 | 16 | [`2026-09-03_17-46-57`](2026-09-03_17-46-57/) | SCJ-627 electricity supply-code case summary |
+| 2026-09-03 17:47:13 | 19 | [`2026-09-03_17-47-13`](2026-09-03_17-47-13/) | SCJ-628 supply-code summary JSON |
+| 2026-09-03 17:48:35 | 16 | [`2026-09-03_17-48-35`](2026-09-03_17-48-35/) | SCJ-629 electricity supply-code case summary |
+| 2026-09-03 17:48:55 | 81 | [`2026-09-03_17-48-55`](2026-09-03_17-48-55/) | SCJ-630 lean jurisprudence JSON record |
+| 2026-09-03 17:50:18 | 16 | [`2026-09-03_17-50-18`](2026-09-03_17-50-18/) | SCJ-631 electricity supply-code summary JSON |
+| 2026-09-03 17:52:30 | 66 | [`2026-09-03_17-52-30`](2026-09-03_17-52-30/) | SCJ-632 lean jurisprudence JSON record |
+| 2026-09-03 17:53:54 | 66 | [`2026-09-03_17-53-54`](2026-09-03_17-53-54/) | SCJ-633 lean jurisprudence JSON summary |
+| 2026-09-03 17:58:54 | 53 | [`2026-09-03_17-58-54`](2026-09-03_17-58-54/) | SCJ-634 lean jurisprudence JSON summary |
+| 2026-09-03 17:59:53 | 42 | [`2026-09-03_17-59-53`](2026-09-03_17-59-53/) | SCJ-635 lean jurisprudence JSON record |
+| 2026-09-03 18:02:35 | 42 | [`2026-09-03_18-02-35`](2026-09-03_18-02-35/) | SCJ-636 lean jurisprudence JSON summary |
+| 2026-09-03 18:04:12 | 93 | [`2026-09-03_18-04-12`](2026-09-03_18-04-12/) | SCJ-637 lean jurisprudence JSON summary |
+| 2026-09-03 18:05:41 | 42 | [`2026-09-03_18-05-41`](2026-09-03_18-05-41/) | SCJ-638 lean JSON jurisprudence summary |
+| 2026-09-03 18:08:52 | 50 | [`2026-09-03_18-08-52`](2026-09-03_18-08-52/) | SCJ-639 lean jurisprudence JSON summary |
+| 2026-09-03 18:09:50 | 48 | [`2026-09-03_18-09-50`](2026-09-03_18-09-50/) | SCJ-640 lean jurisprudence JSON |
+| 2026-09-03 18:12:28 | 16 | [`2026-09-03_18-12-28`](2026-09-03_18-12-28/) | SCJ-641 supply-code case summary JSON |
+| 2026-09-03 18:13:52 | 16 | [`2026-09-03_18-13-52`](2026-09-03_18-13-52/) | SCJ-642 supply-code case summary JSON |
+| 2026-09-03 18:15:11 | 16 | [`2026-09-03_18-15-11`](2026-09-03_18-15-11/) | SCJ-643 short Supply Code case summary |
+| 2026-09-03 18:15:36 | 44 | [`2026-09-03_18-15-36`](2026-09-03_18-15-36/) | Process SCJ-644 lean jurisprudence JSON |
+| 2026-09-03 18:17:16 | 50 | [`2026-09-03_18-17-16`](2026-09-03_18-17-16/) | SCJ-645 lean jurisprudence JSON record |
+| 2026-09-03 18:19:26 | 16 | [`2026-09-03_18-19-26`](2026-09-03_18-19-26/) | SCJ-646 supply-code case summary JSON |
+| 2026-09-03 18:21:32 | 16 | [`2026-09-03_18-21-32`](2026-09-03_18-21-32/) | SCJ-647 electricity supply-code case summary JSON |
+| 2026-09-03 18:21:49 | 16 | [`2026-09-03_18-21-49`](2026-09-03_18-21-49/) | SCJ-648 Supply Code case summary |
+| 2026-09-03 18:23:06 | 16 | [`2026-09-03_18-23-06`](2026-09-03_18-23-06/) | SCJ-649 supply-code case summary JSON |
+| 2026-09-03 18:23:37 | 16 | [`2026-09-03_18-23-37`](2026-09-03_18-23-37/) | SCJ-650 electricity supply-code case summary |
+| 2026-09-03 18:25:24 | 16 | [`2026-09-03_18-25-24`](2026-09-03_18-25-24/) | SCJ-651 electricity supply-code summary JSON |
+| 2026-09-03 18:25:34 | 16 | [`2026-09-03_18-25-34`](2026-09-03_18-25-34/) | SCJ-652 electricity judgment summary JSON |
+| 2026-09-03 18:27:34 | 53 | [`2026-09-03_18-27-34`](2026-09-03_18-27-34/) | SCJ-653 lean JSON jurisprudence summary |
+| 2026-09-03 18:28:20 | 43 | [`2026-09-03_18-28-20`](2026-09-03_18-28-20/) | SCJ-654 lean jurisprudence JSON record |
+| 2026-09-03 18:31:35 | 38 | [`2026-09-03_18-31-35`](2026-09-03_18-31-35/) | SCJ-655 lean jurisprudence JSON record |
+| 2026-09-03 18:31:54 | 16 | [`2026-09-03_18-31-54`](2026-09-03_18-31-54/) | SCJ-656 electricity supply-code summary JSON |
+| 2026-09-03 18:33:45 | 19 | [`2026-09-03_18-33-45`](2026-09-03_18-33-45/) | SCJ-658 lean JSON jurisprudence summary |
+| 2026-09-03 18:34:52 | 55 | [`2026-09-03_18-34-52`](2026-09-03_18-34-52/) | SCJ-655 lean jurisprudence JSON summary |
+| 2026-09-03 18:34:52 (2) | 33 | [`2026-09-03_18-34-52_2`](2026-09-03_18-34-52_2/) | SCJ-658 lean JSON jurisprudence record |
+| 2026-09-03 18:38:50 | 16 | [`2026-09-03_18-38-50`](2026-09-03_18-38-50/) | SCJ-659 compact supply-code JSON summary |
+| 2026-09-03 18:39:15 | 16 | [`2026-09-03_18-39-15`](2026-09-03_18-39-15/) | SCJ-660 electricity supply-code summary JSON |
+| 2026-09-03 18:40:40 | 44 | [`2026-09-03_18-40-40`](2026-09-03_18-40-40/) | SCJ-661 lean jurisprudence JSON summary |
+| 2026-09-03 18:41:11 | 16 | [`2026-09-03_18-41-11`](2026-09-03_18-41-11/) | Process SCJ-662 Supply Code ticket JSON |
+| 2026-09-03 18:42:26 | 52 | [`2026-09-03_18-42-26`](2026-09-03_18-42-26/) | SCJ-663 lean jurisprudence JSON summary |
+| 2026-09-03 18:44:49 | 16 | [`2026-09-03_18-44-49`](2026-09-03_18-44-49/) | SCJ-664 Supply Code case summary JSON |
+| 2026-09-03 18:45:10 | 54 | [`2026-09-03_18-45-10`](2026-09-03_18-45-10/) | SCJ-665 lean jurisprudence JSON record |
+| 2026-09-03 18:46:23 | 16 | [`2026-09-03_18-46-23`](2026-09-03_18-46-23/) | SCJ-666 Supply Code Case Summary |
+| 2026-09-03 18:48:07 | 34 | [`2026-09-03_18-48-07`](2026-09-03_18-48-07/) | SCJ-667 lean jurisprudence JSON record |
+| 2026-09-03 18:49:58 | 11 | [`2026-09-03_18-49-58`](2026-09-03_18-49-58/) | SCJ-668 electricity supply-code summary JSON |
+| 2026-09-03 18:50:19 | 42 | [`2026-09-03_18-50-19`](2026-09-03_18-50-19/) | SCJ-669 lean jurisprudence JSON record |
+| 2026-09-03 18:58:56 | 4 | [`2026-09-03_18-58-56`](2026-09-03_18-58-56/) | PARALLEL WORKER. Process exactly ONE case from supply-code/tmp/tickets/SCJ-670.json. Write ONLY |
+| 2026-09-03 19:31:57 | 5 | [`2026-09-03_19-31-57`](2026-09-03_19-31-57/) | ly-code/state/index.json', LF will be replaced by CRLF the next time |
+| 2026-09-03 20:13:02 | 11 | [`2026-09-03_20-13-02`](2026-09-03_20-13-02/) | PARALLEL WORKER. Process exactly ONE case from supply-code/tmp/tickets/SCJ-671.json. Write ONLY |
+| 2026-09-03 20:26:33 | 4 | [`2026-09-03_20-26-33`](2026-09-03_20-26-33/) | PARALLEL WORKER. Process exactly ONE case from supply-code/tmp/tickets/SCJ-672.json. Write ONLY |

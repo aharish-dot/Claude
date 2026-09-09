@@ -26,10 +26,21 @@
       "flag": "order cites the Supply Code 2005 without a clause number; context is objection before final assessment"
     }
   ],
-  "principle_tags": [],
+  "principle_tags": [
+    {
+      "tag": "relegate-to-statutory-remedy",
+      "application": "A writ to quash a pre-assessment electricity-dues notice is not decided on merits. The consumer is directed to file objection under the U.P. Electricity Supply Code, 2005; the authority shall consider it and pass the final assessment. Petition disposed.",
+      "lead_authorities": [],
+      "paras": "3-5"
+    }
+  ],
   "not_decided": [
-    {"issue": "Validity of the notice dated 8 May 2024"},
-    {"issue": "Liability for, or quantum of, the electricity dues sought to be recovered"}
+    {
+      "issue": "Validity of the notice dated 8 May 2024"
+    },
+    {
+      "issue": "Liability for, or quantum of, the electricity dues sought to be recovered"
+    }
   ],
   "authorities": []
 }
