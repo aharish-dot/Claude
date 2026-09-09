@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2218,
+  "next_seq": 2219,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -13306,6 +13306,12 @@
       "case_id": "SCJ-2217",
       "source_basename": "WRIC(A)_15283_2023.pdf",
       "title": "M/S Belani Sugars LLP v. State of U.P. & 3 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2218",
+      "source_basename": "WRIC(A)_37137_2022.pdf",
+      "title": "Dhanraj Singh v. State of U.P. & 2 Others",
       "status": "done"
     }
   ]
