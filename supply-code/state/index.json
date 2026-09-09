@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2222,
+  "next_seq": 2223,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -13330,6 +13330,12 @@
       "case_id": "SCJ-2221",
       "source_basename": "WRIC(A)_49296_2017.pdf",
       "title": "Sri Chandra Pratap Singh v. U.P. Power Corporation Ltd. & 6 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2222",
+      "source_basename": "CAPL(A)_4248_2022.pdf",
+      "title": "Amit Kumar v. Dayanand Sharma & 6 Others",
       "status": "done"
     }
   ]
