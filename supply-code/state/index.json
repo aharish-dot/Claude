@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2225,
+  "next_seq": 2226,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -13348,6 +13348,12 @@
       "case_id": "SCJ-2224",
       "source_basename": "WRIC(A)_12870_2020.pdf",
       "title": "Hasimuddin v. State of U.P. & 5 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2225",
+      "source_basename": "WRIC(A)_9405_2023.pdf",
+      "title": "M/s Gill Polymers (through its Proprietor Naresh Gill) v. U.P. Power Corporation Ltd. & 2 Others",
       "status": "done"
     }
   ]
