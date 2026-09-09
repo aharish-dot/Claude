@@ -1,13 +1,20 @@
 #!/usr/bin/env python3
-"""Categorised digest of all principle tags in the spine -> HTML, then PDF.
+"""Categorised digest of principle tags -> HTML, then PDF.
 
 Usage:
   python tools/gen_principles_digest.py
   python tools/gen_principles_digest.py --date 2026-09-07
+  python tools/gen_principles_digest.py --from-json --model "Claude Opus" --slug claude --date 2026-09-09
 
 Writes:
   supply-code/tmp/principles_digest.html
+    (or principles_digest_<slug>_<YYYY-MM-DD>.html when --slug is set)
   supply-code/booklet/Principles_Digest_categorised_<YYYY-MM-DD>.pdf
+    (or Principles_Digest_categorised_<slug>_<YYYY-MM-DD>.pdf when --slug is set)
+
+Default source is the jurisprudence spine. --from-json (implied by --model)
+reads supply-code/summaries/json/SCJ-*.json instead. --model is a
+case-insensitive substring of the JSON `model` field.
 
 Does not overwrite earlier dated (or undated) booklet PDFs.
 """
@@ -349,28 +356,95 @@ def load_significance():
     return sig
 
 
-def build_html(date_iso: str) -> str:
+def load_from_json(model_substr: str | None = None):
+    """Build a principles index from JSON summaries, optionally filtered by model."""
+    import glob
+    prins = {}
+    sig_of = {}
+    tagged_ids = set()
+    n_cases = 0
+    models_seen = {}
+    needle = (model_substr or "").strip().lower()
+    for path in sorted(glob.glob(os.path.join(SUMM, "SCJ-*.json"))):
+        try:
+            with open(path, encoding="utf-8") as f:
+                c = json.load(f)
+        except Exception:
+            continue
+        model = (c.get("model") or "").strip()
+        if needle and needle not in model.lower():
+            continue
+        n_cases += 1
+        models_seen[model or "(empty)"] = models_seen.get(model or "(empty)", 0) + 1
+        cid = c.get("case_id") or os.path.splitext(os.path.basename(path))[0]
+        if c.get("significance"):
+            sig_of[cid] = c["significance"]
+        ident = {
+            "case_id": cid,
+            "title": c.get("title", ""),
+            "neutral_citation": c.get("neutral_citation", ""),
+            "court": c.get("court", ""),
+            "date": c.get("date_display") or c.get("date_of_judgment", ""),
+        }
+        tags = c.get("principle_tags") or []
+        if tags:
+            tagged_ids.add(cid)
+        for t in tags:
+            tag = (t.get("tag") or "").strip()
+            if not tag:
+                continue
+            prins.setdefault(tag, {"cases": []})["cases"].append({
+                **ident,
+                "application": t.get("application", ""),
+                "lead_authorities": t.get("lead_authorities", []),
+                "paras": t.get("paras", ""),
+            })
+    return {
+        "prins": dict(sorted(prins.items())),
+        "sig_of": sig_of,
+        "n_cases_corpus": n_cases,
+        "tagged_ids": tagged_ids,
+        "models_seen": models_seen,
+    }
+
+
+def load_from_spine():
     spine = json.load(open(SPINE, encoding="utf-8"))
     prins = spine["principles"]
-    sig_of = load_significance()
-    n_cases_corpus = spine.get("case_count") or len(spine.get("cases") or [])
     tagged_ids = set()
     for t, blob in prins.items():
         for cc in blob.get("cases") or []:
             tagged_ids.add(cc.get("case_id"))
+    return {
+        "prins": prins,
+        "sig_of": load_significance(),
+        "n_cases_corpus": spine.get("case_count") or len(spine.get("cases") or []),
+        "tagged_ids": tagged_ids,
+        "models_seen": {},
+    }
+
+
+def build_html(date_iso: str, corpus: dict, *, subtitle: str, kicker: str,
+               note: str, skip_empty_cats: bool = False) -> str:
+    prins = corpus["prins"]
+    sig_of = corpus["sig_of"]
+    n_cases_corpus = corpus["n_cases_corpus"]
+    tagged_ids = corpus["tagged_ids"]
 
     assign = {t: classify(t) for t in prins}
     n_apps = sum(len(prins[t].get("cases") or []) for t in prins)
     n_lead = sum(1 for t in prins if len(prins[t].get("cases") or []) >= 10)
     dt = datetime.datetime.strptime(date_iso, "%Y-%m-%d")
     date_display = dt.strftime("%-d %B %Y") if os.name != "nt" else dt.strftime("%#d %B %Y")
+    cats = CATS
+    if skip_empty_cats:
+        cats = tuple(c for c in CATS if any(assign[t] == c[0] for t in prins))
 
     out = [STYLE]
-    out.append('<div class="kicker">Supply Code Jurisprudence &nbsp;&middot;&nbsp; Companion Reference</div>')
+    out.append(f'<div class="kicker">{kicker}</div>')
     out.append("<h1>Digest of Principles</h1>")
     out.append(
-        f'<div class="sub">Every cross-cutting doctrine tagged in the corpus, classified by subject. '
-        f"&middot; {html_esc(date_display)}</div>"
+        f'<div class="sub">{subtitle} &middot; {html_esc(date_display)}</div>'
     )
     out.append('<div class="rule"></div><div class="rule2"></div>')
     out.append('<div class="stats">')
@@ -380,19 +454,11 @@ def build_html(date_iso: str) -> str:
         (len(tagged_ids), "Tagged cases"),
         (n_cases_corpus, "Cases in corpus"),
         (n_lead, "Leading (10+ cases)"),
-        (len(CATS), "Subject classes"),
+        (len(cats), "Subject classes"),
     ):
         out.append(f'<div class="stat"><b>{num}</b><span>{html_esc(lab)}</span></div>')
     out.append("</div>")
-    out.append(
-        '<div class="note">Drawn from the <b>principle_tags</b> field of the lean per-case records '
-        "(tag &middot; application &middot; lead authorities &middot; pins). Each principle is filed "
-        "once, under the subject that best describes it. A principle applied in ten or more cases is "
-        "marked leading. Where a principle has more than ten case-applications, the card names ten "
-        "(significant cases first) and records the remainder as <i>N more</i>. Within each class, "
-        "principles are ordered by the number of case-applications, then alphabetically. An A–Z "
-        "index is at the end. Significant cases are cited as <b>SCJ_NNNN_S</b>.</div>"
-    )
+    out.append(f'<div class="note">{note}</div>')
     out.append(
         '<div class="legend">'
         '<span class="sw sw-lead"></span>Leading — 10 or more cases'
@@ -408,7 +474,7 @@ def build_html(date_iso: str) -> str:
     )
     out.append('<div class="toc-h">Contents <span style="font-weight:500;color:#7a8794">(principles · case-applications)</span></div>')
     out.append('<div class="toc">')
-    for code, name, _blurb in CATS:
+    for code, name, _blurb in cats:
         tags = [t for t in prins if assign[t] == code]
         napps = sum(len(prins[t].get("cases") or []) for t in tags)
         out.append(
@@ -416,7 +482,7 @@ def build_html(date_iso: str) -> str:
         )
     out.append("</div>")
 
-    for code, name, blurb in CATS:
+    for code, name, blurb in cats:
         tags = [t for t in prins if assign[t] == code]
         tags.sort(key=lambda t: (-len(prins[t].get("cases") or []), t))
         napps = sum(len(prins[t].get("cases") or []) for t in tags)
@@ -491,25 +557,103 @@ def render_pdf(html_path: str, pdf_path: str) -> None:
         raise SystemExit(f"PDF missing or too small: {pdf_path}")
 
 
+DEFAULT_NOTE = (
+    "Drawn from the <b>principle_tags</b> field of the lean per-case records "
+    "(tag &middot; application &middot; lead authorities &middot; pins). Each principle is filed "
+    "once, under the subject that best describes it. A principle applied in ten or more cases is "
+    "marked leading. Where a principle has more than ten case-applications, the card names ten "
+    "(significant cases first) and records the remainder as <i>N more</i>. Within each class, "
+    "principles are ordered by the number of case-applications, then alphabetically. An A–Z "
+    "index is at the end. Significant cases are cited as <b>SCJ_NNNN_S</b>."
+)
+
+DEFAULT_KICKER = "Supply Code Jurisprudence &nbsp;&middot;&nbsp; Companion Reference"
+DEFAULT_SUBTITLE = "Every cross-cutting doctrine tagged in the corpus, classified by subject."
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--date", default=datetime.date.today().isoformat(),
                     help="ISO date stamped into the filename and subtitle")
+    ap.add_argument("--from-json", action="store_true",
+                    help="Read principle_tags from summaries/json instead of the spine")
+    ap.add_argument("--model", default="",
+                    help="Case-insensitive substring of the JSON model field "
+                         "(implies --from-json)")
+    ap.add_argument("--slug", default="",
+                    help="Extra token in output filenames, e.g. claude")
     args = ap.parse_args()
-    html_body = build_html(args.date)
-    os.makedirs(os.path.dirname(HTML_OUT), exist_ok=True)
-    with open(HTML_OUT, "w", encoding="utf-8", newline="\n") as f:
+    if args.model:
+        args.from_json = True
+
+    if args.from_json:
+        corpus = load_from_json(args.model or None)
+        models = corpus.get("models_seen") or {}
+        model_list = ", ".join(
+            f"{html_esc(k)} ({v})" for k, v in sorted(models.items(), key=lambda kv: (-kv[1], kv[0]))
+        ) or "none"
+        if args.model:
+            kicker = (
+                "Supply Code Jurisprudence &nbsp;&middot;&nbsp; "
+                f"{html_esc(args.model)} &nbsp;&middot;&nbsp; Companion Reference"
+            )
+            subtitle = (
+                f"{html_esc(args.model)}-authored JSON summaries only. "
+                "Every cross-cutting doctrine tagged in those records, classified by subject."
+            )
+            note = (
+                "Drawn from the <b>principle_tags</b> field of JSON summaries whose "
+                f"<b>model</b> matches <b>{html_esc(args.model)}</b> "
+                f"(records in this cut: {model_list}). Grok, stencil, and unstamped "
+                "records are excluded. Each principle is filed once, under the subject "
+                "that best describes it. A principle applied in ten or more cases is "
+                "marked leading. Where a principle has more than ten case-applications, "
+                "the card names ten (significant cases first) and records the remainder "
+                "as <i>N more</i>. Within each class, principles are ordered by the number "
+                "of case-applications, then alphabetically. Empty subject classes are "
+                "omitted. An A–Z index is at the end. Significant cases are cited as "
+                "<b>SCJ_NNNN_S</b>."
+            )
+        else:
+            kicker = DEFAULT_KICKER
+            subtitle = "Every cross-cutting doctrine tagged in the JSON summaries, classified by subject."
+            note = DEFAULT_NOTE
+        skip_empty = bool(args.model)
+    else:
+        corpus = load_from_spine()
+        kicker = DEFAULT_KICKER
+        subtitle = DEFAULT_SUBTITLE
+        note = DEFAULT_NOTE
+        skip_empty = False
+
+    html_body = build_html(
+        args.date, corpus, subtitle=subtitle, kicker=kicker, note=note,
+        skip_empty_cats=skip_empty,
+    )
+    slug = (args.slug or "").strip()
+    html_path = (
+        os.path.join(SC, "tmp", f"principles_digest_{slug}_{args.date}.html")
+        if slug else HTML_OUT
+    )
+    os.makedirs(os.path.dirname(html_path), exist_ok=True)
+    with open(html_path, "w", encoding="utf-8", newline="\n") as f:
         f.write("<!doctype html><html lang='en'><head><meta charset='utf-8'></head><body>\n")
         f.write(html_body)
         f.write("\n</body></html>\n")
-    pdf_name = f"Principles_Digest_categorised_{args.date}.pdf"
+    pdf_name = (
+        f"Principles_Digest_categorised_{slug}_{args.date}.pdf"
+        if slug else f"Principles_Digest_categorised_{args.date}.pdf"
+    )
     pdf_path = os.path.join(BOOKLET, pdf_name)
     if os.path.exists(pdf_path):
         # dated snapshot is meant to be unique per day; overwrite same-day regen only
         pass
-    render_pdf(HTML_OUT, pdf_path)
-    print(f"wrote {HTML_OUT}")
+    render_pdf(html_path, pdf_path)
+    print(f"wrote {html_path}")
     print(f"wrote {pdf_path} ({os.path.getsize(pdf_path)} bytes)")
+    print(f"corpus: {corpus['n_cases_corpus']} cases, "
+          f"{len(corpus['tagged_ids'])} tagged, "
+          f"{len(corpus['prins'])} principles")
 
 
 if __name__ == "__main__":
