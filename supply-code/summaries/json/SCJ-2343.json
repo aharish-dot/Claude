@@ -1,0 +1,51 @@
+{
+  "case_id": "SCJ-2343",
+  "title": "Sukhpal Singh v. Deepanshu, Executive Engineer, PVVNL",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Single Judge",
+  "coram": "Mahesh Chandra Tripathi, J.",
+  "date_of_judgment": "2020-02-13",
+  "date_display": "13 February 2020",
+  "docket": "Contempt Application (Civil) No. 1026 of 2020",
+  "page_count": 1,
+  "significance": "procedural",
+  "outcome": "none",
+  "model": "Grok 4.6",
+  "disposition": "Contempt dismissed as not pressed; no Section 12 proceeding.",
+  "headnote": "A civil contempt application alleging disobedience of a 4 April 2019 writ that had relegated the consumer to Clause 6.5 of the U.P. Electricity Supply Code, 2005 and directed forthwith restoration of supply was not proceeded with. After finding no occasion to initiate Section 12 of the Contempt of Courts Act, 1971, the Court dismissed the application as not pressed with liberty to invoke the available statutory remedy, without deciding the billing dispute.",
+  "facts": "Sukhpal Singh, a consumer of Pachimanchal Vidhyut Vitran Nigam Limited, moved a civil contempt application against the Executive Engineer alleging disobedience of the Allahabad High Court's order dated 4 April 2019 in Writ-C No. 10563 of 2019. That writ had declined to entertain the consumer's challenge because of the statutory remedy under Clause 6.5 of the U.P. Electricity Supply Code, 2005, directed the department to restore electricity forthwith, and restrained coercive measures for 45 days if he approached the Executive Engineer under Clause 6.5 within 15 days.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "contempt of Clause 6.5 relegation and restoration writ",
+      "type": "supply_code",
+      "holding": "Where a writ court has already relegated the consumer to Clause 6.5 of the U.P. Electricity Supply Code, 2005 and directed restoration of supply, a later civil contempt application alleging disobedience of that order does not reopen the billing dispute. Finding no occasion to initiate proceedings under Section 12 of the Contempt of Courts Act, 1971, the Court dismissed the application as not pressed with liberty to invoke the available statutory remedy.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "contempt-of-6.5-writ-does-not-redecide-bill",
+      "application": "The Court found no occasion for Section 12 contempt on a Clause 6.5 relegation-and-restoration writ and then dismissed the application as not pressed, without deciding the bill.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "clause-6.5-statutory-remedy",
+      "application": "The quoted 2019 writ had declined to entertain the electricity challenge because of the Clause 6.5 remedy; this Court left that path intact by granting liberty to invoke the available remedy.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "merits of the billing dispute and the Clause 6.5 representation",
+      "note": "The contempt court did not redecide the bill or whether the 4 April 2019 restoration and Clause 6.5 directions had been complied with on the facts.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
