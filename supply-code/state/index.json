@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2241,
+  "next_seq": 2242,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -13426,6 +13426,12 @@
       "case_id": "SCJ-2238",
       "source_basename": "WRIC(A)_40374_2019.pdf",
       "title": "Urmila Devi v. State of U.P. — nearest-pole connection relegated to CGRF",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2237",
+      "source_basename": "WRIC(A)_40275_2019.pdf",
+      "title": "Prem Chandra Yadav v. State of U.P. (tehsildar citation; EE speaking order; s.127)",
       "status": "done"
     }
   ]
