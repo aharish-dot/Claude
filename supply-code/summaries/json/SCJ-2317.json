@@ -1,0 +1,67 @@
+{
+  "case_id": "SCJ-2317",
+  "title": "Ameer Hamja v. State of U.P.",
+  "neutral_citation": "Writ-C No. 6895 of 2019",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sudhir Agarwal, J. and Rajendra Kumar-IV, J.",
+  "date_of_judgment": "2019-03-01",
+  "date_display": "1 March 2019",
+  "docket": "Writ-C No. 6895 of 2019",
+  "page_count": 1,
+  "significance": "procedural",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Recovery stayed; competent authority to pass and communicate final assessment under Para 6.8.",
+  "headnote": "Where provisional assessment notices had been issued and the consumer had replied, but no final assessment had been passed or communicated, a demand under s.3 of the U.P. Government Electrical Undertakings (Dues Recovery) Act, 1958 could not be enforced. The Division Bench directed the Executive Engineer to pass and communicate a final assessment keeping Para 6.8 of the Supply Code, 2005 and Ashok Kumar in mind, and stayed recovery until then.",
+  "facts": "The petitioner, Ameer Hamja, received two provisional assessment notices dated 12 January 2018 and 28 June 2018. He submitted a reply, but the licensee never communicated a final assessment order and instead issued a demand notice dated 21 July 2018 under Section 3 of the Uttar Pradesh Government Electrical Undertakings (Dues Recovery) Act, 1958. He challenged those notices as contrary to Para 6.8 of the U.P. Electricity Supply Code, 2005 and Ashok Kumar v. State of U.P.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8",
+      "code": "UP-2005",
+      "clause": "6.8",
+      "topic": "final assessment before 1958 Act recovery",
+      "type": "supply_code",
+      "holding": "After provisional assessment notices and the consumer's reply, the licensee cannot recover under s.3 of the 1958 Dues Recovery Act without first passing and communicating a final assessment. The Executive Engineer must pass that order keeping Para 6.8 of the Supply Code, 2005 and Ashok Kumar in mind. Recovery under the 21 July 2018 notice stays until then and thereafter abides the final order.",
+      "paras": "3"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "provisional-assessment-hearing-6.8b",
+      "application": "Reply to two provisional assessment notices had been filed, but no final order under Para 6.8 had been passed or served; the Court directed the Executive Engineer to complete that step before recovery could proceed.",
+      "lead_authorities": [
+        {
+          "name": "Ashok Kumar v. State of U.P.",
+          "docid": "2008(6)ADJ 660"
+        }
+      ],
+      "paras": "2-3"
+    },
+    {
+      "tag": "para-6.8-non-compliance-vitiates-assessment-and-recovery",
+      "application": "Demand under the 1958 Act issued without a communicated final assessment was stayed; recovery is to abide the final order passed with Para 6.8 in mind.",
+      "lead_authorities": [
+        {
+          "name": "Ashok Kumar v. State of U.P.",
+          "docid": "2008(6)ADJ 660"
+        }
+      ],
+      "paras": "3"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the provisional assessment notices dated 12.01.2018 and 28.06.2018 themselves complied with Para 6.8",
+      "note": "The Court recorded the contention but proceeded 'be that as it may' without deciding it, and did not quash the notices or the assessment on merits.",
+      "paras": "2-3"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008(6)ADJ 660",
+      "cited_by": "2-3"
+    }
+  ]
+}
