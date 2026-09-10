@@ -1,0 +1,57 @@
+{
+  "case_id": "SCJ-2374",
+  "title": "Ram Das v. State of U.P.",
+  "neutral_citation": "Writ-C No. 13858 of 2020",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Manoj Misra, J.; Shekhar Kumar Yadav, J.",
+  "date_of_judgment": "2020-09-22",
+  "date_display": "22 September 2020",
+  "docket": "WRIT - C No. - 13858 of 2020",
+  "page_count": 3,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; clause 6.5 representation on one-fourth deposit, recovery stayed.",
+  "headnote": "Writ challenging two successive electricity demand notices on a single connection, alleged to have been raised without proper meter reading, disposed of without examining the bills. On the licensee's submission that clause 6.5 of the U.P. Electricity Supply Code, 2005 empowers the Executive Engineer to correct the bill amount, the Court directed that if the consumer deposited one-fourth of the later demand dated 30 June 2020 within two weeks and submitted a representation for correction before respondent no. 3, that officer shall decide the representation in accordance with law by a speaking order after hearing, preferably within four weeks; coercive recovery stayed till then, failing which there would be no protection.",
+  "facts": "Ram Das challenged demand notices dated 25 June 2020 and 30 June 2020 for Rs. 8,24,637 and Rs. 8,38,423 on a single electricity connection. He alleged the demands were raised without proper meter reading and that his request for revision by checking the meter had been ignored while recovery proceeded. Licensee's counsel submitted that clause 6.5 of the U.P. Electricity Supply Code, 2005 empowers the Executive Engineer to correct the bill.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "bill correction / representation to Executive Engineer",
+      "type": "supply_code",
+      "holding": "A writ challenging electricity demand notices as raised without proper meter reading may be disposed of, without examining the bills, by requiring the consumer to deposit one-fourth of the later demand within two weeks and to submit a representation for correction of the bill before the officer competent under clause 6.5 of the U.P. Electricity Supply Code, 2005, who shall decide it in accordance with law by a speaking order after hearing, preferably within four weeks; coercive recovery is stayed till that decision, but only if the deposit and representation are made.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-statutory-remedy-disputed-bill",
+      "application": "The Court accepted the licensee's submission that the Executive Engineer may correct the bill under clause 6.5 and relegated the disputed demands to that representation without examining the bills.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "meter-reading-dispute-clause-6.5",
+      "application": "The consumer's case was that the demands were raised without proper checking of the meter reading; that dispute was sent to the clause 6.5 forum.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "billing-objection-to-executive-engineer-under-6.5",
+      "application": "The petitioner was directed to submit a representation for correction of the bill or demand before respondent no. 3, to be decided in accordance with law by a speaking order after hearing.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the demand notices were correctly computed or the meter was properly read",
+      "note": "The Court did not examine the bills on merits and relegated the dispute to a representation under clause 6.5.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
