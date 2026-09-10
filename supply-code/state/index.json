@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2399,
+  "next_seq": 2400,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -14362,6 +14362,12 @@
       "case_id": "SCJ-2396",
       "source_basename": "WRIC(A)_1641_2020.pdf",
       "title": "Ashok Jaiswal v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2397",
+      "source_basename": "WRIC(A)_1646_2020.pdf",
+      "title": "Savir Ali v. State of U.P. — recovery citation: speaking final order and s.127 liberty",
       "status": "done"
     }
   ]
