@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2317,
+  "next_seq": 2318,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -13882,6 +13882,12 @@
       "case_id": "SCJ-2312",
       "source_basename": "WRIC(A)_6446_2019.pdf",
       "title": "Ishtiyak Ahmed v. Pashimanchal Vidyut Vitran Nigam Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2314",
+      "source_basename": "WRIC(A)_6648_2019.pdf",
+      "title": "Raju Kumar Gupta v. State of U.P. (s.126 assessment quashed for Para 6.8 non-compliance)",
       "status": "done"
     }
   ]

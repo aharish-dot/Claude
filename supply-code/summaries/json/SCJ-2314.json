@@ -1,0 +1,56 @@
+{
+  "case_id": "SCJ-2314",
+  "title": "Raju Kumar Gupta v. State of U.P. (s.126 assessment quashed for Para 6.8 non-compliance)",
+  "neutral_citation": "WRIT-C No. 6648 of 2019 (All.)",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sudhir Agarwal, J.; Rajendra Kumar-IV, J.",
+  "date_of_judgment": "2019-02-28",
+  "date_display": "28 February 2019",
+  "docket": "WRIT-C No. 6648 of 2019",
+  "page_count": 1,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; s.126 assessment and recovery citation set aside.",
+  "headnote": "A Division Bench of the Allahabad High Court allowed a writ against a Section 126 assessment and the recovery citation issued on it, because the assessment had not been made in accordance with Para 6.8 of the U.P. Electricity Supply Code, 2005. Counsel for the licensee did not dispute that non-compliance, including in light of Ashok Kumar (2008) 6 ADJ 660. The Court set aside the recovery citation dated 24 January 2019 and the assessment order, leaving the competent assessing authority at liberty to pass a fresh assessment in accordance with law.",
+  "facts": "The petitioner, Raju Kumar Gupta, filed a writ under Article 226 challenging a recovery citation dated 24 January 2019 issued by respondent 2 after an assessment under Section 126 of the Electricity Act, 2003 by the Executive Engineer. He contended that the assessment had not been made in accordance with Para 6.8 of the U.P. Electricity Supply Code, 2005. Counsel for respondent 3, the licensee, did not dispute that the assessment had not followed that procedure as applied in Ashok Kumar v. State of U.P.",
+  "reusable_constructions": [
+    {
+      "construction": "Non-compliance with Para 6.8 of the U.P. Electricity Supply Code, 2005 vitiates a Section 126 assessment and any recovery citation founded on it; both may be set aside, with liberty to the assessing authority to pass a fresh assessment in accordance with law.",
+      "paras": "4-7"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8",
+      "code": "UP-2005",
+      "clause": "6.8",
+      "topic": "assessment-procedure",
+      "type": "supply_code",
+      "holding": "Where a Section 126 assessment and the recovery citation issued thereon have not been made in accordance with Para 6.8 of the U.P. Electricity Supply Code, 2005, as applied in Ashok Kumar, both the assessment and the recovery citation are liable to be set aside, with liberty to the competent assessing authority to pass a fresh assessment in accordance with law.",
+      "paras": "4-7"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "para-6.8-non-compliance-vitiates-assessment-and-recovery",
+      "application": "The Court set aside the Section 126 assessment and the 24 January 2019 recovery citation because the assessment had not followed Para 6.8, a non-compliance the licensee did not dispute.",
+      "lead_authorities": [
+        {
+          "name": "Ashok Kumar v. State of U.P.",
+          "docid": "2008 (6) ADJ 660"
+        }
+      ],
+      "paras": "4-6"
+    }
+  ],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008 (6) ADJ 660",
+      "cited_by": "4"
+    }
+  ]
+}
