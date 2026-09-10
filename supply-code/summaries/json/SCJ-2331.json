@@ -1,0 +1,52 @@
+{
+  "case_id": "SCJ-2331",
+  "title": "Syeed Hasan v. State of U.P. and others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sudhir Agarwal, J.; Rajendra Kumar-IV, J.",
+  "date_of_judgment": "2019-03-08",
+  "date_display": "8 March 2019",
+  "docket": "Writ-C No. 7938 of 2019",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; electricity bill relegated to CGRF and Ombudsman.",
+  "headnote": "An electricity bill dispute is subject to the statutory alternative remedy of the Consumer Grievance Redressal Forum under para 7.10(i) of the Electricity Supply Code, 2005 read with the UPERC (Consumer Grievance Redressal Forum & Ombudsman) Regulations, 2003, and thereafter the Ombudsman. A writ petition raising such a billing grievance is dismissed on the ground of alternative remedy.",
+  "facts": "Syeed Hasan filed Writ-C No. 7938 of 2019 in the Allahabad High Court against the State of Uttar Pradesh and three others. The controversy was an electricity bill. He was represented by Prashant Sharma. Awadhesh Kumar Saxena appeared for the respondents and the Standing Counsel for the State. After hearing all sides, the Division Bench of Sudhir Agarwal and Rajendra Kumar-IV, JJ. considered whether the High Court should entertain the billing grievance in writ or leave the petitioner to the statutory consumer-forum path.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::7.10(i)",
+      "code": "UP-2005",
+      "clause": "7.10(i)",
+      "topic": "alternative remedy for electricity bill — CGRF then Ombudsman",
+      "type": "supply_code",
+      "holding": "An electricity bill dispute is not entertained in writ. The consumer must raise the grievance before the Consumer Grievance Redressal Forum under para 7.10(i) of the Electricity Supply Code, 2005 read with the UPERC (Consumer Grievance Redressal Forum & Ombudsman) Regulations, 2003, and thereafter before the Ombudsman. The writ petition is dismissed on that alternative-remedy ground.",
+      "paras": "2-3",
+      "flag": "Para 2 cites 7.10(i) of Code 2005 for CGRF, then attributes the Ombudsman step to para 7.10(iv) of Regulations, 2003 rather than Code 2005; catalog keys both clauses to UP-2005."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "UP-2005::7.10(i)",
+      "application": "Electricity bill grievance must first go to the Consumer Grievance Redressal Forum; writ dismissed on that alternative remedy.",
+      "lead_authorities": [],
+      "paras": "2-3"
+    },
+    {
+      "tag": "UP-2005::7.10(iv)",
+      "application": "After the Forum, the further statutory remedy is the Ombudsman; the Court treated that cascade as barring the writ.",
+      "lead_authorities": [],
+      "paras": "2-3"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits of the electricity bill",
+      "note": "Writ dismissed solely on alternative remedy; the billing grievance was not examined.",
+      "paras": "2-3"
+    }
+  ],
+  "authorities": []
+}
