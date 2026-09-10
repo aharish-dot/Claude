@@ -1,0 +1,52 @@
+{
+  "case_id": "SCJ-2303",
+  "title": "Mewar Education Society v. Electricity Ombudsman",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Single Judge",
+  "coram": "Rohit Ranjan Agarwal, J.",
+  "date_of_judgment": "2019-02-21",
+  "date_display": "21 February 2019",
+  "docket": "Writ - C No. 5132 of 2019",
+  "page_count": 3,
+  "significance": "procedural",
+  "outcome": "pending",
+  "model": "Grok 4.6",
+  "disposition": "Writ connected with pending licensee challenge; disconnection stayed.",
+  "headnote": "Allahabad High Court connected a consumer writ against CGRF and Ombudsman orders on a CT-defect assessment with the licensee's pending challenge to the same CGRF order, and stayed disconnection without deciding Supply Code clauses 5.6 / 2.2(mm) / 6.15(b) or Electricity Act section 56(2).",
+  "facts": "Mewar Education Society held a 118 kVA connection. After a 24 March 2017 inspection found the B-phase CT defective, the Superintending Engineer assessed Rs.47,17,375 from 1 April 2012 to 24 March 2017. CGRF (9 February 2018) held clause 5.6 inapplicable (defective CT, not meter) but limited the bill to two years under section 56(2) read with clause 6.15(b). The licensee challenged that order in Writ-C No. 15916 of 2018. The Ombudsman disposed of the consumer's appeal because that writ was pending.",
+  "holding_units": [
+    {
+      "provision": "OFFTOPIC::procedural-listing",
+      "code": "OFFTOPIC",
+      "clause": "procedural-listing",
+      "topic": "connection of writs and interim supply protection",
+      "type": "supply_code",
+      "holding": "The consumer's writ against the CGRF order dated 9 February 2018 and the Ombudsman's disposal dated 27 December 2018 was connected with the licensee's pending Writ-C No. 15916 of 2018 against the same CGRF order. As an interim measure the licensee shall not disconnect the petitioner-institution's supply and the petitioner shall not claim refund of amounts already deposited. The Court recorded that the matter required consideration but did not construe the Supply Code or section 56(2).",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "procedural-listing-no-construction",
+      "application": "The Court connected the consumer's writ with the licensee's pending challenge to the same CGRF order and granted interim no-disconnection relief without construing Supply Code clauses 5.6, 2.2(mm) or 6.15(b) or Electricity Act section 56(2).",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether a defective CT is a defective meter under UP-2005 clauses 2.2(mm) and 5.6(c), so that assessment is limited to three months",
+      "paras": "1"
+    },
+    {
+      "point": "Whether section 56(2) of the Electricity Act, 2003 read with UP-2005 clause 6.15(b) limits the revised bill to two years",
+      "paras": "1"
+    },
+    {
+      "point": "Whether the Ombudsman could dispose of the consumer's representation solely because a related writ was pending",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
