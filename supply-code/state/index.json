@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2268,
+  "next_seq": 2269,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -13588,6 +13588,12 @@
       "case_id": "SCJ-2264",
       "source_basename": "WRIC(A)_41760_2019.pdf",
       "title": "Sintu Patel @ Janmejay Singh v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2265",
+      "source_basename": "WRIC(A)_41765_2019.pdf",
+      "title": "Subhash v. State of U.P. — provisional assessment unserved; hearing and speaking final order before s.127",
       "status": "done"
     }
   ]

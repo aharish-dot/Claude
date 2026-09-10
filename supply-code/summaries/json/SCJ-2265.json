@@ -1,0 +1,51 @@
+{
+  "case_id": "SCJ-2265",
+  "title": "Subhash v. State of U.P. — provisional assessment unserved; hearing and speaking final order before s.127",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta, J.; Shamim Ahmed, J.",
+  "date_of_judgment": "2019-12-17",
+  "date_display": "17 December 2019",
+  "docket": "Writ - C No. 41765 of 2019",
+  "page_count": 3,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed: petitioner to appear before the Executive Engineer with objections; speaking final order within four weeks; coercive action stayed for seven weeks or until the objection is decided; section 127 appeal thereafter; demand revives on default.",
+  "headnote": "A consumer who challenges an electricity assessment demand on the ground that the provisional assessment was never supplied and that recovery is being pressed without a hearing under the U.P. Electricity Supply Code, 2005, does not obtain a merits quash in writ. The assessing officer must supply the provisional assessment, hear objections, and pass a speaking final order; coercive recovery is stayed only for a limited period while that process is completed; any remaining grievance lies in appeal under section 127 of the Electricity Act, 2003. Failure to appear revives the demand.",
+  "facts": "The petitioner, Subhash, challenged before the Allahabad High Court an assessment order dated 27 March 2019 issued by the Executive Engineer demanding Rs. 46,955. He alleged that a copy of the provisional assessment had never been supplied, that coercive recovery was underway without an opportunity of hearing, and that the U.P. Electricity Supply Code, 2005 had not been followed. Counsel for the electricity department undertook to supply the provisional assessment within a week.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act 2003",
+      "clause": "127",
+      "topic": "final speaking order then statutory appeal",
+      "type": "electricity_act",
+      "holding": "Where a consumer challenges an assessment demand alleging that the provisional assessment was never supplied and that coercive recovery is being taken without a hearing under the U.P. Electricity Supply Code, 2005, the High Court will not quash the demand on merits. The assessing officer is to supply the provisional assessment, hear the consumer's objections with evidence, and pass a speaking and reasoned final order; only thereafter may the consumer invoke the appeal under section 127. Coercive action is stayed for a limited period (here, seven weeks or until disposal of the objection, whichever is earlier). If the consumer fails to appear and file objections on the date fixed, the impugned demand stands revived automatically.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "s127-appeal-lies-only-against-final-order-not-provisional-assessment",
+      "application": "The Court treated the 27 March 2019 demand as an incomplete assessment because the provisional assessment had not been supplied, directed the Executive Engineer to pass a speaking final order after hearing objections, and opened section 127 only against that final order.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "alternative-remedy-relegation-section-127",
+      "application": "After directing completion of the assessment process, the Court left any remaining grievance against the final order to the statutory appeal under section 127, without examining the Rs. 46,955 demand on merits.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Validity and quantum of the Rs. 46,955 assessment",
+      "note": "The Court did not decide whether the demand was lawful or whether Supply Code, 2005 procedures had in fact been breached; those issues were left to the Executive Engineer's speaking order and, thereafter, to a section 127 appeal.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
