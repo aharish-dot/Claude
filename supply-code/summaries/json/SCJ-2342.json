@@ -1,0 +1,50 @@
+{
+  "case_id": "SCJ-2342",
+  "title": "Kranti Gupta v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Single Judge",
+  "coram": "Chandra Dhari Singh, J.",
+  "date_of_judgment": "2020-01-20",
+  "date_display": "20 January 2020",
+  "docket": "U/S 482/378/407 No. 299 of 2020",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Section 482 petition dismissed; s.135(b) theft proceedings to continue.",
+  "headnote": "A Section 482 petition to quash pending Section 135(b) Electricity Act theft proceedings—on alleged non-compliance with Supply Code Clauses 8.1, 8.1(b) and 5.6(c)/(d) (meter removal and testing; seal breakage alone not enough)—was dismissed. The High Court treated those objections as facts and law for the trial court, refused a pre-trial inquiry, and noted that an earlier 482 challenge to the summoning orders had already failed.",
+  "facts": "On inspection of the applicant's flour mill at Sandeela, Hardoi on 3 July 2018, officials found the C.T. chamber and C.T./P.T. unit seals tampered and wires loose. An FIR followed under Section 135(b) of the Electricity Act, 2003. After charge-sheet and cognizance before the Special Judge, E.C. Act, Hardoi, the applicant sought under Section 482 Cr.P.C. to quash the proceedings, alleging the meter was neither seized nor tested. An earlier 482 challenge to the summoning orders had already been dismissed.",
+  "holding_units": [
+    {
+      "provision": "EA2003::135",
+      "code": "EA2003",
+      "clause": "135(b)",
+      "topic": "pre-trial 482 quash of s.135(b) theft proceedings",
+      "type": "interplay",
+      "holding": "Section 482 Cr.P.C. will not quash pending Section 135(b) proceedings at the pre-trial stage on alleged non-compliance with Supply Code Clauses 8.1, 8.1(b) and 5.6(c)/(d). Those objections, including whether the meter had to be removed and tested and whether breakage of seal alone can found theft, are questions of fact and even of law for the trial court. The case did not fall within the categories recognised by the Supreme Court for quashing.",
+      "paras": "1",
+      "flag": "Counsel attributed a 'seal breakage alone is not theft' rule to Clause 8.1(b) and invoked Clauses 5.6(c) and (d) without sub-clause; the Court did not map or decide those clauses."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "section-482-sparingly-at-pre-trial-stage",
+      "application": "The Court refused a pre-trial inquiry into alleged Clause 8.1/5.6 meter-testing and seal-breakage defaults and dismissed the 482 petition, leaving those points to the trial court.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether Clauses 8.1, 8.1(b) and 5.6(c)/(d) (meter removal and testing; seal breakage as a basis for theft) were complied with before the s.135(b) prosecution",
+      "note": "Counsel's Supply Code objections were left as facts and law for the trial court.",
+      "paras": "1"
+    },
+    {
+      "point": "Whether the applicant tampered with the meter seals and whether the charge-sheet disclosed sufficient evidence",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
