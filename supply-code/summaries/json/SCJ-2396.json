@@ -1,0 +1,55 @@
+{
+  "case_id": "SCJ-2396",
+  "title": "Ashok Jaiswal v. State of U.P.",
+  "neutral_citation": "Writ - C No. 1641 of 2020",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta and Piyush Agrawal, JJ.",
+  "date_of_judgment": "2020-01-18",
+  "date_display": "18 January 2020",
+  "docket": "Writ - C No. 1641 of 2020",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed with directions to appear before the Executive Engineer for a speaking final order; coercive recovery stayed for seven weeks; liberty of appeal under section 127; citation revives on default.",
+  "headnote": "A Division Bench of the Allahabad High Court disposed of a writ against a recovery citation founded on a provisional electricity bill without deciding the demand on merits. The consumer was directed to appear before the Executive Engineer with objections and evidence; that officer was to pass a speaking final order within four weeks; coercive recovery was stayed for seven weeks or until disposal of the objection, whichever was earlier; and liberty was reserved to appeal under section 127 of the Electricity Act, 2003 against the final order. Default in appearance would revive the citation.",
+  "facts": "Ashok Jaiswal invoked the Allahabad High Court's writ jurisdiction to quash a recovery citation dated 30 August 2019 for Rs 2,08,852 and to restrain coercive recovery of that sum. At the hearing, counsel for the electricity department produced the inspection report and a provisional bill. The petitioner alleged that recovery was being pursued without an opportunity of hearing and without following the U.P. Electricity Supply Code, 2005. No final assessment order was shown to have been passed.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "relegation after final order on provisional bill",
+      "type": "electricity_act",
+      "holding": "Where recovery is pressed on an inspection report and provisional bill without a hearing, the consumer is to appear before the Executive Engineer with objections and evidence; that officer shall pass a speaking and reasoned final order within four weeks; coercive action is stayed for seven weeks or until disposal of the objection, whichever is earlier, and stands vacated automatically on default in filing the objection; if aggrieved by the final order the consumer may appeal under section 127 of the Electricity Act, 2003; and non-appearance on the date fixed revives the recovery citation. The writ is disposed of on those directions without deciding the demand on merits.",
+      "paras": "5-8"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternative-remedy-relegation-section-127",
+      "application": "After directing a speaking final order on the consumer's objections to the provisional bill, the Court left the consumer to a section 127 appeal if aggrieved by that order and disposed of the writ without quashing the recovery citation on merits.",
+      "lead_authorities": [],
+      "paras": "7"
+    },
+    {
+      "tag": "s127-appeal-lies-only-against-final-order-not-provisional-assessment",
+      "application": "The department having produced only an inspection report and a provisional bill, the Court required the Executive Engineer to pass a final order before the consumer's section 127 remedy would arise.",
+      "lead_authorities": [],
+      "paras": "5-7"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "whether the recovery citation and the underlying demand complied with the U.P. Electricity Supply Code, 2005",
+      "note": "the petitioner's Supply Code objection was not examined; the Executive Engineer is to consider objections in a speaking final order",
+      "paras": "4-5"
+    },
+    {
+      "point": "merits and quantum of the demand of Rs 2,08,852",
+      "paras": "5-7"
+    }
+  ],
+  "authorities": []
+}
