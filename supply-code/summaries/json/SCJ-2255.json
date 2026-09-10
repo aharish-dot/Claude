@@ -1,0 +1,63 @@
+{
+  "case_id": "SCJ-2255",
+  "title": "Mahesh Chandra v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta, J.; Shamim Ahmed, J.",
+  "date_of_judgment": "2019-12-16",
+  "date_display": "16 December 2019",
+  "docket": "WRIT - C No. 41507 of 2019",
+  "page_count": 3,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of; petitioner relegated to a Section 127 appeal; coercive recovery stayed six weeks.",
+  "headnote": "A writ seeking a mandamus that the Executive Engineer decide a pending appeal against a final electricity assessment was disposed of without a merits ruling. A Division Bench held that the statutory remedy is an appeal under Section 127 of the Electricity Act, 2003, before the competent appellate authority, and that the Executive Engineer has no jurisdiction to entertain that appeal. The petitioner was given two weeks to file the appeal, to be decided on merits without limitation if so filed, and coercive recovery was stayed for six weeks.",
+  "facts": "Mahesh Chandra sought a mandamus that the Executive Engineer decide an appeal dated 11 October 2019 against a final electricity assessment. He alleged the assessment was passed without hearing and without following the U.P. Electricity Supply Code, 2005, and that coercive recovery had begun. He had filed that appeal after an earlier High Court order dated 26 August 2019 in Writ-C No. 24867 of 2019. The department said the Section 127 appeal lay to the statutory appellate authority, not to the Executive Engineer.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "section 127 appeal; Executive Engineer not the appellate authority",
+      "type": "electricity_act",
+      "holding": "A final assessment is challengeable by statutory appeal under Section 127 of the Electricity Act, 2003 (styled in the order as the U.P. Electricity Act) before the competent appellate authority. The Executive Engineer has no jurisdiction to entertain that appeal. The petitioner may file a Section 127 appeal within two weeks; if so filed, the appellate authority shall decide it on merits, preferably within four weeks, without reference to limitation. Coercive recovery under the impugned recovery certificate was stayed for six weeks. The Court expressed no opinion on the merits.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternative-remedy-relegation-section-127",
+      "application": "The writ seeking a direction that the Executive Engineer decide a pending assessment appeal was disposed of by relegating the petitioner to a Section 127 appeal before the competent authority.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "final-assessment-order-relegates-assessee-to-section-127-appeal",
+      "application": "Because a final assessment order had been passed, the Court held that the grievance lay in a Section 127 appeal, not in a writ to the Executive Engineer.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "relegation-to-section-127-appeal-on-merits-limitation-not-examined",
+      "application": "If a Section 127 appeal is filed within two weeks, the appellate authority shall decide it on merits without reference to limitation; the Court did not examine limitation itself.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "recovery-of-assessment-stayed-pending-s127-appeal",
+      "application": "Coercive measures on the recovery certificate were stayed for six weeks to enable filing of the Section 127 appeal.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the final assessment was passed without hearing or in breach of the U.P. Electricity Supply Code, 2005",
+      "note": "The Court expressed no opinion on the merits and left the dispute to the Section 127 appellate authority.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
