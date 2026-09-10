@@ -1,0 +1,51 @@
+{
+  "case_id": "SCJ-2350",
+  "title": "Ghirrau Lal v. Uttar Pradesh Power Corporation Limited",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Dr. Kaushal Jayendra Thaker, J.; Vivek Varma, J.",
+  "date_of_judgment": "2020-07-10",
+  "date_display": "10 July 2020",
+  "docket": "WRIT - C No. 11135 of 2020",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; fresh Code-format objection to be decided.",
+  "headnote": "Where a consumer’s reply to a demand notice was not in the prescribed format under the U.P. Electricity Supply Code, 2005, the High Court disposed of the writ by directing a fresh Code-compliant filing, annexing the original sealing certificate, and requiring the licensee to decide the objection in accordance with law. On an undertaking to deposit 50% of the demanded amount, provisional reconnection during the pandemic was hoped for, not mandated.",
+  "facts": "Ghirrau Lal challenged Uttar Pradesh Power Corporation Limited’s failure to decide his representation against a demand notice dated 1 August 2019. He had replied the same day denying the allegations, yet without inquiry the licensee on 14 January 2020 directed him to deposit the entire amount and disconnected supply just before the COVID-19 pandemic. A further representation dated 17 March 2020 remained pending. On advance notice, counsel for the licensee submitted that the reply could not be considered as it was not in the prescribed format.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8",
+      "code": "UP-2005",
+      "clause": "6.8",
+      "topic": "assessment-objection-prescribed-format",
+      "type": "supply_code",
+      "holding": "A reply to a post-checking demand notice must be filed in the prescribed format under the Electricity Supply Code, 2005; the licensee need not consider a non-format reply. The writ was disposed by directing a fresh Code-compliant objection, annexing the original sealing certificate, and requiring the licensee to decide it in accordance with law, without adjudicating the demand. Provisional reconnection on a 50% deposit during the pandemic was hoped for, not ordered.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "objection-prescribed-format",
+      "application": "The Court accepted that the existing reply could not be acted upon because it was not in the Supply Code format, and directed a fresh Code-compliant filing rather than compelling a decision on the representation as filed.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "decide-objection-in-accordance-with-law",
+      "application": "The demand, disconnection and allegations were not decided on merits; the licensee was directed to decide the fresh objection in accordance with law, with only a hoped-for provisional reconnection if 50% of the demand was deposited.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits of the 1 August 2019 demand and the legality of the disconnection",
+      "note": "The Court did not examine the allegations, the 14 January 2020 deposit direction, or whether disconnection was lawful.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
