@@ -1,0 +1,51 @@
+{
+  "case_id": "SCJ-2296",
+  "title": "Gulfam v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta, J. and Shamim Ahmed, J.",
+  "date_of_judgment": "2019-12-20",
+  "date_display": "20 December 2019",
+  "docket": "WRIT - C No. 42643 of 2019",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; objections before EE; speaking final order; s.127 kept open; coercive action stayed six weeks.",
+  "headnote": "The Allahabad High Court declined to quash a checking report on a writ alleging coercive recovery without hearing. It directed the consumer to appear before the Executive Engineer with objections and evidence, required a speaking final order within four weeks, stayed coercive action for six weeks or until disposal of the objection, and left a Section 127 appeal open against that final order. Non-appearance would automatically revive the recovery citation.",
+  "facts": "Gulfam filed a writ seeking certiorari to quash a checking report dated 18 October 2019 issued by the electricity department. He alleged that the respondents were taking coercive action, including recovery, without giving him an opportunity of hearing and without following the U.P. Electricity Supply Code, 2005. The Division Bench heard counsel for the petitioner and for the Electricity Department and disposed of the petition with directions rather than deciding the checking report on merits.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "relegation to hearing, final order, and s.127 appeal",
+      "type": "electricity_act",
+      "holding": "A writ challenging a checking report and alleged coercive recovery without hearing will not be decided on the merits of the report. The consumer is to appear before the Executive Engineer with objections and evidence; the Engineer must pass a speaking final order within four weeks; coercive action is stayed for six weeks or until disposal of the objection, whichever is earlier; and if the consumer is aggrieved by that final order, an appeal under Section 127 of the Electricity Act, 2003 remains open. Failure to appear on the date fixed revives the recovery citation automatically.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternative-remedy-relegation-section-127",
+      "application": "Writ against a checking report disposed by sending the consumer to the Executive Engineer for a speaking final order, with Section 127 appeal kept open if aggrieved.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "s127-appeal-lies-only-against-final-order-not-provisional-assessment",
+      "application": "The Court required a speaking final order on the consumer's objections before pointing him to a Section 127 appeal, treating the checking report as not itself the appealable order.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "legality of the checking report dated 18.10.2019 and alleged non-compliance with the U.P. Electricity Supply Code, 2005",
+      "note": "The writ was disposed with hearing directions; the report was neither quashed nor upheld on merits.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
