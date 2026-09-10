@@ -1,0 +1,51 @@
+{
+  "case_id": "SCJ-2264",
+  "title": "Sintu Patel @ Janmejay Singh v. State of U.P.",
+  "neutral_citation": "Writ-C No. 41760 of 2019",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta and Shamim Ahmed, JJ.",
+  "date_of_judgment": "2019-12-17",
+  "date_display": "17 December 2019",
+  "docket": "Writ-C No. 41760 of 2019",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; petitioner to appear before the Executive Engineer for a speaking final order; s.127 appeal if aggrieved.",
+  "headnote": "On a challenge to a Tehsildar recovery citation alleged to have been issued without hearing and without following the U.P. Electricity Supply Code 2005, the Division Bench did not quash the citation. It directed the consumer to appear before the Executive Engineer with objection and evidence, required a speaking final order within four weeks, stayed coercive action for six weeks or until disposal of the objection (whichever earlier), and relegated any further grievance against that final order to an appeal under Section 127 of the Electricity Act, 2003. Failure to appear revives the citation automatically.",
+  "facts": "The petitioner, Sintu Patel, sought certiorari to quash a recovery citation dated 30 April 2019 issued by the Tehsildar, Lalganj, District Mirzapur, and a restraint on further coercive recovery. He alleged that the electricity department was proceeding without an opportunity of hearing and without following the U.P. Electricity Supply Code 2005. Counsel for the electricity department was heard. The Court did not examine the merits of the citation or the alleged Code breaches.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "relegation to s.127 after Executive Engineer speaking order",
+      "type": "electricity_act",
+      "holding": "A writ against a Tehsildar recovery citation, alleged to have been issued without hearing and without following the Supply Code, was disposed of without a merits decision. The consumer must appear before the Executive Engineer with objection and evidence; the Engineer shall pass a speaking final order within four weeks; coercive action is stayed for six weeks or until disposal of the objection, whichever is earlier; if aggrieved by that final order the consumer may appeal under Section 127 of the Electricity Act, 2003; default in appearance revives the citation.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternative-remedy-relegation-section-127",
+      "application": "After directing the Executive Engineer to pass a speaking final order on the consumer's objection to the recovery citation, the Court left any further challenge to that order to an appeal under Section 127 rather than deciding the citation on writ.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "s127-appeal-lies-only-against-final-order-not-provisional-assessment",
+      "application": "The Court first required the Executive Engineer to pass a final speaking order on the objection, and only then kept open a Section 127 appeal against that final order.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the recovery citation was issued without hearing or in breach of the U.P. Electricity Supply Code 2005",
+      "note": "Left to the Executive Engineer to consider on the petitioner's objection and evidence; merits of the citation not examined on writ.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
