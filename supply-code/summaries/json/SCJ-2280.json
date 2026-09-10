@@ -1,0 +1,51 @@
+{
+  "case_id": "SCJ-2280",
+  "title": "Papindar Singh v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta, J.; Shamim Ahmed, J.",
+  "date_of_judgment": "2019-12-19",
+  "date_display": "19 December 2019",
+  "docket": "Writ-C No. 42250 of 2019",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; relegated to clause 6.5; coercive action stayed seven weeks.",
+  "headnote": "A writ seeking certiorari to quash a recovery citation founded on a disputed electricity bill is not entertained where clause 6.5 of the U.P. Electricity Supply Code, 2005 furnishes a statutory remedy. The consumer may apply to the appropriate authority within two weeks; that authority is to decide by a speaking order after hearing within four weeks. Coercive action is stayed for seven weeks.",
+  "facts": "Papindar Singh filed Writ-C No. 42250 of 2019 in the Allahabad High Court seeking certiorari to quash a recovery citation dated 19 November 2019 for Rs. 17,73,738 plus other charges. His grievance was that the electricity bill raised against him was incorrect. Counsel for the petitioner and Sri Mahboob Ahmad for the Electricity Department were heard. The Court then considered whether the writ should be entertained given the Supply Code objection remedy.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "billing dispute; statutory remedy",
+      "type": "supply_code",
+      "holding": "A writ challenging the correctness of an electricity bill and the consequent recovery citation will not be entertained when clause 6.5 of the U.P. Electricity Supply Code, 2005 furnishes a statutory remedy. The consumer may approach the appropriate authority with a certified copy of the order and the writ papers; that authority is to consider and decide the application in accordance with law by a speaking order after hearing.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-statutory-remedy",
+      "application": "The Court declined to entertain the writ because clause 6.5 of the Supply Code is an available statutory remedy for the billing dispute.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "bill-correctness-under-clause-6.5-not-cgrf-or-ombudsman",
+      "application": "The petitioner's dispute as to correctness of the bill was directed to the clause 6.5 authority rather than decided on the writ.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness of the electricity bill and validity of the recovery citation dated 19.11.2019",
+      "note": "Writ not entertained on merits; relegated to clause 6.5.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
