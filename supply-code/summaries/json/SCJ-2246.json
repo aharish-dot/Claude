@@ -1,0 +1,61 @@
+{
+  "case_id": "SCJ-2246",
+  "title": "Hari Ram Prajapati v. State of U.P. and others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta, J. and Ravi Nath Tilhari, J.",
+  "date_of_judgment": "2019-12-12",
+  "date_display": "12 December 2019",
+  "docket": "WRIT - C No. 41066 of 2019",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of without entering merits. Petitioner directed to file objections before the Executive Engineer, who shall pass a speaking final order after personal hearing; coercive action stayed for seven weeks or till disposal, whichever earlier; Section 127 appeal reserved against the final order; provisional assessment and checking report to be served.",
+  "headnote": "A writ seeking to quash a recovery citation on an electricity assessment, where the consumer alleged theft was not committed and the Supply Code and hearing were not observed, was disposed of without examining merits. The High Court directed the consumer to appear before the Executive Engineer with objections, required a speaking and reasoned final order after personal hearing, stayed coercive recovery for a limited period, directed service of the provisional assessment order and checking report, and reserved a statutory appeal under Section 127 of the Electricity Act, 2003 against that final order.",
+  "facts": "Hari Ram Prajapati invoked the Allahabad High Court's writ jurisdiction to quash a recovery citation dated 30 October 2019 for Rs. 5,35,564 issued against him by the electricity department. He denied having committed theft of electricity and alleged that the respondents were taking coercive action without giving him an opportunity of hearing and without following the U.P. Electricity Supply Code, 2005. Counsel for the electricity department was heard. The department's provisional assessment order and checking report had not yet been served on the petitioner.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "recovery citation on provisional assessment — speaking final order then s.127 appeal",
+      "type": "electricity_act",
+      "holding": "Where a consumer challenges a recovery citation issued on a provisional electricity assessment, the High Court need not quash the demand on merits. The consumer may be directed to file objections before the Executive Engineer, who must pass a speaking and reasoned final order after personal hearing; coercive recovery may be stayed pending that determination; the provisional assessment and checking report are to be served; and any challenge to the final order lies in appeal under Section 127 of the Electricity Act, 2003.",
+      "paras": "1-2"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternative-remedy-relegation-section-127",
+      "application": "After directing a speaking final order on the petitioner's objections, the Court reserved a Section 127 appeal if he is aggrieved by that order and did not decide the demand in writ.",
+      "lead_authorities": [],
+      "paras": "1-2"
+    },
+    {
+      "tag": "s127-appeal-lies-only-against-final-order-not-provisional-assessment",
+      "application": "The Court required the Executive Engineer to pass a final speaking order and confined the Section 127 appeal to that final order, while directing service of the still-unserved provisional assessment and checking report.",
+      "lead_authorities": [],
+      "paras": "1-2"
+    },
+    {
+      "tag": "final-assessment-order-relegates-assessee-to-section-127-appeal",
+      "application": "Any grievance against the Executive Engineer's final order was expressly left to the statutory appeal under Section 127, not to further writ adjudication of the quantum or theft allegation.",
+      "lead_authorities": [],
+      "paras": "1-2"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner committed theft of electricity or the recovery citation dated 30.10.2019 was illegal",
+      "note": "The Court expressly declined to enter the merits; the Executive Engineer is to decide the objections after personal hearing.",
+      "paras": "1-2"
+    },
+    {
+      "point": "Whether the U.P. Electricity Supply Code, 2005 was followed in the assessment and recovery",
+      "paras": "1-2"
+    }
+  ],
+  "authorities": []
+}
