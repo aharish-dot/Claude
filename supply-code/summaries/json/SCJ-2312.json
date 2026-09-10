@@ -1,0 +1,54 @@
+{
+  "case_id": "SCJ-2312",
+  "title": "Ishtiyak Ahmed v. Pashimanchal Vidyut Vitran Nigam Ltd.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sudhir Agarwal and Rajendra Kumar-IV, JJ.",
+  "date_of_judgment": "2019-02-28",
+  "date_display": "28 February 2019",
+  "docket": "WRIT - C No. 6446 of 2019",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition dismissed; petitioner relegated to CGRF under para 7.10(i) and Ombudsman under para 7.10(iv).",
+  "headnote": "A writ petition concerning payment of electricity dues is not maintainable where the consumer has a statutory alternative remedy before the Consumer Grievance Redressal Forum under para 7.10(i) of the Electricity Supply Code, 2005, and thereafter before the Ombudsman under para 7.10(iv), read with the UPERC (Consumer Grievance Redressal Forum & Ombudsman) Regulations, 2003. The petition was dismissed on that ground after counsel did not dispute the alternative remedy and sought leave to avail it.",
+  "facts": "Ishtiyak Ahmed petitioned the Allahabad High Court against Pashimanchal Vidyut Vitran Nigam Ltd. over payment of electricity dues. On 25 February 2019 the matter was adjourned as fresh at the licensee's request. When it was taken up on 28 February 2019, petitioner's counsel, after some argument, did not dispute that a statutory alternative remedy lay before the Consumer Grievance Redressal Forum and thereafter the Ombudsman, and sought permission to pursue those remedies. Counsel for the licensee could not assist on the governing provisions.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::7.10(i)",
+      "code": "UP-2005",
+      "clause": "7.10(i)",
+      "topic": "cgrf-alternative-remedy",
+      "type": "supply_code",
+      "holding": "A consumer's grievance in respect of payment of electricity dues is to be raised before the Consumer Grievance Redressal Forum under para 7.10(i) of the Electricity Supply Code, 2005, read with the UPERC (Consumer Grievance Redressal Forum & Ombudsman) Regulations, 2003. A writ petition is dismissed where that statutory alternative remedy is available and is not disputed.",
+      "paras": "2-5"
+    },
+    {
+      "provision": "UP-2005::7.10(iv)",
+      "code": "UP-2005",
+      "clause": "7.10(iv)",
+      "topic": "ombudsman-alternative-remedy",
+      "type": "supply_code",
+      "holding": "After the Consumer Grievance Redressal Forum, the further statutory remedy for the same grievance is before the Ombudsman under para 7.10(iv) of the Electricity Supply Code, 2005, read with the 2003 Regulations.",
+      "paras": "2"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternative-remedy-cgrf-ombudsman",
+      "application": "Writ jurisdiction will not be exercised on a dispute as to payment of electricity dues when para 7.10(i) of the Supply Code provides a Consumer Grievance Redressal Forum and para 7.10(iv) provides a further appeal to the Ombudsman; the petition is dismissed and the consumer is left to those forums.",
+      "lead_authorities": [],
+      "paras": "2-5"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits of the petitioner's grievance regarding payment of electricity dues",
+      "note": "Writ dismissed solely on alternative remedy; CGRF and Ombudsman left to decide.",
+      "paras": "2-5"
+    }
+  ],
+  "authorities": []
+}
