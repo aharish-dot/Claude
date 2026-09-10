@@ -1,0 +1,57 @@
+{
+  "case_id": "SCJ-2301",
+  "title": "Harjinder Singh v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta, J.; Piyush Agrawal, J.",
+  "date_of_judgment": "2020-01-03",
+  "date_display": "3 January 2020",
+  "docket": "Writ-C No. 43156 of 2019",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; petitioner relegated to Clause 6.5; coercive action stayed six weeks.",
+  "headnote": "A writ challenging a citation notice and seeking a correct electricity bill is not entertained where Clause 6.5 of the U.P. Electricity Supply Code, 2005 supplies a statutory remedy. Liberty was given to approach the appropriate authority within two weeks for a speaking decision within four weeks after hearing, with coercive action stayed for six weeks or until that decision, whichever is earlier.",
+  "facts": "Harjinder Singh filed a writ petition in the Allahabad High Court seeking certiorari to quash a citation notice dated 7 September 2019 issued by the electricity authorities, and a mandamus directing them to issue an actual and correct bill recoverable in easy instalments. Counsel for the petitioner and the Electricity Department were heard. The petitioner's grievance was confined to the correctness of the bill raised against him. The Court did not examine the bill figures or the citation on merits.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "bill correctness — statutory remedy",
+      "type": "supply_code",
+      "holding": "A writ raising only the correctness of an electricity bill is not entertained when Clause 6.5 of the U.P. Electricity Supply Code, 2005 affords a statutory remedy. The consumer may approach the appropriate authority within two weeks; that authority is to decide the application in accordance with law by a speaking order after hearing, within four weeks of receiving a certified copy of the order. Coercive action is stayed for six weeks or until the authority decides, whichever is earlier; the stay lapses if the consumer does not approach within the stipulated period.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-statutory-remedy",
+      "application": "The Court refused to entertain the writ because Clause 6.5 supplies a statutory forum for the bill-correctness dispute.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "bill-correctness-under-clause-6.5-not-cgrf-or-ombudsman",
+      "application": "The dispute was confined to correctness of the bill; the petitioner was sent to Clause 6.5 rather than having the bill decided in writ.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "billing-objection-to-executive-engineer-under-6.5",
+      "application": "The petitioner was relegated to the Clause 6.5 objection before the appropriate authority as the forum for the billing grievance.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "correctness of the bill and validity of the citation notice dated 7 September 2019",
+      "note": "Not examined on merits; petitioner relegated to Clause 6.5.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
