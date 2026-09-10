@@ -1,0 +1,51 @@
+{
+  "case_id": "SCJ-2354",
+  "title": "Shiv Charan v. State of U.P. & Ors.",
+  "neutral_citation": "Writ - C No. 1143 of 2020",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta and Piyush Agrawal, JJ.",
+  "date_of_judgment": "2020-01-14",
+  "date_display": "14 January 2020",
+  "docket": "Writ - C No. 1143 of 2020",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; consumer relegated to clause 6.5; coercive action stayed 40 days.",
+  "headnote": "A writ seeking quashing of an electricity recovery certificate on a bill-correctness dispute is not entertained when Clause 6.5 of the U.P. Electricity Supply Code, 2005 supplies a statutory remedy. The consumer may approach the appropriate authority under that clause; the authority is to decide the representation by a speaking order after hearing, and coercive recovery may be stayed for a short window to permit that approach.",
+  "facts": "Shiv Charan petitioned the High Court of Judicature at Allahabad in Writ-C No. 1143 of 2020, seeking certiorari to quash a recovery certificate dated 12 December 2019 issued by respondent no. 4 for Rs. 4,51,464, and a mandamus that no coercive action be taken against him. The dispute was the correctness of an electricity bill. The Court heard counsel for the petitioner and for the Electricity Department.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "statutory remedy for bill-correctness dispute",
+      "type": "supply_code",
+      "holding": "The Court declined to entertain a writ to quash a recovery certificate and restrain coercive action where the consumer disputed bill correctness, because Clause 6.5 of the U.P. Electricity Supply Code, 2005 is an available statutory remedy. Liberty was given to approach the appropriate authority within 10 days; that authority is to decide the application in accordance with law by a speaking order after hearing within 30 days of receipt of a certified copy; no coercive action for 40 days.",
+      "paras": "4-6"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-statutory-remedy",
+      "application": "Writ on bill correctness and recovery not entertained because Clause 6.5 of the Supply Code is an available statutory remedy; consumer directed to the appropriate authority under that clause.",
+      "lead_authorities": [],
+      "paras": "4-5"
+    },
+    {
+      "tag": "billing-objection-to-executive-engineer-under-6.5",
+      "application": "Bill-correctness objection to be taken before the appropriate authority under Clause 6.5 rather than in writ; application to be decided by speaking order after hearing.",
+      "lead_authorities": [],
+      "paras": "4-6"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness of the electricity bill and validity of the recovery certificate dated 12.12.2019 for Rs. 4,51,464",
+      "note": "Merits of the billing and recovery were left to the Clause 6.5 authority.",
+      "paras": "3"
+    }
+  ],
+  "authorities": []
+}
