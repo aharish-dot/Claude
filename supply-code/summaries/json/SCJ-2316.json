@@ -1,0 +1,48 @@
+{
+  "case_id": "SCJ-2316",
+  "title": "M/s Maa Kaila Devi Cold Storage v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": ["Sudhir Agarwal", "Rajendra Kumar-IV"],
+  "date_of_judgment": "2019-03-01",
+  "date_display": "1 March 2019",
+  "docket": "Writ-C No. 6869 of 2019",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; relegated to Clause 6.5.",
+  "headnote": "A writ against a Section 3 recovery demand, after default on instalments of electricity dues, was dismissed because any remaining quantum dispute lies under Clause 6.5 of the U.P. Electricity Supply Code, 2005, and a claim of full deposit may be shown to the recovering authorities.",
+  "facts": "The petitioner cold storage defaulted on electricity dues, was permitted to pay in instalments, and defaulted again. A demand notice under Section 3 of the U.P. Government Electrical Undertaking (Dues Recovery) Act, 1958 was then issued. Counsel submitted that the entire amount had already been deposited. The Division Bench did not examine that claim or the quantum of dues, and dismissed the writ, pointing to Clause 6.5 of the U.P. Electricity Supply Code, 2005 as the alternative statutory remedy for a billing dispute.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "alternative statutory remedy for quantum of dues",
+      "type": "supply_code",
+      "holding": "If the consumer asserts that electricity dues have already been deposited, that fact may be placed before the recovering authorities; any remaining dispute as to quantum of electricity dues is to be pursued under Clause 6.5 of the U.P. Electricity Supply Code, 2005, and the writ is dismissed as not maintainable for alternative statutory remedy.",
+      "paras": "3-4"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-statutory-remedy",
+      "application": "The Court refused to try the petitioner's claim of full deposit or any remaining quantum dispute on the writ, holding Clause 6.5 of the 2005 Code to be the alternative statutory remedy and dismissing the petition on that ground.",
+      "lead_authorities": [],
+      "paras": "3-4"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner had already deposited the entire electricity dues.",
+      "paras": "3"
+    },
+    {
+      "point": "Quantum or correctness of the electricity dues underlying the Section 3 demand.",
+      "paras": "3-4"
+    }
+  ],
+  "authorities": []
+}
