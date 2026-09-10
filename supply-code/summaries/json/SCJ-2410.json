@@ -1,0 +1,62 @@
+{
+  "case_id": "SCJ-2410",
+  "title": "Manoj v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Mahesh Chandra Tripathi, J.; Sanjay Kumar Pachori, J.",
+  "date_of_judgment": "2021-01-07",
+  "date_display": "7 January 2021",
+  "docket": "WRIT - C No. - 19370 of 2020",
+  "page_count": 3,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; file s.126(3) objections; no coercive action for eight weeks.",
+  "headnote": "On a challenge to theft-recovery founded on a provisional assessment under section 126 of the Electricity Act, 2003, the High Court found no record that the provisional assessment had been served. It disposed of the writ by directing the consumers to file objections under section 126(3) within two weeks and the competent authority, if objections are filed, to take a final decision strictly as per law within six weeks after hearing, with no coercive action for eight weeks or until that proceeding is disposed of.",
+  "facts": "Manoj and another challenged recovery for alleged electricity theft and sought a direction to decide their representation dated 14 September 2020. They alleged the entire exercise under the Electricity Act and Supply Code was undertaken ex parte: a provisional assessment had been made without permitting objections, and they had not received a copy. Counsel for the Power Corporation stated that the assessment had been sent by ordinary post. A copy was given to petitioners' counsel in Court.",
+  "holding_units": [
+    {
+      "provision": "EA2003::126(3)",
+      "code": "EA2003",
+      "clause": "126(3)",
+      "topic": "service of provisional assessment and objections before final assessment and recovery",
+      "type": "electricity_act",
+      "holding": "Section 126(3) requires that the provisional assessment be supplied to the person concerned, who may file objections, and that a final assessment follow only after those objections are considered. Finding nothing on record showing service of the provisional assessment, the Court directed the petitioners to furnish objections within two weeks and, if objections are preferred, the competent authority to take a final call strictly as per law within six weeks after hearing, with no coercive action for eight weeks or until disposal of that proceeding.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "s126-procedural-strictness-notice-and-hearing",
+      "application": "The Court restated section 126(3)'s requirement of supply of the provisional assessment, a right to object, and a final order only after considering objections, and directed that statutory sequence to be completed with a hearing.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "final-assessment-order-mandatory-under-section-126-3",
+      "application": "Recovery was not allowed to proceed on the unserved provisional assessment; the authority was directed to take a final call as per law after objections and hearing.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "ex-parte-s126-assessment-requires-hearing-before-recovery",
+      "application": "Coercive recovery was stayed for eight weeks or until the section 126 proceeding is disposed of, so that the petitioners could object and be heard before finalisation.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits of the alleged theft and the quantum of the provisional assessment",
+      "note": "The writ was disposed by directing the statutory objection-and-hearing process; the Court did not examine whether theft was committed or whether the assessed amount was correct.",
+      "paras": "1"
+    },
+    {
+      "point": "Whether dispatch of a provisional assessment by ordinary post is valid service under section 126(3)",
+      "note": "Counsel asserted ordinary-post dispatch; the Court found no record of service and granted an opportunity to object, without deciding the legal sufficiency of ordinary post.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
