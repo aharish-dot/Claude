@@ -1,0 +1,57 @@
+{
+  "case_id": "SCJ-2267",
+  "title": "Yogendra Singh v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta, J.; Shamim Ahmed, J.",
+  "date_of_judgment": "2019-12-17",
+  "date_display": "17 December 2019",
+  "docket": "WRIT - C No. 41774 of 2019",
+  "page_count": 3,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; objections before EE; stay; s.127 after final order.",
+  "headnote": "Without quashing a recovery citation of Rs 3,45,388, the High Court directed the consumer to appear before the Executive Engineer with objections, required a speaking final assessment after the department undertook to supply the provisional assessment, stayed coercive action for seven weeks, and relegated any challenge to that final order to an appeal under section 127 of the Electricity Act, 2003. Non-appearance would revive the demand automatically.",
+  "facts": "Yogendra Singh approached the Allahabad High Court to quash a recovery citation dated 31 October 2019 for Rs 3,45,388 issued by respondent no. 3. He alleged that the concerned authority had never supplied a copy of the provisional assessment and that coercive recovery was underway without a hearing or compliance with the U.P. Electricity Supply Code, 2005. Counsel for the electricity department undertook to furnish the provisional assessment within one week. The Division Bench disposed of the writ with directions instead of deciding the demand on merits.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "final assessment directed; s.127 appeal after speaking order",
+      "type": "electricity_act",
+      "holding": "Where a consumer seeks to quash a recovery citation on the ground that the provisional assessment was never supplied and coercive action is being taken without a hearing, the High Court will not decide the demand on merits. It will take the department's undertaking to supply the provisional assessment, require the consumer to appear before the Executive Engineer with objections and evidence, direct that officer to pass a speaking and reasoned final order, stay coercive action for a short window pending that process, and leave the consumer, if still aggrieved by the final order, to the statutory appeal under section 127 of the Electricity Act, 2003. If the consumer fails to appear and file objections on the date fixed, the demand notice stands revived automatically.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternative-remedy-relegation-section-127",
+      "application": "The writ was disposed without examining the recovery on merits; after a speaking final order the consumer was left to the section 127 appeal.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "final-assessment-order-relegates-assessee-to-section-127-appeal",
+      "application": "The Executive Engineer was directed to pass a final speaking order on the consumer's objections; any remaining grievance was to be taken in an appeal under section 127.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "s127-appeal-lies-only-against-final-order-not-provisional-assessment",
+      "application": "The Court first required a final assessment (the consumer having complained that even the provisional assessment was not supplied) and only then opened the section 127 route.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Validity and quantum of the recovery citation of Rs 3,45,388",
+      "note": "The Court did not examine the bill or whether Supply Code procedure had in fact been followed.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
