@@ -1,0 +1,55 @@
+{
+  "case_id": "SCJ-2426",
+  "title": "Surjeet Singh v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Naheed Ara Moonis, J.; Dinesh Pathak, J.",
+  "date_of_judgment": "2021-01-04",
+  "date_display": "4 January 2021",
+  "docket": "WRIT - C No. 21911 of 2020",
+  "page_count": 2,
+  "significance": "procedural",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; CGRF to decide pending complaint; recovery subject to Forum.",
+  "headnote": "Where a consumer had already complained to the Consumer Grievance Redressal Forum under Chapter VII of the U.P. Electricity Supply Code, 2005 against a Section 126 demand, the Allahabad High Court disposed of the writ by directing the Forum to decide that pending complaint after hearing, preferably within six weeks, and holding that recovery citation RC No. 747 dated 25 July 2020 would remain subject to the Forum's decision. The demand was not quashed and the assessment was not examined on merits.",
+  "facts": "A surprise inspection on 29 March 2019 allegedly found theft of electricity at the petitioner's premises. PVVNL's Electricity Distribution Division-II, Rampur, then initiated Section 126 proceedings and issued a demand of Rs.4,03,939 dated 3 June 2019. The petitioner, saying the provisional assessment was never served, complained to the Consumer Grievance Redressal Forum under Chapter VII of the U.P. Electricity Supply Code, 2005. While that complaint was pending, recovery citation RC No. 747 dated 25 July 2020 issued, followed by a Tehsildar citation. The licensee said no appeal had been filed against the final assessment.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::Chapter-VII",
+      "code": "UP-2005",
+      "clause": "Chapter VII",
+      "topic": "pending-cgrf-complaint-s126-recovery-citation",
+      "type": "interplay",
+      "holding": "Because the petitioner had already approached the Consumer Grievance Redressal Forum under Chapter VII of the U.P. Electricity Supply Code, 2005 against the Section 126 demand, the Forum is directed to decide the pending complaint in accordance with law after hearing the petitioner, preferably within six weeks of presentation of a copy of the order. Recovery citation no. 747 dated 25 July 2020 issued by the Executive Engineer shall be subject to the Forum's final decision. The writ is disposed of without quashing the demand or deciding the assessment on merits.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "pending-cgrf-complaint-recovery-subject-to-forum",
+      "application": "The Court did not decide the Section 126 theft assessment or quash the demand. Because a Chapter VII CGRF complaint was already pending, it directed the Forum to decide that complaint after hearing and made the recovery citation subject to the Forum's decision.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "validity of the Section 126 assessment and demand dated 3 June 2019, including alleged non-service of the provisional assessment",
+      "note": "Left to the pending CGRF complaint; the Court did not examine the assessment.",
+      "paras": "1"
+    },
+    {
+      "point": "whether the Consumer Grievance Redressal Forum has jurisdiction over a Section 126 theft assessment",
+      "note": "The Court directed the already-pending Chapter VII complaint to be decided without deciding the Forum's jurisdiction vis-à-vis Section 126.",
+      "paras": "1"
+    },
+    {
+      "point": "whether a statutory appeal under Section 127 was the proper remedy against the final assessment",
+      "note": "Raised by the licensee; not decided.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
