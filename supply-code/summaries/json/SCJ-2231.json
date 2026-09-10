@@ -1,0 +1,51 @@
+{
+  "case_id": "SCJ-2231",
+  "title": "Chhote v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta, J.; Neeraj Tiwari, J.",
+  "date_of_judgment": "2019-12-05",
+  "date_display": "5 December 2019",
+  "docket": "WRIT - C No. 39891 of 2019",
+  "page_count": 2,
+  "significance": "procedural",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; EE to pass fresh speaking order; s.127 open",
+  "headnote": "On a writ against a Tehsildar recovery citation after an alleged theft-of-electricity final assessment, the Division Bench, without examining merits and with consent, directed the consumer to appear before the Executive Engineer with objections and evidence. The Engineer was to pass a fresh speaking final order within four weeks. Coercive recovery stood stayed for six weeks or until that order. An appeal under Section 127 of the Electricity Act, 2003 remained open if the consumer was still aggrieved.",
+  "facts": "An inspection of the petitioner's premises at Bilari, Moradabad, found alleged theft of electricity. After notice inviting objection to a provisional assessment, the department passed a final assessment, and the Tehsildar issued a recovery citation dated 13 November 2019. The petitioner sought certiorari against that citation, alleging coercive recovery without hearing and without following the U.P. Electricity Supply Code, 2005. The Electricity Department maintained that theft had been detected and a final assessment already made.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "theft assessment — remittal for fresh speaking order; Section 127",
+      "type": "electricity_act",
+      "holding": "Without examining the merits of the alleged theft assessment or the recovery citation, and with the parties' consent, the writ was disposed of by directing the petitioner to appear before the Executive Engineer on 19.12.2019 with objections and evidence; the Engineer was to pass a fresh speaking final order within four weeks. If still aggrieved, an appeal under Section 127 of the Electricity Act, 2003 would lie. Coercive action was stayed for six weeks or until the fresh order, whichever earlier, but the stay would lapse if the petitioner failed to appear.",
+      "paras": "4-8"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternative-remedy-relegation-section-127",
+      "application": "After directing a fresh speaking final assessment, the Court left the consumer to a Section 127 appeal if still aggrieved, without granting or refusing the challenge to the recovery citation on merits.",
+      "lead_authorities": [],
+      "paras": "5"
+    },
+    {
+      "tag": "relegation-to-section-127-appeal-on-merits-limitation-not-examined",
+      "application": "The Court expressly declined to enter the merits of the theft assessment and recovery, leaving those issues to the Executive Engineer and, thereafter, to the Section 127 appeal.",
+      "lead_authorities": [],
+      "paras": "8"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the inspection established theft, whether the U.P. Electricity Supply Code, 2005 was followed, and whether the recovery citation dated 13.11.2019 was valid",
+      "note": "The Court stated that it had not entered into the merits; those issues were left to the Executive Engineer on a fresh speaking order, with Section 127 thereafter.",
+      "paras": "8"
+    }
+  ],
+  "authorities": []
+}

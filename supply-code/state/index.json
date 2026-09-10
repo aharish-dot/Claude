@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2230,
+  "next_seq": 2234,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -13378,6 +13378,12 @@
       "case_id": "SCJ-2229",
       "source_basename": "WRIC(A)_10772_2021.pdf",
       "title": "P & R Infra Project Ltd. v. Purvanchal Vidyut Vitran Nigam Ltd. & 3 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2231",
+      "source_basename": "WRIC(A)_39891_2019.pdf",
+      "title": "Chhote v. State of U.P.",
       "status": "done"
     }
   ]
