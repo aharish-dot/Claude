@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2412,
+  "next_seq": 2413,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -14440,6 +14440,12 @@
       "case_id": "SCJ-2409",
       "source_basename": "WRIC(A)_19073_2020.pdf",
       "title": "M/s Hind Agro Industries Ltd. v. Dakshinanchal Vidyut Vitran Nigam Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2411",
+      "source_basename": "WRIC(A)_19440_2020.pdf",
+      "title": "Smt.Mannu Devi v. State of U P and 3 Others",
       "status": "done"
     }
   ]
