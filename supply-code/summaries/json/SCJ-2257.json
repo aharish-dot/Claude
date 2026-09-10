@@ -1,0 +1,51 @@
+{
+  "case_id": "SCJ-2257",
+  "title": "M/s Huma Enterprises v. Dakshinanchal Vidhut Vitaran Nigam Ltd.",
+  "neutral_citation": "Writ-C No. 41515 of 2019",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta and Shamim Ahmed, JJ.",
+  "date_of_judgment": "2019-12-16",
+  "date_display": "16 December 2019",
+  "docket": "WRIT - C No. 41515 of 2019",
+  "page_count": 3,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed with directions to appear before the Executive Engineer for a speaking final order; limited stay of coercive action; Section 127 appeal left open against that order.",
+  "headnote": "On a certiorari challenge to an inspection report and a provisional assessment notice on an LMV-6 connection, the Allahabad High Court did not quash either instrument. It directed the consumer to appear before the Executive Engineer with objections and evidence, required a speaking final order within four weeks, stayed coercive action for six weeks or until that disposal (whichever earlier), and reserved an appeal under Section 127 of the Electricity Act, 2003 against the final order. Non-appearance would revive the recovery citation automatically.",
+  "facts": "M/s Huma Enterprises, an LMV-6 consumer of Dakshinanchal Vidhut Vitaran Nigam Ltd., approached the Allahabad High Court to quash an inspection report dated 31 May 2019 and a provisional assessment notice dated 24 June 2019 on its service connection. It alleged that the licensee was taking coercive action without a hearing and without following the U.P. Electricity Supply Code, 2005. The Court heard counsel for both sides and did not decide those allegations on the merits.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "provisional-assessment-writ-relegation-to-final-order-and-s127",
+      "type": "electricity_act",
+      "holding": "A writ seeking to quash an inspection report and a provisional assessment notice is disposed of by directing the consumer to appear before the Executive Engineer with objections and evidence so that a speaking final order may be passed within a fixed time; coercive action is stayed only until that disposal or a short outer period; an appeal under Section 127 of the Electricity Act, 2003 is left open against the final order; and failure to appear revives the recovery citation.",
+      "paras": "3"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternative-remedy-relegation-section-127",
+      "application": "After directing a speaking final order on the provisional assessment, the Court did not decide the writ on merits and left the consumer to a Section 127 appeal if aggrieved by that order.",
+      "lead_authorities": [],
+      "paras": "3"
+    },
+    {
+      "tag": "s127-appeal-lies-only-against-final-order-not-provisional-assessment",
+      "application": "The instruments under challenge were an inspection report and a provisional assessment; the Court required a final speaking order first and reserved Section 127 for that final order.",
+      "lead_authorities": [],
+      "paras": "3"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the inspection report dated 31-05-2019 and the provisional assessment notice dated 24-06-2019 violated the U.P. Electricity Supply Code, 2005 or were issued without a hearing",
+      "note": "The Court gave directions for a speaking final order and a limited stay without deciding those allegations.",
+      "paras": "3"
+    }
+  ],
+  "authorities": []
+}
