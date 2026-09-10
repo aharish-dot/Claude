@@ -1,0 +1,45 @@
+{
+  "case_id": "SCJ-2254",
+  "title": "Anil Kumar v. State of U.P. — demand notice: speaking order; s.127 if aggrieved",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta, J.; Shamim Ahmed, J.",
+  "date_of_judgment": "2019-12-16",
+  "date_display": "16 December 2019",
+  "docket": "Writ - C No. 41503 of 2019",
+  "page_count": 2,
+  "significance": "procedural",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; EE to pass speaking order; coercive action stayed; s.127 if aggrieved.",
+  "headnote": "On a writ seeking a decision on a pending objection and a stay of an electricity demand notice, the Allahabad High Court did not adjudicate the demand. It directed the consumer to appear before the Executive Engineer with his objection, required a speaking and reasoned final order within four weeks of that hearing, stayed coercive action for seven weeks or until the objection was decided, and left any further challenge to an appeal under Section 127 of the Electricity Act, 2003. Failure to appear would revive the demand automatically.",
+  "facts": "Anil Kumar, a consumer, filed a writ in the Allahabad High Court seeking a mandamus that the Executive Engineer decide his pending application dated 6 October 2019 and stay a demand notice dated 29 August 2019. He alleged that the respondents were taking coercive action without a hearing and without following the U.P. Electricity Supply Code, 2005. The Court did not examine whether the demand was lawful or what the Supply Code required on the facts.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "section 127 appeal after speaking final order on demand",
+      "type": "electricity_act",
+      "holding": "A writ against an electricity demand notice is disposed by directing the consumer to appear before the Executive Engineer with his objection, requiring a speaking final order within four weeks of that hearing, staying coercive recovery for seven weeks or until the objection is decided, and relegating any further challenge to an appeal under Section 127 of the Electricity Act, 2003; non-appearance automatically revives the demand.",
+      "paras": "3-6"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternative-remedy-relegation-section-127",
+      "application": "After directing a speaking final order on the pending objection, the Court left the petitioner to a Section 127 appeal if aggrieved by that order and did not decide the demand in writ.",
+      "lead_authorities": [],
+      "paras": "5"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "legality and quantum of the demand notice dated 29.08.2019, and alleged non-compliance with the U.P. Electricity Supply Code, 2005",
+      "note": "Merits left to the Executive Engineer's speaking final order, with Section 127 as the further remedy.",
+      "paras": "3"
+    }
+  ],
+  "authorities": []
+}
