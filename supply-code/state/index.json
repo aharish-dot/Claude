@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2265,
+  "next_seq": 2266,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -13570,6 +13570,12 @@
       "case_id": "SCJ-2261",
       "source_basename": "WRIC(A)_41739_2019.pdf",
       "title": "Kitab Shree v. State of U.P. — prepaid new-connection application to be considered under clauses 4.1, 4.3 and 4.4",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2262",
+      "source_basename": "WRIC(A)_41751_2019.pdf",
+      "title": "Pushpendra Singh v. State of U.P.",
       "status": "done"
     }
   ]
