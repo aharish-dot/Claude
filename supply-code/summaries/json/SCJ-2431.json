@@ -1,0 +1,74 @@
+{
+  "case_id": "SCJ-2431",
+  "title": "Vimal Pratap Singh v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sunita Agarwal, J.; Jayant Banerji, J.",
+  "date_of_judgment": "2020-12-14",
+  "date_display": "14 December 2020",
+  "docket": "Writ-C No. 22150 of 2020",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; Executive Engineer to decide Clause 6.5 dispute expeditiously.",
+  "headnote": "Where a consumer has already disputed an electricity bill by a proper Clause 6.5 representation before the Executive Engineer, a writ seeking restoration of supply is disposed of without a merits finding; that officer must decide the representation expeditiously in accordance with law. If no such dispute exists, reconnection follows only on payment of outstanding dues after they are determined.",
+  "facts": "Vimal Pratap Singh sought a mandamus to restore his electricity connection. He contended that, following the High Court's decision in Writ-C No. 3243 of 2020, he had moved a representation under Clause 6.5 of the U.P. Electricity Supply Code, 2005 before the Executive Engineer, Dakshinanchal Vidyut Vitran Khand, Kanpur Nagar, disputing the bill; that representation remained undecided and supply unrestored. Counsel for the licensee submitted that restoration could not be entertained until outstanding electricity dues were cleared.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "restoration-writ-pending-6.5-bill-dispute",
+      "type": "supply_code",
+      "holding": "A restoration writ, where the consumer has already lodged a proper Clause 6.5 representation before the Executive Engineer disputing the bill, is disposed of without examining merits; the Executive Engineer is obliged to decide that representation expeditiously in accordance with law. If there is no such dispute, the connection is to be restored only after the consumer pays the outstanding dues as determined.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-alternate-remedy",
+      "application": "The Court did not grant or refuse restoration on merits and left the consumer to the Clause 6.5 representation already pending before the Executive Engineer.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "6.5-representation-as-appropriate-remedy",
+      "application": "Having recorded that a proper Clause 6.5 application had been moved to the Executive Engineer, the Court directed that officer to take an expeditious decision in accordance with law.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "billing-objection-to-executive-engineer-under-6.5",
+      "application": "The pending bill objection before the Executive Engineer, Dakshinanchal Vidyut Vitran Khand, Kanpur Nagar, was treated as the Clause 6.5 forum that had to decide the dispute.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "clause-6.5-statutory-remedy-disputed-bill",
+      "application": "The disputed bill was channelled to the statutory Clause 6.5 process rather than being adjudicated on the restoration writ.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness of the disputed bill and entitlement to restoration on merits",
+      "note": "The Court expressly declined to express any opinion on the merits of the petitioner's case.",
+      "paras": "1"
+    },
+    {
+      "point": "Quantum of outstanding dues",
+      "note": "If no Clause 6.5 dispute existed, restoration was left to follow payment of dues after their determination.",
+      "paras": "1"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Writ-C No. 3243 of 2020",
+      "citation": "Writ-C No. 3243 of 2020",
+      "cited_by": "1"
+    }
+  ]
+}
