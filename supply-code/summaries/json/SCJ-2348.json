@@ -1,0 +1,65 @@
+{
+  "case_id": "SCJ-2348",
+  "title": "Adeeva Khanam v. State of U.P. and others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Pankaj Mithal, J.; Dr. Yogendra Kumar Srivastava, J.",
+  "date_of_judgment": "2020-07-06",
+  "date_display": "6 July 2020",
+  "docket": "Writ-C No. 10676 of 2020",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed with liberty to seek restoration under Clause 4.39 and instalments under Clause 6.14; Executive Engineer expected to consider any applications sympathetically.",
+  "headnote": "A consumer challenging a recovery citation for electricity dues and seeking restoration of a disconnected supply with time to pay the undisputed principal was refused writ relief. Restoration is to be sought under Clause 4.39 of the U.P. Electricity Supply Code, 2005, and instalments from the Executive Engineer under Clause 6.14. The petition was dismissed with liberty to take those remedies; the Executive Engineer was expected to consider any applications sympathetically in view of the petitioner's ill health and the COVID-19 pandemic.",
+  "facts": "Adeeva Khanam filed a writ petition in the Allahabad High Court challenging a recovery citation dated 14 January 2020 under which Rs. 7,86,983 was sought as electricity dues. She claimed she was willing to pay the undisputed principal if given reasonable time, subject to settlement of the disputed balance, and sought restoration of her disconnected electricity connection. The Division Bench heard counsel for the State and the distribution licensee and disposed of the petition without examining the dues on merits.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.39",
+      "code": "UP-2005",
+      "clause": "4.39",
+      "topic": "restoration of disconnected supply",
+      "type": "supply_code",
+      "holding": "A consumer seeking restoration of a disconnected electricity connection must take recourse to Clause 4.39 of the U.P. Electricity Supply Code, 2005; the High Court will not exercise writ jurisdiction to order restoration when that Code pathway is available.",
+      "paras": "4,6-7"
+    },
+    {
+      "provision": "UP-2005::6.14",
+      "code": "UP-2005",
+      "clause": "6.14",
+      "topic": "instalment of electricity dues",
+      "type": "supply_code",
+      "holding": "Fixation of instalments for payment of electricity dues is to be sought from the Executive Engineer under Clause 6.14 of the U.P. Electricity Supply Code, 2005; writ jurisdiction will not be exercised to grant time to pay when that remedy exists.",
+      "paras": "5-7"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "reconnection-available-after-permanent-disconnection-clause-4.39",
+      "application": "The Court treated Clause 4.39 as the proper Code pathway for restoration of the petitioner's disconnected supply and declined writ mandamus on that account.",
+      "lead_authorities": [],
+      "paras": "4,6-7"
+    },
+    {
+      "tag": "installment-payment-clause-6.14",
+      "application": "The Court directed the petitioner to the Executive Engineer under Clause 6.14 for instalments of the claimed dues rather than granting time to pay in writ proceedings.",
+      "lead_authorities": [],
+      "paras": "5-7"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Validity and quantum of the recovery citation dated 14.01.2020",
+      "note": "Not examined on merits; the petitioner was relegated to the Code remedies.",
+      "paras": "2,6-7"
+    },
+    {
+      "point": "Whether supply should be restored and whether instalments should be granted",
+      "note": "Left to applications under Clauses 4.39 and 6.14, to be considered sympathetically.",
+      "paras": "4-7"
+    }
+  ],
+  "authorities": []
+}
