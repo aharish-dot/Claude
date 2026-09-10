@@ -1,0 +1,50 @@
+{
+  "case_id": "SCJ-2230",
+  "title": "Lauleen Ahmad v. State of U.P. and others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta and Neeraj Tiwari, JJ.",
+  "date_of_judgment": "2019-12-05",
+  "date_display": "5 December 2019",
+  "docket": "Writ-C No. 39881 of 2019",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; petitioner to appear before EE for speaking final order; coercive recovery stayed; s.127 liberty if aggrieved.",
+  "headnote": "On a writ against a recovery certificate alleging non-service of provisional assessment and want of hearing under the U.P. Electricity Supply Code, 2005, the Allahabad High Court, taking a lenient view, directed the consumer to appear before the Executive Engineer with objections and evidence, required a speaking final order within four weeks, stayed coercive action for seven weeks or until disposal of the objection (whichever earlier), and left the consumer to appeal under Section 127 of the Electricity Act, 2003 against that final order. Default in appearance would revive the recovery citation. The writ was disposed of without examining the merits of the assessment.",
+  "facts": "Lauleen Ahmad, a consumer of Pashchimanchal Vidyut Vitran Nigam Limited, sought certiorari to quash a recovery certificate dated 25 March 2018 issued by the Executive Engineer, Electricity Distribution Division, Najibabad, District Bijnor, and a mandamus to deposit the remaining dues after exact calculation. He alleged that neither a copy of the provisional assessment order nor any notice had been served, and that coercive recovery was being taken without hearing and without following the U.P. Electricity Supply Code, 2005.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "recovery-citation-relegation-to-final-order-and-section-127-appeal",
+      "type": "electricity_act",
+      "holding": "A writ against a recovery certificate, alleging non-service of provisional assessment and want of hearing under the Supply Code, 2005, is disposed of without quashing the recovery on merits: the consumer is directed to appear before the Executive Engineer with objections; that officer shall pass a speaking final order; coercive action is stayed for a limited period; and if aggrieved by the final order the consumer may appeal under Section 127 of the Electricity Act, 2003. Failure to appear revives the recovery citation.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternative-remedy-relegation-section-127",
+      "application": "The Court did not decide the validity of the recovery certificate. It directed a speaking final order by the Executive Engineer on the consumer's objections and expressly left any challenge to that final order to the statutory appeal under Section 127 of the Electricity Act, 2003.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the provisional assessment order and notice were in fact served, and whether the recovery certificate was correctly computed",
+      "note": "The Court gave no finding on service or quantum; it directed a hearing and a speaking final order before the Executive Engineer.",
+      "paras": "1"
+    },
+    {
+      "point": "Which specific clauses of the U.P. Electricity Supply Code, 2005 were breached",
+      "note": "Non-compliance with the Code was alleged; no clause was identified or construed.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
