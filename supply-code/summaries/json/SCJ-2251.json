@@ -1,0 +1,55 @@
+{
+  "case_id": "SCJ-2251",
+  "title": "Ramveer v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": ["Shashi Kant Gupta, J.", "Ravi Nath Tilhari, J."],
+  "date_of_judgment": "2019-12-13",
+  "date_display": "13 December 2019",
+  "docket": "WRIT - C No. - 41247 of 2019",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; Executive Engineer to pass a speaking final order on the pending objection; coercive recovery stayed six weeks; section 127 appeal left open.",
+  "headnote": "Without examining the demand on merits, the Court directed the Executive Engineer to hear the consumer on a fixed date, consider his pending objection and evidence, and pass a speaking and reasoned final order within four weeks; stayed coercive recovery for six weeks or until that disposal; and left any challenge to the final order to an appeal under section 127 of the Electricity Act, 2003.",
+  "facts": "Ramveer approached the Allahabad High Court against a demand notice dated 27 February 2019 issued by the Executive Engineer and sought a mandamus to decide his objection dated 10 December 2018. He alleged that the electricity department was taking coercive recovery steps without hearing him and without following the U.P. Electricity Supply Code, 2005. Counsel for the petitioner and for the electricity department were heard. The order does not record the nature of the underlying assessment, the amount demanded, or the contents of the objection.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "relegation after speaking final order",
+      "type": "electricity_act",
+      "holding": "A demand notice is not quashed on a writ when the assessing officer has yet to pass a speaking final order on the consumer's objection. The officer must hear the consumer, consider the objection and evidence, and decide by a reasoned final order; coercive recovery may be stayed pending that decision; the statutory appeal under section 127 of the Electricity Act, 2003 remains the remedy against the final order.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternative-remedy-relegation-section-127",
+      "application": "After directing a speaking final order on the pending objection, the Court left the consumer to section 127 of the Electricity Act, 2003 if aggrieved and did not decide the demand on merits.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "final-assessment-order-relegates-assessee-to-section-127-appeal",
+      "application": "The Court required the Executive Engineer to pass a final speaking order first and then reserved the consumer's appeal under section 127 against that order.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "validity of the demand notice dated 27.02.2019 and the objection dated 10.12.2018",
+      "note": "left to the Executive Engineer to decide by a speaking final order",
+      "paras": "1"
+    },
+    {
+      "point": "whether the U.P. Electricity Supply Code, 2005 procedure had been followed before coercive recovery",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
