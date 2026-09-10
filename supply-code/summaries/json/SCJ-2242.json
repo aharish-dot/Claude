@@ -1,0 +1,55 @@
+{
+  "case_id": "SCJ-2242",
+  "title": "Neeraj Kumar v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta and Piyush Agrawal, JJ.",
+  "date_of_judgment": "2019-12-09",
+  "date_display": "9 December 2019",
+  "docket": "WRIT - C No. 40468 of 2019",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; petitioner to appear before the Executive Engineer; Section 127 liberty.",
+  "headnote": "Recovery founded on a provisional assessment and checking report was not quashed. The consumer was directed to appear before the Executive Engineer with objections and evidence; a speaking final order was to follow; coercive action was stayed for a limited period, with automatic revival on default; and any challenge to the final order was left to an appeal under Section 127 of the Electricity Act, 2003.",
+  "facts": "The petitioner, Neeraj Kumar, filed a writ to quash recovery proceedings taken against him by the electricity department. During hearing, a copy of the provisional assessment and checking report was supplied to his counsel. He alleged coercive action without opportunity of hearing and without following the U.P. Electricity Supply Code, 2005. The contest was confined to that recovery citation and the checking-based provisional assessment.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "provisional assessment — hearing, final order, then Section 127 appeal",
+      "type": "electricity_act",
+      "holding": "The writ seeking to quash recovery on a provisional assessment and checking report was disposed of without examining merits. The petitioner was directed to appear before the Executive Engineer with objections and evidence; the Executive Engineer was to pass a speaking and reasoned final order within four weeks; coercive action was stayed for seven weeks or until disposal of the objection, whichever earlier, vacating automatically on default, with the recovery citation reviving if the petitioner failed to appear. If aggrieved by the final order, the petitioner was left to appeal under Section 127 of the Electricity Act, 2003.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternative-remedy-relegation-section-127",
+      "application": "After directing the Executive Engineer to pass a speaking final order on the petitioner's objections, the Court disposed of the writ and left any challenge to that final order to an appeal under Section 127.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "s127-appeal-lies-only-against-final-order-not-provisional-assessment",
+      "application": "The Court treated the existing assessment as provisional, required a speaking final order after hearing, and confined Section 127 liberty to grievance against that final order.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the recovery complied with the U.P. Electricity Supply Code, 2005",
+      "note": "Alleged but not examined; a hearing before the Executive Engineer was directed instead.",
+      "paras": "1"
+    },
+    {
+      "point": "Merits of the provisional assessment, checking report, and recovery citation",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
