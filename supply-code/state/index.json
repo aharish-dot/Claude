@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2406,
+  "next_seq": 2407,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -14404,6 +14404,12 @@
       "case_id": "SCJ-2401",
       "source_basename": "WRIC(A)_17725_2020.pdf",
       "title": "Mohd. Muzeeb v. State of U.P. — writ dismissed; CGRF under clause 7.10",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2405",
+      "source_basename": "WRIC(A)_18439_2020.pdf",
+      "title": "Mukhtar Washeem v. Uttar Pradesh Power Corporation Limited",
       "status": "done"
     }
   ]
