@@ -1,0 +1,51 @@
+{
+  "case_id": "SCJ-2291",
+  "title": "Ramchandra v. State of U.P. — bill-correctness dispute relegated to clause 6.5",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta, J.; Shamim Ahmed, J.",
+  "date_of_judgment": "2019-12-20",
+  "date_display": "20 December 2019",
+  "docket": "WRIT - C No. 42589 of 2019",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of; petitioner relegated to clause 6.5; coercive action stayed 40 days",
+  "headnote": "A Division Bench declined to entertain a writ seeking certiorari to quash an RC dated 14.10.2019 on a disputed electricity bill, holding that Clause 6.5 of the U.P. Electricity Supply Code, 2005 supplies a statutory remedy. The petitioner was given two weeks to approach the appropriate authority, which was to decide by a speaking order after hearing within 30 days; coercive action was stayed for 40 days or until that decision, whichever earlier, the stay lapsing if he did not approach in time.",
+  "facts": "Ramchandra petitioned the Allahabad High Court for certiorari to quash an RC dated 14 October 2019 issued by respondent no. 3, with all consequential effects. He disputed the correctness of an electricity bill raised against him. Counsel for the petitioner and for the Electricity Department were heard. The Court did not go into the figures on the bill or the validity of the RC.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "bill correctness — statutory alternative remedy",
+      "type": "supply_code",
+      "holding": "A writ raising only the correctness of an electricity bill is not entertained where Clause 6.5 of the U.P. Electricity Supply Code, 2005 supplies a statutory remedy. The consumer may approach the appropriate authority within two weeks; that authority is to consider and decide the application in accordance with law by a speaking order after hearing, within 30 days of receiving a certified copy. Coercive action is stayed for 40 days or until that decision, whichever is earlier, but the stay ceases if the consumer does not approach within the stipulated period.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-statutory-remedy",
+      "application": "The Bench refused to entertain the writ because Clause 6.5 supplies a statutory remedy for the bill-correctness dispute and relegated the petitioner to that forum.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "bill-correctness-under-clause-6.5-not-cgrf-or-ombudsman",
+      "application": "The grievance was confined to correctness of the bill raised against the petitioner; the Court sent him to Clause 6.5 rather than deciding the bill in writ.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness of the impugned bill and RC dated 14.10.2019",
+      "note": "Left to the Clause 6.5 authority; the writ court did not examine the bill or the RC on merits.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
