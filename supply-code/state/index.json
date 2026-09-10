@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2423,
+  "next_seq": 2424,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -14506,6 +14506,12 @@
       "case_id": "SCJ-2420",
       "source_basename": "WRIC(A)_20930_2020.pdf",
       "title": "Satish Chandra v. Union of India — second writ on pending s.126 dispute dismissed as misconceived",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2421",
+      "source_basename": "WRIC(A)_21385_2020.pdf",
+      "title": "Rajeev Dube v. State of U.P. and Another",
       "status": "done"
     }
   ]

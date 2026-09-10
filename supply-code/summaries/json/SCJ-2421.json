@@ -1,0 +1,54 @@
+{
+  "case_id": "SCJ-2421",
+  "title": "Rajeev Dube v. State of U.P. and Another",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Naheed Ara Moonis, J.; Dinesh Pathak, J.",
+  "date_of_judgment": "2021-01-21",
+  "date_display": "21 January 2021",
+  "docket": "WRIT - C No. 21385 of 2020",
+  "page_count": 4,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; fresh representation to assessing officer; coercive recovery stayed.",
+  "headnote": "A writ seeking to quash a Section 126 demand notice issued without a shown consideration of the consumer's pending objection is not decided on merits. The High Court disposes it by directing a fresh representation to the assessing officer for a reasoned speaking order in accordance with law after hearing, and stays coercive recovery for six weeks or until that decision, whichever is earlier.",
+  "facts": "Rajeev Dube challenged a demand notice dated 25 September 2020 issued by the power corporation on a provisional assessment dated 17 July 2020. He pleaded that his objection had already been received in the Executive Engineer's office, as a letter dated 18 August 2020 showed, yet the demand issued without deciding it, contrary to Section 126(3) of the Electricity Act, 2003 and Clause 8 of the Electricity Supply Code, 2005. Corporation counsel could not demonstrate that the demand followed consideration of that representation.",
+  "holding_units": [
+    {
+      "provision": "EA2003::126(3)",
+      "code": "EA2003",
+      "clause": "126(3)",
+      "topic": "provisional assessment — consideration of objections",
+      "type": "electricity_act",
+      "holding": "Where a demand notice founded on a Section 126 provisional assessment is issued and the licensee cannot show that the consumer's pending objection was considered, the High Court will not quash the demand on merits. It will dispose of the writ by directing the consumer to file a fresh representation, to be decided by a reasoned speaking order in accordance with law after hearing, and will stay coercive recovery for a short period or until that decision, whichever is earlier.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "EA2003::126(3)",
+      "application": "Applied because the demand followed a provisional assessment without a shown consideration of the consumer's objection; the Court did not construe subsection (3) but used that gap to remit a fresh representation rather than quash the notice.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the demand notice dated 25.9.2020 was liable to be quashed",
+      "note": "Certiorari was not granted; the demand was left intact pending a fresh representation.",
+      "paras": "1"
+    },
+    {
+      "point": "Whether the respondents had proceeded contrary to Section 126(3) of the Electricity Act, 2003 or Clause 8 of the Electricity Supply Code, 2005",
+      "note": "The Court recorded the submission and the licensee's inability to show consideration of the objection, but did not decide the statutory breach.",
+      "paras": "1"
+    },
+    {
+      "point": "Merits of the provisional assessment dated 17.7.2020",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
