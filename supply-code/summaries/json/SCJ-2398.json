@@ -1,0 +1,63 @@
+{
+  "case_id": "SCJ-2398",
+  "title": "Banwari Lal v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Naheed Ara Moonis, J.; Vivek Varma, J.",
+  "date_of_judgment": "2020-11-02",
+  "date_display": "2 November 2020",
+  "docket": "Writ-C No. 17399 of 2020",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; relegated to Section 127 appeal within three weeks.",
+  "headnote": "Where a final assessment for alleged theft of electricity had been passed and the consumer did not dispute that an appeal lay against it, the High Court declined to examine the recovery citation on merits and disposed of the writ, directing that an appeal preferred within three weeks be considered on merits expeditiously in accordance with law.",
+  "facts": "Banwari Lal sought certiorari to quash a 3 December 2019 recovery citation for Rs. 1,91,777. The licensee's counsel stated that inspection on 14 July 2018 found theft of electricity; a provisional assessment dated 6 October 2018 was sent by registered post; no objection was filed; and a final assessment issued on 2 August 2019, a copy of which was served in court. The licensee invoked a statutory appeal; the petitioner did not dispute that an appeal lay against the assessment.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "relegation to statutory appeal against assessment",
+      "type": "electricity_act",
+      "holding": "A consumer who does not dispute that an appeal lies against a final assessment for alleged theft of electricity is relegated to that appeal; the writ court will not quash the recovery citation on merits, and an appeal filed within three weeks is to be considered on merits expeditiously in accordance with law.",
+      "paras": "1",
+      "flag": "Court attributed Section 127 to the 'Electricity Supply Code' (it is Section 127 of the Electricity Act, 2003) and referred to the appellate forum as 'the learned Tribunal'."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternative-remedy-relegation-section-127",
+      "application": "Writ challenging a theft-assessment recovery citation was disposed of because the petitioner did not dispute that an appeal lay against the final assessment; any appeal filed within three weeks was to be considered on merits in accordance with law.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "final-assessment-order-relegates-assessee-to-section-127-appeal",
+      "application": "After noting the final assessment of 2 August 2019 following an unanswered provisional assessment, the Court relegated the consumer to the Section 127 appeal rather than examining the recovery citation.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "relegation-to-section-127-appeal-on-merits-limitation-not-examined",
+      "application": "The Court directed that an appeal, if filed within three weeks of the order, be considered on merits without examining whether the statutory limitation for a Section 127 appeal against the 2 August 2019 assessment had already run.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits of the alleged theft, the final assessment, and the recovery citation dated 3 December 2019",
+      "note": "Writ disposed by relegation; citation neither quashed nor upheld.",
+      "paras": "1"
+    },
+    {
+      "point": "Whether a Section 127 appeal against the 2 August 2019 assessment remained within limitation",
+      "note": "Court prescribed a three-week window from the order date and directed consideration on merits, without examining limitation.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
