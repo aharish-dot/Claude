@@ -1,0 +1,61 @@
+{
+  "case_id": "SCJ-2367",
+  "title": "Umesh Kumar v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta, J.; Piyush Agrawal, J.",
+  "date_of_judgment": "2020-01-17",
+  "date_display": "17 January 2020",
+  "docket": "WRIT - C No. - 1360 of 2020",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; petitioner to appear before the Executive Engineer with objections; speaking final order directed; coercive recovery stayed for eight weeks; Section 127 appeal reserved.",
+  "headnote": "Challenging an electricity recovery citation for want of hearing and alleged non-compliance with the U.P. Electricity Supply Code, 2005, the High Court disposed of the writ without deciding merits. It directed the consumer to appear before the Executive Engineer with objections and evidence, required a speaking final order within four weeks, stayed coercive action for eight weeks or until disposal of the objection, and reserved liberty to appeal under Section 127 of the Electricity Act, 2003.",
+  "facts": "Umesh Kumar filed a writ in the Allahabad High Court seeking to quash a recovery order dated 26 November 2019 issued by the Executive Engineer for electricity dues. He alleged that the electricity department was taking coercive recovery steps without an opportunity of hearing and without following the U.P. Electricity Supply Code, 2005. Counsel for the department was heard. The Court did not examine the dues or the alleged Code breaches on the merits.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "relegation to Section 127 after speaking final order",
+      "type": "electricity_act",
+      "holding": "Without deciding the validity of an electricity recovery citation, the High Court directed the consumer to appear before the Executive Engineer with objections and evidence, required a speaking and reasoned final order within four weeks, stayed coercive recovery for eight weeks or until disposal of the objection (whichever earlier), and held that any remaining grievance against that final order may be pursued by appeal under Section 127 of the Electricity Act, 2003.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternative-remedy-relegation-section-127",
+      "application": "Writ against an electricity recovery citation was disposed by directing a speaking final order of the Executive Engineer and relegating any remaining grievance to a Section 127 appeal.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "alternative-remedy-section-127-appeal",
+      "application": "Liberty was expressly reserved to file an appeal under Section 127 if the petitioner is aggrieved by the Executive Engineer's final order.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "no-final-order-defeats-section-127-appeal",
+      "application": "The Court first required a speaking final order after hearing objections, then opened the Section 127 appeal, rather than treating the recovery citation as the appealable assessment.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Validity of the 26.11.2019 recovery citation and compliance with the U.P. Electricity Supply Code, 2005",
+      "note": "Left to a speaking order of the Executive Engineer after hearing the petitioner's objections.",
+      "paras": "1"
+    },
+    {
+      "point": "Quantum of electricity dues",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
