@@ -1,0 +1,56 @@
+{
+  "case_id": "SCJ-2357",
+  "title": "Bhupendra v. State of U.P.",
+  "neutral_citation": "Writ-C No. 12271 of 2020",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta and Shamim Ahmed, JJ.",
+  "date_of_judgment": "2020-09-01",
+  "date_display": "1 September 2020",
+  "docket": "Writ-C No. 12271 of 2020",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; EE to hear objections, pass final order; s.127 open.",
+  "headnote": "A consumer who challenged a demand notice and recovery citation on the ground that the provisional assessment had not been supplied and coercive recovery was underway without hearing was directed to appear before the Executive Engineer with objections. The assessing officer was to pass a speaking final order; coercive action was stayed for a limited period; and any further grievance was left to an appeal under Section 127 of the Electricity Act, 2003. Default in appearance would revive the demand.",
+  "facts": "Bhupendra challenged a demand notice dated 24 January 2020 issued by the Executive Engineer and a recovery citation dated 7 February 2020 for Rs.2,81,156 plus interest and collection charges. He alleged that a copy of the provisional assessment had not been supplied and that coercive recovery was being pursued without a hearing, contrary to the U.P. Electricity Supply Code, 2005. Counsel for the electricity department undertook to supply the provisional assessment forthwith. The Division Bench heard both sides and disposed of the writ with directions.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "relegation after directing final assessment order",
+      "type": "electricity_act",
+      "holding": "Where a writ challenges a demand notice and recovery citation on the plea that the provisional assessment was not supplied and coercive recovery is underway without hearing, the Court may dispose of the petition by directing the consumer to appear before the Executive Engineer with objections and evidence, requiring a speaking and reasoned final order within a fixed time, staying coercive action for six weeks or until disposal of the objection, whichever is earlier, and relegating any further grievance against that final order to an appeal under Section 127 of the Electricity Act, 2003. If the consumer fails to appear and file objections, the demand notice revives automatically.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternative-remedy-relegation-section-127",
+      "application": "After directing the Executive Engineer to hear objections and pass a speaking final order, the Court left any remaining grievance to a Section 127 appeal rather than examining the demand on merits.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "s127-appeal-lies-only-against-final-order-not-provisional-assessment",
+      "application": "The live challenge was to a demand and recovery citation issued without supply of the provisional assessment; the Court required a final speaking order on objections before the Section 127 appellate route would open.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Validity and quantum of the demand notice and recovery citation",
+      "note": "The Court neither quashed nor upheld the Rs.2,81,156 demand on merits.",
+      "paras": "1"
+    },
+    {
+      "point": "Alleged non-compliance with the U.P. Electricity Supply Code, 2005",
+      "note": "The petitioner's Supply Code complaint was not construed; the department only undertook to supply the provisional assessment.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
