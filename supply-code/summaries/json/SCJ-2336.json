@@ -1,0 +1,82 @@
+{
+  "case_id": "SCJ-2336",
+  "title": "Nitin Agrawal v. Pashimanchal Vidyut Vitran Nigam Ltd.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Abhinava Upadhya and Jayant Banerji, JJ.",
+  "date_of_judgment": "2019-03-15",
+  "date_display": "15 March 2019",
+  "docket": "Writ-C No. 8647 of 2019",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Final assessment without proved provisional assessment unsustainable; objections to EE.",
+  "headnote": "A final assessment for unauthorised use of electricity cannot be sustained where the licensee produces no proof that a provisional assessment under clause 6.8 was served. Counsel’s statement on instructions that the order was handed over personally is not cognizable proof of service. The provisional assessment having been served in Court, objections are to be decided by the Executive Engineer within one month, with a stay of coercive action, and the claim for a temporary connection is also to be considered in that period.",
+  "facts": "After an inspection of the petitioner’s premises on 11 January 2019, an FIR was lodged on 13 January 2019 alleging theft of electricity. The assessing officer nevertheless passed a final assessment dated 23 February 2019 for unauthorised use of electricity. The consumer approached the High Court alleging that the seven-day notice and the provisional-assessment-plus-hearing steps under clause 6.8 of the Supply Code were skipped. The licensee contended that a provisional assessment had been handed to the consumer in person, which the consumer denied.",
+  "reusable_constructions": [
+    {
+      "construction": "A final assessment under clause 6.8 cannot stand where there is no proof that a provisional assessment was served; counsel’s statement on instructions of personal handing-over is not cognizable proof of service.",
+      "paras": "1"
+    },
+    {
+      "construction": "Passing a final UUE assessment without first making a provisional assessment, inviting objections and fixing a personal hearing vitiates the assessment.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8",
+      "code": "UP-2005",
+      "clause": "6.8",
+      "topic": "provisional assessment and proof of service before final UUE assessment",
+      "type": "supply_code",
+      "holding": "Where the licensee cannot prove service of a provisional assessment, a final assessment under clause 6.8 cannot be sustained. A statement from counsel on instructions that the provisional assessment was handed to the consumer personally is not cognizable proof of service. The consumer may file objections to the provisional assessment served in Court, to be decided by the Executive Engineer within one month; no coercive action in the meantime, and the claim for a temporary connection is also to be considered in that period.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "proper-service-of-provisional-assessment-notice-clause-6.8",
+      "application": "The licensee’s oral assertion that the provisional assessment was handed over personally, without proof of service, was not taken cognizance of, leaving the final assessment unsustainable.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "para-6.8-non-compliance-vitiates-assessment-and-recovery",
+      "application": "A final assessment made without a proved provisional assessment cannot be sustained in law.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "provisional-assessment-hearing-6.8b",
+      "application": "Clause 6.8 requires a provisional assessment, invitation of objections and a date for personal hearing before the final order; those steps were not shown to have been followed.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "clause-6.8-hearing-procedure-mandatory-before-uue-conclusion",
+      "application": "The Court would not let a UUE conclusion rest on a final assessment reached without the clause 6.8 provisional-assessment and hearing sequence.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the case was theft assessable under clauses 8.1–8.2 rather than unauthorised use under clause 6.8",
+      "note": "The FIR alleged theft; the assessment proceeded as UUE. The Court did not decide the correct head.",
+      "paras": "1"
+    },
+    {
+      "point": "Merits of the unauthorised-use or theft allegation",
+      "paras": "1"
+    },
+    {
+      "point": "Entitlement to a temporary electricity connection",
+      "note": "Directed only to be considered by the Executive Engineer within one month.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
