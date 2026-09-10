@@ -1,0 +1,63 @@
+{
+  "case_id": "SCJ-2268",
+  "title": "Sadhna Singh v. State of Uttar Pradesh",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta, J. and Shamim Ahmed, J.",
+  "date_of_judgment": "2019-12-17",
+  "date_display": "17 December 2019",
+  "docket": "WRIT - C No. 41776 of 2019",
+  "page_count": 3,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of; petitioners relegated to Section 127 appeal.",
+  "headnote": "A Division Bench of the Allahabad High Court disposed of a writ seeking certiorari against a final electricity assessment dated 30 August 2019, holding that an appeal under Section 127 of the Electricity Act, 2003 was the available statutory remedy. The Court permitted the appeal to be filed within two weeks, directed decision on merits within four weeks without reference to limitation, stayed coercive recovery for six weeks, and expressed no opinion on the alleged denial of hearing or Supply Code breach.",
+  "facts": "Sadhna Singh and another filed a writ petition in the Allahabad High Court seeking certiorari to quash a final assessment order dated 30 August 2019. They alleged that the order was passed without opportunity of hearing and without following the U.P. Electricity Supply Code, 2005, and that the respondents were taking coercive recovery action. Counsel for the electricity department submitted that a statutory appeal under Section 127 of the Electricity Act, 2003 was available. Counsel for the petitioners did not rebut that contention.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "writ against final assessment relegated to statutory appeal",
+      "type": "electricity_act",
+      "holding": "Where a writ petition challenges a final electricity assessment and the petitioners do not rebut that an appeal under Section 127 of the Electricity Act, 2003 (styled by the Court as the 'U P Electricity Act') is available, the High Court will not examine the assessment on merits and will relegate the petitioners to that appeal, directing that if the appeal is filed within two weeks it shall be decided on merits within four weeks without reference to limitation, while staying coercive recovery for six weeks.",
+      "paras": "5-9"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternative-remedy-relegation-section-127",
+      "application": "The writ against the final assessment was disposed of because an appeal under Section 127 was the alternative statutory remedy and the petitioners did not rebut that contention.",
+      "lead_authorities": [],
+      "paras": "5-6"
+    },
+    {
+      "tag": "final-assessment-order-relegates-assessee-to-section-127-appeal",
+      "application": "The impugned instrument was a final assessment order dated 30.08.2019; the Court sent the petitioners to the Section 127 appeal rather than quashing it in writ.",
+      "lead_authorities": [],
+      "paras": "5-6"
+    },
+    {
+      "tag": "relegation-to-section-127-appeal-on-merits-limitation-not-examined",
+      "application": "The appellate authority was directed to decide a timely appeal on merits without reference to the period of limitation, and the Court expressed no opinion on the merits.",
+      "lead_authorities": [],
+      "paras": "6, 8"
+    },
+    {
+      "tag": "recovery-of-assessment-stayed-pending-s127-appeal",
+      "application": "Coercive measures in respect of the amount sought to be recovered under the impugned recovery certificate were stayed for six weeks to enable the Section 127 appeal.",
+      "lead_authorities": [],
+      "paras": "7"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the final assessment dated 30.08.2019 was passed without hearing or in breach of the U.P. Electricity Supply Code, 2005",
+      "note": "The Court expressly declined to express any opinion on the merits and left the appellate authority to consider the matter on its own merits.",
+      "paras": "8"
+    }
+  ],
+  "authorities": []
+}
