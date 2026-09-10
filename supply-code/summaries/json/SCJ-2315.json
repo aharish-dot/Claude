@@ -1,0 +1,66 @@
+{
+  "case_id": "SCJ-2315",
+  "title": "Avanish Singh v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sudhir Agarwal, J.; Rajendra Kumar-IV, J.",
+  "date_of_judgment": "2019-03-01",
+  "date_display": "1 March 2019",
+  "docket": "WRIT - C No. 6864 of 2019",
+  "page_count": 1,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; assessment dated 15.12.2018 set aside with liberty to pass a fresh order under Clause 6.8 and Ashok Kumar.",
+  "headnote": "A theft-assessment order that neither in the show-cause notice nor in the final order states how theft was committed or how the assessment was computed, and that is not shown to conform to Clause 6.8 of the Electricity Supply Code, 2005 and Ashok Kumar, is set aside. The licensee remains free to pass a fresh order following that statutory procedure.",
+  "facts": "Avanish Singh challenged an assessment order dated 15 December 2018 before the Allahabad High Court. He submitted that neither the show-cause notice nor the final order stated how electricity theft was being committed or in what manner the assessment had been computed. Counsel for the electricity department (respondents 2 and 3) and the Standing Counsel for the State appeared. The Division Bench considered the challenge against Clause 6.8 of the Electricity Supply Code, 2005.",
+  "reusable_constructions": [
+    {
+      "construction": "Non-conformity of an assessment with the detailed procedure in Clause 6.8 of the Electricity Supply Code, 2005, as applied in Ashok Kumar, vitiates the assessment and warrants it being set aside.",
+      "paras": "4-6"
+    },
+    {
+      "construction": "Where neither the show-cause notice nor the final order states how theft was committed or how the assessment was computed, and the licensee cannot dispute non-conformity with Clause 6.8, the assessment cannot stand.",
+      "paras": "3-6"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8",
+      "code": "UP-2005",
+      "clause": "6.8",
+      "topic": "theft assessment quashed for non-conformity with Clause 6.8 procedure",
+      "type": "supply_code",
+      "holding": "Clause 6.8 of the Electricity Supply Code, 2005 prescribes a detailed assessment procedure, considered in Ashok Kumar v. State of U.P., 2008 (6) ADJ 607. An assessment challenged as a theft assessment, which neither in the show-cause notice nor in the final order states how theft was being committed or in what manner the assessment was made, and which the licensee cannot show to be in conformity with that clause and Ashok Kumar, is set aside. The licensee is not precluded from passing a fresh order following the statutory procedure and Ashok Kumar.",
+      "paras": "3-7"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "para-6.8-non-compliance-vitiates-assessment-and-recovery",
+      "application": "The 15.12.2018 assessment was set aside because the electricity department could not dispute that it was not in conformity with Clause 6.8 of the Supply Code, 2005 and Ashok Kumar.",
+      "lead_authorities": [
+        {
+          "name": "Ashok Kumar v. State of U.P.",
+          "docid": "2008 (6) ADJ 607"
+        }
+      ],
+      "paras": "4-6"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether theft was in fact committed, and the quantum of the 15.12.2018 assessment",
+      "note": "Quash rested solely on non-conformity with Clause 6.8 and Ashok Kumar; merits left for a fresh order.",
+      "paras": "6-7"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar and Others v. State of U.P. and Others",
+      "citation": "2008 (6) ADJ 607",
+      "cited_by": "4-5, 7"
+    }
+  ]
+}

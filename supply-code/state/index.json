@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2318,
+  "next_seq": 2319,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -13888,6 +13888,12 @@
       "case_id": "SCJ-2314",
       "source_basename": "WRIC(A)_6648_2019.pdf",
       "title": "Raju Kumar Gupta v. State of U.P. (s.126 assessment quashed for Para 6.8 non-compliance)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2315",
+      "source_basename": "WRIC(A)_6864_2019.pdf",
+      "title": "Avanish Singh v. State of U.P.",
       "status": "done"
     }
   ]
