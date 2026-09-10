@@ -1,0 +1,61 @@
+{
+  "case_id": "SCJ-2420",
+  "title": "Satish Chandra v. Union of India — second writ on pending s.126 dispute dismissed as misconceived",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sunita Agarwal and Jayant Banerji, JJ.",
+  "date_of_judgment": "2020-12-07",
+  "date_display": "7 December 2020",
+  "docket": "Writ-C No. 20930 of 2020",
+  "page_count": 2,
+  "significance": "procedural",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed as misconceived with costs of Rs. 15,000.",
+  "headnote": "A second writ seeking to declare Section 126 proceedings ultra vires Article 20(2), to reconcile the Electricity Act, 2003 with Clauses 8.2(x)(g), 8.2(x)(h) and 8.0(4) of the U.P. Electricity Supply Code, 2005, and to energize the disconnected line, is misconceived where the same electricity dispute is already pending in an earlier writ. The restoration prayer is merely consequential and cannot be independently adjudicated. The Allahabad High Court dismissed the petition with costs of Rs. 15,000.",
+  "facts": "Satish Chandra and another sought a declaration that Section 126 proceedings were ultra vires Article 20(2), directions to amend or reconcile the U.P. Electricity Supply Code, 2005 with the Electricity Act, 2003, and restoration of petitioner No.1's supply. Petitioner No.1 had already filed Writ Petition No. 26649 of 2019 challenging a 22.7.2019 rejection of his representation. That petition remained pending; an interim stay of 16.9.2019 required a Rs. 6,00,000 deposit, which the petitioners claimed to have paid. The 22.7.2019 order was not on this record.",
+  "holding_units": [
+    {
+      "provision": "EA2003::126",
+      "code": "EA2003",
+      "clause": "126",
+      "topic": "second writ while earlier s.126 dispute pending",
+      "type": "electricity_act",
+      "holding": "Where the consumer's electricity dispute is already the subject of a pending earlier writ, a subsequent writ seeking to declare Section 126 proceedings ultra vires Article 20(2), to rectify alleged inconsistencies between Sections 126, 127(4), 153 and 154 of the Electricity Act, 2003 and Clauses 8.2(x)(g), 8.2(x)(h) and 8.0(4) of the U.P. Electricity Supply Code, 2005, and to energize the disconnected line, is misconceived and liable to be dismissed with costs. The prayer to restore supply, being merely consequential to the pending earlier petition, cannot be independently adjudicated; the remaining prayers were treated as having been made only to keep a parallel writ alive.",
+      "paras": "1-2",
+      "flag": "Clause 8.0(4) is reproduced from the petition prayer and was not construed; numbering as pleaded may be garbled."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "second-writ-same-dispute-pending-misconceived",
+      "application": "A later writ wrapping the same s.126/disconnection dispute already pending in an earlier writ — including a consequential restoration prayer and constitutional or Supply Code challenges added to keep the second petition alive — is misconceived and may be dismissed with costs.",
+      "lead_authorities": [],
+      "paras": "1-2"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether Section 126 of the Electricity Act, 2003 is ultra vires Article 20(2) (double jeopardy)",
+      "note": "Raised as prayer (i); not examined.",
+      "paras": "1"
+    },
+    {
+      "point": "Alleged inconsistency between Sections 126, 153, 154(5), 154(6) and 127(4) of the Act and Clauses 8.2(x)(g), 8.2(x)(h) and 8.0(4) of the U.P. Electricity Supply Code, 2005, and a time frame under Section 154(5)",
+      "note": "Prayer (iii); held to have been made only to maintain the second writ.",
+      "paras": "1-2"
+    },
+    {
+      "point": "Proposal to amend the Supply Code (petition paragraph 23)",
+      "note": "Prayer (ii); not considered on merits.",
+      "paras": "1"
+    },
+    {
+      "point": "Merits of the 22.7.2019 rejection and whether petitioner No.1's line should be energized",
+      "note": "Subject of pending Writ Petition No. 26649 of 2019; restoration treated as consequential and not adjudicated.",
+      "paras": "1-2"
+    }
+  ],
+  "authorities": []
+}
