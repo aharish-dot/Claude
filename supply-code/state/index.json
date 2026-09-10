@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2384,
+  "next_seq": 2385,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -14272,6 +14272,12 @@
       "case_id": "SCJ-2382",
       "source_basename": "WRIC(A)_1470_2020.pdf",
       "title": "Narendra Singh v. State of U.P. and 3 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2380",
+      "source_basename": "WRIC(A)_1461_2020.pdf",
+      "title": "Sanjay Agarwal v. Dakshinanchal Vidyut Vitran Nigam Ltd.",
       "status": "done"
     }
   ]
