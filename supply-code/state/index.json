@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2293,
+  "next_seq": 2294,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -13738,6 +13738,12 @@
       "case_id": "SCJ-2291",
       "source_basename": "WRIC(A)_42589_2019.pdf",
       "title": "Ramchandra v. State of U.P. — bill-correctness dispute relegated to clause 6.5",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2289",
+      "source_basename": "WRIC(A)_42579_2019.pdf",
+      "title": "Rajkumar v. U.P. Rajya Vidhut Vitran Nigam Ltd.",
       "status": "done"
     }
   ]
