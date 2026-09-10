@@ -1,0 +1,68 @@
+{
+  "case_id": "SCJ-2428",
+  "title": "Aditya Kumar v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sunita Agarwal, J.; Jayant Banerji, J.",
+  "date_of_judgment": "2020-12-16",
+  "date_display": "16 December 2020",
+  "docket": "WRIT - C No. - 22058 of 2020",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; Executive Engineer to decide the clause 6.5 representation expeditiously.",
+  "headnote": "A consumer who has filed a proper clause 6.5 representation disputing the electricity bill is to have that representation decided expeditiously by the Executive Engineer in accordance with law. The High Court will not examine the merits of the bill or mandamus restoration. If no such dispute exists, reconnection follows only on payment of outstanding dues after determination.",
+  "facts": "Aditya Kumar sought a mandamus from the Allahabad High Court to restore his electricity connection. He said that, following Amar Singh (Writ-C No. 32425 of 2019), he had filed a proper representation under clause 6.5 of the U.P. Electricity Supply Code, 2005 before the Executive Engineer, Dakshinanchal Vidyut Vitran Khand, Kanpur Nagar, disputing the bill; that representation remained undecided and supply was not restored. Counsel for the licensee submitted that restoration could not be granted until outstanding electricity dues were cleared.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "billing dispute representation before Executive Engineer; restoration pending dues",
+      "type": "supply_code",
+      "holding": "Where the consumer has disputed the electricity bill by a proper application before the Executive Engineer under clause 6.5, that officer is obliged to decide the representation expeditiously in accordance with law. The writ court will not examine the merits of the billing dispute or direct restoration in that event. If there is no such dispute, the connection can be restored only upon payment of outstanding dues after their determination.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-alternate-remedy",
+      "application": "Mandamus for restoration refused on the merits; the pending clause 6.5 representation before the Executive Engineer is the forum for the billing dispute.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "clause-6.5-statutory-remedy-disputed-bill",
+      "application": "A proper clause 6.5 application disputing the bill obliges the Executive Engineer to decide it expeditiously in accordance with law.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "clause-6.5-representation-executive-engineer",
+      "application": "The representation was before the Executive Engineer, Dakshinanchal Vidyut Vitran Khand, Kanpur Nagar, and that officer was directed to decide it.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "merits of the petitioner's clause 6.5 billing dispute",
+      "note": "The Court expressly declined to express any opinion on the merits.",
+      "paras": "1"
+    },
+    {
+      "point": "whether restoration must be granted while the clause 6.5 representation remains pending",
+      "note": "No mandamus to restore. If no live dispute exists, reconnection only on payment of outstanding dues after determination.",
+      "paras": "1"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Amar Singh v. State of U.P.",
+      "citation": "Writ-C No. 32425 of 2019",
+      "cited_by": "1"
+    }
+  ]
+}
