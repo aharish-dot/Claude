@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2386,
+  "next_seq": 2387,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -14284,6 +14284,12 @@
       "case_id": "SCJ-2384",
       "source_basename": "WRIC(A)_15113_2020.pdf",
       "title": "Maruti Reclaim Rubber Industry Pvt. Ltd. v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2383",
+      "source_basename": "WRIC(A)_15062_2020.pdf",
+      "title": "Writ against 6.5B bill-correction rejection dismissed for CGRF remedy",
       "status": "done"
     }
   ]
