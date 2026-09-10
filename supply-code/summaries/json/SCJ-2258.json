@@ -1,0 +1,51 @@
+{
+  "case_id": "SCJ-2258",
+  "title": "Anil Kumar Nayak v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta, J.; Shamim Ahmed, J.",
+  "date_of_judgment": "2019-12-16",
+  "date_display": "16 December 2019",
+  "docket": "Writ - C No. 41518 of 2019",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; petitioner relegated to Clause 6.5.",
+  "headnote": "A consumer's writ seeking certiorari to quash a recovery certificate founded on a disputed electricity bill was not entertained because Clause 6.5 of the U.P. Electricity Supply Code, 2005 supplies a statutory remedy. The petitioner was left to file a fresh objection within two weeks, to be decided by a speaking order after hearing within four weeks, with a short stay of coercive action.",
+  "facts": "Anil Kumar Nayak filed a writ petition seeking certiorari to quash a recovery certificate dated 11 September 2019 issued by the electricity department (respondent no. 3) for Rs. 7,26,189 plus other charges. He disputed the correctness of the bill underlying that recovery. Counsel for the petitioner and for the Electricity Department were heard. The Court did not examine the bill or the certificate on merits.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "bill-correctness dispute; statutory remedy",
+      "type": "supply_code",
+      "holding": "A writ that only disputes the correctness of an electricity bill and seeks quashing of the consequent recovery certificate is not to be entertained when Clause 6.5 of the U.P. Electricity Supply Code, 2005 is available. The consumer may file a fresh application or objection before the appropriate authority within two weeks, to be decided by a speaking order after hearing within four weeks; coercive action is stayed for six weeks or until that decision, whichever is earlier, but the stay lapses if the consumer does not approach the authority in time.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-statutory-remedy",
+      "application": "The Court declined to entertain the writ because Clause 6.5 of the Supply Code is the statutory forum for a bill-correctness objection, and directed a time-bound speaking decision on a fresh objection.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "billing-dispute-question-of-fact-executive-engineer-clause-6.5",
+      "application": "The dispute was confined to correctness of the bill supporting the recovery certificate, a matter the Court treated as for the Clause 6.5 authority rather than writ adjudication.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "correctness of the bill and validity of the recovery certificate dated 11.09.2019",
+      "note": "The Court did not examine either instrument on merits.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
