@@ -1,0 +1,51 @@
+{
+  "case_id": "SCJ-2239",
+  "title": "Dayal Singh Gil v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta and Piyush Agrawal, JJ.",
+  "date_of_judgment": "2019-12-09",
+  "date_display": "9 December 2019",
+  "docket": "Writ-C No. 40452 of 2019",
+  "page_count": 2,
+  "significance": "procedural",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; objections before EE; s.127 if aggrieved.",
+  "headnote": "A consumer who challenged a recovery notice as issued without hearing and contrary to the U.P. Electricity Supply Code, 2005 was directed to appear before the Executive Engineer with objections and evidence. The Engineer was to pass a speaking final order; coercive action was stayed for a limited period; any further grievance was left to an appeal under Section 127 of the Electricity Act, 2003.",
+  "facts": "Dayal Singh Gil challenged a recovery notice dated 25 May 2019 issued by the Executive Engineer, seeking certiorari to quash it and mandamus restraining harassment in its pursuance. He alleged coercive action without opportunity of hearing and without following the U.P. Electricity Supply Code, 2005. Counsel for the electricity department appeared. The Division Bench did not examine the validity of the notice and disposed of the writ with directions.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "relegation to section 127 after final order",
+      "type": "electricity_act",
+      "holding": "Where a recovery notice is challenged as issued without hearing and without following the Supply Code, the High Court may, without deciding the notice on merits, direct the consumer to appear before the Executive Engineer with objections and evidence, require a speaking final order within a fixed time, stay coercive action for a limited period, and leave any grievance against that final order to an appeal under Section 127 of the Electricity Act, 2003. Default in appearance revives the recovery citation.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternative-remedy-relegation-section-127",
+      "application": "The writ was disposed without quashing the recovery notice; the consumer was sent to a speaking final order before the Executive Engineer, with any further grievance left to a Section 127 appeal.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "s127-appeal-lies-only-against-final-order-not-provisional-assessment",
+      "application": "The Court first required the Executive Engineer to pass a final speaking order on the consumer's objections, and only then opened an appeal under Section 127 against that final order.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the recovery notice of 25 May 2019 was issued without hearing or contrary to the U.P. Electricity Supply Code, 2005",
+      "note": "The Court took a lenient view and remitted objections to the Executive Engineer without examining the Supply Code challenge.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
