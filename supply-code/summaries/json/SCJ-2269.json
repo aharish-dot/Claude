@@ -1,0 +1,58 @@
+{
+  "case_id": "SCJ-2269",
+  "title": "Rajesh Kumar Verma v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta, J.; Shamim Ahmed, J.",
+  "date_of_judgment": "2019-12-18",
+  "date_display": "18 December 2019",
+  "docket": "WRIT - C No. 41944 of 2019",
+  "page_count": 3,
+  "significance": "procedural",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; petitioner to appear before the Executive Engineer with objections; speaking final order directed; coercive action stayed; Section 127 appeal kept open; demand revives on default.",
+  "headnote": "On a writ to quash a recovery certificate issued on a demand notice, where the consumer alleges that the provisional assessment was never supplied and coercive recovery is underway without hearing under the U.P. Electricity Supply Code, 2005, the High Court will not decide the demand. It will take the licensee's undertaking to supply the provisional assessment, direct appearance before the Executive Engineer for a speaking final order, stay coercive action in the interim, and leave any remaining grievance to an appeal under Section 127 of the Electricity Act, 2003. Failure to appear revives the demand.",
+  "facts": "Rajesh Kumar Verma filed a writ to quash a recovery certificate dated 13 November 2019 issued on the Executive Engineer's demand notice of 17 August 2019. He alleged that a copy of the provisional assessment had never been supplied and that coercive recovery was underway without a hearing and without following the U.P. Electricity Supply Code, 2005. Counsel for the electricity department undertook to furnish the provisional assessment within a week. The Division Bench heard both sides and disposed of the petition with directions.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "relegation to assessing officer and section 127 appeal",
+      "type": "electricity_act",
+      "holding": "Where a consumer challenges a recovery certificate founded on a demand notice and alleges that the provisional assessment was never supplied and coercive action is being taken without hearing, the writ court will not quash the demand on merits. It will direct the consumer to appear before the Executive Engineer with objections and evidence, require a speaking final order, stay coercive recovery for a limited period or until disposal of the objection, and keep an appeal under Section 127 of the Electricity Act, 2003 open against that final order. If the consumer does not appear and file the objection, the demand notice stands revived.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternative-remedy-relegation-section-127",
+      "application": "After directing a speaking final order on the consumer's objections, the Court left any remaining grievance to an appeal under Section 127 rather than quashing the recovery certificate.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "s127-appeal-lies-only-against-final-order-not-provisional-assessment",
+      "application": "The Court first required the Executive Engineer to pass a final speaking order on the objections, and only then kept a Section 127 appeal open, rather than treating the existing demand or unsourced provisional assessment as the appealable order.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Validity of the recovery certificate dated 13 November 2019 and the demand notice dated 17 August 2019",
+      "paras": "1"
+    },
+    {
+      "point": "Whether the licensee had complied with the U.P. Electricity Supply Code, 2005 in making and serving the provisional assessment",
+      "paras": "1"
+    },
+    {
+      "point": "Quantum of the assessment",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
