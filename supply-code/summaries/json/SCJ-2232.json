@@ -1,0 +1,46 @@
+{
+  "case_id": "SCJ-2232",
+  "title": "Urmila Devi v. Torrent Power Limited",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sudhir Agarwal, Rajeev Misra",
+  "date_of_judgment": "2019-12-07",
+  "date_display": "7 December 2019",
+  "docket": "WRIT - C No. - 39973 of 2019",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; petitioner relegated to District Redressal Forum under cl. 4.3 of the Electricity Supply Code, 2005.",
+  "headnote": "A consumer who had applied for a new electricity connection on 18 February 2019 and had not been given supply was held to have a remedy before the District Redressal Forum under clause 4.3 of the Electricity Supply Code, 2005. The writ petition was dismissed on the ground of alternative remedy without examining the merits of the delayed-connection claim.",
+  "facts": "Urmila Devi filed a writ petition in the Allahabad High Court against Torrent Power Limited and another, asserting that she had applied for a new electricity connection on 18 February 2019 and that no connection had been given till the hearing. Counsel holding brief for the petitioner and the Standing Counsel for the State of Uttar Pradesh were heard. The Court did not examine why the licensee had withheld supply or whether any application remained pending on its files.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.3",
+      "code": "UP-2005",
+      "clause": "4.3",
+      "topic": "new connection — District Redressal Forum as alternative remedy",
+      "type": "supply_code",
+      "holding": "Where the grievance is that a new electricity connection applied for has not been released, the remedy lies before the District Redressal Forum under clause 4.3 of the Electricity Supply Code, 2005, and a writ petition is dismissed on the ground of alternative remedy.",
+      "paras": "3-4",
+      "flag": "Court cited 'Section 4.3' ESC 2005 as the District Redressal Forum; that numbering is recorded as stated and was not among the catalogued CGRF/6.5 keys."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "UP-2005::4.3",
+      "application": "Unreleased new-connection applications are to be taken to the District Redressal Forum under cl. 4.3 ESC 2005; the writ court will not decide the supply claim.",
+      "lead_authorities": [],
+      "paras": "3-4"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the licensee was bound to release the new connection applied for on 18.02.2019, and whether any delay was justified",
+      "note": "Dismissed solely on alternative remedy; merits of the supply claim were not examined.",
+      "paras": "3-4"
+    }
+  ],
+  "authorities": []
+}
