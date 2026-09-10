@@ -1,0 +1,51 @@
+{
+  "case_id": "SCJ-2319",
+  "title": "Rajpal v. State of U.P. — demand notice; writ dismissed for clause 6.5 remedy",
+  "neutral_citation": "Writ-C No. 6999 of 2019",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sudhir Agarwal, J.; Rajendra Kumar-IV, J.",
+  "date_of_judgment": "2019-03-01",
+  "date_display": "1 March 2019",
+  "docket": "WRIT - C No. - 6999 of 2019",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; petitioner relegated to clause 6.5.",
+  "headnote": "Where only a demand notice under Section 3 of the Uttar Pradesh Government Electrical Undertakings (Dues Recovery) Act, 1958 had been issued and no recovery certificate had gone, the Allahabad High Court dismissed the writ on alternative remedy: a dispute as to the amount demanded is to be taken to the concerned Executive Engineer under clause 6.5 of the Electricity Supply Code, 2005.",
+  "facts": "Rajpal approached the Allahabad High Court in a writ petition against the State of Uttar Pradesh and others after a demand notice was issued to him under Section 3 of the Uttar Pradesh Government Electrical Undertakings (Dues Recovery) Act, 1958. No recovery certificate had been issued. He sought to challenge that demand in writ jurisdiction. The Division Bench heard counsel for the petitioner and perused the record, observing that only the demand-notice stage had been reached.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "alternative remedy for disputed demand",
+      "type": "supply_code",
+      "holding": "A writ challenging a demand notice under Section 3 of the Uttar Pradesh Government Electrical Undertakings (Dues Recovery) Act, 1958, where no recovery certificate has been issued, is dismissed on alternative remedy; if the consumer disputes the amount demanded, the course is to approach the concerned Executive Engineer under clause 6.5 of the Electricity Supply Code, 2005.",
+      "paras": "2-4"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-statutory-remedy",
+      "application": "The Court treated clause 6.5 as the statutory alternative to a writ against a Section 3 demand notice and dismissed the petition on that ground.",
+      "lead_authorities": [],
+      "paras": "3-4"
+    },
+    {
+      "tag": "billing-objection-to-executive-engineer-under-6.5",
+      "application": "A dispute as to the amount demanded is to be taken to the concerned Executive Engineer under clause 6.5.",
+      "lead_authorities": [],
+      "paras": "3"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness or quantum of the amount demanded in the Section 3 notice",
+      "note": "The Court did not examine the bill or demand on merits.",
+      "paras": "2-3"
+    }
+  ],
+  "authorities": []
+}
