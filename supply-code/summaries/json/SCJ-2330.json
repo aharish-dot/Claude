@@ -1,0 +1,56 @@
+{
+  "case_id": "SCJ-2330",
+  "title": "Om Prakash v. Chairman/Managing Director, Uttar Pradesh Power Corporation Ltd.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Abhinava Upadhya, J.; Jayant Banerji, J.",
+  "date_of_judgment": "2019-03-12",
+  "date_display": "12 March 2019",
+  "docket": "Writ-C No. 7923 of 2019",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; 8.2(x)(h) orders if Magistrate accepts final report.",
+  "headnote": "Om Prakash challenged a 31 January 2019 recovery certificate for compounding and theft assessment. A final report in the theft prosecution was pending the Magistrate's acceptance. Reciting clause 8.2(x)(h) of the Electricity Supply Code, 2005 (withdrawal of charges and restoration if the court holds theft not established), the Division Bench disposed of the writ, directing that if the final report is accepted, appropriate orders be passed under that clause. The recovery was not examined on merits.",
+  "facts": "The petitioner challenged a recovery certificate dated 31 January 2019 for Rs. 1,11,698 plus other charges, described as compounding charges and electricity dues after an allegation of theft. A provisional assessment had been made on 24 October 2016. He filed an objection; a final assessment and recovery followed, which he said ignored the objection. A final report had been filed in the theft prosecution. Counsel for the Power Corporation told the Court that the Magistrate had not yet accepted that report.",
+  "reusable_constructions": [
+    {
+      "construction": "Acceptance by the Magistrate of a final report in a theft prosecution is treated as the trigger for clause 8.2(x)(h) of the Electricity Supply Code, 2005, requiring the licensee to withdraw the theft charges and assessment and to restore the connection through the original meter.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.2(x)",
+      "code": "UP-2005",
+      "clause": "8.2(x)",
+      "topic": "Withdrawal of theft assessment if court holds theft not established",
+      "type": "supply_code",
+      "holding": "Where a final report has been filed in a prosecution for theft of electricity, and if that report is accepted by the Magistrate, the licensee must pass appropriate orders under clause 8.2(x)(h) of the Electricity Supply Code, 2005: if the court holds that theft is not established, the charges and assessment shall be withdrawn in writing and the connection restored through the original meter. The writ against the recovery certificate was disposed of with that observation, without deciding the recovery on merits.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-8.2x-acquittal-requires-withdrawal-of-theft-assessment",
+      "application": "The Court adopted the licensee's submission that if the Magistrate accepts the final report in the theft case, the consumer is entitled to withdrawal of charges and assessment and restoration under clause 8.2(x)(h), and disposed of the writ with a direction to pass such orders if the report is accepted.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Validity of the recovery certificate dated 31.01.2019 and of the final theft assessment",
+      "note": "The writ was disposed of without examining whether objections to the provisional assessment were considered or whether the assessment and recovery were sustainable.",
+      "paras": "1"
+    },
+    {
+      "point": "Whether the Magistrate should accept the final report in the theft prosecution",
+      "note": "The Court proceeded on the footing that the report had not yet been accepted and made relief under clause 8.2(x)(h) contingent on that acceptance.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
