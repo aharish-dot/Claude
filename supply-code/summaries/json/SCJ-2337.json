@@ -1,0 +1,66 @@
+{
+  "case_id": "SCJ-2337",
+  "title": "Nitin Agrawal v. Pashimanchal Vidyut Vitran Nigam Ltd.",
+  "neutral_citation": "Writ-C No. 8651 of 2019",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Abhinava Upadhya and Jayant Banerji, JJ.",
+  "date_of_judgment": "2019-03-15",
+  "date_display": "15 March 2019",
+  "docket": "WRIT - C No. 8651 of 2019",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Final assessment without served provisional assessment unsustainable; 6.8 objections to be decided.",
+  "headnote": "A final assessment for unauthorized use of electricity cannot stand where the licensee does not prove service of a prior provisional assessment under Clause 6.8 of the Supply Code. Counsel’s statement on instructions that the provisional assessment was handed over personally is not cognizable as service. The High Court treated the 23 February 2019 final assessment as unsustainable, treated the provisional assessment as served in Court, stayed coercive action for one month, and directed the Executive Engineer to decide any objection and the claim for a temporary connection within that period.",
+  "facts": "An inspection of the petitioner's premises on 11 January 2019 was followed by an FIR for theft on 13 January 2019. The licensee then passed a final assessment dated 23 February 2019 for unauthorized use of electricity. The consumer challenged that order, alleging that Clause 6.8's seven-day notice, provisional assessment, objections and personal hearing were skipped. The licensee claimed the provisional assessment had been handed over personally; the consumer denied service. The provisional assessment was later supplied in Court, and a temporary connection was also sought.",
+  "reusable_constructions": [
+    {
+      "construction": "A final UUE assessment cannot be sustained without proof of service of the Clause 6.8 provisional assessment; counsel’s statement on instructions that it was handed over personally is not cognizable as service.",
+      "paras": "1"
+    },
+    {
+      "construction": "Passing a final assessment without a prior provisional assessment under Clause 6.8 vitiates the assessment.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8",
+      "code": "UP Electricity Supply Code, 2005",
+      "clause": "6.8",
+      "topic": "service of provisional assessment before final UUE assessment",
+      "type": "supply_code",
+      "holding": "Where a final assessment for unauthorized use of electricity is challenged, the licensee must prove service of a prior provisional assessment under Clause 6.8. A statement of counsel on instructions that the provisional assessment was handed over personally cannot be taken cognizance of as service. A final assessment made without a provisional assessment cannot be sustained. The Court treated the provisional assessment as served in Court and directed the Executive Engineer to decide any objection, and the claim for a temporary connection, within one month in accordance with law, with no coercive action in that period.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "proper-service-of-provisional-assessment-notice-clause-6.8",
+      "application": "The Court refused to treat an unproved personal handing-over, asserted only on counsel’s instructions, as service of the Clause 6.8 provisional assessment.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "para-6.8-non-compliance-vitiates-assessment-and-recovery",
+      "application": "The 23 February 2019 final assessment was held unsustainable because it was made without a served provisional assessment under Clause 6.8.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the theft FIR attracted Clauses 8.1–8.2 rather than a Clause 6.8 UUE assessment",
+      "note": "The Court recorded the 13 January 2019 theft FIR and the UUE assessment but decided only the provisional-assessment/service defect.",
+      "paras": "1"
+    },
+    {
+      "point": "Merits of the unauthorized-use allegation and of the claim for a temporary connection",
+      "note": "Objections to the provisional assessment and the temporary-connection claim were left to the Executive Engineer to decide in accordance with law.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
