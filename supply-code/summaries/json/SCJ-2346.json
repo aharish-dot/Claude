@@ -1,0 +1,45 @@
+{
+  "case_id": "SCJ-2346",
+  "title": "Rajesh Kumar Gupta v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sunita Agarwal, J. and Saumitra Dayal Singh, J.",
+  "date_of_judgment": "2020-06-25",
+  "date_display": "25 June 2020",
+  "docket": "WRIT - C No. 10367 of 2020",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; demand to be challenged under Clause 8.3.",
+  "headnote": "A demand notice under Section 138 of the Electricity Act, 2003 imposing civil liability for unauthorized use or theft of electricity is to be challenged under Clause 8.3 of the U.P. Electricity Supply Code, 2005. A writ petition against such a demand is dismissed for alternative remedy.",
+  "facts": "Rajesh Kumar Gupta invoked the writ jurisdiction of the High Court of Judicature at Allahabad against a demand notice issued under Section 138 of the Electricity Act, 2003. The notice imposed civil liability on him for alleged unauthorized use or theft of electricity. The State of Uttar Pradesh and two others were respondents. After hearing counsel for the parties, the Division Bench disposed of the petition without examining whether the demand was correctly raised or quantified.",
+  "holding_units": [
+    {
+      "provision": "EA2003::138",
+      "code": "EA2003",
+      "clause": "138",
+      "topic": "s.138 civil demand for unauthorized use or theft — Clause 8.3 alternative remedy",
+      "type": "interplay",
+      "holding": "A demand notice issued under Section 138 of the Electricity Act, 2003 imposing civil liability for unauthorized use or theft of electricity can be challenged under Clause 8.3 of the U.P. Electricity Supply Code, 2005. The writ petition was dismissed on the ground of that alternative remedy.",
+      "paras": "2-4",
+      "flag": "Court treated the notice as an EA s.138 civil demand for unauthorized use/theft; s.138 is an offence provision (interference with meters), not the civil assessment track."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "EA2003::138",
+      "application": "The demand under challenge was a notice under Section 138 of the Electricity Act imposing civil liability for unauthorized use or theft; the Court did not decide the offence or the quantum and sent the petitioner to Clause 8.3 of the Supply Code.",
+      "lead_authorities": [],
+      "paras": "2-4"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner committed unauthorized use or theft, and whether the Section 138 demand was correctly raised or quantified",
+      "paras": "3-4"
+    }
+  ],
+  "authorities": []
+}
