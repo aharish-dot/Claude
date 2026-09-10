@@ -1,0 +1,62 @@
+{
+  "case_id": "SCJ-2241",
+  "title": "Ramesh Patel v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta, J.; Piyush Agrawal, J.",
+  "date_of_judgment": "2019-12-09",
+  "date_display": "9 December 2019",
+  "docket": "WRIT - C No. - 40464 of 2019",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; petitioner to object before Executive Engineer; speaking final order; coercive action stayed; s.127 liberty if aggrieved.",
+  "headnote": "A writ against a recovery citation founded on a provisional assessment was disposed without examining the demand. The consumer was directed to appear before the Executive Engineer with objections; that officer was to pass a speaking final order; coercive action was stayed in the interim; and any remaining grievance was left to an appeal under section 127 of the Electricity Act, 2003.",
+  "facts": "Ramesh Patel challenged a demand notice dated 18 April 2019 issued under section 3 of the Uttar Pradesh Government Electrical Undertakings (Dues Recovery) Act, 1958. At the hearing, a copy of the provisional assessment and checking report was supplied to his counsel. He alleged that the electricity department was taking coercive recovery action without an opportunity of hearing and without following the U.P. Electricity Supply Code, 2005. Counsel for the petitioner and for the department were heard.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "provisional assessment — directed final order then section 127 appeal",
+      "type": "electricity_act",
+      "holding": "Without deciding the validity of the 18.04.2019 recovery citation or the alleged Supply Code, 2005 breach, the Court directed the petitioner to appear before the Executive Engineer (Respondent No. 4) on 23.12.2019 with objections and evidence; directed that officer to pass a speaking and reasoned final order within four weeks thereafter; stayed coercive action for seven weeks or until disposal of the objection, whichever is earlier (vacated automatically on default in filing the objection); and left the petitioner, if aggrieved by the final order, to an appeal under section 127 of the Electricity Act, 2003. Non-appearance on the date fixed would revive the recovery citation. The writ was disposed of on those terms.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "s127-appeal-lies-only-against-final-order-not-provisional-assessment",
+      "application": "A provisional assessment and checking report having been supplied at the hearing, the Court first directed the Executive Engineer to pass a speaking final order, and only then left the petitioner to a section 127 appeal if aggrieved.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "final-assessment-order-relegates-assessee-to-section-127-appeal",
+      "application": "Once the directed final order is passed, any remaining grievance is to be pursued by appeal under section 127 in accordance with law.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "alternative-remedy-relegation-section-127",
+      "application": "The writ against the recovery citation was disposed without a merits grant or refusal; the statutory path is a final order before the Executive Engineer and then a section 127 appeal.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Validity of the demand notice dated 18.04.2019 under section 3 of the U.P. Government Electrical Undertakings (Dues Recovery) Act, 1958",
+      "note": "The citation was neither quashed nor upheld; it would revive automatically if the petitioner failed to appear on the date fixed.",
+      "paras": "1"
+    },
+    {
+      "point": "Whether the respondents acted without hearing or in breach of the U.P. Electricity Supply Code, 2005",
+      "note": "Raised by the petitioner; not examined on merits.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
