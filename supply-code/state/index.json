@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2290,
+  "next_seq": 2291,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -13720,6 +13720,12 @@
       "case_id": "SCJ-2286",
       "source_basename": "WRIC(A)_42564_2019.pdf",
       "title": "Mazid v. State of U.P. — recovery citation — objections before Executive Engineer — s.127 after final order",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2288",
+      "source_basename": "WRIC(A)_42575_2019.pdf",
+      "title": "Omprakash Agrawal v. Dakshinachal Vidyut Vitran Corporation Ltd.",
       "status": "done"
     }
   ]
