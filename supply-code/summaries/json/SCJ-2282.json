@@ -1,0 +1,51 @@
+{
+  "case_id": "SCJ-2282",
+  "title": "Devendra Singh v. Managing Director — recovery citation: speaking order then s.127",
+  "neutral_citation": "WRIT-C No. 42268 of 2019",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta and Shamim Ahmed, JJ.",
+  "date_of_judgment": "2019-12-19",
+  "date_display": "19 December 2019",
+  "docket": "WRIT - C No. - 42268 of 2019",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; EE to pass speaking order; s.127 reserved; recovery stayed seven weeks.",
+  "headnote": "A writ seeking certiorari to quash a recovery citation for electricity dues, on the plea of coercive recovery without hearing and without following the Supply Code, 2005, is not decided on merits. The consumer is directed to appear before the Executive Engineer with objections and evidence; a speaking final order must follow within four weeks; coercive action is stayed for seven weeks or until that disposal (vacated on default; the citation revives on non-appearance); a Section 127 appeal then lies against that final order.",
+  "facts": "Devendra Singh and another approached the Allahabad High Court to quash a recovery citation dated 24 September 2019, by which the electricity department demanded Rs. 5,81,132 as electricity dues and other charges. They alleged that the respondents were taking coercive recovery without giving any opportunity of hearing and without following the U.P. Electricity Supply Code, 2005. Counsel for the petitioners and for the electricity department were heard.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "appeal against assessment after final order",
+      "type": "electricity_act",
+      "holding": "A writ challenging a recovery citation for electricity dues on the plea of coercive recovery without hearing and without following the Supply Code, 2005, is disposed without examining the demand: the consumer must appear before the Executive Engineer with objections and evidence; the Engineer shall pass a speaking final order within four weeks; coercive action is stayed for seven weeks or until disposal of the objection, whichever is earlier (the stay lapses on default and the citation revives on non-appearance); if aggrieved by that final order, the consumer may appeal under Section 127 of the Electricity Act, 2003.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternative-remedy-relegation-section-127",
+      "application": "The Court refused to quash the recovery citation on merits and, after directing a speaking final order by the Executive Engineer, left the consumer to a Section 127 appeal against that order.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "s127-appeal-lies-only-against-final-order-not-provisional-assessment",
+      "application": "The Executive Engineer was first required to pass a 'final order'; only if the consumer is aggrieved by that final order may an appeal be filed under Section 127.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "lawfulness and quantum of the Rs. 5,81,132 recovery citation",
+      "note": "The Court did not examine whether the demand complied with the Supply Code, 2005, or whether coercive recovery without hearing was authorised; those issues were left to the Executive Engineer's speaking order and, thereafter, to a Section 127 appeal.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
