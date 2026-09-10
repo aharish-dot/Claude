@@ -1,0 +1,49 @@
+{
+  "case_id": "SCJ-2281",
+  "title": "Umesh Chandra Gupta v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division",
+  "coram": "Shashi Kant Gupta and Shamim Ahmed, JJ.",
+  "date_of_judgment": "2019-12-19",
+  "date_display": "19 December 2019",
+  "docket": "Writ-C No. 42257 of 2019",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; petitioner to appear before the Executive Engineer with objections; speaking final order within four weeks; coercive action stayed for seven weeks or till disposal of the objection; Section 127 appeal kept open if aggrieved.",
+  "headnote": "The Allahabad High Court disposed of a writ challenging an electricity recovery citation without examining the dues or alleged Supply Code breach on merits. Taking a lenient view, it directed the consumer to appear before the Executive Engineer with objections and evidence, required a speaking and reasoned final order within four weeks, and stayed coercive action for a limited period. If aggrieved by that final order, the consumer was left to appeal under Section 127 of the Electricity Act, 2003. Non-appearance would revive the citation.",
+  "facts": "Umesh Chandra Gupta challenged a recovery citation dated 25 April 2019 issued by the electricity authorities. He alleged that the respondents were taking coercive action without opportunity of hearing and without following the U.P. Electricity Supply Code, 2005, and sought certiorari to quash the citation. Counsel for the electricity department was heard. The High Court did not decide whether the citation was lawful or what sum, if any, was due.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "relegation to speaking order then Section 127 appeal",
+      "type": "electricity_act",
+      "holding": "On a writ against an electricity recovery citation alleging coercive action without hearing and without following the Supply Code, the Court may, without examining the citation on merits, direct the consumer to appear before the Executive Engineer with objections and evidence, require a speaking and reasoned final order within a fixed time, stay coercive recovery for a limited period, and leave the consumer to appeal under Section 127 of the Electricity Act, 2003 if aggrieved by that final order. Default in appearance revives the citation.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternative-remedy-section-127-appeal",
+      "application": "After directing a speaking final order on the consumer's objection to the recovery citation, the Court left the petitioner to Section 127 of the Electricity Act, 2003 if aggrieved, without deciding the citation on merits.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the recovery citation dated 25.04.2019 was issued without hearing or in breach of the U.P. Electricity Supply Code, 2005",
+      "note": "The Court took a lenient view and directed a speaking order rather than examining the citation.",
+      "paras": "1"
+    },
+    {
+      "point": "Quantum of arrears and correctness of the recovery citation on merits",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
