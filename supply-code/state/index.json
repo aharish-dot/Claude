@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2417,
+  "next_seq": 2418,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -14470,6 +14470,12 @@
       "case_id": "SCJ-2415",
       "source_basename": "WRIC(A)_20108_2020.pdf",
       "title": "R.S.M. Inter College And Bholarampur v. State of U.P. & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2414",
+      "source_basename": "WRIC(A)_19892_2020.pdf",
+      "title": "Raj Bahadur Singh v. Managing Director, Dakshinanchal Vidyut Vitran Nigam Ltd.",
       "status": "done"
     }
   ]
