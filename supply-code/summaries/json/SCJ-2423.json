@@ -1,0 +1,57 @@
+{
+  "case_id": "SCJ-2423",
+  "title": "Shakeela Begum v. State of U.P.",
+  "neutral_citation": "Writ-C No. 21712 of 2020",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Naheed Ara Moonis, J.; Vivek Varma, J.",
+  "date_of_judgment": "2020-12-16",
+  "date_display": "16 December 2020",
+  "docket": "Writ-C No. 21712 of 2020",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; relegated to Section 127 appeal.",
+  "headnote": "Writ to quash a PVVNL demand notice, restrain coercive recovery, and direct installation of a smart meter is dismissed. After the licensee supplied a final assessment dated 12 February 2020, the Court held that an appeal under Section 127 was available; the petitioner did not dispute that remedy.",
+  "facts": "Shakeela Begum challenged a 20 September 2019 demand of the Executive Engineer, PVVNL, Meerut, seeking to quash the notice, restrain coercive recovery, and direct installation of a smart meter as per a 5 August 2019 letter. She alleged recovery without supply of the provisional assessment. The licensee said the premises were inspected on 18 July 2019, a provisional assessment issued, objections filed on 28 January 2020, and a final assessment of 12 February 2020 supplied in court.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "writ-relegation-after-final-assessment",
+      "type": "electricity_act",
+      "holding": "Once a final assessment has been passed and supplied, and the consumer does not dispute the availability of an appeal under Section 127, a writ seeking to quash the demand and restrain recovery is dismissed on the ground of alternative remedy.",
+      "paras": "1",
+      "flag": "Counsel and the Court described the remedy as an appeal under Section 127 of the Electricity Supply Code; Section 127 is of the Electricity Act, 2003."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternate-remedy-section-127-appeal-bars-writ",
+      "application": "Writ against the demand and coercive recovery dismissed because an appeal under Section 127 was available and was not disputed.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "final-assessment-order-relegates-assessee-to-section-127-appeal",
+      "application": "After the final assessment dated 12 February 2020 was supplied in court, the petitioner was relegated to the Section 127 appeal.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "merits of the demand and final assessment",
+      "note": "Dismissed solely on alternative remedy; assessment and recovery not examined.",
+      "paras": "1"
+    },
+    {
+      "point": "mandamus to install a smart meter",
+      "note": "Prayer for installation pursuant to the 5 August 2019 letter not decided.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
