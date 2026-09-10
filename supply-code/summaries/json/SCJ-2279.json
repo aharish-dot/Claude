@@ -1,0 +1,55 @@
+{
+  "case_id": "SCJ-2279",
+  "title": "Sarfaraj Ahmad v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta, J.; Shamim Ahmed, J.",
+  "date_of_judgment": "2019-12-19",
+  "date_display": "19 December 2019",
+  "docket": "WRIT - C No. 42243 of 2019",
+  "page_count": 2,
+  "significance": "procedural",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; appear before EE for speaking final order; s.127 thereafter; coercive action stayed.",
+  "headnote": "Challenging a recovery notice on an unserved provisional electricity assessment, the petitioner alleged coercive action without hearing and without following the U.P. Electricity Supply Code, 2005. The Court did not quash the notice. It directed appearance before the Executive Engineer with objections, a speaking final order within four weeks, service of the provisional assessment and checking report, a short stay of coercive action, and an appeal under Section 127 of the Electricity Act, 2003 against that final order.",
+  "facts": "Sarfaraj Ahmad challenged a recovery notice dated 3 December 2019 issued by the electricity department for Rs 46,281. He alleged that the respondents were taking coercive action without an opportunity of hearing and without following the U.P. Electricity Supply Code, 2005. A provisional assessment order and checking report were on the departmental record but had not been served. The High Court heard counsel for the petitioner and the electricity department and disposed of the writ with directions.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "speaking-final-order-then-section-127-appeal",
+      "type": "electricity_act",
+      "holding": "Where recovery is founded on a provisional assessment that has not yet been followed by a speaking final order, the consumer is directed to appear before the Executive Engineer with objections; the Executive Engineer shall pass a reasoned final order; an appeal under Section 127 of the Electricity Act, 2003 then lies against that final order; coercive action is stayed in the meantime, and the recovery citation revives automatically on default in appearance.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "s127-appeal-lies-only-against-final-order-not-provisional-assessment",
+      "application": "The Court first required a speaking final order on the provisional assessment and only then opened a Section 127 appeal against that final order, rather than treating the recovery notice itself as the appealable order.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "alternative-remedy-section-127-appeal",
+      "application": "After directing a speaking final order, the Court left the consumer to the statutory appeal under Section 127 if still aggrieved, without quashing the recovery on merits.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Legality of the recovery notice dated 03.12.2019 and the quantum of Rs 46,281",
+      "note": "Writ disposed without examining whether the demand was lawful.",
+      "paras": "1"
+    },
+    {
+      "point": "Whether the U.P. Electricity Supply Code, 2005 required a hearing before the recovery citation",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
