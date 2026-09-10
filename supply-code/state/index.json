@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2393,
+  "next_seq": 2394,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -14326,6 +14326,12 @@
       "case_id": "SCJ-2390",
       "source_basename": "WRIC(A)_16245_2020.pdf",
       "title": "Abhishek Kumar v. State of U.P. and Another",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2391",
+      "source_basename": "WRIC(A)_16248_2020.pdf",
+      "title": "Yogesh Kumar Porwar v. Kanpur Electricity Supply Company Limited (KESCO)",
       "status": "done"
     }
   ]
