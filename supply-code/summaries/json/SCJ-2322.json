@@ -1,0 +1,52 @@
+{
+  "case_id": "SCJ-2322",
+  "title": "Mukhtar Ahmad v. State of Uttar Pradesh",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sudhir Agarwal and Rajendra Kumar-IV, JJ.",
+  "date_of_judgment": "2019-03-01",
+  "date_display": "1 March 2019",
+  "docket": "WRIT - C No. 7205 of 2019",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; order dated 10.10.2017 set aside; representation to be decided within one month.",
+  "headnote": "A representation under Clause 5.9 of the U.P. Electricity Supply Code, 2005 cannot be refused until compounding fee is deposited. The Code contains no such condition precedent. KESCO's order holding the representation in abeyance for want of compounding fee was illegal and was set aside, with a direction to decide the representation within one month.",
+  "facts": "The petitioner's earlier writ (Writ Petition No. 21918 of 2017) over a defective electricity meter was disposed of on 18 May 2017, leaving him to seek redress under Clause 5.9 of the U.P. Electricity Supply Code, 2005. He made a representation dated 5 October 2017. The Executive Engineer, Urban Electricity Distribution Division, KESCO, by order dated 10 October 2017, refused to decide it unless compounding fee was first deposited. With consent the Division Bench decided the writ finally on the record, without a counter-affidavit.",
+  "reusable_constructions": [
+    {
+      "construction": "No provision of the U.P. Electricity Supply Code, 2005 requires a consumer to deposit compounding fee before a representation under Clause 5.9 is decided; an order making such deposit a condition of hearing the representation is illegal.",
+      "paras": "4"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::5.9(c)",
+      "code": "UP-2005",
+      "clause": "5.9(c)",
+      "topic": "compounding fee as condition to deciding a Clause 5.9 representation",
+      "type": "supply_code",
+      "holding": "There is no provision requiring a person to deposit compounding fee before a representation under Clause 5.9 of the U.P. Electricity Supply Code, 2005 is decided. An order of the Executive Engineer refusing to decide such a representation unless compounding fee is first deposited is illegal and is set aside. The competent authority must take a final decision on the representation expeditiously, and in any case within one month of production of a certified copy of the order.",
+      "paras": "4-5",
+      "flag": "Court cited Clause 5.9 generally; catalog key is 5.9(c)."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "compounding-fee-not-precondition-clause-5.9",
+      "application": "KESCO's 10.10.2017 direction that the petitioner first deposit compounding fee, else his Clause 5.9 representation would not be decided, was held unsupported by any provision and was quashed.",
+      "lead_authorities": [],
+      "paras": "4-5"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits of the Clause 5.9 defective-meter representation dated 5 October 2017",
+      "note": "Remitted to the competent authority for a final decision within one month; only the compounding-fee precondition was decided.",
+      "paras": "5"
+    }
+  ],
+  "authorities": []
+}
