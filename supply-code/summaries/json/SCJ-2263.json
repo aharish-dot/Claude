@@ -1,0 +1,56 @@
+{
+  "case_id": "SCJ-2263",
+  "title": "Babu Lal v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta and Shamim Ahmed, JJ.",
+  "date_of_judgment": "2019-12-17",
+  "date_display": "17 December 2019",
+  "docket": "Writ-C No. 41756 of 2019",
+  "page_count": 3,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; petitioner to appear before the Executive Engineer with objections; speaking final order within four weeks; coercive action stayed for six weeks or until disposal of the objection; liberty to appeal under section 127; demand revives automatically on non-appearance.",
+  "headnote": "A Division Bench of the Allahabad High Court disposed of a writ seeking certiorari to quash a recovery certificate of Rs. 6,16,022 without deciding the demand on merits. It directed the consumer to appear before the Executive Engineer with objections and evidence, required a speaking and reasoned final order within four weeks, stayed coercive action for six weeks or until disposal of the objection, and reserved liberty to appeal under section 127 of the Electricity Act, 2003. Non-appearance would automatically revive the demand.",
+  "facts": "The petitioner, Babu Lal, sought certiorari to quash a demand/recovery certificate dated 19 November 2019 issued by respondent no. 4 for Rs. 6,16,022. He alleged that the electricity department was taking coercive action without an opportunity of hearing and without following the U.P. Electricity Supply Code, 2005. Counsel for the petitioner and for the electricity department were heard.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "speaking final order then section 127 appeal",
+      "type": "electricity_act",
+      "holding": "Without quashing a demand/recovery certificate or examining alleged non-compliance with the U.P. Electricity Supply Code, 2005, the Court directed the consumer to appear before the Executive Engineer with objections and evidence, required that officer to pass a speaking and reasoned final order within four weeks, stayed coercive action for six weeks or until disposal of the objection (whichever is earlier), and relegated any grievance against that final order to an appeal under section 127 of the Electricity Act, 2003. Failure to appear and file the objection would automatically revive the impugned demand.",
+      "paras": "1-3"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternative-remedy-relegation-section-127",
+      "application": "Writ against a recovery certificate was disposed without a merits grant or refusal, by directing a speaking final order before the Executive Engineer and relegating further grievance to a section 127 appeal.",
+      "lead_authorities": [],
+      "paras": "1-3"
+    },
+    {
+      "tag": "s127-appeal-lies-only-against-final-order-not-provisional-assessment",
+      "application": "The Court required the Executive Engineer to pass a final speaking order first, and treated section 127 as available only against that final order, not against the existing recovery certificate itself.",
+      "lead_authorities": [],
+      "paras": "1-3"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Validity and quantum of the demand/recovery certificate dated 19-11-2019 for Rs. 6,16,022",
+      "note": "Not examined on merits; the writ was disposed with a hearing direction and section 127 liberty.",
+      "paras": "1-3"
+    },
+    {
+      "point": "Whether coercive recovery was taken without following the U.P. Electricity Supply Code, 2005",
+      "note": "Alleged by the petitioner; not decided.",
+      "paras": "1-3"
+    }
+  ],
+  "authorities": []
+}
