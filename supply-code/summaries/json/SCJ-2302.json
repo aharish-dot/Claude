@@ -1,0 +1,57 @@
+{
+  "case_id": "SCJ-2302",
+  "title": "Bikram Singh Ponia v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Abhinava Upadhya, J.; Jayant Banerji, J.",
+  "date_of_judgment": "2019-02-18",
+  "date_display": "18 February 2019",
+  "docket": "WRIT - C No. - 4461 of 2019",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; petitioner relegated to clause 6.5(b) complaint before Executive Engineer.",
+  "headnote": "A consumer alleging bills on 15 HP against a claimed 10 HP sanctioned load was not granted writ relief on the merits. The Division Bench recorded the licensee's submission that the remedy was a complaint under clause 6.5(b) of the Electricity Supply Code, 2005 before the Executive Engineer, and disposed of the petition with a direction that any such complaint be considered and decided, as far as possible, within the prescribed time.",
+  "facts": "Bikram Singh Ponia claimed his connection was sanctioned at 10 horsepower, but bills were being raised at 15 horsepower. He had complained, yet the bills were not corrected. Counsel for the electricity department submitted that the remedy was a complaint under clause 6.5(b) of the Electricity Supply Code, 2005 before the Executive Engineer. The Division Bench disposed of the writ, observing that if the petitioner made such a complaint, the Executive Engineer should consider and decide it, as far as possible, within the prescribed time.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5(b)",
+      "code": "UP-2005",
+      "clause": "6.5(b)",
+      "topic": "billing dispute — billed load versus sanctioned load",
+      "type": "supply_code",
+      "holding": "Where a consumer disputes that bills are being raised on 15 HP against a claimed sanctioned load of 10 HP and an earlier complaint has not been rectified, the writ court will not decide the billing dispute; the consumer is to make a complaint under clause 6.5(b) of the Electricity Supply Code, 2005 before the Executive Engineer, who is to consider and decide it as far as possible within the prescribed time.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-statutory-remedy",
+      "application": "The writ was disposed by sending the 10 HP versus 15 HP billing complaint to the statutory clause 6.5(b) forum rather than deciding the bill on the merits.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "billing-objection-to-executive-engineer-under-6.5",
+      "application": "The Court accepted that the load/billing objection is to be made to the Executive Engineer under clause 6.5(b) and directed that officer to decide any such complaint within the prescribed time.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "clause-6.5b-quantification-dispute",
+      "application": "The dispute was quantification of billed load (15 HP raised against a claimed 10 HP sanction), which the Court treated as a clause 6.5(b) matter for the Executive Engineer.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the connection was correctly billed at 15 HP rather than the claimed sanctioned load of 10 HP",
+      "note": "Merits of the bill left to the Executive Engineer on a clause 6.5(b) complaint.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
