@@ -1,0 +1,51 @@
+{
+  "case_id": "SCJ-2240",
+  "title": "Ram Prakash v. State of U.P. — bill-correctness writ relegated to clause 6.5",
+  "neutral_citation": "W.P. (C) No. 40459 of 2019 (All.)",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta, J.; Piyush Agrawal, J.",
+  "date_of_judgment": "2019-12-09",
+  "date_display": "9 December 2019",
+  "docket": "WRIT - C No. - 40459 of 2019",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; petitioner relegated to clause 6.5; no coercive action for seven weeks.",
+  "headnote": "A consumer’s writ to quash a recovery notice founded on a disputed electricity bill is not entertained when clause 6.5 of the U.P. Electricity Supply Code, 2005 supplies a statutory objection before the Executive Engineer. The High Court disposed of the petition with a time-bound direction to consider a 6.5 application by a speaking order after hearing, and stayed coercive recovery for seven weeks.",
+  "facts": "Ram Prakash petitioned the Allahabad High Court for certiorari to quash a recovery notice dated 21 October 2019 issued by the electricity department (respondent no. 5). His grievance was the correctness of the bill on which recovery was founded. Counsel for the petitioner and for the Electricity Department were heard. The Court did not examine the bill or the notice on merits and pointed him to the Supply Code objection before the Executive Engineer.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "bill-correctness dispute — statutory objection to Executive Engineer",
+      "type": "supply_code",
+      "holding": "Where a writ seeks to quash a recovery notice on the ground that the underlying electricity bill is incorrect, the High Court will not entertain the petition because clause 6.5 of the U.P. Electricity Supply Code, 2005 furnishes the statutory remedy. The consumer may apply to the Executive Engineer, who is to decide the objection by a speaking order after hearing; coercive recovery may be stayed for a short window to permit that course.",
+      "paras": "3-6"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "billing-objection-to-executive-engineer-under-6.5",
+      "application": "Writ challenging a recovery notice on bill-correctness was refused in the face of clause 6.5; if the petitioner applied to the Executive Engineer within two weeks, that authority was to decide by a speaking order within four weeks after hearing.",
+      "lead_authorities": [],
+      "paras": "4-6"
+    },
+    {
+      "tag": "bill-correctness-under-clause-6.5-not-cgrf-or-ombudsman",
+      "application": "The only dispute raised was correctness of the bill; the Court treated clause 6.5 as the available statutory forum and declined the writ on that account.",
+      "lead_authorities": [],
+      "paras": "3-5"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "correctness of the bill and validity of the 21.10.2019 recovery notice",
+      "note": "Left to the Executive Engineer under clause 6.5; writ not decided on merits.",
+      "paras": "3-6"
+    }
+  ],
+  "authorities": []
+}
