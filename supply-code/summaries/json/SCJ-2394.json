@@ -1,0 +1,56 @@
+{
+  "case_id": "SCJ-2394",
+  "title": "Manoj Kumar v. State of U.P.",
+  "neutral_citation": "Writ - C No. 1635 of 2020",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta, J. and Piyush Agrawal, J.",
+  "date_of_judgment": "2020-01-18",
+  "date_display": "18 January 2020",
+  "docket": "Writ - C No. 1635 of 2020",
+  "page_count": 2,
+  "significance": "procedural",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; petitioner to appear before the Executive Engineer with objections; speaking final order within four weeks; coercive action stayed; Section 127 appeal if aggrieved.",
+  "headnote": "The Allahabad High Court disposed of a writ seeking to quash an electricity recovery notice and restore supply by directing the consumer to appear before the Executive Engineer with objections and evidence, requiring a speaking final order within four weeks, staying coercive action for seven weeks, and leaving any challenge to that order to an appeal under Section 127 of the Electricity Act, 2003.",
+  "facts": "Manoj Kumar filed Writ-C No. 1635 of 2020 in the Allahabad High Court seeking certiorari to quash a recovery notice dated 19 November 2019 issued by the Executive Engineer (respondent no. 2) and a mandamus to restore his electricity connection forthwith, with protection against coercive recovery. He submitted that the respondents were taking coercive action without opportunity of hearing and without following the U.P. Electricity Supply Code, 2005. The Court heard counsel for the petitioner and for the electricity department.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "relegation to speaking order then section 127 appeal",
+      "type": "electricity_act",
+      "holding": "Without deciding whether the recovery notice was valid or whether the Supply Code had been followed, the Court directed the petitioner to appear before the Executive Engineer on 5 February 2020 at 11:00 a.m. with objections and evidence; required a speaking and reasoned final order within four weeks; stayed coercive action for seven weeks or until disposal of the representation, whichever is earlier (interim protection vacated on default; recovery citation revives on non-appearance); and left the petitioner, if aggrieved by that final order, to an appeal under Section 127 of the Electricity Act, 2003.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternative-remedy-relegation-section-127",
+      "application": "After directing a speaking final order on the consumer's objections to the recovery notice, the Court left any further challenge to an appeal under Section 127 rather than quashing the notice or restoring supply.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "relegation-to-section-127-appeal-on-merits-limitation-not-examined",
+      "application": "The Court did not examine the merits of the recovery or the alleged Supply Code breach, and relegated the consumer to Section 127 if aggrieved by the Executive Engineer's final order.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Validity of the 19.11.2019 recovery notice and alleged non-compliance with the U.P. Electricity Supply Code, 2005",
+      "note": "The petitioner's case of coercive recovery without hearing or Supply Code compliance was not examined on the merits.",
+      "paras": "1"
+    },
+    {
+      "point": "Restoration of electricity connection",
+      "note": "Mandamus to restore supply was not granted.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
