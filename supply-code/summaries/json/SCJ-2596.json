@@ -1,0 +1,82 @@
+{
+  "case_id": "SCJ-2596",
+  "title": "Sunil Kumar Sahani v. State of U.P.",
+  "neutral_citation": "Writ-C No. 17098 of 2021",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Naheed Ara Moonis, J.; Saumitra Dayal Singh, J.",
+  "date_of_judgment": "2021-07-27",
+  "date_display": "27 July 2021",
+  "docket": "WRIT - C No. 17098 of 2021",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; Clause 8.1(b) hearing directed, recovery stayed.",
+  "headnote": "A theft provisional assessment under Clause 8.1 of the U.P. Electricity Supply Code, 2005 does not attain finality merely because no objection was filed, where the communication neither disclosed the adverse material nor afforded a full, proper and real hearing. The fifteen working days in Clause 8.1(b)(iii) for objections is not mandatory. The writ was disposed with directions to supply the material, receive objections, hear the consumer and pass a reasoned order in accordance with law, coercive recovery being stayed.",
+  "facts": "The petitioner challenged recovery of Rs 1,15,332 as electricity dues. The distribution company alleged theft, invoked section 135 of the Electricity Act, 2003, and said a provisional assessment dated 4 November 2019 had been served and, for want of objection, had attained finality. The petitioner denied lawful service and said the adverse material underlying that assessment had never been confronted to him. Coercive recovery was in train.",
+  "reusable_constructions": [
+    {
+      "construction": "The fifteen working days in Clause 8.1(b)(iii) of the U.P. Electricity Supply Code, 2005 for filing objections to a theft provisional assessment is not mandatory.",
+      "paras": "5"
+    },
+    {
+      "construction": "A theft provisional assessment does not attain finality merely because no objection was filed, where the communication neither disclosed the adverse material relied on nor afforded a full, proper and real Clause 8.1(b) hearing.",
+      "paras": "5-6"
+    },
+    {
+      "construction": "Where a theft assessment would create civil liability in addition to criminal liability under section 135, the Clause 8.1(b) opportunity must be full, proper and real, including confrontation with the adverse material.",
+      "paras": "6"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1(b)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "8.1(b)",
+      "topic": "theft assessment — provisional order, objections and hearing",
+      "type": "supply_code",
+      "holding": "Clause 8.1 governs assessment and enforcement of demand in theft cases. Clause 8.1(b) contemplates a hearing on objections filed within fifteen days of the provisional assessment, but the fifteen working days in Clause 8.1(b)(iii) is not mandatory. A provisional theft assessment does not attain finality merely because no objection was filed, where the communication did not disclose the adverse material. Given the civil liability proposed in addition to criminal liability under section 135 of the Electricity Act, 2003, the opportunity must be full, proper and real. The writ was disposed directing disclosure of that material (subject to a Rs 25,000 deposit), filing of objections, a hearing, and a reasoned order in accordance with law, with coercive recovery stayed for three months or until that decision, whichever is earlier.",
+      "paras": "5-9"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-8.1-8.2-govern-theft-assessment-not-6.8",
+      "application": "Assessment and enforcement of demand in theft cases is provided under Clause 8.1 of the 2005 Code, applied here in a section 135 proceeding.",
+      "lead_authorities": [],
+      "paras": "5"
+    },
+    {
+      "tag": "clause-8.1b-personal-hearing-mandatory-before-final-assessment",
+      "application": "The Court rejected the plea that the provisional assessment had attained finality for want of objection, held the Clause 8.1(b)(iii) fifteen-day window not mandatory, and directed a hearing and reasoned order after objections.",
+      "lead_authorities": [],
+      "paras": "5-7"
+    },
+    {
+      "tag": "clause-8.1b-theft-notice-natural-justice",
+      "application": "The 4 November 2019 communication neither disclosed the adverse material being relied on nor the basis of the proposed adverse conclusion; allowing that provisional order to become final would cause an unjust result.",
+      "lead_authorities": [],
+      "paras": "6"
+    },
+    {
+      "tag": "no-recovery-without-final-assessment-clause-8.1(b)",
+      "application": "No coercive measure for three months or until disposal of the objection, whichever is earlier, subject to a Rs 25,000 deposit; further recovery to abide the licensee's reasoned decision after hearing.",
+      "lead_authorities": [],
+      "paras": "8-9"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner committed theft and the quantum of the Rs 1,15,332 demand",
+      "note": "Merits left to the licensee after disclosure, objection and hearing.",
+      "paras": "7-9"
+    },
+    {
+      "point": "Whether the provisional assessment dated 4 November 2019 was served in accordance with law",
+      "note": "Asserted by the petitioner; the Court proceeded on the deficiency of the communication itself.",
+      "paras": "4-6"
+    }
+  ],
+  "authorities": []
+}
