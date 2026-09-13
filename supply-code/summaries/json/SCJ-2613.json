@@ -1,0 +1,55 @@
+{
+  "case_id": "SCJ-2613",
+  "title": "Shishir Kumar Singh v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Manoj Misra and Jayant Banerji, JJ.",
+  "date_of_judgment": "2021-09-28",
+  "date_display": "28 September 2021",
+  "docket": "Writ-C No. 20524 of 2021",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; petitioner relegated to clause 6.5",
+  "headnote": "A subsequent writ on a disputed electricity bill, including alleged misclassification of supply as commercial instead of pumping-set use, is not decided on merits where clause 6.5 of the U.P. Electricity Supply Code, 2005 remains available. After a prior writ had already given liberty to invoke clause 6.5 and the grievance still appeared unaddressed, the Court again relegated the consumer to that remedy and directed the licensee to decide a fresh application on merits within a time-bound period.",
+  "facts": "The petitioner held a Purvanchal Vidyut Vitran Nigam Limited connection. He had challenged a bill in Writ-C No. 52633 of 2017, disposed of with liberty to invoke clause 6.5 of the U.P. Electricity Supply Code, 2005. He claimed that application remained pending. The Nigam said supply continued, bills were partly paid, and a fresh bill or disconnection notice demanded Rs. 41,902 including arrears. The petitioner said the supply was wrongly charged as commercial though used for a pumping set.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "billing-dispute-alternate-remedy",
+      "type": "supply_code",
+      "holding": "The Court declined to decide the billing and tariff-classification dispute in writ and disposed of the petition with liberty to submit an application under clause 6.5 of the U.P. Electricity Supply Code, 2005 within two weeks; if so filed, the licensee shall address and decide it on merits as per law, preferably within six weeks of filing.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-alternate-remedy-to-writ",
+      "application": "The disputed demand and alleged commercial-versus-pumping-set classification were treated as a clause 6.5 billing grievance, not a matter for writ adjudication.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "6.5-pending-complaint-writ-remitted",
+      "application": "Noting that the consumer's earlier clause 6.5 grievance did not appear to have been addressed, the Court remitted rather than deciding the bill, with a time-bound merits direction.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the connection was for commercial use or a pumping set",
+      "note": "Petitioner's tariff-classification plea left to clause 6.5.",
+      "paras": "1"
+    },
+    {
+      "point": "Correctness of the Rs. 41,902 demand and disconnection notice",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
