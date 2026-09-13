@@ -1,0 +1,46 @@
+{
+  "case_id": "SCJ-2591",
+  "title": "Dhanpal v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta, J.; Vikram D. Chauhan, J.",
+  "date_of_judgment": "2023-01-28",
+  "date_display": "28 January 2023",
+  "docket": "Writ - C No. 1611 of 2021",
+  "page_count": 6,
+  "significance": "ordinary",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Recovery withdrawn; petition disposed; fresh Supply Code order.",
+  "headnote": "The Allahabad High Court disposed of a writ challenging a 7 November 2020 recovery citation for alleged theft of electricity after the Electricity Department stated that the recovery had been withdrawn, a fresh notice inviting objections had been issued, and a fresh order would be passed as per the Electricity Supply Code, 2005. Liberty was granted to the corporation to pass that fresh order after following the Code procedure.",
+  "facts": "Dhanpal filed Writ-C No. 1611 of 2021 in the Allahabad High Court against the State of U.P. and electricity authorities, challenging a recovery citation dated 7 November 2020 for alleged theft-of-electricity dues. His case was that no provisional or final assessment order had been served on him and that a recovery certificate had been issued straightaway. After repeated listings, including a 12 January 2023 order granting the department time to file a counter affidavit, the matter was taken up on 28 January 2023.",
+  "holding_units": [
+    {
+      "provision": "UP-2005",
+      "code": "UP Electricity Supply Code, 2005",
+      "clause": "",
+      "topic": "theft recovery withdrawn; fresh order under Supply Code",
+      "type": "supply_code",
+      "holding": "Where the distribution licensee withdraws a recovery citation issued for alleged theft of electricity and undertakes to pass a fresh order after following the procedure prescribed under the Electricity Supply Code, 2005, the writ challenging that citation is disposed of in those terms, with liberty to the corporation to proceed afresh under the Code.",
+      "paras": "1",
+      "flag": "Court referred to the Electricity Supply Code, 2005 without citing a clause. Catalog hit UP-2005::3.3(e) does not fit this theft-recovery disposal."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "recovery-withdrawn-fresh-supply-code-order",
+      "application": "On the licensee's statement that the 7 November 2020 theft recovery had been withdrawn and that a fresh notice and a fresh Supply Code order would follow, the writ was disposed of in those terms with liberty to the corporation.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether a theft recovery certificate may issue without service of provisional and final assessment orders",
+      "note": "The Court recorded withdrawal of the citation and did not rule on the petitioner's assessment-procedure complaint.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
