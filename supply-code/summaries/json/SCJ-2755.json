@@ -1,0 +1,51 @@
+{
+  "case_id": "SCJ-2755",
+  "title": "Ganeshpal Giri v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Surya Prakash Kesarwani and Jayant Banerji, JJ.",
+  "date_of_judgment": "2022-05-26",
+  "date_display": "26 May 2022",
+  "docket": "Writ-C No. 10151 of 2022",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; relegated to clause 6.5; coercive action stayed eight weeks.",
+  "headnote": "Writ seeking quashing of a recovery certificate disposed of without merits examination. The consumer was given liberty to file an objection under clause 6.5 of the U.P. Electricity Supply Code, 2005, to be decided after hearing within four weeks of filing, with coercive recovery stayed for eight weeks or until disposal of the objection, whichever is earlier.",
+  "facts": "Ganeshpal Giri petitioned the Allahabad High Court to quash a Recovery Certificate dated 4 September 2021 issued by respondent no. 2 for Rs. 3,45,874 and other charges. Counsel for the Power Distribution Corporation (respondent no. 3) stated on instructions that the petitioner could file an objection against the demand, which would be decided in accordance with law within a time-bound period. The Court disposed of the writ on that statement, without examining the merits of the recovery.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "clause-6.5-alternate-remedy-to-writ",
+      "type": "supply_code",
+      "holding": "A writ challenging a recovery certificate is disposed of without examining merits by giving the consumer liberty to file an objection under clause 6.5 of the U.P. Electricity Supply Code, 2005, which the licensee must decide in accordance with law after hearing, with coercive recovery stayed for a limited period pending that decision.",
+      "paras": "4-5"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-alternate-remedy-to-writ",
+      "application": "The writ against the recovery certificate was disposed of by relegating the petitioner to a clause 6.5 objection instead of deciding the demand on merits.",
+      "lead_authorities": [],
+      "paras": "4"
+    },
+    {
+      "tag": "clause-6.5-statutory-remedy-disputed-bill",
+      "application": "The Court treated clause 6.5 as the statutory forum for objecting to the impugned demand and directed the licensee to decide any such objection in accordance with law after hearing.",
+      "lead_authorities": [],
+      "paras": "3-4"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness of the Recovery Certificate dated 4.9.2021 and the demand of Rs. 3,45,874",
+      "note": "Court expressly declined to express any opinion on merits.",
+      "paras": "4"
+    }
+  ],
+  "authorities": []
+}
