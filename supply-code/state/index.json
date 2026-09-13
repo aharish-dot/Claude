@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2664,
+  "next_seq": 2665,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -15940,6 +15940,12 @@
       "case_id": "SCJ-2660",
       "source_basename": "WRIC(A)_30855_2021.pdf",
       "title": "Maya Devi v. State of U.P. & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2661",
+      "source_basename": "WRIC(A)_30926_2021.pdf",
+      "title": "Friends Land Developers v. State of U.P. — Clause 4.9 13th Amendment SPS-to-MPS challenge; Maxblis interim applied",
       "status": "done"
     }
   ]
