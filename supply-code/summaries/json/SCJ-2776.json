@@ -1,0 +1,57 @@
+{
+  "case_id": "SCJ-2776",
+  "title": "Madan Kumar Vishkerma v. State of U.P.",
+  "neutral_citation": "WRIT - C No. 11979 of 2022",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta, J.; Dr. Yogendra Kumar Srivastava, J.",
+  "date_of_judgment": "2022-07-05",
+  "date_display": "5 July 2022",
+  "docket": "WRIT - C No. - 11979 of 2022",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; petitioner relegated to clause 6.5.",
+  "headnote": "A writ seeking quashing of an electricity bill was disposed of because Paragraph 6.5 of the U.P. Electricity Supply Code, 2005 supplies an alternative remedy to question the bill. The petitioner was left free to invoke that mechanism; the electricity department was to deal with the objection in accordance with law. Correctness of the bill was not decided.",
+  "facts": "Madan Kumar Vishkerma petitioned the Allahabad High Court to quash an electricity bill issued by the electricity department. On 28 April 2022 the Division Bench granted the Corporation ten days to take instructions and listed the matter as fresh. At the 5 July 2022 hearing, counsel for the respondents, having obtained instructions, submitted that the bill had been rightly issued. The Court did not try the correctness of the bill.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "disputed electricity bill — alternative remedy",
+      "type": "supply_code",
+      "holding": "A consumer who seeks quashing of an electricity bill in writ jurisdiction has an alternative remedy of questioning the bill under Paragraph 6.5 of the U.P. Electricity Supply Code, 2005. The writ is disposed of with liberty to avail that remedy, and the electricity department shall deal with the objection in accordance with law.",
+      "paras": "3-4"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-alternate-remedy",
+      "application": "Writ to quash an electricity bill disposed because Paragraph 6.5 is the alternative remedy.",
+      "lead_authorities": [],
+      "paras": "3-4"
+    },
+    {
+      "tag": "clause-6.5-alternate-remedy-to-writ",
+      "application": "High Court declined to examine the bill in writ and sent the consumer to the 6.5 mechanism.",
+      "lead_authorities": [],
+      "paras": "3-4"
+    },
+    {
+      "tag": "clause-6.5-statutory-remedy-disputed-bill",
+      "application": "Disputed electricity bill to be questioned under Paragraph 6.5; department to decide the objection in accordance with law.",
+      "lead_authorities": [],
+      "paras": "3-4"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the electricity bill was rightly issued",
+      "note": "Respondents asserted correctness; the Court did not examine the bill on merits and left the objection to clause 6.5.",
+      "paras": "2-4"
+    }
+  ],
+  "authorities": []
+}
