@@ -1,0 +1,65 @@
+{
+  "case_id": "SCJ-2685",
+  "title": "Julfkar v. State of U.P.",
+  "neutral_citation": "2023:AHC:103795-DB",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Surya Prakash Kesarwani, J.; Jayant Banerji, J.",
+  "date_of_judgment": "2023-05-12",
+  "date_display": "12 May 2023",
+  "docket": "WRIT - C No. 34115 of 2021",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed at this stage with liberty to clauses 6.5 or 6.8; delay on recall condoned but restoration refused, installment relief left to clause 6.14.",
+  "headnote": "A writ challenging alleged forged recovery bills was dismissed at that stage because related Permanent Lok Adalat cases were already pending, with liberty to invoke clause 6.5 or 6.8 of the U.P. Electricity Supply Code, 2005. On recall the Division Bench held that the earlier dismissal was on merit and refused to order payment of dues in installments, clause 6.14 already enabling the consumer to apply for that facility before the competent authority.",
+  "facts": "Julfkar and three others filed a writ against the State and the distribution licensee seeking to set aside alleged forged bills of fake recovery. Counsel for the State and the licensee objected that petitioners 1 and 2 had already filed Case No. 13 of 2021 and petitioner 3 Case No. 14 of 2021 before the Permanent Lok Adalat, Bijnor, which remained pending. None appeared for the petitioners when the writ was called on 26 May 2022. On recall they offered to pay the entire dues in easy installments.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "writ dismissed; liberty to 6.5 or 6.8",
+      "type": "supply_code",
+      "holding": "Where a writ seeking to set aside alleged forged recovery bills is objected to on the ground that the consumers have already approached the Permanent Lok Adalat and those cases remain pending, the writ may be dismissed at that stage, with liberty to avail the remedy under clause 6.5 or 6.8 of the U.P. Electricity Supply Code, 2005, as the case may be. A later recall application does not reopen that merits dismissal.",
+      "paras": "3"
+    },
+    {
+      "provision": "UP-2005::6.14",
+      "code": "UP-2005",
+      "clause": "6.14",
+      "topic": "installment facility not ordered on recall",
+      "type": "supply_code",
+      "holding": "The High Court will not direct payment of electricity dues in installments while hearing a recall or restoration application, because clause 6.14 of the U.P. Electricity Supply Code, 2005 already enables a consumer to apply for installment facility before the competent authority.",
+      "paras": "5"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-alternate-remedy-to-writ",
+      "application": "Writ dismissed at the stage it was called because Permanent Lok Adalat cases on the same bills were pending; liberty reserved to clauses 6.5 or 6.8.",
+      "lead_authorities": [],
+      "paras": "3"
+    },
+    {
+      "tag": "installment-payment-clause-6.14",
+      "application": "Recall application seeking installment payment of dues rejected; consumers left to apply under clause 6.14.",
+      "lead_authorities": [],
+      "paras": "5"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the recovery bills were forged or fake",
+      "note": "Writ dismissed at this stage; bill correctness was not examined.",
+      "paras": "3"
+    },
+    {
+      "point": "Entitlement to installment payment of dues",
+      "note": "No installment order on recall; consumers left to apply under clause 6.14.",
+      "paras": "5"
+    }
+  ],
+  "authorities": []
+}
