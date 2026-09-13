@@ -1,0 +1,52 @@
+{
+  "case_id": "SCJ-2614",
+  "title": "Riyazuddin v. Uttar Pradesh Power Corporation Ltd.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Naheed Ara Moonis and Saumitra Dayal Singh, JJ.",
+  "date_of_judgment": "2021-08-26",
+  "date_display": "26 August 2021",
+  "docket": "WRIT - C No. 20584 of 2021",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition dismissed; petitioner left to pursue appeal.",
+  "headnote": "Where an earlier writ against a recovery notice was disposed of with liberty to file a representation to be decided in accordance with law, a later Executive Engineer order passed solely in compliance of that direction and describing itself as a final assessment of electricity dues and compounding fee is treated as a final assessment. A plea that it was invalid for want of a preceding provisional assessment under the U.P. Electricity Supply Code, 2005 was rejected; the writ was dismissed, leaving the consumer to the statutory appeal.",
+  "facts": "Riyazuddin challenged the Executive Engineer's 15 February 2021 order demanding Rs. 4,15,728 as electricity dues and Rs. 1,00,000 as compounding fee, arguing it was not a Code-compliant final assessment for want of a preceding provisional assessment. He had earlier challenged a 26 December 2019 recovery notice in Writ-C No. 25667 of 2020, disposed of on 18 January 2021 with liberty to represent and a short stay of coercive action. The impugned order was passed pursuant to that direction.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::assessment",
+      "code": "UP-2005",
+      "clause": "assessment",
+      "topic": "final assessment — preceding provisional assessment; order passed on writ-directed representation",
+      "type": "supply_code",
+      "holding": "The plea that the Executive Engineer's 15.02.2021 demand of electricity dues and compounding fee was not a final assessment under the U.P. Electricity Supply Code, 2005 because it had not been preceded by a provisional assessment, was rejected. An earlier recovery notice had been challenged in Writ-C No. 25667 of 2020, disposed of on 18.01.2021 with liberty to file a representation to be decided in accordance with law; that order had attained finality, so grievances arising from the demand had to be ventilated that way. The 15.02.2021 order was passed solely in compliance of that direction and fully describes itself as a final assessment. The writ was dismissed as lacking merit, leaving the petitioner to pursue his remedy of appeal against that order.",
+      "paras": "3-7",
+      "flag": "The order invokes the U.P. Electricity Supply Code, 2005 generally (provisional then final assessment) without a clause number; compounding fee is mentioned but not tied to a numbered provision."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "final-assessment-order-passed-in-compliance-of-writ-direction",
+      "application": "An Executive Engineer order raising electricity dues and compounding fee, passed solely in compliance of a prior High Court direction to consider a representation and describing itself as a final assessment, was treated as a final assessment; the consumer's plea that it was invalid for want of a preceding provisional assessment under the Supply Code was rejected.",
+      "lead_authorities": [],
+      "paras": "4-6"
+    },
+    {
+      "tag": "writ-dismissed-statutory-appeal-left-open",
+      "application": "Having held the writ lacked merit, the Court dismissed it while leaving the petitioner free to pursue his remedy of appeal against the 15.02.2021 final assessment.",
+      "lead_authorities": [],
+      "paras": "7"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness of the demand of Rs. 4,15,728 towards electricity dues and Rs. 1,00,000 towards compounding fee",
+      "note": "Writ dismissed on the characterisation of the 15.02.2021 order as a final assessment; petitioner left to the statutory appeal.",
+      "paras": "7"
+    }
+  ],
+  "authorities": []
+}
