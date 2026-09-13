@@ -1,0 +1,61 @@
+{
+  "case_id": "SCJ-2825",
+  "title": "Padma Seth v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sunita Agarwal, J.; Vikram D. Chauhan, J.",
+  "date_of_judgment": "2022-06-21",
+  "date_display": "21 June 2022",
+  "docket": "Writ-C No. 17353 of 2022",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Connection directed on Clause 4.4 indemnity; co-claimant objections ignored.",
+  "headnote": "An occupier of a shop whose title is disputed by relatives may obtain a new electricity connection by furnishing an indemnity bond under Clause 4.4 read with Annexure 4.2 of the U.P. Electricity Supply Code, 2005. Once those formalities are completed, the licensee must grant and energise the connection without adverting to co-claimant objections; their rights remain open in pending civil proceedings.",
+  "facts": "Padma Seth occupied shop D17/144-1, Bhuteshwar Gali, Varanasi, and sought an electricity connection. Her sisters (respondents 3 and 4) objected; civil proceedings over rights in the shop were pending. They opposed a mandamus to install supply. On the Court's query, counsel for the distribution licensee said connection could be granted in her name on a Clause 4.4 indemnity bond (Annexure 4.2 of the Electricity Supply Code, 2005). She agreed to furnish that bond.",
+  "reusable_constructions": [
+    {
+      "construction": "An occupier whose title is contested may obtain a new connection by furnishing the Clause 4.4 / Annexure 4.2 indemnity bond; the licensee must then grant and energise without waiting on co-claimant objections.",
+      "paras": "1"
+    },
+    {
+      "construction": "Pending civil proceedings over the premises do not stall a Clause 4.4 occupier connection; objecting co-claimants are left to those proceedings.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.4",
+      "code": "UP-2005",
+      "clause": "4.4",
+      "topic": "occupier connection on indemnity despite third-party objections",
+      "type": "supply_code",
+      "holding": "Where the occupier of a shop applies for a new electricity connection and co-claimants (here, relatives in pending civil proceedings) object, the occupier may furnish an indemnity bond strictly in accordance with Clause 4.4 (Annexure 4.2) of the Electricity Supply Code, 2005 and complete the necessary formalities. On completion, the licensee is under obligation to grant and energise the connection without adverting to those objections; the objectors remain free to pursue their stand in the pending civil court.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-4.4-occupant-connection-on-indemnity-bond",
+      "application": "The occupier was directed to furnish the Clause 4.4 / Annexure 4.2 indemnity; on completing those formalities the licensee must grant and energise the shop connection despite co-claimant objections.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "occupier-needs-proof-of-occupancy-plus-indemnity-bond-clause-4.4",
+      "application": "Occupation of the shop was treated as the factual premise; the operative condition imposed was the Clause 4.4 indemnity bond in the Annexure 4.2 form.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Title or rights in the shop as between the petitioner and respondent nos. 3 and 4",
+      "note": "Left open to pending civil proceedings; those respondents remain free to pursue their stand there.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
