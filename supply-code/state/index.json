@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2720,
+  "next_seq": 2721,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -16276,6 +16276,12 @@
       "case_id": "SCJ-2715",
       "source_basename": "WRIC(A)_6475_2021.pdf",
       "title": "Mohammad Tasleem v. State of U.P. and others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2716",
+      "source_basename": "WRIC(A)_6483_2021.pdf",
+      "title": "Vikram Singh v. State of U.P. — theft recovery citation; criminal acquittal does not wipe Clause 8.1(a)/s.126 assessment",
       "status": "done"
     }
   ]

@@ -1,0 +1,77 @@
+{
+  "case_id": "SCJ-2716",
+  "title": "Vikram Singh v. State of U.P. — theft recovery citation; criminal acquittal does not wipe Clause 8.1(a)/s.126 assessment",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sunita Agarwal, J. and Deepak Verma, J.",
+  "date_of_judgment": "2021-03-15",
+  "date_display": "15 March 2021",
+  "docket": "WRIT - C No. 6483 of 2021",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; criminal acquittal does not wipe civil theft assessment; Section 127 appeal left open.",
+  "headnote": "A recovery citation issued on theft-of-electricity allegations is a civil assessment under Clause 8.1(a) of the U.P. Electricity Supply Code, 2005 read with Section 126 of the Electricity Act, 2003, challengeable by appeal under Section 127, not by writ. Acquittal in the criminal prosecution (Clause 8.2) does not absolve that civil liability: criminal proof is beyond reasonable doubt, while civil assessment proceeds on preponderance of probability.",
+  "facts": "Vikram Singh challenged a 30 September 2020 recovery citation issued against him on allegations of electricity theft. He had earlier succeeded before the District Consumer Forum, Bulandshahr, but the State Consumer Forum set aside that order holding it had no jurisdiction over theft disputes. He further relied on his acquittal in Case Crime No. 47 of 2002, registered under Sections 39/49 of the Indian Electricity Act, 2003, and contended that the demand had never been determined by a competent authority.",
+  "reusable_constructions": [
+    {
+      "construction": "On theft allegations, civil liability for unauthorised use is assessed under Clause 8.1(a) of the U.P. Electricity Supply Code, 2005 read with Section 126 of the Electricity Act, 2003, and is to be challenged by appeal under Section 127, not by writ.",
+      "paras": "1"
+    },
+    {
+      "construction": "Acquittal in a criminal theft prosecution (Clause 8.2) does not wipe the corresponding civil assessment: criminal proof is beyond reasonable doubt; civil liability is assessed on preponderance of probability.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1(a)",
+      "code": "UP-2005",
+      "clause": "8.1(a)",
+      "topic": "theft-civil-assessment-survives-criminal-acquittal",
+      "type": "interplay",
+      "holding": "Civil liability for unauthorised use on theft allegations is determined under Clause 8.1(a) of the U.P. Electricity Supply Code, 2005 read with Section 126 of the Electricity Act, 2003. The remedy against that assessment is an appeal under Section 127 read with Clause 8.1, not a writ. Acquittal in the criminal case, cognizance of which is under Clause 8.2, does not absolve the civil liability, because criminal evidence is tested beyond reasonable doubt whereas civil assessment proceeds on preponderance of probability.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "126-vs-135-distinct-fields-but-126-still-applies-to-theft",
+      "application": "The demand was issued on theft allegations under Section 135; civil liability is still assessed under Clause 8.1(a) read with Section 126.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "alternative-remedy-s127-appeal-bars-writ-against-s126-assessment",
+      "application": "Writ against the theft recovery citation dismissed; petitioner left to invoke Section 127 read with Clause 8.1 against the assessment.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "criminal-acquittal-does-not-absolve-civil-theft-assessment",
+      "application": "Acquittal in the Clause 8.2 criminal prosecution does not wipe the Clause 8.1(a)/Section 126 civil assessment; different standards of proof.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "merits and quantum of the theft assessment",
+      "note": "Left to statutory appeal under Section 127 read with Clause 8.1.",
+      "paras": "1"
+    },
+    {
+      "point": "whether a final assessment under Section 126(3) preceded the 30.9.2020 recovery citation",
+      "note": "The Court treated the citation as an assessment challengeable under Section 127 without examining that precondition.",
+      "paras": "1"
+    },
+    {
+      "point": "adequacy of hearing before the State Consumer Forum",
+      "note": "Recited as a contention; not decided once the writ was held not to be the remedy.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
