@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2652,
+  "next_seq": 2653,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -15868,6 +15868,12 @@
       "case_id": "SCJ-2650",
       "source_basename": "WRIC(A)_28100_2021.pdf",
       "title": "Sudha Tiwari v. State of U.P. — Clause 6.5 alternative remedy; writ dismissed",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2648",
+      "source_basename": "WRIC(A)_27504_2021.pdf",
+      "title": "Mohd. Mukhtar Rizvi v. State of U.P.",
       "status": "done"
     }
   ]

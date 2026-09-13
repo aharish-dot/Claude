@@ -1,0 +1,67 @@
+{
+  "case_id": "SCJ-2648",
+  "title": "Mohd. Mukhtar Rizvi v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Naheed Ara Moonis and Saumitra Dayal Singh, JJ.",
+  "date_of_judgment": "2021-11-17",
+  "date_display": "17 November 2021",
+  "docket": "WRIT - C No. - 27504 of 2021",
+  "page_count": 4,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of; assessing officer directed to hear pending objections to the provisional s.126 assessment and pass a reasoned order before recovery; coercive measures stayed.",
+  "headnote": "Where a consumer has filed a timely objection to a provisional assessment under section 126 of the Electricity Act, 2003 read with the U.P. Electricity Supply Code, 2005, the distribution licensee must adjudicate that objection before recovering the demand. The High Court disposed of the writ with directions to disclose adverse material, receive further objections, hear the consumer, and pass a reasoned order, staying coercive recovery until then.",
+  "facts": "Mohd. Mukhtar Rizvi challenged a provisional electricity assessment dated 21 March 2020. He had filed written objections on 3 April 2021 (the 17 November 2021 order originally recorded 3 April 2020; a correction order of 7 December 2021 substituted the year) before the assessing officer. Those objections remained pending while recoveries were pressed. After an earlier listing, the Division Bench disposed of the writ with directions for disclosure, further objection, hearing, and a reasoned decision, staying coercive recovery in the meantime.",
+  "reusable_constructions": [
+    {
+      "construction": "Once a consumer files a timely objection to a section 126 provisional assessment, the distribution licensee must adjudicate that objection before recovering the demand; recoveries arise only from the decision on the objections.",
+      "paras": "4"
+    },
+    {
+      "construction": "Adverse material relied on to support a section 126 provisional assessment must be disclosed to the consumer before the objections are finally decided.",
+      "paras": "6"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::126",
+      "code": "EA2003",
+      "clause": "126",
+      "topic": "provisional assessment — objections must be decided before recovery",
+      "type": "interplay",
+      "holding": "Under section 126 of the Electricity Act, 2003 read with the U.P. Electricity Supply Code, 2005, the distribution licensee must serve a provisional demand affording the consumer an opportunity to object. If a timely objection is filed, the licensee is obligated to adjudicate it before recovering the demand, and recoveries arise only from the decision on those objections. The assessing officer was directed to disclose adverse material supporting the 21 March 2020 provisional assessment, receive further objections, hear the parties, and pass a reasoned order in accordance with law; coercive recovery was stayed for two months or until that decision, whichever was earlier.",
+      "paras": "4-8"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "s126-procedural-strictness-notice-and-hearing",
+      "application": "The Court treated service of a provisional demand, an opportunity to object, and adjudication of a timely objection as mandatory under section 126 read with the Supply Code before any recovery.",
+      "lead_authorities": [],
+      "paras": "4"
+    },
+    {
+      "tag": "ex-parte-s126-assessment-requires-hearing-before-recovery",
+      "application": "Objections to the provisional assessment remained unheard while recoveries were pressed; the Court stayed coercive measures and required a hearing and reasoned order before further recovery.",
+      "lead_authorities": [],
+      "paras": "4-8"
+    },
+    {
+      "tag": "final-assessment-order-mandatory-under-section-126-3",
+      "application": "Although the order cites section 126 generally, it holds that recoveries may arise only after the objections to the provisional assessment are decided, which is the section 126(3) final-assessment step.",
+      "lead_authorities": [],
+      "paras": "4"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "validity and quantum of the provisional assessment dated 21.03.2020",
+      "note": "left to the assessing officer after disclosure of adverse material, further objections, and hearing",
+      "paras": "6"
+    }
+  ],
+  "authorities": []
+}
