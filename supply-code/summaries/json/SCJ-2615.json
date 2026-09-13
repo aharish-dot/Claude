@@ -1,0 +1,58 @@
+{
+  "case_id": "SCJ-2615",
+  "title": "Ramesh v. Dakshinanchal Vidyut Vitran Nigam Ltd.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Naheed Ara Moonis, J.; Saumitra Dayal Singh, J.",
+  "date_of_judgment": "2021-08-27",
+  "date_display": "27 August 2021",
+  "docket": "Writ-C No. 20794 of 2021",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition dismissed as lacking merit; no order as to costs.",
+  "headnote": "A consumer's writ attacking a 4 February 2021 demand of Rs. 2,13,143 on the plea that Rs. 39,000 paid on 5 March 2020 had already discharged the dues was dismissed. That deposit related to a bill raised before the payment, not to the later demand issued nearly a year afterwards. Temporary disconnection on 13 March 2021 showed consumption until then. Other grievances were left to the statutory authority under the U.P. Electricity Supply Code, 2005.",
+  "facts": "Ramesh, a consumer of Dakshinanchal Vidyut Vitran Nigam, challenged a bill dated 4 February 2021 demanding Rs. 2,13,143 comprising current dues of Rs. 7,546.39 and arrears of Rs. 2,03,110.73. He contended that the entire amount had already been paid on 5 March 2020, producing a receipt for Rs. 39,000. Supply was temporarily disconnected on 13 March 2021. Counsel for the petitioner and the distribution corporation were heard on the writ.",
+  "holding_units": [
+    {
+      "provision": "UP-2005",
+      "code": "UP-2005",
+      "clause": "",
+      "topic": "billing-demand-already-paid",
+      "type": "supply_code",
+      "holding": "The Rs. 39,000 paid on 5 March 2020 was toward a bill raised before that deposit and did not discharge the 4 February 2021 demand of Rs. 2,13,143. Temporary disconnection on 13 March 2021 meant the petitioner consumed electricity until then. Residual grievances may be examined by the statutory authority under the U.P. Electricity Supply Code, 2005. No ground was made out to entertain the writ, which was dismissed as lacking merit.",
+      "paras": "1",
+      "flag": "order invokes the U.P. Electricity Supply Code, 2005 without naming a clause"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "prior-payment-does-not-discharge-later-demand",
+      "application": "The 5 March 2020 deposit of Rs. 39,000 was held to relate to a bill raised before that date, not to the 4 February 2021 demand issued nearly a year later; the already-paid challenge therefore failed.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "consumption-presumed-until-temporary-disconnection",
+      "application": "Because temporary disconnection occurred only on 13 March 2021, the petitioner was assumed to have consumed electricity till then.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "residual-grievances-statutory-authority-supply-code",
+      "application": "Grievances other than the rejected payment plea were left to the statutory authority under the U.P. Electricity Supply Code, 2005.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Residual grievances other than the plea that the 4 February 2021 demand had already been paid",
+      "note": "May be examined by the statutory authority under the U.P. Electricity Supply Code, 2005.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
