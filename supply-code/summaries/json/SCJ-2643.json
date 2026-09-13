@@ -1,0 +1,59 @@
+{
+  "case_id": "SCJ-2643",
+  "title": "Anoop Kumar v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Naheed Ara Moonis and Saumitra Dayal Singh, JJ.",
+  "date_of_judgment": "2021-11-17",
+  "date_display": "17 November 2021",
+  "docket": "WRIT - C No. - 26571 of 2021",
+  "page_count": 4,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; recoveries stayed pending hearing of objections after service.",
+  "headnote": "Under section 126 of the Electricity Act, 2003 read with the U.P. Electricity Supply Code, 2005, the licensee must serve a provisional demand so the consumer can object, and must decide a timely objection before recovery. Where service of the provisional assessments is not established, recoveries are premature. The writ was disposed of by directing supply of adverse material, a timed objection-and-hearing process, and a stay of coercive recovery pending that adjudication.",
+  "facts": "The petitioners challenged recovery citations dated 26 August 2021 and 28 August 2021 for electricity dues. On instructions, the distribution company disclosed a provisional assessment of 22 November 2019 for Rs 1,60,681 on a checking report of 28 September 2019, and a further provisional assessment of 31 December 2020 for Rs 1,28,539 on a checking report of 19 November 2020. Neither dispatch endorsement nor any other material produced with the instructions established that those provisional orders had been served on the petitioners.",
+  "reusable_constructions": [
+    {
+      "construction": "Service of the section 126 provisional demand is a mandatory precondition; recoveries do not arise until that service is established and, if a timely objection is filed, until the objection is decided.",
+      "paras": "1"
+    },
+    {
+      "construction": "Section 126 of the Electricity Act, 2003 read with the U.P. Electricity Supply Code, 2005 requires the licensee to serve the provisional demand, permit objections, and adjudicate them before seeking recovery.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::126",
+      "code": "EA2003",
+      "clause": "126",
+      "topic": "service of provisional assessment as precondition to recovery",
+      "type": "interplay",
+      "holding": "Under section 126 of the Electricity Act, 2003 read with the U.P. Electricity Supply Code, 2005, the distribution licensee must serve a provisional demand on the consumer so that objections can be filed. If an objection is filed in time, the licensee must adjudicate it before seeking recovery; recoveries arise only upon that decision. Where service of the provisional assessment orders is not established, recoveries are premature. The writ was disposed of by directing respondent no. 5 to furnish the adverse material supporting the recovery citations, receive the petitioners' objections, hear the parties, and pass a reasoned order in accordance with law, with coercive measures stayed for three months or until disposal of the objections, whichever is earlier.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "s126-procedural-strictness-notice-and-hearing",
+      "application": "The Court treated established service of the section 126 provisional demand, an opportunity to object, and adjudication of a timely objection as mandatory before any recovery could arise, and held the recoveries premature because service was not proved.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the checking reports established unauthorised use",
+      "note": "The Court did not examine the checking reports of 28.09.2019 and 19.11.2020 on the merits.",
+      "paras": "1"
+    },
+    {
+      "point": "Quantum of the two provisional assessments",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
