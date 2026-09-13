@@ -1,0 +1,62 @@
+{
+  "case_id": "SCJ-2470",
+  "title": "Shamshad v. Pashimanchal Vidyut Vitran Nigam Ltd.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Mahesh Chandra Tripathi, J. and Sanjay Kumar Pachori, J.",
+  "date_of_judgment": "2021-01-20",
+  "date_display": "20 January 2021",
+  "docket": "Writ-C No. 26886 of 2020",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of; relegated to Section 127 appeal.",
+  "headnote": "A writ challenging a licensee's revenue assessment and compounding demand for alleged theft of electricity is not entertained where an appeal under Section 127 of the Electricity Act, 2003 is available. The Allahabad High Court treated the Act and the U.P. Electricity Supply Code, 2005 as a self-contained code, held the writ not maintainable, and disposed of the petition with liberty to pursue that statutory appeal.",
+  "facts": "The petitioner challenged an assessment dated 22 September 2020 issued by Paschimanchal Vidyut Vitran Nigam Ltd., raising a revenue assessment of Rs.1,66,820 and a compounding fee of Rs.20,000. The licensee opposed the writ on the ground that the petitioner had been found indulging in theft of electricity and that the demand followed from that finding. After an adjournment on 13 January 2021 at the licensee's request, the Division Bench heard both sides on 20 January 2021.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act, 2003",
+      "clause": "127",
+      "topic": "writ maintainability against assessment; alternative remedy of appeal",
+      "type": "electricity_act",
+      "holding": "The Electricity Act, 2003 (styled in the order as the U.P. Electricity Act, 2003) and the U.P. Electricity Supply Code, 2005 are a self-contained code. An assessment demand of the kind challenged here—revenue assessment plus compounding fee, said to follow a finding of theft—is to be tested in appeal under Section 127. Contentions raised in the writ may be raised in that appeal. Because the alternative remedy is available, the High Court will not interfere in writ; disposal of the petition does not impede pursuit of the statutory remedy under the Act read with the Supply Code.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternate-remedy-section-127-appeal-bars-writ",
+      "application": "Writ against the 22.09.2020 assessment and compounding demand was refused because a Section 127 appeal was available.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "alternative-remedy-relegation-section-127",
+      "application": "Petition disposed of with liberty to pursue the Section 127 appeal; the order would not stand in the petitioner's way.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "alternative-remedy-section-127-appeal",
+      "application": "Court directed the petitioner to the statutory appeal under Section 127 rather than examining the assessment on merits.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits of the 22.09.2020 revenue assessment and compounding demand, including whether theft was established",
+      "note": "The Court declined merits examination because the Section 127 appeal was available.",
+      "paras": "1"
+    },
+    {
+      "point": "Whether the demand was a final Section 126 assessment or a theft/compounding levy",
+      "note": "The order treats the demand as appealable under Section 127 without classifying it under Section 126 or Section 135.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
