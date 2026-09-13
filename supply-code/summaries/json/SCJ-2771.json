@@ -1,0 +1,67 @@
+{
+  "case_id": "SCJ-2771",
+  "title": "Diwan Chand Ahuja v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta, J.; Dinesh Pathak, J.",
+  "date_of_judgment": "2022-05-25",
+  "date_display": "25 May 2022",
+  "docket": "Writ-C No. 11237 of 2022",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Speaking order directed on Clause 4.4 occupier claim",
+  "headnote": "KESCO had withheld a prepaid connection after the landlord objected. The petitioners, claiming to be tenants holding over, invoked Clause 4.4 of the U.P. Electricity Supply Code, 2005 and Seema Mansoor. The Court did not grant or refuse the connection. It directed the competent releasing authority to pass a speaking order within four weeks after hearing the parties, taking Seema Mansoor into account.",
+  "facts": "The petitioners sought mandamus directing KESCO's Chief Engineer to issue a prepaid connection to the first petitioner and to quash his 6 April 2022 communication to the District Magistrate, Kanpur Nagar. That letter recorded that the landlord of the premises had objected, so the connection had not been released. The first petitioner claimed to be a tenant holding over and thus an occupier entitled to supply under Clause 4.4 of the U.P. Electricity Supply Code, 2005.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.4",
+      "code": "UP-2005",
+      "clause": "4.4",
+      "topic": "occupier connection despite landlord objection",
+      "type": "supply_code",
+      "holding": "Where the licensee withheld a prepaid connection because the landlord objected, the Court did not grant or refuse supply on merits. It directed the competent releasing authority to pass a speaking order within four weeks after hearing the parties, taking into consideration Seema Mansoor and the occupier's claim under Clause 4.4 of the U.P. Electricity Supply Code, 2005.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "direction-to-consider-connection-on-furnishing-4.4-or-annexure-4.2-documents",
+      "application": "Writ disposed by directing the competent KESCO authority to examine the occupier's Clause 4.4 claim and pass a speaking order after hearing the parties, without granting the connection on the writ.",
+      "lead_authorities": [
+        {
+          "name": "Seema Mansoor v. U.P. Power Corporation Ltd.",
+          "docid": ""
+        }
+      ],
+      "paras": "1"
+    },
+    {
+      "tag": "clause-4.4-occupant-connection-on-indemnity-bond",
+      "application": "The Court treated Seema Mansoor as undisputed law that an occupier (tenant holding over) may obtain a connection under Clause 4.4, and required the releasing authority to apply that proposition.",
+      "lead_authorities": [
+        {
+          "name": "Seema Mansoor v. U.P. Power Corporation Ltd.",
+          "docid": ""
+        }
+      ],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioners were entitled to a prepaid connection on the facts",
+      "note": "Occupancy, Clause 4.4 compliance, and the 6 April 2022 communication were left to the competent authority's speaking order.",
+      "paras": "1"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Seema Mansoor v. U.P. Power Corporation Ltd.",
+      "citation": "2014 ADJ, 672",
+      "cited_by": "petitioner; court"
+    }
+  ]
+}
