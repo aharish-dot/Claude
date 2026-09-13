@@ -1,0 +1,54 @@
+{
+  "case_id": "SCJ-2325",
+  "title": "Sonu Rawat v. Dakshinanchal Vidut Vitaran Nigam Ltd.",
+  "neutral_citation": "Writ-C No. 7672 of 2019",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Abhinava Upadhya, J.; Jayant Banerji, J.",
+  "date_of_judgment": "2019-03-07",
+  "date_display": "7 March 2019",
+  "docket": "Writ-C No. 7672 of 2019",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; relegated to Executive Engineer under Clause 6.5.",
+  "headnote": "A consumer who disputes an electricity bill, even while also challenging a disconnection notice and a threatened theft FIR, must approach the Executive Engineer under Clause 6.5 of the U.P. Electricity Supply Code, 2005. The writ court will not decide the bill on merits. The Executive Engineer is to consider the objection and pass orders within one month; coercive action on the disconnection notice is stayed for that month.",
+  "facts": "Sonu Rawat petitioned the Allahabad High Court against Dakshinanchal Vidut Vitaran Nigam Limited, challenging a 12 January 2019 disconnection notice and a threatened FIR for electricity theft. He said he had been paying his bills continuously but that the licensee had shown an inflated amount, which he disputed. Counsel pressed that grievance in writ. The Division Bench recorded the dispute and the notice, without trying the bill figures or the theft allegation.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "billing dispute — Executive Engineer remedy",
+      "type": "supply_code",
+      "holding": "Where the consumer disputes the billed amount, the statutory course is an objection to the Executive Engineer under Clause 6.5 of the Electricity Supply Code, 2005. On presentation of a certified copy of the order with the objection, the Executive Engineer shall consider the claim and pass appropriate orders within one month. Coercive action pursuant to the disconnection notice dated 12.1.2019 is stayed for that month. The writ is disposed of without examining the bill or the theft allegation on merits.",
+      "paras": "2-5"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-statutory-remedy",
+      "application": "A writ challenging a disconnection notice and threatened theft FIR, where the real grievance is an inflated bill, is disposed of by directing the consumer to the Executive Engineer under Clause 6.5 rather than deciding the bill in writ.",
+      "lead_authorities": [],
+      "paras": "2"
+    },
+    {
+      "tag": "billing-objection-to-executive-engineer-under-6.5",
+      "application": "If the petitioner approaches the Executive Engineer with a certified copy of the order and his objection, the Executive Engineer is to consider the claim and pass appropriate orders within one month.",
+      "lead_authorities": [],
+      "paras": "3"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "whether the billed amount was inflated or correctly computed",
+      "paras": "2"
+    },
+    {
+      "point": "whether disconnection or an FIR for electricity theft was justified",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
