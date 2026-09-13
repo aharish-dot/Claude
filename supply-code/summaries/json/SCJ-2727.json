@@ -1,0 +1,68 @@
+{
+  "case_id": "SCJ-2727",
+  "title": "M/s Bismillah Rice Mills v. Madhyanchal Vidyut Vitran Nigam Ltd.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sunita Agarwal and Sadhna Rani (Thakur), JJ.",
+  "date_of_judgment": "2021-03-25",
+  "date_display": "25 March 2021",
+  "docket": "Writ-C No. 7624 of 2021",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Theft is Clause 8.1 not 5.6; 8.1 objections directed",
+  "headnote": "A same-day provisional assessment recording theft by an external device in the PT output circuit is governed by Clause 8.1 of the U.P. Electricity Supply Code, 2005, not Clauses 5.6 or 6.8. The High Court rejected the mill's defective-meter challenge as misconceived, but, as no reply had been filed and a final assessment had already issued, directed one further opportunity to file Clause 8.1 objections, with a reasoned speaking order, the existing final assessment remaining subject to that order.",
+  "facts": "The licensee inspected the petitioner rice mill on 28 January 2021, found an external device in the PT output circuit, sealed it, video-recorded the inspection, and issued a same-day provisional theft assessment, served on 2 February 2021. The mill filed no reply. Supply was disconnected and a final assessment followed on 19 February 2021. The mill sought to quash the notice, alleging non-compliance with Clauses 5.6 and 6.8 and that a same-day assessment was impossible without first determining a meter defect.",
+  "reusable_constructions": [
+    {
+      "construction": "An inspection finding that an external device was installed in the PT output circuit to steal electricity is a theft case under Clause 8.1 of the U.P. Electricity Supply Code, 2005, not a defective-meter case under Clause 5.6 or an unauthorised-use case under Clause 6.8.",
+      "paras": "4-5"
+    },
+    {
+      "construction": "Where a consumer has not replied to a theft provisional assessment and a final assessment has already been passed, the Court may still direct one further opportunity under Clause 8.1(a) and (b) to file objections, the existing final assessment remaining subject to the fresh speaking order.",
+      "paras": "8-9"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1",
+      "code": "UP-2005",
+      "clause": "8.1",
+      "topic": "theft-assessment-not-defective-meter",
+      "type": "supply_code",
+      "holding": "Where the provisional assessment notice records that an external device was found installed in the PT output circuit, sealed, and the inspection video-recorded, the case is theft of electricity and does not fall under Clause 5.6 (defective meter) or attract Clause 6.8. Clause 8.1, including the opportunity under Clause 8.1(a) and (b), governs. The petitioner was directed to file objections to the 28.01.2021 notice within two weeks; if filed, respondent no.4 must pass a reasoned speaking order on all points raised, and the 19.02.2021 final assessment remains subject to that order. Failure to object leaves the assessing officer free to proceed in accordance with law.",
+      "paras": "4-9"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-8.1-8.2-govern-theft-assessment-not-6.8",
+      "application": "The Court treated an external device in the PT output circuit as theft under Clause 8.1, not a defective-meter case under Clause 5.6 or unauthorised use under Clause 6.8, and held the mill's 5.6/6.8 challenge and reliance on Amaravati Devi misconceived.",
+      "lead_authorities": [],
+      "paras": "4-5"
+    },
+    {
+      "tag": "clause-8.1b-theft-notice-natural-justice",
+      "application": "Despite no reply to the 28.01.2021 notice and a 19.02.2021 final assessment already on record, the Court gave one more opportunity under Clause 8.1(a) and (b) to file objections, with a reasoned speaking order, the existing final assessment remaining subject to that order.",
+      "lead_authorities": [],
+      "paras": "8-9"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits of the theft finding and the quantum of assessment",
+      "note": "Left to respondent no.4 on the petitioner's Clause 8.1 objections; the 19.02.2021 final assessment is subject to the fresh speaking order.",
+      "paras": "8-9"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Amaravati Devi v. Purvanchal Vidyut Vitran Nigam",
+      "citation": "2009 (1) ADJ 430",
+      "cited_by": "Court",
+      "treatment": "petitioner's reliance held misconceived on these facts"
+    }
+  ]
+}
