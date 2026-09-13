@@ -1,0 +1,57 @@
+{
+  "case_id": "SCJ-2723",
+  "title": "Sanjay Rastogi v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sunita Agarwal, J.; Deepak Verma, J.",
+  "date_of_judgment": "2021-03-16",
+  "date_display": "16 March 2021",
+  "docket": "WRIT - C No. 7197 of 2021",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; petitioner relegated to Executive Engineer under Clause 6.5.",
+  "headnote": "A writ challenging a recovery certificate on the plea that the petitioner was neither the consumer nor in possession of the premises raises questions of fact. The High Court declined to entertain the petition and left the petitioner to approach the Executive Engineer under Clause 6.5 of the U.P. Electricity Supply Code, 2005, who is to deal with the representation in accordance with law.",
+  "facts": "Sanjay Rastogi petitioned the Allahabad High Court to quash a recovery certificate dated 30 December 2019 for electricity dues. He contended that he was neither the consumer of the connection nor in possession of the premises, and that the connection had been granted in the name of one Noor Mohammad. Relying on documents at pages 46 and 48 of the paper book, he submitted that recovery of the dues could not be pressed against him. Counsel appeared for the respondents.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "alternate-remedy-billing-dispute",
+      "type": "supply_code",
+      "holding": "Where a writ petitioner challenges a recovery certificate on the factual plea that he is neither the consumer of the connection nor in possession of the premises, the controversy is not to be decided in writ jurisdiction. The petitioner may approach the Executive Engineer under Clause 6.5 of the U.P. Electricity Supply Code, 2005, who shall deal with the representation in accordance with law; the writ petition cannot be entertained.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-alternate-remedy-to-writ",
+      "application": "The Court refused to entertain the writ against the recovery certificate and pointed the petitioner to a Clause 6.5 representation before the Executive Engineer.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "billing-dispute-question-of-fact-executive-engineer-clause-6.5",
+      "application": "Consumer identity, possession of the premises, and recoverability of the dues were treated as factual issues for the Executive Engineer under Clause 6.5.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "6.5-representation-as-appropriate-remedy",
+      "application": "If the petitioner approaches the Executive Engineer, that officer is to deal with the representation in accordance with law.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner is the consumer or occupier liable on the recovery certificate dated 30 December 2019",
+      "note": "The Court treated consumer identity, possession, and recoverability of dues as factual matters for the Executive Engineer under Clause 6.5.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
