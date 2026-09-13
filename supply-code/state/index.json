@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2833,
+  "next_seq": 2834,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -16954,6 +16954,12 @@
       "case_id": "SCJ-2831",
       "source_basename": "WRIC(A)_17815_2022.pdf",
       "title": "Abdul Ali alias Abdul Navi v. Managing Director, Paschimanchal Vidyut Vitran Nigam Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2830",
+      "source_basename": "WRIC(A)_17623_2022.pdf",
+      "title": "Hakim Singh Ravat v. State of U.P. and Another",
       "status": "done"
     }
   ]
