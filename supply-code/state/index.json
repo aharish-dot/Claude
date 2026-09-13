@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2703,
+  "next_seq": 2704,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -16174,6 +16174,12 @@
       "case_id": "SCJ-2698",
       "source_basename": "WRIC(A)_4189_2021.pdf",
       "title": "Smt. Sushila Devi v. State of U.P. — disputed bills and recovery citation remitted to Clause 6.5(b)",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2699",
+      "source_basename": "WRIC(A)_4380_2021.pdf",
+      "title": "Ram Devi v. State of U.P. & Ors.",
       "status": "done"
     }
   ]
