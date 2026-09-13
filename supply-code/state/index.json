@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2562,
+  "next_seq": 2563,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -15328,6 +15328,12 @@
       "case_id": "SCJ-2558",
       "source_basename": "CAPL(A)_1607_2021.pdf",
       "title": "Sadre Alam v. Ajay Kumar Gautam, EE — further time to comply with Clause 6.5 consideration direction",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2560",
+      "source_basename": "CAPL(A)_1736_2021.pdf",
+      "title": "Smt. Aneeta Rawat v. Sri Mahendra Prasad, Executive Engineer",
       "status": "done"
     }
   ]
