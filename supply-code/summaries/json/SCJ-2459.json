@@ -1,0 +1,51 @@
+{
+  "case_id": "SCJ-2459",
+  "title": "Sugriv Singh v. State of U.P.",
+  "neutral_citation": "Writ-C No. 25584 of 2020",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Pankaj Naqvi and Piyush Agrawal, JJ.",
+  "date_of_judgment": "2021-01-11",
+  "date_display": "11 January 2021",
+  "docket": "WRIT - C No. 25584 of 2020",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; billing dispute relegated to clause 6.5.",
+  "headnote": "A writ challenging the correctness of an electricity bill is dismissed where the consumer has an uncontroverted statutory remedy under clause 6.5 of the U.P. Electricity Supply Code, 2005, before the competent authority.",
+  "facts": "Sugriv Singh invoked the Allahabad High Court's writ jurisdiction to challenge the correctness of an electricity bill dated 20 January 2019, alleging a dispute as to the amount paid towards electricity charges. The respondents included the State of Uttar Pradesh and the power corporation. Counsel for the corporation submitted that a statutory remedy lay before the competent authority under clause 6.5 of the U.P. Electricity Supply Code, 2005. Counsel for the petitioner did not controvert that submission.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "billing dispute; alternative remedy",
+      "type": "supply_code",
+      "holding": "A writ petition challenging the correctness of an electricity bill, where the dispute concerns the amount paid towards electricity charges, is dismissed on the ground of alternative remedy under clause 6.5 of the U.P. Electricity Supply Code, 2005, once it is uncontroverted that a representation to the competent authority under that clause is available.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-alternate-remedy",
+      "application": "The writ was dismissed solely because an uncontroverted clause 6.5 representation to the competent authority was available for the disputed bill.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "clause-6.5-statutory-remedy-disputed-bill",
+      "application": "The challenge was to the correctness of a 20 January 2019 electricity bill and a dispute as to amounts paid; the court treated clause 6.5 as the statutory forum and did not examine the bill on merits.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "correctness of the bill dated 20.01.2019 and the dispute as to amounts paid towards electricity charges",
+      "note": "Left unexamined on merits; the writ was dismissed only for alternative remedy under clause 6.5.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
