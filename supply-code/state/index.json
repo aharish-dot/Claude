@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2575,
+  "next_seq": 2576,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -15406,6 +15406,12 @@
       "case_id": "SCJ-2571",
       "source_basename": "WRIC(A)_10946_2021.pdf",
       "title": "Ram Badan Ram v. State of U.P. and Another",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2570",
+      "source_basename": "WRIC(A)_10343_2021.pdf",
+      "title": "Rakhi Sant v. State of U.P. — owner's consent no bar to grant or continuance of supply",
       "status": "done"
     }
   ]
