@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2710,
+  "next_seq": 2711,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -16216,6 +16216,12 @@
       "case_id": "SCJ-2708",
       "source_basename": "WRIC(A)_5912_2021.pdf",
       "title": "Girish Kumar v. State of U.P. and 2 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2705",
+      "source_basename": "WRIC(A)_5436_2021.pdf",
+      "title": "Krishna Kumar Srivastava v. Managing Director, Purvanchal Vidyut Vitran Nigam Ltd. & Ors.",
       "status": "done"
     }
   ]
