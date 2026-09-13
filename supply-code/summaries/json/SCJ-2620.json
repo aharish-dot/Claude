@@ -1,0 +1,66 @@
+{
+  "case_id": "SCJ-2620",
+  "title": "Smt. Rekha Rani v. State of U.P.",
+  "neutral_citation": "Writ-C No. 22622 of 2021",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Naheed Ara Moonis and Saumitra Dayal Singh, JJ.",
+  "date_of_judgment": "2021-11-17",
+  "date_display": "17 November 2021",
+  "docket": "Writ-C No. 22622 of 2021",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Recovery held premature; s.126 hearing directed; coercive steps stayed.",
+  "headnote": "Service of a section 126 provisional assessment on the consumer is a sine qua non under the Electricity Act, 2003 read with the U.P. Electricity Supply Code, 2005 before recovery of electricity dues. Once served, the consumer may object within the time allowed by law, and recoveries cannot be pressed until those objections are adjudicated. Recovery pursued on an unserved provisional assessment is premature. The assessing officer was directed to supply the adverse material, hear objections and pass a reasoned order; coercive measures were stayed, recoveries to abide that decision.",
+  "facts": "Smt. Rekha Rani and another challenged recovery of Rs.8,96,647 as electricity dues by the Mathura distribution licensee. They pleaded that neither a provisional nor a final assessment had been served before coercive measures. After time granted, the licensee's counsel produced a provisional assessment dated 4 January 2021 but could not show service on the petitioners. The recovery was being pressed on that unserved order and later communications dated 22 June 2021.",
+  "reusable_constructions": [
+    {
+      "construction": "Service of the provisional assessment order on the consumer is a sine qua non under section 126 of the Electricity Act, 2003 read with the U.P. Electricity Supply Code, 2005 before recovery of the assessed dues may be initiated.",
+      "paras": "4-5"
+    },
+    {
+      "construction": "Once a provisional assessment is served, the consumer has a right to object within the time allowed by law; if objections are filed, no recovery may be pressed until those objections are adjudicated.",
+      "paras": "4"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::126",
+      "code": "EA2003",
+      "clause": "126",
+      "topic": "service of provisional assessment as condition of recovery",
+      "type": "interplay",
+      "holding": "Service of the provisional assessment order prior to initiation of recovery is a sine qua non under section 126 of the Electricity Act, 2003 read with the U.P. Electricity Supply Code, 2005. Once served, the consumer may file objections within the time granted by law; if objections are filed, recoveries may not be pressed before they are adjudicated. Recovery pursued against an unserved provisional order is premature. The Executive Engineer was directed to supply the adverse material behind the 22 June 2021 communications, receive the petitioners' objections, hear the parties and pass a reasoned order in accordance with law; coercive measures were stayed for three months or until disposal of the objections, whichever earlier, and all recoveries were to abide that decision.",
+      "paras": "4-8"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "ex-parte-s126-assessment-requires-hearing-before-recovery",
+      "application": "Recovery of Rs.8,96,647 was held premature because the licensee could not show service of the 04.01.2021 provisional assessment; coercive recovery was stayed until the assessing officer supplied the adverse material, heard objections and passed a reasoned order.",
+      "lead_authorities": [],
+      "paras": "4-7"
+    },
+    {
+      "tag": "s126-procedural-strictness-notice-and-hearing",
+      "application": "The Court treated service of the section 126 provisional order, the consumer's right to object, and adjudication of those objections as mandatory steps before any recovery could be pressed, reading the Act with the Supply Code.",
+      "lead_authorities": [],
+      "paras": "4-5"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits and quantum of the section 126 assessment of Rs.8,96,647",
+      "note": "Left to a reasoned order of the Executive Engineer after supply of adverse material and hearing; recoveries to abide that decision.",
+      "paras": "6-8"
+    },
+    {
+      "point": "Whether a final assessment had been passed or served",
+      "note": "Petitioners pleaded want of both provisional and final assessment; the Court decided only non-service of the provisional order dated 04.01.2021.",
+      "paras": "3-5"
+    }
+  ],
+  "authorities": []
+}
