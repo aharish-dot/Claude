@@ -1,0 +1,52 @@
+{
+  "case_id": "SCJ-2521",
+  "title": "Vijendra Singh v. U.P. Power Corporation Ltd.",
+  "neutral_citation": "Writ-C No. 5768 of 2020",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Abhinava Upadhya and Shamim Ahmed, JJ.",
+  "date_of_judgment": "2020-02-17",
+  "date_display": "17 February 2020",
+  "docket": "WRIT - C No. 5768 of 2020",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; EE to consider cl. 8.2h representation; coercive action stayed one month.",
+  "headnote": "A writ against a theft-assessment demand of about Rs.5.52 lakh, after a s.135 FIR ended in an accepted final report, was disposed of by remitting the consumer to a representation before the Executive Engineer under cl. 8.2h of the U.P. Electricity Supply Code, 2005. The Court recorded the licensee's citation of that clause (quoted as: if the court holds theft not established, charges and assessment shall be withdrawn in writing and supply restored through the original meter) but did not itself quash the demand or order reconnection. A one-month stay of coercive recovery on the 1 May 2018 notice was granted pending a speaking order.",
+  "facts": "U.P. Power Corporation Limited issued a theft-assessment demand of about Rs.5,52,000 dated 1 May 2018 against Vijendra Singh. He said the letter was never served and he learned of it only when the Amin came for recovery. An FIR under section 135 of the Electricity Act had been lodged on 23 July 2016 at P.S. Aliganj, Etah; the police final report was accepted by the court on 13 July 2019. He sought restoration of the connection and adjustment of the demand.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.2",
+      "code": "UP-2005",
+      "clause": "8.2h",
+      "topic": "theft-assessment-withdrawal-and-restoration-after-court-finding",
+      "type": "supply_code",
+      "holding": "Where the consumer challenges a theft-assessment demand after a s.135 FIR has ended in an accepted final report, the writ is disposed of by directing a representation to the Executive Engineer under cl. 8.2h of the Supply Code, 2005 (as cited: upon a court decision that theft is not established, the licensee's charges and assessment shall be withdrawn in writing and the connection restored through the original meter). The EE is to consider the representation and pass a reasoned speaking order within one month. Coercive action on the demand is stayed for that month. The Court did not itself withdraw the assessment or direct restoration.",
+      "paras": "1",
+      "flag": "cited as Clause 8.2h; quoted text matches catalog 8.2(x) (theft not established → withdraw assessment and restore through original meter); not silently rekeyed"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-8.2x-acquittal-requires-withdrawal-of-theft-assessment",
+      "application": "The Court recorded cl. 8.2h (quoted as requiring withdrawal of charges/assessment and restoration through the original meter if the court holds theft not established) as the provision on which the EE must consider the consumer's representation after the s.135 FIR ended in an accepted final report; it did not itself hold that the final report triggered withdrawal.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "s135-demand-writ-disposed-by-representation-and-restoration",
+      "application": "Writ against a post-FIR theft-assessment demand was disposed of by representation to the EE under the Supply Code theft clause, with a short stay of coercive recovery, without a merits quash or reconnection order.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the accepted final report on the s.135 FIR required withdrawal of the Rs.5,52,000 theft assessment and restoration of supply",
+      "note": "Remitted to the Executive Engineer to consider a representation under cl. 8.2h (as cited) and pass a speaking order.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
