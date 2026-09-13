@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2667,
+  "next_seq": 2668,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -15958,6 +15958,12 @@
       "case_id": "SCJ-2662",
       "source_basename": "WRIC(A)_31145_2021.pdf",
       "title": "Ram Chandra v. State of U.P. — OTS proposal not a recovery certificate; pending 6.5 objection",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2665",
+      "source_basename": "WRIC(A)_31500_2021.pdf",
+      "title": "Name Singh v. State of U.P. (recovery citation; Code 6.14 instalments)",
       "status": "done"
     }
   ]
