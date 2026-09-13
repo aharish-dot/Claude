@@ -1,0 +1,62 @@
+{
+  "case_id": "SCJ-2709",
+  "title": "Chandra Pal v. State of U.P. and Others",
+  "neutral_citation": "Writ-C No. 5972 of 2021",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sunita Agarwal, J.; Deepak Verma, J.",
+  "date_of_judgment": "2021-03-15",
+  "date_display": "15 March 2021",
+  "docket": "WRIT - C No. - 5972 of 2021",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; petitioner to seek interim stay from pending CGRF.",
+  "headnote": "A second writ challenging a recovery citation is not entertainable where the consumer was already relegated to the Consumer Grievance Redressal Forum under clause 7.10 of the U.P. Electricity Supply Code, 2005 and a complaint remains pending. Clause 6.10(i) of the UPERC (CGRF & Electricity Ombudsman) Regulations, 2007 empowers the Forum to pass an interim order staying recovery pending disposal of the complaint.",
+  "facts": "Chandra Pal challenged a recovery citation dated 2 March 2020 issued on a demand notice of 18 February 2014. In Writ-C No. 22823 of 2019 the High Court had already relegated him to the Consumer Grievance Redressal Forum under clause 7.10 of the U.P. Electricity Supply Code, 2005 after the Executive Engineer decided the billing dispute. His complaint dated 14 August 2019 remained pending before the Forum at Banda of Dakshinanchal Vidyut Vitran Nigam Limited when he returned to stall the recovery.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::7.10",
+      "code": "UP-2005",
+      "clause": "7.10",
+      "topic": "Second writ after clause 7.10 relegation; CGRF interim stay of recovery",
+      "type": "interplay",
+      "holding": "Where the consumer has already been relegated to the Consumer Grievance Redressal Forum under clause 7.10 of the U.P. Electricity Supply Code, 2005 read with the UPERC (Consumer Grievance Redressal Forum & Electricity Ombudsman) Regulations, 2007, and a complaint is pending, a subsequent writ petition challenging the recovery citation on the same demand is not entertainable. Clause 6.10(i) of the Regulations, 2007 empowers the Forum to pass an interim order pending disposal of the complaint, so stay of the recovery citation or demand notice must be sought there.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternate-remedy-clause-7.10",
+      "application": "Second writ against a recovery citation dismissed because the petitioner had already been relegated to, and had invoked, the clause 7.10 Forum route on the same billing demand.",
+      "lead_authorities": [
+        {
+          "name": "Chandra Pal v. Dakshinachal Vidyut Vitran Nigam Ltd.",
+          "docid": "Writ-C No. 22823 of 2019"
+        }
+      ],
+      "paras": "1"
+    },
+    {
+      "tag": "consumer-grievance-redressal-forum-remedy-clause-7.10",
+      "application": "Pending CGRF complaint at Banda; Forum’s clause 6.10(i) interim power is the proper vehicle for stay of the recovery citation rather than a fresh writ.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness of the demand notice dated 18.02.2014 and the recovery citation dated 02.03.2020",
+      "note": "Left to the pending CGRF complaint; the Forum may also consider an interim stay application.",
+      "paras": "1"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Chandra Pal v. Dakshinachal Vidyut Vitran Nigam Ltd.",
+      "citation": "Writ-C No. 22823 of 2019",
+      "cited_by": "court"
+    }
+  ]
+}
