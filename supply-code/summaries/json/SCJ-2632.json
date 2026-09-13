@@ -1,0 +1,72 @@
+{
+  "case_id": "SCJ-2632",
+  "title": "M/S Paras Agro v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Naheed Ara Moonis, J.; Saumitra Dayal Singh, J.",
+  "date_of_judgment": "2021-11-17",
+  "date_display": "17 November 2021",
+  "docket": "Writ-C No. 26260 of 2021",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; objections to be heard; coercive recovery stayed three months",
+  "headnote": "Under section 126 of the Electricity Act, 2003 read with the U.P. Electricity Supply Code, 2005, the distribution licensee must serve a provisional demand so that the consumer can object, and must adjudicate a timely objection before recovery. Where the date of service of the provisional demand is not established, recoveries on a later citation are premature. The writ was disposed of by directing supply of the adverse material, a hearing of objections, and a stay of coercive recovery.",
+  "facts": "The petitioner ran a restaurant and had paid regular electricity bills. After a petty dispute with distribution-company officials, a demand of Rs. 8,74,908 was raised on an allegation of theft. The police filed a closure report, which the licensee disputed. The licensee treated a provisional demand dated 31 December 2019 as final for want of objection, but the date of its service was not established. Recovery proceeded on a citation dated 4 January 2021.",
+  "reusable_constructions": [
+    {
+      "construction": "A provisional demand under section 126 of the Electricity Act, 2003 read with the U.P. Electricity Supply Code, 2005 must be served on the consumer so as to afford an opportunity to object; recoveries cannot arise unless that service is established.",
+      "paras": "4-5"
+    },
+    {
+      "construction": "If an objection to a provisional demand is filed in time, the distribution licensee must adjudicate it before seeking recovery; recoveries arise only in terms of that decision.",
+      "paras": "4"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::126",
+      "code": "EA2003",
+      "clause": "126",
+      "topic": "service of provisional demand and pre-recovery adjudication of objections",
+      "type": "interplay",
+      "holding": "Section 126 of the Electricity Act, 2003 read with the U.P. Electricity Supply Code, 2005 makes it mandatory for the distribution licensee to serve a provisional demand so that the consumer may object. If an objection is filed in time, the licensee must adjudicate it before seeking recovery; recoveries arise only in terms of that decision. Where the date of service of the provisional demand is not established, recoveries on a subsequent citation are premature. The assessing officer was directed to supply the adverse material supporting the recovery citation, hear objections, and pass a reasoned order; coercive recovery was stayed in the meantime.",
+      "paras": "4-9"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "s126-procedural-strictness-notice-and-hearing",
+      "application": "Service of the provisional demand was held mandatory to afford an opportunity to object; because the date of service was not established, a hearing of objections was directed before any further recovery.",
+      "lead_authorities": [],
+      "paras": "4-5"
+    },
+    {
+      "tag": "no-recovery-certificate-without-final-section-126-3-assessment",
+      "application": "The 4 January 2021 recovery citation could not be enforced while service of the provisional demand was unestablished and no decision on objections had been made; further recovery was to abide the assessing officer's order.",
+      "lead_authorities": [],
+      "paras": "4-5"
+    },
+    {
+      "tag": "ex-parte-s126-assessment-requires-hearing-before-recovery",
+      "application": "The licensee's plea that the provisional demand had attained finality for want of objection was not accepted, because service itself was not established; a hearing was required before recovery.",
+      "lead_authorities": [],
+      "paras": "3-5"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Truth of the theft allegation and the effect of the police closure report",
+      "note": "The closure report was disputed by the licensee and was not adjudicated.",
+      "paras": "2"
+    },
+    {
+      "point": "Merits and quantum of the section 126 assessment",
+      "note": "Left to respondent no. 6 after supply of adverse material, objections, and a reasoned order.",
+      "paras": "7-9"
+    }
+  ],
+  "authorities": []
+}
