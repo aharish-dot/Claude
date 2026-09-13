@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2638,
+  "next_seq": 2639,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -15802,6 +15802,12 @@
       "case_id": "SCJ-2637",
       "source_basename": "WRIC(A)_54461_2016.pdf",
       "title": "M/S Ayesha Steels Pvt. Ltd. v. Paschimanchal Vidyut Vitran Nigam Ltd. & Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2638",
+      "source_basename": "CAPL(A)_2457_2012.pdf",
+      "title": "M/S Dates Discs Ltd. v. Chandan Prakash, Executive Engineer, EUDD & Another",
       "status": "done"
     }
   ]
