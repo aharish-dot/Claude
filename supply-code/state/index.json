@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2521,
+  "next_seq": 2523,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -15082,6 +15082,12 @@
       "case_id": "SCJ-2519",
       "source_basename": "WRIC(A)_5717_2020.pdf",
       "title": "Bakreedan and Another v. M/D Dakshinanchal Vidyut Vitran and 2 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2517",
+      "source_basename": "WRIC(A)_5563_2020.pdf",
+      "title": "Kudrat Khan v. Uttar Pradesh Power Corporation Ltd.",
       "status": "done"
     }
   ]
