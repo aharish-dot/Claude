@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2512,
+  "next_seq": 2513,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -15028,6 +15028,12 @@
       "case_id": "SCJ-2508",
       "source_basename": "WRIC(A)_5021_2020.pdf",
       "title": "Sanjay @ Sanjeev Sharma v. Executive Engineer, Electricity Distribution & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2509",
+      "source_basename": "WRIC(A)_502_2020.pdf",
+      "title": "Sangram Maurya v. State of U.P.",
       "status": "done"
     }
   ]
