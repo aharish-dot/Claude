@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2683,
+  "next_seq": 2684,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -16054,6 +16054,12 @@
       "case_id": "SCJ-2677",
       "source_basename": "WRIC(A)_33408_2021.pdf",
       "title": "Sadhna Rai v. Purvanchal Vidyut Vitran Nigam Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2679",
+      "source_basename": "WRIC(A)_33668_2021.pdf",
+      "title": "Nepal v. State of U.P. and others",
       "status": "done"
     }
   ]
