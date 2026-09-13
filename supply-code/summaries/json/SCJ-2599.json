@@ -1,0 +1,51 @@
+{
+  "case_id": "SCJ-2599",
+  "title": "Virendra Singh v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Manoj Misra, J.; Jayant Banerji, J.",
+  "date_of_judgment": "2021-09-06",
+  "date_display": "6 September 2021",
+  "docket": "WRIT - C No. - 17207 of 2021",
+  "page_count": 1,
+  "significance": "procedural",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; pending bill representation treated as clause 4.5 alternative remedy and directed to be decided in three weeks.",
+  "headnote": "A pending representation to the licensee questioning an electricity bill may be treated as availing the alternative remedy under clause 4.5 of the U.P. Electricity Supply Code, 2005. The High Court disposed of the writ without deciding bill correctness or restoration, directing the third respondent to decide the representation in accordance with law, preferably within three weeks, and to advise the consumer of any further formality required.",
+  "facts": "Virendra Singh filed a writ in the Allahabad High Court disputing an electricity bill and seeking restoration of supply. He had already submitted a representation dated 10 March 2021 to the third respondent questioning the bill, which he said was still pending. Counsel for the third respondent contended that an alternative remedy was available under clause 4.5 of the U.P. Electricity Supply Code, 2005. The Division Bench did not examine the bill or the disconnection on merits.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.5",
+      "code": "UP-2005",
+      "clause": "4.5",
+      "topic": "alternative remedy for disputed bill and restoration",
+      "type": "supply_code",
+      "holding": "Where the consumer has already represented to the licensee questioning an electricity bill and seeking restoration of supply, the High Court may treat that pending representation as availing the alternative remedy under clause 4.5 of the U.P. Electricity Supply Code, 2005, and dispose of the writ by directing the licensee to decide it in accordance with law within a stated period, advising the consumer of any further formality required, without adjudicating the bill or restoration on merits.",
+      "paras": "1",
+      "flag": "Order cites 'clause 4.5' without a sub-clause as the alternative remedy for a bill-correctness and restoration dispute; catalog 4.5(d) (landowner objection) does not fit."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "pending-representation-treated-as-alternative-remedy",
+      "application": "The petitioner's 10 March 2021 representation to the third respondent on bill correctness was treated as availing the alternative remedy under clause 4.5 and directed to be decided in accordance with law within three weeks, with advice on any remaining formality; the writ was disposed without a merits grant or refusal on the bill or restoration.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness of the electricity bill",
+      "note": "Left to the third respondent to decide the pending representation in accordance with law.",
+      "paras": "1"
+    },
+    {
+      "point": "Restoration of electricity supply",
+      "note": "Prayed for in the writ; neither granted nor refused on merits.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
