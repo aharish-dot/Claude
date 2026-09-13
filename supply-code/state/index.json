@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2704,
+  "next_seq": 2705,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -16180,6 +16180,12 @@
       "case_id": "SCJ-2699",
       "source_basename": "WRIC(A)_4380_2021.pdf",
       "title": "Ram Devi v. State of U.P. & Ors.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2701",
+      "source_basename": "WRIC(A)_4467_2021.pdf",
+      "title": "Dakini Health Foods v. Paschimanchal Vidyut Vitran Nigam Ltd. — excess security refund after load reduction",
       "status": "done"
     }
   ]
