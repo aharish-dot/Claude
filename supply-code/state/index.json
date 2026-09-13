@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2673,
+  "next_seq": 2674,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -15994,6 +15994,12 @@
       "case_id": "SCJ-2669",
       "source_basename": "WRIC(A)_32587_2021.pdf",
       "title": "Raju Ali @ Muslim Ali v. State of U.P. — recovery demand relegated to clause 6.5",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2670",
+      "source_basename": "WRIC(A)_32659_2021.pdf",
+      "title": "Khalid v. State of Uttar Pradesh",
       "status": "done"
     }
   ]
