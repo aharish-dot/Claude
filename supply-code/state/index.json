@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2639,
+  "next_seq": 2640,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -15808,6 +15808,12 @@
       "case_id": "SCJ-2638",
       "source_basename": "CAPL(A)_2457_2012.pdf",
       "title": "M/S Dates Discs Ltd. v. Chandan Prakash, Executive Engineer, EUDD & Another",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2639",
+      "source_basename": "WRIC(A)_35093_2023.pdf",
+      "title": "Rakhi Arora & Another v. State of U.P. & Others",
       "status": "done"
     }
   ]
