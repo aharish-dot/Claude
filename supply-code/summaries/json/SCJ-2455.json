@@ -1,0 +1,51 @@
+{
+  "case_id": "SCJ-2455",
+  "title": "Tahira Begum v. Purvanchal Vidyut Vitran Nigam Ltd.",
+  "neutral_citation": "W.P. (C) No. 24880 of 2020 (All.)",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sunita Agarwal, J.; Deepak Verma, J.",
+  "date_of_judgment": "2021-02-23",
+  "date_display": "23 February 2021",
+  "docket": "WRIT - C No. 24880 of 2020",
+  "page_count": 3,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; petitioner relegated to section 126(3) objection and hearing.",
+  "headnote": "Writ against a provisional theft assessment, alleging a false and unserved checking report under Clause 8.1(a) of the U.P. Electricity Supply Code, 2005, disposed without merits. Sections 135 and 126 of the Electricity Act, 2003 read with Clause 8.1(a) require on-site service of the inspection report and a section 126(3) objection and hearing before final assessment; those disputed facts belong in the statutory objection, not in writ.",
+  "facts": "Tahira Begum challenged a provisional assessment notice dated 26 September 2020 issued by Purvanchal Vidyut Vitran Nigam for alleged theft of electricity. She alleged the assessment rested on a false checking report never served as Clause 8.1(a)(vi) of the U.P. Electricity Supply Code, 2005 requires, that there was no prima facie evidence of theft, and that her 31 October 2020 application for a copy of the report had not been answered. Corporation counsel served the checking report on her counsel in court. She had admittedly received the provisional assessment.",
+  "holding_units": [
+    {
+      "provision": "EA2003::126(3)",
+      "code": "EA2003",
+      "clause": "126(3)",
+      "topic": "premature writ against provisional theft assessment",
+      "type": "interplay",
+      "holding": "A writ challenging a provisional theft assessment on the ground that the inspection report was not served under Clause 8.1(a) of the U.P. Electricity Supply Code, 2005 and that the checking report was false is not decided on merits. Sections 135 and 126 of the Electricity Act, 2003 read with Clause 8.1(a) require the inspection report to be served on the consumer or representative at site immediately under proper receipt, or pasted at a conspicuous place on refusal; section 126(3) then requires service of the provisional assessment, an objection, and a reasonable opportunity of hearing before final assessment. Those issues require factual enquiry and must be raised in the statutory objection. The petitioner was directed to file her objection within three weeks; the assessing officer must then pass a reasoned speaking order in accordance with law under section 126(3), afford personal hearing if requested, and may proceed in accordance with law if she fails to object.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "premature-writ-against-provisional-s126-assessment",
+      "application": "The writ against the 26.09.2020 provisional theft assessment was disposed without merits; non-service of the inspection report and the alleged false checking report were left to a section 126(3) objection.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "s126-procedural-strictness-notice-and-hearing",
+      "application": "The Court restated that Clause 8.1(a) requires on-site service of the inspection report (or pasting on refusal) and that section 126(3) requires an objection and a reasonable hearing before final assessment; the assessing officer was directed to pass a speaking order and afford personal hearing if requested.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the checking report was false or unserved under Clause 8.1(a), and whether there was prima facie evidence of theft",
+      "note": "Held to require factual enquiry; left to the assessing officer on the statutory objection.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
