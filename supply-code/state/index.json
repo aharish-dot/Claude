@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2628,
+  "next_seq": 2629,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -15724,6 +15724,12 @@
       "case_id": "SCJ-2624",
       "source_basename": "WRIC(A)_24902_2021.pdf",
       "title": "Smt. Johra Bi v. State of U.P. and Another",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2623",
+      "source_basename": "WRIC(A)_24012_2021.pdf",
+      "title": "M/S M S Enterprises v. State of U.P.",
       "status": "done"
     }
   ]
