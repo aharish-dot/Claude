@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2681,
+  "next_seq": 2682,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -16042,6 +16042,12 @@
       "case_id": "SCJ-2678",
       "source_basename": "WRIC(A)_33546_2021.pdf",
       "title": "Mohammad Aslam v. State of U.P. — recovery after 20-year disconnection relegated to clause 6.5",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2680",
+      "source_basename": "WRIC(A)_3372_2021.pdf",
+      "title": "Shripal Singh v. State of U.P. and Another",
       "status": "done"
     }
   ]
