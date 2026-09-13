@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2622,
+  "next_seq": 2623,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -15688,6 +15688,12 @@
       "case_id": "SCJ-2618",
       "source_basename": "WRIC(A)_2218_2021.pdf",
       "title": "Ore Prasad v. State of U.P. — disputed bill remitted to clause 6.5",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2619",
+      "source_basename": "WRIC(A)_22325_2021.pdf",
+      "title": "Kapil Kumar v. State of U.P.",
       "status": "done"
     }
   ]
