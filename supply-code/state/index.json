@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2836,
+  "next_seq": 2837,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -16972,6 +16972,12 @@
       "case_id": "SCJ-2833",
       "source_basename": "WRIC(A)_17894_2022.pdf",
       "title": "Irshad — demand notice relegated to para 6.8 objection with stay",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2832",
+      "source_basename": "WRIC(A)_17832_2022.pdf",
+      "title": "Udai Narayan Yadav v. State of U.P.",
       "status": "done"
     }
   ]
