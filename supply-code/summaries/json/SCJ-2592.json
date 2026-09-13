@@ -1,0 +1,51 @@
+{
+  "case_id": "SCJ-2592",
+  "title": "Tulamani Patel v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": ["Naheed Ara Moonis, J.", "Saumitra Dayal Singh, J."],
+  "date_of_judgment": "2021-08-02",
+  "date_display": "2 August 2021",
+  "docket": "Writ-C No. 16452 of 2021",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Second writ dismissed as same cause of action.",
+  "headnote": "The petitioner sought mandamus directing the distribution licensee to decide representations dated 26 March 2021 and 7 July 2021 on a disputed electricity bill. In Writ-C No. 386 of 2020 the Court had already declined to quash the recovery citation and relegated the billing-correctness dispute to clause 6.5 of the U.P. Electricity Supply Code, 2005. Treating the present petition as a second writ on the same cause of action, the Division Bench dismissed it.",
+  "facts": "Tulamani Patel had earlier filed Writ-C No. 386 of 2020 seeking to quash a recovery citation dated 9 December 2019, disputing the correctness of his electricity bill. That petition was disposed of by relegating him to clause 6.5 of the U.P. Electricity Supply Code, 2005, with a two-week window to approach the authority and short-term protection against coercive recovery. He thereafter made representations dated 26 March 2021 and 7 July 2021. In this writ he sought mandamus directing respondent no. 2 to decide those representations within a court-fixed period.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "second writ after clause 6.5 relegation",
+      "type": "supply_code",
+      "holding": "Where a consumer disputing bill correctness has already been relegated to the statutory remedy under clause 6.5 of the U.P. Electricity Supply Code, 2005, a later writ seeking mandamus to decide the resulting representations is a second writ on the same cause of action and is dismissed.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-alternate-remedy-to-writ",
+      "application": "The Court treated mandamus to decide the 26 March 2021 and 7 July 2021 representations as a second writ on the same billing dispute that Writ-C No. 386 of 2020 had already sent to clause 6.5, and dismissed it.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "clause-6.5-statutory-remedy-disputed-bill",
+      "application": "The quoted earlier order, which this Bench applied, had held that a dispute as to correctness of the bill is to be pursued under clause 6.5 and is not to be entertained in writ.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "correctness of the electricity bill and the pending 6.5 representations",
+      "note": "The Court dismissed the second writ without examining the bill or directing decision of the representations dated 26 March 2021 and 7 July 2021.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
