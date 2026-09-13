@@ -1,0 +1,51 @@
+{
+  "case_id": "SCJ-2563",
+  "title": "Chandra Pal Singh v. Rajesh Kumar Gupta",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Prakash Padia, J.",
+  "date_of_judgment": "2021-10-08",
+  "date_display": "8 October 2021",
+  "docket": "Contempt Application (Civil) No. 4353 of 2021",
+  "page_count": 2,
+  "significance": "procedural",
+  "outcome": "none",
+  "model": "Grok 4.6",
+  "disposition": "Contempt disposed; Executive Engineer directed to comply with the clause 6.5 remittal within six weeks.",
+  "headnote": "Civil contempt of a writ that had relegated a domestic-bill-correction claim to Regulation 6.5 of the U.P. Electricity Supply Code, 2005, was disposed of by directing the Executive Engineer to comply with that remittal in letter and spirit within six weeks. The Court did not examine the bill.",
+  "facts": "Chandra Pal Singh had sought a mandamus in Writ Petition No. 25245 of 2020 for correction of the domestic electricity bill on Connection No. 771718264559. The writ court on 6 January 2021 disposed of that petition, stating that the appropriate remedy was to approach the competent authority under Regulation 6.5 of the U.P. Electricity Supply Code, 2005. Alleging non-compliance by the Executive Engineer/SDO, Vidyut Vitran Khand Milak, he filed this civil contempt application. Opposite party's counsel sought time to comply.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "contempt of clause 6.5 remittal",
+      "type": "supply_code",
+      "holding": "Where a writ seeking correction of an electricity bill was disposed of by relegating the consumer to the competent authority under Regulation 6.5 of the U.P. Electricity Supply Code, 2005, a later civil contempt application alleging non-compliance is disposed of by directing the Executive Engineer to comply with that remittal in letter and spirit within a fixed time; the Court does not redecide the bill.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "contempt-of-6.5-writ-does-not-redecide-bill",
+      "application": "The Court disposed of the contempt by a six-week direction to comply with the earlier 6.5 remittal and did not examine or redecide the disputed domestic bill.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "6.5-representation-as-appropriate-remedy",
+      "application": "The underlying writ, quoted and enforced here, had held that the appropriate remedy for bill correction was a representation to the competent authority under Regulation 6.5.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "correctness of the disputed domestic electricity bill",
+      "note": "The writ court had relegated the consumer to Regulation 6.5; this contempt order directs compliance without examining the bill.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
