@@ -1,0 +1,62 @@
+{
+  "case_id": "SCJ-2732",
+  "title": "Imran Husain v. U.P. Power Corporation Ltd.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Naheed Ara Moonis, J.; Dinesh Pathak, J.",
+  "date_of_judgment": "2021-01-19",
+  "date_display": "19 January 2021",
+  "docket": "Writ - C No. 833 of 2021",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; 23.12.2020 s.126 order quashed; personal hearing directed.",
+  "headnote": "An assessing officer who disposes of a consumer's objections to a section 126 proceeding on a written representation, without the consumer's appearance and without fixing a date for personal hearing, does not comply with section 126(3) of the Electricity Act, 2003 or Clause 8.1 of the Electricity Supply Code, 2005. Such an order is quashed and a personal hearing must be fixed before the objections are considered. A plea of alternative remedy under section 127 does not save the defective order.",
+  "facts": "Imran Husain challenged the Executive Engineer's 23 December 2020 order and same-day section 126 notice/provisional assessment at Electricity Distribution Division II, Moradabad. An earlier recovery citation of 28 September 2020 had been quashed in Writ-C No. 20470 of 2020 with a direction to pass a fresh order after considering his objections. He filed a representation on 21 December 2020. The officer rejected it on 23 December 2020 without a personal hearing. The licensee called it a final section 126 assessment and pointed to an appeal under section 127.",
+  "reusable_constructions": [
+    {
+      "construction": "Section 126(3) and Clause 8.1 require a personal hearing on a date fixed; deciding a written representation in the consumer's absence is not compliance.",
+      "paras": "1"
+    },
+    {
+      "construction": "A section 126 order that skips that hearing is not saved by an appeal under section 127 and may be quashed in writ.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1",
+      "code": "UP-2005",
+      "clause": "8.1",
+      "topic": "personal hearing before disposal of s.126 objections",
+      "type": "interplay",
+      "holding": "The 23 December 2020 order, passed without the petitioner's appearance and without a date fixed for personal hearing, is not in consonance with section 126(3) of the Electricity Act, 2003 and Clause 8.1 of the Electricity Supply Code, 2005. It is quashed. The assessing officer must fix a date for personal hearing and then consider the representation in the light of the objections already filed. The licensee's plea of an appeal under section 127 does not sustain the order.",
+      "paras": "1",
+      "flag": "Order cites Clause 8.1 generally; the personal-hearing duty is in Clause 8.1(b)."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-8.1b-personal-hearing-mandatory-before-final-assessment",
+      "application": "The 23.12.2020 order was quashed because the assessing officer decided the representation without fixing a date for personal hearing, contrary to section 126(3) and Clause 8.1.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "alternate-remedy-section-127-appeal-bars-writ",
+      "application": "The licensee invoked section 127 as a bar; the Court did not relegate the petitioner and instead quashed the order for want of the personal hearing required by section 126(3) and Clause 8.1.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits and quantum of the section 126 assessment and the 06.09.2019 inspection report",
+      "note": "The Court remitted for a personal hearing and did not examine unauthorized use or the assessment figure.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
