@@ -1,0 +1,52 @@
+{
+  "case_id": "SCJ-2451",
+  "title": "Ashish Kumar v. Purvanchal Vidyut Vitran Nigam Ltd.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Naheed Ara Moonis, J.; Dinesh Pathak, J.",
+  "date_of_judgment": "2021-01-05",
+  "date_display": "5 January 2021",
+  "docket": "WRIT - C No. 23679 of 2020",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed for alternative remedy of Section 127 appeal.",
+  "headnote": "A writ to quash a Collector's recovery citation issued after confirmation of a final assessment, and to compel decision on objections and restoration of supply, is not maintainable where the consumer does not dispute that an appeal lies under Section 127; the petition is dismissed for alternative remedy.",
+  "facts": "After inspection of his premises, Purvanchal Vidyut Vitran Nigam Ltd. made a provisional assessment against Ashish Kumar on 1 October 2019. He filed no reply. The assessment was confirmed as final on 16 December 2019. The Collector, Mau, then issued a recovery citation dated 29 June 2020. The petitioner approached the High Court to quash that citation, compel a decision on his objection to the final assessment, and restore electricity supply, alleging that a representation against the assessment notice remained pending.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "alternative-remedy-final-assessment-appeal",
+      "type": "electricity_act",
+      "holding": "Where a provisional assessment has been confirmed as final and the consumer does not dispute that an appeal lies against that assessment, a writ seeking to quash a Collector's recovery citation, to compel decision on objections, and to restore supply is dismissed for alternative remedy under Section 127.",
+      "paras": "2",
+      "flag": "Court referred to 'Section 127 of the Electricity Supply Code'; s.127 is of the Electricity Act, 2003."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternate-remedy-section-127-appeal-bars-writ",
+      "application": "Writ against recovery citation, pending objection, and disconnection after a confirmed final assessment dismissed because a Section 127 appeal was available and not disputed.",
+      "lead_authorities": [],
+      "paras": "2"
+    },
+    {
+      "tag": "final-assessment-order-relegates-assessee-to-section-127-appeal",
+      "application": "Confirmation of the 16.12.2019 final assessment, with no reply to the 1.10.2019 provisional assessment, was treated as attracting the Section 127 appeal and not a writ.",
+      "lead_authorities": [],
+      "paras": "2"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "merits of the 16.12.2019 final assessment, the 29.06.2020 recovery citation, restoration of supply, and the pending representation",
+      "note": "left open by dismissal for Section 127 appeal",
+      "paras": "2"
+    }
+  ],
+  "authorities": []
+}
