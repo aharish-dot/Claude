@@ -1,0 +1,57 @@
+{
+  "case_id": "SCJ-2722",
+  "title": "Shlok Sangam v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sunita Agarwal, J.; Deepak Verma, J.",
+  "date_of_judgment": "2021-03-16",
+  "date_display": "16 March 2021",
+  "docket": "WRIT - C No. - 7166 of 2021",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; petitioner relegated to a section 127 appeal against the Executive Engineer's computation of theft-assessment dues.",
+  "headnote": "A consumer's challenge that the Executive Engineer, while granting three instalments under clause 6.14 of the U.P. Electricity Supply Code, 2005, inflated the total theft-assessment dues is a factual dispute. The remedy is an appeal under section 127 of the Electricity Act, 2003; the writ petition is dismissed.",
+  "facts": "The petitioner, Shlok Sangam, challenged the Executive Engineer's assessment of alleged electricity theft. In an earlier writ (Writ-C No. 6869) he had attacked a recovery certificate dated 16 December 2019 seeking instalment payment; the Court directed that request to be considered in accordance with law. The Executive Engineer, Vidyut Vitran Khand-III, Azamgarh, then permitted three instalments under clause 6.14 of the U.P. Electricity Supply Code, 2005. He returned alleging that, in computing those instalments, the total demand had been increased exorbitantly.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "appeal against theft-assessment computation",
+      "type": "electricity_act",
+      "holding": "Where the live grievance is that the Executive Engineer, in computing dues payable in clause 6.14 instalments, has increased the total theft-assessment amount, the dispute is factual and an appeal under section 127 of the Electricity Act, 2003 lies to challenge that calculation; the writ petition is dismissed.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternative-remedy-relegation-section-127",
+      "application": "The Court refused writ interference with the Executive Engineer's computation of theft dues and left the petitioner to a section 127 appeal.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "alternative-remedy-s127-appeal-bars-writ-against-s126-assessment",
+      "application": "The matter being theft of electricity and the challenge being to the Executive Engineer's assessment computation, the writ was dismissed in favour of the statutory appeal.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "theft-assessment-is-under-s126-appealable-s127",
+      "application": "Counsel's written instructions established theft of electricity; the Court treated the assessment computation as appealable under section 127.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the Executive Engineer exorbitantly increased the total theft-assessment dues while computing clause 6.14 instalments",
+      "note": "Left to a section 127 appeal as a factual dispute on calculation.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
