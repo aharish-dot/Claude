@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2568,
+  "next_seq": 2569,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -15364,6 +15364,12 @@
       "case_id": "SCJ-2564",
       "source_basename": "CAPL(A)_4782_2021.pdf",
       "title": "Mangalam Cold Storage And Allied v. Ram Pal Singh Yadav",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2566",
+      "source_basename": "CAPL(A)_6054_2021.pdf",
+      "title": "Deepak Kumar v. Ankit Kumar Yadav, Executive Engineer",
       "status": "done"
     }
   ]
