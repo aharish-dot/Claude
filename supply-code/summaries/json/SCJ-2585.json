@@ -1,0 +1,44 @@
+{
+  "case_id": "SCJ-2585",
+  "title": "M/s Galaxy Papers Pvt. Ltd. v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sunita Agarwal and Sadhna Rani (Thakur), JJ.",
+  "date_of_judgment": "2021-07-07",
+  "date_display": "7 July 2021",
+  "docket": "WRIT - C No. 14871 of 2021",
+  "page_count": 1,
+  "significance": "procedural",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of; consumer to object to the check-meter demand before the Executive Engineer, who must pass a speaking order; coercive action stayed for seven weeks.",
+  "headnote": "A writ attacking a PVVNL demand founded on the difference between main-meter and check-meter readings was disposed of without deciding whether clause 5.6(c)(i) of the U.P. Electricity Supply Code, 2005 barred installation of a check meter unless the main meter had first been tested and found defective. The Court treated the dispute as factual, directed detailed objections to the Executive Engineer for a reasoned speaking order in accordance with law, and stayed coercive action for seven weeks.",
+  "facts": "M/s Galaxy Papers Pvt. Ltd. and another challenged a 21 June 2021 demand notice of the Executive Engineer, Paschimanchal Vidyut Vitran Nigam Ltd., Muzaffarnagar, raising charges for electricity usage on the difference between main-meter and check-meter readings. The consumers contended that the main meter had not been found defective on 9 February 2021, so a check meter was unnecessary, and that clause 5.6(c)(i) of the U.P. Electricity Supply Code, 2005 did not permit installation of a check meter unless the main meter had first been tested and found defective.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::5.6(c)(i)",
+      "code": "UP-2005",
+      "clause": "5.6(c)(i)",
+      "topic": "check-meter demand on difference of readings",
+      "type": "supply_code",
+      "holding": "A writ challenge to a demand notice based on the difference between main-meter and check-meter readings, including the contention that clause 5.6(c)(i) barred a check meter unless the main meter had been tested and found defective, raises factual issues to be decided by the Executive Engineer on objections, by a reasoned speaking order in accordance with law, rather than on writ; coercive action on the notice is stayed for seven weeks or until that decision, and if no objection is filed the licensee may proceed in accordance with law.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "check-meter-demand-factual-objections-before-ee",
+      "application": "The Court declined to construe clause 5.6(c)(i) on writ and sent the consumer’s challenge to a main-versus-check-meter difference demand to the Executive Engineer for a speaking decision on objections.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the main meter was defective on 9 February 2021, whether a check meter could be installed under clause 5.6(c)(i) of the U.P. Electricity Supply Code, 2005 without the main meter having been tested and found defective, and whether the demand based on the difference between main-meter and check-meter readings was valid.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
