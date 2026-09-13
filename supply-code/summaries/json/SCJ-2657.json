@@ -1,0 +1,60 @@
+{
+  "case_id": "SCJ-2657",
+  "title": "Chandra Prakash Saraswat v. Managing Director",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sunita Agarwal, J.; Krishan Pahal, J.",
+  "date_of_judgment": "2021-12-10",
+  "date_display": "10 December 2021",
+  "docket": "Writ-C No. 30486 of 2021",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed with costs; petitioner liable under 4.3(h) to clear pre-partition dues.",
+  "headnote": "The Allahabad High Court dismissed a co-owner’s writ for a domestic connection on a partitioned share of House No. 6C/25, Azad Nagar, Agra. About Rs 15 lakh of consumption dues, determined before the April 2019 partition, remained unpaid despite a Consumer Forum revised-bill order. Applying clause 4.3(h) of the U.P. Electricity Supply Code, 2005, the Court held the petitioner liable to clear the premises’ outstanding dues for the subdivided share that came to him. Concealment of those arrears, the Forum proceedings, and prior co-owner writs (including Pawanesh Sarswat, dismissed with costs) made the petition an abuse of process; it was dismissed with costs of Rs 10,000.",
+  "facts": "Chandra Prakash Saraswat sought a mandamus for a domestic electricity connection in his name at House No. 6C/25, Azad Nagar, Khandari, Agra, a house jointly owned with two brothers. About Rs 15 lakh of consumption dues, determined before an April 2019 partition, remained unpaid. Co-owners had obtained a Consumer Forum, Agra order dated 20 December 2016 directing a revised bill; the bill was issued but dues were not deposited. A co-owner’s earlier writ (Pawanesh Sarswat, Writ-C No. 5105 of 2019) had been dismissed with costs. The petitioner said he now occupied only his partitioned share.",
+  "reusable_constructions": [
+    {
+      "construction": "Under clause 4.3(h) of the U.P. Electricity Supply Code, 2005, a co-owner who takes a subdivided share on partition remains liable to clear outstanding electricity dues of the premises determined before the partition, as a condition of claiming a fresh connection in his own name.",
+      "paras": "1"
+    },
+    {
+      "construction": "A writ for a new electricity connection that conceals outstanding dues, Consumer Forum proceedings, and prior co-owner petitions for the same premises is an abuse of process liable to dismissal with costs.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.3(h)",
+      "code": "UP-2005",
+      "clause": "4.3(h)",
+      "topic": "new connection — outstanding dues of partitioned premises",
+      "type": "supply_code",
+      "holding": "The petitioner, occupying a subdivided share after the April 2019 partition, is liable under clause 4.3(h) of the U.P. Electricity Supply Code, 2005 to clear outstanding electricity dues of the premises determined before partition. A writ seeking a domestic connection in his own name, filed by concealing those arrears, the Consumer Forum proceedings, and prior co-owner writs including Pawanesh Sarswat (Writ-C No. 5105 of 2019, dismissed with costs), is an abuse of process and is dismissed with costs of Rs 10,000.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "4.3(h)-outstanding-dues",
+      "application": "Clause 4.3(h) was applied to hold that the occupant of a post-partition subdivided share must clear the premises’ pre-partition electricity arrears of about Rs 15 lakh before a fresh domestic connection can be claimed; concealment of those arrears and related litigation led to dismissal with costs.",
+      "lead_authorities": [
+        {
+          "name": "Pawanesh Sarswat vs. State of U.P. and 3 others",
+          "docid": "Writ-C No. 5105 of 2019"
+        }
+      ],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "Pawanesh Sarswat vs. State of U.P. and 3 others",
+      "citation": "Writ-C No. 5105 of 2019 (judgment dated 13.2.2019)",
+      "cited_by": "1"
+    }
+  ]
+}
