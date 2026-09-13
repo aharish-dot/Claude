@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2647,
+  "next_seq": 2648,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -15838,6 +15838,12 @@
       "case_id": "SCJ-2645",
       "source_basename": "WRIC(A)_27127_2021.pdf",
       "title": "Praveen Kumar Sahu v. State of U.P. — electricity-bill writ dismissed for Clause 6.5 remedy",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2644",
+      "source_basename": "WRIC(A)_2667_2021.pdf",
+      "title": "Karam Ali v. State of U.P. — disputed bill relegated to clause 6.5",
       "status": "done"
     }
   ]
