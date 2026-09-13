@@ -1,0 +1,79 @@
+{
+  "case_id": "SCJ-2555",
+  "title": "Janardan Singh v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Single Judge",
+  "coram": "Syed Aftab Husain Rizvi, J.",
+  "date_of_judgment": "2022-03-07",
+  "date_display": "7 March 2022",
+  "docket": "APPLICATION U/S 482 No. 25399 of 2021",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Section 482 CrPC application dismissed; s.135 charge-sheet and cognizance stand.",
+  "headnote": "On a petition under section 482 CrPC to quash a charge-sheet and cognizance under section 135 of the Electricity Act, 2003, the Allahabad High Court held that where the FIR discloses a cognizable offence and the trial court has taken cognizance on a charge-sheet, alleged failure to serve or paste the checking report under clause 8.1 of the U.P. Electricity Supply Code, 2005, alleged non-compliance with section 126 procedure, and other factual defences are matters for trial and cannot be examined at the 482 stage. The application was dismissed.",
+  "facts": "An FIR of 22 December 2018 at Charwa, Kaushambi, alleged that Janardan Singh had tapped a two-core cable onto the LT line, bypassing the meter. A section 135 charge-sheet followed and cognizance was taken. He said the meter had burnt two days earlier and been replaced that day, the inspection produced no seizure, the clause 8.1 checking report was neither served nor pasted, section 126 was ignored, and about Rs 1.38 lakh was provisionally assessed. He sought quashing under section 482 CrPC.",
+  "holding_units": [
+    {
+      "provision": "EA2003::135",
+      "code": "EA2003",
+      "clause": "135",
+      "topic": "s135-chargesheet-not-quashed-on-clause-8.1-or-s126-objections",
+      "type": "electricity_act",
+      "holding": "A charge-sheet and cognizance under section 135 of the Electricity Act, 2003 will not be quashed under section 482 CrPC where the FIR discloses a cognizable offence and the investigating officer has collected evidence the trial court found sufficient to take cognizance. Alleged failure to serve or paste the checking report under clause 8.1 of the U.P. Electricity Supply Code, 2005, alleged non-compliance with section 126 procedure, and other factual defences to the theft prosecution are matters for trial.",
+      "paras": "6-8"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "EA2003::135",
+      "application": "Section 482 CrPC will not quash a section 135 charge-sheet and cognizance where the FIR discloses a cognizable offence; alleged clause 8.1 checking-report and section 126 irregularities are for trial.",
+      "lead_authorities": [
+        {
+          "name": "Zandu Pharmaceutical Works Ltd. v. Mohd. Saraful Haq",
+          "docid": ""
+        }
+      ],
+      "paras": "6-8"
+    },
+    {
+      "tag": "UP-2005::8.1",
+      "application": "The plea that the inspection team neither served nor pasted the checking report as clause 8.1 requires was treated as a factual defence to the section 135 prosecution, not a ground to quash the charge-sheet under section 482 CrPC.",
+      "lead_authorities": [
+        {
+          "name": "Zandu Pharmaceutical Works Ltd. v. Mohd. Saraful Haq",
+          "docid": ""
+        }
+      ],
+      "paras": "4, 6"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the checking report dated 22.12.2018 was served or pasted as clause 8.1 of the U.P. Electricity Supply Code, 2005 requires",
+      "note": "Treated as a factual issue for trial",
+      "paras": "4, 6"
+    },
+    {
+      "point": "Whether the licensee followed section 126 assessment procedure, and whether the provisional assessment or recovery certificate was valid",
+      "note": "Not examined on merits",
+      "paras": "4, 6"
+    },
+    {
+      "point": "Whether electricity theft was in fact committed, and whether the investigation was fair",
+      "paras": "4, 6"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Zandu Pharmaceutical Works Ltd. v. Mohd. Saraful Haq",
+      "citation": "2005 SCC (Cr.) 283",
+      "cited_by": "7",
+      "pinpoint": "para 10",
+      "use": "followed",
+      "holding": "At the section 482 stage only a prima facie case is to be seen."
+    }
+  ]
+}
