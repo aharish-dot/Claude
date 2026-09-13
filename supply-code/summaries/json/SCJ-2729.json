@@ -1,0 +1,49 @@
+{
+  "case_id": "SCJ-2729",
+  "title": "Kamlesh Chandra Tiwari v. State of U.P.",
+  "neutral_citation": "Writ-C No. 8073 of 2021",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Manoj Misra, J.; Jayant Banerji, J.",
+  "date_of_judgment": "2021-09-13",
+  "date_display": "13 September 2021",
+  "docket": "Writ-C No. 8073 of 2021",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; poultry farm not entitled to agricultural tariff.",
+  "headnote": "A poultry-farm consumer billed in LMV-2 (non-domestic) cannot obtain agricultural or non-commercial rates by importing the U.P. Revenue Code, 2006 definition of 'agriculture'. The U.P. Electricity Supply Code, 2005 classifies consumers into specified categories and has no general agricultural-supply category other than LMV-5 (private tube well/pumping set for irrigation) and HV-4 (lift irrigation). Poultry farming is otherwise a commercial activity. Writ dismissed.",
+  "facts": "The petitioner held an LMV-2 (non-domestic) electricity connection for a poultry farm. He sought a writ directing the distribution licensee to recast his bills at agricultural or non-commercial rates, because the U.P. Revenue Code, 2006 includes poultry farming in 'agriculture'. The licensee maintained that the Supply Code 2005 has no general agricultural category beyond LMV-5 (irrigation tube well/pumping set) and HV-4 (lift irrigation), and that poultry farming is a commercial activity. The Division Bench heard the State and the licensee.",
+  "reusable_constructions": [
+    {
+      "construction": "The definition of 'agriculture' in the U.P. Revenue Code, 2006 does not travel into the U.P. Electricity Supply Code, 2005 so as to confer agricultural or non-commercial electricity rates on a poultry farm.",
+      "paras": "1"
+    },
+    {
+      "construction": "The Supply Code 2005 contains no general agricultural-supply category other than LMV-5 (private tube well/pumping set for irrigation) and HV-4 (lift irrigation); a poultry farm, being a commercial activity, is properly billed in LMV-2 (non-domestic).",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::LMV-2",
+      "code": "UP-2005",
+      "clause": "LMV-2",
+      "topic": "tariff-category-poultry-farm",
+      "type": "interplay",
+      "holding": "Where the U.P. Electricity Supply Code, 2005 classifies consumers into specified categories and contains no general agricultural-supply category other than LMV-5 (private tube well/pumping set for irrigation) and HV-4 (lift irrigation), a poultry-farm consumer billed in LMV-2 (non-domestic light, fan and power) cannot obtain agricultural or non-commercial rates by invoking the U.P. Revenue Code, 2006 definition of 'agriculture', which includes poultry farming; running a poultry farm is otherwise a commercial activity, and the writ seeking recasting of the bill is dismissed.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "tariff-category-not-imported-from-revenue-code",
+      "application": "The Court refused to recast LMV-2 poultry-farm billing as agricultural supply by importing the Revenue Code definition of agriculture, holding that the Supply Code's specified categories (LMV-5 and HV-4 for irrigation only) control the rate.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [],
+  "authorities": []
+}
