@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2794,
+  "next_seq": 2795,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -16720,6 +16720,12 @@
       "case_id": "SCJ-2790",
       "source_basename": "WRIC(A)_13572_2022.pdf",
       "title": "K.R. Weaving Mills Pvt. Ltd. v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2791",
+      "source_basename": "WRIC(A)_13600_2022.pdf",
+      "title": "Bashir Ahmed v. State of U.P. — s.135 theft assessment relegated to para 6.8 objection",
       "status": "done"
     }
   ]
