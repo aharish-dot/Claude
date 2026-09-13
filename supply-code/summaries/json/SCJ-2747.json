@@ -1,0 +1,72 @@
+{
+  "case_id": "SCJ-2747",
+  "title": "Satish Chandra v. State of U.P. — photography not mandatory under Supply Code; s.482 challenge to s.138(1)(b) charge-sheet dismissed",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Single Judge",
+  "coram": "Syed Aftab Husain Rizvi, J.",
+  "date_of_judgment": "2022-07-27",
+  "date_display": "27 July 2022",
+  "docket": "Application U/S 482 No. 17872 of 2022",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Section 482 Cr.P.C. application dismissed; s.138(1)(b) proceedings to continue.",
+  "headnote": "A single-judge Bench of the Allahabad High Court dismissed a section 482 Cr.P.C. application seeking to quash a charge-sheet and summoning order under section 138(1)(b) of the Electricity Act for alleged unauthorised use after disconnection. The Court held that the U.P. Electricity Supply Code, 2005 contains no provision making photography of such a checking mandatory, so want of photography does not vitiate the inspection. At the 482 stage only a prima facie case is to be seen; the timing of disconnection and a pending SDO bill-correction application are matters for trial.",
+  "facts": "An FIR of 27 November 2019 at P.S. Anti Power Theft, Varanasi, alleged that Satish Chandra, disconnected for unpaid dues, was found using electricity unauthorisedly. Charge-sheet dated 11 June 2021 and a 3 February 2022 summoning order followed under section 138(1)(b) of the Electricity Act. He sought quashing, saying disconnection occurred only at inspection, a 29 March 2022 SDO bill-correction application was pending, and checking was vitiated for want of photography under para 8 of the U.P. Electricity Supply Code, 2005. The licensee said he had tapped a disconnected line and photography was not mandatory.",
+  "reusable_constructions": [
+    {
+      "construction": "The U.P. Electricity Supply Code, 2005 does not make photography of an unauthorised-use inspection mandatory; absence of photographs does not vitiate the checking.",
+      "paras": "5"
+    },
+    {
+      "construction": "On a section 482 Cr.P.C. challenge to a section 138(1)(b) Electricity Act charge-sheet, only a prima facie case is to be seen; defences as to when disconnection occurred and a pending SDO bill-correction application are for trial.",
+      "paras": "5-6"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::8",
+      "code": "UP-2005",
+      "clause": "8",
+      "topic": "inspection-photography-not-mandatory",
+      "type": "supply_code",
+      "holding": "There is no provision in the U.P. Electricity Supply Code, 2005 which makes photography of an unauthorised-use inspection mandatory. Want of photography therefore does not vitiate the checking or justify quashing, under section 482 Cr.P.C., of a charge-sheet and summoning order under section 138(1)(b) of the Electricity Act where the FIR alleges illegal use after disconnection and a charge-sheet has followed. At this stage only a prima facie case is to be seen; arguments on the timing of disconnection and a pending SDO bill-correction application are matters of trial.",
+      "paras": "5-6",
+      "flag": "The applicant attributed a mandatory-photography rule to 'para no. 8' of the Code. The Court did not adopt or correct that numbering; it held that no provision of the Code makes photography mandatory."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "section-482-sparingly-at-pre-trial-stage",
+      "application": "The Court refused to try, under section 482 Cr.P.C., defences of disconnection-timing, a pending SDO bill-correction application, and want of photography, holding that only a prima facie case is to be seen and the remaining arguments are for trial.",
+      "lead_authorities": [
+        {
+          "name": "Zandu Pharmaceutical Works Ltd. v. Mohd. Saraful Haq",
+          "docid": "2005 SCC (Cr.) 283"
+        }
+      ],
+      "paras": "5"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the connection had been disconnected before the FIR or only at the inspection visit",
+      "note": "Treated as a matter of trial.",
+      "paras": "5"
+    },
+    {
+      "point": "Merits of the pending 29 March 2022 SDO application for correction of the electric bill",
+      "note": "Not decided; not a ground to quash at the 482 stage.",
+      "paras": "5"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Zandu Pharmaceutical Works Ltd. v. Mohd. Saraful Haq",
+      "citation": "2005 SCC (Cr.) 283",
+      "cited_by": "5"
+    }
+  ]
+}
