@@ -1,0 +1,77 @@
+{
+  "case_id": "SCJ-2583",
+  "title": "Raja Ram Kushwaha v. State of U.P.",
+  "neutral_citation": "WRIT - C No. 1433 of 2021",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Naheed Ara Moonis, J.; Dinesh Pathak, J.",
+  "date_of_judgment": "2021-01-28",
+  "date_display": "28 January 2021",
+  "docket": "WRIT - C No. 1433 of 2021",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; representation for speaking final assessment after hearing; coercive recovery stayed six weeks.",
+  "headnote": "A distribution licensee cannot treat a Section 126 provisional assessment as final merely because the consumer filed no objection. Clauses 6.8 and 8.1 of the Electricity Supply Code, 2005 require inspection, provisional assessment, hearing and final assessment for unauthorised use or theft. Without that hearing the consumer cannot be compelled to pay, and recovery on the provisional figure is dehors Section 126 and the Code and violates natural justice. The writ was disposed with a direction to decide a representation by a reasoned final assessment after hearing; coercive action on the 1 January 2020 recovery certificate was stayed for six weeks.",
+  "facts": "Raja Ram Kushwaha challenged a 1 January 2020 recovery certificate issued by the Tehsildar, Tahrauli, Jhansi, for electricity dues. The connection stood in his father's name. The Power Corporation inspected the premises on 11 June 2019 and issued a provisional assessment on 10 July 2019. Because no objection was filed, the licensee treated that demand as the final assessment and recovery followed. The petitioner alleged that no hearing was given under Section 126(3) of the Electricity Act, 2003 and Clauses 6.8/8.1 of the Electricity Supply Code, 2005.",
+  "reusable_constructions": [
+    {
+      "construction": "Failure to object to a Section 126 provisional assessment does not convert it into a final assessment; the consumer cannot be compelled to deposit that amount without a hearing and a final assessment.",
+      "paras": "1"
+    },
+    {
+      "construction": "Clauses 6.8 and 8.1 of the Electricity Supply Code, 2005 require inspection, provisional assessment, hearing and final assessment; treating the provisional figure as final without hearing is dehors Section 126 and the Code and violates natural justice.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::126",
+      "code": "EA2003",
+      "clause": "126",
+      "topic": "provisional assessment not final without hearing",
+      "type": "interplay",
+      "holding": "A licensee cannot treat a Section 126 provisional assessment as a final assessment merely because the consumer did not file an objection. Clauses 6.8 and 8.1 of the Electricity Supply Code, 2005 prescribe inspection, provisional assessment, hearing and final assessment for unauthorised use or theft, as the case may be. Without considering objections and giving an opportunity of hearing, the consumer cannot be compelled to deposit the provisional amount, and recovery on that basis is dehors Section 126 and Clause 8.1 of the Code and violates natural justice. The Court, without deciding the merits of the demand, directed a representation to be decided by a reasoned speaking order on final assessment after hearing.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.8-hearing-procedure-mandatory-before-uue-conclusion",
+      "application": "The Court held that failure to object to a provisional assessment does not dispense with the Clause 6.8/8.1 hearing; the licensee must still make a final assessment after an opportunity of hearing before the consumer can be compelled to pay or face recovery.",
+      "lead_authorities": [
+        {
+          "name": "Shishir Jain v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+          "docid": "2017 (3) AWC 3084"
+        }
+      ],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "merits of the assessment and the recovery certificate",
+      "note": "The Court expressly disposed of the writ without entering into the merits, directing a representation and a speaking final assessment after hearing.",
+      "paras": "1"
+    },
+    {
+      "point": "whether recovery against the petitioner is valid when the connection stood in his father's name",
+      "note": "Raised by the petitioner; not decided.",
+      "paras": "1"
+    },
+    {
+      "point": "whether the inspection fell under Clause 6.8 (unauthorised use) or Clause 8.1 (theft)",
+      "note": "The Court referred to both procedures as the case may be without classifying the demand.",
+      "paras": "1"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Shishir Jain v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+      "citation": "2017 (3) AWC 3084",
+      "cited_by": "1",
+      "quoted": true
+    }
+  ]
+}
