@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2540,
+  "next_seq": 2541,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -15196,6 +15196,12 @@
       "case_id": "SCJ-2536",
       "source_basename": "WRIC(A)_6882_2020.pdf",
       "title": "Sri Krishna Lal v. State of U.P. — Clause 6.5 remittal of disputed PuVVNL bill",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2537",
+      "source_basename": "WRIC(A)_7184_2020.pdf",
+      "title": "Alok Kumar v. Dakshinanchal Vidyut Vitran Nigam Ltd.",
       "status": "done"
     }
   ]
