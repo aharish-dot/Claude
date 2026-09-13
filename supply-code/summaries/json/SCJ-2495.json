@@ -1,0 +1,51 @@
+{
+  "case_id": "SCJ-2495",
+  "title": "Chaudhary Ram Prakash Private ITI v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Ramesh Sinha, J.; Ajit Kumar, J.",
+  "date_of_judgment": "2020-02-07",
+  "date_display": "7 February 2020",
+  "docket": "WRIT - C No. - 4529 of 2020",
+  "page_count": 1,
+  "significance": "procedural",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of; bill-correction relegated to clause 6.5; restoration on 50% deposit.",
+  "headnote": "Writ against a recovery certificate of Rs. 14,25,000 is disposed of by relegating the consumer to a bill-correction objection under clause 6.5 of the U.P. Electricity Supply Code, 2005, to be decided within six weeks, with restoration of supply if 50% of the certified amount is deposited within two weeks. The recovery certificate is not quashed on the writ side.",
+  "facts": "The petitioner, Chaudhary Ram Prakash Private ITI, challenged a recovery certificate dated 28 May 2019 issued at the instance of the Electricity Department for Rs. 14,25,000. It contended that the respondents had never issued a corrected bill. Counsel for the distribution licensee submitted that the petitioner had deliberately delayed deposits and had never paid an entire bill when demand was raised. Supply had been disconnected; the petitioner sought restoration as well as relief against the recovery.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "bill-correction-objection",
+      "type": "supply_code",
+      "holding": "A writ challenge to a recovery certificate, on the plea that no corrected bill was issued, is not decided on merits. The consumer is left to file an objection for correction of the bills before the concerned respondent under clause 6.5 of the U.P. Electricity Supply Code, 2005, within two weeks, to be considered and decided within six weeks. Supply is to be restored if 50% of the amount under the recovery certificate is deposited within two weeks; failing that, the licensee may proceed in accordance with law. The recovery certificate is not quashed.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "bill-correction-clause-6.5",
+      "application": "Clause 6.5 is treated as the proper channel for an objection seeking correction of electricity bills; the writ court does not itself correct the bill or quash the recovery certificate.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "restoration-on-part-deposit",
+      "application": "Supply is directed to be restored if the consumer deposits 50% of the recovery-certificate amount within two weeks; default permits the licensee to proceed in accordance with law.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness of the bills and validity of the recovery certificate dated 28 May 2019",
+      "note": "Left to a clause 6.5 objection; the writ was not decided on the merits of the demand.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
