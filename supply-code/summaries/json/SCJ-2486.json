@@ -1,0 +1,51 @@
+{
+  "case_id": "SCJ-2486",
+  "title": "Tulamani Patel v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta and Piyush Agrawal, JJ.",
+  "date_of_judgment": "2020-01-09",
+  "date_display": "9 January 2020",
+  "docket": "WRIT - C No. 386 of 2020",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; relegated to Clause 6.5; six-week stay of coercive action.",
+  "headnote": "A writ seeking certiorari to quash a recovery citation founded on a disputed electricity bill was not entertained. The Division Bench held that Clause 6.5 of the U.P. Electricity Supply Code, 2005 is the statutory remedy for a bill-correctness dispute, disposed of the petition, and directed that if the petitioner approached the appropriate authority within two weeks the application be decided by a speaking order within four weeks after hearing, with no coercive action for six weeks or until that decision, whichever was earlier.",
+  "facts": "Tulamani Patel filed a writ petition in the Allahabad High Court seeking certiorari to quash a recovery citation notice dated 9 December 2019 issued by respondent no. 2. His grievance was the correctness of the electricity bill raised against him. Counsel for the petitioner and for the Electricity Department were heard. The order records no further facts as to the supply, the billed amount, or the meter.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "disputed bill — statutory remedy",
+      "type": "supply_code",
+      "holding": "A writ challenging a recovery citation on the correctness of an electricity bill will not be entertained where Clause 6.5 of the U.P. Electricity Supply Code, 2005 furnishes the statutory remedy. The petitioner may approach the appropriate authority within two weeks; that authority is to decide the application by a speaking order within four weeks after hearing. Coercive action is stayed for six weeks or until that decision, whichever is earlier; the stay lapses if the petitioner does not approach within the stipulated period.",
+      "paras": "1-2"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-statutory-remedy-disputed-bill",
+      "application": "The petitioner's challenge to the correctness of the bill, and to the recovery citation founded on it, was sent to Clause 6.5 as the statutory remedy rather than decided on the writ.",
+      "lead_authorities": [],
+      "paras": "1-2"
+    },
+    {
+      "tag": "clause-6.5-alternate-remedy",
+      "application": "The Court declined to entertain the writ because of the availability of the Clause 6.5 statutory remedy, and disposed of the petition with a time-bound direction to that authority.",
+      "lead_authorities": [],
+      "paras": "1-2"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness of the electricity bill and validity of the recovery citation dated 9 December 2019",
+      "note": "Left to the Clause 6.5 authority if approached within two weeks.",
+      "paras": "1-2"
+    }
+  ],
+  "authorities": []
+}
