@@ -1,0 +1,55 @@
+{
+  "case_id": "SCJ-2556",
+  "title": "Islam Khan v. State of U.P. — s.482 to quash electricity-theft trial withdrawn",
+  "neutral_citation": "2023:AHC:104037",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Single Judge",
+  "coram": "Dr. Kaushal Jayendra Thaker, J.",
+  "date_of_judgment": "2023-05-11",
+  "date_display": "11 May 2023",
+  "docket": "Application u/s 482 No. 7074 of 2021",
+  "page_count": 4,
+  "significance": "procedural",
+  "outcome": "none",
+  "model": "Grok 4.6",
+  "disposition": "Petition dismissed as withdrawn; correction application refused.",
+  "headnote": "Islam Khan's section 482 CrPC petition to quash Case Crime No. 49 of 2019 (Special Trial No. 5182 of 2019) was dismissed as withdrawn after the Court showed disinclination to quash, and a later correction application was refused. The applicant had invoked clause 8.1(vii) of the U.P. Electricity Supply Code, 2005 (photographs of the spot on an LT-line inspection) but that Code question was not decided. Citing Neeharika Infrastructure, the Court held that extraordinary 482 jurisdiction would not be exercised to quash the FIR/proceedings.",
+  "facts": "Islam Khan applied under section 482 CrPC to quash Case Crime No. 49 of 2019, pending as Special Trial No. 5182 of 2019 before the Additional Sessions Judge. He contended that clause 8.1(vii) of the U.P. Electricity Supply Code, 2005 required photographs of the spot on an LT-line inspection, that this procedure was not followed, and that the site plan showed neither LT line nor pole. After the High Court indicated it would not quash the proceedings, counsel withdrew the petition. A subsequent correction application was also dismissed.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1(VII)",
+      "code": "UP-2005",
+      "clause": "8.1(VII)",
+      "topic": "s.482 quash of theft trial after clause 8.1(vii) photograph objection",
+      "type": "interplay",
+      "holding": "A section 482 petition seeking to quash an electricity-theft special trial, founded on alleged non-compliance with clause 8.1(vii) of the U.P. Electricity Supply Code, 2005 (photographs of the spot on an LT-line inspection), was dismissed as withdrawn after the Court showed disinclination to quash; a later correction application was refused because Neeharika Infrastructure does not permit entertaining a 482 petition to quash the FIR/proceedings. The clause 8.1(vii) contention was not decided.",
+      "paras": "3-4"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "section-482-sparingly-at-pre-trial-stage",
+      "application": "The Court declined to quash a pending electricity-theft special trial under s.482 CrPC at the pre-trial stage, treating Neeharika as barring entertainment of the petition; the applicant then withdrew.",
+      "lead_authorities": [
+        {
+          "name": "Neeharika Infrastructure Pvt. Ltd. v. State of Maharashtra",
+          "docid": "AIR 2021 SC 1918"
+        }
+      ],
+      "paras": "3-4"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether clause 8.1(vii) of the U.P. Electricity Supply Code, 2005 made photographs of the spot mandatory on an LT-line theft inspection, and whether non-compliance or omission of the LT line/pole from the site plan vitiated the prosecution.",
+      "note": "Raised on 9.12.2021; never decided before the petition was withdrawn."
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Neeharika Infrastructure Pvt. Ltd. v. State of Maharashtra",
+      "citation": "AIR 2021 SC 1918",
+      "cited_by": "3"
+    }
+  ]
+}
