@@ -1,0 +1,61 @@
+{
+  "case_id": "SCJ-2751",
+  "title": "Ashfaq Ansari v. Mohammad Shafaq",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sunita Agarwal, J.; Vikram D. Chauhan, J.",
+  "date_of_judgment": "2023-03-24",
+  "date_display": "24 March 2023",
+  "docket": "Civil Misc. Review Application No. 422 of 2022",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Review dismissed; Clause 4.4 connection direction stands despite pending title dispute.",
+  "headnote": "An unimpleaded owner’s review of a direction to grant electricity supply fails where occupation is undisputed and title is pending in civil suits. Compliance with Clause 4.4 of the U.P. Electricity Supply Code, 2005 for connection on the occupier’s application is held to protect both litigating parties. Delay in the review was condoned; the review was dismissed.",
+  "facts": "Ashfaq Ansari, asserting ownership of House No. 116/56(4), Sayyad Nagar, Kanpur, applied to review the High Court’s 20 June 2022 order directing an electricity connection, contending he had not been impleaded and the order was obtained behind his back. Title was in dispute in pending Original Suit Nos. 1036 and 1450 of 2008. Mohammad Shafaq, the original writ petitioner, occupied the house and claimed title. Delay in the review was condoned without objection.",
+  "reusable_constructions": [
+    {
+      "construction": "Where occupation is undisputed and title is pending in civil court, granting a new connection on compliance with Clause 4.4 of the U.P. Electricity Supply Code, 2005 protects both the occupier and the rival claimant; pending title litigation is not a ground to recall that direction.",
+      "paras": "6"
+    },
+    {
+      "construction": "Non-impleadment of a person claiming ownership does not warrant review of a Clause 4.4 connection order when that clause is held to safeguard both litigating parties.",
+      "paras": "4,6-7"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.4",
+      "code": "UP-2005",
+      "clause": "4.4",
+      "topic": "occupant connection during pending title dispute",
+      "type": "supply_code",
+      "holding": "Where title to the premises is pending in civil suits but the writ petitioner’s occupation is undisputed, a direction to grant electricity connection on compliance with Clause 4.4 of the U.P. Electricity Supply Code, 2005 protects both the occupier and the unimpleaded owner. The owner’s review, founded on non-impleadment and an alleged ex parte order, is dismissed.",
+      "paras": "6-7"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-4.4-occupant-connection-on-indemnity-bond",
+      "application": "The Court left standing the direction to grant connection on the occupier’s application upon compliance with Clause 4.4, treating that clause as sufficient protection for both the occupier and the rival owner while title remained in civil court.",
+      "lead_authorities": [],
+      "paras": "6"
+    },
+    {
+      "tag": "occupier-needs-proof-of-occupancy-plus-indemnity-bond-clause-4.4",
+      "application": "Undisputed occupation of the house was the fact that sustained Clause 4.4 compliance as the path to connection despite a pending title contest and the owner’s absence from the original writ.",
+      "lead_authorities": [],
+      "paras": "5-6"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "title to House No. 116/56(4), Sayyad Nagar, Kanpur",
+      "note": "Left to pending Original Suit Nos. 1036 and 1450 of 2008; the Court did not adjudicate ownership.",
+      "paras": "5-6"
+    }
+  ],
+  "authorities": []
+}
