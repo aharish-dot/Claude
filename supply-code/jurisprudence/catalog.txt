@@ -1,7 +1,7 @@
 # Reuse these keys when they fit. Do not invent a synonym for an existing tag.
 # New kebab-case tags are allowed only when none of these capture the holding.
 
-PROVISIONS (300)
+PROVISIONS (301)
 additional-security
 ARREARS::transferee-liability
 BIHAR-2007::4.1
@@ -223,6 +223,7 @@ UP-2005::6.16
 UP-2005::6.2
 UP-2005::6.3
 UP-2005::6.4
+UP-2005::6.4(c)
 UP-2005::6.45
 UP-2005::6.5
 UP-2005::6.5(a)
@@ -303,7 +304,7 @@ UPGEUDR1958::4
 URUA1966::4
 WB-2004::5.2
 
-TAGS (551)
+TAGS (554)
 126-vs-135-distinct-fields
 126-vs-135-distinct-fields-but-126-still-applies-to-theft
 15-days-clear-notice-mandatory-before-final-theft-assessment
@@ -404,6 +405,7 @@ clause-4.5d-landowner-objection-to-supply-line
 clause-5.6-meter-testing-required-before-missing-meter-assessment
 clause-5.6d-meter-testing-procedure-mandatory-for-theft-finding
 clause-6-15b-read-with-section-56-not-independent-limitation
+clause-6-4c-interest-on-unadjusted-balance-left-open
 clause-6.12-governs-bill-payment-appropriation-not-duty-refund
 clause-6.15-two-year-bar-mandatory-licensee-duty-to-act
 clause-6.15-two-year-limitation-relegated-to-authority
@@ -440,6 +442,7 @@ compounding-fee-not-precondition-clause-5.9
 conditional-interim-stay-deposit-of-three-months-amount
 connection-must-be-released-with-a-meter
 connection-transfer-requires-clearance-of-arrears-clause-4.44
+consumer-bound-by-voluntary-phased-adjustment-agreement
 consumer-cannot-blame-licensee-for-consequences-of-own-delay
 consumer-forum-jurisdiction-over-assessment
 consumer-forum-lacks-jurisdiction-over-s126-s135-140-matters
@@ -622,6 +625,7 @@ no-disconnection-power-for-uue-only-for-theft
 no-double-recovery-of-arrears-already-realized-from-erstwhile-owner
 no-final-order-defeats-section-127-appeal
 no-free-consumption-disconnection-for-non-payment
+no-interest-where-not-claimed-or-granted-earlier
 no-mandamus-to-enforce-order-without-jurisdiction
 no-meter-billing-on-three-months-average-clause-5.7
 no-negative-equality-in-electricity-supply-decisions
