@@ -1,0 +1,51 @@
+{
+  "case_id": "SCJ-2667",
+  "title": "Smt. Deepti Agarwal v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Pritinker Diwaker, J.; Ashutosh Srivastava, J.",
+  "date_of_judgment": "2021-12-20",
+  "date_display": "20 December 2021",
+  "docket": "Writ-C No. 31736 of 2021",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; consider connection on Clause 4.4 indemnity bond.",
+  "headnote": "Where a landlord withholds a no-objection certificate for a tenant's electricity connection, Clause 4.4 of the U.P. Electricity Supply Code, 2005 contemplates an indemnity bond from the occupier. Recording the petitioner's undertaking to furnish that bond and complete remaining formalities, the Court held that nothing survived for adjudication and expected the licensee to pass an appropriate order in accordance with law. Connection was not directed.",
+  "facts": "Smt. Deepti Agarwal sought a writ after the distribution licensee refused her electricity connection for want of a landlord's no-objection certificate. Civil litigation with the landlord was pending in the competent civil court. Counsel for the Power Corporation submitted that under Clause 4.4 of the U.P. Electricity Supply Code, 2005 a tenant whose landlord withholds NOC must furnish an indemnity bond. The petitioner undertook to submit that bond and complete other formalities, and asked that connection be granted immediately.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.4",
+      "code": "UP-2005",
+      "clause": "4.4",
+      "topic": "tenant connection on indemnity bond where landlord withholds NOC",
+      "type": "supply_code",
+      "holding": "Where a landlord withholds a no-objection certificate, a tenant-occupier may seek a new connection by furnishing the indemnity bond under Clause 4.4 of the U.P. Electricity Supply Code, 2005. Upon completion of required formalities including that bond, the licensee is to pass an appropriate order in accordance with law. The Court did not mandamus grant of the connection.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-4.4-occupant-connection-on-indemnity-bond",
+      "application": "Licensee treated landlord NOC as missing; the Court recorded that Clause 4.4 requires the tenant-occupier to furnish an indemnity bond in that event.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "direction-to-consider-connection-on-furnishing-4.4-or-annexure-4.2-documents",
+      "application": "Petitioner undertook to submit the Clause 4.4 indemnity bond and complete other formalities; the Court expected an appropriate order in accordance with law rather than directing grant of connection.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner is entitled to an electricity connection on the merits",
+      "note": "Left to the licensee to pass an appropriate order in accordance with law after completion of formalities including the indemnity bond.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
