@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2749,
+  "next_seq": 2750,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -16450,6 +16450,12 @@
       "case_id": "SCJ-2745",
       "source_basename": "WRIC(A)_9772_2021.pdf",
       "title": "Vinod Pratap Singh v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2746",
+      "source_basename": "A482(A)_17631_2022.pdf",
+      "title": "Rajeev Chaturvedi v. State of U.P. (s.135 charge-sheet; 482 CrPC stay)",
       "status": "done"
     }
   ]
