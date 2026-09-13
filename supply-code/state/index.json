@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2751,
+  "next_seq": 2752,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -16462,6 +16462,12 @@
       "case_id": "SCJ-2747",
       "source_basename": "A482(A)_17872_2022.pdf",
       "title": "Satish Chandra v. State of U.P. — photography not mandatory under Supply Code; s.482 challenge to s.138(1)(b) charge-sheet dismissed",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2748",
+      "source_basename": "A482(A)_32285_2022.pdf",
+      "title": "Mohammad Rashid v. State of U.P. — s.135 complaint and summoning stayed on clause 8.2 delay plea",
       "status": "done"
     }
   ]
