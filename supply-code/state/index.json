@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2842,
+  "next_seq": 2843,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -17008,6 +17008,12 @@
       "case_id": "SCJ-2838",
       "source_basename": "WRIC(A)_18056_2022.pdf",
       "title": "M/s Raghav Cold Storage v. Dakshinanchal Vidhyut Vitran Nigam Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2839",
+      "source_basename": "WRIC(A)_18062_2022.pdf",
+      "title": "Gaurav Beri v. State of U.P.",
       "status": "done"
     }
   ]
