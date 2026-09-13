@@ -1,0 +1,51 @@
+{
+  "case_id": "SCJ-2594",
+  "title": "Amit Kumar v. State of U.P. & Ors.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Naheed Ara Moonis, J.; Saumitra Dayal Singh, J.",
+  "date_of_judgment": "2021-08-10",
+  "date_display": "10 August 2021",
+  "docket": "WRIT - C No. 16640 of 2021",
+  "page_count": 4,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; decide pending Clause 6.8 objections; stay recovery.",
+  "headnote": "Recovery of electricity dues cannot be enforced while the consumer's objections to a provisional assessment under Clause 6.8 of the U.P. Electricity Supply Code, 2005 remain undecided. The High Court disposed of the writ against recovery of Rs.7,47,478 by directing the licensee to hear and decide the pending objections, with a limited stay on coercive measures.",
+  "facts": "Amit Kumar, a consumer, approached the Allahabad High Court against recovery of Rs.7,47,478 towards electricity dues. A provisional demand note had been served on 24 February 2020. He filed objections under Clause 6.8 of the U.P. Electricity Supply Code, 2005 on 6 March 2020, within the fifteen-day period. Those objections were never decided and no final assessment order was passed, yet recovery was being pressed. Counsel for the power corporation accepted that the objections had remained pending due to inadvertence.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8",
+      "code": "UP-2005",
+      "clause": "6.8",
+      "topic": "recovery pending undecided Clause 6.8 objections",
+      "type": "supply_code",
+      "holding": "Objections to a provisional assessment, filed in time under Clause 6.8, must be heard and decided before the licensee may enforce recovery of the assessed dues. The writ was disposed of with a time-bound direction to decide the pending objections after a hearing, and a stay on coercive action for two months or until that decision, whichever is earlier.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "provisional-assessment-hearing-6.8b",
+      "application": "The Court directed the licensee to fix a hearing and decide the consumer's pending objections to the provisional demand before recovery could continue.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "clause-6.8-hearing-procedure-mandatory-before-uue-conclusion",
+      "application": "Failure to decide Clause 6.8 objections was treated as a bar to enforcing the provisional assessment; the submission that recovery could not proceed without that decision was held well founded.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness or quantum of the Rs.7,47,478 electricity assessment",
+      "note": "The Court did not examine the merits of the provisional demand.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
