@@ -1,0 +1,50 @@
+{
+  "case_id": "SCJ-2811",
+  "title": "Manno Devi v. State of U.P.",
+  "neutral_citation": "Writ-C No. 16178 of 2022",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Siddhartha Varma, J. and Ajit Singh, J.",
+  "date_of_judgment": "2022-12-14",
+  "date_display": "14 December 2022",
+  "docket": "Writ-C No. 16178 of 2022",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; prepaid connection permissible despite disputed premises.",
+  "headnote": "Clause 4.4 of the U.P. Electricity Supply Code, 2005 permits a prepaid meter to a consumer living in a jhuggi, hutments or patti. Disputed title of the premises is not a bar to such a connection. Grant of the prepaid meter or connection does not create title. The writ seeking a connection was disposed of on that construction.",
+  "facts": "Manno Devi filed a writ seeking grant of an electricity connection at the premises she occupied. Counsel for the distribution licensee submitted that she was not entitled to a connection because the property was disputed. The Division Bench had earlier asked the electricity department to take instructions on whether a prepaid meter could still be given. On the adjourned date the Court considered clause 4.4 of the U.P. Electricity Supply Code, 2005, and disposed of the petition.",
+  "reusable_constructions": [
+    {
+      "construction": "Clause 4.4 permits a prepaid meter or electricity connection to a person living in a jhuggi, hutments or patti, including where the premises are disputed.",
+      "paras": "1"
+    },
+    {
+      "construction": "Grant of a prepaid meter or electricity connection does not create title over the premises.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.4",
+      "code": "UP-2005",
+      "clause": "4.4",
+      "topic": "prepaid connection on disputed or jhuggi premises",
+      "type": "supply_code",
+      "holding": "Clause 4.4 of the U.P. Electricity Supply Code, 2005 permits grant of a prepaid meter to a consumer living in a jhuggi, hutments or patti. A prepaid electricity connection may therefore be granted even where the premises are disputed. Grant of the prepaid meter or connection does not create any title over the property.",
+      "paras": "1",
+      "flag": "Court cited clause 4.4 generally for prepaid meters on jhuggi/hutments/patti premises, without identifying a sub-clause."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-4.4-occupant-connection-on-indemnity-bond",
+      "application": "Applied clause 4.4 to hold that a prepaid connection may be given to an occupant of disputed jhuggi/hutments/patti premises; the connection does not confer title.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [],
+  "authorities": []
+}
