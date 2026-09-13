@@ -1,0 +1,52 @@
+{
+  "case_id": "SCJ-2573",
+  "title": "M/S Jai Krishna Cold Storage Pvt. Limited v. State of U.P.",
+  "neutral_citation": "Writ-C No. 11270 of 2021",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Saral Srivastava, J.",
+  "date_of_judgment": "2021-06-16",
+  "date_display": "16 June 2021",
+  "docket": "WRIT - C No. 11270 of 2021",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Appellate order set aside; s.127 appeal remanded for fresh decision.",
+  "headnote": "Writ against dismissal of a Section 127 appeal from an unauthorized-use assessment of Rs. 43,94,819/-. The High Court held the appellate order non-speaking for failure to consider the grounds in the memo of appeal, set it aside, and remanded the appeal for a fresh decision after due opportunity, preferably within three months.",
+  "facts": "The petitioners, a cold-storage company and another, were served undated assessment orders based on a checking report dated 12 August 2017, raising a demand of Rs. 43,94,819/- for alleged illegal consumption of electricity. They preferred a statutory appeal numbered Computerized Case No. C201803000002325. The appellate authority dismissed the appeal on 9 February 2021. In the writ they contended that the dismissal was non-speaking and had ignored the grounds in the memo of appeal; the electricity authority did not file a counter affidavit.",
+  "reusable_constructions": [
+    {
+      "construction": "A Section 127 appellate order that does not consider the grounds taken in the memo of appeal is a non-speaking order without application of mind and is liable to be set aside with a remand for fresh decision after due opportunity.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "s.127 appellate order must consider appeal grounds",
+      "type": "electricity_act",
+      "holding": "An order dismissing a statutory appeal against an unauthorized-use assessment is unsustainable where it is non-speaking and the appellate authority has not considered the grounds raised in the memo of appeal. The impugned appellate order dated 9 February 2021 is set aside and the appeal is remanded to be decided afresh after due opportunity, in accordance with law, preferably within three months.",
+      "paras": "1",
+      "flag": "Court described the appeal as under 'Section 127 of Uttar Pradesh Electricity Supply Code, 2003'; Section 127 is of the Electricity Act, 2003."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "s127-appellate-authority-must-exercise-independent-judgment",
+      "application": "Dismissal of the s.127 appeal was set aside as non-speaking and without application of mind because none of the grounds in the memo of appeal had been considered; the appellate authority was directed to decide afresh after due opportunity.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits of the unauthorized-use assessment and the demand of Rs. 43,94,819/-",
+      "note": "Appeal remanded for fresh decision; the Court did not examine the checking report or the assessment on merits.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
