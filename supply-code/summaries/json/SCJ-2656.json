@@ -1,0 +1,39 @@
+{
+  "case_id": "SCJ-2656",
+  "title": "Radhe Shyam Bansal v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sunita Agarwal and Krishan Pahal, JJ.",
+  "date_of_judgment": "2021-11-24",
+  "date_display": "24 November 2021",
+  "docket": "WRIT - C No. 30032 of 2021",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition dismissed; mandamus for new connection refused.",
+  "headnote": "The Allahabad High Court dismissed a writ seeking mandamus for a new electricity connection where a prior connection in the same premises had been disconnected with outstanding dues of Rs. 49,359. Applying Clause 4.3 of the U.P. Electricity Supply Code, 2005, the Division Bench held that a new connection cannot be provided while such dues remain unpaid, and that the petitioner's unexplained claim of residence did not make the case fit for mandamus.",
+  "facts": "Radhe Shyam Bansal sought a writ mandamus for a new electricity connection to a house. After a short adjournment for instructions, the licensee stated that a prior connection in the name of Dharmendra Raghav, son of Jaspal Raghav, had been disconnected on 26 August 2021 with outstanding dues of Rs. 49,359, and that a fresh connection could not be given until those dues were cleared. The petitioner claimed to be a permanent resident of the house but did not state how or when he came into possession.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.3",
+      "code": "UP-2005",
+      "clause": "4.3",
+      "topic": "new connection barred by outstanding premises dues",
+      "type": "supply_code",
+      "holding": "Clause 4.3 of the U.P. Electricity Supply Code, 2005 provides that a new connection cannot be given where electricity dues remain outstanding on the premises. Mandamus will not issue to compel a fresh connection in that situation; an unexplained claim of residence does not make the case fit for a writ.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-4.3-new-connection-barred-by-outstanding-premises-dues",
+      "application": "The Court treated outstanding dues of Rs. 49,359 on a prior disconnected connection as a Clause 4.3 bar to mandamus for a new connection in the same premises, and dismissed the writ.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [],
+  "authorities": []
+}
