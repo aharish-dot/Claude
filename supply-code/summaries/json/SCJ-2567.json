@@ -1,0 +1,83 @@
+{
+  "case_id": "SCJ-2567",
+  "title": "Vinod Singh v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Naheed Ara Moonis, J.; Dinesh Pathak, J.",
+  "date_of_judgment": "2021-01-19",
+  "date_display": "19 January 2021",
+  "docket": "WRIT-C No. 1006 of 2021",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Decide representation on final assessment after hearing; recovery stayed six weeks.",
+  "headnote": "Final assessment under Section 126(3) of the Electricity Act, 2003 and Clause 8.1 of the Supply Code, 2005 must follow consideration of a timely objection and an opportunity of hearing; without that, the consumer cannot be compelled to deposit. Applying Shishir Jain, the Court directed the Executive Engineer to decide the pending representation by a reasoned speaking order after hearing, and stayed coercive action on the Section 170 recovery citation for six weeks or until that decision, whichever is earlier.",
+  "facts": "The petitioner runs a flour mill. On 19 November 2019 a departmental checking team inspected the premises, found alleged illegal use of electricity, and registered a case under Section 135 of the Electricity Act, 2003. Provisional assessment followed on 21 December 2019. The petitioner objected on 8 January 2020. The licensee nonetheless passed a final assessment on 28 January 2020 without considering that objection or granting a hearing, and issued a Section 170 recovery citation dated 13 July 2020.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1",
+      "code": "UP-2005",
+      "clause": "8.1",
+      "topic": "hearing before final assessment",
+      "type": "interplay",
+      "holding": "Where a consumer files a timely objection to a provisional assessment, a purported final assessment passed without considering that objection or affording a hearing does not satisfy Section 126(3) of the Electricity Act, 2003 and Clause 8.1 of the Supply Code, 2005, and the consumer cannot be compelled to deposit pending a reasoned decision on the representation after hearing.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-8.1b-personal-hearing-mandatory-before-final-assessment",
+      "application": "The Court treated the 28 January 2020 final assessment, made without considering the 8 January 2020 objection or granting a hearing, as insufficient under Clause 8.1 and Section 126(3), and remitted the representation for a reasoned decision after hearing.",
+      "lead_authorities": [
+        {
+          "name": "Shishir Jain v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+          "docid": "2017 (3) AWC 3084"
+        }
+      ],
+      "paras": "1"
+    },
+    {
+      "tag": "ex-parte-s126-assessment-requires-hearing-before-recovery",
+      "application": "Relying on Shishir Jain para 16, the Court held that without a final assessment after considering the objection and giving an opportunity of hearing, the petitioner could not be compelled to deposit, and stayed coercive action on the 13 July 2020 recovery citation.",
+      "lead_authorities": [
+        {
+          "name": "Shishir Jain v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+          "docid": "2017 (3) AWC 3084"
+        }
+      ],
+      "paras": "1"
+    },
+    {
+      "tag": "final-assessment-order-mandatory-under-section-126-3",
+      "application": "The Court applied the Shishir Jain rule that a consumer cannot be compelled to deposit a provisional assessment unless a final assessment is made after considering the objection and granting a hearing under Section 126(3).",
+      "lead_authorities": [
+        {
+          "name": "Shishir Jain v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+          "docid": "2017 (3) AWC 3084"
+        }
+      ],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "merits of the Section 135 allegation and the quantum of assessment",
+      "note": "The Court did not examine whether illegal use was established or whether the assessed amount was correct.",
+      "paras": "1"
+    },
+    {
+      "point": "quashing of the Section 170 recovery citation dated 13.7.2020",
+      "note": "The citation was not quashed; coercive action was stayed only for six weeks or until the representation is decided, whichever is earlier.",
+      "paras": "1"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Shishir Jain v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+      "citation": "2017 (3) AWC 3084",
+      "cited_by": "1"
+    }
+  ]
+}
