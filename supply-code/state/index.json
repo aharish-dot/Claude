@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2537,
+  "next_seq": 2538,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -15178,6 +15178,12 @@
       "case_id": "SCJ-2531",
       "source_basename": "WRIC(A)_6676_2020.pdf",
       "title": "Satendra Singh v. State of U.P. — theft recovery notice; hearing before EE; s.127",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2534",
+      "source_basename": "WRIC(A)_6850_2020.pdf",
+      "title": "M/S Shivam Cold Storage v. U.P. Power Corporation Ltd.",
       "status": "done"
     }
   ]
