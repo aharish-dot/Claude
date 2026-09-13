@@ -1,0 +1,55 @@
+{
+  "case_id": "SCJ-2456",
+  "title": "Ramchandra v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Naheed Ara Moonis, J.; Dinesh Pathak, J.",
+  "date_of_judgment": "2021-01-13",
+  "date_display": "13 January 2021",
+  "docket": "Writ-C No. 25086 of 2020",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; relegated to CGRF under Clause 7.10.",
+  "headnote": "A second writ against a tube-well recovery citation was dismissed after the consumer's Clause 6.5 representation had already been decided. The remaining grievance against that order and the disputed recovery amount lies before the Electricity Consumer Grievance Forum under Clause 7.10 of the U.P. Electricity Supply Code, 2005.",
+  "facts": "Ramchandra, a tube-well consumer, sought certiorari quashing a recovery citation dated 14 October 2019 and mandamus restraining pre-electrification billing, recovery of earlier bills, and disconnection. He had already challenged the same citation in Writ-C No. 42589 of 2019, which was disposed of with a direction to apply under Clause 6.5 of the U.P. Electricity Supply Code, 2005. The licensee decided that representation by a reasoned order dated 7 February 2020. He then returned to the High Court on the same citation.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::7.10",
+      "code": "UP-2005",
+      "clause": "7.10",
+      "topic": "cgrf-after-clause-6.5-order",
+      "type": "supply_code",
+      "holding": "Where a consumer's representation under Clause 6.5 of the U.P. Electricity Supply Code, 2005 against a recovery citation has already been decided by a reasoned order, a further writ petition challenging the same citation is not maintainable. The remaining remedy against that order and the disputed recovery amount is to approach the Electricity Consumer Grievance Forum under Clause 7.10.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-7.10-forum-ombudsman-route-for-billing-grievances",
+      "application": "After the Clause 6.5 order of 7 February 2020, the remaining billing and recovery grievance was directed to the Consumer Grievance Forum under Clause 7.10 rather than a second writ.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "consumer-grievance-redressal-forum-remedy-clause-7.10",
+      "application": "The writ was dismissed because Clause 7.10 CGRF was available against the decided 6.5 order and the disputed recovery citation.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness of the recovery citation dated 14 October 2019 and of the Clause 6.5 order dated 7 February 2020",
+      "note": "Left to the Consumer Grievance Forum under Clause 7.10; no merits determination on the bill or the 6.5 decision.",
+      "paras": "1"
+    },
+    {
+      "point": "Whether bills were generated before electrification of the petitioner's tube well",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
