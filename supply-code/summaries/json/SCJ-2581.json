@@ -1,0 +1,60 @@
+{
+  "case_id": "SCJ-2581",
+  "title": "Raghvendra Singh Rajput v. Uttar Pradesh Power Corporation",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sunita Agarwal, J.; Sadhna Rani (Thakur), J.",
+  "date_of_judgment": "2021-06-29",
+  "date_display": "29 June 2021",
+  "docket": "Writ-C No. 13441 of 2021",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of; relegated to Section 127 appeal.",
+  "headnote": "Once a final assessment under Section 126 of the Electricity Act, 2003 has been passed on a provisional unauthorized-use notice, a writ seeking to quash that notice is not the remedy. The dispute is one of assessment under Section 126 and the consumer must appeal under Section 127. The High Court disposed of the petition, directing that if an appeal is filed within three weeks with a copy of the order, the appellate authority shall decide it in accordance with law within six weeks.",
+  "facts": "The petitioner sought quashing of a 30 May 2020 provisional-assessment notice for unauthorized use of electricity under the Electricity Supply Code, 2005. He alleged that a written explanation dated 8 June 2020 had gone unconsidered because of Covid-19. The licensee denied any such reply and stated that a final assessment had been passed on 7 November 2020. The petitioner made no averment of non-service of that final order. Counsel then proposed to file a Section 127 appeal within three weeks.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act, 2003",
+      "clause": "127",
+      "topic": "appeal against final section 126 assessment",
+      "type": "electricity_act",
+      "holding": "Where a final assessment under Section 126 has been passed pursuant to a provisional-assessment notice, the dispute is one of assessment under Section 126 and the statutory remedy is an appeal under Section 127. A writ petition challenging the provisional notice is disposed of by relegation to that appeal; if the appeal is filed within three weeks with a copy of the order, the appellate authority shall pass an appropriate order in accordance with law within six weeks of filing.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "final-assessment-order-relegates-assessee-to-section-127-appeal",
+      "application": "Final assessment dated 7 November 2020 having been passed on the 30 May 2020 provisional unauthorized-use notice, the Court treated the dispute as a Section 126 assessment and relegated the petitioner to a Section 127 appeal.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "alternative-remedy-relegation-section-127",
+      "application": "Writ against the provisional notice disposed of with a direction that if an appeal is filed within three weeks, the appellate authority shall decide it in accordance with law within six weeks.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits and quantum of the Section 126 unauthorized-use assessment",
+      "paras": "1"
+    },
+    {
+      "point": "Whether the petitioner filed an explanation dated 8 June 2020",
+      "note": "The licensee denied any such reply; the Court did not resolve the dispute.",
+      "paras": "1"
+    },
+    {
+      "point": "Limitation for the Section 127 appeal",
+      "note": "A three-week filing window was granted without examining limitation.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
