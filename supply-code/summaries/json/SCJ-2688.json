@@ -1,0 +1,65 @@
+{
+  "case_id": "SCJ-2688",
+  "title": "Ramesh Chandra v. Uttar Pradesh Power Corporation Ltd.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Surya Prakash Kesarwani, J.; Jayant Banerji, J.",
+  "date_of_judgment": "2022-05-12",
+  "date_display": "12 May 2022",
+  "docket": "Writ-C No. 34937 of 2021",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Impugned theft assessment and recovery quashed; writ allowed.",
+  "headnote": "A theft assessment that assumes dishonesty because an L.T. line and transformer stand near the premises, after the licensee's own committee found no theft and the Junior Engineer produced no checking evidence, rests on surmise and cannot stand. Paras 6.8(a)(iv) and (v) of the U.P. Electricity Supply Code, 2005 are mandatory. Failure to follow them, to confront the consumer with adverse material, or to afford an effective hearing, vitiates the assessment and the recovery under Article 14.",
+  "facts": "An earlier theft assessment against Ramesh Chandra was quashed on 5 August 2021 with a direction to hear him and pass a speaking order. He appeared and filed objections. A three-member committee inspected on 14 September 2021, found no theft, and recorded that the Junior Engineer produced no checking evidence of 19 August 2020, yet said theft could not be ruled out because an L.T. line and transformer stood near the premises. Respondent no. 3 assumed theft by the order of 28 September 2021.",
+  "reusable_constructions": [
+    {
+      "construction": "A finding of electricity theft cannot rest on the mere proximity of an L.T. line or transformer when inspection and the licensee's records disclose no evidence of theft.",
+      "paras": "4"
+    },
+    {
+      "construction": "Paras 6.8(a)(iv) and (v) of the U.P. Electricity Supply Code, 2005 are mandatory; an assessment that ignores them is unsustainable.",
+      "paras": "4"
+    },
+    {
+      "construction": "An assessing officer must confront the consumer with adverse material and afford an effective hearing; an order passed without that confrontation is arbitrary and hits Article 14.",
+      "paras": "4"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(a)(iv)",
+      "code": "UP-2005",
+      "clause": "6.8(a)(iv)",
+      "topic": "theft assessment — evidence, mandatory 6.8 procedure, and hearing",
+      "type": "supply_code",
+      "holding": "The impugned theft assessment, based on the three-member committee's surmise that theft could not be ruled out because an L.T. line and transformer were near the premises, cannot stand when that committee found no evidence of theft and the Junior Engineer produced none. Paras 6.8(a)(iv) and (v) of the U.P. Electricity Supply Code, 2005 are mandatory and were not followed. The consumer was not confronted with adverse material and was not given an effective opportunity of hearing. The order is arbitrary and hits Article 14. The assessment and the recovery both stand quashed.",
+      "paras": "4-5"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "theft-assessment-requires-evidence",
+      "application": "The Court quashed an assessment that assumed theft from the proximity of an L.T. line and transformer after the committee found no theft and the Junior Engineer produced no checking evidence.",
+      "lead_authorities": [],
+      "paras": "4"
+    },
+    {
+      "tag": "6.8-procedure-mandatory",
+      "application": "Paras 6.8(a)(iv) and (v) of the 2005 Code were held mandatory and not followed at all, independently vitiating the assessment.",
+      "lead_authorities": [],
+      "paras": "4"
+    },
+    {
+      "tag": "hearing-confrontation-with-adverse-material",
+      "application": "The Court held that the consumer was not confronted with adverse material and was not given an effective hearing, so the order could not be sustained under Article 14.",
+      "lead_authorities": [],
+      "paras": "4"
+    }
+  ],
+  "not_decided": [],
+  "authorities": []
+}
