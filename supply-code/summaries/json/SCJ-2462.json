@@ -1,0 +1,88 @@
+{
+  "case_id": "SCJ-2462",
+  "title": "Shyami v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Naheed Ara Moonis, J.; Dinesh Pathak, J.",
+  "date_of_judgment": "2021-01-27",
+  "date_display": "27 January 2021",
+  "docket": "WRIT - C No. 26024 of 2020",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; 28.09.2020 recovery kept in abeyance; representation to be heard and decided.",
+  "headnote": "A provisional assessment under section 126 of the Electricity Act, 2003 does not become a final assessment merely because the consumer filed no objection. The licensee must complete a final assessment after hearing, as clause 8.1 of the 2005 Supply Code requires. Recovery on the provisional figure, without that final order, is dehors section 126 and clause 8.1 and violates natural justice. The 28 September 2020 demand was kept in abeyance for a representation to be decided after hearing.",
+  "facts": "On a checking of the petitioner's premises the licensee made a provisional assessment on 1 February 2020. A copy was not supplied, so the petitioner could not file objections. The licensee treated that provisional figure as the final assessment and issued a recovery notice dated 28 September 2020 for Rs 2,36,602 including recovery charges. The petitioner sought certiorari quashing the recovery and a mandamus restraining collection, alleging that section 126(3) of the Electricity Act, 2003 and clause 8.1 of the 2005 Supply Code had not been followed.",
+  "reusable_constructions": [
+    {
+      "construction": "A provisional section 126 assessment does not become final merely because no objection was filed within 15 days; a final assessment after opportunity of hearing remains mandatory.",
+      "paras": "5,8"
+    },
+    {
+      "construction": "The consumer cannot be compelled to deposit, and recovery cannot proceed on, a provisional assessment unless a final assessment has been made after considering objections and affording a hearing under section 126 and clause 8.1.",
+      "paras": "7-8"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::126(3)",
+      "code": "EA2003",
+      "clause": "126(3)",
+      "topic": "provisional assessment cannot be treated as final",
+      "type": "interplay",
+      "holding": "Want of objection to a provisional assessment does not convert it into a final assessment. Clause 8.1 of the 2005 Code requires inspection, provisional assessment, hearing and final assessment in theft cases. Treating the provisional amount as final without supplying the order or affording a hearing is dehors section 126 and clause 8.1 and violates natural justice. The petitioner could not be compelled to deposit on the provisional figure. The 28.09.2020 demand was kept in abeyance; a representation is to be decided by a reasoned order after hearing.",
+      "paras": "5,8-10"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "final-assessment-order-mandatory-under-section-126-3",
+      "application": "The Court refused to treat a no-objection provisional assessment as the final section 126 order and would not allow recovery until a final assessment after hearing.",
+      "lead_authorities": [
+        {
+          "name": "Shishir Jain v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+          "docid": "2017 (3) AWC 3084"
+        }
+      ],
+      "paras": "5,7-8"
+    },
+    {
+      "tag": "clause-8.1b-personal-hearing-mandatory-before-final-assessment",
+      "application": "Clause 8.1 was applied as the theft-assessment procedure requiring hearing before final assessment; the licensee had skipped that step.",
+      "lead_authorities": [
+        {
+          "name": "Shishir Jain v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+          "docid": "2017 (3) AWC 3084"
+        }
+      ],
+      "paras": "8"
+    },
+    {
+      "tag": "ex-parte-s126-assessment-requires-hearing-before-recovery",
+      "application": "Recovery on a provisional figure treated as final, without copy or hearing, was held unsustainable; the demand was kept in abeyance.",
+      "lead_authorities": [
+        {
+          "name": "Shishir Jain v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+          "docid": "2017 (3) AWC 3084"
+        }
+      ],
+      "paras": "8-10"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits of the checking and quantum of the theft assessment",
+      "note": "Left to respondent No. 2 to decide the petitioner's representation by a reasoned order after hearing.",
+      "paras": "9"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Shishir Jain v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+      "citation": "2017 (3) AWC 3084",
+      "cited_by": "7"
+    }
+  ]
+}
