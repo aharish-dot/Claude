@@ -1,0 +1,89 @@
+{
+  "case_id": "SCJ-2652",
+  "title": "Durvin Singh v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Naheed Ara Moonis and Dinesh Pathak, JJ.",
+  "date_of_judgment": "2021-02-04",
+  "date_display": "4 February 2021",
+  "docket": "Writ-C No. 2813 of 2021",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of without deciding merits; representation directed after hearing; demand notice dated 06.11.2020 kept in abeyance for six weeks or until that decision, whichever is earlier.",
+  "headnote": "A consumer cannot be compelled to pay on a provisional assessment treated as final without a hearing. That course is dehors Section 126 of the Electricity Act, 2003 and Clauses 6.8/8.1 of the Electricity Supply Code, 2005. Clause 8.1 requires inspection, provisional assessment, hearing and final assessment in a theft case. The demand was not quashed; a representation was directed and the notice kept in abeyance.",
+  "facts": "Durvin Singh, an electricity consumer, learned of a recovery citation dated 6 November 2020 for Rs.56,807. He claimed he had been paying bills regularly, that neither a checking report nor a provisional assessment had been served, and that the licensee had treated the provisional assessment as final without letting him object. The Power Corporation alleged theft of electricity and said the demand was based on provisional assessment, but did not dispute that final assessment had been made without a hearing.",
+  "reusable_constructions": [
+    {
+      "construction": "A consumer cannot be compelled to deposit the amount of a provisional assessment that has been treated as final without considering objections and affording an opportunity of hearing.",
+      "paras": "2"
+    },
+    {
+      "construction": "Clause 8.1 of the Electricity Supply Code, 2005 requires the licensee, in a theft case, to follow inspection, provisional assessment, hearing and final assessment; treating the provisional figure as final without hearing is dehors that clause and Section 126 of the Electricity Act, 2003.",
+      "paras": "2"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1",
+      "code": "UP-2005",
+      "clause": "8.1",
+      "topic": "theft-provisional-assessment-treated-as-final-without-hearing",
+      "type": "interplay",
+      "holding": "Where the licensee treats a provisional assessment as the final assessment without serving the checking report or provisional assessment and without affording an opportunity of hearing, the consumer cannot be compelled to deposit the demanded amount. That course is dehors Section 126 of the Electricity Act, 2003 and Clauses 6.8/8.1 of the Electricity Supply Code, 2005. Clause 8.1 requires the licensee, in a theft case, to follow inspection, provisional assessment, hearing and final assessment; skipping the hearing also violates natural justice. The Court did not quash the demand on merits. It directed the petitioner to move a representation, to be decided by a reasoned speaking order after hearing, and kept the demand notice dated 06.11.2020 in abeyance for six weeks or until that decision, whichever is earlier, with the stay lapsing if no representation is filed.",
+      "paras": "2-3",
+      "flag": "Court invoked Section 126 and Clause 6.8 (unauthorised use) together with Clause 8.1 (theft) after the licensee alleged theft; the two tracks are not distinguished."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "EA2003::126",
+      "application": "Final assessment without hearing, treating the provisional figure as payable, is dehors Section 126.",
+      "lead_authorities": [
+        {
+          "name": "Shishir Jain v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+          "docid": ""
+        }
+      ],
+      "paras": "2"
+    },
+    {
+      "tag": "UP-2005::6.8",
+      "application": "Court held the licensee's procedure also dehors Clause 6.8, cited with Clause 8.1, though the licensee alleged theft.",
+      "lead_authorities": [
+        {
+          "name": "Shishir Jain v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+          "docid": ""
+        }
+      ],
+      "paras": "2"
+    },
+    {
+      "tag": "UP-2005::8.1",
+      "application": "Clause 8.1 supplies the theft-case sequence of inspection, provisional assessment, hearing and final assessment; treating provisional assessment as final without hearing breaches it.",
+      "lead_authorities": [
+        {
+          "name": "Shishir Jain v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+          "docid": ""
+        }
+      ],
+      "paras": "2"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "merits of the alleged theft and the correctness of the assessed amount",
+      "note": "Court expressly declined to enter the merits and relegated the petitioner to a representation before the licensee.",
+      "paras": "3"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Shishir Jain v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+      "citation": "2017 (3) AWC 3084",
+      "cited_by": "Court"
+    }
+  ]
+}
