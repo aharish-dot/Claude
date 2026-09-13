@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2756,
+  "next_seq": 2757,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -16492,6 +16492,12 @@
       "case_id": "SCJ-2753",
       "source_basename": "CRLP(A)_4363_2022.pdf",
       "title": "Natthi Prasad v. State of U.P. And 3 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2752",
+      "source_basename": "CMRA(A)_454_2022.pdf",
+      "title": "Mukhtar Washeem v. Uttar Pradesh Power Corporation Limited",
       "status": "done"
     }
   ]
