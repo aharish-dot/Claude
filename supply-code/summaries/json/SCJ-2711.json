@@ -1,0 +1,57 @@
+{
+  "case_id": "SCJ-2711",
+  "title": "Mohammad Imran v. U.P. Power Corporation",
+  "neutral_citation": "Writ-C No. 5995 of 2021",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sunita Agarwal, J.; Deepak Verma, J.",
+  "date_of_judgment": "2021-03-15",
+  "date_display": "15 March 2021",
+  "docket": "Writ - C No. 5995 of 2021",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; petitioner relegated to Section 127 appeal.",
+  "headnote": "Once a final assessment for unauthorised use of electricity has been passed, the assessee's remedy is an appeal under Section 127 of the Electricity Act, 2003 read with Clause 6.8(d) of the U.P. Electricity Supply Code, 2005; a writ petition against the demand is not the appropriate course.",
+  "facts": "Mohammad Imran approached the High Court of Judicature at Allahabad against a demand raised by U.P. Power Corporation and others for unauthorised use of electricity. Counsel for the Corporation stated that a provisional assessment notice dated 12 December 2019 had been sent to the petitioner by registered post, that no objection was filed, and that a final assessment order was thereafter passed. The petitioner sought writ relief against that demand.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act, 2003",
+      "clause": "127",
+      "topic": "appeal against final assessment for unauthorised use",
+      "type": "interplay",
+      "holding": "Where a final assessment for unauthorised use of electricity has been passed after a provisional assessment notice, the assessee's appropriate course is an appeal under Section 127 of the Electricity Act, 2003 read with Clause 6.8(d) of the U.P. Electricity Supply Code, 2005, and a writ petition against the demand is dismissed.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "final-assessment-order-relegates-assessee-to-section-127-appeal",
+      "application": "The Court recorded that a final assessment had been passed after the 12.12.2019 provisional notice and dismissed the writ, directing the petitioner to the Section 127 appeal.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "alternative-remedy-relegation-section-127",
+      "application": "The writ was dismissed on the ground that the appropriate course was an appeal under Section 127 read with Clause 6.8(d), without deciding the demand on merits.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "alternative-remedy-s127-appeal-bars-writ-against-s126-assessment",
+      "application": "The demand was for unauthorised use of electricity; after final assessment, the Court treated the writ as barred by the statutory appeal under Section 127 read with Clause 6.8(d).",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "merits and quantum of the unauthorised-use assessment",
+      "note": "The Court did not examine the demand or the final assessment; it only relegated the petitioner to the statutory appeal.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
