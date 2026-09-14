@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2853,
+  "next_seq": 2854,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -17092,6 +17092,12 @@
       "case_id": "SCJ-2852",
       "source_basename": "WRIC(A)_24588_2015.pdf",
       "title": "Manoj Kumar Srivastava v. State of U.P. & 2 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2853",
+      "source_basename": "WRIC(A)_26590_2017.pdf",
+      "title": "M/S Nageshwar Papers Limited v. Dakshinanchal Vidyut Vitran Nigam Limited and Another",
       "status": "done"
     }
   ]
