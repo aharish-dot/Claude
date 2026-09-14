@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2861,
+  "next_seq": 2862,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -17140,6 +17140,12 @@
       "case_id": "SCJ-2860",
       "source_basename": "WRIC(A)_25325_2018.pdf",
       "title": "M/S TCMC Industries Pvt. Ltd. and Another v. Paschimanchal Vidyut Vitran Nigam Limited and 2 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2861",
+      "source_basename": "WRIC(A)_19481_2022.pdf",
+      "title": "Smt. Rekha Chahar v. State of U.P. and 2 Others",
       "status": "done"
     }
   ]
