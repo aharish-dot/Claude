@@ -266,7 +266,7 @@ def do_finalize(args):
     msg = (f"supply-code: {verb} {cid} ({title})\n\n"
            f"Claude rich digest (mode={mode}, source {tk.get('source_file')}).\n\n"
            f"Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>\n"
-           f"Claude-Session: https://claude.ai/code/session_01FMyec2o3Wu6AtEyWKfp9da")
+           f"Claude-Session: https://claude.ai/code/session_01QZCqZyzKGxXfKtmoA4j6P4")
     # Commit in UTC so case timestamps stay consistent no matter which machine
     # runs the pipeline. Without this, git records the committer's local offset
     # (e.g. +0530 on an IST box vs +0000 in a UTC container), which makes commits
