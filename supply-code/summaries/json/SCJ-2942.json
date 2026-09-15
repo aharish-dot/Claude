@@ -1,0 +1,50 @@
+{
+  "case_id": "SCJ-2942",
+  "title": "Shiba v. State of U.P. and others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Manoj Misra, J.; Vikas Budhwar, J.",
+  "date_of_judgment": "2022-10-13",
+  "date_display": "13 October 2022",
+  "docket": "Writ-C No. 24807 of 2022",
+  "page_count": 3,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of; Executive Engineer directed to decide the new-connection application in accordance with the Supply Code by a reasoned order, preferably within three weeks.",
+  "headnote": "A Prayagraj tenant applied for a separate electricity connection after the landlord discontinued supply. Poorvanchal Vidyut Vitran Nigam withheld processing, citing unpaid dues of an earlier tenant under Clauses 4.3(f)(vi) and (viii) of the U.P. Electricity Supply Code, 2005. The petitioner invoked Clause 4.3(h) (divided premises) and Article 21. The Division Bench did not choose between those clauses. Finding that no decision had been taken on the application, it directed the Executive Engineer, Sub-Division Karailabagh, to decide it by a reasoned order in accordance with the Supply Code, leaving other remedies open if the petitioner remained aggrieved.",
+  "facts": "Shiba, tenant of a portion of house No. 1692, Kareli, Prayagraj, had received electricity through her landlord until that supply was cut and she was told to take a connection in her own name. She applied to Poorvanchal Vidyut Vitran Nigam after completing the formalities. The discom withheld the connection, citing unpaid dues of an earlier tenant under Clauses 4.3(f)(vi) and (viii) of the U.P. Electricity Supply Code, 2005. She invoked Clause 4.3(h) and Article 21, arguing other occupiers' arrears could not deny her supply.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.3",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.3",
+      "topic": "new connection — earlier occupier dues versus divided-premises protection",
+      "type": "supply_code",
+      "holding": "Where the licensee has not decided a tenant's application for a separate connection, and the parties contest whether Clauses 4.3(f)(vi) and (viii) (earlier-tenant dues) or Clause 4.3(h) (divided premises; other holders' unpaid bills) governs, the writ court will not resolve that contest. It will direct the Executive Engineer to decide the application by a reasoned order in accordance with the Supply Code, leaving the applicant to other remedies if still aggrieved.",
+      "paras": "1",
+      "flag": "Licensee cited Clause 4.3(f)(vi) and (viii); sub-clause (viii) was not construed and is not among the catalog keys for this extract."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "new-connection-application-to-be-decided-by-reasoned-order-under-supply-code",
+      "application": "Finding that no specific decision had been taken on the petitioner's application, the Court directed the Executive Engineer to decide it in accordance with the U.P. Electricity Supply Code, 2005 by a reasoned order, preferably within three weeks, without choosing between Clauses 4.3(f) and 4.3(h).",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether Clauses 4.3(f)(vi) and (viii) bar a new connection because of an earlier tenant's unpaid dues, or Clause 4.3(h) requires the connection where other occupiers of a divided premises have outstanding bills.",
+      "note": "The Court declined to decide the clause contest because no decision had yet been taken on the application.",
+      "paras": "1"
+    },
+    {
+      "point": "Whether withholding the connection would violate Article 21 of the Constitution.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
