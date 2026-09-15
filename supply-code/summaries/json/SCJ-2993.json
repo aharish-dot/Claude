@@ -1,0 +1,52 @@
+{
+  "case_id": "SCJ-2993",
+  "title": "Jagat Narayan Vishwakarma v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Mahesh Chandra Tripathi, J.; Vivek Kumar Singh, J.",
+  "date_of_judgment": "2023-01-02",
+  "date_display": "2 January 2023",
+  "docket": "Writ-C No. 36202 of 2022",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ not entertained; petitioner left to Supply Code clause 6.8.",
+  "headnote": "A Division Bench declined to entertain a writ challenging a 2 July 2022 provisional assessment. The licensee objected that the Uttar Pradesh Electricity Supply Code, 2005 is a complete code and that, the matter relating to theft and unauthorized use of electricity, an efficacious appeal lay under Provision 6.8. The Court accepted that objection and disposed of the petition with liberty to take the Code remedy.",
+  "facts": "Jagat Narayan Vishwakarma petitioned the Allahabad High Court to quash a provisional assessment dated 2 July 2022 issued by respondent no. 3 of the electricity corporation. Counsel for the corporation objected that the Uttar Pradesh Electricity Supply Code, 2005 is a complete code and that, because the dispute concerned theft and unauthorized use of electricity, the petitioner had an efficacious remedy under Provision 6.8. Standing Counsel appeared for the State.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8",
+      "code": "UP-2005",
+      "clause": "6.8",
+      "topic": "alternative remedy against provisional assessment",
+      "type": "supply_code",
+      "holding": "A writ challenging a provisional assessment relating to theft and unauthorized use of electricity will not be entertained when an efficacious remedy is available under Provision 6.8 of the Uttar Pradesh Electricity Supply Code, 2005; the petitioner is left to that Code remedy.",
+      "paras": "1",
+      "flag": "The Court called Provision 6.8 an 'appeal' covering both theft and unauthorized use. Clause 6.8 is the unauthorized-use assessment procedure; theft is ordinarily clauses 8.1–8.2. Recorded as stated."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternative-remedy-statutory-appeal-6.8",
+      "application": "Writ against a provisional assessment for theft and unauthorized use was not entertained because Provision 6.8 was held to be an efficacious Code remedy.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "assessment-6.8-alternate-remedy",
+      "application": "The writ was disposed of with liberty to take Provision 6.8 rather than examining the 2 July 2022 assessment on merits.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Validity of the provisional assessment dated 2 July 2022",
+      "note": "The Court did not examine the assessment on merits after accepting the alternative-remedy objection.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
