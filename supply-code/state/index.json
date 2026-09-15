@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2916,
+  "next_seq": 2917,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -17482,6 +17482,12 @@
       "case_id": "SCJ-2913",
       "source_basename": "WRIC(A)_22225_2022.pdf",
       "title": "Jai Prakash Varma @ Rinku Singh v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2914",
+      "source_basename": "WRIC(A)_22254_2022.pdf",
+      "title": "Raghawendra Shankar Mishra v. State of U.P.",
       "status": "done"
     }
   ]
