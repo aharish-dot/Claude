@@ -1,0 +1,60 @@
+{
+  "case_id": "SCJ-2938",
+  "title": "M/s Kothiwal Dental College and Research Centre v. State of U.P.",
+  "neutral_citation": "Writ-C No. 24241 of 2022",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sunita Agarwal, J.; Jyotsna Sharma, J.",
+  "date_of_judgment": "2022-08-31",
+  "date_display": "31 August 2022",
+  "docket": "Writ-C No. 24241 of 2022",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; arrears computation remitted to Executive Engineer under clause 6.5(b); coercive action stayed pending that decision.",
+  "headnote": "A writ challenging a disconnection notice and an audit-based arrears demand—including a plea that recovery was barred by Section 56 of the Electricity Act, 2003 and clause 6.15 of the Supply Code—was disposed of by remitting the computation of arrears to the Executive Engineer under clause 6.5(b). Coercive measures stayed until that decision.",
+  "facts": "M/s Kothiwal Dental College and Research Centre, given an HV-1 connection in 2009, was billed in HV-2. After an audit the licensee demanded the tariff difference as arrears, issued a disconnection notice dated 21 June 2022, and on 25 July 2022 called on the college to deposit those arrears. The college said its objections were ignored, it had paid the bills as raised, and Section 56 of the Electricity Act, 2003 read with clause 6.15 of the Supply Code barred recovery more than two years after the sum first became due.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5(b)",
+      "code": "UP-2005",
+      "clause": "6.5(b)",
+      "topic": "computation of arrears",
+      "type": "supply_code",
+      "holding": "Where the consumer disputes the computation of electricity arrears underlying a disconnection notice and an audit-based recovery order, the appropriate remedy is to approach the Executive Engineer under clause 6.5(b) of the Electricity Supply Code, 2005; the writ court will not decide the demand. The consumer may press Section 56 of the Electricity Act, 2003 and clause 6.5 in support of revocation. On an application filed within two weeks, the Executive Engineer is to decide expeditiously in accordance with law, preferably within four weeks, and no coercive measure is to be taken until that decision.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-alternate-remedy-to-writ",
+      "application": "Writ against a disconnection notice and audit arrears demand disposed by sending the consumer to the Executive Engineer under clause 6.5(b).",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "clause-6.5b-quantification-dispute",
+      "application": "The controversy was treated as a computation-of-arrears dispute for the Executive Engineer under clause 6.5(b).",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "clause-6.15-two-year-limitation-relegated-to-authority",
+      "application": "The plea that Section 56 and clause 6.15 barred recovery after two years was left for the Executive Engineer and not decided on the writ.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether Section 56 of the Electricity Act, 2003 and clause 6.15 of the Supply Code bar recovery of the audit-based HV-1/HV-2 tariff difference more than two years after the sum first became due",
+      "paras": "1"
+    },
+    {
+      "point": "Merits of the computation of arrears and whether the consumer's objections were dealt with in the order dated 25.07.2022",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
