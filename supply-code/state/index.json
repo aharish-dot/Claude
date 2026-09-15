@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2942,
+  "next_seq": 2943,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -17638,6 +17638,12 @@
       "case_id": "SCJ-2938",
       "source_basename": "WRIC(A)_24241_2022.pdf",
       "title": "M/s Kothiwal Dental College and Research Centre v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2940",
+      "source_basename": "WRIC(A)_24727_2022.pdf",
+      "title": "Patiram Singh v. State of U.P. — clause 6.5 billing representation to be decided",
       "status": "done"
     }
   ]
