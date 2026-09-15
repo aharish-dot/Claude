@@ -1,0 +1,51 @@
+{
+  "case_id": "SCJ-3007",
+  "title": "Chandrabhan Singh v. State of U.P.",
+  "neutral_citation": "WRIT-C No. 37523 of 2022",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta, J. and Jayant Banerji, J.",
+  "date_of_judgment": "2022-12-21",
+  "date_display": "21 December 2022",
+  "docket": "WRIT - C No. 37523 of 2022",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; billing objection remitted to clause 6.5 authority; attachment stayed pending decision.",
+  "headnote": "A writ challenging a recovery certificate and bank-account attachment founded on an electricity bill was disposed without deciding the demand on merits. The Department having pointed to clause 6.5 of the U.P. Electricity Supply Code, 2005 as the competent forum, and to a pending Consumer Forum complaint on the same cause, the Court directed the consumer to file a clause 6.5 objection (and withdraw the Forum complaint) for decision within a week, with credit for sums already deposited. Attachment would lift on deposit of the intimated balance; no withdrawal from the attached account until the objection was decided.",
+  "facts": "Chandrabhan Singh challenged a 4 August 2022 recovery certificate of the Executive Engineer, Electricity Distribution Division, Mainpuri, and sought release of his attached SBI savings account at Ghiror. The recovery followed a bill dated 18 February 2022. He claimed he had already deposited a substantial sum and would pay any remaining balance after adjustment. The Department said respondent no. 4 was competent under clause 6.5 of the Supply Code, 2005, and that he had already filed Consumer Forum Complaint No. 167 of 2022 on the same cause.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "disputed bill and recovery — remittal to clause 6.5",
+      "type": "supply_code",
+      "holding": "A writ challenging a recovery certificate and attached bank account founded on a disputed electricity bill is disposed by remitting the consumer to the clause 6.5 authority: the consumer shall file an objection with documentary evidence before respondent no. 4 within one week (and withdraw the parallel Consumer Forum complaint), and that authority shall decide it within the following week, giving due credit for amounts already deposited. On deposit of the amount then intimated, the attachment stands lifted; until the objection is decided, no amount shall be withdrawn from the attached account. The Court does not decide the bill or recovery on merits.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-alternate-remedy-to-writ",
+      "application": "The writ against the recovery certificate and account attachment was not decided on merits; the consumer was sent to file a clause 6.5 objection before the competent authority named by the Department.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "clause-6.5-statutory-remedy-disputed-bill",
+      "application": "Dispute over the 18.2.2022 bill and the 4.8.2022 recovery, including credit for sums already deposited, was left to respondent no. 4 as the clause 6.5 authority, with a one-week decision timeline.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness of the bill dated 18.2.2022 and the recovery certificate dated 4.8.2022",
+      "note": "Merits of the demand, including adjustment of amounts already deposited, left to respondent no. 4 under clause 6.5.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
