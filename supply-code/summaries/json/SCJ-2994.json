@@ -1,0 +1,52 @@
+{
+  "case_id": "SCJ-2994",
+  "title": "Balistar @ Shyam Singh v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Mahesh Chandra Tripathi, J. and Vivek Kumar Singh, J.",
+  "date_of_judgment": "2023-01-02",
+  "date_display": "2 January 2023",
+  "docket": "WRIT - C No. - 36235 of 2022",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of; petitioner relegated to clause 6.8 appeal.",
+  "headnote": "A writ challenging a recovery citation arising from theft and unauthorized use of electricity was not entertained. The Division Bench treated clause 6.8 of the Uttar Pradesh Electricity Supply Code, 2005 as an efficacious statutory appeal and disposed of the petition with liberty to take that remedy, expecting the competent authority to proceed strictly in accordance with law.",
+  "facts": "The petitioner, Balistar alias Shyam Singh, filed a writ petition in the Allahabad High Court challenging a recovery citation dated 20 August 2022 issued by respondent no. 3. Counsel for the electricity corporation (respondent nos. 2 and 3) objected that the Uttar Pradesh Electricity Supply Code, 2005 is a complete code and that, the dispute relating to theft and unauthorized use of electricity, the petitioner had an efficacious appeal under Provision 6.8. The State was represented by the Standing Counsel.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8",
+      "code": "UP-2005",
+      "clause": "6.8",
+      "topic": "statutory-appeal-alternate-remedy",
+      "type": "supply_code",
+      "holding": "A writ petition challenging a recovery citation in a matter of theft and unauthorized use of electricity is not to be entertained when an efficacious appeal is available under Provision 6.8 of the Uttar Pradesh Electricity Supply Code, 2005; the petitioner is left to that remedy and the competent authority is to proceed strictly in accordance with law.",
+      "paras": "1",
+      "flag": "ambiguous_clause: court applied 6.8 as the appeal for both theft and unauthorized use"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternative-remedy-statutory-appeal-6.8",
+      "application": "Writ against a recovery citation for theft and unauthorized use of electricity declined because clause 6.8 supplies an efficacious statutory appeal.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "assessment-6.8-alternate-remedy",
+      "application": "Maintainability of the writ was refused on the corporation's objection that the 2005 Code is a complete code and clause 6.8 is the proper forum.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Validity of the recovery citation dated 20.8.2022",
+      "note": "Merits of the citation and the underlying theft/UUE allegation were not examined.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
