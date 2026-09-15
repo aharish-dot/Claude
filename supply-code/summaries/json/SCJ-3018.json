@@ -1,0 +1,52 @@
+{
+  "case_id": "SCJ-3018",
+  "title": "Smt. Namrata Singh v. State of U.P. and others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta, J.; Vikram D. Chauhan, J.",
+  "date_of_judgment": "2023-01-19",
+  "date_display": "19 January 2023",
+  "docket": "WRIT - C No. 38700 of 2022",
+  "page_count": 4,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Recovery certificate withdrawn; petition disposed of on licensee's stand.",
+  "headnote": "A bill reciting that theft was discovered during checking cannot substitute the final assessment order envisaged under Clause 8 of the Electricity Supply Code, 2005. Where Purvanchal Vidyut Vitran Nigam Limited could not produce any such order and its Managing Director admitted that proper Code procedure had not been followed in issuing a theft-dues recovery notice, the recovery certificate was withdrawn and the writ was disposed of on the licensee's stand that fresh proceedings would be initiated strictly in accordance with law.",
+  "facts": "Smt. Namrata Singh challenged a 14 March 2022 recovery notice issued by Purvanchal Vidyut Vitran Nigam Limited for alleged electricity theft. Licensee's counsel told the Court that recovery rested on a final assessment, but produced only a bill reciting that theft was discovered during checking. On personal affidavits, the Managing Director admitted that proper Supply Code procedure had not been followed. The Executive Engineer then wrote to the Additional District Magistrate (Finance), Prayagraj, to withdraw the recovery certificate.",
+  "reusable_constructions": [
+    {
+      "construction": "A bill reciting that theft was discovered during checking is not a substitute for the final assessment order required by Clause 8 of the Electricity Supply Code, 2005.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::8",
+      "code": "UP-2005",
+      "clause": "8",
+      "topic": "final-assessment-order",
+      "type": "supply_code",
+      "holding": "A bill stating that theft was discovered during checking cannot substitute the final assessment order envisaged under Clause 8 of the Electricity Supply Code, 2005. After the Managing Director admitted that proper procedure was not followed in issuing the recovery notice, the recovery certificate was withdrawn and the writ was disposed of on the licensee's stand that fresh proceedings would be initiated strictly in accordance with law.",
+      "paras": "1",
+      "flag": "Court cited Clause 8 as a whole in an alleged-theft recovery; it did not specify 8.1 (unauthorized use / assessment) or 8.2 (theft)."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "UP-2005::8",
+      "application": "A bill reciting that theft was discovered during checking is not a final assessment order under Clause 8; recovery founded only on such a bill is not in accordance with the Supply Code.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits of the alleged theft and any fresh assessment or recovery",
+      "note": "Licensee stated that fresh proceedings would be initiated strictly in accordance with law after withdrawing the recovery certificate.",
+      "paras": "4"
+    }
+  ],
+  "authorities": []
+}
