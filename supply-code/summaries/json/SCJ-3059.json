@@ -1,0 +1,91 @@
+{
+  "case_id": "SCJ-3059",
+  "title": "Omkar Nath Sharma v. U.P. Power Corporation Limited & Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sunil Ambwani, J. & Ran Vijai Singh, J.",
+  "date_of_judgment": "2009-08-10",
+  "date_display": "10 August 2009",
+  "docket": "Writ-C No. 40232 of 2009",
+  "page_count": 4,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition allowed; recovery certificate and citation dated 25.5.2009 set aside; petitioner to reply to the provisional assessment, be heard, and a final assessment then made in accordance with law.",
+  "headnote": "In a theft case, Clause 8.1(b) of the U.P. Electricity Supply Code, 2005 requires a final assessment before recovery can be initiated. Treating an unanswered provisional assessment as the final assessment is not enough: the licensee must record findings that the provisional assessment was served and that the consumer was given an opportunity of hearing before a recovery certificate is issued. Clause 8.1(b)(iii) gives the consumer a right to notice of the provisional assessment — the allegations and the basis of the demand — and to a personal hearing after that provisional assessment and before the final assessment. Absence of a final assessment order also deprives the consumer of the statutory appeal under Section 127 of the Electricity Act, 2003. The recovery certificate and citation were set aside; the petitioner was to file a reply to the provisional assessment, be heard, and a final assessment then made in accordance with law.",
+  "facts": "A 8 May 2008 inspection of Omkar Nath Sharma's rented shop recorded unauthorised drawing from an L/T line through a cut-out starter to run a 7.5 HP drill, a 1/2 HP lathe and other machines, totalling about 10 HP. A provisional assessment dated 29 May 2008 was made. Sharma said he had no electricity connection and ran the machines on a generator, and that he was given no hearing before or after the provisional assessment. U.P. Power Corporation said compounding was offered at the inspection, the provisional assessment was sent by registered post, no reply was filed, and the provisional assessment was treated as final. A recovery certificate went to the Collector and a citation dated 25 May 2009 sought Rs. 3,54,379. After a 6 August 2009 listing for instructions, the Division Bench disposed of the writ on 10 August 2009.",
+  "reusable_constructions": [
+    {
+      "construction": "In a theft case, Clause 8.1(b) of the U.P. Electricity Supply Code, 2005 requires a final assessment before recovery can be initiated.",
+      "paras": "2"
+    },
+    {
+      "construction": "Treating an unanswered provisional assessment as the final assessment is not a final assessment; the licensee must record findings that the provisional assessment was served and that the consumer was given an opportunity of hearing before issuing a recovery certificate.",
+      "paras": "2-3"
+    },
+    {
+      "construction": "Clause 8.1(b)(iii) entitles the consumer to notice of the provisional assessment (the allegations and the basis of the demand) and to a personal hearing after that provisional assessment and before the final assessment.",
+      "paras": "3"
+    },
+    {
+      "construction": "Absence of a final assessment order also deprives the consumer of the statutory appeal under Section 127 of the Electricity Act, 2003.",
+      "paras": "3"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1(b)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "8.1(b) (theft — final assessment before recovery; r/w 8.1(b)(iii) notice and personal hearing)",
+      "topic": "Final assessment after notice and personal hearing is a condition of recovery in a theft case; an unanswered provisional assessment is not a final assessment",
+      "type": "supply_code",
+      "question": "May a licensee initiate recovery on a theft provisional assessment by treating it as final because the consumer filed no reply, without a final assessment order and without recorded findings of service and hearing?",
+      "holding": "No. Clause 8.1(b) provides for making a final assessment in theft cases before recovery can be initiated. The department had not made a final assessment and had not recorded findings that the provisional assessment was served after giving the consumer an opportunity of hearing before issuing the recovery certificate. The consumer has a right to notice of the provisional assessment, the allegations, and the basis of the demand; Clause 8.1(b)(iii) requires notice and personal hearing after the provisional assessment and before the final assessment. The recovery certificate and citation dated 25.5.2009 were set aside. A copy of the provisional assessment was given in Court; the petitioner was to file a reply, be given a personal hearing, and the respondents were then to make a final assessment in accordance with law.",
+      "paras": "2-3"
+    },
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act, 2003",
+      "clause": "127 (appeal against final assessment)",
+      "topic": "No Section 127 appeal lies until a final assessment order exists",
+      "type": "interplay",
+      "question": "Does treating a provisional theft assessment as final, without a final assessment order, also cut off the consumer's appeal under Section 127?",
+      "holding": "Yes. In the absence of a final assessment order the petitioner lost a valuable right to file an appeal under Section 127 of the Electricity Act, 2003. That was a further reason the recovery could not stand and a final assessment had to be made after reply and personal hearing.",
+      "paras": "3"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-8.1b-personal-hearing-mandatory-before-final-assessment",
+      "application": "Clause 8.1(b)(iii) requires notice and personal hearing after the provisional theft assessment and before the final assessment; recovery founded on treating an unanswered provisional assessment as final, without those steps, was set aside.",
+      "lead_authorities": [],
+      "paras": "2-3"
+    },
+    {
+      "tag": "clause-8.1b-theft-notice-natural-justice",
+      "application": "The consumer has a right to notice of the provisional assessment, the allegations made, and the basis of the demand; the licensee must record findings of service and hearing before a recovery certificate issues.",
+      "lead_authorities": [],
+      "paras": "3"
+    },
+    {
+      "tag": "opportunity-before-final-assessment",
+      "application": "An unanswered provisional assessment cannot be treated as a concluded final assessment supporting recovery; a speaking final assessment after hearing is required.",
+      "lead_authorities": [],
+      "paras": "2-3"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner was in fact committing theft of electricity or using a generator without a connection",
+      "note": "The Court did not decide the inspection findings or the petitioner's generator defence; those go to the reply, personal hearing and final assessment.",
+      "paras": "1-3"
+    },
+    {
+      "point": "Quantum of the demand of Rs. 3,54,379 and the rate-schedule formula",
+      "note": "Left to the final assessment after reply and hearing.",
+      "paras": "1, 3"
+    }
+  ],
+  "authorities": []
+}
