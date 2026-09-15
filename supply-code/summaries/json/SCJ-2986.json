@@ -1,0 +1,45 @@
+{
+  "case_id": "SCJ-2986",
+  "title": "Durjan Singh v. State of U.P. and others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Surya Prakash Kesarwani and Jayant Banerji, JJ.",
+  "date_of_judgment": "2023-01-17",
+  "date_display": "17 January 2023",
+  "docket": "WRIT - C No. 34868 of 2022",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; petitioner left to apply for a new connection under clause 4.39.",
+  "headnote": "A Division Bench of the Allahabad High Court dismissed a writ challenging the licensee's intimation that a permanently disconnected electricity connection could not be restored. After temporary disconnection for arrears, the consumer failed to remove the cause within six months and the supply was permanently disconnected; later payment of arrears did not revive the old connection. Applying clause 4.39 of the U.P. Electricity Supply Code, 2005, the Court held that a permanently disconnected connection shall not be reconnected and the consumer must apply for a new connection.",
+  "facts": "The petitioner's electricity connection was temporarily disconnected on 21 November 2021 for non-payment of arrears. He did not clear the default within six months, and the connection was permanently disconnected on 15 May 2022. He thereafter paid the arrears on 27 May 2022 and 28 June 2022. The distribution licensee, by communication dated 13 July 2022, intimated him that a permanently disconnected supply could not be restored and that he must apply for a new connection. He challenged that intimation by writ petition.",
+  "reusable_constructions": [
+    {
+      "construction": "Payment of arrears after a connection has already been permanently disconnected does not entitle the consumer to restoration of that connection; clause 4.39 still requires a fresh application for a new connection.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.39",
+      "code": "UP-2005",
+      "clause": "4.39",
+      "topic": "permanent disconnection; no reconnection; new connection",
+      "type": "supply_code",
+      "holding": "A connection disconnected permanently shall not be reconnected; the consumer must apply for a new connection. An intimation to that effect under para 4.39 of the U.P. Electricity Supply Code, 2005 does not suffer from error of law, and a writ seeking restoration of the permanently disconnected supply is dismissed, leaving the consumer free to apply for a new connection under clause 4.39.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "reconnection-available-after-permanent-disconnection-clause-4.39",
+      "application": "On these facts reconnection of the old connection was not available: after permanent disconnection under the six-month temporary-disconnection rule, clause 4.39 required a new-connection application even though arrears were later paid.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [],
+  "authorities": []
+}
