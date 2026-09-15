@@ -16,6 +16,9 @@ Reserves SCJ-NNN at claim time (bumps next_seq under the queue lock) so
 parallel workers cannot share an id. finalize_scj.py never rewinds it.
 Retires filename and docket duplicates to processed/ (mirroring any input/
 subfolder) without assigning an id. Nested queues stay nested.
+
+input/priority/ is claimed before year folders. Those PDFs always get
+authoring=full (catalog + SCJ-280), never stencil or short.
 """
 import argparse, json, os, re, subprocess, sys
 
@@ -41,6 +44,9 @@ SHORT_PAGES_UNCITED = 3
 SHORT_WORDS_UNCITED = 1500
 SHORT_TURNS = 15
 FULL_TURNS = 50
+# Claude-staged PDFs in input/priority/ are claimed before year folders and
+# always take the full LLM path (never stencil/short). Nested queues stay nested.
+PRIORITY_DIR = "priority"
 
 FN_DOCKET = re.compile(r"_(\d+)_(\d{4})\.pdf$", re.I)
 CLAUSE_NUM = re.compile(r"\b\d+\.\d+(?:\([A-Za-z0-9]+\))*")
@@ -80,8 +86,24 @@ def processed_names():
     return names
 
 
+def is_priority_source(rel):
+    """True for input/priority/... (Claude-staged PDFs claimed first)."""
+    rel = (rel or "").replace("\\", "/").lstrip("/")
+    return rel == PRIORITY_DIR or rel.startswith(PRIORITY_DIR + "/")
+
+
+def queue_sort_key(rel):
+    """priority/ first, then the rest alphabetically (year folders)."""
+    rel = (rel or "").replace("\\", "/")
+    return (0 if is_priority_source(rel) else 1, rel)
+
+
 def pending_files(done, skip_rels=None):
-    """POSIX paths relative to input/, files at root and in subfolders."""
+    """POSIX paths relative to input/, files at root and in subfolders.
+
+    `input/priority/` is claimed before year folders so a loop started
+    after staging Claude PDFs there drains that bucket first.
+    """
     skip = {s.replace("\\", "/").lstrip("/") for s in (skip_rels or [])}
     skip_base = {basename_of(s) for s in skip}
     if not os.path.isdir(INPUT):
@@ -98,7 +120,7 @@ def pending_files(done, skip_rels=None):
             if n in done or rel in skip or n in skip_base:
                 continue
             out.append(rel)
-    out.sort()
+    out.sort(key=queue_sort_key)
     return out
 
 
@@ -364,7 +386,11 @@ def claim_new():
         "out_json": f"supply-code/summaries/json/{cid}.json",
         "demoted": False,
     }
-    if is_stencil:
+    if is_priority_source(name):
+        # Priority PDFs always take the full catalog + SCJ-280 path,
+        # including cases that would otherwise classify as stencil/short.
+        apply_llm_authoring(ticket, txt, fp, force_full=True)
+    elif is_stencil:
         ticket["authoring"] = "stencil"
         ticket["stencil_family"] = stencil["family"]
         ticket["gate"] = "stencil"
@@ -388,8 +414,12 @@ def main(claim_new_only=False):
     return claim_new()
 
 
-def apply_llm_authoring(ticket, txt, fp):
-    """Fill short/full fields. Never stencil. Mutates ticket."""
+def apply_llm_authoring(ticket, txt, fp, force_full=False):
+    """Fill short/full fields. Never stencil. Mutates ticket.
+
+    force_full (or a priority/ source) skips the short-page/word gate so
+    Claude-staged priority PDFs are always authored on the full path.
+    """
     words = int(ticket.get("word_count") or fp.get("word_count") or 0)
     pages = ticket.get("page_count")
     if pages is None:
@@ -401,7 +431,18 @@ def apply_llm_authoring(ticket, txt, fp):
     ticket["citation_count"] = cites
     ticket["ik_citation_count"] = int(fp.get("ik_citation_count") or 0)
     ticket["text_citation_count"] = int(fp.get("text_citation_count") or 0)
-    if is_short(pages, words, cites):
+    if not force_full:
+        force_full = is_priority_source(ticket.get("source"))
+    if force_full:
+        ticket["authoring"] = "full"
+        ticket["gate"] = (
+            "priority-full" if is_priority_source(ticket.get("source")) else "full"
+        )
+        ticket["max_turns"] = FULL_TURNS
+        ticket["prompt"] = "tools/prompts/next_case_once.txt"
+        ticket["catalog"] = "supply-code/jurisprudence/catalog.txt"
+        ticket["example"] = "supply-code/summaries/json/SCJ-280.json"
+    elif is_short(pages, words, cites):
         ticket["authoring"] = "short"
         ticket["gate"] = short_gate(pages, words, cites)
         ticket["max_turns"] = SHORT_TURNS

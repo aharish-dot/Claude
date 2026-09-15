@@ -139,5 +139,58 @@ class QueueTests(unittest.TestCase):
                 self.assertEqual(json.load(f)["a"], 1)
 
 
+class PriorityQueueTests(unittest.TestCase):
+    def test_sort_puts_priority_before_year_folders(self):
+        import prepare_next_scj as p
+        files = [
+            "2007/a.pdf",
+            "priority/2015/z.pdf",
+            "2024/b.pdf",
+            "priority/2009/a.pdf",
+        ]
+        files.sort(key=p.queue_sort_key)
+        self.assertEqual(
+            files,
+            [
+                "priority/2009/a.pdf",
+                "priority/2015/z.pdf",
+                "2007/a.pdf",
+                "2024/b.pdf",
+            ],
+        )
+
+    def test_is_priority_source(self):
+        import prepare_next_scj as p
+        self.assertTrue(p.is_priority_source("priority/2009/x.pdf"))
+        self.assertTrue(p.is_priority_source("priority"))
+        self.assertFalse(p.is_priority_source("2009/x.pdf"))
+        self.assertFalse(p.is_priority_source("2009/priority.pdf"))
+        self.assertFalse(p.is_priority_source("priority-hold/x.pdf"))
+
+    def test_priority_source_forces_full_even_when_short(self):
+        import prepare_next_scj as p
+        ticket = {
+            "source": "priority/2009/WRIC(A)_1_2009.pdf",
+            "word_count": 400,
+            "page_count": 2,
+            "citation_count": 0,
+        }
+        p.apply_llm_authoring(ticket, "short order text", {"citation_count": 0})
+        self.assertEqual(ticket["authoring"], "full")
+        self.assertEqual(ticket["gate"], "priority-full")
+        self.assertEqual(ticket["prompt"], "tools/prompts/next_case_once.txt")
+
+    def test_non_priority_still_goes_short(self):
+        import prepare_next_scj as p
+        ticket = {
+            "source": "2022/WRIC(A)_1_2022.pdf",
+            "word_count": 400,
+            "page_count": 2,
+            "citation_count": 0,
+        }
+        p.apply_llm_authoring(ticket, "short order text", {"citation_count": 0})
+        self.assertEqual(ticket["authoring"], "short")
+
+
 if __name__ == "__main__":
     unittest.main()

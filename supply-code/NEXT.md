@@ -4,6 +4,8 @@ Do **exactly one** unique pending judgment. Do not wait for confirmation. Do not
 
 Unattended (user runs this; they do not babysit). Judgment PDFs live **in the GitHub repo** under `supply-code/input/<year>/`. Clone or `git pull` any working copy of this branch, then from that repo root.
 
+`input/priority/` is claimed **before** year folders. Those PDFs always take **`authoring=full`** (`tools/prompts/next_case_once.txt`) — never stencil or short. Significant records must include `reusable_constructions[]`.
+
 **Windows** (this folder):
 
 ```
