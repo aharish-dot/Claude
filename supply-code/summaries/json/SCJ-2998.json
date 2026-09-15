@@ -1,0 +1,62 @@
+{
+  "case_id": "SCJ-2998",
+  "title": "Vinod Kumar Varshney v. State of U.P. and others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta, J.; Vikram D. Chauhan, J.",
+  "date_of_judgment": "2023-01-05",
+  "date_display": "5 January 2023",
+  "docket": "Writ-C No. 36614 of 2022",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of; arrears relegated to Clause 6.5; theft assessment left pending.",
+  "headnote": "The High Court will not quash a proposed theft-assessment notice where the final order is still pending and the licensee undertakes to consider the consumer's objections at that stage, nor a demand for electricity arrears when Clause 6.5 of the U.P. Electricity Supply Code, 2005 supplies objections before the Executive Engineer. The writ is disposed of with that liberty.",
+  "facts": "Vinod Kumar Varshney filed a writ petition in the Allahabad High Court seeking quashing of two electricity-department notices. The notice dated 6 May 2022 proposed assessment of Rs. 5,07,494 for alleged theft of electricity and invited objections within fifteen days; the petitioner said he had already objected. The notice dated 11 May 2022 demanded arrears of Rs. 1,44,758.56. Counsel for the department stated that the final theft-assessment order had not yet been passed.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "disputed electricity arrears — objections to Executive Engineer",
+      "type": "supply_code",
+      "holding": "A demand for electricity arrears, if disputed, is to be objected to before the Executive Engineer under Clause 6.5 of the U.P. Electricity Supply Code, 2005; the writ court will not quash such a notice. A proposed theft-assessment notice likewise requires no writ direction where the final assessment has not been passed and the licensee states that already-filed objections will be considered then.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-alternate-remedy-to-writ",
+      "application": "The Court refused a writ quashing the 11 May 2022 arrears demand and left the petitioner to objections before the Executive Engineer under Clause 6.5.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "clause-6.5-statutory-remedy-disputed-bill",
+      "application": "Disputed electricity dues of Rs. 1,44,758.56 were treated as a Clause 6.5 matter, not a writ controversy.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "billing-objection-to-executive-engineer-under-6.5",
+      "application": "The statutory forum named for the arrears dispute is the Executive Engineer under Clause 6.5.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Validity of the proposed theft assessment of Rs. 5,07,494",
+      "note": "Final assessment order not yet passed; objections to be considered at that stage.",
+      "paras": "1"
+    },
+    {
+      "point": "Correctness of the arrears demand of Rs. 1,44,758.56",
+      "note": "Petitioner relegated to Clause 6.5 objections before the Executive Engineer.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
