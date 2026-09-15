@@ -1,0 +1,57 @@
+{
+  "case_id": "SCJ-2969",
+  "title": "Sadruddin v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Surya Prakash Kesarwani, J.; Jayant Banerji, J.",
+  "date_of_judgment": "2023-02-01",
+  "date_display": "1 February 2023",
+  "docket": "Writ-C No. 31799 of 2022",
+  "page_count": 1,
+  "significance": "procedural",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of; petitioner relegated to paragraph 6.5 for the disputed bill.",
+  "headnote": "A writ complaining of an incorrect electricity bill was disposed of without any opinion on merits. The Division Bench held that paragraph 6.5 of the U.P. Electricity Supply Code, 2005 supplies the remedy, and left the petitioner free to approach the competent authority.",
+  "facts": "Sadruddin filed a writ petition in the Allahabad High Court alleging that an incorrect electricity bill had been issued to him. The State of Uttar Pradesh and two others were arrayed as respondents. The Division Bench recorded the grievance in a short order, noted the statutory remedy under the Supply Code, and did not examine whether the bill was in fact incorrect. No connection number or demand particulars appear on the face of the order.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "incorrect-bill-alternate-remedy",
+      "type": "supply_code",
+      "holding": "A grievance that an incorrect electricity bill has been issued is remediable under paragraph 6.5 of the U.P. Electricity Supply Code, 2005; the writ court will not examine the bill on merits and will dispose of the petition with liberty to approach the competent authority.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-alternate-remedy",
+      "application": "The Court treated paragraph 6.5 as the forum for an incorrect-bill grievance and declined to decide the writ on merits.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "clause-6.5-statutory-remedy-disputed-bill",
+      "application": "The only grievance recorded was an incorrect electricity bill; the Court pointed the petitioner to paragraph 6.5.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "clause-6.5-alternate-remedy-to-writ",
+      "application": "The writ was disposed of with liberty to approach the paragraph 6.5 authority rather than any merits grant or refusal.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "whether the electricity bill was in fact incorrect",
+      "note": "The Court expressly declined to express any opinion on merits.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
