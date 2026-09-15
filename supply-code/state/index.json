@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3007,
+  "next_seq": 3008,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -18028,6 +18028,12 @@
       "case_id": "SCJ-3004",
       "source_basename": "WRIC(A)_37321_2022.pdf",
       "title": "Bharat Sanchar Nigam Ltd. v State of U.P. — remaining billing and surcharge dispute relegated to CGRF under clause 7.10",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3005",
+      "source_basename": "WRIC(A)_37382_2022.pdf",
+      "title": "Rajeev Verma v. Purvanchal Vidyut Vitaran Nigam Limited",
       "status": "done"
     }
   ]
