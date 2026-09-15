@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2937,
+  "next_seq": 2938,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -17608,6 +17608,12 @@
       "case_id": "SCJ-2934",
       "source_basename": "WRIC(A)_23940_2022.pdf",
       "title": "Rkg Industries Llp v. Uttar Pradesh Power Corporation Limited",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2935",
+      "source_basename": "WRIC(A)_24191_2022.pdf",
+      "title": "PuVVNL v. Pulkit Yadav — notice on CGRF average Smart Meter billing order",
       "status": "done"
     }
   ]
