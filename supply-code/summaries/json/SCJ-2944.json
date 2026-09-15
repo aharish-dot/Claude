@@ -1,0 +1,52 @@
+{
+  "case_id": "SCJ-2944",
+  "title": "Braham Bala @ Braj Bala v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Siddhartha Varma, J.; Vikas Budhwar, J.",
+  "date_of_judgment": "2022-09-08",
+  "date_display": "8 September 2022",
+  "docket": "Writ-C No. 25546 of 2022",
+  "page_count": 1,
+  "significance": "procedural",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; petitioner relegated to Clause 6.5(b) forum.",
+  "headnote": "A writ against irregular electricity bills was disposed of on the licensee's submission that Clause 6.5(b) of the U.P. Electricity Supply Code, 2005 afforded an efficacious remedy before the Grievance Redressal Forum. A complaint filed within ten days was to be decided in accordance with law within one month. The bills were not examined on merits.",
+  "facts": "The petitioner Braham Bala, also known as Braj Bala, filed a writ petition in the Allahabad High Court after receiving irregular electricity bills. Counsel for the distribution licensee submitted that she had an efficacious remedy of approaching the Consumer Redressal Forum under Clause 6.5(b) of the U.P. Electricity Supply Code, 2005. The Division Bench did not examine the bills. It disposed of the writ with a time-bound direction to the Grievance Redressal Forum if a complaint was filed within ten days.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5(b)",
+      "code": "UP-2005",
+      "clause": "6.5(b)",
+      "topic": "irregular bills — alternate remedy",
+      "type": "supply_code",
+      "holding": "Where a consumer challenges irregular electricity bills in writ and the licensee points to Clause 6.5(b) of the U.P. Electricity Supply Code, 2005 as an efficacious remedy before the Grievance Redressal Forum, the High Court may dispose of the petition by directing that a complaint filed within a stipulated period be decided in accordance with law, without examining the bills.",
+      "paras": "1",
+      "flag": "Order names the Consumer/Grievance Redressal Forum under Clause 6.5(b); 6.5(b) is ordinarily the Executive Engineer billing-objection path, not the CGRF."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-alternate-remedy-to-writ",
+      "application": "Writ against irregular bills disposed of because Clause 6.5(b) was treated as an efficacious alternate remedy; complaint to be decided in accordance with law.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "clause-6.5-statutory-remedy-disputed-bill",
+      "application": "Dispute over irregular electricity bills remitted to the statutory Clause 6.5(b) forum rather than decided on the writ.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness of the irregular bills",
+      "note": "Petition disposed of on alternate-remedy without examining the bills.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
