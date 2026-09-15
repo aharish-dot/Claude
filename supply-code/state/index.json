@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2955,
+  "next_seq": 2956,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -17716,6 +17716,12 @@
       "case_id": "SCJ-2953",
       "source_basename": "WRIC(A)_28050_2022.pdf",
       "title": "Golfgreen Buildcon (Pvt) Limited v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2952",
+      "source_basename": "WRIC(A)_27923_2022.pdf",
+      "title": "Executive Engineer, Electricity Distribution v. Smt. Sunita Devi",
       "status": "done"
     }
   ]
