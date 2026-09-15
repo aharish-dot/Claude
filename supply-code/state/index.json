@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2907,
+  "next_seq": 2908,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -17428,6 +17428,12 @@
       "case_id": "SCJ-2904",
       "source_basename": "WRIC(A)_21724_2022.pdf",
       "title": "Ajaj Ahmad v. State of U.P. — writ against Para-6.8 order dismissed for s.127 appeal",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2905",
+      "source_basename": "WRIC(A)_21777_2022.pdf",
+      "title": "Harish Chandra v. State of U.P. (electricity-dues citation; para 6.8 remittal)",
       "status": "done"
     }
   ]
