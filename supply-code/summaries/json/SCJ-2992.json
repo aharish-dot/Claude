@@ -1,0 +1,64 @@
+{
+  "case_id": "SCJ-2992",
+  "title": "Omkar Baranval v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta, J.; Dinesh Pathak, J.",
+  "date_of_judgment": "2023-01-09",
+  "date_display": "9 January 2023",
+  "docket": "WRIT - C No. 36201 of 2022",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Demand notice quashed; liberty to proceed afresh under Supply Code.",
+  "headnote": "On a writ against a theft-based demand of Rs. 2,10,012, the Allahabad High Court quashed the 23 December 2020 notice after holding that the 25 July 2020 final assessment was non-speaking: it recorded neither objections, nor the hearing fixed for 13 June 2020, nor satisfaction that theft was established, and service on the consumer was unconfirmed. Liberty was reserved to pass a fresh order under the U.P. Electricity Supply Code, 2005. A Section 127 maintainability objection taken on an earlier listing was not decided.",
+  "facts": "Omkar Baranval petitioned the Allahabad High Court to quash a 23 December 2020 demand notice of the Executive Engineer, Vidyut Vitran Khand-Phoolpur, Azamgarh, seeking Rs. 2,10,012 as electricity dues. The Power Corporation treated the case as theft and relied on a final assessment dated 25 July 2020. It had earlier objected that a Section 127 appeal lay and that the writ was delayed. At hearing, counsel produced the assessment but could not confirm it had been served on the petitioner.",
+  "reusable_constructions": [
+    {
+      "construction": "A final assessment in a theft matter must be a speaking order: it has to record whether objections to the provisional assessment were filed, whether the appointed hearing took place, and the assessing officer's satisfaction that theft is established. A demand notice founded on an assessment that is silent on those matters is liable to be quashed.",
+      "paras": "2"
+    },
+    {
+      "construction": "Quashing a theft demand for a non-speaking final assessment does not bar the licensee from proceeding afresh after complying with the U.P. Electricity Supply Code, 2005.",
+      "paras": "2"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005",
+      "code": "UP-2005",
+      "clause": "Supply Code, 2005",
+      "topic": "non-speaking final assessment in theft demand",
+      "type": "supply_code",
+      "holding": "The 25 July 2020 final assessment produced as the basis of the theft demand was a non-speaking order: it did not mention whether any objection had been filed against the provisional assessment, recorded no satisfaction that theft had been established, and did not state whether the hearing fixed for 13 June 2020 took place. Service of the assessment on the petitioner was also unconfirmed. The demand notice dated 23 December 2020 is quashed, with liberty to the assessing officer (respondent No. 3) to proceed afresh after complying with the U.P. Electricity Supply Code, 2005.",
+      "paras": "2"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "non-speaking-theft-final-assessment-demand-quashed-fresh-order",
+      "application": "Applied: the Court quashed the 23 December 2020 demand because the underlying 25 July 2020 theft final assessment was non-speaking on objections, hearing, and satisfaction, and reserved liberty to pass a fresh order under the Supply Code rather than relegating the consumer to a Section 127 appeal.",
+      "lead_authorities": [],
+      "paras": "2"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether delay and laches, or the availability of an appeal under Section 127 of the Electricity Act, 2003, barred the writ",
+      "note": "Raised as a preliminary objection on 2 January 2023; the disposing Bench did not rule on maintainability and decided on the quality of the final assessment.",
+      "paras": "1"
+    },
+    {
+      "point": "Whether the final assessment order was served on the petitioner",
+      "note": "Counsel for the Corporation could not clarify; the Court proceeded on the non-speaking character of the order.",
+      "paras": "2"
+    },
+    {
+      "point": "Merits of the theft allegation and the quantum of Rs. 2,10,012",
+      "paras": "2"
+    }
+  ],
+  "authorities": []
+}
