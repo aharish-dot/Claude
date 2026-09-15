@@ -1,0 +1,62 @@
+{
+  "case_id": "SCJ-2936",
+  "title": "M/s Kothiwal Institute of Technology and Professional Studies v. State of U.P.",
+  "neutral_citation": "Writ-C No. 24196 of 2022",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sunita Agarwal, J.; Jyotsna Sharma, J.",
+  "date_of_judgment": "2022-08-31",
+  "date_display": "31 August 2022",
+  "docket": "Writ-C No. 24196 of 2022",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; consumer relegated to the Executive Engineer under Clause 6.5(b); coercive action stayed until that decision.",
+  "headnote": "A writ challenging a disconnection notice and an audit-based arrears demand, where the consumer disputes computation of those arrears, is not decided on merits. The appropriate remedy is Clause 6.5(b) of the Electricity Supply Code, 2005 before the Executive Engineer. Section 56 of the Electricity Act, 2003 and Clause 6.5 may be pressed there. Coercive measures are stayed until an expeditious decision on a timely application.",
+  "facts": "The petitioner institute received a 2009 HV-1 connection but was billed under HV-2. An audit then demanded the tariff difference as arrears. A disconnection notice dated 21 June 2022 and an order dated 25 July 2022 required deposit of those arrears. The institute challenged both, saying its objections were not considered, it had paid the bills as raised, and recovery after two years was barred by section 56 of the Electricity Act, 2003 and Clause 6.15 of the Electricity Supply Code, 2005.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5(b)",
+      "code": "UP Electricity Supply Code, 2005",
+      "clause": "6.5(b)",
+      "topic": "computation of arrears — alternate remedy to writ",
+      "type": "supply_code",
+      "holding": "A dispute as to computation of electricity arrears (here, audit recovery of the difference between HV-2 bills and an HV-1 connection) is to be raised before the Executive Engineer under Clause 6.5(b), not decided in writ. The consumer may press section 56 of the Electricity Act, 2003 and Clause 6.5 in that proceeding. On an application filed within two weeks with a copy of the order, the Engineer shall decide expeditiously after obtaining reports, preferably within four weeks; no coercive measure until then.",
+      "paras": "1",
+      "flag": "The two-year bar was argued under Clause 6.15; the Court directed the consumer to press section 56 and Clause 6.5 before the Executive Engineer and did not construe 6.15."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-alternate-remedy-to-writ",
+      "application": "Writ on a disconnection notice and audit arrears demand disposed of by remitting the consumer to the Executive Engineer under Clause 6.5(b).",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "clause-6.5b-quantification-dispute",
+      "application": "The live dispute was computation of arrears from HV-1/HV-2 tariff difference; the Court treated that as a Clause 6.5(b) matter for the Executive Engineer.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "clause-6.15-two-year-limitation-relegated-to-authority",
+      "application": "The section 56 / Clause 6.15 two-year bar was not decided; the Court said those limitation and revocation pleas may be pressed before the Executive Engineer.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether recovery of the HV-1/HV-2 audit difference is barred after two years by section 56 of the Electricity Act, 2003 and Clause 6.15 of the Supply Code",
+      "note": "Petitioner permitted to press section 56 and Clause 6.5 before the Executive Engineer; merits of the limitation plea not examined.",
+      "paras": "1"
+    },
+    {
+      "point": "Correctness of the audit-based arrears computation and whether the 25.07.2022 order dealt with the petitioner's objections",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
