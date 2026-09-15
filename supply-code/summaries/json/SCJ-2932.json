@@ -1,0 +1,60 @@
+{
+  "case_id": "SCJ-2932",
+  "title": "Mukesh v. State of U.P.",
+  "neutral_citation": "Writ-C No. 23870 of 2022",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sunita Agarwal and Jyotsna Sharma, JJ.",
+  "date_of_judgment": "2022-09-09",
+  "date_display": "9 September 2022",
+  "docket": "Writ-C No. 23870 of 2022",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; 6.8 objections directed; prior recovery not pressed.",
+  "headnote": "Without deciding whether a final assessment had been passed or served before recovery, the High Court permitted the consumer to object to the provisional assessment under paragraph 6.8 of the Electricity Supply Code, 2005, directed the Executive Engineer to decide all points of objection, required service of the final assessment calling for payment, kept open a Section 127 appeal, and directed that the earlier recovery citation and any prior final assessment shall not be pressed into service.",
+  "facts": "Mukesh challenged a recovery citation dated 7 December 2019 issued by the Greater Noida electricity distribution division, Gautam Buddha Nagar, asserting that no opportunity of hearing preceded the citation. At the subsequent hearing his counsel stated that a provisional assessment notice had been served and an objection filed, but that the final assessment order had not been served before the recovery certificate, and that the citation had issued without a final assessment.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8",
+      "code": "UP-2005",
+      "clause": "6.8",
+      "topic": "objection to provisional assessment before recovery",
+      "type": "supply_code",
+      "holding": "A consumer disputing recovery of a provisional electricity assessment may be permitted to file an objection under paragraph 6.8 of the Electricity Supply Code, 2005; the Executive Engineer must then decide all points of objection, the final assessment notice or order must be served calling for payment, and the recovery citation and any earlier final assessment shall not be pressed into service while that procedure is followed.",
+      "paras": "1"
+    },
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "appeal against final assessment",
+      "type": "electricity_act",
+      "holding": "If the consumer is aggrieved by the final assessment order passed after paragraph-6.8 objections, an appeal under Section 127 of the Electricity Act, 2003 remains open.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "pending-6.8bi-objection-directed-for-reasoned-disposal-with-stay",
+      "application": "The Court permitted a paragraph-6.8 objection to the provisional assessment, directed the Executive Engineer to decide all points of objection, and ordered that the earlier recovery citation and prior final assessment shall not be pressed into service.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "alternative-remedy-section-127-appeal",
+      "application": "After the fresh final assessment is served, a consumer aggrieved by it may file an appeal under Section 127 of the Electricity Act, 2003.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether a final assessment order had in fact been passed and served before the recovery citation, and whether any hearing was granted.",
+      "note": "The Court proceeded on the record without resolving those assertions and directed a fresh paragraph-6.8 process.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
