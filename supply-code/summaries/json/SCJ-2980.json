@@ -1,0 +1,45 @@
+{
+  "case_id": "SCJ-2980",
+  "title": "Seema Mohan v. U.P. Electricity Regulatory Commission",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Surya Prakash Kesarwani, J.; Anish Kumar Gupta, J.",
+  "date_of_judgment": "2023-02-23",
+  "date_display": "23 February 2023",
+  "docket": "WRIT - C No. 33969 of 2022",
+  "page_count": 4,
+  "significance": "ordinary",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; licensee to implement CGRF order within four weeks.",
+  "headnote": "Mandamus to implement a CGRF direction under Clause 6.9(V) of the U.P. Electricity Supply Code, 2005 (load enhancement and excess-load penalty adjustment) is granted by requiring the Executive Engineer to pass an order giving effect to the Forum order within four weeks after hearing the consumer, without the High Court resolving the disputed claim that the bill had already been revised.",
+  "facts": "Seema Mohan took a 5 kW connection at Naini, Allahabad on 18 December 2017. After a 17 October 2018 inspection found excess load, she paid Rs 25,800 but excess-load penalty continued without Clause 6.9(v) load enhancement. CGRF, Allahabad on 1 July 2022 (Complaint No. 22 of 2021) directed enhancement and penalty adjustment if the higher load ran for three months after inspection. The licensee did not implement that order. Before the High Court it claimed the bill was revised; she disputed any subsequent penalty.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.9",
+      "code": "UP-2005",
+      "clause": "6.9(V)",
+      "topic": "CGRF implementation of load enhancement and excess-load penalty adjustment",
+      "type": "supply_code",
+      "holding": "Where CGRF has directed the licensee to enhance sanctioned load and adjust excess-load penalty under Clause 6.9(V) of the U.P. Electricity Supply Code, 2005 if enhanced load continued for three months after inspection, and the consumer disputes the licensee's claim that the bill has already been revised, the writ court will direct the Executive Engineer to pass an order giving effect to that Forum order within four weeks after affording the consumer a reasonable opportunity, and will dispose of the petition on that direction.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.9-representation-time-bound-decision",
+      "application": "The Court fixed four weeks for the Executive Engineer to pass an order giving effect to CGRF's Clause 6.9(V) load-enhancement and penalty-adjustment direction, after hearing the consumer.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the bill had in fact been revised as claimed on the Executive Engineer's instruction dated 25.11.2022, and what post-17.10.2018 penalty if any remained leviable",
+      "note": "The Court recorded both the licensee's statement and the consumer's dispute and left those questions to the implementing order.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
