@@ -1,0 +1,46 @@
+{
+  "case_id": "SCJ-3023",
+  "title": "Ahmad Noor v. State of U.P. and others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Mahesh Chandra Tripathi, J.; Vivek Kumar Singh, J.",
+  "date_of_judgment": "2023-01-02",
+  "date_display": "2 January 2023",
+  "docket": "WRIT - C No. 39076 of 2022",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of; petitioner left to cl. 6.14 of the 2005 Code.",
+  "headnote": "On a challenge to a Paschimanchal recovery certificate for electricity dues, the Allahabad High Court declined to entertain the writ, holding that Provision 6.14 of the Uttar Pradesh Electricity Supply Code, 2005 is an efficacious Code remedy, and disposed of the petition with liberty to avail that recourse, hoping the competent authority would proceed strictly in accordance with law.",
+  "facts": "Ahmad Noor petitioned the Allahabad High Court against a recovery certificate dated 27 October 2021 issued by Paschimanchal Electricity Distribution Corporation Limited, Bilaspur, Rampur, for electricity dues. Counsel for the licensee objected that the writ was not maintainable because the Uttar Pradesh Electricity Supply Code, 2005 is a complete Code and clause 6.14 supplies an efficacious remedy for recovery of electricity charges. Counsel for the petitioner stated that the petitioner was ready to deposit the outstanding amount.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.14",
+      "code": "UP-2005",
+      "clause": "6.14",
+      "topic": "writ maintainability — recovery of electricity dues",
+      "type": "supply_code",
+      "holding": "A writ challenging a licensee's recovery certificate for electricity dues is not to be entertained where Provision 6.14 of the Uttar Pradesh Electricity Supply Code, 2005 is available as an efficacious remedy; the consumer may take that Code recourse and the competent authority is to proceed strictly in accordance with law.",
+      "paras": "1",
+      "flag": "Court described cl. 6.14 as an 'appeal' against recovery of dues. In the 2005 Code, 6.14 is the installment-payment facility, not an appellate clause."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "installment-payment-clause-6.14",
+      "application": "Court refused to entertain the writ on a PVVNL recovery certificate and left the petitioner to cl. 6.14 as the efficacious Code remedy (styled as an appeal), without construing the installment machinery or granting instalments.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Validity of the 27.10.2021 recovery certificate and the quantum of electricity dues",
+      "note": "Writ not entertained on the maintainability objection; merits of the recovery were not examined.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
