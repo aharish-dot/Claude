@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2872,
+  "next_seq": 2873,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -17218,6 +17218,12 @@
       "case_id": "SCJ-2870",
       "source_basename": "WRIC(A)_19139_2022.pdf",
       "title": "Abdul Kayyum v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2869",
+      "source_basename": "WRIC(A)_19101_2022.pdf",
+      "title": "M/s Tmm Plastic Enterprises v. Managing Director, Paschimanchal Vidyut Vitran Nigam Ltd.",
       "status": "done"
     }
   ]
