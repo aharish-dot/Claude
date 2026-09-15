@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 2918,
+  "next_seq": 2919,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -17494,6 +17494,12 @@
       "case_id": "SCJ-2915",
       "source_basename": "WRIC(A)_22263_2022.pdf",
       "title": "Jugnu v. State of U.P. — recovery certificate relegated to Para 6.8 objection with stay",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-2916",
+      "source_basename": "WRIC(A)_22276_2022.pdf",
+      "title": "Smt. Anjali Pandey v. State of U.P.",
       "status": "done"
     }
   ]
