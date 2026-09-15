@@ -1,0 +1,46 @@
+{
+  "case_id": "SCJ-2939",
+  "title": "M/s Natural Water Industries v. State of U.P.",
+  "neutral_citation": "Writ-C No. 24454 of 2022",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sangeeta Chandra, J.; Saurabh Srivastava, J.",
+  "date_of_judgment": "2022-09-02",
+  "date_display": "2 September 2022",
+  "docket": "Writ-C No. 24454 of 2022",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; relegated to Chapter-VI; EE to decide in two weeks.",
+  "headnote": "Chapter-VI of the Electricity Supply Code, 2005 is the forum for disputed bills and meter-malfunction complaints. A writ seeking mandamus to restore a disconnected commercial connection by deciding a pending representation was disposed of by directing the consumer to apply under that Chapter, with a two-week window for the application and a further two weeks for the Executive Engineer to pass orders.",
+  "facts": "The petitioner, a small-scale MSME registered on 11 November 2016 for manufacture of refined drinking water, held a commercial connection. It complained on 11 July 2022 that the meter was malfunctioning. A bill of Rs 17,16,178 was then raised and supply was disconnected on 25 July 2022. A representation dated 2 August 2022 to the Executive Engineer, PuVVNL, Ghazipur, remained pending. The writ sought mandamus to restore the connection by deciding that representation.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::Chapter-VI",
+      "code": "UP-2005",
+      "clause": "Chapter-VI",
+      "topic": "disputed bills and meter malfunction — Chapter-VI forum",
+      "type": "supply_code",
+      "holding": "Disputed electricity bills and complaints of meter malfunction fall under Chapter-VI of the Electricity Supply Code, 2005. A consumer seeking restoration after disconnection on a disputed bill is to apply to the competent authority under that Chapter; if the application is made within two weeks, the Executive Engineer shall consider it and pass appropriate orders within a further two weeks. The writ was disposed of on that direction without a merits grant or refusal.",
+      "paras": "4",
+      "flag": "Court invoked Chapter-VI generally for disputed bills and meter malfunction without identifying a specific clause (e.g. 6.5 or 6.8)."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "UP-2005::Chapter-VI",
+      "application": "The Division Bench treated Chapter-VI as the pathway for the consumer's disputed-bill and meter complaint and refused a restoration mandamus on a pending representation, directing a time-bound Chapter-VI application to the Executive Engineer instead.",
+      "lead_authorities": [],
+      "paras": "4"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness of the Rs 17,16,178 bill, alleged meter malfunction, legality of the 25 July 2022 disconnection, and entitlement to restoration",
+      "note": "Writ disposed without examining the merits; consumer directed to apply under Chapter-VI.",
+      "paras": "4-5"
+    }
+  ],
+  "authorities": []
+}
