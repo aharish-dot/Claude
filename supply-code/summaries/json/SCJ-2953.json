@@ -1,0 +1,49 @@
+{
+  "case_id": "SCJ-2953",
+  "title": "Golfgreen Buildcon (Pvt) Limited v. State of U.P.",
+  "neutral_citation": "Writ-C No. 28050 of 2022",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Manoj Misra, J.; Vikas Budhwar, J.",
+  "date_of_judgment": "2022-09-20",
+  "date_display": "20 September 2022",
+  "docket": "WRIT - C No. - 28050 of 2022",
+  "page_count": 3,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "SE directed to consider temporary-supply extension within a week.",
+  "headnote": "A developer whose temporary construction supply had expired, and whose further-extension application remained undecided despite an Executive Engineer recommendation, sought a mandamus to extend supply beyond two years. The licensee relied on Clause 4.10(a) of the U.P. Electricity Supply Code, 2005; the petitioner relied on the tariff order’s third-year surcharge and Clause 2.1. The Court did not resolve that conflict. It disposed of the writ by directing the Superintending Engineer, Electricity Urban Distribution Division-1, NOIDA (or the competent authority) to pass an appropriate order on the extension application in light of the Code and the field recommendation, preferably within a week.",
+  "facts": "The petitioner, a residential developer, had a temporary connection sanctioned on 12 August 2017 and last extended to 13 September 2022. Construction remaining incomplete, it applied for a further extension; the Executive Engineer recommended it to the Superintending Engineer, NOIDA. Supply was stopped from 14 September 2022 and work halted. The developer sought a mandamus to extend the temporary supply for six months or until permanent release. The licensee objected that Clause 4.10(a) of the U.P. Electricity Supply Code, 2005 caps temporary building-construction supply at two years.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.10(a)",
+      "code": "UP-2005",
+      "clause": "4.10(a)",
+      "topic": "temporary supply — extension application to be considered",
+      "type": "supply_code",
+      "holding": "A pending application to extend a temporary construction supply is to be decided by the Superintending Engineer (or, if he is not competent, the concerned authority) in light of the U.P. Electricity Supply Code, 2005 and the Executive Engineer’s recommendation, preferably within a week of the order being produced; the writ court will not itself grant or refuse the extension.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "temporary-supply-extension-consideration",
+      "application": "Where a developer seeks extension of a temporary construction connection after the period last sanctioned, and the licensee has not decided the extension application, the High Court may direct the Superintending Engineer or other competent authority to consider that application in light of the Supply Code and the field recommendation, without deciding whether Clause 4.10(a)’s two-year cap yields to the tariff order.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether Clause 4.10(a)’s two-year cap on temporary building-construction supply yields to a tariff order levying an additional charge from the third year, by reason of Clause 2.1.",
+      "note": "Both submissions were recorded; the conflict was not resolved.",
+      "paras": "1"
+    },
+    {
+      "point": "Merits of the extension application and whether the Superintending Engineer is the competent sanctioning authority.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
