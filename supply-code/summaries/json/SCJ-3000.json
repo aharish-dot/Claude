@@ -1,0 +1,51 @@
+{
+  "case_id": "SCJ-3000",
+  "title": "Vinod Kumar v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta, J.; Vikram D. Chauhan, J.",
+  "date_of_judgment": "2023-01-18",
+  "date_display": "18 January 2023",
+  "docket": "WRIT - C No. 36889 of 2022",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed on undertaking to withdraw theft recovery and issue a fresh provisional assessment.",
+  "headnote": "In a writ against a theft-of-electricity recovery notice, the Allahabad High Court treated an assessment issued on a printed provisional-assessment proforma but headed as a final assessment as a patent abuse of power showing no application of mind. After the Executive Officer undertook to withdraw the recovery and assessment and to issue a fresh provisional assessment, concluding proceedings strictly under the Electricity Supply Code, 2005, the Court disposed of the petition in those terms.",
+  "facts": "Vinod Kumar challenged a recovery notice dated 14 September 2022 issued in an alleged theft-of-electricity case by Electricity Urban Distribution Division-XI, Varanasi. The assessment under challenge was on a printed proforma meant for a provisional assessment order, though headed as a final assessment. After an adjournment and a connected listing with Writ-C No. 37137 of 2022, the Executive Officer filed an affidavit that the recovery and the assessment would be withdrawn and a fresh provisional assessment issued. The Division Bench then disposed of the petition.",
+  "reusable_constructions": [
+    {
+      "construction": "An assessment issued on a printed proforma meant for a provisional assessment, but headed as a final assessment order, is a patent abuse of power and discloses no application of mind.",
+      "paras": "2"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::16.1.4",
+      "code": "UP-2005",
+      "clause": "16.1.4",
+      "topic": "theft assessment — provisional proforma issued as final order",
+      "type": "supply_code",
+      "holding": "A theft assessment issued on a printed proforma meant for a provisional assessment order, but headed as a final assessment, is a patent abuse of power and shows no application of mind. Where the licensee then undertakes to withdraw the recovery and the assessment and to issue a fresh provisional assessment, concluding the proceedings strictly in consonance with the Electricity Supply Code, 2005, the writ challenging the recovery notice is disposed in terms of that stand.",
+      "paras": "2-3"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "theft-assessment-provisional-proforma-issued-as-final",
+      "application": "Applied to a 14.9.2022 theft recovery notice issued on a printed provisional-assessment proforma headed as a final assessment; the Court called that a patent abuse of power, and disposed of the writ on the licensee's undertaking to withdraw the recovery and assessment and to issue a fresh provisional assessment under the Electricity Supply Code, 2005.",
+      "lead_authorities": [],
+      "paras": "2-3"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits of the theft allegation and quantum of assessment",
+      "note": "The Court did not decide whether electricity had been stolen or what charges were due; proceedings were to restart with a fresh provisional assessment under the Supply Code, 2005.",
+      "paras": "3"
+    }
+  ],
+  "authorities": []
+}
