@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3033,
+  "next_seq": 3034,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -18184,6 +18184,12 @@
       "case_id": "SCJ-3030",
       "source_basename": "WRIC(A)_40495_2022.pdf",
       "title": "Hazi Rasid Ali v. State of U.P. and Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3031",
+      "source_basename": "WRIC(A)_4107_2022.pdf",
+      "title": "Rajendra Bahadur Singh v. State of U.P. — PuVVNL demand remitted to clause 6.5",
       "status": "done"
     }
   ]
