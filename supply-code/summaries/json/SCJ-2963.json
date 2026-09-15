@@ -1,0 +1,55 @@
+{
+  "case_id": "SCJ-2963",
+  "title": "Ashish Kumar Verma v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Surya Prakash Kesarwani, J.; Jayant Banerji, J.",
+  "date_of_judgment": "2023-01-27",
+  "date_display": "27 January 2023",
+  "docket": "Writ-C No. 30273 of 2022",
+  "page_count": 1,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; no connection without payment of outstanding dues.",
+  "headnote": "A purchaser under a sale certificate that does not free the premises from the ex-owner's electricity dues cannot obtain mandamus for connection or supply without paying those dues. Clause 4.3(f) of the U.P. Electricity Supply Code, 2005 imposes joint and several liability for outstanding dues. The writ petition was dismissed.",
+  "facts": "The petitioner purchased House/Property No. B-309 SG-I, Major Dhyan Chand Nagar Sports Goods Complex, Scheme, Meerut, under a sale certificate registered on 25 July 2020 with the Sub-Registrar, Sadar-III, Meerut. The certificate freed the property only from List-I encumbrances, not List-II. He sought a writ of mandamus for electricity connection or supply on the premises. On examining the certificate and lists, the Court found that the property had not been freed from the ex-owner's electricity dues. The Bank was respondent no. 2.",
+  "reusable_constructions": [
+    {
+      "construction": "A sale-certificate purchaser whose conveyance does not free the premises from the ex-owner's electricity dues cannot obtain mandamus for a new connection or supply without paying those dues.",
+      "paras": "1"
+    },
+    {
+      "construction": "Clause 4.3(f) of the U.P. Electricity Supply Code, 2005 imposes joint and several liability for outstanding electricity dues on a subsequent purchaser, so connection cannot be directed until those dues are paid.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.3(f)",
+      "code": "UP-2005",
+      "clause": "4.3(f)",
+      "topic": "purchaser liability for predecessor electricity dues",
+      "type": "supply_code",
+      "holding": "Clause 4.3(f) of the U.P. Electricity Supply Code, 2005 provides for joint and several liability for outstanding electricity dues. Where the sale certificate does not free the purchased premises from the ex-owner's electricity dues, no mandamus can issue directing the respondents to provide electricity connection or supply without payment of those dues. The writ petition was dismissed as without merit.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "purchaser-jointly-and-severally-liable-for-previous-owners-dues-clause-4.3f",
+      "application": "The Division Bench applied Clause 4.3(f) joint and several liability to a sale-certificate purchaser whose certificate did not free the premises from the ex-owner's electricity dues, and refused mandamus for connection without payment.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "no-new-connection-while-predecessor-dues-outstanding-clause-4.3f",
+      "application": "Mandamus for electricity connection or supply on the purchased premises was refused while outstanding dues of the ex-owner remained unpaid.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [],
+  "authorities": []
+}
