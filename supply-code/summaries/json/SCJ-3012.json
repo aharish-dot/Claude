@@ -1,0 +1,79 @@
+{
+  "case_id": "SCJ-3012",
+  "title": "Shri Krishna v. State of U.P. — billing dispute remitted to Clause 6.5",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta, J.; Dinesh Pathak, J.",
+  "date_of_judgment": "2023-01-09",
+  "date_display": "9 January 2023",
+  "docket": "WRIT - C No. - 38247 of 2022",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of on the same terms as Ramavtar Singh; remaining bill computation relegated to Clause 6.5, with no coercive measures until a speaking order on any objection.",
+  "headnote": "Where a writ merely disputes the correctness of a domestic electricity bill and the parties accept that the facts match a coordinate-bench order, the High Court will dispose of the petition on the same terms: any remaining computation dispute is to be raised before the Executive Engineer under Clause 6.5 of the U.P. Electricity Supply Code, 2005, and if such an objection is filed, no coercive recovery shall be taken until a reasoned speaking order under intimation to the consumer.",
+  "facts": "Shri Krishna challenged the correctness of a domestic electricity bill for account 781703248125 at Sub-Division EDSD-II Ghiror, District Mainpuri. Counsel agreed the facts matched Writ-C No. 34797 of 2022 (Ramavtar Singh v. State of U.P., 9 December 2022), in which a Consumer Forum had set aside earlier bills and directed fresh average-rate billing without surcharge, the department claimed revision, and any remaining computation dispute was left to the Executive Engineer under Clause 6.5. This petition was treated as similar.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "billing-dispute-alternate-remedy",
+      "type": "supply_code",
+      "holding": "A writ disputing the correctness of an electricity bill, accepted as similar to a coordinate-bench order, is disposed of on the same terms: any remaining computation dispute may be raised before the Executive Engineer under Clause 6.5 of the U.P. Electricity Supply Code, 2005, and if such an objection is filed, no coercive measures shall be taken until the objection is disposed of by a reasoned and speaking order under intimation to the consumer.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-alternate-remedy-to-writ",
+      "application": "The Court did not examine the bill on merits and disposed of the writ on the same terms as Ramavtar Singh, leaving computation to Clause 6.5 rather than writ interference.",
+      "lead_authorities": [
+        {
+          "name": "Ramavtar Singh v. State of U.P. And 2 Others, Writ Petition No. 34797 of 2022 (9 December 2022)",
+          "docid": ""
+        }
+      ],
+      "paras": "1"
+    },
+    {
+      "tag": "clause-6.5-statutory-remedy-disputed-bill",
+      "application": "A live dispute as to correctness or computation of the electricity bill is to be raised before the Executive Engineer under Clause 6.5 of the Supply Code.",
+      "lead_authorities": [
+        {
+          "name": "Ramavtar Singh v. State of U.P. And 2 Others, Writ Petition No. 34797 of 2022 (9 December 2022)",
+          "docid": ""
+        }
+      ],
+      "paras": "1"
+    },
+    {
+      "tag": "billing-objection-to-executive-engineer-under-6.5",
+      "application": "If the consumer files a Clause 6.5 objection to the current computation, no coercive measures are to be taken until that objection is disposed of by a reasoned speaking order under intimation to the consumer.",
+      "lead_authorities": [
+        {
+          "name": "Ramavtar Singh v. State of U.P. And 2 Others, Writ Petition No. 34797 of 2022 (9 December 2022)",
+          "docid": ""
+        }
+      ],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness and computation of the disputed electricity bill",
+      "note": "Left to a Clause 6.5 objection before the Executive Engineer; the Court did not examine the bill on merits.",
+      "paras": "1"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ramavtar Singh v. State of U.P. And 2 Others",
+      "citation": "Writ Petition No. 34797 of 2022, order dated 09.12.2022",
+      "cited_by": "1",
+      "proposition": "On similar facts, a writ challenging electricity-bill computation and recovery was disposed of by relegating any remaining dispute to the Executive Engineer under Clause 6.5, with a direction that no coercive measures be taken until a speaking order on the objection."
+    }
+  ]
+}
