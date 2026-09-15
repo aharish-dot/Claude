@@ -1,0 +1,57 @@
+{
+  "case_id": "SCJ-2433",
+  "title": "Shyam Sunder Goswami v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": [
+    "Abhinava Upadhya, J.",
+    "Shamim Ahmed, J."
+  ],
+  "date_of_judgment": "2020-02-10",
+  "date_display": "10 February 2020",
+  "docket": "Writ - C No. 2237 of 2020",
+  "page_count": 3,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; EE to consider objection in one month; coercive action stayed.",
+  "headnote": "On a challenge that inspection of the premises was not in accordance with Clause 8.1 of the U.P. Electricity Supply Code, 2005, and that a theft-related final assessment had been passed without considering the consumer's pending objection, the Division Bench declined to keep the writ pending. It directed the Executive Engineer to consider the objection within one month and pass an appropriate order in accordance with law, staying coercive action on the demand dated 26.11.2019 for that period. The licensee's assertion that a Section 127 appeal lay against the final assessment was not adopted as the mode of disposal.",
+  "facts": "Shyam Sunder Goswami alleged that inspection of his premises violated Clause 8.1 of the U.P. Electricity Supply Code, 2005. The licensee said he used a domestic connection commercially to run a school, was found in theft, and a final assessment had been made, appealable under Section 127 of the Electricity Act, 2003. It did not dispute non-compliance with Clause 8.1. The petitioner had already objected to the Executive Engineer, but the final order issued without considering that objection. A demand dated 26 November 2019 was in issue.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1",
+      "code": "UP-2005",
+      "clause": "8.1",
+      "topic": "theft inspection and consideration of objection to final assessment",
+      "type": "supply_code",
+      "holding": "Where inspection under Clause 8.1 of the 2005 Code was not disputed to have been non-compliant and a theft-related final assessment had been passed without considering the consumer's objection already filed before the Executive Engineer, the writ was disposed with a direction to that officer to consider the objection within one month and pass an appropriate order in accordance with law, staying coercive action on the demand notice for that period.",
+      "paras": "3"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-8.1b-personal-hearing-mandatory-before-final-assessment",
+      "application": "The Court did not construe Clause 8.1(b) as such, but treated non-consideration of the consumer's pending objection before the Executive Engineer as a reason to send the theft assessment back for consideration in accordance with law rather than deciding the writ on merits or relegating the consumer to a Section 127 appeal.",
+      "lead_authorities": [],
+      "paras": "3"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether non-compliance with Clause 8.1 vitiated the inspection or the assessment",
+      "note": "Licensee did not dispute that inspection was not in accordance with Clause 8.1; the Court did not quash the inspection or the final order on that ground.",
+      "paras": "3"
+    },
+    {
+      "point": "Merits of the theft finding, unauthorized commercial use, and quantum of the 26.11.2019 demand",
+      "paras": "3"
+    },
+    {
+      "point": "Whether a Section 127 appeal was the exclusive or appropriate remedy against the final assessment",
+      "note": "Asserted by the licensee; not directed by the Court.",
+      "paras": "3"
+    }
+  ],
+  "authorities": []
+}
