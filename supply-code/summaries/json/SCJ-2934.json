@@ -1,0 +1,71 @@
+{
+  "case_id": "SCJ-2934",
+  "title": "Rkg Industries Llp v. Uttar Pradesh Power Corporation Limited",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sunita Agarwal, J.; Vipin Chandra Dixit, J.",
+  "date_of_judgment": "2022-09-30",
+  "date_display": "30 September 2022",
+  "docket": "WRIT - C No. - 23940 of 2022",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed. DRT auction purchaser jointly and severally liable for outstanding electricity dues under clause 4.3(f)(i); new connection rightly refused until dues cleared.",
+  "headnote": "An auction purchaser of premises at a DRT sale is jointly and severally liable with the seller for outstanding electricity dues under clause 4.3(f)(i) of the U.P. Electricity Supply Code, 2005. The general-law principle that a transferee is not liable for the previous owner’s or occupier’s dues yields to that statutory co-extensive liability. The licensee may refuse a new connection until the arrears are cleared. Writ dismissed.",
+  "facts": "RKG Industries LLP purchased the property in an auction sale conducted by the Debts Recovery Tribunal, Delhi. Uttar Pradesh Power Corporation Limited sought to recover outstanding electricity dues of the premises from the petitioner as auction purchaser and declined a new connection until those arrears were paid. Invoking the general law that electricity arrears do not constitute a charge on the property and that a transferee is not liable for the previous owner’s or occupier’s dues, the petitioner sought a writ restraining recovery and compelling supply.",
+  "reusable_constructions": [
+    {
+      "construction": "Clause 4.3(f)(i) of the U.P. Electricity Supply Code, 2005 imposes co-extensive, joint and several liability on seller and purchaser for outstanding electricity dues and displaces the general-law rule that a transferee of premises is not liable for the previous owner’s or occupier’s arrears.",
+      "paras": "1"
+    },
+    {
+      "construction": "An auction purchaser at a DRT distress sale is bound by clause 4.3(f): the purchaser is obliged to verify electricity dues and encumbrances and takes the property subject to that liability.",
+      "paras": "1"
+    },
+    {
+      "construction": "The licensee may refuse a new electricity connection to an auction purchaser until outstanding premises dues are cleared.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.3(f)",
+      "code": "UP-2005",
+      "clause": "4.3(f)(i)",
+      "topic": "auction-purchaser-predecessor-dues",
+      "type": "supply_code",
+      "holding": "Clause 4.3(f)(i) of the U.P. Electricity Supply Code, 2005 makes the seller and purchaser of immovable property jointly and severally liable for outstanding electricity dues. The general-law contention that a transferee is not liable for the previous owner’s or occupier’s dues cannot be accepted. An auction purchaser at a DRT sale is obliged to verify dues and encumbrances and purchases the electricity liability with the property. The department may realise those dues from the auction purchaser and may refuse a new connection until the outstanding dues are cleared. The writ petition is dismissed.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "purchaser-jointly-and-severally-liable-for-previous-owners-dues-clause-4.3f",
+      "application": "The Division Bench applied clause 4.3(f)(i) to hold the DRT auction purchaser jointly and severally liable with the seller for outstanding electricity dues of the premises.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "clause-4.3f-co-extensive-liability-not-confined-to-private-sale",
+      "application": "Co-extensive liability under clause 4.3(f) was applied to a purchaser at a DRT Delhi auction (distress sale), not only to a private sale.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "auction-purchaser-bound-by-clause-4.3f-want-of-knowledge-no-defence",
+      "application": "The Court held the auction purchaser was obliged under the sale conditions and clause 4.3(f) to verify dues and encumbrances, and purchased the electricity liability with the property.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "no-new-connection-while-predecessor-dues-outstanding-clause-4.3f",
+      "application": "The Court found no fault in the licensee’s refusal to grant a new connection to the auction purchaser without clearance of outstanding premises dues.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [],
+  "authorities": []
+}
