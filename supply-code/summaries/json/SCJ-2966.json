@@ -1,0 +1,57 @@
+{
+  "case_id": "SCJ-2966",
+  "title": "Lakhan Lal v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sunita Agarwal, J.; Vipin Chandra Dixit, J.",
+  "date_of_judgment": "2022-11-03",
+  "date_display": "3 November 2022",
+  "docket": "WRIT - C No. - 31176 of 2022",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; relegated to clause 6.5; recovery stayed two months.",
+  "headnote": "A writ disputing computation of electricity charges is not decided on merits. The consumer must file an objection under paragraph 6.5 of the U.P. Electricity Supply Code, 2005 before the Executive Engineer, who is to decide all points of objection; the recovery certificate is kept in abeyance for a limited period pending that statutory process.",
+  "facts": "Lakhan Lal and another, consumers of Dakshinanchal Vidyut Vitran Nigam Ltd. at Hamirpur, filed a writ petition in the Allahabad High Court against the State of U.P. and electricity officers including the Executive Engineer. They disputed the computation of electricity charges on their connection and faced a recovery certificate dated 5 August 2022. After hearing both sides, the Court treated the controversy as a billing-computation dispute and did not examine the demand on merits.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "billing-computation dispute remitted to Executive Engineer",
+      "type": "supply_code",
+      "holding": "A dispute as to computation of electricity charges is to be raised by objection under paragraph 6.5 of the Supply Code before the Executive Engineer. The writ was disposed directing the petitioners to file that objection within two weeks; the Executive Engineer must decide all points of objection expeditiously, preferably within four weeks. The recovery certificate dated 5.8.2022 is kept in abeyance for two months or until that decision, whichever is earlier; default in filing the objection leaves the licensee free to proceed in accordance with law.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-alternate-remedy-to-writ",
+      "application": "The Court refused to decide the billing-computation dispute in writ and sent the consumers to the paragraph 6.5 objection before the Executive Engineer.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "clause-6.5-representation-executive-engineer",
+      "application": "The appropriate forum identified is respondent no. 5, the Executive Engineer, Dakshinanchal Vidyut Vitran Nigam Ltd., Hamirpur, under paragraph 6.5.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "clause-6.5-statutory-remedy-disputed-bill",
+      "application": "Paragraph 6.5 is treated as the statutory remedy for a disputed computation of electricity charges; the Executive Engineer must deal with all points of objection, and recovery is only stayed pending that process.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness of the computation of electricity charges and of the recovery certificate dated 5.8.2022",
+      "note": "Merits of the demand were left to the Executive Engineer on a paragraph 6.5 objection.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
