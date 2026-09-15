@@ -1,0 +1,52 @@
+{
+  "case_id": "SCJ-2949",
+  "title": "Mohd Meraz Khan v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Siddhartha Varma, J. and Ajit Singh, J.",
+  "date_of_judgment": "2022-11-10",
+  "date_display": "10 November 2022",
+  "docket": "WRIT - C No. 26547 of 2022",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition dismissed.",
+  "headnote": "A tenant's writ for a fresh electricity connection was dismissed where neither a valid lease deed nor the latest rent receipt had been filed. The electricity department had opposed on outstanding dues of Rs. 12 lakh against the owner under the third proviso of Clause 4.1 of the Electricity Supply Code, 2005, and on the subsequent occupier's duty under Clause 4.3(f) to ascertain dues before occupation.",
+  "facts": "The petitioner, a tenant of the premises, sought a writ for a fresh electricity connection after the landlord failed to provide one. The electricity department opposed, citing outstanding dues of Rs. 12 lakh against the owner and the third proviso of Clause 4.1 of the Electricity Supply Code, 2005. It also invoked Clause 4.3(f), requiring a subsequent occupier to ascertain outstanding dues before occupation, and submitted that even without dues the tenant had to produce a valid lease deed and the latest rent receipt.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.3(f)",
+      "code": "UP Electricity Supply Code, 2005",
+      "clause": "4.3(f)",
+      "topic": "tenant fresh connection — lease deed and rent receipt",
+      "type": "supply_code",
+      "holding": "A tenant's writ for a fresh electricity connection will not be entertained where neither a valid lease deed nor the latest rent receipt has been filed. The Court recorded the licensee's further opposition that outstanding dues of Rs. 12 lakh on the owner barred a connection under the third proviso of Clause 4.1, and that Clause 4.3(f) obliged the subsequent occupier to ascertain outstanding dues before occupation.",
+      "paras": "1",
+      "flag": "Order cites the third proviso of Clause 4.1 as the outstanding-dues bar; the catalog maps that bar to the fourth proviso of 4.1."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-4.1-fourth-proviso-bar-on-new-connection-for-premises-with-outstanding-dues",
+      "application": "The licensee opposed the tenant's writ for a fresh connection on outstanding dues of Rs. 12 lakh against the owner, citing what the order records as the third proviso of Clause 4.1. The Court noted that opposition but dismissed for want of a valid lease deed and the latest rent receipt.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "UP-2005::4.3(f)",
+      "application": "The Court accepted that a tenant seeking a fresh connection must come forward with a valid lease deed and the latest rent receipt, and recorded Clause 4.3(f) as placing a duty on the subsequent occupier to ascertain outstanding dues before occupation. Absence of those documents warranted no interference.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether outstanding dues of Rs. 12 lakh against the owner independently barred a fresh connection to the tenant under the third proviso of Clause 4.1",
+      "note": "The Court recorded the licensee's objection but dismissed for want of a valid lease deed and the latest rent receipt.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
