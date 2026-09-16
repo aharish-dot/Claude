@@ -1,0 +1,77 @@
+{
+  "case_id": "SCJ-3069",
+  "title": "Mahendradeo Barnwal v. State of U.P. and Others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta, J.; Pankaj Bhatia, J.",
+  "date_of_judgment": "2019-05-15",
+  "date_display": "15 May 2019",
+  "docket": "Writ - C No. 69735 of 2009",
+  "page_count": 10,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition allowed; demand dated 01.12.2008 and citation dated 21.12.2009 set aside; no order as to costs.",
+  "headnote": "Where a consumer challenges a theft-of-electricity demand and recovery citation, and it remains unrebutted that the investigating officer in a sections 135/136/138 FIR submitted a final report concluding there was no theft, which attained finality because the licensee filed no protest petition, clause 8.2(x)(h) of the U.P. Electricity Supply Code, 2005 requires the charges and assessment to be withdrawn. Recording that no counter-affidavit had been filed for more than ten years and that the recovery had been issued without a final assessment, the Division Bench set aside the demand dated 1 December 2008 and the citation dated 21 December 2009 and allowed the writ. The Court quoted clause 8.2(x) in full but applied sub-clause (h); it did not separately order restoration through the original meter, and it did not decide whether a police final report is itself a 'decision of the court' within that sub-clause.",
+  "facts": "Mahendradeo Barnwal challenged a recovery certificate issued after an FIR alleging theft of electricity. Case Crime No. 1056 of 2008 was registered against him under sections 135, 136 and 138 of the Electricity Act, 2003 at Police Station Kotwali, District Basti. He said the investigating officer concluded there was no theft and submitted a final report in his favour, which attained finality because the respondent authorities filed no protest petition, and that the recovery had been issued without any final assessment. The instruments under challenge were a demand dated 1 December 2008 and a citation dated 21 December 2009. A Division Bench stayed the recovery on 22 December 2009 and admitted the petition on 25 January 2010. No counter-affidavit was filed for more than ten years. After listing orders in April and May 2019, Shashi Kant Gupta and Pankaj Bhatia, JJ. allowed the writ on 15 May 2019.",
+  "reusable_constructions": [
+    {
+      "construction": "Where a theft-of-electricity FIR ends in a police final report concluding that theft is not established, and that report attains finality because the licensee files no protest petition, clause 8.2(x)(h) of the U.P. Electricity Supply Code, 2005 requires the theft demand and recovery citation to be set aside.",
+      "paras": "order of 15.5.2019"
+    },
+    {
+      "construction": "Unrebutted writ averments of such a final report, after the licensee fails for years to file a counter-affidavit, may be read with clause 8.2(x)(h) to quash the demand and citation.",
+      "paras": "order of 15.5.2019"
+    },
+    {
+      "construction": "A theft recovery issued without a final assessment cannot stand when that allegation remains unrebutted and is read with clause 8.2(x)(h).",
+      "paras": "order of 15.5.2019"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.2(x)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "8.2(x)(h)",
+      "topic": "withdrawal of theft demand and citation after unrebutted police final report of no theft",
+      "type": "supply_code",
+      "question": "Must a theft-of-electricity demand and recovery citation be set aside where it is unrebutted that the investigating officer submitted a final report concluding there was no theft, that report attained finality because the licensee filed no protest petition, and no final assessment was made?",
+      "holding": "Yes. The petitioner's unrebutted case was that Case Crime No. 1056 of 2008 under sections 135, 136 and 138 of the Electricity Act, 2003 ended in a police final report of no theft which attained finality for want of a protest petition, that the recovery certificate issued without a final assessment, and that no counter-affidavit had been filed for more than ten years. Read with clause 8.2(x)(h) of the U.P. Electricity Supply Code, 2005 — if theft is not established, the charges and assessment shall be withdrawn in writing and the connection restored through the original meter — the Court set aside the demand dated 01.12.2008 and the citation dated 21.12.2009 and allowed the writ.",
+      "paras": "order of 15.5.2019",
+      "flag": "Source PDF concatenates listing and stay orders of 22.12.2009, 25.1.2010, 17.4.2019, 24.4.2019 and 8.5.2019; the operative disposal is the unnumbered order of 15.5.2019. Clause 8.2(x)(h) as quoted speaks of a 'decision of the court that theft is not established'; the Court applied it to unrebutted averments of a police final report of no theft that attained finality without a protest petition. Restoration through the original meter, though in the quoted sub-clause, was not separately directed."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-8.2x-acquittal-requires-withdrawal-of-theft-assessment",
+      "application": "Applied clause 8.2(x)(h) to unrebutted averments that a sections 135/136/138 FIR ended in a police final report of no theft which attained finality without protest, and set aside the 01.12.2008 demand and 21.12.2009 citation rather than remitting a representation to the assessing officer.",
+      "lead_authorities": [],
+      "paras": "order of 15.5.2019"
+    },
+    {
+      "tag": "no-demand-or-recovery-before-final-assessment-order",
+      "application": "The unrebutted plea that the recovery certificate issued without a final assessment was accepted as part of the case for setting aside the demand and citation under clause 8.2(x)(h).",
+      "lead_authorities": [],
+      "paras": "order of 15.5.2019"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether a police final report concluding no theft is itself a 'decision of the court' under clause 8.2(x)(h)",
+      "note": "The Court quoted the sub-clause and applied it to unrebutted averments of a final report that attained finality for want of protest, without construing that phrase.",
+      "paras": "order of 15.5.2019"
+    },
+    {
+      "point": "Restoration of the connection through the original meter",
+      "note": "Clause 8.2(x)(h) as quoted also requires restoration; the operative order only set aside the demand and citation.",
+      "paras": "order of 15.5.2019"
+    },
+    {
+      "point": "Merits of the theft allegation independently of the unrebutted final report",
+      "note": "No finding on whether electricity was stolen; the Court proceeded on unrebutted pleadings.",
+      "paras": "order of 15.5.2019"
+    }
+  ],
+  "authorities": []
+}
