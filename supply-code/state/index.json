@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3114,
+  "next_seq": 3115,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -18652,6 +18652,12 @@
       "case_id": "SCJ-3111",
       "source_basename": "WRIC(A)_16618_2012.pdf",
       "title": "M/S Amba Steels (A Unit Of K.K.Steel Products Ltd.) v. State of U.P. And Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3112",
+      "source_basename": "WRIC(A)_16620_2012.pdf",
+      "title": "M/S R.A. Castings (Pvt.) Ltd. v. State of U.P. And Others",
       "status": "done"
     }
   ]

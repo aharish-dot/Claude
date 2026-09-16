@@ -1,0 +1,171 @@
+{
+  "case_id": "SCJ-3112",
+  "title": "M/S R.A. Castings (Pvt.) Ltd. v. State of U.P. And Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Sudhir Agarwal, J.",
+  "date_of_judgment": "2012-04-04",
+  "date_display": "04 April 2012",
+  "docket": "Writ - C No. 16620 of 2012",
+  "page_count": 5,
+  "significance": "significant",
+  "outcome": "split",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition partly allowed; appellate order dated 14.03.2012 set aside and Appeal No. 1 of 2010-11 remanded for a reasoned decision on merits within one month; no costs",
+  "headnote": "An assessment made on an allegation of theft of electricity is referable to Section 126 of the Electricity Act, 2003; it is not an assessment under Section 135, and an appeal under Section 127 therefore lies. Paragraphs 8.1 to 8.3 of the U.P. Electricity Supply Code, 2005 may prescribe the theft-assessment procedure (and paragraph 6.8 the procedure for other unauthorised use), but that does not exclude the statutory appeal. An Appellate Authority misdirects itself by rejecting the appeal on the ground that a theft assessment was made under Section 135 and is therefore not maintainable. Following Chairman, West Bengal State Electricity Board v. Syed Mukbul Hossain, Ashok Kumar, Paliwal Alloys and Paschimanchal Vidyut Vitran Nigam Ltd. v. Appellate Authority, the order dated 14.03.2012 is set aside and the appeal is remanded for a speaking decision on merits within one month. The Court did not decide the correctness of the assessment.",
+  "facts": "M/s R.A. Castings (Pvt.) Ltd. challenged an order dated 14 March 2012 of the Appellate Authority comprising the Commissioner, Saharanpur Division, Saharanpur and the Superintending Engineer, Paschimanchal Vidyut Vitran Nigam Limited, Meerut. That authority had rejected the company's Appeal No. 1 of 2010-11 solely on the ground that the assessment had been made under Section 135 of the Electricity Act, 2003, so no appeal under Section 127 was maintainable. Senior counsel for the distribution company stated that a pure question of law on maintainability of an appeal against a theft assessment had been raised, declined to file a counter-affidavit, and agreed that the writ be heard and decided at that stage. The company contended that the Act provides for assessment only under Section 126, that theft assessment follows paragraphs 8.1 to 8.3 of the U.P. Electricity Supply Code, 2005 (and other unauthorised use, paragraph 6.8), and that in both situations an appeal lies under Section 127.",
+  "reusable_constructions": [
+    {
+      "construction": "An assessment made on an allegation of theft of electricity is referable to Section 126 of the Electricity Act, 2003, not Section 135.",
+      "paras": "6, 9"
+    },
+    {
+      "construction": "Paragraphs 8.1 to 8.3 of the U.P. Electricity Supply Code, 2005 may supply the procedure for a theft assessment, but that does not exclude an appeal under Section 127.",
+      "paras": "9"
+    },
+    {
+      "construction": "An Appellate Authority misdirects itself by rejecting a Section 127 appeal on the ground that a theft assessment was made under Section 135 and is therefore not maintainable.",
+      "paras": "9-10"
+    },
+    {
+      "construction": "The scheme of the 2003 Act does not exclude a Section 126 assessment in theft cases; the third proviso to Section 135(1A) (restoration on deposit of the assessed amount) itself contemplates such an assessment, and the Section 127 appellate authority's power is co-extensive with that of the assessing officer.",
+      "paras": "8-9"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::126",
+      "code": "Electricity Act, 2003",
+      "clause": "126 (assessment on allegation of theft is referable to s.126, not s.135)",
+      "topic": "A theft-based financial assessment is a Section 126 assessment",
+      "type": "electricity_act",
+      "question": "Is an assessment made on an allegation of theft of electricity an assessment under Section 135, or is it referable to Section 126?",
+      "holding": "It is referable to Section 126. The Supreme Court in Chairman, West Bengal State Electricity Board and this Court in Ashok Kumar and Paliwal Alloys have held that assessment on account of theft, though to some extent covered by Section 135, is made under Section 126. The scheme of the 2003 Act, fortified by the third proviso to Section 135(1A), does not exclude a Section 126 assessment in theft cases.",
+      "paras": "6-9"
+    },
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act, 2003",
+      "clause": "127 (appeal against a theft-based assessment)",
+      "topic": "Section 127 appeal lies against a theft assessment; rejection as a Section 135 order is a misdirection",
+      "type": "electricity_act",
+      "question": "May an Appellate Authority reject a Section 127 appeal as not maintainable on the ground that the assessment, being theft-based, was made under Section 135?",
+      "holding": "No. Because the assessment is referable to Section 126, an appeal under Section 127 lies. The Appellate Authority (Commissioner, Saharanpur Division and Superintending Engineer, PVVNL, Meerut) misdirected itself in rejecting Appeal No. 1 of 2010-11 by stating that the assessment was under Section 135 and therefore no appeal lay. The impugned order dated 14.03.2012 is set aside and the appeal is remanded for a reasoned decision on merits within one month after opportunity to all concerned.",
+      "paras": "9-10"
+    },
+    {
+      "provision": "UP-2005::8.1",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "8.1 to 8.3 (theft-assessment procedure; r/w 6.8 for other unauthorised use)",
+      "topic": "Code theft procedure does not oust the Section 127 appeal",
+      "type": "interplay",
+      "question": "Does the applicability of paragraphs 8.1 to 8.3 of the Supply Code, 2005 to a theft assessment exclude the appeal under Section 127?",
+      "holding": "No. Though under the Code, 2005 the procedure prescribed in paragraphs 8.1 to 8.3 may apply in a theft matter (and paragraph 6.8 in other matters), that would not exclude the appeal under Section 127, because the assessment remains referable to Section 126. The appellate authority may decide, on the material, whether the assessment was correctly made on a theft footing under paragraph 8.1 or as unauthorised use under paragraph 6.8.",
+      "paras": "8-9",
+      "flag": "The Court referred to 'Para 8.1 to 8.3'; keyed to Clause 8.1 as the catalog lead. Paragraph 6.8 is discussed only as the counterpart procedure for non-theft unauthorised use."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "theft-assessment-is-under-s126-appealable-s127",
+      "application": "The Appellate Authority's rejection of Appeal No. 1 of 2010-11 on the footing that a theft assessment was a non-appealable Section 135 order was set aside. A theft-based assessment remains a Section 126 assessment appealable under Section 127; Code paragraphs 8.1 to 8.3 supply procedure only.",
+      "lead_authorities": [
+        {
+          "name": "Chairman, West Bengal State Electricity Board & Ors. v. Syed Mukbul Hossain & Ors.",
+          "docid": "759180"
+        },
+        {
+          "name": "Ashok Kumar & Others v. State of U.P. & Others",
+          "docid": "897981"
+        }
+      ],
+      "paras": "6-10"
+    },
+    {
+      "tag": "126-vs-135-distinct-fields-but-126-still-applies-to-theft",
+      "application": "Section 135 does not create a separate assessment excluding Section 126. Assessment on a theft allegation is still made under Section 126, as confirmed by the third proviso to Section 135(1A) and the Division Bench line.",
+      "lead_authorities": [
+        {
+          "name": "M/s Paliwal Alloys (Pvt.) Ltd. v. U.P. Power Corporation Ltd. & Others",
+          "docid": "1777029"
+        },
+        {
+          "name": "Paschimanchal Vidyut Vitran Nigam Ltd. & Others v. The Appellate Authority/Addl. Commissioner & Anr.",
+          "docid": "867948"
+        }
+      ],
+      "paras": "6-9"
+    },
+    {
+      "tag": "clause-8.1-8.2-govern-theft-assessment-not-6.8",
+      "application": "Theft assessment follows paragraphs 8.1 to 8.3 of the Code; other unauthorised use follows paragraph 6.8. Both remain Section 126 assessments, and the appellate authority may decide which footing is correct.",
+      "lead_authorities": [
+        {
+          "name": "Paschimanchal Vidyut Vitran Nigam Ltd. & Others v. The Appellate Authority/Addl. Commissioner & Anr.",
+          "docid": "867948"
+        }
+      ],
+      "paras": "8-9"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness of the theft assessment on merits",
+      "note": "Expressly left to the Appellate Authority on remand, to be decided by a reasoned and speaking order within one month after opportunity to all concerned.",
+      "paras": "10"
+    },
+    {
+      "point": "Whether the facts were theft under paragraphs 8.1 to 8.3 or other unauthorised use under paragraph 6.8",
+      "note": "The Court adopted the proposition that the appellate authority may decide that question; it did not decide it on these facts.",
+      "paras": "8-10"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Chairman, West Bengal State Electricity Board & Ors. v. Syed Mukbul Hossain & Ors.",
+      "citation": "(2009) 2 SCC 727",
+      "court": "Supreme Court",
+      "docid": "759180",
+      "proposition": "In the matter of theft of electrical energy, the assessment is referable to Section 126 and appeal is to be filed under Section 127.",
+      "cited_by": "Petitioner",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Ashok Kumar & Others v. State of U.P. & Others",
+      "citation": "2008 (6) ADJ 660 (DB)",
+      "court": "Allahabad High Court (DB)",
+      "docid": "897981",
+      "proposition": "Assessment on account of theft, though to some extent covered by Section 135, is made under Section 126, and appeal therefore lies under Section 127.",
+      "cited_by": "Petitioner",
+      "treatment": "Followed"
+    },
+    {
+      "name": "M/s Paliwal Alloys (Pvt.) Ltd. v. U.P. Power Corporation Ltd. & Others",
+      "citation": "2009 (7) ADJ 455 (DB)",
+      "court": "Allahabad High Court (DB)",
+      "docid": "1777029",
+      "proposition": "Assessment under Section 126 is also to be made in theft cases, and a person has a right of appeal.",
+      "cited_by": "Petitioner",
+      "treatment": "Followed"
+    },
+    {
+      "name": "M/s Mohit Paper Mills Ltd. & Anr. v. PVVNL & Ors.",
+      "citation": "2011 (9) ADJ 239",
+      "court": "Allahabad High Court",
+      "docid": "57045694",
+      "proposition": "Cited by the petitioner for paragraphs 78, 79 and 80; not separately discussed in the Court's reasoning.",
+      "cited_by": "Petitioner",
+      "treatment": "Referred"
+    },
+    {
+      "name": "Paschimanchal Vidyut Vitran Nigam Ltd. & Others v. The Appellate Authority/Addl. Commissioner & Anr.",
+      "citation": "Civil Misc. Writ Petition No. 4222 of 2009, decided 26.03.2010",
+      "court": "Allahabad High Court",
+      "docid": "867948",
+      "proposition": "The 2003 Act does not exclude a Section 126 assessment in theft cases; Section 135(1A)'s third proviso presupposes such an assessment; the Section 127 appellate authority's power is co-extensive with the assessing authority's and extends to deciding whether the case is theft (paragraph 8.1) or unauthorised use (paragraph 6.8).",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}
