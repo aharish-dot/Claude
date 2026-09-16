@@ -1,0 +1,68 @@
+{
+  "case_id": "SCJ-3067",
+  "title": "Badri Prasad Misra v. State of U.P. & Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Vijay Manohar Sahai, J. & Yogesh Chandra Gupta, J.",
+  "date_of_judgment": "2009-12-03",
+  "date_display": "3 December 2009",
+  "docket": "Writ - C No. 65760 of 2009",
+  "page_count": 4,
+  "significance": "procedural",
+  "outcome": "pending",
+  "model": "Grok 4.6",
+  "disposition": "Time for counter and rejoinder; listed thereafter; recovery of Rs. 34,174 stayed until further orders",
+  "headnote": "A consumer whose domestic supply was temporarily disconnected on 16.3.2001 for unpaid dues of Rs. 7,704 challenged a recovery citation of Rs. 34,174, asking whether the licensee may charge minimum guarantee for about eight years after temporary disconnection or only for six months. He relied on clauses 4.37 and 4.38 of the U.P. Electricity Supply Code, 2005. The Division Bench recorded that the 2005 Code applies on or after 18.2.2005 and that the Electricity Supply (Consumers) Regulations, 1984 govern the earlier period; called for a counter on the date of the agreement, service of a Regulation 17(iii) notice, the effect of a Rs. 15,000 deposit on 31.3.2006, and why the licensee did not permanently disconnect after six months and recover at once; and stayed recovery of Rs. 34,174 until further orders. The six-month versus eight-year minimum-charge question was not decided.",
+  "facts": "Badri Prasad Misra held a domestic connection (no. 016352, sequence 2128) with a sanctioned load of 1 kW from the distribution licensee. Supply was temporarily disconnected on 16 March 2001 because he could not pay a bill of Rs. 7,704. He later deposited Rs. 15,000 with the Power Corporation on 31 March 2006. He challenged a recovery citation demanding Rs. 34,174, contending that after a temporary disconnection the licensee could charge minimum guarantee only for six months, not for about eight years, and relying on clauses 4.37 and 4.38 of the U.P. Electricity Supply Code, 2005. The disconnection predated 18 February 2005, when that Code came into force.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.37",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.37(a) r/w 4.38 (minimum-charge billing after temporary disconnection; permanent disconnection if the cause is not removed within six months)",
+      "topic": "Temporary-disconnection minimum charges — eight years versus six months; interlocutory stay",
+      "type": "supply_code",
+      "question": "When a connection is temporarily disconnected, may the licensee charge minimum guarantee for about eight years, or only for six months from the date of temporary disconnection?",
+      "holding": "The short question was framed but not answered. The petitioner invoked clauses 4.37 and 4.38 of the 2005 Code (minimum-charge billing after temporary disconnection, Annexure 4.9 notice, permanent disconnection after six months, dormant connection and a final account; surcharge on unpaid dues only up to the Section 5 notice or a maximum of eight months). The Court recorded that the 2005 Code applies on or after 18.2.2005 and that the Electricity Supply (Consumers) Regulations, 1984 — Regulation 17(i)–(iii) (two-year agreement; minimum charges on early disconnection; one-month notice and permanent disconnection if reconnection is not taken within six months after the compulsory period) — govern the period before that date. Respondent no. 3 was directed to explain in a counter the date of the agreement, whether a Regulation 17(iii) notice was issued and served, the effect of the Rs. 15,000 deposit of 31.3.2006, why supply was not permanently disconnected six months after 16.3.2001, and why the consumer should bear eight years of minimum charges if recovery was delayed by the licensee's fault. Respondents were given one month for the counter and the petitioner three weeks for a rejoinder; the matter was listed thereafter. Recovery of Rs. 34,174 on the citation (Annexure-4) was stayed until further orders.",
+      "qualifier": "Interlocutory listing and stay; clauses 4.37 and 4.38 and Regulation 17 were quoted, not applied to the demand.",
+      "paras": "1-4",
+      "flag": "Thin interlocutory order. No merits construction of Clauses 4.37/4.38 or of 1984 Regulation 17. Clause 4.37(b) (s.138 action if reconnection after temporary disconnection is unauthorised) was quoted with the clause and not separately applied. The source order is unnumbered; paras track the four narrative blocks (question and listing; facts and Code quotes; temporal application and Regulation 17; queries and stay)."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "procedural-listing-no-construction",
+      "application": "The writ posing whether minimum guarantee after temporary disconnection may run for eight years or only six months was listed after a counter and rejoinder; Clauses 4.37/4.38 and 1984 Regulation 17 were quoted but not construed, and recovery was stayed until further orders.",
+      "lead_authorities": [],
+      "paras": "1, 4"
+    },
+    {
+      "tag": "prima-facie-scrutiny-interim-protection-on-disputed-assessment",
+      "application": "The Court required the licensee to explain why it did not permanently disconnect after six months and recover at once, and why eight years of minimum charges should be levied if the delay was the licensee's, and stayed the Rs. 34,174 citation pending pleadings.",
+      "lead_authorities": [],
+      "paras": "4"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether after temporary disconnection the licensee may charge minimum guarantee for about eight years or only for six months",
+      "note": "Expressly framed as the short question; left for the counter and later hearing.",
+      "paras": "1, 4"
+    },
+    {
+      "point": "Whether Clauses 4.37 and 4.38 of the 2005 Code apply to billing after a 16.3.2001 temporary disconnection",
+      "note": "The Court recorded that the 2005 Code applies on or after 18.2.2005 and the 1984 Regulations before that date, but did not decide the billing consequence.",
+      "paras": "3"
+    },
+    {
+      "point": "Date of the supply agreement, and whether a Regulation 17(iii) notice was issued and served",
+      "note": "Respondent no. 3 directed to file the notice and receipt, if any.",
+      "paras": "4"
+    },
+    {
+      "point": "Effect of the petitioner's deposit of Rs. 15,000 on 31.3.2006, and whether delay in permanent disconnection and recovery was the licensee's fault so as to preclude eight years of minimum charges",
+      "paras": "4"
+    }
+  ],
+  "authorities": []
+}
