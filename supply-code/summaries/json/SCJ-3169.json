@@ -1,0 +1,81 @@
+{
+  "case_id": "SCJ-3169",
+  "title": "M/S Totaram Weldmesh Industries And Another v. Paschimanchal Vidyut Vitran Nigam Limited And Another",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "V.K. Shukla, J. & Mahesh Chandra Tripathi, J.",
+  "date_of_judgment": "2016-11-30",
+  "date_display": "30 November 2016",
+  "docket": "WRIT - C No. - 56723 of 2016",
+  "page_count": 3,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition disposed of; if the petitioners deposit Rs. 6 lacs within a week the electricity connection is to be restored, and the Executive Engineer is then to decide the pending Clause 6.5(b) application preferably within three weeks after hearing",
+  "headnote": "Where a consumer challenges a supplementary demand of Rs. 31,22,771 founded on a check that the main meter's multiplying factor was 40 rather than 20 and that B-phase current was reversed, and has already moved an undecided representation under Clause 6.5(b) of the U.P. Electricity Supply Code, 2005, the writ court will not examine whether the demand violates the Code's defective-meter procedure. Treating Clause 6.5(b) as the statutory forum, the Court disposed of the writ by directing that if the petitioners deposit Rs. 6 lacs within a week the electricity connection is to be restored, after which the Executive Engineer shall consider and decide the pending application expeditiously, preferably within three weeks, after hearing. The Court did not decide the multiplying factor, the B-phase reversal, the quantum of under-billing, or whether the representation lay under Clause 6.5(b) or 6.5(d).",
+  "facts": "M/S Totaram Weldmesh Industries, Ghaziabad, through its proprietor Smt. Neelam Gupta, held an LMV-6 connection of 54 kVA with MRI downloading. An old meter (no. 10405391) and a double-pole meter (no. 10405392) were installed on 19 April 2013, each said to have a CT ratio of 100/5 A (multiplying factor 20). On 22 June 2016 a check found the main meter's multiplying factor to be 40, not 20, and the double-pole meter's CTs damaged. MRI was taken that day. On 25 June 2016 those CTs were replaced at a ratio of 40. A further check on 30 June 2016 alleged B-phase current reversal from a wrongly fixed CT connection; supply was restored the same day.\n\nOn a Junior Engineer (Test) report of under-billing from the wrong multiplying factor and B-phase reversal, the Executive Engineer, Electricity Urban Distribution Division-6, Ghaziabad (Paschimanchal Vidyut Vitran Nigam Limited) raised a demand of Rs. 31,22,771 on 15 July 2016. The petitioners filed a Clause 6.5(b) representation on 28 July 2016, which remained undecided, and petitioned to quash the demand and restrain coercive recovery, including disconnection.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5(b)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.5(b)",
+      "topic": "pending disputed-bill representation — part deposit, restoration, time-bound decision by the Executive Engineer",
+      "type": "supply_code",
+      "question": "Where a supplementary demand is challenged as violating the Code's defective-meter procedure, but a Clause 6.5(b) representation is already pending, should the writ court decide the demand or remit it?",
+      "holding": "The writ court will not decide whether the demand violates the Code's defective-meter billing procedure. As per Clause 6.5(b) of the U.P. Electricity Supply Code, 2005, if the petitioners deposit Rs. 6 lacs within a week the electricity connection is to be restored, and the Executive Engineer is then to consider and decide the pending application expeditiously, preferably within three weeks, after hearing. The writ petition is disposed of with those directions.",
+      "qualifier": "The Court keyed the direction to Clause 6.5(b) but did not apply the Clause 6.5(b)(ii) protest-payment formula (lesser of the claimed sum or six-month average). The Rs. 6 lacs deposit is a case-specific condition against a demand of Rs. 31,22,771.",
+      "paras": "3",
+      "flag": "Source order is unnumbered. Paras are sequential blocks of the 30.11.2016 disposal: (1) parties and relief; (2) connection, checks, 15.7.2016 demand and the 28.7.2016 Clause 6.5(b) representation; (3) arguments and the deposit-restore-decide direction. Counsel first described the 28.7.2016 representation as under Clause 6.5(b) and later as under Clause 6.5(d); the Court keyed the direction to Clause 6.5(b). Petitioner attributed to Clause 6.5 the defective-meter three-month adjustment and sealing procedure; the Court did not adopt that construction. Cause title in the extract spells the licensee 'Pahchimanchal'; the body uses Paschimanchal Vidyut Vitran Nigam Limited."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "6.5-pending-complaint-writ-remitted",
+      "application": "The writ was disposed of by directing the Executive Engineer to decide the pending 28.7.2016 Clause 6.5(b) application preferably within three weeks after hearing, without examining the demand on merits.",
+      "lead_authorities": [],
+      "paras": "3"
+    },
+    {
+      "tag": "clause-6.5-alternate-remedy-to-writ",
+      "application": "The licensee objected that a disputed bill and arrears have an efficacious remedy under Clause 6.5. Confronted with that objection, the Court remitted the already-filed representation instead of deciding whether the 15.7.2016 demand violated the Code.",
+      "lead_authorities": [],
+      "paras": "3"
+    },
+    {
+      "tag": "clause-6.5b-quantification-dispute",
+      "application": "The live dispute was the quantum of under-billing from an alleged wrong multiplying factor and B-phase current reversal. That quantification was left to the Executive Engineer on the pending Clause 6.5(b) representation.",
+      "lead_authorities": [],
+      "paras": "2-3"
+    },
+    {
+      "tag": "restoration-on-part-deposit",
+      "application": "Restoration of the disconnected LMV-6 supply was conditioned on deposit of Rs. 6 lacs within a week, against a demand of Rs. 31,22,771, before the Clause 6.5(b) application was to be decided.",
+      "lead_authorities": [],
+      "paras": "3"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Validity and quantum of the 15.7.2016 demand of Rs. 31,22,771",
+      "note": "Left to the Executive Engineer's decision of the pending Clause 6.5(b) application. The demand was not quashed.",
+      "paras": "3"
+    },
+    {
+      "point": "Whether the main meter's multiplying factor was 20 or 40, whether B-phase current was reversed, and whether those defects caused under-billing",
+      "note": "The 22.6.2016 and 30.6.2016 checks and the Junior Engineer (Test) report were recorded; the Court did not find the facts.",
+      "paras": "2-3"
+    },
+    {
+      "point": "Whether the licensee followed the defective-meter procedure the petitioner attributed to Clause 6.5 (three-month adjustment if the consumer agrees; sealing in the consumer's presence if the consumer disputes)",
+      "note": "Raised as the ground for quashing; not decided once the Court remitted the pending representation.",
+      "paras": "3"
+    },
+    {
+      "point": "Whether the 28.7.2016 representation lay under Clause 6.5(b) or Clause 6.5(d)",
+      "note": "Counsel first cited Clause 6.5(b) and later Clause 6.5(d) for the same application. The Court proceeded under Clause 6.5(b) without resolving the sub-clause.",
+      "paras": "2-3"
+    }
+  ],
+  "authorities": []
+}
