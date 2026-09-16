@@ -1,0 +1,115 @@
+{
+  "case_id": "SCJ-3150",
+  "title": "M/S Prem Steels (Pvt.) Limited v. Paschimanchal Vidyut Vitran Nigam Limited and Another",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J.; Ashwani Kumar Mishra, J.",
+  "date_of_judgment": "2014-08-12",
+  "date_display": "12 August 2014",
+  "docket": "Writ - C No. 41686 of 2014",
+  "page_count": 4,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition dismissed; security and appeal pre-deposit not adjustable during temporary disconnection while assessment remains pending.",
+  "headnote": "Where supply has been only temporarily disconnected for non-payment, the agreement still subsists and the consumer is not entitled to adjustment of the security deposit towards outstanding energy charges. Adjustment of security can be made only after permanent disconnection. Permanent disconnection, on the Court's reading of clause 4.38 of the U.P. Electricity Supply Code, 2005, follows if the consumer applies for it or if six months expire without the cause of the temporary disconnection being removed; until then the consumer remains liable to minimum charges under clause 4.37. A sum deposited as a pre-condition of an appeal against a final assessment likewise cannot be adjusted towards arrears while the remanded assessment is still pending, for that would render the appeal incompetent for want of pre-deposit. Prem Steels' writ seeking to quash a 9.7.2014 demand and 15.7.2014 bill, and to have security and the appeal deposit adjusted, was dismissed as misconceived.",
+  "facts": "M/s Prem Steels (Pvt.) Limited, a manufacturer of mild steel ingots with a 2500 KVA connection from Paschimanchal Vidyut Vitran Nigam Limited, had supply disconnected on 7 June 2014 for unpaid dues of Rs.1,15,04,385. A demand notice dated 9 July 2014 required payment of Rs.1,07,28,938 within 30 days, else recovery as arrears of land revenue. The company challenged that notice and the bill of 15 July 2014. It did not dispute the demand, but sought adjustment of Rs.70,33,800 held as security and of Rs.58,00,775 deposited as 50% of a final assessment in order to appeal.\n\nThat assessment followed a 19 March 2010 inspection and meter replacement. The appeal was allowed on 9 April 2013 and remanded to the Executive Engineer, where it remained pending. An earlier writ (Writ-C No. 33912 of 2013) had been disposed of on 20 June 2013 on the licensee's statement that documents would be supplied and officers produced for cross-examination. Invoking clause 4.38 of the U.P. Electricity Supply Code, 2005, the petitioner said reconnection was not in prospect, so both amounts should be adjusted.",
+  "reusable_constructions": [
+    {
+      "construction": "Security cannot be adjusted towards outstanding energy charges while the connection is only temporarily disconnected and the supply agreement still subsists; adjustment is available only after permanent disconnection.",
+      "paras": "8, 10"
+    },
+    {
+      "construction": "Permanent disconnection — and with it the right to have security adjusted against arrears — does not follow from a temporary disconnection for non-payment unless the consumer applies for permanent disconnection or six months expire without the cause of the temporary disconnection being removed.",
+      "paras": "8, 10"
+    },
+    {
+      "construction": "During a temporary disconnection for the consumer's default, the consumer remains liable to be billed for minimum charges under clause 4.37 of the U.P. Electricity Supply Code, 2005.",
+      "paras": "8"
+    },
+    {
+      "construction": "A sum deposited as a pre-condition of an appeal against an assessment cannot be adjusted towards outstanding arrears while the assessment remains pending after remand; such adjustment would render the appeal incompetent for want of pre-deposit.",
+      "paras": "9"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.38",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.38",
+      "topic": "security not adjustable on temporary disconnection; permanent disconnection requires application or six months without removing the cause",
+      "type": "supply_code",
+      "question": "Where supply has been temporarily disconnected for non-payment, can the consumer compel adjustment of the security deposit towards arrears by treating the case as one of permanent disconnection under clause 4.38?",
+      "holding": "No. The connection was only temporarily disconnected for non-payment of energy charges. The agreement still subsists and is not terminated. Until the agreement is terminated and a permanent disconnection is made, the consumer remains bound by the contract and there is no occasion to adjust the security deposit. Adjustment can be made only after permanent disconnection. Permanent disconnection follows if the consumer applies for it, or automatically after six months if the cause of the temporary disconnection is not removed. The petitioner had neither applied nor waited out that period, and had camouflaged a temporary disconnection as a permanent one. The claim to adjust security towards arrears was misconceived, and the writ was dismissed.",
+      "qualifier": "Supply had been disconnected on 7.6.2014; the writ was decided on 12.8.2014, well before six months, and the petitioner had not applied for permanent disconnection.",
+      "paras": "7-12"
+    },
+    {
+      "provision": "UP-2005::4.37",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.37",
+      "topic": "minimum charges continue during temporary disconnection",
+      "type": "supply_code",
+      "question": "Does a consumer whose supply is only temporarily disconnected remain liable for minimum charges?",
+      "holding": "Yes. Until the agreement is terminated and a permanent disconnection is made, the consumer continues to be under a liability for being billed for minimum charges as per clause 4.37 of the U.P. Electricity Supply Code, 2005.",
+      "paras": "8"
+    },
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act, 2003",
+      "clause": "127 (appeal pre-deposit — section not cited)",
+      "topic": "appeal pre-deposit not adjustable towards arrears while the remanded assessment is pending",
+      "type": "electricity_act",
+      "question": "Can an amount deposited as a pre-condition of an appeal against a final assessment be adjusted towards outstanding energy arrears while the assessment, after remand, remains pending?",
+      "holding": "No. The sum was deposited as a pre-condition for filing the appeal. The appellate authority had allowed the appeal and remanded the assessment, which was still pending. Unless a final decision is taken in those proceedings, the pre-deposit is not liable to be adjusted towards outstanding arrears. Even otherwise, if it were so adjusted, the appeal itself would become incompetent for want of pre-deposit.",
+      "paras": "9",
+      "flag": "The Court did not cite Section 127 or any Code appeal clause. It described a 50% deposit made as a pre-condition of an appeal against a final assessment, later remanded to the Executive Engineer and still pending. Keyed to s.127 as the statutory assessment appeal; s.127(2) requires a one-third deposit, whereas the judgment recites 50%."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "security-refund-and-dues-adjustment-on-finalisation-of-permanent-disconnection",
+      "application": "The industrial consumer sought adjustment of security towards arrears after a temporary disconnection for non-payment, invoking clause 4.38 on the footing that reconnection was not in prospect. The Court held that security can be adjusted only after permanent disconnection, which had not occurred.",
+      "lead_authorities": [],
+      "paras": "7-8, 10"
+    },
+    {
+      "tag": "permanent-disconnection-procedure-governed-by-clause-4.38",
+      "application": "Clause 4.38 was held to yield permanent disconnection only on the consumer's application or after six months if the cause of the temporary disconnection is not removed. A writ filed about two months after the 7.6.2014 temporary disconnection, without such an application, could not treat the line as permanently disconnected.",
+      "lead_authorities": [],
+      "paras": "8, 10"
+    },
+    {
+      "tag": "clause-4.37-4.38-licensee-empowered-to-permanently-disconnect",
+      "application": "The Court treated unremedied temporary disconnection as entailing permanent disconnection after six months under the 4.37/4.38 scheme, and refused to let the consumer anticipate that step in order to have security adjusted.",
+      "lead_authorities": [],
+      "paras": "8, 10"
+    },
+    {
+      "tag": "minimum-charges-continue-until-permanent-disconnection",
+      "application": "Because the 2500 KVA industrial connection remained only temporarily disconnected, the Court held the consumer still liable to minimum charges under clause 4.37.",
+      "lead_authorities": [],
+      "paras": "8"
+    },
+    {
+      "tag": "appeal-pre-deposit-not-adjustable-while-assessment-pending",
+      "application": "Rs.58,00,775 deposited as 50% to maintain an assessment appeal, which had been allowed and remanded and was still pending, was held not adjustable towards the 2014 energy arrears; adjustment would make the appeal incompetent.",
+      "lead_authorities": [],
+      "paras": "9"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Quantum and correctness of the 9.7.2014 demand and 15.7.2014 bill",
+      "note": "The petitioner did not dispute the demand and sought only adjustment of security and the appeal deposit. The Court refused that adjustment and dismissed the writ without examining the billed figures.",
+      "paras": "4, 11-12"
+    },
+    {
+      "point": "Merits of the remanded assessment following the 9.4.2013 appellate order",
+      "note": "Recorded as still pending before the Executive Engineer; not decided.",
+      "paras": "5-6, 9"
+    }
+  ],
+  "authorities": []
+}
