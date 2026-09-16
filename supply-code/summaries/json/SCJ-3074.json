@@ -1,0 +1,77 @@
+{
+  "case_id": "SCJ-3074",
+  "title": "Sanjaya Kumar Verma v. State of U.P. and Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sunil Ambwani, J. & Kashi Nath Pandey, J.",
+  "date_of_judgment": "2010-09-08",
+  "date_display": "8 September 2010",
+  "docket": "Writ - C No. 51085 of 2010",
+  "page_count": 5,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; recovery on the 6.6.2010 citation and 22.7.2009 assessment of Rs.64,112 to remain in abeyance until a final assessment is made",
+  "headnote": "Where an FIR of theft of electricity under Section 135 of the Electricity Act is followed by a provisional assessment, Clause 8.1(b) of the U.P. Electricity Supply Code, 2005 requires a final assessment before recovery can be initiated. That final assessment is necessary even if the consumer has filed no objection, and it must record findings that the provisional assessment was served. Recovering the amount without a final assessment is violative of the procedure prescribed under the Code. A Division Bench allowed the writ and directed that recovery on the citation dated 6.6.2010 and the assessment dated 22.7.2009 of Rs.64,112 remain in abeyance until a final assessment is made. The Court did not decide whether a reply had in fact been filed, or the merits of the theft booking.",
+  "facts": "Sanjaya Kumar Verma challenged recovery of alleged theft-of-electricity dues. An FIR under Section 135 of the Electricity Act had been lodged against him. A provisional assessment dated 22 July 2009 assessed Rs.64,086.95. He said he filed a reply; without deciding that reply, recovery was started on a citation dated 6 June 2010 for Rs.64,112. Counsel for the distribution licensee accepted notice, said the provisional assessment had been made under paragraph 8.1 of the U.P. Electricity Supply Code, 2005, that no objections were filed, and that the provisional figure was sent for recovery. He fairly admitted that no final assessment had been made, while asserting that the provisional assessment was served and that the petitioner had had sufficient opportunity to reply in writing or to be heard in person.",
+  "reusable_constructions": [
+    {
+      "construction": "A licensee cannot recover a theft-of-electricity demand on a provisional assessment; Clause 8.1(b) of the U.P. Electricity Supply Code, 2005 requires a final assessment before recovery can be initiated.",
+      "paras": "6"
+    },
+    {
+      "construction": "Final assessment under Clause 8.1(b) is mandatory even where the consumer files no objections, and must record findings that the provisional assessment was served upon the consumer.",
+      "paras": "6"
+    },
+    {
+      "construction": "Insistence on recovering a theft assessment without making a final assessment is violative of the procedure prescribed under the U.P. Electricity Supply Code, 2005; recovery remains in abeyance until that final assessment is made.",
+      "paras": "6-7"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1(b)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "8.1(b) (theft — final assessment before recovery, even if no objection is filed)",
+      "topic": "No recovery of a theft assessment without a speaking final assessment",
+      "type": "supply_code",
+      "question": "May a licensee recover a theft-of-electricity demand on a provisional assessment where no final assessment has been made, on the footing that the consumer filed no objections?",
+      "holding": "No. Clause 8.1(b) of the U.P. Electricity Supply Code, 2005 requires a final assessment in theft cases before recovery can be initiated. That final assessment is necessary even if no objection has been filed, and must record findings that the provisional assessment was served upon the consumer. Recovering the amount without a final assessment is violative of the procedure prescribed under the Code. Recovery in pursuance of the citation dated 6.6.2010 and the assessment dated 22.7.2009 of Rs.64,112 of electricity dues on account of theft shall remain in abeyance until a final assessment is made.",
+      "paras": "3, 5-7",
+      "flag": "Paras are those of the unnumbered 8.9.2010 order (Sunil Ambwani and Kashi Nath Pandey, JJ.). Earlier sheets of 25.8.2010 and 6.9.2010 (R.K. Agrawal and Rajesh Chandra, JJ.) only adjourned for instructions. The cause title is Sanjaya Kumar Verma on the disposing sheet and Sanjay Kumar Verma on 6.9.2010. Provisional assessment is stated as Rs.64,086.95; the operative stay is of Rs.64,112. The Court quoted Clause 8.1(b)(ii)–(v) but decided only the need for a final assessment before recovery."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "no-recovery-without-final-assessment-clause-8.1(b)",
+      "application": "Counsel admitted that no final assessment had been made after a 22.7.2009 provisional theft assessment; recovery on the 6.6.2010 citation of Rs.64,112 was stayed as contrary to Clause 8.1(b), even if no objection had been filed.",
+      "lead_authorities": [],
+      "paras": "5-7"
+    },
+    {
+      "tag": "coercive-recovery-stayed-pending-final-assessment",
+      "application": "The writ was allowed with a direction that recovery on the citation dated 6.6.2010 and the assessment dated 22.7.2009 remain in abeyance until a final assessment is made against the petitioner.",
+      "lead_authorities": [],
+      "paras": "7"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner in fact filed a reply or objections to the provisional assessment",
+      "note": "The petitioner asserted a reply was filed; licensee's counsel said no objections were filed. Final assessment is required either way.",
+      "paras": "2, 4, 6"
+    },
+    {
+      "point": "Merits of the Section 135 theft allegation and the quantum of Rs.64,086.95 / Rs.64,112",
+      "note": "Recovery stayed until final assessment; theft and amount were not decided.",
+      "paras": "2, 7"
+    },
+    {
+      "point": "Whether a personal hearing was in fact given on the provisional assessment",
+      "note": "Licensee's counsel asserted sufficient opportunity to reply in writing or to be heard; the Court did not resolve that assertion.",
+      "paras": "5"
+    }
+  ],
+  "authorities": []
+}
