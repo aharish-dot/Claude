@@ -1,0 +1,79 @@
+{
+  "case_id": "SCJ-3151",
+  "title": "Pradeep Singh v. State of U.P. & 3 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J. & Ashwani Kumar Mishra, J.",
+  "date_of_judgment": "2014-08-26",
+  "date_display": "26 August 2014",
+  "docket": "Writ - C No. 44456 of 2014",
+  "page_count": 9,
+  "significance": "procedural",
+  "outcome": "pending",
+  "model": "Grok 4.6",
+  "disposition": "Stay of coercive action on demand; writ remains pending",
+  "headnote": "Where a connection was disconnected on 26.7.2005, no bills were raised thereafter, and a demand notice of Rs. 5,57,525 was later issued, the consumer contended that Section 56(2) of the Electricity Act, 2003 and Clause 6.15 of the U.P. Electricity Supply Code, 2005 barred the corporation from initiating recovery more than two years after the amount became due. A Division Bench found prima facie force in that submission, held that the matter required scrutiny, called for a counter affidavit, and directed that until further orders no coercive action be taken on the impugned demand. Subsequent order-sheets through 11.8.2025 are listings, adjournments, an extension of the interim, and further time for pleadings; the writ remains pending and the two-year bar is not decided.",
+  "facts": "Pradeep Singh challenged a demand notice of Rs. 5,57,525 before the Allahabad High Court. He contended that his electricity connection had been disconnected on 26 July 2005, that no bills were raised thereafter, and that the corporation had sprung the demand years later. Counsel invoked Section 56(2) of the Electricity Act, 2003 and Clause 6.15 of the U.P. Electricity Supply Code, 2005, submitting that recovery could not be initiated more than two years after the amount became due.\n\nOn 26 August 2014 Krishna Murari and Ashwani Kumar Mishra, JJ. found prima facie force in that submission, allowed four weeks for a counter affidavit, and stayed coercive action on the demand until further orders. The writ then passed through listing, pass-over, and illness-slip orders; on 16 March 2023 the interim was extended while the petitioner was given time to place subsequent events on record. The last order on the source, dated 11 August 2025, extended time for the counter and listed the matter for 13 October 2025.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.15",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.15 (two-year bar on initiating recovery after the amount became due)",
+      "topic": "Prima facie stay of a post-disconnection demand invoked under Clause 6.15; writ pending",
+      "type": "supply_code",
+      "question": "Where a connection was disconnected on 26.7.2005 and no bills were raised thereafter, may the licensee issue a later demand of Rs. 5,57,525, or does Clause 6.15 bar recovery more than two years after the amount became due?",
+      "holding": "Not decided. The Court found prima facie force in the submission that Clause 6.15 barred the corporation from initiating proceedings more than two years after the amount became due, held that the matter required scrutiny, called for a counter affidavit, and directed that until further orders no coercive action be taken on the impugned demand notice. Later listings through 11.8.2025 left the demand and the two-year bar unadjudicated.",
+      "qualifier": "Prima facie and interlocutory (26.8.2014, Krishna Murari, J. and Ashwani Kumar Mishra, J.).",
+      "paras": "1",
+      "flag": "Unnumbered order-sheet of nine listings treated as paras 1–9: 26.8.2014 (interim stay), 14.10.2014, 29.10.2014, 1.12.2014, 16.3.2023 (interim extended; supplementary affidavit of subsequent events), 27.4.2023, 22.5.2023, 13.10.2023, 11.8.2025 (counter time extended; listed 13.10.2025). The order cites clause 6.15, not 6.15(b); 6.15(b) is the two-year arrears bar the argument tracks. Catalog hits clause-6.15-two-year-bar-mandatory-licensee-duty-to-act, clause-6.15-two-year-limitation-relegated-to-authority, fresh-bill-distinguished-from-supplementary-bill-for-s56(2) and s56(2)-bar-does-not-apply-to-continuing-regular-bills are false positives — the bar was not applied, the consumer was not relegated, and the demand was not characterised as a continuing regular bill or a supplementary bill."
+    },
+    {
+      "provision": "EA2003::56(2)",
+      "code": "Electricity Act, 2003",
+      "clause": "56(2) (no sum due from any consumer recoverable after two years from when it first became due, unless shown continuously as recoverable)",
+      "topic": "Section 56(2) invoked with Clause 6.15; not finally construed",
+      "type": "electricity_act",
+      "holding": "The petitioner submitted that Section 56(2) likewise barred initiation of recovery more than two years after the amount became due. The Court recorded that submission with Clause 6.15, found prima facie force, and stayed coercive action. It did not construe Section 56(2).",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "two-year-limitation-recovery-of-arrears-clause-6.15b",
+      "application": "Prima facie, a demand notice issued years after a 26.7.2005 disconnection with no intervening bills was stayed because Section 56(2) and Clause 6.15 were said to bar recovery more than two years after the amount became due; the bar was not decided.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "prima-facie-scrutiny-interim-protection-on-disputed-assessment",
+      "application": "The Court found prima facie force in the two-year bar submission, held that the matter required scrutiny, and directed that no coercive action be taken on the demand notice until further orders.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "procedural-listing-no-construction",
+      "application": "After the 26.8.2014 stay, the source comprises listing, pass-over, illness-slip, and pleading-time orders through 11.8.2025; the writ remains pending without a construction of Clause 6.15 or Section 56(2).",
+      "lead_authorities": [],
+      "paras": "2-9"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether Section 56(2) of the Electricity Act, 2003 and Clause 6.15 of the Supply Code, 2005 bar the demand of Rs. 5,57,525 after the 26.7.2005 disconnection",
+      "note": "The 26.8.2014 view was expressly prima facie; later listings left the bar unadjudicated.",
+      "paras": "1"
+    },
+    {
+      "point": "Validity and quantum of the demand notice of Rs. 5,57,525",
+      "note": "Not reached; coercive action stayed pending a counter.",
+      "paras": "1"
+    },
+    {
+      "point": "Subsequent events after the 2014 demand",
+      "note": "On 16.3.2023 the petitioner was granted time to file a supplementary affidavit bringing subsequent events on record; the source does not record those events.",
+      "paras": "5"
+    }
+  ],
+  "authorities": []
+}
