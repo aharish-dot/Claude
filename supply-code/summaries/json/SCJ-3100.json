@@ -1,0 +1,74 @@
+{
+  "case_id": "SCJ-3100",
+  "title": "Gaurav v. U.P. Power Corporation Ltd. And Another",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Sunil Ambwani, J.; Aditya Nath Mittal, J.",
+  "date_of_judgment": "2012-05-28",
+  "date_display": "28 May 2012",
+  "docket": "WRIT - C No. - 25812 of 2011",
+  "page_count": 8,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition dismissed on the alternative remedy of a Section 127 appeal against the Section 126(3) final assessment; any appeal to be decided expeditiously on merits.",
+  "headnote": "A consumer who challenges a final assessment under section 126(3) of the Electricity Act, 2003 — including on the ground that the inspection and checking report violated the U.P. Electricity Supply Code, 2005 and that the first notice was not served — has a statutory appeal under section 127. Where a second notice was served, a reply considered, the provisional assessment finalised, and a further representation decided by the Executive Engineer, the writ petition is dismissed on that alternative remedy. A pending section 135 charge-sheet does not alter that course. If an appeal is filed, it is to be decided expeditiously on merits.",
+  "facts": "Gaurav petitioned the Allahabad High Court against U.P. Power Corporation Ltd. and another, challenging an electricity assessment and the recovery citation dated 23 February 2011. He alleged that the inspection was in complete violation of the U.P. Electricity Supply Code, 2005, that no checking report was prepared or signed by him, that the assessment was made without opportunity, and that the notice dated 23 November 2010 was not served because he was in jail. A police charge-sheet under section 135 of the Electricity Act, 2003 had been submitted. The Executive Engineer, by order dated 23 February 2011, found that the petitioner had been drawing electricity unauthorisedly for a 10 HP motor by connecting a cable to a 63 kVA transformer; the cable and starter were sealed and the petitioner ran away from the spot. While the writ was pending, recovery under the 23 February 2011 citation was stayed until the final hearing.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act, 2003",
+      "clause": "127",
+      "topic": "writ against s.126(3) final assessment — alternative remedy of appeal",
+      "type": "electricity_act",
+      "holding": "A consumer challenging a final assessment under section 126(3) of the Electricity Act, 2003 has a right of appeal under section 127. Where a second notice was served, the consumer's reply was considered, the provisional assessment was made final on 23.12.2010, and a further representation was decided by the Executive Engineer on 23.2.2011, the writ court will not decide the assessment or the alleged Supply Code inspection defects; the writ petition is dismissed on the alternative remedy of that appeal. If an appeal is filed, it is to be decided expeditiously on merits.",
+      "paras": "1",
+      "flag": "Operative unnumbered order dated 28.5.2012 (earlier pages are listing orders). The Court referred to a section 135 charge-sheet under the 'Indian Electricity Act, 2003' (Electricity Act, 2003). The petitioner invoked inspection/checking-report procedure under the U.P. Electricity Supply Code, 2005 without a clause number; the Court identified none."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternative-remedy-s127-appeal-bars-writ-against-s126-assessment",
+      "application": "The writ against the section 126(3) assessment and 23.2.2011 recovery citation was dismissed because an appeal under section 127 lay against that final assessment.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "final-assessment-order-relegates-assessee-to-section-127-appeal",
+      "application": "The Court treated the 23.12.2010 finalisation of the provisional assessment, as considered again by the Executive Engineer on 23.2.2011, as a section 126(3) final assessment and left the consumer to the statutory appeal.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "theft-assessment-is-under-s126-appealable-s127",
+      "application": "A section 135 charge-sheet having been submitted for theft, the civil demand was still treated as a section 126(3) final assessment appealable under section 127.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "relegation-to-section-127-appeal-on-merits-limitation-not-examined",
+      "application": "The Court directed that if an appeal is filed it be decided expeditiously on merits, without examining limitation.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the inspection and checking report violated the U.P. Electricity Supply Code, 2005",
+      "note": "Petitioner alleged the inspection was in complete violation of the Code and that the checking report was not prepared or signed by him. The Court recorded that a second notice was served and a reply considered, then dismissed the writ on the section 127 alternative remedy without construing any Code clause.",
+      "paras": "1"
+    },
+    {
+      "point": "Validity and quantum of the section 126(3) assessment",
+      "note": "Left to a section 127 appeal, to be decided expeditiously on merits if filed.",
+      "paras": "1"
+    },
+    {
+      "point": "The section 135 criminal case and charge-sheet",
+      "note": "Mentioned as pending; not examined in the writ.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
