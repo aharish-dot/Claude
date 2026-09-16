@@ -1,0 +1,73 @@
+{
+  "case_id": "SCJ-3115",
+  "title": "Om Prakash Agrawal v. Kanpur Electricity Supply Co. Ltd. And Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sunil Ambwani, J.; Aditya Nath Mittal, J.",
+  "date_of_judgment": "2012-05-09",
+  "date_display": "9 May 2012",
+  "docket": "Writ - C No. 17944 of 2012",
+  "page_count": 7,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition dismissed; industrial consumer remains liable for minimum charges until he opts for permanent disconnection after depositing the entire dues.",
+  "headnote": "An industrial consumer billed under the statutory LMV-6 rate schedule remains liable for minimum charges until the connection is permanently disconnected. Paragraph 4.37 of the U.P. Electricity Supply Code, 2005 does not convert a temporary disconnection into a permanent disconnection after six months at the instance of a consumer who still wants restoration. Permanent disconnection can be made only after he deposits the entire dues determined against him. Where he confined a Commission appeal to non-compliance of a CGRF billing direction, and the licensee reported compliance, the writ court will not reopen those bills or restore supply without payment. The writ was dismissed; KESCO had not acted contrary to the Electricity Act, 2003 or the Supply Code, 2005.",
+  "facts": "Om Prakash Agrawal held a 26 HP LMV-6 industrial connection from Kanpur Electricity Supply Company Ltd. Supply was disconnected on 3 November 2008, restored briefly for MRI inspection, and disconnected again on 3 December 2009. He did not apply for permanent disconnection. KESCO continued minimum-charge bills and issued a recovery certificate for Rs 5,11,531.\n\nThe Electricity Consumer Redressal Forum, Kanpur (Case No. 5 of 2010) by award dated 16 June 2010, after an inspection recording three-phase supply at 248 volts, directed bills to be corrected on meter reading and minimum charge from 15 May 2008. He appealed to the U.P. Electricity Regulatory Commission only on non-compliance; on 8 July 2011 the Commission closed the matter after KESCO's counsel stated the award had been complied with. In the writ he sought restoration of three-phase supply and billing on actual consumption, invoking paragraph 4.37 of the U.P. Electricity Supply Code, 2005 for permanent disconnection six months after the temporary disconnection.",
+  "reusable_constructions": [
+    {
+      "construction": "An industrial consumer remains liable under the statutory rate schedule for minimum charges until the connection is permanently disconnected.",
+      "paras": "7, 10"
+    },
+    {
+      "construction": "Paragraph 4.37 of the U.P. Electricity Supply Code, 2005 does not convert a temporary disconnection into a permanent disconnection after six months at the instance of a consumer who still wants the supply restored.",
+      "paras": "5-7, 10"
+    },
+    {
+      "construction": "Permanent disconnection can be made only after the consumer deposits the entire dues determined against him.",
+      "paras": "10"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.37",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.37",
+      "topic": "minimum charges continue until permanent disconnection; 4.37 does not auto-PD after six months where the consumer still wants restoration",
+      "type": "supply_code",
+      "question": "Does paragraph 4.37 of the U.P. Electricity Supply Code, 2005 convert a temporary disconnection into a permanent disconnection after six months so as to stop minimum charges, where the industrial consumer still wants restoration and has not opted for permanent disconnection?",
+      "holding": "No. A 26 HP LMV-6 industrial consumer is liable for minimum charges under the statutory rate schedule, because the licensee must keep that contracted capacity available. Those charges continue until the connection is permanently disconnected. The petitioner had not opted for permanent disconnection and still sought restoration of three-phase supply and billing on actual consumption. Paragraph 4.37 therefore did not treat the line as permanently disconnected after six months of temporary disconnection. Permanent disconnection can be made only after depositing the entire dues determined against him. He had not pressed to quash the CGRF award of 16.6.2010 before the Commission, and the bills were prepared in accordance with that award. KESCO had not acted contrary to the Electricity Act, 2003 or the Supply Code, 2005. The writ petition was dismissed.",
+      "qualifier": "The petitioner had not opted for permanent disconnection and still sought restoration of the 26 HP LMV-6 industrial supply.",
+      "paras": "5-11",
+      "flag": "The 9.5.2012 disposal is numbered paras 1-11. Earlier pages are listing orders of 10.4.2012, 17.4.2012 and 1.5.2012. Petitioner invoked 'paragraph 4.37'; the Court did not quote the clause or cite Clause 4.38. The Court referred to the 'Indian Electricity Act, 2003' (Electricity Act, 2003)."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-4.37-4.38-licensee-empowered-to-permanently-disconnect",
+      "application": "The petitioner invoked paragraph 4.37 to treat the temporary disconnection as a permanent disconnection after six months. The Court held he had not opted for permanent disconnection, still wanted restoration, and could obtain permanent disconnection only after depositing the entire dues.",
+      "lead_authorities": [],
+      "paras": "5-7, 10"
+    },
+    {
+      "tag": "minimum-charges-continue-until-permanent-disconnection",
+      "application": "On a 26 HP LMV-6 industrial connection, the Court held the consumer liable for statutory minimum charges until permanent disconnection, and dismissed the writ seeking restoration and billing on actual consumption.",
+      "lead_authorities": [],
+      "paras": "7, 10"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Independent finding on whether three-phase supply was deficient after the CGRF inspection of 23.12.2008",
+      "note": "The petitioner still alleged want of three-phase supply. The Forum had recorded three-phase supply at 248 volts on 23.12.2008. The Court did not re-try that fact and proceeded on the CGRF award and its reported compliance.",
+      "paras": "3, 5-8"
+    },
+    {
+      "point": "Item-wise correctness of the Rs 5,11,531 recovery beyond the conclusion that the bills followed the CGRF directions",
+      "note": "The 17.4.2012 listing had called for a breakup. The final order recorded that the counter affidavit explained the bills and found no error under the Act or the Code, without adjudicating each line item.",
+      "paras": "9-10"
+    }
+  ],
+  "authorities": []
+}
