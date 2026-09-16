@@ -1,0 +1,88 @@
+{
+  "case_id": "SCJ-3134",
+  "title": "M/S Panem Castings Pvt. Ltd. v. U.P. Power Corporation Ltd. And Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Pankaj Kumar Jaiswal, J. & Dr. Yogendra Kumar Srivastava, J.",
+  "date_of_judgment": "2019-02-15",
+  "date_display": "15 February 2019",
+  "docket": "Writ - C No. 62109 of 2012",
+  "page_count": 4,
+  "significance": "procedural",
+  "outcome": "none",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition dismissed for want of prosecution",
+  "headnote": "M/s Panem Castings Pvt. Ltd. challenged a bill applying U.P. Power Corporation Ltd.'s New Tariff for 2012-13 from 1 October 2012, though the tariff was published in the newspaper on 23 October 2012. It did not dispute the U.P. Electricity Regulatory Commission's determination; it said Clause 3.8(a) of the U.P. Electricity Supply Code, 2005, section 24(7) of the U.P. Electricity Reforms Act, 1999 and Regulation 139(2) of the UPERC (Conduct of Business) Regulations, 2004 allow a tariff to take effect only seven days after publication, so the New Tariff could operate from 31 October 2012 and not from 1 October 2012. On 30 November 2012 the Division Bench held that the matter required consideration, issued notice, and directed that supply would not be disconnected on the impugned bill if, from 1 November 2012, bills were paid at the New Tariff, October 2012 was paid at the prior tariff, pre-October amounts in that bill were paid, and a bank guarantee covered the October difference, all without prejudice, with surcharge and interest recoverable if the writ failed. On 15 February 2019 none appeared for the petitioner even in the revised call. The writ was dismissed for want of prosecution. The Court did not decide whether the New Tariff could be given retrospective effect.",
+  "facts": "M/s Panem Castings Pvt. Ltd. challenged an electricity bill of U.P. Power Corporation Ltd. applying the New Tariff for 2012-13 from 1 October 2012. Counsel said UPPCL published that tariff in the newspaper on 23 October 2012 (public notice, Annexure-3) yet gave it retrospective effect from 1 October 2012. The company did not dispute the tariff as determined by the U.P. Electricity Regulatory Commission; it objected only to retrospective operation. It invoked Clause 3.8(a) of the U.P. Electricity Supply Code, 2005, section 24(7) of the U.P. Electricity Reforms Act, 1999, and Regulation 139(2) of the UPERC (Conduct of Business) Regulations, 2004 — each providing that a published tariff takes effect only seven days after publication, so the New Tariff could operate from 31 October 2012 — and section 62(6) of the Electricity Act, 2003 as a bar on recovering a tariff in excess of that determined under section 62. On 30 November 2012 notice issued and disconnection was stayed on payment and bank-guarantee conditions. On 15 February 2019 none appeared even in the revised call.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::3.8",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "3.8(a) (tariff takes effect only after seven days from publication)",
+      "topic": "Interim stay of disconnection where a published tariff is given effect from a date before the seven-day publication window; writ later dismissed for want of prosecution",
+      "type": "supply_code",
+      "question": "Where a Commission-determined tariff is published on 23 October 2012, may the licensee apply it from 1 October 2012, or does Clause 3.8(a) confine its effect to seven days after publication?",
+      "holding": "Not decided on merits. The Court recorded the submission that publication on 23.10.2012 meant the New Tariff could take effect only on 31.10.2012, held that the matter required consideration, issued notice, and as interim relief directed that supply would not be disconnected on the impugned bill if: (i) from 1.11.2012 the petitioner paid at the New Tariff; (ii) for October 2012 it paid at the prior tariff by 10.12.2012; (iii) any pre-October amount in the bill was paid by that date; and (iv) the October difference was covered by a bank guarantee by that date, without prejudice. Default would vacate the stay automatically; if the writ were dismissed or the stay vacated, surcharge, interest and other late-payment charges would be recoverable from the guarantee and otherwise. The writ was later dismissed for want of prosecution without construing Clause 3.8.",
+      "qualifier": "Prima facie and interlocutory (30.11.2012, Satya Poot Mehrotra, J. and Het Singh Yadav, J.); the petition was dismissed for want of prosecution on 15.2.2019 (Pankaj Kumar Jaiswal, J. and Dr. Yogendra Kumar Srivastava, J.).",
+      "paras": "order of 30.11.2012",
+      "flag": "Two unnumbered order-sheets. Regulation 139(2) of the UPERC (Conduct of Business) Regulations, 2004 was invoked for the same seven-day rule and is not a catalog key. Catalog hits EA1999(UP)::24-tariff-fact-forum, s135-1A-24-hour-FIR-is-mandatory, OFFTOPIC::s62-6-interest-generation-tariff, s62-6-interest-generation-tariff and s62-6-interest-only-for-overcharging-not-delayed-rebate are false positives. The 15.2.2019 order dismisses for want of prosecution and does not separately recite vacation of the interim."
+    },
+    {
+      "provision": "EA1999(UP)::24",
+      "code": "U.P. Electricity Reforms Act, 1999",
+      "clause": "24(7) (tariff comes into force after seven days from the last date of publication)",
+      "topic": "Section 24(7) seven-day publication rule invoked with Clause 3.8(a); not finally construed",
+      "type": "interplay",
+      "holding": "The petitioner submitted that Section 24(7) required the New Tariff to come into force only after seven days from the last date of publication (23.10.2012), so it could not be given retrospective effect from 1.10.2012. The Court recorded the submission, held that the matter required consideration, and moulded interim billing accordingly. It did not finally construe Section 24(7).",
+      "paras": "order of 30.11.2012"
+    },
+    {
+      "provision": "OFFTOPIC::dismissal-for-want-of-prosecution",
+      "code": "OFFTOPIC",
+      "clause": "dismissal-for-want-of-prosecution",
+      "topic": "Writ dismissed for want of prosecution when none appeared to press it",
+      "type": "interplay",
+      "holding": "On 15.2.2019 the case was called in the revised list, none appeared for the petitioner, and the writ was dismissed for want of prosecution, without a final ruling on the retrospective-tariff bill. The 30.11.2012 order had already provided that dismissal of the writ would make the petitioner liable for surcharge, interest and other late-payment charges, recoverable from the bank guarantee and otherwise.",
+      "paras": "order of 15.2.2019"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "tariff-no-retrospective-effect",
+      "application": "Prima facie, and only as an interim billing arrangement, a tariff published on 23.10.2012 was not applied from 1.10.2012: the petitioner was to pay at the new rate from 1.11.2012 and at the prior rate for October, with a bank guarantee for the October difference. Clause 3.8(a) and Section 24(7) were not finally construed.",
+      "lead_authorities": [],
+      "paras": "order of 30.11.2012"
+    },
+    {
+      "tag": "prima-facie-scrutiny-interim-protection-on-disputed-assessment",
+      "application": "Disconnection on the impugned bill was stayed pending notice, subject to payment of the New Tariff from 1.11.2012, payment at the prior tariff for October 2012 and of pre-October amounts by 10.12.2012, and a bank guarantee for the October difference, without prejudice and self-vacating on default.",
+      "lead_authorities": [],
+      "paras": "order of 30.11.2012"
+    },
+    {
+      "tag": "writ-petition-dismissed-for-want-of-prosecution-on-non-appearance",
+      "application": "The case was called in the revised list on 15.2.2019; no one appeared for the petitioner to press the writ, which was accordingly dismissed for want of prosecution without a merits decision on the New Tariff's effective date.",
+      "lead_authorities": [],
+      "paras": "order of 15.2.2019"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the New Tariff for 2012-13, published on 23.10.2012, could lawfully be given effect from 1.10.2012, or only from 31.10.2012 under Clause 3.8(a), Section 24(7) and Regulation 139(2)",
+      "note": "The 30.11.2012 order said only that the matter required consideration and granted a conditional stay; dismissal for want of prosecution left retrospective effect unadjudicated.",
+      "paras": "order of 30.11.2012, order of 15.2.2019"
+    },
+    {
+      "point": "Construction of Clause 3.8(a) of the U.P. Electricity Supply Code, 2005, section 24(7) of the U.P. Electricity Reforms Act, 1999, and Regulation 139(2) of the UPERC (Conduct of Business) Regulations, 2004",
+      "note": "Invoked for the seven-day publication rule; not construed.",
+      "paras": "order of 30.11.2012"
+    },
+    {
+      "point": "Whether section 62(6) of the Electricity Act, 2003 barred recovery of the New Tariff for October 2012",
+      "note": "Cited as a bar on recovering tariff in excess of that determined under section 62; not examined. Catalog interest-on-s.62(6) tags do not apply.",
+      "paras": "order of 30.11.2012"
+    }
+  ],
+  "authorities": []
+}
