@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3137,
+  "next_seq": 3138,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -18790,6 +18790,12 @@
       "case_id": "SCJ-3134",
       "source_basename": "WRIC(A)_62109_2012.pdf",
       "title": "M/S Panem Castings Pvt. Ltd. v. U.P. Power Corporation Ltd. And Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3135",
+      "source_basename": "WRIC(A)_62234_2012.pdf",
+      "title": "Ajeet Kumar v. State of U.P. & Others",
       "status": "done"
     }
   ]
