@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3155,
+  "next_seq": 3156,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -18898,6 +18898,12 @@
       "case_id": "SCJ-3153",
       "source_basename": "WRIC(A)_7223_2014.pdf",
       "title": "M/S Wadilal Industries Ltd. v. Madhyanchal Vidyut Vitran Nigam Ltd. & 2 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3152",
+      "source_basename": "WRIC(A)_47315_2014.pdf",
+      "title": "Ramesh Chandra v. U.P. Power Corporation Ltd. Thru' Chairman & 2 Others",
       "status": "done"
     }
   ]

@@ -1,0 +1,93 @@
+{
+  "case_id": "SCJ-3152",
+  "title": "Ramesh Chandra v. U.P. Power Corporation Ltd. Thru' Chairman & 2 Others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta, J.; Prashant Kumar, J.",
+  "date_of_judgment": "2023-03-16",
+  "date_display": "16 March 2023",
+  "docket": "Writ - C No. - 47315 of 2014",
+  "page_count": 10,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; demand notice dated 27.02.2013 quashed; Annexure 4.8 permanent-disconnection order to issue within two weeks; no further payment to be insisted upon",
+  "headnote": "Where a connection is physically disconnected (Form-9 recording removal of the cable) and the licensee never issues a Clause 4.14 final bill of arrears or the Annexure 4.8 permanent-disconnection order, a demand raised years later cannot stand. Clause 4.14 of the U.P. Electricity Supply Code, 2005 requires the licensee to deliver a final bill including all arrears up to disconnection within 30 days of the consumer's application terminating the agreement; payment of the stamped final bill is a no-dues certificate. Section 56(2) of the Electricity Act, 2003 bars recovery after two years from when the sum first became due unless it has been shown continuously as recoverable as arrears of charges. A ledger entry, without any bill issued to the consumer, does not support that recovery. The licensee having conceded that no bill for the ledger arrears was ever issued, that the 27.02.2013 demand was issued by inadvertence, and that it would issue the permanent-disconnection order and not insist on further payment, the writ court quashed the demand and directed issuance of the Annexure 4.8 order within two weeks.",
+  "facts": "Ramesh Chandra, a consumer of U.P. Power Corporation Ltd. on connection No. 1301/034717 (Book No. 1301), petitioned the Allahabad High Court to quash a demand notice dated 27 February 2013. His case was that the connection had been recommended for permanent disconnection from 12 April 2006 on Form-9, which recorded that the electric cable was removed the same day, so no supply was given thereafter, but the licensee never issued the permanent-disconnection order in Form 4.8 of the U.P. Electricity Supply Code, 2005. After seven years the impugned demand was raised for what he called a fanciful amount. Recovery was stayed by interim order from 22 September 2014. In the counter-affidavit the licensee said its ledger showed Rs.52,504 outstanding on the date of disconnection and that the demand notice had been issued by inadvertence and sheer mistake.",
+  "reusable_constructions": [
+    {
+      "construction": "On termination of the supply agreement, Clause 4.14 requires the licensee to deliver a final bill of all arrears up to disconnection within 30 days; payment of that stamped final bill is treated as a no-dues certificate.",
+      "paras": "8-10"
+    },
+    {
+      "construction": "A demand issued years after physical disconnection, without any arrears bill having been served on the consumer, is not a lawful recovery and is liable to be quashed.",
+      "paras": "10, 13"
+    },
+    {
+      "construction": "Section 56(2) of the Electricity Act, 2003 bars recovery of a sum more than two years after it first became due unless that sum has been shown continuously as recoverable as arrears of charges; a ledger entry, without any bill issued to the consumer, does not satisfy that exception.",
+      "paras": "11-12"
+    },
+    {
+      "construction": "Where the connection has been physically disconnected but the Annexure 4.8 permanent-disconnection order was never issued, the writ court may quash a later demand and direct the licensee to issue that order and not to insist on further payment.",
+      "paras": "4, 12-13"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.14(g)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.14",
+      "topic": "final bill of arrears within 30 days of termination; Annexure 4.8 permanent-disconnection order",
+      "type": "supply_code",
+      "question": "Where the connection was physically disconnected years earlier and no Clause 4.14 final bill of arrears or Annexure 4.8 permanent-disconnection order was issued, may the licensee recover a later demand founded only on a ledger entry?",
+      "holding": "No. Clause 4.14 requires the licensee to deliver a final bill including all arrears up to the date of disconnection within 30 days of the consumer's application terminating the agreement; upon payment, the stamped final-bill receipt is a no-dues certificate. Form-9 recorded cable removal on 12.04.2006, so no supply was given thereafter, but no Form 4.8 / Annexure 4.8 permanent-disconnection order and no arrears bill were issued. The 27.02.2013 demand, raised after seven years and admitted to have been issued by inadvertence, was quashed. The licensee was directed to issue the Annexure 4.8 order within two weeks and not to insist on further payment. The writ was allowed.",
+      "paras": "8-10, 12-14",
+      "flag": "Source PDF concatenates listing orders of 4.9.2014, 22.9.2014, 8.10.2014, 28.10.2014, 12.11.2014, 4.12.2014, 1.2.2023 and 22.2.2023 with this 16.3.2023 disposal. The 16.3.2023 order is unnumbered; paras 1-14 are sequential blocks of that disposal from 'Rejoinder affidavit filed today'. Court cited 'Clause 4.14', not 4.14(g); keyed to catalog UP-2005::4.14(g) because the recitation (final bill of arrears within 30 days of the termination application; stamped receipt as no-dues) is the 4.14(g) text. Form 4.8 / Annexure 4.8 is the permanent-disconnection order form, not Clause 4.8 (catalog UP-2005::4.8 is a different provision). Coram is the disposing bench of 16.3.2023 (Manoj Kumar Gupta and Prashant Kumar, JJ.); earlier listings were before other Division Benches. An interim stay of coercive steps was granted on 22.9.2014 and continued."
+    },
+    {
+      "provision": "EA2003::56(2)",
+      "code": "Electricity Act, 2003",
+      "clause": "56(2)",
+      "topic": "two-year bar; ledger entry without an issued bill is not continuously shown arrears",
+      "type": "electricity_act",
+      "question": "Does a ledger entry of outstanding dues, without any bill issued to the consumer, keep a sum continuously shown as recoverable as arrears so as to escape the section 56(2) two-year bar?",
+      "holding": "No. Section 56(2) provides that no sum due from a consumer shall be recoverable after two years from the date when it first became due unless it has been shown continuously as recoverable as arrears of charges for electricity supply. Counsel for the licensee fairly conceded that no bill demanding the ledger figure of Rs.52,504 was ever issued, and that the counter-affidavit's stand rested on a ledger entry. Having regard to that statement, the Court quashed the demand.",
+      "paras": "11-13",
+      "flag": "The Court recited section 56(2) and the concession together; it did not cite Clause 6.15. The two-year clock was treated as running from the 12.04.2006 disconnection."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-4.14g-paid-final-bill-bars-further-demand",
+      "application": "Clause 4.14's duty to issue a final bill of arrears within 30 days of termination was not performed; no stamped no-dues receipt could arise. The later demand was quashed and the Annexure 4.8 permanent-disconnection order directed. Same 4.14(g) cluster as SCJ-328 (paid PD final bill bars further demand); here the bill was never issued.",
+      "lead_authorities": [],
+      "paras": "8-10, 13"
+    },
+    {
+      "tag": "recovery-time-barred-two-years-after-permanent-disconnection",
+      "application": "Physical disconnection and cable removal were on 12.04.2006; the demand of 27.02.2013 was more than two years later. Section 56(2) was applied, and a ledger entry without any issued bill was held not to keep the sum continuously shown as arrears.",
+      "lead_authorities": [],
+      "paras": "11-13"
+    },
+    {
+      "tag": "recovery-citation-conceded-incorrect-billing",
+      "application": "The licensee admitted that the 27.02.2013 demand was issued by inadvertence and sheer mistake, that no bill for the ledger arrears was ever issued, and that it would issue the permanent-disconnection order and not insist on further payment. The demand was quashed on that concession together with Clauses 4.14 and section 56(2).",
+      "lead_authorities": [],
+      "paras": "7, 10, 12-13"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the consumer had given a Clause 4.14 termination application, or whether Form-9 permanent disconnection was licensee-initiated",
+      "note": "The Court applied Clause 4.14's 30-day final-bill duty (which the Code ties to a consumer application terminating the agreement) to a Form-9 recommendation and cable removal dated 12.04.2006, without finding that a consumer notice in Annexure 4.7 had been given.",
+      "paras": "3-4, 8"
+    },
+    {
+      "point": "Correctness or computation of the Rs.52,504 ledger figure",
+      "note": "The licensee said the demand was issued by inadvertence; the Court quashed it without examining how the ledger amount was arrived at.",
+      "paras": "7, 10, 12-13"
+    }
+  ],
+  "authorities": []
+}
