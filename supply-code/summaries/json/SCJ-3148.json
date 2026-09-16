@@ -1,0 +1,106 @@
+{
+  "case_id": "SCJ-3148",
+  "title": "M/s Torrent Power Ltd. v. State of U.P. & 3 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Sudhir Agarwal, J.",
+  "date_of_judgment": "2014-07-24",
+  "date_display": "24 July 2014",
+  "docket": "Writ - C No. 37906 of 2014",
+  "page_count": 6,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition dismissed with costs of Rs. 25,000; Permanent Lok Adalat award directing refund of illegally realised excess demand charges left undisturbed",
+  "headnote": "A supplier that has accepted a Supply Code application to enhance contracted load, collected additional security, system loading and service line charges, installed a new meter and altered the metering cubicle (CT/PT and multiplier) for the enhanced load cannot thereafter levy excess demand charges on the footing that Electrical Safety Clearance from the Director, Electrical Safety, was not obtained and that contracted load therefore remained at the old figure. Obtaining that clearance before releasing enhanced load is the supplier's responsibility; the consumer who completed the Code formalities cannot be saddled with extra liability for the supplier's failure to coordinate with the Electrical Safety Department. The existence of a District Level Grievance Redressal Forum does not oust a Permanent Lok Adalat from a complaint of illegal realisation of electrical dues: where more than one remedy is available, the consumer may choose the forum it finds more effective. The licensee's writ challenging such an award was dismissed as lacking merit and bona fide, with costs.",
+  "facts": "M/s Torrent Power Ltd. challenged the 21 April 2014 award of the Permanent Lok Adalat, Agra, in Case No. 97 of 2013. The consumer, M/s B.S. Agricultural Institute Industries of Nawalganj, Agra (SC No. 18100), held a 200 KVA industrial connection for manufacture of diesel engines, pumping sets and generating sets. On 23 July 2010 it applied under the Electricity Supply Code, 2005 to raise load by 300 KVA to 500 KVA, deposited processing fee, additional security of Rs. 1,66,900, system loading charges of Rs. 3,00,000 and service line charges of Rs. 5,97,458, and a sealing certificate dated 20 February 2011 recorded installation of a meter on the extended load.\n\nTorrent nonetheless billed excess demand charges from January 2011 for load beyond 200 KVA, realising Rs. 15,56,580 for 1 April 2011 to 1 January 2012 and Rs. 19,51,280 by 1 March 2013. The Permanent Lok Adalat held that realisation illegal and directed refund within 45 days, failing which with interest at 6%. Torrent's only defence was that Electrical Safety Clearance from the Director, Electrical Safety, had not been obtained, so the consumer was not entitled to raise load beyond 200 KVA.",
+  "reusable_constructions": [
+    {
+      "construction": "A supplier that has accepted a Supply Code application to enhance contracted load, collected additional security, system loading and service line charges, and installed or altered metering for the enhanced load cannot thereafter levy excess demand charges on the footing that contracted load remained at the pre-enhancement figure because Electrical Safety Clearance was not obtained.",
+      "paras": "4-6"
+    },
+    {
+      "construction": "The duty to obtain Electrical Safety Clearance from the Director, Electrical Safety, before releasing enhanced load is the electricity supplier's; a consumer who completed the Code formalities cannot be saddled with extra liability for the supplier's failure to coordinate with that department.",
+      "paras": "4-5"
+    },
+    {
+      "construction": "Where more than one remedy is available to a consumer, including a District Level Grievance Redressal Forum and a Permanent Lok Adalat, the consumer may choose the forum it finds more effective; there is no statutory bar ousting a Permanent Lok Adalat from a complaint of illegal realisation of electrical dues.",
+      "paras": "6"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::increase-decrease-load",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "increase / enhancement of contracted load (Code procedure; no numbered clause cited)",
+      "topic": "Excess demand charges cannot be levied after the supplier has itself released enhanced load",
+      "type": "supply_code",
+      "question": "May a supplier levy excess demand charges for load beyond the old contracted figure after it has collected enhancement charges, installed a new meter and altered the metering cubicle for the enhanced load, on the ground that Electrical Safety Clearance was not obtained?",
+      "holding": "No. The consumer applied under the Electricity Supply Code, 2005 to raise load from 200 KVA to 500 KVA, deposited processing fee, additional security, system loading and service line charges, and the supplier issued a sealing certificate installing a meter on the extended load and replaced the metering cubicle (CT changed; multiplier from three to six). The Permanent Lok Adalat found that obtaining Electrical Safety Clearance before issuing increased load was the supplier's duty, and that if there was any fault it was the supplier's. Counsel for the petitioner could not show any fault on the consumer's part so as to attract excess demand charge. The consumer could not be saddled with extra liability for the supplier's lapse in coordinating with the Electrical Safety Department. The writ challenging the refund award was dismissed.",
+      "paras": "3-6, 8",
+      "flag": "The Court cited the Electricity Supply Code, 2005 for the load-enhancement application but did not number a clause. Keyed to the catalog increase-decrease-load entry. The supplier's 9.9.2010 letter (quoted via the Permanent Lok Adalat) treated electrical safety clearance as mandatory before issuing increased load; the Court held that duty was the supplier's."
+    },
+    {
+      "provision": "LSAA1987::22-C",
+      "code": "Legal Services Authorities Act, 1987",
+      "clause": "22-C (Permanent Lok Adalat — public-utility dispute; concurrent with CGRF)",
+      "topic": "CGRF does not oust a Permanent Lok Adalat; the consumer may choose among concurrent remedies",
+      "type": "interplay",
+      "question": "Is a consumer's complaint of illegal realisation of electrical dues before a Permanent Lok Adalat barred because a District Level Grievance Redressal Forum was also available?",
+      "holding": "No. Counsel for the petitioner submitted that the consumer's remedy was before the District Level Grievance Redressal Forum, but could not dispute that if more than one remedy is available before different forums it is the consumer's option to avail such remedy as it finds more effective and appropriate. There is no statutory bar ousting the Permanent Lok Adalat from entertaining a complaint of illegal realisation of electrical dues, so the award did not lack jurisdiction.",
+      "paras": "6",
+      "flag": "The Court did not cite the Legal Services Authorities Act or a numbered CGRF / Clause 7.10 / Section 42(5) provision. It referred to the District Level Grievance Redressal Forum. Keyed to LSAA1987::22-C as the catalog PLA-jurisdiction provision."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "licensee-cannot-levy-excess-demand-after-releasing-enhanced-load",
+      "application": "After collecting enhancement charges and altering metering for 500 KVA, Torrent billed excess demand as if contracted load remained 200 KVA for want of Electrical Safety Clearance; the Court held the consumer could not be charged for that lapse.",
+      "lead_authorities": [],
+      "paras": "4-6"
+    },
+    {
+      "tag": "own-wrong-maxim",
+      "application": "Obtaining Electrical Safety Clearance before releasing enhanced load was the supplier's duty; the consumer who completed the Code formalities could not be saddled with extra liability for the supplier's own failure to coordinate with the Electrical Safety Department.",
+      "lead_authorities": [],
+      "paras": "4-5"
+    },
+    {
+      "tag": "approbate-and-reprobate-bars-selective-repudiation",
+      "application": "The supplier took additional security, line and system loading charges, issued a fresh sealing certificate and changed the CT/multiplier, representing that demand would follow the revised agreement, then billed excess demand as if the enhancement had not been released.",
+      "lead_authorities": [],
+      "paras": "4-7"
+    },
+    {
+      "tag": "permanent-lok-adalat-jurisdiction-over-public-utility-electricity-grievance",
+      "application": "Availability of a District Level Grievance Redressal Forum did not oust the Permanent Lok Adalat; where more than one remedy exists, the consumer may choose, and there is no statutory bar on a complaint of illegal realisation of electrical dues.",
+      "lead_authorities": [],
+      "paras": "6"
+    },
+    {
+      "tag": "state-instrumentality-frivolous-litigation-costs",
+      "application": "Having taken enhancement charges and then billed the consumer for a lapse that was the supplier's, Torrent's writ after the consumer succeeded before the Permanent Lok Adalat was held to lack bona fide and was dismissed with costs of Rs. 25,000.",
+      "lead_authorities": [],
+      "paras": "7-8"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether an Electrical Safety Clearance Certificate was in fact issued",
+      "note": "The Court proceeded on the supplier's case that clearance had not been obtained, and held that obtaining it was the supplier's duty.",
+      "paras": "4-6"
+    },
+    {
+      "point": "The numbered Supply Code clause governing load enhancement and excess demand charges",
+      "note": "The order refers to the Electricity Supply Code, 2005 procedure for increasing load but does not identify a clause number.",
+      "paras": "3"
+    },
+    {
+      "point": "Independent recomputation of the Rs. 19,51,280 refund",
+      "note": "Counsel could not show consumer fault attracting excess demand charge; the Permanent Lok Adalat's quantum and 6% default interest were left standing.",
+      "paras": "2, 6, 8"
+    }
+  ],
+  "authorities": []
+}
