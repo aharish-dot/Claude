@@ -1,0 +1,94 @@
+{
+  "case_id": "SCJ-3137",
+  "title": "Anand Kumar Gupta v. State of U.P. and Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Laxmi Kanta Mohapatra, J.; Rakesh Srivastava, J.",
+  "date_of_judgment": "2013-07-02",
+  "date_display": "2 July 2013",
+  "docket": "Writ - C No. - 16566 of 2013",
+  "page_count": 4,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of; the new connection already released under the 21.3.2013 interim mandamus is confirmed, with the observation that it will not be taken as evidence of the petitioner's possession in the pending civil suit; personal appearance of the officer dispensed with",
+  "headnote": "A pending family property dispute — here a brother's suit to cancel a sister's will and sale of the house — is not a ground to refuse a new electricity connection to an occupier who has complied with the licensee's conditions and deposited the amount required. An undertaking from the applicant that satisfies the licensee as to occupation is sufficient under the U.P. Electricity Supply Code, 2005. After an interim mandamus the connection was released. On final disposal the Court held that a connection given by its order will not be taken as evidence of the occupier's possession in the pending civil suit, and dispensed with the officer's personal appearance. The Court did not decide the title suit or the purchaser's impleadment.",
+  "facts": "Anand Kumar Gupta petitioned the Allahabad High Court after his electricity connection was disconnected, and a new connection refused, on the ground of a property dispute with his sister, Seema Gupta. He alleged that she had sold the house on a will to Trilok Verma on 20 June 2007, and that Suit No. 385 of 2008 (Anand Kumar v. Km. Seema) for cancellation of the will and sale deed was pending before the Civil Judge (Senior Division), Allahabad. He had completed the licensee's formalities and deposited the entire amount required for a new connection. On 21 March 2013 a Division Bench issued an interim mandamus to provide the connection within 15 days or show cause. On 30 May 2013, neither a counter-affidavit nor the connection having been furnished, respondent no. 3 was directed to appear in person to answer a possible contempt. By 2 July 2013 the connection had been released. The purchaser sought impleadment, fearing the connection would be used as evidence of possession in the civil suit.",
+  "reusable_constructions": [
+    {
+      "construction": "A pending family property dispute is not a ground to refuse a new electricity connection to an occupier who complies with the licensee's conditions and deposits the amount required.",
+      "paras": "3, 11"
+    },
+    {
+      "construction": "An undertaking from the applicant that satisfies the licensee as to occupation is sufficient under the U.P. Electricity Supply Code, 2005, to support a new connection amid a title dispute.",
+      "paras": "3"
+    },
+    {
+      "construction": "An electricity connection released pursuant to a High Court order is not a piece of evidence of the applicant's possession in a pending civil title suit.",
+      "paras": "14-15"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.4",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.4",
+      "topic": "occupier connection on an occupation undertaking amid a family title dispute",
+      "type": "supply_code",
+      "question": "May a licensee refuse a new electricity connection to an occupier because of a pending sibling property dispute (a suit to cancel a will and sale deed)?",
+      "holding": "No, where the occupier has complied with the licensee's conditions and deposited the amount required for a new connection. A dispute between brother and sister is not a ground to refuse supply to the occupant of a house. An undertaking from the applicant that satisfies the department as to occupation is to be treated as sufficient under the U.P. Electricity Supply Code, 2005. On 21.3.2013 the Court directed the respondents to provide the new connection within 15 days or show cause. The connection was thereafter released.",
+      "qualifier": "The 21.3.2013 construction was expressed as a prima facie view; the 2.7.2013 bench recited it and left it undisturbed after the connection had been released.",
+      "paras": "3, 6, 11-13",
+      "flag": "Source PDF concatenates three unnumbered Division Bench orders: 21.3.2013 (Sunil Ambwani and Bharat Bhushan, JJ. — occupancy-undertaking construction and interim mandamus), 30.5.2013 (Prakash Krishna and Manoj Kumar Gupta, JJ. — listing with a personal-appearance direction), and this 2.7.2013 disposal. Paras are sequential blocks of the concatenated extract. The Court cited only 'the U.P. Electricity Supply Code, 2005' without a clause number and spoke of an occupation 'undertaking', not an indemnity bond or Annexure 4.2; keyed to Clause 4.4 as the occupancy-connection provision. Coram is the disposing bench of 2.7.2013."
+    },
+    {
+      "provision": "UP-2005::4.4",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.4",
+      "topic": "court-ordered connection is not evidence of possession in a pending title suit",
+      "type": "interplay",
+      "question": "Does a new connection released under a High Court order constitute evidence of the applicant's possession in a pending civil title suit?",
+      "holding": "No. The purchaser of the house, seeking impleadment, apprehended that if a new connection were given the petitioner would plead possession of part of the house in Suit No. 385 of 2008. The Court found no justification in that apprehension: the connection having been given by its order, it will not be taken as a piece of evidence in support of the claim of possession. The writ was disposed of on that observation and the officer's personal appearance was dispensed with.",
+      "paras": "14-16"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "new-connection-title-dispute-indemnity",
+      "application": "A pending suit between siblings to cancel a will and sale deed was held no ground to refuse a new connection to an occupier who had completed formalities and deposited the required amount. An occupation undertaking under the Supply Code, 2005 was treated as sufficient, and the connection was directed and later released.",
+      "lead_authorities": [],
+      "paras": "3, 6, 11-13"
+    },
+    {
+      "tag": "no-insistence-on-title-documents-for-occupier-connection",
+      "application": "The Court did not require the occupier to establish title. An undertaking that satisfied the department as to occupation was treated as sufficient under the Supply Code, 2005.",
+      "lead_authorities": [],
+      "paras": "3"
+    },
+    {
+      "tag": "court-ordered-connection-not-evidence-of-possession",
+      "application": "On the purchaser's apprehension that the new connection would be used to plead possession in the pending civil suit, the Court held that a connection given by its order will not be taken as a piece of evidence in support of the occupier's claim of possession.",
+      "lead_authorities": [],
+      "paras": "14-15"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits of Suit No. 385 of 2008 (Anand Kumar v. Km. Seema) for cancellation of the will and sale deed",
+      "note": "Left to the Civil Judge (Senior Division), Allahabad. The writ court did not decide title.",
+      "paras": "2, 10, 15"
+    },
+    {
+      "point": "Whether the petitioner or the purchaser (Trilok Verma) was in possession of the house",
+      "note": "The Court declined to let the court-ordered connection serve as evidence of possession; it did not itself find who occupied the premises.",
+      "paras": "14-15"
+    },
+    {
+      "point": "The purchaser's application to be impleaded as respondent no. 4, and contempt for non-compliance of the 21.3.2013 order",
+      "note": "The impleadment applicant was heard; the application was neither allowed nor rejected in terms. Personal appearance of the officer was dispensed with after the connection had been provided; contempt was not initiated.",
+      "paras": "8-9, 16"
+    }
+  ],
+  "authorities": []
+}
