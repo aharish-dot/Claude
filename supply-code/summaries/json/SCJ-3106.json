@@ -1,0 +1,79 @@
+{
+  "case_id": "SCJ-3106",
+  "title": "Prabhawati v. State of U.P. & Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Ran Vijai Singh, J. & Mukhtar Ahmad, J.",
+  "date_of_judgment": "2018-01-10",
+  "date_display": "10 January 2018",
+  "docket": "Writ - C No. 15220 of 2012",
+  "page_count": 7,
+  "significance": "procedural",
+  "outcome": "none",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed for want of prosecution; any interim order vacated",
+  "headnote": "A person who consumes electricity must pay the bill; failing payment, supply may be disconnected under the U.P. Electricity Supply Code, 2005. After disconnection, arrears may be recovered from the person who is a consumer as defined in the Electricity Act, 2003; if that person has died, recovery is to be initiated against legal heirs who inherited the deceased consumer's property. Death of the recorded consumer, and a plea that no meter is installed and running, do not entitle an occupant to continue consuming without paying bills. If dues remain unpaid, the licensee may disconnect and then recover from the legal heirs for the period prior to the recorded consumer's death. Those observations were made on 28 March 2012 while listing the writ for affidavits on the date of death and on how IDF/average bills were issued if no meter was installed. After further listings, none appeared for the petitioner on 10 January 2018; the writ was dismissed for want of prosecution and any interim order vacated. The bill, the IDF billing, and whether a meter was installed were not decided.",
+  "facts": "Prabhawati challenged a bill dated 19 January 2012 of Rs.1,296.43, with arrears taking the total to Rs.2,18,083, for electricity supplied through Meter No. DE8256 and billed on an average of 104 units under the meter-reading abbreviation IDF. The connection stood in the name of Pyare Lal Halwai, her father-in-law, who had died. She said she was not liable as his daughter-in-law, that no meter was installed and running, and that bills had gone unpaid for years. On 28 March 2012 a Division Bench rejected the non-liability plea, directed a supplementary affidavit on the date of death and a counter-affidavit on the meter, and listed the matter. On 18 April 2012 it recorded the licensee's contradictory stand that no meter was installed yet bills were sent regularly, and called the Executive Engineer, Electricity Distribution Division-II, Jaunpur, to explain. After further listings in 2012 and 2017, none appeared for the petitioner on 10 January 2018.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::(unspecified)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "(unspecified) — disconnection for non-payment; recovery from the consumer and, after death, from legal heirs who inherited the property",
+      "topic": "Occupier who consumes must pay; legal heirs who inherited the property are liable for the deceased recorded consumer's pre-death arrears",
+      "type": "interplay",
+      "question": "Does the death of the recorded consumer, or the absence of a running meter, relieve an occupant who continues to consume electricity from paying the bills, and from whom may arrears then be recovered?",
+      "holding": "No. A person who consumes electricity must pay the bill, failing which supply may be disconnected in accordance with the U.P. Electricity Supply Code, 2005. After disconnection, arrears may be recovered from the person who is a consumer as defined in the Electricity Act, 2003. If that person has died, recovery is to be initiated against legal heirs who inherited the deceased consumer's property. The plea that the connection stood in the name of the petitioner's deceased father-in-law, and that no meter was installed and running, does not entitle her to continue consuming without payment. If dues remain unpaid, the licensee may disconnect and then recover from the legal heirs for the period prior to the death of the recorded consumer.",
+      "qualifier": "Interlocutory observations of 28.3.2012; affidavits were directed and the writ was later dismissed for want of prosecution without a merits decision on the bill.",
+      "paras": "order of 28.3.2012",
+      "flag": "The Court cited the Supply Code and 'consumer as defined in the Electricity Act, 2003' without a clause or section number; keyed to UP-2005::(unspecified) and the Act's consumer definition (s.2(15) not numbered). 28.3.2012 coram: Sunil Ambwani and Pankaj Naqvi, JJ. On 18.4.2012 (Sunil Ambwani and Aditya Nath Mittal, JJ.) the Court called the Executive Engineer to explain IDF/meter-reading bills if no meter was installed and why the connection had not been disconnected despite years of unpaid bills; that explanation was never adjudicated."
+    },
+    {
+      "provision": "OFFTOPIC::dismissal-for-want-of-prosecution",
+      "code": "OFFTOPIC",
+      "clause": "dismissal-for-want-of-prosecution",
+      "topic": "Writ dismissed for want of prosecution; interim vacated",
+      "type": "supply_code",
+      "holding": "On 10 January 2018 the list was revised and no one appeared for the petitioner to press the writ. The petition was dismissed for want of prosecution and any interim order vacated. The Court did not decide the 19.1.2012 IDF bill, the arrears, or whether a meter was installed.",
+      "paras": "order of 10.1.2018"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "legal-heirs-inheriting-property-liable-for-deceased-consumer-dues",
+      "application": "On 28.3.2012 the Court held that an occupant who consumes must pay, that post-disconnection recovery lies against the consumer as defined in the Electricity Act, 2003, and that if the consumer has died recovery is against legal heirs who inherited the property, including for the period prior to the recorded consumer's death. Those observations were interlocutory; the writ was later dismissed for want of prosecution.",
+      "lead_authorities": [],
+      "paras": "order of 28.3.2012"
+    },
+    {
+      "tag": "writ-petition-dismissed-for-want-of-prosecution-on-non-appearance",
+      "application": "After listings from 2012 to 2017, none appeared for the petitioner even on the revised list of 10.1.2018; the writ challenging the IDF bill was dismissed for want of prosecution without a merits decision.",
+      "lead_authorities": [],
+      "paras": "order of 10.1.2018"
+    },
+    {
+      "tag": "writ-dismissed-for-want-of-prosecution-interim-vacated",
+      "application": "Dismissal for want of prosecution on 10.1.2018 carried the direction that any interim order stood vacated.",
+      "lead_authorities": [],
+      "paras": "order of 10.1.2018"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Validity and quantum of the 19.1.2012 bill (Rs.1,296.43; total with arrears Rs.2,18,083) and of IDF average billing of 104 units on Meter No. DE8256",
+      "note": "The writ challenged that bill; it was never examined on merits and was dismissed for want of prosecution.",
+      "paras": "order of 28.3.2012, order of 10.1.2018"
+    },
+    {
+      "point": "Whether a meter was installed, how bills with meter reading were issued if it was not, and why the connection was not disconnected despite years of unpaid bills",
+      "note": "Counter-affidavit and an Executive Engineer affidavit were directed on 28.3.2012 and 18.4.2012; the Court called the contradictory no-meter/regular-bills stand not bona fide, but never decided the point.",
+      "paras": "order of 28.3.2012, order of 18.4.2012"
+    },
+    {
+      "point": "Date of Pyare Lal Halwai's death, and whether the petitioner inherited his property as a legal heir",
+      "note": "Supplementary affidavit on the date of death was directed on 28.3.2012; neither fact was recorded as found.",
+      "paras": "order of 28.3.2012"
+    }
+  ],
+  "authorities": []
+}
