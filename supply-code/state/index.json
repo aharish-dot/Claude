@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3168,
+  "next_seq": 3169,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -18976,6 +18976,12 @@
       "case_id": "SCJ-3165",
       "source_basename": "WRIC(A)_10980_2016.pdf",
       "title": "Ravi Kant Pandey v. State of U.P. & 3 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3167",
+      "source_basename": "WRIC(A)_37153_2016.pdf",
+      "title": "Karan Juneja v. State of U.P. and 6 Others",
       "status": "done"
     }
   ]
