@@ -1,0 +1,84 @@
+{
+  "case_id": "SCJ-3103",
+  "title": "M/S Farhana Steels Pvt. Ltd. v. State of U.P. & Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Amitava Lala, J.; Pradeep Kumar Singh Baghel, J.",
+  "date_of_judgment": "2011-12-16",
+  "date_display": "16 December 2011",
+  "docket": "Writ - C No. 66871 of 2011",
+  "page_count": 7,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Both writs disposed of; sale with bank participation; electricity dues first from proceeds, remainder to the bank",
+  "headnote": "Where a State authority proposes to sell a consumer-company's mortgaged property to recover unpaid electricity dues, the licensee's claim is a first charge on that property under the U.P. Electricity Supply Code, 2005. Sale proceeds are applied first to those dues exclusively and forever, and only thereafter to the mortgagee bank; any unsatisfied bank claim may be recovered in accordance with law. Because the licensee itself treated the bank as owner by mortgage or hypothecation, the sale cannot proceed without the bank's intervention, including price fixation. The company's one-time-settlement request was not granted. Both this writ and Bank of Baroda's connected Writ-C No. 68054 of 2011 were disposed of on those terms.",
+  "facts": "M/s Farhana Steels Pvt. Ltd. had unpaid electricity dues. On 28 April 2011 a Division Bench of the Allahabad High Court, in Civil Misc. Writ Petition No. 24313 of 2011, had directed the company to pay the entire outstanding. The company then filed this writ seeking an order on a representation for one-time settlement. The District Magistrate had scheduled an auction of the company's property for 25 November 2011 to recover the electricity dues. Bank of Baroda, with whom the property was mortgaged or hypothecated, intervened as first-charge claimant and filed Writ-C No. 68054 of 2011. On 24 November 2011 the Court postponed the auction, directed status quo, and listed the matters together. The company was still running and not wound up. At the final hearing on 16 December 2011 none appeared for the company.",
+  "reusable_constructions": [
+    {
+      "construction": "Under the U.P. Electricity Supply Code, 2005, outstanding electricity dues of a consumer-company are a first charge on the property sold to recover those dues, ranking ahead of a bank mortgage.",
+      "paras": "2"
+    },
+    {
+      "construction": "Where the licensee itself treats a mortgagee bank as owner of the premises, a sale for electricity dues cannot be conducted without the bank's intervention, including price fixation.",
+      "paras": "3"
+    },
+    {
+      "construction": "Proceeds of such a sale are applied first to the licensee's electricity dues exclusively and forever, and only thereafter to the bank; any unsatisfied bank claim may be recovered in accordance with law.",
+      "paras": "4"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.3(f)(iv)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.3(f)(iv)",
+      "topic": "electricity dues first charge on company assets sold to recover those dues, ahead of a bank mortgage",
+      "type": "supply_code",
+      "question": "When mortgaged premises are sold to recover a consumer-company's unpaid electricity dues, does the Supply Code give the licensee priority over the mortgagee bank?",
+      "holding": "Yes. The electrical department is a statutory authority and its claim over the property is a first charge before a sale, as per the terms and conditions of the Electricity Supply Code, 2005. Out of the sale proceeds, electricity dues are to be paid first to the electrical authority to meet its claim exclusively and forever; only the remainder goes to the bank.",
+      "paras": "2, 4",
+      "flag": "The Court did not cite a clause number. Keyed to Clause 4.3(f)(iv) (outstanding dues are first charge on the assets of the company). Paragraph numbers are those of the unnumbered 16.12.2011 disposal; the PDF also contains listing orders of 24.11.2011, 28.11.2011, 1.12.2011 and 9.12.2011."
+    },
+    {
+      "provision": "UP-2005::4.3(f)(iv)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.3(f)(iv)",
+      "topic": "sale for electricity dues of mortgaged premises requires the mortgagee bank's participation, including price fixation",
+      "type": "interplay",
+      "question": "May a District Magistrate sell mortgaged premises to recover electricity dues without the mortgagee bank's participation?",
+      "holding": "No. It was the licensee's own case that the bank was owner of the property by mortgage or hypothecation, so the sale cannot be conducted without the bank's intervention, which includes price fixation. The sale is to be conducted by the authority with the bank's participation. If the bank is not fully satisfied from the remainder after electricity dues, it may recover the balance in accordance with law.",
+      "qualifier": "The consumer-company was still running and not wound up.",
+      "paras": "3-4",
+      "flag": "Same 16.12.2011 disposal; no numbered Code clause cited."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-4.3f-iv-electricity-dues-first-charge-over-bank-mortgage",
+      "application": "On a District Magistrate sale of a running company's mortgaged premises to recover unpaid electricity dues, the Court treated the licensee's Supply Code claim as first charge, paid exclusively and forever from the sale proceeds before the mortgagee bank.",
+      "lead_authorities": [],
+      "paras": "2, 4"
+    },
+    {
+      "tag": "sale-for-electricity-dues-requires-mortgagee-participation",
+      "application": "Because the licensee itself treated Bank of Baroda as owner by mortgage or hypothecation, the Court directed that the sale for electricity dues proceed only with the bank's participation, including price fixation.",
+      "lead_authorities": [],
+      "paras": "3-4"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits of the company's one-time-settlement representation",
+      "note": "The 24.11.2011 order described the OTS prayer as not innocuous in light of non-compliance with the 28.04.2011 pay-dues direction. At the 16.12.2011 disposal none appeared for the company; the Court structured the sale and did not grant or refuse OTS on the merits.",
+      "paras": "1-4"
+    },
+    {
+      "point": "Quantum of the electricity dues and of the bank's claim",
+      "note": "The waterfall (electricity first, then bank, then residual recovery in accordance with law) was directed without quantifying either claim.",
+      "paras": "4"
+    }
+  ],
+  "authorities": []
+}
