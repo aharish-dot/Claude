@@ -1,0 +1,69 @@
+{
+  "case_id": "SCJ-3087",
+  "title": "Smt. Seeta Pal v. Purvanchal Vidyut Vitran Nigam Ltd. And Others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Arun Tandon, J.; Harsh Kumar, J.",
+  "date_of_judgment": "2016-03-16",
+  "date_display": "16 March 2016",
+  "docket": "Writ - C No. 15384 of 2011",
+  "page_count": 9,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed with liberty to appeal under section 127.",
+  "headnote": "A writ challenging the Executive Engineer's 15 February 2011 order — which recorded surprise-check misuse of a domestic connection for commercial purposes as an offence under section 135 of the Electricity Act, 2003, and which, after dishonour of a compounding cheque and later cash compounding, left a reduced assessment of Rs 59,355 — is not the proper remedy. If the consumer is not satisfied with the assessment, the statutory remedy is an appeal under section 127 of the Act at the first instance. The petition is dismissed with liberty to file that appeal, and any interim order stands discharged. The Court did not decide whether the 15 February 2011 order complied with Clause 6.8(b) and (c) of the U.P. Electricity Supply Code, 2005, as originally alleged, or whether domestic-to-commercial misuse was section 126 unauthorised use rather than section 135 theft.",
+  "facts": "Smt. Seeta Pal, a domestic consumer of Purvanchal Vidyut Vitran Nigam Ltd., was provisionally assessed for alleged change of user of electricity. She filed objections dated 26 April 2008. Recovery without deciding those objections led to Civil Misc. Writ Petition No. 62369 of 2010, disposed of on 25 October 2010 with a direction that respondent no. 2 decide the objections in accordance with law.\n\nThe Executive Engineer's order dated 15 February 2011 recorded that a surprise check had found the domestic connection being used for commercial purposes, treated as an offence under section 135 of the Electricity Act, 2003. A compounding cheque of Rs 40,000 was dishonoured and a fresh assessment of Rs 1,15,194 was raised; after she deposited compounding of Rs 40,000 in cash on 8 December 2010, the assessment was reduced to Rs 59,355. She challenged that demand. An 18 January 2016 dismissal was recalled on restoration on 16 March 2016.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "writ against post-compounding assessment; statutory appeal bars writ",
+      "type": "electricity_act",
+      "question": "Is a writ the proper remedy against an assessment left after compounding of a surprise-check finding of domestic-to-commercial misuse treated as a section 135 offence?",
+      "holding": "No. If the consumer is not satisfied with the assessment so made, she has the statutory remedy under section 127 of the Electricity Act, 2003 at the first instance. A writ is not the proper remedy. The petition is dismissed with liberty to file an appeal, and any interim order stands discharged.",
+      "paras": "16.3.2016",
+      "flag": "Source concatenates 2011 listings (notice and stay on a Clause 6.8(b)/(c) plea) with an 18.1.2016 dismissal that was recalled on Restoration Application No. 54077 of 2016, and this 16.3.2016 merits disposal (Arun Tandon and Harsh Kumar, JJ.; unnumbered). The 2016 court cited sections 135 and 127 of the Act, not the Code. Section 127 is the appeal against a section 126 assessment; it was applied to a demand recited as following section 135 compounding, without deciding 126 versus 135. The 14.3.2011 stay of recovery on deposit of Rs 30,000 was discharged."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternate-remedy-section-127-appeal-bars-writ",
+      "application": "The writ against the 15.2.2011 order and the reduced assessment of Rs 59,355 was dismissed on the ground that a writ is not the proper remedy and that section 127 of the Electricity Act, 2003 is the statutory appeal at the first instance.",
+      "lead_authorities": [],
+      "paras": "16.3.2016"
+    },
+    {
+      "tag": "alternative-remedy-relegation-section-127",
+      "application": "The Court dismissed the petition with liberty to file an appeal under section 127, without examining the assessment on merits or the original Clause 6.8(b) and (c) objections.",
+      "lead_authorities": [],
+      "paras": "16.3.2016"
+    },
+    {
+      "tag": "final-assessment-order-relegates-assessee-to-section-127-appeal",
+      "application": "The Executive Engineer's 15.2.2011 order, after cash compounding, left an assessment of Rs 59,355; dissatisfaction with that assessment was sent to the section 127 appeal.",
+      "lead_authorities": [],
+      "paras": "16.3.2016"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the 15 February 2011 order complied with Clause 6.8(b) and (c) of the U.P. Electricity Supply Code, 2005, or dealt with the objections dated 26 April 2008",
+      "note": "The 14.3.2011 Bench recorded that the matter required consideration on that plea and issued notice. The 16.3.2016 disposal did not mention the Code or those objections.",
+      "paras": "14.3.2011, 16.3.2016"
+    },
+    {
+      "point": "Whether domestic-to-commercial misuse was section 126 unauthorised use or section 135 theft",
+      "note": "The 2011 petition framed change of user and Clause 6.8. The 16.3.2016 order recited the Executive Engineer's characterisation as a section 135 offence and still relegated the assessment to a section 127 appeal, without deciding the distinction.",
+      "paras": "16.3.2016"
+    },
+    {
+      "point": "Quantum of the reduced assessment of Rs 59,355, and the effect of cheque-dishonour and later cash compounding on the civil demand",
+      "note": "Facts of compounding and reduction were recited; neither quantum nor compounding law was construed. Left to the section 127 appeal.",
+      "paras": "16.3.2016"
+    }
+  ],
+  "authorities": []
+}
