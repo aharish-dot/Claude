@@ -1,0 +1,62 @@
+{
+  "case_id": "SCJ-3082",
+  "title": "Sant Ram v. State of U.P. and Others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Ran Vijai Singh, J.; Daya Shankar Tripathi, J.",
+  "date_of_judgment": "2016-12-21",
+  "date_display": "21 December 2016",
+  "docket": "Writ - C No. 10575 of 2011",
+  "page_count": 8,
+  "significance": "procedural",
+  "outcome": "none",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition dismissed for want of prosecution; interim stay of recovery vacated.",
+  "headnote": "A consumer challenged a 15.12.2010 recovery certificate for an alleged electricity-theft assessment as non-compliant with the U.P. Electricity Supply Code, 2005. The licensee's counsel admitted that after a 29.6.2008 check a 16.7.2008 provisional assessment had been sent by post and, no objections having been received, was treated as final without any specific final order under s.126(3) of the Electricity Act, 2003. The petitioner denied service under s.126(2) and said the want of a final order deprived him of the s.127 appeal. On 28.4.2011 the Court held that the matter required consideration, issued notice, and stayed recovery on deposit of Rs 90,000 without prejudice. On 21.12.2016, none appearing even in the revised call, the writ was dismissed for want of prosecution and the interim order vacated. Whether treating the provisional assessment as a final order was lawful was not decided.",
+  "facts": "Sant Ram petitioned the Allahabad High Court against a recovery certificate dated 15 December 2010 sent by respondent no. 3 to the Collector, Mainpuri, to recover an alleged electricity-theft assessment. He contended that the recovery had been launched without complying with the mandatory requirements of the U.P. Electricity Supply Code, 2005.\n\nOn 28 April 2011 counsel for respondents nos. 2 and 3 stated that a check of the petitioner's premises on 29 June 2008 had allegedly detected theft, a provisional assessment dated 16 July 2008 was sent by post, and, no objections having been received, that provisional assessment was treated as final. On the Court's query he admitted that no specific final assessment order had been passed. The petitioner denied receiving the provisional assessment and invoked ss. 126(2), 126(3) and 127 of the Electricity Act, 2003. Recovery was stayed on deposit of Rs 90,000. On 21 December 2016, none appearing even in the revised call, the writ was dismissed for want of prosecution and the interim order vacated.",
+  "holding_units": [
+    {
+      "provision": "EA2003::126(3)",
+      "code": "EA2003",
+      "clause": "126(3)",
+      "topic": "theft assessment treated as final without a specific s.126(3) order; writ dismissed for want of prosecution",
+      "type": "electricity_act",
+      "holding": "On 28 April 2011 the Court recorded the petitioner's challenge that a theft-assessment recovery certificate had been issued without complying with the U.P. Electricity Supply Code, 2005, and the licensee's admission that a 16.7.2008 provisional assessment had been treated as final without any specific final order under s.126(3) of the Electricity Act, 2003. The petitioner denied service of the provisional assessment (s.126(2)) and said he had been deprived of the s.127 appeal. The Court held that the matter required consideration, issued notice, and stayed recovery on the certificate dated 15.12.2010 provided the petitioner deposited Rs 90,000 within four weeks, without prejudice, the stay to stand automatically vacated on default. On 21 December 2016, none having appeared for the petitioner even in the revised call, the writ was dismissed for want of prosecution and the interim order vacated, without deciding that challenge.",
+      "paras": "28.4.2011, 21.12.2016",
+      "flag": "Thin procedural disposal. The 28.4.2011 Division Bench (Satya Poot Mehrotra and Rajesh Chandra, JJ.) recorded the s.126(2)/126(3)/127 issue and stayed recovery; the 21.12.2016 Bench dismissed for want of prosecution without deciding those points. The 2005 Code was invoked generally; no numbered clause was cited."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "writ-dismissed-for-want-of-prosecution-interim-vacated",
+      "application": "After an interlocutory stay of recovery on a deposit, granted because the licensee had treated a theft provisional assessment as final without a specific s.126(3) order, the writ was dismissed for want of prosecution when none appeared even in the revised call, and the interim order was vacated.",
+      "lead_authorities": [],
+      "paras": "21.12.2016"
+    },
+    {
+      "tag": "opportunity-before-final-assessment",
+      "application": "The 28.4.2011 Bench recorded the licensee's admission that no specific final assessment order under s.126(3) had been passed and that the 16.7.2008 provisional assessment had been treated as final, and stayed recovery pending consideration. The point was never decided after the 2016 dismissal for want of prosecution.",
+      "lead_authorities": [],
+      "paras": "28.4.2011"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether a recovery certificate could rest on a theft provisional assessment treated as final without a specific s.126(3) order, and whether want of a final order deprived the petitioner of the s.127 appeal",
+      "note": "Recorded as requiring consideration on 28.4.2011; never adjudicated after dismissal for want of prosecution.",
+      "paras": "28.4.2011, 21.12.2016"
+    },
+    {
+      "point": "Whether the 16.7.2008 provisional assessment was served as required by s.126(2)",
+      "note": "Petitioner denied receipt; the licensee said it was sent by post.",
+      "paras": "28.4.2011"
+    },
+    {
+      "point": "Whether the U.P. Electricity Supply Code, 2005 mandatory requirements for the theft assessment were complied with, and the correctness or quantum of the assessment",
+      "note": "The Code was invoked generally without a numbered clause; the assessment was not examined on the merits.",
+      "paras": "28.4.2011, 21.12.2016"
+    }
+  ],
+  "authorities": []
+}
