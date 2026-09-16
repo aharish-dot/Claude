@@ -1,0 +1,95 @@
+{
+  "case_id": "SCJ-3065",
+  "title": "Shri Madan Mohan Srivastava v. Purvanchal Vidyut Vitran Nigam Ltd. & Anr.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta, J.; Pankaj Bhatia, J.",
+  "date_of_judgment": "2019-05-08",
+  "date_display": "8 May 2019",
+  "docket": "Writ - C No. 64260 of 2009",
+  "page_count": 6,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; demand notice dated 9.11.2009, communication dated 17.8.2009 and undated assessment bill quashed; petitioner to file objections to the provisional assessment within four weeks, after which respondent no.2 shall pass a final assessment in accordance with law.",
+  "headnote": "A demand notice issued without a final assessment order, and without giving the consumer an opportunity of hearing, is contrary to the assessment procedure in the U.P. Electricity Supply Code, 2005. The Code requires the licensee to hear the consumer and then pass a final assessment. On that footing the Division Bench quashed the demand notice dated 9.11.2009, the communication dated 17.8.2009 and the undated assessment bill, permitted the petitioner to file objections to the provisional assessment within four weeks, and directed respondent no.2 to decide those objections and pass a final assessment in accordance with law. The writ was allowed. The Court did not decide whether theft was in fact committed, the quantum of any assessment, or the claim to refund Rs.20,000 taken as compounding charges.",
+  "facts": "Shri Madan Mohan Srivastava, posted at Gorakhpur with a caretaker at his house in Varanasi, petitioned against Purvanchal Vidyut Vitran Nigam Ltd. He challenged a demand notice dated 9 November 2009, a communication dated 17 August 2009 and an undated assessment bill, alleging that an assessment for theft of electricity had been made at that house. He also sought a restraint on recovery and disconnection and refund, with interest, of Rs.20,000 realised as compounding charges. On 25 November 2009 a Division Bench stayed recovery, recording that the theft assessment appeared prima facie illegal. The petition was admitted on 25 January 2010. After listing orders in April–May 2019, Shashi Kant Gupta and Pankaj Bhatia, JJ. heard and allowed the writ on 8 May 2019.",
+  "reusable_constructions": [
+    {
+      "construction": "A demand notice issued without a final assessment order, and without giving the consumer an opportunity of hearing, is contrary to the assessment procedure in the U.P. Electricity Supply Code, 2005 and is liable to be quashed.",
+      "paras": "order of 8.5.2019"
+    },
+    {
+      "construction": "Where such a demand is quashed, the consumer may file objections to the provisional assessment, and the assessing officer shall then decide those objections and pass a final assessment in accordance with law.",
+      "paras": "order of 8.5.2019"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "8.1 (theft assessment — opportunity of hearing and a final assessment before demand)",
+      "topic": "Demand without a final assessment after hearing is contrary to the Code and is to be quashed",
+      "type": "supply_code",
+      "question": "May a licensee issue and enforce a demand notice on a theft-of-electricity assessment without passing a final assessment order after giving the consumer an opportunity of hearing?",
+      "holding": "No. Counsel for the petitioner submitted that a demand notice had been issued without a final assessment order, contrary to the Electricity Supply Code, 2005, which requires an opportunity of hearing and thereafter a final assessment, and relied on Kamil v. State of U.P. Considering those submissions, the Court permitted the petitioner to appear before respondent no.2 and file objections to the provisional assessment within four weeks; if so filed, respondent no.2 shall decide them and pass a final assessment in accordance with law. The demand notice dated 9.11.2009, the communication dated 17.8.2009 and the undated assessment bill were quashed, and the writ was allowed.",
+      "paras": "order of 8.5.2019",
+      "flag": "Unnumbered order-sheet (stay 25.11.2009; admission 25.1.2010; listing 17.4.2019 and 1.5.2019; disposal 8.5.2019). The 8.5.2019 order cites the Supply Code, 2005 assessment procedure (hearing, then final assessment) without a clause number. Keyed to Clause 8.1 because the 25.11.2009 order described the demand as a theft-of-electricity assessment; if the demand were unauthorised use rather than theft, the same procedure sits in Clause 6.8."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "demand-notice-on-provisional-assessment-is-illegal",
+      "application": "The demand notice dated 9.11.2009, communication dated 17.8.2009 and undated assessment bill were issued without a final assessment after hearing and were quashed.",
+      "lead_authorities": [
+        {
+          "name": "Kamil v. State of U.P. and others",
+          "docid": ""
+        }
+      ],
+      "paras": "order of 8.5.2019"
+    },
+    {
+      "tag": "no-demand-or-recovery-before-final-assessment-order",
+      "application": "A demand issued before a final assessment order is contrary to the Code; the instruments were quashed and a final assessment directed after objections.",
+      "lead_authorities": [],
+      "paras": "order of 8.5.2019"
+    },
+    {
+      "tag": "opportunity-before-final-assessment",
+      "application": "The Code requires an opportunity of hearing and thereafter a final assessment; the petitioner was given four weeks to object to the provisional assessment, after which respondent no.2 must pass a final assessment in accordance with law.",
+      "lead_authorities": [],
+      "paras": "order of 8.5.2019"
+    },
+    {
+      "tag": "assessment-order-quashed-and-remitted-for-hearing",
+      "application": "The writ was allowed and the demand instruments quashed, with the assessment remitted for objections and a final order.",
+      "lead_authorities": [],
+      "paras": "order of 8.5.2019"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether theft of electricity was in fact committed at the petitioner's house, and the correctness or quantum of any assessment",
+      "note": "The 25.11.2009 stay recorded only a prima facie view. The 8.5.2019 order left the assessment to objections and a fresh final order.",
+      "paras": "order of 8.5.2019"
+    },
+    {
+      "point": "Refund or adjustment, with interest, of Rs.20,000 realised as compounding charges",
+      "note": "Pleaded as relief (d); neither granted nor refused.",
+      "paras": "order of 8.5.2019"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Kamil v. State of U.P. and others",
+      "citation": "2016 (6) ADJ 11 (DB)",
+      "court": "Allahabad High Court",
+      "docid": "",
+      "proposition": "Cited by the petitioner in support of the contention that a demand notice issued without a final assessment after opportunity of hearing is contrary to the Electricity Supply Code, 2005.",
+      "cited_by": "Petitioner",
+      "treatment": "Relied on"
+    }
+  ]
+}
