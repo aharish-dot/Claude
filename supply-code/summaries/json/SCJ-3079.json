@@ -1,0 +1,90 @@
+{
+  "case_id": "SCJ-3079",
+  "title": "Ram Rang v. U.P. Power Corporation Ltd. & Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Salil Kumar Rai, J.; Arun Kumar Singh Deshwal, J.",
+  "date_of_judgment": "2023-03-28",
+  "date_display": "28 March 2023",
+  "docket": "Writ - C No. 74250 of 2010",
+  "page_count": 4,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; recovery of Rs. 1,39,135 stayed on deposit of Rs. 8,716; petitioner to object to the bill before respondent no. 2, who is to decide by a speaking order; liberty to appeal under the Electricity Act, 2003 and the Supply Code, 2005",
+  "headnote": "Where a consumer challenges an electricity bill that treats a domestic connection as commercial, the writ court will not decide the tariff classification. Recovery of the commercial demand is stayed if the consumer deposits the amount he says is due at domestic rates; he must file an objection to the bill before the licensee officer, who is to decide by a speaking order, and until that decision no further recovery is to be made. If the speaking order goes against him, he has liberty to appeal under the Electricity Act, 2003 and the U.P. Electricity Supply Code, 2005. The Court did not decide whether the connection was domestic or commercial, or the correctness of Rs. 1,39,135.",
+  "facts": "Ram Rang, holding what he said was a domestic electricity connection, filed Writ-C No. 74250 of 2010 against U.P. Power Corporation Ltd. challenging a bill dated 15 July 2010 that treated the connection as commercial and demanded Rs. 1,39,135. He contended that at domestic rates he was liable at most for Rs. 8,716.\n\nOn 23 December 2010 a Division Bench connected the petition with Writ Petition No. 49567 of 2010 and stayed recovery of Rs. 1,39,135 if he deposited Rs. 10,000 within fifteen days. After listing orders in March 2023, the writ was heard on 28 March 2023. The petitioner relied on Somai v. U.P. Power Corporation Ltd. (Writ-C No. 47278 of 2010, 3 March 2023) and asked that this petition be disposed of in the same terms.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.5",
+      "topic": "domestic billed as commercial — objection to the bill before the licensee; speaking order; recovery stayed on deposit of the domestic figure",
+      "type": "supply_code",
+      "question": "Where a consumer challenges an electricity bill that treats a domestic connection as commercial, will the writ court decide the tariff classification?",
+      "holding": "No. Recovery of Rs. 1,39,135 on the bill dated 15 July 2010 shall remain stayed if the petitioner deposits Rs. 8,716 within fifteen days; default automatically discharges the stay. He shall file an objection to the bill before respondent no. 2 within three weeks; that officer shall decide by a speaking order; until the objection is decided, no further recovery shall be made on the bill. The Court did not decide whether the connection was domestic or commercial.",
+      "paras": "order of 28.3.2023",
+      "flag": "The Court cited no clause. It directed an objection to the bill before respondent no. 2 and a speaking order, then liberty to appeal under the Act and the Code. Keyed to Clause 6.5 as the billing-complaint procedure that this pattern matches; the Court's reference to an 'assessment order' and an appeal under the Act could equally engage Clause 6.8 / Section 126 then Section 127 if commercial billing is treated as unauthorised use — the order does not say. Catalog hit UP-2005::3.3(e) is not attracted: the order does not discuss professional use of residential space. Source PDF compiles the 23.12.2010 stay (deposit of Rs. 10,000), listing sheets of 14.3.2023 and 21.3.2023, and the 28.3.2023 disposal; pins refer to that disposal. The 2023 stay is conditioned on depositing Rs. 8,716, the claimed domestic figure, not the 2010 interim figure of Rs. 10,000."
+    },
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act, 2003",
+      "clause": "127",
+      "topic": "liberty to appeal the speaking order on the bill objection",
+      "type": "electricity_act",
+      "question": "If the speaking order on the bill objection goes against the consumer, what further remedy remains?",
+      "holding": "The petitioner will have liberty to file an appeal against that assessment order as per the provisions of the Electricity Act, 2003 and the U.P. Electricity Supply Code, 2005.",
+      "paras": "order of 28.3.2023",
+      "flag": "The Court named neither Section 127 nor a Code appeal clause. Keyed to Section 127 because the order calls the result of the objection an 'assessment order' and then an appeal under the Act; a Code-only CGRF/Ombudsman route was not discussed."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-alternate-remedy-to-writ",
+      "application": "The challenge to the 15.7.2010 commercial bill was not decided on merits. The consumer was directed to object before respondent no. 2, who is to pass a speaking order, with recovery stayed on deposit of the domestic figure.",
+      "lead_authorities": [],
+      "paras": "order of 28.3.2023"
+    },
+    {
+      "tag": "domestic-vs-non-domestic-use-is-a-disputed-question-of-fact",
+      "application": "Whether the petitioner's domestic connection was rightly billed at commercial rates, and whether Rs. 1,39,135 or Rs. 8,716 was due, was left to the objection and speaking order.",
+      "lead_authorities": [],
+      "paras": "order of 28.3.2023"
+    },
+    {
+      "tag": "alternate-remedy-supply-code-appeal",
+      "application": "If respondent no. 2's speaking order goes against the petitioner, he has liberty to appeal under the Electricity Act, 2003 and the U.P. Electricity Supply Code, 2005.",
+      "lead_authorities": [],
+      "paras": "order of 28.3.2023"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner's connection was domestic or commercial, and whether commercial tariff was lawfully applied",
+      "note": "The 2010 and 2023 orders record the contention; the 28.3.2023 disposal left it to the objection and speaking order.",
+      "paras": "order of 28.3.2023"
+    },
+    {
+      "point": "Correctness and quantum of Rs. 1,39,135 as against Rs. 8,716",
+      "note": "The 2023 stay is conditioned on depositing the claimed domestic figure; neither amount was adjudicated.",
+      "paras": "order of 28.3.2023"
+    },
+    {
+      "point": "Whether the petition should be disposed of in terms of Somai v. U.P. Power Corporation Ltd. (Writ-C No. 47278 of 2010, 3.3.2023)",
+      "note": "The petitioner prayed for disposal in those terms; the Court gave its own directions without reciting Somai's holding or saying it was following that order.",
+      "paras": "order of 28.3.2023"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Somai v. U.P. Power Corporation Ltd.",
+      "citation": "Writ-C No. 47278 of 2010, judgment dated 3.3.2023",
+      "court": "Allahabad High Court",
+      "docid": "",
+      "proposition": "Relied on by the petitioner, who prayed that this writ be disposed of in the same terms; the Court did not recite Somai's holding or say it was following that order.",
+      "cited_by": "Petitioner",
+      "treatment": "Relied on"
+    }
+  ]
+}
