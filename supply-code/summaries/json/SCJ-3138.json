@@ -1,0 +1,83 @@
+{
+  "case_id": "SCJ-3138",
+  "title": "M/S Allahabad Enterprises Pvt. Ltd. v. State of U.P. and Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sunil Ambwani, J. & Bharat Bhushan, J.",
+  "date_of_judgment": "2013-02-28",
+  "date_display": "28 February 2013",
+  "docket": "Writ - C No. 2788 of 2013",
+  "page_count": 5,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of; additional protective-load charges cannot be levied or recovered without the consumer's option by application and agreement; previous charges may be adjusted on representation to the Executive Engineer, EUDD Bamrauli; facility not to be offered and no such charges in regular bills",
+  "headnote": "Additional charges for protective-load facility under clause 4.27 of the U.P. Electricity Supply Code, 2005 cannot be levied or recovered from a bulk consumer who has not opted for that facility by application and agreement. Clause 4.27 permits the licensee to grant protective load only in exceptional cases, to be specified in an agreement, to consumers who have opted for twenty-four-hour use of power, on terms including a monthly additional charge as in the latest rate schedule (the Court quoting clause 10 of the General Conditions of the Tariff Order dated 31.03.2010). It was not denied that no agreement was executed. The licensee's contention that twenty-four-hour supply had been given, and that the consumer having availed the facility could not turn around, did not sustain the levy where the consumer had neither applied nor was willing to apply. Previous additional charges may be adjusted on representation to the Executive Engineer, Electricity Urban Distribution Division, Bamrauli, Allahabad, in future bills. The facility is not to be offered, and no such charges are to be levied in regular bills. The writ was disposed of.",
+  "facts": "M/s Allahabad Enterprises Pvt. Ltd., a bulk electricity consumer, filed Writ-C No. 2788 of 2013 against the State of U.P. and others, challenging additional charges for protective-load facility. The question raised was whether those charges could be recovered without any application or agreement for uninterrupted twenty-four-hour supply under clause 4.27 of the U.P. Electricity Supply Code, 2005. Counsel for respondent nos. 2 and 3 said the petitioner had been supplied twenty-four-hour power and, having availed the facility, could not deny an application or refuse the charge. Counsel for the petitioner stated that the company had not availed protective load, had neither applied nor was willing to apply, and it was not denied that no agreement had been executed.",
+  "reusable_constructions": [
+    {
+      "construction": "Additional charges for protective-load facility under clause 4.27 of the U.P. Electricity Supply Code, 2005 cannot be levied or recovered from a consumer who has not opted for that facility by application and agreement.",
+      "paras": "2, 7-9"
+    },
+    {
+      "construction": "Clause 4.27 permits the licensee to grant protective load only in exceptional cases, to be specified in an agreement, to consumers who have opted for twenty-four-hour use of power.",
+      "paras": "2-3, 6-7"
+    },
+    {
+      "construction": "A licensee's assertion that twenty-four-hour supply was given does not authorise a protective-load charge where no agreement was executed and the consumer has neither applied nor is willing to apply for the facility.",
+      "paras": "5, 7-9"
+    },
+    {
+      "construction": "Where protective-load charges have already been billed without such option, the consumer may represent for adjustment of those additional charges in future bills; the facility is not thereafter to be offered, nor the charges levied in regular bills.",
+      "paras": "9"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.27",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.27 (Protective Load)",
+      "topic": "protective-load additional charges cannot be levied without the consumer's option by application and agreement",
+      "type": "supply_code",
+      "question": "Can additional charges for protective-load facility be levied on a bulk consumer without any application or agreement for twenty-four-hour uninterrupted supply under clause 4.27?",
+      "holding": "No. Clause 4.27 grants protective load only in exceptional cases, to be specified in an agreement, to consumers who have opted for twenty-four-hour use of power, with an additional monthly charge as in the latest rate schedule. It was not denied that no agreement was executed. The petitioner's counsel stated that the company had not availed the facility, had neither applied nor was willing to apply. The Court held that the petitioner did not opt for protective load and that additional charges cannot be levied or recovered. Previous billing may be adjusted on representation to the Executive Engineer, Electricity Urban Distribution Division, Bamrauli, Allahabad, in future bills. The facility will not be offered, and no such charges shall be levied in regular bills. The writ was disposed of.",
+      "qualifier": "The Court accepted that no agreement was executed and the consumer's statement that it had not availed or applied for the facility; it did not independently find whether twenty-four-hour supply had in fact been given.",
+      "paras": "2, 7-10",
+      "flag": "Source PDF concatenates listings of 24.1.2013 (Vineet Saran and Bachchoo Lal, JJ., treating the matter as one for the Local Bodies Bench) and 30.1.2013 (Satya Poot Mehrotra and Zaki Ullah Khan, JJ., adjourned) with this 28.2.2013 disposal. Pins are sequential unnumbered blocks of the disposal (hearing; the question; clause 4.27 quoted; Tariff Order clause 10 quoted; licensee's submission; paraphrase of 4.27; no agreement; petitioner's statement; holding; disposed of). The Court's paraphrase of clause 4.27(d) says protective load 'shall not be utilized for lights and fans and drinking water purpose'; the quoted text of 4.27(d) is that it 'shall also be utilised' for those purposes. The paraphrase also says protective load is 'granted to the licencee'; the quoted clause is that the Licensee may grant it to consumers. Neither slip is treated as a holding. Tariff Order dated 31.03.2010, general condition 10, was quoted as the rate schedule under 4.27(a) and not separately construed."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "protective-load-additional-charges-clause-4.27",
+      "application": "Clause 4.27 additional charges for protective load were held not leviable or recoverable where the bulk consumer had not opted by application and agreement, even though the licensee asserted twenty-four-hour supply had been given. Past charges may be adjusted on representation; the facility is not to be offered and no charges levied in regular bills.",
+      "lead_authorities": [],
+      "paras": "2, 7-9"
+    },
+    {
+      "tag": "charge-requires-consumer-option",
+      "application": "A protective-load charge conditioned on the consumer opting for twenty-four-hour use, to be specified in an agreement, cannot be imposed where no agreement was executed and the consumer has neither applied nor is willing to apply.",
+      "lead_authorities": [],
+      "paras": "2, 7-9"
+    },
+    {
+      "tag": "protective-load-charges-clause-4.27-challenge",
+      "application": "The writ challenged levy of protective-load additional charges on a bulk consumer without application or agreement under clause 4.27; the Court decided that the charges cannot be levied or recovered and that the facility will not be offered.",
+      "lead_authorities": [],
+      "paras": "2, 9-10"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner had in fact been supplied uninterrupted twenty-four-hour power",
+      "note": "The licensee asserted that twenty-four-hour supply had been given and availed; petitioner's counsel denied availing the facility. The Court rested on absence of option and agreement, not a finding on actual hours of supply.",
+      "paras": "5, 7-9"
+    },
+    {
+      "point": "Quantum of additional protective-load charges already billed",
+      "note": "Previous billing was left to a representation to the Executive Engineer, EUDD Bamrauli, for adjustment in future bills; no amount was determined.",
+      "paras": "9"
+    }
+  ],
+  "authorities": []
+}
