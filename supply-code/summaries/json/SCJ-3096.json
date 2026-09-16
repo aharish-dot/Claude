@@ -1,0 +1,116 @@
+{
+  "case_id": "SCJ-3096",
+  "title": "Hafeez v. State of U.P. & Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sunil Ambwani, J. & Sudhir Agarwal, J.",
+  "date_of_judgment": "2011-05-16",
+  "date_display": "16 May 2011",
+  "docket": "Writ - C No. 19946 of 2011",
+  "page_count": 6,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition allowed; demand notice dated 19.05.2010 and recovery certificate quashed; fresh provisional assessment to be served and a reasoned final assessment made after objections, following Ashok Kumar.",
+  "headnote": "A theft-of-electricity demand and recovery cannot stand where the licensee does not show how the provisional assessment was served, does not record satisfaction that theft was committed, and does not state the basis of the amount assessed. Recital that the provisional assessment was sent by post or registered post, without proof of receipt or a positive account of the method of service, does not establish that the consumer was given the opportunity under para 6.8(b) of the U.P. Electricity Supply Code, 2005 to reply and object. Following Ashok Kumar (paras 56–64) on the Code procedure for theft assessment, the demand notice and recovery certificate are quashed; a fresh provisional assessment must be served, and a reasoned final assessment made after considering the consumer's objections.",
+  "facts": "Hafeez challenged a demand notice dated 19 May 2010 and a recovery certificate issued after an alleged theft-of-electricity assessment of Rs. 63,989. On 6 April 2011 the Court required the licensee to say whether a provisional assessment had been made, how it was sent, whether objections were filed and decided, and whether a final assessment was issued and communicated before demand and recovery. The licensee filed no counter-affidavit. Counsel stated that a provisional assessment dated 20 August 2009 (notice No. 2063) had been sent by post, that the petitioner filed no reply, and that a final assessment was made on 18 November 2009. Instructions dated 26 April 2011 said the notice went by registered post, but nothing showed that the petitioner received it. After further listings for instructions, the Division Bench of Sunil Ambwani and Sudhir Agarwal, JJ. disposed of the writ on 16 May 2011.",
+  "reusable_constructions": [
+    {
+      "construction": "Recital that a provisional assessment was sent by post or registered post, without proof of receipt or a positive account of the method of service, does not establish that the consumer was given the opportunity under para 6.8(b) of the U.P. Electricity Supply Code, 2005 to reply and object.",
+      "paras": "5-6"
+    },
+    {
+      "construction": "A provisional assessment for alleged theft of electricity must disclose the basis of the amount assessed and record the assessing officer's satisfaction that theft was committed.",
+      "paras": "5"
+    },
+    {
+      "construction": "A demand notice and recovery certificate founded on a provisional assessment that was not shown to have been served, and that neither states the basis of the demand nor records satisfaction of theft, are liable to be quashed; the licensee must serve a fresh provisional assessment and pass a reasoned final assessment after considering objections.",
+      "paras": "6-7"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.8(b)",
+      "topic": "service of provisional assessment, recorded satisfaction of theft, and stated basis before demand and recovery",
+      "type": "supply_code",
+      "question": "Does recital of despatch of a provisional theft assessment by post or registered post, without proof of receipt, afford the opportunity under para 6.8(b) so as to support demand and recovery?",
+      "holding": "No. The provisional assessment did not state the basis of the demand of Rs. 63,989, and the assessing authority had not recorded satisfaction that the petitioner committed theft of electricity. Instructions said notice No. 2063 dated 20.08.2009 was sent by post, then by registered post, but nothing showed receipt, and the instructions contained no positive reply as to the method of service. The petitioner was therefore not afforded the opportunity under para 6.8(b) of the U.P. Electricity Supply Code, 2005 to reply and object. The demand notice dated 19.05.2010 and the recovery certificate are quashed. The licensee must prepare a fresh provisional assessment, serve it on the petitioner, and make a final assessment after considering objections, with reasons meeting those objections, in the light of Ashok Kumar (paras 56–64).",
+      "qualifier": "No counter-affidavit was filed; the findings rest on counsel's statement and the Executive Engineer's instructions dated 26.04.2011.",
+      "paras": "2-7",
+      "flag": "Court applied para 6.8(b) to a theft assessment (para 2: 'provisional assessment (theft case)'); catalog keys theft assessment to clauses 8.1–8.2 rather than 6.8. Clause recorded as the Court cited it."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "proper-service-of-provisional-assessment-notice-clause-6.8",
+      "application": "Instructions that a provisional theft assessment was sent by post and then by registered post, without proof of receipt or a positive account of the method of service, did not establish valid service or the para 6.8(b) opportunity to object.",
+      "lead_authorities": [
+        {
+          "name": "Ashok Kumar v. State of U.P.",
+          "docid": ""
+        }
+      ],
+      "paras": "5-6"
+    },
+    {
+      "tag": "provisional-assessment-must-state-basis-and-amount",
+      "application": "The provisional assessment of Rs. 63,989 was held defective because it did not give the basis of the demand and the assessing officer had not recorded satisfaction that theft was committed.",
+      "lead_authorities": [
+        {
+          "name": "Ashok Kumar v. State of U.P.",
+          "docid": ""
+        }
+      ],
+      "paras": "5"
+    },
+    {
+      "tag": "opportunity-before-final-assessment",
+      "application": "Want of proved service of the provisional assessment meant the consumer was not given the para 6.8(b) opportunity to reply and object before the demand notice and recovery certificate issued.",
+      "lead_authorities": [
+        {
+          "name": "Ashok Kumar v. State of U.P.",
+          "docid": ""
+        }
+      ],
+      "paras": "6-7"
+    },
+    {
+      "tag": "assessment-quashed-for-breach-of-clause-6.8-procedure",
+      "application": "The 19.05.2010 demand notice and recovery certificate were quashed for breach of the para 6.8(b) opportunity, with a direction to serve a fresh provisional assessment and pass a reasoned final order after objections, following Ashok Kumar.",
+      "lead_authorities": [
+        {
+          "name": "Ashok Kumar v. State of U.P.",
+          "docid": ""
+        }
+      ],
+      "paras": "6-7"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner in fact committed theft of electricity, and the correctness of the Rs. 63,989 assessment",
+      "note": "Left to a fresh provisional assessment, service, objections, and a reasoned final assessment in the light of Ashok Kumar.",
+      "paras": "5-7"
+    },
+    {
+      "point": "Whether clauses 8.1–8.2, rather than para 6.8(b), govern a theft assessment",
+      "note": "The Court described the case as a theft assessment and applied para 6.8(b) without deciding the 8.1/6.8 distinction.",
+      "paras": "2,4,6"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar and others v. State of U.P. and others",
+      "citation": "2008(6) ADJ 660 (DB)",
+      "court": "Allahabad High Court (DB)",
+      "docid": "",
+      "proposition": "Paras 56 to 64 consider the provisions of the Electricity Supply Code, 2005 to be followed when assessing theft of electricity.",
+      "how_treated": "Followed — the Court applied those paragraphs as the Code procedure for theft assessment and directed the fresh final assessment in the light of that decision.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}
