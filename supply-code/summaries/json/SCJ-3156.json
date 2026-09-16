@@ -1,0 +1,136 @@
+{
+  "case_id": "SCJ-3156",
+  "title": "Mohammad Iqbal Ansari v. State of U.P. and others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sudhir Agarwal, J.; Ajit Kumar, J.",
+  "date_of_judgment": "2017-10-24",
+  "date_display": "24 October 2017",
+  "docket": "Writ - C No. 17588 of 2015",
+  "page_count": 5,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition allowed; Executive Engineer's order dated 11.12.2014 set aside; EE directed to proceed for grant of electric connection subject to other formalities within one month",
+  "headnote": "A non-owner occupier's application for a new electricity connection must be supported by documentary evidence of lawful occupation and, if the applicant is not the owner, by the prescribed indemnity bond. That occupancy proof is not confined to a power of attorney, rent receipt or lease agreement: a civil court judgment recognising the applicant's tenancy is a document that satisfies the requirement, and a person so recognised is not a trespasser. Following Seema Mansoor v. U.P. Power Corporation Ltd., 2014 (6) ADJ 672, every owner or occupier (including a tenant) has a statutory right to apply and obtain supply subject to the Electricity Act, 2003 and the U.P. Electricity Supply Code, 2005; the licensee cannot refuse the connection solely for want of the landlord's consent. A contrary reading would let a landlord withhold consent (or disconnect) so as to force the tenant out, nullifying Rent Control Act protection and opposing public policy. The Executive Engineer's 11.12.2014 refusal, founded only on the absence of a power of attorney, rent receipt or lease, was set aside; he was directed to proceed to grant the connection subject to other formalities within one month.",
+  "facts": "Mohammad Iqbal Ansari claimed to be a tenant of House No. 90, Sujanpur, Shyam Nagar, Kanpur, of which Smt. Shahjahan Begum was landlady. His tenancy had been recognised by the Civil Judge, Junior Division (City), Kanpur Nagar in Original Suit No. 898 of 2011, decided on 31 July 2012. The Executive Engineer, Delhi Sujanpur Khand, KESKO, Kanpur Nagar, by order dated 11 December 2014, declined an electricity connection on the ground that the petitioner had not filed a valid power of attorney, rent receipt or lease agreement. There was a landlord-tenant dispute, and the petitioner said he could not obtain the landlady's consent under Clause 4.4 of the U.P. Electricity Supply Code, 2005. The landlady was impleaded as respondent no. 4; service on her was deemed sufficient. The writ was decided after hearing the petitioner. Counsel for the licensee did not appear when the matter was called in revised; the State was treated as a formal party.",
+  "reusable_constructions": [
+    {
+      "construction": "Documentary evidence of lawful occupation for a non-owner's new-connection application is not confined to a power of attorney, rent receipt or lease agreement; a civil court judgment recognising the applicant's tenancy satisfies that requirement.",
+      "paras": "3-4"
+    },
+    {
+      "construction": "If the applicant is not the owner of the premises, the prescribed indemnity bond is to be annexed together with occupancy proof; the licensee cannot insist on a closed list of occupancy documents.",
+      "paras": "3"
+    },
+    {
+      "construction": "A tenant or occupier cannot be refused an electricity connection solely for want of the landlord's consent; a contrary reading would nullify Rent Control Act protection and is opposed to public policy.",
+      "paras": "5-6"
+    },
+    {
+      "construction": "Once valid occupancy is shown, the licensee is to proceed to grant the connection subject to completion of other formalities.",
+      "paras": "6"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.4",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.4 (application: documentary evidence of lawful occupation and indemnity bond if not owner)",
+      "topic": "civil court judgment recognising tenancy is sufficient occupancy proof; not confined to rent receipt or lease",
+      "type": "supply_code",
+      "question": "Must a non-owner's new-connection application be supported only by a power of attorney, rent receipt or lease agreement, or does a civil court judgment recognising tenancy suffice as documentary evidence of lawful occupation?",
+      "holding": "A civil court judgment recognising tenancy is sufficient. The application requires documentary evidence of lawful occupation of the premises and, if the applicant is not the owner, the prescribed indemnity bond. It nowhere requires that the occupancy document be only a rent receipt or lease agreement. The petitioner was not a trespasser; the 31.07.2012 judgment in Original Suit No. 898 of 2011 satisfied the occupancy requirement and entitled him to a connection subject to other formalities.",
+      "paras": "2-4, 6",
+      "flag": "The Court did not cite a numbered Code clause. It quoted item 2 of the connection application (occupancy proof and indemnity bond). Keyed to Clause 4.4. Paragraph numbers are those of the 24.10.2017 disposal; the PDF also contains listing orders of 1.4.2015 and 8.4.2015. The 8.4.2015 order referred to 'Sub-section (6) of Clause 4.4' for owner's consent; that numbering is not used in the final order."
+    },
+    {
+      "provision": "UP-2005::4.4",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.4 (occupier/tenant; indemnity bond in place of owner's consent)",
+      "topic": "tenant/occupier cannot be refused a connection solely for want of the landlord's consent",
+      "type": "interplay",
+      "question": "Can a licensee refuse a new electricity connection to a tenant or occupier solely because the landlord's consent is not forthcoming?",
+      "holding": "No. Following Seema Mansoor, the licensee is obliged to supply on a proper application, and every owner or occupier (including a tenant) has a statutory right to apply and obtain supply subject to the Electricity Act, 2003 and the Supply Code, 2005. An application cannot be refused for want of the landlord's consent. A lessee, tenant or occupier who submits an indemnity bond cannot be refused merely on that ground. A contrary interpretation would let a landlord disconnect and withhold no-objection so as to force the tenant to vacate, making Rent Control Act protections nugatory and opposing public policy. The writ was allowed and the Executive Engineer was directed to proceed for grant of connection subject to other formalities within one month.",
+      "paras": "5-6",
+      "flag": "Seema Mansoor is reproduced at paras 16, 17 and 19 of that judgment. The 8.4.2015 listing order had noted a conflict with Ravi Shanker Giri and Iftikhar Ahsan (W.P. No. 71425 of 2013) and thought a larger Bench might be needed; the 24.10.2017 disposal followed Seema Mansoor without referring that conflict."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "occupier-needs-proof-of-occupancy-plus-indemnity-bond-clause-4.4",
+      "application": "The Executive Engineer had refused a connection because no power of attorney, rent receipt or lease was filed. The Court held that a civil court judgment recognising tenancy is documentary evidence of lawful occupation, that the application does not confine occupancy proof to those three documents, and that a non-owner must annex the prescribed indemnity bond.",
+      "lead_authorities": [],
+      "paras": "2-4"
+    },
+    {
+      "tag": "clause-4.4-occupant-connection-on-indemnity-bond",
+      "application": "Following Seema Mansoor, the Court treated the tenant-occupier as entitled to a connection on occupancy proof and the indemnity-bond route, and directed the Executive Engineer to proceed to grant the connection subject to other formalities.",
+      "lead_authorities": [
+        {
+          "name": "Seema Mansoor v. U.P. Power Corporation Ltd.",
+          "docid": "80741415"
+        }
+      ],
+      "paras": "5-6"
+    },
+    {
+      "tag": "landlord-consent-not-required-for-tenant-connection-s43",
+      "application": "The Court adopted Seema Mansoor's holding that an application cannot be refused for want of the landlord's consent, a contrary reading being destructive of Rent Control Act protection and opposed to public policy.",
+      "lead_authorities": [
+        {
+          "name": "Seema Mansoor v. U.P. Power Corporation Ltd.",
+          "docid": "80741415"
+        }
+      ],
+      "paras": "5"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Title or the merits of the landlord-tenant dispute beyond occupancy",
+      "note": "The Court treated occupancy as established by the 31.07.2012 civil court judgment and did not adjudicate ownership or the underlying tenancy dispute with Smt. Shahjahan Begum.",
+      "paras": "2-4"
+    },
+    {
+      "point": "Whether the conflict between Ravi Shanker Giri / Iftikhar Ahsan and Seema Mansoor should be referred to a larger Bench",
+      "note": "The 8.4.2015 order recorded two conflicting Division Bench lines and thought a larger Bench might be needed, but deferred the issue. The 24.10.2017 disposal followed Seema Mansoor and did not refer the conflict.",
+      "paras": "5"
+    },
+    {
+      "point": "Other formalities for grant of the connection",
+      "note": "Left to the Executive Engineer to complete expeditiously, and in any case within one month of production of a certified copy.",
+      "paras": "6"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Seema Mansoor v. U.P. Power Corporation Ltd. Lucknow and others",
+      "citation": "2014 (6) ADJ 672",
+      "court": "Allahabad High Court",
+      "docid": "80741415",
+      "proposition": "Every owner or occupier, including a tenant, has a statutory right to apply and obtain electricity supply; the licensee cannot refuse a connection solely for want of the landlord's consent where an indemnity bond is submitted; a contrary interpretation would nullify Rent Control Act protection and is opposed to public policy.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Ravi Shanker Giri",
+      "citation": "",
+      "court": "Allahabad High Court",
+      "docid": "193909",
+      "proposition": "Unless there is consent of the owner of the premises as required by the Supply Code, 2005, an electricity connection cannot be granted.",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    },
+    {
+      "name": "Iftikhar Ahsan v. State of U.P.",
+      "citation": "Writ Petition No. 71425 of 2013",
+      "court": "Allahabad High Court",
+      "docid": "",
+      "proposition": "Same as Ravi Shanker Giri: owner's consent is required under the Code before an electricity connection can be granted.",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    }
+  ]
+}
