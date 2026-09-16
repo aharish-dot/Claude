@@ -1,0 +1,64 @@
+{
+  "case_id": "SCJ-3063",
+  "title": "Wecan Services.Com Limited v. State of U.P. & Others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "R.K. Agrawal, J.; Jayashree Tiwari, J.",
+  "date_of_judgment": "2009-10-30",
+  "date_display": "30 October 2009",
+  "docket": "Writ-C No. 51581 of 2009",
+  "page_count": 6,
+  "significance": "ordinary",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition disposed of; respondent no. 3 to release the 35 HP connection by 3 November 2009; petitioner to furnish a bank guarantee of Rs.12,00,000 within six weeks and to pay current charges as they become payable.",
+  "headnote": "Where a successor occupying industrial premises applies for a new 35 HP connection, and the licensee withholds it because of the previous occupier's arrears whose recovery a civil court has stayed on a surety bond, the writ court may direct release of the connection against a bank guarantee of the disputed amount. Counsel for the licensee invoked Regulation 4.49 of the U.P. Electricity Supply Code, 2005 as requiring a bank guarantee, even where recovery of dues is stayed, on an application for enhancement of load. The petitioner offered to furnish a bank guarantee within six weeks. Treating that proposal as just and reasonable, and noting that the erstwhile company had already furnished a surety bond of Rs.11 lakh, the Division Bench directed respondent no. 3 to release the 35 HP connection by 3 November 2009, required the petitioner to furnish a bank guarantee of Rs.12,00,000 within six weeks, and left the petitioner liable for current charges as they became payable. The Court did not decide the predecessor's civil suit, the correctness of the arrears, or whether Clause 4.49 (a load-enhancement provision) textually governs a new connection.",
+  "facts": "Wecan Services.Com Limited took over the industrial unit of M/s Manish Papers & Board Mills Limited at Plot No. 20/8, Site-IV, Industrial Area, Sahibabad, Ghaziabad, and the name was changed. On 12 May 2009 it applied for a permanent 35 HP electricity connection and offered to pay the charges. The licensee withheld the connection because about Rs.11 lakh stood outstanding against Manish Papers. That company had obtained a civil-court stay of realisation at Ghaziabad on furnishing a surety bond of Rs.11 lakh; the bond had been furnished and the suit remained pending. The petitioner sought a mandamus to respondent no. 3 to release the 35 HP connection, citing an Indian Oil Corporation contract for manufacturing pouches and corrugated boxes and an urgent need of supply.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.49",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.49",
+      "topic": "successor new connection released on bank guarantee where previous occupier's arrears are stayed",
+      "type": "supply_code",
+      "question": "May a successor be granted a new electricity connection to premises whose previous occupier's arrears are stayed by a civil court, without first clearing those arrears, if a bank guarantee is furnished?",
+      "holding": "Yes on these facts. The licensee invoked Clause 4.49 of the U.P. Electricity Supply Code, 2005 as requiring a bank guarantee even where recovery of dues is stayed. The petitioner offered to furnish a bank guarantee within six weeks. Noting that the erstwhile company had already furnished a surety bond of Rs.11 lakh pursuant to the civil stay, the Court treated the offer as just and reasonable, directed respondent no. 3 to release the 35 HP connection by 3 November 2009, required a bank guarantee of Rs.12,00,000 within six weeks, and left the petitioner liable for current charges as they became payable.",
+      "qualifier": "The petitioner volunteered the bank guarantee; the Court accepted that proposal rather than independently construing whether Clause 4.49, which the licensee described as a load-enhancement provision, governs a new connection.",
+      "paras": "order of 30.10.2009",
+      "flag": "Source PDF compiles unnumbered listing orders of 7, 14, 21 and 23.10.2009 plus the unnumbered disposal of 30.10.2009; pins refer to that disposal. Counsel for the licensee invoked Clause 4.49 as applying to enhancement of load; the prayer was a new 35 HP connection after takeover of the unit."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "bank-guarantee-for-connection-only-where-dues-stayed",
+      "application": "The previous occupier's ~Rs.11 lakh arrears had been stayed by a civil court on a surety bond; the successor's new 35 HP connection was released on a Rs.12 lakh bank guarantee rather than clearance of those arrears.",
+      "lead_authorities": [],
+      "paras": "order of 30.10.2009"
+    },
+    {
+      "tag": "UP-2005::4.49",
+      "application": "The licensee invoked Clause 4.49 as requiring a bank guarantee even where recovery of dues is stayed; the Court disposed of the writ on the petitioner's offer to furnish a Rs.12 lakh bank guarantee, with current charges remaining payable.",
+      "lead_authorities": [],
+      "paras": "order of 30.10.2009"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether Clause 4.49 textually applies to a successor's application for a new connection as opposed to enhancement of load",
+      "note": "The licensee described Clause 4.49 as a load-enhancement provision; the Court accepted the petitioner's bank-guarantee proposal without construing the clause.",
+      "paras": "order of 30.10.2009"
+    },
+    {
+      "point": "Correctness of the about Rs.11 lakh demand against Manish Papers and the pending civil suit",
+      "note": "The stay and surety bond were recorded; the suit and the quantum of the arrears were not adjudicated.",
+      "paras": "order of 30.10.2009"
+    },
+    {
+      "point": "Whether the petitioner as successor is independently liable for the predecessor's arrears",
+      "note": "Relief was confined to releasing the 35 HP connection against a bank guarantee; successor liability for the underlying demand was not decided.",
+      "paras": "order of 30.10.2009"
+    }
+  ],
+  "authorities": []
+}
