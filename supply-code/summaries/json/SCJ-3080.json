@@ -1,0 +1,59 @@
+{
+  "case_id": "SCJ-3080",
+  "title": "Rakesh Kumar v. Amar Nath Singh, Vice President, Torrent Power Corporation Ltd.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Jayant Banerji, J.",
+  "date_of_judgment": "2019-05-21",
+  "date_display": "21 May 2019",
+  "docket": "Contempt Application (Civil) No. 3954 of 2011",
+  "page_count": 8,
+  "significance": "ordinary",
+  "outcome": "none",
+  "model": "Grok 4.6",
+  "disposition": "Contempt dismissed; no disobedience of the entire-amount deposit direction.",
+  "headnote": "Where a writ court, after noticing clause 6.5 of the U.P. Electricity Supply Code, 2005, directs restoration of supply only on the consumer's deposit of the entire amount claimed because the consumer expressed inclination to deposit that amount, civil contempt of that order is not made out when the consumer later tenders only a six-month-average sum under clause 6.5(b)(ii) and the licensee refuses it. Clause 6.5(b)(i) itself contemplates payment of an amount equal to the sum claimed. The contention that the consumer was not required to pay the entire amount cannot be sustained. The contempt application was dismissed. The Court did not decide whether theft was established or the correctness of the final assessment.",
+  "facts": "Rakesh Kumar obtained a 26 April 2011 order in Writ-C No. 24090 of 2011. He had offered to pay the amount claimed by Torrent Power Corporation Ltd., Agra, so that his connection could be restored. After noticing clause 6.5 of the U.P. Electricity Supply Code, 2005, the writ court directed him to deposit the entire amount within two months of a certified copy and then apply for restoration, to be considered and restored within 72 hours. The order was irrespective of any theft case, to be dealt with independently.\n\nHe later filed this civil contempt against Amar Nath Singh, Vice President of the corporation, alleging that order had been flouted. He said clause 6.5(b) allowed him to pay under protest the lesser of the sum claimed or the average of the preceding six months, and that a banker's cheque of Rs 4,832 had been refused. The licensee replied that the writ required the entire Rs 1,31,443 final-assessment bill; that clause 6.5 concerns a disputed bill, not theft; and that an FIR, provisional assessment and final assessment had been raised.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5(b)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.5(b)",
+      "topic": "contempt of restoration-on-entire-deposit writ; 6.5(b)(ii) average tender is not compliance",
+      "type": "supply_code",
+      "question": "Is civil contempt of a writ directing restoration on deposit of the entire amount made out where the consumer later tenders only the clause 6.5(b)(ii) six-month average and the licensee refuses that cheque?",
+      "holding": "No. The 26.4.2011 writ in Writ-C No. 24090 of 2011 was passed after considering clause 6.5, on the consumer's own inclination to deposit the entire amount, with restoration to follow that deposit and an application. Clause 6.5(b)(i) itself contemplates payment of an amount equal to the sum claimed. A later banker's cheque of Rs 4,832, offered as the six-month average under clause 6.5(b)(ii) against a final-assessment bill of Rs 1,31,443, did not satisfy the writ. The contention that the consumer was not required to pay the entire amount cannot be sustained. No case of contempt was made out against the licensee's Vice President, and the application was dismissed.",
+      "qualifier": "The 26.4.2011 writ had already disposed of the petition on the consumer's offer to deposit the entire amount; this proceeding was later civil contempt of that order.",
+      "paras": "order of 21.5.2019",
+      "flag": "Contempt dismissed on finding no disobedience. The Court recites 'Section 6.5' / 'Section 6.5(b)' of the Code of 2005 (clause 6.5(b)). Source PDF also contains notice and listing orders of 19.8.2011 and 12.10.2011 (Sanjay Misra J.) and adjournments of 30.4.2019, 7.5.2019 and 14.5.2019 (Jayant Banerji J.); the judgment under record is 21.5.2019. Paragraphs unnumbered."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "contempt-compliance",
+      "application": "Civil contempt of a writ directing restoration on deposit of the entire amount was not made out where the consumer tendered only a clause 6.5(b)(ii) six-month-average cheque of Rs 4,832 against a Rs 1,31,443 final-assessment bill and the licensee refused it.",
+      "lead_authorities": [],
+      "paras": "order of 21.5.2019"
+    },
+    {
+      "tag": "6.5b-quantification-dispute",
+      "application": "Clause 6.5(b)(i) itself contemplates payment of an amount equal to the sum claimed. After a writ had directed deposit of the entire amount on the consumer's own inclination, the contention that only the clause 6.5(b)(ii) six-month average was required could not be sustained.",
+      "lead_authorities": [],
+      "paras": "order of 21.5.2019"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether theft was established and whether the Rs 1,31,443 final assessment was correct",
+      "note": "The contempt court decided only whether the 26.4.2011 deposit-and-restore direction had been disobeyed; it did not examine the theft FIR or the assessment on merits.",
+      "paras": "order of 21.5.2019"
+    },
+    {
+      "point": "Whether clause 6.5 of the Supply Code, 2005 applies to a theft assessment",
+      "note": "The licensee argued that clause 6.5 concerns a disputed bill and not theft. The Court recorded that stand but dismissed the contempt on the writ's entire-amount condition and clause 6.5(b)(i), without independently deciding the theft/6.5 interplay.",
+      "paras": "order of 21.5.2019"
+    }
+  ],
+  "authorities": []
+}
