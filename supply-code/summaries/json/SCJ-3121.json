@@ -1,0 +1,69 @@
+{
+  "case_id": "SCJ-3121",
+  "title": "M/S Hindustan Glass Works Ltd. v. State of U.P. & Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Yatindra Singh, J. and Mahendra Dayal, J.",
+  "date_of_judgment": "2012-09-05",
+  "date_display": "5 September 2012",
+  "docket": "Writ - C No. 43614 of 2012",
+  "page_count": 4,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition dismissed; protective-load dispute relegated to arbitration under paragraph 16 of the 1.5.2005 supply agreement; arbitrator to decide by a reasoned order; licensee may consider postponing recovery until that disposal",
+  "headnote": "Where a consumer challenges inclusion of protective load charges in electricity bills under Clause 4.27 of the U.P. Electricity Supply Code, 2005, and the parties join issue on whether supply is from an independent feeder and whether Clause 3.4 applies, but the supply agreement contains an arbitration clause, the writ court will not decide those Code questions. The consumer may raise the dispute in arbitration, to be decided by a reasoned order, and the writ is dismissed. Non-inclusion of the charges in earlier bills, if a mistake, was not the consumer's fraud and may have been the licensee's own; the licensee may consider postponing recovery until the arbitration is disposed of.",
+  "facts": "M/s Hindustan Glass Works Ltd., a public limited glass manufacturer, took supply under an agreement dated 1 May 2005 with U.P. Power Corporation Ltd., later Purvanchal Vidyut Vitran Nigam Ltd. It paid all bills through April 2012. From May 2012 the bills included protective load charges. The company paid later bills minus those charges. Objections before the Executive Engineer and Superintending Engineer were dismissed on 4 July 2012 and 25 August 2012. It then sought to quash recovery of the charges for May, June and July 2012.\n\nIt pleaded that Clause 4.27(f) of the U.P. Electricity Supply Code, 2005 allows such charges only from independent-feeder consumers, that it was not on an independent feeder or covered by Clause 3.4, and that supply was not continuous for 24 hours. The licensee said Clause 3.4(a) requires an independent feeder for 1000 kVA and above, that the petitioner used an induction furnace above that load and had been supplied through an independent feeder, and that earlier non-charging was a licensee mistake.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.27",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.27 (protective load)",
+      "topic": "writ challenging protective-load charges dismissed on the supply agreement's arbitration clause",
+      "type": "supply_code",
+      "question": "Where a consumer challenges protective-load charges under Clause 4.27, and the parties dispute independent-feeder supply and Clause 3.4, will the writ court decide those Code questions if the supply agreement contains an arbitration clause?",
+      "holding": "No. The Court recorded the parties' submissions on Clauses 4.27 and 3.4 as important but declined to go into them because paragraph 16 of the 1.5.2005 agreement contains an arbitration clause. The petitioner may raise the dispute in arbitration; the arbitrator is to decide it by a reasoned order. The writ petition is dismissed. The Court observed that non-mention of protective-load charges in bills until April 2012 was not due to any fraud or mistake by the petitioner and may have been the Corporation's own mistake, and that the Corporation may consider postponing recovery until the arbitration is disposed of.",
+      "qualifier": "The postponement of recovery is an observation that the licensee 'may consider', not a stay or a finding that the charges are or are not payable.",
+      "paras": "10-13",
+      "flag": "Source PDF compiles listings of 31.8.2012 and 3.9.2012 (Ashok Bhushan and Abhinava Upadhya, JJ.) plus the numbered 5.9.2012 disposal (Yatindra Singh and Mahendra Dayal, JJ.). Pins are of that disposal. Petitioner invoked Clause 4.27(f) and Clause 3.4; licensee invoked Clause 3.4(a). Neither clause was construed. Order recites 'Superintendent Engineer' (4.7.2012 and 25.8.2012 objections) and '1000 KVA'."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternative-remedy-relegation",
+      "application": "The writ challenging May–July 2012 protective-load charges was dismissed because paragraph 16 of the 1.5.2005 supply agreement contains an arbitration clause; the consumer was left to raise the dispute in arbitration, to be decided by a reasoned order, without a finding that the charges were or were not payable.",
+      "lead_authorities": [],
+      "paras": "10-13"
+    },
+    {
+      "tag": "protective-load-charges-clause-4.27-challenge",
+      "application": "The consumer challenged inclusion of protective-load charges under Clause 4.27 on the footing that Clause 4.27(f) confines the levy to independent-feeder consumers, that it was not covered by Clause 3.4, and that supply was not continuous for 24 hours. The licensee asserted Clause 3.4(a) independent-feeder supply for 1000 kVA and above. The Court recorded those submissions as important but did not decide them.",
+      "lead_authorities": [],
+      "paras": "8-11"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether protective-load charges under Clause 4.27(f) can be levied only from consumers supplied through an independent feeder, and whether the petitioner was so supplied",
+      "note": "Petitioner said it was not on an independent feeder; the licensee said Clause 3.4(a) required one for 1000 kVA and above and that the petitioner had in fact been given one. Recorded as important; not decided.",
+      "paras": "8-11"
+    },
+    {
+      "point": "Whether the petitioner was covered by Clause 3.4 / 3.4(a) of the U.P. Electricity Supply Code, 2005",
+      "note": "Petitioner said it was not covered; the licensee said load above 1000 kVA on an induction furnace required independent-feeder supply. Left to arbitration.",
+      "paras": "8-11"
+    },
+    {
+      "point": "Whether protective-load charges can be levied only when supply is given continuously for 24 hours",
+      "note": "Petitioner alleged huge loss from non-continuous supply. Not examined.",
+      "paras": "8"
+    },
+    {
+      "point": "Whether the 1.5.2005 agreement entitled the licensee to charge protective load, and whether non-charging until April 2012 bars a later levy",
+      "note": "The Court observed that earlier non-inclusion was not the petitioner's fraud and may have been the licensee's mistake, but did not decide whether the charges were payable.",
+      "paras": "8-9, 12"
+    }
+  ],
+  "authorities": []
+}
