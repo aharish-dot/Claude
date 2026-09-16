@@ -1,0 +1,69 @@
+{
+  "case_id": "SCJ-3101",
+  "title": "M/s M.D. Plastic v. Kanpur Electricity Supply Co.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Mahesh Chandra Tripathi, J. and Kunal Ravi Singh, J.",
+  "date_of_judgment": "2025-10-13",
+  "date_display": "13 October 2025",
+  "docket": "Writ - C No. 43080 of 2011",
+  "page_count": 6,
+  "significance": "procedural",
+  "outcome": "pending",
+  "model": "Grok 4.6",
+  "disposition": "Writ restored after default dismissal; listed; 2011 deposit-restoration interim extended",
+  "headnote": "A proprietorship consumer challenged a KESCO difference bill of Rs. 31,73,973 dated 13 July 2011 for April 2010 to June 2011, raised on the ground of CT reverse, as unsustainable for want of Clause 5.6 procedure under the U.P. Electricity Supply Code, 2005. The licensee said the reversed CT was detected on MRI checking. On 3 August 2011 a Division Bench called for a counter and a personal affidavit of the Executive Engineer and directed restoration of supply on deposit of Rs. 10 lakhs, with future bills to be paid as they fell due. Clause 5.6 was not construed. After later listings and de-linking from Writ-C No. 6249 of 2012, the writ was dismissed for want of prosecution on 1 September 2025, restored on 24 September 2025 with the 2011 interim extended, and on 13 October 2025 only listed in the next cause list. The difference bill remains pending.",
+  "facts": "M/s M.D. Plastic, a proprietorship, challenged a Kanpur Electricity Supply Company bill dated 13 July 2011 for Rs. 31,73,973, described as the difference of billed amount from April 2010 to June 2011 on the ground of CT reverse. The consumer said it had been paying bills regularly and that the licensee had issued the demand without following Clause 5.6 of the U.P. Electricity Supply Code, 2005. The licensee said the reversed CT was detected on MRI checking and the bill was rightly raised.\n\nOn 3 August 2011 a Division Bench directed restoration of supply on deposit of Rs. 10 lakhs, required the Executive Engineer to file a personal affidavit, and listed the writ after a counter. After later listings, de-linking from Writ-C No. 6249 of 2012, a 1 September 2025 dismissal for want of prosecution, and restoration on 24 September 2025, the last order of 13 October 2025 only listed the petition in the next cause list. The Clause 5.6 challenge remains undecided.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::5.6",
+      "code": "UP-2005",
+      "clause": "5.6",
+      "topic": "CT-reverse difference bill; Clause 5.6 invoked but not construed; restoration on deposit",
+      "type": "supply_code",
+      "question": "Must a distribution licensee follow Clause 5.6 of the U.P. Electricity Supply Code, 2005 before raising a multi-month difference bill on the ground of CT reverse detected on MRI checking?",
+      "holding": "The question was raised and not answered. The consumer challenged a 13.7.2011 difference bill of Rs. 31,73,973 for April 2010 to June 2011, alleging that KESCO had not followed Clause 5.6. The licensee said the reversed CT was detected on MRI checking and the bill was rightly raised. The Division Bench allowed three weeks for a counter, directed the Executive Engineer to file a personal affidavit, and ordered that, subject to deposit of Rs. 10 lakhs, supply shall be restored, with future bills payable as they fall due.",
+      "qualifier": "Interlocutory. Clause 5.6 was invoked by the petitioner, not construed.",
+      "paras": "3.8.2011",
+      "flag": "Thin interlocutory order. No merits construction of Clause 5.6 or of the CT-reverse demand. Sub-clauses 5.6(b)–(e) were not cited in the order."
+    },
+    {
+      "provision": "OFFTOPIC::procedural-listing",
+      "code": "OFFTOPIC",
+      "clause": "procedural-listing",
+      "topic": "default dismissal recalled; writ restored and listed",
+      "type": "supply_code",
+      "holding": "On 1.9.2025, listed as an oldest pending case, the writ was dismissed for want of prosecution, none present to press it. On 24.9.2025 a recall application was allowed, the 1.9.2025 order recalled, and the writ restored; counsel stated that Rs. 10 lakhs had been deposited under the 3.8.2011 interim and current bills were being paid; the earlier interim was extended till the next listing. On 13.10.2025 the petition was listed in the next cause list. Intermediate orders only adjourned or de-linked the writ from Writ-C No. 6249 of 2012. Clause 5.6 and the difference bill were not decided.",
+      "paras": "1.9.2025, 24.9.2025, 13.10.2025",
+      "flag": "Thin compilation of listing, default-dismissal, restoration, and adjournment orders. The last order does not dispose of the writ."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "procedural-listing-no-construction",
+      "application": "After a 1.9.2025 dismissal for want of prosecution, the writ was restored on 24.9.2025 and, on 13.10.2025, only listed in the next cause list; Clause 5.6 and the CT-reverse difference bill were not decided.",
+      "lead_authorities": [],
+      "paras": "1.9.2025, 24.9.2025, 13.10.2025"
+    },
+    {
+      "tag": "interim-restoration-on-part-payment-pending-assessment-challenge",
+      "application": "Pending the Clause 5.6 challenge to a Rs. 31,73,973 CT-reverse difference bill, supply was directed to be restored on deposit of Rs. 10 lakhs, with future bills payable as they fall due; that interim was later extended after restoration of the writ.",
+      "lead_authorities": [],
+      "paras": "3.8.2011, 24.9.2025"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether Clause 5.6 of the U.P. Electricity Supply Code, 2005 had to be followed before raising the CT-reverse difference bill",
+      "note": "Invoked by the petitioner on 3.8.2011; never construed.",
+      "paras": "3.8.2011"
+    },
+    {
+      "point": "Validity and quantum of the Rs. 31,73,973 difference bill dated 13.7.2011 for April 2010 to June 2011",
+      "note": "The licensee said MRI checking detected the reversed CT and the bill was rightly raised; the Court did not decide.",
+      "paras": "3.8.2011"
+    }
+  ],
+  "authorities": []
+}
