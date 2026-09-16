@@ -1,0 +1,74 @@
+{
+  "case_id": "SCJ-3098",
+  "title": "Narendra Singh v. State of U.P. and Others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Yatindra Singh, J.; Kashi Nath Pandey, J.",
+  "date_of_judgment": "2011-07-28",
+  "date_display": "28 July 2011",
+  "docket": "Writ - C No. 22700 of 2011",
+  "page_count": 4,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; representation to the Executive Engineer; recovery in abeyance on depositing half the disputed amount",
+  "headnote": "A writ against recovery of a Demand Notice dated 21 March 2011, issued for alleged theft of electricity after a 14 December 2010 provisional assessment was treated as final because no objections were filed and without a specific final assessment order, is disposed of without examining that demand or the Section 126 / Section 127 issues raised on 17 May 2011. The consumer may file a representation before the Executive Engineer, Vidyut Vitaran Nigam, Garh Mukteshwar, District Ghaziabad, within a month; that officer is to decide it by a speaking order, if possible within a month of receipt, and communicate the decision. Deposit of half the disputed amount with the representation keeps recovery in abeyance until that disposal, and the amount deposited is to be adjusted. The Court did not decide whether a specific final assessment order was required, whether a Section 127 appeal lay, or the correctness of the demand.",
+  "facts": "Narendra Singh challenged a Demand Notice dated 21 March 2011 issued for alleged theft of electricity, saying the Electricity Act, 2003 and the U.P. Electricity Supply Code, 2005 had not been followed. The licensee's counsel later stated that a provisional assessment of 14 December 2010 had been treated as final because no objections were filed, that the demand followed, and that no specific final assessment order had been issued. The petitioner said that left him without a Section 127 appeal; the licensee said a person who files no objections has none. After a listing for instructions and an interim stay of recovery on deposit of Rs. 1,25,000, a different Division Bench disposed of the writ on 28 July 2011.",
+  "holding_units": [
+    {
+      "provision": "EA2003::126",
+      "code": "Electricity Act, 2003",
+      "clause": "126",
+      "topic": "theft-assessment demand — representation to Executive Engineer; recovery in abeyance on depositing half",
+      "type": "electricity_act",
+      "question": "Will the writ court examine a theft-assessment demand, or relegate the consumer to a representation before the Executive Engineer?",
+      "holding": "The writ against recovery of electricity dues is disposed of without a merits decision. The petitioner may file a representation before the Executive Engineer, Vidyut Vitaran Nigam, Garh Mukteshwar, District Ghaziabad (respondent no. 3) within a month; that officer is to decide it by a speaking order, if possible within a month of receipt, and communicate the decision. If the petitioner deposits half of the disputed amount with the representation, recovery remains in abeyance till that disposal; the amount deposited is adjusted while calculating the final amount.",
+      "paras": "3-5",
+      "flag": "The 28.7.2011 disposal cites no section or Code clause. The 17.5.2011 order records the Demand Notice dated 21.3.2011 as issued for alleged theft of electricity, a provisional assessment dated 14.12.2010 treated as final because no objections were filed, and the licensee's statement that no specific final assessment order was issued. Keyed to Section 126 as that assessment field, not Clause 6.5 (billing representation). Source PDF compiles 20.4.2011 listing (Satya Poot Mehrotra and Rajesh Chandra, JJ.), 17.5.2011 notice-and-interim (Satya Poot Mehrotra and Jayashree Tiwari, JJ.; stay of the 21.3.2011 demand on deposit of Rs. 1,25,000), and this 28.7.2011 disposal; pins are numbered paragraphs of the disposal."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "assessment-demand-notices-relegated-to-representation-without-merits",
+      "application": "The 21.3.2011 Demand Notice was neither quashed nor upheld. The writ was disposed of by directing a representation to the Executive Engineer for a speaking order.",
+      "lead_authorities": [],
+      "paras": "3-5"
+    },
+    {
+      "tag": "representation-to-be-decided-in-accordance-with-law",
+      "application": "The consumer was sent to a representation before the Executive Engineer, Vidyut Vitaran Nigam, Garh Mukteshwar, District Ghaziabad, to be decided by a speaking order if possible within a month, without a writ-court finding on the dues.",
+      "lead_authorities": [],
+      "paras": "3"
+    },
+    {
+      "tag": "recovery-citation-kept-in-abeyance-pending-fresh-objection",
+      "application": "If half the disputed amount is deposited with the representation, recovery remains in abeyance till the Executive Engineer decides; the amount deposited is adjusted.",
+      "lead_authorities": [],
+      "paras": "4"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether a specific final assessment order under Section 126 was required, or an unobjected provisional assessment may be treated as final without one",
+      "note": "Raised on 17.5.2011: the licensee admitted that no specific final assessment order was issued and argued that none was required when no objections were filed. The Court then said the matter required consideration. The 28.7.2011 disposal does not decide it.",
+      "paras": "3-5"
+    },
+    {
+      "point": "Whether a consumer who files no objections to a provisional assessment has a right of appeal under Section 127 of the Electricity Act, 2003",
+      "note": "The petitioner said the absence of a specific final order deprived him of a Section 127 appeal; the licensee said a person who files no objections has none. Left open on 17.5.2011; not decided on 28.7.2011.",
+      "paras": "3-5"
+    },
+    {
+      "point": "Whether the Demand Notice dated 21.3.2011 complied with the Electricity Act, 2003 and the U.P. Electricity Supply Code, 2005",
+      "note": "The petitioner's challenge on 17.5.2011. Not examined in the disposal.",
+      "paras": "1, 3-5"
+    },
+    {
+      "point": "Correctness and quantum of the alleged theft assessment",
+      "note": "Left to the Executive Engineer's speaking order. The 28.7.2011 order does not quantify the disputed amount.",
+      "paras": "1, 3-5"
+    }
+  ],
+  "authorities": []
+}
