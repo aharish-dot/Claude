@@ -1,0 +1,98 @@
+{
+  "case_id": "SCJ-3084",
+  "title": "Smt. Anoop v. U.P. Power Corporation Ltd. Thru' Its Chairman And Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Satya Poot Mehrotra, J. & Rajesh Chandra, J.",
+  "date_of_judgment": "2011-03-17",
+  "date_display": "17 March 2011",
+  "docket": "Writ - C No. 12591 of 2011",
+  "page_count": 5,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; petitioner to file fresh objections with Rs.25,000; respondent no. 2 to decide them; recovery on the 14.02.2011 citation stayed pending that decision, with automatic vacation on default",
+  "headnote": "Where a theft-of-electricity checking is followed by a provisional assessment and then a recovery citation, but the licensee admits that no final assessment has been made and that no demand notice was issued before recovery, the citation cannot stand as a concluded demand. The U.P. Electricity Supply Code, 2005 requires objections to the provisional assessment to be disposed of by a speaking order after a reasonable opportunity of hearing. Where receipt of the consumer's objections is disputed, the writ court may direct fresh objections (here with a deposit of Rs. 25,000), require the assessing officer to decide them, and stay recovery on the citation for a limited period or until that decision, whichever is earlier, subject to automatic vacation on default. The consumer's right of appeal against a final assessment, once issued, is noted. The Court did not decide whether the earlier objections had been received, or the merits of the theft booking.",
+  "facts": "Smt. Anoop challenged a recovery citation dated 14 February 2011 for Rs. 90,323 plus other charges issued by U.P. Power Corporation Ltd. Checking of her premises allegedly detected theft of electricity. A checking report dated 20 August 2010 was followed by a provisional assessment and a notice dated 28 August 2010. She claimed to have filed objections dated 11 October 2010, and alleged that recovery had been started without the U.P. Electricity Supply Code, 2005 steps of disposing of those objections by a speaking order after a reasonable opportunity of hearing. Counsel for the Corporation stated, on instructions, that the 11 October 2010 objections were never received, that no final assessment order had been passed, and that no demand notice had been issued before recovery was initiated. The writ was listed on 7 and 10 March 2011 before being heard on 17 March 2011.",
+  "reusable_constructions": [
+    {
+      "construction": "A licensee cannot recover a theft-of-electricity demand on a provisional assessment where no final assessment order has been made.",
+      "paras": "8"
+    },
+    {
+      "construction": "Recovery proceedings cannot be initiated without issuing a demand notice to the consumer.",
+      "paras": "8"
+    },
+    {
+      "construction": "The U.P. Electricity Supply Code, 2005 requires objections to a provisional assessment to be disposed of by a speaking order after a reasonable opportunity of hearing.",
+      "paras": "4, 8-10"
+    },
+    {
+      "construction": "Where receipt of objections to a provisional assessment is disputed, the writ court may direct fresh objections and stay recovery pending their decision, without resolving that dispute.",
+      "paras": "9-10"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1(b)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "8.1(b) (theft — objections to provisional assessment, speaking final assessment, and demand before recovery)",
+      "topic": "No recovery on a provisional theft assessment without a speaking final assessment and a demand notice",
+      "type": "supply_code",
+      "question": "May a licensee recover a theft-of-electricity demand on a provisional assessment, by a recovery citation, where no final assessment has been made and no demand notice has been issued?",
+      "holding": "No. Counsel for the licensee admitted that no final assessment order had been passed and that no demand notice had been issued before recovery. The Supply Code, 2005 requires objections to the provisional assessment to be disposed of by a speaking order after a reasonable opportunity of hearing. Receipt of the petitioner's 11.10.2010 objections was disputed. The petitioner was directed to file fresh objections with a certified copy and Rs. 25,000 within five weeks; respondent no. 2 to decide them preferably within six weeks of receipt; and recovery on the citation dated 14.02.2011 stayed for three months or until that decision, whichever is earlier, with automatic vacation on default. A right of appeal against the final assessment, once issued, was noted.",
+      "paras": "7-11",
+      "flag": "The Court did not cite a clause number. The petitioner invoked the Supply Code, 2005 on disposal of objections to a provisional assessment by a speaking order after hearing, in an alleged theft booking; keyed to Clause 8.1(b). It could equally be Clause 6.8 if the demand was for unauthorised use — the order recites that theft was allegedly detected but does not number a clause. Paras are those of the unnumbered 17.3.2011 order (Satya Poot Mehrotra and Rajesh Chandra, JJ.). Sheets of 7.3.2011 (Sheo Kumar Singh and Sabhajeet Yadav, JJ.) and 10.3.2011 only listed the matter. OCR slip: 'interest of justice would be not served' is treated as 'would be served', given the operative directions that follow."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "no-recovery-without-final-assessment-clause-8.1(b)",
+      "application": "Counsel admitted that no final assessment had been made after the 28.08.2010 provisional theft assessment; recovery on the 14.02.2011 citation of Rs. 90,323 could not proceed as a concluded demand.",
+      "lead_authorities": [],
+      "paras": "7-8, 10"
+    },
+    {
+      "tag": "opportunity-before-final-assessment",
+      "application": "The Code requires objections to the provisional assessment to be disposed of by a speaking order after a reasonable opportunity of hearing; the Court directed respondent no. 2 to decide fresh objections on that footing.",
+      "lead_authorities": [],
+      "paras": "4, 8-10"
+    },
+    {
+      "tag": "pending-objection-to-provisional-assessment-to-be-decided",
+      "application": "Receipt of the 11.10.2010 objections was disputed. The Court did not resolve that dispute; it directed fresh objections and required respondent no. 2 to decide them preferably within six weeks.",
+      "lead_authorities": [],
+      "paras": "9-10"
+    },
+    {
+      "tag": "coercive-recovery-stayed-pending-final-assessment",
+      "application": "Recovery on the citation dated 14.02.2011 was stayed for three months or until disposal of the objections, whichever is earlier, subject to deposit of Rs. 25,000 and automatic vacation on default.",
+      "lead_authorities": [],
+      "paras": "10"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner in fact filed, and the licensee received, objections dated 11.10.2010 to the provisional assessment",
+      "note": "Expressly recorded as a dispute; the Court directed fresh objections instead of resolving it.",
+      "paras": "7, 9-10"
+    },
+    {
+      "point": "Merits of the alleged theft and the checking report dated 20.08.2010",
+      "note": "Recorded as the licensee's case; left to the objections and the speaking order.",
+      "paras": "1, 10"
+    },
+    {
+      "point": "Correctness / quantum of the Rs. 90,323 demand",
+      "note": "Left to respondent no. 2 on the fresh objections; a right of appeal against a final assessment, once issued, was noted.",
+      "paras": "4, 8, 10"
+    },
+    {
+      "point": "Whether the demand is a theft assessment (Clause 8.1) or unauthorised use (Clause 6.8)",
+      "note": "The order recites that theft was allegedly detected but cites no numbered clause.",
+      "paras": "1, 4, 8"
+    }
+  ],
+  "authorities": []
+}
