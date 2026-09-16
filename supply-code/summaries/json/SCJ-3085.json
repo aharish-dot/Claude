@@ -1,0 +1,85 @@
+{
+  "case_id": "SCJ-3085",
+  "title": "Hari Krishna Pandey v. Purvanchal Electricity Distribution Nigam Ltd. & Another",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Salil Kumar Rai, J.; Arun Kumar Singh Deshwal, J.",
+  "date_of_judgment": "2023-03-22",
+  "date_display": "22 March 2023",
+  "docket": "Writ - C No. 12946 of 2011",
+  "page_count": 9,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; representation to the Executive Engineer, who shall withdraw the bill if no provisional assessment was given or the assessment was not in accordance with s.126 / the Supply Code, else liberty to appeal under s.127; decide within six months",
+  "headnote": "Where a consumer challenges a post-disconnection electricity bill as having been issued after permanent disconnection and without a provisional assessment, and the licensee has filed no counter-affidavit showing that the U.P. Electricity Supply Code, 2005 assessment procedure was followed, the writ court will not keep the petition pending or decide the bill. The consumer may represent to the Executive Engineer, who is to enquire and decide within six months. If that officer finds that the provisional assessment was not given, or that the assessment was not done in accordance with Section 126 of the Electricity Act, 2003 or the Supply Code, 2005, he shall withdraw the bill; if the decision is against the consumer, liberty is reserved to appeal under Section 127 read with the Code. The Court did not decide whether the 20 January 2011 bill of Rs. 2,92,452 was a lawful assessment, whether the connection had been permanently disconnected, or the effect of the accepted final report on the Section 135 FIR.",
+  "facts": "Hari Krishna Pandey challenged a bill of Rs. 2,92,452 issued on 20 January 2011 by Purvanchal Electricity Distribution Nigam Ltd. He said the bill was raised after his connection had been permanently disconnected on his own application, the permanent-disconnection fee having been paid on 21 July 2010. An FIR had been registered against him under Section 135 of the Electricity Act, 2003 for unauthorised use of electricity, but a final report in that case was accepted by the concerned court.\n\nOn 4 March 2011 a Division Bench stayed recovery of that bill, recording a prima facie view that it was for a period after permanent disconnection. The writ was dismissed for want of prosecution on 28 August 2017 and restored on 10 April 2018. At the 22 March 2023 hearing, no counter-affidavit showed that the U.P. Electricity Supply Code, 2005 assessment procedure had been followed. Counsel stated that the provisional assessment had not been supplied.",
+  "holding_units": [
+    {
+      "provision": "EA2003::126",
+      "code": "Electricity Act, 2003",
+      "clause": "126",
+      "topic": "post-disconnection bill treated as an assessment — representation to EE; withdraw if no provisional assessment or if not in accordance with s.126 / the Code",
+      "type": "interplay",
+      "question": "Where a consumer challenges a post-disconnection bill as issued without a provisional assessment, and the licensee has filed no counter showing Supply Code procedure, will the writ court quash the bill?",
+      "holding": "No. The petition is disposed with liberty to represent to the Executive Engineer, Electricity Distribution Division-II, U.P. Power Corporation Ltd., Allahabad, who shall enquire and take appropriate action on the representation within six months. If he finds that the provisional assessment was not given, or that the assessment was not done in accordance with Section 126 of the Electricity Act, 2003 or the U.P. Electricity Supply Code, 2005, he shall withdraw the bill.",
+      "paras": "3-7",
+      "flag": "The Court cited no numbered Code clause. The petitioner's primary case was a bill after permanent disconnection (PD fee 21.7.2010; bill 20.1.2011); the Court treated the demand as an 'assessment' under s.126 / the Code. The FIR was described as s.135 for 'unauthorized use of electricity' (mixing theft and unauthorised use). Source PDF compiles 2011–2018 listing, default-dismissal and restoration sheets plus the 22.3.2023 disposal; pins are narrative blocks of that disposal (unnumbered). The 4.3.2011 stay of the 20.1.2011 bill is not continued or vacated in the 2023 order. Respondent no. 2 is described as an Executive Engineer of U.P. Power Corporation Ltd., Allahabad, though the cause title is Purvanchal Electricity Distribution Nigam Ltd."
+    },
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act, 2003",
+      "clause": "127",
+      "topic": "liberty to appeal the assessment if the Executive Engineer's decision is adverse",
+      "type": "electricity_act",
+      "question": "If the Executive Engineer's decision on the representation is against the consumer, what further remedy remains?",
+      "holding": "The petitioner has a remedy to appeal against the assessment order under Section 127 of the Electricity Act, 2003. If the Executive Engineer's decision on the representation is against him, he is at liberty to challenge the assessment order in an appeal under Section 127 read with the U.P. Electricity Supply Code, 2005.",
+      "paras": "4, 6",
+      "flag": "The Court named Section 127 but no Code appeal clause. The writ was not dismissed as barred by the statutory appeal; it was disposed by a representation, with s.127 reserved if the representation failed."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "opportunity-before-final-assessment",
+      "application": "Counsel stated that the provisional assessment had not been supplied and no counter showed Code procedure. The Executive Engineer was directed to withdraw the 20.1.2011 bill if he found that the provisional assessment was not given or that the assessment was not done in accordance with Section 126 or the Supply Code, 2005.",
+      "lead_authorities": [],
+      "paras": "3-6"
+    },
+    {
+      "tag": "assessment-demand-notices-relegated-to-representation-without-merits",
+      "application": "The Court did not quash or uphold the Rs. 2,92,452 bill. It disposed of the writ with liberty to represent to the Executive Engineer, who is to enquire and decide within six months.",
+      "lead_authorities": [],
+      "paras": "5-7"
+    },
+    {
+      "tag": "alternative-remedy-relegation-section-127",
+      "application": "The Court recorded a Section 127 appeal against the assessment order and, if the Executive Engineer's decision is adverse, reserved liberty to challenge that assessment in a Section 127 appeal read with the Supply Code, 2005.",
+      "lead_authorities": [],
+      "paras": "4, 6"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the 20.1.2011 bill of Rs. 2,92,452 was issued after a lawful permanent disconnection and is therefore unsustainable",
+      "note": "The petitioner's primary case, and the 4.3.2011 interim recorded a prima facie view that the bill was for a period after permanent disconnection. Left to the representation.",
+      "paras": "1-2, 5"
+    },
+    {
+      "point": "Whether a provisional assessment was in fact supplied, and whether the assessment complied with Section 126 and the Supply Code, 2005",
+      "note": "Counsel asserted non-supply; no counter was filed. The Executive Engineer is to find those facts and, if made out, withdraw the bill.",
+      "paras": "3-6"
+    },
+    {
+      "point": "Whether the demand is a Section 126 unauthorised-use assessment, a Section 135 theft assessment, or an ordinary energy bill",
+      "note": "The Court spoke of an 'assessment' under s.126 / the Code. The FIR was described as s.135 for unauthorised use; a final report had been accepted. Not characterised further.",
+      "paras": "2-4, 6"
+    },
+    {
+      "point": "Quantum of Rs. 2,92,452, and the effect of the accepted final report on the Section 135 FIR",
+      "note": "Not examined.",
+      "paras": "1-2, 5-6"
+    }
+  ],
+  "authorities": []
+}
