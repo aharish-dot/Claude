@@ -1,0 +1,78 @@
+{
+  "case_id": "SCJ-3145",
+  "title": "Bajroodeen v. State of U.P. & 3 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Tarun Agarwala, J. & Shri Narayan Shukla, J.",
+  "date_of_judgment": "2014-10-28",
+  "date_display": "28 October 2014",
+  "docket": "Writ - C No. 36136 of 2014",
+  "page_count": 7,
+  "significance": "procedural",
+  "outcome": "none",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed in default; interim stay of recovery vacated",
+  "headnote": "A writ challenging a 31.5.2014 recovery citation of Rs.96,655 for electricity dues, on the plea that bills had been paid and nothing was outstanding, was dismissed in default when none appeared to press it in the revised call, and the interim restraint on recovery was vacated. Interlocutory sittings had recorded the licensee's case of an earlier connection (no. 9077/262905) with unpaid dues after a delayed permanent disconnection and, after records were produced, the concession that the later connection was for different premises. On 15.9.2014 the Court recorded that under clause 4.38 of the U.P. Electricity Supply Code, 2005 permanent disconnection was liable within six months but was effected on 30.7.2011, after which a final bill was sent, and that the petitioner contended recovery could not be after two years; a counter was called and recovery kept in abeyance. Those points were not decided.",
+  "facts": "Bajroodeen filed Writ-C No. 36136 of 2014 against the State of U.P. and others, challenging a recovery citation dated 31 May 2014 for Rs.96,655 towards electricity dues. He said he had deposited his bills and had no outstanding. Counsel for the respondent Corporation stated he had earlier held connection no. 9077/262905, had applied for permanent disconnection, and that physical verification found Rs.1,33,853 due; after a waiver of Rs.46,015, recovery of Rs.87,838 was issued and not paid. The Corporation alleged he took a fresh connection without clearing those dues and concealed the earlier connection. He denied any prior connection.\n\nAfter original records were produced, the Corporation conceded the subsequent connection was for different premises. Bills on the first connection were alleged from 2 March 1999 to 27 May 2008 with no payment. Permanent disconnection, said to be due within six months under clause 4.38, was effected on 30 July 2011 and a final bill then sent. The petitioner said recovery could not follow after two years. A counter was directed and recovery stayed. On 28 October 2014 none appeared to press the writ.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.38",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.38",
+      "topic": "Delayed permanent disconnection and later recovery; writ dismissed in default",
+      "type": "supply_code",
+      "holding": "On 15.9.2014, after records were produced and the Corporation conceded that the subsequent connection was for different premises, the Court recorded that bills on the first connection were alleged from 2.3.1999 to 27.5.2008 with no payment, that under clause 4.38 of the U.P. Electricity Supply Code, 2005 permanent disconnection was liable within six months but was made on 30.7.2011, and that a final bill was then prepared and sent. The petitioner contended recovery could not be after expiry of two years. A counter was directed and recovery kept in abeyance. On 28.10.2014 none appeared to press the writ even in the revised call; it was dismissed in default and the interim order vacated, without construing clause 4.38 or the two-year bar.",
+      "qualifier": "Interlocutory 15.9.2014 (Krishna Murari and Ashwani Kumar Mishra, JJ.); dismissed in default on 28.10.2014 without a merits construction.",
+      "paras": "order of 15.9.2014, order of 28.10.2014",
+      "flag": "Thin procedural record of seven unnumbered sittings. Operative order is 28.10.2014 (Tarun Agarwala and Shri Narayan Shukla, JJ.). 16.7.2014–28.8.2014 are notice, instructions and production of records. The petitioner's two-year bar was not keyed to a numbered clause (6.15 / s.56(2) not cited). Do not treat the 15.9.2014 recital as a construction of clause 4.38."
+    },
+    {
+      "provision": "OFFTOPIC::dismissal-in-default-and-want-of-prosecution",
+      "code": "Article 226 — dismissal in default",
+      "clause": "dismissal in default",
+      "topic": "Writ dismissed in default when none appeared to press; interim vacated",
+      "type": "interplay",
+      "holding": "On 28 October 2014 the list was revised, no one appeared to press the writ petition, and it was dismissed in default. The interim order, if any, stood vacated. The Court did not decide the recovery, clause 4.38, or the two-year bar.",
+      "paras": "order of 28.10.2014"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "writ-dismissed-in-default-and-for-want-of-prosecution",
+      "application": "After interlocutory sittings on a recovery citation and a 15.9.2014 stay pending a counter, none appeared to press the writ in the revised call of 28.10.2014; the petition was dismissed in default, leaving clause 4.38 and the two-year recovery point undecided.",
+      "lead_authorities": [],
+      "paras": "order of 28.10.2014"
+    },
+    {
+      "tag": "writ-dismissed-for-want-of-prosecution-interim-vacated",
+      "application": "Dismissal in default on non-appearance vacated the stay of recovery proceedings; no ruling was given on the citation or on the first connection's arrears.",
+      "lead_authorities": [],
+      "paras": "order of 28.10.2014"
+    },
+    {
+      "tag": "permanent-disconnection-procedure-governed-by-clause-4.38",
+      "application": "The 15.9.2014 sitting recorded that under clause 4.38 permanent disconnection of the first connection was liable within six months but was effected on 30.7.2011, after which a final bill was sent; dismissal in default left that recital unconstrued.",
+      "lead_authorities": [],
+      "paras": "order of 15.9.2014"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether delayed permanent disconnection under clause 4.38 bars or affects recovery of the first connection's arrears",
+      "note": "The 15.9.2014 order recorded that disconnection was liable within six months but was made on 30.7.2011, then called for a counter; dismissal in default left the point unadjudicated.",
+      "paras": "order of 15.9.2014"
+    },
+    {
+      "point": "Whether recovery after expiry of two years was barred",
+      "note": "Raised by the petitioner on 15.9.2014 without a numbered Code or Act clause; not decided.",
+      "paras": "order of 15.9.2014"
+    },
+    {
+      "point": "Whether arrears of the first connection could be recovered against a subsequent connection at different premises",
+      "note": "The Corporation first alleged a fresh connection without clearing earlier dues; on 15.9.2014 it conceded the later connection was for different premises. Not decided.",
+      "paras": "order of 28.7.2014, order of 15.9.2014"
+    }
+  ],
+  "authorities": []
+}
