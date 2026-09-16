@@ -1,0 +1,110 @@
+{
+  "case_id": "SCJ-3105",
+  "title": "Akram v. State of U.P. and Another",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sunil Ambwani, J. & Pankaj Naqvi, J.",
+  "date_of_judgment": "2012-03-14",
+  "date_display": "14 March 2012",
+  "docket": "Writ - C No. 10431 of 2012",
+  "page_count": 5,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; order dated 24.10.2011 set aside; Executive Engineer to pass a fresh Section 126(3) order after a reasonable opportunity of hearing; if still aggrieved, appeal under Section 127",
+  "headnote": "Where objections are filed to a provisional assessment under Section 126 of the Electricity Act, 2003, Section 126(3) requires the assessing officer to afford a reasonable opportunity of hearing and then to pass a final order that considers the objections, decides the charges payable, records whether the basis of assessment is correct, and records whether the assessment is in accordance with the Rules and the U.P. Electricity Supply Code, 2005. A mechanical order that merely records sympathetic consideration, rejects the representation, and directs deposit of the provisional figure without facts or reasons does not satisfy Section 126(3) and is set aside, with a fresh order directed after hearing. Compounding of a Section 135 offence under Section 152, deemed an acquittal of the criminal offence, does not relieve the civil liability of assessment under Section 126, against which an appeal lies under Section 127.",
+  "facts": "Akram, owner of a shop opposite S.D. Plaza, Patel Nagar, Police Station Prem Nagar, Bareilly, faced an inspection on 14 September 2011 by electricity officers with police. The occupier was found unauthorisedly drawing electricity without a valid connection of the required load. An FIR was lodged the same day in Case Crime No. 2793 of 20011 under Section 135 of the Electricity Act, 2003, and a provisional assessment of Rs. 2,53,184 was made under Section 126(1).\n\nHe said the shop had been let out and that he had pleaded guilty to the theft offence, compounded under Section 152 on deposit of Rs. 80,000. His representation dated 7 October 2011 did not mention a letting-out: it claimed a 2 kW connection with regular bills, absence from Bareilly when the shop was closed, and an excessive assessment. The Executive Engineer, Vidyut Nagariya Vitran Khand III, Madhyanchal Vidyut Vitran Nigam Limited, Bareilly, produced an order dated 24 October 2011 rejecting that representation and requiring deposit of Rs. 2,53,184 within a week, failing which recovery. Akram challenged that order.",
+  "reusable_constructions": [
+    {
+      "construction": "Compounding a Section 135 offence under Section 152 of the Electricity Act, 2003, which is deemed an acquittal of the criminal offence, does not relieve the civil liability of assessment under Section 126.",
+      "paras": "7"
+    },
+    {
+      "construction": "After objections to a provisional assessment, Section 126(3) requires a reasonable opportunity of hearing and a final order that considers the objections and decides the charges payable.",
+      "paras": "8-9"
+    },
+    {
+      "construction": "The assessing officer must record in the final assessment whether the basis of assessment is correct and whether the assessment is made in accordance with the Rules and the U.P. Electricity Supply Code, 2005.",
+      "paras": "8"
+    },
+    {
+      "construction": "A mechanical, unreasoned rejection of objections that merely directs deposit of the provisional figure is not a valid final assessment under Section 126(3).",
+      "paras": "6, 8-9"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::126(3)",
+      "code": "Electricity Act, 2003",
+      "clause": "126(3)",
+      "topic": "unreasoned rejection of objections is not a valid final assessment; order must consider objections, record the basis, and record Supply Code compliance",
+      "type": "interplay",
+      "question": "Does a mechanical order that rejects objections to a provisional assessment and directs deposit of the assessed sum, without facts or reasons, satisfy Section 126(3)?",
+      "holding": "No. Where a person served under Section 126(2) files objections, the assessing officer must afford a reasonable opportunity of hearing and then pass a final order of assessment. That obligation requires consideration of the objections, a decision on the charges payable, a record of whether the basis of assessment is correct, and a record of whether the assessment is made in accordance with the Rules and the U.P. Electricity Supply Code, 2005. The Executive Engineer's order dated 24.10.2011 stated that the 7.10.2011 representation was considered sympathetically and rejected, and directed deposit of Rs. 2,53,184 within a week, without referring to any fact or containing reasons. It was passed mechanically without looking into the facts, the objections, or complying with Section 126(3), and is set aside. A fresh order is to be passed after a reasonable opportunity of hearing; if still aggrieved, the consumer may appeal under Section 127.",
+      "paras": "6-9",
+      "flag": "The Court required the assessing officer to record Supply Code, 2005 compliance but cited no clause number. Source PDF compiles listing orders of 27.2.2012 and 1.3.2012 (Vineet Saran and Ashok Pal Singh, JJ.); pins are numbered paragraphs of the 14.3.2012 judgment. The Executive Engineer's order, as recorded, threatened recovery under 'Sections 3 and 5 of the Act'; the Court did not identify or construe that statute."
+    },
+    {
+      "provision": "EA2003::152",
+      "code": "Electricity Act, 2003",
+      "clause": "152",
+      "topic": "compounding a Section 135 offence does not extinguish Section 126 civil assessment",
+      "type": "electricity_act",
+      "question": "Does compounding a Section 135 theft offence under Section 152, deemed an acquittal, relieve the consumer from assessment under Section 126?",
+      "holding": "No. After compounding fees of Rs. 80,000 were deposited under Section 152, acceptance of that sum for compounding an offence under sub-section (1) is deemed to amount to an acquittal of the criminal offence. That consequence does not relieve the civil liability of assessment under Section 126, for which an appeal is provided under Section 127.",
+      "qualifier": "The Court proceeded on the petitioner's account that he had pleaded guilty and the offence had been compounded; it did not independently examine compounding papers.",
+      "paras": "3, 7"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "compounding-fee-does-not-extinguish-civil-consumption-dues",
+      "application": "Deposit of Rs. 80,000 as compounding under Section 152 after a Section 135 FIR was treated as a deemed acquittal of the criminal offence, but the Court held that it did not relieve the Section 126 civil assessment.",
+      "lead_authorities": [],
+      "paras": "7"
+    },
+    {
+      "tag": "opportunity-before-final-assessment",
+      "application": "Objections to the provisional assessment of Rs. 2,53,184 had been filed, but the 24.10.2011 order did not afford a reasoned hearing or consider those objections; a fresh Section 126(3) order after a reasonable opportunity of hearing was directed.",
+      "lead_authorities": [],
+      "paras": "8-9"
+    },
+    {
+      "tag": "final-assessment-order-mandatory-under-section-126-3",
+      "application": "The 24.10.2011 order, which rejected the representation and directed deposit of the provisional figure without facts or reasons, was held not to meet Section 126(3) and was set aside.",
+      "lead_authorities": [],
+      "paras": "6, 8-9"
+    },
+    {
+      "tag": "speaking-order-required-for-theft-assessment",
+      "application": "After a Section 135 FIR and compounding, the assessing officer still had to pass a speaking final assessment recording whether the basis was correct and whether the assessment accorded with the Rules and the Supply Code, 2005.",
+      "lead_authorities": [],
+      "paras": "8-9"
+    },
+    {
+      "tag": "126-vs-135-distinct-fields-but-126-still-applies-to-theft",
+      "application": "The criminal field (Section 135 FIR, compounded under Section 152) was treated as distinct from the surviving civil assessment under Section 126.",
+      "lead_authorities": [],
+      "paras": "2-3, 7"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness and quantum of the provisional assessment of Rs. 2,53,184",
+      "note": "Left to the fresh Section 126(3) order after hearing; if still aggrieved, Section 127 appeal.",
+      "paras": "4, 8-9"
+    },
+    {
+      "point": "Whether the shop was let out, closed on 14.9.2011, or the petitioner was absent from Bareilly, and whether he held a 2 kW connection with regular bills",
+      "note": "The Court recorded that the letting-out plea was not in the 7.10.2011 representation, but did not decide those facts.",
+      "paras": "4"
+    },
+    {
+      "point": "Whether unauthorised use or theft was made out on the 14.9.2011 inspection, and the validity of the Section 135 FIR",
+      "note": "The writ turned on the validity of the 24.10.2011 assessment order, not on the criminal case or the inspection finding.",
+      "paras": "2-3, 9"
+    }
+  ],
+  "authorities": []
+}
