@@ -1,0 +1,80 @@
+{
+  "case_id": "SCJ-3093",
+  "title": "Sultan Khan v. State of U.P. and Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Yatindra Singh, J. & Kashi Nath Pandey, J.",
+  "date_of_judgment": "2011-07-28",
+  "date_display": "28 July 2011",
+  "docket": "Writ - C No. 19027 of 2011",
+  "page_count": 7,
+  "significance": "procedural",
+  "outcome": "none",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed in default; 27.5.2011 conditional stay of recovery on a Clause 4.37 footing",
+  "headnote": "On 27 May 2011 a Division Bench found prima facie substance in the consumer's contention that a purported permanent disconnection dated 8 April 2005, if not made by the competent authority, had to be treated as a temporary disconnection, so that only the outstanding bill as of that date plus six months' minimum charges under Clause 4.37 of the U.P. Electricity Supply Code, 2005 could be charged. The licensee had submitted that permanent disconnection could not have been made as alleged in 2005 because no officer below Sub-Divisional Officer rank was authorised to direct it in December 2010; inspection found the lines unconnected but the meter still installed; the meter was then removed and bills were raised on its readings with minimum charges. As an interim measure the Court stayed recovery under the fresh demand if the petitioner paid the 8.4.2005 arrears plus six months' minimum charges with interest within one month, and called for a counter affidavit. On 28 July 2011 none appeared for the petitioner and the writ was dismissed in default, without a final determination of the disconnection or the demand.",
+  "facts": "Sultan Khan filed Writ-C No. 19027 of 2011 against the State of U.P. and others, challenging a fresh electricity demand after an alleged permanent disconnection dated 8 April 2005. After listings for instructions, the licensee's counsel submitted on 27 May 2011 that permanent disconnection could not have been made as alleged in 2005, because no officer below Sub-Divisional Officer rank was authorised to direct it in December 2010; inspection found the lines unconnected but the meter still installed, after which the meter was removed and bills were raised on its readings with minimum charges. The petitioner contended that a disconnection not ordered by the competent authority had to be treated as temporary, so only the outstanding as of 8.4.2005 plus six months' minimum charges under Clause 4.37 of the U.P. Electricity Supply Code, 2005 were recoverable. On 28 July 2011 none appeared for the petitioner and the writ was dismissed in default.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.37",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.37(a) (minimum-charge billing after temporary disconnection; permanent disconnection after six months if the cause is not removed)",
+      "topic": "Purported permanent disconnection not by the competent authority treated as temporary; only outstanding as of that date plus six months' minimum charges; writ later dismissed in default",
+      "type": "supply_code",
+      "question": "Where a purported permanent disconnection is not made by the competent authority, is it to be treated as a temporary disconnection so that only the outstanding as of that date plus six months' minimum charges under Clause 4.37 may be recovered?",
+      "holding": "Prima facie, and only as an interim measure, yes. The Court found substance in the contention that a permanent disconnection dated 8.4.2005 not made by the competent authority had to be treated as a temporary disconnection, so that the outstanding bill as of that date and six months' minimum charges under Clause 4.37 could be charged. Recovery under the fresh demand was stayed if the petitioner paid those sums with interest within one month; a revised provisional bill was then to be issued within 15 days, and default in payment would vacate the stay. The writ was later dismissed in default on 28.7.2011 without a merits determination.",
+      "qualifier": "Prima facie and interlocutory (27.5.2011, Sunil Ambwani, J. and Kashi Nath Pandey, J.); the petition was dismissed in default on 28.7.2011.",
+      "paras": "5-6",
+      "flag": "Unnumbered order-sheet of six successive listings. Paras 1-4 are listings (1.4.2011, 11.4.2011, 18.4.2011, 13.5.2011). Para 5 is the 27.5.2011 interlocutory order quoting Clause 4.37(a)-(b). Para 6 is the 28.7.2011 dismissal in default. Annexure 4.9 in the quoted clause is a notice format, not Clause 4.9. Clause 4.37(b) / s.138 of the Electricity Act, 2003 was quoted and not applied."
+    },
+    {
+      "provision": "OFFTOPIC::dismissal-in-default-and-want-of-prosecution",
+      "code": "Article 226 — dismissal in default",
+      "clause": "dismissal in default",
+      "topic": "Writ dismissed in default when none appeared for the petitioner",
+      "type": "interplay",
+      "holding": "On 28.7.2011 the case was called out, none was present for the petitioner, and the writ petition was dismissed in default, without a final ruling on the Clause 4.37 demand.",
+      "paras": "6",
+      "flag": "The 28.7.2011 order does not expressly discharge the 27.5.2011 stay; that stay was already self-vacating on failure to pay within one month."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-4.37-4.38-licensee-empowered-to-permanently-disconnect",
+      "application": "Prima facie, a purported permanent disconnection not made by the competent authority is treated as a temporary disconnection, so that only the outstanding as of that date plus six months' minimum charges under Clause 4.37 may be charged; the point was not finally decided.",
+      "lead_authorities": [],
+      "paras": "5"
+    },
+    {
+      "tag": "prima-facie-scrutiny-interim-protection-on-disputed-assessment",
+      "application": "Recovery under the fresh demand was stayed if the petitioner paid the 8.4.2005 arrears plus six months' minimum charges with interest within one month, on a prima facie Clause 4.37 view, pending a counter affidavit.",
+      "lead_authorities": [],
+      "paras": "5"
+    },
+    {
+      "tag": "want-of-prosecution-dismissal-vacates-interim-stay",
+      "application": "None appearing for the petitioner, the writ was dismissed in default on 28.7.2011; the Clause 4.37 demand was left unadjudicated.",
+      "lead_authorities": [],
+      "paras": "6"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the 8.4.2005 disconnection was a valid permanent disconnection by a competent authority, or only a temporary disconnection",
+      "note": "The 27.5.2011 view was expressly prima facie; dismissal in default left the character of the disconnection unadjudicated.",
+      "paras": "5-6"
+    },
+    {
+      "point": "Lawfulness and quantum of the fresh demand beyond the outstanding as of 8.4.2005 plus six months' minimum charges",
+      "note": "A revised provisional bill was contemplated only if the petitioner paid within one month; the writ was later dismissed in default.",
+      "paras": "5-6"
+    },
+    {
+      "point": "Whether unauthorised reconnection after temporary disconnection attracted s.138 of the Electricity Act, 2003",
+      "note": "Clause 4.37(b) was quoted with the clause and not applied.",
+      "paras": "5"
+    }
+  ],
+  "authorities": []
+}
