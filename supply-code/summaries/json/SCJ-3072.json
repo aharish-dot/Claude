@@ -1,0 +1,72 @@
+{
+  "case_id": "SCJ-3072",
+  "title": "Alliance Builders & Contrctors Ltd. v. U.P.P.C.L. Through Chairman & Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Ashok Bhushan, J. & Bala Krishna Narayana, J.",
+  "date_of_judgment": "2010-05-12",
+  "date_display": "12 May 2010",
+  "docket": "Writ - C No. - 23408 of 2010",
+  "page_count": 4,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; demand notice dated 03.02.2010 set aside, with liberty to respondent no. 2 to take an appropriate decision and then proceed in accordance with law.",
+  "headnote": "A demand under Section 126 of the Electricity Act, 2003 cannot stand where a Chief Engineer has already held that theft is not established and recommended withdrawal of the provisional assessment, and an audit objection to that withdrawal is still under correspondence with Management. Until Management decides whether the withdrawal was correct and whether the consumer is liable, a fresh demand is not justified. The Division Bench set aside the notice dated 3 February 2010, with liberty to the competent respondent to take an appropriate decision and thereafter proceed in accordance with law. It did not decide whether the Chief Engineer's withdrawal accorded with the Electricity Supply Code, 2005, or the quantum of liability.",
+  "facts": "Alliance Builders & Contrctors Ltd., a consumer of U.P. Power Corporation Ltd., had its premises checked on 7 August 2006 by a team headed by the Executive Engineer. A provisional notice followed on 22 August 2006; the company replied on 5 September 2006. On 22 September 2006 the Executive Engineer directed recovery of the assessed amount with compounding fee, failing which an FIR was to be lodged. On a representation to the Zonal Chief Engineer, a two-Executive-Engineer committee was constituted, and by order dated 4 May 2007 the Chief Engineer held that theft could not be established and recommended withdrawal of the provisional assessment. No further action followed until an audit team objected that the withdrawal did not accord with the Electricity Supply Code, 2005. Correspondence between the Chief Engineer and the General Manager (Finance and Accounts) on that objection was still underway when, on 3 February 2010, the Executive Engineer issued a notice under Section 126 of the Electricity Act, 2003 demanding Rs. 36,68,312. The writ sought quashing of that notice.",
+  "reusable_constructions": [
+    {
+      "construction": "A Section 126 demand cannot be issued while the licensee's Management has not yet decided an audit objection to a Chief Engineer's order withdrawing a theft assessment.",
+      "paras": "6-7"
+    },
+    {
+      "construction": "A pending audit objection does not, by itself, revive a withdrawn assessment or authorise a subordinate officer to raise a fresh demand.",
+      "paras": "6-7"
+    },
+    {
+      "construction": "Until a competent authority sets aside a Chief Engineer's withdrawal of a theft assessment, that withdrawal remains operative; a later demand is liable to be quashed, without prejudice to the licensee proceeding after Management decides.",
+      "paras": "6-7"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::126",
+      "code": "Electricity Act, 2003",
+      "clause": "126",
+      "topic": "Section 126 demand barred while Management has not decided an audit objection to withdrawal of the theft assessment",
+      "type": "electricity_act",
+      "question": "Can an officer issue a Section 126 demand reviving a theft assessment that a Chief Engineer has withdrawn, while Management has not yet decided an audit objection to that withdrawal?",
+      "holding": "No. After the audit objection, the process of submitting a reply was still under progress and Management had not decided whether the Chief Engineer's decision was correct or whether the petitioner was liable to pay the amount then demanded. Issuance of the 3 February 2010 notice was not justified till Management took a final decision. The notice was set aside, with liberty to respondent no. 2 to take an appropriate decision and thereafter proceed in accordance with law.",
+      "qualifier": "The Court did not hold that a withdrawn assessment can never be revived after an audit objection; it required a Management decision first.",
+      "paras": "6-7",
+      "flag": "The 12.5.2010 disposal is unnumbered; pins count its narrative blocks (listings of 3.5.2010 and 7.5.2010 were adjournments before Ashok Bhushan and Virendra Singh, JJ.). The facts and prayer attribute the 3.2.2010 notice to the Executive Engineer (respondent no. 4); the analysis paragraph says the Chief Engineer issued it. Recorded as the judgment states it. The Court did not cite a numbered Supply Code clause."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "pending-audit-objection-cannot-revive-withdrawn-assessment",
+      "application": "The Chief Engineer had held theft not established and recommended withdrawal of the provisional assessment; an audit objection that the withdrawal did not accord with the Supply Code, 2005 was still under correspondence with Management. The Court set aside the 3.2.2010 Section 126 demand as unjustified until that decision, with liberty then to proceed in accordance with law.",
+      "lead_authorities": [],
+      "paras": "6-7"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the Chief Engineer's 4.5.2007 withdrawal of the provisional assessment accorded with the Electricity Supply Code, 2005",
+      "note": "That was the audit objection. The Court left it to Management to decide whether the Chief Engineer's decision was correct.",
+      "paras": "6-7"
+    },
+    {
+      "point": "Whether the petitioner was liable to pay Rs. 36,68,312 or the earlier assessed amount",
+      "note": "Expressly recorded as undecided by Management; liberty reserved to proceed after that decision.",
+      "paras": "6-7"
+    },
+    {
+      "point": "Merits of the original theft finding and the 22.9.2006 Executive Engineer recovery order",
+      "note": "Not examined; the 3.2.2010 demand was quashed as premature.",
+      "paras": "4-7"
+    }
+  ],
+  "authorities": []
+}
