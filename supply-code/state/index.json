@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3125,
+  "next_seq": 3126,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -18718,6 +18718,12 @@
       "case_id": "SCJ-3122",
       "source_basename": "WRIC(A)_55072_2012.pdf",
       "title": "M/s Abdulla & Company Rice Mill v. Chief Engineer, Distribution Division & Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3123",
+      "source_basename": "WRIC(A)_57550_2012.pdf",
+      "title": "M/S Shah Concast Pvt. Ltd. v. Paschimanchal Vidyut Vitran Nigam Ltd. And Others",
       "status": "done"
     }
   ]
