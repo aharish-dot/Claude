@@ -1,0 +1,79 @@
+{
+  "case_id": "SCJ-3066",
+  "title": "M/s Hans Costing Private Ltd. v. Dakshinanchal Vidyut Vitran Nigam Ltd.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Pankaj Naqvi, J.; Piyush Agrawal, J.",
+  "date_of_judgment": "2021-03-16",
+  "date_display": "16 March 2021",
+  "docket": "Writ - C No. 64452 of 2009",
+  "page_count": 10,
+  "significance": "procedural",
+  "outcome": "pending",
+  "model": "Grok 4.6",
+  "disposition": "Listed; 2018 default dismissal overtaken by later listings; 2009 stay of 20.7.2009 order not confirmed",
+  "headnote": "On a consumer's application to terminate the supply agreement, a Division Bench recorded a prima facie view that clause 4.14(g) read with clause 4.38 of the U.P. Electricity Supply Code, 2005 brings the agreement to an end 30 days after the termination notice, so the licensee cannot demand minimum-guarantee charges, and stayed a 20.7.2009 order until further orders. The writ was dismissed for want of prosecution on 20.11.2018 and the interim vacated. From 18.11.2020 the petition was listed again (including a direction to trace a 19.3.2019 rejoinder); the last order, on 16.3.2021, only adjourned the listing. The demand and the Code construction were not decided on merits.",
+  "facts": "M/s Hans Costing Private Ltd. filed Writ-C No. 64452 of 2009 against Dakshinanchal Vidyut Vitran Nigam Ltd., challenging an order dated 20 July 2009 (Annexure-2). Counsel submitted that the company had applied to terminate its supply agreement with respondents nos. 1 and 2, and that under clause 4.14(g) read with clause 4.38 of the U.P. Electricity Supply Code, 2005 the agreement ends 30 days after a consumer's termination notice, so minimum-guarantee charges could not be demanded.\n\nOn 1 December 2009 a Division Bench (Vijay Manohar Sahai and Yogesh Chandra Gupta, JJ.) stayed operation of the 20 July 2009 order until further orders and called for a counter-affidavit. On 20 November 2018 another Division Bench (Pritinker Diwaker and Saral Srivastava, JJ.) dismissed the writ for want of prosecution, none appearing even in the revised call, and vacated the interim stay. From 18 November 2020 the matter was listed again; the office was asked to trace a rejoinder reported filed on 19 March 2019; the last order, on 16 March 2021, only adjourned the listing.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.14(g)",
+      "code": "UP-2005",
+      "clause": "4.14(g) read with 4.38",
+      "topic": "prima facie stay: 30-day termination notice ends the agreement; no minimum-guarantee demand",
+      "type": "supply_code",
+      "holding": "On a prima facie reading of clause 4.14(g) read with clause 4.38 of the U.P. Electricity Supply Code, 2005, where the consumer has given notice to terminate the agreement, the agreement comes to an end on expiry of 30 days, and the licensee cannot demand minimum-guarantee charges. Effect and operation of the 20.7.2009 order (Annexure-2) were stayed until further orders.",
+      "qualifier": "Interlocutory and expressly prima facie; never confirmed on a final hearing.",
+      "paras": "1.12.2009",
+      "flag": "Prima facie interim construction only. The 1.12.2009 stay was vacated when the writ was dismissed for want of prosecution on 20.11.2018. Later 2020–21 orders relist the petition without revisiting this point."
+    },
+    {
+      "provision": "OFFTOPIC::procedural-listing",
+      "code": "OFFTOPIC",
+      "clause": "procedural-listing",
+      "topic": "default dismissal later overtaken by listings",
+      "type": "supply_code",
+      "holding": "On 20.11.2018 the writ was dismissed for want of prosecution, none appearing even in the revised call, and the interim order was vacated. From 18.11.2020 Division Benches listed the matter again (paucity of time; direction to trace a rejoinder reported filed on 19.3.2019; counsel-name correction). The last order, on 16.3.2021, listed it for 24.3.2021. No merits decision was given on the 20.7.2009 order or on clauses 4.14(g) and 4.38.",
+      "paras": "20.11.2018, 16.3.2021",
+      "flag": "Thin compilation of listing orders. The 2018 dismissal for default is on the face of the record but is not the last order in the source."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-4.14g-paid-final-bill-bars-further-demand",
+      "application": "Prima facie, a consumer's 30-day clause 4.14(g) termination notice (read with clause 4.38) ends the agreement, so minimum-guarantee charges cannot thereafter be demanded; the 20.7.2009 order was stayed on that footing, without a merits construction.",
+      "lead_authorities": [],
+      "paras": "1.12.2009"
+    },
+    {
+      "tag": "minimum-charges-only-if-consumer-at-fault",
+      "application": "The 1.12.2009 stay rested on a prima facie view that, once the agreement had ended on the termination notice, the licensee could not demand minimum-guarantee charges; that point was not finally decided.",
+      "lead_authorities": [],
+      "paras": "1.12.2009"
+    },
+    {
+      "tag": "procedural-listing-no-construction",
+      "application": "After the 20.11.2018 dismissal for want of prosecution and vacation of the interim stay, 2020–21 orders only relisted the writ; the last order adjourns the listing without deciding the demand.",
+      "lead_authorities": [],
+      "paras": "20.11.2018, 16.3.2021"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether, after a clause 4.14(g) termination notice, the licensee may demand minimum-guarantee charges",
+      "note": "Recorded only as a prima facie view on 1.12.2009; the stay was later vacated on default dismissal and never confirmed.",
+      "paras": "1.12.2009"
+    },
+    {
+      "point": "Validity of the order dated 20.7.2009 (Annexure-2)",
+      "note": "Stayed until further orders; not examined on merits.",
+      "paras": "1.12.2009"
+    },
+    {
+      "point": "Whether the 20.11.2018 dismissal for want of prosecution was recalled or the writ restored",
+      "note": "No restoration or recall order is in this compilation; later benches treated the petition as live.",
+      "paras": "20.11.2018, 16.3.2021"
+    }
+  ],
+  "authorities": []
+}
