@@ -1,0 +1,103 @@
+{
+  "case_id": "SCJ-3158",
+  "title": "Mohd. Sagir v. Dakshinanchal Vidyut Vitran Nigam Limited and Another",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sudhir Agarwal, J. & Ajit Kumar, J.",
+  "date_of_judgment": "2017-10-24",
+  "date_display": "24 October 2017",
+  "docket": "Writ - C No. 21042 of 2015",
+  "page_count": 5,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition allowed; order dated 23.02.2015 set aside; compensatory costs of Rs. 20,000 payable by the officer who passed the impugned order",
+  "headnote": "Where a Division Bench has already held, between the same parties, that an allegation of meter-tampering attracts Clause 5.6 of the U.P. Electricity Supply Code, 2005 (read with Clause 5.9, which treats a meter rendered defective due to tampering as a defective meter), an assessing officer of the distribution licensee cannot thereafter pass an order holding that Clause 5.6 is confined to defective meters and does not apply to a tampered meter. Such a finding sits over the High Court's judgment as if the officer were a superior authority; it is illegal and contemptuous. The Executive Engineer's order dated 23 February 2015, which recorded that contrary finding, is set aside. The officer having appeared, admitted the mistake and apologised, the writ is allowed and the petitioner is awarded compensatory costs of Rs. 20,000 payable by the officer who passed the impugned order. The Court did not decide whether tampering was in fact established, or the effect of the FIR-quashing and compounding recitals in the impugned order.",
+  "facts": "Mohd. Sagir, a consumer of Dakshinanchal Vidyut Vitran Nigam Limited, had already obtained a Division Bench judgment dated 30 May 2014 in Writ Petition No. 55384 of 2009 holding that meter-tampering attracts Clause 5.6 of the U.P. Electricity Supply Code, 2005. The Executive Engineer, Pradeep Agarwal, nevertheless passed an order dated 23 February 2015 (communicated 23 March 2015) holding that Clause 5.6 governs only defective meters and that Sagir's case was of a tampered meter, and reciting that a petition to quash the FIR had been dismissed and that Sagir had not applied for compounding.\n\nSagir challenged that order in Writ-C No. 21042 of 2015. A Division Bench stayed it on 16 April 2015. On 11 October 2017 another Bench found the order sat over the 2014 judgment and issued notice of criminal contempt. On 24 October 2017 the officer, by then Superintending Engineer at Hathras, appeared, admitted he had overlooked the 2014 Clause 5.6 finding, and apologised.",
+  "reusable_constructions": [
+    {
+      "construction": "A meter alleged to have been tampered is a defective meter within Clause 5.6 of the U.P. Electricity Supply Code, 2005, read with Clause 5.9; the licensee's contention that Clause 5.6 is confined to non-tampered defective meters is incorrect.",
+      "paras": "order of 11.10.2017, 1"
+    },
+    {
+      "construction": "An assessing officer of a distribution licensee who records a finding contrary to a Division Bench holding already given between the same parties on the applicability of Clause 5.6 sits over that judgment and acts illegally; the order is liable to be set aside.",
+      "paras": "order of 11.10.2017, 3; order of 24.10.2017, 2-4"
+    },
+    {
+      "construction": "Passing an assessment order in the teeth of a High Court judgment between the same parties is contemptuous; the officer may be required to appear and, on admitting the mistake, mulcted with compensatory costs payable personally to the consumer who was forced to file the writ.",
+      "paras": "order of 11.10.2017, 3-4; order of 24.10.2017, 2-4"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::5.6",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "5.6 (defective meters) read with 5.9 (meter rendered defective due to tampering)",
+      "topic": "Tampered meter attracts Clause 5.6; assessing officer cannot sit over a prior Division Bench finding to that effect",
+      "type": "supply_code",
+      "question": "Where a Division Bench has already held between the same parties that an allegation of meter-tampering attracts Clause 5.6, may the assessing officer thereafter hold that Clause 5.6 is confined to defective meters and does not apply to a tampered meter?",
+      "holding": "No. The Division Bench judgment dated 30.05.2014 in Writ Petition No. 55384 of 2009, between these very parties, held that Clauses 5.6 and 5.9 read together treat a meter tampered by the consumer as a defective meter, so Clause 5.6 is attracted and the licensee's contrary contention is incorrect. The Executive Engineer's order dated 23.02.2015, recording that Clause 5.6 provides only for defective meters and that the petitioner's case was of a tampered meter, sat over that finding as if the officer were a superior authority. The order was in the teeth of the 2014 judgment, contemptuous and illegal, and is set aside. The officer admitted the mistake and apologised; the petitioner is entitled to compensatory costs of Rs. 20,000 payable by the officer who passed the order.",
+      "paras": "order of 11.10.2017, 1-3; order of 24.10.2017, 2-4",
+      "flag": "Source PDF concatenates three orders (16.04.2015 stay; 11.10.2017 contempt listing; 24.10.2017 final disposal); paragraph numbers restart each order. The Clause 5.6 construction is that of the 30.05.2014 Division Bench (quoted in the 11.10.2017 order); this Bench enforces it as binding between the same parties. The quoted 2014 passage refers to Clause 5.9 sub-clause (a)(ii) ('meter rendered defective due to tampering'); catalog hit UP-2005::5.9(c) is not the sub-clause discussed. Interim stay of 16.04.2015 was by Vikram Nath and Dinesh Gupta, JJ.; the 11.10.2017 and 24.10.2017 orders are by this coram."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-heading-not-a-limit-on-substantive-scope",
+      "application": "Enforcing the same parties' 30.05.2014 Division Bench holding (SCJ-153): Clauses 5.6 and 5.9 read together treat a tampered meter as a defective meter, so Clause 5.6 is attracted; the Executive Engineer's order holding that 5.6 is confined to non-tampered defective meters is set aside.",
+      "lead_authorities": [
+        {
+          "name": "Mohd. Sagir v. Dakshinanchal Vidyut Vitran Nigam Ltd. & Ors.",
+          "docid": ""
+        }
+      ],
+      "paras": "order of 11.10.2017, 1; order of 24.10.2017, 2-4"
+    },
+    {
+      "tag": "officer-accountability-for-defying-repeated-judicial-directions",
+      "application": "The Executive Engineer who sat over the 30.05.2014 Clause 5.6 finding between the same parties was called to appear in criminal contempt; he admitted the mistake and apologised; the illegal order was set aside.",
+      "lead_authorities": [
+        {
+          "name": "Mohd. Sagir v. Dakshinanchal Vidyut Vitran Nigam Ltd. & Ors.",
+          "docid": ""
+        }
+      ],
+      "paras": "order of 11.10.2017, 3-4; order of 24.10.2017, 2-4"
+    },
+    {
+      "tag": "costs-and-officer-accountability-for-procedural-harassment",
+      "application": "Because the illegal 23.02.2015 order forced the consumer into a second writ, compensatory costs of Rs. 20,000 were awarded, payable by the officer who passed the order (then Superintending Engineer, Hathras), who had offered to compensate.",
+      "lead_authorities": [],
+      "paras": "order of 24.10.2017, 3-4"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the meter was in fact tampered, and the quantum of any theft or unauthorised-use assessment",
+      "note": "The writ was allowed solely because the 23.02.2015 order sat over the 2014 Clause 5.6 holding; no finding on the underlying allegation or amount.",
+      "paras": "order of 24.10.2017, 2-4"
+    },
+    {
+      "point": "Effect of dismissal of Criminal Misc. No. 19053 of 2009 (FIR quashing) and of non-filing of a compounding application",
+      "note": "Recited in the impugned Executive Engineer order; not adjudicated by this Court.",
+      "paras": "order of 11.10.2017, 2"
+    },
+    {
+      "point": "Whether criminal contempt should be proceeded with after the officer's apology",
+      "note": "Notice issued on 11.10.2017; the 24.10.2017 order allows the writ and imposes personal costs without framing a charge or discharging the notice in terms.",
+      "paras": "order of 11.10.2017, 3-4; order of 24.10.2017, 2-4"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Mohd. Sagir v. Dakshinanchal Vidyut Vitran Nigam Ltd. & Ors.",
+      "citation": "Writ Petition No. 55384 of 2009, decided 30.05.2014",
+      "court": "Allahabad High Court (Division Bench)",
+      "docid": "",
+      "proposition": "Clauses 5.6 and 5.9 of the U.P. Electricity Supply Code, 2005 read together treat a meter tampered by the consumer as a defective meter; Clause 5.6 is therefore attracted and the licensee's contention that it is not is incorrect.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}
