@@ -1,0 +1,58 @@
+{
+  "case_id": "SCJ-3153",
+  "title": "M/S Wadilal Industries Ltd. v. Madhyanchal Vidyut Vitran Nigam Ltd. & 2 Others",
+  "neutral_citation": "2025:AHC:131348-DB",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Shekhar B. Saraf, J. and Prashant Kumar, J.",
+  "date_of_judgment": "2025-08-04",
+  "date_display": "4 August 2025",
+  "docket": "Writ - C No. 7223 of 2014",
+  "page_count": 5,
+  "significance": "ordinary",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed following Dev Prayag; additional-security demand not bad.",
+  "headnote": "A writ seeking to quash a distribution licensee's demand of additional security under paragraph 4.20 of the U.P. Electricity Supply Code, 2005 is dismissed. After a 2014 without-prejudice interim restraint, a Division Bench in 2025 followed M/s Dev Prayag Paper Mill (Pvt.) v. State of U.P. (Writ-C No. 30898 of 2016, 21 March 2017), which held that demand of additional security by the distribution licensee is not bad, and dismissed the petition for the reasons in that judgment.",
+  "facts": "M/s Wadilal Industries Ltd., through authorised signatory Dinesh Singh, petitioned the Allahabad High Court to quash a November 2013 demand notice issued by Madhyanchal Vidyut Vitran Nigam Ltd. for additional security under paragraph 4.20 of the U.P. Electricity Supply Code, 2005. On 6 February 2014 a Division Bench, noting an interim order of 7 October 2009 in M/s Supreme Ceramics Limited (Writ Petition No. 51844 of 2009), restrained the respondents from demanding additional security until further orders, without prejudice, and directed listing with Writ Petition (C) No. 51884 of 2009.\n\nOn 6 October 2017 the petitioner's counsel stated that the controversy had been decided in M/s Dev Prayag Paper Mill (Pvt.) (Writ-C No. 30898 of 2016, 21 March 2017) and that 74 other writs raised the same issue; the office was asked to place the matters before the Chief Justice for nomination of a Bench. At the final hearing on 4 August 2025, counsel for the parties again pointed out that Dev Prayag had held the licensee's demand of additional security not bad.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.20",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.20",
+      "topic": "additional security deposit",
+      "type": "supply_code",
+      "holding": "A writ to quash a demand notice for additional security under paragraph 4.20 of the U.P. Electricity Supply Code, 2005 stands dismissed. Following M/s Dev Prayag Paper Mill (Pvt.) v. State of U.P. (Writ-C No. 30898 of 2016, 21 March 2017), demand of additional security by the distribution licensee is not bad.",
+      "paras": "1",
+      "flag": "Source contains three sittings: 6.2.2014 without-prejudice interim (Vineet Saran and Attau Rahman Masoodi, JJ.), 6.10.2017 listing of 74 connected writs for Chief Justice nomination (Dilip Gupta and Jayant Banerji, JJ.), and the unnumbered 4.8.2025 dismissal (this holding). Counsel invoked paragraph 4.20; the 2025 Bench did not parse a sub-clause. The 2014 order both connects the petition with Writ Petition (C) No. 51884 of 2009 and relies on the 7.10.2009 interim in Writ Petition No. 51844 of 2009 (Supreme Ceramics); recorded as stated."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "additional-security",
+      "application": "A writ to quash an additional-security demand under paragraph 4.20 was dismissed on the reasoning of Dev Prayag Paper Mill that such a demand by the distribution licensee is not bad.",
+      "lead_authorities": [
+        {
+          "name": "M/s Dev Prayag Paper Mill (Pvt.) v. State of U.P. & Ors.",
+          "docid": ""
+        }
+      ],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [],
+  "authorities": [
+    {
+      "name": "M/s Dev Prayag Paper Mill (Pvt.) v. State of U.P. & Ors.",
+      "citation": "Writ-C No. 30898 of 2016 (21 March 2017)",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "M/s Supreme Ceramics Limited v. Paschimanchal Vidyut Vitran Nigam Ltd. and others",
+      "citation": "Writ Petition No. 51844 of 2009 (order dated 7.10.2009)",
+      "cited_by": "Petitioner",
+      "treatment": "Referred"
+    }
+  ]
+}
