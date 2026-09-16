@@ -1,0 +1,73 @@
+{
+  "case_id": "SCJ-3140",
+  "title": "Rajeev Kumar v. State of U.P. and Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta, J. & Siddharth Nandan, J.",
+  "date_of_judgment": "2025-10-30",
+  "date_display": "30 October 2025",
+  "docket": "Writ - C No. 50372 of 2013",
+  "page_count": 5,
+  "significance": "procedural",
+  "outcome": "none",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed for want of prosecution; 23.9.2013 interim mandamus to release the 5 KV LT connection or show cause was not finally determined",
+  "headnote": "Clause 4.9(a) of the U.P. Electricity Supply Code, 2005, as quoted in 2013, is in two parts: a builder or society application for load exceeding 25 KW attracts single-point supply, but an individual owner's application for an individual connection must be sanctioned at L.T. Prima facie, a franchisee's plea that the builder has neither applied nor deposited cost under clause 4.9 does not justify withholding a sanctioned 5 KV individual connection after the applicant has paid the estimate. An interim mandamus issued on 23.9.2013 to release the connection within two weeks or show cause. When the writ was later listed as an oldest pending case, none appeared to press it; it was dismissed for want of prosecution without a final determination of the clause 4.9(a) point or of the deposit.",
+  "facts": "Rajeev Kumar, purchaser of flat no. G-2, Apex Apartment, Adan Bagh, Dayal Bagh, Agra, built over plot no. 23, applied for a 5 KV electricity connection. Respondent no. 3, a distribution franchisee of Dakshinanchal Vidyut Vitran Nigam Ltd., sanctioned the connection and required a deposit of Rs.1,74,811, which he paid on 30 April 2013. The connection was not released. Counsel for respondents 2 and 3, on instructions, said the apartment had 11 flats and that supply to a multi-storied building could be given only under clause 4.9 of the U.P. Electricity Supply Code, 2005, which the builder had neither applied under nor paid for. After an 18 September 2013 listing, the Division Bench heard the matter on 23 September 2013. When the writ was listed on 30 October 2025 as an oldest pending case for priority hearing, none appeared to press it.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.9",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.9(a)",
+      "topic": "individual LT connection in a multi-storied building; builder's non-application under clause 4.9 does not bar an individual owner's application",
+      "type": "supply_code",
+      "question": "Where an individual flat-owner applies for an individual L.T. connection in a multi-storied building, may the licensee refuse release on the ground that the builder has not applied or deposited cost under clause 4.9?",
+      "holding": "Prima facie, no. Clause 4.9(a) is in two parts. If the builder or society of flat owners applies for load exceeding 25 KW, the first part (single-point supply with single-point metering) applies. If the application is by an individual owner for an individual connection, the licensee is bound to sanction it at L.T. The petitioner applied for 5 KV at L.T. for his individual flat, not the entire building, and so was covered by the second part. Having handed over an estimate and realised Rs.1,74,811, respondents 2 and 3 could not then withhold the connection. Interim mandamus issued to release the 5 KV L.T. connection within two weeks or show cause by counter affidavit. The writ was later dismissed for want of prosecution without a final determination.",
+      "qualifier": "Prima facie and interlocutory (23.9.2013, Vineet Saran, J. and Manoj Kumar Gupta, J.); the petition was dismissed for want of prosecution on 30.10.2025.",
+      "paras": "order of 23.9.2013",
+      "flag": "Unnumbered 23.9.2013 order. Source PDF concatenates an 18.9.2013 listing (put up day after tomorrow; Vineet Saran and Manoj Kumar Gupta, JJ.) with this interim order and the numbered 30.10.2025 dismissal. The judgment writes the load as '5 KV'. Clause 4.9(a) is quoted in its pre-2018 form (single-point for load exceeding 25 KW, with an individual-owner L.T. carve-out). Respondent no. 3 is a distribution franchisee of Dakshinanchal Vidyut Vitran Nigam Ltd."
+    },
+    {
+      "provision": "OFFTOPIC::dismissal-for-want-of-prosecution",
+      "code": "OFFTOPIC",
+      "clause": "dismissal-for-want-of-prosecution",
+      "topic": "Writ dismissed for want of prosecution when none appeared",
+      "type": "supply_code",
+      "holding": "Listed as an oldest pending case for priority hearing, none was present to press the petition, and it was dismissed for want of prosecution. The Court did not decide whether clause 4.9(a) required release of the individual 5 KV L.T. connection, or whether the Rs.1,74,811 deposit had to be followed by supply.",
+      "paras": "2-3"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-4.9a-individual-owner-lt-connection-not-barred-by-builder-non-application",
+      "application": "Prima facie, clause 4.9(a) as quoted in 2013 required the licensee to sanction an individual owner's L.T. application even though the builder had not applied or deposited cost for single-point supply to the multi-storied building; the view was interlocutory and never made final.",
+      "lead_authorities": [],
+      "paras": "order of 23.9.2013"
+    },
+    {
+      "tag": "writ-petition-dismissed-for-want-of-prosecution-on-non-appearance",
+      "application": "None appearing when the 2013 writ was listed on 30.10.2025 as an oldest pending case, it was dismissed for want of prosecution; the clause 4.9(a) connection claim was left unadjudicated.",
+      "lead_authorities": [],
+      "paras": "2-3"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether clause 4.9(a) finally required release of the individual 5 KV L.T. connection despite the builder's non-application",
+      "note": "The 23.9.2013 view was expressly prima facie; dismissal for want of prosecution left the construction unadjudicated.",
+      "paras": "order of 23.9.2013, 2-3"
+    },
+    {
+      "point": "Lawfulness of the Rs.1,74,811 estimate and whether, if the connection was refused, that sum had to be refunded",
+      "note": "The 23.9.2013 order treated realisation of the estimate as a reason to issue interim mandamus, but invited a show-cause counter affidavit and never decided the deposit.",
+      "paras": "order of 23.9.2013"
+    },
+    {
+      "point": "Whether the 23.9.2013 interim mandamus was complied with",
+      "note": "The 30.10.2025 dismissal does not record whether the connection was released or a counter affidavit filed.",
+      "paras": "1-3"
+    }
+  ],
+  "authorities": []
+}
