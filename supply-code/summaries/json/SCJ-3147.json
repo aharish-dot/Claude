@@ -1,0 +1,130 @@
+{
+  "case_id": "SCJ-3147",
+  "title": "Mahaveer v. Pashchimanchal Vidhyut Vitran Nigam Ltd. & 2 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J.; Ashwani Kumar Mishra, J.",
+  "date_of_judgment": "2014-09-05",
+  "date_display": "5 September 2014",
+  "docket": "Writ - C No. - 37044 of 2014",
+  "page_count": 6,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition allowed; order dated 25.3.2014 rejecting the petitioner's representation and recovery citation dated 11.11.2013 quashed; respondents directed to prepare and serve a fresh provisional assessment and to pass a reasoned final assessment after considering objections, in the light of Ashok Kumar",
+  "headnote": "A provisional assessment notice under clause 6.8(b) of the U.P. Electricity Supply Code, 2005 must itself fix a date for hearing, disclose the basis of the assessed amount, and record the assessing officer's satisfaction that theft of electricity was committed. A notice dated 13.12.2012 assessing Rs.2,47,898 that did none of those things did not afford the opportunity required by para 6.8(b), even though dispatch by registered speed post was proved. Following Ashok Kumar (paras 56–64) on the Code procedure for theft assessment, the order dated 25.3.2014 rejecting the consumer's representation and the recovery citation dated 11.11.2013 are quashed; a fresh provisional assessment must be served, and a reasoned final assessment made after considering objections.",
+  "facts": "Mahaveer petitioned the Allahabad High Court against Pashchimanchal Vidhyut Vitran Nigam Ltd. challenging an order dated 25 March 2014 rejecting his representation and a recovery citation dated 11 November 2013. The licensee produced a postal receipt showing that a provisional assessment notice dated 13 December 2012, demanding Rs.2,47,898, had been sent to him by registered speed post. After an adjournment to verify that dispatch, he filed a supplementary affidavit annexing the notice and the postal receipt, and submitted that clause 6.8(b)(1) of the U.P. Electricity Supply Code, 2005 required the notice itself to fix a date for hearing. Earlier listings had given the licensee time for instructions and had stayed coercive process. The Division Bench heard the petition on 5 September 2014.",
+  "reusable_constructions": [
+    {
+      "construction": "Clause 6.8(b)(1) of the U.P. Electricity Supply Code, 2005 requires the provisional assessment notice itself to fix a date for hearing; a notice that omits that date is not in accordance with law.",
+      "paras": "3-4, 6-7"
+    },
+    {
+      "construction": "A provisional assessment for alleged theft of electricity must disclose the basis of the amount assessed and record the assessing officer's satisfaction that theft was committed.",
+      "paras": "6"
+    },
+    {
+      "construction": "Where the provisional assessment notice is not in accordance with law, the consumer is not afforded the opportunity under para 6.8(b) to reply and object; an order rejecting the consumer's representation and a recovery citation founded on that notice are liable to be quashed.",
+      "paras": "7-8"
+    },
+    {
+      "construction": "Proof that a provisional assessment notice was dispatched by registered speed post does not cure a notice that specifies no hearing date, states no basis of assessment, and records no satisfaction of theft.",
+      "paras": "2-4, 6-7"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)(i)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.8(b)(i)",
+      "topic": "provisional assessment notice must itself fix a date for hearing",
+      "type": "supply_code",
+      "question": "Is a provisional assessment notice that does not indicate a date for hearing in the notice itself in accordance with clause 6.8(b)(1) of the U.P. Electricity Supply Code, 2005?",
+      "holding": "No. The petitioner's argument was that while issuing the provisional assessment notice the licensee was required to fix a date in the notice itself for hearing so that the consumer could appear on the date specified. On perusal of the notice dated 13.12.2012, no date was indicated for hearing. The contention that the notice was not in accordance with the requirement of law therefore had substance.",
+      "paras": "3-4, 6",
+      "flag": "Cited as Clause 6.8(b)(1); catalog key UP-2005::6.8(b)(i)."
+    },
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.8(b)",
+      "topic": "hearing date, stated basis, and recorded satisfaction of theft before representation-rejection and recovery",
+      "type": "supply_code",
+      "question": "Can an order rejecting a consumer's representation and a recovery citation stand on a provisional assessment that specifies no hearing date, states no basis of the demand, and records no satisfaction that theft was committed, even if dispatch by registered speed post is proved?",
+      "holding": "No. Dispatch of the 13.12.2012 notice by registered speed post was proved, but the notice did not give the basis on which the petitioner was assessed to pay Rs.2,47,898, the assessing authority had not recorded satisfaction that he committed theft of electricity, and the notice did not specify a date for hearing. The petitioner was therefore not afforded the opportunity provided in para 6.8(b). The writ is allowed. The order dated 25.3.2014 rejecting the representation and the recovery citation dated 11.11.2013 are quashed. The respondents must prepare a fresh provisional assessment, serve it, and make a final assessment after considering the petitioner's objection, with reasons meeting the objections, in the light of Ashok Kumar (paras 56–64).",
+      "qualifier": "The Court treated the demand as a theft assessment while applying para 6.8(b).",
+      "paras": "2-8",
+      "flag": "Source PDF concatenates listing orders of 21.7.2014, 30.7.2014, 7.8.2014 and 22.8.2014 with this 5.9.2014 disposal. Paras 1–8 are sequential blocks of that disposal from 'Heard Sri R.P.S. Chauhan'. The Court applied para 6.8(b) to a theft assessment, citing Ashok Kumar paras 56–64; catalog keys theft assessment to clauses 8.1–8.2 rather than 6.8. Coram is the disposing bench of 5.9.2014."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.8-hearing-procedure-mandatory-before-uue-conclusion",
+      "application": "A provisional assessment notice that specified no date for hearing, as required by clause 6.8(b)(1), was held not in accordance with law and did not afford the para 6.8(b) opportunity.",
+      "lead_authorities": [
+        {
+          "name": "Ashok Kumar and others v. State of U.P. and others",
+          "docid": "897981"
+        }
+      ],
+      "paras": "3-4, 6-7"
+    },
+    {
+      "tag": "provisional-assessment-must-state-basis-and-amount",
+      "application": "The provisional assessment of Rs.2,47,898 was defective because it did not give the basis of the demand and the assessing officer had not recorded satisfaction that theft was committed.",
+      "lead_authorities": [
+        {
+          "name": "Ashok Kumar and others v. State of U.P. and others",
+          "docid": "897981"
+        }
+      ],
+      "paras": "6"
+    },
+    {
+      "tag": "assessment-quashed-for-breach-of-clause-6.8-procedure",
+      "application": "The 25.3.2014 rejection of the representation and the 11.11.2013 recovery citation were quashed for breach of para 6.8(b); a fresh provisional assessment is to be served and a reasoned final order passed after objections, following Ashok Kumar.",
+      "lead_authorities": [
+        {
+          "name": "Ashok Kumar and others v. State of U.P. and others",
+          "docid": "897981"
+        }
+      ],
+      "paras": "7-8"
+    },
+    {
+      "tag": "para-6.8-non-compliance-vitiates-assessment-and-recovery",
+      "application": "Proved registered-post dispatch did not save a notice that omitted the hearing date, the basis of assessment, and recorded satisfaction of theft; recovery and the later representation-rejection fell with it.",
+      "lead_authorities": [
+        {
+          "name": "Ashok Kumar and others v. State of U.P. and others",
+          "docid": "897981"
+        }
+      ],
+      "paras": "6-8"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner in fact committed theft of electricity, and the correctness of the Rs.2,47,898 assessment",
+      "note": "Left to a fresh provisional assessment, service, objections, and a reasoned final assessment in the light of Ashok Kumar.",
+      "paras": "6-8"
+    },
+    {
+      "point": "Whether clauses 8.1–8.2, rather than para 6.8(b), govern a theft assessment",
+      "note": "The Court described the case as a theft assessment and applied para 6.8(b), citing Ashok Kumar on Code procedure for theft, without deciding the 8.1/6.8 distinction.",
+      "paras": "5-7"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar and others v. State of U.P. and others",
+      "citation": "2008(6) ADJ 660 (DB)",
+      "court": "Allahabad High Court (DB)",
+      "docid": "897981",
+      "proposition": "Paras 56 to 64 consider the provisions of the Electricity Supply Code, 2005 to be followed when assessing theft of electricity; a fresh final assessment is to meet the consumer's objections with reasons in that light.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}
