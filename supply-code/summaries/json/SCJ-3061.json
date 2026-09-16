@@ -1,0 +1,115 @@
+{
+  "case_id": "SCJ-3061",
+  "title": "Kallu Kushwaha v. State of U.P. & Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sunil Ambwani, J. & Virendra Singh, J.",
+  "date_of_judgment": "2009-10-07",
+  "date_display": "7 October 2009",
+  "docket": "Writ - C No. 45723 of 2009",
+  "page_count": 8,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; citation dated 19.5.2009 kept under suspension until a Clause 8.1(b) final assessment after considering the 7.8.2009 notice and a personal hearing; if aggrieved, appeal under Section 127",
+  "headnote": "Clause 8.1(b) of the U.P. Electricity Supply Code, 2005 supplies the procedure for assessment in a theft case, which the Court treated as including unauthorised drawing of electricity or using it for a purpose other than that for which the connection was sanctioned. A provisional assessment cannot be sent for recovery as arrears of land revenue unless a final assessment has been made after recorded findings that the provisional assessment was served and the consumer was given a personal hearing and an opportunity to object. Where those steps were not shown, the citation dated 19 May 2009 was kept under suspension until the licensee considered the consumer's 7 August 2009 advocate's notice as a reply to the provisional assessment, gave notice to appear personally, and passed a final assessment. A consumer aggrieved by that final assessment may appeal under Section 127 of the Electricity Act, 2003.",
+  "facts": "Kallu Kushwaha challenged a recovery citation dated 19 May 2009 for Rs.2,48,257 towards electricity dues. After a checking, the licensee found he was using an electrical connection for commercial purposes in his three shops and served a provisional assessment. He said the shop bills were being paid, that he had applied for a commercial connection and deposited the requisite amount on 22 December 2008, and that the basis and calculation of the provisional assessment were wrong. Through his advocate he gave a notice on 7 August 2009. After several listings from 31 August 2009 for instructions, a Division Bench disposed of the writ on 7 October 2009.",
+  "reusable_constructions": [
+    {
+      "construction": "Clause 8.1(b) of the U.P. Electricity Supply Code, 2005 governs assessment in theft of electricity, including unauthorised drawing or use of electricity for a purpose other than that for which the connection was sanctioned.",
+      "paras": "4"
+    },
+    {
+      "construction": "A provisional theft assessment cannot be recovered as arrears of land revenue unless a final assessment has been made after recorded findings that the provisional assessment was served and the consumer was given a personal hearing and an opportunity to object under Clause 8.1(b).",
+      "paras": "5"
+    },
+    {
+      "construction": "An advocate's notice objecting to a provisional assessment is to be considered as a reply under the Supply Code before any final assessment is made.",
+      "paras": "6"
+    },
+    {
+      "construction": "Until that final assessment, coercive recovery on the citation remains under suspension; a consumer aggrieved by the final assessment may appeal under Section 127 of the Electricity Act, 2003.",
+      "paras": "7"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1(b)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "8.1(b) (theft assessment — service of provisional assessment, personal hearing, and final assessment before recovery; r/w 8.1(b)(iii)–(v))",
+      "topic": "No recovery as land revenue on a provisional theft assessment without a Clause 8.1(b) final assessment after personal hearing",
+      "type": "supply_code",
+      "question": "May a licensee recover a provisional theft assessment as arrears of land revenue where no final assessment has been made and there is no recorded finding that the provisional assessment was served and the consumer was heard in person?",
+      "holding": "No. Clause 8.1(b) provides the procedure for assessment in theft of electricity, which the Court treated as including unauthorised drawing or using electricity for a purpose other than that sanctioned. It was not denied that no final assessment had been made, nor that any finding had been recorded that the provisional assessment was served and that the petitioner was given an opportunity of hearing in person and to object. The provisional assessment had been sent, without following that procedure, to be recovered as arrears of land revenue. The petitioner's advocate's notice dated 7.8.2009 was to be considered as a reply to the provisional assessment. The citation dated 19.5.2009 was to remain under suspension until the respondents made a final assessment after considering the objections and giving notice to appear personally.",
+      "paras": "4-7",
+      "flag": "The Court applied Clause 8.1(b) (quoting the Code's reference to Section 135) to commercial use of a connection in three shops, without discussing Section 126 or Clause 6.8. The quoted Code text contains OCR slips (e.g. 'funds' for 'finds'). Earlier listings (31.8.2009–5.10.2009) were before Sunil Ambwani and Ran Vijai Singh, JJ.; the 7.10.2009 order is by Sunil Ambwani and Virendra Singh, JJ."
+    },
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act, 2003",
+      "clause": "127 (appeal against final assessment)",
+      "topic": "After the directed Clause 8.1(b) final assessment, the statutory appeal is under Section 127",
+      "type": "electricity_act",
+      "question": "Once a final assessment is made after objections and personal hearing, what remedy remains if the consumer is still aggrieved?",
+      "holding": "If the petitioner is aggrieved by the final assessment, he may file an appeal under Section 127 of the Electricity Act, 2003. The writ court did not itself decide the quantum or the commercial-use finding.",
+      "paras": "7",
+      "flag": "The order refers to Section 127 of the 'Indian Electricity Act, 2003'."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-8.1b-personal-hearing-mandatory-before-final-assessment",
+      "application": "No finding had been recorded that the provisional assessment was served or that the petitioner was heard in person and allowed to object; the citation was suspended until a final assessment after those Clause 8.1(b) steps.",
+      "lead_authorities": [],
+      "paras": "5-7"
+    },
+    {
+      "tag": "no-recovery-without-final-assessment-clause-8.1(b)",
+      "application": "A provisional assessment sent for recovery as arrears of land revenue, without a Clause 8.1(b) final assessment, could not support the citation dated 19.5.2009.",
+      "lead_authorities": [],
+      "paras": "5-7"
+    },
+    {
+      "tag": "clause-8.1b-theft-notice-natural-justice",
+      "application": "Clause 8.1(b), as quoted (sub-clauses (iii)–(v)), requires service of the provisional bill with a show-cause notice, a personal hearing, and service of the speaking final order before recovery.",
+      "lead_authorities": [],
+      "paras": "4-5"
+    },
+    {
+      "tag": "coercive-recovery-stayed-pending-final-assessment",
+      "application": "The citation dated 19.5.2009 was directed to remain under suspension until the respondents made a final assessment after considering the 7.8.2009 notice and giving notice to appear personally.",
+      "lead_authorities": [],
+      "paras": "7"
+    },
+    {
+      "tag": "alternative-remedy-section-127-appeal",
+      "application": "The writ court did not decide the assessment on merits; once a final assessment is made, a consumer who remains aggrieved may appeal under Section 127.",
+      "lead_authorities": [],
+      "paras": "7"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner was in fact using the connection for commercial purposes in his three shops",
+      "note": "The checking finding was recorded as the licensee's case; the Court did not decide it and left it to the Clause 8.1(b) hearing and final assessment.",
+      "paras": "2-3, 7"
+    },
+    {
+      "point": "Basis and calculation of the Rs.2,48,257 provisional assessment",
+      "note": "Expressly challenged by the petitioner and left to objections and the final assessment.",
+      "paras": "3, 7"
+    },
+    {
+      "point": "Whether applying for a commercial connection and depositing the requisite amount on 22.12.2008 regularised the use",
+      "note": "Recorded as the petitioner's submission; not decided.",
+      "paras": "3"
+    },
+    {
+      "point": "Whether the demand is properly theft under Section 135 / Clause 8.1 or unauthorised use under Section 126 / Clause 6.8",
+      "note": "The Court applied Clause 8.1(b) to unsanctioned-purpose use without discussing Section 126 or Clause 6.8.",
+      "paras": "4-5"
+    }
+  ],
+  "authorities": []
+}
