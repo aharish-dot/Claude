@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3106,
+  "next_seq": 3107,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -18604,6 +18604,12 @@
       "case_id": "SCJ-3103",
       "source_basename": "WRIC(A)_66871_2011.pdf",
       "title": "M/S Farhana Steels Pvt. Ltd. v. State of U.P. & Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3104",
+      "source_basename": "WRIC(A)_9487_2011.pdf",
+      "title": "Arjun Singh v. PVVNL And Others",
       "status": "done"
     }
   ]

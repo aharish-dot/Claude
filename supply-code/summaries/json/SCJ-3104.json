@@ -1,0 +1,77 @@
+{
+  "case_id": "SCJ-3104",
+  "title": "Arjun Singh v. PVVNL And Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Amitava Lala, J.; Ashok Srivastava, J.",
+  "date_of_judgment": "2011-05-04",
+  "date_display": "4 May 2011",
+  "docket": "Writ - C No. - 9487 of 2011",
+  "page_count": 8,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of; restoration of supply on deposit of Rs.50,000 (half with minimum charges in 24 hours, rest in 15 days), connection within 72 hours; deposit refundable if independent testing and the authority find the allegation unsustainable; no costs",
+  "headnote": "Where a consumer's meter has been removed on a prima facie case under clause 8.1(vii) of the U.P. Electricity Supply Code, 2005 and tested in accordance with clause 5.6, the second limb of that clause requires restoration of supply through a new meter of appropriate rating. A licensee's allegation that a domestic connection was used commercially, treated as theft, does not displace that restoration duty, though the writ court may condition restoration on a deposit, refundable if independent testing and the authority's ultimate decision find the allegation unsustainable. Minimum charges remain payable until a meter is installed. The Court did not decide whether an advocate's chamber consumption on a domestic connection is commercial.",
+  "facts": "Arjun Singh, a domestic electricity consumer of Paschimanchal Vidyut Vitran Nigam Limited at Moradabad, petitioned the Allahabad High Court after his meter was removed on a prima facie case. He invoked clause 8.1(vii) of the U.P. Electricity Supply Code, 2005: the meter is to be removed, sealed and tested in accordance with clause 5.6, and supply is then to be restored through a new meter of appropriate rating. He said the first part had been complied with but the second had not. The licensee alleged that he had used the domestic connection for commercial purposes, which it treated as theft, and that supply should not be restored unless a condition was imposed. He replied that he is an advocate and that chamber consumption is not commercial. On 18 February 2011 the Court had directed that the meter not be opened, with liberty to send it for examination before an independent authority. After several listings the Division Bench disposed of the writ on 4 May 2011.",
+  "reusable_constructions": [
+    {
+      "construction": "After a meter is removed on a prima facie case under clause 8.1(vii) and tested in accordance with clause 5.6, supply is to be restored through a new meter or metering equipment of appropriate rating.",
+      "paras": "1-2, 6-7"
+    },
+    {
+      "construction": "An allegation that a domestic connection was used commercially, treated as theft, does not displace the clause 8.1(vii) duty to restore supply through a new meter.",
+      "paras": "3, 6-7"
+    },
+    {
+      "construction": "Restoration under clause 8.1(vii) may be conditioned on a deposit, refundable if independent testing and the authority's decision find the allegation unsustainable.",
+      "paras": "6-7"
+    },
+    {
+      "construction": "Minimum charges remain payable until a meter is installed at the premises.",
+      "paras": "5"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1(VII)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "8.1(vii)",
+      "topic": "restoration through a new meter after removal and clause 5.6 testing, even where theft by commercial use of a domestic connection is alleged",
+      "type": "supply_code",
+      "question": "Where a meter has been removed on a prima facie case and tested under clause 8.1(vii) read with clause 5.6, must supply be restored through a new meter even if the licensee alleges that a domestic connection was used commercially?",
+      "holding": "Yes, subject to a deposit. Clause 8.1(vii) has two limbs: the meter, on a prima facie case, is to be removed, sealed and tested in accordance with clause 5.6, and supply is then to be restored through a new meter of appropriate rating. The first limb had been complied with; the second had not. The licensee said the domestic connection had been used commercially, which it treated as theft, and that such a consumer should not be given supply unless a condition was imposed. The Court directed restoration subject to deposit of Rs.50,000 (Rs.25,000 with minimum charges within 24 hours, the rest within 15 days), refundable if independent testing and the authority's decision find the allegation unsustainable; connection within 72 hours of the deposit. Minimum charges remain payable until a meter is installed, and arrears within 15 days. The writ was disposed of.",
+      "qualifier": "The Court did not decide whether an advocate's chamber consumption on a domestic connection is commercial or theft.",
+      "paras": "1-7",
+      "flag": "Source PDF concatenates listing orders of 18.2.2011, 24.2.2011, 3.3.2011, 8.3.2011, 9.3.2011 and 28.3.2011 with this 4.5.2011 disposal. Cited as Clause 8.1 (vii); catalog key UP-2005::8.1(VII). The 4.5.2011 order is unnumbered; paras 1-9 are sequential blocks of that disposal from 'The petitioner, being a consumer'. The 18.2.2011 listing (Vineet Saran and Ashok Srivastava, JJ.) directed that the meter not be opened, with liberty to send it for examination before an independent authority. Coram is the disposing bench of 4.5.2011."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-8.1vii-restore-supply-through-new-meter-after-removal",
+      "application": "Clause 8.1(vii) was applied as a two-limb duty: after the meter is removed on a prima facie case and tested under clause 5.6, supply is to be restored through a new meter. A theft allegation of using a domestic connection commercially did not displace that restoration. Same 8.1(vii)/5.6 cluster as SCJ-682.",
+      "lead_authorities": [],
+      "paras": "1-2, 6-7"
+    },
+    {
+      "tag": "restoration-on-part-deposit",
+      "application": "Supply was restored on deposit of Rs.50,000 (half with minimum charges in 24 hours, the rest in 15 days), refundable if independent testing and the authority's decision find the allegation unsustainable; connection within 72 hours of the deposit.",
+      "lead_authorities": [],
+      "paras": "6-7"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether using a domestic connection for an advocate's chamber is commercial consumption amounting to theft",
+      "note": "The licensee treated domestic-to-commercial use as theft; the petitioner said chamber consumption is not commercial. The Court restored supply on a refundable deposit without deciding the classification.",
+      "paras": "3-4"
+    },
+    {
+      "point": "Result of independent meter testing and the authority's decision on the allegation",
+      "note": "Left to the independent testing agency and the authority; the deposit is refundable if the allegation is found unsustainable.",
+      "paras": "6"
+    }
+  ],
+  "authorities": []
+}
