@@ -1,0 +1,101 @@
+{
+  "case_id": "SCJ-3142",
+  "title": "M/S Ideal Hotel And Industries Ltd. v. U.P. Electricity Regulatory Commission And Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Amreshwar Pratap Sahi, J. & Vivek Kumar Birla, J.",
+  "date_of_judgment": "2014-02-03",
+  "date_display": "3 February 2014",
+  "docket": "Writ - C No. - 841 of 2013",
+  "page_count": 4,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Certiorari to quash protective-load notices refused; load-reduction grievance remitted to the Executive Engineer, Urban Electricity Distribution Division-V, Varanasi, to pass orders within two months of a certified copy",
+  "headnote": "Where a commercial consumer (a hotel) challenges demand notices for Protective Load Charge on the ground that supply is not from an independent feeder under clause 4.27(f) of the U.P. Electricity Supply Code, 2005, and therefore it cannot be required to enter a clause 4.27 agreement, the writ court will not quash the notices if the consumer wants twenty-four-hour assured supply. Entitlement to that supply is governed by option and agreement under clause 4.27; the nature of the feeder does not govern it. The licensee is justified in calling upon the consumer to enter the agreement in order to extend clause 4.27 benefits. Certiorari is refused. A further prayer that an application for reduction of load be considered and refund ensured under clause 4.41 is remitted to the Executive Engineer, Urban Electricity Distribution Division-V, Varanasi, to pass appropriate orders within two months of production of a certified copy. The Court did not decide whether the feeder was in fact independent, or the merits of the load-reduction claim.",
+  "facts": "M/s Ideal Hotel And Industries Ltd., a hotel and commercial establishment, filed Writ-C No. 841 of 2013 against the U.P. Electricity Regulatory Commission and others to quash demand notices for Protective Load Charge. After a listing of 8 January 2013 calling for a counter-affidavit, Amreshwar Pratap Sahi and Vivek Kumar Birla, JJ. heard the petition on 3 February 2014. Counsel submitted that the hotel's supply was not from an independent feeder as required by clause 4.27(f) of the U.P. Electricity Supply Code, 2005, so the licensee's insistence that it sign a clause 4.27 agreement was unjustified. A further prayer was that an application for reduction of load be considered and refund ensured under clause 4.41.",
+  "reusable_constructions": [
+    {
+      "construction": "A consumer who wants twenty-four-hour assured supply must enter into an agreement under clause 4.27 of the U.P. Electricity Supply Code, 2005.",
+      "paras": "5-6"
+    },
+    {
+      "construction": "The nature of the feeder, including whether supply is from an independent feeder under clause 4.27(f), does not govern entitlement to twenty-four-hour assured supply.",
+      "paras": "4, 6"
+    },
+    {
+      "construction": "Twenty-four-hour assured supply is permissible only if a clause 4.27 agreement is entered into on the consumer's option; a licensee is justified in calling upon such a consumer to enter that agreement in order to extend clause 4.27 benefits, and certiorari will not lie to quash notices requiring it.",
+      "paras": "6"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.27",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.27 (Protective Load), incl. 4.27(f)",
+      "topic": "twenty-four-hour assured supply requires a clause 4.27 agreement; feeder type does not govern entitlement",
+      "type": "supply_code",
+      "question": "Can a commercial consumer who wants twenty-four-hour assured supply resist notices calling for a clause 4.27 protective-load agreement on the ground that supply is not from an independent feeder under clause 4.27(f)?",
+      "holding": "No. The Court extracted clause 4.27 and recorded the petitioner's contention that supply was not from an independent feeder as per clause 4.27(f), so insistence on an agreement was unjustified. Finding that the petitioner wants twenty-four-hour assured supply, it held that the consumer must enter into a clause 4.27 agreement. The nature of the feeder or supply therefrom does not govern entitlement to twenty-four-hour assured supply. That supply is permissible only if an agreement is entered into on the option being exercised. The respondents were justified in calling upon the petitioner to enter the agreement in order to extend clause 4.27 benefits. Certiorari to quash the notices was refused.",
+      "qualifier": "The Court proceeded on the footing that the petitioner wants twenty-four-hour assured supply. It did not find as a fact whether the feeder was independent.",
+      "paras": "3-6",
+      "flag": "Source PDF concatenates the 8.1.2013 listing (Satya Poot Mehrotra and Zaki Ullah Khan, JJ.) with this 3.2.2014 disposal. Pins are sequential unnumbered blocks of the disposal (hearing; contention; 4.27 extracted; 4.27(f) submission; must enter agreement; feeder does not govern / certiorari refused; 4.41 prayer; remittal to EE). Clause 4.27(f) was invoked by the petitioner and not applied as a bar."
+    },
+    {
+      "provision": "UP-2005::4.41",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.41",
+      "topic": "load-reduction and refund prayer remitted to the Executive Engineer",
+      "type": "supply_code",
+      "question": "Will the writ court itself consider a prayer for reduction of load and refund under clause 4.41?",
+      "holding": "No. The petitioner may approach the Executive Engineer, Urban Electricity Distribution Division-V, Varanasi (respondent no. 3) for redressal of that grievance; the officer shall look into it and pass appropriate orders within two months of production of a certified copy.",
+      "paras": "7-8",
+      "flag": "Court cited clause 4.41 generally, without a sub-clause. Catalog keys are 4.41(a)(iv) and 4.41(f)(ii) only. The clause was not construed."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "protective-load-additional-charges-clause-4.27",
+      "application": "Notices requiring a clause 4.27 protective-load agreement were not quashed. A consumer wanting twenty-four-hour assured supply must enter that agreement; feeder type under 4.27(f) does not govern the entitlement.",
+      "lead_authorities": [],
+      "paras": "3-6"
+    },
+    {
+      "tag": "charge-requires-consumer-option",
+      "application": "Twenty-four-hour assured supply is available only if the consumer exercises the option and enters a clause 4.27 agreement. The Court used that option-and-agreement condition to sustain the licensee's notices, not to strike a levy imposed without option.",
+      "lead_authorities": [],
+      "paras": "5-6"
+    },
+    {
+      "tag": "protective-load-charges-clause-4.27-challenge",
+      "application": "The writ challenged Protective Load Charge notices on the 4.27(f) independent-feeder ground. Certiorari was refused; the challenge failed on the construction that feeder nature does not govern twenty-four-hour entitlement.",
+      "lead_authorities": [],
+      "paras": "2, 4, 6"
+    },
+    {
+      "tag": "representation-to-be-decided-in-accordance-with-law",
+      "application": "The clause 4.41 load-reduction and refund prayer was not decided. The consumer was directed to approach the Executive Engineer, Urban Electricity Distribution Division-V, Varanasi, who is to pass appropriate orders within two months of a certified copy.",
+      "lead_authorities": [],
+      "paras": "7-8"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner's supply was in fact from an independent feeder under clause 4.27(f)",
+      "note": "Invoked by the petitioner as a bar to the agreement. The Court held that feeder nature does not govern twenty-four-hour entitlement and did not find the fact.",
+      "paras": "4, 6"
+    },
+    {
+      "point": "Merits of the load-reduction application and any refund under clause 4.41",
+      "note": "Remitted to the Executive Engineer, Urban Electricity Distribution Division-V, Varanasi, to pass appropriate orders within two months.",
+      "paras": "7-8"
+    },
+    {
+      "point": "Quantum or correctness of the Protective Load Charge as billed",
+      "note": "Notices were not quashed; no amount was examined.",
+      "paras": "2, 6"
+    }
+  ],
+  "authorities": []
+}
