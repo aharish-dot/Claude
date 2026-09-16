@@ -1,0 +1,94 @@
+{
+  "case_id": "SCJ-3154",
+  "title": "Executive Engineer, EUDD-VI And Another v. Girdhari Lal And Another",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Sunita Agarwal, J.",
+  "date_of_judgment": "2015-03-26",
+  "date_display": "26 March 2015",
+  "docket": "Writ - C No. 14673 of 2015",
+  "page_count": 4,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition disposed of; no infirmity found in the appellate authority's 11.12.2014 restoration of the Section 127 appeal; that authority directed to decide the appeal within two months of production of a certified copy, after notice to respondent no. 1; no unnecessary adjournment, else heavy costs on the party seeking it",
+  "headnote": "Review is a creature of statute: unless the Electricity Act, 2003 or the U.P. Electricity Supply Code, 2005 specifically confers a power of review, an appellate authority acting under the Act cannot review its own order. That proposition does not, however, invalidate recall of an order that dismissed a Section 127 appeal as not maintainable for alleged non-deposit of the one-half pre-deposit under Section 127(2), where the appellant had in fact deposited that amount pursuant to an earlier High Court order, the 2013 dismissal was passed in his absence on incomplete facts, and the appeal had never been decided on merits. The licensee's challenge to the 11.12.2014 restoration (delay condoned under Section 5 of the Limitation Act on costs of Rs 2,500) therefore fails. The writ is disposed of by directing the appellate authority to decide the pending appeal, which has stood since 2008, within two months. The Court did not decide the assessment on merits.",
+  "facts": "The Executive Engineer, EUDD-VI, and another (the distribution licensee) filed Writ-C No. 14673 of 2015 in the Allahabad High Court against Girdhari Lal and the appellate authority, challenging that authority's order dated 11 December 2014 which had allowed Girdhari Lal's restoration application and restored his appeal to its original number. His Section 127 appeal had been dismissed on 22 May 2013 in his absence on the ground that he had not deposited one-half of the assessed liability under Section 127(2) of the Electricity Act, 2003. In the restoration application he pleaded that, pursuant to an earlier High Court order dated 22 November 2007, he had deposited that one-half on 15 January 2008 and 28 March 2008. The appellate authority condoned delay under Section 5 of the Limitation Act on costs of Rs 2,500, recalled the dismissal, and restored the appeal, which had been pending since 2008 and had not been decided on merits. The licensee contended that neither the Act nor the Supply Code, 2005 confers a power of review or recall.",
+  "reusable_constructions": [
+    {
+      "construction": "Review is a creature of statute; unless the Electricity Act, 2003 or the U.P. Electricity Supply Code, 2005 specifically confers a power of review, an appellate authority acting under the Act cannot review its own order on the merits.",
+      "paras": "5"
+    },
+    {
+      "construction": "Recalling an order that dismissed a Section 127 appeal as not maintainable for alleged non-deposit of the one-half pre-deposit under Section 127(2), where that deposit had in fact been made and the appeal had not been decided on merits, is not a prohibited statutory review.",
+      "paras": "6-8"
+    },
+    {
+      "construction": "A delayed restoration application against such a non-maintainability dismissal may be allowed on condonation of delay under Section 5 of the Limitation Act, with costs, and the writ court will not interfere with that restoration.",
+      "paras": "8"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act, 2003",
+      "clause": "127 (including 127(2) pre-deposit)",
+      "topic": "recall of a Section 127 appeal dismissed as not maintainable for alleged non-deposit is not a prohibited review",
+      "type": "electricity_act",
+      "question": "May a Section 127 appellate authority recall an order that dismissed the appeal as not maintainable for want of the Section 127(2) one-half pre-deposit, where that deposit had in fact been made and the appeal was not decided on merits, or is that a review forbidden because the Act and the Supply Code confer no review power?",
+      "holding": "The recall stands. The Court accepted as trite that review is a creature of statute and that, absent a specific provision, an authority acting under the Act cannot review its own order. Applied to these facts, however, the 22.05.2013 dismissal was in the appellant's absence on the ground that the Section 127(2) pre-deposit had not been made; the restoration record showed deposits of that one-half on 15.01.2008 and 28.03.2008 pursuant to a High Court order dated 22.11.2007, so the appeal could not have been dismissed as not maintainable in 2013. Delay was condoned under Section 5 of the Limitation Act on costs of Rs 2,500; the appeal had not been decided on merits; the correct deposit facts had not been before the authority. Rajeev Hitendra Pathak therefore did not apply. No infirmity was found in the 11.12.2014 restoration. The pending appeal was directed to be decided within two months.",
+      "qualifier": "The 22.05.2013 dismissal was in the appellant's absence and was not a decision on the merits of the assessment.",
+      "flag": "Source concatenates listing orders of 23.3.2015 and 24.3.2015 with the 26.3.2015 merits order (Sunita Agarwal, J.; unnumbered paragraphs counted on that merits order). The merits order recites that 'the exparte order dated 11.12.2014 was recalled'; the writ itself challenges the 11.12.2014 order that allowed restoration of the appeal dismissed on 22.05.2013 — that 11.12.2014 date in the recall sentence is recorded as the judgment states it. Petitioner invoked both the Act and the Supply Code, 2005 as containing no review/recall provision; no Code clause number was cited.",
+      "paras": "2-10"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "order-recalled-when-passed-on-wrong-footing-without-hearing",
+      "application": "The 22.05.2013 dismissal of the Section 127 appeal, passed in the appellant's absence on the footing that the Section 127(2) one-half pre-deposit had not been made, was recalled once it appeared that those deposits had been made in 2008 pursuant to an earlier High Court order and that the appeal had never been decided on merits.",
+      "lead_authorities": [],
+      "paras": "6-8"
+    },
+    {
+      "tag": "recall-of-order-requires-disclosed-statutory-basis",
+      "application": "The Court accepted the licensee's proposition that review is a creature of statute and that neither the Electricity Act, 2003 nor the Supply Code, 2005 was shown to confer a power of review. It held that proposition inapplicable to recall of a non-maintainability dismissal founded on an incorrect non-deposit finding, which is not a merits review.",
+      "lead_authorities": [
+        {
+          "name": "Rajeev Hitendra Pathak & others v. Achyut Kashinath Karekar & another",
+          "docid": ""
+        }
+      ],
+      "paras": "3-8"
+    },
+    {
+      "tag": "alternative-remedy-section-127-appeal",
+      "application": "The writ challenging restoration of the Section 127 appeal was disposed of without deciding the assessment; the appellate authority was directed to decide the appeal, pending since 2008, within two months.",
+      "lead_authorities": [],
+      "paras": "8-10"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits and quantum of the underlying assessment, and the Section 127 appeal itself",
+      "note": "The appeal had not been decided on merits. It was directed to be decided by the appellate authority within two months.",
+      "paras": "8-9"
+    },
+    {
+      "point": "Whether any numbered clause of the Supply Code, 2005 or section of the Act expressly confers or withholds a power of review",
+      "note": "The Court treated as trite that review is a creature of statute and that the Act and Code were not shown to confer review, without examining a numbered clause; the Pathak principle was then held inapplicable on the facts.",
+      "paras": "3-8"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Rajeev Hitendra Pathak & others v. Achyut Kashinath Karekar & another",
+      "citation": "2011 Law Suit (SC) 871",
+      "court": "Supreme Court of India",
+      "docid": "",
+      "proposition": "Relied on by the licensee for the proposition that there is no power of review or recall under the Electricity Act, 2003 and that the Civil Procedure Code applies to a tribunal only to a limited extent, so the appellate authority could not have recalled or reviewed its order.",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished"
+    }
+  ]
+}
