@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3088,
+  "next_seq": 3089,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -18508,6 +18508,12 @@
       "case_id": "SCJ-3084",
       "source_basename": "WRIC(A)_12591_2011.pdf",
       "title": "Smt. Anoop v. U.P. Power Corporation Ltd. Thru' Its Chairman And Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3086",
+      "source_basename": "WRIC(A)_13395_2011.pdf",
+      "title": "Ramvir v. State of U.P. and Another",
       "status": "done"
     }
   ]
