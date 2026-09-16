@@ -1,0 +1,124 @@
+{
+  "case_id": "SCJ-3165",
+  "title": "Ravi Kant Pandey v. State of U.P. & 3 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J.; Vinod Kumar Misra, J.",
+  "date_of_judgment": "2016-03-30",
+  "date_display": "30 March 2016",
+  "docket": "Writ - C No. - 10980 of 2016",
+  "page_count": 8,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition allowed; recovery citation dated 27.02.2016 for Rs.2,15,703 and consequential proceedings quashed; respondents to prepare and serve a fresh provisional assessment and to pass a reasoned final assessment after considering objections, in the light of Ashok Kumar",
+  "headnote": "A licensee cannot treat a provisional theft assessment as final, and recover it, merely because the consumer filed no objection, if the consumer was never afforded the mandatory opportunity of hearing under Clause 6.8(1)(b) of the U.P. Electricity Supply Code, 2005 and no final assessment records the authority's satisfaction that the provisional assessment notice was served. Following Ashok Kumar (paras 56–64) on the Code procedure for theft assessment, the recovery citation is quashed; a fresh provisional assessment must be served, and a reasoned final assessment made after considering objections.",
+  "facts": "Ravi Kant Pandey petitioned the Allahabad High Court under Article 226 challenging a recovery certificate dated 27 February 2016 issued by respondent no. 2. He said that in an alleged theft of electricity, Rs.10,000 as electricity charges and Rs.8,000 as compounding charges had been fixed and deposited by him, and he later deposited a further Rs.15,631 under a one-time settlement; yet, without disclosing any reason, a citation for Rs.2,15,703 plus 10% recovery charges was issued for alleged dues of respondent no. 3 on a provisional assessment bill. Counsel for the distribution licensee contended that the recovery rested on a provisional assessment to which the petitioner had filed no objection, so that assessment was treated as final, a bill was raised, and on non-payment the recovery certificate issued. The petitioner then stated that the provisional assessment bill had never been served, so he could not object. After several listings, the Division Bench disposed of the writ on 30 March 2016.",
+  "reusable_constructions": [
+    {
+      "construction": "Opportunity of hearing under Clause 6.8 of the U.P. Electricity Supply Code, 2005 is mandatory; its absence vitiates recovery founded on a provisional assessment treated as final.",
+      "paras": "6"
+    },
+    {
+      "construction": "A final assessment must record the assessing authority's satisfaction that the provisional assessment notice was served; without that, treating the provisional assessment as final cannot support a recovery citation.",
+      "paras": "6"
+    },
+    {
+      "construction": "Where those steps are missing, the recovery citation and consequential proceedings are quashed, and the licensee must prepare and serve a fresh provisional assessment and pass a reasoned final assessment after considering the consumer's objections.",
+      "paras": "6-7"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.8(1)(b)",
+      "topic": "mandatory hearing before treating a provisional theft assessment as final and recovering it",
+      "type": "supply_code",
+      "question": "May a licensee treat a provisional theft assessment as final and issue a recovery citation merely because the consumer filed no objection, if no hearing under Clause 6.8(1)(b) was afforded and no final assessment records satisfaction that the provisional notice was served?",
+      "holding": "No. The licensee's case was that the petitioner had not objected to the provisional assessment, so it was treated as final, a bill was raised, and the recovery certificate dated 27.02.2016 issued. The petitioner said the provisional assessment bill had not been served. The Court held that opportunity of hearing is mandatorily warranted under Clause 6.8(1)(b), and that no final assessment had been passed containing the authority's satisfaction about service of the provisional assessment notice as required in law. The recovery proceeding therefore could not be sustained.",
+      "paras": "3-6",
+      "flag": "Cited as Clause 6.8 (1)(b); catalog key UP-2005::6.8(b). The Court applied that clause to an alleged theft assessment, citing Ashok Kumar paras 56–64; catalog hit clause-8.1-8.2-govern-theft-assessment-not-6.8 — clause number not silently corrected. Source PDF concatenates listing orders of 9.3.2016, 15.3.2016, 16.3.2016, 17.3.2016, 18.3.2016 and 28.3.2016 with this 30.3.2016 disposal. Paras 1–7 are sequential blocks of that disposal from 'By means of this petition'. Coram is the disposing bench of 30.3.2016."
+    },
+    {
+      "provision": "UP-2005::6.8",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.8",
+      "topic": "quash of recovery and remand for fresh provisional assessment, objections and reasoned final order",
+      "type": "supply_code",
+      "holding": "The writ petition is allowed. The recovery citation dated 27.02.2016 for Rs.2,15,703 and all consequential proceedings are quashed. The respondents are directed to prepare a fresh provisional assessment and serve it on the petitioner. The final assessment is to be made after considering the petitioner's objection, giving reasons to meet those objections in the light of Ashok Kumar (paras 56–64).",
+      "paras": "7",
+      "flag": "Same 30.3.2016 disposal. The Court did not quantify a fresh demand or decide whether earlier compounding and one-time-settlement deposits discharged the later citation."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.8-hearing-procedure-mandatory-before-uue-conclusion",
+      "application": "The Court held that opportunity of hearing is mandatorily warranted under Clause 6.8(1)(b) before a provisional theft assessment treated as final can support recovery.",
+      "lead_authorities": [
+        {
+          "name": "Ashok Kumar and others v. State of U.P. and others",
+          "docid": "897981"
+        }
+      ],
+      "paras": "5-6"
+    },
+    {
+      "tag": "proper-service-of-provisional-assessment-notice-clause-6.8",
+      "application": "Absence of a final assessment recording the authority's satisfaction that the provisional assessment notice had been served, together with the petitioner's statement that the provisional bill was never served, was fatal to the recovery.",
+      "lead_authorities": [
+        {
+          "name": "Ashok Kumar and others v. State of U.P. and others",
+          "docid": "897981"
+        }
+      ],
+      "paras": "4, 6"
+    },
+    {
+      "tag": "assessment-quashed-for-breach-of-clause-6.8-procedure",
+      "application": "The 27.02.2016 recovery citation and consequential proceedings were quashed for breach of Clause 6.8(1)(b); a fresh provisional assessment is to be served and a reasoned final order passed after objections, following Ashok Kumar.",
+      "lead_authorities": [
+        {
+          "name": "Ashok Kumar and others v. State of U.P. and others",
+          "docid": "897981"
+        }
+      ],
+      "paras": "6-7"
+    },
+    {
+      "tag": "para-6.8-non-compliance-vitiates-assessment-and-recovery",
+      "application": "Treating an unserved provisional assessment as final because no objection was filed, and issuing recovery on that footing, could not be sustained once the mandatory Clause 6.8 hearing and service-satisfaction requirements were not shown.",
+      "lead_authorities": [
+        {
+          "name": "Ashok Kumar and others v. State of U.P. and others",
+          "docid": "897981"
+        }
+      ],
+      "paras": "3-7"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness or quantum of the Rs.2,15,703 demand, and whether the deposited compounding charges, electricity charges and Rs.15,631 one-time settlement discharged it",
+      "note": "Recorded as the petitioner's contention; left to a fresh provisional assessment, service, objections and a reasoned final assessment in the light of Ashok Kumar.",
+      "paras": "2, 7"
+    },
+    {
+      "point": "Whether clauses 8.1–8.2, rather than Clause 6.8(1)(b), govern a theft assessment",
+      "note": "The Court described the case as alleged theft of electricity and applied Clause 6.8(1)(b), citing Ashok Kumar on Code procedure for theft, without deciding the 8.1/6.8 distinction.",
+      "paras": "2, 5-6"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar and others v. State of U.P. and others",
+      "citation": "2008(6) ADJ 660 (DB)",
+      "court": "Allahabad High Court (DB)",
+      "docid": "897981",
+      "proposition": "Paras 56 to 64 consider the provisions of the Electricity Supply Code, 2005 to be followed when assessing theft of electricity; a fresh final assessment is to meet the consumer's objections with reasons in that light.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}
