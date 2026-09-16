@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3122,
+  "next_seq": 3123,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -18700,6 +18700,12 @@
       "case_id": "SCJ-3120",
       "source_basename": "WRIC(A)_36061_2012.pdf",
       "title": "Ismail v. Paschimanchal Vidyut Nigam Ltd. & Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3119",
+      "source_basename": "WRIC(A)_34559_2012.pdf",
+      "title": "M/S Shree Nath Duplex Pvt. Ltd. v. Paschimanchal Vidyut Vitran Nigam Ltd. And Others",
       "status": "done"
     }
   ]

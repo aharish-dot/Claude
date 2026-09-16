@@ -1,0 +1,73 @@
+{
+  "case_id": "SCJ-3119",
+  "title": "M/S Shree Nath Duplex Pvt. Ltd. v. Paschimanchal Vidyut Vitran Nigam Ltd. And Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta, J. and Ajit Kumar, J.",
+  "date_of_judgment": "2018-08-03",
+  "date_display": "3 August 2018",
+  "docket": "Writ - C No. 34559 of 2012",
+  "page_count": 4,
+  "significance": "procedural",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; additional-security demand, interest, refund and Clause 4.20 vires challenge refused; interim vacated",
+  "headnote": "A writ to quash a 30.5.2012 additional-security demand, to recover bank-rate interest on and refund of security already deposited, and to declare Clause 4.20 of the U.P. Electricity Supply Code, 2005 ultra vires Sections 47(4) and 47(5) of the Electricity Act, 2003, was dismissed. After an interim restraint following the connected Supreme Ceramics writ, a Division Bench on 3.8.2018, none appearing, perused the petition, found no ground for any of those reliefs, dismissed the writ, and vacated the interim. No reasoned construction of Clause 4.20 or Section 47 was recorded.",
+  "facts": "M/s Shree Nath Duplex Pvt. Ltd. challenged Paschimanchal Vidyut Vitran Nigam Ltd.'s 30 May 2012 demand for additional security. It pleaded that it had opted for a pre-payment meter, so the demand under Section 47(2) of the Electricity Act, 2003 was barred by Section 47(5); that Clause 4.20(l) of the U.P. Electricity Supply Code, 2005 was ultra vires Section 47(5); that security regulations under Section 181(2)(v) had not been framed; and that Section 174 overrode inconsistent Code provisions. It also sought bank-rate interest on, and refund of, security of Rs 12 lakh already deposited, and declarations that Clause 4.20(i)(1) of the Code as amended from 14 September 2006 was ultra vires Sections 47(4) and 47(5) and that Clause 4.20(i) operated from 10 June 2003. On 23 August 2012 a Division Bench connected the writ with Writ Petition No. 51844 of 2009 (M/s Supreme Ceramics Limited) and restrained the demand on an undertaking to furnish the security if the writ failed. On 3 August 2018 none appeared when the petition was called in revise.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.20",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.20",
+      "topic": "additional-security demand and vires of Clause 4.20",
+      "type": "supply_code",
+      "holding": "The writ seeking to quash the 30.5.2012 additional-security demand under Clause 4.20 of the U.P. Electricity Supply Code, 2005, and to declare Clause 4.20(i)(1)/4.20(i) of the 14.9.2006 amendment ultra vires Sections 47(4) and 47(5) of the Electricity Act, 2003, is dismissed. After none appeared on a call in revise, the Court perused the petition, found no ground entitling the petitioner to any of the reliefs, and vacated the 23.8.2012 interim restraint on the demand.",
+      "paras": "3",
+      "flag": "The 23.8.2012 sitting pleaded Clause 4.20(l); the 3.8.2018 prayer pleaded Clause 4.20(i)(1) and Clause 4.20(i) of the 14.9.2006 amendment. Recorded as pleaded; no sub-clause was construed. Source pages 1–2 are the 19.7.2012 listing and the 23.8.2012 without-prejudice interim; the disposing order is the unnumbered 3.8.2018 sitting (page 3 of the extract)."
+    },
+    {
+      "provision": "EA2003::47",
+      "code": "Electricity Act, 2003",
+      "clause": "47",
+      "topic": "s.47(5) pre-payment exemption; s.47(4) interest; refund of security",
+      "type": "electricity_act",
+      "holding": "Mandamus for bank-rate interest on security already deposited from the inception of the unit, for refund of that security (Rs 12 lakh), and for relief on the plea that a pre-payment-meter option under Section 47(5) barred additional security under Section 47(2), was refused with the rest of the writ. The Court recorded no separate construction of Section 47.",
+      "paras": "3"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "additional-security",
+      "application": "A writ to quash an additional-security demand under Clause 4.20, and to strike down that clause as ultra vires Sections 47(4) and 47(5), was dismissed after perusal in the petitioner's absence; the earlier interim restraint was vacated.",
+      "lead_authorities": [],
+      "paras": "3"
+    },
+    {
+      "tag": "s47-4-interest-on-security-at-bank-rate-from-enactment",
+      "application": "Mandamus for interest at bank rate on security already deposited from the inception of the petitioner's unit, and for refund of that security, was refused without a construction of Section 47(4).",
+      "lead_authorities": [],
+      "paras": "3"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether security regulations under Section 181(2)(v) of the Electricity Act, 2003 were a precondition to the additional-security demand",
+      "note": "Raised at the 23.8.2012 sitting; not among the 3.8.2018 prayers; not separately addressed.",
+      "paras": "2"
+    },
+    {
+      "point": "Whether Section 174 independently invalidated Clause 4.20",
+      "note": "Invoked at the 23.8.2012 sitting as giving the Act overriding effect; not separately decided in the 3.8.2018 dismissal.",
+      "paras": "2"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "M/s Supreme Ceramics Limited v. Paschimanchal Vidyut Vitran Nigam Ltd. and others",
+      "citation": "Civil Misc. Writ Petition No. 51844 of 2009",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    }
+  ]
+}
