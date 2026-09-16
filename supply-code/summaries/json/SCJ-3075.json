@@ -1,0 +1,91 @@
+{
+  "case_id": "SCJ-3075",
+  "title": "Anand Kumar Gupta v. State of U.P. Thru' Secry., Energy And Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sunil Ambwani, J.; Kashi Nath Pandey, J.",
+  "date_of_judgment": "2010-09-08",
+  "date_display": "8 September 2010",
+  "docket": "Writ - C No. 52598 of 2010",
+  "page_count": 5,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Fourth writ dismissed; section 56(2) bar rejected; pending appeal to be decided expeditiously.",
+  "headnote": "A fourth successive writ challenging a theft-recovery citation on the grounds that section 56(2) of the Electricity Act, 2003 bars recovery after two years and that the connection was permanently disconnected is dismissed. The two-year bar is not attracted where recovery of the theft assessment remains pending in a statutory appeal and supply had been restored under an earlier writ because objections under paragraph 8.2 of the U.P. Electricity Supply Code, 2005 were not heard in time. Deposit of compounding without depositing the compounded dues does not stall the recovery certificate. The pending appeal is to be decided expeditiously.",
+  "facts": "Anand Kumar Gupta ran an oil mill on a sanctioned load of 62.439 HP. On 28 May 2005 he was found tapping the cable and bypassing the meter, with connected load of 122 HP. A provisional assessment was made that day and compounding of Rs.24,40,000 demanded. In Writ-C No. 50035 of 2005 the Court, noting that objections of 13 June 2005 had not been heard within the period under paragraph 8.2 of the U.P. Electricity Supply Code, 2005, directed restoration without a deposit. Objections were later decided on 10 April 2006, initiating recovery of about Rs.5,32,873, followed by a further bill of about Rs.3,84,822.\n\nThe second and third writs were disposed of as infructuous or on alternative remedy. He appealed the bills to the Superintending Engineer/Chairman, CGRF, and applied under a 20 March 2010 compounding scheme but did not pursue it. In this fourth writ he challenged a citation dated 11 August 2010 for Rs.8,16,091 and other dues, pleading permanent disconnection on 10 August 2008, a still-pending appeal, and a section 56(2) bar.",
+  "reusable_constructions": [
+    {
+      "construction": "Section 56(2) of the Electricity Act, 2003 is not attracted to recovery of a theft assessment while that recovery remains pending in a statutory appeal.",
+      "paras": "7"
+    },
+    {
+      "construction": "Court-ordered restoration of supply, granted because objections under paragraph 8.2 of the U.P. Electricity Supply Code, 2005 were not heard within the statutory period, does not later bring the two-year bar of section 56(2) into play against the theft recovery.",
+      "paras": "2, 7, 9"
+    },
+    {
+      "construction": "Deposit of compounding charges without depositing the compounded electricity dues does not defeat a recovery certificate for those dues and surcharge.",
+      "paras": "8"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::56(2)",
+      "code": "EA2003",
+      "clause": "56(2)",
+      "topic": "two-year bar not attracted while theft recovery is pending in appeal",
+      "type": "electricity_act",
+      "question": "Does the two-year bar in section 56(2) of the Electricity Act, 2003 defeat recovery of a theft assessment when a statutory appeal remains pending and supply was restored under a court order?",
+      "holding": "No. A provisional assessment was made on the day the consumer was found drawing electricity unauthorisedly; supply was later restored under court orders because the objection had not been decided; the objection was then decided and recovery initiated, with a further bill, and that recovery remained the subject of a pending appeal. Section 56(2) is therefore not attracted. The fourth writ is dismissed, with the pending appeal to be decided expeditiously.",
+      "qualifier": "The Court did not hold, as a categorical rule, that section 56(2) never applies to theft; it rested on pending recovery in appeal and court-ordered restoration.",
+      "paras": "6-7, 9-10",
+      "flag": "Source PDF also contains listing orders of 30.8.2010 and 6.9.2010; pins are of the unnumbered AFR judgment of 8.9.2010. The closing sentence reads 'we do not find that the provisions of Section 56 (2) ... are not attracted'; read with the earlier finding that section 56(2) 'is thus not attracted' and with dismissal of the writ, that is treated as a drafting slip and the bar is held not to apply. Internal date/amount variants (10.4.2006/10.7.2006; 29.8.2008/28.8.2007; Rs.5,32,873/5,32,878) are recorded as the judgment states them."
+    },
+    {
+      "provision": "UP-2005::8.2",
+      "code": "UP-2005",
+      "clause": "8.2",
+      "topic": "restoration after unheard theft objections does not attract s.56(2)",
+      "type": "interplay",
+      "holding": "An earlier writ had directed a fresh meter and restoration without deposit because objections under paragraph 8.2 of the U.P. Electricity Supply Code, 2005 were not heard within the statutory period. That court-ordered restoration does not later make section 56(2) of the Electricity Act, 2003 a bar to recovering the theft assessment after the objections are decided.",
+      "paras": "2, 7, 9"
+    },
+    {
+      "provision": "UP-2005::compounding",
+      "code": "UP-2005",
+      "clause": "compounding",
+      "topic": "compounding deposit does not extinguish civil dues",
+      "type": "supply_code",
+      "holding": "A recovery certificate issued for electricity dues and surcharge is not defeated where the consumer deposited compounding charges but did not deposit the compounded amount of dues.",
+      "paras": "8"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "section-56-2-two-year-bar-inapplicable-to-theft",
+      "application": "The consumer's plea that recovery of the oil-mill theft assessment was barred after two years was rejected: section 56(2) was held not attracted because recovery remained pending in appeal and supply had been restored under court orders. The Court did not rest on a free-standing 'theft is outside section 56(2)' rule.",
+      "lead_authorities": [],
+      "paras": "6-7, 9-10"
+    },
+    {
+      "tag": "compounding-fee-does-not-extinguish-civil-consumption-dues",
+      "application": "The recovery certificate for electricity dues and surcharge stood though the petitioner had deposited compounding but had not deposited the compounded dues.",
+      "lead_authorities": [],
+      "paras": "8"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits and quantum of the 10.4.2006 assessment and the subsequent bill",
+      "note": "Left to the pending appeal, which the Court directed be decided expeditiously.",
+      "paras": "10"
+    },
+    {
+      "point": "Whether the 10.8.2008 document effected a completed permanent disconnection",
+      "note": "The licensee submitted that it was only a report in preparation of permanent disconnection, which follows deposit of the entire pending dues. The Court recorded that stand but did not independently decide the character of the document.",
+      "paras": "4-5"
+    }
+  ],
+  "authorities": []
+}
