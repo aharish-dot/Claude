@@ -1,0 +1,78 @@
+{
+  "case_id": "SCJ-3064",
+  "title": "Shiv Ram v. State of U.P. & Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Ramesh Sinha, J. & Ajit Kumar, J.",
+  "date_of_judgment": "2019-09-30",
+  "date_display": "30 September 2019",
+  "docket": "Writ - C No. 59178 of 2009",
+  "page_count": 5,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; recovery not to be pressed; respondent no. 4 to supply a provisional assessment within five weeks, petitioner to reply within two weeks, then a final order within four weeks",
+  "headnote": "Where a checking report records unauthorised use of electricity and supply is disconnected, it is the licensee's bounden duty under the U.P. Electricity Supply Code, 2005 and the Electricity Act, 2003 to issue a provisional assessment order along with that checking report. An assessment that is merely directed to be treated as a final assessment, without any prior provisional assessment, cannot support recovery. The writ challenging recovery of about Rs. 35,657 was disposed of by directing respondent no. 4 to furnish a copy of a provisional assessment within five weeks, the consumer to reply within two weeks thereafter, and the competent authority to pass a final order within a further four weeks. The impugned recovery is not to be pressed and shall abide that final decision. The Court did not decide the quantum, or whether the checking finding of unauthorised use was made out.",
+  "facts": "Shiv Ram filed Writ-C No. 59178 of 2009 challenging recovery of outstanding electricity dues of Rs. 35,657. The papers showed a checking report that he had been found using electricity unauthorisedly. On 7 November 2009 a Division Bench (Vijay Manohar Sahai and Yogesh Chandra Gupta, JJ.) stayed recovery on the citation dated 16 September 2009 if he deposited Rs. 10,000 within a month; he later deposited that sum. The licensee's counter affidavit produced an order dated 6 July 2008 assessing Rs. 35,596.80, which the Executive Officer had been directed to treat as a final assessment. Nothing on the record showed that a provisional assessment had ever been issued. After September 2019 adjournments, a Division Bench (Ramesh Sinha and Ajit Kumar, JJ.) disposed of the writ on 30 September 2019.",
+  "reusable_constructions": [
+    {
+      "construction": "Where theft of electricity is alleged and supply is disconnected, the licensee must issue a provisional assessment order along with the checking report under the U.P. Electricity Supply Code, 2005 and the Electricity Act, 2003.",
+      "paras": "3"
+    },
+    {
+      "construction": "An assessment that is merely directed to be treated as a final assessment, without a prior provisional assessment, cannot support recovery of electricity dues.",
+      "paras": "2-3"
+    },
+    {
+      "construction": "Where that procedure has not been followed, the impugned recovery is not to be pressed and must abide a fresh cycle of supplying the provisional assessment, the consumer's reply, and a final order by the competent authority.",
+      "paras": "4-5"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "8.1 (theft — provisional assessment to issue with the checking report before a final assessment / recovery)",
+      "topic": "Duty to issue a provisional assessment with the checking report; an assessment merely treated as final cannot support recovery",
+      "type": "supply_code",
+      "question": "May a licensee recover electricity dues on an assessment directed to be treated as final, where a checking report of unauthorised use exists but no provisional assessment was ever issued?",
+      "holding": "No. Whenever theft is in issue and disconnection follows, it is the licensee's bounden duty under the Supply Code, 2005 and the Electricity Act, 2003 to issue a provisional assessment order along with the checking report. The record showed a checking report of unauthorised use and an order dated 6 July 2008 assessing Rs. 35,596.80 that the Executive Officer was directed to treat as a final assessment, with no provisional assessment at any point. Respondent no. 4 was directed to supply a copy of a provisional assessment within five weeks; the petitioner to reply within two weeks; and the competent authority to pass a final order within a further four weeks. The impugned recovery is not to be pressed and shall abide that final decision.",
+      "paras": "2-5",
+      "flag": "The Court cited no clause number. It framed the case as theft (Clause 8.1) although the checking report was of unauthorised use (which would engage Clause 6.8 / s.126). The Electricity Act, 2003 was invoked without a section. Paras are those of the 30.9.2019 order (unnumbered); earlier sheets of 7.11.2009 (interim stay on deposit), 13.9.2019 and 23.9.2019 (adjournments) decide nothing on the Code."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "opportunity-before-final-assessment",
+      "application": "No provisional assessment had been issued; an order merely directed to be treated as final could not conclude the demand. A copy of a provisional assessment must be supplied, objections taken, and a final order then passed.",
+      "lead_authorities": [],
+      "paras": "2-4"
+    },
+    {
+      "tag": "no-recovery-without-final-assessment-clause-8.1(b)",
+      "application": "Recovery of Rs. 35,657 founded on a 6.7.2008 assessment treated as final, without a prior provisional assessment, was not to be pressed and was to abide a Code-compliant final order.",
+      "lead_authorities": [],
+      "paras": "2-5"
+    },
+    {
+      "tag": "provisional-assessment-objection-recovery-abides",
+      "application": "The impugned recovery shall not be pressed into service and shall abide the final decision after the provisional assessment is supplied and the consumer replies.",
+      "lead_authorities": [],
+      "paras": "4-5"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner in fact used electricity unauthorisedly, and the quantum of Rs. 35,657 / Rs. 35,596.80",
+      "note": "Left to the reply and the final order after a provisional assessment is supplied.",
+      "paras": "2, 4"
+    },
+    {
+      "point": "Whether the demand is theft under Clause 8.1 / Section 135 or unauthorised use under Clause 6.8 / Section 126",
+      "note": "The checking report was of unauthorised use; the Court spoke of theft and invoked the Code and the 2003 Act without a clause or section number.",
+      "paras": "2-3"
+    }
+  ],
+  "authorities": []
+}
