@@ -1,0 +1,108 @@
+{
+  "case_id": "SCJ-3117",
+  "title": "Rajesh Khanna v. Madhyanchal Vidyut Vitran Nigam Ltd. And Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sunil Ambwani, J. & Aditya Nath Mittal, J.",
+  "date_of_judgment": "2012-05-29",
+  "date_display": "29 May 2012",
+  "docket": "Writ - C No. 24091 of 2012",
+  "page_count": 6,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition allowed; recovery proceedings and citation dated 23.4.2012 quashed; residential and business premises to be de-sealed forthwith; reasoned final assessment after considering objections and a fresh spot inspection; Section 127 appeal thereafter",
+  "headnote": "Where a consumer objects to a provisional assessment under Section 126 of the Electricity Act, 2003, the assessing officer must decide those objections by a reasoned order under Section 126(3) before any recovery. A citation issued, and premises sealed, without such a final assessment — here an undated five-line order merely affirming a provisional bill of Rs. 13,98,096 — is without authority of law. The Court quashed the recovery proceedings and the citation dated 23.4.2012, directed immediate de-sealing of the petitioner's residential and business premises and those of Tata Tele Services Limited, and required a reasoned final assessment after considering the objections and a fresh spot inspection. If a final assessment is passed, appeal lies under Section 127. The Court did not decide whether unauthorised use or theft was made out, or the quantum of the Supply Code CFDH assessment.",
+  "facts": "Rajesh Khanna lives in his parental house at Mohalla Tarin Taqli, Shahjahanpur, with a 3 kW domestic connection and a 2 kW commercial connection for a ground-floor ice-cream parlour. He had paid the last bill of Rs. 13,276 on 28 April 2012. Tata Tele Services Limited had a 7 kW tower connection at the premises, disconnected on 6 March 2010; he said the tower thereafter ran on Tata's generator.\n\nOn a 25 November 2011 check the licensee alleged the tower was fed by a two-four cable from his connections, registered Case Crime No. 1285 of 2011 under Section 135, and raised a provisional assessment of Rs. 13,98,096 on the Supply Code CFDH formula. He objected on 24 January 2012. While the writ was pending and the licensee was seeking time to produce the checking report, site plan and proof of service, it sealed his shop on a citation dated 23 April 2012 and threatened to seal his residence. Counsel then produced an undated five-line Executive Engineer order affirming the provisional bill without reasons.",
+  "reusable_constructions": [
+    {
+      "construction": "On a report of unauthorised use of electricity, a provisional assessment under Section 126(1) of the Electricity Act, 2003 must be served on the person; the assessing officer must then decide objections by a reasoned order under Section 126(3), against which an appeal lies under Section 127.",
+      "paras": "9"
+    },
+    {
+      "construction": "A recovery citation issued before a reasoned final assessment under Section 126(3) is without authority of law. An undated, unreasoned order that merely affirms the provisional assessment and directs immediate deposit is not a valid final assessment.",
+      "paras": "8, 10-12"
+    },
+    {
+      "construction": "A licensee that is seeking time in the writ court to produce the checking report, site plan or proof of service of the provisional assessment may not meanwhile recover the demand or seal the consumer's premises.",
+      "paras": "11-12"
+    },
+    {
+      "construction": "Where recovery has proceeded without a final Section 126(3) assessment, the citation is to be quashed, sealed premises de-sealed, and a reasoned final assessment passed after considering the consumer's objections and a fresh spot inspection.",
+      "paras": "12-13"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::126(3)",
+      "code": "Electricity Act, 2003",
+      "clause": "126(3) (r/w 126(1): reasoned final assessment before recovery)",
+      "topic": "No recovery or sealing on a provisional assessment until objections are decided by a reasoned Section 126(3) order",
+      "type": "electricity_act",
+      "question": "Can the licensee issue a recovery citation and seal premises on a provisional Section 126 assessment when objections have not been decided by a reasoned final order under Section 126(3)?",
+      "holding": "No. On a report of unauthorised use, a provisional assessment under Section 126(1) must be served; the Executive Engineer must then decide objections by a reasoned order under Section 126(3). Here the provisional assessment was made on 2.12.2011 and objections were filed on 24.1.2012, but the Executive Engineer did not decide those objections before issuing the citation dated 23.4.2012. An undated five-line order produced in Court merely stated that the provisional assessment need not be corrected and that the petitioner should deposit immediately, without reasons. Counsel for the respondents admitted that no final assessment order had been passed. The entire proceedings were illegal and arbitrary and the recovery was without authority of law. The recovery proceedings and the citation dated 23.4.2012 are quashed. The respondents are directed to de-seal the residential and business premises of the petitioner and of Tata Tele Services Limited immediately, to make a fresh spot inspection, and to pass a reasoned final assessment after considering the objections in accordance with the fact situation on the spot.",
+      "paras": "9-12",
+      "flag": "Source PDF compiles listing orders of 16.5.2012, 23.5.2012 (Het Singh Yadav, J. sitting with Ambwani, J.) and 28.5.2012; pins are logical paragraphs of the 29.5.2012 judgment. An FIR under Section 135 had been lodged; the Court applied the Section 126 unauthorised-use sequence. The U.P. Electricity Supply Code, 2005 is mentioned only as the source of the CFDH formula; no clause number is cited."
+    },
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act, 2003",
+      "clause": "127",
+      "topic": "Appeal against the (yet to be passed) final assessment",
+      "type": "electricity_act",
+      "question": "If a final assessment is thereafter passed, what remedy remains?",
+      "holding": "If the final assessment is passed, the petitioner will have a right of appeal under Section 127 of the Electricity Act, 2003.",
+      "paras": "13"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "no-recovery-certificate-without-final-section-126-3-assessment",
+      "application": "The citation dated 23.4.2012 and the sealing of the shop were quashed because they were issued before any reasoned final assessment under Section 126(3); counsel admitted that no final assessment had been passed.",
+      "lead_authorities": [],
+      "paras": "10-12"
+    },
+    {
+      "tag": "final-assessment-order-mandatory-under-section-126-3",
+      "application": "Section 126(3) was held to require a reasoned decision on objections before recovery. The undated five-line Executive Engineer order affirming the provisional bill was treated as not constituting such a final assessment.",
+      "lead_authorities": [],
+      "paras": "8-12"
+    },
+    {
+      "tag": "s126-procedural-strictness-notice-and-hearing",
+      "application": "The Court restated the statutory sequence: serve the Section 126(1) provisional assessment, then decide objections by a reasoned Section 126(3) order. Recovery and sealing without that sequence were held illegal.",
+      "lead_authorities": [],
+      "paras": "9-12"
+    },
+    {
+      "tag": "speaking-order-required-for-theft-assessment",
+      "application": "Despite a Section 135 FIR, the assessing officer still had to pass a speaking final assessment considering the 24.1.2012 objections; a five-line unreasoned affirmation of the CFDH provisional bill did not suffice.",
+      "lead_authorities": [],
+      "paras": "8-12"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the Tata Tele Services tower was being supplied from the petitioner's connections, and whether unauthorised use or theft was made out",
+      "note": "Left to a fresh spot inspection and a reasoned final assessment on the objections; the Court did not examine the checking.",
+      "paras": "4, 12"
+    },
+    {
+      "point": "Quantum of the provisional assessment of Rs. 13,98,096 and application of the Supply Code CFDH formula",
+      "note": "Not examined; a fresh final assessment after considering objections was directed.",
+      "paras": "5, 12"
+    },
+    {
+      "point": "Validity of Case Crime No. 1285 of 2011 under Section 135",
+      "note": "The FIR is recorded; the writ turned on the assessment and recovery, not on the criminal case.",
+      "paras": "4"
+    },
+    {
+      "point": "Whether a checking report, site plan, or proof of service of the provisional assessment existed",
+      "note": "The Court had directed production of those documents on 16.5.2012; they were never produced. The writ was allowed on the admitted absence of a final assessment, without a finding on whether those papers existed.",
+      "paras": "11-12"
+    }
+  ],
+  "authorities": []
+}
