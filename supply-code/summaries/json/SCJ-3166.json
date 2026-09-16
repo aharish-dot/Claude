@@ -1,0 +1,127 @@
+{
+  "case_id": "SCJ-3166",
+  "title": "Som Pal Singh v. State of U.P. & 3 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Krishna Murari, J.; Vinod Kumar Misra, J.",
+  "date_of_judgment": "2016-04-06",
+  "date_display": "6 April 2016",
+  "docket": "Writ - C No. - 13811 of 2016",
+  "page_count": 5,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition allowed; recovery citation dated 18.02.2016 for Rs. 1,87,200 and consequential proceedings quashed; respondents to prepare and serve a fresh provisional assessment and to pass a reasoned final assessment after considering objections, in the light of Ashok Kumar",
+  "headnote": "A recovery citation cannot rest on a provisional assessment treated as final merely because the consumer filed no objection, where nothing on record shows that the provisional assessment notice was dispatched or served, the notice does not state a date and time for hearing as Clause 6.8(1)(b) of the U.P. Electricity Supply Code, 2005 requires, and no final assessment records the assessing officer's satisfaction that the provisional notice was served. Even absent objection, section 126(3) of the Electricity Act, 2003 still requires that recorded satisfaction and a reasoned final assessment before any recovery certificate issues (Vinod Kumar Agarwal). Following Ashok Kumar (paras 56–64) on the Code assessment procedure, the 18.02.2016 recovery citation for Rs. 1,87,200 is quashed; a fresh provisional assessment must be served and a reasoned final assessment made after considering objections.",
+  "facts": "Som Pal Singh petitioned the Allahabad High Court challenging a recovery citation dated 18 February 2016 for Rs. 1,87,200 towards consumption of electrical energy. On 30 March 2016 counsel for the distribution licensee was given time to seek instructions. He produced a surprise inspection of 25 November 2015, which recorded that the petitioner was using electrical energy for commercial purposes on a connection sanctioned for residential use only. A provisional assessment notice dated 9 December 2015 then called for a reply within fifteen days.\n\nThe petitioner said, including in paragraph 13 of the writ petition, that the 9 December 2015 notice was never served, so he could file no objection; the licensee treated the provisional assessment as final and issued the recovery certificate without a final assessment order. He relied on Vinod Kumar Agarwal (Writ-C No. 24772 of 2012, decided 10 July 2012). The licensee answered that the notice had been served and, no objection having been filed, stood as a final assessment under section 126(3) of the Electricity Act, 2003.",
+  "reusable_constructions": [
+    {
+      "construction": "A provisional assessment notice under Clause 6.8 of the U.P. Electricity Supply Code, 2005 must contain a date and time for hearing; a notice omitting those ingredients is not in accordance with law and denies the mandatory opportunity of hearing.",
+      "paras": "6, 8"
+    },
+    {
+      "construction": "The licensee must show that the provisional assessment notice was actually dispatched and served; where nothing on the record shows service, recovery on that assessment cannot stand.",
+      "paras": "6"
+    },
+    {
+      "construction": "A recovery citation cannot issue on a provisional assessment treated as final merely because no objection was filed; even then section 126(3) of the Electricity Act, 2003 requires a final assessment that records satisfaction that the provisional notice was served.",
+      "paras": "4, 8"
+    },
+    {
+      "construction": "Where those defects exist, the recovery citation and consequential proceedings are quashed and the licensee must prepare and serve a fresh provisional assessment and pass a reasoned final assessment after considering the consumer's objections.",
+      "paras": "9"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.8(1)(b)",
+      "topic": "provisional assessment notice must be served and must state a date and time for hearing",
+      "type": "supply_code",
+      "question": "May a recovery citation rest on a provisional assessment where the notice is not shown to have been served and does not indicate a date or time for hearing under Clause 6.8(1)(b)?",
+      "holding": "No. There was nothing on record to show that the provisional assessment notice dated 09.12.2015 was actually dispatched or served. The notice also lacked the ingredients required under Clause 6.8(1)(b), in that it indicated no date or time for hearing. The petitioner was thereby denied the opportunity of hearing mandatorily warranted by that clause, so the notice was not in accordance with law and the recovery could not be sustained.",
+      "paras": "6, 8",
+      "flag": "Cited as Clause 6.8 (1)(b); catalog key UP-2005::6.8(b). Clause number not silently corrected. The inspection recorded commercial use of a residential connection (unauthorised use), though Ashok Kumar and the Vinod Kumar Agarwal extract speak of theft assessment. Source concatenates a 30.3.2016 listing order with this 6.4.2016 disposal. Paras 1–9 are sequential blocks of that disposal from 'Heard learned counsel'. Coram is the disposing bench of 6.4.2016."
+    },
+    {
+      "provision": "EA2003::126(3)",
+      "code": "Electricity Act, 2003",
+      "clause": "126(3)",
+      "topic": "no recovery citation without a final assessment recording satisfaction of service of the provisional notice",
+      "type": "electricity_act",
+      "question": "May a licensee treat an unobjected provisional assessment as final under section 126(3) and issue a recovery citation without a final assessment that records satisfaction of service?",
+      "holding": "No. The licensee's case was that the provisional assessment notice had been served and, no objection having been filed, stood as a final assessment under section 126(3). Following Vinod Kumar Agarwal, even if no objection is filed the assessing officer must record that the provisional assessment was served and then make a reasoned final assessment before any recovery certificate issues. No such final assessment containing that satisfaction having been passed, the recovery citation dated 18.02.2016 and consequential proceedings were quashed. Respondents were directed to prepare and serve a fresh provisional assessment and to make a reasoned final assessment after considering the petitioner's objection, in the light of Ashok Kumar.",
+      "paras": "4, 8-9"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.8-hearing-procedure-mandatory-before-uue-conclusion",
+      "application": "The Court held that opportunity of hearing is mandatorily warranted under Clause 6.8(1)(b); a provisional notice that stated no date or time for hearing denied that hearing and could not support recovery.",
+      "lead_authorities": [
+        {
+          "name": "Ashok Kumar and others v. State of U.P. and others",
+          "docid": "897981"
+        }
+      ],
+      "paras": "6, 8"
+    },
+    {
+      "tag": "proper-service-of-provisional-assessment-notice-clause-6.8",
+      "application": "Nothing on the record showed that the 09.12.2015 provisional assessment notice was dispatched or served; without proof of service the assessment and the recovery fell.",
+      "lead_authorities": [],
+      "paras": "6"
+    },
+    {
+      "tag": "final-s126-assessment-mandatory-precondition-to-recovery-citation",
+      "application": "Applying Vinod Kumar Agarwal, the Court held that treating an unobjected provisional assessment as final under section 126(3) cannot support a recovery citation unless a final assessment records satisfaction that the provisional notice was served.",
+      "lead_authorities": [
+        {
+          "name": "Vinod Kumar Agarwal v. State of U.P. and others",
+          "docid": ""
+        }
+      ],
+      "paras": "4, 8"
+    },
+    {
+      "tag": "assessment-quashed-for-breach-of-clause-6.8-procedure",
+      "application": "The 18.02.2016 recovery citation and consequential proceedings were quashed for want of a served Clause 6.8(1)(b) notice and a final assessment; a fresh provisional assessment is to be served and a reasoned final order passed after objections, following Ashok Kumar.",
+      "lead_authorities": [
+        {
+          "name": "Ashok Kumar and others v. State of U.P. and others",
+          "docid": "897981"
+        }
+      ],
+      "paras": "8-9"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner was in fact using electrical energy for commercial purposes on a residential connection, and the correctness or quantum of the Rs. 1,87,200 demand",
+      "note": "The 25.11.2015 inspection finding was recorded from the licensee's instructions but not adjudicated; left to a fresh provisional assessment, service, objections and a reasoned final assessment in the light of Ashok Kumar.",
+      "paras": "3, 9"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Vinod Kumar Agarwal v. State of U.P. and others",
+      "citation": "Writ-C No. 24772 of 2012, decided 10.7.2012",
+      "court": "Allahabad High Court",
+      "docid": "",
+      "proposition": "No recovery certificate is to be issued until a final assessment is made under section 126; even absent objection, section 126(3) requires the Executive Engineer to record service of the provisional assessment and make a reasoned final assessment. The Managing Director, UPPCL's compliance order of 30.6.2012 directed withdrawal of recoveries issued without a final assessment.",
+      "cited_by": "Petitioner",
+      "treatment": "Relied on"
+    },
+    {
+      "name": "Ashok Kumar and others v. State of U.P. and others",
+      "citation": "2008(6) ADJ 660 (DB)",
+      "court": "Allahabad High Court (DB)",
+      "docid": "897981",
+      "proposition": "Paras 56 to 64 consider the provisions of the Electricity Supply Code, 2005 to be followed when assessing theft of electricity; a fresh final assessment is to meet the consumer's objections with reasons in that light.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}
