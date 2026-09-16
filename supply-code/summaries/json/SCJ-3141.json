@@ -1,0 +1,63 @@
+{
+  "case_id": "SCJ-3141",
+  "title": "Rashid Husain v. U.P. Power Corporation Ltd. & Another",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta, J. & Prashant Kumar, J.",
+  "date_of_judgment": "2023-03-17",
+  "date_display": "17 March 2023",
+  "docket": "Writ - C No. 61548 of 2013",
+  "page_count": 10,
+  "significance": "procedural",
+  "outcome": "none",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed for want of prosecution; Clause 6.15 recovery challenge not decided",
+  "headnote": "A consumer whose electricity connection was permanently disconnected in November 2005 challenged a later demand notice dated 30.4.2013 and recovery of Rs. 74,958 as barred by paragraph 6.15 of the U.P. Electricity Supply Code, 2005 after more than seven years. A Division Bench called for a counter-affidavit and stayed coercive steps without construing Clause 6.15. After adjournments the writ was dismissed for want of prosecution on 31.10.2014, restored on 25.5.2015, and dismissed again for want of prosecution on 17.3.2023 when none appeared even on the revised call. The two-year limitation and the demand were not decided.",
+  "facts": "Rashid Husain, a consumer of U.P. Power Corporation Ltd., said his electricity connection was permanently disconnected in November 2005. After more than seven years the licensee issued a demand notice dated 30 April 2013 and initiated recovery of Rs. 74,958. He challenged that recovery in Writ-C No. 61548 of 2013, submitting that the amount could not be recovered after that lapse by virtue of paragraph 6.15 of the U.P. Electricity Supply Code, 2005. One interlocutory order also referred to a recovery certificate dated 30 May 2012.\n\nOn 13 and 26 November 2013 a Division Bench granted time for a counter-affidavit and directed that no coercive steps be taken on the demand. After further time and extensions of the interim, the petition was dismissed for want of prosecution on 31 October 2014 when none appeared on the revised list, restored on 25 May 2015 on a delay-condoned restoration application, and dismissed again for want of prosecution on 17 March 2023 when none appeared even on the revised call.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.15",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.15 — two-year limitation on recovery of arrears",
+      "topic": "Recovery after 2005 disconnection; Clause 6.15 invoked, not construed",
+      "type": "supply_code",
+      "question": "Is recovery of electricity arrears more than seven years after a November 2005 permanent disconnection barred by paragraph 6.15 of the U.P. Electricity Supply Code, 2005?",
+      "holding": "The question was raised and not answered. The petitioner said his connection was permanently disconnected in November 2005 and that a demand notice dated 30.4.2013, with recovery of Rs. 74,958, could not be enforced after that lapse by virtue of para 6.15. The Court granted time for a counter-affidavit and directed that no coercive action be taken on the demand, without construing Clause 6.15.",
+      "qualifier": "Interlocutory. Clause 6.15 was invoked by the petitioner, not construed.",
+      "paras": "13.11.2013, 26.11.2013",
+      "flag": "Petitioner cited 'para 6.15'; the two-year bar is Clause 6.15(b). Internal date inconsistency: demand notice 30.4.2013 (order of 13.11.2013) versus recovery certificate 30.5.2012 (order of 26.11.2013). Amount Rs. 74,958 is recorded only in the 26.11.2013 order."
+    },
+    {
+      "provision": "OFFTOPIC::dismissal-for-want-of-prosecution",
+      "code": "OFFTOPIC",
+      "clause": "dismissal-for-want-of-prosecution",
+      "topic": "Default dismissal, restoration, and final dismissal for want of prosecution",
+      "type": "supply_code",
+      "holding": "On 31.10.2014 the writ was dismissed for want of prosecution when none appeared on the revised list. On 25.5.2015 the delay was condoned, the restoration application allowed, and the 31.10.2014 order recalled; the writ was restored and directed to be listed before the appropriate Bench, not treated as tied up or part-heard. On 17.3.2023 none appeared for the petitioner even on the revised call; Standing Counsel was present; the writ was dismissed for want of prosecution. Clause 6.15 and the recovery were not decided.",
+      "paras": "31.10.2014, 25.5.2015, 17.3.2023",
+      "flag": "Thin compilation of listing, default-dismissal, restoration, and final default-dismissal orders."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "writ-petition-dismissed-for-want-of-prosecution-on-non-appearance",
+      "application": "After a 31.10.2014 default dismissal and restoration on 25.5.2015, none appeared for the petitioner even on the revised call of 17.3.2023; the writ challenging recovery after a 2005 disconnection under Clause 6.15 was dismissed for want of prosecution without a merits decision.",
+      "lead_authorities": [],
+      "paras": "17.3.2023"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether paragraph 6.15 of the U.P. Electricity Supply Code, 2005 barred recovery more than seven years after the November 2005 disconnection",
+      "note": "Invoked by the petitioner on 26.11.2013; never construed.",
+      "paras": "26.11.2013"
+    },
+    {
+      "point": "Validity and quantum of the demand notice dated 30.4.2013 and the recovery of Rs. 74,958 (recovery certificate also dated 30.5.2012 in the 26.11.2013 order)",
+      "note": "Coercive steps were stayed interlocutorily; the demand was never examined on merits.",
+      "paras": "13.11.2013, 26.11.2013"
+    }
+  ],
+  "authorities": []
+}
