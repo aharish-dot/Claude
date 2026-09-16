@@ -1,0 +1,100 @@
+{
+  "case_id": "SCJ-3146",
+  "title": "Pradeep Kumar v. State of U.P. & 4 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Dr. Dhananjaya Yeshwant Chandrachud, C.J. and Dilip Gupta, J.",
+  "date_of_judgment": "2014-08-26",
+  "date_display": "26 August 2014",
+  "docket": "Writ - C No. 36355 of 2014",
+  "page_count": 6,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition disposed of; occupier to furnish an Annexure 4.2 indemnity bond; licensee to take necessary steps in accordance with law, expeditiously; no opinion on the landlord-tenant controversy; no costs",
+  "headnote": "A tenant-occupier who is not being supplied electricity, and who points to clause 4.4(vi) of the U.P. Electricity Supply Code, 2005 as requiring the owner's consent for a new connection contrary to Section 43 of the Electricity Act, 2003, is sufficiently protected by Annexure 4.2 of the Code (under clause 4.4). Where the intending consumer is not the owner and the owner's consent is not obtained, the applicant is to produce proof of occupancy and furnish an indemnity bond to the licensee. Recording that statement of the distribution licensee, the Court directed necessary steps in accordance with law, expeditiously, and expressly declined to decide the merits of the controversy between the occupier and the landlord.",
+  "facts": "Pradeep Kumar, claiming to be a tenant of House No. 334, Ward No. 9, Sindhi Mill Colony, Tappa, Deoria, filed Writ-C No. 36355 of 2014. The fifth respondent is the landlord. The petitioner said the landlord had tried to dispossess him and his family and had disconnected electricity on 21 September 2013. He had filed Suit No. 1988 of 2013 before the Civil Judge (Junior Division), Deoria; the landlord had not started eviction proceedings.\n\nHis grievance was that the distribution licensee (respondents 2, 3 and 4) was not supplying electricity despite Section 43 of the Electricity Act, 2003. He submitted that clause 4.4(vi) of the U.P. Electricity Supply Code, 2005 requires the owner's consent for a new connection, so that supply might be refused contrary to Section 43. Counsel for the licensee relied on Annexure 4.2 (under clause 4.4): where the intending consumer is not the owner and consent is not obtained, the applicant must produce proof of occupancy and furnish an indemnity bond. Notice to the landlord was refused; the registered postal packet was not returned.",
+  "reusable_constructions": [
+    {
+      "construction": "Where the intending consumer is not the owner of the premises and the owner's consent is not obtained, Annexure 4.2 of the U.P. Electricity Supply Code, 2005 (under clause 4.4) requires proof of occupancy and an indemnity bond to the licensee; that path sufficiently protects the occupier.",
+      "paras": "5, 7"
+    },
+    {
+      "construction": "Clause 4.4(vi) of the Code, which contemplates the owner's consent for a new connection, does not leave an occupier without a Code path to supply under Section 43 of the Electricity Act, 2003: Annexure 4.2 under clause 4.4 is the alternative when that consent is not obtained.",
+      "paras": "3-5, 7"
+    },
+    {
+      "construction": "A writ court may dispose of an occupier's connection petition by recording the licensee's Annexure 4.2 statement and directing necessary steps in accordance with law, without expressing any opinion on the landlord-tenant controversy.",
+      "paras": "7"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::Annexure 4.2",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "Annexure 4.2 (under clause 4.4) — occupier not the owner; proof of occupancy and indemnity bond",
+      "topic": "Occupier who cannot obtain the owner's consent applies on proof of occupancy and an indemnity bond; licensee to take Code steps",
+      "type": "supply_code",
+      "question": "Where a tenant-occupier seeks supply and the owner's consent under clause 4.4(vi) is not obtained, what does the Code require and what order follows?",
+      "holding": "Annexure 4.2 (under clause 4.4) contemplates that if the intending consumer is not the owner of the premises and the owner's consent is not obtained, the applicant is to produce proof of occupancy and furnish an indemnity bond to the licensee. Having due regard to that provision, the occupier's interest is sufficiently protected by requiring him to file an indemnity bond, as stated for the licensee. The Court recorded that statement and directed that the necessary steps be taken in accordance with law, expeditiously. The petition was disposed of with no order as to costs.",
+      "paras": "5, 7",
+      "flag": "Source PDF compiles listing orders of 17.7.2014, 31.7.2014 and 14.8.2014; pins are logical paragraphs of the 26.8.2014 disposal. The Court did not itself grant the connection."
+    },
+    {
+      "provision": "EA2003::43",
+      "code": "Electricity Act, 2003",
+      "clause": "43 (duty to supply an owner or occupier on request)",
+      "topic": "Section 43 duty to an occupier; clause 4.4(vi) owner-consent is met by the Annexure 4.2 indemnity path, not by refusing supply",
+      "type": "interplay",
+      "question": "Does clause 4.4(vi) of the Code, requiring the owner's consent for a new connection, entitle the licensee to withhold supply from a tenant-occupier contrary to Section 43?",
+      "holding": "The Court quoted Section 43's duty to give supply on an application by the owner or occupier. The petitioner submitted that clause 4.4(vi) requires the owner's consent, so that supply might not be granted contrary to that duty. The Court did not strike down clause 4.4(vi). It treated Annexure 4.2 under clause 4.4 as the Code answer: proof of occupancy and an indemnity bond where consent is not obtained, and directed Code steps in accordance with law.",
+      "paras": "3-5, 7",
+      "flag": "Clause 4.4(vi) is recorded as the petitioner's argument; validity of that clause vis-à-vis Section 43 was not decided."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "occupier-entitled-to-connection-on-indemnity-bond-annexure-4.2",
+      "application": "The Court held that the tenant-occupier's interest is sufficiently protected by an Annexure 4.2 indemnity bond (under clause 4.4) with proof of occupancy, and recorded the licensee's statement to that effect.",
+      "lead_authorities": [],
+      "paras": "5, 7"
+    },
+    {
+      "tag": "clause-4.4-occupant-connection-on-indemnity-bond",
+      "application": "Annexure 4.2 is keyed to clause 4.4: a non-owner intending consumer who has not obtained the owner's consent applies on occupancy proof and an indemnity bond.",
+      "lead_authorities": [],
+      "paras": "5, 7"
+    },
+    {
+      "tag": "landlord-consent-not-required-for-tenant-connection-s43",
+      "application": "The occupier invoked Section 43 against a clause 4.4(vi) owner-consent bar. The Court did not require the landlord's consent as a condition of supply; it applied the Annexure 4.2 indemnity path instead.",
+      "lead_authorities": [],
+      "paras": "3-5, 7"
+    },
+    {
+      "tag": "direction-to-consider-connection-on-furnishing-4.4-or-annexure-4.2-documents",
+      "application": "The operative order recorded the licensee's Annexure 4.2 statement and directed necessary steps in accordance with law, expeditiously, without granting the connection on the writ.",
+      "lead_authorities": [],
+      "paras": "7"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits of the controversy between the petitioner and the fifth respondent (landlord)",
+      "note": "Expressly clarified that the Court should not be construed to have expressed any opinion on that controversy, which is to be resolved by the appropriate court independently.",
+      "paras": "7"
+    },
+    {
+      "point": "Whether the connection itself must be granted",
+      "note": "The Court directed necessary steps in accordance with law after an indemnity bond; it did not mandamus grant of supply.",
+      "paras": "7"
+    },
+    {
+      "point": "Whether clause 4.4(vi) is invalid as contrary to Section 43",
+      "note": "The petitioner so submitted; the Court applied Annexure 4.2 instead of deciding that question.",
+      "paras": "4-5, 7"
+    }
+  ],
+  "authorities": []
+}
