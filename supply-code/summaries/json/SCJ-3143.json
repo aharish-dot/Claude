@@ -1,0 +1,57 @@
+{
+  "case_id": "SCJ-3143",
+  "title": "M/S Pooja Aata Chakki v. Sri Vijay Kapoor, Executive Engineer, Vidyut Vitran Khand II",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Rajesh Dayal Khare, J.",
+  "date_of_judgment": "2014-10-09",
+  "date_display": "9 October 2014",
+  "docket": "Contempt Application (Civil) No. 5636 of 2014",
+  "page_count": 4,
+  "significance": "procedural",
+  "outcome": "none",
+  "model": "Grok 4.6",
+  "disposition": "Contempt disposed at this stage; two months, later three weeks, to decide the Clause 6.5 bill objection",
+  "headnote": "Where a consumer alleges that the Executive Engineer has not decided a billing objection as a writ court directed under Clause 6.5 of the Electricity Supply Code, 2005, the contempt court, without recording wilful disobedience or examining the bill, disposes of the application at that stage. The officer is bound by the writ order; default within two months of receipt, without reasonable cause, will invite proceedings under the Contempt of Courts Act, and the applicant may move again if the direction remains uncomplied. Later sittings on the same docket issued notice, allowed correction of the contemnor's name, and granted three further weeks to comply with that first order. The electricity bill was not decided.",
+  "facts": "M/S Pooja Aata Chakki moved this civil contempt application against Sri Vijay Kapoor, Executive Engineer, Vidyut Vitran Khand II, alleging wilful disobedience of the writ order dated 28 May 2014 in Civil Misc. Writ Petition No. 30229 of 2014. That order had directed the opposite party to decide the applicant's application or objection to an electricity bill under Clause 6.5 of the Electricity Supply Code, 2005. Counsel said the writ order was served by registered post on 11 June 2014, that the objection had still not been decided, and that surcharge continued to increase.\n\nOn 9 October 2014 the Court disposed of the contempt at that stage, with a two-month compliance window and liberty to approach again. The same docket was later listed on 21 January 2015, when notice issued and an amendment to correct the contemnor's name was allowed. On 4 February 2015 a wrongly transcribed amendment order was recalled and three weeks were granted to comply with the 9 October 2014 order.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.5",
+      "topic": "contempt of a writ direction to decide a Clause 6.5 billing objection",
+      "type": "supply_code",
+      "holding": "Where a writ court has directed the Executive Engineer to decide a consumer's application or objection to an electricity bill under Clause 6.5 of the Electricity Supply Code, 2005, and the consumer alleges in civil contempt that the order, served by registered post, remains uncomplied, the High Court may, without finding wilful disobedience or deciding the bill, dispose of the contempt at that stage. The officer is bound by the writ order; if he does not comply within two months of receipt of the contempt order, without reasonable cause, the Court will proceed under the Contempt of Courts Act; the applicant may approach again if the direction is still not complied with. Later sittings on the same application issued notice, allowed correction of the contemnor's name, and granted three further weeks to comply with the first contempt order.",
+      "paras": "order of 9.10.2014",
+      "flag": "Thin civil-contempt record. Source PDF concatenates four unnumbered orders on the same docket: 9.10.2014 (Rajesh Dayal Khare, J.) disposing of the application at that stage with two months to comply with the 28.5.2014 writ direction under Clause 6.5; 21.1.2015 (Bala Krishna Narayana, J.) issuing notice returnable in four weeks; 21.1.2015 allowing Civil Misc. Amendment Application No. 410888 of 2014 to correct the contemnor's name; and 4.2.2015 recalling the wrongly transcribed amendment order, allowing the amendment, directing the Computer Section to correct the opposite party's name, and granting three weeks to comply with the 9.10.2014 order. The extract's sentence that the grievance 'has been decided' is internally inconsistent with the surcharge and wilful-flouting pleas and is treated as an OCR omission of 'not'. Coram is the 9.10.2014 disposing judge. The Court named 'Clause 6.5 of the Electricity Supply Code, 2005' without a sub-clause. No precedent cited."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "contempt-of-6.5-writ-does-not-redecide-bill",
+      "application": "Civil contempt of a 28.5.2014 writ direction to decide a Clause 6.5 bill objection was disposed of at the first sitting without a finding of wilful disobedience and without examining the bill; two months, and later three weeks after a name correction, were given to comply.",
+      "lead_authorities": [],
+      "paras": "order of 9.10.2014, order of 4.2.2015"
+    },
+    {
+      "tag": "clause-6.5-pending-representation-to-be-decided",
+      "application": "The contempt court enforced the existing writ direction that the Executive Engineer decide the pending Clause 6.5 application or objection, and did not substitute its own decision on the electricity bill.",
+      "lead_authorities": [],
+      "paras": "order of 9.10.2014"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the opposite party had wilfully and deliberately flouted the writ order dated 28.5.2014",
+      "note": "The 9.10.2014 order warned of Contempt of Courts Act consequences on default; it recorded no finding of contempt. The 21.1.2015 notice to explain why charges be not framed was not determined on this file.",
+      "paras": "order of 9.10.2014, order of 21.1.2015"
+    },
+    {
+      "point": "Merits or quantum of the electricity bill and of the surcharge said to be increasing",
+      "note": "Left to the Executive Engineer's decision of the Clause 6.5 application or objection as already directed in Writ Petition No. 30229 of 2014.",
+      "paras": "order of 9.10.2014"
+    }
+  ],
+  "authorities": []
+}
