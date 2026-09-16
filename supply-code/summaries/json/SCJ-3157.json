@@ -1,0 +1,69 @@
+{
+  "case_id": "SCJ-3157",
+  "title": "Soran Singh v. State of U.P. & Another",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "V.K. Shukla, J.; Virendra Kumar-II, J.",
+  "date_of_judgment": "2016-11-18",
+  "date_display": "18 November 2016",
+  "docket": "Writ - C No. - 20356 of 2015",
+  "page_count": 8,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition disposed of; disputed questions of fact as to consumption and unpaid bills relegated to the statutory forum under the Electricity Act, 2003 read with the U.P. Electricity Supply Code, 2005.",
+  "headnote": "Where a consumer who applied under the Gram Kutir Jyoti Scheme seeks a mandamus to have poles and wires installed and a restraint on electricity bills, alleging that he is not consuming energy, while the licensee asserts that energy is being consumed, bills have been raised and nothing has been paid, the writ court will not decide that dispute. Under the terms of that scheme the consumer himself draws the line and consumes energy. Whether energy is in fact being consumed, and whether the bills are recoverable, are disputed questions of fact for the remedial forum under the Electricity Act, 2003 read with the U.P. Electricity Supply Code, 2005. The writ petition is disposed of without examining the bills or directing a connection.",
+  "facts": "Soran Singh petitioned the Allahabad High Court against the State of Uttar Pradesh and another. He sought a writ commanding the respondents to connect power supply by installing poles and wires, and a further direction not to recover any electricity bill without giving him supply. He had applied, with others, for a connection under the Gramin Kutir Jyoti Scheme by depositing Rs. 730. On his case, that scheme entitled the consumer to draw the line and consume electricity; the entire village was consuming in that manner; and he had been informed of this by a communication dated 8 June 2011. On the first listing he also said bills were being raised without any connection and that he had been seeking a connection for twelve years. The department's case was that energy was being consumed, bills were being raised, and not a single penny had been paid.",
+  "holding_units": [
+    {
+      "provision": "EA2003::remedies",
+      "code": "Electricity Act, 2003",
+      "clause": "statutory remedial forum (read with U.P. Electricity Supply Code, 2005)",
+      "topic": "Kutir Jyoti consumption/billing dispute — writ court will not mandamus poles and wires or decide unpaid bills; relegation to Act/Code forum",
+      "type": "interplay",
+      "question": "Will the High Court, under Article 226, mandamus installation of poles and wires or restrain recovery of electricity bills where the petitioner, an applicant under the Gram Kutir Jyoti Scheme, denies consumption and the licensee asserts consumption and unpaid bills?",
+      "holding": "No. Once the petitioner has applied under the Gram Kutir Jyoti Scheme, whose terms provide for the consumer himself to draw the line and consume energy, the Court will not grant that mandamus. The petitioner's denial of consumption, set against the department's case that energy is being consumed, bills are being raised and nothing has been paid, is a disputed question of fact to be raised before the appropriate forum under the Electricity Act, 2003 read with the U.P. Electricity Supply Code, 2005. The writ petition is disposed of.",
+      "paras": "1",
+      "flag": "Source is an 8-page order-sheet. Listing orders of 13.4.2015–14.9.2016 precede the unnumbered operative disposal of 18.11.2016 (V.K. Shukla and Virendra Kumar-II, JJ.); pins keyed to that disposal. The Court invoked the Electricity Act, 2003 read with the U.P. Electricity Supply Code, 2005 without a clause number (not 6.5 or 7.10). Keyed to EA2003::remedies as interplay with the Code; type interplay because the holding is the writ bar plus relegation, not a construction of a numbered Code clause."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "disputed-questions-of-fact-not-adjudicable-under-article-226",
+      "application": "Whether the Kutir Jyoti applicant was consuming energy, and whether unpaid bills could be recovered when he denied consumption and sought poles-and-wires supply, was left as a disputed question of fact for the statutory forum; the writ court would not decide it.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "alternative-remedy-under-supply-code",
+      "application": "The petitioner was told he could invoke the remedial forum provided under the Electricity Act, 2003 read with the U.P. Electricity Supply Code, 2005; the writ was disposed of without granting a connection or quashing the bills.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "bill-dispute-requiring-facts-relegated-to-competent-authority",
+      "application": "The licensee's case that energy was being consumed and bills raised, against the petitioner's case that he was not consuming and should not be billed without poles-and-wires supply, was sent to the appropriate Act/Code forum.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner was in fact consuming energy, and whether the bills were recoverable",
+      "note": "Recorded as a disputed question of fact for the statutory forum; the Court did not examine the bills or the fact of consumption.",
+      "paras": "1"
+    },
+    {
+      "point": "Whether the respondents were obliged to install poles and wires under the Gram Kutir Jyoti Scheme",
+      "note": "The Court recorded that under the scheme the consumer himself draws the line, declined the mandamus, and did not decide any numbered new-connection clause.",
+      "paras": "1"
+    },
+    {
+      "point": "Which specific Code forum (clause 6.5, clause 7.10 / CGRF, or otherwise) was the appropriate remedy",
+      "note": "The Court referred only to the Electricity Act, 2003 read with the U.P. Electricity Supply Code, 2005, without identifying a clause.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
