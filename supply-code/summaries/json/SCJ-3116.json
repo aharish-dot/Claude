@@ -1,0 +1,82 @@
+{
+  "case_id": "SCJ-3116",
+  "title": "Smt. Vidya Singh And Another v. State of U.P. Thru Secy. And Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sunil Ambwani, J. & Aditya Nath Mittal, J.",
+  "date_of_judgment": "2012-04-20",
+  "date_display": "20 April 2012",
+  "docket": "Writ - C No. 18742 of 2012",
+  "page_count": 4,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition disposed of; if the petitioner deposits six times the admitted March 2011 bill of Rs.1,15,264 and raises a Clause 6.5 dispute before the Executive Engineer within 15 days, the dispute is to be decided by a reasoned order within seven days; recovery of arrears stayed until that decision; connection restored on that deposit subject to payment of future bills on actual recorded consumption",
+  "headnote": "Where a consumer challenges a recovery certificate and citation for electricity arrears on a revised bill after a check-meter exercise — the licensee attributing under-recording to reversed PT phase matching and recording that there is no case of theft or tampering — the writ court will not decide the correctness of the bill, which involves technical aspects of recording consumption. Clause 6.5(b) of the U.P. Electricity Supply Code, 2005 entitles a consumer who disputes the accuracy of a bill to pay under protest the lesser of the sum claimed or electricity charges calculated on the average of the preceding six months, and to file a complaint with the competent authority, to be decided within seven days. Treating the admitted March 2011 bill of Rs.1,15,264 as the monthly figure, the Court directed that if six times that amount is deposited and a dispute is raised before the Executive Engineer within 15 days, the dispute shall be decided by a reasoned order within seven days as provided in Clause 6.5. Until that decision, future bills are to be paid on actual recorded consumption and recovery of arrears remains stayed; on the deposit, the connection is restored subject to regular payment of future bills. The Court did not decide the quantum or the accuracy of the meter readings.",
+  "facts": "Smt. Vidya Singh let out a commercial complex at Ravinder Puri, Ghazipur, to V. Mart Retails Ltd. (the second petitioner). She held a 125 kVA HV-2 connection (meter no. 08113923). The petitioners challenged a recovery certificate for electricity dues of Rs.32,80,217 and a citation including recovery charges of Rs.34,53,417, denying any mischief or meter tampering. They alleged that on 25 August 2011 the licensee installed a check meter without informing them and then raised disputed bills on a false excessive-consumption reading.\n\nCounsel for the distribution licensee stated there was no case of tampering or theft. A routine check found PT phase matching reversed on the main meter, so it was not recording actual consumption; after correction, average monthly charges were put at Rs.2,28,064 from November 2010 to August 2011. Only Rs.1,15,264 (16 March 2011) and Rs.32,684 (25 May 2011) had been paid. A revised bill was under dispute. Counsel said the consumer had not invoked Clause 6.5 of the U.P. Electricity Supply Code, 2005.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5(b)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.5(b) (disputed bill — protest payment of the lesser of the sum claimed or six-month average; complaint to competent authority)",
+      "topic": "Disputed bill after check-meter / PT phase correction — 6.5(b) protest deposit and remittal to the Executive Engineer",
+      "type": "supply_code",
+      "question": "Where arrears rest on a revised bill after a check-meter exercise and alleged PT phase-matching defect, and no theft or tampering is alleged, should the writ court decide the correctness of the bill or relegate the consumer to Clause 6.5(b)?",
+      "holding": "The writ court will not decide a billing dispute that turns on technical aspects of recording consumption. Clause 6.5(b) of the U.P. Electricity Supply Code, 2005 provides that a consumer who disputes the accuracy of a bill may pay under protest the lesser of (i) the sum claimed or (ii) electricity charges calculated on the average of the preceding six months, and file a complaint with the competent authority, to be decided within seven days. The petitioners had not denied the March 2011 bill of Rs.1,15,264; the six-month average would be lesser than the department's claim, and deposit of six times that admitted bill entitled them to have the dispute decided. If that amount is deposited and a dispute is raised before the Executive Engineer within 15 days, the dispute is to be decided by a reasoned order within seven days as provided in Clause 6.5. Until then, future bills are to be paid on actual recorded consumption and recovery of arrears remains stayed. On the deposit, the connection is restored subject to regular payment of future bills. The writ petition is disposed of with those directions.",
+      "qualifier": "The Court treated the March 2011 bill of Rs.1,15,264 as the admitted monthly bill and required six times that amount as the Clause 6.5(b) protest payment, finding that the six-month average would be lesser than the sum claimed.",
+      "paras": "7-13",
+      "flag": "The Court recited Clause 6.5(b) and then directed a Clause 6.5 dispute before the Executive Engineer. The protest deposit is the Court's working of 6.5(b)(ii) (six times the admitted monthly bill as the six-month average). Clause 6.5(b) as recited requires a complaint before the due date; the Court allowed 15 days from the order. Para 5 states the March 2011 bill was paid on 16.3.2011; para 8 says 11.3.2011. Source PDF also contains a 16.4.2012 listing (Sunil Ambwani and Pankaj Naqvi, JJ.) allowing two days for instructions; this record is of the 20.4.2012 disposal."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-alternate-remedy-to-writ",
+      "application": "The challenge to the recovery certificate (Rs.32,80,217) and citation (Rs.34,53,417) was not decided on the bill's merits. The petitioners were sent to a time-bound Clause 6.5 complaint before the Executive Engineer, with stay of recovery and restoration on the protest deposit.",
+      "lead_authorities": [],
+      "paras": "9-13"
+    },
+    {
+      "tag": "clause-6.5-statutory-remedy-disputed-bill",
+      "application": "The Court recited Clause 6.5(b): a consumer disputing bill accuracy may pay under protest the lesser of the sum claimed or the six-month average and file a complaint with the competent authority, to be decided within seven days.",
+      "lead_authorities": [],
+      "paras": "6-7"
+    },
+    {
+      "tag": "billing-dispute-question-of-fact-executive-engineer-clause-6.5",
+      "application": "It was held neither appropriate nor possible for the writ court to decide correctness of a bill involving technical aspects of recording consumption; that dispute is for the Executive Engineer under Clause 6.5.",
+      "lead_authorities": [],
+      "paras": "9-10"
+    },
+    {
+      "tag": "disputed-assessment-relegated-to-6.5(b)(ii)",
+      "application": "The protest condition was six times the admitted March 2011 bill of Rs.1,15,264, treated as the 6.5(b)(ii) six-month average and as lesser than the department's claim of Rs.22,70,830.",
+      "lead_authorities": [],
+      "paras": "7-8, 10"
+    },
+    {
+      "tag": "meter-reading-dispute-clause-6.5",
+      "application": "The live dispute was whether the main meter (PT phase matching reversed) and a 25.08.2011 check meter correctly recorded HV-2 consumption. That technical recording dispute was left to Clause 6.5, not decided in the writ.",
+      "lead_authorities": [],
+      "paras": "4-6, 9-10"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness of the revised bill and whether the check-meter / PT phase-matching readings were accurate",
+      "note": "Expressly left to the Executive Engineer on a Clause 6.5 complaint. The Court held it was neither appropriate nor possible to decide a billing dispute involving technical aspects of recording consumption.",
+      "paras": "9-10"
+    },
+    {
+      "point": "Whether installation of a check meter on 25.08.2011 without notice vitiated the demand",
+      "note": "Alleged by the petitioners; not examined once the Court remitted the dispute under Clause 6.5.",
+      "paras": "4, 9"
+    },
+    {
+      "point": "Quantum of arrears on the recovery certificate (Rs.32,80,217), the citation including recovery charges (Rs.34,53,417), and the department's figure of Rs.22,70,830",
+      "note": "Left to the Clause 6.5 decision; the certificate and citation were not quashed. Recovery of arrears was stayed until that decision.",
+      "paras": "2, 8, 11"
+    }
+  ],
+  "authorities": []
+}

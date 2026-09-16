@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3118,
+  "next_seq": 3119,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -18676,6 +18676,12 @@
       "case_id": "SCJ-3115",
       "source_basename": "WRIC(A)_17944_2012.pdf",
       "title": "Om Prakash Agrawal v. Kanpur Electricity Supply Co. Ltd. And Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3116",
+      "source_basename": "WRIC(A)_18742_2012.pdf",
+      "title": "Smt. Vidya Singh And Another v. State of U.P. Thru Secy. And Others",
       "status": "done"
     }
   ]
