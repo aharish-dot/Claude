@@ -1,0 +1,69 @@
+{
+  "case_id": "SCJ-3092",
+  "title": "Girand Singh v. State of U.P. and Others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Yatindra Singh, J.; Kashi Nath Pandey, J.",
+  "date_of_judgment": "2011-07-25",
+  "date_display": "25 July 2011",
+  "docket": "Writ - C No. 15690 of 2011",
+  "page_count": 9,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; representation to the Executive Engineer; recovery in abeyance on depositing half the disputed amount",
+  "headnote": "A writ against a recovery certificate for electricity dues is disposed of without examining the demand. The consumer may file a representation before the Executive Engineer, Electric Distribution Division, U.P. Power Corporation Ltd.; if filed within two weeks, that officer is to decide it by a speaking order, if possible within one month of receipt, and communicate the decision. Deposit of half the disputed amount with the representation keeps recovery in abeyance until that disposal, and any amount already deposited is to be adjusted. The Court did not decide the correctness of the 31 January 2011 Recovery Certificate, the pending Superintending Engineer appeal under the U.P. Electricity Supply Code, 2005, or the separate theft proceeding.",
+  "facts": "Girand Singh challenged a Recovery Certificate dated 31 January 2011 for electricity dues. After a 3 December 2004 order in Civil Misc. Writ Petition No. 51381 of 2004 he had represented to the Executive Engineer, who disposed of that representation on 28 February 2005. A further writ, Civil Misc. Writ Petition No. 36664 of 2005, was disposed of on 4 May 2005 on the ground that he could appeal under the U.P. Electricity Supply Code, 2005. He filed an appeal before the Superintending Engineer, but it remained undisposed when recovery was initiated.\n\nOn 12 May 2011 counsel for the distribution licensee stated that the certificate was for arrears of regular consumption, not the pending theft matter, and that there were no instructions on the appeal. Recovery was stayed till the next date on deposit of Rs. 2,45,000. On 25 July 2011 a different Division Bench disposed of the writ by directing a representation to the Executive Engineer.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.5",
+      "topic": "disputed electricity dues — representation to Executive Engineer; recovery in abeyance on depositing half",
+      "type": "supply_code",
+      "question": "Will the writ court examine a recovery certificate for electricity dues, or relegate the consumer to a representation before the Executive Engineer?",
+      "holding": "The writ against recovery of electricity dues is disposed of without a merits decision. The petitioner may file a representation before the Executive Engineer, Electric Distribution Division, U.P. Power Corporation Ltd.; if filed within two weeks, that officer is to decide it by a speaking order, if possible within one month of receipt, and communicate the decision. If the petitioner deposits half of the disputed amount with the representation, recovery remains in abeyance till that disposal; amounts already deposited are adjusted.",
+      "paras": "3-5",
+      "flag": "The 25.7.2011 order cites no Code clause. Keyed to Clause 6.5 as the Code's representation to the Executive Engineer on a disputed bill or recovery. Source PDF compiles March–July 2011 listing sheets, a 12.5.2011 notice-and-interim order (Satya Poot Mehrotra and Rajesh Chandra, JJ.; stay of the 31.1.2011 certificate on deposit of Rs. 2,45,000), and this 25.7.2011 disposal; pins are numbered paragraphs of the disposal. An earlier 4.5.2005 order in W.P. No. 36664 of 2005 had relegated the petitioner to an appeal under the Supply Code, 2005; that pending Superintending Engineer appeal is not addressed in the 25.7.2011 order."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "assessment-demand-notices-relegated-to-representation-without-merits",
+      "application": "The 31.1.2011 Recovery Certificate was neither quashed nor upheld. The writ was disposed of by directing a representation to the Executive Engineer for a speaking order.",
+      "lead_authorities": [],
+      "paras": "3-5"
+    },
+    {
+      "tag": "clause-6.5-representation-executive-engineer",
+      "application": "The consumer was sent to a representation before the Executive Engineer, Electric Distribution Division, U.P. Power Corporation Ltd., to be decided by a speaking order if possible within one month, without a writ-court finding on the dues.",
+      "lead_authorities": [],
+      "paras": "3"
+    },
+    {
+      "tag": "recovery-citation-kept-in-abeyance-pending-fresh-objection",
+      "application": "If half the disputed amount is deposited with the representation, recovery remains in abeyance till the Executive Engineer decides; prior deposits are adjusted.",
+      "lead_authorities": [],
+      "paras": "4"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness and quantum of the Recovery Certificate dated 31.1.2011",
+      "note": "Left to the Executive Engineer's speaking order on the representation. The 25.7.2011 order does not quantify the disputed amount.",
+      "paras": "1, 3-5"
+    },
+    {
+      "point": "Whether the pending Superintending Engineer appeal, filed pursuant to the 4.5.2005 order in W.P. No. 36664 of 2005, had to be decided before recovery could proceed",
+      "note": "Recorded on 12.5.2011 (licensee had no instructions on the appeal). The 25.7.2011 disposal does not mention or decide that appeal.",
+      "paras": "3-5"
+    },
+    {
+      "point": "The separate pending theft-of-electricity proceeding",
+      "note": "On 12.5.2011 the licensee's counsel stated it was not the subject of the 31.1.2011 Recovery Certificate. Not examined.",
+      "paras": "3-5"
+    }
+  ],
+  "authorities": []
+}
