@@ -1,0 +1,56 @@
+{
+  "case_id": "SCJ-3070",
+  "title": "Sunil Kumar Bhandula v. State of U.P. and Another",
+  "neutral_citation": "2024:AHC:91814",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Single Judge",
+  "coram": "Saurabh Srivastava, J.",
+  "date_of_judgment": "2024-05-21",
+  "date_display": "21 May 2024",
+  "docket": "APPLICATION U/S 482 No. - 6191 of 2010",
+  "page_count": 10,
+  "significance": "procedural",
+  "outcome": "none",
+  "model": "Grok 4.6",
+  "disposition": "Section 482 application dismissed as infructuous after acquittal; Code points not decided.",
+  "headnote": "A Section 482 CrPC application seeking to quash a pending Section 135 electricity-theft trial, on the grounds that Clause 8.1(b)(ii) of the Electricity Supply Code, 2005 bars booking theft for mere breakage of window glass or an old meter seal and that a Junior Engineer was not competent to lodge the FIR, was kept pending from 12 March 2010 with an interim restraint on coercive action. After listings and stay extensions, both sides informed the Court that the applicant had already been acquitted. The application was dismissed as infructuous. The Court did not decide the Clause 8.1(b)(ii) bar or the competence of the Junior Engineer to lodge a Section 135 FIR.",
+  "facts": "Sunil Kumar Bhandula applied under Section 482 CrPC to quash Special Sessions Trial No. 91 of 2006 under Section 135 of the Electricity Act, 2003, pending before the Special Judge, E.C. Act, Moradabad. The allegation was that the seal of his energy meter had been found tampered. He argued that Clause 8.1(b)(ii) of the Electricity Supply Code, 2005 bars booking a theft case for mere breakage of window glass or an old seal, so no FIR could have been lodged, and that the FIR was lodged by a Junior Engineer although Government Order No. 2635/24-P-3-204 dated 5 October 2004 confined competence under Section 135 to the Assistant Engineer. On 12 March 2010 the High Court stayed coercive action and called for affidavits. After listings, stay-extension applications and adjournments through 2024, both sides informed the Court on 21 May 2024 that the applicant had already been acquitted.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1(b)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "8.1(b)(ii)",
+      "topic": "482 CrPC to quash s.135 trial — dismissed as infructuous after acquittal",
+      "type": "supply_code",
+      "holding": "On 12 March 2010 the Court recorded the applicant's contentions that Clause 8.1(b)(ii) of the Electricity Supply Code, 2005 bars booking a theft case for mere breakage of window glass or an old seal of the energy meter, and that a Junior Engineer was not competent to lodge an FIR under Section 135 of the Electricity Act, 2003, granted time for affidavits, and stayed coercive action in Special Sessions Trial No. 91 of 2006. After listings and stay extensions, on 21 May 2024 both sides informed the Court that the applicant had already been acquitted and that no cause of action survived. The Section 482 CrPC application was dismissed as infructuous, without deciding those contentions.",
+      "paras": "order of 21.5.2024",
+      "flag": "Applicant invoked Clause 8.1(b)(ii) as stated; catalogued parent is UP-2005::8.1(b). Neither the seal-breakage bar nor FIR competence was construed. Source is a chain of listing and stay-extension orders (12.3.2010–16.4.2024) plus the 21.5.2024 disposal (neutral citation 2024:AHC:91814). A 28.5.2024 correction only added counsel's name to that disposal. Pins refer to the 21.5.2024 order."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "procedural-listing-no-construction",
+      "application": "The Section 482 application to quash the Section 135 trial on Clause 8.1(b)(ii) and FIR-competence grounds was dismissed as infructuous once the applicant had been acquitted; those Code and competence points were never decided.",
+      "lead_authorities": [],
+      "paras": "order of 21.5.2024"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether Clause 8.1(b)(ii) of the Electricity Supply Code, 2005 bars booking a theft case for mere breakage of window glass or an old seal of the energy meter",
+      "note": "Applicant's contention on 12.3.2010; clause number as stated in the order; not decided.",
+      "paras": "order of 12.3.2010"
+    },
+    {
+      "point": "Whether a Junior Engineer was competent to lodge an FIR under Section 135 of the Electricity Act, 2003",
+      "note": "Applicant relied on G.O. No. 2635/24-P-3-204 dated 5 October 2004 confining competence to the Assistant Engineer; not decided.",
+      "paras": "order of 12.3.2010"
+    },
+    {
+      "point": "Whether Special Sessions Trial No. 91 of 2006 should be quashed under Section 482 CrPC",
+      "note": "Became infructuous on the parties' statement that the applicant had already been acquitted.",
+      "paras": "order of 21.5.2024"
+    }
+  ],
+  "authorities": []
+}
