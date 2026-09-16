@@ -1,0 +1,92 @@
+{
+  "case_id": "SCJ-3168",
+  "title": "Smt. Sangeeta Garg v. State of U.P. & Another",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Amreshwar Pratap Sahi, J. & Shashi Kant, J.",
+  "date_of_judgment": "2018-04-24",
+  "date_display": "24 April 2018",
+  "docket": "Writ - C No. 40167 of 2016",
+  "page_count": 10,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition disposed of; if an FIR has been lodged the petitioner may compound under Section 152; if no Act/Code-compliant provisional assessment has been made, the petitioner is to approach the Executive Engineer for a final assessment (if not already passed); recovery to abide that order",
+  "headnote": "Where a writ challenging a theft-of-electricity assessment was entertained on the footing that the licensee must prove service of the provisional-assessment notice, and years later there is still no counter-affidavit and nothing on the record showing service of notice before the provisional or final assessment, the Court will not decide the demand. If an FIR has been lodged, the consumer may apply to compound under Section 152 of the Electricity Act, 2003. If no provisional assessment has been carried out in accordance with that Act and the U.P. Electricity Supply Code, 2005, the consumer is to approach the Executive Engineer, who shall pass an appropriate order on the final assessment if one has not already been passed; recovery proceedings will abide that order. The writ is disposed of with those directions. The Court did not decide whether notice had in fact been served, the quantum of the assessment, or whether a final assessment already existed.",
+  "facts": "Smt. Sangeeta Garg petitioned the Allahabad High Court in Writ-C No. 40167 of 2016 against the State of Uttar Pradesh and another (the Executive Engineer, respondent no. 2). The Court later described the dispute as one of theft of electricity and subsequent assessment. On 29 August 2016 a Division Bench entertained the petition, directed counsel for the Electricity Department to file a counter-affidavit proving service of the provisional-assessment notice, and required the petitioner to deposit Rs. 50,000 before the next date.\n\nThe petition was dismissed in default on 9 September 2016; a recall application was itself dismissed for want of prosecution on 15 November 2016; both were restored on 4 January 2017. A recall affidavit alleged that Rs. 50,000 had been deposited on 7 September 2016. No counter-affidavit was ever filed. On 24 April 2018 neither counsel was present. The Court recorded that nothing on the record showed service of notice before the provisional or final assessment, and disposed of the writ.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "8.1 (theft assessment — provisional assessment, notice, and remittal to the Executive Engineer for a final assessment)",
+      "topic": "If no Act/Code-compliant provisional assessment is on record, the consumer is to approach the Executive Engineer for a final assessment; recovery abides that order",
+      "type": "supply_code",
+      "question": "Where nothing on the record shows service of notice before a theft provisional or final assessment, will the writ court decide the demand, or is the consumer to approach the Executive Engineer?",
+      "holding": "The writ court will not decide the demand. Nothing on the record indicated service of notice before the provisional assessment or the final assessment, and no counter-affidavit had been filed. If no provisional assessment has been carried out in accordance with the Electricity Act, 2003 and the U.P. Electricity Supply Code, 2005, the petitioner is to approach the Executive Engineer (respondent no. 2), who shall pass an appropriate order with regard to the final assessment, if one has not already been passed. Recovery proceedings will abide that order.",
+      "qualifier": "The remittal is conditional: only if no Act/Code-compliant provisional assessment has been carried out, and only if a final assessment has not already been passed. The Court did not find that those conditions were met.",
+      "paras": "6, 8",
+      "flag": "Source PDF compiles listing, default-dismissal, restoration and adjournment orders from 29.8.2016 to 11.12.2017; the operative unnumbered order is 24.4.2018 (Amreshwar Pratap Sahi and Shashi Kant, JJ.). Pins are sequential unnumbered paragraphs of that disposal: (1) theft and assessment, counsel absent; (2) 29.8.2016 deposit direction; (3) no counter-affidavit; (4) twice dismissed in default and restored; (5) alleged Rs.50,000 deposit on 7.9.2016; (6) no record of service of notice before provisional or final assessment; (7) compounding under s.152 if FIR lodged; (8) remittal to the Executive Engineer and recovery to abide; (9) disposal. The Court cited the Supply Code, 2005 without a clause number and the 'Indian Electricity Act, 2003' (Electricity Act, 2003). Keyed to Clause 8.1 as the theft-assessment procedure that this pattern matches; it could equally be Clause 6.8 if the demand was unauthorised use rather than theft — the Court characterised the case as theft but did not number the clause."
+    },
+    {
+      "provision": "EA2003::152",
+      "code": "Electricity Act, 2003",
+      "clause": "152 (compounding of the theft offence)",
+      "topic": "If an FIR has been lodged, compounding under Section 152 is open",
+      "type": "electricity_act",
+      "question": "Where a writ concerns theft of electricity and subsequent assessment, may the consumer compound if a criminal case has been registered?",
+      "holding": "Yes, if an FIR has been lodged it is open to the petitioner to approach for compounding of the offence under Section 152 of the Electricity Act, 2003. The Court did not decide whether an FIR had in fact been lodged.",
+      "paras": "7",
+      "flag": "The Court referred to 'Section 152 of the Indian Electricity Act, 2003' (Electricity Act, 2003)."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "opportunity-before-final-assessment",
+      "application": "Nothing on the record showed service of notice before the provisional or final assessment, and no counter-affidavit proving service had been filed. The Court did not let the demand stand as concluded; the consumer was sent to the Executive Engineer for a final assessment if none had been passed in accordance with the Act and the Code.",
+      "lead_authorities": [],
+      "paras": "6, 8"
+    },
+    {
+      "tag": "provisional-assessment-power-vests-in-executive-engineer",
+      "application": "If no Act/Code-compliant provisional assessment has been carried out, the petitioner is to approach the Executive Engineer (respondent no. 2), who shall pass an appropriate order on the final assessment if one has not already been passed.",
+      "lead_authorities": [],
+      "paras": "8"
+    },
+    {
+      "tag": "provisional-assessment-objection-recovery-abides",
+      "application": "Recovery proceedings will abide the Executive Engineer's order on the final assessment.",
+      "lead_authorities": [],
+      "paras": "8"
+    },
+    {
+      "tag": "s135-arrest-safeguards-and-compounding-remedy",
+      "application": "The dispute being theft of electricity and subsequent assessment, if an FIR has been lodged it is open to the petitioner to compound under Section 152. The Court did not quash any FIR or decide the criminal case.",
+      "lead_authorities": [],
+      "paras": "6-7"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether notice of the provisional or final assessment was in fact served",
+      "note": "The Court recorded that nothing on the record indicated service, but it did not hold that notice had not been served, nor did it quash any assessment.",
+      "paras": "6, 8"
+    },
+    {
+      "point": "Correctness / quantum of the theft assessment",
+      "note": "Left to the Executive Engineer if no compliant provisional assessment had been carried out and a final assessment had not already been passed.",
+      "paras": "8"
+    },
+    {
+      "point": "Whether a final assessment had already been passed",
+      "note": "The direction to the Executive Engineer is expressly 'if not already passed'.",
+      "paras": "8"
+    },
+    {
+      "point": "Whether an FIR had been lodged, and compounding on these facts",
+      "note": "Section 152 was left open only 'in the event the FIR has been lodged'.",
+      "paras": "7"
+    }
+  ],
+  "authorities": []
+}
