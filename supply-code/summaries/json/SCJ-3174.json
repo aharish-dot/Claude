@@ -1,0 +1,72 @@
+{
+  "case_id": "SCJ-3174",
+  "title": "Jitendra Prasad Pandey v. State of U.P. And 2 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Amreshwar Pratap Sahi, J. and Shashi Kant, J.",
+  "date_of_judgment": "2018-04-17",
+  "date_display": "17 April 2018",
+  "docket": "Writ - C No. 19275 of 2017",
+  "page_count": 4,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; bill dispute relegated to Executive Engineer under Clause 6.5; recovery to follow that order",
+  "headnote": "Where the consumer challenges an electricity bill and no recovery proceeding has been initiated, the writ is not a petition relating to recovery of electricity dues. The statutory remedy is to object to the correctness of the bill before the Executive Engineer under Clause 6.5 of the U.P. Electricity Supply Code, 2005. The petitioner may raise that objection, including on a Junior Engineer's report already on record, and the Executive Engineer is to pass an order in accordance with law within three weeks of production of a certified copy; any amount sought to be recovered is to follow thereafter. The Court did not decide the correctness of the bill or the Clause 6.15 two-year bar raised at the interim stage.",
+  "facts": "Jitendra Prasad Pandey challenged a bill-cum-notice dated 20 February 2017 requiring deposit of Rs.12,60,725 (Rs.12,690 as current charges and the balance as outstanding arrears) for electricity consumed at a petrol pump. The connection stood in the name of Radhey Shyam. His case was that no bill had been raised for sixteen years until a sudden demand of about Rs.30 lakh dated 31 October 2016, later reduced on his application to the impugned figure. He also invoked Clause 6.15 of the U.P. Electricity Supply Code, 2005 and Satya Narayan, contending that arrears not continuously shown in monthly bills were time-barred after two years. On 4 May 2017 a Division Bench stayed disconnection, subject to payment of current charges, and stayed recovery of the arrears. At the final hearing he further submitted that a Junior Engineer's report dated 16 March 2017 had been called for, so the bill had been raised without waiting for that report.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.5",
+      "topic": "challenge to an electricity bill with no recovery proceeding — Clause 6.5 objection to the Executive Engineer",
+      "type": "supply_code",
+      "question": "Where the consumer challenges an electricity bill and no recovery proceeding has been initiated, should the writ court decide the correctness of the bill, or is the consumer to object under Clause 6.5?",
+      "holding": "The writ is disposed of without deciding the bill on merits. Because no recovery had been initiated, the petition was not treated as one relating to recovery of electricity dues. The remedy is to approach the Executive Engineer under Clause 6.5 of the U.P. Electricity Supply Code, 2005, who can resolve the controversy as to the correctness of the bill. The petitioner may object taking into account the Junior Engineer's report dated 16.3.2017. Respondent no. 3 (Executive Engineer) is to pass an appropriate order in accordance with law within three weeks of production of a certified copy; any amount sought to be recovered is to follow thereafter.",
+      "qualifier": "The Court distinguished the case from a recovery-of-dues writ because, on the petition's own averments, no recovery proceeding had been initiated.",
+      "paras": "6-8",
+      "flag": "Source PDF compiles the 4.5.2017 interim (Krishna Murari and Ravindra Nath Kakkar, JJ.), a 13.12.2017 listing (Govind Mathur and Ashok Kumar, JJ.), and this 17.4.2018 disposal. Pins are sequential unnumbered paragraphs of the 17.4.2018 order: (1) heard; (2) no recovery under challenge, only the bill; (3) bill dated 20.2.2017 stated as Rs.12,60,625; (4) petitioner's case that a larger demand of Rs.30,55,462 was later reduced; (5) JE report of 16.3.2017; (6) Clause 6.5 as the remedy; (7) objection and three-week direction, recovery to follow; (8) disposal. Internal amount variants recorded as stated: interim order Rs.12,60,725 / Rs.30,50,462 or Rs.30,00,000; final order Rs.12,60,625 / Rs.30,55,462. Clause 6.15 was invoked only in the 4.5.2017 interim and was not mentioned at disposal."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-alternate-remedy-to-writ",
+      "application": "The writ challenging the 20.2.2017 electricity bill was not decided on merits. Because no recovery proceeding had been initiated, the consumer was sent to a time-bound Clause 6.5 objection before the Executive Engineer, with recovery to follow that order.",
+      "lead_authorities": [],
+      "paras": "6-8"
+    },
+    {
+      "tag": "clause-6.5-statutory-remedy-disputed-bill",
+      "application": "The Court treated Clause 6.5 as the Code route for resolving a controversy as to the correctness of an electricity bill.",
+      "lead_authorities": [],
+      "paras": "6"
+    },
+    {
+      "tag": "billing-objection-to-executive-engineer-under-6.5",
+      "application": "The petitioner was left free to object to the bill before the Executive Engineer (respondent no. 3), including on the Junior Engineer's report dated 16.3.2017, and that officer was directed to pass an order within three weeks of a certified copy.",
+      "lead_authorities": [],
+      "paras": "6-7"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness and quantum of the bill dated 20.2.2017, including the effect of the Junior Engineer's report dated 16.3.2017",
+      "note": "Left to the Executive Engineer under Clause 6.5. The Court did not quash or uphold the bill.",
+      "paras": "6-8"
+    },
+    {
+      "point": "Whether recovery of the arrears is barred by Clause 6.15 of the U.P. Electricity Supply Code, 2005 because no bill was raised for sixteen years and the arrears were not continuously reflected in monthly bills",
+      "note": "Raised at the 4.5.2017 interim hearing with reliance on Satya Narayan. The disposing bench did not mention Clause 6.15 or that authority.",
+      "paras": "order of 4.5.2017"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Satya Narayan v. U.P. Power Corporation Ltd.",
+      "citation": "Writ Petition No. 9090 of 2012, decided on 22.5.2013 (Lucknow Bench)",
+      "cited_by": "Petitioner",
+      "treatment": "Relied on"
+    }
+  ]
+}
