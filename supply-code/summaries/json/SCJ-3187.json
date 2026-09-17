@@ -1,0 +1,85 @@
+{
+  "case_id": "SCJ-3187",
+  "title": "Shafiq v. The U.P. State Power Corporation Limited And 2 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta, J. & Ajit Kumar, J.",
+  "date_of_judgment": "2018-08-02",
+  "date_display": "2 August 2018",
+  "docket": "Writ - C No. 25310 of 2018",
+  "page_count": 4,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition dismissed on delay and laches; liberty to seek Clause 6.5 of the U.P. Electricity Supply Code, 2005 in accordance with law",
+  "headnote": "Where a consumer challenges a demand notice and seeks restoration of a domestic connection disconnected more than a year and a half earlier, and the explanation for the delay in invoking Article 226 is found vague, uninspiring and unreliable, the writ is dismissed on delay and laches. Dismissal does not decide the demand or the disconnection. Liberty is reserved to seek the statutory remedy under Clause 6.5 of the U.P. Electricity Supply Code, 2005 in accordance with law. The Court did not examine the correctness of the Rs.51,730.03 demand, the legality of the 3 November 2016 disconnection, or whether a Clause 6.5 representation remained in time.",
+  "facts": "Shafiq held domestic electric connection no. PV93575 (Account ID 8252344000) at his residence at village/Mohalla Shiri Milan, Near Waheed Chakki, Bilaspur, District Rampur. U.P. State Power Corporation Limited disconnected the supply on 3 November 2016. The Executive Engineer (respondent no. 2) issued a demand notice dated 18 November 2016 for Rs.51,730.03. By Writ-C No. 25310 of 2018, filed on 24 July 2018, he sought certiorari to quash that demand, mandamus to restore the connection immediately, and a fresh bill to the date of disconnection after deducting bills paid since installation up to June 2016.\n\nOn 26 July 2018 the Division Bench required a supplementary affidavit explaining the delay. The affidavit said the notice was served in the last week of December 2016; the petitioner, a poor senior citizen of about 72, sent Parvez Khan to Allahabad to instruct counsel; counsel's clerk Mithun Kumar disappeared and was found dead on 9 March 2017; the file was recovered from the clerk's parents only in the last week of May 2018; and the writ was then prepared and filed on 24 July 2018.",
+  "holding_units": [
+    {
+      "provision": "OFFTOPIC::delay-and-laches-writ-jurisdiction",
+      "code": "Constitution of India",
+      "clause": "Article 226 (delay and laches)",
+      "topic": "A delayed writ against a demand and disconnection is dismissed where the explanation for delay is vague and unreliable",
+      "type": "interplay",
+      "question": "Will the High Court entertain a writ filed in July 2018 against a November 2016 disconnection and demand, on an explanation that counsel's clerk disappeared and was later found dead?",
+      "holding": "No. After the 26.07.2018 direction to explain the delay, the supplementary affidavit (paras 2 to 5) was taken on record. The Court held that vague grounds had been taken, which were not at all inspiring and were absolutely unreliable. The writ petition is dismissed on delay and laches. The demand, disconnection and restoration were not examined on merits.",
+      "paras": "2-5",
+      "flag": "Source PDF concatenates the 26.7.2018 listing (file a supplementary affidavit on delay) with this 2.8.2018 disposal. Paragraph numbers are sequential blocks of the 2.8.2018 order from 'This writ petition has been filed'. Prayer (a) describes the demand as dated 18.11.2016; the supplementary affidavit quotes a notice dated 16.11.2016. Coram is the disposing bench (Shashi Kant Gupta and Ajit Kumar, JJ.), the same as on 26.7.2018."
+    },
+    {
+      "provision": "UP-2005::6.5",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.5 (representation against a disputed bill)",
+      "topic": "Writ dismissed on laches still leaves Clause 6.5 open in accordance with law",
+      "type": "supply_code",
+      "question": "Does dismissal of a delayed writ against a demand notice and disconnection extinguish the consumer's Clause 6.5 remedy?",
+      "holding": "No. After dismissing the writ on delay and laches, the Court recorded that it is open for the petitioner to seek the remedy provided under Clause 6.5 of the U.P. Electricity Supply Code, 2005 in accordance with law. The Court did not itself relegate the dispute with a direction or timeline, did not stay coercive action, and did not decide whether a Clause 6.5 representation was still in time.",
+      "qualifier": "Liberty only; no mandamus to the Executive Engineer to decide, no time-limit, and no stay of recovery or disconnection.",
+      "paras": "5-6"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternate-remedy-and-laches-bar-writ",
+      "application": "The writ against the 18.11.2016 demand and the 03.11.2016 disconnection was dismissed because the delay explanation was vague and unreliable; the electricity dispute was left to Clause 6.5 rather than decided on the writ.",
+      "lead_authorities": [],
+      "paras": "4-6"
+    },
+    {
+      "tag": "clause-6.5-alternate-remedy-to-writ",
+      "application": "Despite dismissal of the Article 226 petition, the Court kept open the statutory representation under Clause 6.5 of the U.P. Electricity Supply Code, 2005 in accordance with law.",
+      "lead_authorities": [],
+      "paras": "6"
+    },
+    {
+      "tag": "clause-6.5-statutory-remedy-disputed-bill",
+      "application": "The challenge was to a demand notice of Rs.51,730.03, disconnection of a domestic connection, and a prayer for a fresh bill. Those billing disputes were not examined in writ and were left to Clause 6.5.",
+      "lead_authorities": [],
+      "paras": "1, 6"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness or quantum of the demand of Rs.51,730.03",
+      "note": "Certiorari was sought against the demand notice dated 18.11.2016 (affidavit: 16.11.2016). Left to Clause 6.5; not examined.",
+      "paras": "1, 5-6"
+    },
+    {
+      "point": "Whether the disconnection of 03.11.2016 was illegal, and whether connection no. PV93575 must be restored",
+      "note": "Mandamus for immediate restoration was sought; refused only because the writ was dismissed on delay. No finding on the disconnection.",
+      "paras": "1, 5-6"
+    },
+    {
+      "point": "Whether a fresh bill to 03.11.2016 was due after deducting bills paid up to June 2016",
+      "note": "Prayer (c); not examined.",
+      "paras": "1, 5-6"
+    },
+    {
+      "point": "Whether a Clause 6.5 representation remained in time",
+      "note": "Liberty is 'in accordance with law'; the Court did not construe any Clause 6.5 limitation.",
+      "paras": "6"
+    }
+  ],
+  "authorities": []
+}
