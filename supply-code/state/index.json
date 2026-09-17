@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3190,
+  "next_seq": 3191,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -19108,6 +19108,12 @@
       "case_id": "SCJ-3187",
       "source_basename": "WRIC(A)_25310_2018.pdf",
       "title": "Shafiq v. The U.P. State Power Corporation Limited And 2 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3188",
+      "source_basename": "WRIC(A)_2592_2018.pdf",
+      "title": "M/S Pal News Media Pvt. Ltd. And Another v. State of U.P. And 4 Others",
       "status": "done"
     }
   ]
