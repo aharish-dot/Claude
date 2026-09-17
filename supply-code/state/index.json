@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3230,
+  "next_seq": 3231,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -19348,6 +19348,12 @@
       "case_id": "SCJ-3227",
       "source_basename": "WRIC(A)_27193_2020.pdf",
       "title": "Musharraf v. State of U.P. And 2 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3228",
+      "source_basename": "WRIC(A)_27519_2020.pdf",
+      "title": "Vinod Kumar Saroj v. Purvanchal Vidhyut Vitran Nigam Ltd. And 2 Others",
       "status": "done"
     }
   ]
