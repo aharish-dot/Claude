@@ -1,0 +1,64 @@
+{
+  "case_id": "SCJ-3257",
+  "title": "Ram Kumar Singh v. Praveen Kumar Maurya, Executive Engineer, Dakshinanchal Vidyut Vitran Nigam, Aligarh",
+  "neutral_citation": "",
+  "court": "Allahabad High Court (Lucknow Bench)",
+  "bench": "Single Judge",
+  "coram": "Alok Mathur, J.",
+  "date_of_judgment": "2022-05-19",
+  "date_display": "19 May 2022",
+  "docket": "CONTEMPT APPLICATION (CIVIL) No. 669 of 2022",
+  "page_count": 3,
+  "significance": "procedural",
+  "outcome": "none",
+  "model": "Grok 4.6",
+  "disposition": "Contempt dismissed; notices discharged; no disobedience of the 2015 billing direction",
+  "headnote": "Where an interim writ order directed the licensee to prepare bills under Clauses 5.6 and 5.7 of the U.P. Electricity Supply Code, 2005, and provided that any such demand would be subject to further orders of the Court, later issue of a recovery certificate is not wilful disobedience of that order. Civil contempt of the 31.07.2015 order in Writ Petition No. 4403 (M/S) of 2015 was dismissed. The Court recorded that the applicant did not allege that the bills had been prepared de hors Clauses 5.6 and 5.7; that the 2015 order did not constrain the licensee from raising the demands; that even if the demands were not strictly in accordance with law they could be assailed, and had been, before the Electricity Ombudsman (Representation No. 70/2022); and that the underlying writ remained pending. Contempt jurisdiction being discretionary, and no disobedience being found, the petition was dismissed and notices discharged. The applicant was left free to pursue the statutory remedy against the recovery. The Court did not decide whether the 10.12.2021 recovery was lawful under Clauses 5.6 and 5.7.",
+  "facts": "Ram Kumar Singh brought this civil contempt against Praveen Kumar Maurya, Executive Engineer, Dakshinanchal Vidyut Vitran Nigam Ltd., Vidyut Vitran Khand-VI, Aligarh, alleging wilful disobedience of the interim order dated 31 July 2015 in Writ Petition No. 4403 (M/S) of 2015. That writ had been filed by the licensee itself, through the Executive Engineer, challenging a U.P. Electricity Regulatory Commission order imposing a penalty of Rs.10,000 on the corporation's officers. The 31 July 2015 order directed the licensee to prepare bills under Clauses 5.6 and 5.7 of the U.P. Electricity Supply Code, 2005, any such demand remaining subject to further orders of the Court.\n\nThe applicant alleged that a recovery certificate dated 10 December 2021 violated that interim order. Notice issued on 5 April 2022. The opposite party submitted that the applicant had already filed Representation No. 70/2022 before the Electricity Ombudsman against the same recovery, which was pending, and that the 2015 direction concerned only preparation of bills while the writ remained pending.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::5.6",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "5.6 and 5.7 as invoked in the 31.07.2015 interim billing direction",
+      "topic": "a later recovery certificate is not contempt of a 5.6/5.7 billing direction that was subject to further orders of the Court",
+      "type": "interplay",
+      "question": "Does issue of a later recovery certificate constitute wilful disobedience of an interim order directing the licensee to prepare bills under Clauses 5.6 and 5.7, subject to further orders of the Court?",
+      "holding": "No. The 31.07.2015 order in Writ Petition No. 4403 (M/S) of 2015 directed the licensee to prepare bills in terms of Clauses 5.6 and 5.7 and provided that any such demand would be subject to further orders of the Court. It did not constrain the opposite parties from raising the later demands. The applicant did not allege that the bills had been made de hors those clauses. Even if the 10.12.2021 recovery certificate was not strictly in accordance with law, it could be assailed, and had been, before the Electricity Ombudsman (Representation No. 70/2022), while the writ remained pending. Contempt jurisdiction being discretionary, raising that recovery was not disobedience. The petition was dismissed and notices discharged, with liberty to pursue the statutory remedy against the recovery.",
+      "qualifier": "The 31.07.2015 order was an interim direction in a licensee writ against a UPERC penalty; this proceeding was later civil contempt of that billing direction.",
+      "paras": "6-9",
+      "flag": "Source PDF concatenates the 5.4.2022 notice (Alok Mathur, J.; Rule 5 of Chapter XXXV-E of the Allahabad High Court Rules, 1952) and the 19.5.2022 dismissal (same judge). Paragraph numbers refer to the 19.5.2022 order. The Court named Clauses 5.6 and 5.7 of the 2005 Code but did not construe either; keyed to UP-2005::5.6 (catalog), with 5.7 co-named. Catalog hits on 5.6 sub-clauses, 5.7(g), meter-testing, IBC s.238, and CGRF 5.4 are false positives."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "contempt-compliance",
+      "application": "Issuing the 10.12.2021 recovery certificate was held not to be disobedience of the 31.07.2015 direction to prepare bills under Clauses 5.6 and 5.7 subject to further orders of the Court. Contempt dismissed; notices discharged.",
+      "lead_authorities": [],
+      "paras": "6-8"
+    },
+    {
+      "tag": "contempt-jurisdiction-no-roving-inquiry-disputed-facts-to-appropriate-forum",
+      "application": "The Court treated contempt as discretionary, declined to examine whether the recovery was strictly in accordance with Clauses 5.6 and 5.7, and left the applicant to the pending Ombudsman representation and the pending writ.",
+      "lead_authorities": [],
+      "paras": "6-9"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the recovery certificate dated 10.12.2021 was in accordance with Clauses 5.6 and 5.7 of the U.P. Electricity Supply Code, 2005",
+      "note": "The Court recorded that the applicant did not allege bills de hors those clauses, and that any demand not strictly in accordance with law could be assailed before the appropriate authority.",
+      "paras": "6-7"
+    },
+    {
+      "point": "Merits of Representation No. 70/2022 before the Electricity Ombudsman against the recovery certificate",
+      "note": "Recorded as pending; the applicant was left free to pursue the statutory remedy.",
+      "paras": "5, 9"
+    },
+    {
+      "point": "The pending Writ Petition No. 4403 (M/S) of 2015, including the challenge to the UPERC penalty of Rs.10,000",
+      "note": "The entire controversy was recorded as still pending before the writ court.",
+      "paras": "3, 8"
+    }
+  ],
+  "authorities": []
+}
