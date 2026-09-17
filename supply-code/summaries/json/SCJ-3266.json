@@ -1,0 +1,94 @@
+{
+  "case_id": "SCJ-3266",
+  "title": "Pramod Kumar v. State of U.P. And 3 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Manoj Misra, J. & Mohd. Azhar Husain Idrisi, J.",
+  "date_of_judgment": "2022-08-29",
+  "date_display": "29 August 2022",
+  "docket": "Writ - C No. 21256 of 2022",
+  "page_count": 4,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition dismissed as premature; clause 3.4 held inapplicable to a 10 H.P. tubewell; petitioner may raise a clause 4.29 grievance if his supply is later affected",
+  "headnote": "Clause 3.4 of the U.P. Electricity Supply Code, 2005, which deals with supply through independent feeders, relates to high-load supplies and does not cover a 10 H.P. private tubewell. Clause 4.29 entitles the licensee to use a service line and other apparatus paid for by a consumer to give supply to other consumers, provided the paying consumer's supply is not affected. Where supply to the other consumer has not yet commenced, it is premature to assume that the paying consumer's supply will be affected, and a writ seeking to restrain the new connection will not be entertained at that stage. The paying consumer is left free to raise a grievance if and when his supply is in fact affected. The petition was dismissed.",
+  "facts": "Pramod Kumar, supplied for a 10 H.P. private tubewell, sought a direction that respondent no. 3 not give a new connection to respondent no. 4 from the supply point of the service line of that tubewell. He said he had borne the cost of the line and, citing clause 3.4 of the U.P. Electricity Supply Code, 2005 (independent feeders), that a feeder provided at the consumer's cost should not be used for a fresh connection.\n\nEarlier listings directed respondent no. 3 to appear with the record and then placed the matter before the appropriate Bench. Counsel for respondents 2 and 3 submitted that clause 3.4 applies only to loads of 1000 kVA or 500 kVA and above, not 10 H.P., and that clause 4.29 permits use of a consumer-paid service line to supply others if the paying consumer's supply is not affected. Supply to respondent no. 4 had not commenced, so the petition was said to be premature. The petitioner asked that his objection be addressed first.",
+  "reusable_constructions": [
+    {
+      "construction": "Clause 3.4 of the U.P. Electricity Supply Code, 2005 governs high-load independent-feeder supplies and does not apply to a 10 H.P. private tubewell connection.",
+      "paras": "9"
+    },
+    {
+      "construction": "Under clause 4.29, a licensee may use a service line and other apparatus paid for by a consumer to give supply to other consumers, provided the paying consumer's own supply is not affected.",
+      "paras": "9"
+    },
+    {
+      "construction": "A writ to restrain a new connection from a consumer-paid service line is premature while supply to the other consumer has not commenced; it is not to be assumed that the paying consumer's supply will be affected.",
+      "paras": "9"
+    },
+    {
+      "construction": "The paying consumer may raise a grievance if and when his supply is in fact affected by supply to the other consumer.",
+      "paras": "9-10"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::3.4",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "3.4",
+      "topic": "Clause 3.4 independent-feeder regime does not cover a 10 H.P. private tubewell",
+      "type": "supply_code",
+      "question": "Does clause 3.4 of the U.P. Electricity Supply Code, 2005 bar the licensee from giving a fresh connection from the service line of a 10 H.P. private tubewell paid for by the existing consumer?",
+      "holding": "No. On a plain reading, clause 3.4 relates to high-load supplies and does not cover supplies of loads of 10 H.P. or so. The petitioner's supply was 10 HP for running a private tubewell. The independent-feeder clause therefore did not prevent a new connection from that service line.",
+      "paras": "9",
+      "flag": "Unnumbered 29.8.2022 disposal (Manoj Misra and Mohd. Azhar Husain Idrisi, JJ.). Paras are sequential blocks of that order (1 heard; 2 prayer; 3-4 petitioner; 5-6 licensee; 7 reply; 8 considered; 9 ratio; 10 dismissed). The PDF also contains listing orders of 8.8.2022 (Suneet Kumar and Syed Waiz Mian, JJ.: respondent no. 3 to appear with record) and 22.8.2022 (Manoj Kumar Gupta and Ram Manohar Narayan Mishra, JJ.: not cognizable by that Bench). Court cited clause 3.4 generally; counsel for the licensee had referred to loads of 1000 kVA or 500 kVA (the 3.4(a)/(b) thresholds)."
+    },
+    {
+      "provision": "UP-2005::4.29",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.29",
+      "topic": "Licensee may use a consumer-paid service line to supply others unless the paying consumer's supply is affected; challenge premature before the other supply commences",
+      "type": "supply_code",
+      "question": "May the licensee use a consumer-paid service line to supply another consumer, and may the paying consumer restrain that connection in writ before the other supply has commenced?",
+      "holding": "Under clause 4.29 the licensee is entitled to use the service line and other apparatus to give supply to other consumers provided the supply to the consumer who paid for them is not affected. As supply to respondent no. 4 had not commenced, it was premature to assume that the petitioner's supply would be affected. The Court declined to entertain the petition at that stage, leaving it open to the petitioner to raise his grievance if and when his supply is affected on account of supply to respondent no. 4, and dismissed the petition.",
+      "qualifier": "The Court did not find that supply would remain unaffected once commenced; it only held the challenge premature.",
+      "paras": "9-10",
+      "flag": "Court cited clause 4.29 generally; the text applied is the entitlement to use a consumer-paid service line if the paying consumer's supply is not affected (clause 4.29(b))."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "sharing-of-existing-consumer-s-service-line-with-other-consumers",
+      "application": "Clause 4.29 entitles the licensee to use a service line paid for by the petitioner to give supply to respondent no. 4, provided the petitioner's own supply is not affected. The writ to restrain that connection was dismissed.",
+      "lead_authorities": [],
+      "paras": "9"
+    },
+    {
+      "tag": "clause-3.4-high-load-independent-feeder-not-10hp-tubewell",
+      "application": "Clause 3.4 was held to relate to high-load independent-feeder supplies and not to cover a 10 H.P. private tubewell. The petitioner could not rely on it to stop a fresh connection from his service line.",
+      "lead_authorities": [],
+      "paras": "9"
+    },
+    {
+      "tag": "premature-writ-to-restrain-service-line-sharing-before-supply-commences",
+      "application": "Because supply to respondent no. 4 had not commenced, it was premature to assume that the petitioner's supply would be affected. The Court declined to entertain the writ at that stage and left the petitioner to raise a grievance if and when his supply is affected.",
+      "lead_authorities": [],
+      "paras": "9-10"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner's supply would in fact be affected once supply to respondent no. 4 commenced",
+      "note": "Left open: the petitioner may raise a grievance as and when his supply is affected on account of supply to respondent no. 4.",
+      "paras": "9"
+    },
+    {
+      "point": "Whether the petitioner's objection had to be decided before supply to respondent no. 4 commenced",
+      "note": "The petitioner argued that his objection should be addressed first. The Court dismissed the writ as premature instead of directing a decision on that objection.",
+      "paras": "7-10"
+    }
+  ],
+  "authorities": []
+}
