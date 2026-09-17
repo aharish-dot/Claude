@@ -1,0 +1,93 @@
+{
+  "case_id": "SCJ-3255",
+  "title": "Irfan Ali v. U.P. Power Corporation Limited and others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Pankaj Naqvi, J. & Piyush Agrawal, J.",
+  "date_of_judgment": "2021-03-17",
+  "date_display": "17 March 2021",
+  "docket": "Writ - C No. 8994 of 2021",
+  "page_count": 5,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition allowed; mandamus issued to grant the electricity connection at A-13, Gandhi Nagar, Moradabad forthwith, subject to other statutory compliance, if any, in accordance with law",
+  "headnote": "Clause 4.4 of the U.P. Electricity Supply Code, 2005 does not prohibit grant of a new electricity connection merely because a civil suit concerning the premises is pending. Clause 4.4(a)(i) requires proof of ownership or occupancy (a registered sale deed or equivalent) and, where ownership is in litigation, a copy of the court order evidencing that dispute; it does not condition supply on the dispute first being decided. An electricity connection confers no title (Note-3 of Annexure 4.1). Supply to an occupant is fundamental to living with dignity under Article 21. Refusal of Irfan Ali's 3 KW connection at A-13, Gandhi Nagar, Moradabad, solely because Original Suit No. 506 of 2011 sought cancellation of his sale deed as fraudulent, was dehors the Electricity Act, 2003 and the Code. Mandamus issued to grant the connection forthwith, subject to other statutory compliance. The Court did not decide the title suit or Clauses 4.4(a)(ii)–(vi).",
+  "facts": "Irfan Ali, with another, purchased plot A-13, Gandhi Nagar, Moradabad (381.51 sq. mtrs.) by registered sale deed dated 3 June 2011, raised commercial constructions in 2012, and applied for a 3 KW electricity connection. The Executive Engineer called for a certified copy of the sale deed in October 2012 and again in December 2017; both were submitted, but no connection was granted. Writ C No. 34409 of 2018 was disposed of on 16 October 2018 directing consideration within a month. A prepaid connection was granted on paper on 25 March 2019 and Rs 6,626 deposited on 30 March 2019.\n\nBy order dated 7 May 2019 the licensee then declined the connection solely because Original Suit No. 506 of 2011, alleged by one Rajiv Gupta, sought cancellation of the sale deed as fraudulent. An application dated 19 May 2019 went unanswered. The petitioner sought a mandamus to supply the connection at A-13. The Power Corporation relied on Clause 4.4 of the U.P. Electricity Supply Code, 2005. It was not the licensee's case that previous outstanding dues existed on the premises.",
+  "reusable_constructions": [
+    {
+      "construction": "Clause 4.4 of the U.P. Electricity Supply Code, 2005 does not prohibit grant of a new electricity connection merely because a civil suit relating to the premises is pending.",
+      "paras": "7"
+    },
+    {
+      "construction": "Clause 4.4(a)(i) requires proof of ownership or occupancy and, where ownership is in litigation, a copy of the court order evidencing that dispute; it does not condition supply on the dispute first being decided.",
+      "paras": "6-7"
+    },
+    {
+      "construction": "An electricity connection is not to be treated as proof of ownership of the premises (Note-3 of Annexure 4.1 of the Code).",
+      "paras": "7"
+    },
+    {
+      "construction": "Supply of electricity to an occupant is fundamental to living with dignity under Article 21 of the Constitution; refusal solely because a property case is pending is neither the intent of the Electricity Act, 2003 nor of the Supply Code.",
+      "paras": "7"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.4",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.4",
+      "topic": "pending civil title suit is not a ground to refuse a new connection",
+      "type": "supply_code",
+      "question": "May a distribution licensee refuse a new electricity connection solely because a civil suit for cancellation of the applicant's sale deed is pending?",
+      "holding": "No. The sole ground for the 7.5.2019 refusal was pendency of O.S. No. 506/2011 seeking cancellation of the petitioner's registered sale deed. Clause 4.4 nowhere prohibits grant of a connection merely because a property dispute is pending. Supply to an occupant is fundamental to living with dignity under Article 21; accepting the licensee's contention would disrupt supply whenever a property case is pending. That is neither the legislative intent under the Electricity Act, 2003 nor under the Code. A connection does not confer title (Note-3 of Annexure 4.1). It was not the licensee's case that previous outstanding dues existed. The refusal was dehors the law. Mandamus issued to grant the connection at A-13, Gandhi Nagar, Moradabad forthwith, subject to other statutory compliance, if any.",
+      "qualifier": "Mandamus is subject to other statutory compliance. The Court did not itself decide title.",
+      "paras": "2-4, 7-9",
+      "flag": "Paragraph 8 recites 'impugned disconnection of electricity supply', but the facts and operative relief are refusal of a new connection after a paper prepaid grant on 25.3.2019. The Act is cited without a section number. Clause 4.1 is mentioned only as enumerating the licensee's obligation to supply and is not independently construed. Catalog hits on other Chapter IV clauses are from the extracted text of Clause 4.4, not holdings."
+    },
+    {
+      "provision": "UP-2005::4.4(a)(i)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.4(a)(i)",
+      "topic": "proof of ownership/occupancy plus a court-order copy where title is in litigation — not a bar on supply",
+      "type": "supply_code",
+      "question": "Does Clause 4.4(a)(i) bar a new connection until a pending ownership suit is decided, or does it only require proof of title or occupancy and, if there is litigation, a copy of the court order evidencing the dispute?",
+      "holding": "Only the documents. Clause 4.4(a)(i) insists on proof of ownership (registered sale deed, partition deed, succession or heirship certificate, or last will) or proof of occupancy (valid power of attorney, latest rent-paid receipt, valid lease deed, or indemnity form as per Annexure 4.2), so that the applicant can maintain an application. Where ownership of the premises is in dispute in a court of law, a document evidencing that dispute (the court-order copy specified in the clause) is also to be furnished. Sub-clauses (ii) to (vi) were expressly left aside. The clause does not prohibit grant merely because such a dispute is pending.",
+      "paras": "5-7",
+      "flag": "The Court did not find that the petitioner had failed to enclose a court-order copy, and did not make mandamus conditional on producing one. Sub-clauses (ii)–(vi) were not construed."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "pending-private-dispute-no-ground-to-deny-supply",
+      "application": "O.S. No. 506/2011 for cancellation of the petitioner's sale deed as fraudulent was held no ground under Clause 4.4 to refuse a new 3 KW connection at A-13, Gandhi Nagar, Moradabad; mandamus issued to grant the connection forthwith.",
+      "lead_authorities": [],
+      "paras": "2, 7-9"
+    },
+    {
+      "tag": "right-to-electricity-art21",
+      "application": "Supply of electricity to the occupant of a house was treated as fundamentally important to live with dignity under Article 21; refusal solely because a property case is pending would reduce that to a mere animal existence and is not the intent of the Act or the Code.",
+      "lead_authorities": [],
+      "paras": "7"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits of Original Suit No. 506 of 2011 and title to plot A-13",
+      "note": "The Court held only that pendency of the suit is not a bar to supply; a connection does not confer title. The civil suit was not decided.",
+      "paras": "7-9"
+    },
+    {
+      "point": "Clauses 4.4(a)(ii) to 4.4(a)(vi) (local-authority NOC, partnership/company papers, test certificate, owner's consent)",
+      "note": "Expressly put aside: the Court was 'not concerned with them'.",
+      "paras": "6"
+    },
+    {
+      "point": "What remaining statutory compliance, if any, still had to be fulfilled before energisation",
+      "note": "Mandamus is 'subject to other statutory compliance, if any, in accordance with law'; those conditions were not identified.",
+      "paras": "9"
+    }
+  ],
+  "authorities": []
+}
