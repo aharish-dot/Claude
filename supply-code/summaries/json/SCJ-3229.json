@@ -1,0 +1,117 @@
+{
+  "case_id": "SCJ-3229",
+  "title": "Narayan Prasad v. State of U.P. And 2 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Mahesh Chandra Tripathi, J. & Sanjay Kumar Pachori, J.",
+  "date_of_judgment": "2021-02-01",
+  "date_display": "1 February 2021",
+  "docket": "Writ - C No. 27543 of 2020",
+  "page_count": 4,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition disposed of; respondent no. 3 directed to consider and decide the petitioner's 31.10.2020 connection application within six weeks, subject to a proper application, indemnity bond, and other Code requirements",
+  "headnote": "Where a tenant, after applying to deposit rent under Section 30(1) of U.P. Act No. 13 of 1972, has the landlord's meter disconnected and seeks a fresh connection, want of the landlord's no-objection is not a ground to refuse supply. Following Seema Mansoor v. U.P. Power Corporation Ltd., an occupier-tenant has a legal right to obtain electricity and the licensee is obliged to give connection; it cannot be refused solely for want of the landlord's consent. The writ court directed the third respondent to consider and decide the pending application, subject to a proper application, indemnity bond, and other Code requirements, within six weeks. The Court did not itself grant the connection and did not construe clause 6.4, which the licensee had invoked for conditions where tenancy is disputed.",
+  "facts": "Narayan Prasad, a tenant of House No. 17/134-A-1, Mohalla Pahadiya, Ward Sarnath, District Varanasi, was in a dispute with his landlord. On 5 September 2019 he applied under Section 30(1) of U.P. Act No. 13 of 1972 to deposit rent in the court of the Civil Judge (Junior Division), Varanasi. The electricity meter stood in the landlord's name. After that application, the landlord caused the meter to be disconnected in September 2019.\n\nThe petitioner then applied on 31 October 2020 (Annexure 4) for a connection. He was ready to accept the terms of the U.P. Electricity Supply Code, 2005, but feared the landlord would withhold a no-objection certificate. He sought a writ commanding the third respondent to decide that application within a stipulated period, relying on Seema Mansoor v. U.P. Power Corporation Ltd. Counsel for the licensee invoked clause 6.4 of the Code and submitted that, where tenancy is disputed, the department may impose the Code's conditions. On 20 January 2021 the matter was passed over and listed as fresh on 1 February 2021.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.4",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.4 (r/w Annexure 4.2) — occupier/tenant connection; indemnity bond where the owner's consent is withheld",
+      "topic": "tenant-occupier cannot be refused a connection solely for want of the landlord's consent; application to be considered on an indemnity bond",
+      "type": "supply_code",
+      "question": "May a licensee refuse a fresh electricity connection to a tenant-occupier because the landlord, after a rent dispute and disconnection of the existing meter, is unlikely to give a no-objection certificate?",
+      "holding": "No. Following Seema Mansoor, the petitioner as occupier-tenant has a legal right to obtain electricity and the licensee is under an obligation to give connection; supply cannot be refused solely for want of the landlord's consent. The quoted extract treats Clause 4.4(a)(i) and Annexure 4.2 as supplying an indemnity-bond path where the intending consumer is not the owner. Respondent no. 3 is directed to consider and decide the application dated 31.10.2020 within six weeks of production of a copy of the order, subject to the petitioner making an application in accordance with law and the prescribed procedure, giving an indemnity bond, and fulfilling all other requirements. The writ petition was disposed of.",
+      "qualifier": "The Court did not mandamus grant of supply. The direction is to consider and decide the pending application, conditioned on a proper application, indemnity bond, and other Code requirements.",
+      "paras": "5-7",
+      "flag": "Source PDF compiles a 20.1.2021 pass-over (listed as fresh on 1.2.2021) and the reasoned disposal of 1.2.2021. Pins are sequential blocks of that disposal after the cause-title (1 heard; 2 relief; 3 petitioner's case and Seema Mansoor; 4 respondent's clause 6.4; 5 examination and quoted extract; 6 holding and six-week direction; 7 disposed of). The Bench did not cite Clause 4.4 by number; the construction is adopted from the quoted Seema Mansoor extract (Clause 4.4(a)(i), Annexure 4.2, ss. 42-43)."
+    },
+    {
+      "provision": "EA2003::43",
+      "code": "Electricity Act, 2003",
+      "clause": "43",
+      "topic": "licensee's duty to supply an owner or occupier, including a tenant, independently of the landlord's consent",
+      "type": "electricity_act",
+      "question": "Does the licensee's statutory duty to supply run to a tenant-occupier so that want of the landlord's consent is not a refusal ground?",
+      "holding": "Yes, as applied through Seema Mansoor, which this Bench adopted. The quoted extract holds that the licensee is obliged to supply on a proper application by every owner or occupier (including a tenant), and that a lessee, tenant or occupier who submits an indemnity bond cannot be refused merely for want of the landlord's consent. This Court restated that the petitioner-tenant has a legal right to obtain electricity and the licensee is under an obligation to give connection.",
+      "paras": "5-6",
+      "flag": "Sections 42 and 43 appear only in the quoted Seema Mansoor extract (there styled 'Clause 42 and 43'). This Bench did not independently parse the sections."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-4.4-occupant-connection-on-indemnity-bond",
+      "application": "A tenant whose landlord disconnected the existing meter after a rent-deposit application was held entitled to have his fresh-connection application considered on an indemnity bond; want of the landlord's no-objection is not a refusal ground.",
+      "lead_authorities": [
+        {
+          "name": "Seema Mansoor v. U.P. Power Corporation Ltd.",
+          "docid": ""
+        }
+      ],
+      "paras": "3, 5-6"
+    },
+    {
+      "tag": "occupier-entitled-to-connection-on-indemnity-bond-annexure-4.2",
+      "application": "The adopted Seema Mansoor extract treats Annexure 4.2 as the occupier's indemnity path where the owner's consent is not obtained; this Bench directed consideration of the application subject to giving that indemnity bond.",
+      "lead_authorities": [
+        {
+          "name": "Seema Mansoor v. U.P. Power Corporation Ltd.",
+          "docid": ""
+        }
+      ],
+      "paras": "5-6"
+    },
+    {
+      "tag": "landlord-consent-not-required-for-tenant-connection-s43",
+      "application": "Following Seema Mansoor on the duty to supply an occupier, the Court held that an occupier-tenant cannot be refused connection solely for want of the landlord's consent.",
+      "lead_authorities": [
+        {
+          "name": "Seema Mansoor v. U.P. Power Corporation Ltd.",
+          "docid": ""
+        }
+      ],
+      "paras": "5-6"
+    },
+    {
+      "tag": "direction-to-consider-connection-on-furnishing-4.4-or-annexure-4.2-documents",
+      "application": "The operative order directed respondent no. 3 to consider and decide the 31.10.2020 application within six weeks, subject to a proper application, indemnity bond, and other Code requirements, without granting the connection on the writ.",
+      "lead_authorities": [
+        {
+          "name": "Seema Mansoor v. U.P. Power Corporation Ltd.",
+          "docid": ""
+        }
+      ],
+      "paras": "6-7"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the connection itself must be granted",
+      "note": "The Court held the legal right and directed respondent no. 3 to consider and decide the application subject to Code formalities; it did not mandamus grant of supply.",
+      "paras": "6-7"
+    },
+    {
+      "point": "Construction of clause 6.4 of the Code, and whether a tenancy dispute authorises additional licensee conditions under that clause",
+      "note": "Counsel for the respondent relied on clause 6.4 and submitted that, where tenancy is disputed, the department may impose the Code's conditions. The Court recorded that submission and decided the writ on Seema Mansoor, without construing clause 6.4.",
+      "paras": "4, 6"
+    },
+    {
+      "point": "Merits of the landlord-tenant dispute, the Section 30(1) rent-deposit proceeding, and the September 2019 disconnection of the landlord's meter",
+      "note": "Recorded as the petitioner's case. The Court made no finding on title, the right to remain in occupation, or the legality of the disconnection.",
+      "paras": "3, 6"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Seema Mansoor v. U.P. Power Corporation Ltd. & 3 Others",
+      "citation": "2014(6) ADJ 672",
+      "court": "Allahabad High Court",
+      "docid": "",
+      "proposition": "Every owner or occupier, including a tenant, has a statutory right to apply and obtain supply; a lessee, tenant or occupier who submits an indemnity bond cannot be refused a connection merely for want of the landlord's consent. Relied on by the petitioner and followed by the Court.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}
