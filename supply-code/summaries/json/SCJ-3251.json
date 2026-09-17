@@ -1,0 +1,73 @@
+{
+  "case_id": "SCJ-3251",
+  "title": "Lallan Pandey v. State of U.P. & 2 Others",
+  "neutral_citation": "2023:AHC:139555-DB",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Mahesh Chandra Tripathi, J. & Prashant Kumar, J.",
+  "date_of_judgment": "2023-07-13",
+  "date_display": "13 July 2023",
+  "docket": "Writ - C No. 34450 of 2021",
+  "page_count": 5,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of; petitioner relegated to CGRF under Clause 7.10, with a 15-day window to apply and a direction to decide within six weeks ignoring delay and laches",
+  "headnote": "Where a consumer seeks to quash an Executive Engineer's order of a distribution licensee, and his own counsel states that an efficacious alternative remedy lies before the Consumer Grievance Redressal Forum under Clause 7.10 of the U.P. Electricity Supply Code, 2005, the writ court will not decide the merits. Following the similar disposal in M/s KSS Electrodes Private Limited v. State of U.P. (Writ-C No. 13786 of 2023, 9.5.2023), the petition is disposed of with a direction that if the petitioner applies under the Code within 15 days, the competent authority shall decide the application strictly in accordance with law on its own merit within a further six weeks, ignoring delay and laches, after opportunity to all stakeholders.",
+  "facts": "Lallan Pandey petitioned the Allahabad High Court in Writ-C No. 34450 of 2021 to quash an order dated 17 September 2021 of the Executive Engineer, Vidyut Vitran Khand-Ist, Purvanchal Vidyut Vitran Nigam Limited, Ghazipur. The writ was listed as a fresh matter in December 2021, adjourned in April 2022 when none appeared for the petitioner even in the revised call, and adjourned again in February 2023 on the petitioner's prayer. On 13 July 2023 the Division Bench heard the petitioner and Additional Chief Standing Counsel for the State. The judgment does not describe the contents of the 17 September 2021 order beyond that it was passed by the PuVVNL Executive Engineer at Ghazipur.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::7.10",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "7.10",
+      "topic": "CGRF alternative remedy bars a writ against an Executive Engineer's order",
+      "type": "supply_code",
+      "question": "Where the petitioner's own counsel states that an efficacious alternative remedy under Clause 7.10 of the Supply Code lies to the CGRF, should the writ court quash the Executive Engineer's order on merits?",
+      "holding": "No. Where counsel for the petitioner states that an efficacious alternative remedy to approach the Consumer Grievance Redressal Forum under Clause 7.10 of the U.P. Electricity Supply Code, 2005 is available against the Executive Engineer's order, the High Court will not decide the merits. Following M/s KSS Electrodes Private Limited v. State of U.P. (Writ-C No. 13786 of 2023, 9.5.2023), the writ is disposed of with a direction that if an application under the Code is preferred within 15 days, the competent authority shall decide it strictly in accordance with law on its own merit within a further six weeks, ignoring delay and laches, after opportunity to all stakeholders.",
+      "paras": "3-6",
+      "flag": "The Court called Clause 7.10 a 'Section'. The quoted KSS Electrodes order proceeded on a respondent preliminary objection; here the alternative-remedy statement came from the petitioner's own counsel. The Court did not identify the nature of the 17.09.2021 order (assessment, bill, disconnection, or otherwise). Time to apply is 15 days here versus 10 days in the quoted order."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternate-remedy-clause-7.10",
+      "application": "The writ challenging the PuVVNL Executive Engineer's order was not decided on merits because counsel for the petitioner stated that an efficacious Clause 7.10 CGRF remedy was available; the petition was disposed of in terms of KSS Electrodes.",
+      "lead_authorities": [
+        {
+          "name": "M/s KSS Electrodes Private Limited v. State of U.P. and 2 others",
+          "docid": ""
+        }
+      ],
+      "paras": "3-5"
+    },
+    {
+      "tag": "apply-under-supply-code-consider-in-accordance-with-law",
+      "application": "If the petitioner applies under the Supply Code, 2005 within 15 days, the competent authority is to decide strictly in accordance with law on merits within a further six weeks, ignoring delay and laches, after opportunity to all stakeholders.",
+      "lead_authorities": [],
+      "paras": "6"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Validity of the Executive Engineer, PuVVNL Ghazipur order dated 17.09.2021",
+      "note": "No finding on merits; the writ was disposed of solely on the Clause 7.10 alternative remedy, leaving the application to the competent authority.",
+      "paras": "2-6"
+    },
+    {
+      "point": "Nature of the 17.09.2021 order (assessment, bill, disconnection, or otherwise)",
+      "note": "The judgment recites only the date, officer and PuVVNL Ghazipur office; it does not characterise the demand or the grievance.",
+      "paras": "2"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "M/s KSS Electrodes Private Limited v. State of U.P. and 2 others",
+      "citation": "Writ - C No. 13786 of 2023, order dated 9.5.2023",
+      "court": "Allahabad High Court",
+      "docid": "",
+      "proposition": "Where an efficacious alternative remedy lies to the Consumer Grievance Redressal Forum under Clause 7.10 of the Electricity Supply Code, 2005, the writ petition is disposed of with a direction that an application under the Code filed within a short window be decided in accordance with law on merits within six weeks, ignoring delay and laches, after opportunity to all stakeholders.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}
