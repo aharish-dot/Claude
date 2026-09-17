@@ -1,0 +1,113 @@
+{
+  "case_id": "SCJ-3183",
+  "title": "Vijay v. State of U.P. & 2 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Amreshwar Pratap Sahi, J. & Shashi Kant, J.",
+  "date_of_judgment": "2018-04-04",
+  "date_display": "4 April 2018",
+  "docket": "Writ - C No. 11573 of 2018",
+  "page_count": 5,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition allowed; provisional assessment notice dated 18.01.2018 and recovery certificate dated 07.02.2018 quashed; licensee may inspect afresh upon due information under the Code, 2005",
+  "headnote": "A theft provisional assessment cannot rest on an inspection of another person's premises, nor on a later inspection conducted behind the back of the person now assessed, so as to transpose onto him a liability first raised against a different occupant. The 18 December 2017 report related to Kanwar and his tubewell and did not name the petitioner. The subsequent inspection (narrated as 30 December 2017; the findings paragraph dates it 30 January 2017) was without notice to the petitioner, and the Code, 2005 procedure for issuing a provisional assessment was not followed. That sequence violates the Code, natural justice, and Ashok Kumar v. State of U.P. The 18 January 2018 notice and the 7 February 2018 recovery certificate are quashed. The licensee may inspect afresh upon due information to the petitioner and then proceed as the Code permits. The Court did not decide whether the petitioner had in fact used the cable.",
+  "facts": "Vijay challenged a provisional assessment notice dated 18 January 2018 and a recovery certificate dated 7 February 2018 for Rs. 3,32,949 as electricity dues on alleged theft. After an adjournment on 2 April 2018 for instructions, counsel for the Electricity Department produced an inspection report dated 18 December 2017 relating to Kanwar son of Ram Singh of Village Jhatta, NOIDA. That report recorded a black LT cable laid under Greater NOIDA Authority land, used to run a 5 H.P. motor at Kanwar's tubewell; it did not name Vijay.\n\nKanwar objected that wrong names had been used. Sub-Divisional Officer Pankaj Sharma then reported to the Station House Officer, Knowledge Park, Greater NOIDA, that a further inspection on 30 December 2017 showed the cable was being used by Vijay and Umesh Kumar, and the 18 January 2018 notice followed. Department counsel gave no satisfactory answer to the Court's queries, declined a counter-affidavit, and asked that appropriate orders be passed.",
+  "reusable_constructions": [
+    {
+      "construction": "An inspection report that does not name the person assessed, and that relates to another occupant's premises, cannot found a theft provisional assessment against a third person.",
+      "paras": "6-9"
+    },
+    {
+      "construction": "A later inspection conducted behind the back of the person now assessed cannot be used to transpose onto him a theft liability first raised against another occupant.",
+      "paras": "7-9"
+    },
+    {
+      "construction": "A provisional assessment issued without following the procedure prescribed by the U.P. Electricity Supply Code, 2005, and recovery founded on it, are vitiated for breach of natural justice and of Ashok Kumar v. State of U.P.",
+      "paras": "9, 11-13"
+    },
+    {
+      "construction": "Quashing such an assessment does not bar the licensee from inspecting afresh upon due information to the person concerned and then proceeding as the Code, 2005 permits.",
+      "paras": "14"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "8.1 (theft inspection and provisional assessment)",
+      "topic": "Inspection of another person's premises, and a later inspection behind the assessed person's back, cannot support a theft provisional assessment",
+      "type": "supply_code",
+      "question": "Can a licensee issue a theft provisional assessment against a person who is not named in the original inspection report, by relying on a later inspection conducted behind that person's back so as to transpose another occupant's liability onto him?",
+      "holding": "No. The 18.12.2017 inspection related to Kanwar and his tubewell and did not name the petitioner. The later inspection (narrated as 30.12.2017; the findings paragraph dates it 30.01.2017) was behind the petitioner's back. The procedure for issuing a provisional assessment under the Code, 2005 was not followed. Liability first imposed on Kanwar cannot be transposed onto the petitioner without that procedure. The 18.01.2018 provisional notice is quashed.",
+      "paras": "6-9, 11-13",
+      "flag": "The Court did not cite a clause number. The petition challenged alleged theft, so keyed to Clause 8.1 (theft inspection and provisional assessment). Paragraph numbers are those of the unnumbered 4.4.2018 disposal; the PDF also contains the 2.4.2018 adjournment. Internal date inconsistency on the subsequent inspection (30.12.2017 in the narrative; 30.01.2017 in the findings) recorded as the judgment states it."
+    },
+    {
+      "provision": "UPGEU-1958::5",
+      "code": "U.P. Government Electrical Undertaking (Dues Recovery) Act, 1958",
+      "clause": "recovery certificate (consequential to a vitiated assessment)",
+      "topic": "Recovery under the 1958 Act falls with a Code-violating provisional assessment; fresh inspection only on due information",
+      "type": "interplay",
+      "question": "Does a recovery certificate issued to realise alleged theft dues survive when the underlying provisional assessment is quashed for breach of the Code, 2005 and natural justice?",
+      "holding": "No. Recovery proceedings are a consequence of the assessment. Once the assessment is carried out in violation of the Code, 2005, natural justice, and Ashok Kumar, the recovery is also vitiated. The recovery certificate dated 07.02.2018 is quashed. It remains open to the department to carry out a fresh inspection upon due information to the petitioner in accordance with the Code, 2005, and then to take any action permissible in law.",
+      "paras": "3, 11-14",
+      "flag": "The Court did not cite a section of the 1958 Act. Keyed to UPGEU-1958::5 as the recovery-certificate provision matching the impugned 'recovery certificate'. The Act is named in the order as the Uttar Pradesh Government Electrical Undertaking (Dues Recovery) Act, 1958."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-8.1b-theft-notice-natural-justice",
+      "application": "The Court quashed the 18.01.2018 provisional notice because the Code, 2005 procedure for issuing a theft provisional assessment was not followed, the later inspection was behind the petitioner's back, and liability first raised against Kanwar was transposed onto him. Applied Ashok Kumar.",
+      "lead_authorities": [
+        {
+          "name": "Ashok Kumar & Others v. State of U.P. & Others",
+          "docid": "897981"
+        }
+      ],
+      "paras": "9, 11-13"
+    },
+    {
+      "tag": "theft-assessment-requires-evidence",
+      "application": "The original inspection named Kanwar, related to his tubewell, and did not name the petitioner. That record could not support a theft assessment against Vijay.",
+      "lead_authorities": [],
+      "paras": "6-9"
+    },
+    {
+      "tag": "provisional-assessment-without-prior-notice",
+      "application": "The subsequent inspection used to found the 18.01.2018 notice was conducted behind the petitioner's back. The Court treated that, with the skipped Code procedure, as a breach of natural justice.",
+      "lead_authorities": [],
+      "paras": "7-9"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner in fact used the cable or committed theft",
+      "note": "Left open; the department may inspect afresh upon due information under the Code, 2005.",
+      "paras": "5, 14"
+    },
+    {
+      "point": "Quantum of the Rs. 3,32,949 demand",
+      "note": "The notice and recovery were quashed for procedure; the amount was not examined.",
+      "paras": "2, 13"
+    },
+    {
+      "point": "Liability of Umesh Kumar, or the original assessment against Kanwar",
+      "note": "Umesh Kumar was named only in the SDO's report to the SHO; Kanwar's assessment was not under challenge.",
+      "paras": "6-8"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar & Others v. State of U.P. & Others",
+      "citation": "2008 (6) ADJ 660",
+      "court": "Allahabad High Court (DB)",
+      "docid": "897981",
+      "proposition": "Assessment and recovery of alleged electricity dues without following the procedure prescribed by the Supply Code, 2005, and without observing natural justice, is illegal.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}
