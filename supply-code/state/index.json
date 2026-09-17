@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3197,
+  "next_seq": 3198,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -19150,6 +19150,12 @@
       "case_id": "SCJ-3194",
       "source_basename": "WRIC(A)_4109_2018.pdf",
       "title": "Rajesh Kumar Sharma v. State of U.P. & 3 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3195",
+      "source_basename": "WRIC(A)_5220_2018.pdf",
+      "title": "M/S Medvantage Innovation Pvt. Ltd. v. Kanpur Electricity Supply Company Ltd. and Another",
       "status": "done"
     }
   ]
