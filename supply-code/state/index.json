@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3174,
+  "next_seq": 3175,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -19012,6 +19012,12 @@
       "case_id": "SCJ-3170",
       "source_basename": "A227(A)_4445_2017.pdf",
       "title": "M/S Sahara India Commercial Corporation Ltd. v. Executive Engineer Electricity Urban Distribution & 4 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3173",
+      "source_basename": "WRIC(A)_17231_2017.pdf",
+      "title": "Mashooq Ahmad v. State of U.P. And 3 Others",
       "status": "done"
     }
   ]
