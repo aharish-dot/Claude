@@ -1,0 +1,135 @@
+{
+  "case_id": "SCJ-3179",
+  "title": "Chitrapal v. State of U.P. And 3 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Amreshwar Pratap Sahi, J. & Shashi Kant, J.",
+  "date_of_judgment": "2018-04-16",
+  "date_display": "16 April 2018",
+  "docket": "Writ - C No. 48874 of 2017",
+  "page_count": 6,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition allowed; recovery citation dated 18 January 2017 quashed; respondent no.4 may pass a final assessment within three weeks; petitioner may object to the provisional assessment within ten days; Section 127 appeal if still aggrieved",
+  "headnote": "A recovery citation founded on a provisional assessment that the licensee has merely treated as final because the consumer filed no objections is not in consonance with Section 126 of the Electricity Act, 2003 read with the U.P. Electricity Supply Code, 2005. Following Ashok Kumar v. State of U.P., a final assessment order has actually to be passed; it is not deemed from silence on the provisional assessment. Where no final assessment has been passed or communicated, the recovery citation is quashed. The licensee may pass a final assessment within three weeks; the consumer may file objections to the provisional assessment within ten days; if still aggrieved, an appeal lies under Section 127. The Court did not decide the quantum of the assessment, whether the poultry-farm use was theft or other unauthorised use, or the effect of compounding under Section 152.",
+  "facts": "Chitrapal challenged a recovery citation dated 18 January 2017 for Rs. 2,12,651, being an assessment of electricity consumed in running a five horse-power tube well for irrigation. It was undisputed that he had also used the same connection to run a poultry farm. That use was reported as theft; he compounded the theft proceedings under Section 152 of the Electricity Act, 2003. A provisional assessment dated 2 June 2015 followed, and recovery was then set in motion. Counsel for respondent no. 4 submitted that the petitioner had been called upon to object to the provisional assessment and that, no objections having been filed, the provisional assessment had been treated as a final order and recovery initiated. The petitioner's case was that no final assessment had been passed or even communicated to him.",
+  "reusable_constructions": [
+    {
+      "construction": "A provisional assessment cannot be treated as a final order merely because the consumer filed no objections; Section 126 of the Electricity Act, 2003 read with the U.P. Electricity Supply Code, 2005 requires a final assessment order actually to be passed.",
+      "paras": "order of 16.4.2018"
+    },
+    {
+      "construction": "A recovery citation not founded on a final assessment order is not in consonance with Section 126 and the Supply Code, 2005 and is liable to be quashed.",
+      "paras": "order of 16.4.2018"
+    },
+    {
+      "construction": "Following Ashok Kumar v. State of U.P., the assessing officer must pass a final assessment order; non-passing or non-communication of that order vitiates recovery on the provisional assessment.",
+      "paras": "order of 16.4.2018"
+    },
+    {
+      "construction": "After a final assessment is passed, a consumer still aggrieved has a right of appeal under Section 127 of the Electricity Act, 2003.",
+      "paras": "order of 16.4.2018"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::126",
+      "code": "Electricity Act, 2003",
+      "clause": "126 (final assessment must actually be passed; provisional cannot be treated as final for want of objections)",
+      "topic": "Treating a provisional assessment as final because no objections were filed does not support recovery",
+      "type": "electricity_act",
+      "question": "May a licensee treat a provisional assessment as a final order, and recover on it, merely because the consumer filed no objections?",
+      "holding": "No. A provisional assessment dated 2 June 2015 had been passed and the petitioner called upon to object; no objections having been filed, the licensee treated that provisional assessment as final and issued a recovery citation dated 18 January 2017. The Court found that no final assessment had actually been passed or communicated. That course is not in consonance with Section 126. Following Ashok Kumar v. State of U.P., a final assessment order has to be passed. The recovery citation is quashed; respondent no.4 may pass a final assessment within three weeks, and the petitioner may object to the provisional assessment within ten days.",
+      "paras": "order of 16.4.2018",
+      "flag": "Disposing order of 16.4.2018 (A.P. Sahi and Shashi Kant, JJ.) is unnumbered; earlier listings of 24.10.2017–6.11.2017 (Bharati Sapru and Siddharth, JJ.) are interlocutory only. The Court named Section 126, not sub-section (3)."
+    },
+    {
+      "provision": "UP-2005::8.1",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "unnumbered (final assessment after provisional; read with s.126)",
+      "topic": "Supply Code, 2005 equally requires a final assessment; treating the provisional as final is not in consonance with the Code",
+      "type": "interplay",
+      "question": "Does the U.P. Electricity Supply Code, 2005 permit recovery on a provisional assessment treated as final for want of objections?",
+      "holding": "No. The same course — treating the provisional assessment as final and recovering on it — is not in consonance with Section 126 read with the Supply Code, 2005. A final assessment must be passed. The Code was invoked without a clause number.",
+      "paras": "order of 16.4.2018",
+      "flag": "The Court cited the Supply Code, 2005 without a clause number. Keyed to Clause 8.1 as the theft-assessment procedure matching the reported theft that was compounded under Section 152; Clause 6.8 could equally apply if the poultry-farm use was other unauthorised use. The order does not choose."
+    },
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act, 2003",
+      "clause": "127 (appeal after a final assessment)",
+      "topic": "Section 127 appeal is preserved once a final assessment is passed",
+      "type": "electricity_act",
+      "question": "What remedy remains if the consumer is still aggrieved after a final assessment is passed?",
+      "holding": "If still aggrieved after the final assessment, the petitioner has a right of appeal under Section 127. The Court did not relegate the writ itself to that appeal, because no final assessment yet existed on which an appeal could lie.",
+      "paras": "order of 16.4.2018",
+      "qualifier": "The Section 127 appeal arises only after the directed final assessment is passed."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "final-assessment-order-mandatory-under-section-126-3",
+      "application": "The licensee's treating the 2 June 2015 provisional assessment as a final order, because no objections were filed, was held not in consonance with Section 126 and the Supply Code, 2005. A final assessment must actually be passed; following Ashok Kumar.",
+      "lead_authorities": [
+        {
+          "name": "Ashok Kumar v. State of U.P.",
+          "docid": "897981"
+        }
+      ],
+      "paras": "order of 16.4.2018"
+    },
+    {
+      "tag": "no-recovery-certificate-without-final-section-126-3-assessment",
+      "application": "The recovery citation dated 18 January 2017 was quashed because it was not founded on a final assessment order. Same cluster as SCJ-145 and SCJ-1982.",
+      "lead_authorities": [
+        {
+          "name": "Ashok Kumar v. State of U.P.",
+          "docid": "897981"
+        }
+      ],
+      "paras": "order of 16.4.2018"
+    },
+    {
+      "tag": "s126-procedural-strictness-notice-and-hearing",
+      "application": "The petitioner was given ten days to object to the provisional assessment and the licensee three weeks to pass a final assessment, restoring the statutory sequence before any fresh recovery.",
+      "lead_authorities": [],
+      "paras": "order of 16.4.2018"
+    },
+    {
+      "tag": "alternative-remedy-section-127-appeal",
+      "application": "Once a final assessment is passed, a consumer still aggrieved has a right of appeal under Section 127; that appeal was not the present remedy because no final order yet existed.",
+      "lead_authorities": [],
+      "paras": "order of 16.4.2018"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness / quantum of the Rs. 2,12,651 assessment",
+      "note": "Left to the final assessment to be passed, and thereafter to a Section 127 appeal if still aggrieved.",
+      "paras": "order of 16.4.2018"
+    },
+    {
+      "point": "Whether using the irrigation tube-well connection for a poultry farm was theft or other unauthorised use, and which Code clause applied",
+      "note": "The order records the use as reported theft that was compounded, then speaks only of Section 126 and the Supply Code, 2005 generally; it does not characterise the demand as Clause 8.1 or Clause 6.8.",
+      "paras": "order of 16.4.2018"
+    },
+    {
+      "point": "Effect of compounding under Section 152 on the civil consumption assessment",
+      "note": "Compounding of the theft proceedings is recorded as a fact; the Court did not decide whether it extinguished or reduced the assessed consumption dues.",
+      "paras": "order of 16.4.2018"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Ashok Kumar v. State of U.P.",
+      "citation": "2008 (6) ADJ 660",
+      "court": "Allahabad High Court",
+      "docid": "897981",
+      "proposition": "A final assessment order has to be passed; recovery cannot rest on a provisional assessment treated as final.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}
