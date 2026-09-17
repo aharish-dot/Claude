@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3181,
+  "next_seq": 3182,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -19054,6 +19054,12 @@
       "case_id": "SCJ-3177",
       "source_basename": "WRIC(A)_4417_2017.pdf",
       "title": "Mahendra Pratap Singh v. State of U.P. & 8 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3180",
+      "source_basename": "WRIC(A)_57042_2017.pdf",
+      "title": "Bipati Ram (Died) Thru Legal Heirs Maan Singh v. State of U.P. and Another",
       "status": "done"
     }
   ]

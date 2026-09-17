@@ -1,0 +1,79 @@
+{
+  "case_id": "SCJ-3180",
+  "title": "Bipati Ram (Died) Thru Legal Heirs Maan Singh v. State of U.P. and Another",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Amreshwar Pratap Sahi, J. and Shashi Kant, J.",
+  "date_of_judgment": "2018-05-08",
+  "date_display": "8 May 2018",
+  "docket": "Writ - C No. 57042 of 2017",
+  "page_count": 9,
+  "significance": "ordinary",
+  "outcome": "none",
+  "model": "Grok 4.6",
+  "disposition": "Second writ dismissed as not maintainable for concealment of the pending earlier writ; interim vacated; liberty to pursue Clause 6.5 or that first writ",
+  "headnote": "A second writ against an increased electricity recovery is not maintainable where the heirs of the deceased consumer have already filed a pending writ on the same dues and do not disclose it. Concealment of Writ-C No. 45644 of 2017 — in which the Court had recorded that a billing dispute has a remedy under Clause 6.5 of the U.P. Electricity Supply Code, 2005 — disentitles the petitioners to discretionary relief. The petition is dismissed and the interim order vacated, without prejudice to pursuing the Clause 6.5 remedy noted on 22 September 2017 or seeking further relief in the first writ after informing that Court of the State Consumer Forum stay of the District Forum restoration order. The correctness of the Rs 3,85,430 demand was not decided.",
+  "facts": "Heirs of Bipati Ram, through Maan Singh, challenged recovery on a commercial connection. They said arrears had been deposited, the supply was nonetheless disconnected, and the District Consumer Forum on 22 August 2015 directed restoration. Connection was restored without a meter or bills; a recovery of Rs 3,85,430 then issued (notice dated 27 September 2017). The Electricity Department had appealed; the State Consumer Forum stayed the District Forum order on 31 January 2017.\n\nThe original consumer had died. The heirs had already filed Writ-C No. 45644 of 2017 disputing the bill. On 22 September 2017 a Division Bench noted the Clause 6.5 remedy and listed that petition, which remained pending. They said this later writ was needed because the demand had increased. On 11 January 2018 coercive action on the 27 September 2017 notice was stayed. The Department said the first writ and the consumer-forum stay had not been disclosed.",
+  "holding_units": [
+    {
+      "provision": "OFFTOPIC::article-226-duty-of-full-disclosure",
+      "code": "Constitution of India",
+      "clause": "Article 226 (duty of full disclosure; second writ on a pending billing dispute)",
+      "topic": "Concealment of a pending earlier writ on the same electricity recovery disentitles a second writ to discretionary relief",
+      "type": "interplay",
+      "question": "Can heirs of a deceased consumer maintain a second writ against an increased recovery while concealing a pending earlier writ on the same dues?",
+      "holding": "No. Filing of Writ-C No. 45644 of 2017 had a direct bearing because the previous amount challenged was also the subject of this petition. Total concealment of that earlier writ disentitled the petitioners to discretionary relief. This second writ was not maintainable. It is dismissed and the interim order vacated, without prejudice to pursuing the remedy noted on 22 September 2017 or seeking further relief in the pending first writ after informing that Court of the State Consumer Forum proceedings.",
+      "paras": "7-8",
+      "flag": "The source PDF compiles listing and interlocutory orders from 30.11.2017 to 23.1.2018 (title correction, withdrawn substitution application, adjournments, 11.1.2018 stay of the 27.9.2017 recovery, infructuous impleadment). Paragraph numbers are those of the unnumbered 8.5.2018 disposal (Amreshwar Pratap Sahi and Shashi Kant, JJ.)."
+    },
+    {
+      "provision": "UP-2005::6.5",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.5 (representation against a disputed bill)",
+      "topic": "Billing dispute: Clause 6.5 path recorded in the first writ is saved",
+      "type": "supply_code",
+      "holding": "The earlier writ had recorded that the petitioners, disputing the correctness of the electricity bill, have a remedy under Clause 6.5 of the U.P. Electricity Supply Code, 2005. Dismissal of this second writ is without prejudice to pursuing that remedy or seeking further relief in the pending first writ. This Court did not decide the bill or itself relegate the petitioners to the Executive Engineer.",
+      "paras": "5, 8",
+      "flag": "The 22.9.2017 order in Writ-C No. 45644 of 2017 noted Clause 6.5 but did not dispose that writ; none having appeared for the petitioners, it was listed in the next cause list. This Court treats that observation as the path still open."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clean-hands-required-material-concealment-bars-writ",
+      "application": "Non-disclosure of a pending earlier writ on the same electricity recovery (Writ-C No. 45644 of 2017) is material concealment and disentitles the second writ to discretionary relief. Same cluster as SCJ-171.",
+      "lead_authorities": [],
+      "paras": "7-8"
+    },
+    {
+      "tag": "second-writ-same-dispute-pending-misconceived",
+      "application": "A later writ on an increased recovery of the same dues already pending in an earlier petition is not maintainable; the petitioners may seek further relief in that first writ. Same cluster as SCJ-1423 / SCJ-2420.",
+      "lead_authorities": [],
+      "paras": "6-8"
+    },
+    {
+      "tag": "clause-6.5-alternate-remedy-to-writ",
+      "application": "A writ disputing correctness of an electricity bill has a remedy under Clause 6.5; this Court saved that path as recorded on 22 September 2017 and did not examine the bill.",
+      "lead_authorities": [],
+      "paras": "5, 8"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness or quantum of the Rs 3,85,430 recovery and of the underlying bill",
+      "note": "Left to Clause 6.5 or the pending first writ; not examined here.",
+      "paras": "6-8"
+    },
+    {
+      "point": "Effect of the State Consumer Forum stay dated 31.1.2017 on the District Forum restoration order dated 22.8.2015",
+      "note": "Recorded as undisclosed; the petitioners were to inform the first writ court of those proceedings. No finding on the Forum orders.",
+      "paras": "2-4, 8"
+    },
+    {
+      "point": "Whether restoration without a meter or bills, and the disputed questions of fact noted on 11.1.2018, were lawful",
+      "note": "The 11.1.2018 Bench directed production of the original connection record; this disposal does not examine that record.",
+      "paras": "11.1.2018, 8.5.2018"
+    }
+  ],
+  "authorities": []
+}
