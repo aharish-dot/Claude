@@ -1,0 +1,64 @@
+{
+  "case_id": "SCJ-3268",
+  "title": "Ram Lali v. State of U.P. And 3 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Manoj Misra, J. & Vikas Budhwar, J.",
+  "date_of_judgment": "2022-09-27",
+  "date_display": "27 September 2022",
+  "docket": "Writ - C No. 24584 of 2022",
+  "page_count": 4,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition disposed of; petitioner given liberty to represent to the District Magistrate, Bareilly under Rule 3 of the Works of Licensees Rules, 2006; Magistrate to hear the licensee and pass an order in accordance with law",
+  "headnote": "Where an owner seeks a writ directing the distribution licensee to shift an existing overhead line running over her house, and the licensee answers that replacement of dilapidated wires can be done on deposit of an estimate prepared under clause 4.45 of the U.P. Electricity Supply Code, 2005, the writ court will not itself order shifting, replacement, or compensation. The owner has an alternative remedy under Rule 3 of the Works of Licensees Rules, 2006, framed under the Electricity Act, 2003. The second proviso to Rule 3(1) empowers the District Magistrate, on sufficient cause shown by the owner or occupier of a building or land on which works have already been carried out, to direct that those works, or any support of an overhead line, be removed or altered. Sub-rule (3) makes that order subject to revision by the Appropriate Commission. The petition is disposed of with liberty to represent to the District Magistrate, Bareilly, who shall hear the licensee and pass an order in accordance with law. The Court did not decide the clause 4.45 estimate or the claim to compensation.",
+  "facts": "Ram Lali sought a writ to shift an 11,000 KV electricity line running over her house, which she said endangered life and property. On 29 August 2022 her counsel stated she would be satisfied if the dilapidated wires were removed and replaced. The Assistant Director, Electric Security, Bareilly Zone had already written to the Executive Engineer in December 2021. When the licensee's team later visited to replace the wires, she resisted and insisted on removal of the line from over her house.\n\nCounsel for the distribution licensee submitted that replacement could be charged under clause 4.45 of the U.P. Electricity Supply Code, 2005, and that an estimate of Rs. 14,10,784 had been prepared. The petitioner argued that a licensee has no right to take wires over a building or property and must compensate the owner if it does so.",
+  "holding_units": [
+    {
+      "provision": "EA2003::67",
+      "code": "Electricity Act, 2003",
+      "clause": "Rule 3 of the Works of Licensees Rules, 2006 (second proviso to sub-rule (1); sub-rule (3))",
+      "topic": "owner seeking shifting of an existing overhead line over her house — relegated to the District Magistrate under Rule 3",
+      "type": "electricity_act",
+      "question": "Where an owner seeks a writ to shift an existing overhead line from over her house, will the High Court grant that relief, or is there an alternative remedy under the Works of Licensees Rules, 2006?",
+      "holding": "The alternative remedy is under Rule 3 of the Works of Licensees Rules, 2006. The second proviso to Rule 3(1) provides that if at any time the owner or occupier of a building or land on which works have been carried out, or any support of an overhead line has been fixed, shows sufficient cause, the District Magistrate (or Commissioner of Police or authorised officer) may by order in writing direct those works, support, stay or strut to be removed or altered. Sub-rule (3) makes every such order subject to revision by the Appropriate Commission. The writ is disposed of with liberty to the petitioner to represent to the District Magistrate, Bareilly; if she does, the Magistrate shall hear the licensee and pass an appropriate order in accordance with law. The Court did not itself direct shifting, replacement, or compensation.",
+      "qualifier": "The licensee invoked clause 4.45 of the U.P. Electricity Supply Code, 2005 and an estimate of Rs. 14,10,784 for replacement; the Court did not apply that clause.",
+      "paras": "8-13",
+      "flag": "Source PDF concatenates the 29.8.2022 listing (Siddhartha Varma and Vikas Budhwar, JJ.; listed 12.9.2022 as fresh) with this 27.9.2022 disposal. The disposal is unnumbered; paras are sequential blocks from 'Heard learned counsel for the petitioner'. The Court cited Rule 3 of the Works of Licensees Rules, 2006 as framed under the Electricity Act, 2003, without numbering s.67; keyed to catalog EA2003::67 as the parent of those Rules, not to UP-2005::4.45 (licensee's submission only) or UP-2005::4.5(d) (not cited). Judgment writes '11000 KV' / '11000 K.V.'. Listing order recites both 11.12.2021 and 08.12.2021 for the Assistant Director's communication; recorded as stated. No precedent cited."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "landowner-objection-to-line-over-land-remedy-before-district-magistrate",
+      "application": "An owner seeking shifting of an existing overhead line from over her house was relegated to the District Magistrate under the second proviso to Rule 3(1) of the Works of Licensees Rules, 2006, with a direction that the Magistrate hear the licensee and pass an order in accordance with law.",
+      "lead_authorities": [],
+      "paras": "8-13"
+    },
+    {
+      "tag": "alternative-remedy-relegation",
+      "application": "The writ for mandamus to shift the line was disposed of without granting or refusing that relief, because Rule 3 of the Works of Licensees Rules, 2006 furnished an alternative remedy before the District Magistrate, Bareilly.",
+      "lead_authorities": [],
+      "paras": "8, 12-13"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the 11,000 KV line must be shifted or removed from over the petitioner's house",
+      "note": "The live prayer. Left to the District Magistrate on a Rule 3 representation.",
+      "paras": "2, 12-13"
+    },
+    {
+      "point": "Whether clause 4.45 of the U.P. Electricity Supply Code, 2005 authorises charging Rs. 14,10,784 as a condition of replacing the wires",
+      "note": "Licensee's submission on instructions. The Court did not apply clause 4.45.",
+      "paras": "6"
+    },
+    {
+      "point": "Whether a licensee has no right to take wires over a building or property, and must compensate the owner if it does so",
+      "note": "Petitioner's argument. Compensation or annual rent under Rule 3(2) was not determined.",
+      "paras": "7, 9"
+    }
+  ],
+  "authorities": []
+}
