@@ -1,0 +1,141 @@
+{
+  "case_id": "SCJ-3170",
+  "title": "M/S Sahara India Commercial Corporation Ltd. v. Executive Engineer Electricity Urban Distribution & 4 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Sunita Agarwal, J.",
+  "date_of_judgment": "2017-08-11",
+  "date_display": "11 August 2017",
+  "docket": "Matters Under Article 227 No. 4445 of 2017",
+  "page_count": 5,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Article 227 petition dismissed; proposed civil suit to restrain recovery without a final assessment held not maintainable, civil-court jurisdiction being barred by section 145",
+  "headnote": "A consumer who seeks leave under section 80(2) of the Code of Civil Procedure to sue a distribution licensee's Executive Engineer without a section 80 notice, for an injunction that no recovery be made without a final assessment and a bill of consumption, cannot have that refusal of leave corrected under Article 227. Under the Electricity Act, 2003 and the U.P. Electricity Supply Code, 2005, the consumer's remedy against a provisional assessment is to file objections; sections 126 and 127 furnish a complete remedy, and section 145 specifically excludes the civil court's jurisdiction in a matter of assessment covered by those sections. Even if there was occasion to grant permission to sue without notice, the proposed suit was not maintainable. Supervisory jurisdiction under Article 227 is not to be used for every alleged error of law unless manifest injustice is shown. The petition was dismissed.",
+  "facts": "M/s Sahara India Commercial Corporation Ltd. invoked Article 227 against the Executive Engineer, Electricity Urban Distribution Division-III, P.H.1, Mohaddipur, Gorakhpur, and four others. The petition challenged the civil court's order in Misc. Case No. 302 of 2017 refusing leave under section 80(2) of the Code of Civil Procedure to institute a suit against the Executive Engineer without serving a section 80 notice. Leave had been refused on the ground that an auction had concluded on 6 July 2017, the date of filing of the suit, so there was no urgency.\n\nThe proposed suit sought a restraint on recovery against the company unless a final assessment was made and a bill of consumption prepared. The petitioner contended that no section 80 notice was required to the Executive Engineer and that the court below ought to have confined itself to urgency and not the merits of the relief. After listings on 24 July, 31 July and 2 August 2017, the petition was heard and dismissed on 11 August 2017.",
+  "reusable_constructions": [
+    {
+      "construction": "Section 145 of the Electricity Act, 2003 bars a civil suit in a matter of assessment covered by sections 126 and 127.",
+      "paras": "4-5"
+    },
+    {
+      "construction": "A consumer's remedy against a provisional assessment is to file objections under the U.P. Electricity Supply Code, 2005; sections 126 and 127 of the Electricity Act, 2003 furnish a complete remedy, so a civil suit to restrain recovery pending a final assessment and bill of consumption is not maintainable.",
+      "paras": "4-5"
+    },
+    {
+      "construction": "Even if a civil court could have granted leave under section 80(2) of the Code of Civil Procedure to sue a licensee's Executive Engineer without a section 80 notice, that permission cannot save a proposed electricity-assessment suit that section 145 renders unmaintainable.",
+      "paras": "5"
+    },
+    {
+      "construction": "Article 227 will not be invoked to restore a civil suit that is not maintainable under the Electricity Act, 2003, unless manifest injustice is shown.",
+      "paras": "6-7"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::145",
+      "code": "Electricity Act, 2003",
+      "clause": "145",
+      "topic": "civil court barred for an assessment covered by ss.126 and 127; a suit to restrain recovery without a final assessment is not maintainable",
+      "type": "electricity_act",
+      "question": "Can a consumer maintain a civil suit against a licensee's Executive Engineer to restrain recovery of electricity dues unless a final assessment is made and a bill of consumption prepared?",
+      "holding": "No. Even if there was occasion for the court below to grant leave under section 80(2) CPC to institute the suit without a section 80 notice, the suit itself was not maintainable. Section 145 specifically excludes the civil court's jurisdiction in a matter of assessment covered by sections 126 and 127. The High Court therefore declined Article 227 interference with the refusal of leave and dismissed the petition.",
+      "qualifier": "The Court did not decide whether a section 80 CPC notice was required to the Executive Engineer, or whether the 6.7.2017 auction showed urgency under section 80(2).",
+      "paras": "4-5, 7",
+      "flag": "Paragraph numbers are those of the 11.8.2017 disposal (unnumbered in the source). The PDF also contains listing orders of 24.7.2017, 31.7.2017 and 2.8.2017, all before Sunita Agarwal, J."
+    },
+    {
+      "provision": "EA2003::126",
+      "code": "Electricity Act, 2003",
+      "clause": "126",
+      "topic": "ss.126 and 127 are a complete remedy for a consumer's objection to a provisional assessment",
+      "type": "electricity_act",
+      "question": "Where the consumer's grievance is that recovery is being made without a final assessment and a consumption bill, is the statutory path under sections 126 and 127 a complete remedy?",
+      "holding": "Yes. For a consumer's grievance of that kind, sections 126 and 127 of the Electricity Act, 2003 provide a complete remedy, and that statutory path — not a civil suit — is the forum for the dispute.",
+      "paras": "4-5"
+    },
+    {
+      "provision": "UP-2005::6.8",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.8",
+      "topic": "objections to a provisional assessment under the Supply Code are the consumer's remedy, not a civil suit",
+      "type": "supply_code",
+      "holding": "Under the Electricity Act, 2003 and the Electricity Supply Code, 2005, the remedy provided to each consumer is to file an objection regarding the provisional assessment made by the electricity authority. That Code procedure, together with sections 126 and 127, occupies the field that the proposed civil suit sought to enter.",
+      "paras": "4",
+      "flag": "The Court did not cite a numbered Code clause. Keyed to Clause 6.8 as the Code procedure for objecting to a section 126 provisional assessment. It could equally be Clause 8.1 if the demand was a theft assessment — the order speaks only of objections to a provisional assessment and of ss.126/127. Catalog hit UP-2005::6.7 (late-payment surcharge) is not used; the '6.7.2017' in the order is the auction date, not a Code clause."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "civil-court-barred-s145-for-s126-assessment",
+      "application": "On an Article 227 challenge to refusal of CPC s.80(2) leave to sue the Executive Engineer for an injunction against recovery without a final assessment and consumption bill, the Court held the proposed suit not maintainable because section 145 bars the civil court in a matter of assessment covered by sections 126 and 127.",
+      "lead_authorities": [],
+      "paras": "4-5"
+    },
+    {
+      "tag": "alternative-remedy-under-supply-code",
+      "application": "The Court treated objections to a provisional assessment under the Supply Code, 2005, together with sections 126 and 127, as the complete consumer remedy, so the civil suit to restrain recovery pending a final assessment could not be instituted.",
+      "lead_authorities": [],
+      "paras": "4-5"
+    },
+    {
+      "tag": "assessment-6.8-alternate-remedy",
+      "application": "The consumer's grievance that recovery was proceeding without a final assessment and bill of consumption was held to lie in the Code/ss.126-127 assessment path, not in a civil suit; the Article 227 petition was dismissed rather than the underlying demand being decided.",
+      "lead_authorities": [],
+      "paras": "4-5"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether a section 80 CPC notice was required to the Executive Engineer, Electricity Urban Distribution Division-III, Gorakhpur, before the suit could be filed",
+      "note": "The petitioner argued that no such notice was required; the Court held the suit unmaintainable under section 145 in any event.",
+      "paras": "2, 5"
+    },
+    {
+      "point": "Whether the auction concluded on 6.7.2017 showed an absence of urgency so as to justify refusing leave under section 80(2) CPC",
+      "note": "That was the court below's ground; the High Court did not review the urgency finding.",
+      "paras": "1, 5"
+    },
+    {
+      "point": "Whether recovery could lawfully proceed without a final assessment and a bill of consumption, and the lawfulness of the 6.7.2017 auction",
+      "note": "The proposed suit sought that restraint; the High Court did not decide the electricity demand or the auction on the merits.",
+      "paras": "4-5"
+    },
+    {
+      "point": "Whether the demand was unauthorised use (Clause 6.8) or theft (Clause 8.1)",
+      "note": "The order characterises the grievance only as recovery without a final assessment and bill of consumption, and points to ss.126 and 127.",
+      "paras": "4"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Smt. Minakshi Patra v. Secretary Irrigation and Power, Govt. of Orissa & others",
+      "citation": "AIR 1999 Orissa 137",
+      "court": "Orissa High Court",
+      "docid": "",
+      "proposition": "Cited for the contention that, on an application under section 80(2) CPC, the court below was required to look into urgency and could not have entered into the merits of the relief.",
+      "cited_by": "Petitioner",
+      "treatment": "Referred"
+    },
+    {
+      "name": "State of A.P. & others v. Pioneer Builders, A.P.",
+      "citation": "(2006) 12 SCC 119",
+      "court": "Supreme Court of India",
+      "docid": "",
+      "proposition": "Cited for the contention that a section 80 CPC notice is a condition precedent to a suit against the Government or its public officer and cannot be dispensed with unless urgency is shown.",
+      "cited_by": "Respondent",
+      "treatment": "Referred"
+    },
+    {
+      "name": "Surya Dev Rai v. Ram Chander Rai and Others",
+      "citation": "2003 (6) SCC 675",
+      "court": "Supreme Court of India",
+      "docid": "",
+      "proposition": "Supervisory jurisdiction under Article 227 is not to be used ordinarily for every wrong order or error of law unless manifest injustice is shown; it is to be used sparingly.",
+      "cited_by": "Court",
+      "treatment": "Applied"
+    }
+  ]
+}
