@@ -1,0 +1,116 @@
+{
+  "case_id": "SCJ-3184",
+  "title": "Naresh v. State of U.P. & 4 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Amreshwar Pratap Sahi, J. & Shashi Kant, J.",
+  "date_of_judgment": "2018-05-07",
+  "date_display": "7 May 2018",
+  "docket": "Writ - C No. 14201 of 2018 with Writ - C No. 14243 of 2018",
+  "page_count": 6,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Both writs allowed; recovery certificates dated 26.12.2017 quashed; petitioners may object to the provisional assessments before respondent no.4 within fifteen days, to be decided within three weeks; if still aggrieved, appeal under Section 127; if they fail to object, the Executive Engineer may proceed on the existing assessment orders as permissible in law",
+  "headnote": "Clause 6.8 of the U.P. Electricity Supply Code, 2005 provides that service of an assessment notice is by registered post and also by pasting at a conspicuous place. Dispatch by ordinary post, with a presumption of service only because the articles were not returned undelivered, is not a prescribed mode and raises no presumption of valid service where the consumer denies receipt. A final assessment founded on that service is not in conformity with Clause 6.8, and the consequential recovery is invalid. Recovery certificates dated 26.12.2017 are quashed. The consumers may file objections to the provisional assessments within fifteen days; the Executive Engineer is to decide them within three weeks; if still aggrieved, an appeal lies under Section 127 of the Electricity Act, 2003. If they fail to object, the Executive Engineer may proceed on the existing assessment orders as permissible in law.",
+  "facts": "Naresh (Writ-C No. 14201 of 2018) and Bhushan (Writ-C No. 14243 of 2018) petitioned the Allahabad High Court against the State of U.P. and four others, challenging recovery citations dated 26 December 2017 claiming arrears of electricity consumed. They alleged that final assessment orders had been passed without opportunity or the procedure under Section 126 of the Electricity Act, 2003, read with the U.P. Electricity Supply Code, 2005. After adjournments for instructions and an amendment of the array of parties, counsel for the Electricity Department stated that notices had been sent by ordinary post; because the undelivered post had not been returned, the department presumed service, passed final assessments, and initiated recovery. The petitioners denied having received any such notice.",
+  "reusable_constructions": [
+    {
+      "construction": "Clause 6.8 of the U.P. Electricity Supply Code, 2005 provides that service of an assessment notice is by registered post and also by pasting at a conspicuous place; ordinary post is not a prescribed mode.",
+      "paras": "4"
+    },
+    {
+      "construction": "Non-return of ordinary-post articles does not raise a presumption of valid service of an assessment notice where the consumer denies receipt and neither registered post nor pasting was used.",
+      "paras": "3-4"
+    },
+    {
+      "construction": "A final assessment founded on such service is not in conformity with Clause 6.8, and the consequential recovery is invalid.",
+      "paras": "5"
+    },
+    {
+      "construction": "Recovery certificates issued on that basis are liable to be quashed, leaving the consumer to object to the provisional assessment, with a Section 127 appeal if still aggrieved after the Executive Engineer's decision.",
+      "paras": "5-7"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.8",
+      "topic": "assessment notice must be served by registered post or by pasting; ordinary post plus non-return raises no presumption of service",
+      "type": "supply_code",
+      "question": "Does sending an assessment notice by ordinary post, and presuming service because the article was not returned undelivered, satisfy Clause 6.8 when the consumer denies receipt?",
+      "holding": "No. Clause 6.8 provides that service of an assessment notice is by registered post and also by pasting at a conspicuous place. Notices here were sent by ordinary post; the department presumed service because the undelivered post had not been returned, then passed final assessments and initiated recovery. Neither prescribed procedure was adopted. There cannot be a presumption of valid service on petitioners who denied receiving the notice. The final assessments made the basis for recovery are not in conformity with Clause 6.8, and the consequential recovery is invalid. The certificates of recovery dated 26.12.2017 in both writs are quashed.",
+      "paras": "3-5",
+      "flag": "The Court located registered-post and pasting service in Clause 6.8 without a sub-clause; other benches locate mode of service in Clause 9.3. Not silently re-keyed. Source PDF concatenates listings of 19.4.2018, 26.4.2018, 1.5.2018 and 3.5.2018 with this 7.5.2018 disposal. Paras 1–7 are sequential blocks of that disposal from 'These two writ petitions have been filed'. The 19.4.2018 listing called the statute 'U.P. Electricity Supply Act, 2003'; the disposal cites Section 127 of the Electricity Act. Instructions recited a presumption of service 'on the respondent', meaning the petitioners."
+    },
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act, 2003",
+      "clause": "127",
+      "topic": "after objections to the provisional assessment are decided, a Section 127 appeal remains; default lets the existing assessments proceed",
+      "type": "interplay",
+      "question": "Once recovery founded on defective Clause 6.8 service is quashed, what opportunity remains on the assessment itself?",
+      "holding": "The petitioners may file objections, if any, to the provisional assessments before respondent no.4 within fifteen days. Respondent no.4 shall decide them within three weeks. If still aggrieved by the Executive Engineer's orders, they have a statutory appeal under Section 127. If they fail to file objections as directed, the Executive Engineer may take such steps pursuant to the assessment orders already passed as may be permissible in law. Both writs are allowed on those terms.",
+      "qualifier": "The Court did not quash the assessments on merits; it treated them as open to objection as provisional assessments, with a fallback that default restores the existing assessment orders.",
+      "paras": "6-7"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "proper-service-of-provisional-assessment-notice-clause-6.8",
+      "application": "Notices sent only by ordinary post, with neither registered post nor pasting, did not satisfy Clause 6.8 service of the assessment notices on which the 26.12.2017 recoveries rested.",
+      "lead_authorities": [],
+      "paras": "4-5"
+    },
+    {
+      "tag": "assessment-service-must-be-proved-else-non-receipt-presumed",
+      "application": "The department’s presumption of service from non-return of ordinary post was rejected; the petitioners having denied receipt, valid service was not established.",
+      "lead_authorities": [],
+      "paras": "3-4"
+    },
+    {
+      "tag": "6.8-procedure-mandatory",
+      "application": "Final assessments used as the basis for recovery were held not in conformity with Clause 6.8 because the prescribed modes of service were not adopted.",
+      "lead_authorities": [],
+      "paras": "4-5"
+    },
+    {
+      "tag": "para-6.8-non-compliance-vitiates-assessment-and-recovery",
+      "application": "Non-conformity with Clause 6.8 service rendered the consequential recovery invalid; the 26.12.2017 recovery certificates in both writs were quashed.",
+      "lead_authorities": [],
+      "paras": "5"
+    },
+    {
+      "tag": "opportunity-before-final-assessment",
+      "application": "Because service of the assessment notices was not valid, the petitioners were given fifteen days to object to the provisional assessments before a decision by respondent no.4.",
+      "lead_authorities": [],
+      "paras": "4, 6"
+    },
+    {
+      "tag": "fresh-objection-under-clause-6.8",
+      "application": "After the recoveries were quashed, objections to the provisional assessments were to be filed within fifteen days and decided within three weeks, with Section 127 if still aggrieved.",
+      "lead_authorities": [],
+      "paras": "6-7"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness or quantum of the assessments, or the underlying arrears of electricity consumed",
+      "note": "Left to objections before respondent no.4 and, if still aggrieved, to a Section 127 appeal.",
+      "paras": "6-7"
+    },
+    {
+      "point": "Whether Clause 9.3, rather than Clause 6.8, is the Code provision on mode of service of notices",
+      "note": "The Court attributed registered-post and pasting service to Clause 6.8 without discussing Clause 9.3.",
+      "paras": "4-5"
+    },
+    {
+      "point": "Whether the demand was unauthorised use under Clause 6.8 or a theft assessment under Clauses 8.1–8.2",
+      "note": "The petitions were described as challenging recovery of arrears of electricity consumed; Clause 6.8 was applied without characterising theft.",
+      "paras": "1, 4-5"
+    }
+  ],
+  "authorities": []
+}
