@@ -1,0 +1,70 @@
+{
+  "case_id": "SCJ-3233",
+  "title": "Mohd Mubeen @ Hazi Mohammad Mubeen v. State of U.P. And 3 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Bala Krishna Narayana, J. & Vivek Varma, J.",
+  "date_of_judgment": "2020-06-16",
+  "date_display": "16 June 2020",
+  "docket": "Writ - C No. 9534 of 2020",
+  "page_count": 3,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition disposed of; not a fit case for interference; petitioner at liberty to approach the Section 127 appellate authority for any relief",
+  "headnote": "Where a consumer challenges a recovery citation issued after a coordinate bench has quashed a final assessment and directed a fresh speaking order, and the record shows that the Executive Engineer has since passed that final assessment and the consumer has already filed a statutory appeal under Section 127 of the Electricity Act, 2003, the writ court will not interfere. The consumer may approach the appellate authority for any relief, including interim relief against recovery. The Court did not decide whether the recovery citation dated 28.11.2019 was illegal as having been issued in pursuance of the quashed 8.4.2019 assessment, nor the merits of the fresh final assessment.",
+  "facts": "Mohd Mubeen alias Hazi Mohammad Mubeen filed Writ-C No. 9534 of 2020 seeking to quash a recovery citation dated 28 November 2019 issued by respondent no. 4 for Rs. 2,79,895 plus other charges. A coordinate bench in Writ-C No. 37469 of 2019 had on 21 November 2019 quashed a final assessment dated 8 April 2019 because objections filed on 11 March 2019 to a provisional assessment of 23 February 2019 had not been considered under the U.P. Electricity Supply Code, 2005. It directed the petitioner to appear before the Executive Engineer on 12 December 2019, a speaking final order within two weeks, and a Section 127 appeal if aggrieved.\n\nThe Executive Engineer then passed a fresh final assessment, against which the petitioner had already appealed. His case here was that the 28 November 2019 recovery had still been issued in pursuance of the quashed order. Counsel for the electricity respondents said he could seek interim relief from the appellate authority. Bala Krishna Narayana and Vivek Varma, JJ. disposed of the petition on 16 June 2020.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act, 2003",
+      "clause": "127 (appeal against final assessment — writ not to interfere once the appeal is already availed)",
+      "topic": "Recovery citation not interfered with in writ where a fresh final assessment has been passed and a Section 127 appeal is already pending; consumer may seek relief from the appellate authority",
+      "type": "electricity_act",
+      "question": "Where the Executive Engineer has passed a fresh final assessment in compliance with a prior writ, and the consumer has already filed a Section 127 appeal, will the High Court quash a recovery citation said to rest on the earlier quashed assessment?",
+      "holding": "No. Counsel for the electricity respondents submitted that, an appeal against the fresh final assessment having already been filed, the petitioner could approach the appellate authority for interim relief. The Court found force in that submission. There was no dispute that respondent no. 2 had passed a final assessment and that the petitioner had already availed the statutory remedy. It was not a fit case for interference. The petitioner was left at liberty to approach the appellate authority for any relief he desired. The petition was disposed of.",
+      "qualifier": "The Court did not examine whether the 28.11.2019 recovery citation was issued on the quashed 8.4.2019 order, did not stay recovery, and did not decide the merits of the fresh assessment.",
+      "paras": "7-8",
+      "flag": "Unnumbered three-page order; paras are sequential blocks after the cause-title (1 heard; 2 prayers; 3 quoted 21.11.2019 order in Writ-C No. 37469 of 2019; 4 compliance and appeal already filed; 5 grievance as to the 28.11.2019 recovery; 6 licensee; 7-8 ratio and liberty). The 21.11.2019 order is recited as this consumer's history, not as a cited precedent. The 2020 order cites no Code clause. The quoted 2019 order invoked the U.P. Electricity Supply Code, 2005 for unconsidered objections to a provisional assessment without numbering the clause (6.8 or 8.1)."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternate-remedy-section-127-appeal-bars-writ",
+      "application": "The Court found it not a fit case for interference because a fresh final assessment had been passed and the petitioner had already availed the statutory appeal under Section 127. The recovery citation was left untouched.",
+      "lead_authorities": [],
+      "paras": "7-8"
+    },
+    {
+      "tag": "alternative-remedy-relegation-section-127",
+      "application": "The petition was disposed of with liberty to approach the Section 127 appellate authority for any relief, including the interim relief the licensee's counsel had pointed to.",
+      "lead_authorities": [],
+      "paras": "8"
+    },
+    {
+      "tag": "final-assessment-order-relegates-assessee-to-section-127-appeal",
+      "application": "Respondent no. 2 had passed a final assessment in compliance with the 21.11.2019 order. That final order attracted the Section 127 appeal already filed; the writ court would not examine the recovery.",
+      "lead_authorities": [],
+      "paras": "4, 7-8"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the recovery citation dated 28.11.2019 is illegal as issued in pursuance of the quashed 8.4.2019 assessment",
+      "note": "That was the petitioner's grievance. The Court did not decide it and did not quash or stay the citation.",
+      "paras": "5, 7-8"
+    },
+    {
+      "point": "Validity and quantum of the fresh final assessment passed in compliance with the 21.11.2019 order",
+      "note": "Left to the Section 127 appeal already filed.",
+      "paras": "4, 7-8"
+    },
+    {
+      "point": "Whether the assessment was unauthorised use (Clause 6.8) or theft (Clause 8.1)",
+      "note": "The 2020 order does not characterise the demand. The quoted 2019 order spoke only of objections under the Supply Code, 2005, without a clause number.",
+      "paras": "3, 7-8"
+    }
+  ],
+  "authorities": []
+}

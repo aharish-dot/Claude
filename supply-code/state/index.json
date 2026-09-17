@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3235,
+  "next_seq": 3236,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -19378,6 +19378,12 @@
       "case_id": "SCJ-3232",
       "source_basename": "WRIC(A)_5743_2020.pdf",
       "title": "Pati Ram Verma v. U.P. Power Corporation Ltd. And 2 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3233",
+      "source_basename": "WRIC(A)_9534_2020.pdf",
+      "title": "Mohd Mubeen @ Hazi Mohammad Mubeen v. State of U.P. And 3 Others",
       "status": "done"
     }
   ]
