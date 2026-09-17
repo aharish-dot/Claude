@@ -1,0 +1,125 @@
+{
+  "case_id": "SCJ-3234",
+  "title": "Raisa Begum v. Purvanchal Vidyut Vitran Nigam Ltd. And 2 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Naheed Ara Moonis, J. & Dinesh Pathak, J.",
+  "date_of_judgment": "2021-01-20",
+  "date_display": "20 January 2021",
+  "docket": "Writ - C No. 1088 of 2021",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of; representation to be decided after hearing; demand notice dated 28.11.2020 kept in abeyance with no coercive action",
+  "headnote": "A licensee cannot recover a Clause 8.1 theft demand by treating the provisional assessment as final without considering a timely objection, affording a hearing, and supplying a copy of a final assessment order. Failure to object within 15 days does not convert a provisional assessment into a final one. The procedure adopted was dehors Section 126 of the Electricity Act, 2003 and Clause 8.1 of the U.P. Electricity Supply Code, 2005, and violated natural justice. Applying Shishir Jain, and without deciding merits, the Court directed respondent no. 2 to consider the petitioner's representation in accordance with law and pass a reasoned speaking final assessment after hearing, preferably within four weeks; the demand notice dated 28.11.2020 was kept in abeyance with no coercive action.",
+  "facts": "Raisa Begum held a valid domestic electricity connection and said she regularly paid her bills. On 2 November 2020 respondent no. 2 issued a provisional notice, received the same day, reciting that a checking authority had inspected her premises and reported theft of electricity. A provisional assessment of Rs. 35,904 was made, with 15 days to object. She filed a detailed objection on 23 November 2020, within time. A demand notice dated 28 November 2020 was then sent by registered post and received on 28 December 2020, without, she said, any consideration of that objection or any opportunity of hearing.\n\nShe sought certiorari to quash that demand and mandamus to decide the matter afresh on the 23 November 2020 objection, invoking Section 126(3) of the Electricity Act, 2003 and Clause 8.1 of the U.P. Electricity Supply Code, 2005, and relying on Shishir Jain. Counsel for Purvanchal Vidyut Vitran Nigam Ltd. could not show that a provisional assessment becomes final if no reply is filed within 15 days.",
+  "reusable_constructions": [
+    {
+      "construction": "A theft assessment under Clause 8.1 cannot be recovered by treating the provisional assessment as the final assessment without considering the objection, affording a hearing, and supplying a copy of the final order.",
+      "paras": "1"
+    },
+    {
+      "construction": "Absence of an objection to a provisional assessment within 15 days does not convert that provisional assessment into a final assessment under Section 126 of the Electricity Act, 2003 or Clause 8.1 of the Supply Code, 2005.",
+      "paras": "1"
+    },
+    {
+      "construction": "A consumer cannot be compelled to deposit the amount of a provisional theft assessment unless a final assessment is made after opportunity of hearing.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "8.1",
+      "topic": "theft assessment — hearing and final assessment before recovery",
+      "type": "interplay",
+      "question": "Can a licensee recover a Clause 8.1 theft demand by treating the provisional assessment as final without considering a timely objection, granting a hearing, or supplying a copy of a final assessment order?",
+      "holding": "No. Clause 8.1, read with Section 126 of the Electricity Act, 2003, requires inspection, provisional assessment, hearing and a final assessment in theft cases. Here a timely objection dated 23.11.2020 was not considered, no hearing was given, and the provisional figure of Rs. 35,904 was treated as final. That procedure was dehors those provisions and violated natural justice; the consumer cannot be compelled to deposit on the provisional amount, including without being supplied a copy of the final order. Without deciding merits, respondent no. 2 was directed to consider the representation in accordance with law and pass a reasoned speaking final assessment after hearing, preferably within four weeks; the demand notice dated 28.11.2020 was kept in abeyance with no coercive action.",
+      "paras": "1",
+      "flag": "The two-page order is unnumbered; paragraph pins refer to the body of the order. The Court cited Clause 8.1 generally (inspection, provisional assessment, hearing and final assessment) and Section 126 generally; the petitioner had invoked Section 126(3). The demand notice was not quashed."
+    },
+    {
+      "provision": "EA2003::126",
+      "code": "Electricity Act, 2003",
+      "clause": "126",
+      "topic": "provisional assessment is not deemed final for want of objection",
+      "type": "electricity_act",
+      "question": "If the consumer does not reply to a provisional assessment within 15 days, does that provisional assessment stand as the final assessment under Section 126?",
+      "holding": "No. Counsel for the Power Corporation could not show that failure to reply within 15 days converts a provisional assessment into a final assessment. The Court was not convinced that, in the absence of any objection, a provisional assessment shall be treated as final.",
+      "qualifier": "On the facts the petitioner had filed a timely objection; the deemed-final construction was stated in rejecting the licensee's inability to support that theory.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-8.1b-personal-hearing-mandatory-before-final-assessment",
+      "application": "A timely objection to a Clause 8.1 theft provisional assessment was ignored and the provisional figure treated as final without hearing; the Court held that procedure dehors Clause 8.1 and Section 126 and remitted the representation for a speaking final assessment after hearing.",
+      "lead_authorities": [
+        {
+          "name": "Shishir Jain v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+          "docid": ""
+        }
+      ],
+      "paras": "1"
+    },
+    {
+      "tag": "theft-assessment-provisional-proforma-issued-as-final",
+      "application": "The amount mentioned in the 2.11.2020 provisional theft assessment was treated as the final demand of 28.11.2020 without a hearing; that was held to violate natural justice and Clause 8.1.",
+      "lead_authorities": [
+        {
+          "name": "Shishir Jain v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+          "docid": ""
+        }
+      ],
+      "paras": "1"
+    },
+    {
+      "tag": "final-assessment-order-mandatory-under-section-126-3",
+      "application": "Following Shishir Jain paragraph 16, the Court held that without a final assessment after considering the objection and granting a hearing, the petitioner could not be compelled to deposit, and kept the 28.11.2020 demand in abeyance.",
+      "lead_authorities": [
+        {
+          "name": "Shishir Jain v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+          "docid": ""
+        }
+      ],
+      "paras": "1"
+    },
+    {
+      "tag": "opportunity-before-final-assessment",
+      "application": "The Court rejected the theory that want of objection within 15 days deems the provisional assessment final, and required a hearing and a supplied copy of the final order before any deposit could be compelled.",
+      "lead_authorities": [
+        {
+          "name": "Shishir Jain v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+          "docid": ""
+        }
+      ],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits of the theft allegation and the quantum of Rs. 35,904",
+      "note": "The Court expressly did not enter into the merits; a speaking final assessment after hearing was directed.",
+      "paras": "1"
+    },
+    {
+      "point": "Quashing of the demand notice dated 28.11.2020",
+      "note": "Prayer (i) sought certiorari to quash the notice; it was not quashed. It was kept in abeyance with a direction that no coercive action be taken pursuant to it.",
+      "paras": "1"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Shishir Jain v. Paschimanchal Vidyut Vitran Nigam Ltd. and another",
+      "citation": "2017 (3) AWC 3084",
+      "court": "Allahabad High Court",
+      "docid": "",
+      "proposition": "If there is no final assessment, the consumer cannot be compelled to deposit the amount of a provisional assessment; without a final assessment after considering the objection and giving opportunity of hearing, the consumer cannot be compelled to deposit any amount.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}
