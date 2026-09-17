@@ -1,0 +1,105 @@
+{
+  "case_id": "SCJ-3172",
+  "title": "Aas Mohammad v. State of U.P. & 2 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Amreshwar Pratap Sahi, J. & Jayant Banerji, J.",
+  "date_of_judgment": "2018-05-14",
+  "date_display": "14 May 2018",
+  "docket": "Writ - C No. 15163 of 2017",
+  "page_count": 6,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition consigned to records; no Article 226 relief after non-compliance with the 13.4.2017 deposit condition; recovery citation not interfered with; liberty to apply to the Executive Engineer under Clause 6.14 for easy installments",
+  "headnote": "Permanent disconnection under the U.P. Electricity Supply Code, 2005 does not arise until the consumer pays the dues the distribution licensee is entitled to recover. A pending application for permanent disconnection, even where the licensee has already removed the cable and meter, does not by itself prevent realisation of future electricity liabilities; whether the application was bona fide depends on the deposits required for that disconnection. Where recovery of electricity dues is challenged and an earlier Division Bench has stayed the citation only on a specified deposit, admitted non-compliance with that condition leaves no occasion for further discretionary relief under Article 226. Finding no illegal infirmity in the recovery proceedings, the Court consigned the writ to records, without prejudice to an application before the Executive Engineer under Clause 6.14 for easy installments. An earlier Division Bench interim order of 13.6.2002 in Writ Petition No. 23728 of 2002 was distinguished as fact-specific and not a precedent.",
+  "facts": "Aas Mohammad filed Writ-C No. 15163 of 2017 against a recovery citation dated 24 November 2016 for electricity dues. He contended that after he applied for permanent disconnection the respondents had removed the cable and meter, so he was not obliged to pay bills for a period when there was no supply of energy. A second dispute was charges for consumption from 2012 to 2014, of which he admitted having paid only Rs.42,000.\n\nOn 13 April 2017 a Division Bench stayed recovery on deposit of Rs.2.25 lakh with respondent no. 3 within two weeks, failing which the stay would stand automatically vacated. He later admitted that he had not made that deposit. A counter affidavit and a rejoinder were filed. At the hearing on 14 May 2018 he pressed that the pending permanent-disconnection application barred realisation of future liabilities.",
+  "reusable_constructions": [
+    {
+      "construction": "Permanent disconnection does not arise until the consumer pays the dues the distribution licensee is entitled to recover.",
+      "paras": "7"
+    },
+    {
+      "construction": "A pending application for permanent disconnection, even where the licensee has removed the cable and meter, does not by itself prevent realisation of future electricity liabilities; whether the application was bona fide depends on the deposits required for that disconnection.",
+      "paras": "6-7"
+    },
+    {
+      "construction": "Admitted non-compliance with a conditional interim order requiring a specified deposit as the price of stay of an electricity recovery citation leaves no occasion for further discretionary relief under Article 226 on that citation.",
+      "paras": "3"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::permanent-disconnection",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "permanent disconnection",
+      "topic": "Permanent disconnection does not arise without payment of recoverable dues; a pending PD application and physical removal of cable and meter do not end liability",
+      "type": "supply_code",
+      "question": "Does a pending application for permanent disconnection, after the licensee has removed the cable and meter, end the consumer's liability for electricity bills and recovery?",
+      "holding": "No. The petitioner challenged a recovery citation, arguing that after he applied for permanent disconnection the respondents had removed the cable and meter, so bills could not be raised in the absence of supply, and that the pending application barred future liabilities. The Court found no illegal infirmity in the proceedings. Whether the application was bona fide depends on the deposits required for permanent disconnection. Permanent disconnection does not arise without payment of the dues the Electricity Department is entitled to recover. An interim Division Bench order dated 13.6.2002 in Writ Petition No. 23728 of 2002 was distinguished as not a final decision and not a precedent.",
+      "qualifier": "The petitioner had also admitted paying only Rs.42,000 towards 2012–2014 consumption charges, and had not deposited the Rs.2.25 lakh fixed as the price of the 13.4.2017 stay.",
+      "paras": "5-8",
+      "flag": "The 14.5.2018 disposal is unnumbered; paragraph numbers are sequential in that order (heard; recital of the 13.4.2017 stay; admitted non-compliance; affidavits; no infirmity; PD argument; PD requires dues; 2002 order distinguished; Clause 6.14 liberty; consigned to records). Earlier pages are orders of 12.4.2017, 13.4.2017, 8.11.2017 and 19.12.2017. The Court did not cite a numbered permanent-disconnection clause (4.38 / 4.14(g) not mentioned); keyed to UP-2005::permanent-disconnection."
+    },
+    {
+      "provision": "UP-2005::6.14",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.14",
+      "topic": "Liberty to apply to the Executive Engineer for easy installments after the recovery writ is consigned",
+      "type": "supply_code",
+      "question": "After a recovery writ is refused, may the consumer still seek easy installments under Clause 6.14?",
+      "holding": "The Court was not inclined to keep the writ pending, but without prejudice to the petitioner moving the Executive Engineer under Clause 6.14 of the Electricity Supply Code, 2005 for easy installments as prayed. If such an application is moved, it is open to the Executive Engineer to pass an appropriate order. The writ was consigned to records.",
+      "paras": "9-10",
+      "flag": "Clause 6.14 was not construed beyond that liberty. The Court did not itself grant installments or stay recovery."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "minimum-charges-continue-until-permanent-disconnection",
+      "application": "On a challenge to a recovery citation after a claimed permanent-disconnection application and removal of cable and meter, the Court held that permanent disconnection does not arise without payment of recoverable dues, so a pending application does not by itself stop future liabilities.",
+      "lead_authorities": [],
+      "paras": "6-7"
+    },
+    {
+      "tag": "installment-payment-clause-6.14",
+      "application": "After refusing Article 226 relief and consigning the recovery writ to records, the Court left it open to the petitioner to apply to the Executive Engineer under Clause 6.14 for easy installments, to be ordered if such an application is moved.",
+      "lead_authorities": [],
+      "paras": "9-10"
+    },
+    {
+      "tag": "no-relief-to-litigant-without-clean-hands",
+      "application": "The petitioner admitted he had not deposited the Rs.2.25 lakh on which the 13.4.2017 stay of the 24.11.2016 recovery citation was conditioned; the Court held there was no occasion to extend further discretionary Article 226 relief.",
+      "lead_authorities": [],
+      "paras": "3"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Quantum of the 2012–2014 consumption charges and of the dues in the recovery citation dated 24.11.2016",
+      "note": "The 13.4.2017 interim recorded that the petitioner admitted paying only Rs.42,000 towards 2012–2014 consumption. The final order found no illegal infirmity but did not compute the bill.",
+      "paras": "2, 5"
+    },
+    {
+      "point": "Whether the petitioner was entitled to easy installments under Clause 6.14",
+      "note": "Left to the Executive Engineer if an application is moved; the Court did not itself grant the facility.",
+      "paras": "9-10"
+    },
+    {
+      "point": "The rule, if any, stated in the Division Bench interim order dated 13.6.2002 in Writ Petition No. 23728 of 2002",
+      "note": "Distinguished as not a final decision and not a precedent; the observations were not adopted or restated.",
+      "paras": "8"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Interim order dated 13 June 2002 in Writ Petition No. 23728 of 2002",
+      "citation": "Writ Petition No. 23728 of 2002, order dated 13.6.2002",
+      "court": "Allahabad High Court (DB)",
+      "docid": "",
+      "proposition": "Division Bench observations considered on the permanent-disconnection point; held not to be a final decision so as to be a precedent, and to have been passed on the facts of that case.",
+      "cited_by": "Court",
+      "treatment": "Distinguished"
+    }
+  ]
+}
