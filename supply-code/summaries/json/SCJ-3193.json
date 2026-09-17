@@ -1,0 +1,89 @@
+{
+  "case_id": "SCJ-3193",
+  "title": "M/S Diamond Refractories And Another v. State of U.P. & 5 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "B. Amit Sthalekar, J. & Surya Prakash Kesarwani, J.",
+  "date_of_judgment": "2018-10-12",
+  "date_display": "12 October 2018",
+  "docket": "Writ - C No. 34812 of 2018",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; Tehsildar commanded to open the seal of Plot C-154 forthwith; District Magistrate to decide the 25.09.2018 representation by 25.10.2018 in light of the findings; order confined to Plot C-154 and M/s Diamond Refractories",
+  "headnote": "Where two adjoining industrial plots of the same owner each have an independent electricity connection, arrears on one connection do not authorise the Tehsildar to seal the other plot under a demand citation against the owner if that other connection is not in default. Clause 4.3(f)(iv) of the U.P. Electricity Supply Code, 2005 makes outstanding dues a first charge on the assets of the company, and Section 43 of the Electricity Act, 2003 speaks of supply to the owner or occupier of any premises. A tenant-occupier of the non-defaulting plot, holding an independent connection (even if still in the owner's name), is entitled to have that plot unsealed. Sealing it without considering the absence of default is high-handed. The writ was allowed: the Tehsildar was commanded to open the seal of Plot C-154 forthwith, and the District Magistrate to decide the occupier's representation noting those findings. The order was confined to Plot C-154 and the tenant.",
+  "facts": "M/s Diamond Refractories, a tenant of M/s Supreme Ceramics Pvt. Ltd., ran a factory at Plot No. C-154, BSR Road, Industrial Area, Site-I, Ghaziabad, and occupied part of adjoining Plot No. C-155. Supreme Ceramics owned both plots. Each plot had an independent electricity connection standing in the owner's name; the C-154 connection was No. PV-B154B (voltage limit 11 KVA, meter No. 07342734). The C-155 connection defaulted. On 24.09.2018 the Tehsildar, Tehsil Sadar, Ghaziabad sealed both plots under a demand citation issued against Supreme Ceramics in respect of C-155. There was no allegation of default on the C-154 connection. The factory, employing about 80–90 persons, shut down. The petitioners represented to the District Magistrate, Ghaziabad on 25.09.2018; that representation was not decided. They sought a writ commanding the Tehsildar to remove the seal from C-154.",
+  "reusable_constructions": [
+    {
+      "construction": "Outstanding electricity dues that are a first charge on a company-consumer's assets under Clause 4.3(f)(iv) of the U.P. Electricity Supply Code, 2005 do not authorise sealing a distinct plot that has an independent electricity connection not in default.",
+      "paras": "9-12"
+    },
+    {
+      "construction": "Where two plots of the same owner have independent connections, recovery of arrears on one connection cannot be effected by sealing the other premises if that other connection is not in default.",
+      "paras": "5, 11-12"
+    },
+    {
+      "construction": "A tenant-occupier of premises with an independent non-defaulting connection is protected by Section 43 of the Electricity Act, 2003; the recovery officer must consider the absence of default on that connection before sealing those premises.",
+      "paras": "10-12"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.3(f)(iv)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.3(f)(iv)",
+      "topic": "first charge on company assets does not licence sealing a distinct plot with an independent connection not in default",
+      "type": "supply_code",
+      "question": "Does Clause 4.3(f)(iv), making outstanding dues a first charge on the assets of the company, authorise the Tehsildar to seal a distinct plot of the same owner that has an independent electricity connection not in default, because another plot is in arrears?",
+      "holding": "No. The default was on the connection installed in Plot C-155, not Plot C-154. Both plots had independent connections. Reciting that outstanding dues are a first charge on the company's assets under Clause 4.3(f)(iv), the Court held that the Tehsildar had to consider the absence of default on the C-154 connection before sealing that premises, and had acted in a high-handed manner in sealing it. A mandamus issued to open the seal of Plot C-154 forthwith. The order was confined to that plot and the tenant.",
+      "qualifier": "Both connections stood in the name of the owner-company; the occupier of C-154 was a tenant.",
+      "paras": "9, 11-14",
+      "flag": "The Court cited 'Section 4.3 (f) (iv)' of the Code (not 'Clause'). The 12.10.2018 order is unnumbered; pins follow sequential blocks after the cause-title (facts of independent connections and C-155 default: 3, 5; Code and Act recitals: 9-10; ratio and relief: 11-14)."
+    },
+    {
+      "provision": "EA2003::43",
+      "code": "Electricity Act, 2003",
+      "clause": "43",
+      "topic": "tenant-occupier of premises with an independent non-defaulting connection not to be sealed for another plot's arrears",
+      "type": "electricity_act",
+      "question": "May a Tehsildar seal a tenant-occupier's premises to recover electricity arrears of another plot of the same owner, where the occupier's plot has an independent connection not in default?",
+      "holding": "No. Section 43 speaks of supply of electricity to premises on the application of the owner or occupier of any premises. The petitioner was the tenant and occupier of Plot C-154, with an independent connection (though in the owner's name) and a different connection number, and there was no allegation of default on that connection. That aspect had to be considered before the seal was put on C-154. The Tehsildar was commanded to open the seal forthwith, and the District Magistrate to decide the 25.09.2018 representation noting those findings by 25.10.2018.",
+      "paras": "10-13",
+      "flag": "Section 43 was recited without subsection. The Court did not order a new connection or mutation of the existing connection into the tenant's name."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "arrears-bar-is-premises-specific",
+      "application": "Arrears and the demand citation related to the independent connection on Plot C-155. The Court refused to let that recovery support sealing Plot C-154, which had a different connection not in default, even though both plots and both connections stood in the same owner's name.",
+      "lead_authorities": [],
+      "paras": "5, 11-14"
+    },
+    {
+      "tag": "s43-duty-to-supply-owner-or-occupier-correlative-right",
+      "application": "Section 43 was applied to the tenant-occupier of Plot C-154: as occupier of premises with an independent non-defaulting connection, the petitioner was entitled to have that plot unsealed rather than treated as company assets reachable for the other plot's dues.",
+      "lead_authorities": [],
+      "paras": "10-12"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Lawfulness of sealing Plot C-155 and correctness of the C-155 electricity demand",
+      "note": "The order was expressly confined to Plot C-154 and M/s Diamond Refractories. The Court recorded that the default was on the C-155 connection but did not quash that demand or unseal C-155.",
+      "paras": "5, 14"
+    },
+    {
+      "point": "Tenancy of part of Plot C-155",
+      "note": "The petitioners asserted that some part of C-155 was also under their tenancy. The Court did not adjudicate that claim or extend relief to C-155.",
+      "paras": "4, 14"
+    },
+    {
+      "point": "Mutation of the C-154 connection from the owner-company into the tenant's name",
+      "note": "The independent connection on C-154 stood in the name of Supreme Ceramics. The Court proceeded on occupier status under Section 43 and did not direct change of name.",
+      "paras": "11"
+    }
+  ],
+  "authorities": []
+}
