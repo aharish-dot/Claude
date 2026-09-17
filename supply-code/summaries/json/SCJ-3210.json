@@ -1,0 +1,119 @@
+{
+  "case_id": "SCJ-3210",
+  "title": "Raj Kumar v. State of U.P. & 3 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta, J. & Neeraj Tiwari, J.",
+  "date_of_judgment": "2019-12-05",
+  "date_display": "5 December 2019",
+  "docket": "Writ - C No. 37751 of 2019",
+  "page_count": 5,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition disposed of; petitioner to appear before the Executive Engineer on 19.12.2019 after depositing Rs. 1,00,000 with objections to the Rs. 4,75,170 provisional assessment, for a speaking final order within four weeks, with a Section 127 appeal if aggrieved; connection restored if that deposit is made by 19.12.2019; the Rs. 1,59,915 bill relegated to Clause 6.5; coercive action stayed on each track",
+  "headnote": "Where a consumer challenges recovery citations on two grounds — that a demand of Rs. 4,75,170 was raised without opportunity of hearing, and that an electricity bill of Rs. 1,59,915 is incorrect — and the licensee asserts that an inspection found theft of electricity and that a provisional assessment of that amount was made after serving notice, which the consumer denies receiving, the writ court, taking a lenient view, will not decide either demand. The consumer is directed to appear before the Executive Engineer on a fixed date after depositing Rs. 1,00,000 with objections to the provisional assessment; a speaking final order is to be passed within four weeks; coercive action is stayed for seven weeks or until that decision; if the deposit is made by the date fixed the connection is to be restored; if the consumer does not appear the recovery citation revives; and if aggrieved by the final order, an appeal under Section 127 of the Electricity Act, 2003 is open. The disputed bill of Rs. 1,59,915 is left to Clause 6.5 of the U.P. Electricity Supply Code, 2005, to be decided by a speaking order after hearing, with a separate stay of coercive action for eight weeks. The writ is disposed of. The Court did not decide whether notice of the provisional assessment had been served, whether theft was made out, or the correctness of either demand.",
+  "facts": "Raj Kumar filed Writ-C No. 37751 of 2019 in the Allahabad High Court against the State of U.P. and three others, seeking certiorari to quash recovery certificates dated 13.09.2019 for Rs. 1,59,915, 26.06.2019 for Rs. 4,75,170 and 20.08.2019 for Rs. 4,75,170, and other charges, issued by respondent no. 3. On 22 November 2019 Shashi Kant Gupta and Piyush Agrawal, JJ. granted the electricity department ten days for instructions and stayed coercive action until 5 December 2019.\n\nOn that date the petitioner's case was two-fold: that the Rs. 4,75,170 demand had been raised without any opportunity of hearing, and that the Rs. 1,59,915 electricity bill was incorrect. Counsel for the department said an inspection had found theft of electricity and a provisional assessment of Rs. 4,75,170 had been made after serving notice. The petitioner denied receiving any such notice and alleged coercive action without following the U.P. Electricity Supply Code, 2005. Shashi Kant Gupta and Neeraj Tiwari, JJ. disposed of the writ.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "8.1 (theft — provisional assessment, objections, speaking final order, and restoration on part deposit)",
+      "topic": "Disputed service of theft provisional-assessment notice: objections before the Executive Engineer; recovery not quashed",
+      "type": "supply_code",
+      "question": "Where the consumer says a theft demand of Rs. 4,75,170 was raised without opportunity and without notice of the provisional assessment, and the licensee says notice was served after an inspection found theft, will the writ court quash the recovery?",
+      "holding": "No. Taking a lenient view, the Court directed the petitioner to appear on 19.12.2019 at 11.00 a.m. before respondent no. 4, the Executive Engineer, after depositing Rs. 1,00,000 with his objection to the provisional assessment of Rs. 4,75,170 and to adduce evidence. Respondent no. 4 shall then pass a speaking and reasoned final order after considering the objections, within four weeks. Coercive action is stayed for seven weeks from the order or till disposal of the objection, whichever is earlier; default in filing the objection causes the benefit to cease automatically. If the Rs. 1,00,000 is deposited with the electricity department on or before 19.12.2019, the connection shall be restored forthwith. If the petitioner does not appear on the date fixed, the impugned recovery citation stands revived automatically. The Court did not find that notice had not been served and did not quash the demand.",
+      "qualifier": "The directions rest on a 'lenient view' of a disputed notice, not on a finding that the provisional assessment was unserved or that theft was not made out.",
+      "paras": "7-8, 10-11",
+      "flag": "Source PDF concatenates the 22.11.2019 listing (Shashi Kant Gupta and Piyush Agrawal, JJ.: ten days for instructions; no coercive action till 5.12.2019) with this 5.12.2019 disposal (Shashi Kant Gupta and Neeraj Tiwari, JJ.). The disposing order is unnumbered; paras are sequential blocks from 'This writ petition has been filed'. The Court named the Supply Code, 2005 without a clause number for the theft demand (licensee: inspection found theft; provisional assessment after notice). Keyed to Clause 8.1 as the theft-assessment procedure; it could equally be Clause 6.8 if the demand was unauthorised use rather than theft — the licensee's characterisation was theft. The prayer recites three recovery certificates (13.09.2019 Rs. 1,59,915; 26.06.2019 and 20.08.2019 each Rs. 4,75,170); the body refers to two recovery citations."
+    },
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act, 2003",
+      "clause": "127",
+      "topic": "appeal against the speaking final order on the provisional theft assessment",
+      "type": "electricity_act",
+      "question": "If the consumer is aggrieved by the speaking final order on the provisional theft assessment, what remedy remains?",
+      "holding": "It will be open to the petitioner to file an appeal before the concerned authority under Section 127 of the Electricity Act, 2003 in accordance with law. The writ court did not examine the assessment on merits and did not treat the pending recoveries as a concluded final order.",
+      "paras": "9"
+    },
+    {
+      "provision": "UP-2005::6.5",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.5",
+      "topic": "disputed electricity bill — Clause 6.5 as alternate remedy",
+      "type": "supply_code",
+      "question": "Is a writ the forum to decide the correctness of a disputed electricity bill of Rs. 1,59,915?",
+      "holding": "No. It is open to the petitioner to take recourse to Clause 6.5 of the U.P. Electricity Supply Code, 2005. If he approaches the appropriate authority/Executive Engineer for redressal of his grievance with respect to the disputed electricity bills/dues within four weeks, the application may be considered and decided in accordance with law within two weeks thereafter by a speaking order after giving opportunity of hearing. Coercive action is stayed for eight weeks or till that Clause 6.5 application is decided. The writ is finally disposed of with those observations.",
+      "paras": "12-14"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "opportunity-before-final-assessment",
+      "application": "The petitioner denied receipt of any notice of the Rs. 4,75,170 provisional theft assessment; the licensee asserted service after an inspection found theft. The Court did not let the recoveries stand as concluded: objections, a hearing, and a speaking final order were directed.",
+      "lead_authorities": [],
+      "paras": "4-8"
+    },
+    {
+      "tag": "assessment-provisional-objection-speaking-order",
+      "application": "The petitioner was directed to appear before the Executive Engineer on 19.12.2019 after depositing Rs. 1,00,000 with objections to the Rs. 4,75,170 provisional assessment; a speaking and reasoned final order was to follow within four weeks.",
+      "lead_authorities": [],
+      "paras": "7"
+    },
+    {
+      "tag": "s127-appeal-lies-only-against-final-order-not-provisional-assessment",
+      "application": "The theft demand was treated as still at the provisional-assessment stage. A Section 127 appeal was left open only against the speaking final order to be passed on objections, not against the recoveries as they stood.",
+      "lead_authorities": [],
+      "paras": "7, 9"
+    },
+    {
+      "tag": "alternative-remedy-section-127-appeal",
+      "application": "The writ did not decide the Rs. 4,75,170 theft assessment; if aggrieved by the Executive Engineer's final order, the petitioner was sent to the statutory appeal under Section 127.",
+      "lead_authorities": [],
+      "paras": "9"
+    },
+    {
+      "tag": "clause-6.5-alternate-remedy-to-writ",
+      "application": "The challenge to the correctness of the Rs. 1,59,915 electricity bill was closed without a merits decision and sent to Clause 6.5 before the Executive Engineer.",
+      "lead_authorities": [],
+      "paras": "12-13"
+    },
+    {
+      "tag": "clause-6.5-statutory-remedy-disputed-bill",
+      "application": "The disputed bill/dues of Rs. 1,59,915 were left to a time-bound speaking order under Clause 6.5 of the Supply Code, 2005, after opportunity of hearing.",
+      "lead_authorities": [],
+      "paras": "12"
+    },
+    {
+      "tag": "restoration-on-part-deposit",
+      "application": "If the petitioner deposited Rs. 1,00,000 with the electricity department on or before 19.12.2019, his electricity connection was to be restored forthwith, as a condition of appearing with objections to the Rs. 4,75,170 provisional assessment.",
+      "lead_authorities": [],
+      "paras": "10"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether notice of the Rs. 4,75,170 provisional assessment was in fact served",
+      "note": "The licensee asserted service after a theft inspection; the petitioner denied receipt. The Court took a 'lenient view' and sent the matter to objections rather than deciding service.",
+      "paras": "5-7"
+    },
+    {
+      "point": "Whether theft of electricity was detected, and the correctness or quantum of the Rs. 4,75,170 assessment",
+      "note": "Left to the speaking final order on objections, with a Section 127 appeal thereafter. The recoveries were not quashed.",
+      "paras": "5-9"
+    },
+    {
+      "point": "Correctness of the electricity bill of Rs. 1,59,915",
+      "note": "Left to Clause 6.5 before the Executive Engineer.",
+      "paras": "12"
+    },
+    {
+      "point": "Whether any numbered Code clause (8.1 or otherwise) had been followed for the theft demand",
+      "note": "The Court named the Supply Code, 2005 without a clause number on the theft track; Clause 6.5 was cited only for the billing dispute.",
+      "paras": "6-7, 12"
+    }
+  ],
+  "authorities": []
+}
