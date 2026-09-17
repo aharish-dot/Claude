@@ -1,0 +1,96 @@
+{
+  "case_id": "SCJ-3244",
+  "title": "M/s Drrivya Management Pvt. Ltd. v. State of U.P. & 3 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sunita Agarwal, J. & Krishan Pahal, J.",
+  "date_of_judgment": "2021-11-10",
+  "date_display": "10 November 2021",
+  "docket": "Writ - C No. 24083 of 2021",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition dismissed; refusal of a new connection for outstanding premises dues upheld; petitioner may ventilate grievances before the auctioning bank",
+  "headnote": "A SARFAESI auction purchaser is not entitled to a new electricity connection while dues remain outstanding on the premises. Clause 4.3(f)(i) of the U.P. Electricity Supply Code, 2005 obliges seller and purchaser to ascertain dues up to the date of sale and makes them jointly and severally liable. Clause 4.3(f)(v), which permits the licensee to lodge a claim with a financial institution that auctioned without regard to the licensee's charge, is a recovery provision against the defaulting company and the institution; it does not entitle the purchaser to supply. The writ challenging the 27.8.2021 refusal was dismissed. The Court did not decide whether the auctioning bank was liable to clear the arrears, there being no recovery proceeding against the petitioner.",
+  "facts": "M/s Drrivya Management Pvt. Ltd. purchased the property at a SARFAESI Act, 2002 auction that became final on 27 March 2021, and a sale certificate was issued in its favour. After taking possession it applied for a new electricity connection. The licensee rejected the application by order dated 27 August 2021 because Rs. 4,35,272 remained outstanding against the old connection on the premises. The petitioner challenged that refusal, arguing that section 43 of the Electricity Act, 2003 obliged the licensee to supply an owner or occupier, and that clause 4.3(f)(v) of the U.P. Electricity Supply Code, 2005 confined recovery to the financial institution that had auctioned the property, so the auction purchaser was not responsible for the predecessor's arrears.",
+  "reusable_constructions": [
+    {
+      "construction": "A distribution licensee may refuse a new connection where electricity dues remain outstanding on the premises, including where the applicant is a SARFAESI auction purchaser of those premises.",
+      "paras": "7, 11, 13"
+    },
+    {
+      "construction": "Clause 4.3(f)(i) of the U.P. Electricity Supply Code, 2005 requires seller and purchaser to ascertain outstanding electricity dues up to the date of sale and makes them jointly and severally liable to pay those dues and to obtain a no-dues certificate.",
+      "paras": "8"
+    },
+    {
+      "construction": "Clause 4.3(f)(v) governs recovery from a defaulting company and a financial institution that auctioned without regard to the licensee's charge; it does not entitle the auction purchaser to a fresh connection while premises dues remain unpaid.",
+      "paras": "10-11"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.3(f)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.3(f)(i)",
+      "topic": "outstanding premises dues bar a new connection; seller and purchaser are jointly and severally liable",
+      "type": "supply_code",
+      "question": "May a licensee refuse a new connection to a SARFAESI auction purchaser because electricity dues of the old connection remain outstanding on the premises?",
+      "holding": "Yes. There was no recovery proceeding against the petitioner; the application for a new connection was rejected because dues remained outstanding on the premises. Clause 4.3(f)(i) requires seller and purchaser to find outstanding dues up to the date of sale, to provide in the sale how those dues (including late-payment surcharge) will be cleared, and makes them jointly and severally liable to pay and to obtain a no-dues certificate. Clause 4.3(f)(iii) permits a new owner who did not obtain a certificate to apply for one, upon which the licensee must intimate pending dues or issue the certificate. With outstanding dues admitted, the Code does not permit a fresh connection. The writ was dismissed.",
+      "paras": "7-9, 11, 13",
+      "flag": "The 3-page order has no numbered paragraphs; pins follow the extract's prose blocks (Heard = 1)."
+    },
+    {
+      "provision": "UP-2005::4.3(f)(v)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.3(f)(v)",
+      "topic": "clause 4.3(f)(v) is a recovery-from-institution provision, not a defence to connection refusal",
+      "type": "supply_code",
+      "question": "Does clause 4.3(f)(v) confine recovery to the auctioning financial institution so that the auction purchaser must be given a new connection without clearing the predecessor's dues?",
+      "holding": "No. Sub-clause (v) applies where a financial institution has auctioned the property without regard to the licensee's charge on assets, and permits claims to be lodged with that institution. It does not deal with an application for a new connection; it provides how recovery may be made from a defaulting company and a financial institution. It therefore supplied no answer to the refusal of supply while premises dues remained outstanding.",
+      "qualifier": "The Court expressly declined to decide whether the auctioning bank was liable to clear the dues or whether recovery could be made from the purchaser, there being no recovery against the petitioner.",
+      "paras": "6, 10, 12",
+      "flag": "The 3-page order has no numbered paragraphs; pins follow the extract's prose blocks (Heard = 1)."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-4.3-new-connection-barred-by-outstanding-premises-dues",
+      "application": "The Court found no fault in refusing a new connection to a SARFAESI auction purchaser while Rs. 4,35,272 remained outstanding on the premises, holding that the Code does not permit supply in that situation.",
+      "lead_authorities": [],
+      "paras": "7, 11, 13"
+    },
+    {
+      "tag": "no-new-connection-while-predecessor-dues-outstanding-clause-4.3f",
+      "application": "Clause 4.3(f) was applied to an auction purchaser of the same premises: predecessor dues on the old connection barred the fresh connection.",
+      "lead_authorities": [],
+      "paras": "7-8, 11"
+    },
+    {
+      "tag": "purchaser-jointly-and-severally-liable-for-previous-owners-dues-clause-4.3f",
+      "application": "The Court recited and applied clause 4.3(f)(i): seller and purchaser are jointly and severally liable for outstanding electricity dues and must obtain a no-dues certificate.",
+      "lead_authorities": [],
+      "paras": "8"
+    },
+    {
+      "tag": "clause-4.3f-co-extensive-liability-not-confined-to-private-sale",
+      "application": "Co-extensive liability and the new-connection bar under clause 4.3(f) were applied to a SARFAESI auction purchaser, not only to a private sale. Clause 4.3(f)(v) was held to be a recovery route against the auctioning institution, not a shield against connection refusal.",
+      "lead_authorities": [],
+      "paras": "2, 8, 10-11"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the financial institution or bank that auctioned the property is liable to clear the outstanding electricity dues, or whether recovery can be made from the auction purchaser",
+      "note": "Expressly left undecided because there was no recovery proceeding against the petitioner; the petitioner was left to ventilate grievances before the auctioning bank.",
+      "paras": "12-13"
+    },
+    {
+      "point": "Whether section 43 or 43(2) of the Electricity Act, 2003 independently obliged the licensee to supply, or attracted penalty for non-supply, despite outstanding premises dues",
+      "note": "The argument was recorded; the writ was dismissed on clause 4.3 of the Code without construing section 43.",
+      "paras": "4-5, 7, 13"
+    }
+  ],
+  "authorities": []
+}
