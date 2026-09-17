@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3208,
+  "next_seq": 3209,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -19216,6 +19216,12 @@
       "case_id": "SCJ-3205",
       "source_basename": "WRIC(A)_1493_2019.pdf",
       "title": "Mohd. Mahmood Siddiqui v. State of U.P. and 3 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3206",
+      "source_basename": "WRIC(A)_16764_2019.pdf",
+      "title": "Virendra Kumar Gulati v. U.P. Power Corporation Limited Purvanchal Vidyut Nagriya Vitran and Another",
       "status": "done"
     }
   ]

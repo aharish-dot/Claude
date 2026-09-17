@@ -1,0 +1,115 @@
+{
+  "case_id": "SCJ-3206",
+  "title": "Virendra Kumar Gulati v. U.P. Power Corporation Limited Purvanchal Vidyut Nagriya Vitran and Another",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Pankaj Mithal, J. & Prakash Padia, J.",
+  "date_of_judgment": "2019-05-21",
+  "date_display": "21 May 2019",
+  "docket": "Writ - C No. 16764 of 2019",
+  "page_count": 4,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition dismissed; no mandamus for a new connection; liberty to pursue the Executive Engineer and complete the Supply Code, 2005 formalities",
+  "headnote": "If there are arrears of electricity dues on a premises, Clause 4.1 of the U.P. Electricity Supply Code, 2005 bars release of a new connection to a new applicant or even to the old consumer. Clause 4.3 requires outstanding dues to be cleared (seller and purchaser being jointly liable, and a new connection on legally sub-divided property only after the dues are satisfied), and Clause 4.4 requires proof of ownership or occupancy, identity, and owner's consent. A claim of exclusive ownership after the mother's death does not displace those conditions where a brother holds a valid connection at the same house and the applicant has not pleaded separate living or sub-division. Until previous dues on any connection installed in the premises are cleared and the other co-owner's consent or no-objection, or alternatively an indemnity form, is furnished, no mandamus will issue. The writ is dismissed with liberty to complete those formalities before the Executive Engineer.",
+  "facts": "Virendra Kumar Gulati petitioned the Allahabad High Court for a mandamus to sanction a 2 kW domestic electricity connection to House No. 1172/460, Meerapur, Allahabad. He alleged he had applied on 24 May 2015 (the listing order of 16 May 2019 recites 24 April 2015) but, despite an inspection, the connection had not been released. On 16 May 2019 the Court directed counsel for Purvanchal Vidyut Vitran Nigam Limited to take instructions. On 21 May 2019 counsel reported that a survey showed an existing connection PU-129373 in the name of the petitioner's brother, Ashok Kumar Gulati, with Rs. 23,890 outstanding, so that no new connection could be given until those dues were cleared. The petitioner claimed exclusive ownership after the death of his mother Kesarbai. Pankaj Mithal and Prakash Padia, JJ. dismissed the writ.",
+  "reusable_constructions": [
+    {
+      "construction": "If there are arrears of electricity dues on a premises, a new connection shall not be released to a new applicant or even to the old consumer.",
+      "paras": "5"
+    },
+    {
+      "construction": "A claim of exclusive ownership after a parent's death does not entitle an applicant to a fresh connection where a sibling holds a valid existing connection at the same premises and the applicant has not pleaded separate living or legal sub-division.",
+      "paras": "8"
+    },
+    {
+      "construction": "A fresh connection will not be granted until previous dues on any electricity connection installed in the premises are cleared and the other co-owner's consent or no-objection, or alternatively an indemnity form, is furnished.",
+      "paras": "9"
+    },
+    {
+      "construction": "Mandamus will not issue to compel sanction of a new connection where those Supply Code conditions remain unsatisfied; the applicant may pursue the Executive Engineer and complete the Code formalities.",
+      "paras": "10-11"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.1",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.1",
+      "topic": "premises arrears bar a new connection to a new applicant or the old consumer",
+      "type": "supply_code",
+      "question": "May a licensee refuse a new connection to an applicant for premises that already carry a sibling's connection with outstanding dues?",
+      "holding": "Yes. Clause 4.1 of the U.P. Electricity Supply Code, 2005 provides that if there are arrears of electricity dues on a premises, a new connection shall not be released to a new applicant or even to the old consumer. A survey showed connection PU-129373 in the name of the petitioner's brother, Ashok Kumar Gulati, with Rs. 23,890 due. Until those dues are cleared, the petitioner is not entitled to a new connection.",
+      "paras": "3, 5, 9",
+      "flag": "Source PDF concatenates the 16.5.2019 listing (put up as fresh on 21.5.2019) with this 21.5.2019 disposal. The 21.5.2019 order is unnumbered; paras 1-11 are sequential blocks of that disposal from 'Heard learned counsel'. Coram is the disposing bench (Pankaj Mithal and Prakash Padia, JJ.), who also sat on 16.5.2019. The Court recited Clause 4.1 without numbering a proviso; the catalog premises-arrears bar is the fourth proviso. The listing order recites the application date as 24.04.2015; the disposing order recites 24.5.2015. Respondent counsel appeared for Purvanchal Vidyut Vitran Nigam Limited; the cause title names U.P. Power Corporation Limited Purvanchal Vidyut Nagriya Vitran and another."
+    },
+    {
+      "provision": "UP-2005::4.3",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.3",
+      "topic": "new connection — outstanding dues, co-ownership, and unpleaded sub-division",
+      "type": "supply_code",
+      "question": "Does a claim of exclusive ownership after the mother's death entitle a sibling to a fresh connection without clearing the brother's arrears, where separate living or sub-division is not pleaded?",
+      "holding": "No. Clause 4.3 provides the general conditions for sanction of a new connection, including that seller and purchaser are jointly liable to pay outstanding dues and to furnish a No-Dues Certificate, and that where the property has been legally sub-divided the outstanding dues are divided pro-rata and a new connection is given only after those dues are satisfied. The property initially belonged to the mother Kesarbai. Exclusive ownership after her death does not appear correct where the petitioner's brother holds a valid electricity connection in the same premises and the petitioner has not pleaded that he is living separately or that the property has been sub-divided. Previous dues on any connection installed in the premises must be cleared.",
+      "qualifier": "The Court paraphrased seller/purchaser joint liability and No-Dues Certificate, tenanted accommodation, and legal sub-division with pro-rata dues as part of Clause 4.3 without numbering 4.3(f), 4.3(g) or 4.3(h). Sub-division was not pleaded, so the pro-rata rule was not applied.",
+      "paras": "6, 8-9"
+    },
+    {
+      "provision": "UP-2005::4.4",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.4",
+      "topic": "new connection — co-owner consent or no-objection, or alternatively an indemnity form",
+      "type": "supply_code",
+      "question": "Besides clearance of premises arrears, what further Code formality must a sibling-applicant complete before a fresh connection can be claimed?",
+      "holding": "Clause 4.4 requires the application to be accompanied by proof of ownership of the premises, proof of occupancy, identity proof, and owner's consent. Until there is consent or no-objection by the other co-owner, if any, or alternatively an indemnity form — and previous dues are cleared — the petitioner is not entitled to a fresh connection. No mandamus will issue. The petition is dismissed with liberty to pursue the Executive Engineer and complete the Supply Code, 2005 formalities for a separate connection.",
+      "qualifier": "The Court did not cite Annexure 4.2. Indemnity is an alternative to co-owner consent, not a substitute for clearance of premises arrears.",
+      "paras": "7, 9-11"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-4.1-fourth-proviso-bar-on-new-connection-for-premises-with-outstanding-dues",
+      "application": "The Court, reciting Clause 4.1 without numbering the proviso, held that arrears of Rs. 23,890 on connection PU-129373 at the same house barred a new 2 kW connection to the petitioner until those dues were cleared.",
+      "lead_authorities": [],
+      "paras": "3, 5, 9"
+    },
+    {
+      "tag": "clause-4.3-new-connection-barred-by-outstanding-premises-dues",
+      "application": "Reciting Clause 4.3 (seller/purchaser joint liability and No-Dues Certificate; tenanted premises; legal sub-division with pro-rata dues), the Court refused mandamus because previous dues on any connection in the premises had not been cleared and separate living or sub-division had not been pleaded.",
+      "lead_authorities": [],
+      "paras": "6, 8-9"
+    },
+    {
+      "tag": "arrears-run-with-the-premises",
+      "application": "Outstanding dues on the brother's existing connection PU-129373 were treated as arrears on the premises, barring a fresh connection to the petitioner as a new applicant at House No. 1172/460, Meerapur, Allahabad.",
+      "lead_authorities": [],
+      "paras": "3, 5, 9"
+    },
+    {
+      "tag": "new-connection-disputed-title-indemnity-bond",
+      "application": "Exclusive ownership after the mother's death was not accepted where the brother held a live connection at the same house. The Court required the other co-owner's consent or no-objection, or alternatively an indemnity form, in addition to clearance of dues, and would not issue mandamus in their absence.",
+      "lead_authorities": [],
+      "paras": "7-11"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness or quantum of the Rs. 23,890 stated to be due on connection PU-129373",
+      "note": "Recorded from the licensee's survey instructions; not examined.",
+      "paras": "3"
+    },
+    {
+      "point": "Whether House No. 1172/460 had been legally sub-divided so as to attract pro-rata division of dues under Clause 4.3",
+      "note": "The petitioner did not plead separate living or sub-division; the Court did not try partition.",
+      "paras": "8"
+    },
+    {
+      "point": "Merits of a future application once dues are cleared and co-owner consent, no-objection, or an indemnity form is furnished",
+      "note": "Left to the Executive Engineer under the Supply Code, 2005.",
+      "paras": "10"
+    }
+  ],
+  "authorities": []
+}
