@@ -1,0 +1,130 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/scj.schema.json",
+  "title": "SCJ court-judgment summary",
+  "description": "Refined superset of the SCJ-3166 shape. Back-compatible: every original field is retained; schema_version, source and qa are additive. The enforced gate is scjlib/validate.py; this file is the portable spec.",
+  "type": "object",
+  "required": ["case_id", "title", "court", "date_of_judgment", "disposition", "headnote", "facts", "holding_units"],
+  "properties": {
+    "schema_version": {"type": "string", "const": "scj-2.0"},
+    "case_id": {"type": "string", "pattern": "^[A-Z]{2,6}-[0-9]{3,6}$"},
+    "title": {"type": "string", "minLength": 3},
+    "neutral_citation": {"type": "string"},
+    "court": {"type": "string", "minLength": 3},
+    "bench": {"type": "string"},
+    "coram": {"type": "string"},
+    "date_of_judgment": {"type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"},
+    "date_display": {"type": "string"},
+    "docket": {"type": "string"},
+    "page_count": {"type": "integer", "minimum": 0},
+    "significance": {"type": "string", "enum": ["landmark", "significant", "routine", ""]},
+    "outcome": {"type": "string", "enum": ["consumer", "licensee", "mixed", "remanded", "other", ""]},
+    "model": {"type": "string", "description": "Author of the analytical content (must not be 'PENDING' once authored)."},
+    "disposition": {"type": "string", "minLength": 10},
+    "headnote": {"type": "string", "minLength": 10},
+    "facts": {"type": "string", "minLength": 10},
+    "reusable_constructions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["construction", "paras"],
+        "properties": {
+          "construction": {"type": "string"},
+          "paras": {"type": "string"}
+        }
+      }
+    },
+    "holding_units": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["provision", "topic", "holding", "paras"],
+        "properties": {
+          "provision": {"type": "string", "description": "Catalog key CODE::clause, e.g. UP-2005::6.8(b) or EA2003::126(3)."},
+          "code": {"type": "string"},
+          "clause": {"type": "string"},
+          "type": {"type": "string", "enum": ["supply_code", "electricity_act", "constitution", "other", ""]},
+          "topic": {"type": "string"},
+          "question": {"type": "string"},
+          "holding": {"type": "string"},
+          "paras": {"type": "string"},
+          "flag": {"type": "string"}
+        }
+      }
+    },
+    "principle_tags": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["tag", "application"],
+        "properties": {
+          "tag": {"type": "string", "pattern": "^[a-z0-9][a-z0-9.\\-]*$"},
+          "application": {"type": "string"},
+          "lead_authorities": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["name"],
+              "properties": {
+                "name": {"type": "string"},
+                "docid": {"type": "string"}
+              }
+            }
+          },
+          "paras": {"type": "string"}
+        }
+      }
+    },
+    "not_decided": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["point"],
+        "properties": {
+          "point": {"type": "string"},
+          "note": {"type": "string"},
+          "paras": {"type": "string"}
+        }
+      }
+    },
+    "authorities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "properties": {
+          "name": {"type": "string"},
+          "citation": {"type": "string"},
+          "court": {"type": "string"},
+          "docid": {"type": "string"},
+          "proposition": {"type": "string"},
+          "cited_by": {"type": "string", "enum": ["Petitioner", "Respondent", "Court", ""]},
+          "treatment": {"type": "string", "enum": ["Followed", "Relied on", "Distinguished", "Referred", "Overruled", ""]}
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "description": "Provenance written by the extractor.",
+      "properties": {
+        "source_file": {"type": "string"},
+        "sha256": {"type": "string"},
+        "page_count": {"type": "integer"},
+        "engine": {"type": "string"},
+        "extracted_est_tokens": {"type": "integer"},
+        "truncated": {"type": "boolean"}
+      }
+    },
+    "qa": {
+      "type": "object",
+      "description": "Quality-assurance metadata written by the author and validator.",
+      "properties": {
+        "confidence": {"type": ["string", "null"], "enum": ["high", "medium", "low", null]},
+        "authored_by": {"type": "string"},
+        "flags": {"type": "array", "items": {"type": "string"}},
+        "auto_checks": {"type": "array", "items": {"type": "string"}}
+      }
+    }
+  }
+}

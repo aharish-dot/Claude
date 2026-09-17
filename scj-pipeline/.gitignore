@@ -1,0 +1,5 @@
+# Runtime I/O — the pipeline creates and writes only inside data/.
+# Nothing here is committed; ensure_dirs() recreates the structure on first run.
+data/
+__pycache__/
+*.pyc
