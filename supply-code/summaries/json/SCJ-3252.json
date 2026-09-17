@@ -1,0 +1,127 @@
+{
+  "case_id": "SCJ-3252",
+  "title": "Smt. Kaisher Jahan v. Purvanchal Vidyut Vitran Nigam Ltd. And 2 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Naheed Ara Moonis, J. & Dinesh Pathak, J.",
+  "date_of_judgment": "2021-02-09",
+  "date_display": "9 February 2021",
+  "docket": "Writ - C No. 4192 of 2021",
+  "page_count": 3,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition disposed of; petitioner to file a fresh representation before respondent no.2 within two weeks; that officer to decide by a reasoned speaking order after hearing, preferably within four weeks; demand notices dated 02.11.2020 and 25.11.2020 kept in abeyance for four weeks or until that decision, whichever is earlier; benefit forfeited if no representation is filed",
+  "headnote": "A consumer cannot be compelled to deposit on a provisional assessment that has been treated as final without considering a filed objection or affording a hearing. Applying Shishir Jain, the Court held that Purvanchal Vidyut Vitran Nigam Ltd. had proceeded dehors Section 126 of the Electricity Act, 2003 and Clauses 6.8/8.1 of the U.P. Electricity Supply Code, 2005: Clause 8.1 requires inspection, provisional assessment, hearing and final assessment in a theft case, and treating the provisionally assessed amount as final without a hearing violates natural justice. Without entering the merits, the petitioner was directed to move a fresh representation before respondent no.2 within two weeks, to be decided by a reasoned speaking order after hearing, preferably within four weeks; the demand notices dated 02.11.2020 and 25.11.2020 were kept in abeyance for four weeks or until that decision, whichever is earlier. The Court did not quash those notices, decide the quantum, or resolve whether the demand was theft (8.1) or other unauthorised use (6.8).",
+  "facts": "Smt. Kaisher Jahan held a 2 kV domestic connection from Purvanchal Vidyut Vitran Nigam Ltd. and paid her bills. On 7 December 2020 she received a demand notice dated 2 November 2020 reciting a provisional assessment of Rs.44,518 dated 26 September 2020, which she said she had never received. She then sent a registered objection on 11 December 2020. She sought certiorari to quash the demand notices dated 2 November 2020 and 25 November 2020, and a mandamus to decide the matter afresh on that objection, alleging that Section 126(3) of the Electricity Act, 2003 and Clauses 6.8/8.1 of the U.P. Electricity Supply Code, 2005 had not been followed because no hearing preceded the final assessment.\n\nCounsel for the licensee conceded that the provisional assessment of 26 September 2020 followed an inspection on 15 September 2020, was communicated by registered post only on 20 October 2020, and that the demand of 2 November 2020 was sent on 3 December 2020 without completing the 15-day notice period. He did not dispute that the final assessment had been made without any opportunity of hearing.",
+  "holding_units": [
+    {
+      "provision": "EA2003::126(3)",
+      "code": "Electricity Act, 2003",
+      "clause": "126(3)",
+      "topic": "provisional assessment cannot be treated as final without considering the objection and hearing",
+      "type": "electricity_act",
+      "question": "May a licensee treat a provisional assessment as final, and compel deposit, where the consumer has objected and has not been heard?",
+      "holding": "No. The Court was not convinced that, despite the objection to the provisional assessment, it could be treated as final without considering that objection or giving any opportunity of hearing. Applying Shishir Jain para 16, the petitioner could not be compelled to deposit any amount on the provisional assessment unless a final assessment was made after considering the objection and affording a hearing. The procedure adopted was held dehors Section 126. Without entering the merits, the petitioner was directed to file a fresh representation before respondent no.2 within two weeks, to be decided by a reasoned speaking order after hearing, preferably within four weeks; the impugned notices were kept in abeyance for four weeks or until that decision, whichever is earlier.",
+      "qualifier": "The demand notices were not quashed. Benefit of the stay is forfeited if the representation is not filed as directed.",
+      "paras": "5-8",
+      "flag": "The source order is unnumbered. Paragraph pins follow the body after the cause-title: 3 petitioner's case; 4 licensee's concession; 5 refusal to treat the objected provisional as final; 6 Shishir Jain para 16; 7 holding on s.126 and Clauses 6.8/8.1; 8-10 remittal, abeyance and default."
+    },
+    {
+      "provision": "UP-2005::8.1",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "8.1",
+      "topic": "theft assessment — inspection, provisional assessment, hearing and final assessment; provisional figure cannot stand as final without hearing",
+      "type": "supply_code",
+      "question": "Does treating the amount in a provisional assessment as the final assessment, without a hearing, satisfy Clause 8.1?",
+      "holding": "No. Clause 8.1 provides the procedure for inspection, provisional assessment, hearing and final assessment in a case of theft of electricity. Treating the provisionally assessed amount as the final assessment without affording any opportunity of hearing is dehors Clause 8.1 (and the petitioner's coupled invocation of Clause 6.8) and violates natural justice. The consumer was remitted to a fresh representation to be decided after hearing.",
+      "paras": "7",
+      "flag": "Petitioner and the Court invoked Clauses 6.8/8.1 together. The Court then described Clause 8.1 as the theft-assessment procedure without finding on the record that the demand was for theft rather than other unauthorised use. Clause 6.8 is not separately construed."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "opportunity-before-final-assessment",
+      "application": "The licensee had treated the provisional figure as final without considering the 11.12.2020 objection or granting a hearing. That course was held to violate natural justice; a reasoned decision after hearing was directed and the demand notices were kept in abeyance.",
+      "lead_authorities": [
+        {
+          "name": "Shishir Jain v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+          "docid": ""
+        }
+      ],
+      "paras": "5-7"
+    },
+    {
+      "tag": "s126-3-hearing-required-before-enforcing-provisional-assessment",
+      "application": "Applying Shishir Jain para 16, the Court held that without a final assessment after considering the objection and giving an opportunity of hearing, the petitioner could not be compelled to deposit the provisional amount under Section 126.",
+      "lead_authorities": [
+        {
+          "name": "Shishir Jain v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+          "docid": ""
+        }
+      ],
+      "paras": "6-7"
+    },
+    {
+      "tag": "clause-8.1b-personal-hearing-mandatory-before-final-assessment",
+      "application": "Clause 8.1 was applied as the theft-assessment procedure requiring inspection, provisional assessment, hearing and final assessment. Skipping the hearing and treating the provisional amount as final was held dehors the Code.",
+      "lead_authorities": [
+        {
+          "name": "Shishir Jain v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+          "docid": ""
+        }
+      ],
+      "paras": "7"
+    },
+    {
+      "tag": "pending-objection-to-provisional-assessment-to-be-decided",
+      "application": "The 11.12.2020 objection had not been considered. The Court directed a fresh representation to respondent no.2, to be decided by a reasoned speaking order after hearing, and kept the demand notices in abeyance pending that decision.",
+      "lead_authorities": [
+        {
+          "name": "Shishir Jain v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+          "docid": ""
+        }
+      ],
+      "paras": "8-9"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits and quantum of the Rs.44,518 assessment",
+      "note": "Expressly not entered into; left to respondent no.2 on the fresh representation after hearing.",
+      "paras": "8"
+    },
+    {
+      "point": "Whether the demand was a theft assessment (Clause 8.1) or other unauthorised use (Clause 6.8)",
+      "note": "Petitioner invoked 6.8/8.1 together. The Court held the procedure dehors both and then described Clause 8.1 as the theft procedure, without a finding that theft was made out.",
+      "paras": "3, 7"
+    },
+    {
+      "point": "Whether the provisional assessment dated 26.09.2020 was served on the petitioner",
+      "note": "Petitioner said she never received it. The licensee said it was sent by registered post on 20.10.2020. The Court proceeded on the conceded want of hearing and did not decide service.",
+      "paras": "3-4"
+    },
+    {
+      "point": "Whether issuing the demand without completing the 15-day notice period independently vitiated the notices",
+      "note": "Counsel for the licensee conceded that the 02.11.2020 demand was sent on 03.12.2020 without completing the 15-day period. The ratio rested on want of hearing, not on that concession.",
+      "paras": "4"
+    },
+    {
+      "point": "Quashing of the demand notices dated 02.11.2020 and 25.11.2020",
+      "note": "Prayer (i) sought certiorari. The notices were not quashed; they were kept in abeyance for four weeks or until the representation is decided, whichever is earlier.",
+      "paras": "2, 8-9"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Shishir Jain v. Paschimanchal Vidyut Vitran Nigam Ltd. and another",
+      "citation": "2017 (3) AWC 3084",
+      "court": "Allahabad High Court",
+      "docid": "",
+      "proposition": "If there is no final assessment after considering the objection and giving the consumer an opportunity of hearing, the consumer cannot be compelled to deposit the provisional assessment, and demand notices founded on that course are unsustainable.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}
