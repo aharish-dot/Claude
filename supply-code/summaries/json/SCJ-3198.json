@@ -1,0 +1,63 @@
+{
+  "case_id": "SCJ-3198",
+  "title": "Kranti Gupta v. State of U.P.",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Karunesh Singh Pawar, J.",
+  "date_of_judgment": "2019-11-16",
+  "date_display": "16 November 2019",
+  "docket": "Bail No. 9874 of 2019",
+  "page_count": 6,
+  "significance": "ordinary",
+  "outcome": "none",
+  "model": "Grok 4.6",
+  "disposition": "Bail allowed; applicant released on personal bond and two sureties with conditions, without opinion on merits",
+  "headnote": "On a bail application in a Section 135(b) electricity-theft prosecution alleging a tampered meter-chamber seal, the High Court enlarged the applicant on bail without expressing any opinion on the merits. Counsel had argued that no meter fard was prepared or sent to the FSL laboratory (citing 'point No. 8.186' of the U.P. Electricity Supply Code, 2005), that clause 8.1(b)(II) of the Code meant no theft offence if safety seals were broken, that 50% of the demand had been deposited, and that the assessment was pending in appeal. The AGA did not dispute those facts. Considering the nature of the allegations, the 50% deposit, the pending appeal, clean antecedents and incarceration since 10.10.2019, the Court found it a fit case for bail on a personal bond and two sureties with conditions. It did not construe clause 8.1(b)(II), the alleged FSL requirement, or the theft charge.",
+  "facts": "Kranti Gupta applied for bail in Crime No. 216/2018 (Case No. 145/2019) under Section 135(b) of the Electricity Act, 2003, Police Station Sandila, District Hardoi. FIR No. 216/2018 dated 4 July 2018 alleged that on 3 July 2018 Electricity Department officers found the seal of the city chambers tampered at his site, wheat crushing having been stopped in his absence, and seized the tampered seal. He had been in jail since 10 October 2019 and had no criminal history.\n\nCounsel said he had deposited 50% of the department's demand and the assessment was pending in appeal; that a 17 March 2018 breakdown complaint and a 23 June 2018 meter-reading statement had shown no tampering; that no meter fard was prepared or sent to the FSL laboratory, said to be mandatory under 'point No. 8.186' of the U.P. Electricity Supply Code, 2005; and that clause 8.1(b)(II) of the Code showed no theft offence if safety seals were broken. After listing on 18 October, 5 November and 13 November 2019, bail was granted on 16 November 2019.",
+  "holding_units": [
+    {
+      "provision": "EA2003::135",
+      "code": "Electricity Act, 2003",
+      "clause": "135(b)",
+      "topic": "s.135(b) theft bail granted without construing Supply Code seal-breakage or FSL points",
+      "type": "electricity_act",
+      "question": "Where an applicant in a Section 135(b) electricity-theft FIR has deposited 50% of the demand, the assessment is pending in appeal, and counsel invokes Supply Code clauses on meter testing and seal breakage, may the High Court grant bail without deciding those Code points or the theft charge?",
+      "holding": "Yes, at the bail stage and without expressing any opinion on the merits. The Court recorded counsel's submissions that no meter fard was prepared or sent to the FSL laboratory, that clause 8.1(b)(II) of the U.P. Electricity Supply Code, 2005 showed no theft if safety seals were broken, that 50% of the demand had been deposited, and that the assessment was before the appellate court; the AGA did not dispute those facts. Considering the nature of the allegations, the arguments, clean antecedents and incarceration since 10.10.2019, the Court found it a fit case for bail on a personal bond and two sureties, with conditions against tampering with evidence, intimidating witnesses, inducing anyone acquainted with the facts, seeking adjournment when witnesses are present, and remaining absent, with consequences under IPC ss.229-A and 174-A and CrPC s.82 if bail is misused.",
+      "qualifier": "Expressly without opinion on the merits of the theft charge or of the Supply Code clauses invoked.",
+      "paras": "order of 16.11.2019",
+      "flag": "Source is unnumbered listing orders of 18.10.2019 (Rajeev Singh, J.), 5.11.2019 and 13.11.2019, plus the unnumbered bail grant of 16.11.2019 (Karunesh Singh Pawar, J.); pins refer to that grant. Counsel cited 'point No.8.186' of the 2005 Code (not a catalogued clause) for preparing a meter fard and sending the meter to the FSL laboratory, and 'Section 8.1(b)(II)' as showing no theft if safety seals are broken — the same 8.1(b)(ii) seal-breakage bar recorded in SCJ-767/3070/3071; neither was construed. Counsel's inspection date is 03.07.2019; the FIR incident is 03.07.2018. 'Seal of the city chambers' and 'E.C. Act' are as the order states them. Bail is not an adjudication of the assessment or of guilt."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "s135-bail-without-opinion-on-merits",
+      "application": "An applicant in a Section 135(b) FIR alleging a tampered meter-chamber seal was enlarged on bail without opinion on merits, the Court treating the 50% deposit, pending assessment appeal, alleged Code lapses on meter fard/FSL and clause 8.1(b)(II) seal breakage, clean antecedents and time in jail as making it a fit case; the theft charge and those Code points were left undecided.",
+      "lead_authorities": [],
+      "paras": "order of 16.11.2019"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether clause 8.1(b)(II) of the U.P. Electricity Supply Code, 2005 means that no theft offence is made out if safety seals are broken",
+      "note": "Counsel's contention only, as stated in the order (catalogued parent UP-2005::8.1(b); same 8.1(b)(ii) seal-breakage bar as in SCJ-767/3070/3071). Not construed.",
+      "paras": "order of 16.11.2019"
+    },
+    {
+      "point": "Whether preparing a meter fard and sending the meter to the FSL laboratory was mandatory under 'point No. 8.186' of the U.P. Electricity Supply Code, 2005, and whether non-compliance vitiates the prosecution",
+      "note": "Cited by counsel as stated; no such numbered clause appears in the catalog. Not construed.",
+      "paras": "order of 16.11.2019"
+    },
+    {
+      "point": "Guilt under Section 135(b) of the Electricity Act, 2003",
+      "note": "Expressly no opinion on merits; left to trial. Bail is not an adjudication of the offence.",
+      "paras": "order of 16.11.2019"
+    },
+    {
+      "point": "Validity and quantum of the Electricity Department's assessment",
+      "note": "Counsel stated the assessment order was before the appellate court and that 50% of the demand had been deposited; neither the assessment nor the appeal was examined.",
+      "paras": "order of 16.11.2019"
+    }
+  ],
+  "authorities": []
+}
