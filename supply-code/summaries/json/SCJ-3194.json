@@ -1,0 +1,67 @@
+{
+  "case_id": "SCJ-3194",
+  "title": "Rajesh Kumar Sharma v. State of U.P. & 3 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Mahesh Chandra Tripathi, J.; Vivek Kumar Singh, J.",
+  "date_of_judgment": "2023-01-03",
+  "date_display": "3 January 2023",
+  "docket": "Writ - C No. 4109 of 2018",
+  "page_count": 6,
+  "significance": "procedural",
+  "outcome": "none",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of; grievance stood redressed after a Clause 5.7 assessment and adjustment of the remaining amount in a subsequent bill; no further direction",
+  "headnote": "Where a Section 127 appeal has set aside an assessment and directed a fresh assessment under the U.P. Electricity Supply Code, 2005, and the consumer later seeks mandamus to implement that direction, the writ court will issue no further direction once the licensee states that the case has been assessed under Clause 5.7 and the remaining amount already adjusted in a subsequent bill. The grievance having been redressed, the writ is disposed of. The Court did not examine the correctness of the Clause 5.7 assessment, whether that assessment satisfied the appellate direction (recited in 2018 as Clause 5.1), or the claim to refund of the sum deposited on the earlier provisional assessment.",
+  "facts": "Rajesh Kumar Sharma filed Writ-C No. 4109 of 2018 after the appellate authority, by order dated 27 April 2017, allowed his appeal under Section 127 of the Electricity Act, 2003, set aside the assessment, and directed the respondent-Corporation to make a fresh assessment in accordance with law and Clause 5.1 of the U.P. Electricity Supply Code, 2005. He alleged that no fresh provisional assessment had been made and that the Corporation was illegally retaining the amount he had deposited on the earlier provisional assessment, and he sought its refund.\n\nAfter listings in January–March 2018 for the licensee's instructions, the petition was heard on 3 January 2023 on a mandamus to respondent no. 3 to take a final decision in terms of the 27 April 2017 appellate order within a stipulated time. Counsel for respondent no. 3 stated that, pursuant to that direction, the petitioner's case had been assessed under Clause 5.7 of the Supply Code, 2005 and the remaining amount already adjusted in the subsequent bill.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::5.7",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "5.7",
+      "topic": "mandamus to implement a s.127 remand becomes infructuous once the licensee has assessed under Clause 5.7 and adjusted the remaining amount",
+      "type": "supply_code",
+      "holding": "Once counsel for the contesting respondent states that, as per the Section 127 appellate direction dated 27.04.2017, the petitioner's case has been assessed in accordance with Clause 5.7 of the Electricity Supply Code, 2005 and the due/remaining amount already adjusted in the subsequent bill, the cause to maintain the writ no longer survives. The grievance having been redressed, no further direction is required and the writ is disposed of.",
+      "qualifier": "The Court accepted the licensee's statement and did not examine the assessment or the adjustment on the merits.",
+      "paras": "3.1.2023",
+      "flag": "Thin disposal. Clause 5.7 was the licensee's statement of compliance, not a construction of the clause. The 31.1.2018 listing (Krishna Murari and Shailendra Kumar Agrawal, JJ.) recites the appellate direction as Clause 5.1; the 3.1.2023 sitting recites Clause 5.7. The Court did not resolve that mismatch. Unnumbered orders. The PDF also concatenates a 28.5.2018 single-judge order (Pradeep Kumar Singh Baghel, J.) on a chak-road prayer under s.25-A of the U.P. Consolidation of Holdings Act, 1953, which is not this electricity writ; authorities in that order are not treated as authorities of this case. Intermediate 21.2.2018 and 13.3.2018 sittings only adjourned."
+    },
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act, 2003",
+      "clause": "127",
+      "topic": "writ to enforce a s.127 appellate direction for fresh assessment — no further mandamus after stated compliance",
+      "type": "electricity_act",
+      "holding": "A writ seeking mandamus to the competent authority to take a final decision in terms of a Section 127 appellate order that set aside an assessment and directed a fresh assessment does not survive once the licensee states that the fresh assessment has been made and the remaining amount adjusted; the Court issues no further direction.",
+      "paras": "3.1.2023",
+      "flag": "The 3.1.2023 Bench did not construe Section 127. The 27.4.2017 appellate order is recited, not reproduced. The 31.1.2018 sitting recorded the refund claim and called for instructions; it decided nothing."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "writ-disposed-grievance-already-redressed-no-further-direction",
+      "application": "Mandamus to implement a Section 127 appellate direction for a fresh Supply Code assessment was refused as unnecessary once the licensee stated that the case had been assessed under Clause 5.7 and the remaining amount adjusted in a subsequent bill; the writ was disposed of without examining the assessment or the 2018 refund claim.",
+      "lead_authorities": [],
+      "paras": "3.1.2023"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the fresh assessment under Clause 5.7 complied with the appellate direction to assess under Clause 5.1",
+      "note": "The 31.1.2018 listing recites Clause 5.1 as the appellate yardstick; the 3.1.2023 sitting records a Clause 5.7 assessment. The mismatch was not examined.",
+      "paras": "31.1.2018, 3.1.2023"
+    },
+    {
+      "point": "Correctness or quantum of the Clause 5.7 assessment, and of the adjustment of the remaining amount in the subsequent bill",
+      "note": "Accepted on the licensee's statement; no merits finding.",
+      "paras": "3.1.2023"
+    },
+    {
+      "point": "Entitlement to refund of the amount deposited on the earlier provisional assessment",
+      "note": "The 31.1.2018 sitting recorded the refund claim; the 3.1.2023 disposal did not decide it.",
+      "paras": "31.1.2018, 3.1.2023"
+    }
+  ],
+  "authorities": []
+}
