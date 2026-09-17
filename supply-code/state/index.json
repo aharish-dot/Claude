@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3204,
+  "next_seq": 3205,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -19192,6 +19192,12 @@
       "case_id": "SCJ-3202",
       "source_basename": "WRIC(A)_13068_2019.pdf",
       "title": "Perfect Propbuild (P) Ltd. v. State of U.P. & 3 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3201",
+      "source_basename": "WRIC(A)_10180_2019.pdf",
+      "title": "M/S Hind Industries Ltd And Another v. The Commissioner Meerut And 4 Others",
       "status": "done"
     }
   ]

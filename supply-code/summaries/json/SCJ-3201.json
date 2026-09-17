@@ -1,0 +1,109 @@
+{
+  "case_id": "SCJ-3201",
+  "title": "M/S Hind Industries Ltd And Another v. The Commissioner Meerut And 4 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Rohit Ranjan Agarwal, J.",
+  "date_of_judgment": "2019-03-28",
+  "date_display": "28 March 2019",
+  "docket": "Writ - C No. 10180 of 2019",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "split",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition partly allowed; appellate order dated 11.2.2019 set aside and the Section 127 appeal remitted to the Commissioner, Meerut Division, to decide in light of the Supply Code, 2005 within two months",
+  "headnote": "Where a consumer acquitted of electricity theft challenges a Section 127 appellate order that dismissed the appeal without deciding grounds invoking Clause 8.2(x)(g) and (h) of the U.P. Electricity Supply Code, 2005 — that a final theft assessment is subject to court adjudication, and that if the court holds theft not established the charges and assessment shall be withdrawn in writing and the connection restored through the original meter — and the licensee does not dispute those provisions, the writ court will set aside the dismissal and remit the appeal. It is incumbent on the appellate authority to consider those grounds, record findings, and decide the appeal in light of the Supply Code. The Court did not itself decide whether the acquittal required withdrawal of the assessment.",
+  "facts": "M/s Hind Industries Ltd., a public limited company with a factory at Ghaziabad and a sanctioned load of 1000 kVA, was inspected on 15 August 1997; the seal was found tampered and supply disconnected. An FIR for theft followed on 16 October 1997 under Sections 39 and 44 of the Electricity Act, 1910 (Case No. 2361 of 1998). On 14 March 2001 the Rajya Stariya Bijli Adalat directed a revised assessment, which the Executive Engineer enhanced from Rs.24,47,884 to Rs.1,22,55,783. The company was acquitted on 21 March 2001 as theft was not proved. After a 2002 writ and a 15 September 2011 demand of Rs.98,07,899 (writ and special appeal dismissed), the Supreme Court in 2014 directed the Commissioner to decide the issues. An appeal under Section 127 of the Electricity Act, 2003 was then filed.\n\nThe Commissioner, Meerut Division, dismissed that appeal on 11 February 2019. The company challenged the dismissal, saying Clause 8.2(x)(g) and (h) of the U.P. Electricity Supply Code, 2005 had been pleaded as additional grounds 10 and 11 but not decided on merits.",
+  "reusable_constructions": [
+    {
+      "construction": "A Section 127 appellate authority must consider the grounds raised in the appeal and record findings before dismissing it.",
+      "paras": "7-8"
+    },
+    {
+      "construction": "Where a consumer acquitted of theft invokes Clause 8.2(x)(g) and (h) of the U.P. Electricity Supply Code, 2005 in a Section 127 appeal, the appellate authority must consider those provisions and decide the appeal in their light.",
+      "paras": "5-8"
+    },
+    {
+      "construction": "A non-speaking Section 127 dismissal that does not address pleaded Clause 8.2(x)(g) and (h) grounds is set aside and the appeal remitted; the writ court does not itself decide whether the criminal acquittal extinguishes the theft assessment.",
+      "paras": "7-9"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act, 2003",
+      "clause": "127",
+      "topic": "appellate authority must record findings on grounds raised before dismissing the appeal",
+      "type": "electricity_act",
+      "question": "May a Section 127 appellate authority dismiss an appeal without recording findings on the grounds raised?",
+      "holding": "No. The Commissioner, Meerut Division, dismissed the company's Section 127 appeal without deciding on merits the grounds that invoked Clause 8.2(x)(g) and (h) of the Supply Code, 2005. It was incumbent on the appellate authority to consider those grounds and record findings before dismissing. The order dated 11.2.2019 is set aside and the appeal remitted to be decided in light of the Supply Code, 2005 within two months of production of a certified copy. The writ petition was partly allowed.",
+      "qualifier": "The Court did not itself apply Clause 8.2(x)(g) and (h) to withdraw the assessment or restore the connection.",
+      "paras": "7-9"
+    },
+    {
+      "provision": "UP-2005::8.2(x)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "8.2(x)(g) and (h)",
+      "topic": "Section 127 appellate authority must consider the acquittal-withdrawal clauses before dismissing",
+      "type": "interplay",
+      "question": "Where a consumer acquitted of theft invokes Clause 8.2(x)(g) and (h) in a Section 127 appeal, must the appellate authority consider those clauses before dismissing?",
+      "holding": "Yes. Senior counsel submitted that under Clause 8.2(x)(g) and (h) a final theft assessment is subject to court adjudication, and if the court holds theft not established the charges and assessment shall be withdrawn in writing and the connection restored through the original meter. Those points were pleaded as additional grounds 10 and 11. Counsel for the power corporation did not dispute the provisions. Having considered them, the Court held it incumbent on the appellate authority to record findings on the grounds so raised, set aside the 11.2.2019 dismissal, and remitted the appeal to be decided in light of the Supply Code, 2005.",
+      "qualifier": "The Court did not decide whether the 21.3.2001 acquittal required withdrawal of the assessment under those clauses.",
+      "paras": "5-8",
+      "flag": "Unnumbered order; paras are sequential blocks after the cause-title (1 heard; 2-4 facts; 5 petitioner; 6 licensee; 7 ratio; 8 remit; 9 partly allowed). Cited as Clause 8.2(x)(g) & (h); catalog parent UP-2005::8.2(x). Nested (g)/(h) taken as written. Court also wrote 'Electricity Code, 2005'."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "s127-appellate-authority-must-exercise-independent-judgment",
+      "application": "The Commissioner dismissed the Section 127 appeal without deciding the pleaded grounds on merits. The Court held it incumbent on the appellate authority to consider those grounds and record findings before dismissing, set aside the 11.2.2019 order, and remitted the appeal.",
+      "lead_authorities": [],
+      "paras": "7-8"
+    },
+    {
+      "tag": "appellate-authority-must-give-reasons-for-disagreeing-with-acquittal",
+      "application": "The company had been acquitted of theft on 21.3.2001 and pleaded that fact with Clause 8.2(x)(g) and (h) in the Section 127 appeal. The appellate authority dismissed without recording findings on those grounds. The dismissal was set aside and the appeal remitted; the Court did not itself treat the acquittal as extinguishing the assessment.",
+      "lead_authorities": [],
+      "paras": "5-8"
+    },
+    {
+      "tag": "clause-8.2x-acquittal-requires-withdrawal-of-theft-assessment",
+      "application": "Clause 8.2(x)(g) and (h) were invoked as additional grounds 10 and 11 (theft assessment subject to court adjudication; withdrawal and restoration if theft is not established). The licensee did not dispute the provisions. The Court directed the appellate authority to decide the appeal in light of the Supply Code, 2005, without itself ordering withdrawal.",
+      "lead_authorities": [],
+      "paras": "5-8"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether Clause 8.2(x)(g) and (h) required withdrawal of the theft assessment and restoration of the connection after the 21.3.2001 acquittal",
+      "note": "Left to the Commissioner, Meerut Division, on remand, to be decided in light of the Supply Code, 2005.",
+      "paras": "7-8"
+    },
+    {
+      "point": "Correctness or quantum of the assessment (Rs.24,47,884 / Rs.1,22,55,783 / Rs.98,07,899) and the effect of the Rajya Stariya Bijli Adalat order",
+      "note": "The writ court did not examine the assessment on merits.",
+      "paras": "2-4, 7-8"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Srichand Jain v. State of U.P. and others",
+      "citation": "2007 (2) AWC 1560",
+      "court": "Allahabad High Court",
+      "docid": "",
+      "proposition": "Relied on by the petitioner with Clause 8.2(x)(g) and (h); the Court did not discuss the decision.",
+      "cited_by": "Petitioner",
+      "treatment": "Relied on"
+    },
+    {
+      "name": "M/s Hasan Steel Pvt. Ltd. v. Pashchimanchal Vidyut Vitran Nigam Ltd.",
+      "citation": "2008 (7) ADJ 104",
+      "court": "Allahabad High Court",
+      "docid": "",
+      "proposition": "Relied on by the petitioner with Clause 8.2(x)(g) and (h); the Court did not discuss the decision.",
+      "cited_by": "Petitioner",
+      "treatment": "Relied on"
+    }
+  ]
+}
