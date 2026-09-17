@@ -1,0 +1,102 @@
+{
+  "case_id": "SCJ-3217",
+  "title": "Nitin Kumar Tyagi v. State of U.P. & 6 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Naheed Ara Moonis, J. & Vivek Varma, J.",
+  "date_of_judgment": "2020-10-22",
+  "date_display": "22 October 2020",
+  "docket": "Writ - C No. 17304 of 2020",
+  "page_count": 3,
+  "significance": "procedural",
+  "outcome": "pending",
+  "model": "Grok 4.6",
+  "disposition": "Stay of recovery citation against the petitioner-Director; recovery against the company (R-7) not restrained; listed with Writ-C No. 41064 of 2019; writ remains pending",
+  "headnote": "Where a Director of a private limited company-consumer challenges a demand notice, recovery certificate and Tehsildar citation issued in both names, and seeks to have Clause 4.3(f)(v) of the U.P. Electricity Supply Code, 2005 — under which recovery of a defaulting company-consumer's dues is to be ensured from its Directors — declared ultra vires the Electricity Act, 2003, and the same controversy is already under consideration in Writ-C No. 8370 of 2016 (Izharul Hauque), the Court calls for counters, lists this writ with Writ-C No. 41064 of 2019 (Navjot Singh), and directs that the recovery citation shall not be enforced against the petitioner-Director, without restraining recovery of the amount due against the company in accordance with law. The vires of Clause 4.3(f)(v), the Director's personal liability, and the prayer for return of Rs.5 lakhs are not decided.",
+  "facts": "Nitin Kumar Tyagi, a Director of respondent no. 7, a private limited company, petitioned the Allahabad High Court to quash a demand notice dated 22 January 2020, a recovery certificate dated 1 July 2020 of the Prescribed Authority (respondent no. 6), and a recovery citation dated 17 July 2020 of the Tehsildar (respondent no. 3), issued in the name of the company and of the petitioner. He also sought a mandamus restraining coercion, including arrest, to discharge the company's liabilities; a declaration that Clause 4.3(f)(v) of the U.P. Electricity Supply Code, 2005 is ultra vires the Electricity Act, 2003; and return of Rs.5 lakhs with interest. He contended that the company, not he, is the consumer, and that the same Director-liability controversy is pending in Writ-C No. 8370 of 2016 (Izharul Hauque v. State of U.P.). Counsel for the Electricity Department (respondents 5 and 6) appeared.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.3(f)(v)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.3(f)(v)",
+      "topic": "Interim stay of a recovery citation against a Director pending a connected vires challenge to Clause 4.3(f)(v); recovery against the company-consumer left open",
+      "type": "interplay",
+      "question": "Pending a connected challenge that Clause 4.3(f)(v), requiring recovery of a defaulting company-consumer's dues from its Directors, is ultra vires the Electricity Act, 2003, may a recovery citation against the petitioner-Director be stayed while recovery against the company remains open?",
+      "holding": "Not decided on merits. Reciting that Clause 4.3(f)(v) provides for recovery against the defaulting consumer and, where that consumer is a company, that recovery from its Directors shall be ensured, and that the same vires controversy is under consideration in Writ-C No. 8370 of 2016 (Izharul Hauque), the Court called for counters, issued notice to respondent no. 7, listed this writ with Writ-C No. 41064 of 2019 (Navjot Singh), and directed that the recovery citation shall not be enforced against the petitioner, without restraining enforcement of the amount due against respondent no. 7 in accordance with law. Clause 4.3(f)(v) was not construed.",
+      "qualifier": "Interlocutory (22.10.2020, Naheed Ara Moonis, J. and Vivek Varma, J.). Writ remains pending.",
+      "paras": "2-3",
+      "flag": "Unnumbered 22.10.2020 order treated as sequential blocks paras 1–3 (prayers; contention and quotation of Izharul Hauque 24.2.2016; Alok Kumar Mittal reliance, listing and interim). Catalog hits on other 4.3(f) sub-clauses (auction purchaser, landlord, first charge, IBC override, new-connection bar, director-liability retrospectivity/exhaustion of company assets) are false positives — only Clause 4.3(f)(v) is in issue. The 11.8.2006 UPERC amendment is not recited in this order."
+    },
+    {
+      "provision": "EA2003::2(15)",
+      "code": "Electricity Act, 2003",
+      "clause": "2(15) (definition of consumer)",
+      "topic": "Whether a Director of a company-consumer falls outside Section 2(15); not construed",
+      "type": "electricity_act",
+      "holding": "The petitioner sought a declaration that Clause 4.3(f)(v) is ultra vires the Electricity Act, 2003. The quoted Izharul Hauque order records that where a body corporate is the consumer as defined in Section 2(15), recovery cannot be enforced against its Directors. This Court did not construe Section 2(15).",
+      "paras": "1-2"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "interim-protection-pending-vires-challenge-to-supply-code-amendment",
+      "application": "Pending the connected challenge in Writ-C No. 8370 of 2016 to Clause 4.3(f)(v), the recovery citation shall not be enforced against the petitioner-Director, while recovery of the same dues against the company-consumer (R-7) remains open. This writ was listed with Writ-C No. 41064 of 2019 (Navjot Singh).",
+      "lead_authorities": [
+        {
+          "name": "Izharul Hauque v. State of U.P. and 6 Others",
+          "docid": ""
+        }
+      ],
+      "paras": "2-3"
+    },
+    {
+      "tag": "procedural-listing-no-construction",
+      "application": "Counters called for and the writ listed with Writ-C No. 41064 of 2019; Clause 4.3(f)(v), Section 2(15), the Director's personal liability, and the refund of Rs.5 lakhs remain unadjudicated.",
+      "lead_authorities": [],
+      "paras": "3"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether Clause 4.3(f)(v) of the U.P. Electricity Supply Code, 2005 is ultra vires the Electricity Act, 2003",
+      "note": "Raised as prayer (iii) and as the controversy pending in Writ-C No. 8370 of 2016; counters directed; no merits ruling.",
+      "paras": "1-3"
+    },
+    {
+      "point": "Whether recovery of the company's electricity dues can be enforced against the petitioner as a Director who is not the consumer",
+      "note": "Only an interim stay of the recovery citation against the petitioner; recovery against respondent no. 7 left open.",
+      "paras": "2-3"
+    },
+    {
+      "point": "Whether the respondents may coerce the petitioner, including by arrest, to discharge the company's liabilities",
+      "note": "Sought as prayer (ii); not separately ruled on beyond the stay of the citation against the petitioner.",
+      "paras": "1, 3"
+    },
+    {
+      "point": "Whether the respondents must return Rs.5 lakhs together with interest",
+      "note": "Sought as prayer (iv); not addressed.",
+      "paras": "1"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Izharul Hauque v. State of U.P. and 6 Others",
+      "citation": "Writ C No. 8370 of 2016, order dated 24.02.2016",
+      "court": "Allahabad High Court",
+      "docid": "",
+      "proposition": "Where a recovery citation is issued against both a private limited company-consumer and its Director, the challenge that Clause 4.3(f)(v) is ultra vires Section 2(15) of the Electricity Act, 2003 requires consideration; the citation shall not be enforced against the Director, without restraining recovery against the company.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Alok Kumar Mittal and another v. State of U.P. And others",
+      "citation": "Writ-C No. 39617 of 2017, dated 08.11.2017",
+      "court": "Allahabad High Court",
+      "docid": "",
+      "proposition": "The petitioner placed reliance on this Division Bench judgment; the present order does not recite its holding.",
+      "cited_by": "Petitioner",
+      "treatment": "Relied on"
+    }
+  ]
+}
