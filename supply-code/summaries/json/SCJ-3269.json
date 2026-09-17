@@ -1,0 +1,80 @@
+{
+  "case_id": "SCJ-3269",
+  "title": "Ranvir Singh v. State of U.P. And 2 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta, J. & Prashant Kumar, J.",
+  "date_of_judgment": "2023-03-29",
+  "date_display": "29 March 2023",
+  "docket": "Writ - C No. 27820 of 2022",
+  "page_count": 7,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition disposed of; the Court declined to examine the final assessment because it was not under challenge; petitioner left free to challenge that final assessment in appropriate proceedings, uninfluenced by the findings in the 01.07.2022 Clause 6.8 order",
+  "headnote": "Where a consumer, after a theft inspection and a final assessment, obtains a writ direction that a Clause 6.8 objection be decided, and then challenges only the later order rejecting that objection — an objection filed after the final assessment had already been passed — without putting the final assessment itself in issue, the writ court will not examine a contention that the final assessment is illegal for want of notice or hearing. The proper object of challenge is the final assessment. Liberty is reserved to challenge that assessment in appropriate proceedings, and findings in the Clause 6.8 rejection will not bind that later challenge. The Court did not quash the 01.07.2022 order, did not decide whether theft is governed by Clauses 8.1–8.2 rather than Clause 6.8, and did not examine the merits or quantum of the assessment.",
+  "facts": "Ranvir Singh challenged an order dated 1 July 2022 of the Executive Engineer, Viddhut Vitran Khand IInd, Etah, rejecting his objection under Clause 6.8 of the U.P. Electricity Supply Code, 2005. Inspection of his premises on 25 June 2020 found him extracting electricity directly from the main line. A final assessment and demand notice followed. He had earlier challenged the provisional assessment and demand in Writ No. 14657 of 2022, disposed of on 26 May 2022 with a direction to decide a Clause 6.8 objection, if filed, within four weeks. The 1 July 2022 order, passed in compliance, held that he had been found committing theft and recorded a final assessment dated 6 July 2021.\n\nThis writ was dismissed for want of prosecution on 22 November 2022 after adjournments, then restored on 29 March 2023. A copy of the final assessment was handed over in Court. He had not challenged that assessment, only the later order deciding the Clause 6.8 objection filed after it.",
+  "reusable_constructions": [
+    {
+      "construction": "A writ that attacks only the order deciding a Clause 6.8 objection filed after a final assessment, without putting that final assessment in issue, will not be used to examine the legality of the final assessment, including a plea of want of notice or hearing.",
+      "paras": "6-8"
+    },
+    {
+      "construction": "Where the writ court declines to examine a final assessment because it is not under challenge, findings in the later order deciding the Clause 6.8 objection will not bind a subsequent challenge to that final assessment.",
+      "paras": "8"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.8 (objection decided after a final assessment — writ against that order does not put the final assessment in issue)",
+      "topic": "A post-final-assessment Clause 6.8 rejection, unaccompanied by a challenge to the final assessment, is not a vehicle to test the final assessment",
+      "type": "supply_code",
+      "question": "May a writ court examine the legality of a final assessment — including want of notice or hearing — on a petition that challenges only a later order rejecting a Clause 6.8 objection filed after that final assessment?",
+      "holding": "No. The petitioner challenged the Executive Engineer's order dated 01.07.2022 rejecting a Clause 6.8 objection, passed pursuant to the 26.05.2022 direction in Writ No. 14657 of 2022. Inspection on 25.06.2020 had found him extracting electricity directly from the main line; a final assessment dated 06.07.2021 and a demand notice followed. The 01.07.2022 order held that he had been found committing theft. A copy of the final assessment was handed over in Court. He had not challenged that final assessment, only the later order deciding an objection filed after it. Counsel contended the final assessment was illegal for want of notice or hearing. Because the final assessment was not under challenge, the Court declined to examine that contention, left him free to challenge the final assessment in appropriate proceedings, and directed that findings in the 01.07.2022 order would not come in his way. The petition was disposed of.",
+      "qualifier": "The 01.07.2022 order and the 06.07.2021 final assessment were not quashed. The Court did not identify a Section 127 appeal or a numbered theft clause.",
+      "paras": "2-9",
+      "flag": "Source PDF concatenates listings of 13.10.2022 and 22.11.2022 (Sunita Agarwal and Vipin Chandra Dixit, JJ.; dismissed for want of prosecution on 22.11.2022), 20.2.2023 (Manoj Kumar Gupta and Syed Qamar Hasan Rizvi, JJ.), 28.2.2023 and 16.3.2023 (Manoj Kumar Gupta and Prashant Kumar, JJ.), with the 29.3.2023 restoration of Civil Misc. Restoration Application No. 2 of 2022 and the disposal. The disposing order is unnumbered; paras are sequential blocks of the 'Order on the Memo of the writ petition' on 29.3.2023 (1 heard; 2 challenge to 01.07.2022; 3 inspection and assessment; 4 earlier writ; 5 impugned order treating the case as theft; 6 final assessment not challenged; 7 want-of-hearing plea; 8 decline and liberty; 9 disposed). The Court and the earlier writ used 'Section 6.8' for the Code clause. The 01.07.2022 order treated the 25.06.2020 extraction from the main line as theft; Clauses 8.1–8.2 were not cited."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "consider-grievance-in-accordance-with-law-no-merits",
+      "application": "The Court declined to examine the 06.07.2021 final assessment because it was not under challenge, and disposed of the writ without deciding the theft finding, quantum, or the legality of the 01.07.2022 Clause 6.8 rejection on its own terms.",
+      "lead_authorities": [],
+      "paras": "6-9"
+    },
+    {
+      "tag": "alternative-remedy-relegation",
+      "application": "The petitioner was left free to challenge the final assessment in appropriate proceedings. Findings in the 01.07.2022 Clause 6.8 order will not bind that later challenge.",
+      "lead_authorities": [],
+      "paras": "8"
+    },
+    {
+      "tag": "apply-under-supply-code-consider-in-accordance-with-law",
+      "application": "No certiorari issued against the 01.07.2022 order or the final assessment. The electricity dispute was left to a subsequent challenge to the final assessment, uninfluenced by the Clause 6.8 findings.",
+      "lead_authorities": [],
+      "paras": "8-9"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the final assessment dated 06.07.2021 was illegal for want of notice or opportunity of hearing",
+      "note": "Expressly declined because that order was not under challenge. Left to a challenge in appropriate proceedings, uninfluenced by the 01.07.2022 findings.",
+      "paras": "7-8"
+    },
+    {
+      "point": "Whether Clauses 8.1–8.2 rather than Clause 6.8 govern a theft assessment, and the merits and quantum of the theft finding",
+      "note": "Inspection found extraction from the main line; the 01.07.2022 order treated the case as theft. The Court keyed the proceeding to Clause 6.8 as the earlier writ had done, without citing Clauses 8.1–8.2 or examining the assessment on merits.",
+      "paras": "3, 5-8"
+    },
+    {
+      "point": "Validity of the order dated 01.07.2022 on its own terms as a Clause 6.8 disposal",
+      "note": "The writ against that order was disposed of because the real grievance was the unchallenged final assessment, without a merits review of the 01.07.2022 reasons.",
+      "paras": "6-9"
+    }
+  ],
+  "authorities": []
+}
