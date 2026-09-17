@@ -1,0 +1,74 @@
+{
+  "case_id": "SCJ-3202",
+  "title": "Perfect Propbuild (P) Ltd. v. State of U.P. & 3 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "B. Amit Sthalekar, J. & Piyush Agrawal, J.",
+  "date_of_judgment": "2019-05-09",
+  "date_display": "9 May 2019",
+  "docket": "Writ - C No. 13068 of 2019",
+  "page_count": 5,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition dismissed; mandamus for a permanent single-point connection of 3500 KW refused",
+  "headnote": "After the 10 August 2018 amendment of Clause 4.9 of the U.P. Electricity Supply Code, 2005, a developer cannot obtain mandamus for a permanent single-point connection. Amended Clause 4.9 Part A requires that all new connections in multi-storey buildings, multiplexes, marriage halls, cooperative group housing societies and colonies be released only on a multiple-point basis for supply to individual owners or occupants; the developer's role is limited to developing electrical infrastructure (on a temporary connection) and handing it over to the licensee. A 2014 supply agreement that does not itself confer a permanent single-point connection, and that binds the consumer to the Supply Code as amended from time to time, cannot found such a mandamus. The writ was dismissed.",
+  "facts": "Perfect Propbuild (P) Ltd. sought a writ of mandamus directing the respondents to grant a permanent single-point electricity connection of 3500 KW at Plot No. GH-03B, Sector-77, Noida, District Gautam Budh Nagar. It relied on an agreement for supply of electrical energy dated 26 July 2014 (Annexure-5). Counsel for respondents 2 to 4 opposed the claim on the 10 August 2018 amendment of Clause 4.9 of the U.P. Electricity Supply Code, 2005, under which new connections in the specified classes of development are to be released only on a multiple-point basis to individual owners or occupants. Earlier listings on 15 April 2019 and 7 May 2019 had only sought instructions and adjourned the matter.",
+  "reusable_constructions": [
+    {
+      "construction": "After the 10 August 2018 amendment of Clause 4.9, a new connection in a multi-storey building, colony or similar development cannot be released as a permanent single-point connection; it may be released only on a multiple-point basis for supply to individual owners or occupants.",
+      "paras": "3, 6"
+    },
+    {
+      "construction": "A pre-amendment agreement for supply of electrical energy that does not itself grant a permanent single-point connection, and that binds the consumer to the Supply Code and its amendments, cannot found a mandamus for single-point supply after the 10 August 2018 amendment of Clause 4.9.",
+      "paras": "4-6"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.9",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.9 (as amended 10.8.2018)",
+      "topic": "amended Clause 4.9 bars a permanent single-point connection; new supply in the specified developments is multiple-point only",
+      "type": "supply_code",
+      "question": "After the 10 August 2018 amendment of Clause 4.9, can a developer obtain mandamus directing the licensee to grant a permanent single-point connection for a multi-storey or colony plot?",
+      "holding": "No. Amended Clause 4.9 Part A provides that all new connections in multi-storey buildings, multiplexes, marriage halls, cooperative group housing societies and colonies shall be released only on a multiple-point basis for supply of power to individual owners or occupants from the licensee. The developer's role is limited to developing electrical infrastructure, taking a temporary connection for that purpose, and handing the infrastructure over to the licensee, after which occupiers apply for individual connections. After the amendment the petitioner cannot be granted a permanent single-point connection. Mandamus was refused and the writ dismissed.",
+      "paras": "3, 6-7",
+      "flag": "The PDF is an order-sheet of three dates; only 9.5.2019 (B. Amit Sthalekar and Piyush Agrawal, JJ.) is the merits disposal. Paragraph pins are of that unnumbered disposal. Listing orders of 15.4.2019 and 7.5.2019 only sought instructions or adjourned."
+    },
+    {
+      "provision": "UP-2005::4.9",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.9 (as amended 10.8.2018) r/w supply agreement cl. 3(I)",
+      "topic": "a 2014 supply agreement incorporating Code amendments does not freeze a single-point entitlement",
+      "type": "interplay",
+      "question": "Does a 2014 agreement for supply of electrical energy entitle the developer to a permanent single-point connection notwithstanding the later Clause 4.9 amendment?",
+      "holding": "No. Counsel could not point to any clause of the 26 July 2014 agreement that related to providing a permanent single-point connection. Paragraph 3(I) of that agreement bound the consumer to the Supply Code, 2005 and the amendments and revisions thereto. The petitioner was therefore bound by Clause 4.9 as amended on 10 August 2018, and the agreement could not support mandamus for single-point supply.",
+      "qualifier": "The Court did not characterise the 2014 agreement as a temporary construction connection or as any other named class of supply; it held only that the agreement did not confer permanent single-point supply.",
+      "paras": "4-6"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "amended-clause-4.9-multi-point-release-mandate-2018",
+      "application": "The Court applied the 10.8.2018 amendment of Clause 4.9 as a complete bar to a developer's mandamus for a permanent single-point connection of 3500 KW at a Noida group-housing plot; new connections in the specified developments are to be released only on a multiple-point basis to individual owners or occupants.",
+      "lead_authorities": [],
+      "paras": "3, 6-7"
+    },
+    {
+      "tag": "clause-4.9-single-point-to-multipoint",
+      "application": "A 2014 supply agreement that did not itself grant permanent single-point supply, and that incorporated subsequent Code amendments, could not preserve a single-point claim against the 2018 multiple-point mandate.",
+      "lead_authorities": [],
+      "paras": "4-6"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether individual occupiers at Plot GH-03B were presently entitled to multiple-point connections, or whether any existing supply under the 2014 agreement should continue",
+      "note": "The Court refused mandamus for permanent single-point supply and did not direct release of individual connections or decide the status of any existing supply.",
+      "paras": "6-7"
+    }
+  ],
+  "authorities": []
+}
