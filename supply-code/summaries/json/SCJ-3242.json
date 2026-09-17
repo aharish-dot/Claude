@@ -1,0 +1,134 @@
+{
+  "case_id": "SCJ-3242",
+  "title": "Shikhar Nayal v. Uttar Pradesh Power Corporation Limited And 3 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sunita Agarwal, J. & Krishan Pahal, J.",
+  "date_of_judgment": "2021-11-08",
+  "date_display": "8 November 2021",
+  "docket": "Writ - C No. 21944 of 2021",
+  "page_count": 4,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition disposed of; Executive Engineer, EUDD-II, MVVNL Bareilly, directed to consider the new-connection application afresh after notice to the owner-father, record a finding on occupation, deal with the owner's objections, and decide independently in accordance with law within six weeks",
+  "headnote": "Where a son remaining in occupation of his father's house applies for a new connection after the father permanently disconnects supply amid a family dispute and withholds a no-objection certificate, want of the owner's consent is not, on the settled construction of Section 43(1) of the Electricity Act, 2003 read with Clause 4.4 of the U.P. Electricity Supply Code, 2005, a conclusive bar. Following Chandu Khamaru v. Smt. Nayan Malik, the Act takes care of a family dispute so that nobody is deprived of a connection only on that account; Clause 4.4 and Annexure 4.2 provide for an occupier's indemnity bond where the owner refuses consent. The writ court nevertheless did not itself grant the connection. It directed the Executive Engineer to consider the application afresh after notice to the owner, to record a finding on the petitioner's occupation, to deal in detail with the owner's objections, and to decide independently, without being influenced by the Court's observations, in accordance with law within six weeks.",
+  "facts": "Shikhar Nayal sought a new electricity connection for a house owned by his father, Mohan Singh Nayab. He had long lived there with his parents; the existing connection stood in the father's name. After the petitioner's marriage, his wife lodged criminal proceedings against the father. The father permanently disconnected the supply on 7 July 2021, was transferred to District Rampur, and thereafter lived there. The petitioner remained in the house with his wife. He applied online for a new connection on 7 July 2021; it was rejected on 12 July 2021 because the owner had refused a no-objection certificate. Representations to respondents 4 and 3 were also rejected on the same ground (the order recites those rejections as 21.8.2021 and 28.1.2021).\n\nHe contended that as the owner's son he was not in unauthorised occupation, and that Section 43(1) of the Electricity Act, 2003 read with Clause 4.4 of the U.P. Electricity Supply Code, 2005 entitles an occupier to a connection on an Annexure 4.2 indemnity bond where the owner withholds consent.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.4",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.4 (r/w Annexure 4.2) — occupier connection; indemnity bond where the owner refuses no-objection",
+      "topic": "occupier's application after the owner withholds NOC requires fresh consideration on the indemnity-bond path; occupation and the owner's objections to be decided by the licensee",
+      "type": "supply_code",
+      "question": "Where the owner-father has permanently disconnected supply and refused a no-objection certificate amid a family dispute, may the licensee treat want of that NOC as a conclusive bar to the occupier-son's new-connection application?",
+      "holding": "No, not as a conclusive bar on the settled construction of Clause 4.4. The Court accepted that Clause 4.4, in aid of Section 43, provides that an occupier who applies and cannot produce the owner's consent may be granted connection on the Annexure 4.2 indemnity bond, the bond being to indemnify the licensee if the occupier vacates. In light of that settled position, the request required fresh consideration. The Executive Engineer, Electricity Urban Distribution Division-II, Madhyanchal Vidyut Vitran Nigam Limited, Bareilly, is directed to consider the application afresh after notice to the owner-father, to record a finding on the petitioner's occupation, to deal in detail with the owner's objections, and to take an independent decision in accordance with law within six weeks, without being influenced by observations in the order. The writ petition was disposed of.",
+      "qualifier": "The Court did not mandamus grant of supply and did not itself find occupation. The direction is a time-bound remand after hearing the owner.",
+      "paras": "5-11",
+      "flag": "Unnumbered order; paras are sequential blocks after the cause-title (1 relief; 2 disconnection 7.7.2021; 3 application rejected 12.7.2021; 4 representations; 5 s.43(1) and Clause 4.4 / Annexure 4.2; 6 Chandu Khamaru and indemnity purpose; 7 fresh consideration; 8 direction to EE with occupation finding; 9 independent decision; 10 six weeks; 11 disposed of). The Court cited 'Clause 4.4' and Annexure 4.2, not a nested sub-clause. Representations are recited as rejected on 21.8.2021 and 28.1.2021; the latter date precedes the 7.7.2021 application as the order states it."
+    },
+    {
+      "provision": "EA2003::43",
+      "code": "Electricity Act, 2003",
+      "clause": "43(1)",
+      "topic": "owner or occupier may apply; family dispute is not a ground to deprive a person of a connection",
+      "type": "electricity_act",
+      "question": "Does Section 43(1) entitle an occupier, including a son remaining in the owner's house after a family dispute, to apply for supply so that the owner's refusal of NOC is not a conclusive bar?",
+      "holding": "Yes, as the settled construction applied on remand. Section 43(1) entitles the owner or occupant of premises to apply, and the licensee has a duty to provide connection. Following Chandu Khamaru, in a family dispute the Act takes full care for grant of connection and ensures that nobody is deprived of it only on account of an internal family dispute. That construction informed the direction to consider the application afresh; the Court did not itself order supply.",
+      "paras": "5-7, 9-10",
+      "flag": "The order recites Section 43(1) correctly, then says Chandu Khamaru interpreted 'Section 41(1)'. Recorded as written; the surrounding sentence is Section 43 r/w Clause 4.4."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-4.4-occupant-connection-on-indemnity-bond",
+      "application": "The occupier-son's application, rejected solely because the owner-father withheld a no-objection certificate after permanently disconnecting supply, was remitted for fresh consideration on the Clause 4.4 / Annexure 4.2 indemnity path.",
+      "lead_authorities": [
+        {
+          "name": "Chandu Khamaru v. Smt. Nayan Malik",
+          "docid": ""
+        }
+      ],
+      "paras": "5-8"
+    },
+    {
+      "tag": "occupier-entitled-to-connection-on-indemnity-bond-annexure-4.2",
+      "application": "The Court recited that Annexure 4.2 indemnifies the licensee where an occupier cannot produce the owner's consent, so that loss is recoverable if the occupier vacates; that path was the basis for directing fresh consideration, not a writ mandamus to connect.",
+      "lead_authorities": [
+        {
+          "name": "Chandu Khamaru v. Smt. Nayan Malik",
+          "docid": ""
+        }
+      ],
+      "paras": "5-6"
+    },
+    {
+      "tag": "s43-duty-to-supply-owner-or-occupier-correlative-right",
+      "application": "Section 43(1) was applied as entitling an owner or occupant to apply and as casting a duty on the licensee to supply; following Chandu Khamaru, a family dispute is not a ground to deprive a person of a connection.",
+      "lead_authorities": [
+        {
+          "name": "Chandu Khamaru v. Smt. Nayan Malik",
+          "docid": ""
+        }
+      ],
+      "paras": "5-7"
+    },
+    {
+      "tag": "occupier-needs-proof-of-occupancy-plus-indemnity-bond-clause-4.4",
+      "application": "Unlike a mandamus to connect without hearing the owner, this Bench directed notice to the owner-father, a recorded finding on the petitioner's occupation of the house, and a detailed dealing with the owner's objections before any decision on the application.",
+      "lead_authorities": [],
+      "paras": "8-10"
+    },
+    {
+      "tag": "direction-to-consider-connection-on-furnishing-4.4-or-annexure-4.2-documents",
+      "application": "The operative order directed the Executive Engineer to consider the application afresh in accordance with law within six weeks, independently and without being influenced by the Court's observations; the connection was not granted on the writ.",
+      "lead_authorities": [
+        {
+          "name": "Chandu Khamaru v. Smt. Nayan Malik",
+          "docid": ""
+        }
+      ],
+      "paras": "7-11"
+    },
+    {
+      "tag": "apply-under-supply-code-consider-in-accordance-with-law",
+      "application": "Relief was a time-bound remand to consider the new-connection application in accordance with law after hearing the owner, not a grant or refusal of supply.",
+      "lead_authorities": [],
+      "paras": "8-11"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner is in occupation of the premises so as to be an occupier entitled to apply",
+      "note": "The petitioner's live case. Expressly left to the Executive Engineer, who is to record a finding after notice to the owner.",
+      "paras": "8"
+    },
+    {
+      "point": "Whether the connection itself must be granted on an indemnity bond",
+      "note": "The Court recited the Clause 4.4 / Annexure 4.2 path as settled but directed only fresh consideration, independently and without being influenced by its observations.",
+      "paras": "7-11"
+    },
+    {
+      "point": "Merits of the family dispute, the wife's criminal proceedings against the father, and the legality of the 7.7.2021 permanent disconnection",
+      "note": "Recorded as the petitioner's case. Not adjudicated.",
+      "paras": "2-3, 8"
+    },
+    {
+      "point": "Objections of the owner-father to the new-connection application",
+      "note": "Directed to be dealt with in detail by the Executive Engineer; not decided on the writ.",
+      "paras": "8"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Chandu Khamaru v. Smt. Nayan Malik",
+      "citation": "AIR 2011 SCC 2897",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "As recited: in a family dispute the Electricity Act takes full care for grant of an electricity connection and ensures that nobody is deprived of a connection only on account of an internal family dispute.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}
