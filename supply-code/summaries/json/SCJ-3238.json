@@ -1,0 +1,76 @@
+{
+  "case_id": "SCJ-3238",
+  "title": "Rizwan Ahmad v. State of U.P. And 4 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Naheed Ara Moonis, J. & Saumitra Dayal Singh, J.",
+  "date_of_judgment": "2021-08-17",
+  "date_display": "17 August 2021",
+  "docket": "Writ - C No. 15882 of 2021",
+  "page_count": 7,
+  "significance": "ordinary",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition dismissed with costs of Rs.20,000; second writ against the 13.7.2020 theft assessment, after that relief was not pressed without liberty, and the challenge to the consequential recovery citation, refused",
+  "headnote": "A second writ against a theft assessment is an abuse of process and is not maintainable where, in an earlier petition, the consumer did not press the prayer to quash that assessment and liberty to challenge it again was neither sought nor granted. The Court also refused interference where theft was detected or alleged twice within a month and earlier writs had already granted installment and restoration indulgence. A writ against a recovery citation that is merely consequential to the assessment is not independently maintainable. Writ-C No. 15882 of 2021 was dismissed with costs of Rs.20,000. The Court did not decide whether the second inspection was mala fide, the quantum of either assessment, or the Clause 6.14 installment representation directed in the earlier order.",
+  "facts": "Rizwan Ahmad challenged an assessment dated 13.7.2020 and a recovery citation dated 25.6.2021 for Rs.4,92,419. On 29.5.2020 theft was detected at his business premises and a provisional demand of about Rs.36 lakh was raised. Writ-C No.12628 of 2020, disposed of on 1.9.2020, allowed objections to that provisional assessment. A final assessment of 12.10.2020 then demanded Rs.7,62,307; he claimed to have paid it in full, while the corporation said only Rs.6,40,000 had been deposited.\n\nA second inspection on 26.6.2020 again alleged theft and led to the 13.7.2020 assessment of Rs.4,92,374. In a later writ disposed of on 18.1.2021 (named as Writ C No.2076 of 2020) he did not press the challenge to that order, and the Court directed consideration of an installment representation under Clause 6.14 of the U.P. Electricity Supply Code, 2005, with restoration on the first installment. He now said the 26.6.2020 inspection was an eyewash because the premises were closed; the corporation said the gate was locked from inside and a tap wire had been put on the main line after the 29.5.2020 disconnection.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "8.1 (theft assessment — successive writ after not-pressed prayer)",
+      "topic": "Second writ against a theft assessment not pressed in an earlier petition, without liberty, is an abuse of process; no further indulgence where theft is alleged twice within a month",
+      "type": "interplay",
+      "question": "Can a consumer maintain a second writ to quash a theft assessment after not pressing that relief in an earlier petition, without liberty to challenge the same order again?",
+      "holding": "No. The present petition was an abuse of process. In earlier proceedings the petitioner had challenged the same assessment dated 13.7.2020 and, at the outset, did not press the prayer to quash it. That prayer was granted. Liberty to challenge the order again was neither sought nor granted. A second writ for the same cause is not permissible. Even otherwise the Court was not inclined to interfere where theft had been detected or alleged twice within a span of one month, the petitioner having already been granted enough indulgence on two earlier occasions. No further room survived for indulgence. The writ petition was dismissed with costs of Rs.20,000.",
+      "qualifier": "The abuse-of-process paragraph names Writ-C No.12628 of 2020 as the earlier petition in which 13.7.2020 was not pressed; the quoted 18.1.2021 order that records the not-pressed prayer is attributed to Writ C No.2076 of 2020. Recorded as the judgment states it.",
+      "paras": "9-11",
+      "flag": "Source PDF concatenates three unnumbered order-sheets: 16.7.2021 (adjourned; instructions), 3.8.2021 (numbered paras 1-3: deposit of Rs.7,62,307 under an order dated 10.01.2021 in Writ-C No.27067 of 2020 said to be unclear; supplementary affidavit; last opportunity for 17.8.2021), and this 17.8.2021 disposal. Pins are sequential unnumbered paragraphs of the 17.8.2021 order: (1) supplementary affidavit taken on record and heard; (2) challenge to assessment 13.7.2020 and recovery citation 25.6.2021 for Rs.4,92,419; (3) first inspection 29.5.2020, WP 12628/2020 disposed 1.9.2020, final assessment 12.10.2020 of Rs.7,62,307, deposit dispute; (4) second inspection 26.6.2020 and quoted 18.1.2021 order in Writ C No.2076 of 2020; (5) present prayers; (6)-(7) mala fide / eyewash submission; (8) corporation: gate locked from inside, tap wire after 29.5.2020 disconnection; (9) abuse of process, second writ not permissible; (10) no interference on two alleged thefts; recovery certificate consequent to 'the order dated 17.6.2020' not independently maintainable; (11) dismissed with costs Rs.20,000. The Court did not cite a Code clause. Theft assessments are keyed to Clause 8.1. Clause 6.14 appears only in the quoted 18.1.2021 order and was not applied here."
+    },
+    {
+      "provision": "UP-2005::8.1",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "8.1 (recovery of theft assessment)",
+      "topic": "Writ not maintainable against a recovery citation that is only consequential to the assessment",
+      "type": "interplay",
+      "question": "Is a writ independently maintainable against a recovery citation that is only consequential to the theft assessment under challenge?",
+      "holding": "No. The challenge to the recovery certificate was a consequential relief for which no writ petition is maintainable.",
+      "qualifier": "The holding describes the recovery as 'consequent to the order dated 17.6.2020'. The petition challenges the citation dated 25.6.2021 following the assessment dated 13.7.2020. Recorded as the judgment states it.",
+      "paras": "10-11",
+      "flag": "Paragraph numbers are those of the 17.8.2021 disposal mapped in the first holding unit. The Court did not cite a Code clause or a recovery statute."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "second-writ-same-assessment-not-pressed-without-liberty-abuse",
+      "application": "A later writ to quash the same theft assessment dated 13.7.2020, after that relief was not pressed in an earlier petition and liberty to challenge it again was neither sought nor granted, is an abuse of process and is not permissible. Distinct from second-writ-same-dispute-pending-misconceived: the earlier writ had been disposed of, not left pending.",
+      "lead_authorities": [],
+      "paras": "9"
+    },
+    {
+      "tag": "recovery-demand-notice-is-consequential-not-independently-challengeable",
+      "application": "The challenge to the recovery citation was held to be a consequential relief for which no writ petition is maintainable. Same cluster as SCJ-3177.",
+      "lead_authorities": [],
+      "paras": "10"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the 26.6.2020 inspection was mala fide or an eyewash because the premises were closed and the gate was not opened",
+      "note": "Raised by the petitioner from the 13.7.2020 report. The corporation said the gate was locked from inside and a tap wire was found on the main line. Not examined; the writ was dismissed as an abuse of process.",
+      "paras": "6-9"
+    },
+    {
+      "point": "Correctness or quantum of the 13.7.2020 assessment and of the Rs.4,92,419 recovery citation dated 25.6.2021",
+      "note": "Not examined on the merits.",
+      "paras": "2, 10-11"
+    },
+    {
+      "point": "Whether Rs.7,62,307 under the 12.10.2020 final assessment had been fully deposited, and whether the Clause 6.14 installment representation directed on 18.1.2021 had been decided or complied with",
+      "note": "The 3.8.2021 listing recorded that it was not clear the entire Rs.7,62,307 directed on 10.01.2021 in Writ-C No.27067 of 2020 had been deposited, or how the second demand had come into existence. The corporation said only Rs.6,40,000 had been paid. Clause 6.14 appears only in the quoted 18.1.2021 order. This disposal did not apply Clause 6.14 or decide the first-inspection demand.",
+      "paras": "3-4; order of 3.8.2021"
+    }
+  ],
+  "authorities": []
+}
