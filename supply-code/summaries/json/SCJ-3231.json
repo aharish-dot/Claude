@@ -1,0 +1,92 @@
+{
+  "case_id": "SCJ-3231",
+  "title": "Hari Ballabh Pandey v. State of U.P. And 3 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sunita Agarwal, J. & Jayant Banerji, J.",
+  "date_of_judgment": "2020-11-24",
+  "date_display": "24 November 2020",
+  "docket": "Writ - C No. 4765 of 2020",
+  "page_count": 7,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition disposed of; Executive Engineer directed to consider the new-connection application afresh in accordance with the Act and the Supply Code within four weeks; pending civil suit held no bar to consideration",
+  "headnote": "Pendency of a civil suit for a permanent injunction against an intending consumer is not a ground for the distribution licensee to refuse to consider an application for a new electricity connection, at least where no interim injunction is in force. The Executive Engineer's order declining to consider Hari Ballabh Pandey's request because Original Suit No. 9 of 2018 was pending could not stand on that footing: the trial court had rejected the interim-injunction application and the appeal had been dismissed. The licensee is obliged to consider the request in accordance with the Electricity Act, 2003 read with the U.P. Electricity Supply Code, 2005 and to take an expeditious decision. The writ court did not itself grant the connection; it directed the Executive Engineer, Dakshinanchal Vidyut Vitaran Nigam Limited, Khand, Chitrakoot, to give fresh consideration and decide in accordance with law within four weeks. Earlier writs attacking the original 6 September 2019 order had been dismissed as misconceived and as barred by Section 11 of the CPC; this Bench proceeded on the 14 January 2020 reiteration and did not decide whether those bars still applied.",
+  "facts": "Hari Ballabh Pandey applied to Dakshinanchal Vidyut Vitaran Nigam Limited, Khand, Chitrakoot, for a new electricity connection. The Executive Engineer, by order dated 6 September 2019, declined to consider that request because Original Suit No. 9 of 2018, instituted by respondent no. 4, was pending before the Civil Judge (Senior Division), Carvy, Chitrakoot. An order dated 14 January 2020 reiterated the same refusal.\n\nThe petitioner had first sought a mandamus to consider the application in Writ Petition No. 32792 of 2019, which was dismissed as misconceived because the 6 September 2019 order had not been challenged. A second writ (Writ-C No. 38064 of 2019) attacking that order was dismissed as barred by Section 11 of the Code of Civil Procedure, 1908 (res judicata). In the present petition he challenged the 14 January 2020 reiteration. The plaint of the civil suit was not on the High Court record; the first appellate court's order showed it was a suit for permanent injunction against the petitioner, the trial court had refused an interim injunction, and the appeal had been dismissed.",
+  "reusable_constructions": [
+    {
+      "construction": "Pendency of a civil suit for a permanent injunction against the applicant is not, by itself, a ground for a distribution licensee to refuse to consider a new-connection application, particularly where no interim injunction is operating.",
+      "paras": "5-6"
+    },
+    {
+      "construction": "A distribution licensee must consider a new-connection application in accordance with the Electricity Act, 2003 and the U.P. Electricity Supply Code, 2005, and decide it expeditiously, even if a private civil dispute relating to the premises is pending.",
+      "paras": "6"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.4",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.4 (new connection — Court cited the Code generally)",
+      "topic": "pending civil injunction suit is not a bar to considering a new-connection application",
+      "type": "supply_code",
+      "question": "May a distribution licensee refuse even to consider a new-connection application because a civil suit for injunction relating to the premises is pending?",
+      "holding": "No. The impugned order of 14.1.2020, reiterating 6.9.2019, declined to consider the petitioner's request solely because Original Suit No. 9 of 2018, instituted by respondent no. 4, was pending. The plaint was not on record; the first appellate court's order showed a suit for permanent injunction against the petitioner, the trial court had rejected the interim-injunction application, and the appeal had been dismissed. Pendency of that suit should not come in the way of considering the application. The Executive Engineer, Dakshinanchal Vidyut Vitaran Nigam Limited, Khand, Chitrakoot, is under obligation to consider the request in accordance with the Electricity Act, 2003 read with the Electricity Supply Code, 2005, give fresh consideration, and take an expeditious decision in accordance with law within four weeks of receipt of a copy of the order. The writ was disposed of accordingly; the Court did not itself grant the connection.",
+      "qualifier": "The Court directed consideration, not grant. It did not examine occupancy, title, arrears, or any other Code bar.",
+      "paras": "4-7",
+      "flag": "PDF is an order-sheet of six dates; only 24.11.2020 (Sunita Agarwal and Jayant Banerji, JJ.) is the merits disposal. Paragraph pins are of that unnumbered disposal (1 heard; 2 challenge to 14.1.2020 as reiteration of 6.9.2019; 3 prior WP 32792 of 2019 dismissed as misconceived and WP 38064 of 2019 dismissed as barred by CPC s.11; 4 merits: refusal because OS 9 of 2018 pending; 5 plaint not on record, suit for permanent injunction, interim refused, appeal dismissed; 6 pendency no bar, consider under the Act and Code within four weeks; 7 disposed of). The Court cited the Supply Code generally, not a numbered clause. Keyed to Clause 4.4 as the new-connection path this pending-dispute pattern matches (cf. SCJ-020, SCJ-1206); it could equally be Clauses 4.1/4.3. Place-name 'Carvy' and 'Vitaran' are as the order states. Listing orders of 10.2.2020 (nomination), 13.2.2020 (notice), 25.8.2020, 20.10.2020 and 17.11.2020 are procedural only. Catalog hits on EA2003::111, Clauses 6.4/6.9/6.45, arbitration s.11, and assessment-relegation tags are false positives."
+    },
+    {
+      "provision": "EA2003::43",
+      "code": "Electricity Act, 2003",
+      "clause": "43 (Court cited the Act generally)",
+      "topic": "licensee obliged to consider a new-connection request under the Act, notwithstanding a pending private suit",
+      "type": "electricity_act",
+      "question": "Does the Electricity Act, 2003 require the licensee to consider a new-connection application even while a private civil suit relating to the premises is pending?",
+      "holding": "Yes, as applied here. The Executive Engineer is under obligation to consider the request for grant of the electricity connection in accordance with the provisions of the Electricity Act, 2003 read with the Electricity Supply Code, 2005. Fresh consideration and an expeditious decision in accordance with law were directed within four weeks. The pending injunction suit was held not to stand in the way of that consideration.",
+      "qualifier": "The Court did not parse a numbered section of the Act and did not mandamus grant of supply.",
+      "paras": "6-7",
+      "flag": "The Act is cited without a section number. Keyed to Section 43 as the duty-to-supply provision this pattern matches; the Bench did not independently construe s.43."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "pending-private-dispute-no-ground-to-deny-supply",
+      "application": "Original Suit No. 9 of 2018 for a permanent injunction against the petitioner, with no interim injunction in force, was held not to justify the Executive Engineer's refusal even to consider a new-connection application for the premises.",
+      "lead_authorities": [],
+      "paras": "5-6"
+    },
+    {
+      "tag": "new-connection-duty-to-consider",
+      "application": "The Executive Engineer, DVVNL Khand, Chitrakoot, was held under obligation to consider the petitioner's new-connection request in accordance with the Electricity Act, 2003 and the Supply Code, 2005, and to decide it expeditiously within four weeks.",
+      "lead_authorities": [],
+      "paras": "6"
+    },
+    {
+      "tag": "pending-new-connection-consider-in-accordance-with-code",
+      "application": "The writ court did not grant the connection. It disposed of the petition by directing fresh consideration and a decision in accordance with the Act and the Code within a fixed time.",
+      "lead_authorities": [],
+      "paras": "6-7"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Entitlement to the new electricity connection on the merits",
+      "note": "The Court directed consideration in accordance with the Act and the Code and did not grant or refuse the connection, or examine occupancy, title, arrears, or other Code bars.",
+      "paras": "6-7"
+    },
+    {
+      "point": "Merits of Original Suit No. 9 of 2018, including title or possession of the premises",
+      "note": "The plaint was not on record. The Court used the first appellate court's description of the suit only to hold that its pendency should not block consideration of the connection application.",
+      "paras": "4-6"
+    },
+    {
+      "point": "Whether the present writ was itself barred by res judicata because the 14.1.2020 order merely reiterated the 6.9.2019 order",
+      "note": "The Bench recited that Writ Petition No. 32792 of 2019 had been dismissed as misconceived and Writ-C No. 38064 of 2019 as barred by CPC s.11, then proceeded to dispose of this petition on the 14.1.2020 reiteration without deciding whether those bars still applied.",
+      "paras": "2-3, 7"
+    }
+  ],
+  "authorities": []
+}
