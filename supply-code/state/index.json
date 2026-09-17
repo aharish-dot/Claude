@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3172,
+  "next_seq": 3173,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -19000,6 +19000,12 @@
       "case_id": "SCJ-3169",
       "source_basename": "WRIC(A)_56723_2016.pdf",
       "title": "M/S Totaram Weldmesh Industries And Another v. Paschimanchal Vidyut Vitran Nigam Limited And Another",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3171",
+      "source_basename": "CAPL(A)_280_2017.pdf",
+      "title": "Jaydev Singh v. Sri Pankaj Kumar, Exe. Engineer, E.D. Division Debai & Anr.",
       "status": "done"
     }
   ]
