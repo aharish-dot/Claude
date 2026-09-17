@@ -1,0 +1,87 @@
+{
+  "case_id": "SCJ-3232",
+  "title": "Pati Ram Verma v. U.P. Power Corporation Ltd. And 2 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Ramesh Sinha, J.; Ajit Kumar, J.",
+  "date_of_judgment": "2020-02-26",
+  "date_display": "26 February 2020",
+  "docket": "Writ - C No. 5743 of 2020",
+  "page_count": 4,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition disposed of; respondents to adjust the theft-assessment deposit against outstanding electricity charges and communicate the balance demand within ten days; petitioner to pay that balance within thirty days; supply restored forthwith; adjustment to abide the pending criminal appeal, with recovery of the assessment open if the acquittal is reversed",
+  "headnote": "Once a consumer is acquitted of theft under Section 135 of the Electricity Act, 2003, the final theft assessment automatically falls. A pending criminal appeal against that acquittal is a mere probability of reversal and does not keep the assessment alive. Amount deposited against the assessment is to be adjusted against outstanding regular electricity charges under Sub-Clause (h) of Clause 8.2 of the U.P. Electricity Supply Code, 2005; the licensee must communicate the balance demand within ten days; the consumer is to pay that balance within thirty days; and supply is to be restored forthwith. The adjustment abides the result of the pending appeal, and if the acquittal is reversed the licensee may recover the assessment amount.",
+  "facts": "Pati Ram Verma's electricity supply was disconnected for arrears. He challenged the Executive Engineer's order rejecting his representation: he had deposited about Rs 6 lakh against a final theft assessment, but regular electricity charges remained unpaid, and the licensee refused restoration until those charges were paid. He had been acquitted of theft under Section 135 of the Electricity Act, 2003 by the Additional Sessions Judge, Court No. 3, Kannauj, on 11 May 2018 in Sessions Trial No. 133 of 2016. He sought adjustment of that deposit against outstanding electricity charges under Sub-Clause (h) of Clause 8.2 of the U.P. Electricity Supply Code, 2005, and agreed to pay any remaining balance.\n\nThe licensee opposed adjustment because Criminal Appeal No. 122 of 2018 under Section 378 of the Code of Criminal Procedure was pending against the acquittal. After listings on 17 and 20 February 2020 for instructions on the amount deposited, Ramesh Sinha and Ajit Kumar, JJ. disposed of the writ on 26 February 2020.",
+  "reusable_constructions": [
+    {
+      "construction": "Once a consumer is acquitted of a charge under Section 135 of the Electricity Act, 2003, the final theft assessment automatically falls.",
+      "paras": "6"
+    },
+    {
+      "construction": "A pending criminal appeal against that acquittal is a mere probability of reversal and does not keep the final theft assessment alive.",
+      "paras": "6"
+    },
+    {
+      "construction": "Amount deposited against a theft assessment that has fallen on acquittal is to be adjusted against outstanding regular electricity charges under Sub-Clause (h) of Clause 8.2 of the U.P. Electricity Supply Code, 2005, and supply is to be restored forthwith, the consumer remaining liable to pay any balance of regular charges.",
+      "paras": "4, 7"
+    },
+    {
+      "construction": "The adjustment abides the result of the pending criminal appeal; if the acquittal is reversed and the consumer is convicted, the licensee may recover the amount of the final assessment.",
+      "paras": "7"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.2(x)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "8.2(h) (petitioner; catalog 8.2(x)(h) — withdrawal/adjustment of theft assessment after a court holds theft not established)",
+      "topic": "Acquittal under s.135 vacates the final theft assessment; the deposit is adjusted against regular charges and supply restored, even while a criminal appeal is pending, subject to recovery if the acquittal is reversed",
+      "type": "interplay",
+      "question": "Does a trial-court acquittal under Section 135 require the licensee to treat the final theft assessment as gone and to adjust the amount deposited against it, even though a criminal appeal against the acquittal is pending?",
+      "holding": "Yes. The Executive Engineer had refused restoration because only about Rs 6 lakh had been deposited against the final theft assessment and regular electricity charges remained unpaid. The petitioner, acquitted on 11.5.2018 in Sessions Trial No. 133 of 2016, invoked Sub-Clause (h) of Clause 8.2 for adjustment of that deposit against outstanding charges. The licensee's objection — that Criminal Appeal No. 122 of 2018 under Section 378 Cr.P.C. was pending, so adjustment would make later recovery difficult if the appeal succeeded — did not appeal to the Court. As on date the petitioner stood acquitted; mere probability of the appeal being allowed could not sustain the final assessment. Once he is acquitted under Section 135, the final assessment automatically goes. The respondents are directed to adjust the amount of the final assessment against outstanding electricity charges and communicate the balance demand within ten days; the petitioner shall pay that balance within thirty days; supply shall be restored forthwith. The adjustment abides the pending appeal, and if the petitioner is convicted it will be open to the respondents to recover the assessment amount.",
+      "qualifier": "Regular electricity charges remain payable after the theft-assessment deposit is adjusted. Restoration is directed forthwith; payment of any remaining regular balance is within thirty days of the fresh demand.",
+      "paras": "3-8",
+      "flag": "Petitioner invoked 'Sub-Clause (h) of Clause 8.2' of the 2005 Code (catalog parent UP-2005::8.2(x); the corpus keys the acquittal-withdrawal rule as 8.2(x)(h)). Not silently rekeyed; the Court did not quote the Code text. Source PDF concatenates listing orders of 17.2.2020 and 20.2.2020 with this 26.2.2020 disposal. The disposing order is unnumbered; paras are sequential blocks from 'Heard Sri Ashish Kumar' (1 heard; 2 disconnection for arrears; 3 impugned EE order; 4 petitioner's acquittal and 8.2(h) plea; 5 pending Crl. Appeal No. 122 of 2018; 6 assessment automatically goes; 7 adjust, demand, restore, abide appeal; 8 disposed)."
+    },
+    {
+      "provision": "EA2003::135",
+      "code": "Electricity Act, 2003",
+      "clause": "135 (effect of acquittal on the civil theft assessment)",
+      "topic": "Acquittal of the s.135 charge, as on date, vacates the final theft assessment despite a pending appeal",
+      "type": "electricity_act",
+      "question": "Does a pending Section 378 Cr.P.C. appeal against a Section 135 acquittal keep the licensee's final theft assessment alive?",
+      "holding": "No. As on date the petitioner has stood acquitted. On mere probability of the appeal being allowed, it cannot be said that the final assessment shall hold good. Once the petitioner is acquitted of the charge under Section 135, the final assessment order automatically goes. The adjustment directed in the writ will nonetheless abide the final result of Criminal Appeal No. 122 of 2018, and conviction will reopen recovery of the assessment amount.",
+      "paras": "6-7"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-8.2x-acquittal-requires-withdrawal-of-theft-assessment",
+      "application": "After the 11.5.2018 acquittal in Sessions Trial No. 133 of 2016, the Court held that the final theft assessment automatically goes. The amount deposited against it is to be adjusted against outstanding regular charges under Sub-Clause (h) of Clause 8.2, with restoration forthwith and payment of any remaining regular balance within thirty days.",
+      "lead_authorities": [],
+      "paras": "4, 6-7"
+    },
+    {
+      "tag": "pending-appeal-against-acquittal-does-not-sustain-theft-assessment",
+      "application": "The licensee argued that Criminal Appeal No. 122 of 2018 under Section 378 Cr.P.C. made adjustment inappropriate because later recovery would be difficult if the acquittal were reversed. The Court rejected that: as on date the consumer stood acquitted, and mere probability of the appeal succeeding does not keep the final assessment alive. The adjustment is to abide the appeal, with recovery open on conviction.",
+      "lead_authorities": [],
+      "paras": "5-7"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Quantum of remaining regular electricity charges after adjustment of the theft-assessment deposit",
+      "note": "Left to the respondents' communication of a fresh balance demand within ten days.",
+      "paras": "7"
+    },
+    {
+      "point": "Merits of Criminal Appeal No. 122 of 2018 and whether theft is ultimately established",
+      "note": "The adjustment abides the appeal; the Court did not examine the acquittal on evidence.",
+      "paras": "5-7"
+    }
+  ],
+  "authorities": []
+}
