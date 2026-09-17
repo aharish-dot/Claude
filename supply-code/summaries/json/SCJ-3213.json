@@ -1,0 +1,87 @@
+{
+  "case_id": "SCJ-3213",
+  "title": "M/S Balji Ice And Chilling Plant v. State of U.P. And 2 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sunita Agarwal, J.; Jayant Banerji, J.",
+  "date_of_judgment": "2020-12-14",
+  "date_display": "14 December 2020",
+  "docket": "Writ - C No. 13671 of 2020",
+  "page_count": 8,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition disposed of; petitioner relegated to the Consumer Grievance Redressal Forum under Regulation 7.10 of the 2007 CGRF Regulations or to the competent authority under the Electricity Supply Code, 2005",
+  "headnote": "Where a consumer challenges a demand notice and disconnection and disputes a tariff change from LMV-6 to HV-2, alleging want of inspection and show cause, but the licensee has placed an MRI report and a case of increased consumption on the record, the controversy requires a factual inquiry that the writ court will not undertake under Article 226. The appropriate course is to approach the Consumer Grievance Redressal Forum under Regulation 7.10 of the U.P. Electricity Regulatory Commission (Consumer Grievance Redressal Forum & Electricity Ombudsman) Regulations, 2007, or the competent authority under the Electricity Supply Code, 2005. The writ is disposed of. The Court rejected as incorrect the specific plea that the demand notice issued without inspection or show cause, because an MRI report of the connection was appended to the counter affidavit; it did not decide the correct tariff, the quantum of the demand, or restoration.",
+  "facts": "M/s Balji Ice and Chilling Plant petitioned the Allahabad High Court against the State of U.P. and electricity respondents. It challenged a notice dated 23 June 2020 demanding Rs.13,03,258 and the disconnection of its electricity connection on 11 June 2020, and sought refund or adjustment of alleged excess charges for applying the HV-2 tariff instead of LMV-6, compensation for illegal disconnection, and a mandamus to restore supply. Counsel submitted that the notice had issued without inspection of the premises or a show-cause opportunity on the tariff change. The licensee's counter affidavit appended an MRI report of the connection to justify the tariff change and the demand, and stated in several paragraphs that consumption had increased. After listing and time-extension orders from 9 September 2020, a Division Bench heard the petition on 14 December 2020.",
+  "holding_units": [
+    {
+      "provision": "CGRF-2007::7.10",
+      "code": "U.P. Electricity Regulatory Commission (Consumer Grievance Redressal Forum & Electricity Ombudsman) Regulations, 2007",
+      "clause": "7.10",
+      "topic": "tariff and billing dispute requiring factual inquiry — writ court will not inquire; consumer relegated to CGRF",
+      "type": "interplay",
+      "question": "Where a consumer disputes a tariff change (LMV-6 to HV-2) and a demand/disconnection, and the licensee relies on an MRI report and increased consumption, will the writ court try those facts or relegate the consumer to the CGRF?",
+      "holding": "The writ court will not make that factual inquiry under Article 226. The appropriate course is to approach the Consumer Grievance Redressal Forum under Regulation 7.10 of the 2007 CGRF Regulations, or the competent authority under the Electricity Supply Code, 2005. The petitioner's plea that the 23.6.2020 notice issued without inspection or show cause was not accepted, because an MRI report of the connection was on the counter affidavit. The writ petition was disposed of.",
+      "qualifier": "The Court did not quash the demand, order restoration, or decide the correct tariff; it only declined Article 226 on the ground that a factual inquiry was required.",
+      "paras": "5-6",
+      "flag": "Source PDF concatenates seven unnumbered sittings (9.9.2020–14.12.2020). Paras are sequential blocks of the operative 14.12.2020 order only (1 heard; 2 prayers; 3 no-inspection submission; 4 MRI/increased consumption; 5 factual inquiry and Regulation 7.10 / Supply Code route; 6 disposed of). Court cited Regulation 7.10 of the 2007 CGRF Regulations, not clause 7.10 of the Supply Code; catalog auto-hit UP-2005::7.10 and UP-2005::17.10 from the numeral. Keyed as spoken."
+    },
+    {
+      "provision": "UP-2005::(unspecified)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "unspecified — competent authority",
+      "topic": "alternative course to the competent authority under the Supply Code, 2005",
+      "type": "supply_code",
+      "question": "Besides the CGRF under Regulation 7.10 of the 2007 Regulations, may the consumer also approach the competent authority under the Electricity Supply Code, 2005?",
+      "holding": "Yes. The Court identified, as an alternative to the Forum, approaching the competent authority under the Electricity Supply Code, 2005. It did not name a clause.",
+      "paras": "5",
+      "flag": "No numbered Code clause was cited. Not to be read as clause 7.10 of the Supply Code."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "disputed-bill-relegated-to-cgrf-clause-7.10",
+      "application": "The challenge to the 23.6.2020 demand of Rs.13,03,258, the 11.6.2020 disconnection, and the LMV-6/HV-2 tariff change was disposed of by sending the consumer to the CGRF under Regulation 7.10 of the 2007 Regulations (or the competent authority under the Supply Code) because a factual inquiry was required.",
+      "lead_authorities": [],
+      "paras": "5-6"
+    },
+    {
+      "tag": "disputed-questions-of-fact-not-adjudicable-under-article-226",
+      "application": "The Court held it was not possible in Article 226 to make a factual inquiry into the disputed tariff plan and levy of electricity bills, even after recording that an MRI report had been placed on the counter affidavit.",
+      "lead_authorities": [],
+      "paras": "5"
+    },
+    {
+      "tag": "cgrf-jurisdiction-covers-billing-and-tariff-disputes",
+      "application": "A dispute over change of tariff from LMV-6 to HV-2, the resulting demand, and disconnection was treated as a matter for the Consumer Grievance Redressal Forum (or the Code authority), not the writ court.",
+      "lead_authorities": [],
+      "paras": "5"
+    },
+    {
+      "tag": "cgrf-7.10-alternate-remedy",
+      "application": "Article 226 was declined without prejudice to approaching the Forum under Regulation 7.10 of the 2007 CGRF Regulations or the competent authority under the Supply Code, 2005.",
+      "lead_authorities": [],
+      "paras": "5-6"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether HV-2 or LMV-6 was the correct tariff, and whether Rs.13,03,258 was due",
+      "note": "Left to the CGRF or the competent authority under the Supply Code as a factual inquiry.",
+      "paras": "5"
+    },
+    {
+      "point": "Legality of the 11.6.2020 disconnection, restoration, and compensation",
+      "note": "Prayers for mandamus to restore supply and for compensation were not granted or refused on the merits.",
+      "paras": "2, 5-6"
+    },
+    {
+      "point": "Whether the MRI report and the asserted increase in consumption actually justified the tariff change",
+      "note": "The MRI report was used only to reject the plea that there had been no inspection or show cause; the Court then held that the tariff and billing issue still required a factual inquiry.",
+      "paras": "4-5"
+    }
+  ],
+  "authorities": []
+}

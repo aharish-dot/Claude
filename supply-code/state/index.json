@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3216,
+  "next_seq": 3217,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -19264,6 +19264,12 @@
       "case_id": "SCJ-3214",
       "source_basename": "WRIC(A)_14132_2020.pdf",
       "title": "Manoj Kumar v. State of U.P. & 3 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3213",
+      "source_basename": "WRIC(A)_13671_2020.pdf",
+      "title": "M/S Balji Ice And Chilling Plant v. State of U.P. And 2 Others",
       "status": "done"
     }
   ]
