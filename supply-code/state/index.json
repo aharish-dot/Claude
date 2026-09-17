@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3183,
+  "next_seq": 3184,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -19066,6 +19066,12 @@
       "case_id": "SCJ-3179",
       "source_basename": "WRIC(A)_48874_2017.pdf",
       "title": "Chitrapal v. State of U.P. And 3 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3181",
+      "source_basename": "WRIC(A)_59452_2017.pdf",
+      "title": "Rahul Pandey v. Kanpur Electricity Supply Co. And 4 Others",
       "status": "done"
     }
   ]
