@@ -1,0 +1,70 @@
+{
+  "case_id": "SCJ-3204",
+  "title": "Pati Ram Verma v. U.P. Power Corporation Ltd. And 2 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Pradeep Kumar Singh Baghel, J. & Pankaj Bhatia, J.",
+  "date_of_judgment": "2019-01-18",
+  "date_display": "18 January 2019",
+  "docket": "Writ - C No. 1472 of 2019",
+  "page_count": 3,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition disposed of; petitioner to file a comprehensive representation before respondent no.3 within two weeks; respondent no.3 to decide it within three months of production of the certified copy, in accordance with law",
+  "headnote": "Where a consumer, after acquittal in a Section 135 theft prosecution, seeks a writ directing the licensee to withdraw the theft assessment and adjust a deposit of Rs 6 lakh under clause 8.2(X)(h) of the U.P. Electricity Supply Code, 2005, and the licensee informs the Court that an appeal against the acquittal is pending, the writ court will not itself withdraw the assessment or order the refund. The respondents are bound to take a decision on the consumer's application in accordance with law. The petitioner is directed to file a comprehensive representation before respondent no.3 within two weeks; that respondent shall decide it within three months of production of the certified copy of the order. The Court did not decide whether a pending appeal without stay postpones the clause 8.2(X)(h) duty to withdraw the assessment.",
+  "facts": "Pati Ram Verma held a valid electricity connection (No. 2110/08716). On 12 May 2016 a case of theft of electricity was lodged against him under Section 135 of the Electricity Act, 2003 at P.S. Tirwa, District Kannauj, and an assessment on the basis of theft was made. He deposited Rs 6 lakh towards that assessment. Case Crime No. 222 of 2016 was decided in his favour by the trial court on 11 May 2018; he was acquitted. After the acquittal he contended that the respondents were bound to withdraw the assessment and to adjust the deposit. He relied on clause 8.2(X)(h) of the U.P. Electricity Supply Code, 2005, and had moved an application on 24 September 2018. Counsel for U.P. Power Corporation Ltd. informed the Court that Application u/s 378 No. 122 of 2018 had been filed against the acquittal. The petitioner argued that, no stay having been granted in that appeal, the licensee was nevertheless bound to act under clause 8.2(X)(h).",
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.2(x)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "8.2(X)(h) (withdrawal of theft charges and assessment if the court holds theft is not established)",
+      "topic": "Acquittal-based withdrawal of theft assessment under 8.2(X)(h) relegated to a time-bound representation; writ court does not itself withdraw or refund",
+      "type": "supply_code",
+      "question": "Where the consumer has been acquitted of theft under Section 135 and invokes clause 8.2(X)(h) for withdrawal of the assessment and adjustment of the deposit, but an appeal against the acquittal is pending without stay, will the writ court itself grant that withdrawal?",
+      "holding": "No. The Court recited clause 8.2(X)(h) — if the court decides that theft is not established, the charges and assessment shall be withdrawn in writing and the connection restored through the original meter — and recorded that Application u/s 378 No. 122 of 2018 had been filed against the 11.5.2018 acquittal. It held only that the respondents are bound to take a decision on the petitioner's application in accordance with law. The petitioner is to file a comprehensive representation before respondent no.3 within two weeks; respondent no.3 shall take an appropriate decision within three months of production of the certified copy of the order, in accordance with law. The petition is disposed of.",
+      "qualifier": "The Court did not decide the effect of the pending appeal, or whether the 11.5.2018 acquittal is a 'decision of the Court that theft is not established' while that appeal remains pending.",
+      "paras": "5-7",
+      "flag": "Court cited 'Section 8.2 (X) (h)' of the Electricity Supply Code, 2005 (catalog parent UP-2005::8.2(x)); nested (h) taken as written. Extract is unnumbered; paras are sequential blocks of the 18.1.2019 order from 'The petitioner has filed the present petition'. No precedent cited."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "apply-under-supply-code-consider-in-accordance-with-law",
+      "application": "The writ seeking withdrawal of the theft assessment and adjustment of the Rs 6 lakh deposit under clause 8.2(X)(h) was disposed of by directing a comprehensive representation to respondent no.3, to be decided within three months in accordance with law, without granting or refusing that relief.",
+      "lead_authorities": [],
+      "paras": "5-6"
+    },
+    {
+      "tag": "consider-grievance-in-accordance-with-law-no-merits",
+      "application": "The Court held only that the respondents are bound to take a decision on the petitioner's 24.9.2018 application in accordance with law. It did not withdraw the assessment, order the refund, or construe the effect of the pending s.378 appeal.",
+      "lead_authorities": [],
+      "paras": "5-6"
+    },
+    {
+      "tag": "clause-8.2x-acquittal-requires-withdrawal-of-theft-assessment",
+      "application": "The petitioner invoked clause 8.2(X)(h) after acquittal in Case Crime No. 222 of 2016, arguing that the absence of stay in Application u/s 378 No. 122 of 2018 still required withdrawal of the assessment. The Court recited the clause but left it to the licensee's time-bound decision on the representation; it did not apply the clause as a writ mandamus.",
+      "lead_authorities": [],
+      "paras": "2, 4-6"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether clause 8.2(X)(h) requires withdrawal of the theft assessment and adjustment of the Rs 6 lakh deposit after the 11.5.2018 acquittal, despite a pending s.378 appeal without stay",
+      "note": "The petitioner's live prayer. Left to respondent no.3 on the directed representation. The Court recorded the appeal (Application u/s 378 No. 122 of 2018) but did not decide its effect.",
+      "paras": "3-6"
+    },
+    {
+      "point": "Whether the trial-court acquittal dated 11.5.2018 is a 'decision of the Court that theft is not established' while the appeal remains pending",
+      "note": "The trigger language of clause 8.2(X)(h) as recited. Not construed.",
+      "paras": "2, 5-6"
+    },
+    {
+      "point": "Entitlement to restoration of supply through the original meter under clause 8.2(X)(h)",
+      "note": "The recited clause also requires restoration through the original meter. The order does not record the connection status and does not direct restoration.",
+      "paras": "2, 5-6"
+    }
+  ],
+  "authorities": []
+}
