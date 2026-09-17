@@ -1,0 +1,108 @@
+{
+  "case_id": "SCJ-3209",
+  "title": "Gufaran v. Paschimanchal Vidyut Vitran Nigam Limited And 2 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sudhir Agarwal, J.; Rajeev Misra, J.",
+  "date_of_judgment": "2019-10-31",
+  "date_display": "31 October 2019",
+  "docket": "Writ - C No. 34972 of 2019",
+  "page_count": 4,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of; CGRF observations on merits disregarded; petitioner relegated to reply to the 04.07.2019 provisional assessment before the Assessing Officer, who shall pass an appropriate order in accordance with law",
+  "headnote": "Where a consumer challenges a Consumer Grievance Redressal Forum order rejecting a complaint of theft and extra-load assessment for want of jurisdiction, and also challenges a section 126 provisional assessment notice, and counsel does not dispute the Forum's lack of jurisdiction, the writ court will not interfere with that finding. Observations on unauthorised use made by the Forum after holding it had no jurisdiction are not an expression of opinion on the merits; the assessing officer must examine the matter independently. A writ against the provisional assessment notice is premature where no reply has been filed: alleged non-compliance with section 126, including points drawn from Mohit Paper Mills, Ashok Kumar and Oryx Fisheries, can be raised before the Assessing Officer. Oryx Fisheries is distinguishable where the complaint is not that necessary facts were not recorded in the show-cause notice. If a reply is submitted, the Assessing Officer shall examine it and pass an appropriate order in accordance with law.",
+  "facts": "Gufaran petitioned the Allahabad High Court against Paschimanchal Vidyut Vitran Nigam Limited and two others. He challenged the 18 September 2019 order of the Consumer Grievance Redressal Forum, Saharanpur, which had rejected his complaint for want of jurisdiction, holding that the remedy lay under sections 126 and 127 of the Electricity Act, 2003 read with Clause 8.1 of the Electricity Supply Code, 2005. He also challenged a provisional assessment notice dated 4 July 2019 issued by the Executive Engineer, Electricity Distribution Division, Deoband, District Saharanpur.\n\nThe dispute concerned assessment proceedings on allegations of theft and extra load. Counsel did not dispute that the Forum lacked jurisdiction, but submitted that observations in the Forum's order on unauthorised use would prejudice him, and that the 4 July 2019 show-cause notice was not in accordance with section 126, citing Mohit Paper Mills, Ashok Kumar and Oryx Fisheries. No reply to the show-cause notice had been filed.",
+  "holding_units": [
+    {
+      "provision": "EA2003::126",
+      "code": "Electricity Act, 2003",
+      "clause": "126",
+      "topic": "CGRF has no jurisdiction over a theft/extra-load assessment; merits observations after declining jurisdiction do not bind the assessing officer",
+      "type": "interplay",
+      "question": "Where the Consumer Grievance Redressal Forum rejects a complaint of theft and extra-load assessment for want of jurisdiction, may its observations on unauthorised use still bind the assessing officer?",
+      "holding": "No. Because the dispute related to assessment proceedings on allegations of theft and extra load of electricity, the Forum rightly held that it had no jurisdiction; counsel did not dispute that finding. Observations in the 18 September 2019 order regarding unauthorised use of electricity shall not be treated as an expression of opinion of the Forum on the merits. The competent authority shall examine the matter independently, ignoring those observations.",
+      "paras": "4-5",
+      "flag": "The Court did not cite section 42(5) or the CGRF Regulations. The Forum (and the Court in reciting it) located the consumer's remedy in sections 126 and 127 read with Clause 8.1 of the Supply Code, 2005. Extra load was lumped with theft for the jurisdictional holding; the Court did not decide whether extra load was theft (Clause 8.1) or other unauthorised use (Clause 6.8)."
+    },
+    {
+      "provision": "EA2003::126",
+      "code": "Electricity Act, 2003",
+      "clause": "126",
+      "topic": "writ against a s.126 provisional assessment notice is premature until a reply is filed before the Assessing Officer",
+      "type": "electricity_act",
+      "question": "May a consumer who has not replied to a section 126 provisional assessment/show-cause notice have that notice quashed in writ on alleged non-compliance with the statute and Oryx Fisheries?",
+      "holding": "No. Whether the 4 July 2019 assessment notice accorded with the statute and with Mohit Paper Mills and Ashok Kumar could have been pointed out by submitting a reply before the Assessing Officer. No reply having been filed, the challenge was premature. Oryx Fisheries did not assist: there, necessary facts were not specifically recorded in the show-cause notice. The petitioner has the remedy of a reply raising all grievances; if a reply is submitted, the Assessing Officer shall examine it and pass an appropriate order in accordance with law.",
+      "paras": "6-9",
+      "flag": "Counsel is recorded as invoking 'section 126 of Act, 2005'; the Court treated the provision as section 126 of the Electricity Act, 2003. The Court did not cite subsection (3) or a numbered Supply Code clause for the reply, and did not examine the text of the 4 July 2019 notice."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "cgrf-ombudsman-no-jurisdiction-over-s126",
+      "application": "The Forum's rejection of the complaint for want of jurisdiction was affirmed: a theft and extra-load assessment is for sections 126 and 127 read with Clause 8.1, not the CGRF.",
+      "lead_authorities": [],
+      "paras": "4"
+    },
+    {
+      "tag": "cgrf-merits-observations-not-binding-after-declining-jurisdiction",
+      "application": "Having held it had no jurisdiction, the Forum's observations on unauthorised use were directed not to be treated as an opinion on the merits; the assessing officer must decide independently.",
+      "lead_authorities": [],
+      "paras": "5"
+    },
+    {
+      "tag": "premature-writ-against-provisional-s126-assessment",
+      "application": "The writ against the 4 July 2019 provisional assessment notice was held premature because the petitioner had not submitted a reply and could raise all grievances, including alleged non-compliance with section 126, before the Assessing Officer.",
+      "lead_authorities": [],
+      "paras": "8-9"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the 4 July 2019 provisional assessment notice complied with section 126 and with Mohit Paper Mills and Ashok Kumar",
+      "note": "Left to a reply before the Assessing Officer; the Court did not examine the notice.",
+      "paras": "6-9"
+    },
+    {
+      "point": "Whether theft or extra load / unauthorised use was made out, and the quantum of any assessment",
+      "note": "The CGRF observations on unauthorised use were stripped of effect; the Assessing Officer is to examine the matter on the merits independently.",
+      "paras": "4-5, 9"
+    },
+    {
+      "point": "Whether extra load was theft under Clause 8.1 or other unauthorised use under Clause 6.8",
+      "note": "The Court treated theft and extra load together only for CGRF jurisdiction and did not classify the demand.",
+      "paras": "4"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "M/s Mohit Paper Mills Ltd. & Anr. v. PVVNL & Ors.",
+      "citation": "2011 (9) ADJ 239",
+      "court": "Allahabad High Court",
+      "docid": "57045694",
+      "proposition": "Cited by the petitioner for the contention that the 4 July 2019 show-cause notice was not in accordance with section 126; the Court did not apply or extract its ratio and left any such objection to a reply before the Assessing Officer.",
+      "cited_by": "Petitioner",
+      "treatment": "Referred"
+    },
+    {
+      "name": "Ashok Kumar & Others v. State of U.P. & Others",
+      "citation": "2008 (6) ADJ 660",
+      "court": "Allahabad High Court",
+      "docid": "897981",
+      "proposition": "Cited by the petitioner, with Mohit Paper Mills, for the same contention that the show-cause notice did not accord with section 126; the Court did not apply or extract its ratio and left any such objection to a reply before the Assessing Officer.",
+      "cited_by": "Petitioner",
+      "treatment": "Referred"
+    },
+    {
+      "name": "Oryx Fisheries Private Limited v. Union of India and Others",
+      "citation": "2010 (13) SCC 427",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "A quasi-judicial authority must act with an open mind at the show-cause stage and must not confront the noticee with definite conclusions of guilt (paras 23, 24, 27 and 29 quoted). Distinguished: in that case necessary facts were not specifically recorded in the show-cause notice.",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished"
+    }
+  ]
+}
