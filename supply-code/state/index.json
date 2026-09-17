@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3201,
+  "next_seq": 3202,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -19174,6 +19174,12 @@
       "case_id": "SCJ-3198",
       "source_basename": "BAIL(L)_9874_2019.pdf",
       "title": "Kranti Gupta v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3199",
+      "source_basename": "CAPL(A)_2896_2019.pdf",
+      "title": "Vikram Agrawal v. Ajay Kumar, Executive Engineer And Another",
       "status": "done"
     }
   ]
