@@ -1,0 +1,70 @@
+{
+  "case_id": "SCJ-3222",
+  "title": "Amit Shaker Amist v. Paschimanchal Vidyut Vitran Nigam Ltd. Meerut And 3 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Saral Srivastava, J. & Satya Veer Singh, J.",
+  "date_of_judgment": "2026-07-23",
+  "date_display": "23 July 2026",
+  "docket": "Writ - C No. 21458 of 2020",
+  "page_count": 9,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition disposed of; petitioner to file a representation against the demand notice dated 27.08.2020 before the Executive Engineer, PVVNL Noida, within one month; that officer to decide it in accordance with law after notice and hearing within one further month; the demand shall abide that decision; excess payment, if found, to be adjusted in future bills",
+  "headnote": "Where a consumer challenges a demand notice and a later electricity bill as issued without notice or opportunity of hearing, and the licensee says the notice itself contains elaborate reasons, the writ court, finding on the face of the notice that no prior hearing was afforded and that the notice is cryptic and non-speaking, will hold that the demand cannot be sustained as a violation of natural justice. It will not, however, quash the demand. The consumer is permitted to file a representation against the demand notice before the Executive Engineer within one month; that officer is to consider and decide it strictly in accordance with law after notice and hearing within one further month; the demand is to abide that decision; and if excess payment is found, it is to be adjusted in future electricity bills. The Court did not decide whether an inspection had been made in accordance with the Supply Code, 2005, or the correctness of the demand or the bill.",
+  "facts": "Amit Shaker Amist filed Writ-C No. 21458 of 2020 in the Allahabad High Court against Paschimanchal Vidyut Vitran Nigam Ltd., Meerut, and three others, seeking to quash a demand notice dated 27 August 2020 and an electricity bill dated 29 October 2020. On 22 July 2021 a Division Bench recorded that the challenge to the demand was that no inspection had been made in accordance with the U.P. Electricity Supply Code, 2005, and directed a counter-affidavit. The petition was listed repeatedly from December 2020 through December 2025 for video-conferencing, instructions, and time to file that counter.\n\nAt the final hearing the petitioner's case, as pleaded in paragraph 18 of the writ petition, was that the demand had been issued without application of mind and without notice or opportunity of hearing. Counsel for the corporation said elaborate reasons appeared on the notice and that the writ lacked merit. Saral Srivastava and Satya Veer Singh, JJ. disposed of the writ on 23 July 2026.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.8 (assessment demand — prior notice and hearing; representation to the Executive Engineer)",
+      "topic": "Demand notice issued without prior hearing and without reasons cannot be sustained, but is not quashed; representation to the Executive Engineer, whose decision the demand is to abide",
+      "type": "supply_code",
+      "question": "Where a demand notice is issued without prior notice or hearing and is cryptic and non-speaking, will the writ court quash it, or relegate the consumer to a representation before the Executive Engineer?",
+      "holding": "The demand cannot be sustained in law as a violation of natural justice, but the writ is not allowed by quashing it. From the face of the 27.08.2020 demand notice, no notice or opportunity of hearing was afforded before it was issued, and the notice is cryptic and non-speaking. Counsel for the licensee could not demonstrate otherwise from the notice. The petition is disposed of by permitting the petitioner to file a detailed representation against that demand before respondent no. 3, the Executive Engineer, Paschimanchal Vidyut Vitran Nigam Ltd., Noida, with a certified copy of this order, within one month. If filed, the Executive Engineer shall consider and decide it strictly in accordance with law after due notice and opportunity of hearing within one month thereafter. The impugned demand shall abide that decision. If excess payment is found, it shall be adjusted in future electricity bills.",
+      "qualifier": "The Court held the demand unsustainable for want of notice and reasons, but did not quash it; the demand is to abide the Executive Engineer's decision on the representation.",
+      "paras": "5-7, 9",
+      "flag": "The 23.7.2026 disposal cites no Code clause. A 22.7.2021 listing (Sunita Agarwal and Sadhna Rani (Thakur), JJ.) recorded the challenge as inspection not in accordance with the Supply Code, 2005. Keyed to Clause 6.8 as the inspection-based assessment procedure that pattern matches; it could equally be Clause 8.1 if the demand was for theft, or Clause 6.1 if it was an ordinary energy bill — the order does not say. Source PDF concatenates listing orders of 14.12.2020, 16.12.2020, 19.2.2021, 22.7.2021, 23.2.2022, 21.3.2025 and 10.12.2025 with this 23.7.2026 disposal; pins are numbered paragraphs of the disposal (there is no paragraph 8; 7 is followed by 9). Coram is the disposing bench. Respondent no. 2 is recorded as the officer who issued the demand; respondent no. 3 is the Executive Engineer, Noida, who is to decide the representation. The 29.10.2020 bill is assailed in paragraph 2 but is not separately directed."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "opportunity-before-final-assessment",
+      "application": "On the face of the 27.08.2020 demand notice, no prior notice or opportunity of hearing was afforded, and the notice was cryptic and non-speaking. The Court held that the demand could not be sustained as a violation of natural justice.",
+      "lead_authorities": [],
+      "paras": "5-6"
+    },
+    {
+      "tag": "assessment-demand-notices-relegated-to-representation-without-merits",
+      "application": "The demand notice was not quashed or upheld on the quantum. The writ was disposed of by permitting a representation to the Executive Engineer, Noida, whose decision the demand is to abide.",
+      "lead_authorities": [],
+      "paras": "7, 9"
+    },
+    {
+      "tag": "representation-to-be-decided-in-accordance-with-law",
+      "application": "If the representation is filed within one month, the Executive Engineer shall consider and decide it strictly in accordance with law after due notice and opportunity of hearing within one month thereafter.",
+      "lead_authorities": [],
+      "paras": "7"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether any inspection was made in accordance with the U.P. Electricity Supply Code, 2005",
+      "note": "Recorded as the petitioner's ground on 22.7.2021. The 23.7.2026 disposal does not examine inspection or any numbered Code clause.",
+      "paras": "5-7, 9"
+    },
+    {
+      "point": "Correctness and quantum of the demand notice dated 27.08.2020 and of the electricity bill dated 29.10.2020",
+      "note": "Left to the Executive Engineer's decision on the representation. The bill is assailed in paragraph 2 but is not separately directed.",
+      "paras": "2, 7, 9"
+    },
+    {
+      "point": "Whether the petitioner had in fact made excess payment",
+      "note": "Adjustment in future bills is directed only if excess payment is found on the representation.",
+      "paras": "9"
+    }
+  ],
+  "authorities": []
+}

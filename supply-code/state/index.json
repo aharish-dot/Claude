@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3224,
+  "next_seq": 3225,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -19312,6 +19312,12 @@
       "case_id": "SCJ-3221",
       "source_basename": "WRIC(A)_20306_2020.pdf",
       "title": "Kamaluddin v. State of U.P. And 4 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3222",
+      "source_basename": "WRIC(A)_21458_2020.pdf",
+      "title": "Amit Shaker Amist v. Paschimanchal Vidyut Vitran Nigam Ltd. Meerut And 3 Others",
       "status": "done"
     }
   ]
