@@ -1,0 +1,84 @@
+{
+  "case_id": "SCJ-3223",
+  "title": "Manish Kumar @ Deepak Dubey v. State of U.P. And 3 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Naheed Ara Moonis, J. & Dinesh Pathak, J.",
+  "date_of_judgment": "2021-01-08",
+  "date_display": "8 January 2021",
+  "docket": "Writ - C No. 24155 of 2020",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition disposed of on the alternative remedy of a Section 127 appeal against the order dated 14.07.2020; appellate authority to consider the entire facts; no coercive action in the meantime",
+  "headnote": "Where a coordinate Bench had directed the Executive Engineer only to decide the consumer's objections to a recovery citation by a speaking final order, leaving a Section 127 appeal open if the consumer were aggrieved, and the Engineer, while disposing of that representation, assumed the jurisdiction of the appellate authority under Section 127 of the Electricity Act, 2003, that assumption is not legally sustainable. The statutory appeal under Section 127 against the Engineer's order nevertheless remains open. The writ challenging that order is disposed of on the alternative remedy; the appellate authority shall consider the appeal after considering the entire facts and circumstances; meanwhile no coercive action shall be taken. The Court did not quash the 14.07.2020 order or decide the merits of the recovery.",
+  "facts": "Manish Kumar alias Deepak Dubey petitioned the Allahabad High Court to quash an order dated 14 July 2020 (Patrank 162) of respondent no.3, the Executive Engineer, passed on his representation. He had earlier filed Writ C No. 38785 of 2019 against a recovery citation dated 1 November 2019. A coordinate Bench disposed of that petition on 28 November 2019, directing him to appear before the Executive Engineer on 12 December 2019 with his objection and evidence, requiring a speaking final order within four weeks, staying coercive action for six weeks or until the objection was decided, and leaving an appeal under Section 127 of the Electricity Act, 2003 open if he were aggrieved by the final order.\n\nHe filed a representation dated 12 December 2019. The Executive Engineer disposed of it on 14 July 2020. The petitioner alleged that, in doing so, the officer had assumed the jurisdiction of the appellate authority under Section 127, contrary to the 28 November 2019 directions. Counsel for the Power Corporation (respondent nos.2 and 3) did not controvert that allegation, but submitted that a Section 127 appeal still lay against the 14 July 2020 order.",
+  "reusable_constructions": [
+    {
+      "construction": "An Executive Engineer directed only to decide objections to a recovery citation cannot assume the jurisdiction of the appellate authority under Section 127 of the Electricity Act, 2003; such assumption is not legally sustainable.",
+      "paras": "6"
+    },
+    {
+      "construction": "An order of the Executive Engineer that purports to decide as the Section 127 appellate authority does not exhaust the statutory appeal; the consumer may still appeal that order under Section 127.",
+      "paras": "6"
+    },
+    {
+      "construction": "A writ challenging such an order may be disposed of on the alternative remedy of Section 127, with a direction that the appellate authority consider the entire facts, and with a stay of coercive action in the meantime.",
+      "paras": "6-7"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act, 2003",
+      "clause": "127",
+      "topic": "Executive Engineer deciding objections cannot assume s.127 appellate jurisdiction; the statutory appeal still lies",
+      "type": "electricity_act",
+      "question": "Where an Executive Engineer, directed only to decide objections to a recovery citation, assumes the jurisdiction of the Section 127 appellate authority, is that order sustainable, and does a Section 127 appeal still lie?",
+      "holding": "The assumption of appellate jurisdiction is not legally sustainable. By the 28.11.2019 order in Writ C No. 38785 of 2019, respondent no.3 (the Executive Engineer) was directed only to decide the petitioner's objection to the recovery citation dated 01.11.2019 by a speaking final order; a Section 127 appeal was left open if the petitioner were aggrieved. While disposing of the 12.12.2019 representation by order dated 14.07.2020, the Engineer assumed the jurisdiction of the appellate authority under Section 127. Counsel for the Power Corporation did not controvert that fact, but submitted that a Section 127 appeal still lay. The Court held the assumption of jurisdiction not legally sustainable, yet held the Section 127 appeal against the 14.07.2020 order still open. The writ was disposed of on that alternative remedy. The appellate authority shall consider the appeal after considering the entire facts and circumstances. Meanwhile no coercive action shall be taken.",
+      "qualifier": "The Court did not quash the 14.07.2020 order; it left that order to the statutory appeal, with a stay of coercive action.",
+      "paras": "6-7",
+      "flag": "Unnumbered three-page order; paragraph numbers are sequential blocks (1 heard; 2 relief; 3 prior writ and quoted 28.11.2019 order; 4 petitioner's submission; 5 licensee's response; 6 Court's finding and directions; 7 disposal). No numbered Supply Code clause is cited. The 14.07.2020 order is not extracted. The character of the demand (theft, unauthorised use, or ordinary arrears) is not stated. The 28.11.2019 coordinate Bench referred to the U.P. Electricity Supply Code, 2005 without a clause number."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "assessing-officer-cannot-assume-s127-appellate-jurisdiction",
+      "application": "Respondent no.3, the Executive Engineer, was directed only to decide the objection to the 01.11.2019 recovery citation. In the 14.07.2020 order he assumed the jurisdiction of the Section 127 appellate authority. The Court held that assumption not legally sustainable.",
+      "lead_authorities": [],
+      "paras": "6"
+    },
+    {
+      "tag": "alternative-remedy-section-127-appeal",
+      "application": "Despite holding that the Engineer had unsustainably assumed appellate jurisdiction, the Court disposed of the writ on the alternative remedy of a Section 127 appeal against the 14.07.2020 order, directing the appellate authority to consider the entire facts.",
+      "lead_authorities": [],
+      "paras": "6-7"
+    },
+    {
+      "tag": "recovery-of-assessment-stayed-pending-s127-appeal",
+      "application": "While relegating the petitioner to the Section 127 appeal, the Court directed that no coercive action be taken against him in the meantime.",
+      "lead_authorities": [],
+      "paras": "6"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Validity and quantum of the recovery citation dated 01.11.2019 and of the determination in the order dated 14.07.2020",
+      "note": "Left to the Section 127 appellate authority, which is to consider the entire facts and circumstances. The 14.07.2020 order was not quashed.",
+      "paras": "6-7"
+    },
+    {
+      "point": "Whether any numbered clause of the U.P. Electricity Supply Code, 2005 governed the recovery or the hearing of objections",
+      "note": "The 28.11.2019 coordinate Bench recorded a submission that coercive action had been taken without following the Supply Code, 2005, without citing a clause. This Bench did not identify or apply a Code clause.",
+      "paras": "3, 6"
+    },
+    {
+      "point": "Identity of the Section 127 appellate authority, and limitation for the appeal",
+      "note": "The Court referred only to 'the concerned authority' / 'the Appellate Authority' under Section 127, without naming the office or examining limitation.",
+      "paras": "6"
+    }
+  ],
+  "authorities": []
+}
