@@ -1,0 +1,88 @@
+{
+  "case_id": "SCJ-3263",
+  "title": "Mohammad Shafaq v. State of U.P. And 2 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sunita Agarwal, J. & Vikram D. Chauhan, J.",
+  "date_of_judgment": "2022-06-20",
+  "date_display": "20 June 2022",
+  "docket": "Writ - C No. - 17275 of 2022",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition allowed; licensee directed to take necessary action to provide electricity supply in the meter already installed at House No. 116/56(4), Sayyad Nagar, Kanpur; petitioner to fulfil Clause 4.4; third-party objections to be dealt with by the department; other third-party proceedings unaffected",
+  "headnote": "Where an intending consumer has completed the formalities for a domestic connection and a meter has been installed, the distribution licensee cannot withhold electricity supply because a third party (a neighbour) disputes ownership of the premises. Clause 4.4 of the U.P. Electricity Supply Code, 2005 permits a connection to an occupant on an indemnity bond in the Annexure 4.2 form; that is the Code path for the ownership dispute. The licensee commits an illegality if, on such a dispute, it neither asks for that indemnity nor energises the installed meter. The Court issued mandamus to take necessary action to provide supply in the meter; the petitioner remains obliged to fulfil Clause 4.4; third-party objections may be dealt with by the department; and the order, being only as to a connection in the petitioner's name, does not affect other proceedings by the third party. The writ petition was allowed. Title as between the occupant and the objector, and the fate of the Permanent Lok Adalat order, were not decided.",
+  "facts": "Mohammad Shafaq applied for a 2 kW domestic electricity connection at House No. 116/56(4), Sayyad Nagar, Kanpur, completed the formalities, and had a meter installed on 7 February 2022. Supply was not energised because of a dispute raised by his neighbour Ashfaq Ansari (also spelled Mohd. Ashfak Ansari). Repeated applications to Kanpur Electricity Supply Company (KESCO) failed, and he sought a mandamus to respondents 2 and 3 to provide supply.\n\nKESCO's counsel said the petitioner had earlier obtained an ex-parte Permanent Lok Adalat order dated 25 November 2021 in Case No. 12 of 2021, which the objector challenged in Writ-C No. 10299 of 2022. That writ was disposed of on 27 April 2022 with liberty to seek recall of the Lok Adalat order, which was stayed for four months or until the recall was decided. Counsel was unaware of any further recall proceeding. The petitioner said a settlement had been reached for KESCO to grant the connection after the Lok Adalat directions, and that supply could not be denied on a third-party dispute once the formalities were complete.",
+  "reusable_constructions": [
+    {
+      "construction": "A distribution licensee cannot deny electricity supply to an occupant who has completed the connection formalities merely because a third party disputes ownership of the premises.",
+      "paras": "9"
+    },
+    {
+      "construction": "Clause 4.4 of the U.P. Electricity Supply Code, 2005, read with the Annexure 4.2 indemnity bond, is the Code mechanism for granting a connection to an occupant where a third party raises an ownership dispute.",
+      "paras": "9-12"
+    },
+    {
+      "construction": "A licensee commits an illegality if, on a third-party ownership dispute, it withholds supply without asking the occupant to furnish an Annexure 4.2 indemnity bond.",
+      "paras": "10"
+    },
+    {
+      "construction": "A writ court may mandamus energising of an already-installed meter, the occupier remaining obliged to fulfil Clause 4.4, leaving third-party objections to the department and without affecting other proceedings by the objector.",
+      "paras": "11-15"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.4",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.4 and Annexure 4.2 — occupant; indemnity bond where a third party disputes ownership",
+      "topic": "third-party ownership dispute is not a ground to withhold supply to an occupant; connection on Annexure 4.2 indemnity; mandamus to energise installed meter",
+      "type": "supply_code",
+      "question": "May a licensee withhold electricity supply, after installing a meter, because a neighbour disputes ownership of the premises?",
+      "holding": "No. The petitioner had completed the formalities and a meter had been installed. The licensee could not deny supply on a third-party ownership dispute. Occupancy and completion of formalities were not disputed. Clause 4.4 permits a connection to an occupant on an indemnity bond in the Annexure 4.2 form; that is how the ownership dispute is to be redressed. The department committed an illegality in not asking the petitioner to furnish that bond. Mandamus issued to take necessary action to provide supply in the installed meter. The petitioner remains obliged to fulfil Clause 4.4. Third-party objections may be dealt with by the department. The writ was allowed. The order is only as to a connection in the petitioner's name and does not affect other proceedings by the third party.",
+      "qualifier": "Title as between the occupant and the neighbour, and the status of the Permanent Lok Adalat order and any recall, were not decided.",
+      "paras": "9-15",
+      "flag": "Unnumbered order; paras are sequential blocks after the cause-title (1 heard; 2 prayer; 3 petitioner's case; 4-6 Lok Adalat/objector's writ; 7-8 petitioner's further submissions; 9-10 ratio; 11-15 operative). The Lok Adalat order is dated 25.11.2021 in one recital and 25.11.2022 in the recall-liberty recital; recorded as the judgment states it. Source spelling 'Permanant Lok Adalat' and 'Ashfaq Ansari'/'Mohd. Ashfak Ansari'."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "occupier-entitled-to-connection-on-indemnity-bond-annexure-4.2",
+      "application": "The Court held that a third-party ownership dispute is to be redressed under Clause 4.4 by granting the occupant a connection on an Annexure 4.2 indemnity bond, and that the licensee acted illegally in not asking for that bond.",
+      "lead_authorities": [],
+      "paras": "9-12"
+    },
+    {
+      "tag": "clause-4.4-occupant-connection-on-indemnity-bond",
+      "application": "Clause 4.4 was applied as the Code path for an occupant whose neighbour disputed ownership: connection may be granted after the Annexure 4.2 indemnity; the petitioner was directed to fulfil that condition.",
+      "lead_authorities": [],
+      "paras": "9-12"
+    },
+    {
+      "tag": "owner-consent-not-a-bar-to-supply",
+      "application": "A neighbour's ownership dispute was held not to be a ground to deny supply once the occupant had completed the formalities and a meter had been installed.",
+      "lead_authorities": [],
+      "paras": "8-10"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Title or ownership of House No. 116/56(4), Sayyad Nagar, Kanpur as between the petitioner and Ashfaq Ansari",
+      "note": "Left as a third-party dispute to be dealt with by the department under Clause 4.4; the writ order does not affect other proceedings by the objector.",
+      "paras": "9, 13, 15"
+    },
+    {
+      "point": "Status of Permanent Lok Adalat Case No. 12 of 2021, the alleged recall application, and the stay granted in Writ-C No. 10299 of 2022",
+      "note": "Recited from counsel; the Court did not decide those proceedings. Licensee's counsel was unaware of any further recall step by the objector.",
+      "paras": "4-6, 15"
+    },
+    {
+      "point": "Whether a settlement with the Managing Director, KESCO, required grant of the connection",
+      "note": "Asserted by the petitioner; not found or enforced. Relief rests on Clause 4.4 and the completed formalities.",
+      "paras": "7, 9-12"
+    }
+  ],
+  "authorities": []
+}
