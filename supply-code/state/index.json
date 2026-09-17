@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3243,
+  "next_seq": 3244,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -19426,6 +19426,12 @@
       "case_id": "SCJ-3240",
       "source_basename": "WRIC(A)_21346_2021.pdf",
       "title": "Haresh Tyagi v. Electricity Ombudsman And 2 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3241",
+      "source_basename": "WRIC(A)_21650_2021.pdf",
+      "title": "Maa Bhagwati Rice Industries And Another v. State of U.P. And 7 Others",
       "status": "done"
     }
   ]
