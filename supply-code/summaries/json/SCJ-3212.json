@@ -1,0 +1,101 @@
+{
+  "case_id": "SCJ-3212",
+  "title": "Fauzia v. State of U.P. And 2 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Pradeep Kumar Singh Baghel, J.; Pankaj Bhatia, J.",
+  "date_of_judgment": "2019-01-10",
+  "date_display": "10 January 2019",
+  "docket": "Writ - C No. 707 of 2019",
+  "page_count": 3,
+  "significance": "ordinary",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition disposed of; respondents directed to provide a fresh electricity connection in accordance with law if the occupier-petitioner completes the formalities; notice to the landlord held unnecessary",
+  "headnote": "Where an occupier is aggrieved by the licensee's inaction on a new-connection application after the landlord disconnected supply and withheld consent, the writ court will not treat want of the owner's consent as a bar. Clause 2.2(oo) of the U.P. Electricity Supply Code, 2005 lets an occupier apply, and Clause 4.4 supplies the indemnity-bond path where the intending consumer is not the owner. Following Seema Mansoor v. U.P. Power Corporation Ltd., Section 43 of the Electricity Act, 2003 obliges the licensee to supply on an application by an owner or occupier; the Code provides either the owner's consent or, in its absence, an indemnity bond (Annexure 4.2); a tenant or occupier who submits that indemnity cannot be refused merely for want of the landlord's consent. The petitioner being admittedly an occupier, the Court directed the respondents to provide a fresh connection in accordance with law if she completes the occupier formalities, and held that notice to the landlord would serve no purpose.",
+  "facts": "Fauzia petitioned the Allahabad High Court against the State of U.P. and two others. She was aggrieved by the second respondent's inaction in sanctioning a new electricity connection after a dispute with her landlord, who had disconnected her power supply. Counsel submitted that Clause 2.2(oo) of the U.P. Electricity Supply Code, 2005 lets an occupier apply on an indemnity bond, and that Clause 4.4 is the path (including the indemnity-bond format) where the intending consumer is not the owner of the premises. The Court recorded that she was admittedly an occupier. Counsel for the second respondent was heard. Respondent no. 3 is the landlord; the Court held that issuing notice to him would serve no purpose.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.4",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.4 and 2.2(oo); Annexure 4.2 indemnity bond where the occupier is not the owner",
+      "topic": "occupier entitled to a fresh connection on completing indemnity-bond formalities; landlord's consent not a bar; notice to landlord unnecessary",
+      "type": "supply_code",
+      "question": "May a licensee withhold a new electricity connection from an occupier because the landlord has disconnected supply and has not given consent?",
+      "holding": "No. Counsel invoked Clause 2.2(oo) (occupier may apply after furnishing an indemnity bond) and Clause 4.4 (new-connection path, including the indemnity bond where the consumer is not the owner). The petitioner was admittedly an occupier. Following Seema Mansoor, Clause 4.4 provides either the owner's consent or, in its absence, an indemnity bond by the lessee, tenant or occupier (Annexure 4.2); the licensee cannot refuse a connection merely for want of the landlord's consent. If she completes the occupier formalities, the respondents are directed to provide a fresh electricity connection in accordance with law. Notice to the landlord (respondent no. 3) was held unnecessary. The writ petition was disposed of.",
+      "qualifier": "The direction is conditioned on completing occupier formalities and is 'in accordance with law'; the Court did not inquire into title or the landlord-tenant dispute.",
+      "paras": "1-5, 7-8",
+      "flag": "Unnumbered order; paras are sequential blocks after the cause-title (1 grievance; 2 Clauses 2.2(oo) and 4.4; 3 occupier and direction to connect; 4 Seema Mansoor extract; 5 'squarely covered'; 6 heard; 7 no notice to landlord; 8 disposed of). Petitioner's counsel described Clause 4.4 as the format for a new connection and as the indemnity-bond format; Annexure 4.2 is the indemnity form in the adopted Seema Mansoor extract. Occupier clause cited as '2.2 (OO)'."
+    },
+    {
+      "provision": "EA2003::43",
+      "code": "Electricity Act, 2003",
+      "clause": "43",
+      "topic": "licensee's duty to supply to an owner or occupier; tenant is an authorised occupier",
+      "type": "electricity_act",
+      "question": "Does Section 43 oblige the licensee to supply on an occupier's (including a tenant's) application, independently of the landlord's consent?",
+      "holding": "Yes, as applied through Seema Mansoor, which this Bench held squarely covered the facts. Section 43 enjoins the licensee to supply electrical energy on an application by an owner or occupier; occupier under the Code includes an authorised person in occupation, and a tenant is such a person. Every owner or occupier has a statutory right to apply and obtain supply subject to the Act and the Code. That holding was adopted and a fresh connection directed on completion of occupier formalities.",
+      "paras": "4-5",
+      "flag": "Section 43 is applied only as quoted from Seema Mansoor; this Bench did not independently parse the section."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-4.4-occupant-connection-on-indemnity-bond",
+      "application": "The occupier-petitioner, whose landlord had disconnected supply, was directed a fresh connection if she completed the Clause 4.4 / 2.2(oo) occupier formalities, including the indemnity bond where she is not the owner.",
+      "lead_authorities": [
+        {
+          "name": "Seema Mansoor v. U.P. Power Corporation Ltd.",
+          "docid": ""
+        }
+      ],
+      "paras": "2-5"
+    },
+    {
+      "tag": "occupier-entitled-to-connection-on-indemnity-bond-annexure-4.2",
+      "application": "The adopted Seema Mansoor extract treats Annexure 4.2 as the occupier's indemnity path where the owner's consent is not obtained; this Bench held that extract squarely covered and directed supply on completing those formalities.",
+      "lead_authorities": [
+        {
+          "name": "Seema Mansoor v. U.P. Power Corporation Ltd.",
+          "docid": ""
+        }
+      ],
+      "paras": "4-5"
+    },
+    {
+      "tag": "landlord-consent-not-required-for-tenant-connection-s43",
+      "application": "Following Seema Mansoor on Section 43, the Court held that an occupier's application cannot be refused merely for want of the landlord's consent, and that notice to the landlord was unnecessary.",
+      "lead_authorities": [
+        {
+          "name": "Seema Mansoor v. U.P. Power Corporation Ltd.",
+          "docid": ""
+        }
+      ],
+      "paras": "4-5, 7"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits of the landlord-tenant dispute and the landlord's disconnection of the existing supply",
+      "note": "The Court recorded a dispute with the landlord who had disconnected power, held the petitioner an occupier, and declined to issue notice to the landlord; it made no finding on title or the right to remain in occupation.",
+      "paras": "1, 3, 7"
+    },
+    {
+      "point": "Compliance with Code requirements other than the occupier indemnity path",
+      "note": "The direction to provide a fresh connection is conditioned on completing occupier formalities and is 'in accordance with law'; other bars were not examined.",
+      "paras": "3, 8"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Seema Mansoor v. U.P. Power Corporation Ltd. & 3 others",
+      "citation": "Writ-C No. 28295 of 2014",
+      "court": "Allahabad High Court",
+      "docid": "",
+      "proposition": "Section 43 obliges the licensee to supply on an application by an owner or occupier (including a tenant); Clause 4.4 provides either the owner's consent or an occupier's indemnity bond (Annexure 4.2); a lessee, tenant or occupier who submits that indemnity cannot be refused a connection merely for want of the landlord's consent.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}
