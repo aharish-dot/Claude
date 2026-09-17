@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3193,
+  "next_seq": 3194,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -19126,6 +19126,12 @@
       "case_id": "SCJ-3190",
       "source_basename": "WRIC(A)_31212_2018.pdf",
       "title": "University of Allahabad v. State of U.P. and 4 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3191",
+      "source_basename": "WRIC(A)_31970_2018.pdf",
+      "title": "M/s Chaudhary Bhoop Singh Cold Storage (P) Ltd. v. State of U.P. and Others",
       "status": "done"
     }
   ]
