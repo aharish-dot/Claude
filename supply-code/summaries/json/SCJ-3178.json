@@ -1,0 +1,119 @@
+{
+  "case_id": "SCJ-3178",
+  "title": "Mohd. Amir v. State of U.P. and 3 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Dilip Gupta, J.; Jayant Banerji, J.",
+  "date_of_judgment": "2017-10-12",
+  "date_display": "12 October 2017",
+  "docket": "Writ - C No. - 47523 of 2017",
+  "page_count": 4,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition allowed to the extent indicated; Sub-Divisional Officer's refusal of a new connection set aside; petitioner may submit a fresh application, to be decided in accordance with law",
+  "headnote": "Where a tenant's application for a new electricity connection is refused solely because the landlord has given neither consent nor a no-objection, that refusal cannot stand. Following Seema Mansoor v. U.P. Power Corporation Ltd., every owner or occupier (including a tenant) has a statutory right to apply and obtain supply subject to the Electricity Act, 2003 and the U.P. Electricity Supply Code, 2005; a lessee, tenant or occupier who submits an indemnity bond cannot be refused merely for want of the landlord's consent. The Sub-Divisional Officer's order is set aside. It remains open to the petitioner to file a fresh application, which is to be decided in accordance with law. The Court did not itself grant the connection.",
+  "facts": "Mohd. Amir, claiming to be a tenant, applied to Vidhyut Urban Vitaran Khand, Allahabad for a new electric connection. The Sub-Divisional Officer refused permission on the sole ground that he had not obtained the landlord's consent or no-objection. He filed Writ-C No. 47523 of 2017, relying on the Division Bench decision in Seema Mansoor v. U.P. Power Corporation Ltd. (Writ-C No. 28295 of 2014, decided 26 May 2014). Counsel for the Corporation submitted that the petitioner still had to comply with the Electricity Act, 2003 and the U.P. Electricity Supply Code, 2005 and to submit an indemnity bond as provided in the Code. It was not in dispute that the connection had been refused only for want of the landlord's consent or no-objection.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.4",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.4(a)(i) and Annexure 4.2 — occupier/tenant; indemnity bond in place of owner's consent",
+      "topic": "tenant/occupier cannot be refused a new connection solely for want of the landlord's consent; indemnity bond required; refusal on that ground set aside",
+      "type": "interplay",
+      "question": "Can a licensee refuse a new electricity connection to a tenant solely because the landlord has given neither consent nor a no-objection?",
+      "holding": "No. Following Seema Mansoor, a tenant or occupier has a legal right to obtain an electricity connection and the licensee is obliged to provide it. The connection cannot be refused solely for want of the owner/landlord's consent, but an indemnity bond has to be submitted. It was undisputed that the Sub-Divisional Officer had refused the petitioner's application only on that ground. That order was set aside. The petitioner may submit a fresh application, which is to be decided in accordance with law. The writ was allowed to that extent.",
+      "qualifier": "The Court did not mandamus grant of the connection, and did not itself verify the claimed tenancy.",
+      "paras": "4-6",
+      "flag": "Source PDF concatenates a 10.10.2017 listing (Dilip B. Bhosale, C.J. and Manoj Kumar Gupta, J., placing the matter before the appropriate Bench as fresh) with this 12.10.2017 disposal. The disposal is unnumbered; paras 1-6 are sequential blocks from 'The petitioner who claims to be a tenant'. The Court did not cite a numbered Code clause in its own prose; Clause 4.4(a)(i) and Annexure 4.2 are taken from the adopted Seema Mansoor extract, which also refers to 'clause 42 and 43 of the Electricity Act' (sections 42 and 43). Coram is the disposing bench of 12.10.2017."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-4.4-occupant-connection-on-indemnity-bond",
+      "application": "Following Seema Mansoor, the Court held that a tenant or occupier cannot be refused a new connection solely for want of the landlord's consent, but must submit an indemnity bond as provided in the Code.",
+      "lead_authorities": [
+        {
+          "name": "Seema Mansoor v. U.P. Power Corporation Ltd.",
+          "docid": ""
+        }
+      ],
+      "paras": "4-5"
+    },
+    {
+      "tag": "occupier-entitled-to-connection-on-indemnity-bond-annexure-4.2",
+      "application": "The adopted Seema Mansoor extract treats Clause 4.4(a)(i) and Annexure 4.2 as the occupier's path where the owner's consent is not obtained. This Bench required the petitioner to submit an indemnity bond and left grant to a fresh Code-compliant application.",
+      "lead_authorities": [
+        {
+          "name": "Seema Mansoor v. U.P. Power Corporation Ltd.",
+          "docid": ""
+        }
+      ],
+      "paras": "3-5"
+    },
+    {
+      "tag": "landlord-consent-not-required-for-tenant-connection-s43",
+      "application": "The Court adopted Seema Mansoor's holding that an application cannot be refused for want of the landlord's consent; a contrary reading would nullify Rent Control Act protection and is opposed to public policy.",
+      "lead_authorities": [
+        {
+          "name": "Seema Mansoor v. U.P. Power Corporation Ltd.",
+          "docid": ""
+        }
+      ],
+      "paras": "4-5"
+    },
+    {
+      "tag": "direction-to-consider-connection-on-furnishing-4.4-or-annexure-4.2-documents",
+      "application": "The SDO's refusal was set aside, but the connection was not granted on the writ. The petitioner may file a fresh application, to be decided in accordance with law.",
+      "lead_authorities": [],
+      "paras": "6"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner is in fact a tenant or occupier of the premises",
+      "note": "The order records that he 'claims to be a tenant'; occupancy was not inquired into.",
+      "paras": "1, 6"
+    },
+    {
+      "point": "Grant of the electricity connection",
+      "note": "The Court set aside the refusal but did not mandamus supply. A fresh application is to be decided in accordance with law.",
+      "paras": "6"
+    },
+    {
+      "point": "Compliance with other Act and Code requirements besides the indemnity bond",
+      "note": "The Corporation submitted that the petitioner still had to fulfil those requirements. Left to the fresh application.",
+      "paras": "3, 6"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Seema Mansoor v. U.P. Power Corporation Ltd. and 3 others",
+      "citation": "Writ-C No. 28295 of 2014, decided 26 May 2014",
+      "court": "Allahabad High Court",
+      "docid": "",
+      "proposition": "Every owner or occupier, including a tenant, has a statutory right to apply and obtain electricity supply subject to the Electricity Act, 2003 and the Supply Code, 2005; the licensee cannot refuse a connection solely for want of the landlord's consent where an indemnity bond is submitted; a contrary interpretation would nullify Rent Control Act protection and is opposed to public policy.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    },
+    {
+      "name": "Ravi Shankar Giri",
+      "citation": "",
+      "court": "Allahabad High Court",
+      "docid": "",
+      "proposition": "Recited in the adopted Seema Mansoor extract as having been relied on for the view that owner's consent is required; Seema Mansoor held that those judgments, having failed to notice sections 42 and 43 of the Act, the Code definition of owner/occupier, Clause 4.4(a)(i) and Annexure 4.2, do not lay down correct law.",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    },
+    {
+      "name": "Iftikhar Ahsan v. State of U.P.",
+      "citation": "Writ Petition No. 71425 of 2013",
+      "court": "Allahabad High Court",
+      "docid": "",
+      "proposition": "Same as Ravi Shankar Giri in the adopted Seema Mansoor extract: held not to lay down correct law for failure to notice the Act and Code provisions.",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    }
+  ]
+}
