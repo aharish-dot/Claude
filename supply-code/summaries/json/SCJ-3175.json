@@ -1,0 +1,120 @@
+{
+  "case_id": "SCJ-3175",
+  "title": "Smt. Usha Srivastava v. State of U.P. and 4 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Bala Krishna Narayana, J.; Prakash Padia, J.",
+  "date_of_judgment": "2019-09-09",
+  "date_display": "9 September 2019",
+  "docket": "Writ - C No. - 2579 of 2017",
+  "page_count": 7,
+  "significance": "significant",
+  "outcome": "split",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition disposed of; situation report dated 3.6.2016 not interfered with, grievance relegated to the Clause 7.10 forum; neither the 2 kW connection in respondent no.5's name nor the situation report to be treated as evidence of claim over the house in Original Suit No. 1229 of 2015",
+  "headnote": "Where a co-heir seeks certiorari to quash a licensee's situation report recommending a new electricity connection, and mandamus to disconnect a connection already granted in another family member's name amid a pending title suit, the writ court will not quash the report or order disconnection if possession was verified on the spot. Under the U.P. Electricity Supply Code, 2005 every person is entitled to a new electricity connection. A grievance against the situation report lies before the Consumer Grievance Redressal Forum under Clause 7.10. Neither the connection nor the situation report is evidence of claim over the premises in the pending civil suit. The Court did not decide title, alleged forgery of supporting documents, or the correctness of the situation report.",
+  "facts": "Smt. Usha Srivastava petitioned the Allahabad High Court to quash a 3 June 2016 situation report of Purvanchal Vidyut Vitran Nigam Ltd. and to mandamus disconnection of a 2 kW LM V-1 connection granted in the name of her eldest son, Atul Narain (respondent no.5), at House No. 452-90A-18F, Shivaji Nagar, Allapur, Allahabad. She alleged a family property dispute after her husband's death, a pending original suit with a temporary injunction, and that the son had obtained the connection on forged documents to manufacture evidence of occupation.\n\nThe licensee had called for a situation report, which recommended a new connection. A coordinate Bench, on 21 June 2016 in Writ-C No. 29042 of 2016, had permitted the son to approach the Executive Engineer under Annexure 4.2 of the U.P. Electricity Supply Code, 2005. The connection was thereafter released after on-spot verification of possession. In the counter-affidavit the son invoked paragraph 4.2 of the Code and the Clause 7.10 forum.",
+  "reusable_constructions": [
+    {
+      "construction": "After on-spot verification of possession, a licensee may grant a new electricity connection to an occupier even though a family title dispute and a civil suit are pending.",
+      "paras": "8"
+    },
+    {
+      "construction": "Under the U.P. Electricity Supply Code, 2005 every person is entitled to a new electricity connection; a pending claim of title is not a ground for the writ court to order disconnection of a connection granted after possession was verified.",
+      "paras": "8-9"
+    },
+    {
+      "construction": "A challenge to a licensee's situation report recommending a new connection is to be taken to the Consumer Grievance Redressal Forum under Clause 7.10, not decided on a writ for certiorari.",
+      "paras": "8-9"
+    },
+    {
+      "construction": "Neither an electricity connection granted after possession verification nor the situation report on which it rests is evidence of title or claim over the premises in a pending civil suit.",
+      "paras": "9"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::Annexure 4.2",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "Annexure 4.2 — occupier connection after on-spot verification of possession amid a family title dispute",
+      "topic": "Occupier entitled to a new connection after possession is verified on the spot; pending title suit is not a ground to disconnect",
+      "type": "supply_code",
+      "question": "May the writ court quash a situation report and order disconnection of a new connection granted in a co-heir's name where a family title suit is pending?",
+      "holding": "No, where possession was verified on the spot. A coordinate Bench on 21.06.2016 in Writ-C No. 29042 of 2016 had permitted respondent no.5 to approach the Executive Engineer under Annexure 4.2 of the Supply Code, 2005. After verifying possession, the authorities granted a 2 kW LM V-1 connection. The Court held that under the Code every person is entitled to a new electricity connection, and it would not interfere with that grant or order disconnection.",
+      "qualifier": "The 9.9.2019 bench spoke of entitlement under the Code generally and of on-spot possession verification; it did not restate the indemnity-bond form of Annexure 4.2 except by quoting the 21.06.2016 order.",
+      "paras": "6, 8-9",
+      "flag": "Source PDF concatenates listing orders of 19.1.2017, 20.3.2017, 3.10.2018 and 25.10.2018 with this 9.9.2019 disposal (Per Prakash Padia, J.). Paras are sequential blocks of that unnumbered disposal from 'Heard learned counsel for the parties.' Respondent no.5's counter described 'paragraph 4.2' as dealing with disputes between the parties; the Court did not apply a numbered Clause 4.2. Keyed to Annexure 4.2 as the occupancy path cited in the quoted 21.06.2016 order. The 21.06.2016 order recites that Atul Narain had already filed a civil suit claiming share; this order recites Original Suit No. 1229 of 2015 as filed by Smt. Usha Srivastava — recorded as the judgment states both. Coram is the disposing bench of 9.9.2019."
+    },
+    {
+      "provision": "UP-2005::7.10",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "7.10",
+      "topic": "grievance against a situation report recommending a new connection lies before the CGRF",
+      "type": "supply_code",
+      "question": "If a co-heir is aggrieved by a licensee's situation report recommending a new connection, is the writ court the forum, or Clause 7.10?",
+      "holding": "Clause 7.10. Without interfering with the situation report dated 3.6.2016, the Court held that if the petitioner is aggrieved against that report she has a remedy before the forum established under Clause 7.10 of the Supply Code, 2005. Certiorari to quash the report was refused.",
+      "paras": "8-9"
+    },
+    {
+      "provision": "UP-2005::Annexure 4.2",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "Annexure 4.2 — connection and situation report not evidence of title",
+      "topic": "electricity connection and situation report are not evidence of claim over the premises in a pending civil suit",
+      "type": "interplay",
+      "question": "Does a new electricity connection, or the situation report on which it was granted, constitute evidence of the occupier's claim over the house in a pending title suit?",
+      "holding": "No. The petitioner's grievance was that respondent no.5 was using the connection to create evidence and defeat her claim in Original Suit No. 1229 of 2015. Disposing of the writ, the Court directed that neither the electricity connection issued in respondent no.5's favour nor the situation report dated 3.6.2016 will be treated as evidence of claim over House No. 452-90A-18F, Shivaji Nagar, Allapur, Allahabad, against the petitioner in that suit.",
+      "paras": "7, 9-10"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "occupier-entitled-to-connection-on-indemnity-bond-annexure-4.2",
+      "application": "The 21.06.2016 coordinate-bench order, quoted and left undisturbed, had sent the occupier to the Executive Engineer under Annexure 4.2. This Bench treated a connection granted after on-spot verification of possession as lawful under the Code even amid a family title dispute.",
+      "lead_authorities": [],
+      "paras": "6, 8"
+    },
+    {
+      "tag": "new-connection-title-dispute-indemnity",
+      "application": "A pending original suit between mother and son, with a temporary injunction, was held no ground to quash the situation report or disconnect the occupier's 2 kW connection once possession had been verified.",
+      "lead_authorities": [],
+      "paras": "7-9"
+    },
+    {
+      "tag": "no-insistence-on-title-documents-for-occupier-connection",
+      "application": "The Court did not require the occupier to establish title. On-spot verification of possession, and the Code entitlement of every person to a new connection, were treated as sufficient. Title was left to the civil court.",
+      "lead_authorities": [],
+      "paras": "8-9"
+    },
+    {
+      "tag": "court-ordered-connection-not-evidence-of-possession",
+      "application": "On the petitioner's plea that the connection was obtained to manufacture evidence of occupation, the Court directed that neither the connection nor the 3.6.2016 situation report will be treated as evidence of claim over the house in Original Suit No. 1229 of 2015.",
+      "lead_authorities": [],
+      "paras": "7, 9"
+    },
+    {
+      "tag": "cgrf-7.10-alternate-remedy",
+      "application": "The challenge to the situation report recommending the new connection was not decided on the writ. The petitioner was told her remedy against that report is the forum under Clause 7.10.",
+      "lead_authorities": [],
+      "paras": "8-9"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Title to House No. 452-90A-18F, Shivaji Nagar, Allapur, Allahabad, and the merits of Original Suit No. 1229 of 2015",
+      "note": "Left to the Civil Judge (Senior Division), Allahabad. The connection and situation report are not to be treated as evidence in that suit.",
+      "paras": "7, 9"
+    },
+    {
+      "point": "Whether respondent no.5 obtained the connection on forged documents",
+      "note": "Alleged in the writ; the Court did not try that allegation.",
+      "paras": "3, 7"
+    },
+    {
+      "point": "Correctness of the situation report dated 3.6.2016",
+      "note": "The Court did not interfere with the report and relegated a grievance against it to the Clause 7.10 forum.",
+      "paras": "8-9"
+    }
+  ],
+  "authorities": []
+}
