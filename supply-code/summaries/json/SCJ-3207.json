@@ -1,0 +1,86 @@
+{
+  "case_id": "SCJ-3207",
+  "title": "M/s Fast Construction v. State of U.P. & 2 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Ramesh Sinha, J. & Ajit Kumar, J.",
+  "date_of_judgment": "2019-08-08",
+  "date_display": "8 August 2019",
+  "docket": "Writ - C No. 23649 of 2019",
+  "page_count": 6,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition disposed of; licensee to supply the assessment and bill within 10 days; petitioner may object under Clause 6.5 within two weeks and may deposit under Clause 6.5(b); restoration to abide that decision",
+  "headnote": "Where a consumer seeks restoration of a connection disconnected for alleged non-payment, and the controversy is a dispute over the electricity bill — the licensee asserting large arrears and departmental instructions recording that the bill was assessed by applying a multiplier of 1 instead of 40 — the writ court will not decide the bill or restore the supply. Clause 6.5 of the U.P. Electricity Supply Code, 2005 takes care of disputed bills and arrears. The licensee is to supply the assessment order, bill and necessary documents within ten days of a certified copy; the consumer may then file an objection under Clause 6.5 within two weeks, to be decided by a reasoned speaking order within a further two weeks, and has liberty to deposit as provided in Clause 6.5(b). Restoration of the connection depends on the outcome of that order. The Court did not decide the multiplier, the quantum of arrears, or whether disconnection before the due date on the bill-cum-disconnection notice was illegal.",
+  "facts": "M/s Fast Construction filed Writ-C No. 23649 of 2019 seeking a mandamus to restore its electricity connection, disconnected on 10 July 2019 despite alleged payment of up-to-date bills, and to restrain coercive proceedings. The petitioner said it had deposited Rs.69,000 towards bills of the respondent-corporation and that the bill-cum-disconnection notice fixed 23 July 2019 as the last date, so disconnection before that date was unlawful.\n\nCounsel for respondent nos. 2 and 3 said the true picture was outstanding dues of about Rs.33,00,000 and a notice dated 10 June 2019 that the petitioner had not annexed. Instructions taken on record showed the assessment had been made by applying a multiplier of 1 instead of 40. After listing adjournments on 2, 5 and 6 August 2019, the Division Bench disposed of the petition on 8 August 2019.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.5 (disputed bills and arrears — complaint to the competent authority)",
+      "topic": "billing dispute / wrong multiplier — relegation to Clause 6.5 after supply of assessment and bill; restoration to abide that order",
+      "type": "supply_code",
+      "question": "Where restoration is sought after disconnection and the live controversy is a disputed electricity bill (including an alleged wrong multiplier), should the writ court restore supply or send the consumer to Clause 6.5?",
+      "holding": "The writ court will not decide the bill or restore the connection. The controversy is a bill dispute, and Clause 6.5 of the U.P. Electricity Supply Code, 2005 takes full care of disputed bills and arrears. On the petitioner's statement that the complete assessment order and bill had not been supplied, the respondents are to provide the necessary documents within ten days of production of a certified copy. The petitioner may then file an objection under Clause 6.5 before the appropriate authority within two weeks of receiving the provisional/final assessment order and documents; that authority is to dispose of the objection by a reasoned speaking order within a further two weeks. Restoration of the electricity connection depends on the outcome of that order. The petition is disposed of with those directions.",
+      "qualifier": "The Court proceeded on instructions that the assessment had applied a multiplier of 1 instead of 40; it did not decide that error or the quantum.",
+      "paras": "4-6",
+      "flag": "Source PDF compiles listing orders of 2.8.2019 (Pankaj Mithal and Saral Srivastava, JJ.), 5.8.2019 and 6.8.2019 (Ramesh Sinha and Ajit Kumar, JJ.), and this 8.8.2019 disposal. Pins are sequential unnumbered paragraphs of the 8.8.2019 disposal: (1) hearing, record and prayers (restore connection disconnected 10.07.2019; no coercive proceedings); (2) petitioner's case of Rs.69,000 deposited and disconnection before the 23.07.2019 due date; (3) licensee's case of Rs.33,00,000 outstanding and a 10.06.2019 notice not annexed; (4) finding that the controversy is a bill dispute, instructions of multiplier 1 instead of 40, and the full quotation of Clause 6.5; (5) incomplete assessment/bill and the 10-day document direction; (6) Clause 6.5 objection, two-week speaking order, Clause 6.5(b) deposit liberty, restoration to abide, disposal. The Court quoted Clause 6.5(a)–(d) as the Code text, then referred to 'section 6.5 (b)' and 'self assessment'; 6.5(b) is the protest-payment / six-month-average complaint route, not a self-assessment under the Act. The deciding forum is the 'appropriate'/'competent' authority, not named as the Executive Engineer."
+    },
+    {
+      "provision": "UP-2005::6.5(b)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.5(b) (disputed bill — payment under protest of the lesser of the sum claimed or the six-month average, and complaint to the competent authority)",
+      "topic": "liberty to deposit under Clause 6.5(b); restoration not automatic",
+      "type": "supply_code",
+      "holding": "The petitioner has liberty to avail the deposit provided in Clause 6.5(b). If that deposit is made, the respondent shall consider it and pass an appropriate order. Restoration of the electricity connection will depend on the outcome of the order passed on the Clause 6.5 objection; the Court did not restore supply or stay disconnection as an independent writ relief.",
+      "paras": "6",
+      "flag": "The Court called Clause 6.5(b) 'self assessment provided for under section 6.5 (b)'. The quoted Code text of 6.5(b) is protest payment of the lesser of the sum claimed or charges on the average of the preceding six months, with a complaint before the due date. Recorded as stated; the Court did not compute a 6.5(b) figure."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-alternate-remedy-to-writ",
+      "application": "The writ for restoration of a connection disconnected on 10.07.2019 and for a restraint on coercive proceedings was not decided on the bill's merits. The consumer was sent to a time-bound Clause 6.5 objection after the licensee supplies the assessment and bill; restoration was left to that order.",
+      "lead_authorities": [],
+      "paras": "4-6"
+    },
+    {
+      "tag": "clause-6.5-statutory-remedy-disputed-bill",
+      "application": "The Court held that the U.P. Electricity Supply Code, 2005 takes full care of a bill dispute, recited Clause 6.5 (disputed bills and arrears) in full, and directed an objection under that clause to the appropriate authority.",
+      "lead_authorities": [],
+      "paras": "4-6"
+    },
+    {
+      "tag": "6.5-representation-as-appropriate-remedy",
+      "application": "The matter was held to require examination at the departmental level. After documents are supplied, the petitioner is to file an objection under Clause 6.5 before the appropriate authority, to be decided by a reasoned speaking order within two weeks.",
+      "lead_authorities": [],
+      "paras": "4-6"
+    },
+    {
+      "tag": "clause-6.5b-quantification-dispute",
+      "application": "The petitioner was given liberty to deposit as provided in Clause 6.5(b). If that deposit is made, the respondent is to consider it and pass an appropriate order; restoration still depends on the Clause 6.5 outcome. The Court did not fix a deposit figure.",
+      "lead_authorities": [],
+      "paras": "6"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness of the bill, the alleged wrong multiplier (1 instead of 40), and the quantum of arrears (about Rs.33,00,000 versus Rs.69,000 deposited)",
+      "note": "Noted from instructions as the nature of the controversy and left to the Clause 6.5 objection. The Court did not quash the demand or restore supply.",
+      "paras": "2-4, 6"
+    },
+    {
+      "point": "Whether disconnection on 10.07.2019 before the 23.07.2019 due date on the bill-cum-disconnection notice was illegal",
+      "note": "Raised by the petitioner; not examined once the Court remitted the bill dispute under Clause 6.5.",
+      "paras": "2, 4"
+    },
+    {
+      "point": "Whether the petitioner suppressed a notice dated 10.06.2019, and the prayer to restrain coercive proceedings",
+      "note": "The licensee alleged non-disclosure of the 10.06.2019 notice. The Court said 'be that as it may' and did not rest on suppression or grant an injunction against coercive action.",
+      "paras": "1, 3-4, 6"
+    }
+  ],
+  "authorities": []
+}
