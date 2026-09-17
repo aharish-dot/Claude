@@ -1,0 +1,68 @@
+{
+  "case_id": "SCJ-3240",
+  "title": "Haresh Tyagi v. Electricity Ombudsman And 2 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Pritinker Diwaker, J. & Ashutosh Srivastava, J.",
+  "date_of_judgment": "2021-10-21",
+  "date_display": "21 October 2021",
+  "docket": "Writ - C No. - 21346 of 2021",
+  "page_count": 3,
+  "significance": "ordinary",
+  "outcome": "split",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of; Rs. 58,105 to be paid in four instalments (first Rs. 28,105, remainder in three equal instalments); licensee to energize the connection on the first instalment; default permits disconnection and recovery",
+  "headnote": "Where the Consumer Grievance Redressal Forum cancelled electricity bills and directed the licensee to issue fresh bills, and the Electricity Ombudsman later rejected the consumer's Section 142 application on the footing that the licensee had substantially complied by recomputing the dues, the High Court found no error in the recomputed bill of Rs. 58,105. The consumer having agreed to pay and seeking only an instalment concession, and the licensee having no objection in view of Clause 6.14 of the U.P. Electricity Supply Code, 2005, the writ was disposed of by directing payment in four instalments, the first of Rs. 28,105 and the balance in three equal instalments. On deposit of the first instalment the licensee shall immediately energize the connection; default in the later instalments leaves the licensee free to disconnect and recover in accordance with law. The Court did not construe Section 142, nor decide the original plea that bills for the period before village electrification were bogus.",
+  "facts": "Haresh Tyagi held power connection No. 167025, applied for on 31 August 1999. He said the village was electrified only in 2017 under the Pradhan Mantri scheme, so earlier bills were bogus. The Consumer Grievance Redressal Forum, in Complaint Case No. 08A/2018, by order dated 15 May 2018 cancelled all the bills and directed the licensee to issue fresh bills. The licensee's representation (Case No. 180 of 2018) to the Electricity Ombudsman was held not maintainable in light of Special Appeal No. 20/2016 (Kisaan Cold Storage & Ice Factory v. Pachimanchal Vidyut Vitran Nigam Ltd.). Tyagi then applied under Section 142 of the Electricity Act, 2003 to enforce the Forum order. By order dated 18 November 2020 the Ombudsman rejected that application, holding that the licensee had complied with the Forum order and upholding a recomputed demand of Rs. 58,105. Supply was disconnected on 3 December 2020. He challenged the Ombudsman order in this writ.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.14",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.14",
+      "topic": "instalment facility and restoration on first instalment after a CGRF-directed recomputation",
+      "type": "supply_code",
+      "question": "Where the consumer accepts a CGRF-directed recomputed bill and seeks only instalments, and the licensee has no objection, may the writ court itself structure Clause 6.14 instalments and restore supply on the first instalment?",
+      "holding": "Yes. The Court found no error in the licensee's recomputation of Rs. 58,105 in terms of the Forum's 15.5.2018 order. The petitioner was willing to deposit that amount and prayed for an instalment concession; counsel for the licensee had no objection, particularly in view of Clause 6.14, which permits an instalment facility. The writ was disposed of by directing deposit in four instalments (first Rs. 28,105; the remainder in three equal instalments). On the first instalment the licensee shall immediately energize the connection. Default in the balance instalments leaves the licensee free to disconnect supply and initiate recovery in accordance with law.",
+      "paras": "4-6",
+      "flag": "The source PDF also contains a 13.9.2021 listing order of a different Division Bench (Manoj Kumar Gupta, J. & Deepak Verma, J.). Holdings and paras refer to sequential unnumbered blocks of the 21.10.2021 disposal after that cause-title. The 18.11.2020 order is recited as passed by the Electricity Ombudsman 'exercising powers under Section 142'; the Court did not construe Section 142."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "installment-payment-clause-6.14",
+      "application": "With the licensee's no-objection, Clause 6.14 was applied as the source of an instalment facility. The Court itself structured four instalments of the undisputed recomputed bill rather than remitting a 6.14 application to the Executive Engineer.",
+      "lead_authorities": [],
+      "paras": "4-5"
+    },
+    {
+      "tag": "restoration-on-part-deposit",
+      "application": "On deposit of the first instalment of Rs. 28,105, the licensee was directed to energize the disconnected house connection immediately; later default permits disconnection and recovery.",
+      "lead_authorities": [],
+      "paras": "5"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the Electricity Ombudsman could exercise Section 142, and whether the 18.11.2020 rejection of the petitioner's Section 142 application was a valid construction of that section",
+      "note": "The writ challenged that order, but the Court found no error in the recomputed bill and disposed of the petition on Clause 6.14 instalments without construing Section 142.",
+      "paras": "2-4"
+    },
+    {
+      "point": "Whether bills covering the period before village electrification in 2017 were bogus",
+      "note": "That was the original CGRF complaint. The Forum had already cancelled the bills and directed fresh bills. The Court only held that the licensee's recomputation of Rs. 58,105 was without error.",
+      "paras": "3-4"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Kisaan Cold Storage & Ice Factory v. Pachimanchal Vidyut Vitran Nigam Ltd. & Others",
+      "citation": "Special Appeal No. 20/2016",
+      "court": "Allahabad High Court",
+      "docid": "",
+      "proposition": "Recited as the law on which the licensee's representation (Case No. 180 of 2018) against the Forum order was held not maintainable before the Electricity Ombudsman. This bench did not re-decide that question.",
+      "cited_by": "Court",
+      "treatment": "Referred"
+    }
+  ]
+}
