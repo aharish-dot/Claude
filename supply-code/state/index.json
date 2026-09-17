@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3188,
+  "next_seq": 3189,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -19096,6 +19096,12 @@
       "case_id": "SCJ-3186",
       "source_basename": "WRIC(A)_24449_2018.pdf",
       "title": "Mohd. Jubair v. State of U.P. & 2 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3185",
+      "source_basename": "WRIC(A)_23262_2018.pdf",
+      "title": "M/S Swati Menthol And Allied Chemicals Ltd. v. Managing Director, Paschimanchal Vidyut Vitran Nigam Ltd. & Another",
       "status": "done"
     }
   ]

@@ -1,0 +1,81 @@
+{
+  "case_id": "SCJ-3185",
+  "title": "M/S Swati Menthol And Allied Chemicals Ltd. v. Managing Director, Paschimanchal Vidyut Vitran Nigam Ltd. & Another",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Dilip B. Bhosale, C.J. and Yashwant Varma, J.",
+  "date_of_judgment": "2018-08-02",
+  "date_display": "2 August 2018",
+  "docket": "Writ - C No. 23262 of 2018",
+  "page_count": 5,
+  "significance": "ordinary",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of; on without-prejudice deposit of the 21.05.2018 surcharge demand and completion of formalities, licensee to allow load enhancement from 1200 KVA to 1600 KVA within two weeks; liberty to challenge that demand under Clause 6.5, preferably within three months",
+  "headnote": "Where a consumer seeks a mandamus to enhance sanctioned load and the licensee has withheld that enhancement for non-deposit of surcharge — a surcharge dispute already pending in another writ, and a later surcharge demand annexed to the petition but not challenged — the High Court will not decide the surcharge. Recording the parties' statements, it disposes of the writ on the footing that if the consumer deposits the 21.05.2018 demand without prejudice, and completes processing fee and other formalities, the licensee shall allow the load enhancement within two weeks. Liberty is reserved to challenge that demand before the appropriate forum, including a complaint under Clause 6.5 of the U.P. Electricity Supply Code, 2005, which the authority is expected to decide preferably within three months. All contentions on the demand are kept open. The Court did not decide whether surcharge may lawfully be made a condition of load enhancement, nor the merits of the pending surcharge writ.",
+  "facts": "M/s Swati Menthol & Allied Chemicals Ltd. sought a mandamus commanding Paschimanchal Vidyut Vitran Nigam Ltd. to enhance the load of its Unit-2 from 1200 KVA to 1600 KVA under the U.P. Electricity Supply Code, 2005, having deposited a Rs. 10,000 load-enhancement processing fee that the licensee had accepted. Surcharge and other heads had been declared bad by the Consumer Grievance Redressal Forum on 19 March 2016; the Ombudsman dismissed the licensee's appeal on 28 June 2016; and the licensee filed Writ-C No. 736 of 2017, still pending. Load enhancement was then withheld for non-deposit of surcharge. By letter dated 21 May 2018 the licensee raised a further demand of Rs. 33,48,831, in the nature of surcharge, annexed to this writ but not challenged. On 11 July 2018 a Division Bench listed the petition with Writ-C No. 736 of 2017. On 2 August 2018 the petitioner offered to deposit that demand without prejudice, and the licensee agreed to allow the enhancement within two weeks of deposit.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::additional-load",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "load enhancement (Code timeframe invoked; clause not numbered)",
+      "topic": "load enhancement on without-prejudice deposit of an unchallenged surcharge demand",
+      "type": "supply_code",
+      "question": "Where load enhancement has been withheld for non-deposit of surcharge, and a later surcharge demand is annexed to the writ but not challenged, may the writ be disposed of by recording a without-prejudice deposit and a direction to allow the enhancement?",
+      "holding": "Yes, on the parties' recorded statements. The petitioner undertook to deposit Rs. 33,48,831 (letter dated 21.05.2018) without prejudice within two weeks and to complete processing fee and other formalities; counsel for the licensee stated that on such payment the licensee would allow enhancement from 1200 KVA to 1600 KVA within two weeks thereafter. Those submissions were recorded and accepted, and the petition was disposed of on that footing. The Court did not decide whether the licensee could withhold enhancement for non-deposit of surcharge.",
+      "paras": "4-5",
+      "flag": "The Court did not cite a load-enhancement clause. The prayer invoked the stipulated period in the Electricity Supply Code, 2005, and a Rs. 10,000 processing fee. Keyed to catalog UP-2005::additional-load (procedure/timeframe is Clause 4.43). Paras are sequential blocks of the 2.8.2018 disposal from 'Heard Mr. Manoj Kumar Dwivedi'. The PDF also contains the 11.7.2018 listing order of Govind Mathur, J. and Chandra Dhari Singh, J. Coram is the disposing bench."
+    },
+    {
+      "provision": "UP-2005::6.5",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.5",
+      "topic": "unchallenged surcharge demand relegated to Clause 6.5",
+      "type": "supply_code",
+      "question": "Where a surcharge demand is annexed to a load-enhancement writ but is not challenged in that petition, may the consumer still take it to Clause 6.5?",
+      "holding": "Yes. The Court noted that the demand of Rs. 33,48,831 dated 21.05.2018 had not been challenged by writ or before the appropriate forum. It left the petitioners free to challenge that demand, and on counsel's request recorded that if a complaint is filed under Clause 6.5 of the Electricity Supply Code, 2005, the concerned authority is expected to dispose of it as expeditiously as possible and preferably within three months of filing. All contentions on the demand were kept open.",
+      "qualifier": "The Clause 6.5 direction is 'hope and trust', not a mandamus. Deposit of the demand was without prejudice to that challenge.",
+      "paras": "4, 6-7",
+      "flag": "Cited as 'Section 6.5' of the Electricity Supply Code, 2005. Same 2.8.2018 disposal; paragraph numbering as in the additional-load unit."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-alternate-remedy-to-writ",
+      "application": "The 21.05.2018 surcharge demand, annexed to the load-enhancement writ but not challenged in it, was left to a Clause 6.5 complaint (or other appropriate forum), with all contentions kept open.",
+      "lead_authorities": [],
+      "paras": "4, 6-7"
+    },
+    {
+      "tag": "clause-6.5-statutory-remedy-disputed-bill",
+      "application": "Counsel for the petitioners elected to challenge the surcharge demand by a complaint under Clause 6.5 of the Electricity Supply Code, 2005; the Court expected disposal preferably within three months of filing.",
+      "lead_authorities": [],
+      "paras": "6-7"
+    },
+    {
+      "tag": "apply-under-supply-code-consider-in-accordance-with-law",
+      "application": "Load enhancement from 1200 KVA to 1600 KVA was to be allowed within two weeks of without-prejudice deposit of the surcharge demand, the consumer also completing processing fee and other Code formalities.",
+      "lead_authorities": [],
+      "paras": "4-5"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the licensee can levy the surcharge, and the merits of Writ-C No. 736 of 2017",
+      "note": "Recorded as pending in the licensee's writ against the Ombudsman's 28.06.2016 order. Not decided in this petition.",
+      "paras": "3"
+    },
+    {
+      "point": "Validity and quantum of the demand of Rs. 33,48,831 dated 21.05.2018",
+      "note": "Not challenged in this writ. Left to Clause 6.5 or other appropriate forum; all contentions kept open. Deposit was without prejudice.",
+      "paras": "3-4, 6-7"
+    },
+    {
+      "point": "Whether surcharge may lawfully be stipulated as a condition of load enhancement under the Supply Code",
+      "note": "The Court recorded the parties' statements and did not construe any numbered clause on that question.",
+      "paras": "3-5"
+    }
+  ],
+  "authorities": []
+}
