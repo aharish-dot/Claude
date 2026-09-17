@@ -1,0 +1,65 @@
+{
+  "case_id": "SCJ-3264",
+  "title": "Mohd. Ariz Shamsi & Another v. Uttar Pradesh Power Corporation Limited & 2 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Surya Prakash Kesarwani, J. & Jayant Banerji, J.",
+  "date_of_judgment": "2023-01-10",
+  "date_display": "10 January 2023",
+  "docket": "Writ - C No. 17652 of 2022",
+  "page_count": 6,
+  "significance": "procedural",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition disposed of; liberty to apply for connection within three weeks completing Supply Code formalities; respondent no. 3 to consider and pass an order in accordance with law within a further three weeks",
+  "headnote": "Where a writ seeks only a direction to provide an electricity connection, and the licensee states that applications completing the required formalities will be considered in accordance with law, the High Court may, with the parties' consent and without expressing any opinion on merits, dispose of the petition by granting liberty to apply within a stipulated period under the U.P. Electricity Supply Code, 2005, directing the competent officer to consider the applications and pass an appropriate order in accordance with law within a further stipulated period. The Court does not itself grant the connection and does not decide whether unpaid past dues bar a fresh connection.",
+  "facts": "Mohd. Ariz Shamsi and another filed Writ-C No. 17652 of 2022 against Uttar Pradesh Power Corporation Limited and two others, seeking a direction to respondent no. 3 to provide them an electricity connection in accordance with law. After adjournments for service, a roster-jurisdiction listing, and time to file a counter-affidavit, counsel for respondents 2 and 3 stated on 19 October 2022 that the petitioners had not cleared electricity dues and were pressing for a fresh connection to avoid past dues, and was allowed ten days to bring those facts on affidavit. A further ten days to file a counter-affidavit was granted on 20 December 2022. Despite that order, no counter-affidavit was filed. At the 10 January 2023 hearing, counsel for respondents 2 and 3 stated that if the petitioners submitted applications completing all formalities within two weeks, respondent no. 3 would consider them and take appropriate action in accordance with law.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::new-connection",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "new-connection (Court cited the Code generally; no numbered clause)",
+      "topic": "writ for a new connection disposed of by liberty to apply under the Supply Code; licensee to consider in accordance with law; no opinion on merits",
+      "type": "supply_code",
+      "question": "Where the writ seeks only a direction to provide an electricity connection, and the licensee offers to consider applications completing the required formalities in accordance with law, will the High Court grant the connection on the writ?",
+      "holding": "No. With the consent of counsel and without expressing any opinion on the merits, the Court granted liberty to the petitioners to submit an application for electricity connection before respondent no. 3 within three weeks, along with a certified copy of the order, completing all formalities as required by the relevant Act/Rules of the U.P. Electricity Supply Code, 2005. If such applications are submitted within that time, respondent no. 3 shall consider them and pass an appropriate order in accordance with law within the next three weeks. The writ was disposed of. The Court did not itself direct grant of the connection.",
+      "qualifier": "Consent disposal. The licensee's 19.10.2022 allegation that unpaid past dues barred a fresh connection was not decided. No counter-affidavit was on record despite the 20.12.2022 direction.",
+      "paras": "3-6",
+      "flag": "Source PDF concatenates six unnumbered order-sheets: 24.6.2022 (adjournment for service; Sunita Agarwal and Vikram D. Chauhan, JJ.), 24.8.2022 (not this roster; Manoj Kumar Gupta and Ram Manohar Narayan Mishra, JJ.), 26.9.2022 (listing; Manoj Misra and Vikas Budhwar, JJ.), 19.10.2022 (arrears allegation; time for affidavit; Manoj Misra and Umesh Chandra Sharma, JJ.), 20.12.2022 (time for counter; Siddhartha Varma and Umesh Chandra Sharma, JJ.), and 10.1.2023 (disposal; Surya Prakash Kesarwani and Jayant Banerji, JJ.). Paragraph pins are of the 10.1.2023 order (unnumbered sequential blocks: 1 heard; 2 no counter despite 20.12.2022; 3 prayer for connection; 4 licensee's statement to consider applications completing formalities; 5 liberty to apply within three weeks under the Act/Rules of the Supply Code, 2005, consider within a further three weeks; 6 disposed of). The Court cited the Supply Code generally, not a numbered clause. Keyed to the new-connection provision bucket."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "apply-under-supply-code-consider-in-accordance-with-law",
+      "application": "The writ seeking a direction to provide an electricity connection was disposed of, without opinion on merits, by liberty to apply within three weeks completing Supply Code formalities; respondent no. 3 is to consider and pass an appropriate order in accordance with law within a further three weeks.",
+      "lead_authorities": [],
+      "paras": "4-6"
+    },
+    {
+      "tag": "pending-new-connection-consider-in-accordance-with-code",
+      "application": "The Court did not grant the connection. It left respondent no. 3 to consider applications submitted under the U.P. Electricity Supply Code, 2005, and to pass an appropriate order in accordance with law.",
+      "lead_authorities": [],
+      "paras": "5-6"
+    },
+    {
+      "tag": "new-connection-prescribed-application",
+      "application": "Liberty to apply was expressly conditioned on completing all formalities as required by the relevant Act/Rules of the U.P. Electricity Supply Code, 2005, within three weeks, with a certified copy of the order.",
+      "lead_authorities": [],
+      "paras": "5"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioners are entitled on the merits to an electricity connection",
+      "note": "The live prayer. The Court expressly declined to express any opinion on the merits and left the applications, if filed, to respondent no. 3.",
+      "paras": "3, 5-6"
+    },
+    {
+      "point": "Whether unpaid past electricity dues bar a fresh connection to the same petitioners",
+      "note": "Raised by counsel for respondents 2 and 3 on 19.10.2022 (petitioners had not cleared dues and were pressing for a fresh connection to avoid past dues). Time was given for an affidavit; no counter was later filed. The 10.1.2023 disposal did not decide the arrears bar.",
+      "paras": "order of 19.10.2022; 4-6"
+    }
+  ],
+  "authorities": []
+}
