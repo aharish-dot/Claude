@@ -1,0 +1,102 @@
+{
+  "case_id": "SCJ-3253",
+  "title": "Sukhpal Singh v. State of U.P. And 3 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sunita Agarwal, J. & Deepak Verma, J.",
+  "date_of_judgment": "2021-03-15",
+  "date_display": "15 March 2021",
+  "docket": "Writ - C No. 4355 of 2021",
+  "page_count": 3,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition dismissed; petitioner relegated to Clause 6.5 or a CGRF complaint under Clause 7.10; Forum may grant interim relief under CGRF Regulation 6.10",
+  "headnote": "Where a consumer challenges demand notices and a recovery citation on the footing that dues were settled under a One Time Settlement after disconnection, and that a representation directed by an earlier writ remains undecided, but the controversy turns on the factum of use of electricity, the writ court will not try those facts. It is open to the consumer to approach the Executive Engineer under Clause 6.5 of the U.P. Electricity Supply Code, 2005 or to complain to the Consumer Grievance Redressal Forum under Clause 7.10 of the Code. If the Forum is approached, it may issue interim orders under Clause 6.10 of the Consumer Grievance Redressal Forum & Electricity Ombudsman Regulations, 2007. An efficacious alternative statutory remedy under the Code bars the writ, which is dismissed. The Court did not decide the legality of the post-OTS demands, whether electricity was used after the 2011 disconnection, or whether the earlier representation had been decided.",
+  "facts": "Sukhpal Singh, a consumer of Pashchimanchal Electricity Distribution Corporation Ltd. at Gajraula, District Amroha, challenged demand notices dated 24 July 2020 and 7 September 2020 issued by the Executive Engineer, Electricity Distribution Division-II, and sought a direction that he not be pressed to pay the later notice. A bill of Rs. 7,700 had gone unpaid; the connection was disconnected and the cable removed on 30 August 2011. He entered a One Time Settlement on 15 September 2011 for Rs. 5,002 after depositing a Rs. 1,000 fee. A later disconnection notice for Rs. 69,271 followed. The licensee had said the 2011 disconnection was temporary, supply resumed after the OTS deposit, and he never applied for permanent disconnection.\n\nHe had already filed Writ-C No. 4750 of 2020, disposed of on 27 February 2020 with a direction to represent to the Executive Engineer. He said he sent a representation by registered post on 3 December 2020, that it remained undecided, and that a recovery citation had issued on the later demands. An 18 February 2021 sitting stayed coercive action till the next listing.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.5",
+      "topic": "post-OTS demand and factum of use — factual dispute for the Executive Engineer under Clause 6.5; writ not entertained",
+      "type": "supply_code",
+      "question": "Where the consumer disputes post-OTS demand notices and the controversy is the factum of use of electricity, will the writ court try those facts or relegate him to Clause 6.5?",
+      "holding": "The dispute is factual. It is not possible for the writ court to ascertain the factum of use of electricity. It is open to the petitioner to approach respondent no. 3 (the Executive Engineer) under Clause 6.5 of the U.P. Electricity Supply Code, 2005. Because an efficacious alternative statutory remedy under the Code exists, the writ cannot be entertained and is dismissed.",
+      "qualifier": "The Court also left open a CGRF complaint under Clause 7.10 and did not continue the 18.2.2021 stay of coercive action. It did not decide whether the 3.12.2020 representation under the 27.2.2020 writ had been decided.",
+      "paras": "5, 7-8",
+      "flag": "Source PDF concatenates two sittings. 18.2.2021 (Mahesh Chandra Tripathi, J. and Sanjay Kumar Pachori, J.) listed the matter as fresh on 08.03.2021 and stayed coercive action on the 24.7.2020 and 7.9.2020 notices till then. Operative disposal is 15.3.2021 (Sunita Agarwal, J. and Deepak Verma, J.). Paras 1–8 are sequential blocks of that order. No numbered clauses beyond 6.5 / 7.10 / CGRF 6.10; no precedent cited."
+    },
+    {
+      "provision": "UP-2005::7.10",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "7.10",
+      "topic": "CGRF complaint as an alternative to Clause 6.5 for a factual billing / use dispute",
+      "type": "supply_code",
+      "question": "Besides Clause 6.5, may the consumer instead complain to the Consumer Grievance Redressal Forum?",
+      "holding": "Yes. It is open to the petitioner to file a complaint before the Consumer Grievance Redressal Forum in accordance with Clause 7.10 of the Code, 2005, as an alternative to approaching the Executive Engineer under Clause 6.5.",
+      "paras": "5",
+      "flag": "The Court attributed the CGRF complaint route to 'Clause 7.10 of the Code, 2005'. Keyed as spoken (UP-2005::7.10). Catalog also carries CGRF-2007::7.10 for the Forum complaint; not silently re-keyed."
+    },
+    {
+      "provision": "CGRF-2007::6.10",
+      "code": "U.P. Electricity Regulatory Commission (Consumer Grievance Redressal Forum & Electricity Ombudsman) Regulations, 2007",
+      "clause": "6.10",
+      "topic": "CGRF power to issue interim orders if the consumer takes the Forum route",
+      "type": "interplay",
+      "question": "If the consumer complains to the CGRF instead of pursuing the writ, can the Forum grant interim protection against the demand?",
+      "holding": "Yes. If the petitioner approaches the Consumer Grievance Redressal Forum, the Forum has power to issue interim orders under Clause 6.10 of the Consumer Grievance Redressal Forum & Electricity Ombudsman Regulations, 2007.",
+      "paras": "6"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "disputed-questions-of-fact-not-adjudicable-under-article-226",
+      "application": "The Court held the controversy over the post-OTS demand notices to be factual and said it was not possible to ascertain the factum of use of electricity in writ.",
+      "lead_authorities": [],
+      "paras": "5"
+    },
+    {
+      "tag": "billing-dispute-question-of-fact-executive-engineer-clause-6.5",
+      "application": "Because the factum of use could not be tried in writ, it was left open to the petitioner to approach respondent no. 3 under Clause 6.5 of the Supply Code, 2005.",
+      "lead_authorities": [],
+      "paras": "5"
+    },
+    {
+      "tag": "clause-6.5-statutory-remedy-disputed-bill",
+      "application": "The writ against the 24.7.2020 and 7.9.2020 demand notices was dismissed on the ground that an efficacious alternative statutory remedy under the Electricity Supply Code, 2005 was available.",
+      "lead_authorities": [],
+      "paras": "5, 7-8"
+    },
+    {
+      "tag": "cgrf-7.10-alternate-remedy",
+      "application": "As an alternative to Clause 6.5, the Court left open a complaint to the Consumer Grievance Redressal Forum under Clause 7.10 of the Code, noting the Forum's interim-order power under CGRF Regulation 6.10.",
+      "lead_authorities": [],
+      "paras": "5-6"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the demand notices dated 24.7.2020 and 7.9.2020, and the earlier Rs. 69,271 disconnection notice, were lawful after the 15.9.2011 One Time Settlement",
+      "note": "The live challenge. Left to Clause 6.5 or the CGRF; the notices were neither quashed nor affirmed.",
+      "paras": "2, 5, 7-8"
+    },
+    {
+      "point": "Factum of use of electricity after the 30.8.2011 disconnection and the OTS",
+      "note": "Expressly treated as a question of fact the writ court would not ascertain. The licensee's case in the earlier writ had been that the disconnection was temporary and supply resumed after the OTS.",
+      "paras": "5"
+    },
+    {
+      "point": "Whether the representation dated 3.12.2020, sent pursuant to the 27.2.2020 order in Writ-C No. 4750 of 2020, remained undecided, and whether the later demand notices breached that order",
+      "note": "Raised by the petitioner; the Court did not direct that representation to be decided and dismissed this writ on the alternative Code/CGRF remedy.",
+      "paras": "3, 5, 7-8"
+    },
+    {
+      "point": "Validity of the recovery citation issued pursuant to the demand notices",
+      "note": "Recorded as appearing to have issued; not stayed or quashed on this disposal.",
+      "paras": "4, 8"
+    }
+  ],
+  "authorities": []
+}
