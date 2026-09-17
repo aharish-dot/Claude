@@ -1,0 +1,109 @@
+{
+  "case_id": "SCJ-3239",
+  "title": "M/S Jai Kishan Stone Crusher Karari v. U.P. Electricity Ombudsman And 4 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Manoj Misra, J. & Jayant Banerji, J.",
+  "date_of_judgment": "2021-09-23",
+  "date_display": "23 September 2021",
+  "docket": "Writ - C No. 20446 of 2021",
+  "page_count": 4,
+  "significance": "ordinary",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition dismissed; Forum and Ombudsman orders on the low-voltage billing dispute left undisturbed; alleged subsequent non-revision of bills left to Supply Code remedies",
+  "headnote": "Where a stone-crusher consumer, after concurrent dismissal of billing complaints by the Consumer Grievance Redressal Forum and the U.P. Electricity Ombudsman, challenges those orders in writ on the ground that an MRI report of voltage was not obtained in its presence as required by the U.P. Electricity Supply Code, 2005, the High Court will not interfere. The Ombudsman's order of 15 June 2021 was well reasoned: it considered the MRI and other reports and the Code's provisions on permissible voltage variation, found the low-voltage claim unproved, held that the consumer was not entitled to a bill waiver on that ground, and recorded that under the Code the consumer remains liable for minimum charges during a temporary disconnection for non-payment. A challenge to the MRI procedure first raised in the writ, without having been taken in the appeals before the Ombudsman, is not entertainable. Alleged subsequent failure of the licensee to issue a revised bill as directed by the Ombudsman is a later cause of action for which the consumer may take remedies under the Code. The petition is dismissed.",
+  "facts": "M/s Jai Kishan Stone Crusher Karari, a proprietorship with a stone-crushing electricity connection, defaulted from January 2016 to March 2017. A demand of Rs. 6,36,536 followed. Alleging supply below the requisite voltage so that its machines ran on a generator, it filed Complaint No. 154 of 2018 before the Consumer Grievance Redressal Forum, Jhansi. Supply was then temporarily disconnected for non-payment and restored under an interim Forum order on deposit. A further demand of Rs. 25,92,690 led to Complaint No. 04 of 2019.\n\nThe Forum dismissed the first complaint on 16 October 2019 (MRI showed voltage drop within permissible limits) and the second on 14 December 2019 (default after the interim restoration). The U.P. Electricity Ombudsman dismissed Appeals Nos. 37 and 38 of 2020 on 15 June 2021, directing waiver of minimum charges for delayed reconnection (June 2020 to 22 September 2020), adjustment of deposits with a revised bill, and instalments as per the Rules. The firm sought certiorari, contending the MRI was not taken in its presence as required by the Supply Code.",
+  "holding_units": [
+    {
+      "provision": "OFFTOPIC::article-226-no-review-of-forum-findings-of-fact",
+      "code": "Constitution of India",
+      "clause": "Article 226 (no interference with reasoned Forum/Ombudsman findings; new MRI plea not taken below)",
+      "topic": "writ court will not disturb a reasoned Ombudsman order on voltage and billing, or entertain an MRI-procedure challenge not taken in the Ombudsman appeal",
+      "type": "interplay",
+      "question": "Will the writ court interfere with concurrent Forum and Ombudsman findings that voltage drop was within permissible Code limits, or entertain a first-time challenge that the MRI was not taken in the consumer's presence?",
+      "holding": "No. The Ombudsman's order of 15.06.2021 was well reasoned: it considered the reports on record and the Code provisions on permissible voltage variation, heard the petitioner, and held that the low-voltage claim was not made out and that no bill waiver was due. Counsel could not show any legal infirmity. The MRI-procedure challenge (that the report was not obtained in the petitioner's presence as required by the Code) is not entertainable at the writ stage, particularly when it was not taken in the appeals before the Ombudsman (grounds at Annexures 5 and 6). The petition is dismissed.",
+      "qualifier": "The Ombudsman had already directed waiver of minimum charges for delayed reconnection (June 2020 to 22.09.2020), adjustment of deposits with a revised bill, and instalments as per the Rules. The Court treated those directions as a reason not to interfere, not as additional writ relief.",
+      "paras": "5-7, 9",
+      "flag": "Numbered paras 1-9. The Court did not cite a clause number for the MRI procedure. Petitioner invoked 'the procedure provided by the U.P. Electricity Supply Code' and presence at the MRI; the Court did not decide whether that procedure applies to an MRI download."
+    },
+    {
+      "provision": "UP-2005::(unspecified)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "unspecified — permissible variation in voltage",
+      "topic": "voltage drop within permissible Code limits does not entitle the consumer to evade energy bills or obtain a waiver",
+      "type": "supply_code",
+      "question": "Where MRI and other reports show voltage drop within the Code's permissible limits, may the consumer refuse the energy bills and claim that only minimum charges are payable?",
+      "holding": "No. The Forum dismissed Complaint No. 154 of 2018 on the MRI finding that voltage drop for the disputed period was within permissible limits and that such a minor drop would not entitle the consumer to evade the bills. The Ombudsman, applying the Code's provisions on permissible voltage variation and the reports on record (including reports that the voltage was sufficient to run the machines), held that the low-voltage claim was incorrect and that the petitioner was not entitled to any waiver of bill payment on that ground. The writ court affirmed those findings and dismissed the petition.",
+      "paras": "2, 5-6",
+      "flag": "The Court referred to 'various provisions of the U.P. Electricity Supply Code, 2005 ... in respect of a permissible variation in voltage etc.' without numbering a clause. Not recast as Clause 7.7.1 (CGRF supply-related category) or as a Standards-of-Performance regulation."
+    },
+    {
+      "provision": "UP-2005::4.36",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.36 (temporary disconnection for non-payment — minimum charges)",
+      "topic": "consumer remains liable for minimum charges during temporary disconnection for non-payment",
+      "type": "supply_code",
+      "question": "Is a consumer liable under the Code for minimum charges during a temporary disconnection for non-payment of electrical dues?",
+      "holding": "Yes. After examining the record, the Ombudsman recorded that as per the provisions of the Code the consumer was liable to pay minimum charges during the period of temporary disconnection on account of non-payment of electrical dues, and affirmed the Forum's dismissal of the complaints. The writ court accepted that finding. Separately, the Ombudsman had already directed that the licensee shall not raise minimum charges from June 2020 to 22.09.2020, i.e. from the interim reconnection order until that order was complied with.",
+      "paras": "3, 6",
+      "flag": "The Court did not number the clause. Keyed to Clause 4.36 as the Code's temporary-disconnection-for-non-payment provision; Clauses 4.37-4.38 (conversion to permanent disconnection) were not discussed. The limited waiver of minimum charges for delayed reconnection is the Ombudsman's direction, not a writ construction."
+    },
+    {
+      "provision": "UP-2005::7.10",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "7.10 (remedies under the Code for a subsequent cause of action)",
+      "topic": "alleged non-revision of bills after an Ombudsman direction is a subsequent cause of action for Code remedies, not a ground to quash the Ombudsman order",
+      "type": "supply_code",
+      "question": "If, after the Ombudsman directs a revised bill, the licensee is said to have billed without properly revising, may that subsequent default be used to quash the Ombudsman order in writ?",
+      "holding": "No. A supplementary affidavit filed at the hearing contended that the Supply Corporation had raised bills without properly revising them as directed by the Ombudsman. The Court held that if that is so, it is a subsequent cause of action for which the petitioner is free to take recourse to the remedies under the Code. It was not a reason to interfere with the impugned Forum and Ombudsman orders.",
+      "paras": "8-9",
+      "flag": "The Court said 'remedies under the Code' without numbering a clause. Keyed to Clause 7.10 as the Code's Forum/Ombudsman route; it could equally be a Clause 6.5 bill-correction representation. Not decided which Code remedy applies."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "disputed-questions-of-fact-not-adjudicable-under-article-226",
+      "application": "The Forum and Ombudsman had found from the MRI and other reports that voltage drop was within permissible limits and sufficient to run the machines. The writ court would not re-try that fact or disturb those concurrent findings in the absence of demonstrated legal infirmity.",
+      "lead_authorities": [],
+      "paras": "2, 5-7, 9"
+    },
+    {
+      "tag": "plea-not-raised-before-ombudsman-not-entertainable-in-writ",
+      "application": "The petitioner's challenge that the MRI was not obtained in its presence as required by the Supply Code was not taken in the grounds of Appeals Nos. 37 and 38 of 2020 (Annexures 5 and 6). The Court refused to entertain that plea for the first time in writ.",
+      "lead_authorities": [],
+      "paras": "4-5, 7"
+    },
+    {
+      "tag": "minimum-charges-continue-until-permanent-disconnection",
+      "application": "The Court accepted the Ombudsman's finding that under the Code the consumer was liable for minimum charges during temporary disconnection for non-payment. A limited waiver already granted by the Ombudsman for the delayed-reconnection window (June 2020 to 22.09.2020) was left standing.",
+      "lead_authorities": [],
+      "paras": "3, 6"
+    },
+    {
+      "tag": "apply-under-supply-code-consider-in-accordance-with-law",
+      "application": "Alleged subsequent failure of the licensee to issue a revised bill as directed by the Ombudsman was treated as a later cause of action; the petitioner was left to the remedies under the Code rather than given writ relief against the Ombudsman order.",
+      "lead_authorities": [],
+      "paras": "8"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the MRI report was in fact obtained in the petitioner's presence, or otherwise in accordance with the Supply Code procedure",
+      "note": "The plea was not entertained because it had not been taken before the Ombudsman. The Court did not decide the applicable Code procedure for an MRI.",
+      "paras": "4, 7"
+    },
+    {
+      "point": "Whether the licensee has since issued a properly revised bill after adjustment of deposits as directed by the Ombudsman on 15.06.2021",
+      "note": "Raised by supplementary affidavit as a subsequent cause of action; left to remedies under the Code.",
+      "paras": "8"
+    },
+    {
+      "point": "Quantum of the revised demand after adjustment of deposits, and whether instalments should be granted",
+      "note": "The Ombudsman had already directed a revised bill after adjustment and instalments as per the Rules. The writ court did not compute the figure or itself grant instalments.",
+      "paras": "3, 9"
+    }
+  ],
+  "authorities": []
+}
