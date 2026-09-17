@@ -1,0 +1,88 @@
+{
+  "case_id": "SCJ-3211",
+  "title": "Navjot Singh v. State of U.P. & 6 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Shashi Kant Gupta, J. & Ravi Nath Tilhari, J.",
+  "date_of_judgment": "2019-12-12",
+  "date_display": "12 December 2019",
+  "docket": "Writ - C No. 41064 of 2019",
+  "page_count": 3,
+  "significance": "procedural",
+  "outcome": "pending",
+  "model": "Grok 4.6",
+  "disposition": "Stay of recovery citation against the petitioner-Director; recovery against the company (R-7) not restrained; listed with Writ-C No. 8370 of 2016; writ remains pending",
+  "headnote": "Where a Director of a private limited company-consumer challenges a recovery certificate and Tehsildar citation issued in both names, and seeks to have the 11.8.2006 UPERC amendment of Clause 4.3(f)(v) of the U.P. Electricity Supply Code, 2005 — under which recovery of a defaulting company-consumer's dues is to be ensured from its Directors — declared ultra vires Sections 2(15) and 56 of the Electricity Act, 2003 and Section 3 of the U.P. Act, 1958, and the same controversy is already under consideration in Writ-C No. 8370 of 2016 (Izharul Hauque), the Court calls for counters, lists this writ with that petition, and directs that the recovery citation shall not be enforced against the petitioner-Director, without restraining recovery of the amount due against the company in accordance with law. The vires of Clause 4.3(f)(v) and the Director's personal liability are not decided.",
+  "facts": "Navjot Singh, a Director of respondent no. 7, a private limited company, petitioned the Allahabad High Court to quash a recovery certificate dated 11 February 2019 of the Prescribed Authority/Executive Engineer, Dakshinanchal Vidyut Vitran Nigam Ltd, Electricity Distribution Division-I, Hamirpur, and a recovery citation dated 5 November 2019 of the Tehsildar, Sadar Tehsil, Kanpur Nagar, both issued in the name of the company and of the petitioner. He also sought a declaration that UPERC Notification No. UPERC/Secy/Regulation/Supply Code/2006-517 dated 11 August 2006, amending Clause 4.3(f)(v) of the U.P. Electricity Supply Code, 2005 so that recovery of a body-corporate consumer's dues may be enforced against its Director, is ultra vires Sections 2(15) and 56 of the Electricity Act, 2003 and Section 3 of the U.P. Act, 1958, and a mandamus restraining coercion including arrest. He contended that the company, not he, is the consumer, and that the same vires issue is pending in Writ-C No. 8370 of 2016 (Izharul Hauque v. State of U.P.).",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.3(f)(v)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.3(f)(v) (as amended by UPERC Notification dated 11.8.2006)",
+      "topic": "Interim stay of a recovery citation against a Director pending a connected vires challenge to Clause 4.3(f)(v); recovery against the company-consumer left open",
+      "type": "interplay",
+      "question": "Pending a connected challenge that Clause 4.3(f)(v), requiring recovery of a defaulting company-consumer's dues from its Directors, is ultra vires the Electricity Act, 2003, may a recovery citation against the petitioner-Director be stayed while recovery against the company remains open?",
+      "holding": "Not decided on merits. Reciting that Clause 4.3(f)(v) provides for recovery against the defaulting consumer and, where that consumer is a company, that recovery from its Directors shall be ensured, and that the same vires controversy is under consideration in Writ-C No. 8370 of 2016 (Izharul Hauque), the Court called for counters, issued notice to respondent no. 7, listed this writ with that petition, and directed that the recovery citation shall not be enforced against the petitioner, without restraining enforcement of the amount due against respondent no. 7 in accordance with law. Clause 4.3(f)(v) was not construed.",
+      "qualifier": "Interlocutory (12.12.2019, Shashi Kant Gupta, J. and Ravi Nath Tilhari, J.). Writ remains pending.",
+      "paras": "2-3",
+      "flag": "Unnumbered 12.12.2019 order treated as sequential blocks paras 1–3 (prayers; contention and quotation of Izharul Hauque 24.2.2016; listing and interim). The listing direction recites Writ C No. 8370 of 2019; the quoted order and the earlier recital are Writ C No. 8370 of 2016. Catalog hits on other 4.3(f) sub-clauses (auction purchaser, landlord, first charge, IBC override, new-connection bar, director-liability retrospectivity/exhaustion of company assets) are false positives — only Clause 4.3(f)(v) and the 11.8.2006 UPERC amendment are in issue."
+    },
+    {
+      "provision": "EA2003::2(15)",
+      "code": "Electricity Act, 2003",
+      "clause": "2(15) (definition of consumer)",
+      "topic": "Whether a Director of a company-consumer falls outside Section 2(15); not construed",
+      "type": "electricity_act",
+      "holding": "The petitioner submitted, and the quoted Izharul Hauque order records, that where a body corporate is the consumer as defined in Section 2(15), recovery cannot be enforced against its Directors, so that Clause 4.3(f)(v) is ultra vires. The Court did not construe Section 2(15).",
+      "paras": "1-2"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "interim-protection-pending-vires-challenge-to-supply-code-amendment",
+      "application": "Pending the connected challenge in Writ-C No. 8370 of 2016 to Clause 4.3(f)(v) as amended by the 11.8.2006 UPERC notification, the recovery citation shall not be enforced against the petitioner-Director, while recovery of the same dues against the company-consumer (R-7) remains open.",
+      "lead_authorities": [
+        {
+          "name": "Izharul Hauque v. State of U.P. and 6 Others",
+          "docid": ""
+        }
+      ],
+      "paras": "2-3"
+    },
+    {
+      "tag": "procedural-listing-no-construction",
+      "application": "Counters called for and the writ listed with Writ-C No. 8370 of 2016; Clause 4.3(f)(v), Section 2(15), and the Director's personal liability remain unadjudicated.",
+      "lead_authorities": [],
+      "paras": "3"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether Clause 4.3(f)(v) of the U.P. Electricity Supply Code, 2005, as amended by UPERC Notification dated 11.8.2006, is ultra vires Sections 2(15) and 56 of the Electricity Act, 2003 and Section 3 of the U.P. Act, 1958",
+      "note": "Raised in the prayers and as the controversy pending in Writ-C No. 8370 of 2016; counters directed; no merits ruling.",
+      "paras": "1-3"
+    },
+    {
+      "point": "Whether recovery of the company's electricity dues can be enforced against the petitioner as a Director who is not the consumer",
+      "note": "Only an interim stay of the recovery citation against the petitioner; recovery against respondent no. 7 left open.",
+      "paras": "2-3"
+    },
+    {
+      "point": "Whether the respondents may coerce the petitioner, including by arrest, to discharge the company's liabilities",
+      "note": "Sought as prayer (iii); not separately ruled on beyond the stay of the citation against the petitioner.",
+      "paras": "1, 3"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Izharul Hauque v. State of U.P. and 6 Others",
+      "citation": "Writ C No. 8370 of 2016, order dated 24.02.2016",
+      "court": "Allahabad High Court",
+      "docid": "",
+      "proposition": "Where a recovery citation is issued against both a private limited company-consumer and its Director, the challenge that Clause 4.3(f)(v) is ultra vires Section 2(15) of the Electricity Act, 2003 requires consideration; the citation shall not be enforced against the Director, without restraining recovery against the company.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}
