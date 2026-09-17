@@ -1,0 +1,183 @@
+{
+  "case_id": "SCJ-3220",
+  "title": "Srikant Mishra Alias Manoj v. State of U.P. & 2 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Naheed Ara Moonis, J. & Dinesh Pathak, J.",
+  "date_of_judgment": "2021-02-01",
+  "date_display": "1 February 2021",
+  "docket": "Writ - C No. 19955 of 2020",
+  "page_count": 5,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition disposed of; petitioner to file a representation within two weeks for a speaking final assessment after hearing, preferably within four weeks; coercive action stayed for six weeks or until that decision; benefit lost if representation not filed",
+  "headnote": "Where a consumer challenges a recovery citation of Rs. 2,51,343 on the ground that a provisional assessment was never served, objections were not invited, and the provisional figure was treated as final without a hearing, and the licensee says inspection found illegal use of electricity and that want of objection converted the provisional notice into a final assessment, the Court, applying Shishir Jain, holds that the consumer cannot be compelled to deposit on a provisional assessment without a hearing and without being supplied a copy of a final order. Treating the provisional amount as final is dehors Section 126 of the Electricity Act, 2003 and Clauses 6.8 and 8.1 of the U.P. Electricity Supply Code, 2005 — Clause 8.1 being the theft procedure of inspection, provisional assessment, hearing and final assessment — and violates natural justice. Without entering the merits, the writ is disposed of by directing a representation within two weeks for a reasoned speaking final assessment after hearing, preferably within four weeks; coercive action on the citation is stayed for six weeks or until that decision, whichever is earlier; default in filing the representation forfeits the benefit. The Court did not quash the citation or decide the theft allegation or quantum.",
+  "facts": "Srikant Mishra alias Manoj filed Writ-C No. 19955 of 2020 in the Allahabad High Court seeking quashing of a recovery citation dated 17 February 2020 issued by respondent no. 2, directing him to deposit Rs. 2,51,343 as electricity dues. He alleged that the provisional assessment was never served, objections were not invited, the provisional figure was treated as the final assessment, and no opportunity of hearing was given, contrary to Section 126(3) of the Electricity Act, 2003 and Clauses 6.8 and 8.1 of the U.P. Electricity Supply Code, 2005.\n\nCounsel for the Power Corporation (respondent no. 3) said that on inspection the petitioner was found using electricity by illegal means; a provisional assessment notice was issued; and as no objection was filed, that notice was treated as the final assessment. On 2 December 2020 and 7 December 2020 Naheed Ara Moonis and Vivek Varma, JJ. listed the matter for instructions. The writ was disposed of on 1 February 2021 by Naheed Ara Moonis and Dinesh Pathak, JJ.",
+  "reusable_constructions": [
+    {
+      "construction": "A consumer cannot be compelled to deposit on a provisional assessment unless a final assessment is made after an opportunity of hearing and a copy of that order is supplied.",
+      "paras": "9"
+    },
+    {
+      "construction": "Treating the amount in a provisional assessment as the final assessment without a hearing is dehors Section 126 of the Electricity Act, 2003 and Clauses 6.8 and 8.1 of the Supply Code, 2005, and violates natural justice.",
+      "paras": "9"
+    },
+    {
+      "construction": "Clause 8.1 of the Supply Code, 2005 is the procedure for inspection, provisional assessment, hearing and final assessment in a case of theft of electricity.",
+      "paras": "9"
+    },
+    {
+      "construction": "Want of an objection to a provisional assessment does not by itself authorise recovery of the provisional figure as a concluded final assessment.",
+      "paras": "6,9"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "8.1 (theft — inspection, provisional assessment, hearing and final assessment)",
+      "topic": "Provisional theft assessment cannot be treated as final without hearing and supply of the order",
+      "type": "interplay",
+      "question": "May a licensee recover a theft demand by treating a provisional assessment as final because no objection was filed, without a hearing and without supplying a copy of a final order?",
+      "holding": "No. Applying Shishir Jain, the petitioner could not be compelled to deposit on the provisional assessment without an opportunity of hearing while making a final assessment, and without being supplied a copy of that order. Treating the provisional amount as final without a hearing is dehors Section 126 of the Electricity Act, 2003 and Clauses 6.8 and 8.1 of the Code, 2005, and violates natural justice. Clause 8.1 is the licensee's procedure for inspection, provisional assessment, hearing and final assessment in theft of electricity. Without entering the merits, the Court directed a representation within two weeks for a reasoned speaking final assessment after hearing, preferably within four weeks; coercive action on the 17.2.2020 citation is stayed for six weeks or until that decision, whichever is earlier; default in filing the representation forfeits the benefit. The citation was not quashed.",
+      "qualifier": "Operative relief is a time-bound representation, not certiorari. The Court cited Clause 6.8 alongside Clause 8.1 without choosing between unauthorised use and theft.",
+      "paras": "7-12",
+      "flag": "Source PDF concatenates listing orders of 2.12.2020 and 7.12.2020 (Naheed Ara Moonis and Vivek Varma, JJ.) with this 1.2.2021 disposal. The disposing order is unnumbered; paras are sequential blocks from 'Heard learned counsel'. Licensee characterised the inspection as illegal means (theft). Catalog hits on Clauses 4.3, 4.35–4.39 and 8.14 are false positives."
+    },
+    {
+      "provision": "EA2003::126",
+      "code": "Electricity Act, 2003",
+      "clause": "126 (petitioner invoked 126(3) — hearing before final assessment)",
+      "topic": "No deposit can be compelled on a provisional Section 126 assessment without a final assessment after hearing",
+      "type": "electricity_act",
+      "question": "Can a consumer be compelled to deposit a provisionally assessed amount when no final assessment after hearing has been made or supplied?",
+      "holding": "No. Following Shishir Jain paragraph 16, without a final assessment after considering the objection and giving an opportunity of hearing, the consumer cannot be compelled to deposit any amount. The procedure adopted by respondent no. 3 was held dehors Section 126. The writ court did not itself make or quash an assessment; it sent the matter back for a speaking final assessment after hearing.",
+      "paras": "5,7-10"
+    },
+    {
+      "provision": "UP-2005::6.8",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.8",
+      "topic": "Clause 6.8 cited as also violated; not separately construed",
+      "type": "supply_code",
+      "holding": "The petitioner invoked Clause 6.8 together with Clause 8.1 and Section 126(3). The Court held the procedure dehors Clause 6.8 as well as Clause 8.1 and Section 126, but identified Clause 8.1 as the theft-assessment procedure and did not separately construe Clause 6.8.",
+      "paras": "5,9",
+      "flag": "Both 6.8 and 8.1 were named; the Court did not decide whether the demand was unauthorised use or theft."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "opportunity-before-final-assessment",
+      "application": "The Court would not let the 17.2.2020 recovery stand as concluded where the provisional assessment was treated as final without a hearing or supply of a final order; a representation for a speaking final assessment after hearing was directed.",
+      "lead_authorities": [
+        {
+          "name": "Shishir Jain v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+          "docid": ""
+        }
+      ],
+      "paras": "4-5,9-10"
+    },
+    {
+      "tag": "clause-8.1b-personal-hearing-mandatory-before-final-assessment",
+      "application": "Clause 8.1 was applied as the theft procedure requiring inspection, provisional assessment, hearing and final assessment; treating the provisional figure as final without a hearing was held to violate that procedure and natural justice.",
+      "lead_authorities": [
+        {
+          "name": "Shishir Jain v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+          "docid": ""
+        }
+      ],
+      "paras": "9"
+    },
+    {
+      "tag": "final-assessment-order-mandatory-under-section-126-3",
+      "application": "Following Shishir Jain paragraph 16, the petitioner could not be compelled to deposit the provisional amount unless a final assessment was made after considering the objection and granting a hearing under Section 126.",
+      "lead_authorities": [
+        {
+          "name": "Shishir Jain v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+          "docid": ""
+        }
+      ],
+      "paras": "7-9"
+    },
+    {
+      "tag": "final-s126-assessment-mandatory-precondition-to-recovery-citation",
+      "application": "Recovery on the 17.2.2020 citation was not allowed to proceed as if the provisional figure were a concluded final assessment; coercive action was stayed pending a speaking final assessment after hearing.",
+      "lead_authorities": [
+        {
+          "name": "Shishir Jain v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+          "docid": ""
+        }
+      ],
+      "paras": "9-11"
+    },
+    {
+      "tag": "6.8-procedure-mandatory",
+      "application": "The Court held the licensee's procedure dehors Clause 6.8 as well as Clause 8.1 and Section 126, without separately construing Clause 6.8.",
+      "lead_authorities": [],
+      "paras": "5,9"
+    },
+    {
+      "tag": "clause-8.1b-theft-notice-natural-justice",
+      "application": "Treating a Clause 8.1 provisional theft assessment as final without opportunity of hearing, and without supplying a copy of the order, was held to violate natural justice.",
+      "lead_authorities": [
+        {
+          "name": "Shishir Jain v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+          "docid": ""
+        }
+      ],
+      "paras": "9"
+    },
+    {
+      "tag": "apply-under-supply-code-consider-in-accordance-with-law",
+      "application": "Without entering the merits or quashing the citation, the Court directed a fresh representation to respondent no. 3 for a reasoned speaking final assessment after hearing.",
+      "lead_authorities": [],
+      "paras": "10"
+    },
+    {
+      "tag": "ex-parte-s126-assessment-requires-hearing-before-recovery",
+      "application": "The licensee had treated the provisional notice as final because no objection was filed; recovery on that basis was held unsustainable until a hearing and a final assessment.",
+      "lead_authorities": [
+        {
+          "name": "Shishir Jain v. Paschimanchal Vidyut Vitran Nigam Ltd.",
+          "docid": ""
+        }
+      ],
+      "paras": "6,9-11"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits of the illegal-use/theft allegation and the quantum of Rs. 2,51,343",
+      "note": "Writ disposed without entering into the merits; left to a speaking final assessment after hearing on the representation.",
+      "paras": "10"
+    },
+    {
+      "point": "Whether the provisional assessment notice was in fact served",
+      "note": "Petitioner denied service; licensee asserted that a notice issued and no objection was filed. The Court did not find on service.",
+      "paras": "4,6,9"
+    },
+    {
+      "point": "Quashing of the recovery citation dated 17.2.2020",
+      "note": "The citation was not quashed; coercive action was stayed only for six weeks or until the representation is decided, whichever is earlier.",
+      "paras": "3,10-12"
+    },
+    {
+      "point": "Whether the demand was a theft assessment (Clause 8.1) or other unauthorised use (Clause 6.8)",
+      "note": "Both clauses were held to have been departed from; Clause 8.1 was identified as the theft procedure, but no election was made.",
+      "paras": "5-6,9"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Shishir Jain v. Paschimanchal Vidyut Vitran Nigam Ltd. and another",
+      "citation": "2017 (3) AWC 3084",
+      "court": "Allahabad High Court",
+      "docid": "",
+      "proposition": "If there is no final assessment, the consumer cannot be compelled to deposit the amount of the provisional assessment; without a final assessment after considering the objection and giving an opportunity of hearing, notices demanding that amount are unsustainable (para 16).",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}
