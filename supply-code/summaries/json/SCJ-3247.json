@@ -1,0 +1,105 @@
+{
+  "case_id": "SCJ-3247",
+  "title": "Sanjeev Singh v. State of U.P. And 4 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Sunita Agarwal, J. & Vipin Chandra Dixit, J.",
+  "date_of_judgment": "2022-09-12",
+  "date_display": "12 September 2022",
+  "docket": "Writ - C No. 29932 of 2021",
+  "page_count": 4,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition disposed of; no deemed or automatic permanent disconnection; petitioner may file a Clause 6.5 objection to the Executive Engineer within two weeks on quantum of bills from 11.05.2018 to 24.10.2020; recovery citation dated 08.10.2021 stayed for two months or until that decision, whichever is earlier; default leaves respondents free to proceed",
+  "headnote": "Where a commercial consumer challenges a recovery certificate on the footing that non-payment of a bill for six months, and the licensee's failure to raise further bills, effected a deemed permanent disconnection so that later consumption cannot be charged, the writ court will not accept that theory. Permanent disconnection takes effect when it is actually made — here on 24.10.2020 on the consumer's application of 29.07.2020 — and there cannot be any automatic or deemed permanent disconnection from non-payment or non-billing. A later affidavit that the meter became defunct does not wipe charges for the unbilled period. The consumer remains liable to be billed for usage from the last bill (11.05.2018) until permanent disconnection. A dispute confined to computation of those bills, including a challenge to the recovery certificate on quantum, is to be raised before the Executive Engineer under Clause 6.5 of the U.P. Electricity Supply Code, 2005. If an objection is filed within two weeks, the Executive Engineer shall decide expeditiously; the recovery citation dated 08.10.2021 shall not be pressed for two months or until that decision, whichever is earlier.",
+  "facts": "Sanjeev Singh held a commercial electricity connection billed on 11 May 2018 for Rs. 45,291, which was not paid until 18 December 2018. On 16 November 2021 his counsel told the Allahabad High Court that dues claimed at temporary disconnection had been paid that day, that Form-09 seeking permanent disconnection was submitted on 2 November 2020, and that the demand of Rs. 5,33,042 was unfounded. The Bench called for written instructions on the basis and computation of the demand.\n\nAt the final hearing the petitioner said he had filed an affidavit on 29 July 2020 that the meter had become defunct and seeking permanent disconnection; a meter sealing certification issued on 24 October 2020; he was never billed after 11 May 2018; and respondent no. 5 issued a recovery certificate dated 8 October 2021 without any bill for the alleged later consumption. He argued that non-payment for six months effected a permanent disconnection. Sunita Agarwal and Vipin Chandra Dixit, JJ. disposed of Writ-C No. 29932 of 2021 on 12 September 2022.",
+  "reusable_constructions": [
+    {
+      "construction": "There cannot be any automatic or deemed permanent disconnection of electricity merely because outstanding bills remain unpaid for six months or because the licensee has not billed the consumer in that period.",
+      "paras": "4-5"
+    },
+    {
+      "construction": "Permanent disconnection takes effect when it is actually made on the consumer's application, not by implication from non-payment or non-billing.",
+      "paras": "4"
+    },
+    {
+      "construction": "A consumer remains liable to be billed for electricity used between the last bill and the date of permanent disconnection; a later affidavit that the meter became defunct does not wipe charges for that earlier period.",
+      "paras": "4-5"
+    },
+    {
+      "construction": "A dispute confined to computation of bills for the period up to permanent disconnection, including a challenge to a recovery certificate on quantum, is to be raised before the Executive Engineer under Clause 6.5 of the U.P. Electricity Supply Code, 2005.",
+      "paras": "6-7"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.37",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.37 r/w 4.38 (no automatic or deemed permanent disconnection from non-payment or non-billing)",
+      "topic": "Non-payment for six months and non-billing do not effect a deemed permanent disconnection; charges run until actual PD",
+      "type": "supply_code",
+      "question": "Does non-payment of a bill for six months, coupled with the licensee's failure to raise further bills, effect a deemed or automatic permanent disconnection so that later consumption cannot be charged?",
+      "holding": "No. On the petitioner's own case, permanent disconnection was made on 24.10.2020 on his application of 29.07.2020. Prior non-billing does not amount to a deemed permanent disconnection. There cannot be any automatic permanent disconnection of electricity. Between 11.05.2018 and 29.07.2020 there was no application or affidavit that permanent disconnection actually took place. A later affidavit that the meter became defunct does not wipe charges for that period. For usage from 11.05.2018 till 29.07.2020 the petitioner was required to be billed, and arrears of consumption after 11.05.2018 can be realized.",
+      "qualifier": "The Court numbered no Code clause. The petitioner invoked 'the rules' that non-payment of outstanding bills for six months shall effect a permanent disconnection.",
+      "paras": "3-5",
+      "flag": "Source PDF concatenates listing orders of 16.11.2021 (Naheed Ara Moonis and Saumitra Dayal Singh, JJ.: dues at temporary disconnection said to have been paid on 18.12.2018; Form-09 on 02.11.2020; demand of Rs. 5,33,042; week for instructions) and 30.11.2021 (Surya Prakash Kesarwani and Syed Aftab Husain Rizvi, JJ.: list on 08.12.2021) with this 12.9.2022 disposal. Paras are sequential blocks of the 12.9.2022 order from 'Heard'. Keyed to Clauses 4.37/4.38 as the six-month TD-to-PD pattern that matches the petitioner's argument; the Court held there is no automatic or deemed PD. Para 4 dates liability for usage to 29.07.2020; para 6 dates the computation dispute to PD on 24.10.2020. Catalog hit UP-2005::16.5 is a false positive."
+    },
+    {
+      "provision": "UP-2005::6.5",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.5",
+      "topic": "computation of bills up to permanent disconnection, and a recovery certificate on quantum — Executive Engineer under Clause 6.5",
+      "type": "supply_code",
+      "question": "Where the consumer remains liable for consumption up to the date of permanent disconnection but disputes the computation of those bills and a recovery certificate, is the writ court the forum?",
+      "holding": "No. The dispute as to computation of electricity bills charged for the period of consumption from 11.05.2018 till 24.10.2020, the date of permanent disconnection, including a challenge to the recovery certificate on quantum, is to be raised before the Executive Engineer / respondent no. 3 under Clause 6.5. If the petitioner files an objection under Clause 6.5 within two weeks of the order, together with a copy of the order, the Executive Engineer is obliged to take an expeditious decision dealing with all points of objection. For two months from the order or until that decision, whichever is earlier, the recovery citation dated 08.10.2021 shall not be pressed into service. If the petitioner defaults in approaching the Executive Engineer under Clause 6.5, the respondents may proceed in accordance with law.",
+      "qualifier": "The recovery citation was not quashed. Stay is conditional on filing the Clause 6.5 objection.",
+      "paras": "6-8"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "no-automatic-or-deemed-permanent-disconnection-from-non-payment",
+      "application": "The petitioner argued that non-payment of the 11.05.2018 bill for six months, and the absence of any later bill, effected a deemed permanent disconnection so that the 08.10.2021 recovery could not stand. The Court held there cannot be any automatic or deemed permanent disconnection; PD was on 24.10.2020 on the 29.07.2020 application.",
+      "lead_authorities": [],
+      "paras": "3-5"
+    },
+    {
+      "tag": "clause-6.5-alternate-remedy-to-writ",
+      "application": "Having rejected the deemed-disconnection theory, the Court would not examine the computation of bills or the recovery certificate on quantum in writ; that dispute was remitted to Clause 6.5.",
+      "lead_authorities": [],
+      "paras": "6-8"
+    },
+    {
+      "tag": "clause-6.5-representation-executive-engineer",
+      "application": "The petitioner was left at liberty to file an objection under Clause 6.5 before the Executive Engineer / respondent no. 3 within two weeks; that officer must decide all points of objection expeditiously.",
+      "lead_authorities": [],
+      "paras": "6-7"
+    },
+    {
+      "tag": "billing-dispute-question-of-fact-executive-engineer-clause-6.5",
+      "application": "The remaining controversy was computation of bills for consumption from 11.05.2018 till permanent disconnection on 24.10.2020, including the quantum of the recovery certificate; that was treated as a Clause 6.5 matter for the Executive Engineer.",
+      "lead_authorities": [],
+      "paras": "6"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness or quantum of the bills for 11.05.2018 to 24.10.2020 and of the demand of Rs. 5,33,042",
+      "note": "Left to the Executive Engineer under Clause 6.5; the recovery citation dated 08.10.2021 was not quashed.",
+      "paras": "6-8"
+    },
+    {
+      "point": "Whether electricity was in fact consumed throughout 11.05.2018 to 24.10.2020, and whether any bill was issued after 11.05.2018",
+      "note": "The Court held the petitioner was required to be billed for that usage and that arrears could be realized; it did not find actual consumption or examine the computation.",
+      "paras": "4-6"
+    },
+    {
+      "point": "Whether Form-09 was submitted on 02.11.2020 as stated on 16.11.2021",
+      "note": "The disposing order treats permanent disconnection as 24.10.2020 on the affidavit/application of 29.07.2020 and does not mention Form-09.",
+      "paras": "listing of 16.11.2021; 4"
+    }
+  ],
+  "authorities": []
+}
