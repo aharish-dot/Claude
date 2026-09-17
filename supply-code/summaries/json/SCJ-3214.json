@@ -1,0 +1,70 @@
+{
+  "case_id": "SCJ-3214",
+  "title": "Manoj Kumar v. State of U.P. & 3 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Naheed Ara Moonis, J.; Vivek Varma, J.",
+  "date_of_judgment": "2020-12-02",
+  "date_display": "2 December 2020",
+  "docket": "WRIT - C No. - 14132 of 2020",
+  "page_count": 6,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ not entertained; petitioner left to represent to respondent no. 3 under clause 6.5.",
+  "headnote": "A writ seeking quashing of a Rs. 6,43,793 electricity recovery notice and reconnection of a stone-cutting unit was not entertained on the merits. The consumer having disputed the accuracy of the bill, and the Power Corporation having pointed to clause 6.5 of the Electricity Supply Code, 2005 as the remedy before the appropriate authority, the Division Bench declined Article 226 jurisdiction at that stage and left the petitioner at liberty to represent to respondent no. 3, who shall consider and decide the representation in accordance with law. The bill, the recovery, and the reconnection claim were not decided.",
+  "facts": "Manoj Kumar filed a writ petition in the Allahabad High Court against the State of Uttar Pradesh and three others, including the Power Corporation. He sought certiorari to quash a recovery notice for electricity dues of Rs. 6,43,793 received on 4 July 2020 by WhatsApp from respondent no. 3, in the name of M/s Sri Bankey Bihari Stone Industries, Ghaskata Marg, Tantpur, Bloc Jagner, District Agra, and mandamus to reconnect supply to that stone-cutting unit. Counsel disputed the accuracy of the bill. After listing and adjournment orders from 21 September 2020, including time to serve the Power Corporation, to file a correct second copy, and for instructions, the Division Bench heard the petition on 2 December 2020. Counsel for the Power Corporation, on instructions, submitted that clause 6.5 of the Electricity Supply Code, 2005 gave the petitioner a remedy before the appropriate authority.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "disputed bill and reconnection — clause 6.5 representation as alternate remedy",
+      "type": "supply_code",
+      "question": "Will the writ court quash a disputed electricity recovery and order reconnection when clause 6.5 of the Supply Code is available?",
+      "holding": "Where a consumer disputes the accuracy of an electricity bill and seeks certiorari to quash a recovery notice together with mandamus to reconnect supply, the High Court will not exercise Article 226 jurisdiction at that stage if clause 6.5 of the Electricity Supply Code, 2005 affords a remedy before the appropriate authority. The consumer may represent to the recovery-issuing officer, who shall consider and decide the representation in accordance with law. The Court does not decide the bill, the recovery, or the reconnection claim on merits.",
+      "qualifier": "Declined only 'at this stage'; no stay of recovery and no reconnection direction.",
+      "paras": "1",
+      "flag": "PDF also contains five listing/adjournment orders (21.9.2020–23.11.2020); disposal is the unnumbered 2.12.2020 order. Counsel invoked cl. 6.5; the Court then directed a representation to respondent no. 3 (the recovery-issuing office), not by name the Executive Engineer."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-alternate-remedy-to-writ",
+      "application": "The Division Bench declined Article 226 at this stage on a disputed Rs. 6,43,793 recovery and reconnection prayer, treating clause 6.5 as the available remedy.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "6.5-representation-as-appropriate-remedy",
+      "application": "The petitioner was left at liberty to represent to respondent no. 3, who was directed to consider and decide the representation in accordance with law.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "clause-6.5-statutory-remedy-disputed-bill",
+      "application": "The controversy was the accuracy of the electricity bill; the Court accepted clause 6.5 as the statutory path and did not examine the demand.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Accuracy of the Rs. 6,43,793 electricity bill and the recovery notice",
+      "note": "Left to a representation to respondent no. 3 under clause 6.5, to be decided in accordance with law.",
+      "paras": "1"
+    },
+    {
+      "point": "Entitlement to reconnection of the stone-cutting unit",
+      "note": "Mandamus for reconnection was sought but not granted or refused on merits.",
+      "paras": "1"
+    },
+    {
+      "point": "Validity of WhatsApp service of the recovery notice",
+      "note": "The prayer recited receipt by WhatsApp; the Court did not rule on mode of service.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
