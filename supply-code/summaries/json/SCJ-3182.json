@@ -1,0 +1,119 @@
+{
+  "case_id": "SCJ-3182",
+  "title": "Pawan Singh v. State of U.P. And Another",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Single Judge",
+  "coram": "Saumitra Dayal Singh, J.",
+  "date_of_judgment": "2018-07-17",
+  "date_display": "17 July 2018",
+  "docket": "Criminal Revision No. 2144 of 2018",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Criminal revision dismissed; Special Court order requiring deposit of crystallized electricity dues and compounding fee as a condition of compounding left undisturbed",
+  "headnote": "Where a revised theft assessment is not appealed under Section 127 of the Electricity Act, 2003 and attains finality, the Special Court, on a compounding application, may require deposit of that crystallized civil liability together with the compounding fee and need not re-determine civil liability under Section 154(5). Section 154(5) empowers the Special Court to determine civil liability for theft only where it has not otherwise been determined; compounding is not confined to the criminal offence. Clause 8.2 of the U.P. Electricity Supply Code, 2005 cannot be invoked to recast that crystallized demand, and in any event stands in apparent contradiction with Section 154(5), which sets a floor of twice the tariff for twelve months preceding detection of theft — a criterion the Court treated as rational because it applies to theft, not normal consumption. The revision is dismissed.",
+  "facts": "Pawan Singh challenged, by criminal revision, the 31 May 2018 order of the 1st Additional District Judge (Special Court-Electricity Act), Gautam Budh Nagar, which required him to deposit Rs. 24,23,854 towards electricity dues and Rs. 2,40,000 as compounding fee (total Rs. 26,63,854). A provisional assessment of Rs. 38,65,262 had been revised on 21 March 2017 to Rs. 24,23,854 after his representation; he did not appeal that revised demand under Section 127 of the Electricity Act, 2003.\n\nA prosecution was also pending. Criminal Misc. Writ Petition No. 4322 of 2018 was disposed of on 4 April 2018 directing him to apply before the Magistrate for settlement of electricity dues and compounding. He applied; the Special Court then made payment of the revised dues plus compounding fee a condition of compounding. He accepted the compounding-fee figure but said the civil dues had to be determined separately by a competent authority and, relying on Clause 8.2(vii) of the U.P. Electricity Supply Code, 2005, that they could not exceed one time the existing tariff.",
+  "reusable_constructions": [
+    {
+      "construction": "A Special Court is empowered under Section 154(5) of the Electricity Act, 2003 to determine civil liability for theft of electricity and may require that liability to be paid as a condition of compounding the offence.",
+      "paras": "12-14"
+    },
+    {
+      "construction": "Section 154(5) authorises the Special Court to determine civil liability only where that liability has not already been determined; an unchallenged revised assessment that has attained finality leaves nothing for the Special Court to re-determine.",
+      "paras": "11, 14-15"
+    },
+    {
+      "construction": "A revised theft assessment not challenged under Section 127 of the Electricity Act, 2003 attains finality and cannot be reopened in compounding proceedings or in a criminal revision against the compounding order.",
+      "paras": "4, 15-16"
+    },
+    {
+      "construction": "Clause 8.2 of the U.P. Electricity Supply Code, 2005 does not arise to recast a crystallized civil liability in compounding; in any event that clause stands in apparent contradiction with Section 154(5), which sets a floor of twice the tariff for the twelve months preceding detection of theft.",
+      "paras": "16-17"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::154",
+      "code": "Electricity Act, 2003",
+      "clause": "154(5) (civil liability for theft; compounding not confined to the criminal offence)",
+      "topic": "Special Court may require payment of theft civil liability as a condition of compounding",
+      "type": "electricity_act",
+      "question": "May the Special Court require payment of theft civil liability as a condition of compounding, or must compounding be confined to the criminal offence with civil dues litigated separately?",
+      "holding": "The Special Court is fully empowered to determine civil liability towards theft of electricity; there is no patent illegality in requiring that liability to be paid first as a condition of accepting compounding. The argument that the compounding proceeding should be confined to criminal prosecution, leaving the consumer to contest electricity dues separately, is not acceptable in view of Section 154(5), which contemplates that where civil liability may not have been determined the Special Court may determine it.",
+      "paras": "12-14",
+      "flag": "Source PDF is unnumbered; pins are sequential natural paragraphs of the 17.7.2018 order (caption omitted). The Court cited Section 154(5) for both the determination power and the two-times/twelve-month floor. Catalog tag civil-liability-in-electricity-theft-determined-by-special-court-s154(6) is the nearest existing tag (154(6) is the recovery subsection)."
+    },
+    {
+      "provision": "EA2003::154",
+      "code": "Electricity Act, 2003",
+      "clause": "154(5) (no re-determination where civil liability has already been determined)",
+      "topic": "Section 154(5) does not reopen a crystallized revised assessment",
+      "type": "electricity_act",
+      "question": "Must the Special Court re-determine civil liability under Section 154(5) where a revised assessment has already attained finality?",
+      "holding": "No. Section 154(5) empowers the Special Court to determine civil liability only where that determination has not otherwise been made. The applicant had received a provisional assessment of Rs. 38,65,262, amended on 21.03.2017 on his representation to Rs. 24,23,854; he did not challenge that determination before any competent authority, so the liability crystallized and attained finality. Nothing remained to be determined under Section 154(5).",
+      "paras": "11, 14-15"
+    },
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act, 2003",
+      "clause": "127 (unchallenged revised assessment attains finality)",
+      "topic": "Failure to appeal a revised theft assessment under Section 127 crystallizes the civil liability",
+      "type": "electricity_act",
+      "question": "Can a consumer who did not appeal a revised assessment under Section 127 reopen that demand in compounding or in a criminal revision?",
+      "holding": "No. The revised demand of 21.03.2017 was admittedly not challenged in the procedure prescribed under Section 127 and attained finality. Once it was not open to question that crystallized civil liability in the pending compounding proceeding, the Special Court could require its deposit and the High Court would not interfere in revision.",
+      "paras": "4, 15-16"
+    },
+    {
+      "provision": "UP-2005::8.2(vii)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "8.2(vii) (applicant's one-time-tariff cap; apparent contradiction with s.154(5))",
+      "topic": "Clause 8.2 does not recast a crystallized theft demand and stands in apparent contradiction with Section 154(5)",
+      "type": "interplay",
+      "question": "Once a revised theft assessment has attained finality, can Clause 8.2(vii) of the Supply Code, 2005 be invoked in compounding to cap civil liability at one time the existing tariff?",
+      "holding": "No. Once the applicant could not question the crystallized civil liability in compounding, the applicability of Clause 8.2 would not arise. In any event the clause appears to stand in apparent contradiction with Section 154(5), under which the Special Court determines civil liability at not less than two times the liability that existed for twelve months preceding detection of the theft — a criterion the Court treated as rational because Section 154(5) applies to theft, not normal consumption.",
+      "paras": "9, 16-17",
+      "flag": "The Court did not quote Clause 8.2(vii). The one-time-tariff cap is the applicant's submission as recorded. The Court did not cite Section 173 of the Act."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "civil-liability-in-electricity-theft-determined-by-special-court-s154(6)",
+      "application": "The Special Court was held empowered to determine civil liability for theft and to require payment of that liability as a condition of compounding. On these facts no fresh determination was needed under Section 154(5) because the revised assessment had already crystallized. The Court cited Section 154(5) (determination and two-times floor), not Section 154(6).",
+      "lead_authorities": [],
+      "paras": "12-15, 17"
+    },
+    {
+      "tag": "compounding-fee-does-not-extinguish-civil-consumption-dues",
+      "application": "The compounding fee of Rs. 2,40,000 was not disputed. The Court refused to confine compounding to the criminal offence or to leave the Rs. 24,23,854 civil dues to a separate forum; deposit of the crystallized dues was a lawful condition of compounding.",
+      "lead_authorities": [],
+      "paras": "8, 12-14"
+    },
+    {
+      "tag": "assessment-final-by-consumer-acceptance",
+      "application": "The revised demand of 21.03.2017, made after the applicant's representation and not challenged under Section 127, attained finality and could not be reopened in compounding or in this revision.",
+      "lead_authorities": [],
+      "paras": "4, 15-16"
+    },
+    {
+      "tag": "clause-8.2-apparent-contradiction-with-s154-5-two-times-floor",
+      "application": "Clause 8.2 was held not to arise once the civil liability had crystallized. The Court added that the clause appears to contradict Section 154(5)'s two-times/twelve-month floor for theft, which it treated as rational because that section applies to theft and not to normal consumption.",
+      "lead_authorities": [],
+      "paras": "16-17"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness of the compounding fee of Rs. 2,40,000",
+      "note": "The applicant conceded there was no error in computation of the compounding fee.",
+      "paras": "8"
+    },
+    {
+      "point": "The text and independent construction of Clause 8.2(vii) as if the assessment were still open",
+      "note": "The Court did not quote the clause. It held that Clause 8.2 would not arise once the liability had crystallized, and recorded only an apparent contradiction with Section 154(5).",
+      "paras": "9, 16-17"
+    }
+  ],
+  "authorities": []
+}
