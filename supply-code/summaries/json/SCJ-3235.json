@@ -1,0 +1,102 @@
+{
+  "case_id": "SCJ-3235",
+  "title": "M/S Bismillah Rice Mill Through Its Partner Shakeel Ahmad v. Madhyanchal Vidyut Nigam Limited",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Munishwar Nath Bhandari, J. & Ajai Tyagi, J.",
+  "date_of_judgment": "2021-06-25",
+  "date_display": "25 June 2021",
+  "docket": "Writ - C No. - 13262 of 2021",
+  "page_count": 3,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition dismissed; petitioner may file a section 127 appeal within 15 days, to be decided on merits and not dismissed as time-barred; statutory pre-deposit must be satisfied",
+  "headnote": "A second writ against a speaking final theft assessment, passed after a coordinate bench had already given an extra opportunity to object under Clause 8.1 of the U.P. Electricity Supply Code, 2005, is not maintainable. Whether theft occurred is a disputed question of fact not determinable under Article 226. Section 127 of the Electricity Act, 2003 is an efficacious remedy; the 50 per cent pre-deposit, or that the demand runs into crores, does not make the appeal inefficacious in the absence of an allegation that the demand was without authority of law, by an incompetent officer, or contrary to the record. An inspection finding of an external device in the PT output circuit is theft under Clause 8.1, not a defective-meter case under Clause 5.6; service of the provisional notice without a reply already satisfied Clause 8.1, so a further opportunity after the first final assessment was not strictly required. The writ is dismissed. If a Section 127 appeal is filed within 15 days, it shall be decided on merits and not dismissed as time-barred, but the statutory pre-deposit must still be made.",
+  "facts": "M/S Bismillah Rice Mill, through partner Shakeel Ahmad, challenged Madhyanchal Vidyut Nigam Limited's fresh final assessment dated 10 April 2021. A provisional theft assessment of 28 January 2021 had recorded that an external device was found in the PT output circuit, sealed, and the inspection video-recorded. That notice was served on 2 February 2021. The mill filed no reply, and a final assessment followed on 19 February 2021.\n\nIn Writ Petition No. 7624 of 2021, decided on 25 March 2021, a coordinate bench held the case to be theft under Clause 8.1 of the U.P. Electricity Supply Code, 2005, not a defective meter under Clause 5.6, and directed one more opportunity to object, making the 19 February 2021 order subject to a fresh speaking order. After objections, the 10 April 2021 order was passed. The mill returned to the High Court alleging it had not committed theft, that the demand ran into crores, that the fresh order merely repeated the earlier reasons, and that a Section 127 appeal was not efficacious because of the 50 per cent pre-deposit.",
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act, 2003",
+      "clause": "127",
+      "topic": "writ against speaking final theft assessment barred; disputed theft facts and 50% pre-deposit do not make the appeal inefficacious",
+      "type": "electricity_act",
+      "question": "May a consumer maintain a second writ against a speaking final theft assessment, instead of a Section 127 appeal, because theft is denied, the demand is heavy, and a 50 per cent pre-deposit is required?",
+      "holding": "No. An appeal lies against the final assessment under Section 127 of the Electricity Act, 2003. Whether theft took place is a factual issue not determinable under Article 226. The only reason given for not appealing was the 50 per cent pre-deposit, without an allegation that the demand was without authority of law, by an incompetent officer, or contrary to the record. The writ is therefore not maintainable. It is dismissed. If an appeal is preferred within 15 days, it shall be decided on merits and not dismissed as time-barred, but it must still be maintained with the statutory pre-deposit under Section 127 and the rules.",
+      "paras": "5, 8-11",
+      "flag": "Unnumbered 25.6.2021 order; paras are sequential blocks after the cause-title. Section 127 is the statutory appeal against a Section 126 assessment; the demand is a Clause 8.1 theft assessment. The Court still relegated to Section 127 and required the pre-deposit, without citing Section 126 or 135."
+    },
+    {
+      "provision": "UP-2005::8.1",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "8.1",
+      "topic": "external device in PT circuit is Clause 8.1 theft, not Clause 5.6; extra post-final-assessment opportunity not strictly required",
+      "type": "supply_code",
+      "question": "Does an inspection finding of an external device in the PT output circuit fall under Clause 5.6, and was a further opportunity to object required after the first final assessment?",
+      "holding": "No. Following the coordinate bench in Writ Petition No. 7624 of 2021, use of an external device is theft under Clause 8.1, not a defective-meter case under Clause 5.6, and the Clause 8.1 opportunity procedure applies. The licensee had already served the 28.01.2021 provisional notice on 02.02.2021; no reply was filed, and a final assessment issued on 19.02.2021. Strictly, a further opportunity after that final assessment was not required, because a Section 127 appeal was available. After the extra opportunity was nonetheless given, the 10.04.2021 order dealt with the objections and cannot be called non-speaking; a mere denial of theft need not be accepted, more so when the inspection was video-graphed.",
+      "paras": "6-7",
+      "flag": "The Clause 8.1 versus 5.6 classification is quoted from the 25.03.2021 coordinate-bench judgment (also Clause 8.1(a) and (b)). This bench applies that characterisation and adds that the further opportunity was not strictly required."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternate-remedy-section-127-appeal-bars-writ",
+      "application": "The second writ against the 10.04.2021 speaking final theft assessment was dismissed as not maintainable because an efficacious Section 127 appeal lay, including on disputed questions of fact.",
+      "lead_authorities": [],
+      "paras": "5, 8-9"
+    },
+    {
+      "tag": "disputed-questions-of-fact-not-adjudicable-under-article-226",
+      "application": "Whether the mill was involved in theft was held to be a factual issue that the writ court would not determine under Article 226, and was left to the Section 127 appellate authority.",
+      "lead_authorities": [],
+      "paras": "5, 8"
+    },
+    {
+      "tag": "final-assessment-order-relegates-assessee-to-section-127-appeal",
+      "application": "After the 10.04.2021 speaking final assessment, the mill was held to the Section 127 appeal, with 15 days to file on merits and the statutory pre-deposit still required.",
+      "lead_authorities": [],
+      "paras": "8-11"
+    },
+    {
+      "tag": "alternative-remedy-section-127-appeal",
+      "application": "The Court found no merit in the writ and directed the petitioner to avail the Section 127 appeal, which if filed within 15 days would not be dismissed on limitation.",
+      "lead_authorities": [],
+      "paras": "8-11"
+    },
+    {
+      "tag": "clause-8.1-8.2-govern-theft-assessment-not-6.8",
+      "application": "Applying the 25.03.2021 coordinate-bench judgment, an external device in the PT output circuit is theft under Clause 8.1, not a defective-meter case under Clause 5.6; the extra post-final-assessment opportunity was treated as a concession, not a requirement.",
+      "lead_authorities": [
+        {
+          "name": "Writ Petition No. 7624 of 2021 (same petitioner), decided on 25.03.2021",
+          "docid": ""
+        }
+      ],
+      "paras": "6-7"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether theft in fact took place, and the mill's involvement",
+      "note": "Expressly treated as a disputed question of fact for the Section 127 appellate authority; the writ court would not determine it.",
+      "paras": "5, 8"
+    },
+    {
+      "point": "Quantum of the theft assessment (demand said to run into crores)",
+      "note": "Not examined; left to the statutory appeal, which must still be maintained with the Section 127 pre-deposit.",
+      "paras": "2, 5, 11"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Writ Petition No. 7624 of 2021 (M/s Bismillah Rice Mill), decided on 25.03.2021",
+      "citation": "",
+      "court": "Allahabad High Court",
+      "docid": "",
+      "proposition": "An external device in the PT output circuit is theft under Clause 8.1 of the U.P. Electricity Supply Code, 2005, not a defective-meter case under Clause 5.6; the 28.01.2021 provisional notice was served on 02.02.2021 and no reply was filed, yet one more opportunity under Clause 8.1(a) and (b) was given.",
+      "cited_by": "Court",
+      "treatment": "Followed"
+    }
+  ]
+}
