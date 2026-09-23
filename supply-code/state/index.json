@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3282,
+  "next_seq": 3283,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -19660,6 +19660,12 @@
       "case_id": "SCJ-3278",
       "source_basename": "WRIC(L)_3944_2022.pdf",
       "title": "Kapildev Awasthi v. State of U.P. & Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3281",
+      "source_basename": "BAIL(A)_23436_2023.pdf",
+      "title": "Ajit Pandit v. State of U.P.",
       "status": "done"
     }
   ]
