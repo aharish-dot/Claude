@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3301,
+  "next_seq": 3302,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -19774,6 +19774,12 @@
       "case_id": "SCJ-3297",
       "source_basename": "WRIC(A)_27328_2023.pdf",
       "title": "M/s Sarasth Propbuild Pvt. Ltd. v. Executive Engineer, Electricity and 4 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3299",
+      "source_basename": "WRIC(A)_28103_2023.pdf",
+      "title": "Shankar Lal v. State of U.P. & 6 Others",
       "status": "done"
     }
   ]
