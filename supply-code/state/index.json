@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3320,
+  "next_seq": 3321,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -19888,6 +19888,12 @@
       "case_id": "SCJ-3318",
       "source_basename": "WRIC(A)_33865_2024.pdf",
       "title": "M/S Maa Durga Dhaba v. State of U.P. & 2 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3317",
+      "source_basename": "WRIC(A)_31835_2024.pdf",
+      "title": "Pravesh Kumar v. State of U.P. and Another",
       "status": "done"
     }
   ]
