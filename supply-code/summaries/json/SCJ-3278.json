@@ -1,0 +1,118 @@
+{
+  "case_id": "SCJ-3278",
+  "title": "Kapildev Awasthi v. State of U.P. & Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court (Lucknow Bench)",
+  "bench": "Division Bench",
+  "coram": "Devendra Kumar Upadhyaya, J. & Shree Prakash Singh, J.",
+  "date_of_judgment": "2022-09-05",
+  "date_display": "5 September 2022",
+  "docket": "Writ - C No. 3944 of 2022",
+  "page_count": 4,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of; reply to the provisional assessment within a week; fresh final assessment within two weeks; recovery on the 16.11.2021 order stayed until then; domestic supply restored subject to current dues",
+  "headnote": "Where the licensee produces no document showing service of a provisional assessment, and the envelope said to contain the final assessment is returned undelivered, the consumer has been denied the right to object under section 126(3) of the Electricity Act, 2003 read with clause 6.8 of the U.P. Electricity Supply Code (cited by the Court as the 2006 Code). A recital that the orders were sent by registered post and that no objection was filed does not establish service. The petition is disposed of by directing the consumer to reply to the provisional assessment within a week and the competent authority to consider that reply and pass a fresh final assessment within two weeks. Recovery of the amount in the earlier final assessment stays until that decision, and the demand is thereafter to be raised on the fresh order. The disconnected domestic connection is to be restored the same evening. The consumer, who had already deposited the undisputed sum, is to pay future bills and to deposit within a week the charges for consumption in the stated intervening period, failing which the licensee may disconnect. The lawfulness of the inspection was left unexamined.",
+  "facts": "Kapildev Awasthi, a domestic consumer of Madhyanchal Vidyut Vitran Nigam Limited, approached the Lucknow Bench after disconnection. An inspection on 13 September 2021 was said to have found supply drawn from the pole by bypassing the meter. A provisional assessment of 21 September 2021 put electricity at Rs.2,17,728 and compounding at Rs.8,000. A final assessment of 16 November 2021 demanded Rs.2,25,728, and a recovery certificate went to the Collector, Lucknow, as arrears of land revenue. Awasthi said the provisional order was never served and that he obtained a copy only in late April 2022. He deposited Rs.35,580 as the undisputed amount on 16 May 2022. A listing on 29 June 2022 was adjourned because none appeared for him.\n\nOn 5 September 2022 the Bench, told that supply had been disconnected on 3 September 2021, heard the petition the same day. The licensee said both orders went by registered post and were finalized for want of objection. The envelope of the final order came back undelivered, and nothing showed service of the provisional order.",
+  "reusable_constructions": [
+    {
+      "construction": "A final assessment cannot support recovery where the licensee produces no document establishing service of the provisional assessment. The consumer must be given an opportunity to object under section 126(3) of the Electricity Act, 2003 read with clause 6.8 of the Supply Code, and a fresh final assessment must be passed after that reply is considered.",
+      "paras": "6-9"
+    },
+    {
+      "construction": "An envelope containing the final assessment that is returned undelivered, with no separate proof of service of the provisional assessment, is enough to hold that the opportunity to object was denied. A recital that the orders were sent by registered post and that no objection was filed does not establish service.",
+      "paras": "5, 7-8"
+    },
+    {
+      "construction": "Once non-service of the provisional assessment is found, the writ is disposed of by a time-bound reply and a fresh final assessment. Recovery of the sum in the earlier final assessment stays until that fresh order, and the subsequent demand is raised on the fresh order.",
+      "paras": "9"
+    },
+    {
+      "construction": "Pending that fresh final assessment, a disconnected domestic connection may be restored the same day, the consumer remaining bound to pay undisputed dues and current consumption within the time fixed, with disconnection open on default.",
+      "paras": "9"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::126(3)",
+      "code": "Electricity Act, 2003",
+      "clause": "126(3)",
+      "topic": "non-service of the provisional assessment denies the section 126(3) right to object; recovery on the final order stays until a fresh final assessment, and supply is restored subject to current dues",
+      "type": "electricity_act",
+      "question": "May recovery proceed on a final assessment passed because no objection was filed, when the licensee produces no document establishing service of the provisional assessment and the envelope of the final assessment is returned undelivered?",
+      "holding": "No. Section 126(3) confers the right to object to the provisional assessment. The provisional order dated 21.09.2021 was not shown to have been served, and the envelope said to contain the final assessment dated 16.11.2021 was returned undelivered, so that right was denied. The petitioner is to reply to the provisional assessment within a week. The competent authority of Madhyanchal Vidyut Vitran Nigam Limited shall consider the reply and pass a fresh final assessment within two weeks, and the demand shall be raised on that order. Until that decision, the amount in the final assessment dated 16.11.2021 shall not be recovered. The domestic connection, disconnected on 03.09.2021, shall be restored the same evening. The undisputed sum of Rs.35,580 already deposited on 16.05.2022 stands; future bills after that date are to be paid as they fall due, and the charges for consumption from 16.05.2022 to 31.08.2022 are to be deposited within a week, failing which the licensee may disconnect.",
+      "qualifier": "The 16.11.2021 final assessment was not quashed in terms. Recovery on it was stayed, and the enforceable demand was directed to be raised on the fresh final assessment.",
+      "paras": "6-9",
+      "flag": "Source PDF concatenates the 29.06.2022 listing (Jaspreet Singh and Karunesh Singh Pawar, JJ.: none appeared for the petitioner; listed as fresh in the third week of July 2022) with this 05.09.2022 disposal. The disposal is unnumbered; paras 1-9 are sequential blocks of that order from 'On the prayer made'. Coram is the disposing bench. Court No. 2, Lucknow Bench. Cause title spells counsel 'Shachindra'; the hearing paragraph spells 'Sachindra'."
+    },
+    {
+      "provision": "UP-2005::6.8",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.8",
+      "topic": "clause 6.8, read with section 126(3), requires an opportunity to object before a provisional assessment is finalized and recovered",
+      "type": "supply_code",
+      "question": "Does clause 6.8 require that the consumer be served with the provisional assessment and allowed to object before the assessment is finalized and recovered?",
+      "holding": "Yes, as applied here. The Court treated the right to object as arising under section 126(3) read with Paragraph 6.8 of the Supply Code, and held that non-service of the provisional assessment dated 21.09.2021 had denied that opportunity. It directed a reply within a week and a fresh final assessment within two weeks of the reply, and stayed recovery of the amount in the order dated 16.11.2021 until that decision. It did not subdivide clause 6.8.",
+      "qualifier": "The order names the U.P. Electricity Supply Code, 2006. Keyed to catalog UP-2005::6.8. The Court did not decide whether an allegation of drawing supply by bypassing the meter, with compounding charges, is governed by clauses 8.1 and 8.2 rather than clause 6.8.",
+      "paras": "6-9",
+      "flag": "Paragraph pins are of the unnumbered 05.09.2022 disposal, as in the section 126(3) unit. The 29.06.2022 listing did not apply clause 6.8."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "assessment-service-must-be-proved-else-non-receipt-presumed",
+      "application": "The licensee's statement that both orders were sent by registered post, and that no objection was filed, did not prove service. The envelope of the final assessment dated 16.11.2021 was returned undelivered, and no document established service of the provisional assessment dated 21.09.2021.",
+      "lead_authorities": [],
+      "paras": "5, 7-8"
+    },
+    {
+      "tag": "proper-service-of-provisional-assessment-notice-clause-6.8",
+      "application": "Service of the provisional assessment was treated as a condition of the clause 6.8 objection. With no proof of service, the consumer had been denied that opportunity and the assessment could not be enforced as finalized.",
+      "lead_authorities": [],
+      "paras": "6-8"
+    },
+    {
+      "tag": "opportunity-before-final-assessment",
+      "application": "Because the provisional assessment had not been served, the consumer was directed to reply within a week and the competent authority to pass a fresh final assessment within two weeks of that reply.",
+      "lead_authorities": [],
+      "paras": "8-9"
+    },
+    {
+      "tag": "s126-3-hearing-required-before-enforcing-provisional-assessment",
+      "application": "Section 126(3), read with clause 6.8, was applied to hold that a provisional assessment cannot be finalized and recovered when the consumer was not served and so could not object.",
+      "lead_authorities": [],
+      "paras": "6-9"
+    },
+    {
+      "tag": "ex-parte-s126-assessment-requires-hearing-before-recovery",
+      "application": "Recovery of the amount in the final assessment dated 16.11.2021, which had been sent to the Collector as arrears of land revenue, was stayed until the fresh final assessment after the consumer's reply.",
+      "lead_authorities": [],
+      "paras": "5, 9"
+    },
+    {
+      "tag": "restoration-on-part-deposit",
+      "application": "The domestic connection was directed to be restored the same evening. The undisputed sum of Rs.35,580 had already been deposited on 16.05.2022. Future bills were to be paid as due, and consumption from 16.05.2022 to 31.08.2022 was to be deposited within a week, failing which the licensee could disconnect.",
+      "lead_authorities": [],
+      "paras": "9"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Lawfulness and correctness of the inspection on 13 September 2021",
+      "note": "The petitioner said the inspection did not follow the rules and that the demand could not be acted upon. The Court recorded that plea and disposed of the writ without entering into it.",
+      "paras": "8-9"
+    },
+    {
+      "point": "Whether drawing supply by bypassing the meter, with compounding charges, is a theft assessment under clauses 8.1 and 8.2 rather than unauthorised use under clause 6.8",
+      "note": "The Court applied section 126(3) and clause 6.8 as invoked and did not characterise the allegation.",
+      "paras": "3, 6, 8"
+    },
+    {
+      "point": "Quantum of the assessment, including compounding charges of Rs.8,000",
+      "note": "Left to the fresh final assessment after the reply.",
+      "paras": "3-4, 9"
+    }
+  ],
+  "authorities": []
+}
