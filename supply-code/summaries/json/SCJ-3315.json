@@ -1,0 +1,106 @@
+{
+  "case_id": "SCJ-3315",
+  "title": "M/S Jai Jagdamba Metalloys Ltd. v. Madhyanchal Vidut Vitran Nigam Ltd. & 2 Others",
+  "neutral_citation": "2023:AHC-LKO:70079",
+  "court": "Allahabad High Court (Lucknow Bench)",
+  "bench": "Single Judge",
+  "coram": "Alok Mathur, J.",
+  "date_of_judgment": "2023-10-27",
+  "date_display": "27 October 2023",
+  "docket": "Writ - C No. 9399 of 2023",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition dismissed; the Ombudsman's installment order of 21.09.2023, including the licensee's liberty on default, left undisturbed",
+  "headnote": "Where a consumer does not dispute an electricity bill and the Electricity Ombudsman has already directed payment in installments — here, Rs 1 crore on the next day and the balance of a bill of Rs 1,69,64,502 in three equal monthly installments by post-dated cheques, with liberty to the licensee to proceed in accordance with law on default — the writ court will not, under Articles 226 and 227, strike that liberty or grant further time on a bare plea of financial crisis. No audited accounts or other material of the crisis were annexed, and compliance with the first deposit was only orally asserted. Excess electricity duty cannot be adjusted towards electricity charges. An earlier order of the Executive Engineer directing that the excess be adjusted only against future electricity duty was not under challenge, and the sum said to be lying as excess duty therefore did not justify interference. The writ was dismissed.",
+  "facts": "M/S Jai Jagdamba Metalloys Ltd. is a consumer of Madhyanchal Vidyut Vitran Nigam Ltd. It was served a bill dated 4 September 2023 for Rs 1,69,64,502. Invoking clause 6.144(2) of the Electricity Supply Code, 2005, it asked the Electricity Lokpal for leave to pay in installments, stating that it could not pay at once. On 21 September 2023 the Lokpal directed a deposit of Rs 1 crore on 22 September 2023 and the balance in three equal monthly installments, for October, November and December 2023, by post-dated cheques, and left the licensee free to proceed in accordance with law on default.\n\nThe company challenged only that concluding liberty. The writ did not plead compliance and annexed no receipt, though counsel said orally that Rs 1 crore had been deposited. It also said that Rs 7.65 crore of excess electricity duty lay with the licensee, and that financial crisis required further time. The licensee answered that the installment relief sought had already been granted.",
+  "reusable_constructions": [
+    {
+      "construction": "A writ court will not enlarge an installment schedule already fixed by the Electricity Ombudsman, or remove the liberty reserved to the licensee on default, on a plea of financial crisis that is unsupported by audited accounts or other material, where the consumer does not dispute the bill.",
+      "paras": "7, 10-11"
+    },
+    {
+      "construction": "Excess electricity duty cannot be adjusted towards electricity charges. An unchallenged order confining that excess to adjustment against future electricity duty does not justify interference with an installment order for the energy bill.",
+      "paras": "8-9"
+    },
+    {
+      "construction": "An oral assertion that the first installment has been deposited, without a pleading of compliance or a receipt, does not show that an Ombudsman installment order has been obeyed or that the licensee's liberty on default should be struck out.",
+      "paras": "3, 10"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.14",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.14 (counsel cited clause 6.144(2))",
+      "topic": "No writ enlargement of Ombudsman installments, and no striking of the default-liberty, on an undocumented plea of financial crisis",
+      "type": "supply_code",
+      "question": "Where the Electricity Ombudsman has already fixed installments of an admitted electricity bill and reserved liberty to the licensee on default, will the writ court grant further time or strike that liberty on a plea of financial crisis?",
+      "holding": "No. On the bill dated 04.09.2023 for Rs 1,69,64,502 the petitioner had asked the Electricity Lokpal for installments under clause 6.144(2) of the Electricity Supply Code, 2005, pleading inability to pay at once. The order dated 21.09.2023 directed deposit of Rs 1 crore on 22.09.2023 and the balance in three equal monthly installments, for October, November and December 2023, by post-dated cheques, and reserved liberty to the licensee to proceed in accordance with law on default. The writ challenged only that liberty. The only reason urged was acute financial crisis. No audited financial status, and no other document of the crisis, was annexed. The writ did not plead compliance, and the deposit of Rs 1 crore was only an oral submission. In paragraph 8 of the writ the petitioner stated that he had no dispute against the total liability. The Ombudsman had already considered the grievance and fixed the installments on equitable consideration. No reason was shown for interference under Articles 226 and 227. The writ was dismissed.",
+      "qualifier": "The Court did not decide whether clause 6.144(2) required any particular number or size of installments, or whether the schedule already fixed complied with it.",
+      "paras": "2-4, 6-7, 10-11",
+      "flag": "Counsel cited 'clause 6.144 (2)'; the Court did not quote or construe that sub-clause. Keyed to catalog UP-2005::6.14, the installment-facility clause. Paragraphs 2-3 and 6 say 'Electricity Lokpal'; paragraph 10 calls the same order of 21.09.2023 an order of the 'Ombudsman'. Cause title spells the licensee 'Madhyanchal Vidut Vitran Nigam Ltd.'; paragraph 8 abbreviates it 'MVNL'. Numbered paragraphs 1-11."
+    },
+    {
+      "provision": "ELECTRICITY-DUTY::no-set-off-against-charges",
+      "code": "Electricity duty",
+      "clause": "excess electricity duty — not adjustable against electricity charges",
+      "topic": "Excess electricity duty cannot be set off against electricity charges; an unchallenged order confining it to future duty does not support writ interference",
+      "type": "interplay",
+      "question": "Can excess electricity duty said to be lying with the licensee be adjusted towards electricity charges so as to justify interference with an installment order for the energy bill?",
+      "holding": "No. The petitioner said Rs 7.65 crore of excess electricity duty lay with the respondents. The Court noticed the order dated 30.07.2021 of the Executive Engineer, Electricity Distribution Division-I, MVVNL, Unnao, which directed that the excess electricity duty be adjusted towards future electricity duty payable by the petitioner. It held that the excess on electricity duty cannot be adjusted towards electricity charges, and that the order of 30.07.2021 was not under challenge. The suggested set-off therefore did not justify interference with the installment order.",
+      "qualifier": "The Court said 'it seems'. It cited neither the U.P. Electricity Duty Act, 1952 nor a Supply Code appropriation clause, and it did not decide any claim for refund of the duty.",
+      "paras": "8-9",
+      "flag": "No Code or Act section is cited for this point. The licensee is abbreviated 'MVNL' in paragraph 8."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "installment-payment-clause-6.14",
+      "application": "The consumer had already obtained an installment order from the Electricity Lokpal on the admitted bill of 04.09.2023. The writ, confined to the licensee's liberty on default and to a request for further time, was dismissed. The Court did not itself fix or enlarge the installments.",
+      "lead_authorities": [],
+      "paras": "2-4, 6, 10-11"
+    },
+    {
+      "tag": "instalment-facility-clause-6.14-for-financial-distress",
+      "application": "Financial distress was the only reason urged for further time after the Ombudsman had already fixed installments. No audited accounts or other document of the crisis was annexed, so the plea did not justify interference under Articles 226 and 227.",
+      "lead_authorities": [],
+      "paras": "7, 10-11"
+    },
+    {
+      "tag": "excess-electricity-duty-not-adjustable-against-electricity-charges",
+      "application": "A plea that Rs 7.65 crore of excess electricity duty lay with the licensee did not support interference. The Court held that such excess cannot be adjusted towards electricity charges, and noted that the Executive Engineer's order of 30.07.2021, confining adjustment to future electricity duty, was not under challenge.",
+      "lead_authorities": [],
+      "paras": "8-9"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness and quantum of the bill dated 04.09.2023 for Rs 1,69,64,502",
+      "note": "In paragraph 8 of the writ the petitioner stated that he had no dispute against the total liability. The Court did not examine the bill.",
+      "paras": "10"
+    },
+    {
+      "point": "Whether Rs 1 crore was deposited on 22.09.2023",
+      "note": "Only an oral submission was made. The writ did not plead compliance and annexed no receipt. The Court did not find that the deposit had been made.",
+      "paras": "3"
+    },
+    {
+      "point": "Validity of the Executive Engineer's order dated 30.07.2021 directing adjustment of excess electricity duty against future electricity duty",
+      "note": "The Court recorded that this order was not under challenge.",
+      "paras": "8-9"
+    },
+    {
+      "point": "Meaning and conditions of clause 6.144(2) of the Electricity Supply Code, 2005",
+      "note": "Counsel invoked the clause as the basis of the approach to the Lokpal. The Court did not quote or construe it, and did not test the installment schedule against it.",
+      "paras": "2"
+    },
+    {
+      "point": "Whether the petitioner had defaulted, and whether the licensee could now disconnect or recover",
+      "note": "The liberty in the order of 21.09.2023 was left standing. The Court did not find a default or authorise any particular coercive step.",
+      "paras": "3, 10-11"
+    }
+  ],
+  "authorities": []
+}

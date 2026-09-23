@@ -1,7 +1,7 @@
 # Reuse these keys when they fit. Do not invent a synonym for an existing tag.
 # New kebab-case tags are allowed only when none of these capture the holding.
 
-PROVISIONS (327)
+PROVISIONS (328)
 additional-security
 ARREARS::transferee-liability
 BIHAR-2007::4.1
@@ -63,6 +63,7 @@ EA2003::64
 EA2003::67
 EA2003::assessment
 EA2003::remedies
+ELECTRICITY-DUTY::no-set-off-against-charges
 ESA1948::sixth-schedule
 IBC::238
 IBC::31
@@ -330,7 +331,7 @@ UPGEUDR1958::4
 URUA1966::4
 WB-2004::5.2
 
-TAGS (696)
+TAGS (697)
 126-vs-135-distinct-fields
 126-vs-135-distinct-fields-but-126-still-applies-to-theft
 15-days-clear-notice-mandatory-before-final-theft-assessment
@@ -587,6 +588,7 @@ empty-listing-order
 estimate-departmental-delay-cannot-shift-feeder-or-force-fresh-estimate
 ex-parte-s126-assessment-requires-hearing-before-recovery
 excess-duty-realised-must-be-adjusted-against-current-bill
+excess-electricity-duty-not-adjustable-against-electricity-charges
 excess-load-not-unauthorised-use
 exorbitant-assessment-makes-appeal-remedy-onerous
 family-pension-dispute
