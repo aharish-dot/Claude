@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3334,
+  "next_seq": 3335,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -19972,6 +19972,12 @@
       "case_id": "SCJ-3331",
       "source_basename": "WRIC(A)_6778_2022.pdf",
       "title": "Sanjay Rai Alias Chintu Rai v. District Magistrate and Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3332",
+      "source_basename": "WRIC(A)_6857_2022.pdf",
+      "title": "Shree Badri Kedar Papers Private Limited v. State of U.P. and 4 Others",
       "status": "done"
     }
   ]
