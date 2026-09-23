@@ -1,0 +1,78 @@
+{
+  "case_id": "SCJ-3324",
+  "title": "Amit Kumar Khare v. State of U.P. & 2 Others",
+  "neutral_citation": "2024:AHC:40765-DB",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta, J. & Kshitij Shailendra, J.",
+  "date_of_judgment": "2024-03-06",
+  "date_display": "6 March 2024",
+  "docket": "Writ - C No. 806 of 2024",
+  "page_count": 5,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of; final assessment dated 05.12.2023 quashed and remitted for a fresh order after hearing, subject to deposit of 50% of the disputed amount within four weeks",
+  "headnote": "Where a consumer's objection to a final assessment under Section 126 of the Electricity Act, 2003 specifically pleads that unauthorised use lasted only two days, and the assessment has been made for 365 days, the assessing officer must consider that plea, particularly in the light of Section 126(5). An order which does not allude to the plea, and rejects the representation as bereft of evidence, does not consider it. The Allahabad High Court quashed the assessment of 5 December 2023 and remitted the matter to respondent no. 3 for a fresh order after hearing, on the consumer depositing 50% of the disputed amount within four weeks and filing proof of that deposit, with a copy of the order, within one week of the deposit. The assessing officer is then to proceed in the manner prescribed under the Electricity Supply Code. The Court did not find how long the use lasted, whether a contractor's act excused the consumer, or what the quantum should be, and it named no Supply Code clause.",
+  "facts": "Amit Kumar Khare filed Writ-C No. 806 of 2024 in the Allahabad High Court against a final assessment of 5 December 2023 under Section 126. It followed Writ-C No. 26698 of 2023, in which he had challenged an Electricity Department demand notice of 28 March 2023 for Rs 7,05,822 in a case described as theft of electricity. That writ was disposed of on 11 October 2023 with liberty to reply both to the demand and to the provisional assessment, and with a direction to finalise the assessment after considering his objections and hearing him. He filed a detailed objection on 26 October 2023.\n\nHe did not dispute tapping of the main low-tension line. He said a contractor fabricating the outer gate during renovation had done it, and that the unauthorised use lasted only two days, while the assessment was for 365 days. The final order did not refer to that plea and rejected the representation as bereft of evidence.",
+  "reusable_constructions": [
+    {
+      "construction": "An assessing officer who makes a Section 126 assessment for 365 days must consider a specific objection that the unauthorised use lasted only for a much shorter period, and must do so in the light of Section 126(5) of the Electricity Act, 2003.",
+      "paras": "7"
+    },
+    {
+      "construction": "Rejecting a representation as bereft of evidence, without alluding to a specific plea on the duration of unauthorised use, is not a consideration of that objection and vitiates the final assessment.",
+      "paras": "6-7"
+    },
+    {
+      "construction": "A final assessment passed without considering a specific duration objection under Section 126(5) is to be quashed and remitted for a fresh order after hearing, and the fresh assessment is to follow the procedure prescribed by the Electricity Supply Code.",
+      "paras": "10-11"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::126(5)",
+      "code": "Electricity Act, 2003",
+      "clause": "126(5)",
+      "topic": "A specific plea that unauthorised use lasted only two days must be considered before a 365-day Section 126 assessment is maintained",
+      "type": "electricity_act",
+      "question": "Where the consumer objects that unauthorised use lasted only two days and the final assessment under Section 126 is for 365 days, does an order that never alludes to that plea and rejects the representation as bereft of evidence satisfy the duty to consider the objection in the light of Section 126(5)?",
+      "holding": "No. Once the consumer has taken the specific plea that unauthorised use lasted only two days, the assessing officer must consider that objection, particularly in the light of Section 126(5). Respondent no. 3 did not allude to the plea and rejected the representation as bereft of evidence. Counsel for the Electricity Department could not show that the objection had been dealt with. The final assessment dated 5 December 2023 is quashed. The matter is remitted to respondent no. 3 for a fresh order after hearing the consumer, subject to deposit of 50% of the disputed amount within four weeks. Proof of deposit, with a copy of the order, is to be filed before respondent no. 3 within one week of the deposit, after which the assessment is to proceed in the manner prescribed under the Electricity Supply Code.",
+      "qualifier": "The Court did not decide that the use in fact lasted two days, and it did not recompute the assessment. The half deposit was the condition the consumer offered and the Court imposed. Section 127 was not cited.",
+      "paras": "6-11",
+      "flag": "Paragraph 1 calls the statute the Electricity Supply Act, 2003; paragraph 7 says Section 126(5) of the Act. Section 126(5) is invoked and not quoted. The Electricity Supply Code is named for the fresh assessment and no clause is numbered. The source PDF also contains listing orders of 13.2.2024 (Arun Bhansali, C.J. and Manoj Kumar Gupta, J.) and of 26.2.2024 and 4.3.2024 (Manoj Kumar Gupta and Kshitij Shailendra, JJ.). Paragraph numbers are of the 6.3.2024 order, Neutral Citation No. 2024:AHC:40765-DB. Catalog hits on Clauses 4.3, 4.35 to 4.39 and 6.3 are not engaged."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "final-order-must-consider-consumer-objections",
+      "application": "The final assessment was quashed because respondent no. 3 did not allude to the specific plea that unauthorised use lasted only two days, and rejected the representation as bereft of evidence. A specific objection must be considered. The matter was remitted for a fresh order after hearing.",
+      "lead_authorities": [],
+      "paras": "6-7,10"
+    },
+    {
+      "tag": "uue-period-365-days-is-fallback-not-default",
+      "application": "Against an assessment made for 365 days, the Court required the two-day plea to be considered particularly in the light of Section 126(5). It did not itself find the period of unauthorised use or recompute the demand. Section 126(5) was invoked and not quoted.",
+      "lead_authorities": [],
+      "paras": "5-7"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the unauthorised use lasted only two days, and the correct period and quantum",
+      "note": "Left to the fresh order after hearing. The Court decided only that the duration plea had not been considered.",
+      "paras": "5-7,10"
+    },
+    {
+      "point": "Whether tapping by the contractor during renovation, rather than by the consumer, was the unauthorised use",
+      "note": "The consumer did not dispute the tapping. The contractor explanation was not adjudicated.",
+      "paras": "4-5"
+    },
+    {
+      "point": "Whether the demand is theft under Section 135 or only unauthorised use under Section 126, and which Supply Code clause governs the remanded assessment",
+      "note": "The earlier demand was described as a case of theft. The order quashed is a Section 126 final assessment. The Court directed assessment in the manner prescribed under the Electricity Supply Code and named no clause.",
+      "paras": "1-2,11"
+    }
+  ],
+  "authorities": []
+}
