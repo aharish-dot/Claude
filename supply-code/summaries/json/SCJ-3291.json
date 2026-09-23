@@ -1,0 +1,154 @@
+{
+  "case_id": "SCJ-3291",
+  "title": "Vishanu v. Dakshinanchal Vidyut Vitran Nigam Limited And 4 Others",
+  "neutral_citation": "2023:AHC:121426-DB",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Salil Kumar Rai, J. & Arun Kumar Singh Deshwal, J.",
+  "date_of_judgment": "2023-05-30",
+  "date_display": "30 May 2023",
+  "docket": "Writ - C No. 18768 of 2023",
+  "page_count": 4,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition dismissed; refusal of a fresh connection for want of a Clause 4.4 right, and because dues remained on the previous connection, upheld",
+  "headnote": "An applicant does not acquire a right to a fresh connection as an occupier under Clause 4.4 of the U.P. Electricity Supply Code, 2005 merely by a lease from the erstwhile owner executed after registered sale deeds and after a pending suit to cancel those deeds in which no interim order protects the vendor. Such a lease is not conclusive of physical occupation. Whether the applicant is in physical or settled occupation is a question of fact for a forum that can take evidence; the Executive Engineer is not competent to decide it, and the erstwhile owner could have leased the premises only if the civil court finds the sale invalid. Independently, Clause 4.3 allows a new connection only after the dues on the previous connection are satisfied, and Clause 4.3(f) requires those dues to be satisfied by the owner. Rejection on the ground of those dues is not illegal. Abhimanyu Mazumdar and two unnamed Division Bench decisions of this Court, cited for the occupier's claim, were held inapplicable. The writ was dismissed.",
+  "facts": "Vishanu applied to Dakshinanchal Vidyut Vitran Nigam Limited for a fresh connection to premises in Mathura, claiming to be an occupier. Smt. Radha Devi Tiwari, the original owner, executed registered sale deeds dated 13 September 2018 in favour of Smt. Rama Devi Upadhyaya, then on 7 February 2019 sued (Original Suit No. 61 of 2019) to cancel them. The suit was pending, and no interim order in the vendor's favour was shown. The existing connection had been transferred to the purchaser and carried dues; the purchaser had asked that no new connection be granted. Vishanu said the vendor inducted him as tenant by a lease dated 16 November 2019, after the sale and the suit, and that supply had been disconnected for the dues.\n\nThe Executive Engineer rejected the application on 21 March 2022, recording an operative 5 kW connection and, with the Forum, that the application was filed to grab the premises. The Consumer Grievance Redressal Forum, Agra, rejected it on 6 May 2022. Vishanu challenged both orders under Clause 4.4 of the U.P. Electricity Supply Code, 2005.",
+  "reusable_constructions": [
+    {
+      "construction": "A new electricity supply connection may be given only after the dues on the previous connection are satisfied.",
+      "paras": "18-19"
+    },
+    {
+      "construction": "Clause 4.3(f) of the U.P. Electricity Supply Code, 2005 requires the dues on the previous connection to be satisfied by the owner of the premises.",
+      "paras": "18"
+    },
+    {
+      "construction": "A lease executed by an owner who has already transferred the premises by a registered sale deed is not conclusive evidence that the lessee is in physical occupation, and does not by itself confer a right to a connection under Clause 4.4.",
+      "paras": "16-17"
+    },
+    {
+      "construction": "An erstwhile owner who has executed a registered sale can confer a lease supporting a Clause 4.4 connection only if a court finds that sale invalid. A later lease, with no interim order in a pending cancellation suit, does not confer that right.",
+      "paras": "16-17"
+    },
+    {
+      "construction": "Whether an applicant is in physical or settled occupation is a disputed question of fact. The Executive Engineer is not competent to decide it; only a forum that can take evidence may do so.",
+      "paras": "17"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.4",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.4",
+      "topic": "post-sale lease from the erstwhile owner is not a Clause 4.4 right to a fresh connection",
+      "type": "supply_code",
+      "question": "Does a lease from the erstwhile owner, executed after a registered sale and after a pending suit to cancel that sale in which no interim order protects the vendor, entitle the lessee to a fresh connection as an occupier under Clause 4.4?",
+      "holding": "No. If the petitioner occupied the premises, he did so as a tenant inducted by the erstwhile owner after the registered sale deeds of 13 September 2018 and after Original Suit No. 61 of 2019, and no interim order in the vendor's favour was shown. Whether he was put in physical occupation, and whether he is in settled occupation, are questions of fact. Mere execution of a lease by an owner who has already sold the premises is not conclusive of physical occupation. That owner could have leased the premises only if the trial court finds the sale invalid, so the legality of the lease depends on Original Suit No. 61 of 2019. The Executive Engineer is not competent to decide settled occupation; that plea lies before a forum which can decide disputed questions of fact on evidence. On the record, the petitioner had no right to a connection under Clause 4.4.",
+      "qualifier": "The Court did not itself find whether the petitioner was in physical or settled occupation, and did not decide the pending cancellation suit.",
+      "paras": "15-17, 20",
+      "flag": "Paragraph 16 once recites the cancellation suit as Original Suit No. 61 of 2018; paragraphs 4 and 8 recite Original Suit No. 61 of 2019, instituted on 7 February 2019. The Court cited Clause 4.4 without a sub-clause and without referring to an indemnity bond. Catalog hits on 4.4(a), 4.4(e), 4.4(vi), 4.44 and the indemnity-bond path are false positives."
+    },
+    {
+      "provision": "UP-2005::4.3",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.3",
+      "topic": "new connection only after dues on the previous connection are satisfied",
+      "type": "supply_code",
+      "question": "May a fresh connection be granted while dues remain on the previous connection to the premises?",
+      "holding": "No. Clause 4.3 indicates that a new electricity supply connection can be given only after the dues on the previous connection are satisfied. There was no illegality in the Executive Engineer and the Consumer Grievance Redressal Forum rejecting the application on the ground that such dues remained.",
+      "paras": "18-19, 22-23"
+    },
+    {
+      "provision": "UP-2005::4.3(f)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.3(f)",
+      "topic": "previous-connection dues are to be satisfied by the owner",
+      "type": "supply_code",
+      "question": "Who must satisfy the dues on the previous connection before a new connection can be given?",
+      "holding": "Clause 4.3(f) shows that the dues have to be satisfied by the owner of the premises. Read with Clause 4.3, that supported the rejection of the occupier's application while those dues remained. The writ was dismissed.",
+      "qualifier": "The Court cited Clause 4.3(f) without a roman sub-clause, did not quantify the dues, and did not decide whether the purchaser or the erstwhile owner was the owner who had to satisfy them.",
+      "paras": "18-19",
+      "flag": "Keyed to Clause 4.3(f) as cited, not to 4.3(f)(i) or (iii)–(vi). The Forum's order is dated 6 May 2022 in paragraphs 2 and 22 and 6 May 2023 in paragraph 10. Catalog hits on 4.3(g)–(h), 4.35–4.45-A, 4.49, UP-2002::4.45, landlord co-extensive liability, director retrospectivity, and the first-charge sub-clause are false positives."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-4.3-new-connection-barred-by-outstanding-premises-dues",
+      "application": "The Court read Clause 4.3 as permitting a new connection only after the dues on the previous connection are satisfied, and found no illegality in rejecting the application on that ground.",
+      "lead_authorities": [],
+      "paras": "18-19"
+    },
+    {
+      "tag": "no-new-connection-while-predecessor-dues-outstanding-clause-4.3f",
+      "application": "Clause 4.3(f) was read as requiring the dues on the previous connection to be satisfied by the owner. The occupier's fresh-connection application failed while those dues remained.",
+      "lead_authorities": [],
+      "paras": "18-19"
+    },
+    {
+      "tag": "occupier-must-be-authorised",
+      "application": "A lease from the erstwhile owner, made after registered sale deeds and after a cancellation suit in which no interim order protected the vendor, did not establish physical occupation or a Clause 4.4 right. The vendor could have leased the premises only if the civil court found the sale invalid.",
+      "lead_authorities": [],
+      "paras": "15-17, 20"
+    },
+    {
+      "tag": "disputed-questions-of-fact-not-adjudicable-under-article-226",
+      "application": "Physical occupation and settled occupation were left as questions of fact. The Executive Engineer was held not competent to decide them; only a forum that can take evidence may do so. The writ court did not treat the lease as conclusive and dismissed the petition.",
+      "lead_authorities": [],
+      "paras": "17"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner was in physical or settled occupation of the premises",
+      "note": "Held to be a question of fact for a forum that can take evidence. The Executive Engineer was not competent to decide it. The Court held only that the record conferred no Clause 4.4 right.",
+      "paras": "17"
+    },
+    {
+      "point": "Validity of the sale deeds dated 13 September 2018 and of the lease dated 16 November 2019",
+      "note": "Left to Original Suit No. 61 of 2019, which was still pending. The Court did not decide title.",
+      "paras": "4, 16-17"
+    },
+    {
+      "point": "Whether the previous connection was still operative or had been disconnected for dues",
+      "note": "The petitioner said supply had been disconnected for dues. The Executive Engineer's order recorded that a 5 kW connection was already operative. The Court noted both and decided the writ on Clause 4.4 and the dues bar.",
+      "paras": "9, 14"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Abhimanyu Mazumdar and others v. The Superintending Engineer and others",
+      "citation": "AIR 2011 Cal 64",
+      "court": "Calcutta High Court (Full Bench)",
+      "docid": "",
+      "proposition": "Relied on by the petitioner for the contention that an occupier is entitled to be considered for a connection under Clause 4.4. This judgment does not recite the Full Bench's holding.",
+      "how_treated": "Held not applicable to the present case, together with the two Division Bench decisions also cited by the petitioner. The Court did not discuss its reasoning.",
+      "how_treated_paras": "12, 21",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "Division Bench judgment in Writ - C No. 28295 of 2014",
+      "citation": "Writ - C No. 28295 of 2014, decided on 26 May 2014",
+      "court": "Allahabad High Court (Division Bench)",
+      "docid": "",
+      "proposition": "Cited by the petitioner, with Abhimanyu Mazumdar, in support of a Clause 4.4 occupier's claim. The judgment names neither the parties nor the holding, and pairs this docket with the decision dated 26 May 2014 by the word respectively.",
+      "how_treated": "Held not applicable to the present case. No further treatment of its reasoning.",
+      "how_treated_paras": "12, 21",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished"
+    },
+    {
+      "name": "Division Bench judgment in Writ - C No. 8396 of 2018",
+      "citation": "Writ - C No. 8396 of 2018, decided on 18 September 2018",
+      "court": "Allahabad High Court (Division Bench)",
+      "docid": "",
+      "proposition": "Cited by the petitioner, with Abhimanyu Mazumdar, in support of a Clause 4.4 occupier's claim. The judgment names neither the parties nor the holding, and pairs this docket with the decision dated 18 September 2018 by the word respectively.",
+      "how_treated": "Held not applicable to the present case. No further treatment of its reasoning.",
+      "how_treated_paras": "12, 21",
+      "cited_by": "Petitioner",
+      "treatment": "Distinguished"
+    }
+  ]
+}
