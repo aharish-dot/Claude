@@ -1,0 +1,111 @@
+{
+  "case_id": "SCJ-3310",
+  "title": "Sanjeev Kumar Agarwal v. State of U.P. and 5 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta, J. & Syed Qamar Hasan Rizvi, J.",
+  "date_of_judgment": "2023-02-24",
+  "date_display": "24 February 2023",
+  "docket": "Writ - C No. 6407 of 2023",
+  "page_count": 4,
+  "significance": "significant",
+  "outcome": "split",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed in part; stay of recovery of the balance restored for the pendency of the Section 127 appeal; recall of the supply-restoration direction left undisturbed; appeal to be decided within three weeks",
+  "headnote": "Where a Section 127 appeal against a final assessment for alleged theft of electricity has been instituted after deposit of half the assessed amount, the appellate authority cannot vacate the stay of recovery merely because the case is one of theft by meter tampering and an FIR has been registered. Clause 6.8(d)(iv) of the U.P. Electricity Supply Code, 2005 prohibits the licensee from taking recovery action for 30 days, the limitation for the appeal. Appeals under Section 127 are themselves appeals against assessments for theft or unauthorized use; if theft were a ground to refuse the stay, there would be no stay in any such appeal. The Court read the legislative intention as requiring that an appeal filed after the half-deposit be decided within 30 days, and that further liability, including interest under Section 127(6) at 16 per cent per annum compounded every six months where payment is made after 30 days from the assessment, be worked out on the appellate decision. The order of 14 December 2022 was quashed insofar as it discharged the stay, and recovery of the balance remains stayed during the appeal. The recall of the direction to restore supply was not interfered with: supply had been disconnected on the raid when the meter was found tampered and removed for testing, and more than seven months had passed; resumption depends on the outcome of the appeal. The appellate authority was directed to decide the appeal within three weeks. The merits of the assessment were not decided.",
+  "facts": "Sanjeev Kumar Agarwal petitioned the Allahabad High Court against an order of 14 December 2022 of the Commissioner, Moradabad Division, as appellate authority under Section 127 of the Electricity Act, 2003, and against a recovery certificate of 7 January 2023. The appeal challenged a final assessment for alleged theft of electricity by tampering with the meter. An FIR had been registered.\n\nA raid on 29 June 2022 found the meter tampered. Supply was disconnected and the meter was removed for testing. After he deposited half the assessed amount, the appellate authority on 22 September 2022 stayed realization and directed restoration of supply, recording compliance with its order of 9 September 2022, which the later order misdated as 22 September 2022. On the electricity department's recall application, the authority on 14 December 2022 vacated that interim order because the case was one of theft and an FIR stood, and fixed 2 January 2023 for the appeal. The hearing did not take place that day, the department having filed no reply, and the petitioner did not know the next date.",
+  "reusable_constructions": [
+    {
+      "construction": "Clause 6.8(d)(iv) of the U.P. Electricity Supply Code, 2005 prohibits the licensee from taking any action to recover the assessed amount for 30 days, which is also the period of limitation for an appeal under Section 127 of the Electricity Act, 2003.",
+      "paras": "4-5"
+    },
+    {
+      "construction": "Once a Section 127 appeal has been instituted after deposit of half the assessed amount, the appellate authority cannot vacate the stay of recovery of the balance on the ground that the assessment is for theft of electricity. Such appeals are appeals against assessments for theft or unauthorized use; treating theft as a reason to refuse the stay would leave no stay in any such appeal.",
+      "paras": "6, 9"
+    },
+    {
+      "construction": "Where that appeal has been preferred after the half-deposit, the legislative scheme, as construed by the Court, is that the appeal be decided within 30 days and that further liability be worked out on the appellate decision, including interest under Section 127(6) at 16 per cent per annum compounded every six months if payment is made after 30 days from the assessment order.",
+      "paras": "5"
+    },
+    {
+      "construction": "A stay of recovery during a Section 127 appeal does not require restoration of a supply disconnected on a raid that found the meter tampered and led to its removal for testing. The High Court may leave the recall of a restoration direction undisturbed, and resumption of supply then depends on the outcome of the appeal.",
+      "paras": "7-9"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(d)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.8(d)(iv)",
+      "topic": "Thirty-day stay of recovery while a Section 127 appeal may be filed",
+      "type": "supply_code",
+      "question": "Does Clause 6.8(d)(iv) of the U.P. Electricity Supply Code, 2005 prohibit recovery of the assessed amount during the period allowed for filing an appeal?",
+      "holding": "Yes. Counsel for the petitioner relied on the scheme of Section 127 and Clause 6.8(d)(iv). Counsel for the electricity department did not dispute that, in terms of that provision, the licensee is prohibited from taking any action for recovery of the assessed amount for 30 days, the period during which the appeal could be filed. The Court held that the Code specifically provides for a stay of recovery during that initial period of 30 days, which is also the limitation for filing the appeal.",
+      "qualifier": "The judgment does not quote the text of Clause 6.8(d)(iv). The 30-day prohibition is recorded as common ground and is adopted by the Court.",
+      "paras": "3-5",
+      "flag": "Catalog key is UP-2005::6.8(d). The sub-clause cited in the order is (iv); the catalog has no separate key for (iv)."
+    },
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act, 2003",
+      "clause": "127",
+      "topic": "Stay of the balance cannot be vacated because the assessment is for theft; recovery remains stayed during a duly instituted appeal",
+      "type": "interplay",
+      "question": "May the Section 127 appellate authority vacate a stay of recovery of the balance, after half the assessed amount has been deposited and the appeal instituted, on the ground that the case is one of theft of electricity?",
+      "holding": "No. The appellate authority was not right in vacating the stay on the ground that it was a case of theft of electricity. Appeals under Section 127 are appeals by an aggrieved person against an order of assessment in a case of theft or unauthorized use of electricity. If that consideration were treated as germane, there would be no stay in any such case. The Court read the legislative intention as requiring that, where the appeal has been preferred after deposit of half the assessed amount, the appeal be decided within 30 days and further liability worked out on the appellate decision, including interest under sub-section (6) at 16 per cent per annum compounded every six months if payment is made after expiry of 30 days from the assessment order. The order of 14 December 2022 was quashed to the extent it discharged the earlier stay against recovery of the remaining amount. Recovery of that amount remains stayed during pendency of the appeal.",
+      "qualifier": "The stay restored is of recovery of the balance. It does not revive the direction to restore supply.",
+      "paras": "5-6, 9",
+      "flag": "The Court stated that a Section 127 appeal has to be decided within 30 days. It did not quote the section. It tied that period to the limitation for filing, to disposal after hearing with a copy to the assessing officer and the appellant, and to interest under sub-section (6). No interest was calculated. The appeal was directed to be decided within three weeks, not by applying a lapsed 30-day clock. The operative stay during the whole appeal goes beyond the 30-day window the Court attributed to Clause 6.8(d)(iv)."
+    },
+    {
+      "provision": "EA2003::127",
+      "code": "Electricity Act, 2003",
+      "clause": "127",
+      "topic": "Recall of a direction to restore supply, where disconnection followed a tampering raid, is not undone by the stay of recovery",
+      "type": "electricity_act",
+      "question": "Does the stay of recovery pending a Section 127 appeal require the High Court to restore a supply that was disconnected when a raid found the meter tampered?",
+      "holding": "No. The department submitted that the appellate authority's original direction to restore supply was illegal and had rightly been recalled. The Court accepted that submission. Supply was disconnected on 29 June 2022 when the raid was conducted and the meter was found tampered; the meter was removed and sent for testing. The part of the order of 14 December 2022 which recalled the restoration direction was not interfered with, also because more than seven months had passed since the disconnection. Resumption of supply was made dependent on the ultimate outcome of the appeal.",
+      "qualifier": "The Court did not cite a Supply Code disconnection clause or Section 135. The refusal to interfere is tied to a tampering raid and the time already elapsed.",
+      "paras": "7-9"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "recovery-of-assessment-stayed-pending-s127-appeal",
+      "application": "Half the assessed amount having been deposited and the Section 127 appeal instituted, the High Court quashed the appellate order insofar as it vacated the stay of recovery, and directed that recovery of the balance remain stayed while the appeal is pending. Theft of electricity was held not to be a ground for vacating that stay, because Section 127 appeals are appeals against assessments for theft or unauthorized use.",
+      "lead_authorities": [],
+      "paras": "6, 9"
+    },
+    {
+      "tag": "section-127-6-interest-16-percent-compounded-semiannually",
+      "application": "The Court recited Section 127(6): on default in payment of the assessed amount, the person is liable, on the expiry of 30 days from the assessment order, to interest at 16 per cent per annum compounded every six months. It treated that liability as one to be worked out from the appellate decision where the appeal has been filed after deposit of half the assessed amount. No sum was quantified.",
+      "lead_authorities": [],
+      "paras": "5"
+    },
+    {
+      "tag": "restoration-not-revived-where-supply-cut-on-tampering-raid",
+      "application": "The recall of the direction to restore supply was left standing. Disconnection had been made on 29 June 2022 when the meter was found tampered and removed for testing, and more than seven months had passed. Resumption of supply depends on the outcome of the Section 127 appeal. The stay of recovery does not carry restoration with it.",
+      "lead_authorities": [],
+      "paras": "7-9"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits of the theft assessment and of the final assessment order",
+      "note": "Left to the appellate authority, which was directed to decide the appeal within three weeks. The writ did not examine the inspection, the testing of the meter, or the quantum.",
+      "paras": "9-10"
+    },
+    {
+      "point": "Whether supply is ultimately to be restored",
+      "note": "Resumption was made dependent on the outcome of the appeal. The Court did not itself direct restoration, and did not decide what the appellate authority should order on that question.",
+      "paras": "9"
+    },
+    {
+      "point": "Amount of interest under Section 127(6)",
+      "note": "The rate and the compounding rule were recited as the statutory consequence of default after 30 days from the assessment order. No interest was computed against the petitioner.",
+      "paras": "5"
+    }
+  ],
+  "authorities": []
+}
