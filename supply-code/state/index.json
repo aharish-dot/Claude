@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3310,
+  "next_seq": 3311,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -19828,6 +19828,12 @@
       "case_id": "SCJ-3306",
       "source_basename": "WRIC(A)_33565_2023.pdf",
       "title": "M/s P.S. Cold Storage (A Unit of Taj Dairy Milk Pvt. Ltd.) & Another v. Managing Director, Dakshinanchal Vidyut Vitran Nigam Ltd. & 3 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3308",
+      "source_basename": "WRIC(A)_39816_2023.pdf",
+      "title": "M/S Om Heem Enterprises v. State of U.P. and 3 Others",
       "status": "done"
     }
   ]
