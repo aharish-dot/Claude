@@ -1,0 +1,150 @@
+{
+  "case_id": "SCJ-3296",
+  "title": "Anil Kumar Singh v. State of U.P. & 3 Others",
+  "neutral_citation": "2023:AHC:195284-DB",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Mahesh Chandra Tripathi, J. & Prashant Kumar, J.",
+  "date_of_judgment": "2023-10-10",
+  "date_display": "10 October 2023",
+  "docket": "Writ - C No. 24799 of 2023",
+  "page_count": 5,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition disposed of; Executive Engineer directed to grant the new connection without insisting on the owner's consent and to provide supply within two weeks of the Indemnity Bond",
+  "headnote": "Section 43(1) of the Electricity Act, 2003 requires a distribution licensee, on an application by the owner or occupier, to give supply within one month, and confers a corresponding right on that owner or occupier. Relying on Chandu Khamaru v. Smt. Nayan Malik, the Allahabad High Court treated that duty as settled. Clause 4.4 of the U.P. Electricity Supply Code, 2005, with the Indemnity Bond in Annexure 4.2, aids the duty where an occupier cannot produce the owner's consent, and covers a dispute between members of a family. The mother's obstruction and claim of ownership were no ground to withhold a new connection. The writ was disposed of with a direction that the petitioner furnish an Indemnity Bond to the Executive Engineer within two weeks if so required; the Engineer shall grant the application without insisting on the owner's consent and, subject to the other requirements and the bond, provide the connection within two weeks thereafter. Title as between the petitioner, his mother and his brother was not decided.",
+  "facts": "Anil Kumar Singh sought a writ directing respondent nos. 3 and 4 to give an electricity connection in his house. His father had purchased the land in the petitioner's mother's name and built a house there. After a mutual partition, the younger brother took the electricity connection, and both brothers lived with their families in constructions on their parts. A family dispute followed and the brother disconnected the supply the petitioner had been using. The petitioner applied to the fourth respondent for a connection in his own name, said a survey was made and the requirements completed, and paid on 12 June 2023 and 15 June 2023, but no connection was given. He relied on the order of 24 September 2014 in Smt. Sushama Chowdhary v. U.P. Power Corporation Ltd.\n\nThe department produced the Executive Engineer's instructions of 27 July 2023. When the lineman went to install the cable, the petitioner's mother obstructed him, claimed to be the owner, and said she had not allowed the connection. The department attributed the refusal to that family dispute.",
+  "reusable_constructions": [
+    {
+      "construction": "Section 43(1) of the Electricity Act, 2003 obliges a distribution licensee to give supply, within one month of an application, to the owner or occupier of premises, and confers a corresponding statutory right on that owner or occupier.",
+      "paras": "5-6"
+    },
+    {
+      "construction": "A family dispute, including obstruction by a person who claims to be the owner, is not a lawful ground for the licensee to refuse a new connection to an occupier who has applied for supply.",
+      "paras": "4, 7-8"
+    },
+    {
+      "construction": "Clause 4.4 of the U.P. Electricity Supply Code, 2005, read with the Indemnity Bond in Annexure 4.2, aids Section 43 where an occupier cannot produce the owner's consent, and applies to a dispute between members of a family.",
+      "paras": "7"
+    },
+    {
+      "construction": "Once the occupier furnishes the Indemnity Bond, if required, and complies with the other requirements, the licensee must grant the new connection and must not insist on the owner's consent.",
+      "paras": "8"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::43",
+      "code": "Electricity Act, 2003",
+      "clause": "43(1)",
+      "topic": "licensee's duty and the occupier's right to supply; a family member's ownership claim and obstruction do not defeat an application",
+      "type": "electricity_act",
+      "question": "Does Section 43(1) oblige the distribution licensee to supply an occupier who applies, where a family member claiming ownership has obstructed installation?",
+      "holding": "Yes. The Court read Section 43(1) as providing that, save and otherwise provided in the Act, every distribution licensee shall, on an application by the owner or occupier of any premises, give supply within one month after receipt of the application. It held that the section casts an affirmative obligation on the licensee and a corresponding right on the owner or occupier, a position it treated as not in doubt. Relying on Chandu Khamaru v. Smt. Nayan Malik, it held that the licensee has a statutory duty to supply an owner or occupier in its area who applies, and that every such owner or occupier has a statutory right to apply for and obtain supply. The mother's obstruction and ownership claim, and the dispute with the brother, did not displace that duty. The Executive Engineer was directed to provide the connection on the Clause 4.4 terms.",
+      "qualifier": "The operative timeline is two weeks after the Indemnity Bond, not a finding that the one-month period counted from the June 2023 payments had already been breached.",
+      "paras": "5-6, 8",
+      "flag": "The source PDF also contains listing orders of 28.7.2023 (passed over) and 13.9.2023 (advocates abstaining). Paras 1-8 are the numbered paragraphs of the disposing order dated 10.10.2023. The Court wrote 'save and otherwise provided in the Act'."
+    },
+    {
+      "provision": "UP-2005::4.4",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.4 and Annexure 4.2 — occupier's Indemnity Bond where the owner's consent is unavailable, including a family dispute",
+      "topic": "family dispute is met by the Annexure 4.2 Indemnity Bond; licensee must not insist on the owner's consent and must provide the connection",
+      "type": "supply_code",
+      "question": "Where an occupier in a family dispute cannot produce the owner's consent, does Clause 4.4 require the licensee to proceed on an Indemnity Bond and not insist on that consent?",
+      "holding": "Yes. Clause 4.4 is in aid of the statutory duty in Section 43. The Annexure 4.2 Indemnity Bond is the path where an occupier applies but cannot produce the owner's consent. The Court held that this covers a dispute between the owner and the occupier, including a dispute between members of a family. The petitioner is to furnish an Indemnity Bond to the Executive Engineer, respondent no. 3, within two weeks if so required. The Engineer shall take all necessary steps to grant the application, subject to compliance with all other requirements, and shall not insist on the consent of the owner. Subject to the bond being furnished within two weeks, the Engineer shall take all necessary steps to provide the connection within two weeks thereafter.",
+      "qualifier": "The order says both that the bond is to be furnished 'if so required' and that supply is 'subject to' the bond within two weeks. Title was not decided.",
+      "paras": "7-8"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "s43-duty-to-supply-owner-or-occupier-correlative-right",
+      "application": "Section 43(1) was applied as casting a duty on the licensee to supply, and a corresponding right on the owner or occupier to obtain supply, on an application. The mother's obstruction did not displace that right. The Executive Engineer was directed to provide the connection.",
+      "lead_authorities": [
+        {
+          "name": "Chandu Khamaru v. Smt. Nayan Malik",
+          "docid": ""
+        }
+      ],
+      "paras": "5-6, 8"
+    },
+    {
+      "tag": "section-43-duty-to-supply-within-one-month",
+      "application": "The Court recited Section 43(1) as requiring supply within one month of the application. The order it made was to provide the connection within two weeks after the Indemnity Bond.",
+      "lead_authorities": [
+        {
+          "name": "Chandu Khamaru v. Smt. Nayan Malik",
+          "docid": ""
+        }
+      ],
+      "paras": "5, 8"
+    },
+    {
+      "tag": "clause-4.4-occupant-connection-on-indemnity-bond",
+      "application": "Clause 4.4 was applied to a son in occupation whose mother claimed ownership and obstructed the lineman. A dispute between family members was held to be met by the Indemnity Bond, and the Executive Engineer was directed to grant the application on that basis.",
+      "lead_authorities": [
+        {
+          "name": "Chandu Khamaru v. Smt. Nayan Malik",
+          "docid": ""
+        }
+      ],
+      "paras": "7-8"
+    },
+    {
+      "tag": "occupier-entitled-to-connection-on-indemnity-bond-annexure-4.2",
+      "application": "The Court identified the Annexure 4.2 Indemnity Bond as the proforma for an occupier who cannot produce the owner's consent, and directed the petitioner to furnish that bond within two weeks if so required, after which the connection is to be provided within two further weeks.",
+      "lead_authorities": [],
+      "paras": "7-8"
+    },
+    {
+      "tag": "owner-consent-not-a-bar-to-supply",
+      "application": "The Executive Engineer was directed not to insist on the owner's consent. The mother's claim of ownership and her obstruction of the lineman were not accepted as a ground to withhold the connection.",
+      "lead_authorities": [
+        {
+          "name": "Chandu Khamaru v. Smt. Nayan Malik",
+          "docid": ""
+        }
+      ],
+      "paras": "4, 7-8"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Title or ownership of the house as between the petitioner, his mother and his younger brother",
+      "note": "The mother's ownership claim was recorded from the department's instructions. The Court did not adjudicate it, and directed the connection without the owner's consent.",
+      "paras": "3-4, 7-8"
+    },
+    {
+      "point": "Whether the younger brother's disconnection of the supply the petitioner had been using was lawful",
+      "note": "Recited as the reason the petitioner applied for a connection in his own name. Not examined.",
+      "paras": "3"
+    },
+    {
+      "point": "Whether the payments of 12 June 2023 and 15 June 2023 had already completed every departmental requirement",
+      "note": "The petitioner said the requirements were complete. The direction remains subject to compliance with all other requirements and to the Indemnity Bond if so required.",
+      "paras": "3, 8"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Chandu Khamaru v. Smt. Nayan Malik",
+      "citation": "AIR 2011 SC 2897",
+      "court": "Supreme Court",
+      "docid": "",
+      "proposition": "Section 43(1) makes it the distribution licensee's statutory duty to supply electricity to an owner or occupier of premises in its area who applies, and every such owner or occupier has a corresponding statutory right to apply for and obtain that supply.",
+      "cited_by": "Court",
+      "treatment": "Relied on"
+    },
+    {
+      "name": "Smt. Sushama Chowdhary v. U.P. Power Corporation Ltd.",
+      "citation": "Misc. Bench No. 9588 of 2014, order dated 24.9.2014",
+      "court": "Allahabad High Court",
+      "docid": "",
+      "proposition": "The petitioner placed reliance on the order in support of the prayer for a connection. The Court did not set out or discuss the decision.",
+      "cited_by": "Petitioner",
+      "treatment": "Relied on"
+    }
+  ]
+}
