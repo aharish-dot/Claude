@@ -1,0 +1,127 @@
+{
+  "case_id": "SCJ-3326",
+  "title": "Munna Lal v. State of U.P. and 5 Others",
+  "neutral_citation": "2024:AHC:66920-DB",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta, J. & Kshitij Shailendra, J.",
+  "date_of_judgment": "2024-04-16",
+  "date_display": "16 April 2024",
+  "docket": "Writ - C No. 9426 of 2024",
+  "page_count": 4,
+  "significance": "significant",
+  "outcome": "split",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed. Section 56(2) time-bar on continuously shown bill arrears rejected; provisional-assessment demand withdrawn for a fresh assessment under the Supply Code.",
+  "headnote": "Where a consumer seeks to restrain recovery of electricity-bill arrears as barred by two years under Section 56(2) of the Electricity Act, 2003, the dues do not become time-barred if they have been continuously shown as recoverable as arrears of charges for electricity supplied. Regular notices to pay, including a notice under Rule 3 of the U.P. Government Electrical Undertakings (Dues Recovery) Act, 1958, were held to meet that condition, and the plea drawn from Prem Cottex was rejected. The Court treated that aspect as considered in Rahamatullah Khan, (2020) 4 SCC 650, followed by K.C. Ninan v. Kerala State Electricity Board, Civil Appeal No. 2109-2110 of 2004. Separately, a demand raised only on a notice of provisional assessment, where the department admitted that no final assessment order had been passed, was withdrawn. The writ was disposed of with liberty to make a fresh assessment under the procedure in the U.P. Electricity Supply Code, 2005; the consumer may object when notice is received; and the assessment is not to be influenced by observations in the order.",
+  "facts": "Munna Lal, who had taken an electricity connection in 2008, sought a mandamus restraining respondent no. 4 from recovering any amount against electricity bills he described as ten years old, and a direction to decide his representation. He said supply was disconnected on 21 August 2018 against dues of Rs 19,817 and Rs 46,059, and that an IGRS report dated 28 February 2023 showed Rs 86,775 recoverable. He relied on Prem Cottex, (2021) 20 SCC 200, for the contention that Section 56(2) of the Electricity Act, 2003 bars recovery of dues beyond two years.\n\nThe department's counter stated that supply was temporarily disconnected on 17 October 2017 for Rs 12,817, and that a checking on 19 August 2018 found illegal extraction of energy. A provisional assessment notice and, when he did not respond, a recovery notice were issued. Counsel admitted that no final assessment order had been passed and did not address the Section 56(2) plea. An enquiry report recorded regular notices to pay, including a notice under Rule 3 of the U.P. Government Electrical Undertakings (Dues Recovery) Act, 1958.",
+  "reusable_constructions": [
+    {
+      "construction": "Electricity dues do not become time-barred under Section 56(2) of the Electricity Act, 2003 where they have been continuously shown as recoverable as arrears of charges for electricity supplied. A course of regular demand notices, including a notice under the statutory dues-recovery procedure, meets that condition.",
+      "paras": "4"
+    },
+    {
+      "construction": "A plea that electricity dues older than two years are irrecoverable under Section 56(2) fails once continuous showing as arrears is established. That aspect is the one considered in Rahamatullah Khan and followed in K.C. Ninan.",
+      "paras": "4, 6"
+    },
+    {
+      "construction": "Recovery does not proceed on a notice of provisional assessment where no final assessment order has been passed. The licensee may withdraw that demand and make a fresh assessment only by following the supply-code procedure, the consumer may object when notice is received, and the fresh assessment is not to be influenced by observations in the writ.",
+      "paras": "3, 7-8"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::56(2)",
+      "code": "Electricity Act, 2003",
+      "clause": "56(2)",
+      "topic": "Dues continuously shown as recoverable arrears are not time-barred",
+      "type": "electricity_act",
+      "question": "Does Section 56(2) bar recovery of electricity-bill arrears older than two years where the licensee has regularly issued notices showing those dues as recoverable, including a notice under Rule 3 of the U.P. Government Electrical Undertakings (Dues Recovery) Act, 1958?",
+      "holding": "No. On the language of Section 56(2), dues do not become barred by time if they are continuously shown as recoverable as arrears of charges for electricity supplied. The enquiry report annexed to the counter affidavit showed that the respondents had regularly issued notices to pay, and a notice under Rule 3 of the 1958 Act had been issued. The contention that dues for a period beyond two years are not recoverable was rejected. The Court treated that aspect as considered by the Supreme Court in Assistant Engineer (D1), Ajmer Vidyut Vitran Nigam Limited v. Rahamatullah Khan, (2020) 4 SCC 650, followed by K.C. Ninan v. Kerala State Electricity Board, Civil Appeal No. 2109-2110 of 2004.",
+      "qualifier": "The finding is confined to the bill arrears on which supply was disconnected. It does not cover the separate demand raised on the notice of provisional assessment, which the department withdrew.",
+      "paras": "4, 6",
+      "flag": "The printed judgment has no paragraph 5; the text runs from paragraph 4 to paragraph 6. The Court did not quote Prem Cottex, Rahamatullah Khan, or K.C. Ninan. Counsel for the department gave no assistance on the Section 56(2) submission. The 1958 Act is used as proof of continuous demand and is not construed. The Court did not decide whether supply may be cut off for these arrears. Catalog hits on Clause 6.15, theft, a supplementary bill, and Clause 17.10 are not this holding: those clauses are not cited, and 17.10.2017 is the date of temporary disconnection. The fingerprint has no Indian Kanoon doc-id."
+    },
+    {
+      "provision": "UP-2005::procedure",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "procedure",
+      "topic": "Provisional-assessment demand withdrawn; fresh assessment to follow the Code",
+      "type": "supply_code",
+      "question": "Can recovery proceed on a notice of provisional assessment issued after a checking for illegal extraction of energy, when no final assessment order has been passed?",
+      "holding": "Not on that notice. Counsel for the department admitted that no final assessment order had been passed, stated that the department was withdrawing the demand raised on the provisional assessment, and stated that a fresh opportunity to file objections would be given, after which a final assessment order would be passed. The writ was disposed of with liberty to the respondents to act accordingly and to follow the procedure prescribed under the U.P. Electricity Supply Code, 2005 in making the fresh assessment. The petitioner may file an objection when any notice is received. The assessment is to be finalised without being influenced by any observation in the order.",
+      "qualifier": "The Court named no Code clause, did not characterise the checking as theft or as unauthorised use, and did not examine the amounts.",
+      "paras": "3, 7-8",
+      "flag": "On 29 March 2024 the same Bench had recorded that the instructions did not show an assessment passed after the Code procedure and had called for a personal affidavit of respondent no. 4. The final order proceeds on counsel's admission and on the department's withdrawal. The source PDF also contains the 20 March 2024 order of Anjani Kumar Mishra and Jayant Banerji, JJ. (notice not served on respondent nos. 3 and 4; list after ten days) and that 29 March 2024 order. Coram is the Bench that disposed of the writ on 16 April 2024."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "two-year-limitation-recovery-of-electricity-arrears",
+      "application": "The two-year bar in Section 56(2) did not apply to the bill arrears because they had been continuously shown as recoverable. Regular notices to pay, including a notice under Rule 3 of the U.P. Government Electrical Undertakings (Dues Recovery) Act, 1958, were treated as that continuous showing. The plea drawn from Prem Cottex was rejected. The Court treated the point as considered in Rahamatullah Khan and followed in K.C. Ninan.",
+      "lead_authorities": [
+        {
+          "name": "Assistant Engineer (D1), Ajmer Vidyut Vitran Nigam Limited v. Rahamatullah Khan alias Rahamjulla",
+          "docid": ""
+        },
+        {
+          "name": "K.C. Ninan v. Kerala State Electricity Board",
+          "docid": ""
+        }
+      ],
+      "paras": "4, 6"
+    },
+    {
+      "tag": "recovery-withdrawal-fresh-assessment-under-code",
+      "application": "On the department stating that the demand on the provisional-assessment notice was withdrawn and that a fresh opportunity to object would be given before a final assessment, the Court disposed of the writ with liberty to follow the procedure in the U.P. Electricity Supply Code, 2005, and directed that the fresh assessment not be influenced by its observations.",
+      "lead_authorities": [],
+      "paras": "7-8"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the licensee may disconnect supply, or keep it disconnected, for the bill arrears held not to be time-barred",
+      "note": "Section 56(2) also says that the licensee shall not cut off the supply. The Court decided only that the dues were not barred by time because they were continuously shown as recoverable arrears.",
+      "paras": "4, 6"
+    },
+    {
+      "point": "Quantum of the bill arrears and of any fresh assessment for the alleged illegal extraction of energy",
+      "note": "The figures Rs 12,817, Rs 19,817, Rs 46,059 and Rs 86,775 are recited and not adjudicated. The fresh assessment is to be finalised without being influenced by this order.",
+      "paras": "2-3, 8"
+    },
+    {
+      "point": "Whether the checking of 19 August 2018 was theft or unauthorised use, and which clause of the Supply Code governs the fresh assessment",
+      "note": "The order records the department's statement that energy was being extracted illegally, names no Code clause, and leaves the procedure to be followed on the fresh assessment.",
+      "paras": "3, 8"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "M/s Prem Cottex v. Uttar Haryana Bijli Vitran Nigam Ltd.",
+      "citation": "(2021) 20 SCC 200",
+      "court": "Supreme Court of India",
+      "docid": "",
+      "proposition": "The petitioner relied on it for the contention that electricity dues for a period beyond two years are not recoverable under Section 56(2). The Court rejected that contention where the dues were continuously shown as recoverable arrears, and did not discuss the judgment. The report is printed as M/S Prem Cottex vs. Uttar Harayana Bijli Vitran Nigam Limited.",
+      "cited_by": "Petitioner",
+      "treatment": "Referred"
+    },
+    {
+      "name": "Assistant Engineer (D1), Ajmer Vidyut Vitran Nigam Limited v. Rahamatullah Khan alias Rahamjulla",
+      "citation": "(2020) 4 SCC 650",
+      "court": "Supreme Court of India",
+      "docid": "",
+      "proposition": "The aspect that dues continuously shown as recoverable arrears of charges for electricity supplied are not barred by time under Section 56(2) was considered in this judgment. The High Court relied on that consideration in rejecting the time-bar plea and did not set out the ratio.",
+      "cited_by": "Court",
+      "treatment": "Relied on"
+    },
+    {
+      "name": "K.C. Ninan v. Kerala State Electricity Board",
+      "citation": "Civil Appeal No. 2109-2110 of 2004",
+      "court": "Supreme Court of India",
+      "docid": "",
+      "proposition": "Described as the judgment which followed Rahamatullah Khan on the same continuous-showing aspect of Section 56(2). The High Court relied on it without extracting any holding. Cited only by those civil-appeal numbers.",
+      "cited_by": "Court",
+      "treatment": "Relied on"
+    }
+  ]
+}
