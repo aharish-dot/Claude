@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3278,
+  "next_seq": 3279,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -19636,6 +19636,12 @@
       "case_id": "SCJ-3275",
       "source_basename": "WRIC(A)_38315_2022.pdf",
       "title": "Shabbir Ahamad v. Collector, District Allahabad & 4 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3277",
+      "source_basename": "WRIC(L)_3291_2022.pdf",
+      "title": "Electricity Distribution Division III, Gonda v. State of U.P. & Others",
       "status": "done"
     }
   ]
