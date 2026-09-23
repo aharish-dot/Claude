@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3339,
+  "next_seq": 3340,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -20002,6 +20002,12 @@
       "case_id": "SCJ-3335",
       "source_basename": "WRIC(A)_7236_2022.pdf",
       "title": "Opulent Infra Developers (Pvt.) Ltd. v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3337",
+      "source_basename": "WRIC(A)_7407_2022.pdf",
+      "title": "Pooran Prasad Gupta v. State of U.P. and Others",
       "status": "done"
     }
   ]
