@@ -1,0 +1,115 @@
+{
+  "case_id": "SCJ-3312",
+  "title": "M/s Dudhwa Adventure Resorts Private Limited v. Principal Secretary, Department of Energy, U.P. & 3 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court (Lucknow Bench)",
+  "bench": "Division Bench",
+  "coram": "Rajan Roy, J. & Manish Kumar, J.",
+  "date_of_judgment": "2023-04-06",
+  "date_display": "6 April 2023",
+  "docket": "Writ - C No. 2609 of 2023",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition disposed of; new connection refused while the departed tenant's electricity dues on the premises remain unpaid; licensee to pursue recovery from the tenant in accordance with law",
+  "headnote": "An owner whose tenant held the electricity connection, and who seeks a new connection in its own name after the tenant has left without paying the bills, cannot have that connection granted while electricity arrears remain in respect of the premises. A submission that the owner is itself in arrears of rent pertaining to the tenant is irrelevant, particularly where the tenant is not a party. The Division Bench set out Clause 4.3 of the U.P. Electricity Supply Code, 2005 in full. Those provisions were not challenged, and no contrary law was shown, so the Court would not grant relief against them. As set out, Clause 4.3(f)(viii) provides that the licensee processes the application on clearing of dues, and Clause 4.3(f)(vi) requires a house owner, where the connection was given with the owner's consent, to ensure that the tenant pays all electricity arrears before vacating. The Court did not record a finding on that consent. It directed the opposite parties to pursue recovery from the tenant in accordance with law, and made no further direction. It indicated that a new connection could be ordered if the owner deposited the dues without prejudice to recovery from the erstwhile tenant, the sum to be paid back if recovered from the tenant, but counsel gave no categorical reply. The writ was disposed of without directing the connection.",
+  "facts": "M/s Dudhwa Adventure Resorts Private Limited, through its manager Pratap Singh, owns premises on which a tenant held an electricity connection in the tenant's name. The tenant left without paying the electricity bills. The company asked for a new connection in its own name. The opposite parties were not considering that request because the electricity dues of the premises remained unpaid. Before the Lucknow Bench in Writ-C No. 2609 of 2023, counsel said that the company was itself in arrears of rent pertaining to that tenant.\n\nThe respondents are the Principal Secretary, Department of Energy, Uttar Pradesh, and three others. The order does not name the distribution licensee, state any sum of electricity dues, or give a consumer number or a premises address.",
+  "reusable_constructions": [
+    {
+      "construction": "If electricity arrears remain outstanding in respect of premises, a new connection cannot be granted unless those arrears are cleared.",
+      "paras": "2"
+    },
+    {
+      "construction": "A submission that the premises owner is in arrears of rent pertaining to a departed tenant is irrelevant to the bar on a new connection while electricity dues remain on the premises, particularly where the tenant is not a party to the writ.",
+      "paras": "1-2"
+    },
+    {
+      "construction": "While Clause 4.3 of the U.P. Electricity Supply Code, 2005 stands unchallenged and no contrary law is shown, the writ court will not direct a new connection inconsistent with that clause.",
+      "paras": "3-4"
+    },
+    {
+      "construction": "A direction that the licensee pursue recovery of a departed tenant's electricity dues in accordance with law does not require a new connection to be released to the owner before the premises arrears are cleared.",
+      "paras": "4"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.3",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.3 (new connections), including 4.3(f)(viii)",
+      "topic": "Premises electricity arrears bar a new connection until cleared; an unchallenged Clause 4.3 will not be departed from",
+      "type": "supply_code",
+      "question": "Can the writ court direct a new electricity connection in the premises owner's name while electricity arrears remain outstanding on those premises?",
+      "holding": "No. If there are electricity arrears in respect of the premises, a new connection cannot be granted unless the arrears are cleared. The Court set out Clause 4.3 of the U.P. Electricity Supply Code, 2005, including Clause 4.3(f)(viii), under which the licensee processes the application on clearing of dues. Those provisions were not challenged, and counsel placed no law to the contrary, including nothing that would engage Clause 4.3(f)(vii), under which the stated conditions do not apply if inconsistent with a higher-court order. The Court therefore declined to grant relief. The opposite parties were told to pursue recovery of the electricity dues from the tenant in accordance with law and to take those proceedings to their logical conclusion; apart from that, no observation or direction was made. The writ was disposed of without directing the connection.",
+      "qualifier": "The Court was prepared to direct a connection if the owner deposited the dues without prejudice to recovery from the erstwhile tenant, with a refund if later recovered from the tenant. Counsel gave no categorical reply, so that course was not ordered.",
+      "paras": "2-4",
+      "flag": "The three-page Lucknow Bench order is unnumbered. Pins are sequential prose blocks: facts = 1; rent submission held irrelevant and the connection bar stated = 2; Clause 4.3(a) to (h) set out = 3; unchallenged provisions, recovery direction, declined deposit offer, and disposal = 4. Catalog hits on Clauses 4.35 to 4.39, 6.4 and 6.45, permanent disconnection, auction purchase, and the Insolvency and Bankruptcy Code do not appear in the judgment. Clause 4.3(f)(viii) is not a separate catalog key; it is keyed here under Clause 4.3."
+    },
+    {
+      "provision": "UP-2005::4.3(f)(vi)",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.3(f)(vi)",
+      "topic": "Owner's rent submission does not displace the bar arising from a departed tenant's electricity dues",
+      "type": "supply_code",
+      "question": "Does a submission that the owner is in arrears of rent pertaining to the departed tenant entitle the owner to a new connection while that tenant's electricity dues on the premises remain unpaid?",
+      "holding": "No. The Court held that the rent submission was not relevant, particularly because the tenant was not before it as an opposite party. It set out Clause 4.3(f)(vi), which provides that where the electricity connection was given with the consent of the house owner, that person shall ensure payment of all electricity arrears by the tenant before the tenant vacates. The new connection was refused while premises electricity arrears remained. Recovery against the tenant was left to the opposite parties to pursue in accordance with law. The Court did not quantify any sum payable by the owner.",
+      "qualifier": "The consent condition in Clause 4.3(f)(vi) was not found as a fact. The operative bar was stated generally: electricity arrears in respect of the premises prevent a new connection until they are cleared.",
+      "paras": "2-4"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-4.3-new-connection-barred-by-outstanding-premises-dues",
+      "application": "The Court held that if electricity arrears exist in respect of the premises, a new connection cannot be granted unless they are cleared, and disposed of the owner's writ without directing supply.",
+      "lead_authorities": [],
+      "paras": "2-4"
+    },
+    {
+      "tag": "no-new-connection-while-predecessor-dues-outstanding-clause-4.3f",
+      "application": "The previous consumer was the tenant who vacated without paying. Clause 4.3(f), including sub-clause (viii) as set out (the application is processed on clearing of dues), was treated as barring a fresh connection in the owner's name until those premises dues were cleared.",
+      "lead_authorities": [],
+      "paras": "2-4"
+    },
+    {
+      "tag": "clause-4.3-f-vi-landlord-co-extensive-liability-for-tenant-dues",
+      "application": "Clause 4.3(f)(vi) was set out. The owner's submission that it was in arrears of rent pertaining to the departed tenant was held irrelevant, particularly as the tenant was not a party, and the new connection was refused while the tenant's electricity dues on the premises remained unpaid. The Court did not find the consent fact stated in the sub-clause, and it directed recovery to be pursued against the tenant rather than quantifying a debt against the owner.",
+      "lead_authorities": [],
+      "paras": "2-4"
+    },
+    {
+      "tag": "arrears-bar-is-premises-specific",
+      "application": "The bar was placed on electricity arrears in respect of the premises. The owner's private rent position as against the tenant was held irrelevant to the grant of a new connection.",
+      "lead_authorities": [],
+      "paras": "2"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Quantum of the electricity dues, and whether any particular sum is in fact outstanding",
+      "note": "No amount, consumer number, or bill is stated. The Court reasoned that if premises arrears exist, a new connection cannot be granted unless they are cleared.",
+      "paras": "1-2"
+    },
+    {
+      "point": "Whether the tenant's connection was given with the house owner's consent, so as to attract the duty in Clause 4.3(f)(vi)",
+      "note": "Sub-clause (vi) was set out with the rest of Clause 4.3. The Court made no finding on consent.",
+      "paras": "3-4"
+    },
+    {
+      "point": "Whether a new connection would be directed on a without-prejudice deposit by the owner, refundable if the dues were later recovered from the tenant",
+      "note": "The Court offered that course. Counsel gave no categorical reply, so no such direction was made.",
+      "paras": "4"
+    },
+    {
+      "point": "Forum, limitation, and quantum of recovery against the tenant",
+      "note": "The opposite parties were told only to proceed in accordance with law and take the proceedings to their logical conclusion. The Court said that apart from that, no observation or direction could be made.",
+      "paras": "4"
+    },
+    {
+      "point": "Whether Clauses 4.3(f)(i) to (v) (seller and purchaser, no-dues certificate, first charge, and director or financial-institution recovery) or Clauses 4.3(g) and 4.3(h) (sub-divided premises) apply where an owner seeks a connection after a tenant has left",
+      "note": "Those sub-clauses were reproduced as part of Clause 4.3. The Court did not apply them to a sale or a legal sub-division. The rule it stated was that premises electricity arrears bar a new connection until cleared.",
+      "paras": "3-4"
+    }
+  ],
+  "authorities": []
+}
