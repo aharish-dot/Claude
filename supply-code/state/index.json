@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3365,
+  "next_seq": 3366,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -20158,6 +20158,12 @@
       "case_id": "SCJ-3362",
       "source_basename": "WRIC(A)_9499_2022.pdf",
       "title": "Ram Kaval alias Ram Kewal Chauhan v. State of U.P. and 4 others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3363",
+      "source_basename": "WRIC(A)_9689_2022.pdf",
+      "title": "Smt. Manorma Jaiswal v. State of U.P. and others",
       "status": "done"
     }
   ]
