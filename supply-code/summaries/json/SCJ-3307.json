@@ -1,0 +1,74 @@
+{
+  "case_id": "SCJ-3307",
+  "title": "Bhanu Pratap v. State of U.P. & 4 Others",
+  "neutral_citation": "2023:AHC:237342-DB",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Siddhartha Varma, J. & Shekhar B. Saraf, J.",
+  "date_of_judgment": "2023-12-14",
+  "date_display": "14 December 2023",
+  "docket": "Writ - C No. 34323 of 2023",
+  "page_count": 6,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ allowed; recovery certificate quashed; petitioner held not liable to pay any amount",
+  "headnote": "Where the consumer's electricity connection was permanently disconnected in 2004 and he used no electricity thereafter, a later bill of Rs.18,68,845, even after the licensee reduced it to Rs.47,273.94, is not recoverable. On the plea that Clause 6.15 of the U.P. Electricity Supply Code, 2005 permits nothing for a period prior to two years of the billing to be taken, the Division Bench set out Clause 6.15(a) and Clause 6.15(b), including the Explanation of when charges become first due, and held that the petitioner is not liable to pay any amount. The recovery certificate was quashed and the writ was allowed. A correction order of 14 May 2024 (2024:AHC:87248-DB) is to be read with the judgment and substitutes Rs.18,68,845 for the figure mistyped in paragraph 2. The Court did not divide the reduced sum between amounts inside and outside two years, and did not construe Section 56 of the Electricity Act, 2003 apart from its mention in the reproduced Clause 6.15(a).",
+  "facts": "Bhanu Pratap's electricity connection was permanently disconnected in 2004, and he said he never used electricity thereafter. A bill was later sent to him. He filed Writ - C No. 34323 of 2023, alleging that, the connection having been disconnected in 2004, no bill could be raised. On 6 October 2023 the Court called for instructions and stayed coercive action. The interim order was continued through the listings of 2 November and 21 November 2023, the department being given no further time beyond 14 December 2023.\n\nOn that date the department's instructions stated that the bill had been reduced to Rs.47,273.94. The petitioner submitted that Clause 6.15 of the U.P. Electricity Supply Code, 2005 barred recovery of anything for a period prior to two years of the billing. Paragraph 2 of the order, as corrected on 14 May 2024, records the bill that provoked the writ as Rs.18,68,845. The typed figure Rs.8,68,845 was treated as a typographical error, and the correction was directed to be read as part of the December order.",
+  "reusable_constructions": [
+    {
+      "construction": "Where the electricity connection has been permanently disconnected and the consumer has not thereafter used electricity, Clause 6.15 of the U.P. Electricity Supply Code, 2005 bars a later bill: the consumer is not liable to pay any amount, and the recovery certificate is liable to be quashed.",
+      "paras": "2, 4-7"
+    },
+    {
+      "construction": "A licensee's reduction of the sum demanded on a bill raised after permanent disconnection does not, once Clause 6.15 is applied, leave the consumer liable for the reduced figure; no amount remains payable and the recovery certificate is quashed.",
+      "paras": "3, 6-7"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.15",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "6.15(a) and 6.15(b), including the Explanation",
+      "topic": "Post-disconnection bill and recovery certificate barred under Clause 6.15; consumer not liable for any amount",
+      "type": "supply_code",
+      "question": "Where the connection was permanently disconnected in 2004 and the consumer used no electricity thereafter, does Clause 6.15 leave him liable for any amount on a later bill and recovery certificate, including after the licensee reduces the demand?",
+      "holding": "No. The petitioner's case was that the connection was permanently disconnected in 2004 and that he never used electricity thereafter, so that after the department disconnected the connection no bill could be sent. The department's instructions reduced the bill from Rs.18,68,845 to Rs.47,273.94. He submitted that, under Clause 6.15, nothing for a period prior to two years of the billing could be taken. The Court set out Clause 6.15(a) and Clause 6.15(b), including the Explanation of the date from which such charges become first due, and held that, considering those provisions, the petitioner is not liable to pay any amount. The recovery certificate was quashed and the writ was allowed.",
+      "qualifier": "The Court did not divide Rs.47,273.94 into sums inside and outside two years of billing, and did not find whether any sum had been shown continuously as recoverable as arrears of charges.",
+      "paras": "2-7",
+      "flag": "The source concatenates orders of 6.10.2023 and 2.11.2023 (Siddhartha Varma and Manoj Bajaj, JJ.), 21.11.2023, the numbered disposal of 14.12.2023 (paras 1-7; Siddhartha Varma and Shekhar B. Saraf, JJ.; Neutral Citation No. 2023:AHC:237342-DB), and Civil Misc. Correction Application No. 2 of 2024 decided on 14.5.2024 (2024:AHC:87248-DB). Pins are the paragraph numbers of 14.12.2023. Permanent disconnection in 2004 and no later use are the petitioner's case recorded on 6.10.2023 and carried into para 2. The correction substitutes Rs.18,68,845 for Rs.8,68,845 in the first line of para 2 and is to be read as part of the 14.12.2023 order. The order cites Clause 6.15, not 6.15(b) alone; 6.15(b) is the two-year text reproduced and applied. Section 56 and the U.P. Government Electrical Undertakings (Dues Recovery) Act, 1958 appear only inside the reproduced Clause 6.15(a). They were not separately construed. Catalog hits on Section 56(2) as an independent bar, theft, a supplementary or continuing bill, relegation to an authority, a licensee's duty to disconnect within two years, the Code of Criminal Procedure, and the Companies Act are not in this text."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "recovery-time-barred-two-years-after-permanent-disconnection",
+      "application": "The connection was permanently disconnected in 2004 and the consumer used no electricity thereafter. A later bill, reduced by the department from Rs.18,68,845 to Rs.47,273.94, was held not recoverable under Clause 6.15. The consumer was held not liable to pay any amount and the recovery certificate was quashed. This is a final quashing, not a prima facie stay.",
+      "lead_authorities": [],
+      "paras": "2, 4-7"
+    },
+    {
+      "tag": "two-year-limitation-recovery-of-arrears-clause-6.15b",
+      "application": "The petitioner's plea that Clause 6.15 bars recovery of anything for a period prior to two years of the billing was accepted after the Court set out Clause 6.15(b). The recovery certificate was quashed in the writ; the consumer was not relegated to a billing authority.",
+      "lead_authorities": [],
+      "paras": "4-7"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether any part of the reduced demand of Rs.47,273.94 fell within two years of the billing, or had been shown continuously as recoverable as arrears of charges",
+      "note": "Clause 6.15(b) and its Explanation were reproduced. The Court did not apply the continuous-arrear exception or the first-due Explanation as a separate enquiry. It held the petitioner not liable to pay any amount.",
+      "paras": "3, 5-6"
+    },
+    {
+      "point": "The character of the demand and the computation of Rs.18,68,845 and of the reduced figure Rs.47,273.94",
+      "note": "The order does not say whether the bill was for ordinary charges, theft, or unauthorised use, and it does not examine how either figure was arrived at.",
+      "paras": "2-3, 6"
+    },
+    {
+      "point": "Section 56 of the Electricity Act, 2003, and the U.P. Government Electrical Undertakings (Dues Recovery) Act, 1958, as limits independent of Clause 6.15",
+      "note": "Both are named only in the reproduced text of Clause 6.15(a). The Court decided the writ under Clause 6.15 and quashed the recovery certificate without a separate construction of either statute.",
+      "paras": "5-6"
+    }
+  ],
+  "authorities": []
+}
