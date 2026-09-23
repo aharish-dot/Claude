@@ -1,0 +1,88 @@
+{
+  "case_id": "SCJ-3284",
+  "title": "Mukhtar Ahmad v. State of U.P. and 3 Others",
+  "neutral_citation": "",
+  "court": "Allahabad High Court",
+  "bench": "Division Bench",
+  "coram": "Mahesh Chandra Tripathi, J.; Manjive Shukla, J.",
+  "date_of_judgment": "2023-04-27",
+  "date_display": "27 April 2023",
+  "docket": "Writ - C No. 11590 of 2023",
+  "page_count": 4,
+  "significance": "procedural",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ petition disposed of; if the petitioner moves an appropriate application strictly in accordance with law within two weeks, the department is to consider it within a further three weeks",
+  "headnote": "Where a tenant's application for a new electricity connection has been rejected because the landlord refused a no-objection, and counsel for the licensee states that a fresh application under the Electricity Supply Code, 2005, with an indemnity bond and the other prescribed requirements, will be considered strictly in accordance with law, the writ court will not keep the petition pending and will not itself direct the connection. If the petitioner moves an appropriate application strictly in accordance with law within two weeks, the department is to consider it within a further three weeks. The rejection dated 11 September 2021 was not set aside. Seema Mansoor and Ravi Shankar Giri, cited for the petitioner, were not applied.",
+  "facts": "Mukhtar Ahmad petitioned the Allahabad High Court for a direction to the Executive Engineer, EUDD-11, Moradabad (respondent no. 2), to issue a new electricity connection for the rented house of Sartaj Ahmad (respondent no. 4) at Mohalla Pakki Sarai, Moradabad. He said Sartaj Ahmad had agreed on 1 February 2021 to sell a two-third portion for Rs.4,50,000 and then refused the sale deed. Sartaj Ahmad's wife lodged an FIR dated 30 June 2021 under Sections 376 and 504 IPC against the petitioner's son; a final report followed. The petitioner filed Original Suit No. 1011 of 2021. An Amin's report recorded that he occupied the two-third lower portion.\n\nSartaj Ahmad disconnected the electricity. The petitioner applied for a new connection and deposited Rs.2,000. On 11 September 2021 the Executive Engineer rejected the application because the landlord refused a no-objection. Counsel for Pashchimanchal Vidyut Vitran Nigam Ltd. stated that an application under the Electricity Supply Code, 2005, with an indemnity bond and the other requirements, would be considered in accordance with law.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.4",
+      "code": "U.P. Electricity Supply Code, 2005",
+      "clause": "4.4 — occupier application on an indemnity bond; clause number not cited",
+      "topic": "New-connection writ disposed by a time-bound direction to consider a fresh application in accordance with law; connection not granted and the landlord-NOC rejection not set aside",
+      "type": "supply_code",
+      "question": "Will the writ court direct a new connection, or set aside a rejection for want of the landlord's no-objection, when the licensee offers to consider a fresh application under the Electricity Supply Code, 2005 with an indemnity bond?",
+      "holding": "No. Counsel for the licensee stated that if the petitioner moves an appropriate application for an electricity connection as per the Electricity Supply Code, 2005, in accordance with law and the prescribed procedure, by giving an indemnity bond and fulfilling all other requirements, the authority shall consider the claim strictly in accordance with law. The Court held that no useful purpose would be served in keeping the matter pending, and disposed of the writ with a direction that if the petitioner moves an appropriate application, strictly in accordance with law, within two weeks, the department would consider it within a further three weeks. The connection was not directed and the order dated 11.09.2021 was not set aside.",
+      "qualifier": "The Supply Code and the indemnity bond are the licensee's statement. The operative direction speaks only of an appropriate application strictly in accordance with law.",
+      "paras": "5-6",
+      "flag": "Source PDF concatenates unnumbered orders of 10.4.2023 (none for the petitioner; Baleshwar Chaturvedi noted for the third respondent; listed 12.4.2023), 20.4.2023 (array of respondents corrected; Pranjal Mehrotra noted for respondent no. 3, Pashchimanchal Vidyut Vitran Nigam Ltd., Moradabad Region; petition to be served; listed 27.4.2023) and this 27.4.2023 disposal. Paras 1-6 are sequential blocks of the disposal from 'Heard learned counsel'. The same Division Bench sat on all three orders. The Court did not cite a numbered Code clause. The licensee's reference to an application as per the Electricity Supply Code, 2005, with an indemnity bond, is keyed to Clause 4.4 as the occupier-indemnity path that statement tracks; the Court did not construe it and did not adopt Seema Mansoor. Catalog hits on criminal-bail-s376 are false positives from the FIR narrative (Sections 376 and 504 IPC); this is not a bail matter. fp.json has no Indian Kanoon doc-ids."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "procedural-consider-in-accordance-with-law",
+      "application": "The Court did not grant or refuse the new connection and did not set aside the 11.09.2021 rejection for want of the landlord's no-objection. It disposed of the writ: if the petitioner moves an appropriate application strictly in accordance with law within two weeks, the department is to consider it within a further three weeks.",
+      "lead_authorities": [],
+      "paras": "5-6"
+    },
+    {
+      "tag": "apply-under-supply-code-consider-in-accordance-with-law",
+      "application": "Counsel for the licensee stated that an application under the Electricity Supply Code, 2005, with an indemnity bond and the other prescribed requirements, would be considered strictly in accordance with law. The Court left the claim to that fresh application and did not itself apply the Code.",
+      "lead_authorities": [],
+      "paras": "5-6"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the order dated 11.09.2021, rejecting the new connection because the landlord refused a no-objection, was illegal",
+      "note": "The rejection was the grievance. It was not quashed or examined. The petitioner was left to move a fresh application.",
+      "paras": "3-4, 6"
+    },
+    {
+      "point": "Whether Seema Mansoor or Ravi Shankar Giri required a direction to accord the connection",
+      "note": "Placed before the Court by the petitioner. The order does not state what Seema Mansoor found about Ravi Shankar Giri, and this Bench did not adopt either decision.",
+      "paras": "4, 6"
+    },
+    {
+      "point": "Grant of the electricity connection, and whether the petitioner had made out tenancy or occupancy",
+      "note": "Left to a fresh application to be considered in accordance with law. The Court made no finding on occupation.",
+      "paras": "2, 6"
+    },
+    {
+      "point": "Merits of the agreement dated 01.02.2021, Original Suit No. 1011 of 2021, the landlord's disconnection, and the FIR under Sections 376 and 504 IPC",
+      "note": "Recorded as the petitioner's narrative. Not adjudicated.",
+      "paras": "3"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Seema Mansoor v. U.P. Power Ltd. and 3 others",
+      "citation": "Writ Petition No. 28295 of 2014, decided on 26.05.2014",
+      "court": "Allahabad High Court",
+      "docid": "",
+      "proposition": "Relied on by the petitioner for a direction to accord a new electricity connection. The order links Seema Mansoor to the Division Bench judgment in Ravi Shankar Giri, 2007 (4) AWC 3934, but does not state what Seema Mansoor held. This Bench did not adopt it.",
+      "cited_by": "Petitioner",
+      "treatment": "Referred"
+    },
+    {
+      "name": "Ravi Shankar Giri v. Sub Divisional Officer, U.P. Power Corporation Limited and others",
+      "citation": "2007 (4) AWC 3934",
+      "court": "Allahabad High Court",
+      "docid": "",
+      "proposition": "Named inside the petitioner's reliance on Seema Mansoor. The order does not state its holding, and this Bench did not apply it.",
+      "cited_by": "Petitioner",
+      "treatment": "Referred"
+    }
+  ]
+}
