@@ -1,0 +1,61 @@
+{
+  "case_id": "SCJ-3341",
+  "title": "Sonu Kumar v. State of U.P. and 2 Others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": ["Manoj Kumar Gupta, J.", "Dinesh Pathak, J."],
+  "date_of_judgment": "2022-05-17",
+  "date_display": "17 May 2022",
+  "docket": "Writ-C No. 7637 of 2022",
+  "page_count": 1,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Petition disposed; on Clause 6.5(b) deposit the complaint shall be decided within seven days.",
+  "headnote": "A writ for correction of disputed electricity bills under Clause 6.5 of the U.P. Electricity Supply Code, 2005 was disposed of. Under Clause 6.5(b) the competent authority decides the complaint only after the consumer deposits the disputed amount under protest or charges on the average of the preceding six months' bills, whichever is less. Counsel could not show that deposit; the petitioner may comply, and the complaint already filed shall then be decided within seven days.",
+  "facts": "Sonu Kumar filed Writ-C No. 7637 of 2022 in the High Court of Judicature at Allahabad against the State of U.P. and two others. He asked for a mandamus commanding the authorities to correct electricity bills issued to him, and he invoked Clause 6.5 of the U.P. Electricity Supply Code, 2005. The dispute was over those bills. At the hearing, counsel for the petitioner could not show that the deposit required before the complaint is decided had been made.",
+  "reusable_constructions": [
+    {
+      "construction": "Clause 6.5(b) conditions decision of a disputed-bill complaint on deposit of the disputed amount under protest or charges on the average of the preceding six months' bills, whichever is less.",
+      "paras": "3"
+    },
+    {
+      "construction": "Where that deposit is not shown, the writ for bill correction is disposed with liberty to comply, after which the authority must decide the complaint already filed within seven days.",
+      "paras": "4-5"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5(b)",
+      "code": "UP-2005",
+      "clause": "6.5(b)",
+      "topic": "Deposit before a Clause 6.5(b) complaint is decided",
+      "type": "supply_code",
+      "holding": "A complaint against a disputed electricity bill under Clause 6.5(b) of the U.P. Electricity Supply Code, 2005 is decided by the competent authority subject to the consumer depositing the disputed amount under protest, or electricity charges calculated on the average of the bills of the preceding six months, whichever is less. Where counsel cannot show compliance, the writ seeking correction of the bill is disposed of with liberty to comply, whereupon the complaint already filed shall be decided by the concerned respondent within seven days.",
+      "paras": "3-5"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5b-quantification-dispute",
+      "application": "The Court applied Clause 6.5(b) as requiring deposit of the lesser of the disputed amount under protest and the average of the preceding six months' bills before the competent authority decides the complaint.",
+      "lead_authorities": [],
+      "paras": "3"
+    },
+    {
+      "tag": "clause-6.5-alternate-remedy-to-writ",
+      "application": "The mandamus to correct the bills was not granted. The petition was disposed so that, once the petitioner meets the deposit requirement, the pending complaint is decided by the concerned respondent within seven days.",
+      "lead_authorities": [],
+      "paras": "4-5"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the disputed electricity bills were liable to be corrected on merits",
+      "note": "Left to the competent authority under Clause 6.5(b) after the petitioner complies with the deposit requirement.",
+      "paras": "2-5"
+    }
+  ],
+  "authorities": []
+}
