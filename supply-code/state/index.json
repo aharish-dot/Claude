@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3311,
+  "next_seq": 3312,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -19834,6 +19834,12 @@
       "case_id": "SCJ-3308",
       "source_basename": "WRIC(A)_39816_2023.pdf",
       "title": "M/S Om Heem Enterprises v. State of U.P. and 3 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3309",
+      "source_basename": "WRIC(A)_4594_2023.pdf",
+      "title": "Sujauddin @ Pappu v. The Appellate Committee, Saharanpur Division and 2 Others",
       "status": "done"
     }
   ]
