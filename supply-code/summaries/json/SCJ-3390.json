@@ -1,0 +1,50 @@
+{
+  "case_id": "SCJ-3390",
+  "title": "Ajay Kumar v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad, Lucknow Bench",
+  "bench": "Division Bench",
+  "coram": "Mrs. Sangeeta Chandra, J. and Narendra Kumar Johari, J.",
+  "date_of_judgment": "2023-04-17",
+  "date_display": "17 April 2023",
+  "docket": "Criminal Misc. Writ Petition No. 2763 of 2023",
+  "page_count": 3,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; petitioner to approach the Section 152 authority within a week.",
+  "headnote": "A criminal writ to quash an FIR under Section 135 of the Electricity Act, 2003 was disposed of by directing the petitioner to the competent authority under Section 152 within one week. That authority is to consider the grievance and communicate its order to the police so the FIR may, if needed, be withdrawn as not pressed. The Court did not decide whether theft was made out or whether mutation under the Supply Code was complete.",
+  "facts": "Ajay Kumar sought quashing of an FIR dated 2 June 2022, Case Crime No. 0879 of 2022, under Section 135 of the Electricity Act at Anti Power Theft police station, Unnao. The domestic connection stood in the name of his late father, Gomti Prasad. He said he had applied in 2014 to mutate it into his name, but Madhyanchal Vidyut Vitran Nigam Ltd. lodged the FIR against the deceased. The licensee replied that the prescribed mutation form and fee under paragraph 4.55 of the Supply Code, 2005 had not been completed.",
+  "holding_units": [
+    {
+      "provision": "EA2003::152",
+      "code": "EA2003",
+      "clause": "152",
+      "topic": "Compounding route for a Section 135 FIR",
+      "type": "electricity_act",
+      "holding": "The writ to quash the FIR under Section 135 of the Electricity Act, 2003 was disposed of with a direction that the petitioner approach the competent authority under Section 152 within one week. That authority shall look into the grievance and pass an appropriate order, to be communicated to the police for withdrawal, if needed, of the FIR as not pressed.",
+      "paras": "5"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "s135-arrest-safeguards-and-compounding-remedy",
+      "application": "The Court did not quash the Section 135 FIR. It treated Section 152 as the remedy and directed the petitioner to the competent authority within a week, the order to be sent to the police for withdrawal of the FIR, if needed, as not pressed. Arrest safeguards were not in issue.",
+      "lead_authorities": [],
+      "paras": "4-5"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the Section 135 FIR disclosed theft, or unauthorized use, by the petitioner as occupier, and whether it should be quashed",
+      "note": "Left to the competent authority under Section 152. Withdrawal of the FIR arises only if that order so requires, and then as not pressed.",
+      "paras": "4-5"
+    },
+    {
+      "point": "Whether the 2014 mutation request satisfied paragraph 4.55 of the Electricity Supply Code, 2005",
+      "note": "The licensee said the prescribed form and fee were not deposited. The Court did not decide mutation.",
+      "paras": "3-4"
+    }
+  ],
+  "authorities": []
+}
