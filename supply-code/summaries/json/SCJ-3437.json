@@ -1,0 +1,50 @@
+{
+  "case_id": "SCJ-3437",
+  "title": "Aaman v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": ["Manoj Kumar Gupta, J.", "Vikram D. Chauhan, J."],
+  "date_of_judgment": "2023-01-31",
+  "date_display": "31 January 2023",
+  "docket": "WRIT - C No. 1390 of 2023",
+  "page_count": 3,
+  "significance": "ordinary",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Theft recovery withdrawn; fresh proceedings only under the Supply Code.",
+  "headnote": "A writ challenging recovery of electricity dues in a theft case, on the ground that no final assessment order existed, was disposed of on the licensee's statement that the recovery stood withdrawn and that an order would be passed after an opportunity to file objections. The licensee was left at liberty to proceed afresh strictly in accordance with the Electricity Supply Code, 2005.",
+  "facts": "Aaman challenged, before the Allahabad High Court, recovery of electricity dues alleged to arise from theft of electricity, on the ground that no final assessment order preceded the demand. The electricity department took time on 16 and 24 January 2023 to obtain instructions. On 31 January 2023 its counsel stated that the impugned recovery had been withdrawn and that an order would be passed only after the petitioner was given an opportunity to file objections.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::16.1.4",
+      "code": "UP-2005",
+      "clause": "16.1.4",
+      "topic": "Theft recovery and fresh assessment",
+      "type": "supply_code",
+      "holding": "Where recovery of electricity dues in a theft case is challenged because no final assessment order exists, and the licensee states that the recovery has been withdrawn and that an order will be passed after an opportunity to file objections, the writ is disposed of and the licensee may proceed afresh only in strict accordance with the procedure prescribed under the Electricity Supply Code, 2005.",
+      "paras": "3"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "final-assessment-and-objection-before-theft-recovery",
+      "application": "On the licensee's statement that the theft recovery had been withdrawn and that an order would follow an opportunity to object, the writ was disposed of with liberty to proceed afresh strictly under the Electricity Supply Code, 2005.",
+      "lead_authorities": [],
+      "paras": "3"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the withdrawn theft recovery was illegal for want of a final assessment order",
+      "note": "Not adjudicated; the department withdrew the recovery and the writ was disposed of on that statement.",
+      "paras": "3"
+    },
+    {
+      "point": "Liability and quantum on any fresh assessment of the theft dues",
+      "note": "Left to a fresh order after an opportunity to file objections, strictly under the Supply Code, 2005.",
+      "paras": "3"
+    }
+  ],
+  "authorities": []
+}
