@@ -1,0 +1,51 @@
+{
+  "case_id": "SCJ-3449",
+  "title": "Smt. Ratnawati v. Paschimanchal Vidyut Vitran Nigam Limited and Another",
+  "neutral_citation": "2023:AHC:105541-DB",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": ["Manoj Kumar Gupta, J.", "Prashant Kumar, J."],
+  "date_of_judgment": "2023-05-16",
+  "date_display": "16 May 2023",
+  "docket": "WRIT - C No. - 14995 of 2023",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Theft demand quashed; fresh Supply Code order left open.",
+  "headnote": "In a theft-of-electricity case, a provisional assessment notice that grants fifteen days to file an objection but fixes no date of personal hearing is defective. On the licensee's concession, the demand notice dated 24 January 2023 was quashed, with liberty to the respondents to pass a fresh order strictly in accordance with the U.P. Electricity Supply Code, 2005.",
+  "facts": "Smt. Ratnawati petitioned the Allahabad High Court against Paschimanchal Vidyut Vitran Nigam Limited to challenge a demand notice dated 24 January 2023, issued by respondent no. 2, for electricity dues said to arise from theft. The provisional assessment notice gave her fifteen days to object but fixed no date for personal hearing. On 16 May 2023 the licensee's counsel told the Division Bench that the notice was therefore defective, that it was being withdrawn, and that a fresh notice fixing a hearing date would be issued.",
+  "reusable_constructions": [
+    {
+      "construction": "A provisional assessment notice in a theft case that gives fifteen days to object but fixes no date of personal hearing is defective; the demand founded on it is quashed, and the licensee may proceed only by a fresh order made strictly under the U.P. Electricity Supply Code, 2005.",
+      "paras": "2-4"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::16.5",
+      "code": "UP-2005",
+      "clause": "16.5",
+      "topic": "Personal hearing date in a theft provisional assessment",
+      "type": "supply_code",
+      "holding": "Where a notice of provisional assessment in a theft case grants fifteen days to file an objection but does not fix any date for personal hearing, the notice is defective. On the licensee's concession that the notice dated 24.1.2023 was being withdrawn and that a fresh notice fixing a date of hearing would issue, the demand notice was quashed. The respondents were left free to pass a fresh order strictly in accordance with the procedure prescribed under the U.P. Electricity Supply Code, 2005, and the petition was allowed to that extent.",
+      "paras": "2-4"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "theft-provisional-assessment-hearing-date",
+      "application": "The Division Bench quashed the theft demand because the provisional assessment notice, though it allowed fifteen days for objection, fixed no date of personal hearing, and left a fresh order under the Supply Code open.",
+      "lead_authorities": [],
+      "paras": "2-4"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether electricity was stolen and what sum is recoverable",
+      "note": "The demand was quashed as procedurally defective. The respondents may pass a fresh order strictly under the Supply Code.",
+      "paras": "3"
+    }
+  ],
+  "authorities": []
+}
