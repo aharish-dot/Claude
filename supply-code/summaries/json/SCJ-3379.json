@@ -1,0 +1,55 @@
+{
+  "case_id": "SCJ-3379",
+  "title": "Pawan Kumar Alias Pawan v. State of U.P. and Others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad, Lucknow Bench",
+  "bench": "Division Bench",
+  "coram": "Attau Rahman Masoodi, J.; Om Prakash Shukla, J.",
+  "date_of_judgment": "2022-09-22",
+  "date_display": "22 September 2022",
+  "docket": "WRIT - C No. 6590 of 2022",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; recovery stayed and dues reassessed under clause 4.38.",
+  "headnote": "Clause 4.38 of the Electricity Supply Code, 2005 limits surcharge after temporary disconnection for non-payment to eight months from that disconnection, and not beyond. Where permanent disconnection follows automatically on expiry of a 45-day payment notice, surcharge and minimum charges cannot be recovered indefinitely thereafter. Recovery was kept in abeyance and the dues were directed to be reassessed under clause 4.38 in the light of the notice dated 5 January 2019 and communicated within one month.",
+  "facts": "Pawan Kumar held a valid commercial electricity connection. Business losses left him unable to pay electricity dues quantified at Rs. 35,880. By a notice dated 5 January 2019 the supply was temporarily disconnected, with a direction to pay within 45 days, failing which the connection would be permanently disconnected without further notice. He did not pay. The authorities then started recovery proceedings on the footing that minimum charges could be levied indefinitely, although the connection had stood permanently disconnected on expiry of those 45 days.",
+  "reusable_constructions": [
+    {
+      "construction": "Clause 4.38 of the U.P. Electricity Supply Code, 2005 caps surcharge recoverable after temporary disconnection for non-payment at eight months from the date of temporary disconnection, and not beyond.",
+      "paras": "2"
+    },
+    {
+      "construction": "Once a payment notice makes permanent disconnection automatic on expiry of the time allowed to pay, surcharge and minimum charges cannot be levied for the period after that permanent disconnection.",
+      "paras": "3"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.38",
+      "code": "UP-2005",
+      "clause": "4.38",
+      "topic": "Surcharge and minimum charges after temporary and permanent disconnection",
+      "type": "supply_code",
+      "holding": "Clause 4.38 permits the licensee, where non-payment has led to temporary disconnection, to recover surcharge only up to a maximum of eight months from the date of temporary disconnection and not beyond. Once permanent disconnection has taken effect automatically on expiry of the 45-day notice dated 5 January 2019, surcharge cannot be levied beyond that notice and minimum charges cannot be recovered indefinitely thereafter. The dues must be assessed afresh under clause 4.38 in the light of that notice and communicated within one month; recovery stays in abeyance except for the amount so determined, and any returnable security may be adjusted against the liability.",
+      "paras": "2-3"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "permanent-disconnection-procedure-governed-by-clause-4.38",
+      "application": "The Court treated clause 4.38 as governing both the eight-month surcharge ceiling measured from temporary disconnection and the bar on minimum charges and surcharge after the connection stood permanently disconnected on expiry of the 45-day notice.",
+      "lead_authorities": [],
+      "paras": "2-3"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "The quantified amount payable after applying clause 4.38 and the notice dated 5 January 2019",
+      "note": "Left to a fresh assessment by the authorities, to be communicated within one month. The petitioner undertook to pay the sum so determined.",
+      "paras": "3"
+    }
+  ],
+  "authorities": []
+}
