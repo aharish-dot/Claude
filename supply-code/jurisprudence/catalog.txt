@@ -1,7 +1,7 @@
 # Reuse these keys when they fit. Do not invent a synonym for an existing tag.
 # New kebab-case tags are allowed only when none of these capture the holding.
 
-PROVISIONS (331)
+PROVISIONS (332)
 additional-security
 ARREARS::transferee-liability
 BIHAR-2007::4.1
@@ -317,6 +317,7 @@ UP-2005::new-connection
 UP-2005::permanent-disconnection
 UP-2005::procedure
 UP-2005::procedure-for-restoration
+UP-2005::procedure-prescribed
 UP-2005::provisional-assessment
 UP-2005::supervision-charges
 UP-2005::supply-quality-no-imbalance
@@ -334,7 +335,7 @@ UPGEUDR1958::4
 URUA1966::4
 WB-2004::5.2
 
-TAGS (703)
+TAGS (705)
 126-vs-135-distinct-fields
 126-vs-135-distinct-fields-but-126-still-applies-to-theft
 15-days-clear-notice-mandatory-before-final-theft-assessment
@@ -615,6 +616,7 @@ fresh-connection-refused-for-outstanding-arrears
 fresh-connection-to-auction-purchaser-free-from-encumbrances
 fresh-objection-under-clause-6.8
 fresh-order-after-hearing-supply-code-procedure
+fresh-order-under-supply-code-after-withdrawal
 fresh-recovery-arbitrary-while-representation-pending
 gift-deed-does-not-wipe-electricity-dues-application-processed-after-cle
 government-servant-suspension-electric-line-project
@@ -851,6 +853,7 @@ recovery-citation-conceded-incorrect-billing
 recovery-citation-incorrect-bills
 recovery-citation-kept-in-abeyance-pending-fresh-objection
 recovery-citation-quashed-and-remitted-for-fresh-order
+recovery-citation-withdrawn-liberty-to-proceed-afresh-under-supply-code
 recovery-demand-notice-is-consequential-not-independently-challengeable
 recovery-must-be-withdrawn-not-merely-deferred-on-set-aside
 recovery-must-rest-on-final-assessment-order
