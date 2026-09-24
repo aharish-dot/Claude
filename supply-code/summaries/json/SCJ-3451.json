@@ -1,0 +1,61 @@
+{
+  "case_id": "SCJ-3451",
+  "title": "Maan Singh v. State of U.P. and Others",
+  "neutral_citation": "2023:AHC:98545-DB",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": ["Manoj Kumar Gupta, J.", "Prashant Kumar, J."],
+  "date_of_judgment": "2023-05-08",
+  "date_display": "8 May 2023",
+  "docket": "Writ - C No. 15415 of 2023",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Final Section 126 assessment quashed for ignoring filed objections.",
+  "headnote": "A final assessment of Rs. 1,36,673 under Section 126 of the Electricity Act, 2003 was quashed because it recorded that no objection had been filed, although the licensee's communication dated 5 January 2023 had acknowledged the petitioner's objection to the provisional assessment and had sought further information. The petitioner was allowed two weeks to submit those clarifications, after which the licensee may pass a fresh final assessment strictly in accordance with the U.P. Electricity Supply Code, 2005.",
+  "facts": "Maan Singh filed a writ against the order dated 4 February 2023 of respondent no. 4 assessing Rs. 1,36,673 under Section 126 of the Electricity Act, 2003. He contended that the order recorded that no objection had been filed, though a communication dated 5 January 2023 from the department had referred to his objection to the provisional-assessment notice and had asked him for further information. The licensee's counsel said those clarifications were never given, but could not deny that the communication showed an objection had been received.",
+  "reusable_constructions": [
+    {
+      "construction": "A Section 126 final assessment that records that no objection was filed is illegal where the licensee's own communication shows that an objection to the provisional assessment was received.",
+      "paras": "1-2"
+    },
+    {
+      "construction": "After that order is quashed, the consumer must be given the time sought to furnish the clarifications already called for, and any fresh final assessment may be made only under the procedure in the U.P. Electricity Supply Code, 2005.",
+      "paras": "2"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::126(3)",
+      "code": "EA2003",
+      "clause": "126(3)",
+      "topic": "Final assessment ignoring an objection the licensee had acknowledged",
+      "type": "interplay",
+      "holding": "The final assessment under Section 126 is illegal and is quashed where it records that no objection was filed, although the licensee's communication of 5 January 2023 itself shows that an objection to the provisional assessment was received and further information was sought. The consumer may submit those clarifications within two weeks, and the licensee may thereafter pass a fresh final assessment only in accordance with the procedure prescribed under the U.P. Electricity Supply Code, 2005.",
+      "paras": "1-2"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "s126-procedural-strictness-notice-and-hearing",
+      "application": "The final assessment was quashed because it treated the proceeding as one in which no objection had been filed, even though the licensee's letter of 5 January 2023 had acknowledged the objection to the provisional assessment.",
+      "lead_authorities": [],
+      "paras": "1-2"
+    },
+    {
+      "tag": "section-126-fresh-assessment-must-follow-code-procedure-after-remand",
+      "application": "After the quashing, the petitioner was given two weeks to submit the clarifications sought on 5 January 2023, and the licensee was left free to pass a fresh final assessment strictly under the U.P. Electricity Supply Code, 2005.",
+      "lead_authorities": [],
+      "paras": "2"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the sum of Rs. 1,36,673 was justified on the merits of the alleged unauthorised use.",
+      "note": "The assessment was quashed only for non-consideration of the objection. A fresh final assessment may follow once the clarifications are submitted.",
+      "paras": "2"
+    }
+  ],
+  "authorities": []
+}
