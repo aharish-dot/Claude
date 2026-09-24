@@ -1,0 +1,61 @@
+{
+  "case_id": "SCJ-3383",
+  "title": "Vijai Kumar Singh v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad, Lucknow Bench",
+  "bench": "Division Bench",
+  "coram": "Devendra Kumar Upadhyaya, J. and Saurabh Lavania, J.",
+  "date_of_judgment": "2022-11-18",
+  "date_display": "18 November 2022",
+  "docket": "Writ-C No. 8095 of 2022",
+  "page_count": 1,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; provisional assessment not quashed; decide final assessment after reply",
+  "headnote": "Under the scheme of the U.P. Electricity Supply Code, a consumer must file an objection or reply to a provisional assessment, and the dues, if any, are finally determined only by a final assessment passed after that reply is considered. The provisional assessment notice dated 6 September 2022 was not quashed, because no final assessment had yet been made. The writ was disposed of with a direction to the Executive Engineer to decide the final assessment only after treating the petitioner's application dated 10 September 2022 as his reply, within six weeks of production of a certified copy.",
+  "facts": "Vijai Kumar Singh petitioned the Lucknow Bench against a provisional assessment dated 6 September 2022 made by Mandhyanchal Vidyut Vitran Nigam Limited. He also asked for a direction to respondent no. 4 to decide his application dated 10 September 2022, which he said had been served on 12 September 2022 and which was annexed to the writ petition. Counsel for the distribution licensee was heard. No final assessment of the dues had been taken by the respondents.",
+  "reusable_constructions": [
+    {
+      "construction": "Once a provisional assessment is made under the U.P. Electricity Supply Code, the consumer must file an objection or reply, and the dues are finally determined only by a final assessment passed after that reply is considered.",
+      "paras": "3"
+    },
+    {
+      "construction": "A provisional assessment notice is not quashed in writ where the licensee has not yet decided the final assessment; the consumer's later application is treated as the reply, and the final assessment is directed to be made only after it is considered.",
+      "paras": "4-6"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::provisional-assessment",
+      "code": "UP-2005",
+      "clause": "provisional-assessment",
+      "topic": "Provisional assessment left for final assessment after the consumer's reply",
+      "type": "supply_code",
+      "holding": "Under the scheme of the U.P. Electricity Supply Code, once a provisional assessment is made the consumer must file an objection or reply, and any dues are finally determined only by a final assessment passed after that reply is considered. Because the respondents had taken no decision on final assessment, the Court found no occasion to quash the provisional assessment notice dated 6 September 2022. The writ was disposed of with a direction to the Executive Engineer to decide the final assessment pursuant to that notice only after treating the petitioner's application dated 10 September 2022 as his reply, as expeditiously as possible and within six weeks of production of a certified copy.",
+      "paras": "3-6",
+      "flag": "clause-number-not-stated"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "provisional-assessment-not-quashed-before-final-assessment",
+      "application": "The Court refused to quash the provisional assessment of 6 September 2022 because no final assessment had been made, and directed the Executive Engineer to treat the application of 10 September 2022 as the consumer's reply and to decide the final assessment only after considering it.",
+      "lead_authorities": [],
+      "paras": "3-6"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "The grounds raised against the provisional assessment dated 6 September 2022",
+      "note": "Not examined. The Court found no occasion to quash the notice because no final assessment had yet been made.",
+      "paras": "4"
+    },
+    {
+      "point": "Whether any dues were payable, and in what amount",
+      "note": "Left to the Executive Engineer on final assessment after considering the application dated 10 September 2022 as the consumer's reply.",
+      "paras": "5-6"
+    }
+  ],
+  "authorities": []
+}
