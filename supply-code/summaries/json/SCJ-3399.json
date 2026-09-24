@@ -1,0 +1,64 @@
+{
+  "case_id": "SCJ-3399",
+  "title": "Vijay v. State of U.P. and 3 Others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta and Prashant Kumar, JJ.",
+  "date_of_judgment": "2023-04-05",
+  "date_display": "5 April 2023",
+  "docket": "Writ-C No. 10550 of 2023",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Demand notice quashed; final assessment left to Supply Code",
+  "headnote": "A demand notice for Rs 6,08,052 issued without deciding objections to the provisional assessment, and without any final assessment order, was quashed. The licensee was permitted to pass a final assessment under the procedure in the U.P. Electricity Supply Code, 2005.",
+  "facts": "Vijay challenged a demand notice of 29 November 2022 issued by respondent no. 3 for Rs 6,08,052 and other charges, and sought a bar on coercive action. On 31 March 2023 the Electricity Department took time to obtain instructions and the writ was listed afresh. On 5 April 2023 its counsel stated that the notice had issued without a decision on the petitioner's objections to the provisional assessment, that respondent no. 3 would decide those objections, and that recovery would not be pressed.",
+  "reusable_constructions": [
+    {
+      "construction": "A recovery demand raised while objections to the provisional assessment remain undecided, and before any final assessment order exists, is liable to be quashed.",
+      "paras": "2"
+    },
+    {
+      "construction": "Quashing that premature demand leaves the licensee free to pass a final assessment by the procedure in the U.P. Electricity Supply Code, 2005.",
+      "paras": "2"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::5.4(a)",
+      "code": "UP-2005",
+      "clause": "5.4(a)",
+      "topic": "objections to provisional assessment",
+      "type": "supply_code",
+      "holding": "A demand notice issued without deciding the consumer's objections to the provisional assessment cannot stand.",
+      "paras": "2"
+    },
+    {
+      "provision": "UP-2005::5.4(f)",
+      "code": "UP-2005",
+      "clause": "5.4(f)",
+      "topic": "final assessment before recovery",
+      "type": "supply_code",
+      "holding": "Where no final assessment order exists, the recovery demand is quashed, and the licensee may pass a final assessment in accordance with the procedure under the U.P. Electricity Supply Code, 2005.",
+      "paras": "2"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "no-recovery-demand-before-final-assessment",
+      "application": "On the Department's admission that objections to the provisional assessment were undecided and that no final assessment order existed, the demand notice of 29 November 2022 was quashed, with liberty to complete final assessment under the Supply Code.",
+      "lead_authorities": [],
+      "paras": "2"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner is liable for the sum claimed, and the quantum of any final assessment",
+      "note": "The Court left the licensee to decide the objections and pass a final assessment under the Supply Code procedure.",
+      "paras": "2"
+    }
+  ],
+  "authorities": []
+}
