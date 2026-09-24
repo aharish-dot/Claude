@@ -1,0 +1,67 @@
+{
+  "case_id": "SCJ-3440",
+  "title": "Radhey Shyam Singh v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta, J.; Prashant Kumar, J.",
+  "date_of_judgment": "2023-05-02",
+  "date_display": "2 May 2023",
+  "docket": "Writ-C No. 14162 of 2023",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Final assessment and auction recovery quashed; fresh proceedings left open.",
+  "headnote": "Under the Electricity Supply Code, 2005 a consumer must be given fifteen clear days to object before a hearing on provisional assessment is fixed. A notice posted on 3 September 2020 for a hearing on 10 September 2020 was illegal. The final assessment of 29 September 2020, which only recited that notice and date and recorded no finding on objection, appearance, theft or computation, was not in accordance with law. That assessment and the consequential recovery were quashed, with liberty to proceed afresh.",
+  "facts": "Radhey Shyam Singh sought quashing of auction notices dated 28 February 2022, 29 April 2022 and 30 May 2022, and a direction to complete the final assessment in light of the Superintending Engineer, Ballia's order of 10 January 2022. The Electricity Department was auctioning Rs. 4,92,750 plus other charges on a final assessment dated 29 September 2020 under the Electricity Act, 2003. Its provisional assessment notice of 28 August 2020 was posted on 3 September 2020 and fixed the hearing for 10 September 2020.",
+  "reusable_constructions": [
+    {
+      "construction": "Under the Electricity Supply Code, 2005, a consumer must be given fifteen clear days to submit objections to a provisional assessment, and only thereafter may the date of hearing be fixed.",
+      "paras": "3"
+    },
+    {
+      "construction": "A final assessment that only recites the provisional notice and the hearing date, without findings on objection, appearance, theft and the basis of the amount, is not in accordance with law and will not support recovery.",
+      "paras": "4"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::(not stated)",
+      "code": "UP-2005",
+      "clause": "(not stated)",
+      "topic": "fifteen clear days to object before the provisional-assessment hearing, and the contents of the final assessment",
+      "type": "supply_code",
+      "holding": "Under the Electricity Supply Code, 2005 the consumer must be given fifteen clear days to submit objections, and only thereafter may the hearing be fixed. The provisional notice dated 28 August 2020, posted on 3 September 2020 and fixing the hearing for 10 September 2020, was itself illegal. The final assessment dated 29 September 2020 only mentioned that notice and hearing date. It recorded no finding on whether the petitioner objected or appeared, whether he had committed theft, or how the amount was assessed, and was not in accordance with law. The final assessment and the consequential action to realise Rs. 4,92,750 were quashed, with liberty to the respondents to proceed afresh in accordance with law.",
+      "paras": "3-7",
+      "flag": "The order invokes the Electricity Supply Code, 2005 for the fifteen-day rule, and describes the assessment as made under the Electricity Act, 2003, but states no clause or section number."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "provisional-assessment-fifteen-clear-days",
+      "application": "Notice posted on 3 September 2020 fixing the hearing for 10 September 2020 gave less than fifteen clear days to object and was held illegal.",
+      "lead_authorities": [],
+      "paras": "3"
+    },
+    {
+      "tag": "final-assessment-must-record-findings",
+      "application": "The order of 29 September 2020 only recited the provisional notice and hearing date. Counsel conceded it was not in accordance with law, and it was quashed for want of findings on objection, appearance, theft and computation.",
+      "lead_authorities": [],
+      "paras": "4-5"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner committed theft of electricity and what sum, if any, is recoverable.",
+      "note": "The final assessment was quashed with liberty to proceed afresh in accordance with law.",
+      "paras": "7"
+    },
+    {
+      "point": "The effect of the Superintending Engineer, Ballia's order dated 10 January 2022 on any fresh assessment.",
+      "note": "The writ sought a direction to assess in light of that order. The Court left the respondents free to proceed afresh in accordance with law.",
+      "paras": "1,7"
+    }
+  ],
+  "authorities": []
+}
