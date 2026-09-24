@@ -1,7 +1,7 @@
 # Reuse these keys when they fit. Do not invent a synonym for an existing tag.
 # New kebab-case tags are allowed only when none of these capture the holding.
 
-PROVISIONS (332)
+PROVISIONS (333)
 additional-security
 ARREARS::transferee-liability
 BIHAR-2007::4.1
@@ -307,6 +307,7 @@ UP-2005::connection-obtained-by-fraud
 UP-2005::correction-of-bills
 UP-2005::disconnection
 UP-2005::disconnection-notice-requirement
+UP-2005::final-assessment
 UP-2005::forum
 UP-2005::incorrect-bills
 UP-2005::increase-decrease-load
@@ -335,7 +336,7 @@ UPGEUDR1958::4
 URUA1966::4
 WB-2004::5.2
 
-TAGS (708)
+TAGS (709)
 126-vs-135-distinct-fields
 126-vs-135-distinct-fields-but-126-still-applies-to-theft
 15-days-clear-notice-mandatory-before-final-theft-assessment
@@ -841,6 +842,7 @@ provisional-assessment-must-state-basis-and-amount
 provisional-assessment-not-quashed-before-final-assessment
 provisional-assessment-objection-before-recovery
 provisional-assessment-objection-recovery-abides
+provisional-assessment-objection-then-final-assessment
 provisional-assessment-objections-before-final-demand
 provisional-assessment-power-vests-in-executive-engineer
 provisional-assessment-without-prior-notice
