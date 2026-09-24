@@ -1,0 +1,64 @@
+{
+  "case_id": "SCJ-3376",
+  "title": "Pradeep Kumar Agrahari v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad, Lucknow Bench",
+  "bench": "Division Bench",
+  "coram": "Attau Rahman Masoodi, J.; Om Prakash Shukla, J.",
+  "date_of_judgment": "2022-09-09",
+  "date_display": "9 September 2022",
+  "docket": "Writ-C No. 6086 of 2022",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; dues reassessed under clause 4.38; recovery stayed",
+  "headnote": "Clause 4.38 of the Electricity Supply Code, 2005 limits surcharge after temporary disconnection for non-payment to eight months from that date, and not beyond. Where the notice makes permanent disconnection automatic on expiry of 45 days, surcharge cannot run past the notice, and minimum charges cannot be levied indefinitely after the connection stands permanently disconnected. Dues must be assessed afresh under clause 4.38 in the light of the notice and communicated within one month; recovery stays in abeyance and is confined to that sum, with any returnable security adjusted.",
+  "facts": "Pradeep Kumar Agrahari held a valid commercial electricity connection. Business losses left him unable to pay dues of Rs.47,654. By a notice dated 5 January 2019 the supply was temporarily disconnected, with a warning that unless the sum was paid within 45 days the connection would be permanently disconnected without further notice. The noticed amount was never paid. The Corporation nevertheless continued recovery as though minimum charges could be levied indefinitely after that permanent disconnection. He filed a writ against those recovery proceedings.",
+  "reusable_constructions": [
+    {
+      "construction": "After temporary disconnection for non-payment, clause 4.38 permits recovery of surcharge only up to eight months from the date of temporary disconnection, and not beyond.",
+      "paras": "3"
+    },
+    {
+      "construction": "Where permanent disconnection follows automatically on expiry of the payment notice, surcharge cannot be levied beyond that notice, and minimum charges cannot be recovered indefinitely after the connection stands permanently disconnected.",
+      "paras": "4"
+    },
+    {
+      "construction": "Coercive recovery must await, and is limited to, a fresh assessment under clause 4.38 made in the light of the disconnection notice; security that is returnable may be adjusted against that liability.",
+      "paras": "4-7"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.38",
+      "code": "UP-2005",
+      "clause": "4.38",
+      "topic": "surcharge and minimum charges after permanent disconnection",
+      "type": "supply_code",
+      "holding": "Clause 4.38 permits the licensee, after temporary disconnection for non-payment, to recover surcharge only up to a maximum of eight months from the date of temporary disconnection and not beyond. Where the notice dated 05.01.2019 makes permanent disconnection automatic on expiry of 45 days, surcharge cannot be levied beyond that notice, and minimum charges cannot be recovered indefinitely after the connection stands permanently disconnected. Outstanding dues must be assessed afresh under clause 4.38 in the light of that notice and communicated within one month; recovery proceedings remain in abeyance and are confined to the amount so determined, and any returnable security may be adjusted towards the liability.",
+      "paras": "3-7"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "permanent-disconnection-procedure-governed-by-clause-4.38",
+      "application": "The Court treated clause 4.38 as fixing both the eight-month outer limit on surcharge after temporary disconnection and the consequence of automatic permanent disconnection on expiry of the notice, and confined recovery to a fresh assessment made on that basis.",
+      "lead_authorities": [],
+      "paras": "3-7"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "The quantified dues payable after a fresh assessment under clause 4.38 in the light of the notice dated 05.01.2019.",
+      "note": "The authorities were directed to determine and communicate that amount within one month. The petitioner undertook to pay the sum so determined.",
+      "paras": "4-6"
+    },
+    {
+      "point": "Whether any security deposit was in fact returnable.",
+      "note": "The Court directed that security returnable, if any, be adjusted towards the liability, without finding that a sum was due to be returned.",
+      "paras": "7"
+    }
+  ],
+  "authorities": []
+}
