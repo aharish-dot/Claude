@@ -1,0 +1,61 @@
+{
+  "case_id": "SCJ-3378",
+  "title": "Jitendra Kumar v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad, Lucknow Bench",
+  "bench": "Division Bench",
+  "coram": "Attau Rahman Masoodi and Om Prakash Shukla, JJ.",
+  "date_of_judgment": "2022-09-20",
+  "date_display": "20 September 2022",
+  "docket": "WRIT - C No. 6303 of 2022",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Provisional demand kept in abeyance pending decision on reply",
+  "headnote": "A reply filed to a provisional assessment notice for Rs. 34,794 must be considered before recovery; otherwise recovery fails. Opposite party no. 5 is to decide the objection of 15.4.2021 and any further objection filed within four weeks, in accordance with law, within two months of production of the order. The notice stays in abeyance and abides by that decision. Writ disposed of.",
+  "facts": "On 7 April 2021 opposite party no. 4 served Jitendra Kumar a provisional assessment notice for Rs. 34,794 and required a reply by 24 April 2021. He replied on 15 April 2021 that the village connection had been permanently disconnected on 20 July 2015, that he had moved with his family to Hardoi, and that he had committed no theft, and he asked that the notice be withdrawn. Recovery was pressed, but the Power Corporation had neither decided that reply nor lodged any criminal case.",
+  "reusable_constructions": [
+    {
+      "construction": "Recovery on a Section 126 provisional assessment fails unless the consumer's reply to the notice is considered and decided.",
+      "paras": "1-2"
+    },
+    {
+      "construction": "Until that decision, the provisional demand remains in abeyance and is governed by the outcome of the objection.",
+      "paras": "1-2"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::126",
+      "code": "EA2003",
+      "clause": "126",
+      "topic": "Reply to provisional assessment must be decided before recovery",
+      "type": "electricity_act",
+      "holding": "The reply stated to have been filed on 15 April 2021 to the provisional assessment notice dated 7 April 2021 for Rs. 34,794 ought to have been considered, and recovery proceedings fail without that consideration. Opposite party no. 5 shall consider Annexure-6 and any additional objection filed within four weeks, expeditiously and in accordance with law, within two months of production of this order together with the representation and the additional objection. In the meantime the notice remains in abeyance and abides by the outcome of the objection. The writ is disposed of with those directions.",
+      "paras": "1-2",
+      "flag": "The Court describes the notice as issued under Section 126 of the Electricity Supply Code, 2005 (4th Amendment). Section 126 is a provision of the Electricity Act, 2003; the Supply Code attribution is not corrected here."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "s126-3-hearing-required-before-enforcing-provisional-assessment",
+      "application": "The provisional demand of Rs. 34,794 dated 7 April 2021 was kept in abeyance because the reply of 15 April 2021 had not been decided, and opposite party no. 5 was directed to consider that objection before recovery could proceed.",
+      "lead_authorities": [],
+      "paras": "1-2"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the village connection stood permanently disconnected on 20 July 2015 and whether any theft or unauthorised use occurred",
+      "note": "Left to opposite party no. 5 on the objection dated 15 April 2021 and any additional objection. No criminal case had been lodged; none was directed.",
+      "paras": "1-2"
+    },
+    {
+      "point": "Correctness of the provisional demand of Rs. 34,794",
+      "note": "No merits finding. The notice abides by the decision on the objection.",
+      "paras": "1-2"
+    }
+  ],
+  "authorities": []
+}
