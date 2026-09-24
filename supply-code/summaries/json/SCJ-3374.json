@@ -1,0 +1,51 @@
+{
+  "case_id": "SCJ-3374",
+  "title": "K.S. Jain Builders v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad, Lucknow Bench",
+  "bench": "Division Bench",
+  "coram": "Attau Rahman Masoodi, J. and Narendra Kumar Johari, J.",
+  "date_of_judgment": "2022-07-21",
+  "date_display": "21 July 2022",
+  "docket": "WRIT-C No. 4610 of 2022",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; billing dispute sent to clause 6.5, recovery held one month",
+  "headnote": "A consumer's dispute over a bill dated before the consumption period it covers is to be raised by representation under clause 6.5 of the Electricity Supply Code, 2005. The competent authority must consider and decide that representation expeditiously, preferably within one month, and recovery stays on hold for one month.",
+  "facts": "M/S K.S. Jain Builders, through power-of-attorney holder Rohit Ranjan Sinha, petitioned the Allahabad High Court at Lucknow as an electricity consumer. The grievance concerned a bill stated to cover 25 January 2020 to 11 August 2020, though issued on 12 January 2020, before that period began. The State of Uttar Pradesh and other respondents were arrayed. Counsel for opposite party No. 4 accepted notice. The dispute placed before the Court was that billing anomaly.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "billing dispute relegated to clause 6.5 representation",
+      "type": "supply_code",
+      "holding": "A billing dispute of this description, including a bill for 25.01.2020 to 11.08.2020 stated to have been issued on 12.01.2020, which may be an inadvertent mistake, can be raised before the department under clause 6.5 of the Electricity Supply Code, 2005. If the consumer files a representation raising the grievance pressed in the writ, the competent authority shall consider and decide it expeditiously, preferably within one month of the representation. Recovery shall remain on hold for one month and shall abide by the outcome of the representation. The writ is disposed of on those terms.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-alternate-remedy-to-writ",
+      "application": "The writ was disposed of without examining the bill, because a billing dispute of this description is to be raised before the department under clause 6.5.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "6.5-representation-as-appropriate-remedy",
+      "application": "The consumer was left to file a representation before the competent authority, which must consider and decide the same grievance expeditiously, preferably within one month, with recovery on hold for that period.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the bill dated 12.01.2020 for the period 25.01.2020 to 11.08.2020 is incorrect, or the earlier date is only an inadvertent mistake",
+      "note": "The Court noted a possible inadvertent mistake and left the grievance to the clause 6.5 representation.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
