@@ -1,0 +1,56 @@
+{
+  "case_id": "SCJ-3422",
+  "title": "Kunil v. State of U.P. and 5 Others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta and Prashant Kumar, JJ.",
+  "date_of_judgment": "2023-04-26",
+  "date_display": "26 April 2023",
+  "docket": "Writ - C No. 11935 of 2023",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Demand and recovery citation quashed; Supply Code assessment to follow.",
+  "headnote": "Demand notice dated 14 May 2019 for Rs.29,96,012 and recovery citation dated 18 July 2019, issued in an electricity-theft case, quashed where the licensee admitted that no final assessment order existed. The licensee must serve the inspection report and the notice of provisional assessment within two weeks, the consumer has fifteen days to object, and the proceedings may then be finalised strictly under the U.P. Electricity Supply Code, 2005.",
+  "facts": "Kunil's meter was installed in June 2018, and bills were paid through July 2019. Treating the matter as theft of electricity, the licensee's officers issued a demand notice dated 14 May 2019 for Rs.29,96,012 and a recovery citation dated 18 July 2019. The writ petition sought to quash both. On 11 April 2023 the Court required a personal affidavit explaining the bill. On 26 April 2023 counsel for the Electricity Department admitted that no final assessment order existed.",
+  "reusable_constructions": [
+    {
+      "construction": "A demand notice and a recovery citation in an electricity-theft case are liable to be quashed where the licensee admits that no final assessment order has been made.",
+      "paras": "2"
+    },
+    {
+      "construction": "A theft assessment under the U.P. Electricity Supply Code, 2005 is finalised only after the inspection report and the notice of provisional assessment are served and the consumer is given time to file objections.",
+      "paras": "2"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "U.P. Electricity Supply Code, 2005",
+      "code": "UP-2005",
+      "clause": "provisional-assessment",
+      "topic": "Theft demand issued without a final assessment",
+      "type": "supply_code",
+      "holding": "The demand notice dated 14 May 2019 for Rs.29,96,012 and the recovery citation dated 18 July 2019, issued in a theft-of-electricity case, are quashed because no final assessment order exists. The licensee shall within two weeks serve the inspection report and the notice of provisional assessment, the consumer shall have fifteen days to file objections, and only thereafter may the licensee finalise the proceedings strictly in accordance with the procedure prescribed under the U.P. Electricity Supply Code, 2005.",
+      "paras": "2",
+      "flag": "The order requires finalisation under the U.P. Electricity Supply Code, 2005 but cites no clause number; the clause key follows the order's provisional-assessment language."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "no-recovery-absent-final-assessment",
+      "application": "The demand notice of 14 May 2019 and the recovery citation of 18 July 2019 were quashed on the licensee's admission that no final assessment order existed, and recovery was postponed until the inspection report and provisional-assessment notice were served, objections were invited, and the assessment was finalised under the U.P. Electricity Supply Code, 2005.",
+      "lead_authorities": [],
+      "paras": "2"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether theft of electricity was made out and what sum, if any, is payable",
+      "note": "Left to be determined after service of the inspection report and the notice of provisional assessment and after consideration of objections, strictly under the U.P. Electricity Supply Code, 2005.",
+      "paras": "2"
+    }
+  ],
+  "authorities": []
+}
