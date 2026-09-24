@@ -1,0 +1,56 @@
+{
+  "case_id": "SCJ-3402",
+  "title": "Vikas Asthana v. State of U.P. and Another",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta and Umesh Chandra Sharma, JJ.",
+  "date_of_judgment": "2023-03-31",
+  "date_display": "31 March 2023",
+  "docket": "WRIT - C No. - 10638 of 2023",
+  "page_count": 1,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Provisional theft assessment quashed for fresh Supply Code order.",
+  "headnote": "Provisional assessment dated 23 February 2023 for alleged theft of electricity quashed. The order was vague and confusing, recorded no proper findings, and did not deal with the consumer's objections. The Electricity Department may pass a fresh order strictly in accordance with the procedure prescribed under the U.P. Electricity Supply Code, 2005. Petition disposed of.",
+  "facts": "Vikas Asthana challenged, before the Allahabad High Court, a provisional assessment bill dated 23 February 2023 and the recovery proceedings that followed it. The bill was raised by the Electricity Department in a case of alleged theft of electricity. He said the Department had not considered the objection he had filed, and that the order recorded none of the findings the law requires. Counsel for the Department asked the Court for liberty to pass a fresh order.",
+  "reusable_constructions": [
+    {
+      "construction": "A provisional assessment for alleged theft of electricity that is vague, records no proper findings, and does not deal with the consumer's objections is liable to be quashed.",
+      "paras": "1"
+    },
+    {
+      "construction": "After that quashing, the licensee may pass a fresh order only by strictly following the procedure prescribed under the U.P. Electricity Supply Code, 2005.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::procedure",
+      "code": "UP-2005",
+      "clause": "procedure",
+      "topic": "provisional assessment for theft — non-speaking order",
+      "type": "supply_code",
+      "holding": "The provisional assessment order dated 23 February 2023 is vague and confusing. It records no proper findings and does not deal with the objections filed by the consumer in a case of alleged theft of electricity. The order is quashed. The Electricity Department may pass a fresh order strictly in accordance with the procedure prescribed under the U.P. Electricity Supply Code, 2005.",
+      "paras": "1",
+      "flag": "no numbered clause; the order refers only to the procedure prescribed under the U.P. Electricity Supply Code, 2005"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "UP-2005::procedure",
+      "application": "The provisional assessment of 23 February 2023 was quashed because it was vague, recorded no proper findings, and did not deal with the consumer's objections. A fresh order is permitted only if passed strictly in accordance with the procedure prescribed under the U.P. Electricity Supply Code, 2005.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner had committed theft of electricity, and what amount if any is recoverable",
+      "note": "The Court quashed the existing order for want of findings and for failure to deal with objections, and left those questions to a fresh order under the Supply Code.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
