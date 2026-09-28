@@ -1,0 +1,46 @@
+{
+  "case_id": "SCJ-3487",
+  "title": "Surjan Singh v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta, J.; Vikram D. Chauhan, J.",
+  "date_of_judgment": "2023-01-19",
+  "date_display": "19 January 2023",
+  "docket": "Writ - C No. 1909 of 2023",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Disposed; objections under Supply Code; no coercion meanwhile.",
+  "headnote": "A demand of Rs. 8,14,178 for electricity arrears was challenged for want of a provisional assessment order. The writ was disposed with liberty to object within fifteen days before the demanding authority, which must decide the objections strictly under the Electricity Supply Code procedure for assessment in unauthorized-consumption cases. Coercive action stays until that decision and the protection lapses if objections are not filed in time.",
+  "facts": "Surjan Singh challenged a demand notice dated 10 February 2022 issued by respondent no. 6, requiring him to pay Rs. 8,14,178 towards arrears of electricity charges. He told the Allahabad High Court that the demand was illegal because the respondents had not served any provisional assessment order on him. Counsel for the respondent Corporation did not appear when the writ was taken up.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::unauthorized-consumption-assessment",
+      "code": "UP-2005",
+      "clause": "unauthorized-consumption-assessment",
+      "topic": "Assessment procedure for unauthorized consumption",
+      "type": "supply_code",
+      "holding": "The petition is disposed of with liberty to the petitioner to file objections, with a true attested copy of this order, before respondent no. 6 within fifteen days. Respondent no. 6 must decide those objections strictly in accordance with the Electricity Supply Code procedure for assessment proceedings in cases of unauthorized consumption of electricity. Until the objections are decided, no coercive action shall be taken. If objections are not filed within fifteen days, the order lapses and the respondents may proceed in accordance with law.",
+      "paras": "4-6",
+      "flag": "Order invokes the Supply Code procedure for unauthorized-consumption assessment but cites no numbered clause."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "UP-2005::unauthorized-consumption-assessment",
+      "application": "A writ against an arrears demand alleging non-service of a provisional assessment order is closed by sending the consumer's objections to the demanding authority, which must decide them strictly under the Supply Code procedure for unauthorized-consumption assessment, with coercive action withheld until that decision.",
+      "lead_authorities": [],
+      "paras": "4-6"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the demand notice dated 10.2.2022 for Rs. 8,14,178 is illegal because no provisional assessment order was served",
+      "note": "Left to respondent no. 6 on objections under the Supply Code assessment procedure for unauthorized consumption.",
+      "paras": "2-4"
+    }
+  ],
+  "authorities": []
+}
