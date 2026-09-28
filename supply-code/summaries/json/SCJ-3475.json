@@ -1,0 +1,61 @@
+{
+  "case_id": "SCJ-3475",
+  "title": "Raj Kumar v. State of U.P. and Others",
+  "neutral_citation": "2023:AHC:137677-DB",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Mahesh Chandra Tripathi and Prashant Kumar, JJ.",
+  "date_of_judgment": "2023-07-12",
+  "date_display": "12 July 2023",
+  "docket": "Writ - C No. 18040 of 2023",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Disposed to apply under clause 4.4(a); consider in law within six weeks.",
+  "headnote": "Writ for a new domestic connection, stalled by a sister's objection amid a title dispute, disposed of without a merits finding. The petitioner may apply within a week under clause 4.4(a) of the U.P. Electricity Supply Code, 2005, including occupancy or indemnity proof, and the licensee is to examine and remedy the application in accordance with law, preferably within six weeks.",
+  "facts": "Raj Kumar occupies the upper floor of a property at Maharajganj over which title is disputed. He applied for a new domestic electricity connection, which remained pending after his sister, respondent no. 6, filed an objection. He sought a mandamus directing the electricity department to give the connection in accordance with law, or alternatively a direction to the District Magistrate, Maharajganj, to decide his representation dated 26 April 2023. The department said the objection had kept the application undecided.",
+  "reusable_constructions": [
+    {
+      "construction": "Where ownership of the premises is disputed, an occupant may still seek a new connection under clause 4.4(a) of the U.P. Electricity Supply Code, 2005 on proof of occupancy, including the prescribed indemnity, and a co-occupant's objection does not entitle the licensee to leave the application undecided.",
+      "paras": "6-7"
+    },
+    {
+      "construction": "The Supply Code, 2005 is the mechanism for a stalled new-connection application; without deciding title, the writ court may require a clause 4.4(a) application and a time-bound examination of it in accordance with law.",
+      "paras": "6-7"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.4(a)",
+      "code": "UP-2005",
+      "clause": "4.4(a)",
+      "topic": "New connection despite title dispute and co-occupant's objection",
+      "type": "supply_code",
+      "holding": "Under clause 4.4(a) of the U.P. Electricity Supply Code, 2005, the petitioner has a right to seek a new connection on an application complete with the prescribed documents, including proof of occupancy such as an indemnity, or a court order where ownership is in litigation. A sister's objection and a title dispute do not justify leaving the application undecided. Without any opinion on the merits, the writ was disposed of leaving the petitioner to move such an application within one week, to be examined and remedied strictly in accordance with law, preferably within six weeks of a certified copy.",
+      "paras": "6-7"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "UP-2005::4.4(a)",
+      "application": "A pending title dispute and a sister's objection do not stall processing of a new domestic connection. The occupant must apply under clause 4.4(a), and the licensee must examine that application in accordance with law.",
+      "lead_authorities": [],
+      "paras": "6-7"
+    },
+    {
+      "tag": "UP-2005::4.4(a)(i)",
+      "application": "Proof of occupancy, the Annexure 4.2 indemnity, or a court order where ownership is in litigation, is the document route clause 4.4(a)(i) supplies when title to the premises is disputed.",
+      "lead_authorities": [],
+      "paras": "6"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits of the petitioner's title and of respondent no. 6's objection, and whether his papers satisfy clause 4.4(a).",
+      "note": "The Court expressed no opinion on the merits and left examination of any application moved under the clause to the licensee.",
+      "paras": "7"
+    }
+  ],
+  "authorities": []
+}
