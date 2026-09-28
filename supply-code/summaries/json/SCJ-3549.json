@@ -1,0 +1,66 @@
+{
+  "case_id": "SCJ-3549",
+  "title": "Akash Gupta v. State of U.P. and Others",
+  "neutral_citation": "2023:AHC:182406-DB",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Mahesh Chandra Tripathi, J.; Prashant Kumar, J.",
+  "date_of_judgment": "2023-09-20",
+  "date_display": "20 September 2023",
+  "docket": "Writ-C No. 28052 of 2023",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Connection application to be considered under clause 4.4 within four weeks",
+  "headnote": "A lessee, tenant or occupier cannot be refused a new electricity connection merely for want of the landlord's consent where an indemnity bond is furnished. Clause 4.4 of the Electricity Supply Code, 2005, read with Annexures 4.2 and 4.3, requires the application to be considered on the owner's consent letter or, in its absence, such a bond. The writ was disposed of by directing the competent authority to consider the tenant's application, if still undecided, in accordance with law within four weeks after hearing persons having a stake.",
+  "facts": "Akash Gupta, a tenant in a portion of premises No. 117/N12, A-One Market, Kakadeo, Kanpur Nagar, applied in his own name for a new electricity connection. The respondent authorities inspected the premises, but the connection was not given. He approached the High Court for a direction to the fourth respondent to supply electricity while a case concerning the premises remained pending before the Civil Judge (Junior Division), Kanpur Nagar.",
+  "reusable_constructions": [
+    {
+      "construction": "A lessee, tenant or occupier who furnishes an indemnity bond cannot be refused a new connection merely because the landlord has not consented.",
+      "paras": "4"
+    },
+    {
+      "construction": "Clause 4.4 of the Electricity Supply Code, 2005, read with Annexures 4.2 and 4.3, is the route for considering a tenant's application on the owner's consent letter or, failing that, an indemnity bond.",
+      "paras": "4"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.4",
+      "code": "UP-2005",
+      "clause": "4.4",
+      "topic": "Tenant new connection on consent or indemnity bond",
+      "type": "supply_code",
+      "holding": "A licensee cannot refuse a lessee, tenant or occupier a new connection merely for want of the landlord's consent where the applicant furnishes an indemnity bond. Clause 4.4 of the Electricity Supply Code, 2005, read with Annexures 4.2 and 4.3, requires the application to be considered either on the owner's consent letter or, in its absence, on that bond. The writ was disposed of by directing the competent authority to consider the petitioner's application, if not already decided, in accordance with law within four weeks after hearing persons having a stake in the premises.",
+      "paras": "4-6"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "UP-2005::4.4",
+      "application": "The Bench applied clause 4.4, read with Annexures 4.2 and 4.3, to a tenant's pending new-connection application: the licensee must consider the owner's consent or an indemnity bond, and cannot refuse supply merely for want of the landlord's consent. Relief was a direction to consider the application in accordance with law, not an order to release the connection.",
+      "lead_authorities": [
+        {
+          "name": "Seema Mansoor vs. U.P. Power Corporation Ltd. and others",
+          "docid": ""
+        }
+      ],
+      "paras": "4-6"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the tenant's new connection is to be granted",
+      "note": "Left to the competent authority to decide in accordance with law after hearing stakeholders, if the application was still undecided.",
+      "paras": "6"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Seema Mansoor vs. U.P. Power Corporation Ltd. and others",
+      "citation": "Writ-C No. 28295 of 2014",
+      "cited_by": "4"
+    }
+  ]
+}
