@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3691,
+  "next_seq": 3693,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -22114,6 +22114,12 @@
       "case_id": "SCJ-3688",
       "source_basename": "WRIC(A)_8797_2023.pdf",
       "title": "Smt. Badami Devi v. State of U.P. and 4 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3690",
+      "source_basename": "WRIC(A)_9043_2023.pdf",
+      "title": "Rupvanti Devi v. Purvanchal Electricity Distribution Nigam Limited and others",
       "status": "done"
     }
   ]
