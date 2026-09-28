@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3516,
+  "next_seq": 3517,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -21064,6 +21064,12 @@
       "case_id": "SCJ-3514",
       "source_basename": "WRIC(A)_22000_2023.pdf",
       "title": "Smt. Prema Devi v. State of U.P. and 2 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3513",
+      "source_basename": "WRIC(A)_2193_2023.pdf",
+      "title": "R G Residency Apartment Owners Association v. Managing Director, Pashchimanchal Vidyut Vitran Nigam Ltd.",
       "status": "done"
     }
   ]
