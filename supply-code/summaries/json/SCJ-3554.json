@@ -1,0 +1,62 @@
+{
+  "case_id": "SCJ-3554",
+  "title": "Surya Kumar Tiwari v. State of U.P.",
+  "neutral_citation": "2023:AHC:183819-DB",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Siddhartha Varma, J. and Manoj Bajaj, J.",
+  "date_of_judgment": "2023-09-22",
+  "date_display": "22 September 2023",
+  "docket": "WRIT - C No. 29023 of 2023",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Objection heard under clause 6.8; recovery stayed till final assessment.",
+  "headnote": "Notice dated 29.9.2021 treated as a provisional assessment, final assessment still to be made — petitioner's objection directed to be considered and petitioner to be heard under clause 6.8 of the Electricity Supply Code, 2005 — no recovery until final assessment — writ disposed of without deciding theft or the assessment.",
+  "facts": "Surya Kumar Tiwari's electricity meter was not working. He complained on 12 March 2021, and the meter was rectified by an order dated 20 March 2021. He later approached the Allahabad High Court contending that, if any theft had occurred, it could only have been between those two dates. The electricity department submitted that its notice dated 29 September 2021 was only a provisional assessment and that the final assessment was still to be made.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8",
+      "code": "UP-2005",
+      "clause": "6.8",
+      "topic": "Hearing on provisional assessment and stay of recovery",
+      "type": "supply_code",
+      "holding": "Where the notice is only a provisional assessment and the final assessment is yet to be made, the consumer's objection is to be considered and the consumer heard under clause 6.8 of the Electricity Supply Code, 2005. Until that final assessment, no recovery shall be made. The writ is disposed of on that direction, without a decision on theft or on the assessment.",
+      "paras": "5-7"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "assessment-6.8-alternate-remedy",
+      "application": "The writ was disposed of by sending the petitioner to a clause 6.8 consideration and hearing on the provisional assessment, without granting or refusing the assessment on merits.",
+      "lead_authorities": [],
+      "paras": "5-6"
+    },
+    {
+      "tag": "provisional-assessment-hearing-6.8b",
+      "application": "The department stated that the notice dated 29.9.2021 was only a provisional assessment. The Court directed that the petitioner be heard in pursuance of clause 6.8 before the final assessment.",
+      "lead_authorities": [],
+      "paras": "4-6"
+    },
+    {
+      "tag": "pending-6.8bi-objection-directed-for-reasoned-disposal-with-stay",
+      "application": "The petitioner's objection was directed to be considered under clause 6.8, and recovery was stayed until the final assessment is made.",
+      "lead_authorities": [],
+      "paras": "5-7"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether theft occurred and whether it was limited to 12.3.2021–20.3.2021",
+      "note": "The petitioner's theft-window contention was left to the clause 6.8 hearing.",
+      "paras": "3-6"
+    },
+    {
+      "point": "Correctness and quantum of the provisional assessment dated 29.9.2021",
+      "note": "Final assessment was yet to be made; the Court did not examine the notice on merits.",
+      "paras": "4-6"
+    }
+  ],
+  "authorities": []
+}
