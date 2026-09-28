@@ -1,0 +1,70 @@
+{
+  "case_id": "SCJ-3683",
+  "title": "Salauddin Siddiqui v. State of U.P. and Others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta and Prashant Kumar, JJ.",
+  "date_of_judgment": "2023-04-03",
+  "date_display": "3 April 2023",
+  "docket": "Writ-C No. 8292 of 2023",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "split",
+  "model": "Grok 4.6",
+  "disposition": "Deceased father's recovery quashed; own dues left to clause 6.5.",
+  "headnote": "Recovery proceedings on an assessment in a theft case, undertaken entirely against the petitioner's father who had died in 2000, were quashed, with liberty to notice the petitioner and pass a fresh order under Section 126 in accordance with the U.P. Electricity Supply Code, 2005. The separate recovery certificate for the petitioner's own electricity dues was not decided; he was left to file an objection under clause 6.5, to be decided strictly in accordance with law.",
+  "facts": "Salauddin Siddiqui challenged two recovery certificates. One was in his own name for electricity dues. The other was against his father and arose from an assessment in a theft case, described by the Court as made under Section 126. The father is stated to have died in 2000, and the recovery was undertaken against him. On 20 March 2023 the Electricity Department was given time to obtain instructions. The petition was heard and disposed of on 3 April 2023.",
+  "reusable_constructions": [
+    {
+      "construction": "Recovery proceedings on a Section 126 assessment taken wholly against a person who had already died are to be quashed; a fresh order may follow only after notice to the person now sought to be proceeded against, and only in accordance with the Supply Code.",
+      "paras": "4"
+    },
+    {
+      "construction": "A writ challenge to a recovery certificate for the petitioner's own electricity dues is met by leaving him to an objection under clause 6.5, which must be decided strictly in accordance with law.",
+      "paras": "3"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "objection to recovery certificate for the petitioner's own dues",
+      "type": "supply_code",
+      "holding": "The recovery certificate issued against the petitioner for electricity dues is not examined on merits. He may file an objection under clause 6.5 of the U.P. Electricity Supply Code, 2005, and that objection shall be decided strictly in accordance with law.",
+      "paras": "3"
+    },
+    {
+      "provision": "EA2003::126",
+      "code": "EA2003",
+      "clause": "126",
+      "topic": "recovery on a Section 126 assessment undertaken against a deceased person",
+      "type": "electricity_act",
+      "holding": "The recovery proceedings on the theft assessment were undertaken entirely against the petitioner's father, who had died in 2000. Those proceedings are quashed. The respondents may issue notice to the petitioner and pass a fresh order under Section 126 strictly in accordance with the U.P. Electricity Supply Code, 2005.",
+      "paras": "4",
+      "flag": "The narrative describes the assessment as made under Section 126 of the U.P. Electricity Supply Code, 2005. Section 126 is a provision of the Electricity Act, 2003. The operative direction is a fresh order under Section 126 in accordance with the Code."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternate-remedy-clause-6.5",
+      "application": "On the recovery certificate for the petitioner's own electricity dues, the Court did not decide the demand. It left him to file an objection under clause 6.5 and directed that the objection be decided strictly in accordance with law.",
+      "lead_authorities": [],
+      "paras": "3"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness and quantum of the electricity dues under the recovery certificate issued in the petitioner's own name",
+      "note": "Left to an objection under clause 6.5, to be decided in accordance with law.",
+      "paras": "3"
+    },
+    {
+      "point": "Merits of the theft assessment and any liability of the petitioner in place of his deceased father",
+      "note": "The proceeding against the father was quashed because recovery was taken against a person who had died in 2000. The respondents may notice the petitioner and pass a fresh Section 126 order. Liability was not decided.",
+      "paras": "4"
+    }
+  ],
+  "authorities": []
+}
