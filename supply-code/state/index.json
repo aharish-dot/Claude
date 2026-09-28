@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3519,
+  "next_seq": 3520,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -21082,6 +21082,12 @@
       "case_id": "SCJ-3516",
       "source_basename": "WRIC(A)_22257_2023.pdf",
       "title": "Rajendra Prasad Sharma v. State of U.P. and Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3517",
+      "source_basename": "WRIC(A)_22553_2023.pdf",
+      "title": "Syed Fazal Fakhri v. Purvanchal Vidyut Vitran Nigam Ltd. and Another",
       "status": "done"
     }
   ]
