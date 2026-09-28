@@ -1,0 +1,61 @@
+{
+  "case_id": "SCJ-3477",
+  "title": "Hempal v. State of U.P. and Another",
+  "neutral_citation": "2023:AHC:122281-DB",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": ["Mahesh Chandra Tripathi, J.", "Manjive Shukla, J."],
+  "date_of_judgment": "2023-05-31",
+  "date_display": "31 May 2023",
+  "docket": "Writ - C No. 18182 of 2023",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Demand notices set aside for skipping section 126(3); fresh action left open.",
+  "headnote": "Demand notices for Rs 1,42,069 and Rs 1,43,069 were set aside because the electricity department fastened liability without the section 126(3) sequence of objection, hearing and a final assessment. The entire proceeding was held per se unsustainable, with liberty to the department to proceed afresh in accordance with law.",
+  "facts": "Hempal sought quashing of two electricity demand notices — one dated 30 October (the year is incomplete in the order) for Rs 1,42,069 and another dated 30 November 2021 for Rs 1,43,069 — and a restraint on coercive recovery. He said the department had imposed the liability without the procedure of the Electricity Act, 2003 and the U.P. Electricity Supply Code, 2005. Section 126(3) required that, after a provisional assessment, he be allowed to object and be heard before a final assessment within thirty days. No such steps were taken.",
+  "reusable_constructions": [
+    {
+      "construction": "A demand notice, and the assessment proceeding behind it, is unsustainable where liability is fastened without the section 126(3) sequence of provisional assessment, objection, hearing and a final order within thirty days.",
+      "paras": "3-5"
+    },
+    {
+      "construction": "Quashing that proceeding leaves the licensee free to start again in accordance with law; the liberty does not keep the defective demand notices alive.",
+      "paras": "4-5"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::126(3)",
+      "code": "EA2003",
+      "clause": "126(3)",
+      "topic": "Final assessment after objection and hearing before a demand can stand",
+      "type": "electricity_act",
+      "holding": "Where the electricity department issues demand notices without the section 126(3) procedure — a right to object to the provisional assessment, a reasonable opportunity of hearing, and a final assessment within thirty days of service of the provisional order — the entire proceeding, including the demand notices, is per se unsustainable and is set aside, the authority remaining free to proceed afresh in accordance with law.",
+      "paras": "3-5"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "s126-3-hearing-required-before-enforcing-provisional-assessment",
+      "application": "The demand notices were set aside because the department had not given the consumer the section 126(3) right to object to the provisional assessment and a hearing before enforcement.",
+      "lead_authorities": [],
+      "paras": "3-5"
+    },
+    {
+      "tag": "final-assessment-order-mandatory-under-section-126-3",
+      "application": "The Court accepted that sub-section (3) requires a final assessment within thirty days after hearing, and that no such order having been made, the recovery could not stand.",
+      "lead_authorities": [],
+      "paras": "3-4"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner is liable for the demanded charges, and in what amount, if the department proceeds afresh.",
+      "note": "The notices were set aside for want of the section 126(3) procedure. No Supply Code clause was identified, and the merits of the demand were left open.",
+      "paras": "4-5"
+    }
+  ],
+  "authorities": []
+}
