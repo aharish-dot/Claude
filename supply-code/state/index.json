@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3560,
+  "next_seq": 3561,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -21328,6 +21328,12 @@
       "case_id": "SCJ-3557",
       "source_basename": "WRIC(A)_29471_2023.pdf",
       "title": "Harishchandra Mishra v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3558",
+      "source_basename": "WRIC(A)_29525_2023.pdf",
+      "title": "M/S Dharmendra Rice Mill v. Consumer Grievance Redressal Forum, Purvanchal Vidhut Vitrana Nigam Ltd. and Another",
       "status": "done"
     }
   ]
