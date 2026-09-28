@@ -1,0 +1,57 @@
+{
+  "case_id": "SCJ-3689",
+  "title": "Chandan Lal @ Chandan Kumar v. U.P. Power Corporation Limited And 3 Others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta, J.; Prashant Kumar, J.",
+  "date_of_judgment": "2023-03-21",
+  "date_display": "21.3.2023",
+  "docket": "Writ - C No. 8839 of 2023",
+  "page_count": 1,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Final assessment quashed; fresh Supply Code order left open.",
+  "headnote": "Final assessment of electricity dues in a theft case quashed where the provisional assessment notice fixed no date of hearing and the objection filed was not considered. Liberty reserved to pass a fresh order strictly under the procedure in the U.P. Electricity Supply Code, 2005. Writ disposed of.",
+  "facts": "Chandan Lal alias Chandan Kumar challenged orders of respondent no. 2 dated 10 January 2022 and 18 June 2022, and a recovery citation dated 25 February 2023 issued by respondent no. 4, for dues in an electricity-theft case. A provisional assessment notice dated 17 December 2021, served on 25 December 2021, fixed no date of hearing. He filed objections on 8 January 2022. Without dealing with them, the respondents passed a final assessment on 10 January 2022 and issued the citation. Departmental counsel could not defend the order and sought liberty to decide afresh.",
+  "reusable_constructions": [
+    {
+      "construction": "A final assessment in an electricity-theft case cannot stand where the provisional assessment notice fixes no date of hearing and the objection filed is not considered; the licensee may pass a fresh order only by following the procedure under the U.P. Electricity Supply Code, 2005.",
+      "paras": "2-4"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::procedure",
+      "code": "UP-2005",
+      "clause": "procedure",
+      "topic": "final assessment in a theft case without a hearing date or consideration of the objection",
+      "type": "supply_code",
+      "holding": "Where the provisional assessment notice in a theft case fixes no date of hearing and the final assessment is passed without considering the objection, the final assessment is quashed, leaving the licensee to pass a fresh order strictly in accordance with the procedure under the U.P. Electricity Supply Code, 2005.",
+      "paras": "2-4",
+      "flag": "no numbered clause; the order refers only to the procedure under the U.P. Electricity Supply Code, 2005"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "final-assessment-quashed-no-hearing-date",
+      "application": "Final assessment dated 10.01.2022 quashed because the provisional notice fixed no hearing date and the objection of 08.01.2022 was not considered; a fresh order may be passed only under the Supply Code procedure.",
+      "lead_authorities": [],
+      "paras": "3-4"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits of the alleged theft and the quantum of dues",
+      "note": "Left open for a fresh order strictly under the U.P. Electricity Supply Code, 2005.",
+      "paras": "4"
+    },
+    {
+      "point": "Order dated 18.06.2022 and recovery citation dated 25.02.2023",
+      "note": "Both were challenged; the operative order quashes only the final assessment dated 10.01.2022.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
