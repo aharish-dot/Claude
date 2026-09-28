@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3546,
+  "next_seq": 3547,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -21244,6 +21244,12 @@
       "case_id": "SCJ-3542",
       "source_basename": "WRIC(A)_26778_2023.pdf",
       "title": "Aaysha Begum v. Purvanchal Vidhut Vitrana Nigam Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3544",
+      "source_basename": "WRIC(A)_270_2023.pdf",
+      "title": "Kadeer Hussain @ Kadeer Ahmad v. State of U.P.",
       "status": "done"
     }
   ]
