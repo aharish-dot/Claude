@@ -1,0 +1,80 @@
+{
+  "case_id": "SCJ-3609",
+  "title": "Kamlawati Singh v. Managing Director, Purvanchal Vidhut Vitaran Nigam Ltd.",
+  "neutral_citation": "2023:AHC:234489-DB",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": ["Mahesh Chandra Tripathi, J.", "Prashant Kumar, J."],
+  "date_of_judgment": "2023-12-11",
+  "date_display": "11 December 2023",
+  "docket": "WRIT - C No. 38317 of 2023",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; furnish 2017 agreement, then Code remedy as per law.",
+  "headnote": "Writ disposed without deciding excess-penalty adjustment or a fresh enhanced-load agreement. If the petitioner approaches within one week, the licensee must furnish the 2017 supply agreement; she may then, within a further week, press Clauses 6.5 and 5.6 of the U.P. Electricity Supply Code, 2005, and the competent authority must consider that representation in accordance with law within six weeks.",
+  "facts": "Kamlawati Singh sought mandamus against Purvanchal Vidhut Vitaran Nigam Limited for the agreement made when meter X0153190 was installed on 25 September 2017, adjustment of sums deposited as excess penalty, and a fresh agreement for enhanced load. The licensee produced a communication of 6 September 2019, an office order of 12 April 2019 and a bill of 11 June 2019. She said the letter and the 2017 agreement were never given to her. The licensee called the challenge belated and pointed to Clauses 6.5 and 5.6 of the Supply Code.",
+  "reusable_constructions": [
+    {
+      "construction": "Where Clauses 6.5 and 5.6 of the U.P. Electricity Supply Code, 2005 are open for a claim to adjust an excess penalty or for a fresh enhanced-load agreement, the High Court leaves those claims to the competent authority to be considered in accordance with law and does not decide them in the writ.",
+      "paras": "3-6"
+    },
+    {
+      "construction": "If the consumer says the Code remedy could not be invoked because the licensee never supplied the supply agreement, the writ court may direct that agreement to be furnished within a short fixed period and allow a further short period to approach the authority, without deciding the bill or the load.",
+      "paras": "4-5"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "billing and enhanced-load grievance left to clause 6.5",
+      "type": "supply_code",
+      "holding": "The Court declined to adjudicate the claims for adjustment of excess penalty and for a fresh enhanced-load agreement. Because the 2017 agreement had not been given, it directed that, if the petitioner approached within one week, the licensee furnish that agreement; within a further week she could press her relief under the Supply Code, and the competent authority was to consider it in accordance with law within six weeks. Clause 6.5 was the billing remedy counsel had identified for that representation.",
+      "paras": "3-6"
+    },
+    {
+      "provision": "UP-2005::5.6",
+      "code": "UP-2005",
+      "clause": "5.6",
+      "topic": "clause 5.6 named with clause 6.5 as the Code remedy",
+      "type": "supply_code",
+      "holding": "Counsel invoked Clause 5.6 in the alternative to Clause 6.5 as an efficacious remedy. The Court did not examine any meter-testing sub-clause and did not decide a meter dispute. It treated Clause 5.6 as part of the same Code remedy the petitioner may press, after receiving the 2017 agreement, for consideration in accordance with law.",
+      "paras": "3-5"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "article-226-alternate-remedy-up-supply-code-6.5",
+      "application": "The Division Bench refused to adjudicate the penalty-adjustment and enhanced-load claims and disposed of the writ, leaving the petitioner to press Clauses 6.5 and 5.6 before the competent authority.",
+      "lead_authorities": [],
+      "paras": "3-6"
+    },
+    {
+      "tag": "6.5-representation-as-appropriate-remedy",
+      "application": "After the 2017 agreement is supplied, the petitioner may within a further week press her relief under the Code, and the competent authority must consider that representation in accordance with law within six weeks.",
+      "lead_authorities": [],
+      "paras": "3-5"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether any excess penalty in the bills must be adjusted against amounts already deposited.",
+      "note": "Left to the competent authority under the Supply Code.",
+      "paras": "5-6"
+    },
+    {
+      "point": "Whether the licensee must execute a fresh agreement for the enhanced load.",
+      "note": "Not adjudicated; the petitioner may press it under the Code after receiving the 2017 agreement.",
+      "paras": "5"
+    },
+    {
+      "point": "Whether the communication dated 6 September 2019 was served, and whether the challenge was barred by delay.",
+      "note": "The licensee raised delay. The Court did not accept or reject that objection and fixed a fresh window to approach.",
+      "paras": "3-5"
+    }
+  ],
+  "authorities": []
+}
