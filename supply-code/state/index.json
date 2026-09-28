@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3616,
+  "next_seq": 3617,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -21664,6 +21664,12 @@
       "case_id": "SCJ-3613",
       "source_basename": "WRIC(A)_39728_2023.pdf",
       "title": "Faiju Uddin v. Purvanchal Vidyut Vitran Nigam Ltd. and Another",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3614",
+      "source_basename": "WRIC(A)_39730_2023.pdf",
+      "title": "Vijay Shankar Yadav v. District Magistrate And 2 Others",
       "status": "done"
     }
   ]
