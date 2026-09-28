@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3534,
+  "next_seq": 3535,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -21172,6 +21172,12 @@
       "case_id": "SCJ-3531",
       "source_basename": "WRIC(A)_24936_2023.pdf",
       "title": "Zamir Akhatar v. Managing Director, Purvanchal Vidyut Vitran Nigam and Another",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3533",
+      "source_basename": "WRIC(A)_2557_2023.pdf",
+      "title": "Ashok Kumar Tyagi and 4 Others v. State of U.P. and 3 Others",
       "status": "done"
     }
   ]
