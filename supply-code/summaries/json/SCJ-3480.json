@@ -1,0 +1,46 @@
+{
+  "case_id": "SCJ-3480",
+  "title": "Ashad Ali v. State of U.P. and 4 Others",
+  "neutral_citation": "2023:AHC:117764-DB",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta, J.; Prashant Kumar, J.",
+  "date_of_judgment": "2023-05-26",
+  "date_display": "26 May 2023",
+  "docket": "WRIT - C No. 18390 of 2023",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Disposed of; recovery notice conceded as issued without final assessment",
+  "headnote": "The Electricity Department conceded that its recovery notice of 20.10.2022 was issued erroneously because no order of final assessment existed. A fresh notice of provisional assessment having been issued, the writ was disposed of on the Department's statement that it would finalize the proceedings under the procedure in the U.P. Electricity Supply Code, 2005.",
+  "facts": "Ashad Ali filed a writ against the recovery notice dated 20 October 2022 issued by the respondent Electricity Department. Counsel for the Department told the Division Bench that the notice had been issued in error, because no order of final assessment was in existence. He stated that the Department had issued a fresh notice of provisional assessment and would complete the proceedings by the procedure laid down in the U.P. Electricity Supply Code, 2005.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::provisional-assessment",
+      "code": "UP-2005",
+      "clause": "provisional-assessment",
+      "topic": "recovery notice absent final assessment",
+      "type": "supply_code",
+      "holding": "A recovery notice issued when no order of final assessment exists is erroneous. The licensee must proceed by a notice of provisional assessment and finalize the proceedings in accordance with the procedure prescribed under the U.P. Electricity Supply Code, 2005.",
+      "paras": "2-3",
+      "flag": "No numbered clause is cited. Keyed from the order's reference to a notice of provisional assessment and the procedure prescribed under the U.P. Electricity Supply Code, 2005."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "recovery-without-final-assessment",
+      "application": "The Department conceded that the recovery notice of 20.10.2022 was erroneous because no final assessment order existed, and undertook to finalize a fresh provisional assessment under the U.P. Electricity Supply Code, 2005.",
+      "lead_authorities": [],
+      "paras": "2-3"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether any amount is recoverable after a final assessment",
+      "note": "The Court did not examine liability or quantum. It left the Department to complete the provisional assessment and finalize the proceedings under the Code.",
+      "paras": "2-3"
+    }
+  ],
+  "authorities": []
+}
