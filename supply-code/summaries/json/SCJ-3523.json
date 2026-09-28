@@ -1,0 +1,60 @@
+{
+  "case_id": "SCJ-3523",
+  "title": "Sahebe Alam v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Mahesh Chandra Tripathi and Vivek Kumar Singh, JJ.",
+  "date_of_judgment": "2023-02-13",
+  "date_display": "13 February 2023",
+  "docket": "Writ - C No. 2314 of 2023",
+  "page_count": 4,
+  "significance": "procedural",
+  "outcome": "none",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; demand withdrawn; cause of action does not survive.",
+  "headnote": "Writ against Recovery Certificate Prapatra-36 and an electricity bill, with a further prayer to compound a section 135 case, was disposed of because the licensee had already withdrawn demand notice no. 7830 dated 03.11.2022 and the cause of action did not survive. The authority was left at liberty to proceed afresh only in accordance with clauses 6.8 and 8.1 of the Electricity Supply Code, 2005.",
+  "facts": "Sahebe Alam petitioned the Allahabad High Court against the State of U.P. and Purvanchal Vidyut Vitran Nigam, challenging Recovery Certificate Prapatra-36 for Rs 1,79,621, seeking recalculation of the bill dated 27 September 2022 for Rs 1,39,622 issued by the Executive Engineer, Kaushambi, and compounding of Case Crime No. 581 of 2022 under section 135 of the Electricity Act. A coordinate bench stayed recovery on 24 January 2023. The Executive Engineer later reported that demand notice no. 7830 dated 3 November 2022 had been withdrawn.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8",
+      "code": "UP-2005",
+      "clause": "6.8",
+      "topic": "Fresh action after withdrawal of recovery",
+      "type": "supply_code",
+      "holding": "Once the licensee had withdrawn the demand notice and the recovery proceeding, the writ challenging that recovery did not survive and was disposed of. If the authority proceeds afresh, it must do so strictly in accordance with the procedure under clause 6.8 of the Electricity Supply Code, 2005.",
+      "paras": "5",
+      "flag": "The order names clauses 6.8 and 8.1 together for any fresh proceeding in a matter that also involves a section 135 case, without distinguishing the two procedures."
+    },
+    {
+      "provision": "UP-2005::8.1",
+      "code": "UP-2005",
+      "clause": "8.1",
+      "topic": "Supply Code procedure if authority proceeds again",
+      "type": "supply_code",
+      "holding": "The same liberty to proceed after withdrawal of the recovery was conditioned on clause 8.1 of the Electricity Supply Code, 2005, which the Court named together with clause 6.8. The Court did not set out the steps under clause 8.1.",
+      "paras": "5"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "6.8-procedure-mandatory",
+      "application": "After recording that the demand and the recovery had been withdrawn, the Court disposed of the writ and left the authority at liberty to proceed afresh only by the procedure under clauses 6.8 and 8.1 of the Supply Code, 2005.",
+      "lead_authorities": [],
+      "paras": "5"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the bill dated 27.09.2022 for Rs 1,39,622 and Recovery Certificate Prapatra-36 were liable to be recalculated or quashed",
+      "note": "Not examined. The demand notice had already been withdrawn and the petition was disposed because the cause of action did not survive.",
+      "paras": "5"
+    },
+    {
+      "point": "Compounding of Case Crime No. 581 of 2022 under section 135 of the Electricity Act",
+      "note": "The prayer was not decided on merits.",
+      "paras": "2"
+    }
+  ],
+  "authorities": []
+}
