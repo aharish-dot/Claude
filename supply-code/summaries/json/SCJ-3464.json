@@ -1,0 +1,60 @@
+{
+  "case_id": "SCJ-3464",
+  "title": "Mohd. Shamsul Islam v. State of U.P.",
+  "neutral_citation": "2023:AHC:107291-DB",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Mahesh Chandra Tripathi and Manjive Shukla, JJ.",
+  "date_of_judgment": "2023-05-17",
+  "date_display": "17 May 2023",
+  "docket": "Writ - C No. 16629 of 2023",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Delayed s.126(3) assessment and recovery citation set aside",
+  "headnote": "Section 126(3) of the Electricity Act, 2003 requires the final assessment to be passed within thirty days of service of the provisional assessment order. Inspection on 2 November 2020, a provisional assessment on 9 March 2021, and a final assessment only on 24 March 2022 breached that limit. The Division Bench held the process per se unsustainable, set aside the assessment and the recovery citation dated 2 September 2022 for Rs 4,50,775, and left the licensee free to proceed afresh in accordance with law.",
+  "facts": "Mohd. Shamsul Islam held a 2 KVA connection. The premises were inspected on 2 November 2020. A provisional assessment dated 9 March 2021 was sent by registered post on 15 March 2021, and the final assessment was made on 24 March 2022. On 2 September 2022 the Executive Engineer issued a recovery citation for Rs 4,50,775. He challenged the citation and sought a bar on coercive steps, contending that the assessment had bypassed the procedure in the Electricity Act, 2003 and the U.P. Electricity Supply Code, 2005.",
+  "reusable_constructions": [
+    {
+      "construction": "A final assessment under section 126(3) of the Electricity Act, 2003, passed beyond thirty days from service of the provisional assessment order, is per se unsustainable and may be set aside in writ together with the recovery citation raised on it.",
+      "paras": "6-7"
+    },
+    {
+      "construction": "Where the final assessment falls outside the thirty days fixed by section 126(3), the High Court may set aside the assessment and the recovery citation instead of dismissing the writ for the appeal under section 127, leaving the licensee free to proceed afresh in accordance with law.",
+      "paras": "5-8"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::126(3)",
+      "code": "EA2003",
+      "clause": "126(3)",
+      "topic": "Thirty-day limit for the final assessment",
+      "type": "electricity_act",
+      "holding": "Section 126(3) requires the final assessment to be passed within thirty days of service of the provisional assessment order. Inspection on 2 November 2020, provisional assessment on 9 March 2021 (sent on 15 March 2021) and final assessment only on 24 March 2022 did not keep that mandate. The entire assessment, including the recovery citation dated 2 September 2022 for Rs 4,50,775, is per se unsustainable and is set aside, with liberty to the licensee to proceed afresh in accordance with law.",
+      "paras": "6-7"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "s126-final-assessment-delay-requires-fresh-hearing",
+      "application": "The final assessment of 24 March 2022 came more than a year after the provisional assessment sent on 15 March 2021, outside the thirty days in section 126(3). The Court treated that delay as fatal, set aside the assessment and the recovery citation of 2 September 2022, and left the licensee free to proceed afresh in accordance with law.",
+      "lead_authorities": [],
+      "paras": "6-7"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether objections were heard before the final assessment of 24 March 2022",
+      "note": "The consumer alleged a complete departure from section 126 procedure. The Court rested the quash only on breach of the thirty-day limit.",
+      "paras": "3-6"
+    },
+    {
+      "point": "Quantum of Rs 4,50,775 and whether the use assessed was unauthorised",
+      "note": "Those merits were left to any fresh proceeding the licensee may take in accordance with law.",
+      "paras": "2"
+    }
+  ],
+  "authorities": []
+}
