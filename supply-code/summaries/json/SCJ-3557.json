@@ -1,0 +1,67 @@
+{
+  "case_id": "SCJ-3557",
+  "title": "Harishchandra Mishra v. State of U.P.",
+  "neutral_citation": "2023:AHC:174422-DB",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": ["Siddhartha Varma, J.", "Manoj Bajaj, J."],
+  "date_of_judgment": "2023-08-29",
+  "date_display": "29 August 2023",
+  "docket": "WRIT - C No. - 29471 of 2023",
+  "page_count": 1,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; section 127 appeal in two weeks; limitation not examined.",
+  "headnote": "Writ against a final assessment order dated 6 October 2022, with a prayer to restrain recovery of the assessed amount, disposed of. If the petitioner files an appeal under section 127 within two weeks, the appeal shall be decided in accordance with the Electricity Act, 2003 and the U.P. Electricity Supply Code, 2005, without going into limitation.",
+  "facts": "Harishchandra Mishra approached the Allahabad High Court against a final assessment order dated 6 October 2022 made by the electricity department, and asked that the respondents be restrained from demanding the amount payable under that order. Learned counsel for the Electricity Department told the Court that, once that final assessment order had been made, the petitioner had the opportunity to file an appeal under section 127.",
+  "reusable_constructions": [
+    {
+      "construction": "A writ against a final electricity assessment order, with a prayer to restrain recovery of the assessed amount, may be disposed of by relegating the consumer to an appeal under section 127.",
+      "paras": "1"
+    },
+    {
+      "construction": "Where the High Court permits a section 127 appeal to be filed within a period it fixes, the appellate authority is to decide that appeal in accordance with law without examining limitation.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "Appeal against final assessment; limitation not examined",
+      "type": "electricity_act",
+      "holding": "A writ challenging a final assessment order and seeking to restrain recovery of the amount payable under it is disposed of by permitting an appeal under section 127 within two weeks. If filed in that time, the appeal shall be decided in accordance with the Electricity Act, 2003 (which the Court called the U.P. Electricity Act, 2003) and the U.P. Electricity Supply Code, 2005, without going into the question of limitation.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "relegation-to-section-127-appeal-on-merits-limitation-not-examined",
+      "application": "The writ against the final assessment order of 6 October 2022 was disposed of with a direction that a section 127 appeal filed within two weeks be decided in accordance with law without going into limitation.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "final-assessment-order-relegates-assessee-to-section-127-appeal",
+      "application": "The Electricity Department submitted, and the Court acted on that submission, that after the final assessment order the petitioner's remedy was an appeal under section 127.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "alternative-remedy-relegation-section-127",
+      "application": "The petition was finally disposed of by relegating the petitioner to a section 127 appeal, without a decision on the assessment or the demand.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the final assessment order dated 6 October 2022 and the demand raised under it were lawful",
+      "note": "The writ was disposed of by sending the petitioner to a section 127 appeal to be decided in accordance with law.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
