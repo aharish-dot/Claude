@@ -1,0 +1,51 @@
+{
+  "case_id": "SCJ-3684",
+  "title": "Kumar Satyam v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta, J. and Prashant Kumar, J.",
+  "date_of_judgment": "2023-03-20",
+  "date_display": "20 March 2023",
+  "docket": "WRIT - C No. 8439 of 2023",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Disposed; final assessment under Supply Code, connection then considered",
+  "headnote": "A writ against a provisional-assessment notice and for a new connection was disposed of with a direction that the electricity department pass the final assessment strictly under the procedure in the Electricity Supply Code, 2005, and thereafter consider the connection application in accordance with law.",
+  "facts": "Kumar Satyam filed a writ in the Allahabad High Court to quash a notice dated 31 January 2023 issued by the electricity department and to restrain coercive action under it. He also sought a mandamus for a new electric connection on application no. 1012621699. The department stated that the notice was a provisional assessment, that the petitioner had already filed objections, and that the final assessment order was still to be passed. It said the new-connection application would be considered once any dues found in those proceedings were cleared.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::assessment-procedure",
+      "code": "UP-2005",
+      "clause": "assessment-procedure",
+      "topic": "Final assessment and later consideration of a new connection",
+      "type": "supply_code",
+      "holding": "Where the impugned notice is a provisional assessment, objections are already filed, and the final assessment is yet to be passed, the electricity department must pass that final assessment strictly in accordance with the procedure prescribed under the Electricity Supply Code, 2005, and thereafter consider the application for a new electric connection in accordance with law.",
+      "paras": "1",
+      "flag": "The order cites the Electricity Supply Code, 2005 without a clause number; none has been assigned."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "UP-2005::assessment-procedure",
+      "application": "The writ was disposed of by sending the pending provisional assessment to a final order strictly under the Supply Code procedure, with the new-connection application to be considered in accordance with law only thereafter.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the provisional assessment notice dated 31.01.2023 should be quashed or coercive action under it stayed",
+      "note": "The notice was left standing. The petition was disposed of with a direction to pass the final assessment.",
+      "paras": "1"
+    },
+    {
+      "point": "Whether a new electric connection on application no. 1012621699 must be granted",
+      "note": "The Court directed only that the application be considered in accordance with law after the final assessment.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
