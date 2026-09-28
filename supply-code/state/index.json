@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3481,
+  "next_seq": 3482,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -20854,6 +20854,12 @@
       "case_id": "SCJ-3478",
       "source_basename": "WRIC(A)_18267_2023.pdf",
       "title": "M/S Pioneer Fabcon (P) Ltd. v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3479",
+      "source_basename": "WRIC(A)_18366_2023.pdf",
+      "title": "Mahesh Chandra @ Mahesh Singh v. State of U.P.",
       "status": "done"
     }
   ]
