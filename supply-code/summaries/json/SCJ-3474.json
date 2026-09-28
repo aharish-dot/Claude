@@ -1,0 +1,61 @@
+{
+  "case_id": "SCJ-3474",
+  "title": "Mukesh Kumar v. State of U.P.",
+  "neutral_citation": "2023:AHC:112942-DB",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta and Prashant Kumar, JJ.",
+  "date_of_judgment": "2023-05-23",
+  "date_display": "23 May 2023",
+  "docket": "WRIT - C No. - 17659 of 2023",
+  "page_count": 1,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Demand notices quashed; fresh assessment under the Code left open.",
+  "headnote": "U.P. Electricity Supply Code, 2005 — Clause 8.1 — A provisional assessment notice in a theft case must give fifteen clear days to file a reply and to appear for personal hearing. A notice issued on 30.12.2022 fixing 16.1.2023, but sent only on 9.1.2023, does not. On the licensee's concession the demand notices dated 30.12.2022 and 8.2.2023 were quashed, with liberty to proceed afresh strictly under the Code.",
+  "facts": "Mukesh Kumar challenged demand notices dated 30 December 2022 and 8 February 2023 by which respondent no. 3, the Electricity Department, demanded different amounts from him in a case of theft of electricity. On instructions, counsel for the Department told the Allahabad High Court that the provisional assessment notice, though issued on 30 December 2022 and fixing 16 January 2023, had been sent only on 9 January 2023. The Department stated that it would pass a fresh order.",
+  "reusable_constructions": [
+    {
+      "construction": "Under Clause 8.1 of the U.P. Electricity Supply Code, 2005, fifteen clear days to reply and to appear for personal hearing run from the date a provisional assessment notice is sent, so a notice issued on 30 December 2022 but sent on 9 January 2023 for a hearing on 16 January 2023 is defective.",
+      "paras": "2"
+    },
+    {
+      "construction": "Demand notices founded on a provisional assessment notice that fails the clear-notice requirement of Clause 8.1 are liable to be quashed, leaving the licensee to proceed afresh strictly in accordance with the Supply Code.",
+      "paras": "3"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1",
+      "code": "UP-2005",
+      "clause": "8.1",
+      "topic": "Fifteen clear days' notice for reply and personal hearing on a provisional theft assessment",
+      "type": "supply_code",
+      "holding": "Clause 8.1 requires fifteen clear days' notice to file a reply and to appear for personal hearing. The provisional assessment notice issued on 30.12.2022 fixing 16.1.2023 was sent only on 9.1.2023 and was therefore defective. On the licensee's concession, the demand notices dated 30.12.2022 and 8.2.2023 were quashed, with liberty to respondent no. 3 to proceed afresh strictly under the U.P. Electricity Supply Code, 2005.",
+      "paras": "2-3"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-8.1b-theft-notice-natural-justice",
+      "application": "Sending the provisional assessment notice on 9.1.2023 for a date fixed on 16.1.2023 denied fifteen clear days to reply, and both demand notices were quashed.",
+      "lead_authorities": [],
+      "paras": "2-3"
+    },
+    {
+      "tag": "clause-8.1b-personal-hearing-mandatory-before-final-assessment",
+      "application": "Clause 8.1 required a real opportunity to appear for personal hearing; the short notice failed that requirement and the later demand could not stand.",
+      "lead_authorities": [],
+      "paras": "2-3"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner had committed theft of electricity and what amount, if any, is recoverable",
+      "note": "The notices were quashed with liberty to respondent no. 3 to proceed afresh strictly under the Supply Code.",
+      "paras": "3"
+    }
+  ],
+  "authorities": []
+}
