@@ -1,0 +1,57 @@
+{
+  "case_id": "SCJ-3515",
+  "title": "Rajendra Babu Mishra v. State of U.P. and Others",
+  "neutral_citation": "2023:AHC:146561-DB",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Pritinker Diwaker, C.J. and Ashutosh Srivastava, J.",
+  "date_of_judgment": "2023-07-24",
+  "date_display": "24 July 2023",
+  "docket": "Writ - C No. 22187 of 2023",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; bill dispute remitted under clause 6.5",
+  "headnote": "A consumer who disputes the electricity bills underlying a recovery citation is relegated to a representation under clause 6.5 of the U.P. Electricity Supply Code, 2005 before the Executive Engineer. If that representation is filed within two weeks, recovery stays until the Engineer passes orders, and any recovery must follow that decision.",
+  "facts": "Rajendra Babu Mishra challenged a recovery citation dated 21 February 2023 issued by the Executive Engineer, Purvanchal Vidyut Virtran Nigam Limited, Vidyut Vitran Khand-III, Khaga, Fatehpur, for Rs 3,76,774 said to be electricity dues. He said he had been paying his bills regularly and that recovery had still been drawn against him. The licensee answered that he held two connections and that dues stood on both. The Court found that he was disputing the bills as raised.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "Disputed electricity bill — representation to the Executive Engineer",
+      "type": "supply_code",
+      "holding": "Where the consumer disputes the bills underlying a recovery citation, the remedy is a representation under clause 6.5 of the Electricity Supply Code, 2005. If preferred within two weeks, the Executive Engineer shall consider it and pass appropriate orders. No recovery shall be made pending that decision, and any order for recovery shall abide by it. The writ is disposed of on that basis.",
+      "paras": "5-6"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-alternate-remedy-to-writ",
+      "application": "The writ challenging the recovery citation was disposed of by relegating the consumer to a clause 6.5 representation instead of deciding the demand.",
+      "lead_authorities": [],
+      "paras": "5-6"
+    },
+    {
+      "tag": "clause-6.5-representation-executive-engineer",
+      "application": "A representation filed within two weeks is to be considered and decided by the Executive Engineer, Purvanchal Vidyut Virtran Nigam Limited, Vidyut Vitran Khand-III, Khaga.",
+      "lead_authorities": [],
+      "paras": "5"
+    },
+    {
+      "tag": "para-6.5-objection-before-coercive-recovery",
+      "application": "Recovery on the citation was stayed until the clause 6.5 representation is decided, and any later recovery must follow that decision.",
+      "lead_authorities": [],
+      "paras": "5"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the demand of Rs 3,76,774 was payable, and whether dues existed on one connection or on both",
+      "note": "Left to the Executive Engineer if a clause 6.5 representation is filed within two weeks.",
+      "paras": "3-5"
+    }
+  ],
+  "authorities": []
+}
