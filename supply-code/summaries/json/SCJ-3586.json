@@ -1,0 +1,45 @@
+{
+  "case_id": "SCJ-3586",
+  "title": "Avion Educational and Charitable Trusts v. Purvanchal Vidhut Vitrana Nigam Ltd.",
+  "neutral_citation": "2023:AHC:214132-DB",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Mahesh Chandra Tripathi and Prashant Kumar, JJ.",
+  "date_of_judgment": "2023-11-07",
+  "date_display": "7 November 2023",
+  "docket": "Writ - C No. 34073 of 2023",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Department to examine disputed load and estimate within six weeks.",
+  "headnote": "Disputed questions whether a 2 kW connection should be enhanced to 25 kW or taken afresh, and whether an estimate of Rs.3,10,340 is open to revision on a reference under Clause 4.6(f) of the U.P. Electricity Supply Code, 2005, cannot be tried in writ. The department must examine, verify and remedy those facts, preferably within six weeks.",
+  "facts": "The petitioner trust held a 2 kW LMV-4A connection from 9 August 2021 for an Industrial Training Institute. Recognition by the Directorate General of Training required 25 kW, so on 4 July 2023 it asked Purvanchal Vidhut Vitrana Nigam Ltd. to enhance the load. The licensee instead required the connection to be disconnected and a fresh 25 kW connection applied for. A notice of 3 October 2023 enclosed an estimate of Rs.3,10,340, the licensee saying the institution ran more than 400 metres from the premises first connected and that the category had changed.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.6(f)",
+      "code": "UP-2005",
+      "clause": "4.6(f)",
+      "topic": "Departmental examination of a disputed load enhancement and estimate revision",
+      "type": "supply_code",
+      "holding": "A writ court will not try disputed facts on whether an existing connection must be enhanced or released afresh, or whether the accompanying estimate is to be revised on a reference under Clause 4.6(f). Those facts are for the department to examine, verify and remedy, preferably within six weeks of production of a certified copy of the order.",
+      "paras": "5-8"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "factual-dispute-not-examinable-in-writ",
+      "application": "The contest over enhancement from 2 kW to 25 kW as against a fresh connection, and over revision of the Rs.3,10,340 estimate under Clause 4.6(f), turned on disputed distance and category and was left to the department to examine, verify and remedy within six weeks.",
+      "lead_authorities": [],
+      "paras": "6-8"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the load must be enhanced from 2 kW to 25 kW without a fresh connection, and whether the estimate of Rs.3,10,340 is to be revised under Clause 4.6(f).",
+      "note": "Distance of more than 400 metres between the premises originally connected and the running institution, and the asserted change of category, were left for departmental verification.",
+      "paras": "6-7"
+    }
+  ],
+  "authorities": []
+}
