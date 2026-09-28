@@ -1,0 +1,51 @@
+{
+  "case_id": "SCJ-3456",
+  "title": "Vishnu Swaroop Gaur v. State of U.P.",
+  "neutral_citation": "2023:AHC:102925-DB",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta, J.; Prashant Kumar, J.",
+  "date_of_judgment": "2023-05-12",
+  "date_display": "12 May 2023",
+  "docket": "Writ-C No. 16066 of 2023",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "No merit in writ; pay dues in three installments; restore supply after first.",
+  "headnote": "A clause 6.5 application that asks only for correction of an electricity bill, without specifying any error, does not warrant correction. The challenge to a later recovery certificate for rupees one lakh was held meritless. By consent the certified sum was payable in three equal monthly installments from 31 May 2023, supply to be restored after the first installment and continued only if later installments and current bills were paid.",
+  "facts": "Vishnu Swaroop Gaur challenged recovery citations dated 29 June 2019 and 1 August 2022 for electricity dues. In Writ Petition No. 25750 of 2019 he had disputed a citation dated 26 September 2019 demanding Rs. 70,190, contending that his bill was incorrect. The Court permitted a dispute under clause 6.5 and directed the Executive Engineer to consider correction. On 27 August 2019 he applied only for correction and stated no reasons. The department issued a fresh bill and a recovery certificate for rupees one lakh.",
+  "reusable_constructions": [
+    {
+      "construction": "A clause 6.5 request that asks only that the electricity bill be corrected, without identifying any error, does not require the licensee to revise the bill and does not invalidate a later recovery certificate issued on a fresh bill.",
+      "paras": "2-5"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "Bill-correction objection must specify the error",
+      "type": "supply_code",
+      "holding": "The application of 27 August 2019 prayed only for correction of the electricity bill and specified no error, so it did not warrant correction. The challenge to the recovery certificate for rupees one lakh, on the ground that the bill had not been corrected, had no merit.",
+      "paras": "4-5"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-objection-must-be-in-proper-form",
+      "application": "The 27 August 2019 application sought correction of the bill without specifying any error, so it did not call for correction and the later recovery was not illegal on that ground.",
+      "lead_authorities": [],
+      "paras": "2-5"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the subsequent bill for rupees one lakh was factually or arithmetically correct",
+      "note": "The Court held only that the clause 6.5 application specified no error and that the writ had no merit.",
+      "paras": "4-5"
+    }
+  ],
+  "authorities": []
+}
