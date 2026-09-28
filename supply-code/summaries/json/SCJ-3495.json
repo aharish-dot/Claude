@@ -1,0 +1,65 @@
+{
+  "case_id": "SCJ-3495",
+  "title": "Shaheen Sheikh v. State of U.P. and Others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Ashwani Kumar Mishra and Ashutosh Srivastava, JJ.",
+  "date_of_judgment": "2023-09-22",
+  "date_display": "14 June 2023 and 22 September 2023",
+  "docket": "Writ - C No. 20195 of 2023 (Recall Application No. 3 of 2023)",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Ad interim restoration ordered; recall refused; title left open.",
+  "headnote": "The Division Bench, by ad interim mandamus, directed forthwith restoration of the petitioner's electricity on payment of charges after supply was refused for want of the landlord's consent under clause 4.4(vi) of the Electricity Supply Code, 2005. On the owner's recall application the Court held that the direction rested only on undisputed possession, decided neither tenancy nor title, and was not to influence the pending civil suit. The recall was consigned to the records.",
+  "facts": "The petitioner occupied House No. B-1668, G.T.B. Nagar, Kareli, Prayagraj. Her grandfather had entered under an agreement of 8 January 1997, and she said she had long paid house tax, water tax and electricity bills. Original Suit No. 902 of 2016, between her father and the recorded owner, was pending with an interim injunction in her favour. On 9 May 2023 supply was disconnected at the landlord's request. Her application of 26 May 2023 for restoration or a fresh connection was refused under clause 4.4(vi) for want of the landlord's consent.",
+  "reusable_constructions": [
+    {
+      "construction": "An ad interim direction to restore electricity may rest on the occupant's undisputed possession, without the writ court deciding whether that occupant is a tenant or a trespasser.",
+      "paras": "16"
+    },
+    {
+      "construction": "A restoration order made on possession neither adjudicates title nor is meant to influence the civil suit already pending over the premises.",
+      "paras": "16-17"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.4(vi)",
+      "code": "UP-2005",
+      "clause": "4.4(vi)",
+      "topic": "Interim restoration despite landlord-consent objection",
+      "type": "supply_code",
+      "holding": "After the licensee refused restoration or a fresh connection for want of the landlord's consent under clause 4.4(vi), the Court issued an ad interim mandamus to restore the petitioner's supply forthwith, charges to be intimated within a week and deposited within two weeks, with monthly bills to be paid thereafter. It did not decide the clause. On the impleaded owner's recall application the Court declined to try whether the petitioner was a tenant or a trespasser, recorded that her possession was not disputed, and clarified that the direction rested only on that possession, adjudicated no right in the property, and was not intended to influence Original Suit No. 902 of 2016. The recall was consigned to the records and those issues were left open.",
+      "paras": "11-17"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "interim-restoration-rests-on-possession-not-title",
+      "application": "Supply disconnected at the landlord's request during a pending injunction suit was ordered restored ad interim because possession was undisputed. The owner's plea that the occupant was at best a trespasser did not lead to recall, and the Court left tenancy, trespass and title to the civil suit.",
+      "lead_authorities": [],
+      "paras": "16-17"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether clause 4.4(vi) applies to restoration of a connection already in existence, as distinct from a fresh connection for a tenant.",
+      "note": "Counsel submitted that the clause was inapplicable because supply had long existed. The Court said the matter required consideration and did not rule on the clause.",
+      "paras": "5-6"
+    },
+    {
+      "point": "Whether the petitioner is a tenant or a trespasser, and her right in the premises.",
+      "note": "Left to Original Suit No. 902 of 2016. The recall order states that the writ direction did not adjudicate property rights or intend to influence that suit.",
+      "paras": "15-17"
+    },
+    {
+      "point": "Final merits of the writ petition.",
+      "note": "The petition was to be listed after counter-affidavit and rejoinder. These orders grant only ad interim restoration and dispose of the recall application.",
+      "paras": "9-11"
+    }
+  ],
+  "authorities": []
+}
