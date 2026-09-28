@@ -1,0 +1,61 @@
+{
+  "case_id": "SCJ-3526",
+  "title": "Om Prakash Bajaj v. Purvanchal Vidhut Vitrana Nigam Ltd.",
+  "neutral_citation": "2023:AHC:149193-DB",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench (Chief Justice's Court)",
+  "coram": "Pritinker Diwaker, C.J. and Ashutosh Srivastava, J.",
+  "date_of_judgment": "2023-07-24",
+  "date_display": "24 July 2023",
+  "docket": "WRIT - C No. 24001 of 2023",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; Assessing Officer's provisional theft assessment upheld.",
+  "headnote": "A provisional assessment of suspected electricity theft by the licensee's Assessing Officer under clause 8.1(b) of the U.P. Electricity Supply Code, 2005 is not without jurisdiction merely because section 153 constitutes a Special Court for an offence under section 135. Clause 8.1(b)(iii) requires service of the provisional bill with a show-cause notice giving fifteen working days. If after hearing theft is established, clause 8.1(b)(iv) requires assessment of past consumption under Annexure 6.3 at twice the applicable normal tariff, demanded in a separate bill, in addition to proceedings under clause 8.2(vii). Writ challenging the Executive Engineer's provisional assessment dismissed.",
+  "facts": "Om Prakash Bajaj challenged a provisional assessment dated 27 March 2023 made by the Executive Engineer, Purvanchal Vidhut Vitrana Nigam Ltd., Electricity Urban Distribution Division, Kalyani Devi, Allahabad. The order recorded that he had been using electricity by tapping the main line and bypassing the meter installed at the premises. He said the allegation was theft under section 135 of the Electricity Act, 2003, and that only the Special Court under section 153 could determine civil liability, so the Engineer's provisional assessment was without jurisdiction.",
+  "reusable_constructions": [
+    {
+      "construction": "Constitution of a Special Court under section 153 does not take away the Assessing Officer's power, on suspicion of theft as defined in section 135, to serve a provisional assessment bill with a show-cause notice under clause 8.1(b)(iii) of the U.P. Electricity Supply Code, 2005.",
+      "paras": "6-7"
+    },
+    {
+      "construction": "If, after the hearing under clause 8.1(b), theft is established, past consumption is assessed under Annexure 6.3 at twice the applicable normal tariff and collected by a separate bill, in addition to civil or criminal proceedings under clause 8.2(vii).",
+      "paras": "6"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1(b)(iii),(iv)",
+      "code": "UP-2005",
+      "clause": "8.1(b)(iii),(iv)",
+      "topic": "Provisional assessment where theft under section 135 is suspected",
+      "type": "interplay",
+      "holding": "Section 153, which provides for a Special Court, does not displace clause 8.1 of the U.P. Electricity Supply Code, 2005. Where the Assessing Officer suspects theft of electricity as defined in section 135, clause 8.1(b)(iii) requires service of a provisional assessment bill with a show-cause notice giving fifteen working days, inviting written objections and requiring the consumer's presence. Under clause 8.1(b)(iv), if after hearing the authorized officer finds theft established, past consumption is assessed under the Annexure 6.3 formula at twice the applicable normal tariff for the purpose for which energy was abstracted, used, consumed, wasted or diverted, whichever is higher, and is demanded in a separate bill. That assessment is in addition to civil or criminal proceedings under clause 8.2(vii). A writ challenging the Executive Engineer's provisional assessment as without jurisdiction, on the ground that only the Special Court may determine civil liability, does not merit consideration.",
+      "paras": "6-8"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-8.1b-theft-notice-natural-justice",
+      "application": "The Court treated clause 8.1(b)(iii) as the authority for the Assessing Officer who suspects theft under section 135 to serve the provisional assessment bill with a show-cause notice giving fifteen working days, calling for written objections and the consumer's presence. That notice procedure answered the plea that the Executive Engineer's bill was without authority of law.",
+      "lead_authorities": [],
+      "paras": "6-7"
+    },
+    {
+      "tag": "clause-8.1b-personal-hearing-mandatory-before-final-assessment",
+      "application": "Reading clause 8.1(b)(iv), the Court held that the twice-tariff assessment under Annexure 6.3, and its demand in a separate bill, arises if after hearing the authorized officer finds that theft has been established.",
+      "lead_authorities": [],
+      "paras": "6"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the tapping and meter-bypass allegation was proved, and what sum was payable",
+      "note": "The petition was confined to the Assessing Officer's jurisdiction to issue the provisional assessment. The Court did not try the facts or the quantum.",
+      "paras": "2-8"
+    }
+  ],
+  "authorities": []
+}
