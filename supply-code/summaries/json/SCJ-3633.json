@@ -1,0 +1,64 @@
+{
+  "case_id": "SCJ-3633",
+  "title": "Mohd. Faizi v. State of U.P. and Others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta, J. and Syed Qamar Hasan Rizvi, J.",
+  "date_of_judgment": "2023-02-22",
+  "date_display": "22 February 2023",
+  "docket": "Writ - C No. 4974 of 2023",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Disposed; s.56(2) bar rejected; bill left to clause 6.5",
+  "headnote": "The High Court rejected the plea that electricity arrears of Rs.45,446.79 were barred by Section 56(2) of the Electricity Act, 2003, because the writ did not assert that the sum was not shown as recoverable in subsequent bills. It declined to try the factual dispute over correctness of the bill and left the petitioner to Clause 6.5 of the Electricity Supply Code, 2005. The petition was disposed of.",
+  "facts": "Mohd. Faizi challenged a temporary disconnection notice dated 23 December 2018 and a recovery citation dated 22 December 2022 for unpaid electricity charges. The 23 December 2018 bill showed arrears of Rs.45,446.79, though the 5 October 2018 bill had shown none and he had paid that month's Rs.328. He said recovery in 2022 was barred by Section 56 of the Electricity Act, 2003. The department replied that the October bill rested on average consumption, not an actual reading, and that the arrears appeared in the next bill.",
+  "reusable_constructions": [
+    {
+      "construction": "A consumer who invokes the two-year bar in Section 56(2) must plead that the sum was not shown continuously as recoverable arrears in subsequent bills; without that assertion the bar is rejected.",
+      "paras": "6"
+    },
+    {
+      "construction": "Where the correctness of an electricity bill turns on a factual dispute, the writ court leaves the consumer to Clause 6.5 of the U.P. Electricity Supply Code, 2005, and does not try that dispute.",
+      "paras": "7"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::56(2)",
+      "code": "EA2003",
+      "clause": "56(2)",
+      "topic": "two-year bar and continuous showing of arrears",
+      "type": "electricity_act",
+      "holding": "The two-year bar in Section 56(2) was rejected. The writ petition contained no assertion that the arrears of Rs.45,446.79 shown in the bill dated 23.12.2018 were not shown as recoverable in the subsequent bills, so the demand was not held to have become barred by time.",
+      "paras": "6"
+    },
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "disputed bill left to clause 6.5",
+      "type": "supply_code",
+      "holding": "If the petitioner disputes the correctness of the electricity bill, he may avail the remedy under Clause 6.5 of the Electricity Supply Code, 2005. The High Court will not enter into that factual dispute.",
+      "paras": "7"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-alternate-remedy-to-writ",
+      "application": "The Court refused to try the factual dispute over the December 2018 bill and left the petitioner to Clause 6.5 of the Supply Code, 2005, disposing of the writ on that basis.",
+      "lead_authorities": [],
+      "paras": "7"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the bill dated 23.12.2018 correctly levied arrears of Rs.45,446.79, and whether the disconnection notice and recovery citation should be quashed on that ground",
+      "note": "Left to Clause 6.5. The Court did not decide the department's average-consumption explanation or grant or refuse quashing on the facts.",
+      "paras": "7"
+    }
+  ],
+  "authorities": []
+}
