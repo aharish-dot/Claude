@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3460,
+  "next_seq": 3461,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -20728,6 +20728,12 @@
       "case_id": "SCJ-3457",
       "source_basename": "WRIC(A)_16127_2023.pdf",
       "title": "M/S Hotel Pride Inn v. Purvanchal Vidhut Vitrana Nigam Ltd. and Another",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3458",
+      "source_basename": "WRIC(A)_16181_2023.pdf",
+      "title": "Venus Sugar Ltd v. Paschimanchal Vidyutvitran Nigam Limited",
       "status": "done"
     }
   ]
