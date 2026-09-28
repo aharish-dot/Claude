@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3693,
+  "next_seq": 3694,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -22126,6 +22126,12 @@
       "case_id": "SCJ-3689",
       "source_basename": "WRIC(A)_8839_2023.pdf",
       "title": "Chandan Lal @ Chandan Kumar v. U.P. Power Corporation Limited And 3 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3691",
+      "source_basename": "WRIC(A)_920_2023.pdf",
+      "title": "Prince Sharma and 7 Others v. State of U.P. and another",
       "status": "done"
     }
   ]
