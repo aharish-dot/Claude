@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3607,
+  "next_seq": 3608,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -21610,6 +21610,12 @@
       "case_id": "SCJ-3604",
       "source_basename": "WRIC(A)_36332_2023.pdf",
       "title": "Raja Ram Gupta v. Chairman, General Manager, U.P. Power Corporation and Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3606",
+      "source_basename": "WRIC(A)_36652_2023.pdf",
+      "title": "M/S Bismillah Rice Mill v. State of U.P. and Others",
       "status": "done"
     }
   ]
