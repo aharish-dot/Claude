@@ -1,0 +1,56 @@
+{
+  "case_id": "SCJ-3648",
+  "title": "Shabnam v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta, J. and Syed Qamar Hasan Rizvi, J.",
+  "date_of_judgment": "2023-02-21",
+  "date_display": "21 February 2023",
+  "docket": "Writ - C No. 5917 of 2023",
+  "page_count": 1,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Final assessment and recovery quashed; fresh proceeding left open.",
+  "headnote": "A final assessment of alleged electricity theft, passed before expiry of the fifteen working days' clear notice for reply under clause 6.8(b) of the U.P. Electricity Supply Code, 2005, is illegal. The assessment and the recovery citation founded on it were quashed, with liberty to the licensee to proceed afresh strictly under the Code.",
+  "facts": "Shabnam petitioned the Allahabad High Court to quash a recovery citation dated 23 November 2022 issued by the electricity department for dues in an alleged theft of electricity. Counsel for the department placed instructions on record. Those instructions showed that a provisional assessment notice dated 15 July 2022 was sent to her by registered post on 29 July 2022, and that the final assessment order was passed on 2 August 2022, before fifteen days from that dispatch had run.",
+  "reusable_constructions": [
+    {
+      "construction": "A final assessment in an alleged theft case, passed before expiry of the fifteen working days' clear notice for reply under clause 6.8(b) of the U.P. Electricity Supply Code, 2005, is illegal.",
+      "paras": "1"
+    },
+    {
+      "construction": "Recovery founded on a final assessment passed in breach of the clause 6.8(b) notice period falls with that assessment, without barring a fresh proceeding taken strictly under the Code.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8(b)",
+      "code": "UP-2005",
+      "clause": "6.8(b)",
+      "topic": "Final assessment before fifteen working days' notice",
+      "type": "supply_code",
+      "holding": "Where the provisional assessment notice in an alleged theft case was sent by registered post on 29 July 2022 and the final assessment was passed on 2 August 2022, before expiry of the fifteen working days' clear notice for reply stipulated by clause 6.8(b) of the U.P. Electricity Supply Code, 2005, the final assessment is illegal and the recovery citation founded on it is quashed. The licensee may proceed afresh strictly in accordance with the Code.",
+      "paras": "1",
+      "flag": "The order cites clause 6.8(b) for the fifteen-working-day reply and does not specify sub-clause (i)."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "demand-notice-objections-under-6.8(b)(i)",
+      "application": "The Court treated the fifteen working days' clear notice for a reply to the provisional assessment as mandatory, and quashed a final assessment and the recovery citation passed before that period expired.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether theft was made out and what sum, if any, is assessable on a fresh proceeding",
+      "note": "Liberty was reserved to the licensee to proceed afresh strictly under the Supply Code. The theft allegation and the quantum were not decided.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
