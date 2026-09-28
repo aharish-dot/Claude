@@ -1,0 +1,51 @@
+{
+  "case_id": "SCJ-3662",
+  "title": "Ramesh Chandra v. State of U.P. and 2 Others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta, J.; Prashant Kumar, J.",
+  "date_of_judgment": "2023-02-28",
+  "date_display": "28 February 2023",
+  "docket": "Writ-C No. 6810 of 2023",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Disposed with liberty to file objection; department to decide under Supply Code.",
+  "headnote": "Petition disposed of, on the electricity department's consent, with liberty to the consumer to file within fifteen days a fresh objection to a provisional assessment notice issued in an electricity-theft case. The notice was said to have been dispatched after the date fixed for hearing. Respondent No.3 must, if the objection is filed, decide it by the procedure prescribed under the Electricity Supply Code, 2005.",
+  "facts": "Respondent No.3 issued a provisional assessment notice to Ramesh Chandra in an alleged electricity-theft case. Chandra wrote to the department on 22 December 2022. On 10 January 2023 the officer replied that no objection to the notice had been received. Chandra challenged that reply, saying the notice had been dispatched only after the date fixed for hearing, and asked that an objection he might file be decided. Counsel for the electricity department did not oppose that request.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::provisional-assessment-objection",
+      "code": "UP-2005",
+      "clause": "provisional-assessment-objection",
+      "topic": "fresh objection to a theft provisional assessment",
+      "type": "supply_code",
+      "holding": "The writ is disposed of with liberty to the petitioner to file, within fifteen days, a fresh objection to the provisional assessment notice together with a true attested copy of the order. If that objection is filed, respondent No.3 shall decide it by following the procedure prescribed under the Electricity Supply Code, 2005.",
+      "paras": "1",
+      "flag": "Order invokes the Supply Code procedure for deciding the objection but states no numbered clause."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "UP-2005::provisional-assessment-objection",
+      "application": "On the department's consent, the Court did not try the theft assessment. It left the consumer fifteen days to file a fresh objection to the provisional assessment notice and required respondent No.3 to decide that objection under the Electricity Supply Code, 2005.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the provisional assessment notice was dispatched after the date fixed for hearing",
+      "note": "Recorded only as the petitioner's submission. The department consented to a fresh objection without a finding on dispatch.",
+      "paras": "1"
+    },
+    {
+      "point": "Merits and quantum of the provisional assessment for alleged theft",
+      "note": "Left to respondent No.3 if a fresh objection is filed within fifteen days.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
