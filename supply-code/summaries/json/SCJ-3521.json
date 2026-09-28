@@ -1,0 +1,45 @@
+{
+  "case_id": "SCJ-3521",
+  "title": "Jagan Singh v. State of U.P.",
+  "neutral_citation": "2023:AHC:142039-DB",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Ashwani Kumar Mishra, J.; Syed Aftab Husain Rizvi, J.",
+  "date_of_judgment": "2023-07-18",
+  "date_display": "18 July 2023",
+  "docket": "Writ-C No. 23132 of 2023",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; objection left to the clause 6.5B authority.",
+  "headnote": "An objection that supply was already disconnected and that the demand notice was therefore unauthorized is a factual matter for the competent authority under clause 6.5B of the U.P. Electricity Supply Code, 2005. The High Court need not examine it at the first instance. If the objection is raised, that authority must pass a reasoned order within six weeks of presentation of a certified copy of this order.",
+  "facts": "Jagan Singh filed Writ-C No. 23132 of 2023 in the Allahabad High Court against the State of U.P. and two others. He objected that his electricity was already disconnected and that the demand notice was, for that reason, unauthorized. The petition asked the Court to examine that objection. The order records no connection number, no amount, and no further account of when or how the supply was disconnected.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5B",
+      "code": "UP-2005",
+      "clause": "6.5B",
+      "topic": "demand notice after disconnection",
+      "type": "supply_code",
+      "holding": "The objection that electricity was already disconnected and that the demand notice is therefore unauthorized may be raised before the competent authority under clause 6.5B of the U.P. Electricity Supply Code, 2005. Such factual issues are not to be examined by the High Court at the first instance. If the objection is raised, the authority shall examine it and pass a reasoned order within six weeks from presentation of a certified copy of this order.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-alternate-remedy-to-writ",
+      "application": "The High Court disposed of the writ without examining, at the first instance, the factual objection that supply was already disconnected and the demand notice was unauthorized, and left that objection to the competent authority under clause 6.5B.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether prior disconnection rendered the demand notice unauthorized",
+      "note": "Left to the competent authority under clause 6.5B, to be decided by a reasoned order within six weeks if the objection is raised.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
