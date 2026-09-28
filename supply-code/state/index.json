@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3500,
+  "next_seq": 3501,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -20968,6 +20968,12 @@
       "case_id": "SCJ-3498",
       "source_basename": "WRIC(A)_20698_2023.pdf",
       "title": "M/S Shyam Enterprises Konara v. State of U.P. and 2 Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3497",
+      "source_basename": "WRIC(A)_2068_2023.pdf",
+      "title": "Baboo Lal Sharma v. Dakshinanchal Vidyut Vitran Nigam Ltd.",
       "status": "done"
     }
   ]
