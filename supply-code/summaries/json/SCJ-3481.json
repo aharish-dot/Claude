@@ -1,0 +1,61 @@
+{
+  "case_id": "SCJ-3481",
+  "title": "Manoj Kumar v. State of U.P. and others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta and Vikram D. Chauhan, JJ.",
+  "date_of_judgment": "2023-01-18",
+  "date_display": "18 January 2023",
+  "docket": "Writ - C No. 183 of 2023",
+  "page_count": 4,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Recovery certificate quashed; final assessment treated as provisional under the Supply Code.",
+  "headnote": "Where the licensee, defending recovery of alleged theft dues, produces a final assessment but cannot show service of the provisional or final assessment, the consumer may object within fifteen days treating that order as provisional. The licensee must then follow the Electricity Supply Code, 2005 and pass a speaking order. The recovery certificate issued in the meantime stands quashed, and further recovery waits on that decision.",
+  "facts": "Manoj Kumar challenged recovery notices of 30 April 2022 and 13 July 2022 and a recovery certificate of 18 November 2022 issued by respondent no. 4 for electricity dues in an alleged theft case. He said the respondents were recovering without any final assessment. The Corporation took time on 6 and 13 January 2023. On 18 January 2023 it produced a final assessment dated 16 November 2021 but could not show service of the provisional or final assessment. A set of those documents was given to his counsel in Court.",
+  "reusable_constructions": [
+    {
+      "construction": "Where the licensee cannot show service of the provisional and final assessment while recovering alleged theft dues, the final assessment is to be treated as provisional so the consumer may object, and the licensee must then follow the Electricity Supply Code, 2005 and pass a speaking order.",
+      "paras": "4-5"
+    },
+    {
+      "construction": "A recovery certificate issued when service of the assessment orders is not shown is quashed, and further coercive steps abide the speaking order under the Supply Code.",
+      "paras": "5"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005",
+      "code": "UP-2005",
+      "clause": "",
+      "topic": "Unserved theft assessment treated as provisional; recovery certificate quashed",
+      "type": "supply_code",
+      "holding": "The licensee placed on record a final assessment dated 16 November 2021 but could not show service of the provisional or final assessment. The consumer has fifteen days to object, treating that final assessment as provisional. The licensee must then proceed under the Electricity Supply Code, 2005 and pass a speaking order; if no objection is filed in time, it may proceed without waiting. The recovery certificate dated 18 November 2022 stands quashed, and further steps depend on the decision so taken.",
+      "paras": "4-5",
+      "flag": "The order invokes the Electricity Supply Code, 2005 without a clause number. Catalog hits on clauses 6.1, 6.10 and 6.12 to 6.16 do not match this theft-assessment service dispute."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "art-226-no-factual-enquiry-assessment-relegated-clause-6.1-or-6.4",
+      "application": "The Court did not try the theft allegation or the quantum of dues. It disposed of the writ by permitting objections within fifteen days, treating the final assessment as provisional, and directing the licensee to decide under the Electricity Supply Code, 2005 by a speaking order. The order does not name clause 6.1 or 6.4; relegation is to the Code procedure at large.",
+      "lead_authorities": [],
+      "paras": "4-5"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner had committed theft of electricity, and the quantum of dues.",
+      "note": "Left to the objection and the licensee's speaking order under the Electricity Supply Code, 2005.",
+      "paras": "5"
+    },
+    {
+      "point": "Validity of the recovery notices dated 30 April 2022 and 13 July 2022.",
+      "note": "Only the recovery certificate dated 18 November 2022 was quashed.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
