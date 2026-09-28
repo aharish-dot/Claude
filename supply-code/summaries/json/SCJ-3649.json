@@ -1,0 +1,55 @@
+{
+  "case_id": "SCJ-3649",
+  "title": "Rafi Mohammad v. Uttar Pradesh Power Corporation Limited and Others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta and Prashant Kumar, JJ.",
+  "date_of_judgment": "2023-03-03",
+  "date_display": "3 March 2023",
+  "docket": "Writ - C No. 5926 of 2023",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Theft recovery citation quashed; no final assessment order",
+  "headnote": "A recovery citation for electricity dues in a theft case, issued when no final assessment order existed, was held illegal and quashed. The licensee was left at liberty to pass a fresh order strictly under the procedure in the U.P. Electricity Supply Code, 2005. The writ was disposed of.",
+  "facts": "Rafi Mohammad petitioned the Allahabad High Court against Uttar Pradesh Power Corporation Limited and three others, challenging a recovery citation for electricity dues said to arise from theft. On 21 February 2023 the Court permitted service on respondents 1 to 3 and listed the matter. On 28 February 2023 counsel reported service on the Department's counsel, whose name was directed to be shown in the cause list. On 3 March 2023 that counsel appeared and stated that the citation had issued although no final assessment order existed.",
+  "reusable_constructions": [
+    {
+      "construction": "A recovery citation for electricity dues in a theft case is illegal, and liable to be quashed, when no final assessment order is in existence.",
+      "paras": "3"
+    },
+    {
+      "construction": "After such a citation is quashed, the licensee may pass a fresh order only by following the procedure prescribed in the U.P. Electricity Supply Code, 2005.",
+      "paras": "3"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::3.3(e)",
+      "code": "UP-2005",
+      "clause": "3.3(e)",
+      "topic": "Theft recovery citation without a final assessment order",
+      "type": "supply_code",
+      "holding": "A recovery citation for electricity dues in a theft case, issued although no final assessment order exists, is illegal and is quashed. The licensee may pass a fresh order only in strict accordance with the procedure prescribed under the U.P. Electricity Supply Code, 2005.",
+      "paras": "3"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "recovery-without-final-assessment-illegal",
+      "application": "The Department conceded that the theft-dues recovery citation had issued with no final assessment order in existence. The Court treated that absence as rendering the citation illegal, quashed it, and reserved only a fresh order under the Supply Code procedure.",
+      "lead_authorities": [],
+      "paras": "3"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether theft was established and what sum, if any, is recoverable on a fresh assessment",
+      "note": "The Court did not try the theft allegation or quantify dues. It quashed the citation and left the licensee to pass a fresh order under the Supply Code.",
+      "paras": "3"
+    }
+  ],
+  "authorities": []
+}
