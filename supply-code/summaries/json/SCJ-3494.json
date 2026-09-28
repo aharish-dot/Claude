@@ -1,0 +1,51 @@
+{
+  "case_id": "SCJ-3494",
+  "title": "Ashok @ Ashok Kumar v. State of U.P. and others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Ashwani Kumar Mishra and Ashutosh Srivastava, JJ.",
+  "date_of_judgment": "2023-06-12",
+  "date_display": "12 June 2023",
+  "docket": "Writ - C No. 20048 of 2023",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ declined; consumer relegated to clause 6.5.",
+  "headnote": "The High Court declined to entertain a writ directly against an electricity bill where the tube-well connection had been disconnected for non-payment and the consumer had not availed clause 6.5 of the U.P. Electricity Supply Code, 2005. He was permitted to approach the respondents under that clause, with the bill, instalments, and mutation to be addressed in accordance with law.",
+  "facts": "The petitioner's tube-well connection was disconnected because electricity dues had not been deposited. The connection stood in the name of his father, who had died. He approached the Allahabad High Court challenging the electricity bill, and asked that his representation be considered, that he be allowed to pay the admitted dues in easy instalments, and that the connection be mutated into his own name in the electricity records. The electricity board contended that the grievance could more appropriately be examined under clause 6.5 of the Supply Code, 2005.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.5",
+      "code": "UP-2005",
+      "clause": "6.5",
+      "topic": "Writ against an electricity bill relegated to clause 6.5",
+      "type": "supply_code",
+      "holding": "A writ directly challenging an electricity bill is not entertained where the consumer has not availed clause 6.5 of the U.P. Electricity Supply Code, 2005. Disputed questions are left to the concerned respondents under that clause and are to be addressed in accordance with law.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-6.5-alternate-remedy-to-writ",
+      "application": "The writ against the electricity bill was declined because the petitioner had not availed clause 6.5, and he was permitted to approach the respondents under that clause.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "clause-6.5-statutory-remedy-disputed-bill",
+      "application": "Disputed questions on the bill, including disconnection for non-deposit of dues, were not examined in the writ and were left to clause 6.5 proceedings.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Correctness of the electricity bill and dues, payment of admitted dues in instalments, and mutation of the tube-well connection into the petitioner's name after his father's death",
+      "note": "Left to be addressed by the respondents under clause 6.5 in accordance with law.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
