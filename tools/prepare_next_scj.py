@@ -102,7 +102,9 @@ def pending_files(done, skip_rels=None):
     """POSIX paths relative to input/, files at root and in subfolders.
 
     `input/priority/` is claimed before year folders so a loop started
-    after staging Claude PDFs there drains that bucket first.
+    after staging Claude PDFs there drains that bucket first. A priority
+    copy whose basename is already in processed/ is still listed, so
+    claim_new can retire it instead of leaving it in the queue.
     """
     skip = {s.replace("\\", "/").lstrip("/") for s in (skip_rels or [])}
     skip_base = {basename_of(s) for s in skip}
@@ -117,7 +119,14 @@ def pending_files(done, skip_rels=None):
             if n in SKIP_NAMES or TWIN_PDF.search(n):
                 continue
             rel = posix_rel(os.path.join(dirpath, n), INPUT)
-            if n in done or rel in skip or n in skip_base:
+            # Basename-already-in-processed is dropped for year folders.
+            # Priority copies must still be returned: claim_new retires them.
+            # Filtering them here left already-summarised priority PDFs in the
+            # queue forever (claim's "filename already in processed/" retire
+            # never saw them).
+            if n in done and not is_priority_source(rel):
+                continue
+            if rel in skip or n in skip_base:
                 continue
             out.append(rel)
     out.sort(key=queue_sort_key)

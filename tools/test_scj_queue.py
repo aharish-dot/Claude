@@ -180,6 +180,32 @@ class PriorityQueueTests(unittest.TestCase):
         self.assertEqual(ticket["gate"], "priority-full")
         self.assertEqual(ticket["prompt"], "tools/prompts/next_case_once.txt")
 
+    def test_priority_basename_already_processed_stays_pending(self):
+        import prepare_next_scj as p
+        name = "WRIC(A)_1_2021.pdf"
+        with tempfile.TemporaryDirectory() as td:
+            inp = os.path.join(td, "input")
+            proc = os.path.join(td, "processed", "2024")
+            os.makedirs(os.path.join(inp, "priority", "2021"))
+            os.makedirs(os.path.join(inp, "2022"))
+            os.makedirs(proc)
+            for folder in (
+                os.path.join(inp, "priority", "2021"),
+                os.path.join(inp, "2022"),
+                proc,
+            ):
+                with open(os.path.join(folder, name), "wb") as f:
+                    f.write(b"%PDF")
+            old_in, old_proc = p.INPUT, p.PROCESSED
+            try:
+                p.INPUT = inp
+                p.PROCESSED = os.path.join(td, "processed")
+                pending = p.pending_files(p.processed_names())
+            finally:
+                p.INPUT, p.PROCESSED = old_in, old_proc
+        self.assertIn("priority/2021/" + name, pending)
+        self.assertNotIn("2022/" + name, pending)
+
     def test_non_priority_still_goes_short(self):
         import prepare_next_scj as p
         ticket = {
