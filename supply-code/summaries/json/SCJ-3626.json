@@ -1,0 +1,61 @@
+{
+  "case_id": "SCJ-3626",
+  "title": "Arvind Kumar Bajpai v. Pachhimanchal Vidyut Vitran Nigam Ltd. and others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Suneet Kumar and Rajendra Kumar-IV, JJ.",
+  "date_of_judgment": "2023-02-08",
+  "date_display": "8 February 2023",
+  "docket": "WRIT - C No. - 4421 of 2023",
+  "page_count": 1,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Connection directed within three days on registered sale agreement.",
+  "headnote": "A registered agreement to sell with possession satisfies proof of occupancy under para 4.4(a)(1) of the Electricity Supply Code 2005. The Executive Engineer was directed to process the application and provide the connection, by a prepaid meter as the applicant accepted, within three days of the certified copy, provided there was no other impediment.",
+  "facts": "Arvind Kumar Bajpai sought an electricity connection from Pachhimanchal Vidyut Vitran Nigam Ltd. for flat no. 661, Sector 29, Noida, Gautam Buddha Nagar. On 27 January 2023 the Sub Divisional Officer refused the connection under para 4.4(a)(1) of the Electricity Supply Code 2005, because the occupation paper was an agreement to sell dated 30 September 2013. Bajpai said the agreement was registered and gave him possession, and that a prepaid meter would suffice. Counsel for the licensee did not dispute that the document carried possession and a right of occupation.",
+  "reusable_constructions": [
+    {
+      "construction": "A registered agreement to sell that confers possession is proof of occupancy under para 4.4(a)(1) of the U.P. Electricity Supply Code, 2005.",
+      "paras": "1"
+    },
+    {
+      "construction": "Once that proof is undisputed, the licensee must process the application and provide the connection within the short time the Court fixes, subject only to any other impediment.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.4(a)(i)",
+      "code": "UP-2005",
+      "clause": "4.4(a)(i)",
+      "topic": "proof of occupancy for a new connection",
+      "type": "supply_code",
+      "holding": "Para 4.4(a)(1) of the Electricity Supply Code 2005, requiring proof of occupancy, is satisfied by a registered agreement to sell that confers possession and a right of occupation. The Sub Divisional Officer could not refuse the connection merely because the document was an agreement to sell dated 30 September 2013, once the licensee accepted that it was registered and carried possession. The Executive Engineer must process the application and provide the connection, by a prepaid meter as the applicant accepted, within three days of production of the certified copy, provided there is no other impediment.",
+      "paras": "1"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "occupier-needs-proof-of-occupancy-plus-indemnity-bond-clause-4.4",
+      "application": "The refusal turned on proof of occupancy under para 4.4(a)(1). A registered agreement to sell with possession was accepted as that proof, and the connection was directed on that footing.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "clauses-4.1-4.3-4.4-licensee-obliged-to-consider-and-grant-new-connection-speedily-if-no-impediment",
+      "application": "With occupancy no longer disputed, the Executive Engineer was directed to process the application and provide the connection within three days of the certified copy, provided there was no other impediment.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether any impediment other than the occupancy document stood in the way of the connection",
+      "note": "The direction to provide the connection is conditioned on there being no impediment; none was identified or decided.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
