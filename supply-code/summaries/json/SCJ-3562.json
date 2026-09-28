@@ -1,0 +1,60 @@
+{
+  "case_id": "SCJ-3562",
+  "title": "Pankaj Singh v. State of U.P. and 4 Others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Mahesh Chandra Tripathi and Vivek Kumar Singh, JJ.",
+  "date_of_judgment": "2023-02-14",
+  "date_display": "14 February 2023",
+  "docket": "Writ - C No. 3062 of 2023",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Demand notice set aside for want of final assessment",
+  "headnote": "A demand notice for Rs. 4,59,856 was set aside because the record showed no final assessment under the Electricity Act, 2003 and the Electricity Supply Code, 2005. An Executive Engineer’s quantification that did not disclose when the provisional and final assessments were made did not cure the defect. The authority was directed to assess strictly in accordance with the Act and the Code and to issue a demand only thereafter.",
+  "facts": "Pankaj Singh held connection no. 4628583000 with an approved load of 4 KW. On 29 December 2022 respondent no. 3 demanded Rs. 4,59,856. He petitioned the Allahabad High Court, saying the liability had been fastened without any provisional or final assessment under the Electricity Act, 2003 and the Supply Code, 2005. The licensee produced an Executive Engineer’s order of 11 August 2022 that stated a quantified sum but did not show when any provisional or final assessment had taken place.",
+  "reusable_constructions": [
+    {
+      "construction": "A demand notice raising electricity dues is unsustainable where the record does not show that a final assessment was made under the Electricity Act, 2003 and the Electricity Supply Code, 2005.",
+      "paras": "14.2.2023"
+    },
+    {
+      "construction": "An executive order that merely quantifies a sum, without disclosing when the provisional and final assessments were made, does not supply the assessment the Act and the Code require before a demand is raised.",
+      "paras": "14.2.2023"
+    },
+    {
+      "construction": "Once such a demand is set aside, the authority must complete the assessment strictly in accordance with the Act and the Code and may issue a demand notice only thereafter.",
+      "paras": "14.2.2023"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "Electricity Act, 2003 read with Electricity Supply Code, 2005 (provisional and final assessment)",
+      "code": "EA2003",
+      "clause": "final assessment",
+      "topic": "Demand notice without final assessment",
+      "type": "interplay",
+      "holding": "In the absence of a final assessment, the demand notice dated 29.12.2022 for Rs. 4,59,856 is unsustainable. The respondents failed to follow the procedure prescribed under the Electricity Act, 2003 and the Electricity Supply Code, 2005. The notice is set aside, and the authority must decide the claim on a final assessment in accordance with the Act and the Code and issue a demand only thereafter.",
+      "paras": "14.2.2023",
+      "flag": "The order invokes the Act and the Code for provisional and final assessment but cites no section or clause number."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "no-demand-without-final-assessment",
+      "application": "The demand of Rs. 4,59,856 was set aside because neither the notice nor the Executive Engineer’s order of 11.8.2022 showed that a provisional and final assessment had been made. The authority was left to assess afresh under the Act and the Code before raising any demand.",
+      "lead_authorities": [],
+      "paras": "14.2.2023"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "The petitioner’s ultimate liability, and the amount payable, after a lawful provisional and final assessment.",
+      "note": "The notice was set aside and the authority was directed to assess in accordance with law. The Court did not quantify or affirm any dues.",
+      "paras": "14.2.2023"
+    }
+  ],
+  "authorities": []
+}
