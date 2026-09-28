@@ -1,0 +1,46 @@
+{
+  "case_id": "SCJ-3627",
+  "title": "Ram Prakash Sharma v. State of U.P. and 2 Others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta and Syed Qamar Hasan Rizvi, JJ.",
+  "date_of_judgment": "2023-02-15",
+  "date_display": "15 February 2023",
+  "docket": "WRIT - C No. 4655 of 2023",
+  "page_count": 2,
+  "significance": "procedural",
+  "outcome": "none",
+  "model": "Grok 4.6",
+  "disposition": "Disposed after withdrawal of the theft-dues recovery certificate.",
+  "headnote": "The Allahabad High Court disposed of a writ seeking quashment of a recovery certificate for electricity-theft dues after the Electricity Department withdrew the certificate dated 29 July 2022 and stated that a fresh order would be passed under the Electricity Supply Code, 2005. The Court recorded that liberty and did not decide the theft dues or construe any clause of the Code.",
+  "facts": "Ram Prakash Sharma petitioned the Allahabad High Court to quash a recovery certificate dated 29 July 2022, issued by respondent no. 3 for electricity dues in a theft case. The State of U.P. and two others were respondents. On 9 February 2023 the Electricity Department sought three days for instructions and the writ was listed afresh. On 15 February 2023 its counsel stated that the certificate had been withdrawn and that fresh proceedings would follow the Electricity Supply Code, 2005.",
+  "holding_units": [
+    {
+      "provision": "UP-2005",
+      "code": "UP-2005",
+      "clause": "",
+      "topic": "theft-dues recovery certificate withdrawn",
+      "type": "supply_code",
+      "holding": "On the Electricity Department's statement that the recovery certificate dated 29.07.2022 for theft dues had been withdrawn and that fresh proceedings would follow the Electricity Supply Code, 2005, the writ is disposed of with liberty to the Department to pass a fresh order after following that procedure.",
+      "paras": "2",
+      "flag": "No clause number appears in the order. It refers only to the procedure under the Electricity Supply Code, 2005. The catalog hit JH-2005::9.2 is the adjournment date 9.2.2023, not a clause the Court cited."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "fresh-order-under-supply-code-after-withdrawal",
+      "application": "Where the licensee withdraws a theft-dues recovery certificate during the writ and undertakes fresh proceedings under the Electricity Supply Code, 2005, the petition is disposed of with liberty to pass that fresh order, without a merits finding on the dues.",
+      "lead_authorities": [],
+      "paras": "2"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the alleged theft and the dues under the withdrawn certificate were lawful, and the content of any fresh order",
+      "note": "The Court did not examine the theft allegation or the quantum. It left the Department to pass a fresh order under the Electricity Supply Code, 2005.",
+      "paras": "2"
+    }
+  ],
+  "authorities": []
+}
