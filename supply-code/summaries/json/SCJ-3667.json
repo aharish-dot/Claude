@@ -1,0 +1,67 @@
+{
+  "case_id": "SCJ-3667",
+  "title": "Anuddin Ansari v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta and Prashant Kumar, JJ.",
+  "date_of_judgment": "2023-03-22",
+  "date_display": "22 March 2023",
+  "docket": "Writ-C No. 6976 of 2023",
+  "page_count": 4,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Recovery citation quashed for want of a final Section 126 assessment.",
+  "headnote": "A recovery citation to realise a Section 126 demand is ex facie illegal where the licensee admits that no final assessment order exists and produces only a dealing assistant's calculation sheet. The citation dated 28 September 2022 was quashed. The licensee may proceed only under the procedure in the U.P. Electricity Supply Code, 2005. The Discom Managing Director is to consider action against the officials who pursued recovery on a provisional assessment.",
+  "facts": "Anuddin Ansari challenged a recovery citation dated 28 September 2022 issued by respondent no. 4, on information from respondent no. 5, for an amount said to have been assessed under Section 126 of the Electricity Act, 2003. He had filed an objection to the provisional assessment on 2 January 2023. The electricity department produced a calculation sheet prepared by the dealing assistant and admitted that no separate final assessment order existed. The Court recalled the Discom Managing Director's earlier undertaking that recovery on a provisional assessment would not be repeated.",
+  "reusable_constructions": [
+    {
+      "construction": "A recovery citation issued to realise a Section 126 demand, when no separate final assessment order exists, is ex facie illegal and is liable to be quashed.",
+      "paras": "4-5"
+    },
+    {
+      "construction": "After such a citation is quashed, the licensee may proceed against the consumer only by following the procedure prescribed under the U.P. Electricity Supply Code, 2005.",
+      "paras": "5"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::126(3)",
+      "code": "EA2003",
+      "clause": "126(3)",
+      "topic": "recovery without final assessment",
+      "type": "electricity_act",
+      "holding": "Issuance of a recovery citation on a provisional assessment under Section 126, without a separate final order of assessment, is ex facie illegal. A calculation sheet prepared by the dealing assistant is not that order. The citation dated 28.9.2022 is quashed. Respondent no. 5 may proceed further only in strict accordance with the U.P. Electricity Supply Code, 2005, and the matter is to be placed before the Managing Director of the Discom for action against the erring officials.",
+      "paras": "3-6"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "final-s126-assessment-mandatory-precondition-to-recovery-citation",
+      "application": "The recovery citation dated 28.9.2022 was quashed because counsel for the electricity department admitted that no separate final assessment order existed and relied on a dealing assistant's calculation sheet of the Section 126 amount.",
+      "lead_authorities": [],
+      "paras": "3-5"
+    },
+    {
+      "tag": "no-recovery-certificate-without-final-section-126-3-assessment",
+      "application": "Recovery was pursued though no final assessment order had been passed. The Court treated a recovery citation founded on a provisional assessment as ex facie illegal, and recalled the Discom Managing Director's undertaking that the practice would not be repeated.",
+      "lead_authorities": [],
+      "paras": "4-5"
+    },
+    {
+      "tag": "s126-3-hearing-required-before-enforcing-provisional-assessment",
+      "application": "The Court recorded the petitioner's case that his objection to the provisional assessment, filed on 2.1.2023, had not been decided. Recovery without a final order made after that objection was quashed.",
+      "lead_authorities": [],
+      "paras": "2-5"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether any sum is recoverable from the petitioner for unauthorised use, and the quantum of any assessment under Section 126.",
+      "note": "Respondent no. 5 was left at liberty to proceed strictly in accordance with the U.P. Electricity Supply Code, 2005.",
+      "paras": "5"
+    }
+  ],
+  "authorities": []
+}
