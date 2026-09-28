@@ -1,0 +1,51 @@
+{
+  "case_id": "SCJ-3524",
+  "title": "Rashmi Singh v. State of U.P.",
+  "neutral_citation": "2023:AHC:154526-DB",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Mahesh Chandra Tripathi and Prashant Kumar, JJ.",
+  "date_of_judgment": "2023-08-02",
+  "date_display": "2 August 2023",
+  "docket": "Writ - C No. 23199 of 2023",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed on consent; fresh clause 6.14 application to be decided within a week.",
+  "headnote": "Outstanding dues on the premises bar a new connection until cleared. Where the applicant pleads financial distress and the licensee does not object, the writ is disposed with a direction that a fresh application under clause 6.14 of the U.P. Electricity Supply Code, 2005, moved within one week, be decided so the dues may be deposited and the connection application processed.",
+  "facts": "Rashmi Singh applied on 1 June 2023 for a commercial electricity connection to run M/s BNK Fish Feed Mill and asked the department to decide that application. The licensee opposed, stating that electricity dues were outstanding on the property and that the U.P. Electricity Supply Code, 2005 did not permit a new connection until they were cleared. The petitioner said financial distress made a lump-sum deposit impossible and sought easy instalments.",
+  "reusable_constructions": [
+    {
+      "construction": "Where arrears on the premises block a new connection and the applicant cannot pay them at once because of financial distress, clause 6.14 of the U.P. Electricity Supply Code, 2005 is the route for instalments; on the licensee's consent the court may direct the competent authority to decide a fresh application under that clause within one week and then process the connection application.",
+      "paras": "3-6"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.14",
+      "code": "UP-2005",
+      "clause": "6.14",
+      "topic": "Instalment facility where arrears block a new connection",
+      "type": "supply_code",
+      "holding": "Outstanding dues on the property bar a new connection until cleared. A petitioner who, on account of financial distress, cannot deposit those dues in one stroke may move the competent authority under clause 6.14 for easy instalments. Where the licensee does not object and says a fresh application will be considered as per law, the writ is disposed on consent by directing that if such an application is moved within one week, the authority shall dispose of it so the dues may be deposited and the application for a fresh connection may be processed.",
+      "paras": "3-6"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "instalment-facility-clause-6.14-for-financial-distress",
+      "application": "The petitioner, unable to clear property arrears in one stroke because of financial distress, was left to move a fresh application under clause 6.14 within one week, which the competent authority was directed to decide so the dues could be deposited and the new-connection application processed.",
+      "lead_authorities": [],
+      "paras": "4-6"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the commercial connection must be granted, and on what instalment schedule the outstanding dues are to be cleared.",
+      "note": "Left to the competent authority on a fresh clause 6.14 application.",
+      "paras": "6"
+    }
+  ],
+  "authorities": []
+}
