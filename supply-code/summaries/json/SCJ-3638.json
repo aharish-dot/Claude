@@ -1,0 +1,73 @@
+{
+  "case_id": "SCJ-3638",
+  "title": "Vandana Singh v. Uttar Pradesh Power Corporation Limited",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta and Ajit Singh, JJ.",
+  "date_of_judgment": "2023-01-13",
+  "date_display": "13 January 2023",
+  "docket": "Writ - C No. 509 of 2023",
+  "page_count": 1,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Final assessment and recovery citation quashed for 15-day breach",
+  "headnote": "Fifteen days' clear time between service of the provisional assessment order and the final assessment order is mandatory under Clause 6.8 of the U.P. Electricity Supply Code, 2005. Where the licensee concedes that interval was not given, the final assessment order and the recovery citation are quashed, with liberty to pass a fresh order in accordance with the prescribed procedure.",
+  "facts": "Vandana Singh petitioned the Allahabad High Court against Uttar Pradesh Power Corporation Limited and two others. She challenged a notice dated 31 May 2022, a final assessment order of the same date, and a recovery citation dated 7 December 2022 issued by the third respondent. The electricity department conceded that she had not been given fifteen days' clear time between service of the provisional assessment order and the final assessment order.",
+  "reusable_constructions": [
+    {
+      "construction": "Fifteen days' clear time between service of the provisional assessment order and the final assessment order is mandatory under Clause 6.8 of the U.P. Electricity Supply Code, 2005.",
+      "paras": "1"
+    },
+    {
+      "construction": "A final assessment order passed without that clear fifteen-day interval, and the recovery citation issued upon it, are quashed, the licensee remaining free to pass a fresh order strictly in accordance with the prescribed procedure.",
+      "paras": "1"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8",
+      "code": "UP-2005",
+      "clause": "6.8",
+      "topic": "Mandatory fifteen-day gap before final assessment",
+      "type": "supply_code",
+      "holding": "On the licensee's concession that fifteen days' clear time was not available between service of the provisional assessment order and the final assessment order, that interval being mandatory under Clause 6.8 of the U.P. Electricity Supply Code, 2005, the final assessment order dated 31.05.2022 and the recovery citation dated 07.12.2022 are quashed, with liberty to pass a fresh order strictly in consonance with the procedure prescribed under law.",
+      "paras": "1",
+      "flag": "The order cites Clause 6.8 without a sub-clause for the mandatory fifteen-day interval."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "6.8-procedure-mandatory",
+      "application": "The department conceded, and the Court accepted, that fifteen days' clear time between service of the provisional assessment and the final assessment order is mandatory under Clause 6.8.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "assessment-quashed-for-breach-of-clause-6.8-procedure",
+      "application": "Because that mandatory interval was not available, the final assessment order dated 31.05.2022 was quashed, with liberty to pass a fresh order in accordance with the prescribed procedure.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "para-6.8-non-compliance-vitiates-assessment-and-recovery",
+      "application": "Non-compliance with the Clause 6.8 interval also led the Court to quash the recovery citation dated 07.12.2022 issued on the final assessment.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits of the assessment and the consumer's liability",
+      "note": "Respondents were left free to pass a fresh order strictly in consonance with the procedure prescribed under law.",
+      "paras": "1"
+    },
+    {
+      "point": "The notice dated 31.05.2022, challenged separately from the final assessment order of the same date",
+      "note": "The operative order quashes the final assessment order and the recovery citation and does not separately set aside that notice.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
