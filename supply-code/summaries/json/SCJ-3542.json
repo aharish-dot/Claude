@@ -1,0 +1,61 @@
+{
+  "case_id": "SCJ-3542",
+  "title": "Aaysha Begum v. Purvanchal Vidhut Vitrana Nigam Ltd.",
+  "neutral_citation": "2023:AHC:161573-DB",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Pritinker Diwaker, C.J. and Ashutosh Srivastava, J.",
+  "date_of_judgment": "2023-08-10",
+  "date_display": "10 August 2023",
+  "docket": "Writ - C No. 26778 of 2023",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; clause 8.1 assessment sustained, objections left open",
+  "headnote": "The Division Bench dismissed a writ against a theft assessment and a recovery notice under section 3 of the U.P. Government Electrical Undertaking (Dues Recovery) Act, 1958. Section 153 of the Electricity Act, 2003 constitutes a Special Court, but clause 8.1 of the U.P. Electricity Supply Code, 2005 is the procedure where theft under section 135 is suspected. Under clause 8.1(b)(iii) the Assessing Officer serves a provisional assessment bill with a show-cause notice giving fifteen working days for written objections and for the consumer to answer the charges. Under clause 8.1(b)(iv), if theft is established after hearing, past consumption is assessed under Annexure 6.3 at twice the applicable tariff, in addition to proceedings described in clause 8.2(vii). The plea that the Executive Engineer lacked authority was rejected. The petitioner was left to file objections before him, to be decided expeditiously.",
+  "facts": "On 12 April 2023 the Executive Engineer, Purvanchal Vidhut Vitrana Nigam Ltd., searched Aaysha Begum's premises at Karelabagh, Allahabad. A provisional assessment notice dated 24 April 2023 allowed fifteen days to reply. The 12 May 2023 order recorded that she had tapped the main line and bypassed the meter. A section 3 recovery notice under the U.P. Government Electrical Undertaking (Dues Recovery) Act, 1958 followed on 3 June 2023. She sought to quash both, contending that only the Special Court could fix civil liability for section 135 theft.",
+  "reusable_constructions": [
+    {
+      "construction": "Suspected theft under section 135 is assessed by the licensee's Assessing Officer under clause 8.1 of the U.P. Electricity Supply Code, 2005, alongside the Special Court constituted under section 153.",
+      "paras": "6-7"
+    },
+    {
+      "construction": "Where theft is established after hearing, clause 8.1(b)(iv) assesses past consumption under Annexure 6.3 at twice the applicable tariff, in addition to civil or criminal proceedings under clause 8.2(vii).",
+      "paras": "6"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::8.1(b)(iii),(iv)",
+      "code": "UP-2005",
+      "clause": "8.1(b)(iii),(iv)",
+      "topic": "Assessing Officer's theft assessment and Special Court",
+      "type": "interplay",
+      "holding": "Section 153 provides for a Special Court, but clause 8.1 of the U.P. Electricity Supply Code, 2005 is the procedure for suspected theft under section 135. Under clause 8.1(b)(iii) the Assessing Officer who suspects such theft serves a provisional assessment bill with a show-cause notice, giving fifteen working days, inviting written objections and requiring the consumer to answer the charges. Under clause 8.1(b)(iv), if after hearing the authorised officer finds theft established, past consumption is assessed under Annexure 6.3 at twice the applicable normal tariff and is demanded in a separate bill. That assessment is in addition to civil or criminal proceedings described in clause 8.2(vii). A challenge that the Executive Engineer had no authority, and that only the Special Court could determine civil liability, does not merit consideration. The writ was dismissed, with liberty to file objections before the Executive Engineer for an expeditious decision.",
+      "paras": "6-8"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "clause-8.1b-theft-notice-natural-justice",
+      "application": "Clause 8.1(b)(iii) was applied as the notice for suspected section 135 theft: a provisional assessment bill, show-cause, fifteen working days, written objections, and the consumer's presence to answer the charges. That procedure answered the plea that the Executive Engineer could not assess or issue the section 3 recovery notice and that only the Special Court under section 153 could determine civil liability.",
+      "lead_authorities": [],
+      "paras": "6-7"
+    },
+    {
+      "tag": "clause-8.1-8.2-govern-theft-assessment-not-6.8",
+      "application": "The Court held that clause 8.1 supplies the procedure for theft and that the assessment under clause 8.1(b)(iv), at twice the tariff under Annexure 6.3, stands in addition to civil or criminal proceedings described in clause 8.2(vii).",
+      "lead_authorities": [],
+      "paras": "6"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether tapping and meter bypass amounted to theft, and the quantum payable under Annexure 6.3",
+      "note": "The petitioner may file objections before the Executive Engineer, who shall decide them expeditiously.",
+      "paras": "8"
+    }
+  ],
+  "authorities": []
+}
