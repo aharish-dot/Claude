@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3544,
+  "next_seq": 3545,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -21232,6 +21232,12 @@
       "case_id": "SCJ-3541",
       "source_basename": "WRIC(A)_26748_2023.pdf",
       "title": "M/S Matrumal Dhannalal Oil Mill v. State of U.P. and Another",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3543",
+      "source_basename": "WRIC(A)_26984_2023.pdf",
+      "title": "Mukesh Kumar Dubey v. State of U.P. and Another",
       "status": "done"
     }
   ]
