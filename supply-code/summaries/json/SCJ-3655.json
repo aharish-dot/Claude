@@ -1,0 +1,56 @@
+{
+  "case_id": "SCJ-3655",
+  "title": "Mukundi Lal v. State of U.P. and Others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta, J. and Prashant Kumar, J.",
+  "date_of_judgment": "2023-03-14",
+  "date_display": "14 March 2023",
+  "docket": "WRIT - C No. 6280 of 2023",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Demand notice quashed; final assessment under Supply Code.",
+  "headnote": "A demand notice for electricity dues and compounding fee in a theft case, issued before the final assessment order, is illegal and is quashed. The consumer may object to the provisional assessment within two weeks, and the authority must then make the final assessment strictly in accordance with the procedure in the Electricity Supply Code, 2005.",
+  "facts": "Mukundi Lal petitioned the Allahabad High Court against a demand notice dated 30 December 2022 of the Executive Engineer, Electricity Distribution Division, Chitrakoot. The notice called for Rs 82,893 as electricity dues and compounding fee in a theft-of-electricity case. Counsel for the distribution licensee stated that the petitioner had been found drawing electrical energy illegally, that a provisional assessment notice had gone out on 10 November 2022, and that no final assessment order had yet been made.",
+  "reusable_constructions": [
+    {
+      "construction": "A demand for electricity dues and compounding fee in a theft case, raised before the final assessment order is passed, is illegal and is to be quashed.",
+      "paras": "3"
+    },
+    {
+      "construction": "After a provisional assessment in a theft case, the consumer may object within the time allowed, and the authority must then pass the final assessment strictly under the procedure in the Electricity Supply Code, 2005.",
+      "paras": "4"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::final-assessment",
+      "code": "UP-2005",
+      "clause": "final-assessment",
+      "topic": "Demand for theft dues and compounding fee before final assessment",
+      "type": "supply_code",
+      "holding": "Because the final assessment order had not been passed, the demand notice dated 30.12.2022 for Rs 82,893 towards electricity dues and compounding fee was illegal and was quashed. The petitioner may file objections to the provisional assessment notice dated 10.11.2022 within two weeks, and the authority must then make the final assessment strictly in accordance with the procedure prescribed under the Electricity Supply Code, 2005.",
+      "paras": "3-4",
+      "flag": "The order invokes the Electricity Supply Code, 2005 for the final-assessment procedure but states no numbered clause."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "demand-illegal-before-final-assessment",
+      "application": "The demand notice of 30.12.2022 for dues and compounding fee was quashed because no final assessment order had been passed; objections to the provisional assessment of 10.11.2022 were left open and final assessment was directed under the Electricity Supply Code, 2005.",
+      "lead_authorities": [],
+      "paras": "3-4"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner had extracted electrical energy illegally, and what sum if any is payable as dues or compounding fee",
+      "note": "Left to objections against the provisional assessment and to the final assessment under the Supply Code.",
+      "paras": "2-4"
+    }
+  ],
+  "authorities": []
+}
