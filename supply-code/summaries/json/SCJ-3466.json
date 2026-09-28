@@ -1,0 +1,45 @@
+{
+  "case_id": "SCJ-3466",
+  "title": "Preety Gautam v. State of U.P. and Others",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Surya Prakash Kesarwani, J.; Anish Kumar Gupta, J.",
+  "date_of_judgment": "2023-05-19",
+  "date_display": "19 May 2023",
+  "docket": "Writ-C No. 16978 of 2023",
+  "page_count": 1,
+  "significance": "significant",
+  "outcome": "licensee",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; mandamus refused for want of clause 4.4(a) documents.",
+  "headnote": "A mandamus for a new electricity connection will not issue where the applicant has not accompanied the application with the documents required by clause 4.4(a) of the U.P. Electricity Supply Code, 2005. Expiry of a fixed-term rent agreement, which left the applicant unable to file those documents, does not excuse the omission.",
+  "facts": "Preety Gautam applied for a new electricity connection at the premises in question. By an order dated 20 April 2023 the application was rejected. In the writ she sought a mandamus against respondent no. 3. Asked to show that the application was accompanied by the documents required under clause 4.4(a) of the U.P. Electricity Supply Code, 2005, her counsel stated that a fixed-term rent agreement had already expired, so those documents could not be submitted.",
+  "reusable_constructions": [
+    {
+      "construction": "Mandamus directing a new electricity connection will not issue where the applicant admits the application was not accompanied by the documents clause 4.4(a) of the U.P. Electricity Supply Code, 2005 requires; expiry of a fixed-term rent agreement does not excuse that omission.",
+      "paras": "3-6"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.4(a)",
+      "code": "UP-2005",
+      "clause": "4.4(a)",
+      "topic": "New connection — documents with the application",
+      "type": "supply_code",
+      "holding": "No mandamus can issue to the licensee to grant a new electricity connection where the applicant has not complied with clause 4.4(a) of the U.P. Electricity Supply Code, 2005 by accompanying the application with the documents that clause requires. The applicant's statement that a fixed-term rent agreement had already expired, and that she therefore could not submit those documents, confirms the non-compliance and does not entitle her to the writ.",
+      "paras": "3-6"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "no-mandamus-absent-clause-4.4a-documents",
+      "application": "The Division Bench dismissed the writ because the petitioner conceded she had not filed the clause 4.4(a) documents with her new-connection application, an expired fixed-term rent agreement having left her unable to do so.",
+      "lead_authorities": [],
+      "paras": "5-6"
+    }
+  ],
+  "not_decided": [],
+  "authorities": []
+}
