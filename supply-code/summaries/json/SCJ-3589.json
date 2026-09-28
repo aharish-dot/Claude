@@ -1,0 +1,64 @@
+{
+  "case_id": "SCJ-3589",
+  "title": "Meena Devi And 2 Others v. Dakshinanchal Vidyut Vitran Nigam Limited And Another",
+  "neutral_citation": "2023:AHC:207028-DB",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Mahesh Chandra Tripathi, J.; Prashant Kumar, J.",
+  "date_of_judgment": "2023-10-30",
+  "date_display": "30 October 2023",
+  "docket": "Writ - C No. 34304 of 2023",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; apply under clause 4.4(a) within a week",
+  "headnote": "Tenants of a Mathura shop sought a mandamus for a new connection after the landlord disconnected supply during a possession dispute and the licensee left their online application unprocessed. The Division Bench held that the Electricity Supply Code, 2005 is a self-contained code and that clause 4.4(a) gives such occupants a right to a new connection. Without any opinion on the merits, the writ was disposed of with liberty to apply under that clause within a week, the licensee to examine and remedy the application in accordance with law, preferably within six weeks of production of the certified copy.",
+  "facts": "Meena Devi and two others are tenants of shop no. 8, Radha Krishna Shrangar, Krishna Janam Bhumi, Mathura. They had sued the landlord for a permanent injunction over the shop. They alleged that, to oust them, the landlord disconnected the electricity, and that Dakshinanchal Vidyut Vitran Nigam Ltd. had not processed their online application dated 19 July 2023 (no. 1013673377) for a fresh connection. They sought a mandamus directing the licensee to provide that connection.",
+  "reusable_constructions": [
+    {
+      "construction": "A tenant whose landlord has disconnected supply during a possession dispute may seek a new connection under clause 4.4(a) of the U.P. Electricity Supply Code, 2005, which accepts proof of occupancy (a rent receipt, valid lease, or the indemnity form) and not only title.",
+      "paras": "4-5"
+    },
+    {
+      "construction": "Because the Supply Code is a self-contained mechanism, the writ court does not itself grant the connection: it leaves the occupant to apply under clause 4.4(a) within one week and expects the licensee to decide that application in accordance with law within six weeks of the certified copy.",
+      "paras": "5-6"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.4(a)",
+      "code": "UP-2005",
+      "clause": "4.4(a)",
+      "topic": "New connection for a tenant after landlord disconnection",
+      "type": "supply_code",
+      "holding": "Clause 4.4(a) of the Electricity Supply Code, 2005 entitles the petitioner-tenants to a new electricity connection, and the Code is a self-contained mechanism for that grievance. Without any opinion on the merits, the writ is disposed of with liberty to move an application in terms of clause 4.4(a) within one week; if moved, the licensee is to examine and remedy it strictly in accordance with law, preferably within six weeks of production of a certified copy of the order.",
+      "paras": "5-6"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "UP-2005::4.4(a)",
+      "application": "Tenants whose supply was cut by the landlord during a shop dispute are treated as entitled to a new connection under clause 4.4(a); the writ is closed by liberty to apply within a week, the licensee to examine the application in accordance with law.",
+      "lead_authorities": [],
+      "paras": "5-6"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the new connection must be granted on the documents the petitioners can produce",
+      "note": "The Court expressed no opinion on the merits and left any application moved under clause 4.4(a) to be examined in accordance with law.",
+      "paras": "6"
+    },
+    {
+      "point": "Whether owner's consent under the quoted clause 4.4(a)(vi) is required, or whether proof of occupancy or the indemnity form suffices against a hostile landlord",
+      "note": "Sub-clause (vi) was set out but not applied; compliance was left to the licensee's examination.",
+      "paras": "5-6"
+    },
+    {
+      "point": "The pending injunction suit and the legality of the landlord's disconnection",
+      "paras": "4"
+    }
+  ],
+  "authorities": []
+}
