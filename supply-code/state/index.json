@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3578,
+  "next_seq": 3579,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -21436,6 +21436,12 @@
       "case_id": "SCJ-3575",
       "source_basename": "WRIC(A)_32541_2023.pdf",
       "title": "Pushpanji Constructions (P) Ltd. v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3577",
+      "source_basename": "WRIC(A)_32887_2023.pdf",
+      "title": "Bhola Nath Yadav v. State of U.P. and 2 Others",
       "status": "done"
     }
   ]
