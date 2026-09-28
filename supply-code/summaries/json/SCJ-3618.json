@@ -1,0 +1,65 @@
+{
+  "case_id": "SCJ-3618",
+  "title": "Raisha Khan v. State of U.P. and Others",
+  "neutral_citation": "2023:AHC:236023-DB",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta, ACJ; Kshitij Shailendra, J.",
+  "date_of_judgment": "2023-12-13",
+  "date_display": "13.12.2023",
+  "docket": "Writ - C No. 41089 of 2023",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed of with a direction to sanction the connection without delay once the Annexure 4.2 indemnity bond is executed and other formalities are completed.",
+  "headnote": "Under clause 4.4(f)(i) of the U.P. Electricity Supply Code, 2005, an occupant who has applied for a new connection is entitled to have it sanctioned on executing the Annexure 4.2 indemnity bond and completing the other formalities, even if the licensee treats her as a tenant. Outstanding demands against other persons, or against a previous connection-holder, do not stand in the way where no dues are claimed against the applicant herself. The High Court disposed of the writ with a direction to sanction accordingly, without delay.",
+  "facts": "Raisha Khan, a below-poverty-line resident, lives among many small houses on Gata No. 126-A, Usmanpur Gaon, Kanpur Nagar, where neighbours already hold separate electricity connections. She applied for a connection in her own name. The distribution licensee neither sanctioned it nor replied. In the writ the licensee said she was a tenant of Raj Kishore Shukla, whose connection still carried unpaid dues. She denied any tenancy and any dues of her own, and said the department was linking her to recoveries against other persons.",
+  "reusable_constructions": [
+    {
+      "construction": "An occupant is entitled under clause 4.4(f)(i) of the U.P. Electricity Supply Code, 2005 to sanction of a new connection once the Annexure 4.2 indemnity bond is executed and the other formalities are completed, even if the licensee treats the applicant as a tenant.",
+      "paras": "6-8"
+    },
+    {
+      "construction": "Where the applicant has neither a connection nor any dues of her own, the licensee cannot withhold sanction by associating her with outstanding demands against other persons or a previous connection-holder.",
+      "paras": "3-5,8"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::4.4f(i)",
+      "code": "UP-2005",
+      "clause": "4.4(f)(i)",
+      "topic": "occupant connection on indemnity bond",
+      "type": "supply_code",
+      "holding": "The licensee conceded that under clause 4.4(f)(i) a connection could be released on an indemnity bond even if the applicant were assumed to be a tenant. The Court directed that, once she executes the indemnity bond in Annexure/Form 4.2 and completes the other formalities, the respondents shall sanction the electric connection in her favour without any delay.",
+      "paras": "6-8"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "occupier-entitled-to-connection-on-indemnity-bond-annexure-4.2",
+      "application": "The Division Bench directed sanction without delay once Raisha Khan executes the Annexure 4.2 indemnity bond and completes the other formalities, the licensee having conceded that clause 4.4(f)(i) permits release even on the assumption that she is a tenant.",
+      "lead_authorities": [],
+      "paras": "6-8"
+    },
+    {
+      "tag": "clause-4.4-occupant-connection-on-indemnity-bond",
+      "application": "Clause 4.4(f)(i) was applied to an occupant of a house at Usmanpur Gaon who had applied in her own name and against whom no dues were claimed, so that a previous connection-holder's arrears did not block release once the indemnity bond was offered.",
+      "lead_authorities": [],
+      "paras": "3-8"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner was in fact a tenant of Raj Kishore Shukla, and any liability for dues on his connection",
+      "note": "The direction proceeds even on the assumption of tenancy, and records that no dues were claimed against the petitioner.",
+      "paras": "3-6"
+    },
+    {
+      "point": "Whether a prepaid-meter facility was available in District Kanpur Nagar and could be given to the petitioner",
+      "note": "The licensee sought time on this on 29 November 2023. The petition was later disposed of by a direction to sanction a connection on the indemnity bond, without deciding the prepaid-meter issue."
+    }
+  ],
+  "authorities": []
+}
