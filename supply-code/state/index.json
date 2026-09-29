@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3778,
+  "next_seq": 3779,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -22636,6 +22636,12 @@
       "case_id": "SCJ-3776",
       "source_basename": "WRIC(A)_6170_2024.pdf",
       "title": "Rambabu v. State of U.P. and Others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3775",
+      "source_basename": "WRIC(A)_6144_2024.pdf",
+      "title": "Kunwar Pal @ Vechelal v. Madhyanchal Electricity Distribution Corporation Ltd.",
       "status": "done"
     }
   ]
