@@ -1,0 +1,55 @@
+{
+  "case_id": "SCJ-3704",
+  "title": "Kusum Srivastava v. State of U.P.",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad, Lucknow Bench",
+  "bench": "Division Bench",
+  "coram": "Devendra Kumar Upadhyaya, J.; Subhash Vidyarthi, J.",
+  "date_of_judgment": "2023-03-03",
+  "date_display": "3 March 2023",
+  "docket": "WRIT - C No. - 1903 of 2023",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Recovery quashed for want of a final assessment order.",
+  "headnote": "Recovery under section 3 of the U.P. Electrical Undertakings (Dues Recovery) Act, 1958, begun after a provisional assessment and without a final assessment order, was quashed. Under the Electricity Act, 2003 read with the Supply Code, objections must be invited and a final assessment order passed and served before coercive recovery; failure to object does not dispense with that final order.",
+  "facts": "Kusum Srivastava, a consumer in Amethi, faced recovery by Madhyanchal Vidyut Vitran Khand. The company issued a demand notice under section 3 of the U.P. Electrical Undertakings (Dues Recovery) Act, 1958 and sent a recovery certificate to the Collector. On 13 January 2023 the Tehsildar, Amethi issued a writ of demand under the U.P. Revenue Code, 2006. The company's counsel said a provisional assessment had been served and that recovery followed because no objection was filed. No final assessment order was produced before the Court.",
+  "reusable_constructions": [
+    {
+      "construction": "Coercive recovery of electricity dues cannot rest on a provisional assessment alone; the Act read with the Supply Code requires an opportunity to object and a final assessment order first.",
+      "paras": "1-2"
+    },
+    {
+      "construction": "A consumer's failure to object to a provisional assessment does not relieve the licensee of the duty to pass and serve a final assessment order before taking coercive steps.",
+      "paras": "1-2"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::3.3(e)",
+      "code": "UP-2005",
+      "clause": "3.3(e)",
+      "topic": "Final assessment before coercive recovery",
+      "type": "interplay",
+      "holding": "Under the Electricity Act, 2003 read with the Electricity Supply Code, objections are invited after a provisional assessment and a final assessment order must then be passed. Recovery started on the provisional assessment alone, with no final assessment order, is without authority, even where the consumer filed no objection. The demand notice and consequential recovery were quashed. The distribution company must serve the provisional assessment within ten days; the consumer may reply within a fortnight; the competent authority must then pass and serve a final assessment order. Coercive recovery lies only if the amount remains unpaid after that service.",
+      "paras": "1-2"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "final-assessment-before-coercive-recovery",
+      "application": "The demand notice and revenue recovery, founded only on a provisional assessment, were quashed, and coercive steps were confined to non-payment after a final assessment order is passed and served.",
+      "lead_authorities": [],
+      "paras": "1-2"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether any sum was due, and the correctness of the provisional assessment",
+      "note": "Left to a final assessment order after the provisional assessment is served and the consumer is given a fortnight to object.",
+      "paras": "1-2"
+    }
+  ],
+  "authorities": []
+}
