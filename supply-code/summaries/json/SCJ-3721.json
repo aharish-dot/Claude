@@ -1,0 +1,79 @@
+{
+  "case_id": "SCJ-3721",
+  "title": "Ram Pratap v. State of U.P. and others",
+  "neutral_citation": "2024:AHC:156025-DB",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta, J. and Kshitij Shailendra, J.",
+  "date_of_judgment": "2024-09-24",
+  "date_display": "24 September 2024",
+  "docket": "Writ C No. 30286 of 2024",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Recovery withdrawn; fresh assessment allowed subject to costs.",
+  "headnote": "In a writ against a recovery certificate for alleged theft dues, the licensee conceded that Clauses 6.8 and 8.1 of the U.P. Electricity Supply Code, 2005 had not been followed and that the certificate dated 30.07.2024 had been withdrawn on 18.09.2024. The Division Bench disapproved withdrawal only after the consumer was driven to court, permitted a fresh order after hearing subject to costs of Rs. 10,000 to the petitioner, and directed that the order be placed before the DISCOM Managing Director to decide whether the DISCOM or the Executive Engineer bears that cost.",
+  "facts": "Ram Pratap approached the Allahabad High Court to quash a recovery certificate dated 30 July 2024 issued for electricity dues in a case of alleged theft. He said that no incriminating article had been seized during the inspection. On 11 September 2024 the Court gave the Electricity Department ten days to take instructions and listed the petition for 24 September 2024. Counsel for the Department then stated that the recovery had been withdrawn on 18 September 2024.",
+  "reusable_constructions": [
+    {
+      "construction": "Recovery of electricity dues raised without following Clauses 6.8 and 8.1 is to be withdrawn, and the licensee may pass a fresh order only after hearing the consumer.",
+      "paras": "3-6"
+    },
+    {
+      "construction": "A procedural defect in an electricity assessment should be met by forthwith withdrawal of the recovery, without waiting until the consumer is compelled to approach the writ court.",
+      "paras": "4-5"
+    },
+    {
+      "construction": "Liberty to assess afresh after a defective recovery is withdrawn may be conditioned on costs to the consumer, with the DISCOM Managing Director to decide whether the DISCOM or the Executive Engineer bears those costs.",
+      "paras": "6-7"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8",
+      "code": "UP-2005",
+      "clause": "6.8",
+      "topic": "non-compliance vitiates recovery of alleged theft dues",
+      "type": "supply_code",
+      "holding": "On the licensee's concession that the procedure under Clauses 6.8 and 8.1 was not followed, the recovery certificate dated 30.07.2024, withdrawn on 18.09.2024, could not be pursued. A procedural defect ought to have been corrected by forthwith withdrawal, rather than after the consumer was forced to file a writ.",
+      "paras": "3-5"
+    },
+    {
+      "provision": "UP-2005::8.1",
+      "code": "UP-2005",
+      "clause": "8.1",
+      "topic": "fresh order after hearing, subject to costs",
+      "type": "supply_code",
+      "holding": "The Electricity Department may proceed afresh and pass a new order only after giving the consumer an opportunity of hearing, and only subject to payment of Rs. 10,000 as costs. The order is to be placed before the Managing Director of the concerned DISCOM to decide whether that cost is paid by the DISCOM or by the Executive Engineer.",
+      "paras": "3,6-8"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "para-6.8-non-compliance-vitiates-assessment-and-recovery",
+      "application": "The licensee conceded that Clause 6.8 had not been followed in making the assessment. The recovery certificate was withdrawn, and the Court treated that recovery as no longer pursuable.",
+      "lead_authorities": [],
+      "paras": "3-5"
+    },
+    {
+      "tag": "clause-8.1b-personal-hearing-mandatory-before-final-assessment",
+      "application": "The Court accepted that Clause 8.1 had not been followed and allowed the Department to pass a fresh order only after giving the petitioner an opportunity of hearing. The order names Clause 8.1 without a sub-clause.",
+      "lead_authorities": [],
+      "paras": "3,6"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner had indulged in theft, including the effect of no incriminating article having been seized at inspection.",
+      "note": "Left open because the recovery was withdrawn and a fresh order after hearing was permitted.",
+      "paras": "2-3"
+    },
+    {
+      "point": "Whether the cost of Rs. 10,000 is to be borne by the DISCOM or by the concerned Executive Engineer.",
+      "note": "Expressly left to the Managing Director of the DISCOM.",
+      "paras": "7"
+    }
+  ],
+  "authorities": []
+}
