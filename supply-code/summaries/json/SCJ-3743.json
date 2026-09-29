@@ -1,0 +1,56 @@
+{
+  "case_id": "SCJ-3743",
+  "title": "Phool Singh v. Purvanchal Vidyut Vitran Nigam Ltd.",
+  "neutral_citation": "2024:AHC:180759-DB",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Hon'ble Vivek Kumar Birla, J. and Hon'ble Dr. Yogendra Kumar Srivastava, J.",
+  "date_of_judgment": "2024-11-19",
+  "date_display": "19 November 2024",
+  "docket": "WRIT - C No. - 37931 of 2024",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ dismissed; liberty to avail the statutory remedy against the final assessment.",
+  "headnote": "Writ against a delayed assessment notice dismissed once a final assessment order had been passed and communicated. The High Court did not examine limitation under section 126(3) or exclusive Special Court jurisdiction under sections 135 and 153, and left the petitioner to the statutory remedy against the final assessment.",
+  "facts": "Phool Singh challenged a 29 May 2024 notice of Purvanchal Vidyut Vitran Nigam Ltd. as issued more than two years late and barred by section 126(3) of the Electricity Act, 2003 read with clause 6.8 of the U.P. Electricity Supply Code, 2005. He also treated the allegation as theft under section 135, triable only by the Special Court under section 153. At the hearing the licensee placed on record a final assessment order of 22 October 2024, posted to him on 23 October 2024.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8",
+      "code": "UP-2005",
+      "clause": "6.8",
+      "topic": "statutory remedy against final assessment",
+      "type": "supply_code",
+      "holding": "Once a final assessment order has been passed and communicated, the High Court will not entertain a writ against the preceding notice and will dismiss it with liberty to avail the effective alternative statutory remedy against that order in accordance with law.",
+      "paras": "3-7"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "alternative-remedy-statutory-appeal-6.8",
+      "application": "The licensee having produced the final assessment order dated 22.10.2024, communicated on 23.10.2024, the writ challenging the earlier notice was dismissed so the consumer could pursue the statutory appeal.",
+      "lead_authorities": [],
+      "paras": "3-7"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the notice dated 29.05.2024 or the final assessment dated 22.10.2024 is barred by section 126(3) of the Electricity Act, 2003 read with the Supply Code clauses pleaded as 6.8(a)(vi), 6.8(b)(i) and 6.8(c)(i).",
+      "note": "The prayer pleaded 'clause 6.8 a (vi)'. The Court did not construe or correct that numbering.",
+      "paras": "2-4"
+    },
+    {
+      "point": "Whether an allegation of theft under section 135 leaves civil liability exclusively to the Special Court under section 153, so that the Executive Engineer's provisional assessment is without jurisdiction.",
+      "note": "The Court noted that Writ-C No. 26778 of 2023 (Aaysha Begum) was dismissed on this ground, without restating that decision, and disposed of the petition on the statutory remedy.",
+      "paras": "5-6"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Aaysha Begum v. Purvanchal Vidhut Vitrana Nigam Ltd.",
+      "citation": "Writ-C No. 26778 of 2023, decided on 10.08.2023",
+      "cited_by": "6"
+    }
+  ]
+}
