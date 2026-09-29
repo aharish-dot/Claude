@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3740,
+  "next_seq": 3741,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -22408,6 +22408,12 @@
       "case_id": "SCJ-3737",
       "source_basename": "WRIC(A)_36015_2024.pdf",
       "title": "Naeem Beg v. Executive Engineer, Electricity Urban Distribution Division-IV, Dakshinanchal Electricity Distribution Corporation Ltd. and Another",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3738",
+      "source_basename": "WRIC(A)_36116_2024.pdf",
+      "title": "Smt. Nisha v. State of U.P. and Others",
       "status": "done"
     }
   ]
