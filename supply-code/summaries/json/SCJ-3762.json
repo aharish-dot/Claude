@@ -1,0 +1,67 @@
+{
+  "case_id": "SCJ-3762",
+  "title": "Ravi Shankar Vishwakarma v. State of U.P. and 3 Others",
+  "neutral_citation": "2024:AHC:46600-DB",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta, J. and Kshitij Shailendra, J.",
+  "date_of_judgment": "2024-03-15",
+  "date_display": "15 March 2024",
+  "docket": "Writ - C No. 4329 of 2024",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Final assessment quashed for want of a hearing date.",
+  "headnote": "A final assessment in an alleged electricity-theft case, passed only because the consumer filed no objection, is illegal where no date was fixed for hearing him, contrary to clause 6.8 of the U.P. Electricity Supply Code, 2005. The assessment was quashed, with two weeks to object and a hearing on 8 April 2024 before a fresh final assessment.",
+  "facts": "The petitioner challenged the Electricity Department's final assessment order dated 18 October 2023 in a case of alleged theft of electricity. A notice of provisional assessment dated 17 June 2023 had granted him fifteen days to file objections. The Department dispatched that notice by registered post on 17 August 2023 and fixed no date for his hearing. It then passed the final assessment solely because he had filed no objection.",
+  "reusable_constructions": [
+    {
+      "construction": "A final assessment made only because the consumer filed no objection is illegal where, contrary to clause 6.8 of the U.P. Electricity Supply Code, 2005, no date was fixed for hearing him on the provisional assessment.",
+      "paras": "2"
+    },
+    {
+      "construction": "After such a quash the consumer is to be given a short time to object and one fixed date of personal hearing, following which a fresh final assessment may be passed; failure to object or appear on that date lets the authority proceed without another date.",
+      "paras": "3"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8",
+      "code": "UP-2005",
+      "clause": "6.8",
+      "topic": "Hearing date mandatory before final assessment",
+      "type": "supply_code",
+      "holding": "Notice of provisional assessment dated 17 June 2023 gave fifteen days to object and was sent by registered post on 17 August 2023, but no date was fixed for hearing the petitioner, contrary to clause 6.8 of the U.P. Electricity Supply Code, 2005. The final assessment of 18 October 2023, passed because no objection was filed, is illegal and is quashed. The petitioner has two weeks to object and will be heard by respondent no. 2 on 8 April 2024, after which a final assessment will be passed. If he neither files objections nor appears that day, respondent no. 2 may proceed without waiting for a reply or fixing another date.",
+      "paras": "2-3"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "assessment-quashed-for-breach-of-clause-6.8-procedure",
+      "application": "The final assessment of 18 October 2023 was quashed because it rested on non-filing of objections when no hearing date had been fixed, contrary to clause 6.8.",
+      "lead_authorities": [],
+      "paras": "2"
+    },
+    {
+      "tag": "clause-6.8-hearing-procedure-mandatory-before-uue-conclusion",
+      "application": "In this alleged theft assessment the Court treated clause 6.8 as requiring a fixed date of hearing before a final assessment could be made, and held the omission fatal.",
+      "lead_authorities": [],
+      "paras": "2"
+    },
+    {
+      "tag": "6.8-procedure-mandatory",
+      "application": "Non-compliance with the clause 6.8 hearing procedure rendered the final assessment illegal; objections and one dated hearing were then directed before a fresh order.",
+      "lead_authorities": [],
+      "paras": "2-3"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner had committed theft of electricity and what sum a fresh final assessment should fix.",
+      "note": "Left to respondent no. 2 after objections and the hearing on 8 April 2024.",
+      "paras": "3"
+    }
+  ],
+  "authorities": []
+}
