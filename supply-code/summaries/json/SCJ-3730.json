@@ -1,0 +1,66 @@
+{
+  "case_id": "SCJ-3730",
+  "title": "Sita Ram v. State of U.P.",
+  "neutral_citation": "2024:AHC:191489-DB",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Hon'ble Vivek Kumar Birla, J. and Hon'ble Dr. Yogendra Kumar Srivastava, J.",
+  "date_of_judgment": "2024-12-06",
+  "date_display": "6 December 2024",
+  "docket": "Writ - C No. 33214 of 2024",
+  "page_count": 2,
+  "significance": "significant",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Disposed; consider objection before final order, else Section 127 appeal",
+  "headnote": "Where a recovery notice is challenged as raising a penalty and summon fees without assessment, and the licensee produces a fresh notice inviting objection to a provisional assessment in an alleged theft case, the writ is disposed by expecting the authority to consider an objection filed within ten days before the final assessment order. If a final assessment order has already been passed, the consumer is left at liberty to challenge it under Section 127, which the Court described as a provision of the U.P. Electricity Supply Code, 2005.",
+  "facts": "Sita Ram sought quashing of a recovery notice dated 5 January 2024 of the Executive Engineer, Electricity Distribution Division-I, Purvanchal Vidyut Vitran Limited, Ghazipur, demanding a penalty of Rs 4,12,530 and summon fees of Rs 1,00,000 without any assessment, and a decision on his application of 15 April 2024. The licensee called it a case of electricity theft and produced a fresh notice dated 21 October 2023 requiring an objection within seven days to an earlier provisional assessment, which was served on his counsel in court.",
+  "reusable_constructions": [
+    {
+      "construction": "A fresh notice inviting objection to a provisional assessment is answered by filing that objection for consideration before the final assessment order; a Section 127 appeal is indicated only where a final assessment order has already been passed.",
+      "paras": "4-5"
+    },
+    {
+      "construction": "A writ against a recovery notice alleged to rest on an unassessed penalty may be disposed without quashing or sustaining the demand, by requiring timely consideration of the objection and leaving any existing final assessment order to the Section 127 appeal.",
+      "paras": "4-6"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "EA2003::127",
+      "code": "EA2003",
+      "clause": "127",
+      "topic": "Objection to provisional assessment, and appeal only against a final assessment order",
+      "type": "electricity_act",
+      "holding": "If the petitioner furnished his objection to the fresh notice dated 21.10.2023 within ten days, the respondent authorities were expected to consider it before passing the final assessment order. If the final assessment order had already been passed, he was left at liberty to challenge it under Section 127, which the Court described as a provision of the U.P. Electricity Supply Code, 2005. The petition was disposed of on that footing.",
+      "paras": "4-6",
+      "flag": "Para 5 calls Section 127 a provision of the U.P. Electricity Supply Code, 2005. Section 127 is a provision of the Electricity Act, 2003. The number is left as the Court stated it."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "s127-appeal-lies-only-against-final-order-not-provisional-assessment",
+      "application": "The Court treated the fresh notice as a chance to object to the provisional assessment, to be considered before any final order, and confined the Section 127 challenge to the case where a final assessment order had already been passed.",
+      "lead_authorities": [],
+      "paras": "4-5"
+    },
+    {
+      "tag": "alternative-remedy-section-127-appeal",
+      "application": "The writ was disposed without a decision on the demand, leaving the petitioner, if a final assessment order already existed, to challenge that order under Section 127.",
+      "lead_authorities": [],
+      "paras": "5-6"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Validity of the recovery notice dated 05.01.2024 and of the penalty of Rs 4,12,530 and summon fees of Rs 1,00,000",
+      "note": "The Court did not quash or uphold the demand, and did not decide the application dated 15.04.2024.",
+      "paras": "2-6"
+    },
+    {
+      "point": "Whether a final assessment order had already been passed",
+      "paras": "4-5"
+    }
+  ],
+  "authorities": []
+}
