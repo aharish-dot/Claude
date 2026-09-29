@@ -1,0 +1,57 @@
+{
+  "case_id": "SCJ-3737",
+  "title": "Naeem Beg v. Executive Engineer, Electricity Urban Distribution Division-IV, Dakshinanchal Electricity Distribution Corporation Ltd. and Another",
+  "neutral_citation": "",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Single Judge (Court No. 33)",
+  "coram": "Vikram D. Chauhan, J.",
+  "date_of_judgment": "2024-11-05",
+  "date_display": "5 November 2024",
+  "docket": "WRIT - C No. 36015 of 2024",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "pending",
+  "model": "Grok 4.6",
+  "disposition": "Listed; connection abides by final writ; no suit benefit",
+  "headnote": "Owner's writ against a Permanent Lok Adalat direction to grant a shop connection to the occupant. Prima facie, an indemnity bond under the U.P. Electricity Supply Code, 2005 may make the owner's consent unnecessary. Notice issued; any connection under the impugned order abides by the writ's final decision and gives the occupant no advantage in the pending ejectment suit.",
+  "facts": "Naeem Beg claims to own a shop whose earlier electricity connection had been disconnected. The Permanent Lok Adalat directed the licensee to grant a connection to respondent no. 2 without hearing the owner. A civil suit for that occupant's ejectment was already pending and had been disclosed in the Lok Adalat's order. Beg filed this writ. On 5 November 2024 the Allahabad High Court issued notice to respondent no. 2, gave the licensee three weeks for a counter-affidavit, and listed the writ on 13 December 2024.",
+  "holding_units": [
+    {
+      "provision": "U.P. Electricity Supply Code, 2005",
+      "code": "UP-2005",
+      "clause": "indemnity-bond",
+      "topic": "Owner consent where a connection is sought on an indemnity bond, and the interim effect of a connection granted while the writ is pending",
+      "type": "supply_code",
+      "holding": "Prima facie, where the U.P. Electricity Supply Code, 2005 allows a connection on an indemnity bond, the property owner's consent is not necessary. The writ was not decided: notice issued to respondent no. 2 and the licensee was allowed three weeks for a counter-affidavit. Any electricity connection granted under the Permanent Lok Adalat's order abides by this Court's final decision, and respondent no. 2 cannot claim any benefit from that connection in the pending ejectment suit.",
+      "paras": "1",
+      "flag": "The order names the U.P. Electricity Supply Code, 2005 and an indemnity bond but cites no clause number. The consent observation is expressly prima facie."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "UP-2005::indemnity-bond",
+      "application": "Prima facie, once the Supply Code permits a connection on submission of an indemnity bond, consent of the owner is not necessary. The Court did not finally decide the point.",
+      "lead_authorities": [],
+      "paras": "1"
+    },
+    {
+      "tag": "connection-pending-writ-no-civil-benefit",
+      "application": "A connection granted under the impugned Lok Adalat order abides by this Court's final decision and confers no benefit on the occupant in the pending ejectment suit.",
+      "lead_authorities": [],
+      "paras": "1"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the Permanent Lok Adalat could direct an electricity connection to respondent no. 2 without hearing the owner",
+      "note": "Left open. The Court recorded only a prima facie view that an indemnity bond may make the owner's consent unnecessary, and directed that any connection abide by the final decision in the writ.",
+      "paras": "1"
+    },
+    {
+      "point": "The pending civil suit for ejectment of respondent no. 2",
+      "note": "Not decided. The occupant cannot claim any benefit arising out of the electricity connection in that suit.",
+      "paras": "1"
+    }
+  ],
+  "authorities": []
+}
