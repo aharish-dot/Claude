@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3718,
+  "next_seq": 3719,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -22276,6 +22276,12 @@
       "case_id": "SCJ-3715",
       "source_basename": "WRIC(L)_7457_2023.pdf",
       "title": "M/S Jai Jagdamba Metalloys Ltd. v. Madhyanchal Vidut Vitran Nigam Ltd.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3716",
+      "source_basename": "WRIC(L)_8045_2023.pdf",
+      "title": "K.T.L. Automobile Pvt. Ltd. v. State of U.P.",
       "status": "done"
     }
   ]
