@@ -1,0 +1,49 @@
+{
+  "case_id": "SCJ-3763",
+  "title": "Smt. Hardei v. State of U.P. and Others",
+  "neutral_citation": "2024:AHC:8657-DB",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": [
+    "Manoj Kumar Gupta, Acting Chief Justice",
+    "Kshitij Shailendra, J."
+  ],
+  "date_of_judgment": "2024-01-18",
+  "date_display": "18 January 2024",
+  "docket": "Writ-C No. 44075 of 2023",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "none",
+  "model": "Grok 4.6",
+  "disposition": "Petition disposed; recovery withdrawn; fresh assessment after Code procedure",
+  "headnote": "Where the Electricity Department withdrew a theft-dues recovery citation because the procedure under the U.P. Electricity Supply Code, 2005 had not been followed, the writ was disposed as nothing survived, with liberty to pass a fresh assessment only after that procedure.",
+  "facts": "Smt. Hardei petitioned the Allahabad High Court to quash a recovery citation dated 26 October 2023 for electricity dues alleged to arise from theft. She contended that after a provisional assessment order of 23 February 2023 her reply was not considered, a final assessment was passed, and recovery was being enforced. On 21 December 2023 a Division Bench restrained coercive action and adjourned the case. The Electricity Department later stated that it had withdrawn the citation because the procedure under the U.P. Electricity Supply Code, 2005 had not been followed.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::procedure",
+      "code": "UP-2005",
+      "clause": "procedure",
+      "topic": "Theft recovery withdrawn for skipping Supply Code procedure; fresh assessment reserved",
+      "type": "supply_code",
+      "holding": "Once the Electricity Department withdrew the recovery citation dated 26 October 2023 because the procedure under the U.P. Electricity Supply Code, 2005 had not been followed, nothing survived in the writ. The petition was disposed of with liberty to the Department to pass a fresh assessment order only after following that procedure.",
+      "paras": "2-3",
+      "flag": "The order invokes the U.P. Electricity Supply Code, 2005 without numbering a clause."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "fresh-assessment-only-after-supply-code-procedure",
+      "application": "Withdrawal of the theft recovery for non-compliance with the Supply Code left nothing to decide, and any further assessment was reserved only if that procedure is followed.",
+      "lead_authorities": [],
+      "paras": "2-3"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Theft liability and the amount of any fresh assessment",
+      "note": "Left to a fresh order by the Electricity Department after it follows the Supply Code procedure. The withdrawn citation was not adjudicated.",
+      "paras": "2-3"
+    }
+  ],
+  "authorities": []
+}
