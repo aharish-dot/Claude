@@ -1,0 +1,63 @@
+{
+  "case_id": "SCJ-3753",
+  "title": "Gaurav Sharma @ Khushi Ram Sharma v. State of U.P. and others",
+  "neutral_citation": "2024:AHC:8615-DB",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta, Acting Chief Justice and Kshitij Shailendra, J.",
+  "date_of_judgment": "2024-01-18",
+  "date_display": "18 January 2024",
+  "docket": "Writ-C No. 40522 of 2023",
+  "page_count": 3,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Recovery citation quashed for want of Code procedure; fresh assessment open.",
+  "headnote": "Recovery citation dated 28 March 2022, issued by respondent no. 4 in an alleged electricity-theft case, quashed on the licensee's concession that the procedure prescribed under the U.P. Electricity Supply Code, 2005 was not followed in passing the final assessment. Respondent no. 4 left free to issue a fresh notice and pass a fresh order in accordance with law. Petition disposed of.",
+  "facts": "Gaurav Sharma alias Khushi Ram Sharma challenged a recovery citation dated 28 March 2022 issued by respondent no. 4 in an alleged electricity-theft case. He said the citation was not preceded by a proper assessment under clause 6.8 of the U.P. Electricity Supply Code, 2005. On 2 December 2023 the Court stayed recovery if he deposited Rs.20,000 within two weeks. That interim order was extended on 9 January 2024. The petition was taken up on 18 January 2024, when counsel for the Electricity Department appeared with instructions.",
+  "reusable_constructions": [
+    {
+      "construction": "Where the licensee concedes that the procedure prescribed by the U.P. Electricity Supply Code, 2005 was not followed in passing the final assessment, the recovery citation founded on that assessment is quashed, with liberty to the authority to issue a fresh notice and pass a fresh order in accordance with law.",
+      "paras": "3-4"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8",
+      "code": "UP-2005",
+      "clause": "6.8",
+      "topic": "Recovery citation quashed where assessment procedure under the Code was not followed",
+      "type": "supply_code",
+      "holding": "In a challenge to a recovery citation dated 28 March 2022 issued in an alleged electricity-theft case, the petitioner invoked clause 6.8 of the Electricity Supply Code, 2005. The licensee conceded that the procedure prescribed under the Code was not followed in passing the final assessment and stated that respondent no. 4 would issue a fresh notice and pass a fresh order. Having regard to that concession, the Court quashed the recovery citation and left respondent no. 4 free to proceed afresh in accordance with law.",
+      "paras": "1-5",
+      "flag": "Alleged theft was pleaded under clause 6.8. The Court did not name the clause; it recorded a concession that the procedure prescribed under the Code was not followed, and did not decide whether clause 8.1 governs theft."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "assessment-quashed-for-breach-of-clause-6.8-procedure",
+      "application": "On the licensee's concession that Code procedure was not followed in the final assessment, the recovery citation dated 28 March 2022 was quashed and a fresh notice and fresh order were left open. The petitioner had invoked clause 6.8.",
+      "lead_authorities": [],
+      "paras": "2-4"
+    },
+    {
+      "tag": "para-6.8-non-compliance-vitiates-assessment-and-recovery",
+      "application": "Non-compliance with the Supply Code assessment procedure, conceded by the Electricity Department, was treated as vitiating the recovery citation, which was quashed with liberty to assess afresh.",
+      "lead_authorities": [],
+      "paras": "3-4"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether an alleged theft assessment is governed by clause 8.1 rather than clause 6.8",
+      "note": "The petitioner invoked clause 6.8. The Court acted on the concession that Code procedure was not followed and did not choose between the clauses.",
+      "paras": "2-4"
+    },
+    {
+      "point": "The petitioner's liability on a fresh assessment, and the fate of the Rs.20,000 deposit directed on 2 December 2023",
+      "note": "The recovery citation was quashed with liberty to proceed afresh. No direction was made on the interim deposit.",
+      "paras": "4-5"
+    }
+  ],
+  "authorities": []
+}
