@@ -1,0 +1,52 @@
+{
+  "case_id": "SCJ-3724",
+  "title": "Narendra Nath Yadav And Another v. State of U.P. and 3 Others",
+  "neutral_citation": "2024:AHC:26800-DB",
+  "court": "High Court of Judicature at Allahabad",
+  "bench": "Division Bench",
+  "coram": ["Ashwani Kumar Mishra, J.", "Syed Qamar Hasan Rizvi, J."],
+  "date_of_judgment": "2024-02-16",
+  "date_display": "16 February 2024",
+  "docket": "WRIT - C No. 3160 of 2024",
+  "page_count": 1,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Reasoned order on provisional s.126 objection; coercive action stayed",
+  "headnote": "Provisional notice alleging theft of electricity, styled as section 126 of the U.P. Electricity Supply Code, 2005. The objection was not considered and no final order was passed. The petition was disposed with a direction to pass a reasoned order on the objection within two months, and coercive action was stayed until then.",
+  "facts": "On 23 January 2021 the petitioners were served a provisional notice, described in the order as issued under section 126 of the U.P. Electricity Supply Code, 2005, alleging that they had indulged in theft of electricity. They submitted a reply. The authorities nonetheless proposed to make recoveries without considering that objection. Before the High Court the respondents did not dispute that the objection remained unconsidered and that no final order had been passed.",
+  "holding_units": [
+    {
+      "provision": "EA2003::126",
+      "code": "EA2003",
+      "clause": "126",
+      "topic": "Reply to a provisional theft notice before liability is finalised and before coercive recovery",
+      "type": "electricity_act",
+      "holding": "The scheme the Court applied requires that a person served with a provisional notice alleging theft of electricity may file a reply, and that the reply be considered before liability is finalised. The petitioners' objection had not been decided and no final order had been passed. Respondent no. 4 was directed to consider the objection and pass a reasoned order in accordance with law within two months of presentation of a certified copy. Until that order, no coercive action was to be taken.",
+      "paras": "3-4",
+      "flag": "The order twice calls this 'Section 126 of the U.P. Electricity Supply Code, 2005'. Section 126 is in the Electricity Act, 2003. The section number is the one the order applies; the Supply Code attribution is not treated as correct."
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "s126-3-hearing-required-before-enforcing-provisional-assessment",
+      "application": "Counsel for the respondents conceded that the objection to the provisional notice had not been considered and that no final order had been passed. The Court directed a reasoned order on that objection and forbade coercive action until the order was passed.",
+      "lead_authorities": [],
+      "paras": "2-4"
+    },
+    {
+      "tag": "s126-procedural-strictness-notice-and-hearing",
+      "application": "The Court read the section 126 scheme as giving the noticee liberty to reply to a provisional theft notice, and as requiring that reply to be considered before liability is finalised.",
+      "lead_authorities": [],
+      "paras": "3"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioners had indulged in theft of electricity, and what liability, if any, should be finalised",
+      "note": "Left to respondent no. 4 to decide by a reasoned order on the objection, in accordance with law.",
+      "paras": "4"
+    }
+  ],
+  "authorities": []
+}
