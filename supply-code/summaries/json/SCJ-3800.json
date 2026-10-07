@@ -1,0 +1,65 @@
+{
+  "case_id": "SCJ-3800",
+  "title": "Ram Lakhan Singh v. State of U.P.",
+  "neutral_citation": "2024:AHC-LKO:34208-DB",
+  "court": "High Court of Judicature at Allahabad, Lucknow Bench",
+  "bench": "Division Bench",
+  "coram": "Sangeeta Chandra and Brij Raj Singh, JJ.",
+  "date_of_judgment": "2024-05-02",
+  "date_display": "2 May 2024",
+  "docket": "WRIT - C No. 3991 of 2024",
+  "page_count": 2,
+  "significance": "ordinary",
+  "outcome": "alternate_remedy",
+  "model": "Grok 4.6",
+  "disposition": "Writ disposed; approach Executive Engineer for section 126 order; recovery stayed.",
+  "headnote": "Writ against a paragraph 6.8 provisional assessment for alleged theft, and the Tahsildar's recovery citation for Rs. 3,91,813, was disposed of without a decision on merits. The consumer, who had not approached the Executive Engineer within the fifteen days named in the notice of 10 May 2023, was directed to do so within one week. On completion of formalities the assessment was to be considered and an order passed within four weeks under section 126 of the Electricity Act, 2003. Recovery stayed for six weeks or until that decision, whichever was earlier.",
+  "facts": "Ram Lakhan Singh had a domestic connection from 30 January 1999 and said he paid his bills regularly. An enforcement team inspected the premises, recorded theft of electricity, and the Executive Engineer, Madhyanchal Vidyut Vitran Khand-II, Gauriganj, issued a notice dated 10 May 2023 making a provisional assessment under paragraph 6.8 and asking him to approach within fifteen days. He wrote only on 21 June 2023. The Tahsildar, Amethi, then issued a recovery citation dated 9 October 2023 for Rs. 3,91,813. He challenged both the notice and the citation.",
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8",
+      "code": "UP-2005",
+      "clause": "6.8",
+      "topic": "provisional assessment — direction to approach the assessing officer",
+      "type": "interplay",
+      "holding": "The Executive Engineer's notice of 10 May 2023, recording theft on a spot inspection and calling on the consumer to approach within fifteen days, was treated as a provisional assessment under paragraph 6.8. The consumer, whose letter was dated 21 June 2023, was directed to approach the Executive Engineer, Gauriganj, within one week.",
+      "paras": "4-6"
+    },
+    {
+      "provision": "EA2003::126",
+      "code": "EA2003",
+      "clause": "126",
+      "topic": "final order under section 126 and interim stay of recovery",
+      "type": "electricity_act",
+      "holding": "If the consumer approached within one week and completed the formalities, the Executive Engineer was to consider the case and pass an appropriate order within four weeks under section 126. Recovery on the citation of 9 October 2023 was stayed for six weeks or until that decision, whichever was earlier. The assessment and the citation were not quashed.",
+      "paras": "5-7"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "assessment-6.8-alternate-remedy",
+      "application": "The writ against the paragraph 6.8 provisional assessment and the later recovery citation was disposed of by sending the consumer to the Executive Engineer for consideration and an order under section 126, with recovery stayed meanwhile. Theft and the quantum of Rs. 3,91,813 were not decided.",
+      "lead_authorities": [],
+      "paras": "5-7"
+    },
+    {
+      "tag": "para-6.8-objection-alternate-remedy",
+      "application": "The notice had required an approach within fifteen days. The consumer wrote only on 21 June 2023. On the licensee's instructions that an approach about the assessment would be considered, the court gave one week to approach the Executive Engineer.",
+      "lead_authorities": [],
+      "paras": "4-6"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Whether the petitioner had committed theft of electricity and whether the provisional assessment of Rs. 3,91,813 was correct",
+      "note": "Left to the Executive Engineer to consider and to pass an order under section 126.",
+      "paras": "6-7"
+    },
+    {
+      "point": "Whether a representation made after the fifteen days named in the provisional-assessment notice is maintainable as of right",
+      "note": "The direction to entertain the approach rested on the licensee's instructions.",
+      "paras": "4-6"
+    }
+  ],
+  "authorities": []
+}
