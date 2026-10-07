@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3817,
+  "next_seq": 3818,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -22870,6 +22870,12 @@
       "case_id": "SCJ-3812",
       "source_basename": "WRIC(L)_7018_2024.pdf",
       "title": "Mithu @ Mithulal v. Managing Director, Madhyanchal Vidyut Vitran Nigam Ltd. and others",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3816",
+      "source_basename": "WRIC(L)_7316_2024.pdf",
+      "title": "Babu Ram v. U.P. Power Corporation Ltd Thru.",
       "status": "done"
     }
   ]
