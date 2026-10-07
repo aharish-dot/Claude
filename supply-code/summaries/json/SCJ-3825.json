@@ -1,0 +1,72 @@
+{
+  "case_id": "SCJ-3825",
+  "title": "Smt. Hidayet Fatima v. State of U.P.",
+  "neutral_citation": "2024:AHC-LKO:8008-DB",
+  "court": "High Court of Judicature at Allahabad, Lucknow Bench",
+  "bench": "Division Bench",
+  "coram": "Manoj Kumar Gupta, A.C.J. and Saurabh Lavania, J.",
+  "date_of_judgment": "2024-01-29",
+  "date_display": "29 January 2024",
+  "docket": "Writ - C No. 835 of 2024",
+  "page_count": 1,
+  "significance": "significant",
+  "outcome": "consumer",
+  "model": "Grok 4.6",
+  "disposition": "Assessment and demand quashed; supply restored within 48 hours.",
+  "headnote": "A final assessment dated 7 June 2023 and the recovery notice dated 3 August 2023, in a case of alleged theft, were quashed because the consumer's objection was not considered and the order did not show that Clause 6.8 of the U.P. Electricity Supply Code, 2005 was followed. The licensee may pass a fresh final assessment strictly under that clause, must restore supply within 48 hours, and may consider disconnection only after the fresh order.",
+  "facts": "Smt. Hidayet Fatima challenged a notice dated 3 August 2023 seeking recovery of electricity dues in a case of alleged theft. The Electricity Department produced a final assessment order dated 7 June 2023. Its counsel conceded before the Lucknow Bench that the objection filed by the petitioner had not been considered, and that the order did not indicate compliance with Clause 6.8 of the U.P. Electricity Supply Code, 2005.",
+  "reusable_constructions": [
+    {
+      "construction": "A final assessment passed without considering the consumer's objection, and without showing that Clause 6.8 was followed, is quashed together with the recovery notice founded on it.",
+      "paras": "2-3"
+    },
+    {
+      "construction": "On such a quash, supply is restored within a short fixed time, and disconnection may be decided only after a fresh final assessment passed strictly under Clause 6.8.",
+      "paras": "3-5"
+    }
+  ],
+  "holding_units": [
+    {
+      "provision": "UP-2005::6.8",
+      "code": "UP-2005",
+      "clause": "6.8",
+      "topic": "final assessment and recovery where Clause 6.8 procedure is not shown",
+      "type": "supply_code",
+      "holding": "Where, in a case of alleged theft, the final assessment does not indicate that the procedure under Clause 6.8 of the U.P. Electricity Supply Code, 2005 was followed and the consumer's objection was not considered, that order and the consequential demand notice are quashed. The licensee may pass a fresh final assessment strictly in accordance with Clause 6.8, must restore supply within 48 hours, and may take a decision on disconnection only after the fresh order.",
+      "paras": "2-5"
+    }
+  ],
+  "principle_tags": [
+    {
+      "tag": "assessment-quashed-for-breach-of-clause-6.8-procedure",
+      "application": "The final assessment of 7 June 2023 was quashed because it did not show that the Clause 6.8 procedure had been followed and the petitioner's objection had not been considered.",
+      "lead_authorities": [],
+      "paras": "2-3"
+    },
+    {
+      "tag": "para-6.8-non-compliance-vitiates-assessment-and-recovery",
+      "application": "Both the final assessment and the recovery notice dated 3 August 2023 were set aside for non-compliance with Clause 6.8, with liberty to pass a fresh assessment under that clause.",
+      "lead_authorities": [],
+      "paras": "2-3"
+    },
+    {
+      "tag": "6.8-procedure-mandatory",
+      "application": "The Bench treated the Clause 6.8 procedure as mandatory and directed that any fresh final assessment be passed strictly in accordance with it.",
+      "lead_authorities": [],
+      "paras": "2-3"
+    }
+  ],
+  "not_decided": [
+    {
+      "point": "Merits of the alleged theft and the amount of the assessment",
+      "note": "The respondents may pass a fresh final assessment strictly under Clause 6.8.",
+      "paras": "3"
+    },
+    {
+      "point": "Whether supply may later be disconnected",
+      "note": "Left to the respondents after the fresh final assessment order is passed.",
+      "paras": "5"
+    }
+  ],
+  "authorities": []
+}
