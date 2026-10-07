@@ -1,7 +1,7 @@
 {
   "project": "supply-code",
   "prefix": "SCJ",
-  "next_seq": 3820,
+  "next_seq": 3821,
   "note": "Stable filename -> case_id map. Ids are sequential and never reused. A case is 'done' once its lean JSON + PDF are committed and its source(s) moved to processed/. Source format processed: html (from html_input/); the .mht twin from input/ is retired alongside it.",
   "cases": [
     {
@@ -22888,6 +22888,12 @@
       "case_id": "SCJ-3815",
       "source_basename": "WRIC(L)_7192_2024.pdf",
       "title": "Shiv Shankar alias Shiv Shankar Awasthi v. State of U.P.",
+      "status": "done"
+    },
+    {
+      "case_id": "SCJ-3818",
+      "source_basename": "WRIC(L)_7640_2024.pdf",
+      "title": "Jahara Begum v. Superintending Engineer, Raebareli",
       "status": "done"
     }
   ]
