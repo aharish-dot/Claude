@@ -1,7 +1,7 @@
 {
  "court": "supreme-court",
  "prefix": "SC",
- "next_seq": 7,
+ "next_seq": 8,
  "note": "Stable filename -> case_id map. Reuse existing ids; never renumber a processed case.",
  "cases": [
   {
@@ -43,6 +43,13 @@
    "case_id": "SC-006",
    "source_file": "Ferro Alloys Corpn. Ltd. And Ors. Etc. ... vs A.P. State Electricity Board And Ors ... on 15 April, 1993",
    "title": "Ferro Alloys Corporation Ltd. & Ors. v. A.P. State Electricity Board & Ors.",
+   "court": "Supreme Court of India",
+   "status": "done"
+  },
+  {
+   "case_id": "SC-007",
+   "source_file": "Dakshin_Gujarat_Vs_Vaibhav_Metal.pdf",
+   "title": "Dakshin Gujarat Vij Company Limited & Anr. v. Vaibhav Metal Crusher (with Paschim Gujarat Vij Company Limited & Anr. v. Jamanbhai Nanajibhai Bhuva)",
    "court": "Supreme Court of India",
    "status": "done"
   }
