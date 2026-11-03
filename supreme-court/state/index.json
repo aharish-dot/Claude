@@ -1,7 +1,7 @@
 {
  "court": "supreme-court",
  "prefix": "SC",
- "next_seq": 8,
+ "next_seq": 9,
  "note": "Stable filename -> case_id map. Reuse existing ids; never renumber a processed case.",
  "cases": [
   {
@@ -50,6 +50,13 @@
    "case_id": "SC-007",
    "source_file": "Dakshin_Gujarat_Vs_Vaibhav_Metal.pdf",
    "title": "Dakshin Gujarat Vij Company Limited & Anr. v. Vaibhav Metal Crusher (with Paschim Gujarat Vij Company Limited & Anr. v. Jamanbhai Nanajibhai Bhuva)",
+   "court": "Supreme Court of India",
+   "status": "done"
+  },
+  {
+   "case_id": "SC-008",
+   "source_file": "Himadri_Steel J_2026_SCC_OnLine_SC_1563_Office_upercorg_20260923_111711_1_19.pdf",
+   "title": "Himadri Steel Pvt. Ltd. v. Jharkhand Urja Vikas Nigam Limited & Ors.",
    "court": "Supreme Court of India",
    "status": "done"
   }
